@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Day</title>
+<style>
+  :root {
+    --navy: #0b1f3a;
+    --navy-light: #12335e;
+    --red: #c8102e;
+    --red-dark: #9c0c22;
+    --paper: #f4f5f7;
+    --grey: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--paper);
+    color: var(--navy);
+  }
+  header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+    color: white;
+    padding: 24px 20px 20px;
+    border-bottom: 4px solid var(--red);
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+  }
+  header p {
+    margin: 0;
+    font-size: 13px;
+    color: #b9c4d8;
+  }
+  .controls {
+    max-width: 720px;
+    margin: -22px auto 0;
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .control-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(11,31,58,0.15);
+    padding: 12px 14px;
+    flex: 1;
+    min-width: 160px;
+  }
+  .control-card label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--grey);
+    margin-bottom: 4px;
+  }
+  .control-card input,
+  .control-card select {
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    outline: none;
+    font-family: inherit;
+  }
+  .day-nav {
+    max-width: 720px;
+    margin: 14px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .day-nav button {
+    border: none;
+    background: white;
+    color: var(--navy);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
+  }
+  .day-nav button:hover { background: var(--navy); color: white; }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .selected-date {
+    text-align: center;
+    font-size: 14px;
+    color: var(--grey);
+    margin-bottom: 16px;
+  }
+  .match-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(11,31,58,0.08);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .match-time {
+    width: 56px;
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: 700;
+    color: var(--red);
+    font-size: 14px;
+  }
+  .match-time span {
+    display: block;
+    font-size: 10px;
+    color: var(--grey);
+    font-weight: 500;
+  }
+  .match-teams {
+    flex: 1;
+    min-width: 0;
+  }
+  .team-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    font-size: 15px;
+  }
+  .team-row.winner { font-weight: 700; }
+  .team-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .team-score { font-weight: 700; color: var(--navy); padding-left: 10px; }
+  .match-meta {
+    font-size: 12px;
+    color: var(--grey);
+    margin-top: 6px;
+  }
+  .league-tag {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    background: var(--navy);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+  }
+  .empty-state {
+    text-align: center;
+    color: var(--grey);
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  .status-badge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .status-upcoming { background: #e8edf5; color: var(--navy); }
+  .status-final { background: #fdeceb; color: var(--red-dark); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Match Day</h1>
+  <p id="update-note">Loading fixtures…</p>
+</header>
+
+<div class="controls">
+  <div class="control-card">
+    <label for="date-input">Date</label>
+    <input type="date" id="date-input">
+  </div>
+  <div class="control-card">
+    <label for="league-select">League</label>
+    <select id="league-select">
+      <option value="all">All leagues</option>
+    </select>
+  </div>
+</div>
+
+<div class="day-nav">
+  <button id="prev-day">&larr; Prev</button>
+  <button id="today-btn">Today</button>
+  <button id="next-day">Next &rarr;</button>
+</div>
+
+<main>
+  <div class="selected-date" id="selected-date-label"></div>
+  <div id="match-list"></div>
+</main>
+
+<script>
+let allMatches = [];
+let leagues = {};
+
+const dateInput = document.getElementById('date-input');
+const leagueSelect = document.getElementById('league-select');
+const matchList = document.getElementById('match-list');
+const selectedDateLabel = document.getElementById('selected-date-label');
+const updateNote = document.getElementById('update-note');
+
+function toISODate(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+function shiftDate(days) {
+  const current = new Date(dateInput.value + 'T00:00:00');
+  current.setDate(current.getDate() + days);
+  dateInput.value = toISODate(current);
+  render();
+}
+
+document.getElementById('prev-day').addEventListener('click', () => shiftDate(-1));
+document.getElementById('next-day').addEventListener('click', () => shiftDate(1));
+document.getElementById('today-btn').addEventListener('click', () => {
+  dateInput.value = toISODate(new Date());
+  render();
+});
+dateInput.addEventListener('change', render);
+leagueSelect.addEventListener('change', render);
+
+function enrichMatch(m) {
+  // Prefer the true UTC instant (converted to whatever timezone this
+  // browser is in) over the raw venue-local date/time that came straight
+  // off the Wikipedia page. Falls back to the venue-local values (and
+  // flags them as such) when we don't have enough info to compute UTC -
+  // e.g. the kickoff time wasn't parseable, or the league has no known
+  // UTC offset for that venue.
+  if (m.utc) {
+    const d = new Date(m.utc);
+    m._localDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    m._localTime = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+    m._timeIsLocal = true;
+  } else {
+    m._localDate = m.date;
+    m._localTime = m.time;
+    m._timeIsLocal = false;
+  }
+  return m;
+}
+
+function formatDateLabel(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function render() {
+  const selectedDate = dateInput.value;
+  const selectedLeague = leagueSelect.value;
+
+  selectedDateLabel.textContent = selectedDate ? formatDateLabel(selectedDate) : '';
+
+  const dayMatches = allMatches
+    .filter(m => m._localDate === selectedDate)
+    .filter(m => selectedLeague === 'all' || m.league === selectedLeague)
+    .sort((a, b) => (a._localTime || '99:99').localeCompare(b._localTime || '99:99'));
+
+  matchList.innerHTML = '';
+
+  if (dayMatches.length === 0) {
+    matchList.innerHTML = '<div class="empty-state">No matches scheduled for this day.</div>';
+    return;
+  }
+
+  for (const m of dayMatches) {
+    const card = document.createElement('div');
+    card.className = 'match-card';
+
+    const played = m.score !== null && m.score !== undefined;
+    let homeScore = '', awayScore = '', homeWin = false, awayWin = false;
+    if (played) {
+      const parts = String(m.score).split(/[-–]/).map(s => s.trim());
+      if (parts.length === 2) {
+        homeScore = parts[0];
+        awayScore = parts[1];
+        homeWin = Number(homeScore) > Number(awayScore);
+        awayWin = Number(awayScore) > Number(homeScore);
+      }
+    }
+
+    const leagueName = (leagues[m.league] && leagues[m.league].name) || m.league;
+
+    card.innerHTML = `
+      <div class="match-time">
+        ${m._localTime || 'TBC'}
+        <span>${played ? 'FT' : (m._timeIsLocal ? 'kick-off' : (m._localTime ? 'venue time' : 'kick-off'))}</span>
+      </div>
+      <div class="match-teams">
+        <div class="league-tag">${leagueName}</div>
+        <div class="team-row ${homeWin ? 'winner' : ''}">
+          <span class="team-name">${m.home}</span>
+          <span class="team-score">${homeScore}</span>
+        </div>
+        <div class="team-row ${awayWin ? 'winner' : ''}">
+          <span class="team-name">${m.away}</span>
+          <span class="team-score">${awayScore}</span>
+        </div>
+        <div class="match-meta">
+          ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}
+        </div>
+      </div>
+    `;
+    matchList.appendChild(card);
+  }
+}
+
+function populateLeagueOptions() {
+  for (const [key, info] of Object.entries(leagues)) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = info.name || key;
+    leagueSelect.appendChild(opt);
+  }
+}
+
+function pickInitialDate() {
+  const today = toISODate(new Date());
+  if (allMatches.some(m => m._localDate === today)) return today;
+  const upcoming = allMatches
+    .map(m => m._localDate)
+    .filter(d => d && d >= today)
+    .sort();
+  if (upcoming.length) return upcoming[0];
+  const anyDates = allMatches.map(m => m._localDate).filter(Boolean).sort();
+  return anyDates.length ? anyDates[anyDates.length - 1] : today;
+}
+
+fetch('fixtures.json?t=' + Date.now())
+  .then(r => {
+    if (!r.ok) throw new Error('fixtures.json not found - run fetch_fixtures.py first');
+    return r.json();
+  })
+  .then(data => {
+    allMatches = (data.matches || []).map(enrichMatch);
+    leagues = data.leagues || {};
+    populateLeagueOptions();
+    dateInput.value = pickInitialDate();
+    updateNote.textContent = data.updated
+      ? 'Fixtures last updated ' + new Date(data.updated).toLocaleString() + ' · times shown in your local timezone'
+      : 'Times shown in your local timezone';
+    render();
+  })
+  .catch(err => {
+    updateNote.textContent = 'Could not load fixtures.json';
+    matchList.innerHTML = `<div class="empty-state">${err.message}<br><br>
+      Serve this folder with <code>python3 -m http.server</code> and open it via
+      <code>http://localhost:8000/matches.html</code> (opening the file directly
+      won't work due to browser CORS rules).</div>`;
+  });
+</script>
+
+</body>
+</html>
