@@ -6,7 +6,7 @@ Pulls match fixtures/results from Wikipedia tournament pages and writes
 them into fixtures.json, which matches.html reads to show games for a
 selected day.
 
-Wikipedia doesn't use one consistent match layout across pages, so this
+Wikipedia doesn't use one consistent match layout across pages, so thisthisthis
 supports three parsing strategies, selected per league via the "parser"
 key in LEAGUES:
 
