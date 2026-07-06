@@ -1,0 +1,64 @@
+48-57: Loads in dependencies
+61: defines the path for fixtures.json
+	- __file__ is a variable that holds the path the current script file 
+	- Path comes from pathlib outputs the pat of the file e.g. "/home/cmcnabnay/sportsscores/"
+	- .parent chopps off the filename, leaving the folder
+62: Defines wikipedia API url as a variable
+63: HEADERS, a dictionary attached to every web request the script makes to wikipedia
+68: Defines a delay for requests
+69: Defines the amount of retreis 
+70: Defines the variable that keeps track of exactly when the script last made a request, the leading underscore communicates that this variable that outside code should not use this variable
+73: Defined the function _throttled_url_open, takes in req which is the result of Requests(url, headers=HEADERS)
+77: Tells python that when this function assigns to _last_request_time, it should modify the module level variable (defined outsie any function) not to create a new local one
+78: Starts a loop that will try up to MAX_RETRIES (5 times) 
+79: Calculates how much longer we need to pause before it's safe to make another request 
+80-81: Only pauses if wait is greater than zero, i.e. if there is still time left to wait
+82: Opens a try except block, since the network can raise an exception
+83: Actual network call, timeout=30 means if the server doesn't respond in 30 seconds, raise a timeout error
+84: Records right now time as the new lastest request time
+85: Hands back the response object 
+86: Catches the specific case where the server responded but with error status code, e is the exception object which carries info such as e.code (HTTP status number) and e.headers (response headers)
+87: Sets the right now time as the new latest request time even though the request failed
+88: Condition that only retries if the error code was 429 (rate limited) and if the amount of retries was less than the max 
+89: If the exception object returns a message that indicates when to retry, the value is grabbed
+90: Decides how long to actually wait before retry in. If the server returns a value to retry after, confert the string into a number, otherwise fall back onto (2 ** attempt)* 2, meaning if it is attempt 0, wait 2 sesonds, attempt 1 wait 4 seconds, attempt 2 waits 8 seconds and so on
+91: Prints an error message saying the request was rate limited, and it is trying again in the amount of time determined by the exponential fall back or by the value returned by the server
+92: Pauses the execution for the calculated duration
+93: Skips back to the top of the for loop for another attempt
+94: If the script raises here, the error wasn't 429 or all retry attempts have been exhausted. Raise with nothing after it rethrows the exact excepton that was just got letting it propagate to whatever called _throttled_urlopen
+
+102: LEAUGES is a dictionary where every competition that I want to fetch gets one entry. The outer thing is a dict and whose values are another dict holding that leauge's settings so LEAUGES["u20-jwc-2026]["parser"] returns "venvent"
+	- "name" is a human readable display name used when printing progress
+	- "page" is the exact wikipedia article title this leauge's data comes from (the part of the 	
+	URL after /wiki/)
+	- "pages" is a list used when a competition's data is split across multiple articles
+	- "sport" is a category label 
+	- "parser" is whichever of the several parsing strategies to use for this page's HTML/wikitext 		 layout.
+	- "year" is needed by parsers whose date text on the page doesn't include a year 
+	- "utc_offset" is a fallback timezone (in hours from UTC) to assume for that leauge's matches when the specific match's own page doesn't state a timezone directly (fivb_template and rugbybox don't need this at all) 
+	- "team_pages" is used for CFL which does not have one page covering the whole leauge, this is a dict mapping each team's own season page to that team's display name  
+	
+216: VENUE_UTC_OFFSETS is a lookup table mapping city/venue name keywords to UTC offsets in hours the purpose is to catch the exceptions where the leauge's single default timezone assumption would be wrong for a specific match 
+
+246: CFL_TZ_OFFSETS is a lookup table that translates North American timezone appreviations into UTC offsets 
+
+257: FIVB_COUNTRY_CODES is a lookup take that matches country codes to the full names of actual countries 
+
+268: Defines the function that gets the utc offsets, takes in two inputs, the venue string for the match and the default offset 
+272: Makes sure that venue_text is not empty 
+273: Converts venue_text into all lower case
+274: Loops through every entry in the lookup dict, .items() gives you each key value pair as a tuple, which gets unpacked into keyword (e.g. "auckland") and offset (e.g. 12) on each pass through the loop 
+275: Chekcs if the keyword appears anywhere inside the lowercased venue text, so "auckland" in "go media stadium, auckland" is True
+276: Returns the utc offset that corresponds to the city in VENUE_UTC_OFFSETS if the venue_text taken from the wikipedia matches the keyword in VENUE_UTC_OFFSETS
+277: Returns the default offset if venue_text does not match any keywords in VENUE_UTC_OFFSET
+
+280: Defines compute_utc function which takes a date string, a time strong, and a utc offset in hour, converts a match's local kickoff date/time plus a timezone offser and converts into a UTC timestamp
+286-287: Returns none if date_out or time_out are NULL or 0 or if utc_offset is NULL 
+288: Opens a try except, since parsing text into a datetime can fail if the strings are malformed
+289: Actual parsing step f"{date_out} {time_out}" glues the two strings together with a space (e.g. "2026-07-02 18:00". datetime.striptime(...) reads that text according to the format pattern "%Y-%m-%d %H:%M" and builds an actual Python datetime object out of it 
+290-291: If the strings don't actually match that expected format, strptime raises ValueError and turns it into None rather than crasshing the script
+292: Takes local_dt which is the local time put in the correct format and the utc offset is subtracted giving the match time in UTC time
+293: UTC time is returned
+
+
+ 

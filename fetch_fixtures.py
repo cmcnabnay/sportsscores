@@ -59,6 +59,7 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 
 OUTPUT_FILE = Path(__file__).parent / "fixtures.json"
+print(OUTPUT_FILE)
 API_URL = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "fixtures-fetcher/1.0 (personal project; contact: cmcnabnay)"}
 
