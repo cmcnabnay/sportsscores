@@ -1,3 +1,5 @@
 page_raw_*.html
 __pycache__/
 *.pyc
+.vercel
+.env*
