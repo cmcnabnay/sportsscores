@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T18:51:03+00:00",
+  "updated": "2026-07-06T06:52:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -4553,7 +4553,7 @@
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Frankfurt Galaxy",
-      "score": null,
+      "score": "31 – 24",
       "date": "2026-07-05",
       "time": "16:00",
       "utc": "2026-07-05T14:00:00+00:00",
@@ -4575,7 +4575,7 @@
       "league": "afle-2026",
       "home": "Berlin Thunder",
       "away": "Vienna Vikings",
-      "score": null,
+      "score": "45 – 7",
       "date": "2026-07-05",
       "time": "16:40",
       "utc": "2026-07-05T14:40:00+00:00",
@@ -4597,7 +4597,7 @@
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Winnipeg Blue Bombers",
-      "score": null,
+      "score": "13-14",
       "date": "2026-07-05",
       "time": "19:00",
       "utc": "2026-07-05T23:00:00+00:00",
@@ -4715,6 +4715,17 @@
       "referee": null
     },
     {
+      "league": "cfl-2026",
+      "home": "Winnipeg Blue Bombers",
+      "away": "Toronto Argonauts",
+      "score": null,
+      "date": "2026-07-10",
+      "time": "19:30",
+      "utc": "2026-07-11T00:30:00+00:00",
+      "venue": "Princess Auto Stadium",
+      "referee": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Wests Tigers",
       "away": "New Zealand Warriors",
@@ -4821,7 +4832,7 @@
       "date": "2026-07-11",
       "time": "16:00",
       "utc": "2026-07-11T14:00:00+00:00",
-      "venue": "FK Viktoria Stadion",
+      "venue": "FK Viktoria Stadion , Prague",
       "referee": null
     },
     {
@@ -4909,7 +4920,7 @@
       "date": "2026-07-11",
       "time": "18:00",
       "utc": "2026-07-11T16:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
       "referee": null
     },
     {
@@ -5008,7 +5019,7 @@
       "date": "2026-07-12",
       "time": "13:00",
       "utc": "2026-07-12T11:00:00+00:00",
-      "venue": "Sportpark Unterhaching",
+      "venue": "Sportpark Unterhaching , Unterhaching",
       "referee": null
     },
     {
@@ -5681,6 +5692,17 @@
       "utc": "2026-07-19T00:00:00+00:00",
       "venue": "Princess Auto Stadium, Winnipeg",
       "referee": "Tomás Bertazza (Argentina)"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Hamilton Tiger-Cats",
+      "away": "Toronto Argonauts",
+      "score": null,
+      "date": "2026-07-18",
+      "time": "19:00",
+      "utc": "2026-07-18T23:00:00+00:00",
+      "venue": "Hamilton Stadium",
+      "referee": null
     },
     {
       "league": "nations-championship-2026",
