@@ -207,6 +207,32 @@ LEAGUES = {
             "2026_Ottawa_Redblacks_season": "Ottawa Redblacks",
         },
     },
+    "fiba-wcq-africa-2027": {
+        "name": "FIBA Basketball World Cup 2027 Qualification - Africa",
+        "page": "2027_FIBA_Basketball_World_Cup_qualification_(Africa)",
+        "sport": "basketball",
+        "parser": "basketballbox",
+        # No single utc_offset - each match's "location" field names a host
+        # country, looked up in COUNTRY_UTC_OFFSETS per-match instead.
+    },
+    "fiba-wcq-americas-2027": {
+        "name": "FIBA Basketball World Cup 2027 Qualification - Americas",
+        "page": "2027_FIBA_Basketball_World_Cup_qualification_(Americas)",
+        "sport": "basketball",
+        "parser": "basketballbox",
+    },
+    "fiba-wcq-asia-2027": {
+        "name": "FIBA Basketball World Cup 2027 Qualification - Asia",
+        "page": "2027_FIBA_Basketball_World_Cup_qualification_(Asia)",
+        "sport": "basketball",
+        "parser": "basketballbox",
+    },
+    "fiba-wcq-europe-2027": {
+        "name": "FIBA Basketball World Cup 2027 Qualification - Europe",
+        "page": "2027_FIBA_Basketball_World_Cup_qualification_(Europe)",
+        "sport": "basketball",
+        "parser": "basketballbox",
+    },
 }
 
 # Keyword -> UTC offset (hours), checked against a match's venue text to
@@ -620,6 +646,109 @@ RUGBY_COUNTRY_CODES = {
     "URU": "Uruguay", "ZIM": "Zimbabwe", "GEO": "Georgia", "HKG": "Hong Kong",
     "POR": "Portugal",
 }
+
+
+# 3-letter codes used by the {{bk|..}}/{{bk-rt|..}} templates on FIBA
+# World Cup qualifying pages. These are FIBA/IOC-style codes and don't
+# always match ISO-3166 (e.g. Nigeria is "NGR" not "NGA", DR Congo is
+# "COD"). Unrecognised codes just display as-is (e.g. "XYZ").
+BASKETBALL_COUNTRY_CODES = {
+    # Africa
+    "CPV": "Cape Verde", "SSD": "South Sudan", "LBA": "Libya", "CMR": "Cameroon",
+    "TUN": "Tunisia", "NGR": "Nigeria", "GUI": "Guinea", "RWA": "Rwanda",
+    "EGY": "Egypt", "ANG": "Angola", "SEN": "Senegal", "MAD": "Madagascar",
+    "CIV": "Ivory Coast", "MLI": "Mali", "UGA": "Uganda", "COD": "DR Congo",
+    "MAR": "Morocco", "ALG": "Algeria", "KEN": "Kenya", "BEN": "Benin",
+    "MOZ": "Mozambique", "GAB": "Gabon", "GHA": "Ghana", "CGO": "Congo",
+    "TAN": "Tanzania", "ZAM": "Zambia", "RSA": "South Africa",
+    # Americas
+    "USA": "United States", "CAN": "Canada", "MEX": "Mexico", "ARG": "Argentina",
+    "BRA": "Brazil", "PUR": "Puerto Rico", "DOM": "Dominican Republic",
+    "VEN": "Venezuela", "BAH": "Bahamas", "URU": "Uruguay", "PAN": "Panama",
+    "COL": "Colombia", "CHI": "Chile", "PAR": "Paraguay", "IVB": "Virgin Islands",
+    "JAM": "Jamaica", "BER": "Bermuda", "NCA": "Nicaragua", "CUB": "Cuba",
+    "ECU": "Ecuador", "BOL": "Bolivia", "CRC": "Costa Rica", "HON": "Honduras",
+    "ESA": "El Salvador", "GUA": "Guatemala", "BAR": "Barbados",
+    "TRI": "Trinidad and Tobago", "ARU": "Aruba", "GUY": "Guyana",
+    "SUR": "Suriname", "HAI": "Haiti", "ISV": "U.S. Virgin Islands",
+    # Asia / Oceania
+    "CHN": "China", "JPN": "Japan", "PHI": "Philippines", "IRI": "Iran",
+    "LBN": "Lebanon", "JOR": "Jordan", "IND": "India", "KOR": "South Korea",
+    "KAZ": "Kazakhstan", "AUS": "Australia", "NZL": "New Zealand",
+    "TPE": "Chinese Taipei", "QAT": "Qatar", "KSA": "Saudi Arabia",
+    "BRN": "Bahrain", "SYR": "Syria", "IRQ": "Iraq", "INA": "Indonesia",
+    "HKG": "Hong Kong", "THA": "Thailand",
+    # Europe
+    "FRA": "France", "GER": "Germany", "ESP": "Spain", "ITA": "Italy",
+    "GRE": "Greece", "TUR": "Turkey", "POL": "Poland", "SRB": "Serbia",
+    "LTU": "Lithuania", "LAT": "Latvia", "BEL": "Belgium", "NED": "Netherlands",
+    "ISL": "Iceland", "FIN": "Finland", "SWE": "Sweden", "POR": "Portugal",
+    "GBR": "Great Britain", "ISR": "Israel", "MNE": "Montenegro",
+    "BIH": "Bosnia and Herzegovina", "CRO": "Croatia", "SLO": "Slovenia",
+    "UKR": "Ukraine", "HUN": "Hungary", "CZE": "Czech Republic", "EST": "Estonia",
+    "GEO": "Georgia", "MKD": "North Macedonia", "ROU": "Romania", "BUL": "Bulgaria",
+    "SUI": "Switzerland", "AUT": "Austria", "DEN": "Denmark", "NOR": "Norway",
+    "LUX": "Luxembourg", "CYP": "Cyprus", "MLT": "Malta", "SVK": "Slovakia",
+    "AZE": "Azerbaijan", "KOS": "Kosovo", "IRL": "Ireland", "ARM": "Armenia",
+    "ALB": "Albania", "MDA": "Moldova", "AND": "Andorra", "SMR": "San Marino",
+}
+
+# Country name (lowercase, as it appears in a match's "location" field) ->
+# standard-time UTC offset. FIBA boxes don't state a UTC offset directly
+# (unlike rugbybox), only a local date/time plus a "location" field, so
+# offset has to be derived from the host country. This ignores DST, same
+# simplification used elsewhere in this file (see e.g. NRL's utc_offset
+# comment) - good enough for display purposes, not authoritative.
+COUNTRY_UTC_OFFSETS = {
+    # Africa
+    "tunisia": 1, "cameroon": 1, "egypt": 2, "senegal": 0, "angola": 1,
+    "mali": 0, "ivory coast": 0, "côte d'ivoire": 0, "kenya": 3, "nigeria": 1,
+    "south africa": 2, "morocco": 1, "algeria": 1, "rwanda": 2, "uganda": 3,
+    "south sudan": 2, "cape verde": -1, "libya": 2, "guinea": 0, "mozambique": 2,
+    "dr congo": 1, "democratic republic of the congo": 1, "gabon": 1,
+    "ghana": 0, "congo": 1, "tanzania": 3, "zambia": 2, "madagascar": 3,
+    # Americas
+    "united states": -5, "canada": -5, "mexico": -6, "argentina": -3,
+    "brazil": -3, "puerto rico": -4, "dominican republic": -4,
+    "venezuela": -4, "bahamas": -5, "uruguay": -3, "panama": -5,
+    "colombia": -5, "chile": -4, "paraguay": -4, "virgin islands": -4,
+    "jamaica": -5, "bermuda": -3, "nicaragua": -6, "cuba": -5,
+    "ecuador": -5, "bolivia": -4, "costa rica": -6, "honduras": -6,
+    "el salvador": -6, "guatemala": -6, "barbados": -4,
+    "trinidad and tobago": -4, "aruba": -4, "guyana": -4, "suriname": -3,
+    "haiti": -5,
+    # Asia / Oceania
+    "china": 8, "japan": 9, "philippines": 8, "iran": 3.5, "lebanon": 2,
+    "jordan": 3, "india": 5.5, "south korea": 9, "kazakhstan": 5,
+    "australia": 10, "new zealand": 12, "chinese taipei": 8, "taiwan": 8,
+    "qatar": 3, "saudi arabia": 3, "bahrain": 3, "syria": 3, "iraq": 3,
+    "indonesia": 7, "hong kong": 8, "thailand": 7, "united arab emirates": 4,
+    "kuwait": 3, "palestine": 2,
+    # Europe
+    "france": 1, "germany": 1, "spain": 1, "italy": 1, "greece": 2,
+    "turkey": 3, "poland": 1, "serbia": 1, "lithuania": 2, "latvia": 2,
+    "belgium": 1, "netherlands": 1, "iceland": 0, "finland": 2, "sweden": 1,
+    "portugal": 0, "great britain": 0, "united kingdom": 0, "israel": 2,
+    "montenegro": 1, "bosnia and herzegovina": 1, "croatia": 1, "slovenia": 1,
+    "ukraine": 2, "hungary": 1, "czech republic": 1, "estonia": 2,
+    "georgia": 4, "north macedonia": 1, "romania": 2, "bulgaria": 2,
+    "switzerland": 1, "austria": 1, "denmark": 1, "norway": 1,
+    "luxembourg": 1, "cyprus": 2, "malta": 1, "slovakia": 1,
+    "azerbaijan": 4, "kosovo": 1, "ireland": 0, "armenia": 4, "albania": 1,
+    "moldova": 2, "andorra": 1, "san marino": 1,
+}
+
+
+def guess_country_utc_offset(location_text, default_offset):
+    """Look up a match's UTC offset from the country named in its
+    'location' field (e.g. 'Radès, Tunisia' -> Tunisia -> +1), since FIBA
+    boxes don't state an explicit UTC offset the way rugbybox does."""
+    if location_text:
+        lower = location_text.lower()
+        for country, offset in COUNTRY_UTC_OFFSETS.items():
+            if country in lower:
+                return offset
+    return default_offset
 
 
 def strip_wikilinks(text):
@@ -1172,6 +1301,87 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
     return matches
 
 
+def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
+    """
+    Parse {{basketballbox collapsible|...}} template instances used by
+    FIBA World Cup qualifying pages (Africa/Americas/Asia/Europe). Teams
+    are given as {{bk-rt|CODE}} (home) / {{bk|CODE}} (away) 3-letter codes,
+    sometimes wrapped in '''bold''' to mark the winner - stripped before
+    use. Unlike rugbybox, there's no explicit UTC offset field; instead
+    the 'location' field names a country, which is looked up in
+    COUNTRY_UTC_OFFSETS to convert the local kickoff time to UTC.
+    """
+    matches = []
+    code_pattern = re.compile(r"\{\{bk(?:-rt)?\|([A-Za-z]{2,4})")
+    default_offset = cfg.get("utc_offset")
+
+    for inner in find_templates(wikitext, "basketballbox"):
+        params = split_template_params(inner)[1:]  # drop template name
+        field = {}
+        for p in params:
+            if "=" in p:
+                k, v = p.split("=", 1)
+                field[k.strip().lower()] = v.strip()
+
+        teamA_raw = field.get("teama", "")
+        teamB_raw = field.get("teamb", "")
+        mA = code_pattern.search(teamA_raw)
+        mB = code_pattern.search(teamB_raw)
+        if not mA or not mB:
+            continue
+
+        home = BASKETBALL_COUNTRY_CODES.get(mA.group(1).upper(), mA.group(1).upper())
+        away = BASKETBALL_COUNTRY_CODES.get(mB.group(1).upper(), mB.group(1).upper())
+
+        score_a = field.get("scorea", "").replace("'''", "").strip()
+        score_b = field.get("scoreb", "").replace("'''", "").strip()
+        score = f"{score_a}-{score_b}" if score_a and score_b else None
+
+        date_out = parse_full_date(field.get("date", ""))
+        time_text = field.get("time", "").strip()
+        time_out = to_24h(time_text) if time_text else None
+
+        venue = strip_wikilinks(field.get("arena", ""))
+        venue = venue if venue else None
+
+        location = strip_wikilinks(field.get("location", ""))
+
+        # Prefer a country named directly in the location text (e.g. the
+        # Africa page's "Radès, Tunisia" for its single-venue tournament
+        # windows). Many pages (e.g. Europe/Americas home-and-away
+        # fixtures) only give a city with no country attached, e.g.
+        # "Fribourg" - in that home-and-away format the home team's own
+        # country reliably IS the host country, so fall back to that.
+        offset = guess_country_utc_offset(location, None)
+        if offset is None:
+            offset = COUNTRY_UTC_OFFSETS.get(home.lower())
+        if offset is None:
+            offset = default_offset
+        utc = compute_utc(date_out, time_out, offset)
+
+        # Combine arena + host country/city into one venue string for display
+        venue_display = ", ".join(v for v in (venue, location) if v) or None
+
+        referee = field.get("referee", "").strip()
+        referee = referee if referee else None
+
+        matches.append(
+            {
+                "league": league_key,
+                "home": home,
+                "away": away,
+                "score": score,
+                "date": date_out,
+                "time": time_out,
+                "utc": utc,
+                "venue": venue_display,
+                "referee": referee,
+            }
+        )
+
+    return matches
+
+
 def load_existing():
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
@@ -1220,6 +1430,13 @@ def fetch_and_parse(cfg, key):
     if parser_type == "fivb_template":
         wikitext = fetch_page_wikitext(pages[0])
         return parse_fivb_matches(wikitext, key, cfg)
+
+    if parser_type == "basketballbox":
+        matches = []
+        for page in pages:
+            wikitext = fetch_page_wikitext(page)
+            matches.extend(parse_basketballbox_matches(wikitext, key, cfg))
+        return matches
 
     if parser_type == "cfl_schedule":
         matches = []
