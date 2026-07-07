@@ -55,6 +55,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 
@@ -677,7 +678,7 @@ BASKETBALL_COUNTRY_CODES = {
     "KAZ": "Kazakhstan", "AUS": "Australia", "NZL": "New Zealand",
     "TPE": "Chinese Taipei", "QAT": "Qatar", "KSA": "Saudi Arabia",
     "BRN": "Bahrain", "SYR": "Syria", "IRQ": "Iraq", "INA": "Indonesia",
-    "HKG": "Hong Kong", "THA": "Thailand",
+    "HKG": "Hong Kong", "THA": "Thailand", "GUM": "Guam",
     # Europe
     "FRA": "France", "GER": "Germany", "ESP": "Spain", "ITA": "Italy",
     "GRE": "Greece", "TUR": "Turkey", "POL": "Poland", "SRB": "Serbia",
@@ -693,62 +694,121 @@ BASKETBALL_COUNTRY_CODES = {
     "ALB": "Albania", "MDA": "Moldova", "AND": "Andorra", "SMR": "San Marino",
 }
 
-# Country name (lowercase, as it appears in a match's "location" field) ->
-# standard-time UTC offset. FIBA boxes don't state a UTC offset directly
-# (unlike rugbybox), only a local date/time plus a "location" field, so
-# offset has to be derived from the host country. This ignores DST, same
-# simplification used elsewhere in this file (see e.g. NRL's utc_offset
-# comment) - good enough for display purposes, not authoritative.
-COUNTRY_UTC_OFFSETS = {
-    # Africa
-    "tunisia": 1, "cameroon": 1, "egypt": 2, "senegal": 0, "angola": 1,
-    "mali": 0, "ivory coast": 0, "côte d'ivoire": 0, "kenya": 3, "nigeria": 1,
-    "south africa": 2, "morocco": 1, "algeria": 1, "rwanda": 2, "uganda": 3,
-    "south sudan": 2, "cape verde": -1, "libya": 2, "guinea": 0, "mozambique": 2,
-    "dr congo": 1, "democratic republic of the congo": 1, "gabon": 1,
-    "ghana": 0, "congo": 1, "tanzania": 3, "zambia": 2, "madagascar": 3,
-    # Americas
-    "united states": -5, "canada": -5, "mexico": -6, "argentina": -3,
-    "brazil": -3, "puerto rico": -4, "dominican republic": -4,
-    "venezuela": -4, "bahamas": -5, "uruguay": -3, "panama": -5,
-    "colombia": -5, "chile": -4, "paraguay": -4, "virgin islands": -4,
-    "jamaica": -5, "bermuda": -3, "nicaragua": -6, "cuba": -5,
-    "ecuador": -5, "bolivia": -4, "costa rica": -6, "honduras": -6,
-    "el salvador": -6, "guatemala": -6, "barbados": -4,
-    "trinidad and tobago": -4, "aruba": -4, "guyana": -4, "suriname": -3,
-    "haiti": -5,
-    # Asia / Oceania
-    "china": 8, "japan": 9, "philippines": 8, "iran": 3.5, "lebanon": 2,
-    "jordan": 3, "india": 5.5, "south korea": 9, "kazakhstan": 5,
-    "australia": 10, "new zealand": 12, "chinese taipei": 8, "taiwan": 8,
-    "qatar": 3, "saudi arabia": 3, "bahrain": 3, "syria": 3, "iraq": 3,
-    "indonesia": 7, "hong kong": 8, "thailand": 7, "united arab emirates": 4,
-    "kuwait": 3, "palestine": 2,
-    # Europe
-    "france": 1, "germany": 1, "spain": 1, "italy": 1, "greece": 2,
-    "turkey": 3, "poland": 1, "serbia": 1, "lithuania": 2, "latvia": 2,
-    "belgium": 1, "netherlands": 1, "iceland": 0, "finland": 2, "sweden": 1,
-    "portugal": 0, "great britain": 0, "united kingdom": 0, "israel": 2,
-    "montenegro": 1, "bosnia and herzegovina": 1, "croatia": 1, "slovenia": 1,
-    "ukraine": 2, "hungary": 1, "czech republic": 1, "estonia": 2,
-    "georgia": 4, "north macedonia": 1, "romania": 2, "bulgaria": 2,
-    "switzerland": 1, "austria": 1, "denmark": 1, "norway": 1,
-    "luxembourg": 1, "cyprus": 2, "malta": 1, "slovakia": 1,
-    "azerbaijan": 4, "kosovo": 1, "ireland": 0, "armenia": 4, "albania": 1,
-    "moldova": 2, "andorra": 1, "san marino": 1,
+# Country name (lowercase, as it appears in a match's "location" field, or
+# derived from the home team when location has no country) -> IANA
+# timezone name. Using real timezone names (not a fixed UTC-offset number)
+# is what lets Python's zoneinfo correctly apply daylight saving time for
+# whatever specific date each match falls on - many of these countries
+# (all of Europe, Canada, the Bahamas, etc.) are +1 hour different in
+# summer vs winter, which a single hardcoded offset can't represent.
+COUNTRY_TIMEZONES = {
+    # Africa (little/no DST observed across these, but IANA handles it if so)
+    "tunisia": "Africa/Tunis", "cameroon": "Africa/Douala", "egypt": "Africa/Cairo",
+    "senegal": "Africa/Dakar", "angola": "Africa/Luanda", "mali": "Africa/Bamako",
+    "ivory coast": "Africa/Abidjan", "côte d'ivoire": "Africa/Abidjan",
+    "kenya": "Africa/Nairobi", "nigeria": "Africa/Lagos", "south africa": "Africa/Johannesburg",
+    "morocco": "Africa/Casablanca", "algeria": "Africa/Algiers", "rwanda": "Africa/Kigali",
+    "uganda": "Africa/Kampala", "south sudan": "Africa/Juba", "cape verde": "Atlantic/Cape_Verde",
+    "libya": "Africa/Tripoli", "guinea": "Africa/Conakry", "mozambique": "Africa/Maputo",
+    "dr congo": "Africa/Kinshasa", "democratic republic of the congo": "Africa/Kinshasa",
+    "gabon": "Africa/Libreville", "ghana": "Africa/Accra", "congo": "Africa/Brazzaville",
+    "tanzania": "Africa/Dar_es_Salaam", "zambia": "Africa/Lusaka", "madagascar": "Indian/Antananarivo",
+    # Americas (many of these DO observe DST - this matters a lot in summer)
+    "united states": "America/New_York", "canada": "America/Toronto",
+    "mexico": "America/Mexico_City", "argentina": "America/Argentina/Buenos_Aires",
+    "brazil": "America/Sao_Paulo", "puerto rico": "America/Puerto_Rico",
+    "dominican republic": "America/Santo_Domingo", "venezuela": "America/Caracas",
+    "bahamas": "America/Nassau", "uruguay": "America/Montevideo", "panama": "America/Panama",
+    "colombia": "America/Bogota", "chile": "America/Santiago", "paraguay": "America/Asuncion",
+    "virgin islands": "America/St_Thomas", "jamaica": "America/Jamaica",
+    "bermuda": "Atlantic/Bermuda", "nicaragua": "America/Managua", "cuba": "America/Havana",
+    "ecuador": "America/Guayaquil", "bolivia": "America/La_Paz", "costa rica": "America/Costa_Rica",
+    "honduras": "America/Tegucigalpa", "el salvador": "America/El_Salvador",
+    "guatemala": "America/Guatemala", "barbados": "America/Barbados",
+    "trinidad and tobago": "America/Port_of_Spain", "aruba": "America/Aruba",
+    "guyana": "America/Guyana", "suriname": "America/Paramaribo", "haiti": "America/Port-au-Prince",
+    # Asia / Oceania (no DST in these countries)
+    "china": "Asia/Shanghai", "japan": "Asia/Tokyo", "philippines": "Asia/Manila",
+    "iran": "Asia/Tehran", "lebanon": "Asia/Beirut", "jordan": "Asia/Amman",
+    "india": "Asia/Kolkata", "south korea": "Asia/Seoul", "kazakhstan": "Asia/Almaty",
+    "australia": "Australia/Sydney", "new zealand": "Pacific/Auckland",
+    "chinese taipei": "Asia/Taipei", "taiwan": "Asia/Taipei", "qatar": "Asia/Qatar",
+    "saudi arabia": "Asia/Riyadh", "bahrain": "Asia/Bahrain", "syria": "Asia/Damascus",
+    "iraq": "Asia/Baghdad", "indonesia": "Asia/Jakarta", "hong kong": "Asia/Hong_Kong",
+    "thailand": "Asia/Bangkok", "united arab emirates": "Asia/Dubai", "kuwait": "Asia/Kuwait",
+    "palestine": "Asia/Gaza", "guam": "Pacific/Guam",
+    # Europe (all of these observe EU-wide DST, roughly late March - late October)
+    "france": "Europe/Paris", "germany": "Europe/Berlin", "spain": "Europe/Madrid",
+    "italy": "Europe/Rome", "greece": "Europe/Athens", "turkey": "Europe/Istanbul",
+    "poland": "Europe/Warsaw", "serbia": "Europe/Belgrade", "lithuania": "Europe/Vilnius",
+    "latvia": "Europe/Riga", "belgium": "Europe/Brussels", "netherlands": "Europe/Amsterdam",
+    "iceland": "Atlantic/Reykjavik", "finland": "Europe/Helsinki", "sweden": "Europe/Stockholm",
+    "portugal": "Europe/Lisbon", "great britain": "Europe/London", "united kingdom": "Europe/London",
+    "israel": "Asia/Jerusalem", "montenegro": "Europe/Podgorica",
+    "bosnia and herzegovina": "Europe/Sarajevo", "croatia": "Europe/Zagreb",
+    "slovenia": "Europe/Ljubljana", "ukraine": "Europe/Kyiv", "hungary": "Europe/Budapest",
+    "czech republic": "Europe/Prague", "czechia": "Europe/Prague", "estonia": "Europe/Tallinn",
+    "georgia": "Asia/Tbilisi", "north macedonia": "Europe/Skopje", "romania": "Europe/Bucharest",
+    "bulgaria": "Europe/Sofia", "switzerland": "Europe/Zurich", "austria": "Europe/Vienna",
+    "denmark": "Europe/Copenhagen", "norway": "Europe/Oslo", "luxembourg": "Europe/Luxembourg",
+    "cyprus": "Asia/Nicosia", "malta": "Europe/Malta", "slovakia": "Europe/Bratislava",
+    "azerbaijan": "Asia/Baku", "kosovo": "Europe/Belgrade", "ireland": "Europe/Dublin",
+    "armenia": "Asia/Yerevan", "albania": "Europe/Tirane", "moldova": "Europe/Chisinau",
+    "andorra": "Europe/Andorra", "san marino": "Europe/Rome",
+}
+
+# Host-city overrides for countries that span multiple timezones, where the
+# country-level default above would be wrong for certain cities (e.g. Perth
+# is UTC+8 while the rest of Australia used for the country default is
+# UTC+10/+11). Matched by substring against the match's combined
+# venue+location text, checked BEFORE falling back to the country default.
+CITY_TIMEZONE_OVERRIDES = {
+    "perth": "Australia/Perth", "adelaide": "Australia/Adelaide",
+    "darwin": "Australia/Darwin", "brisbane": "Australia/Brisbane",
+    "vancouver": "America/Vancouver", "calgary": "America/Edmonton",
+    "winnipeg": "America/Winnipeg", "honolulu": "Pacific/Honolulu",
+    "anchorage": "America/Anchorage", "denver": "America/Denver",
+    "phoenix": "America/Phoenix", "los angeles": "America/Los_Angeles",
+    "oakland": "America/Los_Angeles", "san diego": "America/Los_Angeles",
+    "seattle": "America/Los_Angeles", "chicago": "America/Chicago",
+    "manaus": "America/Manaus",
 }
 
 
-def guess_country_utc_offset(location_text, default_offset):
-    """Look up a match's UTC offset from the country named in its
-    'location' field (e.g. 'Radès, Tunisia' -> Tunisia -> +1), since FIBA
-    boxes don't state an explicit UTC offset the way rugbybox does."""
+def guess_timezone(location_text, venue_text, home_country_name):
+    """Work out the IANA timezone for a match: prefer a specific city
+    override if one of our known multi-timezone cities appears in the
+    venue/location text, then a country named directly in the location
+    text, then fall back to the home team's own country (reliable for
+    genuine home-and-away fixtures; less so for neutral-venue tournament
+    windows, but those pages tend to state the host country explicitly
+    in 'location' anyway, so the first check already covers them)."""
+    combined = f"{venue_text or ''} {location_text or ''}".lower()
+    for city, tz_name in CITY_TIMEZONE_OVERRIDES.items():
+        if city in combined:
+            return tz_name
     if location_text:
         lower = location_text.lower()
-        for country, offset in COUNTRY_UTC_OFFSETS.items():
+        for country, tz_name in COUNTRY_TIMEZONES.items():
             if country in lower:
-                return offset
-    return default_offset
+                return tz_name
+    if home_country_name:
+        return COUNTRY_TIMEZONES.get(home_country_name.lower())
+    return None
+
+
+def compute_utc_from_timezone(date_out, time_out, tz_name):
+    """Like compute_utc(), but takes a real IANA timezone name instead of a
+    fixed numeric offset, so DST is applied correctly for the specific
+    date of each match."""
+    if not date_out or not time_out or not tz_name:
+        return None
+    try:
+        local_dt = datetime.strptime(f"{date_out} {time_out}", "%Y-%m-%d %H:%M")
+        local_dt = local_dt.replace(tzinfo=ZoneInfo(tz_name))
+    except Exception:
+        return None
+    return local_dt.astimezone(timezone.utc).isoformat()
 
 
 def strip_wikilinks(text):
@@ -1307,13 +1367,13 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
     FIBA World Cup qualifying pages (Africa/Americas/Asia/Europe). Teams
     are given as {{bk-rt|CODE}} (home) / {{bk|CODE}} (away) 3-letter codes,
     sometimes wrapped in '''bold''' to mark the winner - stripped before
-    use. Unlike rugbybox, there's no explicit UTC offset field; instead
-    the 'location' field names a country, which is looked up in
-    COUNTRY_UTC_OFFSETS to convert the local kickoff time to UTC.
+    use. Unlike rugbybox, there's no explicit UTC offset field; instead a
+    real IANA timezone is derived (see guess_timezone()) from the venue
+    city, the 'location' field's country, or the home team's country, so
+    DST is applied correctly for each match's actual date.
     """
     matches = []
     code_pattern = re.compile(r"\{\{bk(?:-rt)?\|([A-Za-z]{2,4})")
-    default_offset = cfg.get("utc_offset")
 
     for inner in find_templates(wikitext, "basketballbox"):
         params = split_template_params(inner)[1:]  # drop template name
@@ -1346,18 +1406,15 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
 
         location = strip_wikilinks(field.get("location", ""))
 
-        # Prefer a country named directly in the location text (e.g. the
-        # Africa page's "Radès, Tunisia" for its single-venue tournament
-        # windows). Many pages (e.g. Europe/Americas home-and-away
-        # fixtures) only give a city with no country attached, e.g.
-        # "Fribourg" - in that home-and-away format the home team's own
-        # country reliably IS the host country, so fall back to that.
-        offset = guess_country_utc_offset(location, None)
-        if offset is None:
-            offset = COUNTRY_UTC_OFFSETS.get(home.lower())
-        if offset is None:
-            offset = default_offset
-        utc = compute_utc(date_out, time_out, offset)
+        # Prefer a specific host city (handles multi-timezone countries
+        # like Australia/Perth), then a country named directly in the
+        # location text (e.g. the Africa page's "Radès, Tunisia" for its
+        # single-venue tournament windows), then fall back to the home
+        # team's own country - reliable for genuine home-and-away fixtures
+        # (e.g. Europe/Americas pages, which only give a bare city like
+        # "Fribourg" with no country attached).
+        tz_name = guess_timezone(location, venue, home)
+        utc = compute_utc_from_timezone(date_out, time_out, tz_name)
 
         # Combine arena + host country/city into one venue string for display
         venue_display = ", ".join(v for v in (venue, location) if v) or None
