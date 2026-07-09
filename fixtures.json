@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T08:10:03+00:00",
+  "updated": "2026-07-09T03:15:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8133,12 +8133,12 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Venezuela",
       "away": "Colombia",
-      "score": null,
+      "score": "86-102",
       "date": "2026-07-08",
       "time": "19:10",
       "utc": "2026-07-09T00:10:00+00:00",
       "venue": "Coliseo Evangelista Mora, Cali, Colombia",
-      "referee": null
+      "referee": "Andrés Bartel (URU), Alexis Mercado (PUR), Danilo Molina (ARG)"
     },
     {
       "league": "cfl-2026",
@@ -10837,8 +10837,30 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "United States",
+      "score": null,
+      "date": "2026-08-27",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
       "home": "Brazil",
       "away": "Dominican Republic",
+      "score": null,
+      "date": "2026-08-27",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Colombia",
+      "away": "Mexico",
       "score": null,
       "date": "2026-08-27",
       "time": null,
@@ -10877,39 +10899,6 @@
       "time": null,
       "utc": null,
       "venue": null,
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "Australia",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "Philippines",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
       "referee": null
     },
     {
@@ -11141,6 +11130,39 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-08-28",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-08-28",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Jordan",
+      "away": "Philippines",
+      "score": null,
+      "date": "2026-08-28",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
       "referee": null
     },
     {
@@ -11397,6 +11419,39 @@
       "referee": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "Jordan",
+      "score": null,
+      "date": "2026-08-30",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Syria",
+      "score": null,
+      "date": "2026-08-30",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Iran",
+      "score": null,
+      "date": "2026-08-30",
+      "time": null,
+      "utc": null,
+      "venue": "SM Mall of Asia Arena, Pasay",
+      "referee": null
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Croatia",
@@ -11464,6 +11519,28 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
+      "home": "United States",
+      "away": "Colombia",
+      "score": null,
+      "date": "2026-08-31",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Dominican Republic",
+      "away": "Chile",
+      "score": null,
+      "date": "2026-08-31",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
       "home": "Mexico",
       "away": "Brazil",
       "score": null,
@@ -11504,39 +11581,6 @@
       "time": null,
       "utc": null,
       "venue": null,
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "Jordan",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Syria",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "referee": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Iran",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
       "referee": null
     },
     {
@@ -12761,6 +12805,28 @@
       "referee": null
     },
     {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Colombia",
+      "away": "Dominican Republic",
+      "score": null,
+      "date": "2026-11-27",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "Mexico",
+      "score": null,
+      "date": "2026-11-27",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "Iran",
       "away": "Australia",
@@ -12993,6 +13059,28 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
+      "home": "Colombia",
+      "away": "United States",
+      "score": null,
+      "date": "2026-11-30",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "Dominican Republic",
+      "score": null,
+      "date": "2026-11-30",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
       "home": "Brazil",
       "away": "Mexico",
       "score": null,
@@ -13169,8 +13257,30 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
+      "home": "United States",
+      "away": "Chile",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
       "home": "Dominican Republic",
       "away": "Brazil",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Mexico",
+      "away": "Colombia",
       "score": null,
       "date": "2027-02-25",
       "time": null,
@@ -13545,6 +13655,28 @@
       "league": "fiba-wcq-americas-2027",
       "home": "United States",
       "away": "Brazil",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Dominican Republic",
+      "away": "Colombia",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "referee": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Mexico",
+      "away": "Chile",
       "score": null,
       "date": "2027-02-28",
       "time": null,
