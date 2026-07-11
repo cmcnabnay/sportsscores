@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T15:14:05+00:00",
+  "updated": "2026-07-11T15:25:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8221,7 +8221,7 @@
       "league": "nations-championship-2026",
       "home": "Fiji",
       "away": "England",
-      "score": null,
+      "score": "8-73",
       "date": "2026-07-11",
       "time": "14:10",
       "utc": "2026-07-11T13:10:00+00:00",
@@ -8295,6 +8295,17 @@
       "referee": "Paul Williams (New Zealand)"
     },
     {
+      "league": "afle-2026",
+      "home": "Alpine Rams",
+      "away": "London Warriors",
+      "score": null,
+      "date": "2026-07-11",
+      "time": "16:30",
+      "utc": "2026-07-11T14:30:00+00:00",
+      "venue": "Tissot Arena , Biel/Bienne",
+      "referee": null
+    },
+    {
       "league": "nations-championship-2026",
       "home": "New Zealand",
       "away": "Italy",
@@ -8359,6 +8370,17 @@
       "utc": "2026-07-11T22:00:00+00:00",
       "venue": "Estadio Sausalito, Vina del Mar",
       "referee": "Tomas Ninci (Argentina)"
+    },
+    {
+      "league": "afle-2026",
+      "home": "Vienna Vikings",
+      "away": "Paris Lights",
+      "score": null,
+      "date": "2026-07-11",
+      "time": "18:00",
+      "utc": "2026-07-11T16:00:00+00:00",
+      "venue": "Wiener Sport-Club Stadium , Vienna",
+      "referee": null
     },
     {
       "league": "efa-2026",
@@ -8438,28 +8460,6 @@
       "referee": "Andrea Piardi (Italy)"
     },
     {
-      "league": "afle-2026",
-      "home": "Vienna Vikings",
-      "away": "Paris Lights",
-      "score": null,
-      "date": "2026-07-11",
-      "time": null,
-      "utc": null,
-      "venue": "Wiener Sport-Club Stadium , Vienna",
-      "referee": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Alpine Rams",
-      "away": "London Warriors",
-      "score": null,
-      "date": "2026-07-11",
-      "time": null,
-      "utc": null,
-      "venue": "Tissot Arena , Biel/Bienne",
-      "referee": null
-    },
-    {
       "league": "efa-2026",
       "home": "Munich Ravens",
       "away": "Frankfurt Galaxy",
@@ -8482,6 +8482,17 @@
       "referee": "Grant Atkins"
     },
     {
+      "league": "afle-2026",
+      "home": "Berlin Thunder",
+      "away": "Firenze Red Lions",
+      "score": null,
+      "date": "2026-07-12",
+      "time": "14:00",
+      "utc": "2026-07-12T12:00:00+00:00",
+      "venue": "Cantianstadion , Berlin",
+      "referee": null
+    },
+    {
       "league": "super-league-2026",
       "home": "St Helens",
       "away": "Toulouse Olympique",
@@ -8502,6 +8513,17 @@
       "utc": "2026-07-12T06:05:00+00:00",
       "venue": "4 Pines Park",
       "referee": "Peter Gough"
+    },
+    {
+      "league": "afle-2026",
+      "home": "Rhein Fire",
+      "away": "Panthers Wrocław",
+      "score": null,
+      "date": "2026-07-12",
+      "time": "16:55",
+      "utc": "2026-07-12T14:55:00+00:00",
+      "venue": "Schauinsland-Reisen-Arena , Duisburg",
+      "referee": null
     },
     {
       "league": "cfl-2026",
@@ -8568,28 +8590,6 @@
       "utc": "2026-07-12T16:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
       "referee": "Robbie Jenkinson (Ireland)"
-    },
-    {
-      "league": "afle-2026",
-      "home": "Berlin Thunder",
-      "away": "Firenze Red Lions",
-      "score": null,
-      "date": "2026-07-12",
-      "time": null,
-      "utc": null,
-      "venue": "Cantianstadion , Berlin",
-      "referee": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Rhein Fire",
-      "away": "Panthers Wrocław",
-      "score": null,
-      "date": "2026-07-12",
-      "time": null,
-      "utc": null,
-      "venue": "Schauinsland-Reisen-Arena , Duisburg",
-      "referee": null
     },
     {
       "league": "u20-jwc-2026",
