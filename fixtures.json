@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T07:27:04+00:00",
+  "updated": "2026-07-11T04:04:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8144,7 +8144,7 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Ottawa Redblacks",
-      "score": null,
+      "score": "40-17",
       "date": "2026-07-09",
       "time": "19:00",
       "utc": "2026-07-10T01:00:00+00:00",
@@ -8166,7 +8166,7 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Toronto Argonauts",
-      "score": null,
+      "score": "30-21",
       "date": "2026-07-10",
       "time": "19:30",
       "utc": "2026-07-11T00:30:00+00:00",
@@ -8177,7 +8177,7 @@
       "league": "nrl-2026",
       "home": "Wests Tigers",
       "away": "New Zealand Warriors",
-      "score": null,
+      "score": "6–32",
       "date": "2026-07-10",
       "time": "20:00",
       "utc": "2026-07-10T10:00:00+00:00",
@@ -8186,25 +8186,25 @@
     },
     {
       "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "Warrington Wolves",
-      "score": null,
-      "date": "2026-07-10",
-      "time": "20:00",
-      "utc": "2026-07-10T19:00:00+00:00",
-      "venue": "Brick Community Stadium",
-      "referee": "Marcus Griffiths"
-    },
-    {
-      "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Bradford Bulls",
-      "score": null,
+      "score": "14–30",
       "date": "2026-07-10",
       "time": "20:00",
       "utc": "2026-07-10T19:00:00+00:00",
       "venue": "Accu Stadium",
       "referee": "Matty Lynn"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "Warrington Wolves",
+      "score": "30–18",
+      "date": "2026-07-10",
+      "time": "20:00",
+      "utc": "2026-07-10T19:00:00+00:00",
+      "venue": "Brick Community Stadium",
+      "referee": "Marcus Griffiths"
     },
     {
       "league": "nations-cup-2026",
@@ -8901,17 +8901,6 @@
     },
     {
       "league": "super-league-2026",
-      "home": "St Helens",
-      "away": "Catalans Dragons",
-      "score": null,
-      "date": "2026-07-17",
-      "time": "20:00",
-      "utc": "2026-07-17T19:00:00+00:00",
-      "venue": "BrewDog Stadium",
-      "referee": null
-    },
-    {
-      "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Wigan Warriors",
       "score": null,
@@ -8919,6 +8908,17 @@
       "time": "20:00",
       "utc": "2026-07-17T19:00:00+00:00",
       "venue": "Accu Stadium",
+      "referee": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "St Helens",
+      "away": "Catalans Dragons",
+      "score": null,
+      "date": "2026-07-17",
+      "time": "20:00",
+      "utc": "2026-07-17T19:00:00+00:00",
+      "venue": "BrewDog Stadium",
       "referee": null
     },
     {
@@ -9550,17 +9550,6 @@
     },
     {
       "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "St Helens",
-      "score": null,
-      "date": "2026-07-24",
-      "time": "20:00",
-      "utc": "2026-07-24T19:00:00+00:00",
-      "venue": "Brick Community Stadium",
-      "referee": null
-    },
-    {
-      "league": "super-league-2026",
       "home": "Wakefield Trinity",
       "away": "Castleford Tigers",
       "score": null,
@@ -9568,6 +9557,17 @@
       "time": "20:00",
       "utc": "2026-07-24T19:00:00+00:00",
       "venue": "DIY Kitchens Stadium",
+      "referee": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "St Helens",
+      "score": null,
+      "date": "2026-07-24",
+      "time": "20:00",
+      "utc": "2026-07-24T19:00:00+00:00",
+      "venue": "Brick Community Stadium",
       "referee": null
     },
     {
@@ -9814,17 +9814,6 @@
     },
     {
       "league": "super-league-2026",
-      "home": "Leigh Leopards",
-      "away": "Wigan Warriors",
-      "score": null,
-      "date": "2026-07-31",
-      "time": "20:00",
-      "utc": "2026-07-31T19:00:00+00:00",
-      "venue": "Leigh Sports Village",
-      "referee": null
-    },
-    {
-      "league": "super-league-2026",
       "home": "Hull KR",
       "away": "Bradford Bulls",
       "score": null,
@@ -9843,6 +9832,17 @@
       "time": "20:00",
       "utc": "2026-07-31T19:00:00+00:00",
       "venue": "Headingley Rugby Stadium",
+      "referee": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Leigh Leopards",
+      "away": "Wigan Warriors",
+      "score": null,
+      "date": "2026-07-31",
+      "time": "20:00",
+      "utc": "2026-07-31T19:00:00+00:00",
+      "venue": "Leigh Sports Village",
       "referee": null
     },
     {
