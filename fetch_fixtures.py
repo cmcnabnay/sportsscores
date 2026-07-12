@@ -766,12 +766,23 @@ CITY_TIMEZONE_OVERRIDES = {
     "perth": "Australia/Perth", "adelaide": "Australia/Adelaide",
     "darwin": "Australia/Darwin", "brisbane": "Australia/Brisbane",
     "vancouver": "America/Vancouver", "calgary": "America/Edmonton",
+    "edmonton": "America/Edmonton",
     "winnipeg": "America/Winnipeg", "honolulu": "Pacific/Honolulu",
     "anchorage": "America/Anchorage", "denver": "America/Denver",
     "phoenix": "America/Phoenix", "los angeles": "America/Los_Angeles",
     "oakland": "America/Los_Angeles", "san diego": "America/Los_Angeles",
     "seattle": "America/Los_Angeles", "chicago": "America/Chicago",
     "manaus": "America/Manaus",
+    # World Rugby Nations Cup / Nations Championship Americas-Pacific Series
+    # host cities. Most of these are neutral venues for Samoa/Tonga (neither
+    # of which has a COUNTRY_TIMEZONES entry, since they aren't playing in
+    # their own country), so a city-level override is the only reliable way
+    # to get these right - the home-team-country fallback in guess_timezone()
+    # would otherwise silently guess wrong (or fail outright for Samoa/Tonga).
+    "montevideo": "America/Montevideo",
+    "vina del mar": "America/Santiago", "viña del mar": "America/Santiago",
+    "santiago": "America/Santiago",
+    "charlotte": "America/New_York",
 }
 
 
@@ -1291,14 +1302,30 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
     Parse {{rugbybox|...}} template instances, used by the Nations
     Championship / Nations Cup "Series" sub-articles (as opposed to the
     header-less bare_table format on their old parent pages). Each match
-    gives an explicit date, time, AND UTC offset - e.g.
-    'time = 14:00 [[Uruguay Time|UYT]] ([[UTC-3]])' - so unlike every
-    other parser here, no venue-based offset guessing is needed: the
-    page tells us the true UTC offset directly.
+    is EXPECTED to give an explicit date, time, AND UTC offset - e.g.
+    'time = 14:00 [[Uruguay Time|UYT]] ([[UTC-3]])' - so ideally no
+    venue-based offset guessing is needed: the page tells us the true UTC
+    offset directly.
+
+    In practice these "Series" sub-articles are new pages that don't
+    always follow that exact format (e.g. the offset annotation is
+    missing, worded differently, or the venue is a neutral one for
+    Samoa/Tonga rather than the home team's own country), and a silent
+    failure here means the match falls all the way back in matches.html
+    to displaying the raw *venue-local* kickoff time unconverted - which
+    looks fine at a glance but is wrong for anyone not in that venue's
+    timezone. So this now has two layers: try the page-stated offset
+    first (checked against both the date and time fields, and tolerant of
+    a couple of extra UTC/GMT spellings), then fall back to a real IANA
+    timezone guessed from the venue city (guess_timezone/CITY_TIMEZONE_OVERRIDES)
+    so DST is still applied correctly. A stderr warning is printed if
+    neither works, so a bad/unrecognized page format shows up immediately
+    instead of silently mis-displaying kickoff times.
     """
     matches = []
     code_pattern = re.compile(r"\{\{(?:ru-rt|ru)\|([A-Za-z]+)")
-    tz_pattern = re.compile(r"UTC\s*([+\u2212-])\s*(\d{1,2})(?::(\d{2}))?")
+    # Accepts "UTC-3", "UTC−3:00", "UTC +3", and "GMT-3" style annotations.
+    tz_pattern = re.compile(r"(?:UTC|GMT)\s*([+\u2212-])\s*(\d{1,2})(?::(\d{2}))?")
 
     for inner in find_templates(wikitext, "rugbybox"):
         params = split_template_params(inner)[1:]  # drop template name
@@ -1322,14 +1349,18 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
         score = score.replace("–", "-") if score else None
         score = score if score else None
 
-        date_out = parse_full_date(field.get("date", ""))
+        date_field = field.get("date", "")
+        date_out = parse_full_date(date_field)
 
         time_field = field.get("time", "")
         time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
         time_out = time_match.group(0) if time_match else None
 
+        venue = strip_wikilinks(field.get("stadium", ""))
+        venue = venue if venue else None
+
         offset = None
-        tz_match = tz_pattern.search(time_field)
+        tz_match = tz_pattern.search(time_field) or tz_pattern.search(date_field)
         if tz_match:
             sign = -1 if tz_match.group(1) in ("-", "\u2212") else 1
             hours = int(tz_match.group(2))
@@ -1338,8 +1369,21 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
 
         utc = compute_utc(date_out, time_out, offset)
 
-        venue = strip_wikilinks(field.get("stadium", ""))
-        venue = venue if venue else None
+        if utc is None and date_out and time_out:
+            # No usable explicit offset on the page - fall back to a real
+            # timezone guessed from the venue city (falls back further to
+            # the home team's own country, though that's unreliable for
+            # Samoa/Tonga neutral-venue games with no country tz entry).
+            tz_name = guess_timezone(None, venue, home)
+            if tz_name:
+                utc = compute_utc_from_timezone(date_out, time_out, tz_name)
+            if utc is None:
+                print(
+                    f"  !! rugbybox: couldn't resolve a UTC offset for "
+                    f"{home} v {away} ({date_out} {time_out}, venue={venue!r}) "
+                    f"- displaying venue-local time uncorrected",
+                    file=sys.stderr,
+                )
 
         referee = strip_wikilinks(field.get("referee", ""))
         referee = referee if referee else None
