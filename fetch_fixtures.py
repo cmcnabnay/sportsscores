@@ -553,7 +553,7 @@ def map_columns(header_row):
             roles["score"] = i
         elif "venue" in h:
             roles["venue"] = i
-        elif "referee" in h or h.strip() == "ref":
+        elif "referee" in h:
             roles["referee"] = i
         elif "attendance" in h:
             roles["attendance"] = i
@@ -1125,8 +1125,8 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                     continue
                 if "http" in c.lower() or c.lower().startswith("recap"):
                     continue
-                venue_text = c
-                break
+                if venue_text is None:
+                    venue_text = c
 
             date_out = parse_cfl_date(date_text, year)
             time_out, tz_offset = extract_cfl_time(time_text)
@@ -1298,11 +1298,14 @@ def parse_fivb_matches(wikitext: str, league_key: str, cfg: dict):
             time_out = to_24h(time_text) if time_text.strip() else None
             utc = compute_utc(date_out, time_out, section_offset)
 
-            # Positional layout is date|time|team1|score|team2|set1..set5|
-            # attendance, so attendance (if given) is the 11th positional
-            # param, right after the five set scores.
-            attendance = positional[10].strip() if len(positional) > 10 else ""
-            attendance = attendance.replace(",", "") if attendance else None
+            # Unlike the other match-box templates, Vb res 12 (and its
+            # documented sibling Vb res 51) doesn't carry a per-match
+            # attendance parameter at all - the page-level infobox instead
+            # hand-tallies a single running total via a giant #expr sum of
+            # literal numbers in HTML comments per pool, with no reliable
+            # link back to individual matches. So there's no attendance to
+            # extract here.
+            attendance = None
 
             matches.append(
                 {
