@@ -90,6 +90,68 @@
     box-shadow: 0 2px 6px rgba(11,31,58,0.12);
   }
   .day-nav button:hover { background: var(--navy); color: white; }
+  .view-tabs {
+    max-width: 720px;
+    margin: 14px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .view-tabs button {
+    border: none;
+    background: transparent;
+    color: var(--grey);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .view-tabs button.active {
+    background: var(--navy);
+    color: white;
+  }
+  .standings-group {
+    margin-bottom: 22px;
+  }
+  .standings-group h2 {
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: var(--navy);
+  }
+  .standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(11,31,58,0.08);
+    font-size: 13px;
+  }
+  .standings-table th,
+  .standings-table td {
+    padding: 8px 10px;
+    text-align: center;
+  }
+  .standings-table th {
+    background: var(--navy);
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .standings-table td.team-col,
+  .standings-table th.team-col {
+    text-align: left;
+  }
+  .standings-table tr:nth-child(even) td {
+    background: #f8f9fb;
+  }
+  .standings-table td.pts-col {
+    font-weight: 700;
+    color: var(--navy);
+  }
   main {
     max-width: 720px;
     margin: 0 auto;
@@ -201,7 +263,12 @@
   </div>
 </div>
 
-<div class="day-nav">
+<div class="view-tabs">
+  <button id="tab-fixtures" class="active">Fixtures</button>
+  <button id="tab-standings">Standings</button>
+</div>
+
+<div class="day-nav" id="day-nav">
   <button id="prev-day">&larr; Prev</button>
   <button id="today-btn">Today</button>
   <button id="next-day">Next &rarr;</button>
@@ -210,15 +277,22 @@
 <main>
   <div class="selected-date" id="selected-date-label"></div>
   <div id="match-list"></div>
+  <div id="standings-view" style="display:none"></div>
 </main>
 
 <script>
 let allMatches = [];
 let leagues = {};
+let allStandings = {};
+let currentView = 'fixtures';
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
 const matchList = document.getElementById('match-list');
+const standingsView = document.getElementById('standings-view');
+const dayNav = document.getElementById('day-nav');
+const tabFixtures = document.getElementById('tab-fixtures');
+const tabStandings = document.getElementById('tab-standings');
 const selectedDateLabel = document.getElementById('selected-date-label');
 const updateNote = document.getElementById('update-note');
 
@@ -241,6 +315,21 @@ document.getElementById('today-btn').addEventListener('click', () => {
 });
 dateInput.addEventListener('change', render);
 leagueSelect.addEventListener('change', render);
+
+tabFixtures.addEventListener('click', () => setView('fixtures'));
+tabStandings.addEventListener('click', () => setView('standings'));
+
+function setView(view) {
+  currentView = view;
+  const isFixtures = view === 'fixtures';
+  tabFixtures.classList.toggle('active', isFixtures);
+  tabStandings.classList.toggle('active', !isFixtures);
+  dayNav.style.display = isFixtures ? 'flex' : 'none';
+  selectedDateLabel.style.display = isFixtures ? '' : 'none';
+  matchList.style.display = isFixtures ? '' : 'none';
+  standingsView.style.display = isFixtures ? 'none' : '';
+  render();
+}
 
 function enrichMatch(m) {
   // Prefer the true UTC instant (converted to whatever timezone this
@@ -288,6 +377,11 @@ function formatDateLabel(iso) {
 }
 
 function render() {
+  if (currentView === 'standings') {
+    renderStandings();
+    return;
+  }
+
   const selectedDate = dateInput.value;
   const selectedLeague = leagueSelect.value;
 
@@ -354,7 +448,7 @@ function render() {
           <span class="team-score">${awayScore}</span>
         </div>
         <div class="match-meta">
-          ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
+          ${m.venue ? m.venue : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
         </div>
       </div>
     `;
@@ -368,6 +462,77 @@ function populateLeagueOptions() {
     opt.value = key;
     opt.textContent = info.name || key;
     leagueSelect.appendChild(opt);
+  }
+}
+
+// Column order/labels for the standings table. Any column with no data at
+// all across every row in a group is skipped, since not every sport/table
+// fills in every stat (e.g. rugby groups have no "for/against" split the
+// same way basketball ones do).
+const STANDINGS_COLUMNS = [
+  { key: 'played', label: 'Pld' },
+  { key: 'win', label: 'W' },
+  { key: 'draw', label: 'D' },
+  { key: 'loss', label: 'L' },
+  { key: 'for', label: 'F' },
+  { key: 'against', label: 'A' },
+  { key: 'diff', label: '+/-' },
+  { key: 'points', label: 'Pts', cssClass: 'pts-col' },
+];
+
+function renderStandings() {
+  standingsView.innerHTML = '';
+
+  const selectedLeague = leagueSelect.value;
+  const leagueKeys = selectedLeague === 'all' ? Object.keys(allStandings) : [selectedLeague];
+  const groupsToShow = [];
+
+  for (const key of leagueKeys) {
+    const groups = allStandings[key];
+    if (!groups) continue;
+    const leagueName = (leagues[key] && leagues[key].name) || key;
+    for (const [groupLabel, rows] of Object.entries(groups)) {
+      groupsToShow.push({ leagueName, groupLabel, rows });
+    }
+  }
+
+  if (groupsToShow.length === 0) {
+    standingsView.innerHTML = '<div class="empty-state">No standings available for this league yet.</div>';
+    return;
+  }
+
+  for (const { leagueName, groupLabel, rows } of groupsToShow) {
+    const activeColumns = STANDINGS_COLUMNS.filter(col =>
+      rows.some(r => r[col.key] !== null && r[col.key] !== undefined)
+    );
+
+    const section = document.createElement('div');
+    section.className = 'standings-group';
+
+    const heading = selectedLeague === 'all'
+      ? `${leagueName} &middot; ${groupLabel}`
+      : (groupLabel === 'Standings' || groupLabel === leagueName ? leagueName : `${leagueName} &middot; ${groupLabel}`);
+
+    section.innerHTML = `
+      <h2>${heading}</h2>
+      <table class="standings-table">
+        <thead>
+          <tr>
+            <th class="team-col">Team</th>
+            ${activeColumns.map(c => `<th class="${c.cssClass || ''}">${c.label}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(r => `
+            <tr>
+              <td class="team-col">${r.team}</td>
+              ${activeColumns.map(c => `<td class="${c.cssClass || ''}">${r[c.key] ?? ''}</td>`).join('')}
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `;
+    standingsView.appendChild(section);
   }
 }
 
@@ -392,6 +557,7 @@ function loadFixtures(isRefresh) {
     .then(data => {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
+      allStandings = data.standings || {};
       if (!isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();

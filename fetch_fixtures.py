@@ -11,8 +11,9 @@ supports three parsing strategies, selected per league via the "parser"
 key in LEAGUES:
 
   - "vevent"    : tournament bracket pages using the hCard/vevent match-box
-                  layout (team name in .fn, venue in .location, referee in
-                  .attendee) - e.g. Rugby World Cup / Championship pages.
+                  layout (team name in .fn, venue in .location) - e.g.
+                  Rugby World Cup / Championship pages. Referees aren't
+                  scraped even though the box markup also carries one.
   - "wikitable" : plain results tables (class="wikitable") with a header
                   row naming columns like Home/Away/Score/Venue/Referee -
                   handles rowspan cells (shared date/venue across rows)
@@ -108,6 +109,13 @@ LEAGUES = {
         "sport": "rugby",
         "parser": "vevent",
         "utc_offset": 4,  # Georgia (GET), no DST
+        "standings": {
+            "page": "2026_World_Rugby_Junior_World_Championship",
+            # However many pools exist this year (Pool A, Pool B, ...) -
+            # each gets its own heading, so grab all of them rather than
+            # hardcoding a count.
+            "auto_groups": {"heading_pattern": r"^Pool_[A-Za-z0-9]+$"},
+        },
     },
     "nations-championship-2026": {
         "name": "Rugby Nations Championship 2026",
@@ -123,6 +131,16 @@ LEAGUES = {
         "sport": "rugby",
         "parser": "rugbybox",
         # no utc_offset needed - each match states its own UTC offset directly
+        "standings": {
+            # The two conference tables live on the old parent page (the
+            # "Championship division: Tables" section), even though
+            # fixtures themselves moved to the two Series sub-articles.
+            "page": "2026_Nations_Championship",
+            "groups": [
+                {"label": "Northern Hemisphere", "heading_id": "Northern_Hemisphere"},
+                {"label": "Southern Hemisphere", "heading_id": "Southern_Hemisphere"},
+            ],
+        },
     },
     "nations-cup-2026": {
         "name": "World Rugby Nations Cup 2026",
@@ -136,6 +154,13 @@ LEAGUES = {
         "sport": "rugby",
         "parser": "rugbybox",
         # no utc_offset needed - each match states its own UTC offset directly
+        "standings": {
+            "page": "2026_World_Rugby_Nations_Cup",
+            "groups": [
+                {"label": "Americas-Pacific", "heading_id": "Americas-Pacific"},
+                {"label": "European-African-Asian", "heading_id": "European-African-Asian"},
+            ],
+        },
     },
     "nrl-2026": {
         "name": "NRL 2026",
@@ -147,6 +172,16 @@ LEAGUES = {
                            # Simplification: doesn't account for AEDT during
                            # Oct-Apr, or NZ Warriors' home games (Auckland,
                            # UTC+12/+13) - overridden via venue lookup below.
+        "standings": {
+            # The ladder lives on the season overview page, not the
+            # "_results" page used for fixtures above. Heading name is a
+            # best guess ("Ladder" is the conventional heading on these
+            # NRL season articles) - if it doesn't match, the script warns
+            # on stderr with the page/heading it tried rather than failing
+            # silently, so it's easy to correct.
+            "page": "2026_NRL_season",
+            "groups": [{"label": "Ladder", "heading_id": "Ladder"}],
+        },
     },
     "super-league-2026": {
         "name": "Super League Rugby 2026",
@@ -157,6 +192,10 @@ LEAGUES = {
         "utc_offset": 1,  # UK (BST); Catalans Dragons/Toulouse Olympique
                           # home games (France, also UTC+2 in summer) are
                           # close enough not to need an override here
+        "standings": {
+            "page": "2026_Super_League_season_results",
+            "groups": [{"label": "Table", "heading_id": "Table"}],
+        },
     },
     "afle-2026": {
         "name": "American Football League Europe 2026",
@@ -165,6 +204,14 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "utc_offset": 2,  # Central European Summer Time
+        "standings": {
+            "page": "2026_American_Football_League_Europe_season",
+            "groups": [
+                {"label": "North/West Division", "heading_id": "North/West_Division"},
+                {"label": "South/East Division", "heading_id": "South/East_Division"},
+                {"label": "League Wide", "heading_id": "League_Wide"},
+            ],
+        },
     },
     "efa-2026": {
         "name": "European Football Alliance 2026",
@@ -173,6 +220,10 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "utc_offset": 2,  # Central European Summer Time
+        "standings": {
+            "page": "2026_European_Football_Alliance_season",
+            "groups": [{"label": "Standings", "heading_id": "Standings"}],
+        },
     },
     "fivb-nations-league-2026": {
         "name": "FIVB Men's Volleyball Nations League 2026",
@@ -182,6 +233,10 @@ LEAGUES = {
         "year": 2026,
         # no single utc_offset - each pool states its own timezone in the
         # wikitext ("All times are ... (UTC-04:00)"), parsed per-match
+        "standings": {
+            "page": "2026_FIVB_Men's_Volleyball_Nations_League",
+            "groups": [{"label": "Preliminary Round", "heading_id": "Ranking"}],
+        },
     },
     "cfl-2026": {
         "name": "CFL 2026",
@@ -207,6 +262,18 @@ LEAGUES = {
             "2026_Toronto_Argonauts_season": "Toronto Argonauts",
             "2026_Ottawa_Redblacks_season": "Ottawa Redblacks",
         },
+        "standings": {
+            # Unlike fixtures, the standings live on the single season
+            # overview page. Both division tables sit under one shared
+            # "Standings" heading (one template transclusion per
+            # division), so they're distinguished by position rather than
+            # by their own heading id - West first, then East.
+            "page": "2026_Canadian_Football_League_season",
+            "groups": [
+                {"label": "West Division", "heading_id": "Standings", "position": 0},
+                {"label": "East Division", "heading_id": "Standings", "position": 1},
+            ],
+        },
     },
     "fiba-wcq-africa-2027": {
         "name": "FIBA Basketball World Cup 2027 Qualification - Africa",
@@ -215,24 +282,42 @@ LEAGUES = {
         "parser": "basketballbox",
         # No single utc_offset - each match's "location" field names a host
         # country, looked up in COUNTRY_UTC_OFFSETS per-match instead.
+        "standings": {
+            "page": "2027_FIBA_Basketball_World_Cup_qualification_(Africa)",
+            # However many groups exist (Group A, Group B, ...) - grab
+            # every one rather than hardcoding a count.
+            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+        },
     },
     "fiba-wcq-americas-2027": {
         "name": "FIBA Basketball World Cup 2027 Qualification - Americas",
         "page": "2027_FIBA_Basketball_World_Cup_qualification_(Americas)",
         "sport": "basketball",
         "parser": "basketballbox",
+        "standings": {
+            "page": "2027_FIBA_Basketball_World_Cup_qualification_(Americas)",
+            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+        },
     },
     "fiba-wcq-asia-2027": {
         "name": "FIBA Basketball World Cup 2027 Qualification - Asia",
         "page": "2027_FIBA_Basketball_World_Cup_qualification_(Asia)",
         "sport": "basketball",
         "parser": "basketballbox",
+        "standings": {
+            "page": "2027_FIBA_Basketball_World_Cup_qualification_(Asia)",
+            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+        },
     },
     "fiba-wcq-europe-2027": {
         "name": "FIBA Basketball World Cup 2027 Qualification - Europe",
         "page": "2027_FIBA_Basketball_World_Cup_qualification_(Europe)",
         "sport": "basketball",
         "parser": "basketballbox",
+        "standings": {
+            "page": "2027_FIBA_Basketball_World_Cup_qualification_(Europe)",
+            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+        },
     },
 }
 
@@ -395,10 +480,20 @@ def clean_team_name(raw: str) -> str:
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
-def clean_referee(raw: str) -> str:
-    """Turn 'George Selwood ( England )' into 'George Selwood (England)'."""
-    cleaned = re.sub(r"\(\s+", "(", raw)
-    cleaned = re.sub(r"\s+\)", ")", cleaned)
+def strip_citations(text: str) -> str:
+    """Strip inline citation markup that sometimes gets glued onto a venue
+    field, e.g. a '<ref>{{cite news |url=...|title=...}}</ref>' or a bare
+    '{{cite news|...}}' template with no surrounding <ref> tags. Wikipedia
+    articles often source a venue change (e.g. a "home" team playing a
+    neutral-venue game abroad) with an inline citation right after the
+    venue name, which we don't want showing up in the UI."""
+    if not text:
+        return text
+    # <ref ...>...</ref> and self-closing <ref ... />
+    cleaned = re.sub(r"<ref[^>]*>.*?</ref>", "", text, flags=re.DOTALL | re.IGNORECASE)
+    cleaned = re.sub(r"<ref[^>]*/>", "", cleaned, flags=re.IGNORECASE)
+    # Bare {{cite ...}} / {{Cite ...}} templates not wrapped in <ref> tags
+    cleaned = re.sub(r"\{\{\s*[Cc]ite[^{}]*\}\}", "", cleaned)
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
@@ -406,10 +501,11 @@ def parse_matches(html: str, league_key: str, cfg: dict):
     """
     Parse match boxes on the page. These are divs with
     itemtype="http://schema.org/SportsEvent" and class "vevent", using
-    hCard-style markup: team names in .fn spans, venue in .location,
-    referee in .attendee. No itemprop attributes are present, and the
-    score is plain text between the two team names rather than its own
-    element, so it's pulled out with a regex over the box's text.
+    hCard-style markup: team names in .fn spans, venue in .location. No
+    itemprop attributes are present, and the score is plain text between
+    the two team names rather than its own element, so it's pulled out
+    with a regex over the box's text. The box also carries a referee name
+    in .attendee, but that isn't scraped/displayed.
     """
     soup = BeautifulSoup(html, "html.parser")
     matches = []
@@ -445,10 +541,7 @@ def parse_matches(html: str, league_key: str, cfg: dict):
         venue_el = box.select_one(".location")
         venue = venue_el.get_text(" ", strip=True) if venue_el else None
         if venue:
-            venue = re.sub(r"\s+", " ", venue).strip()
-
-        referee_el = box.select_one(".attendee")
-        referee = clean_referee(referee_el.get_text(" ", strip=True)) if referee_el else None
+            venue = strip_citations(re.sub(r"\s+", " ", venue).strip())
 
         # Attendance shows up as plain text like "Attendance: 45,123" inside
         # the box, not its own element - same free-text situation as the
@@ -470,7 +563,6 @@ def parse_matches(html: str, league_key: str, cfg: dict):
                 "time": time_out,
                 "utc": utc,
                 "venue": venue,
-                "referee": referee,
                 "attendance": attendance,
             }
         )
@@ -553,8 +645,6 @@ def map_columns(header_row):
             roles["score"] = i
         elif "venue" in h:
             roles["venue"] = i
-        elif "referee" in h:
-            roles["referee"] = i
         elif "attendance" in h:
             roles["attendance"] = i
         elif ("day" in h and "time" in h) or ("date" in h and "time" in h):
@@ -897,7 +987,7 @@ def parse_bare_table_matches(wikitext: str, league_key: str, cfg: dict):
         attendance_match = re.search(r"Attendance:\s*([\d,]+)", venue, re.IGNORECASE)
         attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
         venue = re.sub(r"\s*Attendance:\s*[\d,]+", "", venue).strip()
-        venue = venue if venue else None
+        venue = strip_citations(venue) if venue else None
 
         matches.append(
             {
@@ -909,7 +999,6 @@ def parse_bare_table_matches(wikitext: str, league_key: str, cfg: dict):
                 "time": None,
                 "utc": None,
                 "venue": venue,
-                "referee": None,
                 "attendance": attendance,
             }
         )
@@ -960,8 +1049,7 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
                 score = None
 
             venue = row[roles["venue"]].strip() if "venue" in roles else None
-            referee = row[roles["referee"]].strip() if "referee" in roles else None
-            referee = referee if referee else None
+            venue = strip_citations(venue) if venue else None
 
             attendance = row[roles["attendance"]].strip() if "attendance" in roles else None
             attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
@@ -991,7 +1079,6 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
                     "time": time_out,
                     "utc": utc,
                     "venue": venue if venue else None,
-                    "referee": referee,
                     "attendance": attendance,
                 }
             )
@@ -1150,7 +1237,6 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                     "time": time_out,
                     "utc": utc,
                     "venue": venue_text,
-                    "referee": None,
                     "attendance": attendance,
                 }
             )
@@ -1317,7 +1403,6 @@ def parse_fivb_matches(wikitext: str, league_key: str, cfg: dict):
                     "time": time_out,
                     "utc": utc,
                     "venue": None,
-                    "referee": None,
                     "attendance": attendance,
                 }
             )
@@ -1384,7 +1469,7 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
         time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
         time_out = time_match.group(0) if time_match else None
 
-        venue = strip_wikilinks(field.get("stadium", ""))
+        venue = strip_citations(strip_wikilinks(field.get("stadium", "")))
         venue = venue if venue else None
 
         offset = None
@@ -1413,9 +1498,6 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
                     file=sys.stderr,
                 )
 
-        referee = strip_wikilinks(field.get("referee", ""))
-        referee = referee if referee else None
-
         attendance = strip_wikilinks(field.get("attendance", "")).strip()
         attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
         attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
@@ -1430,7 +1512,6 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
                 "time": time_out,
                 "utc": utc,
                 "venue": venue,
-                "referee": referee,
                 "attendance": attendance,
             }
         )
@@ -1478,10 +1559,10 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
         time_text = field.get("time", "").strip()
         time_out = to_24h(time_text) if time_text else None
 
-        venue = strip_wikilinks(field.get("arena", ""))
+        venue = strip_citations(strip_wikilinks(field.get("arena", "")))
         venue = venue if venue else None
 
-        location = strip_wikilinks(field.get("location", ""))
+        location = strip_citations(strip_wikilinks(field.get("location", "")))
 
         # Prefer a specific host city (handles multi-timezone countries
         # like Australia/Perth), then a country named directly in the
@@ -1495,9 +1576,6 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
 
         # Combine arena + host country/city into one venue string for display
         venue_display = ", ".join(v for v in (venue, location) if v) or None
-
-        referee = field.get("referee", "").strip()
-        referee = referee if referee else None
 
         attendance = strip_wikilinks(field.get("attendance", "")).strip()
         attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
@@ -1513,7 +1591,6 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
                 "time": time_out,
                 "utc": utc,
                 "venue": venue_display,
-                "referee": referee,
                 "attendance": attendance,
             }
         )
@@ -1521,11 +1598,254 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
     return matches
 
 
+# ---------------------------------------------------------------------------
+# Standings / tables
+#
+# Every league can optionally define a "standings" config so matches.html
+# has a table to show alongside fixtures, e.g.:
+#
+#   "standings": {
+#       "page": "2026_Nations_Championship",
+#       "groups": [
+#           {"label": "Northern Hemisphere", "heading_id": "Northern_Hemisphere"},
+#           {"label": "Southern Hemisphere", "heading_id": "Southern_Hemisphere"},
+#       ],
+#   }
+#
+# Rather than re-implementing every sport's Lua-computed points table
+# (Wikipedia's Module:Sports table, or a hand-maintained template like
+# "2026 CFL West Division standings"), this fetches the page's RENDERED
+# HTML (same "action=parse&prop=text" call already used for vevent/
+# wikitable fixtures) - by the time it's rendered, the module/template has
+# already computed the actual wikitable, so all this needs to do is find
+# the right <table class="wikitable"> and read off whichever columns it
+# has, by header keyword (Team/Pld/W/D/L/Pts/etc.) rather than fixed
+# position, the same way map_columns() does for fixture tables.
+#
+# A group is located either by:
+#   - "heading_id": the id of the heading immediately before it (checked
+#     against both the heading tag's own id and a wrapped "mw-headline"
+#     span, to work with either MediaWiki HTML output style), optionally
+#     with "position" (0-indexed) when more than one table follows the
+#     same heading before the next one (e.g. two divisional tables both
+#     sitting under a single "Standings" heading).
+#   - "table_index": the Nth wikitable on the whole page, for pages with
+#     no useful heading to anchor on.
+#
+# For pages with a variable, unpredictable number of same-shaped groups
+# (e.g. one table per qualifying pool, however many pools exist that
+# year), use "auto_groups": {"heading_pattern": r"regex"} instead of a
+# fixed "groups" list - every heading whose id matches the pattern gets
+# its own group, labelled with the heading's own text.
+# ---------------------------------------------------------------------------
+
+STANDINGS_COLUMN_KEYWORDS = {
+    "team": ("team", "club", "country", "nation"),
+    "played": ("pld", "gp", "played", "mp"),
+    "win": ("w", "won", "wins"),
+    "draw": ("d", "drawn", "draws", "tied", "t"),
+    "loss": ("l", "lost", "losses"),
+    "for": ("pf", "gf", "for"),
+    "against": ("pa", "ga", "against"),
+    "diff": ("diff", "+/-", "gd", "pd"),
+    "points": ("pts", "points"),
+}
+
+
+def _standings_column_role(header_text):
+    h = re.sub(r"[^a-z+/-]", "", header_text.strip().lower())
+    for role, keywords in STANDINGS_COLUMN_KEYWORDS.items():
+        if h in keywords:
+            return role
+    return None
+
+
+def _standings_header_row(grid):
+    """Unlike find_header_row() (which requires Home/Away columns for
+    fixture tables), a standings header row just needs a recognizable
+    team-ish column. Scans down from the top since some pages put a
+    caption or a qualification-legend row before the real header."""
+    for idx, row in enumerate(grid):
+        roles = {}
+        for i, cell in enumerate(row):
+            role = _standings_column_role(cell)
+            if role and role not in roles:
+                roles[role] = i
+        if "team" in roles:
+            return idx, roles
+    return None, {}
+
+
+def parse_standings_table(table):
+    """Turn a rendered <table class="wikitable"> standings table into a
+    list of {"team", "played", "win", "draw", "loss", "for", "against",
+    "diff", "points"} dicts (any field the table doesn't have stays None).
+    Column order/wording varies by sport/page, so columns are matched by
+    header keyword rather than position."""
+    grid = table_to_grid(table)
+    if not grid:
+        return []
+    header_idx, roles = _standings_header_row(grid)
+    if header_idx is None:
+        return []
+
+    def get_num(row, role):
+        if role not in roles or roles[role] >= len(row):
+            return None
+        raw = row[roles[role]].replace("\u2212", "-")
+        m = re.search(r"-?\d+", raw)
+        return int(m.group(0)) if m else None
+
+    rows_out = []
+    for row in grid[header_idx + 1:]:
+        if roles["team"] >= len(row):
+            continue
+        team = strip_citations(re.sub(r"\s+", " ", row[roles["team"]]).strip())
+        if not team or team.lower() in ("source", "notes", "key", "notes:"):
+            continue
+        rows_out.append(
+            {
+                "team": team,
+                "played": get_num(row, "played"),
+                "win": get_num(row, "win"),
+                "draw": get_num(row, "draw"),
+                "loss": get_num(row, "loss"),
+                "for": get_num(row, "for"),
+                "against": get_num(row, "against"),
+                "diff": get_num(row, "diff"),
+                "points": get_num(row, "points"),
+            }
+        )
+    return rows_out
+
+
+def find_table_after_heading(soup, heading_id, position=0):
+    """Return the Nth (0-indexed) wikitable that appears after the heading
+    with this id, stopping the search at the next heading. Returns None if
+    not found (a common/expected outcome if a page's real section titles
+    differ from what's configured - callers should warn, not crash)."""
+    anchor = soup.find(id=heading_id)
+    if anchor is None:
+        return None
+
+    count = 0
+    for el in anchor.find_all_next():
+        if el.name == "table" and "wikitable" in (el.get("class") or []):
+            if count == position:
+                return el
+            count += 1
+            continue
+        if el.name and re.match(r"^h[1-6]$", el.name):
+            break
+        if el.get("class") and "mw-heading" in el.get("class"):
+            break
+    return None
+
+
+def fetch_standings(cfg, key):
+    """Fetch and parse whatever standings tables a league's config
+    describes. Returns {group_label: [team_row, ...]}; an empty dict if
+    the league has no "standings" config, or if none of its configured
+    groups could be located on the page (a stderr warning is printed per
+    missing group so a stale heading id/page title shows up immediately)."""
+    standings_cfg = cfg.get("standings")
+    if not standings_cfg:
+        return {}
+
+    page = standings_cfg["page"]
+    html = fetch_page_html(page)
+    soup = BeautifulSoup(html, "html.parser")
+    result = {}
+
+    if "auto_groups" in standings_cfg:
+        pattern = re.compile(standings_cfg["auto_groups"]["heading_pattern"])
+        for heading in soup.find_all(re.compile(r"^h[1-6]$"), id=True):
+            if not pattern.match(heading.get("id", "")):
+                continue
+            table = find_table_after_heading(soup, heading["id"])
+            if table is None:
+                continue
+            label = heading.get_text(" ", strip=True) or heading["id"].replace("_", " ")
+            rows = parse_standings_table(table)
+            if rows:
+                result[label] = rows
+        return result
+
+    tables_in_order = None
+    for group in standings_cfg.get("groups", []):
+        table = None
+        if "heading_id" in group:
+            table = find_table_after_heading(soup, group["heading_id"], group.get("position", 0))
+        elif "table_index" in group:
+            if tables_in_order is None:
+                tables_in_order = soup.select("table.wikitable")
+            idx = group["table_index"]
+            table = tables_in_order[idx] if idx < len(tables_in_order) else None
+
+        if table is None:
+            print(
+                f"  !! standings: couldn't find table for {key} / {group['label']!r} "
+                f"on page {page!r} - heading id or page title may need updating",
+                file=sys.stderr,
+            )
+            continue
+
+        rows = parse_standings_table(table)
+        if rows:
+            result[group["label"]] = rows
+
+    return result
+
+
+# How far ahead/behind "now" a match has to be to still be worth keeping.
+# The site only ever needs to show what's currently being played, what's
+# imminent, or what just finished (attendance figures sometimes land a
+# few days after full time) - not the full multi-month fixture list every
+# run, which is where most of the request volume against Wikipedia was
+# going.
+SCRAPE_WINDOW_PAST = timedelta(days=7)
+SCRAPE_WINDOW_FUTURE = timedelta(hours=24)
+
+
+def _match_instant(m):
+    """Best-effort datetime for a match, for scrape-window filtering only
+    (display logic in matches.html has its own, separate notion of
+    upcoming/live/final). Prefers the true UTC instant; falls back to the
+    venue-local date/time treated as if it were UTC, which is close enough
+    for a +/- several day window even though it's not precisely correct."""
+    if m.get("utc"):
+        try:
+            return datetime.fromisoformat(m["utc"])
+        except ValueError:
+            pass
+    if m.get("date"):
+        try:
+            time_part = m.get("time") or "00:00"
+            return datetime.strptime(f"{m['date']} {time_part}", "%Y-%m-%d %H:%M").replace(
+                tzinfo=timezone.utc
+            )
+        except ValueError:
+            pass
+    return None
+
+
+def within_scrape_window(m, now):
+    """Keep a match only if its kickoff is within the last 7 days or the
+    next 24 hours. Matches with no usable date at all are kept rather than
+    silently dropped - better a stray fixture than a missing one."""
+    instant = _match_instant(m)
+    if instant is None:
+        return True
+    return (now - SCRAPE_WINDOW_PAST) <= instant <= (now + SCRAPE_WINDOW_FUTURE)
+
+
 def load_existing():
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"updated": None, "leagues": {}, "matches": []}
+            data = json.load(f)
+        data.setdefault("standings", {})
+        return data
+    return {"updated": None, "leagues": {}, "matches": [], "standings": {}}
 
 
 def save(data):
@@ -1598,7 +1918,10 @@ def fetch_and_parse(cfg, key):
 def run(league_keys):
     data = load_existing()
     data.setdefault("leagues", {})
+    data.setdefault("standings", {})
     data["matches"] = [m for m in data.get("matches", []) if m["league"] not in league_keys]
+    for key in league_keys:
+        data["standings"].pop(key, None)
 
     for key in league_keys:
         cfg = LEAGUES[key]
@@ -1610,14 +1933,27 @@ def run(league_keys):
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
         try:
             matches = fetch_and_parse(cfg, key)
-            print(f"  -> found {len(matches)} matches")
-            if not matches:
+            parsed_count = len(matches)
+            now = datetime.now(timezone.utc)
+            matches = [m for m in matches if within_scrape_window(m, now)]
+            print(f"  -> parsed {parsed_count} matches, kept {len(matches)} "
+                  f"within the scrape window (last 7 days / next 24h)")
+            if not parsed_count:
                 print("  !! no matches parsed - the page's match-box markup may differ, "
                       "check LEAGUES config / page name", file=sys.stderr)
             data["matches"].extend(matches)
             data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"]}
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
+
+        try:
+            standings = fetch_standings(cfg, key)
+            if standings:
+                data["standings"][key] = standings
+                group_count = len(standings)
+                print(f"  -> standings: {group_count} table(s) for {cfg['name']}")
+        except Exception as e:
+            print(f"  !! standings failed: {e}", file=sys.stderr)
 
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
