@@ -450,6 +450,12 @@ def parse_matches(html: str, league_key: str, cfg: dict):
         referee_el = box.select_one(".attendee")
         referee = clean_referee(referee_el.get_text(" ", strip=True)) if referee_el else None
 
+        # Attendance shows up as plain text like "Attendance: 45,123" inside
+        # the box, not its own element - same free-text situation as the
+        # date/time/score fields above.
+        attendance_match = re.search(r"Attendance:?\s*([\d,]+)", box_text, re.IGNORECASE)
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
         date_out, time_out = normalize_date(None, date_text, time_text)
         offset = guess_utc_offset(venue, cfg.get("utc_offset"))
         utc = compute_utc(date_out, time_out, offset)
@@ -465,6 +471,7 @@ def parse_matches(html: str, league_key: str, cfg: dict):
                 "utc": utc,
                 "venue": venue,
                 "referee": referee,
+                "attendance": attendance,
             }
         )
 
@@ -887,6 +894,8 @@ def parse_bare_table_matches(wikitext: str, league_key: str, cfg: dict):
         date_out = parse_full_date(date_text)
 
         venue = strip_wikilinks(venue_raw)
+        attendance_match = re.search(r"Attendance:\s*([\d,]+)", venue, re.IGNORECASE)
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
         venue = re.sub(r"\s*Attendance:\s*[\d,]+", "", venue).strip()
         venue = venue if venue else None
 
@@ -901,6 +910,7 @@ def parse_bare_table_matches(wikitext: str, league_key: str, cfg: dict):
                 "utc": None,
                 "venue": venue,
                 "referee": None,
+                "attendance": attendance,
             }
         )
 
@@ -953,6 +963,10 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
             referee = row[roles["referee"]].strip() if "referee" in roles else None
             referee = referee if referee else None
 
+            attendance = row[roles["attendance"]].strip() if "attendance" in roles else None
+            attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
+            attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
             date_out, time_out = None, None
             if "datetime" in roles:
                 combined = row[roles["datetime"]]
@@ -978,6 +992,7 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
                     "utc": utc,
                     "venue": venue if venue else None,
                     "referee": referee,
+                    "attendance": attendance,
                 }
             )
 
@@ -1097,10 +1112,12 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
             )
 
             venue_text = None
+            attendance = None
             for c in cells[opp_idx + 1:]:
                 if not c or c == score_text:
                     continue
                 if re.match(r"^[\d,]+$", c):  # attendance
+                    attendance = c.replace(",", "")
                     continue
                 if re.match(r"^\d{1,2}[-–]\d{1,2}$", c):  # W-L record
                     continue
@@ -1134,6 +1151,7 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                     "utc": utc,
                     "venue": venue_text,
                     "referee": None,
+                    "attendance": attendance,
                 }
             )
 
@@ -1280,6 +1298,12 @@ def parse_fivb_matches(wikitext: str, league_key: str, cfg: dict):
             time_out = to_24h(time_text) if time_text.strip() else None
             utc = compute_utc(date_out, time_out, section_offset)
 
+            # Positional layout is date|time|team1|score|team2|set1..set5|
+            # attendance, so attendance (if given) is the 11th positional
+            # param, right after the five set scores.
+            attendance = positional[10].strip() if len(positional) > 10 else ""
+            attendance = attendance.replace(",", "") if attendance else None
+
             matches.append(
                 {
                     "league": league_key,
@@ -1291,6 +1315,7 @@ def parse_fivb_matches(wikitext: str, league_key: str, cfg: dict):
                     "utc": utc,
                     "venue": None,
                     "referee": None,
+                    "attendance": attendance,
                 }
             )
 
@@ -1388,6 +1413,10 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
         referee = strip_wikilinks(field.get("referee", ""))
         referee = referee if referee else None
 
+        attendance = strip_wikilinks(field.get("attendance", "")).strip()
+        attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
         matches.append(
             {
                 "league": league_key,
@@ -1399,6 +1428,7 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
                 "utc": utc,
                 "venue": venue,
                 "referee": referee,
+                "attendance": attendance,
             }
         )
 
@@ -1466,6 +1496,10 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
         referee = field.get("referee", "").strip()
         referee = referee if referee else None
 
+        attendance = strip_wikilinks(field.get("attendance", "")).strip()
+        attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
         matches.append(
             {
                 "league": league_key,
@@ -1477,6 +1511,7 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
                 "utc": utc,
                 "venue": venue_display,
                 "referee": referee,
+                "attendance": attendance,
             }
         )
 

@@ -354,7 +354,7 @@ function render() {
           <span class="team-score">${awayScore}</span>
         </div>
         <div class="match-meta">
-          ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}
+          ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
         </div>
       </div>
     `;
