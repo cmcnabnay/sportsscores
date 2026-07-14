@@ -109,6 +109,10 @@ LEAGUES = {
         "sport": "rugby",
         "parser": "vevent",
         "utc_offset": 4,  # Georgia (GET), no DST
+        "tag_sections": True,  # tags each match with its enclosing Pool/
+                                # bracket (h3) and round (h4) headings, so
+                                # matches.html can render pool tables and a
+                                # knockout bracket, not just a flat list
         "standings": {
             "page": "2026_World_Rugby_Junior_World_Championship",
             # However many pools exist this year (Pool A, Pool B, ...) -
@@ -406,8 +410,21 @@ def compute_utc(date_out, time_out, utc_offset):
     return utc_dt.replace(tzinfo=timezone.utc).isoformat()
 
 
+# Caches each page's content (wikitext and/or rendered HTML) for the
+# lifetime of one run, keyed by page title. Several leagues fetch the same
+# page twice - once for matches, once for standings (e.g. u20-jwc,
+# super-league, afle all point their "standings" config at the same page
+# used for matches) - so without this, that's a fully duplicated network
+# request for identical content every single run.
+_page_cache = {}
+
+
 def fetch_page_html(page_title: str) -> str:
     """Fetch the rendered HTML body of a Wikipedia article via the MediaWiki API."""
+    cached = _page_cache.get(page_title, {})
+    if "html" in cached:
+        return cached["html"]
+
     params = {
         "action": "parse",
         "page": page_title,
@@ -422,26 +439,37 @@ def fetch_page_html(page_title: str) -> str:
         data = json.loads(resp.read().decode("utf-8"))
     if "error" in data:
         raise RuntimeError(f"Wikipedia API error for '{page_title}': {data['error']}")
-    return data["parse"]["text"]
+    html = data["parse"]["text"]
+    _page_cache.setdefault(page_title, {})["html"] = html
+    return html
 
 
 def fetch_page_wikitext(page_title: str) -> str:
-    """Fetch the raw wikitext source of a Wikipedia article via the MediaWiki API."""
-    params = {
-        "action": "parse",
-        "page": page_title,
-        "prop": "wikitext",
-        "format": "json",
-        "formatversion": "2",
-    }
-    query = "&".join(f"{k}={quote(str(v))}" for k, v in params.items())
-    url = f"{API_URL}?{query}"
+    """Fetch the raw wikitext source of a Wikipedia article via the
+    lightweight ?action=raw endpoint, rather than action=parse&prop=wikitext.
+    Both return the same underlying source, but action=parse routes through
+    MediaWiki's full parser/rendering pipeline server-side even when all
+    that's wanted is the raw text - that's the more expensive of the two
+    operations to run, and anonymous API access gets throttled harder for
+    it. action=raw skips rendering entirely and just serves the page
+    content directly, which is lighter on Wikipedia's end and far less
+    likely to trip a 429."""
+    cached = _page_cache.get(page_title, {})
+    if "wikitext" in cached:
+        return cached["wikitext"]
+
+    url = f"https://en.wikipedia.org/w/index.php?title={quote(page_title)}&action=raw"
     req = Request(url, headers=HEADERS)
     with _throttled_urlopen(req) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    if "error" in data:
-        raise RuntimeError(f"Wikipedia API error for '{page_title}': {data['error']}")
-    return data["parse"]["wikitext"]
+        wikitext = resp.read().decode("utf-8")
+    if wikitext.lstrip().startswith("<") and "#REDIRECT" not in wikitext.upper():
+        # A raw fetch returning HTML/XML instead of wikitext usually means
+        # the page title is wrong (redirected to a login/error page rather
+        # than raising a clean error) - fail loudly instead of silently
+        # trying to regex-parse HTML as if it were wikitext.
+        raise RuntimeError(f"Unexpected non-wikitext response for '{page_title}' via action=raw")
+    _page_cache.setdefault(page_title, {})["wikitext"] = wikitext
+    return wikitext
 
 
 def normalize_date(iso_date, date_text, time_text):
@@ -495,6 +523,26 @@ def strip_citations(text: str) -> str:
     # Bare {{cite ...}} / {{Cite ...}} templates not wrapped in <ref> tags
     cleaned = re.sub(r"\{\{\s*[Cc]ite[^{}]*\}\}", "", cleaned)
     return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def preceding_heading_breadcrumb(element, levels=(3, 4)):
+    """Return {level: heading_text} for the nearest heading at each given
+    level that appears before `element` in document order - i.e. which
+    section(s) this element sits inside, most specific included. Used to
+    tag which pool/bracket and round a knockout match belongs to, straight
+    from the page's own heading structure (e.g. h3 "Thirteenth-place
+    bracket" > h4 "Thirteenth-place semi-finals") rather than hardcoding
+    bracket shapes per tournament."""
+    breadcrumb = {}
+    remaining = set(levels)
+    for h in element.find_all_previous(re.compile(r"^h[2-6]$")):
+        level = int(h.name[1])
+        if level in remaining:
+            breadcrumb[level] = h.get_text(" ", strip=True)
+            remaining.discard(level)
+        if not remaining:
+            break
+    return breadcrumb
 
 
 def parse_matches(html: str, league_key: str, cfg: dict):
@@ -553,6 +601,12 @@ def parse_matches(html: str, league_key: str, cfg: dict):
         offset = guess_utc_offset(venue, cfg.get("utc_offset"))
         utc = compute_utc(date_out, time_out, offset)
 
+        group, round_name = None, None
+        if cfg.get("tag_sections"):
+            breadcrumb = preceding_heading_breadcrumb(box, levels=(3, 4))
+            group = breadcrumb.get(3)
+            round_name = breadcrumb.get(4)
+
         matches.append(
             {
                 "league": league_key,
@@ -564,6 +618,8 @@ def parse_matches(html: str, league_key: str, cfg: dict):
                 "utc": utc,
                 "venue": venue,
                 "attendance": attendance,
+                "group": group,
+                "round": round_name,
             }
         )
 
@@ -1804,8 +1860,8 @@ def fetch_standings(cfg, key):
 # imminent, or what just finished (attendance figures sometimes land a
 # few days after full time). Anything else keeps whatever's already
 # stored rather than being re-parsed every run.
-SCRAPE_WINDOW_PAST = timedelta(days=7)
-SCRAPE_WINDOW_FUTURE = timedelta(hours=24)
+SCRAPE_WINDOW_PAST = timedelta(days=3)
+SCRAPE_WINDOW_FUTURE = timedelta(days=1)
 
 
 def _match_instant(m):
@@ -1879,8 +1935,25 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, now):
     merged = {_match_identity(m): m for m in existing_matches}
     for m in freshly_parsed_matches:
         ident = _match_identity(m)
-        if ident not in merged or within_scrape_window(m, now):
+        if ident not in merged:
             merged[ident] = m
+        elif within_scrape_window(m, now):
+            merged[ident] = m
+        else:
+            # Outside the scrape window, so don't let a fresh parse
+            # overwrite anything already stored (that's what the window is
+            # for - a finished match's score shouldn't flip-flop based on
+            # page-edit noise). But DO backfill any field that's still
+            # None on the stored record - e.g. a "group"/"round" bracket
+            # tag that a stale record never got (because tag_sections was
+            # added after this match was first scraped, or the heading
+            # breadcrumb failed to resolve at the time). A missing field
+            # getting filled in is never a "flip-flop"; there's nothing to
+            # protect by leaving it None forever.
+            stored = merged[ident]
+            for field, value in m.items():
+                if stored.get(field) is None and value is not None:
+                    stored[field] = value
     return list(merged.values())
 
 
@@ -1899,7 +1972,7 @@ def save(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def fetch_and_parse(cfg, key):
+def fetch_and_parse(cfg, key, cached=None, now=None):
     parser_type = cfg.get("parser", "vevent")
     pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
 
@@ -1943,9 +2016,33 @@ def fetch_and_parse(cfg, key):
         return matches
 
     if parser_type == "cfl_schedule":
+        # Unlike every other parser here, each CFL team has its own,
+        # independent page - so unlike a single shared results page (which
+        # always has to be fetched in full to check anything at all), a
+        # team whose page has no home game due within the scrape window
+        # genuinely doesn't need to be re-fetched this run. This is the
+        # one place fetching itself (not just parsing) can actually be
+        # skipped based on the window, cutting this league from 9 fetches
+        # a run down to typically 1-3.
+        home_games_by_team = {}
+        for m in (cached or []):
+            home_games_by_team.setdefault(m.get("home"), []).append(m)
+
         matches = []
         seen = set()
+        skipped = 0
         for page, team_name in cfg["team_pages"].items():
+            team_games = home_games_by_team.get(team_name, [])
+            due_soon = any(within_scrape_window(m, now) for m in team_games) if now else True
+            if team_games and not due_soon:
+                # We've fetched this team before and nothing of theirs
+                # (home game) is due soon - reuse what's stored instead of
+                # re-fetching. (An empty team_games list means we've never
+                # successfully parsed this team at all, e.g. first run or
+                # a prior fetch failure - always fetch in that case.)
+                skipped += 1
+                matches.extend(team_games)
+                continue
             wikitext = fetch_page_wikitext(page)
             for m in parse_cfl_schedule(wikitext, key, cfg, team_name):
                 # Safety net alongside the home-row-only filter in
@@ -1955,12 +2052,15 @@ def fetch_and_parse(cfg, key):
                     continue
                 seen.add(sig)
                 matches.append(m)
+        if skipped:
+            print(f"  -> CFL: skipped re-fetching {skipped}/{len(cfg['team_pages'])} "
+                  f"team pages (no home game due soon, reused stored data)")
         return matches
 
     raise ValueError(f"Unknown parser type '{parser_type}' for league '{key}'")
 
 
-def run(league_keys):
+def run(league_keys, force=False):
     data = load_existing()
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
@@ -1970,13 +2070,54 @@ def run(league_keys):
     for m in data.get("matches", []):
         existing_by_league.setdefault(m["league"], []).append(m)
 
+    # Matches for leagues being processed this run get re-added below -
+    # either freshly merged, or (if skipped) carried forward unchanged -
+    # so nothing is dropped here. Leagues NOT in league_keys are untouched.
     data["matches"] = [m for m in data.get("matches", []) if m["league"] not in league_keys]
-    for key in league_keys:
-        data["standings"].pop(key, None)
 
     for key in league_keys:
         cfg = LEAGUES[key]
         cached = existing_by_league.get(key, [])
+
+        # Nothing-due-soon check, straight from fixtures.json (this
+        # script's own prior output - the only place with per-match dates
+        # for every league). If we've successfully fetched this league
+        # before (cached is non-empty) and none of what we found then
+        # falls inside the current scrape window, there's nothing to
+        # check on Wikipedia right now - skip the fetch (and standings
+        # fetch) entirely and just keep what's stored. An empty `cached`
+        # means we've never successfully fetched this league (first run,
+        # or every prior attempt failed) - always fetch in that case.
+        # --force bypasses this, for an occasional full run to catch a
+        # newly-published fixture or postponement this check can't see
+        # (it only knows about matches already on record).
+        if not force and cached and not any(within_scrape_window(m, now) for m in cached):
+            print(f"Skipping {cfg['name']} fixtures - nothing in its {len(cached)} stored "
+                  f"matches falls within the scrape window; reusing as-is "
+                  f"(use --force to check anyway)")
+            data["matches"].extend(cached)
+            data["leagues"].setdefault(key, {"name": cfg["name"], "sport": cfg["sport"]})
+            # Standings are NOT tied to the fixture scrape window above - a
+            # ladder/table can change every time a match is played regardless
+            # of whether any of THIS league's remaining fixtures happen to
+            # fall inside the fixture-refresh window right now. Skipping this
+            # unconditionally on the fixtures-skip path (as a previous
+            # version of this function did) meant any league whose standings
+            # config had a mismatched heading/page the first time it ran
+            # would silently never get another chance to pick up standings
+            # again - which is exactly what happened to nrl-2026,
+            # super-league-2026, efa-2026, cfl-2026, u20-jwc-2026, and
+            # nations-cup-2026 in the wild. So this always re-fetches
+            # standings, even when fixtures themselves are skipped.
+            try:
+                standings = fetch_standings(cfg, key)
+                if standings:
+                    data["standings"][key] = standings
+                    print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
+            except Exception as e:
+                print(f"  !! standings failed: {e}", file=sys.stderr)
+            continue
+
         if "team_pages" in cfg:
             source_desc = f"{len(cfg['team_pages'])} team pages"
         else:
@@ -1984,7 +2125,7 @@ def run(league_keys):
             source_desc = ", ".join(pages)
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
         try:
-            fresh_matches = fetch_and_parse(cfg, key)
+            fresh_matches = fetch_and_parse(cfg, key, cached=cached, now=now)
             if not fresh_matches:
                 print("  !! no matches parsed - the page's match-box markup may differ, "
                       "check LEAGUES config / page name", file=sys.stderr)
@@ -2019,6 +2160,9 @@ def run(league_keys):
                 data["standings"][key] = standings
                 group_count = len(standings)
                 print(f"  -> standings: {group_count} table(s) for {cfg['name']}")
+            # An empty/failed standings fetch leaves data["standings"][key]
+            # exactly as loaded, rather than wiping previously-known
+            # standings just because this particular run didn't refresh them.
         except Exception as e:
             print(f"  !! standings failed: {e}", file=sys.stderr)
 
@@ -2031,6 +2175,12 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch sports fixtures from Wikipedia.")
     parser.add_argument("leagues", nargs="*", help="league keys to fetch (default: all)")
     parser.add_argument("--list", action="store_true", help="list configured leagues and exit")
+    parser.add_argument(
+        "--force", action="store_true",
+        help="check every league even if nothing in its stored matches falls within "
+             "the scrape window (by default those leagues are skipped entirely - use "
+             "this occasionally to catch newly-published fixtures or postponements)",
+    )
     args = parser.parse_args()
 
     if args.list:
@@ -2045,7 +2195,7 @@ def main():
         print("Use --list to see configured leagues.", file=sys.stderr)
         sys.exit(1)
 
-    run(keys)
+    run(keys, force=args.force)
 
 
 if __name__ == "__main__":

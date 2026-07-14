@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T05:21:21+00:00",
+  "updated": "2026-07-14T05:31:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -6180,7 +6180,8 @@
       "time": "13:00",
       "utc": "2026-06-27T09:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool B"
     },
     {
       "league": "u20-jwc-2026",
@@ -6191,7 +6192,8 @@
       "time": "13:00",
       "utc": "2026-06-27T09:00:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool C"
     },
     {
       "league": "nrl-2026",
@@ -6224,7 +6226,8 @@
       "time": "15:30",
       "utc": "2026-06-27T11:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool B"
     },
     {
       "league": "u20-jwc-2026",
@@ -6235,7 +6238,8 @@
       "time": "15:30",
       "utc": "2026-06-27T11:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool C"
     },
     {
       "league": "cfl-2026",
@@ -6323,7 +6327,8 @@
       "time": "18:00",
       "utc": "2026-06-27T14:00:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool A"
     },
     {
       "league": "u20-jwc-2026",
@@ -6334,7 +6339,8 @@
       "time": "18:00",
       "utc": "2026-06-27T14:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool D"
     },
     {
       "league": "efa-2026",
@@ -6378,7 +6384,8 @@
       "time": "20:30",
       "utc": "2026-06-27T16:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool A"
     },
     {
       "league": "u20-jwc-2026",
@@ -6389,7 +6396,8 @@
       "time": "20:30",
       "utc": "2026-06-27T16:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool D"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -6653,7 +6661,8 @@
       "time": "13:00",
       "utc": "2026-07-02T09:00:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool A"
     },
     {
       "league": "u20-jwc-2026",
@@ -6664,7 +6673,8 @@
       "time": "13:00",
       "utc": "2026-07-02T09:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool D"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -6708,7 +6718,8 @@
       "time": "15:30",
       "utc": "2026-07-02T11:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool C"
     },
     {
       "league": "u20-jwc-2026",
@@ -6719,7 +6730,8 @@
       "time": "15:30",
       "utc": "2026-07-02T11:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool D"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -6752,7 +6764,8 @@
       "time": "18:00",
       "utc": "2026-07-02T14:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool B"
     },
     {
       "league": "u20-jwc-2026",
@@ -6763,7 +6776,8 @@
       "time": "18:00",
       "utc": "2026-07-02T14:00:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool C"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -6939,7 +6953,8 @@
       "time": "20:30",
       "utc": "2026-07-02T16:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool A"
     },
     {
       "league": "u20-jwc-2026",
@@ -6950,7 +6965,8 @@
       "time": "20:30",
       "utc": "2026-07-02T16:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Pool B"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -8907,7 +8923,9 @@
       "time": "18:00",
       "utc": "2026-07-17T14:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Thirteenth-place bracket",
+      "round": "Fifteenth-place play-off"
     },
     {
       "league": "u20-jwc-2026",
@@ -8918,7 +8936,9 @@
       "time": "18:00",
       "utc": "2026-07-17T14:00:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Fifth-place bracket",
+      "round": "Seventh-place play-off"
     },
     {
       "league": "nrl-2026",
@@ -9017,7 +9037,9 @@
       "time": "20:30",
       "utc": "2026-07-17T16:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Thirteenth-place bracket",
+      "round": "Thirteenth-place play-off"
     },
     {
       "league": "u20-jwc-2026",
@@ -9028,7 +9050,9 @@
       "time": "20:30",
       "utc": "2026-07-17T16:30:00+00:00",
       "venue": "Avchala Stadium, Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Fifth-place bracket",
+      "round": "Fifth-place play-off"
     },
     {
       "league": "nations-cup-2026",
@@ -9204,7 +9228,9 @@
       "time": "18:00",
       "utc": "2026-07-18T14:00:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Ninth-place bracket",
+      "round": "Eleventh-place play-off"
     },
     {
       "league": "u20-jwc-2026",
@@ -9215,7 +9241,9 @@
       "time": "18:00",
       "utc": "2026-07-18T14:00:00+00:00",
       "venue": "Mikheil Meskhi Stadium , Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Championship bracket",
+      "round": "Third-place play-off"
     },
     {
       "league": "nations-cup-2026",
@@ -9347,7 +9375,9 @@
       "time": "20:30",
       "utc": "2026-07-18T16:30:00+00:00",
       "venue": "Aia Arena , Kutaisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Ninth-place bracket",
+      "round": "Ninth-place play-off"
     },
     {
       "league": "u20-jwc-2026",
@@ -9358,7 +9388,9 @@
       "time": "20:30",
       "utc": "2026-07-18T16:30:00+00:00",
       "venue": "Mikheil Meskhi Stadium , Tbilisi",
-      "attendance": null
+      "attendance": null,
+      "group": "Championship bracket",
+      "round": "Final"
     },
     {
       "league": "afle-2026",
