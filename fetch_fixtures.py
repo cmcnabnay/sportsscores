@@ -1797,18 +1797,19 @@ def fetch_standings(cfg, key):
     return result
 
 
-# How far ahead/behind "now" a match has to be to still be worth keeping.
-# The site only ever needs to show what's currently being played, what's
+# How far ahead/behind "now" a match has to be to have its stored fields
+# refreshed on this run. This does NOT control what's displayed - the app
+# shows the full season, every run - it only controls which matches are
+# worth re-checking against Wikipedia's current text: what's live/
 # imminent, or what just finished (attendance figures sometimes land a
-# few days after full time) - not the full multi-month fixture list every
-# run, which is where most of the request volume against Wikipedia was
-# going.
+# few days after full time). Anything else keeps whatever's already
+# stored rather than being re-parsed every run.
 SCRAPE_WINDOW_PAST = timedelta(days=7)
 SCRAPE_WINDOW_FUTURE = timedelta(hours=24)
 
 
 def _match_instant(m):
-    """Best-effort datetime for a match, for scrape-window filtering only
+    """Best-effort datetime for a match, for scrape-window purposes only
     (display logic in matches.html has its own, separate notion of
     upcoming/live/final). Prefers the true UTC instant; falls back to the
     venue-local date/time treated as if it were UTC, which is close enough
@@ -1830,13 +1831,57 @@ def _match_instant(m):
 
 
 def within_scrape_window(m, now):
-    """Keep a match only if its kickoff is within the last 7 days or the
-    next 24 hours. Matches with no usable date at all are kept rather than
-    silently dropped - better a stray fixture than a missing one."""
+    """True if this match's kickoff is within the last 7 days or the next
+    24 hours - i.e. worth refreshing from a fresh parse. Matches with no
+    usable date at all are treated as always-eligible, since there's no
+    window to check them against and a stray unmatched fixture is better
+    than one that silently never updates."""
     instant = _match_instant(m)
     if instant is None:
         return True
     return (now - SCRAPE_WINDOW_PAST) <= instant <= (now + SCRAPE_WINDOW_FUTURE)
+
+
+def _match_identity(m):
+    """Identity used to match a freshly parsed match against one already
+    stored from a previous run, so an update can be applied in place
+    instead of appended as a duplicate."""
+    return (m.get("home"), m.get("away"), m.get("date"))
+
+
+def merge_league_matches(existing_matches, freshly_parsed_matches, now):
+    """Combine what's already stored for a league with a fresh parse of
+    the page, so fixtures.json always holds the full season (past and
+    future) for the app to browse, while only the matches actually inside
+    the scrape window get their fields refreshed:
+
+      - A match already stored AND inside the window: replaced with the
+        freshly parsed version (picks up new scores, attendance, or a
+        kick-off time change).
+      - A match already stored but outside the window: left exactly as
+        stored - not re-parsed, not touched.
+      - A match that's brand new (wasn't stored before): always added,
+        regardless of window, since a newly published fixture should show
+        up right away rather than waiting for its own window to arrive.
+
+    Once a match has been scraped into fixtures.json it never disappears
+    on a later run - the only two things that ever happen to a match on a
+    subsequent run are (a) getting its fields refreshed, if it's inside
+    the window, or (b) a brand new one getting appended.
+
+    Known limitation: matches are matched between runs by (home, away,
+    date). If Wikipedia moves a fixture to a materially different date -
+    a postponement spotted outside the usual next-24h window - this can't
+    recognize it as "the same match, new date"; it gets added as a new
+    entry and the stale old-dated entry is left behind rather than
+    replaced.
+    """
+    merged = {_match_identity(m): m for m in existing_matches}
+    for m in freshly_parsed_matches:
+        ident = _match_identity(m)
+        if ident not in merged or within_scrape_window(m, now):
+            merged[ident] = m
+    return list(merged.values())
 
 
 def load_existing():
@@ -1919,12 +1964,19 @@ def run(league_keys):
     data = load_existing()
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
+    now = datetime.now(timezone.utc)
+
+    existing_by_league = {}
+    for m in data.get("matches", []):
+        existing_by_league.setdefault(m["league"], []).append(m)
+
     data["matches"] = [m for m in data.get("matches", []) if m["league"] not in league_keys]
     for key in league_keys:
         data["standings"].pop(key, None)
 
     for key in league_keys:
         cfg = LEAGUES[key]
+        cached = existing_by_league.get(key, [])
         if "team_pages" in cfg:
             source_desc = f"{len(cfg['team_pages'])} team pages"
         else:
@@ -1932,19 +1984,34 @@ def run(league_keys):
             source_desc = ", ".join(pages)
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
         try:
-            matches = fetch_and_parse(cfg, key)
-            parsed_count = len(matches)
-            now = datetime.now(timezone.utc)
-            matches = [m for m in matches if within_scrape_window(m, now)]
-            print(f"  -> parsed {parsed_count} matches, kept {len(matches)} "
-                  f"within the scrape window (last 7 days / next 24h)")
-            if not parsed_count:
+            fresh_matches = fetch_and_parse(cfg, key)
+            if not fresh_matches:
                 print("  !! no matches parsed - the page's match-box markup may differ, "
                       "check LEAGUES config / page name", file=sys.stderr)
-            data["matches"].extend(matches)
+
+            fresh_by_ident = {_match_identity(m): m for m in fresh_matches}
+            stored_idents = {_match_identity(m) for m in cached}
+            refreshed = sum(
+                1 for ident, m in fresh_by_ident.items()
+                if ident in stored_idents and within_scrape_window(m, now)
+            )
+            added = sum(1 for ident in fresh_by_ident if ident not in stored_idents)
+
+            merged = merge_league_matches(cached, fresh_matches, now)
+            print(f"  -> parsed {len(fresh_matches)} matches on the page: "
+                  f"{refreshed} refreshed (in scrape window), {added} newly added, "
+                  f"{len(merged)} total now stored (was {len(cached)})")
+
+            data["matches"].extend(merged)
             data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"]}
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
+            # Fetch failed outright - keep whatever was already stored
+            # rather than losing the league's fixtures for this run.
+            # data["leagues"][key] already holds the prior entry (if any)
+            # from load_existing(), since it's only ever overwritten on a
+            # successful parse above.
+            data["matches"].extend(cached)
 
         try:
             standings = fetch_standings(cfg, key)
