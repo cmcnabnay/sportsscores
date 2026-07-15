@@ -161,8 +161,8 @@ LEAGUES = {
         "standings": {
             "page": "2026_World_Rugby_Nations_Cup",
             "groups": [
-                {"label": "Americas-Pacific", "heading_id": "Americas-Pacific"},
-                {"label": "European-African-Asian", "heading_id": "European-African-Asian"},
+                {"label": "Americas-Pacific", "heading_id": "Americas-Pacific_pool"},
+                {"label": "European-African-Asian", "heading_id": "European-African-Asian_pool"},
             ],
         },
     },
@@ -272,7 +272,7 @@ LEAGUES = {
             # "Standings" heading (one template transclusion per
             # division), so they're distinguished by position rather than
             # by their own heading id - West first, then East.
-            "page": "2026_Canadian_Football_League_season",
+            "page": "2026_CFL_season",
             "groups": [
                 {"label": "West Division", "heading_id": "Standings", "position": 0},
                 {"label": "East Division", "heading_id": "Standings", "position": 1},
@@ -1776,17 +1776,25 @@ def parse_standings_table(table):
 
 
 def find_table_after_heading(soup, heading_id, position=0):
-    """Return the Nth (0-indexed) wikitable that appears after the heading
-    with this id, stopping the search at the next heading. Returns None if
-    not found (a common/expected outcome if a page's real section titles
-    differ from what's configured - callers should warn, not crash)."""
+    """Return the Nth (0-indexed) table that appears after the heading
+    with this id, stopping the search at the next heading. Deliberately
+    does NOT require a 'wikitable' CSS class - template/module-rendered
+    standings tables (e.g. EFA/CFL's standings templates, or Nations Cup's
+    {{#invoke:Sports table}}) don't reliably carry that class the way a
+    hand-written wikitext table does, even though the rendered output is a
+    perfectly normal <table>. The real validation happens one level up in
+    parse_standings_table() (via _standings_header_row's requirement of a
+    recognizable team column) - this just needs to find candidate tables,
+    not judge them. Returns None if not found (a common/expected outcome
+    if a page's real section titles differ from what's configured -
+    callers should warn, not crash)."""
     anchor = soup.find(id=heading_id)
     if anchor is None:
         return None
 
     count = 0
     for el in anchor.find_all_next():
-        if el.name == "table" and "wikitable" in (el.get("class") or []):
+        if el.name == "table":
             if count == position:
                 return el
             count += 1
@@ -1815,13 +1823,22 @@ def fetch_standings(cfg, key):
 
     if "auto_groups" in standings_cfg:
         pattern = re.compile(standings_cfg["auto_groups"]["heading_pattern"])
-        for heading in soup.find_all(re.compile(r"^h[1-6]$"), id=True):
-            if not pattern.match(heading.get("id", "")):
+        seen_ids = set()
+        # Headings can carry their id directly on the h1-h6 tag (current
+        # MediaWiki convention) or on an inner <span class="mw-headline">
+        # (older convention, still seen on some page histories) - checking
+        # both means this doesn't depend on which one a given page uses.
+        candidates = soup.find_all(re.compile(r"^h[1-6]$"), id=True)
+        candidates += soup.find_all("span", class_="mw-headline", id=True)
+        for heading in candidates:
+            heading_id = heading.get("id")
+            if not heading_id or heading_id in seen_ids or not pattern.match(heading_id):
                 continue
-            table = find_table_after_heading(soup, heading["id"])
+            seen_ids.add(heading_id)
+            table = find_table_after_heading(soup, heading_id)
             if table is None:
                 continue
-            label = heading.get_text(" ", strip=True) or heading["id"].replace("_", " ")
+            label = heading.get_text(" ", strip=True) or heading_id.replace("_", " ")
             rows = parse_standings_table(table)
             if rows:
                 result[label] = rows
@@ -1834,7 +1851,7 @@ def fetch_standings(cfg, key):
             table = find_table_after_heading(soup, group["heading_id"], group.get("position", 0))
         elif "table_index" in group:
             if tables_in_order is None:
-                tables_in_order = soup.select("table.wikitable")
+                tables_in_order = soup.find_all("table")
             idx = group["table_index"]
             table = tables_in_order[idx] if idx < len(tables_in_order) else None
 

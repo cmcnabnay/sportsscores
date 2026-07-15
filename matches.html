@@ -90,146 +90,6 @@
     box-shadow: 0 2px 6px rgba(11,31,58,0.12);
   }
   .day-nav button:hover { background: var(--navy); color: white; }
-  .view-tabs {
-    max-width: 720px;
-    margin: 14px auto 0;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-  }
-  .view-tabs button {
-    border: none;
-    background: transparent;
-    color: var(--grey);
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .view-tabs button.active {
-    background: var(--navy);
-    color: white;
-  }
-  .league-bar {
-    max-width: 720px;
-    margin: 14px auto 0;
-    padding: 0 20px 4px;
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-  .league-bar::-webkit-scrollbar { display: none; }
-  .league-bar button {
-    flex: 0 0 auto;
-    border: none;
-    background: white;
-    color: var(--navy);
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
-    white-space: nowrap;
-  }
-  .league-bar button.active {
-    background: var(--navy);
-    color: white;
-  }
-  .standings-group {
-    margin-bottom: 22px;
-  }
-  .standings-group h2 {
-    font-size: 14px;
-    margin: 0 0 8px;
-    color: var(--navy);
-  }
-  .standings-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(11,31,58,0.08);
-    font-size: 13px;
-  }
-  .standings-table th,
-  .standings-table td {
-    padding: 8px 10px;
-    text-align: center;
-  }
-  .standings-table th {
-    background: var(--navy);
-    color: white;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-  }
-  .standings-table td.team-col,
-  .standings-table th.team-col {
-    text-align: left;
-  }
-  .standings-table tr:nth-child(even) td {
-    background: #f8f9fb;
-  }
-  .standings-table td.pts-col {
-    font-weight: 700;
-    color: var(--navy);
-  }
-  .bracket-group {
-    margin-bottom: 28px;
-  }
-  .bracket-group h2 {
-    font-size: 14px;
-    margin: 0 0 10px;
-    color: var(--navy);
-  }
-  .bracket-rounds {
-    display: flex;
-    gap: 14px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
-  .bracket-round {
-    flex: 0 0 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 10px;
-  }
-  .bracket-round h3 {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    color: var(--grey);
-    margin: 0 0 2px;
-    text-align: center;
-  }
-  .bracket-match {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(11,31,58,0.1);
-    padding: 8px 10px;
-    font-size: 13px;
-  }
-  .bracket-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 3px 0;
-  }
-  .bracket-row.winner { font-weight: 700; color: var(--navy); }
-  .bracket-team { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .bracket-score { padding-left: 8px; font-weight: 700; }
-  .bracket-date {
-    font-size: 10px;
-    color: var(--grey);
-    text-align: center;
-    margin-top: 4px;
-  }
   main {
     max-width: 720px;
     margin: 0 auto;
@@ -326,6 +186,10 @@
 <header>
   <h1>Match Day</h1>
   <p id="update-note">Loading fixtures…</p>
+  <nav style="margin-top:10px;font-size:12px;">
+    <a href="matches.html" style="color:white;background:rgba(255,255,255,0.15);text-decoration:none;padding:4px 10px;border-radius:12px;">Fixtures</a>
+    <a href="standings.html" style="color:#b9c4d8;text-decoration:none;padding:4px 10px;border-radius:12px;">Standings</a>
+  </nav>
 </header>
 
 <div class="controls">
@@ -341,52 +205,24 @@
   </div>
 </div>
 
-<div class="view-tabs">
-  <button id="tab-fixtures" class="active">Fixtures</button>
-  <button id="tab-standings">Standings</button>
-  <button id="tab-bracket">Bracket</button>
-</div>
-
-<div class="day-nav" id="day-nav">
+<div class="day-nav">
   <button id="prev-day">&larr; Prev</button>
   <button id="today-btn">Today</button>
   <button id="next-day">Next &rarr;</button>
 </div>
 
-<div class="league-bar" id="league-bar" style="display:none"></div>
-
 <main>
   <div class="selected-date" id="selected-date-label"></div>
   <div id="match-list"></div>
-  <div id="standings-view" style="display:none"></div>
-  <div id="bracket-view" style="display:none"></div>
 </main>
 
 <script>
 let allMatches = [];
 let leagues = {};
-let allStandings = {};
-let currentView = 'fixtures';
-
-// Standings and Bracket each get their own "which league is selected"
-// state, independent of the Fixtures date view's dropdown and of each
-// other, so switching tabs doesn't reset your place. null means "not
-// chosen yet" - populateLeagueBar() defaults it to the first league with
-// data the first time that view is opened.
-let standingsLeague = null;
-let bracketLeague = null;
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
-const controls = document.querySelector('.controls');
 const matchList = document.getElementById('match-list');
-const standingsView = document.getElementById('standings-view');
-const bracketView = document.getElementById('bracket-view');
-const dayNav = document.getElementById('day-nav');
-const leagueBar = document.getElementById('league-bar');
-const tabFixtures = document.getElementById('tab-fixtures');
-const tabStandings = document.getElementById('tab-standings');
-const tabBracket = document.getElementById('tab-bracket');
 const selectedDateLabel = document.getElementById('selected-date-label');
 const updateNote = document.getElementById('update-note');
 
@@ -409,30 +245,6 @@ document.getElementById('today-btn').addEventListener('click', () => {
 });
 dateInput.addEventListener('change', render);
 leagueSelect.addEventListener('change', render);
-
-tabFixtures.addEventListener('click', () => setView('fixtures'));
-tabStandings.addEventListener('click', () => setView('standings'));
-tabBracket.addEventListener('click', () => setView('bracket'));
-
-function setView(view) {
-  currentView = view;
-  tabFixtures.classList.toggle('active', view === 'fixtures');
-  tabStandings.classList.toggle('active', view === 'standings');
-  tabBracket.classList.toggle('active', view === 'bracket');
-  const isFixtures = view === 'fixtures';
-  // Fixtures keeps the Date/League dropdown card (it's a day-by-day, all-
-  // or-one-league view). Standings and Bracket are each their own
-  // distinct page keyed off a single league, chosen from the horizontal
-  // league bar instead - so the dropdown card is irrelevant there.
-  controls.style.display = isFixtures ? 'flex' : 'none';
-  dayNav.style.display = isFixtures ? 'flex' : 'none';
-  selectedDateLabel.style.display = isFixtures ? '' : 'none';
-  matchList.style.display = isFixtures ? '' : 'none';
-  leagueBar.style.display = isFixtures ? 'none' : 'flex';
-  standingsView.style.display = view === 'standings' ? '' : 'none';
-  bracketView.style.display = view === 'bracket' ? '' : 'none';
-  render();
-}
 
 function enrichMatch(m) {
   // Prefer the true UTC instant (converted to whatever timezone this
@@ -480,17 +292,6 @@ function formatDateLabel(iso) {
 }
 
 function render() {
-  if (currentView === 'standings') {
-    populateLeagueBar('standings');
-    renderStandings();
-    return;
-  }
-  if (currentView === 'bracket') {
-    populateLeagueBar('bracket');
-    renderBracket();
-    return;
-  }
-
   const selectedDate = dateInput.value;
   const selectedLeague = leagueSelect.value;
 
@@ -557,7 +358,7 @@ function render() {
           <span class="team-score">${awayScore}</span>
         </div>
         <div class="match-meta">
-          ${m.venue ? m.venue : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
+          ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
         </div>
       </div>
     `;
@@ -571,235 +372,6 @@ function populateLeagueOptions() {
     opt.value = key;
     opt.textContent = info.name || key;
     leagueSelect.appendChild(opt);
-  }
-}
-
-// Builds the horizontal, scrollable "which league" chip bar for the
-// Standings/Bracket pages - the ESPN-style picker where each league gets
-// its own button rather than a dropdown. Only lists leagues that actually
-// have data for the view in question, plus a leading "All leagues" chip.
-function populateLeagueBar(view) {
-  const keysWithData = view === 'standings'
-    ? Object.keys(allStandings)
-    : [...new Set(
-        allMatches
-          .filter(m => m.group && /bracket/i.test(m.group))
-          .map(m => m.league)
-      )];
-
-  leagueBar.innerHTML = '';
-
-  if (keysWithData.length === 0) {
-    leagueBar.style.display = 'none';
-    return;
-  }
-  leagueBar.style.display = 'flex';
-
-  const ordered = ['all', ...keysWithData.sort((a, b) =>
-    ((leagues[a] && leagues[a].name) || a).localeCompare((leagues[b] && leagues[b].name) || b)
-  )];
-
-  let current = view === 'standings' ? standingsLeague : bracketLeague;
-  if (!current || !ordered.includes(current)) {
-    // Default to the first real league rather than "All leagues", so
-    // opening Standings/Bracket for the first time lands on a single,
-    // readable page instead of everything at once.
-    current = ordered[1] || ordered[0];
-  }
-  if (view === 'standings') standingsLeague = current; else bracketLeague = current;
-
-  for (const key of ordered) {
-    const btn = document.createElement('button');
-    btn.textContent = key === 'all' ? 'All leagues' : ((leagues[key] && leagues[key].name) || key);
-    btn.className = key === current ? 'active' : '';
-    btn.addEventListener('click', () => {
-      if (view === 'standings') standingsLeague = key; else bracketLeague = key;
-      render();
-    });
-    leagueBar.appendChild(btn);
-  }
-}
-
-// Column order/labels for the standings table. Any column with no data at
-// all across every row in a group is skipped, since not every sport/table
-// fills in every stat (e.g. rugby groups have no "for/against" split the
-// same way basketball ones do).
-const STANDINGS_COLUMNS = [
-  { key: 'played', label: 'Pld' },
-  { key: 'win', label: 'W' },
-  { key: 'draw', label: 'D' },
-  { key: 'loss', label: 'L' },
-  { key: 'for', label: 'F' },
-  { key: 'against', label: 'A' },
-  { key: 'diff', label: '+/-' },
-  { key: 'points', label: 'Pts', cssClass: 'pts-col' },
-];
-
-function renderStandings() {
-  standingsView.innerHTML = '';
-
-  const selectedLeague = standingsLeague || 'all';
-  const leagueKeys = selectedLeague === 'all' ? Object.keys(allStandings) : [selectedLeague];
-  const groupsToShow = [];
-
-  for (const key of leagueKeys) {
-    const groups = allStandings[key];
-    if (!groups) continue;
-    const leagueName = (leagues[key] && leagues[key].name) || key;
-    for (const [groupLabel, rows] of Object.entries(groups)) {
-      groupsToShow.push({ leagueName, groupLabel, rows });
-    }
-  }
-
-  if (groupsToShow.length === 0) {
-    standingsView.innerHTML = '<div class="empty-state">No standings available for this league yet.</div>';
-    return;
-  }
-
-  for (const { leagueName, groupLabel, rows } of groupsToShow) {
-    const activeColumns = STANDINGS_COLUMNS.filter(col =>
-      rows.some(r => r[col.key] !== null && r[col.key] !== undefined)
-    );
-
-    const section = document.createElement('div');
-    section.className = 'standings-group';
-
-    const heading = selectedLeague === 'all'
-      ? `${leagueName} &middot; ${groupLabel}`
-      : (groupLabel === 'Standings' || groupLabel === leagueName ? leagueName : `${leagueName} &middot; ${groupLabel}`);
-
-    section.innerHTML = `
-      <h2>${heading}</h2>
-      <table class="standings-table">
-        <thead>
-          <tr>
-            <th class="team-col">Team</th>
-            ${activeColumns.map(c => `<th class="${c.cssClass || ''}">${c.label}</th>`).join('')}
-          </tr>
-        </thead>
-        <tbody>
-          ${rows.map(r => `
-            <tr>
-              <td class="team-col">${r.team}</td>
-              ${activeColumns.map(c => `<td class="${c.cssClass || ''}">${r[c.key] ?? ''}</td>`).join('')}
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
-    `;
-    standingsView.appendChild(section);
-  }
-}
-
-// Rough placement ranking so bracket groups display in a sensible order
-// (Championship first, then descending by placement) without hardcoding
-// exact bracket names - these are the ordinal words Wikipedia's knockout
-// bracket headings use ("Fifth-place bracket", "Thirteenth-place bracket",
-// etc.), not digits, so they're matched by word rather than regex \d+.
-const BRACKET_ORDINAL_RANK = {
-  championship: 0, final: 0,
-  first: 1, third: 3, fifth: 5, seventh: 7, ninth: 9,
-  eleventh: 11, thirteenth: 13, fifteenth: 15, seventeenth: 17,
-};
-
-function bracketRank(groupName) {
-  const g = groupName.toLowerCase();
-  for (const [word, rank] of Object.entries(BRACKET_ORDINAL_RANK)) {
-    if (g.includes(word)) return rank;
-  }
-  return 999;
-}
-
-function earliestSortKey(matches) {
-  return matches.reduce((min, m) => {
-    const key = (m._localDate || m.date || '9999-99-99') + 'T' + (m._localTime || m.time || '99:99');
-    return (min === null || key < min) ? key : min;
-  }, null) || '';
-}
-
-function groupRounds(matches) {
-  const byRound = new Map();
-  for (const m of matches) {
-    const r = m.round || 'Match';
-    if (!byRound.has(r)) byRound.set(r, []);
-    byRound.get(r).push(m);
-  }
-  return [...byRound.entries()]
-    .map(([round, ms]) => ({
-      round,
-      matches: ms.slice().sort((a, b) => earliestSortKey([a]).localeCompare(earliestSortKey([b]))),
-    }))
-    .sort((a, b) => earliestSortKey(a.matches).localeCompare(earliestSortKey(b.matches)));
-}
-
-function bracketMatchCard(m) {
-  const played = m.score !== null && m.score !== undefined && m.score !== '';
-  let homeScore = '', awayScore = '', homeWin = false, awayWin = false;
-  if (played) {
-    const parts = String(m.score).split(/[-–]/).map(s => s.trim());
-    if (parts.length === 2) {
-      homeScore = parts[0];
-      awayScore = parts[1];
-      homeWin = Number(homeScore) > Number(awayScore);
-      awayWin = Number(awayScore) > Number(homeScore);
-    }
-  }
-  return `
-    <div class="bracket-match">
-      <div class="bracket-row ${homeWin ? 'winner' : ''}">
-        <span class="bracket-team">${m.home}</span>
-        <span class="bracket-score">${homeScore}</span>
-      </div>
-      <div class="bracket-row ${awayWin ? 'winner' : ''}">
-        <span class="bracket-team">${m.away}</span>
-        <span class="bracket-score">${awayScore}</span>
-      </div>
-      <div class="bracket-date">${m._localDate || m.date || 'TBC'}</div>
-    </div>
-  `;
-}
-
-function renderBracket() {
-  bracketView.innerHTML = '';
-
-  const selectedLeague = bracketLeague || 'all';
-  const candidates = allMatches.filter(m =>
-    m.group && /bracket/i.test(m.group) &&
-    (selectedLeague === 'all' || m.league === selectedLeague)
-  );
-
-  if (candidates.length === 0) {
-    bracketView.innerHTML = '<div class="empty-state">No bracket data available for this league yet.</div>';
-    return;
-  }
-
-  const byGroup = new Map();
-  for (const m of candidates) {
-    const key = m.league + '||' + m.group;
-    if (!byGroup.has(key)) byGroup.set(key, { league: m.league, group: m.group, matches: [] });
-    byGroup.get(key).matches.push(m);
-  }
-
-  const groups = [...byGroup.values()].sort((a, b) => bracketRank(a.group) - bracketRank(b.group));
-
-  for (const { league, group, matches } of groups) {
-    const leagueName = (leagues[league] && leagues[league].name) || league;
-    const rounds = groupRounds(matches);
-
-    const section = document.createElement('div');
-    section.className = 'bracket-group';
-    section.innerHTML = `
-      <h2>${selectedLeague === 'all' ? leagueName + ' &middot; ' : ''}${group}</h2>
-      <div class="bracket-rounds">
-        ${rounds.map(r => `
-          <div class="bracket-round">
-            <h3>${r.round}</h3>
-            ${r.matches.map(bracketMatchCard).join('')}
-          </div>
-        `).join('')}
-      </div>
-    `;
-    bracketView.appendChild(section);
   }
 }
 
@@ -824,7 +396,6 @@ function loadFixtures(isRefresh) {
     .then(data => {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
-      allStandings = data.standings || {};
       if (!isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();
