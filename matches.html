@@ -90,6 +90,79 @@
     box-shadow: 0 2px 6px rgba(11,31,58,0.12);
   }
   .day-nav button:hover { background: var(--navy); color: white; }
+
+  .view-tabs {
+    max-width: 720px;
+    margin: 14px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .view-tabs button {
+    border: none;
+    background: white;
+    color: var(--navy);
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
+  }
+  .view-tabs button.active {
+    background: var(--red);
+    color: white;
+  }
+
+  .standings-group {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(11,31,58,0.08);
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .standings-group h3 {
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 14px;
+    background: var(--navy);
+    color: white;
+  }
+  .standings-group .league-name {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--grey);
+    padding: 10px 16px 0;
+  }
+  table.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  table.standings-table th,
+  table.standings-table td {
+    padding: 7px 8px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  table.standings-table th {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--grey);
+    border-bottom: 2px solid var(--paper);
+  }
+  table.standings-table td.team-col,
+  table.standings-table th.team-col {
+    text-align: left;
+    white-space: normal;
+  }
+  table.standings-table td.pos-col { color: var(--grey); font-weight: 600; }
+  table.standings-table tr:nth-child(even) { background: #fafbfc; }
+  table.standings-table td.diff-positive { color: #0a7a3d; }
+  table.standings-table td.diff-negative { color: var(--red-dark); }
   main {
     max-width: 720px;
     margin: 0 auto;
@@ -205,7 +278,12 @@
   </div>
 </div>
 
-<div class="day-nav">
+<div class="view-tabs">
+  <button id="view-fixtures-btn" class="active">Fixtures</button>
+  <button id="view-standings-btn">Standings</button>
+</div>
+
+<div class="day-nav" id="day-nav">
   <button id="prev-day">&larr; Prev</button>
   <button id="today-btn">Today</button>
   <button id="next-day">Next &rarr;</button>
@@ -214,17 +292,24 @@
 <main>
   <div class="selected-date" id="selected-date-label"></div>
   <div id="match-list"></div>
+  <div id="standings-view" style="display:none;"></div>
 </main>
 
 <script>
 let allMatches = [];
 let leagues = {};
+let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
+let currentView = 'fixtures'; // 'fixtures' | 'standings'
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
 const matchList = document.getElementById('match-list');
+const standingsView = document.getElementById('standings-view');
+const dayNav = document.getElementById('day-nav');
 const selectedDateLabel = document.getElementById('selected-date-label');
 const updateNote = document.getElementById('update-note');
+const viewFixturesBtn = document.getElementById('view-fixtures-btn');
+const viewStandingsBtn = document.getElementById('view-standings-btn');
 
 function toISODate(d) {
   return d.toISOString().slice(0, 10);
@@ -245,6 +330,21 @@ document.getElementById('today-btn').addEventListener('click', () => {
 });
 dateInput.addEventListener('change', render);
 leagueSelect.addEventListener('change', render);
+
+function setView(view) {
+  currentView = view;
+  const showFixtures = view === 'fixtures';
+  viewFixturesBtn.classList.toggle('active', showFixtures);
+  viewStandingsBtn.classList.toggle('active', !showFixtures);
+  dayNav.style.display = showFixtures ? 'flex' : 'none';
+  selectedDateLabel.style.display = showFixtures ? '' : 'none';
+  matchList.style.display = showFixtures ? '' : 'none';
+  standingsView.style.display = showFixtures ? 'none' : '';
+  render();
+}
+
+viewFixturesBtn.addEventListener('click', () => setView('fixtures'));
+viewStandingsBtn.addEventListener('click', () => setView('standings'));
 
 function enrichMatch(m) {
   // Prefer the true UTC instant (converted to whatever timezone this
@@ -292,6 +392,11 @@ function formatDateLabel(iso) {
 }
 
 function render() {
+  if (currentView === 'standings') {
+    renderStandings();
+    return;
+  }
+
   const selectedDate = dateInput.value;
   const selectedLeague = leagueSelect.value;
 
@@ -366,6 +471,84 @@ function render() {
   }
 }
 
+// Column order/labels for the standings table. Only columns where at
+// least one row in the group actually has a value are rendered - which
+// column shows up varies by sport/page (e.g. NRL's ladder has no "D"raw
+// column worth showing since draws are rare/nonexistent in rugby league,
+// while it does carry a bye count that parse_standings_table doesn't
+// even capture, by design - see fetch_fixtures.py's STANDINGS_COLUMN_KEYWORDS).
+const STANDINGS_COLUMNS = [
+  { key: 'played', label: 'Pld' },
+  { key: 'win', label: 'W' },
+  { key: 'draw', label: 'D' },
+  { key: 'loss', label: 'L' },
+  { key: 'for', label: 'F' },
+  { key: 'against', label: 'A' },
+  { key: 'diff', label: '+/-' },
+  { key: 'points', label: 'Pts' },
+];
+
+function renderStandingsTable(rows) {
+  const activeCols = STANDINGS_COLUMNS.filter(c => rows.some(r => r[c.key] !== null && r[c.key] !== undefined));
+
+  const headerCells = [
+    '<th class="pos-col">#</th>',
+    '<th class="team-col">Team</th>',
+    ...activeCols.map(c => `<th>${c.label}</th>`),
+  ].join('');
+
+  const bodyRows = rows.map((r, i) => {
+    const cells = activeCols.map(c => {
+      const val = r[c.key];
+      let cls = '';
+      if (c.key === 'diff' && typeof val === 'number') {
+        cls = val > 0 ? 'diff-positive' : (val < 0 ? 'diff-negative' : '');
+      }
+      const display = (val === null || val === undefined) ? '–' : (c.key === 'diff' && val > 0 ? '+' + val : val);
+      return `<td class="${cls}">${display}</td>`;
+    }).join('');
+    return `<tr><td class="pos-col">${i + 1}</td><td class="team-col">${r.team}</td>${cells}</tr>`;
+  }).join('');
+
+  return `<table class="standings-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
+}
+
+function renderStandings() {
+  const selectedLeague = leagueSelect.value;
+  standingsView.innerHTML = '';
+
+  const leagueKeys = selectedLeague === 'all'
+    ? Object.keys(standings)
+    : (standings[selectedLeague] ? [selectedLeague] : []);
+
+  const groupsToShow = [];
+  for (const key of leagueKeys) {
+    const leagueName = (leagues[key] && leagues[key].name) || key;
+    for (const [groupLabel, rows] of Object.entries(standings[key] || {})) {
+      if (rows && rows.length) groupsToShow.push({ key, leagueName, groupLabel, rows });
+    }
+  }
+
+  if (groupsToShow.length === 0) {
+    standingsView.innerHTML = '<div class="empty-state">No standings available for this league yet.</div>';
+    return;
+  }
+
+  for (const g of groupsToShow) {
+    const wrap = document.createElement('div');
+    wrap.className = 'standings-group';
+    // Only show the group label as its own heading when it's not just a
+    // generic restatement of the league itself (e.g. skip a redundant
+    // "Standings" sub-heading, but keep "West Division" / "Pool A" etc).
+    const showGroupLabel = !/^(standings?|table|ladder)$/i.test(g.groupLabel.trim());
+    wrap.innerHTML = `
+      <h3>${g.leagueName}${showGroupLabel ? ' · ' + g.groupLabel : ''}</h3>
+      ${renderStandingsTable(g.rows)}
+    `;
+    standingsView.appendChild(wrap);
+  }
+}
+
 function populateLeagueOptions() {
   for (const [key, info] of Object.entries(leagues)) {
     const opt = document.createElement('option');
@@ -396,6 +579,7 @@ function loadFixtures(isRefresh) {
     .then(data => {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
+      standings = data.standings || {};
       if (!isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();

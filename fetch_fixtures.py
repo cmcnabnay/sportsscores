@@ -178,13 +178,15 @@ LEAGUES = {
                            # UTC+12/+13) - overridden via venue lookup below.
         "standings": {
             # The ladder lives on the season overview page, not the
-            # "_results" page used for fixtures above. Heading name is a
-            # best guess ("Ladder" is the conventional heading on these
-            # NRL season articles) - if it doesn't match, the script warns
-            # on stderr with the page/heading it tried rather than failing
-            # silently, so it's easy to correct.
+            # "_results" page used for fixtures above. Wikipedia's own
+            # heading text for this table has moved between "Ladder" and
+            # "Table" across recent seasons, so both are tried in order
+            # before falling back to a page-wide scan (see
+            # find_all_standings_tables) - if neither the heading nor the
+            # fallback finds anything, the script warns on stderr with
+            # the page/heading it tried rather than failing silently.
             "page": "2026_NRL_season",
-            "groups": [{"label": "Ladder", "heading_id": "Ladder"}],
+            "groups": [{"label": "Ladder", "heading_ids": ["Ladder", "Table"]}],
         },
     },
     "super-league-2026": {
@@ -197,8 +199,13 @@ LEAGUES = {
                           # home games (France, also UTC+2 in summer) are
                           # close enough not to need an override here
         "standings": {
-            "page": "2026_Super_League_season_results",
-            "groups": [{"label": "Table", "heading_id": "Table"}],
+            # NOTE: the table does NOT live on the "_season_results" page
+            # (confirmed - that article is fixtures/playoff dates only).
+            # It's on the season overview page instead, same as NRL
+            # above. Heading text has been seen as both "Table" and
+            # "League table" - both tried before the page-wide fallback.
+            "page": "2026_Super_League_season",
+            "groups": [{"label": "Table", "heading_ids": ["Table", "League_table"]}],
         },
     },
     "afle-2026": {
@@ -226,7 +233,9 @@ LEAGUES = {
         "utc_offset": 2,  # Central European Summer Time
         "standings": {
             "page": "2026_European_Football_Alliance_season",
-            "groups": [{"label": "Standings", "heading_id": "Standings"}],
+            "groups": [
+                {"label": "Standings", "heading_ids": ["Standings", "Table", "League_table"]}
+            ],
         },
     },
     "fivb-nations-league-2026": {
@@ -274,8 +283,16 @@ LEAGUES = {
             # by their own heading id - West first, then East.
             "page": "2026_CFL_season",
             "groups": [
-                {"label": "West Division", "heading_id": "Standings", "position": 0},
-                {"label": "East Division", "heading_id": "Standings", "position": 1},
+                {
+                    "label": "West Division",
+                    "heading_ids": ["Standings", "Division_standings", "Table"],
+                    "position": 0,
+                },
+                {
+                    "label": "East Division",
+                    "heading_ids": ["Standings", "Division_standings", "Table"],
+                    "position": 1,
+                },
             ],
         },
     },
@@ -1685,8 +1702,20 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
 #     with "position" (0-indexed) when more than one table follows the
 #     same heading before the next one (e.g. two divisional tables both
 #     sitting under a single "Standings" heading).
+#   - "heading_ids": like "heading_id" but a list of alternatives, tried
+#     in order - use this when a page's section title for the standings
+#     table has been observed to vary or drift (e.g. "Ladder" vs "Table").
 #   - "table_index": the Nth wikitable on the whole page, for pages with
 #     no useful heading to anchor on.
+#
+# If none of the above locate a table (e.g. every configured heading id
+# is stale because the page was restructured), fetch_standings() falls
+# back to a page-wide scan for tables that simply *look* like standings
+# tables (have a recognizable team column) and picks the group's
+# "position"-th one - see find_all_standings_tables(). A stderr note is
+# printed whenever this fallback is what actually found the table, so a
+# stale config still gets flagged for a human to fix, without the
+# standings themselves going missing from fixtures.json in the meantime.
 #
 # For pages with a variable, unpredictable number of same-shaped groups
 # (e.g. one table per qualifying pool, however many pools exist that
@@ -1806,12 +1835,94 @@ def find_table_after_heading(soup, heading_id, position=0):
     return None
 
 
+def find_all_standings_tables(soup):
+    """Scan the ENTIRE page, in document order, for every <table> that
+    parse_standings_table() can turn into actual rows (i.e. it has a
+    recognizable team column - see _standings_header_row). This is the
+    fallback used when a configured heading_id can't be found, or is
+    found but doesn't sit above a real standings table any more.
+
+    This is deliberately heading-agnostic: NRL/Super League/EFA/CFL (and
+    presumably others over time) have all been observed drifting away
+    from whatever heading id or page a "standings" config was written
+    against - Wikipedia editors rename sections ("Standings" -> "Table"
+    -> "League table"), or move the table to a different article
+    entirely (Super League's table lives on the season overview page,
+    not the "_season_results" page fixtures come from). Rather than
+    chasing each rename, this just finds every table on the page that
+    *looks* like a standings table by shape, and callers pick the one
+    they want by position - which is stable even when the heading text
+    around it isn't."""
+    tables = []
+    for table in soup.find_all("table"):
+        rows = parse_standings_table(table)
+        if rows:
+            tables.append((table, rows))
+    return tables
+
+
+def _resolve_group_table(soup, group, fallback_tables):
+    """Locate one group's standings table, trying (in order):
+      1. every heading id the group names (heading_id, or heading_ids for
+         when a section is known to go by more than one name)
+      2. an explicit table_index (Nth table on the whole page)
+      3. position-th entry among every table on the page that looks like
+         a real standings table (see find_all_standings_tables) - the
+         last-resort fallback for when the heading itself has moved/been
+         renamed and neither of the above still lines up.
+    Returns (rows, how) where `how` describes which strategy worked, for
+    logging - or (None, None) if nothing worked at all.
+    """
+    position = group.get("position", 0)
+
+    heading_ids = group.get("heading_ids")
+    if heading_ids is None:
+        heading_ids = [group["heading_id"]] if "heading_id" in group else []
+
+    for heading_id in heading_ids:
+        table = find_table_after_heading(soup, heading_id, position)
+        if table is not None:
+            rows = parse_standings_table(table)
+            if rows:
+                return rows, f"heading {heading_id!r}"
+
+    if "table_index" in group:
+        idx = group["table_index"]
+        all_tables = soup.find_all("table")
+        if idx < len(all_tables):
+            rows = parse_standings_table(all_tables[idx])
+            if rows:
+                return rows, f"table_index {idx}"
+
+    # Last resort: position-th table on the whole page that actually
+    # looks like a standings table (has a recognizable team column plus
+    # at least one stat column). Only used when everything above missed,
+    # so a genuinely absent standings section still falls through to the
+    # "couldn't find" warning below rather than grabbing an unrelated
+    # table.
+    if position < len(fallback_tables):
+        _, rows = fallback_tables[position]
+        if rows:
+            return rows, f"page-wide fallback (position {position})"
+
+    return None, None
+
+
 def fetch_standings(cfg, key):
     """Fetch and parse whatever standings tables a league's config
     describes. Returns {group_label: [team_row, ...]}; an empty dict if
     the league has no "standings" config, or if none of its configured
     groups could be located on the page (a stderr warning is printed per
-    missing group so a stale heading id/page title shows up immediately)."""
+    missing group so a stale heading id/page title shows up immediately).
+
+    Heading ids and even the page containing the table can drift out of
+    sync with a "standings" config over time as Wikipedia editors rename
+    sections or restructure articles - this has actually happened to
+    nrl-2026, super-league-2026, efa-2026 and cfl-2026 in the wild. To
+    stay resilient to that, each group is resolved via
+    _resolve_group_table(), which falls back to a page-wide scan for
+    standings-shaped tables (by position) when the configured heading_id
+    no longer points at one - see find_all_standings_tables()."""
     standings_cfg = cfg.get("standings")
     if not standings_cfg:
         return {}
@@ -1844,18 +1955,17 @@ def fetch_standings(cfg, key):
                 result[label] = rows
         return result
 
-    tables_in_order = None
-    for group in standings_cfg.get("groups", []):
-        table = None
-        if "heading_id" in group:
-            table = find_table_after_heading(soup, group["heading_id"], group.get("position", 0))
-        elif "table_index" in group:
-            if tables_in_order is None:
-                tables_in_order = soup.find_all("table")
-            idx = group["table_index"]
-            table = tables_in_order[idx] if idx < len(tables_in_order) else None
+    # Built lazily (only once, and only if at least one group needs it)
+    # since it parses every table on the page.
+    fallback_tables = None
 
-        if table is None:
+    for group in standings_cfg.get("groups", []):
+        if fallback_tables is None:
+            fallback_tables = find_all_standings_tables(soup)
+
+        rows, how = _resolve_group_table(soup, group, fallback_tables)
+
+        if rows is None:
             print(
                 f"  !! standings: couldn't find table for {key} / {group['label']!r} "
                 f"on page {page!r} - heading id or page title may need updating",
@@ -1863,9 +1973,15 @@ def fetch_standings(cfg, key):
             )
             continue
 
-        rows = parse_standings_table(table)
-        if rows:
-            result[group["label"]] = rows
+        if how and how.startswith("page-wide fallback"):
+            print(
+                f"  ?? standings: {key} / {group['label']!r} located via {how} - "
+                f"configured heading id(s) didn't match on page {page!r}, "
+                f"consider updating the config",
+                file=sys.stderr,
+            )
+
+        result[group["label"]] = rows
 
     return result
 
