@@ -177,16 +177,23 @@ LEAGUES = {
                            # Oct-Apr, or NZ Warriors' home games (Auckland,
                            # UTC+12/+13) - overridden via venue lookup below.
         "standings": {
-            # The ladder lives on the season overview page, not the
-            # "_results" page used for fixtures above. Wikipedia's own
-            # heading text for this table has moved between "Ladder" and
-            # "Table" across recent seasons, so both are tried in order
-            # before falling back to a page-wide scan (see
-            # find_all_standings_tables) - if neither the heading nor the
-            # fallback finds anything, the script warns on stderr with
-            # the page/heading it tried rather than failing silently.
+            # Confirmed from the page's own wikitext:
+            #   ==Ladder==
+            #   {{NRL2026Ladder}}
+            # i.e. the season page's "Ladder" section is a bare
+            # transclusion - the actual table data lives entirely on
+            # Template:NRL2026Ladder, not on the season page itself.
+            # Fetching that template page directly (see the "template"
+            # key - tried before any heading_ids fallback below) sidesteps
+            # any heading-rendering quirk on the season page entirely.
             "page": "2026_NRL_season",
-            "groups": [{"label": "Ladder", "heading_ids": ["Ladder", "Table"]}],
+            "groups": [
+                {
+                    "label": "Ladder",
+                    "template": "NRL2026Ladder",
+                    "heading_ids": ["Ladder", "Table"],
+                }
+            ],
         },
     },
     "super-league-2026": {
@@ -199,13 +206,21 @@ LEAGUES = {
                           # home games (France, also UTC+2 in summer) are
                           # close enough not to need an override here
         "standings": {
-            # NOTE: the table does NOT live on the "_season_results" page
-            # (confirmed - that article is fixtures/playoff dates only).
-            # It's on the season overview page instead, same as NRL
-            # above. Heading text has been seen as both "Table" and
-            # "League table" - both tried before the page-wide fallback.
+            # Confirmed from the page's own wikitext:
+            #   == Table ==
+            #   {{2026 Super League regular season table}}
+            # Same story as NRL above - the table itself lives entirely
+            # on the Template: page, not the season page, so that's
+            # fetched directly rather than relying on the season page's
+            # rendered HTML.
             "page": "2026_Super_League_season",
-            "groups": [{"label": "Table", "heading_ids": ["Table", "League_table"]}],
+            "groups": [
+                {
+                    "label": "Table",
+                    "template": "2026 Super League regular season table",
+                    "heading_ids": ["Table", "League_table"],
+                }
+            ],
         },
     },
     "afle-2026": {
@@ -232,9 +247,17 @@ LEAGUES = {
         "year": 2026,
         "utc_offset": 2,  # Central European Summer Time
         "standings": {
+            # Confirmed from the page's own wikitext:
+            #   ===Standings===
+            #   {{2026 European Football Alliance standings}}
+            # Same story as NRL/Super League above.
             "page": "2026_European_Football_Alliance_season",
             "groups": [
-                {"label": "Standings", "heading_ids": ["Standings", "Table", "League_table"]}
+                {
+                    "label": "Standings",
+                    "template": "2026 European Football Alliance standings",
+                    "heading_ids": ["Standings", "Table", "League_table"],
+                }
             ],
         },
     },
@@ -276,20 +299,23 @@ LEAGUES = {
             "2026_Ottawa_Redblacks_season": "Ottawa Redblacks",
         },
         "standings": {
-            # Unlike fixtures, the standings live on the single season
-            # overview page. Both division tables sit under one shared
-            # "Standings" heading (one template transclusion per
-            # division), so they're distinguished by position rather than
-            # by their own heading id - West first, then East.
+            # Each division is its OWN template - confirmed to exist as
+            # separate pages, Template:2026 CFL West Division standings
+            # and Template:2026 CFL East Division standings - unlike NRL/
+            # Super League/EFA above there's no need to distinguish them
+            # by position under a shared heading; each is fetched by its
+            # own template name directly, which is unambiguous.
             "page": "2026_CFL_season",
             "groups": [
                 {
                     "label": "West Division",
+                    "template": "2026 CFL West Division standings",
                     "heading_ids": ["Standings", "Division_standings", "Table"],
                     "position": 0,
                 },
                 {
                     "label": "East Division",
+                    "template": "2026 CFL East Division standings",
                     "heading_ids": ["Standings", "Division_standings", "Table"],
                     "position": 1,
                 },
@@ -649,6 +675,16 @@ def table_to_grid(table):
     resolving rowspan/colspan so that cells "carried down" from an earlier
     row (e.g. a venue shared by two matches) show up in every row they
     logically belong to, instead of only their originating row.
+
+    Before reading each cell's text, strips any embedded "v t e" (view-
+    talk-edit) navbar box - the standard Wikipedia widget (class contains
+    "navbar", e.g. on many standings templates like NRL2026Ladder or
+    2026 Super League regular season table) that lets editors jump to/
+    edit the template, usually planted right in the header row's corner
+    cell alongside "Team". Left in, its text ("v t e") glues onto that
+    cell's real text (e.g. "Team" becomes "Team v t e"), which silently
+    breaks _standings_column_role()'s exact-match lookup and makes the
+    whole table look like it has no recognizable team column at all.
     """
     grid = []
     carry = {}  # col_index -> [remaining_rows, text]
@@ -669,6 +705,8 @@ def table_to_grid(table):
                 break
             cell = cells[cell_idx]
             cell_idx += 1
+            for navbar in cell.select(".navbar"):
+                navbar.decompose()
             text = cell.get_text(" ", strip=True)
             colspan = int(cell.get("colspan", 1) or 1)
             rowspan = int(cell.get("rowspan", 1) or 1)
@@ -1696,6 +1734,17 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
 # position, the same way map_columns() does for fixture tables.
 #
 # A group is located either by:
+#   - "template": the name of a Wikipedia Template: page (without the
+#     "Template:" prefix) that's directly transcluded for this table,
+#     e.g. "NRL2026Ladder" for a season page whose wikitext just says
+#     "{{NRL2026Ladder}}" under its "Ladder" heading. This is the most
+#     reliable option when it applies: a bare transclusion means the
+#     table data lives entirely on the template's own page, not the
+#     season page, so this fetches and parses THAT page directly rather
+#     than hoping the season page's rendered HTML has a findable heading
+#     sitting above it. Tried first, before any heading-based lookup
+#     below. Optionally paired with "template_position" (0-indexed) if
+#     the template page itself contains more than one candidate table.
 #   - "heading_id": the id of the heading immediately before it (checked
 #     against both the heading tag's own id and a wrapped "mw-headline"
 #     span, to work with either MediaWiki HTML output style), optionally
@@ -1707,6 +1756,11 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
 #     table has been observed to vary or drift (e.g. "Ladder" vs "Table").
 #   - "table_index": the Nth wikitable on the whole page, for pages with
 #     no useful heading to anchor on.
+#
+# "template" and "heading_id(s)"/"table_index" can be combined (as they
+# are for nrl-2026/super-league-2026/efa-2026/cfl-2026 below) - "template"
+# is tried first, and the others only come into play if that specific
+# template page ever goes away or gets renamed.
 #
 # If none of the above locate a table (e.g. every configured heading id
 # is stale because the page was restructured), fetch_standings() falls
@@ -1863,6 +1917,18 @@ def find_all_standings_tables(soup):
 
 def _resolve_group_table(soup, group, fallback_tables):
     """Locate one group's standings table, trying (in order):
+      0. "template": fetch the named Template: page directly and use
+         whatever standings-shaped table(s) it contains. This is by far
+         the most reliable option when the standings are a bare
+         transclusion like "{{NRL2026Ladder}}" or
+         "{{2026 Super League regular season table}}" on the season
+         page - the table data doesn't actually live on the season page
+         at all, it lives entirely on the Template: page, so fetching
+         and parsing the season page's rendered HTML for it is fetching
+         the wrong document. Going straight to the template page instead
+         sidesteps every heading-drift/page-restructure issue at once,
+         since the template's own page basically never has anything on
+         it BUT the table.
       1. every heading id the group names (heading_id, or heading_ids for
          when a section is known to go by more than one name)
       2. an explicit table_index (Nth table on the whole page)
@@ -1874,6 +1940,21 @@ def _resolve_group_table(soup, group, fallback_tables):
     logging - or (None, None) if nothing worked at all.
     """
     position = group.get("position", 0)
+
+    if "template" in group:
+        template_page = f"Template:{group['template']}"
+        try:
+            template_html = fetch_page_html(template_page)
+        except Exception as e:
+            print(f"  !! standings: couldn't fetch {template_page!r}: {e}", file=sys.stderr)
+        else:
+            template_soup = BeautifulSoup(template_html, "html.parser")
+            template_tables = find_all_standings_tables(template_soup)
+            template_position = group.get("template_position", 0)
+            if template_position < len(template_tables):
+                _, rows = template_tables[template_position]
+                if rows:
+                    return rows, f"template {group['template']!r}"
 
     heading_ids = group.get("heading_ids")
     if heading_ids is None:

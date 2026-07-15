@@ -122,6 +122,34 @@
     margin-bottom: 16px;
     overflow: hidden;
   }
+  .league-scroller {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 2px 20px 12px;
+    margin: 0 -20px 4px;
+  }
+  .league-scroller::-webkit-scrollbar { display: none; }
+  .league-pill {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    border: none;
+    background: white;
+    color: var(--navy);
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
+  }
+  .league-pill.active {
+    background: var(--navy);
+    color: white;
+  }
   .standings-group h3 {
     margin: 0;
     padding: 12px 16px;
@@ -265,7 +293,7 @@
   </nav>
 </header>
 
-<div class="controls">
+<div class="controls" id="controls-bar">
   <div class="control-card">
     <label for="date-input">Date</label>
     <input type="date" id="date-input">
@@ -300,12 +328,14 @@ let allMatches = [];
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
 let currentView = 'fixtures'; // 'fixtures' | 'standings'
+let standingsLeagueKey = null; // which league's pill is active in the Standings view
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
 const matchList = document.getElementById('match-list');
 const standingsView = document.getElementById('standings-view');
 const dayNav = document.getElementById('day-nav');
+const controlsBar = document.getElementById('controls-bar');
 const selectedDateLabel = document.getElementById('selected-date-label');
 const updateNote = document.getElementById('update-note');
 const viewFixturesBtn = document.getElementById('view-fixtures-btn');
@@ -337,6 +367,7 @@ function setView(view) {
   viewFixturesBtn.classList.toggle('active', showFixtures);
   viewStandingsBtn.classList.toggle('active', !showFixtures);
   dayNav.style.display = showFixtures ? 'flex' : 'none';
+  controlsBar.style.display = showFixtures ? 'flex' : 'none';
   selectedDateLabel.style.display = showFixtures ? '' : 'none';
   matchList.style.display = showFixtures ? '' : 'none';
   standingsView.style.display = showFixtures ? 'none' : '';
@@ -514,36 +545,60 @@ function renderStandingsTable(rows) {
 }
 
 function renderStandings() {
-  const selectedLeague = leagueSelect.value;
   standingsView.innerHTML = '';
 
-  const leagueKeys = selectedLeague === 'all'
-    ? Object.keys(standings)
-    : (standings[selectedLeague] ? [selectedLeague] : []);
+  // Only leagues that actually have at least one non-empty standings
+  // group are worth a pill - a league whose scrape failed/hasn't run
+  // yet just doesn't show up here rather than showing an empty tab.
+  const leagueKeys = Object.keys(standings).filter(
+    key => Object.values(standings[key] || {}).some(rows => rows && rows.length)
+  );
 
-  const groupsToShow = [];
-  for (const key of leagueKeys) {
-    const leagueName = (leagues[key] && leagues[key].name) || key;
-    for (const [groupLabel, rows] of Object.entries(standings[key] || {})) {
-      if (rows && rows.length) groupsToShow.push({ key, leagueName, groupLabel, rows });
-    }
-  }
-
-  if (groupsToShow.length === 0) {
-    standingsView.innerHTML = '<div class="empty-state">No standings available for this league yet.</div>';
+  if (leagueKeys.length === 0) {
+    standingsView.innerHTML = '<div class="empty-state">No standings available yet.</div>';
     return;
   }
 
-  for (const g of groupsToShow) {
+  // Keep whatever league is currently selected if it still has
+  // standings; otherwise fall back to the Fixtures view's league filter
+  // (if it names a real league); otherwise just the first available one.
+  if (!standingsLeagueKey || !leagueKeys.includes(standingsLeagueKey)) {
+    standingsLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+  }
+
+  const scroller = document.createElement('div');
+  scroller.className = 'league-scroller';
+  for (const key of leagueKeys) {
+    const btn = document.createElement('button');
+    btn.className = 'league-pill' + (key === standingsLeagueKey ? ' active' : '');
+    btn.textContent = (leagues[key] && leagues[key].name) || key;
+    btn.addEventListener('click', () => {
+      standingsLeagueKey = key;
+      renderStandings();
+    });
+    scroller.appendChild(btn);
+  }
+  standingsView.appendChild(scroller);
+
+  // Scroll the active pill into view (e.g. after the underlying league
+  // list re-renders) so it's never hidden off-screen to the right.
+  const activePill = scroller.querySelector('.league-pill.active');
+  if (activePill && typeof activePill.scrollIntoView === 'function') {
+    activePill.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }
+
+  const leagueName = (leagues[standingsLeagueKey] && leagues[standingsLeagueKey].name) || standingsLeagueKey;
+  for (const [groupLabel, rows] of Object.entries(standings[standingsLeagueKey] || {})) {
+    if (!rows || !rows.length) continue;
     const wrap = document.createElement('div');
     wrap.className = 'standings-group';
     // Only show the group label as its own heading when it's not just a
     // generic restatement of the league itself (e.g. skip a redundant
     // "Standings" sub-heading, but keep "West Division" / "Pool A" etc).
-    const showGroupLabel = !/^(standings?|table|ladder)$/i.test(g.groupLabel.trim());
+    const showGroupLabel = !/^(standings?|table|ladder)$/i.test(groupLabel.trim());
     wrap.innerHTML = `
-      <h3>${g.leagueName}${showGroupLabel ? ' · ' + g.groupLabel : ''}</h3>
-      ${renderStandingsTable(g.rows)}
+      <h3>${leagueName}${showGroupLabel ? ' · ' + groupLabel : ''}</h3>
+      ${renderStandingsTable(rows)}
     `;
     standingsView.appendChild(wrap);
   }

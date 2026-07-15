@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T06:07:08+00:00",
+  "updated": "2026-07-15T06:09:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14324,6 +14324,17 @@
       ],
       "League Wide": [
         {
+          "team": "Vienna Vikings",
+          "played": 7,
+          "win": 7,
+          "draw": null,
+          "loss": 0,
+          "for": 325,
+          "against": 83,
+          "diff": 242,
+          "points": null
+        },
+        {
           "team": "Rhein Fire",
           "played": 6,
           "win": 5,
@@ -14332,6 +14343,28 @@
           "for": 226,
           "against": 86,
           "diff": 140,
+          "points": null
+        },
+        {
+          "team": "Panthers Wrocław",
+          "played": 7,
+          "win": 5,
+          "draw": null,
+          "loss": 2,
+          "for": 229,
+          "against": 171,
+          "diff": 58,
+          "points": null
+        },
+        {
+          "team": "Berlin Thunder",
+          "played": 7,
+          "win": 3,
+          "draw": null,
+          "loss": 4,
+          "for": 180,
+          "against": 218,
+          "diff": -38,
           "points": null
         },
         {
@@ -14365,6 +14398,17 @@
           "for": 118,
           "against": 186,
           "diff": -68,
+          "points": null
+        },
+        {
+          "team": "Firenze Red Lions",
+          "played": 6,
+          "win": 0,
+          "draw": null,
+          "loss": 6,
+          "for": 90,
+          "against": 267,
+          "diff": -177,
           "points": null
         }
       ]
@@ -16359,430 +16403,605 @@
     "nrl-2026": {
       "Ladder": [
         {
-          "team": "Brisbane Broncos",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Canberra Raiders",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Canterbury-Bankstown Bulldogs",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Cronulla-Sutherland Sharks",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Dolphins",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Gold Coast Titans",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Manly Warringah Sea Eagles",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Melbourne Storm",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Newcastle Knights",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "team": "Penrith Panthers (Q)",
+          "played": 16,
+          "win": 13,
+          "draw": 0,
+          "loss": 3,
+          "for": 503,
+          "against": 223,
+          "diff": 280,
+          "points": 32
         },
         {
           "team": "New Zealand Warriors",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "North Queensland Cowboys",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Parramatta Eels",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Penrith Panthers",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "South Sydney Rabbitohs",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "St. George Illawarra Dragons",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 16,
+          "win": 11,
+          "draw": 0,
+          "loss": 5,
+          "for": 470,
+          "against": 276,
+          "diff": 194,
+          "points": 28
         },
         {
           "team": "Sydney Roosters",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 16,
+          "win": 11,
+          "draw": 0,
+          "loss": 5,
+          "for": 412,
+          "against": 336,
+          "diff": 76,
+          "points": 28
+        },
+        {
+          "team": "Cronulla-Sutherland Sharks",
+          "played": 16,
+          "win": 10,
+          "draw": 0,
+          "loss": 6,
+          "for": 468,
+          "against": 345,
+          "diff": 123,
+          "points": 26
+        },
+        {
+          "team": "Newcastle Knights",
+          "played": 17,
+          "win": 11,
+          "draw": 0,
+          "loss": 6,
+          "for": 441,
+          "against": 402,
+          "diff": 39,
+          "points": 26
+        },
+        {
+          "team": "South Sydney Rabbitohs",
+          "played": 16,
+          "win": 9,
+          "draw": 0,
+          "loss": 7,
+          "for": 458,
+          "against": 372,
+          "diff": 86,
+          "points": 24
+        },
+        {
+          "team": "Dolphins",
+          "played": 17,
+          "win": 10,
+          "draw": 0,
+          "loss": 7,
+          "for": 452,
+          "against": 388,
+          "diff": 64,
+          "points": 24
+        },
+        {
+          "team": "North Queensland Cowboys",
+          "played": 17,
+          "win": 10,
+          "draw": 0,
+          "loss": 7,
+          "for": 408,
+          "against": 424,
+          "diff": -16,
+          "points": 24
+        },
+        {
+          "team": "Manly Warringah Sea Eagles",
+          "played": 17,
+          "win": 9,
+          "draw": 0,
+          "loss": 8,
+          "for": 441,
+          "against": 309,
+          "diff": 132,
+          "points": 22
+        },
+        {
+          "team": "Melbourne Storm",
+          "played": 17,
+          "win": 8,
+          "draw": 0,
+          "loss": 9,
+          "for": 414,
+          "against": 416,
+          "diff": -2,
+          "points": 20
+        },
+        {
+          "team": "Canterbury-Bankstown Bulldogs",
+          "played": 16,
+          "win": 7,
+          "draw": 0,
+          "loss": 9,
+          "for": 292,
+          "against": 394,
+          "diff": -102,
+          "points": 20
+        },
+        {
+          "team": "Canberra Raiders",
+          "played": 17,
+          "win": 7,
+          "draw": 0,
+          "loss": 10,
+          "for": 345,
+          "against": 436,
+          "diff": -91,
+          "points": 18
         },
         {
           "team": "Wests Tigers",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 17,
+          "win": 7,
+          "draw": 0,
+          "loss": 10,
+          "for": 355,
+          "against": 485,
+          "diff": -130,
+          "points": 18
+        },
+        {
+          "team": "Brisbane Broncos",
+          "played": 16,
+          "win": 5,
+          "draw": 0,
+          "loss": 11,
+          "for": 315,
+          "against": 441,
+          "diff": -126,
+          "points": 16
+        },
+        {
+          "team": "Parramatta Eels",
+          "played": 17,
+          "win": 6,
+          "draw": 0,
+          "loss": 11,
+          "for": 331,
+          "against": 507,
+          "diff": -176,
+          "points": 16
+        },
+        {
+          "team": "Gold Coast Titans",
+          "played": 16,
+          "win": 4,
+          "draw": 0,
+          "loss": 12,
+          "for": 297,
+          "against": 409,
+          "diff": -112,
+          "points": 14
+        },
+        {
+          "team": "St. George Illawarra Dragons (X)",
+          "played": 16,
+          "win": 2,
+          "draw": 0,
+          "loss": 14,
+          "for": 244,
+          "against": 483,
+          "diff": -239,
+          "points": 10
         }
       ]
     },
     "super-league-2026": {
       "Table": [
         {
-          "team": "Bradford Bulls",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Castleford Tigers",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Catalans Dragons",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Huddersfield Giants",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Hull FC",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Hull Kingston Rovers",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
           "team": "Leeds Rhinos",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Leigh Leopards",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "St Helens",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Toulouse Olympique",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Wakefield Trinity",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Warrington Wolves",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 18,
+          "win": 15,
+          "draw": 0,
+          "loss": 3,
+          "for": 622,
+          "against": 256,
+          "diff": 366,
+          "points": 30
         },
         {
           "team": "Wigan Warriors",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 18,
+          "win": 13,
+          "draw": 0,
+          "loss": 5,
+          "for": 525,
+          "against": 349,
+          "diff": 176,
+          "points": 26
+        },
+        {
+          "team": "Wakefield Trinity",
+          "played": 18,
+          "win": 13,
+          "draw": 0,
+          "loss": 5,
+          "for": 477,
+          "against": 314,
+          "diff": 163,
+          "points": 26
+        },
+        {
+          "team": "Warrington Wolves [ a ]",
+          "played": 17,
+          "win": 12,
+          "draw": 0,
+          "loss": 5,
+          "for": 432,
+          "against": 288,
+          "diff": 144,
+          "points": 24
+        },
+        {
+          "team": "Hull KR [ a ]",
+          "played": 17,
+          "win": 11,
+          "draw": 0,
+          "loss": 6,
+          "for": 502,
+          "against": 269,
+          "diff": 233,
+          "points": 22
+        },
+        {
+          "team": "Leigh Leopards",
+          "played": 18,
+          "win": 11,
+          "draw": 0,
+          "loss": 7,
+          "for": 398,
+          "against": 344,
+          "diff": 54,
+          "points": 22
+        },
+        {
+          "team": "St Helens",
+          "played": 18,
+          "win": 11,
+          "draw": 0,
+          "loss": 7,
+          "for": 402,
+          "against": 370,
+          "diff": 32,
+          "points": 22
+        },
+        {
+          "team": "Catalans Dragons",
+          "played": 18,
+          "win": 8,
+          "draw": 0,
+          "loss": 10,
+          "for": 371,
+          "against": 539,
+          "diff": -168,
+          "points": 16
+        },
+        {
+          "team": "Toulouse Olympique",
+          "played": 18,
+          "win": 6,
+          "draw": 0,
+          "loss": 12,
+          "for": 386,
+          "against": 458,
+          "diff": -72,
+          "points": 12
         },
         {
           "team": "York Knights",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
+          "played": 18,
+          "win": 6,
+          "draw": 0,
+          "loss": 12,
+          "for": 352,
+          "against": 527,
+          "diff": -175,
+          "points": 12
+        },
+        {
+          "team": "Bradford Bulls",
+          "played": 18,
+          "win": 6,
+          "draw": 0,
+          "loss": 12,
+          "for": 342,
+          "against": 521,
+          "diff": -179,
+          "points": 12
+        },
+        {
+          "team": "Castleford Tigers",
+          "played": 18,
+          "win": 6,
+          "draw": 0,
+          "loss": 12,
+          "for": 322,
+          "against": 524,
+          "diff": -202,
+          "points": 12
+        },
+        {
+          "team": "Hull F.C.",
+          "played": 18,
+          "win": 5,
+          "draw": 0,
+          "loss": 13,
+          "for": 295,
+          "against": 375,
+          "diff": -80,
+          "points": 10
+        },
+        {
+          "team": "Huddersfield Giants",
+          "played": 18,
+          "win": 2,
+          "draw": 0,
+          "loss": 16,
+          "for": 277,
+          "against": 569,
+          "diff": -292,
+          "points": 4
         }
       ]
     },
     "efa-2026": {
       "Standings": [
         {
-          "team": "Frankfurt Galaxy",
-          "played": null,
-          "win": null,
+          "team": "x – Munich Ravens",
+          "played": 7,
+          "win": 7,
           "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
+          "loss": 0,
+          "for": 296,
+          "against": 139,
+          "diff": 157,
           "points": null
         },
         {
-          "team": "Munich Ravens",
-          "played": null,
-          "win": null,
+          "team": "x – Nordic Storm",
+          "played": 7,
+          "win": 6,
           "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
+          "loss": 1,
+          "for": 268,
+          "against": 122,
+          "diff": 146,
+          "points": null
+        },
+        {
+          "team": "Frankfurt Galaxy",
+          "played": 7,
+          "win": 3,
+          "draw": null,
+          "loss": 4,
+          "for": 146,
+          "against": 171,
+          "diff": -25,
           "points": null
         },
         {
           "team": "Paris Musketeers",
-          "played": null,
-          "win": null,
+          "played": 7,
+          "win": 3,
           "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Raiders Tirol",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": null
-        },
-        {
-          "team": "Nordic Storm",
-          "played": null,
-          "win": null,
-          "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
+          "loss": 4,
+          "for": 157,
+          "against": 202,
+          "diff": -45,
           "points": null
         },
         {
           "team": "Prague Lions",
-          "played": null,
-          "win": null,
+          "played": 7,
+          "win": 2,
           "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
+          "loss": 5,
+          "for": 148,
+          "against": 272,
+          "diff": -124,
           "points": null
         },
         {
-          "team": "League total",
-          "played": null,
-          "win": null,
+          "team": "Raiders Tirol",
+          "played": 7,
+          "win": 0,
           "draw": null,
-          "loss": null,
-          "for": null,
-          "against": null,
-          "diff": null,
+          "loss": 7,
+          "for": 150,
+          "against": 259,
+          "diff": -109,
           "points": null
+        }
+      ]
+    },
+    "u20-jwc-2026": {
+      "Pool A": [
+        {
+          "team": "South Africa",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 189,
+          "against": 45,
+          "diff": 144,
+          "points": 15
+        },
+        {
+          "team": "Wales",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "loss": 1,
+          "for": 105,
+          "against": 76,
+          "diff": 29,
+          "points": 10
+        },
+        {
+          "team": "Georgia",
+          "played": 3,
+          "win": 1,
+          "draw": 0,
+          "loss": 2,
+          "for": 85,
+          "against": 61,
+          "diff": 24,
+          "points": 7
+        },
+        {
+          "team": "Uruguay",
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "loss": 3,
+          "for": 10,
+          "against": 207,
+          "diff": -197,
+          "points": 0
+        }
+      ],
+      "Pool B": [
+        {
+          "team": "New Zealand",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 119,
+          "against": 62,
+          "diff": 57,
+          "points": 15
+        },
+        {
+          "team": "Scotland",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "loss": 1,
+          "for": 107,
+          "against": 100,
+          "diff": 7,
+          "points": 11
+        },
+        {
+          "team": "Italy",
+          "played": 3,
+          "win": 1,
+          "draw": 0,
+          "loss": 2,
+          "for": 88,
+          "against": 108,
+          "diff": -20,
+          "points": 7
+        },
+        {
+          "team": "Japan",
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "loss": 3,
+          "for": 78,
+          "against": 122,
+          "diff": -44,
+          "points": 1
+        }
+      ],
+      "Pool C": [
+        {
+          "team": "England",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 142,
+          "against": 105,
+          "diff": 37,
+          "points": 15
+        },
+        {
+          "team": "Argentina",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "loss": 1,
+          "for": 178,
+          "against": 94,
+          "diff": 84,
+          "points": 12
+        },
+        {
+          "team": "Ireland",
+          "played": 3,
+          "win": 1,
+          "draw": 0,
+          "loss": 2,
+          "for": 140,
+          "against": 118,
+          "diff": 22,
+          "points": 8
+        },
+        {
+          "team": "United States",
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "loss": 3,
+          "for": 76,
+          "against": 219,
+          "diff": -143,
+          "points": 1
+        }
+      ],
+      "Pool D": [
+        {
+          "team": "France",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 136,
+          "against": 76,
+          "diff": 60,
+          "points": 15
+        },
+        {
+          "team": "Australia",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "loss": 1,
+          "for": 172,
+          "against": 73,
+          "diff": 99,
+          "points": 12
+        },
+        {
+          "team": "Fiji",
+          "played": 3,
+          "win": 1,
+          "draw": 0,
+          "loss": 2,
+          "for": 61,
+          "against": 124,
+          "diff": -63,
+          "points": 5
+        },
+        {
+          "team": "Spain",
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "loss": 3,
+          "for": 80,
+          "against": 176,
+          "diff": -96,
+          "points": 3
         }
       ]
     }
