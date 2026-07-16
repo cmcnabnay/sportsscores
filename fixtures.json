@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T07:56:40+00:00",
+  "updated": "2026-07-16T03:01:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8544,7 +8544,7 @@
       "time": "15:00",
       "utc": "2026-07-12T14:00:00+00:00",
       "venue": "BrewDog Stadium",
-      "attendance": null
+      "attendance": "9661"
     },
     {
       "league": "nrl-2026",
@@ -8709,7 +8709,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Bulgaria",
       "away": "Poland",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-15",
       "time": "12:00",
       "utc": "2026-07-15T17:00:00+00:00",
@@ -8720,7 +8720,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Germany",
       "away": "Slovenia",
-      "score": "-",
+      "score": "1-3",
       "date": "2026-07-15",
       "time": "13:00",
       "utc": "2026-07-15T11:00:00+00:00",
@@ -8731,7 +8731,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Belgium",
       "away": "Cuba",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-15",
       "time": "15:30",
       "utc": "2026-07-15T06:30:00+00:00",
@@ -8742,7 +8742,7 @@
       "league": "fivb-nations-league-2026",
       "home": "France",
       "away": "Brazil",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-15",
       "time": "16:00",
       "utc": "2026-07-15T21:00:00+00:00",
@@ -8753,7 +8753,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Ukraine",
       "away": "Iran",
-      "score": "-",
+      "score": "3-1",
       "date": "2026-07-15",
       "time": "16:30",
       "utc": "2026-07-15T14:30:00+00:00",
@@ -8764,7 +8764,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "Italy",
-      "score": "-",
+      "score": "3-2",
       "date": "2026-07-15",
       "time": "19:20",
       "utc": "2026-07-15T10:20:00+00:00",
@@ -8775,7 +8775,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Serbia",
       "away": "Turkey",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-15",
       "time": "20:00",
       "utc": "2026-07-15T18:00:00+00:00",
@@ -8786,7 +8786,7 @@
       "league": "fivb-nations-league-2026",
       "home": "United States",
       "away": "China",
-      "score": "-",
+      "score": "3-0",
       "date": "2026-07-15",
       "time": "20:00",
       "utc": "2026-07-16T01:00:00+00:00",
@@ -14417,30 +14417,41 @@
       "Preliminary Round": [
         {
           "team": "Japan",
-          "played": 8,
-          "win": 8,
+          "played": 9,
+          "win": 9,
           "draw": null,
           "loss": 0,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 22
+        },
+        {
+          "team": "United States",
+          "played": 9,
+          "win": 7,
+          "draw": null,
+          "loss": 2,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 22
+        },
+        {
+          "team": "Poland",
+          "played": 9,
+          "win": 7,
+          "draw": null,
+          "loss": 2,
           "for": null,
           "against": null,
           "diff": null,
           "points": 20
         },
         {
-          "team": "United States",
-          "played": 8,
-          "win": 6,
-          "draw": null,
-          "loss": 2,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 19
-        },
-        {
-          "team": "Poland",
-          "played": 8,
-          "win": 6,
+          "team": "Slovenia",
+          "played": 9,
+          "win": 7,
           "draw": null,
           "loss": 2,
           "for": null,
@@ -14449,20 +14460,31 @@
           "points": 17
         },
         {
-          "team": "Slovenia",
-          "played": 8,
+          "team": "Ukraine",
+          "played": 9,
           "win": 6,
           "draw": null,
-          "loss": 2,
+          "loss": 3,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 14
+          "points": 19
         },
         {
-          "team": "Ukraine",
-          "played": 8,
-          "win": 5,
+          "team": "Turkey",
+          "played": 9,
+          "win": 6,
+          "draw": null,
+          "loss": 3,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 17
+        },
+        {
+          "team": "Brazil",
+          "played": 9,
+          "win": 6,
           "draw": null,
           "loss": 3,
           "for": null,
@@ -14472,54 +14494,32 @@
         },
         {
           "team": "Italy",
-          "played": 8,
+          "played": 9,
           "win": 5,
           "draw": null,
-          "loss": 3,
+          "loss": 4,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 16
-        },
-        {
-          "team": "Turkey",
-          "played": 8,
-          "win": 5,
-          "draw": null,
-          "loss": 3,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 14
+          "points": 17
         },
         {
           "team": "Bulgaria",
-          "played": 8,
+          "played": 9,
           "win": 5,
           "draw": null,
-          "loss": 3,
+          "loss": 4,
           "for": null,
           "against": null,
           "diff": null,
           "points": 14
         },
         {
-          "team": "Brazil",
-          "played": 8,
-          "win": 5,
-          "draw": null,
-          "loss": 3,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 13
-        },
-        {
           "team": "Germany",
-          "played": 8,
+          "played": 9,
           "win": 4,
           "draw": null,
-          "loss": 4,
+          "loss": 5,
           "for": null,
           "against": null,
           "diff": null,
@@ -14527,10 +14527,10 @@
         },
         {
           "team": "Serbia",
-          "played": 8,
+          "played": 9,
           "win": 4,
           "draw": null,
-          "loss": 4,
+          "loss": 5,
           "for": null,
           "against": null,
           "diff": null,
@@ -14538,25 +14538,14 @@
         },
         {
           "team": "France",
-          "played": 8,
+          "played": 9,
           "win": 4,
-          "draw": null,
-          "loss": 4,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 10
-        },
-        {
-          "team": "Belgium",
-          "played": 8,
-          "win": 3,
           "draw": null,
           "loss": 5,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 9
+          "points": 10
         },
         {
           "team": "Argentina",
@@ -14570,11 +14559,22 @@
           "points": 9
         },
         {
-          "team": "Iran",
-          "played": 8,
-          "win": 2,
+          "team": "Belgium",
+          "played": 9,
+          "win": 3,
           "draw": null,
           "loss": 6,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 9
+        },
+        {
+          "team": "Iran",
+          "played": 9,
+          "win": 2,
+          "draw": null,
+          "loss": 7,
           "for": null,
           "against": null,
           "diff": null,
@@ -14592,26 +14592,26 @@
           "points": 9
         },
         {
-          "team": "China [ a ]",
-          "played": 8,
-          "win": 1,
-          "draw": null,
-          "loss": 7,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 4
-        },
-        {
           "team": "Cuba",
-          "played": 8,
-          "win": 0,
+          "played": 9,
+          "win": 1,
           "draw": null,
           "loss": 8,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 2
+          "points": 5
+        },
+        {
+          "team": "China [ a ]",
+          "played": 9,
+          "win": 1,
+          "draw": null,
+          "loss": 8,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 4
         }
       ]
     },
