@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T07:47:16+00:00",
+  "updated": "2026-07-16T07:58:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8797,7 +8797,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Belgium",
       "away": "Italy",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-16",
       "time": "15:30",
       "utc": "2026-07-16T06:30:00+00:00",
@@ -14460,6 +14460,17 @@
           "points": 17
         },
         {
+          "team": "Italy",
+          "played": 10,
+          "win": 6,
+          "draw": null,
+          "loss": 4,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 20
+        },
+        {
           "team": "Ukraine",
           "played": 9,
           "win": 6,
@@ -14491,17 +14502,6 @@
           "against": null,
           "diff": null,
           "points": 16
-        },
-        {
-          "team": "Italy",
-          "played": 9,
-          "win": 5,
-          "draw": null,
-          "loss": 4,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 17
         },
         {
           "team": "Bulgaria",
@@ -14560,10 +14560,10 @@
         },
         {
           "team": "Belgium",
-          "played": 9,
+          "played": 10,
           "win": 3,
           "draw": null,
-          "loss": 6,
+          "loss": 7,
           "for": null,
           "against": null,
           "diff": null,
