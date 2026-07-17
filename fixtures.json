@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T07:58:17+00:00",
+  "updated": "2026-07-17T02:51:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8434,7 +8434,7 @@
       "time": "18:00",
       "utc": "2026-07-11T16:00:00+00:00",
       "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": null
+      "attendance": "2312"
     },
     {
       "league": "nations-cup-2026",
@@ -8808,7 +8808,7 @@
       "league": "fivb-nations-league-2026",
       "home": "China",
       "away": "France",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-16",
       "time": "16:00",
       "utc": "2026-07-16T21:00:00+00:00",
@@ -8819,7 +8819,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Iran",
       "away": "Germany",
-      "score": "-",
+      "score": "3-2",
       "date": "2026-07-16",
       "time": "16:30",
       "utc": "2026-07-16T14:30:00+00:00",
@@ -8830,7 +8830,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "Canada",
-      "score": "-",
+      "score": "3-2",
       "date": "2026-07-16",
       "time": "19:20",
       "utc": "2026-07-16T10:20:00+00:00",
@@ -8841,7 +8841,7 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Brisbane Broncos",
-      "score": null,
+      "score": "12–14",
       "date": "2026-07-16",
       "time": "19:50",
       "utc": "2026-07-16T09:50:00+00:00",
@@ -8852,18 +8852,18 @@
       "league": "super-league-2026",
       "home": "Bradford Bulls",
       "away": "Wakefield Trinity",
-      "score": null,
+      "score": "12–26",
       "date": "2026-07-16",
       "time": "20:00",
       "utc": "2026-07-16T19:00:00+00:00",
       "venue": "Odsal Stadium",
-      "attendance": null
+      "attendance": "7518"
     },
     {
       "league": "fivb-nations-league-2026",
       "home": "Serbia",
       "away": "Ukraine",
-      "score": "-",
+      "score": "3-1",
       "date": "2026-07-16",
       "time": "20:00",
       "utc": "2026-07-16T18:00:00+00:00",
@@ -14416,15 +14416,15 @@
     "fivb-nations-league-2026": {
       "Preliminary Round": [
         {
-          "team": "Japan",
-          "played": 9,
-          "win": 9,
+          "team": "Japan (Q)",
+          "played": 10,
+          "win": 10,
           "draw": null,
           "loss": 0,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 22
+          "points": 24
         },
         {
           "team": "United States",
@@ -14472,10 +14472,10 @@
         },
         {
           "team": "Ukraine",
-          "played": 9,
+          "played": 10,
           "win": 6,
           "draw": null,
-          "loss": 3,
+          "loss": 4,
           "for": null,
           "against": null,
           "diff": null,
@@ -14504,6 +14504,17 @@
           "points": 16
         },
         {
+          "team": "Serbia",
+          "played": 10,
+          "win": 5,
+          "draw": null,
+          "loss": 5,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 15
+        },
+        {
           "team": "Bulgaria",
           "played": 9,
           "win": 5,
@@ -14515,37 +14526,37 @@
           "points": 14
         },
         {
-          "team": "Germany",
-          "played": 9,
-          "win": 4,
-          "draw": null,
-          "loss": 5,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 12
-        },
-        {
-          "team": "Serbia",
-          "played": 9,
-          "win": 4,
-          "draw": null,
-          "loss": 5,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 12
-        },
-        {
           "team": "France",
-          "played": 9,
-          "win": 4,
+          "played": 10,
+          "win": 5,
           "draw": null,
           "loss": 5,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 10
+          "points": 13
+        },
+        {
+          "team": "Germany",
+          "played": 10,
+          "win": 4,
+          "draw": null,
+          "loss": 6,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 13
+        },
+        {
+          "team": "Iran",
+          "played": 10,
+          "win": 3,
+          "draw": null,
+          "loss": 7,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 11
         },
         {
           "team": "Argentina",
@@ -14570,26 +14581,15 @@
           "points": 9
         },
         {
-          "team": "Iran",
-          "played": 9,
-          "win": 2,
-          "draw": null,
-          "loss": 7,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 9
-        },
-        {
           "team": "Canada",
-          "played": 9,
+          "played": 10,
           "win": 1,
           "draw": null,
-          "loss": 8,
+          "loss": 9,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 9
+          "points": 10
         },
         {
           "team": "Cuba",
@@ -14604,10 +14604,10 @@
         },
         {
           "team": "China [ a ]",
-          "played": 9,
+          "played": 10,
           "win": 1,
           "draw": null,
-          "loss": 8,
+          "loss": 9,
           "for": null,
           "against": null,
           "diff": null,
@@ -16283,7 +16283,7 @@
           "points": 1
         },
         {
-          "team": "Hong Kong China",
+          "team": "Hong Kong",
           "played": 2,
           "win": 0,
           "draw": 0,
@@ -16605,6 +16605,17 @@
           "points": 30
         },
         {
+          "team": "Wakefield Trinity",
+          "played": 19,
+          "win": 14,
+          "draw": 0,
+          "loss": 5,
+          "for": 503,
+          "against": 326,
+          "diff": 177,
+          "points": 28
+        },
+        {
           "team": "Wigan Warriors",
           "played": 18,
           "win": 13,
@@ -16613,17 +16624,6 @@
           "for": 525,
           "against": 349,
           "diff": 176,
-          "points": 26
-        },
-        {
-          "team": "Wakefield Trinity",
-          "played": 18,
-          "win": 13,
-          "draw": 0,
-          "loss": 5,
-          "for": 477,
-          "against": 314,
-          "diff": 163,
           "points": 26
         },
         {
@@ -16705,13 +16705,13 @@
         },
         {
           "team": "Bradford Bulls",
-          "played": 18,
+          "played": 19,
           "win": 6,
           "draw": 0,
-          "loss": 12,
-          "for": 342,
-          "against": 521,
-          "diff": -179,
+          "loss": 13,
+          "for": 354,
+          "against": 547,
+          "diff": -193,
           "points": 12
         },
         {
