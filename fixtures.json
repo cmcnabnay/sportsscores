@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T07:37:19+00:00",
+  "updated": "2026-07-17T14:08:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8423,7 +8423,7 @@
       "time": "18:00",
       "utc": "2026-07-11T16:00:00+00:00",
       "venue": "Wiener Sport-Club Stadium , Vienna",
-      "attendance": null
+      "attendance": "4146"
     },
     {
       "league": "efa-2026",
@@ -8846,7 +8846,7 @@
       "time": "19:50",
       "utc": "2026-07-16T09:50:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
+      "attendance": "15437"
     },
     {
       "league": "super-league-2026",
@@ -8944,7 +8944,7 @@
       "league": "nrl-2026",
       "home": "Cronulla-Sutherland Sharks",
       "away": "Newcastle Knights",
-      "score": null,
+      "score": "20–18",
       "date": "2026-07-17",
       "time": "18:00",
       "utc": "2026-07-17T08:00:00+00:00",
@@ -8966,7 +8966,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "Belgium",
-      "score": "-",
+      "score": "3-0",
       "date": "2026-07-17",
       "time": "19:20",
       "utc": "2026-07-17T10:20:00+00:00",
@@ -8977,7 +8977,7 @@
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Melbourne Storm",
-      "score": null,
+      "score": "14–6",
       "date": "2026-07-17",
       "time": "20:00",
       "utc": "2026-07-17T10:00:00+00:00",
@@ -9139,7 +9139,7 @@
       "date": "2026-07-18",
       "time": "15:00",
       "utc": "2026-07-18T13:00:00+00:00",
-      "venue": "Stade Essone",
+      "venue": "Stade Essone , Bondoufle",
       "attendance": null
     },
     {
@@ -9150,7 +9150,7 @@
       "date": "2026-07-18",
       "time": "15:15",
       "utc": "2026-07-18T13:15:00+00:00",
-      "venue": "PSD Bank Arena",
+      "venue": "PSD Bank Arena , Frankfurt",
       "attendance": null
     },
     {
@@ -14417,14 +14417,14 @@
       "Preliminary Round": [
         {
           "team": "Japan (Q)",
-          "played": 10,
-          "win": 10,
+          "played": 11,
+          "win": 11,
           "draw": null,
           "loss": 0,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 24
+          "points": 27
         },
         {
           "team": "United States (Q)",
@@ -14571,10 +14571,10 @@
         },
         {
           "team": "Belgium",
-          "played": 10,
+          "played": 11,
           "win": 3,
           "draw": null,
-          "loss": 7,
+          "loss": 8,
           "for": null,
           "against": null,
           "diff": null,
@@ -16404,13 +16404,13 @@
       "Ladder": [
         {
           "team": "Penrith Panthers (Q)",
-          "played": 16,
+          "played": 17,
           "win": 13,
           "draw": 0,
-          "loss": 3,
-          "for": 503,
-          "against": 223,
-          "diff": 280,
+          "loss": 4,
+          "for": 515,
+          "against": 237,
+          "diff": 278,
           "points": 32
         },
         {
@@ -16425,6 +16425,17 @@
           "points": 28
         },
         {
+          "team": "Cronulla-Sutherland Sharks",
+          "played": 17,
+          "win": 11,
+          "draw": 0,
+          "loss": 6,
+          "for": 488,
+          "against": 363,
+          "diff": 125,
+          "points": 28
+        },
+        {
           "team": "Sydney Roosters",
           "played": 16,
           "win": 11,
@@ -16436,25 +16447,14 @@
           "points": 28
         },
         {
-          "team": "Cronulla-Sutherland Sharks",
-          "played": 16,
-          "win": 10,
-          "draw": 0,
-          "loss": 6,
-          "for": 468,
-          "against": 345,
-          "diff": 123,
-          "points": 26
-        },
-        {
           "team": "Newcastle Knights",
-          "played": 17,
+          "played": 18,
           "win": 11,
           "draw": 0,
-          "loss": 6,
-          "for": 441,
-          "against": 402,
-          "diff": 39,
+          "loss": 7,
+          "for": 459,
+          "against": 422,
+          "diff": 37,
           "points": 26
         },
         {
@@ -16535,6 +16535,17 @@
           "points": 18
         },
         {
+          "team": "Brisbane Broncos",
+          "played": 17,
+          "win": 6,
+          "draw": 0,
+          "loss": 11,
+          "for": 329,
+          "against": 453,
+          "diff": -124,
+          "points": 18
+        },
+        {
           "team": "Wests Tigers",
           "played": 17,
           "win": 7,
@@ -16546,17 +16557,6 @@
           "points": 18
         },
         {
-          "team": "Brisbane Broncos",
-          "played": 16,
-          "win": 5,
-          "draw": 0,
-          "loss": 11,
-          "for": 315,
-          "against": 441,
-          "diff": -126,
-          "points": 16
-        },
-        {
           "team": "Parramatta Eels",
           "played": 17,
           "win": 6,
@@ -16565,7 +16565,7 @@
           "for": 331,
           "against": 507,
           "diff": -176,
-          "points": 16
+          "points": 18
         },
         {
           "team": "Gold Coast Titans",
