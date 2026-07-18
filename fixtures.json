@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T15:56:30+00:00",
+  "updated": "2026-07-18T16:07:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9095,7 +9095,7 @@
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "London Warriors",
-      "score": null,
+      "score": "44 – 23",
       "date": "2026-07-18",
       "time": "13:00",
       "utc": "2026-07-18T11:00:00+00:00",
@@ -9172,7 +9172,7 @@
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Nordic Storm",
-      "score": null,
+      "score": "41 - 3",
       "date": "2026-07-18",
       "time": "15:00",
       "utc": "2026-07-18T13:00:00+00:00",
@@ -16654,14 +16654,14 @@
         },
         {
           "team": "Warrington Wolves [ a ]",
-          "played": 17,
-          "win": 12,
+          "played": 18,
+          "win": 13,
           "draw": 0,
           "loss": 5,
-          "for": 432,
-          "against": 288,
-          "diff": 144,
-          "points": 24
+          "for": 466,
+          "against": 300,
+          "diff": 166,
+          "points": 26
         },
         {
           "team": "St Helens",
@@ -16676,13 +16676,13 @@
         },
         {
           "team": "Hull KR [ a ]",
-          "played": 17,
+          "played": 18,
           "win": 11,
           "draw": 0,
-          "loss": 6,
-          "for": 502,
-          "against": 269,
-          "diff": 233,
+          "loss": 7,
+          "for": 514,
+          "against": 303,
+          "diff": 211,
           "points": 22
         },
         {
