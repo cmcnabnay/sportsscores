@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T05:29:04+00:00",
+  "updated": "2026-07-18T05:40:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9106,7 +9106,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Canada",
       "away": "Cuba",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-18",
       "time": "13:00",
       "utc": "2026-07-18T04:00:00+00:00",
@@ -14596,6 +14596,17 @@
           "points": 10
         },
         {
+          "team": "Cuba",
+          "played": 11,
+          "win": 3,
+          "draw": null,
+          "loss": 8,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 10
+        },
+        {
           "team": "Belgium",
           "played": 11,
           "win": 3,
@@ -14607,22 +14618,11 @@
           "points": 9
         },
         {
-          "team": "Cuba",
-          "played": 10,
-          "win": 2,
-          "draw": null,
-          "loss": 8,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 7
-        },
-        {
           "team": "Canada",
-          "played": 10,
+          "played": 11,
           "win": 1,
           "draw": null,
-          "loss": 9,
+          "loss": 10,
           "for": null,
           "against": null,
           "diff": null,
