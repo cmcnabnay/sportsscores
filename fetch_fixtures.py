@@ -49,6 +49,7 @@ Requires: beautifulsoup4
 import argparse
 import json
 import re
+import ssl
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -57,6 +58,9 @@ from urllib.error import HTTPError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
+
+import truststore
+_SSL_CONTEXT = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 
 from bs4 import BeautifulSoup
 
@@ -83,7 +87,7 @@ def _throttled_urlopen(req):
         if wait > 0:
             time.sleep(wait)
         try:
-            resp = urlopen(req, timeout=30)
+            resp = urlopen(req, timeout=30, context=_SSL_CONTEXT)
             _last_request_time = time.monotonic()
             return resp
         except HTTPError as e:
@@ -1263,18 +1267,20 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
             offset = guess_utc_offset(venue, default_offset)
             utc = compute_utc(date_out, time_out, offset)
 
-            # American football's "Home"/"Away" column convention on these
-            # particular Wikipedia pages (AFLE, EFA) is inverted vs. every
-            # other league here: the column literally labelled "Home" names
-            # the away team's Wikipedia-editorial "away" convention (rows
-            # read as "Away team vs Home team"), so what map_columns() calls
-            # roles["home"] is actually the away team, and vice versa - and
-            # the score, being read off the row in that same column order,
-            # is inverted right along with it. Swapping both together here
-            # (rather than just relabelling home/away) is what fixes the
-            # score attribution, not just the team order.
+            # American football pages (AFLE, EFA) use away-score-first in the
+            # Result column. Older table layouts also invert the Home/Away
+            # column labels (what's headed "Home" is actually the away team).
+            # Newer table layouts correctly label columns "Away team"/"Home
+            # team", so only the score direction needs fixing, not the teams.
+            # Detect which format this table uses by checking whether the
+            # "away" column header includes the word "team" - if it does, the
+            # labels are correct and we only flip the score; if not, we also
+            # swap the team assignments. Both formats then produce the same
+            # home/away attribution so duplicates merge naturally.
             if cfg.get("swap_home_away"):
-                home, away = away, home
+                away_header = header_row[roles["away"]].lower()
+                if "team" not in away_header:
+                    home, away = away, home
                 if score:
                     sm = re.match(r"^\s*(\d{1,3})\s*[-\u2013]\s*(\d{1,3})\s*$", score)
                     if sm:
@@ -2481,8 +2487,15 @@ def within_scrape_window(m, now):
 def _match_identity(m):
     """Identity used to match a freshly parsed match against one already
     stored from a previous run, so an update can be applied in place
-    instead of appended as a duplicate."""
-    return (m.get("home"), m.get("away"), m.get("date"))
+    instead of appended as a duplicate.
+
+    Teams are stored in sorted order so that a match previously stored
+    with swapped home/away (e.g. from an older EFA/AFLE table format that
+    had inverted column labels) is recognised as the same fixture after the
+    swap logic was corrected, rather than producing a second duplicate
+    entry."""
+    pair = tuple(sorted([m.get("home") or "", m.get("away") or ""]))
+    return (pair, m.get("date"))
 
 
 def merge_league_matches(existing_matches, freshly_parsed_matches, now):
@@ -2512,9 +2525,44 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, now):
     entry and the stale old-dated entry is left behind rather than
     replaced.
     """
+    # De-duplicate existing_matches by identity before loading - a league
+    # may have ended up with two entries for the same fixture under different
+    # home/away orderings (e.g. after the EFA/AFLE column-swap logic was
+    # updated).  Keep the entry with the most information (prefer the one
+    # that has a score, or if tied, the one that has a date).
+    deduped_existing = {}
+    for m in existing_matches:
+        ident = _match_identity(m)
+        if ident not in deduped_existing:
+            deduped_existing[ident] = m
+        else:
+            prev = deduped_existing[ident]
+            if (m.get("score") is not None and prev.get("score") is None) or \
+               (m.get("date") is not None and prev.get("date") is None):
+                deduped_existing[ident] = m
+    existing_matches = list(deduped_existing.values())
+
     merged = {_match_identity(m): m for m in existing_matches}
+
+    # Secondary index: team pairs (without date) for stale entries whose
+    # date was None when first stored.  Used below to replace a dateless
+    # entry once the page finally publishes a date for that fixture.
+    pair_to_dateless_key = {
+        ident[0]: ident
+        for ident in merged
+        if ident[1] is None
+    }
+
     for m in freshly_parsed_matches:
         ident = _match_identity(m)
+        # Fresh match has a real date but we have a dateless stale entry for
+        # the same team pair: replace the stale entry (always - a newly
+        # published date is exactly the kind of backfill we want).
+        if ident[1] is not None and ident not in merged:
+            stale_key = pair_to_dateless_key.get(ident[0])
+            if stale_key is not None:
+                del merged[stale_key]
+                pair_to_dateless_key.pop(ident[0], None)
         if ident not in merged:
             merged[ident] = m
         elif within_scrape_window(m, now):
