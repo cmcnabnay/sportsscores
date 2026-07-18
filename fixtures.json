@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T15:01:27+00:00",
+  "updated": "2026-07-18T15:12:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14131,6 +14131,17 @@
           "points": 12
         },
         {
+          "team": "Scotland",
+          "played": 3,
+          "win": 2,
+          "draw": 0,
+          "loss": 1,
+          "for": 108,
+          "against": 97,
+          "diff": 11,
+          "points": 11
+        },
+        {
           "team": "Ireland",
           "played": 3,
           "win": 2,
@@ -14140,17 +14151,6 @@
           "against": 91,
           "diff": -1,
           "points": 10
-        },
-        {
-          "team": "Scotland",
-          "played": 2,
-          "win": 1,
-          "draw": 0,
-          "loss": 1,
-          "for": 75,
-          "against": 80,
-          "diff": -5,
-          "points": 6
         },
         {
           "team": "England",
@@ -14244,13 +14244,13 @@
         },
         {
           "team": "Fiji",
-          "played": 2,
+          "played": 3,
           "win": 0,
           "draw": 0,
-          "loss": 2,
-          "for": 32,
-          "against": 112,
-          "diff": -80,
+          "loss": 3,
+          "for": 49,
+          "against": 145,
+          "diff": -96,
           "points": 0
         }
       ]
