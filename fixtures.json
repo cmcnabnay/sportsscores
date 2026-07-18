@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T17:24:40+00:00",
+  "updated": "2026-07-18T17:35:28+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14176,13 +14176,13 @@
         },
         {
           "team": "Wales",
-          "played": 2,
+          "played": 3,
           "win": 1,
           "draw": 0,
-          "loss": 1,
+          "loss": 2,
           "for": 60,
-          "against": 59,
-          "diff": 1,
+          "against": 102,
+          "diff": -42,
           "points": 5
         },
         {
@@ -14199,6 +14199,17 @@
       ],
       "Southern Hemisphere": [
         {
+          "team": "South Africa",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 130,
+          "against": 49,
+          "diff": 81,
+          "points": 15
+        },
+        {
           "team": "New Zealand",
           "played": 3,
           "win": 3,
@@ -14208,17 +14219,6 @@
           "against": 70,
           "diff": 51,
           "points": 15
-        },
-        {
-          "team": "South Africa",
-          "played": 2,
-          "win": 2,
-          "draw": 0,
-          "loss": 0,
-          "for": 87,
-          "against": 49,
-          "diff": 38,
-          "points": 10
         },
         {
           "team": "Australia",
