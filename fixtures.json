@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T18:09:10+00:00",
+  "updated": "2026-07-18T18:19:38+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9238,23 +9238,23 @@
       "league": "afle-2026",
       "home": "Berlin Thunder",
       "away": "Alpine Rams",
-      "score": null,
+      "score": "17 – 40",
       "date": "2026-07-18",
       "time": "17:10",
       "utc": "2026-07-18T15:10:00+00:00",
       "venue": "Cantianstadion , Berlin",
-      "attendance": null
+      "attendance": "230"
     },
     {
       "league": "afle-2026",
       "home": "Rhein Fire",
       "away": "Vienna Vikings",
-      "score": null,
+      "score": "28 – 16",
       "date": "2026-07-18",
       "time": "17:10",
       "utc": "2026-07-18T15:10:00+00:00",
       "venue": "Schauinsland-Reisen-Arena , Duisburg",
-      "attendance": null
+      "attendance": "6055"
     },
     {
       "league": "nrl-2026",
@@ -16686,6 +16686,17 @@
           "points": 24
         },
         {
+          "team": "Leigh Leopards",
+          "played": 19,
+          "win": 12,
+          "draw": 0,
+          "loss": 7,
+          "for": 430,
+          "against": 366,
+          "diff": 64,
+          "points": 24
+        },
+        {
           "team": "Hull KR [ a ]",
           "played": 18,
           "win": 11,
@@ -16694,17 +16705,6 @@
           "for": 514,
           "against": 303,
           "diff": 211,
-          "points": 22
-        },
-        {
-          "team": "Leigh Leopards",
-          "played": 18,
-          "win": 11,
-          "draw": 0,
-          "loss": 7,
-          "for": 398,
-          "against": 344,
-          "diff": 54,
           "points": 22
         },
         {
@@ -16764,13 +16764,13 @@
         },
         {
           "team": "Hull F.C.",
-          "played": 18,
+          "played": 19,
           "win": 5,
           "draw": 0,
-          "loss": 13,
-          "for": 295,
-          "against": 375,
-          "diff": -80,
+          "loss": 14,
+          "for": 317,
+          "against": 407,
+          "diff": -90,
           "points": 10
         },
         {
