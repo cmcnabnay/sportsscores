@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T17:14:16+00:00",
+  "updated": "2026-07-18T17:24:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10255,6 +10255,17 @@
       "attendance": null
     },
     {
+      "league": "efa-2026",
+      "home": "Nordic Storm",
+      "away": "Munich Ravens",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "12:00",
+      "utc": "2026-08-08T10:00:00+00:00",
+      "venue": "Gladsaxe Stadium",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Catalans Dragons",
@@ -10366,13 +10377,13 @@
     },
     {
       "league": "efa-2026",
-      "home": "Nordic Storm",
-      "away": "Munich Ravens",
+      "home": "Prague Lions",
+      "away": "Frankfurt Galaxy",
       "score": null,
-      "date": "2026-08-08",
-      "time": null,
-      "utc": null,
-      "venue": "Gladsaxe Stadium",
+      "date": "2026-08-09",
+      "time": "13:00",
+      "utc": "2026-08-09T11:00:00+00:00",
+      "venue": "FK Viktoria Stadion",
       "attendance": null
     },
     {
@@ -10384,6 +10395,17 @@
       "time": "14:00",
       "utc": "2026-08-09T04:00:00+00:00",
       "venue": "GIO Stadium",
+      "attendance": null
+    },
+    {
+      "league": "efa-2026",
+      "home": "Raiders Tirol",
+      "away": "Paris Musketeers",
+      "score": null,
+      "date": "2026-08-09",
+      "time": "16:00",
+      "utc": "2026-08-09T14:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
       "attendance": null
     },
     {
@@ -10428,17 +10450,6 @@
       "time": null,
       "utc": null,
       "venue": "Stade Essone",
-      "attendance": null
-    },
-    {
-      "league": "efa-2026",
-      "home": "Prague Lions",
-      "away": "Frankfurt Galaxy",
-      "score": null,
-      "date": "2026-08-09",
-      "time": null,
-      "utc": null,
-      "venue": "FK Viktoria Stadion",
       "attendance": null
     },
     {
@@ -16265,6 +16276,17 @@
           "points": 9
         },
         {
+          "team": "Romania",
+          "played": 3,
+          "win": 1,
+          "draw": 1,
+          "loss": 1,
+          "for": 105,
+          "against": 121,
+          "diff": -16,
+          "points": 9
+        },
+        {
           "team": "Spain",
           "played": 2,
           "win": 1,
@@ -16285,17 +16307,6 @@
           "against": 44,
           "diff": 23,
           "points": 7
-        },
-        {
-          "team": "Romania",
-          "played": 2,
-          "win": 0,
-          "draw": 1,
-          "loss": 1,
-          "for": 67,
-          "against": 84,
-          "diff": -17,
-          "points": 4
         },
         {
           "team": "Zimbabwe",
