@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T20:41:22+00:00",
+  "updated": "2026-07-18T20:52:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14553,10 +14553,21 @@
         },
         {
           "team": "Serbia",
-          "played": 10,
+          "played": 11,
           "win": 5,
           "draw": null,
-          "loss": 5,
+          "loss": 6,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 16
+        },
+        {
+          "team": "Germany",
+          "played": 11,
+          "win": 5,
+          "draw": null,
+          "loss": 6,
           "for": null,
           "against": null,
           "diff": null,
@@ -14568,17 +14579,6 @@
           "win": 5,
           "draw": null,
           "loss": 5,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 13
-        },
-        {
-          "team": "Germany",
-          "played": 10,
-          "win": 4,
-          "draw": null,
-          "loss": 6,
           "for": null,
           "against": null,
           "diff": null,
