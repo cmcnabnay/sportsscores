@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T16:07:25+00:00",
+  "updated": "2026-07-18T16:18:24+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9161,7 +9161,7 @@
       "league": "super-league-2026",
       "home": "Warrington Wolves",
       "away": "Hull KR",
-      "score": null,
+      "score": "34–12",
       "date": "2026-07-18",
       "time": "15:00",
       "utc": "2026-07-18T14:00:00+00:00",
@@ -9183,7 +9183,7 @@
       "league": "efa-2026",
       "home": "Frankfurt Galaxy",
       "away": "Raiders Tirol",
-      "score": null,
+      "score": "61 - 41",
       "date": "2026-07-18",
       "time": "15:15",
       "utc": "2026-07-18T13:15:00+00:00",
@@ -16790,35 +16790,35 @@
         },
         {
           "team": "x – Nordic Storm",
-          "played": 7,
-          "win": 6,
+          "played": 8,
+          "win": 7,
           "draw": null,
           "loss": 1,
-          "for": 268,
-          "against": 122,
-          "diff": 146,
+          "for": 309,
+          "against": 125,
+          "diff": 184,
           "points": null
         },
         {
           "team": "Frankfurt Galaxy",
-          "played": 7,
+          "played": 8,
           "win": 3,
           "draw": null,
-          "loss": 4,
-          "for": 146,
-          "against": 171,
-          "diff": -25,
+          "loss": 5,
+          "for": 187,
+          "against": 232,
+          "diff": -45,
           "points": null
         },
         {
           "team": "Paris Musketeers",
-          "played": 7,
+          "played": 8,
           "win": 3,
           "draw": null,
-          "loss": 4,
-          "for": 157,
-          "against": 202,
-          "diff": -45,
+          "loss": 5,
+          "for": 160,
+          "against": 243,
+          "diff": -83,
           "points": null
         },
         {
@@ -16834,13 +16834,13 @@
         },
         {
           "team": "Raiders Tirol",
-          "played": 7,
-          "win": 0,
+          "played": 8,
+          "win": 1,
           "draw": null,
           "loss": 7,
-          "for": 150,
-          "against": 259,
-          "diff": -109,
+          "for": 211,
+          "against": 300,
+          "diff": -89,
           "points": null
         }
       ]
