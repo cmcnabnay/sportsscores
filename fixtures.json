@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T09:09:02+00:00",
+  "updated": "2026-07-18T14:39:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9017,7 +9017,7 @@
       "time": "20:00",
       "utc": "2026-07-17T19:00:00+00:00",
       "venue": "BrewDog Stadium",
-      "attendance": null
+      "attendance": "9866"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -9155,7 +9155,7 @@
       "time": "15:00",
       "utc": "2026-07-18T05:00:00+00:00",
       "venue": "GIO Stadium",
-      "attendance": null
+      "attendance": "19659"
     },
     {
       "league": "super-league-2026",
@@ -9260,7 +9260,7 @@
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "St. George Illawarra Dragons",
-      "score": null,
+      "score": "20–12",
       "date": "2026-07-18",
       "time": "17:30",
       "utc": "2026-07-18T07:30:00+00:00",
@@ -9282,12 +9282,12 @@
       "league": "nations-championship-2026",
       "home": "Japan",
       "away": "France",
-      "score": null,
+      "score": "15-42",
       "date": "2026-07-18",
       "time": "17:40",
       "utc": "2026-07-18T08:40:00+00:00",
       "venue": "Japan National Stadium, Tokyo",
-      "attendance": null
+      "attendance": "52632"
     },
     {
       "league": "nations-championship-2026",
@@ -9341,12 +9341,12 @@
       "league": "nations-championship-2026",
       "home": "Australia",
       "away": "Italy",
-      "score": null,
+      "score": "57-10",
       "date": "2026-07-18",
       "time": "18:10",
       "utc": "2026-07-18T10:10:00+00:00",
       "venue": "Perth Rectangular Stadium, Perth",
-      "attendance": null
+      "attendance": "19268"
     },
     {
       "league": "nations-cup-2026",
@@ -9363,18 +9363,18 @@
       "league": "nations-championship-2026",
       "home": "New Zealand",
       "away": "Ireland",
-      "score": null,
+      "score": "40-21",
       "date": "2026-07-18",
       "time": "19:10",
       "utc": "2026-07-18T07:10:00+00:00",
       "venue": "Eden Park, Auckland",
-      "attendance": null
+      "attendance": "48153"
     },
     {
       "league": "fivb-nations-league-2026",
       "home": "Argentina",
       "away": "Italy",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-18",
       "time": "19:20",
       "utc": "2026-07-18T10:20:00+00:00",
@@ -9396,7 +9396,7 @@
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "Wests Tigers",
-      "score": null,
+      "score": "32–0",
       "date": "2026-07-18",
       "time": "19:30",
       "utc": "2026-07-18T09:30:00+00:00",
@@ -14120,26 +14120,26 @@
     "nations-championship-2026": {
       "Northern Hemisphere": [
         {
-          "team": "Ireland",
-          "played": 2,
+          "team": "France",
+          "played": 3,
           "win": 2,
           "draw": 0,
-          "loss": 0,
-          "for": 69,
-          "against": 51,
-          "diff": 18,
-          "points": 10
+          "loss": 1,
+          "for": 116,
+          "against": 75,
+          "diff": 41,
+          "points": 12
         },
         {
-          "team": "France",
-          "played": 2,
-          "win": 1,
+          "team": "Ireland",
+          "played": 3,
+          "win": 2,
           "draw": 0,
           "loss": 1,
-          "for": 74,
-          "against": 60,
-          "diff": 14,
-          "points": 7
+          "for": 90,
+          "against": 91,
+          "diff": -1,
+          "points": 10
         },
         {
           "team": "Scotland",
@@ -14176,17 +14176,28 @@
         },
         {
           "team": "Italy",
-          "played": 2,
+          "played": 3,
           "win": 0,
           "draw": 0,
-          "loss": 2,
-          "for": 27,
-          "against": 74,
-          "diff": -47,
+          "loss": 3,
+          "for": 37,
+          "against": 131,
+          "diff": -94,
           "points": 0
         }
       ],
       "Southern Hemisphere": [
+        {
+          "team": "New Zealand",
+          "played": 3,
+          "win": 3,
+          "draw": 0,
+          "loss": 0,
+          "for": 121,
+          "against": 70,
+          "diff": 51,
+          "points": 15
+        },
         {
           "team": "South Africa",
           "played": 2,
@@ -14199,15 +14210,15 @@
           "points": 10
         },
         {
-          "team": "New Zealand",
-          "played": 2,
-          "win": 2,
+          "team": "Australia",
+          "played": 3,
+          "win": 1,
           "draw": 0,
-          "loss": 0,
-          "for": 81,
-          "against": 49,
-          "diff": 32,
-          "points": 10
+          "loss": 2,
+          "for": 114,
+          "against": 85,
+          "diff": 29,
+          "points": 8
         },
         {
           "team": "Argentina",
@@ -14222,25 +14233,14 @@
         },
         {
           "team": "Japan",
-          "played": 2,
+          "played": 3,
           "win": 1,
           "draw": 0,
-          "loss": 1,
-          "for": 47,
-          "against": 46,
-          "diff": 1,
-          "points": 4
-        },
-        {
-          "team": "Australia",
-          "played": 2,
-          "win": 0,
-          "draw": 0,
           "loss": 2,
-          "for": 57,
-          "against": 75,
-          "diff": -18,
-          "points": 3
+          "for": 62,
+          "against": 88,
+          "diff": -26,
+          "points": 4
         },
         {
           "team": "Fiji",
@@ -14486,6 +14486,17 @@
           "points": 20
         },
         {
+          "team": "Italy",
+          "played": 11,
+          "win": 7,
+          "draw": null,
+          "loss": 4,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 23
+        },
+        {
           "team": "Turkey",
           "played": 10,
           "win": 7,
@@ -14495,17 +14506,6 @@
           "against": null,
           "diff": null,
           "points": 19
-        },
-        {
-          "team": "Italy",
-          "played": 10,
-          "win": 6,
-          "draw": null,
-          "loss": 4,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 20
         },
         {
           "team": "Ukraine",
@@ -14586,10 +14586,10 @@
         },
         {
           "team": "Argentina",
-          "played": 10,
+          "played": 11,
           "win": 3,
           "draw": null,
-          "loss": 7,
+          "loss": 8,
           "for": null,
           "against": null,
           "diff": null,
@@ -16440,6 +16440,17 @@
           "points": 32
         },
         {
+          "team": "New Zealand Warriors",
+          "played": 17,
+          "win": 12,
+          "draw": 0,
+          "loss": 5,
+          "for": 490,
+          "against": 288,
+          "diff": 202,
+          "points": 30
+        },
+        {
           "team": "Sydney Roosters",
           "played": 17,
           "win": 12,
@@ -16449,17 +16460,6 @@
           "against": 342,
           "diff": 84,
           "points": 30
-        },
-        {
-          "team": "New Zealand Warriors",
-          "played": 16,
-          "win": 11,
-          "draw": 0,
-          "loss": 5,
-          "for": 470,
-          "against": 276,
-          "diff": 194,
-          "points": 28
         },
         {
           "team": "Cronulla-Sutherland Sharks",
@@ -16485,13 +16485,13 @@
         },
         {
           "team": "South Sydney Rabbitohs",
-          "played": 16,
+          "played": 17,
           "win": 9,
           "draw": 0,
-          "loss": 7,
-          "for": 458,
-          "against": 372,
-          "diff": 86,
+          "loss": 8,
+          "for": 482,
+          "against": 406,
+          "diff": 76,
           "points": 24
         },
         {
@@ -16528,6 +16528,17 @@
           "points": 22
         },
         {
+          "team": "Canterbury-Bankstown Bulldogs",
+          "played": 17,
+          "win": 8,
+          "draw": 0,
+          "loss": 9,
+          "for": 324,
+          "against": 394,
+          "diff": -70,
+          "points": 22
+        },
+        {
           "team": "Melbourne Storm",
           "played": 18,
           "win": 8,
@@ -16539,26 +16550,15 @@
           "points": 20
         },
         {
-          "team": "Canterbury-Bankstown Bulldogs",
-          "played": 16,
-          "win": 7,
-          "draw": 0,
-          "loss": 9,
-          "for": 292,
-          "against": 394,
-          "diff": -102,
-          "points": 20
-        },
-        {
           "team": "Canberra Raiders",
-          "played": 17,
-          "win": 7,
+          "played": 18,
+          "win": 8,
           "draw": 0,
           "loss": 10,
-          "for": 345,
-          "against": 436,
-          "diff": -91,
-          "points": 18
+          "for": 379,
+          "against": 460,
+          "diff": -81,
+          "points": 20
         },
         {
           "team": "Brisbane Broncos",
@@ -16573,13 +16573,13 @@
         },
         {
           "team": "Wests Tigers",
-          "played": 17,
+          "played": 18,
           "win": 7,
           "draw": 0,
-          "loss": 10,
+          "loss": 11,
           "for": 355,
-          "against": 485,
-          "diff": -130,
+          "against": 517,
+          "diff": -162,
           "points": 18
         },
         {
@@ -16606,13 +16606,13 @@
         },
         {
           "team": "St. George Illawarra Dragons (X)",
-          "played": 16,
+          "played": 17,
           "win": 2,
           "draw": 0,
-          "loss": 14,
-          "for": 244,
-          "against": 483,
-          "diff": -239,
+          "loss": 15,
+          "for": 256,
+          "against": 503,
+          "diff": -247,
           "points": 10
         }
       ]
