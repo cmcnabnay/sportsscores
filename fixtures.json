@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T14:10:07+00:00",
+  "updated": "2026-07-18T00:41:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8896,7 +8896,7 @@
       "league": "fivb-nations-league-2026",
       "home": "China",
       "away": "Bulgaria",
-      "score": "-",
+      "score": "1-3",
       "date": "2026-07-17",
       "time": "16:00",
       "utc": "2026-07-17T21:00:00+00:00",
@@ -8907,7 +8907,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Turkey",
       "away": "Ukraine",
-      "score": "-",
+      "score": "3-2",
       "date": "2026-07-17",
       "time": "16:30",
       "utc": "2026-07-17T14:30:00+00:00",
@@ -8949,7 +8949,7 @@
       "time": "18:00",
       "utc": "2026-07-17T08:00:00+00:00",
       "venue": "Ocean Protect Stadium",
-      "attendance": null
+      "attendance": "11123"
     },
     {
       "league": "cfl-2026",
@@ -8982,24 +8982,24 @@
       "time": "20:00",
       "utc": "2026-07-17T10:00:00+00:00",
       "venue": "Allianz Stadium",
-      "attendance": null
+      "attendance": "16010"
     },
     {
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Wigan Warriors",
-      "score": null,
+      "score": "10–24",
       "date": "2026-07-17",
       "time": "20:00",
       "utc": "2026-07-17T19:00:00+00:00",
       "venue": "Accu Stadium",
-      "attendance": null
+      "attendance": "3391"
     },
     {
       "league": "super-league-2026",
       "home": "St Helens",
       "away": "Catalans Dragons",
-      "score": null,
+      "score": "34–18",
       "date": "2026-07-17",
       "time": "20:00",
       "utc": "2026-07-17T19:00:00+00:00",
@@ -9010,7 +9010,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Iran",
       "away": "Slovenia",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-17",
       "time": "20:00",
       "utc": "2026-07-17T18:00:00+00:00",
@@ -9074,6 +9074,17 @@
       "time": "13:00",
       "utc": "2026-07-18T11:00:00+00:00",
       "venue": "Vélodrome Jacques-Anquetil , Paris",
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Canada",
+      "away": "Cuba",
+      "score": "-",
+      "date": "2026-07-18",
+      "time": "13:00",
+      "utc": "2026-07-18T04:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -9172,17 +9183,6 @@
       "date": "2026-07-18",
       "time": "16:00",
       "utc": "2026-07-18T21:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Canada",
-      "away": "Cuba",
-      "score": "-",
-      "date": "2026-07-18",
-      "time": "16:00",
-      "utc": "2026-07-18T07:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -9308,8 +9308,8 @@
       "date": "2026-07-18",
       "time": "18:00",
       "utc": "2026-07-18T22:00:00+00:00",
-      "venue": "Estadio La Portada, La Serena",
-      "attendance": null
+      "venue": "CARR Mahuida, La Reina {{refn|group=N|The match was originally set to take place at Estadio La Portada, La Serena, but was relocated to CARR Mahuida due to concerns over adverse weather.}}",
+      "attendance": "0"
     },
     {
       "league": "nations-championship-2026",
@@ -14438,6 +14438,17 @@
           "points": 25
         },
         {
+          "team": "Slovenia (Q)",
+          "played": 10,
+          "win": 8,
+          "draw": null,
+          "loss": 2,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 20
+        },
+        {
           "team": "Poland",
           "played": 9,
           "win": 7,
@@ -14449,15 +14460,15 @@
           "points": 20
         },
         {
-          "team": "Slovenia",
-          "played": 9,
+          "team": "Turkey",
+          "played": 10,
           "win": 7,
           "draw": null,
-          "loss": 2,
+          "loss": 3,
           "for": null,
           "against": null,
           "diff": null,
-          "points": 17
+          "points": 19
         },
         {
           "team": "Italy",
@@ -14472,21 +14483,21 @@
         },
         {
           "team": "Ukraine",
+          "played": 11,
+          "win": 6,
+          "draw": null,
+          "loss": 5,
+          "for": null,
+          "against": null,
+          "diff": null,
+          "points": 20
+        },
+        {
+          "team": "Bulgaria",
           "played": 10,
           "win": 6,
           "draw": null,
           "loss": 4,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 19
-        },
-        {
-          "team": "Turkey",
-          "played": 9,
-          "win": 6,
-          "draw": null,
-          "loss": 3,
           "for": null,
           "against": null,
           "diff": null,
@@ -14515,17 +14526,6 @@
           "points": 15
         },
         {
-          "team": "Bulgaria",
-          "played": 9,
-          "win": 5,
-          "draw": null,
-          "loss": 4,
-          "for": null,
-          "against": null,
-          "diff": null,
-          "points": 14
-        },
-        {
           "team": "France",
           "played": 10,
           "win": 5,
@@ -14549,10 +14549,10 @@
         },
         {
           "team": "Iran",
-          "played": 10,
+          "played": 11,
           "win": 3,
           "draw": null,
-          "loss": 7,
+          "loss": 8,
           "for": null,
           "against": null,
           "diff": null,
@@ -14604,10 +14604,10 @@
         },
         {
           "team": "China [ a ]",
-          "played": 10,
+          "played": 11,
           "win": 1,
           "draw": null,
-          "loss": 9,
+          "loss": 10,
           "for": null,
           "against": null,
           "diff": null,
@@ -16414,6 +16414,17 @@
           "points": 32
         },
         {
+          "team": "Sydney Roosters",
+          "played": 17,
+          "win": 12,
+          "draw": 0,
+          "loss": 5,
+          "for": 426,
+          "against": 342,
+          "diff": 84,
+          "points": 30
+        },
+        {
           "team": "New Zealand Warriors",
           "played": 16,
           "win": 11,
@@ -16433,17 +16444,6 @@
           "for": 488,
           "against": 363,
           "diff": 125,
-          "points": 28
-        },
-        {
-          "team": "Sydney Roosters",
-          "played": 16,
-          "win": 11,
-          "draw": 0,
-          "loss": 5,
-          "for": 412,
-          "against": 336,
-          "diff": 76,
           "points": 28
         },
         {
@@ -16503,13 +16503,13 @@
         },
         {
           "team": "Melbourne Storm",
-          "played": 17,
+          "played": 18,
           "win": 8,
           "draw": 0,
-          "loss": 9,
-          "for": 414,
-          "against": 416,
-          "diff": -2,
+          "loss": 10,
+          "for": 420,
+          "against": 430,
+          "diff": -10,
           "points": 20
         },
         {
@@ -16605,6 +16605,17 @@
           "points": 30
         },
         {
+          "team": "Wigan Warriors",
+          "played": 19,
+          "win": 14,
+          "draw": 0,
+          "loss": 5,
+          "for": 549,
+          "against": 359,
+          "diff": 190,
+          "points": 28
+        },
+        {
           "team": "Wakefield Trinity",
           "played": 19,
           "win": 14,
@@ -16616,17 +16627,6 @@
           "points": 28
         },
         {
-          "team": "Wigan Warriors",
-          "played": 18,
-          "win": 13,
-          "draw": 0,
-          "loss": 5,
-          "for": 525,
-          "against": 349,
-          "diff": 176,
-          "points": 26
-        },
-        {
           "team": "Warrington Wolves [ a ]",
           "played": 17,
           "win": 12,
@@ -16635,6 +16635,17 @@
           "for": 432,
           "against": 288,
           "diff": 144,
+          "points": 24
+        },
+        {
+          "team": "St Helens",
+          "played": 19,
+          "win": 12,
+          "draw": 0,
+          "loss": 7,
+          "for": 434,
+          "against": 388,
+          "diff": 46,
           "points": 24
         },
         {
@@ -16660,25 +16671,14 @@
           "points": 22
         },
         {
-          "team": "St Helens",
-          "played": 18,
-          "win": 11,
-          "draw": 0,
-          "loss": 7,
-          "for": 402,
-          "against": 370,
-          "diff": 32,
-          "points": 22
-        },
-        {
           "team": "Catalans Dragons",
-          "played": 18,
+          "played": 19,
           "win": 8,
           "draw": 0,
-          "loss": 10,
-          "for": 371,
-          "against": 539,
-          "diff": -168,
+          "loss": 11,
+          "for": 389,
+          "against": 571,
+          "diff": -182,
           "points": 16
         },
         {
@@ -16738,13 +16738,13 @@
         },
         {
           "team": "Huddersfield Giants",
-          "played": 18,
+          "played": 19,
           "win": 2,
           "draw": 0,
-          "loss": 16,
-          "for": 277,
-          "against": 569,
-          "diff": -292,
+          "loss": 17,
+          "for": 287,
+          "against": 593,
+          "diff": -306,
           "points": 4
         }
       ]
