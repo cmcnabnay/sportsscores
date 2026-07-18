@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T00:41:18+00:00",
+  "updated": "2026-07-18T04:23:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8918,7 +8918,7 @@
       "league": "u20-jwc-2026",
       "home": "United States",
       "away": "Uruguay",
-      "score": null,
+      "score": "39-15",
       "date": "2026-07-17",
       "time": "18:00",
       "utc": "2026-07-17T14:00:00+00:00",
@@ -8932,6 +8932,19 @@
       "home": "Australia",
       "away": "Argentina",
       "score": null,
+      "date": "2026-07-17",
+      "time": "18:00",
+      "utc": "2026-07-17T14:00:00+00:00",
+      "venue": "Avchala Stadium, Tbilisi",
+      "attendance": null,
+      "group": "Fifth-place bracket",
+      "round": "Seventh-place play-off"
+    },
+    {
+      "league": "u20-jwc-2026",
+      "home": "Argentina",
+      "away": "Australia",
+      "score": "29-52",
       "date": "2026-07-17",
       "time": "18:00",
       "utc": "2026-07-17T14:00:00+00:00",
@@ -8955,7 +8968,7 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "BC Lions",
-      "score": null,
+      "score": "19-17",
       "date": "2026-07-17",
       "time": "19:00",
       "utc": "2026-07-18T01:00:00+00:00",
@@ -9021,7 +9034,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Brazil",
       "away": "Poland",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-17",
       "time": "20:00",
       "utc": "2026-07-18T01:00:00+00:00",
@@ -9045,7 +9058,7 @@
       "league": "u20-jwc-2026",
       "home": "Scotland",
       "away": "Wales",
-      "score": null,
+      "score": "28-21",
       "date": "2026-07-17",
       "time": "20:30",
       "utc": "2026-07-17T16:30:00+00:00",
@@ -9053,6 +9066,19 @@
       "attendance": null,
       "group": "Fifth-place bracket",
       "round": "Fifth-place play-off"
+    },
+    {
+      "league": "u20-jwc-2026",
+      "home": "Japan",
+      "away": "Spain",
+      "score": "34-26",
+      "date": "2026-07-17",
+      "time": "20:30",
+      "utc": "2026-07-17T16:30:00+00:00",
+      "venue": "Aia Arena , Kutaisi",
+      "attendance": null,
+      "group": "Thirteenth-place bracket",
+      "round": "Thirteenth-place play-off"
     },
     {
       "league": "nations-cup-2026",
@@ -14438,7 +14464,7 @@
           "points": 25
         },
         {
-          "team": "Slovenia (Q)",
+          "team": "Poland (Q)",
           "played": 10,
           "win": 8,
           "draw": null,
@@ -14446,12 +14472,12 @@
           "for": null,
           "against": null,
           "diff": null,
-          "points": 20
+          "points": 23
         },
         {
-          "team": "Poland",
-          "played": 9,
-          "win": 7,
+          "team": "Slovenia",
+          "played": 10,
+          "win": 8,
           "draw": null,
           "loss": 2,
           "for": null,
@@ -14505,10 +14531,10 @@
         },
         {
           "team": "Brazil",
-          "played": 10,
+          "played": 11,
           "win": 6,
           "draw": null,
-          "loss": 4,
+          "loss": 5,
           "for": null,
           "against": null,
           "diff": null,
@@ -16298,6 +16324,17 @@
     "cfl-2026": {
       "West Division": [
         {
+          "team": "Edmonton Elks",
+          "played": 6,
+          "win": 5,
+          "draw": null,
+          "loss": 1,
+          "for": 167,
+          "against": 138,
+          "diff": null,
+          "points": 10
+        },
+        {
           "team": "Saskatchewan Roughriders",
           "played": 5,
           "win": 4,
@@ -16305,17 +16342,6 @@
           "loss": 1,
           "for": 170,
           "against": 133,
-          "diff": null,
-          "points": 8
-        },
-        {
-          "team": "Edmonton Elks",
-          "played": 5,
-          "win": 4,
-          "draw": null,
-          "loss": 1,
-          "for": 148,
-          "against": 121,
           "diff": null,
           "points": 8
         },
@@ -16343,12 +16369,12 @@
         },
         {
           "team": "BC Lions",
-          "played": 4,
+          "played": 5,
           "win": 1,
           "draw": null,
-          "loss": 3,
-          "for": 123,
-          "against": 137,
+          "loss": 4,
+          "for": 140,
+          "against": 156,
           "diff": null,
           "points": 2
         }
