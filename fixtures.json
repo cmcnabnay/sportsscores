@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T21:25:19+00:00",
+  "updated": "2026-07-18T21:36:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9092,6 +9092,17 @@
       "attendance": null
     },
     {
+      "league": "nations-cup-2026",
+      "home": "Chile",
+      "away": "Georgia",
+      "score": "22-49",
+      "date": "2026-07-18",
+      "time": "13:00",
+      "utc": "2026-07-18T17:00:00+00:00",
+      "venue": "CARR Mahuida, La Reina {{refn|group=N|The match was originally set to take place at Estadio La Portada, La Serena, but was relocated to CARR Mahuida due to concerns over adverse weather.}}",
+      "attendance": "0"
+    },
+    {
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "London Warriors",
@@ -9325,17 +9336,6 @@
       "attendance": null,
       "group": "Championship bracket",
       "round": "Third-place play-off"
-    },
-    {
-      "league": "nations-cup-2026",
-      "home": "Chile",
-      "away": "Georgia",
-      "score": "22-49",
-      "date": "2026-07-18",
-      "time": "18:00",
-      "utc": "2026-07-18T22:00:00+00:00",
-      "venue": "CARR Mahuida, La Reina {{refn|group=N|The match was originally set to take place at Estadio La Portada, La Serena, but was relocated to CARR Mahuida due to concerns over adverse weather.}}",
-      "attendance": "0"
     },
     {
       "league": "nations-championship-2026",
@@ -14270,46 +14270,46 @@
       "North/West Division": [
         {
           "team": "Rhein Fire",
-          "played": 6,
+          "played": 7,
           "win": 5,
           "draw": null,
-          "loss": 1,
-          "for": 226,
-          "against": 86,
-          "diff": 140,
+          "loss": 2,
+          "for": 242,
+          "against": 114,
+          "diff": 128,
           "points": null
         },
         {
           "team": "London Warriors",
-          "played": 7,
-          "win": 3,
+          "played": 8,
+          "win": 4,
           "draw": null,
           "loss": 4,
-          "for": 179,
-          "against": 255,
-          "diff": -76,
+          "for": 223,
+          "against": 278,
+          "diff": -55,
           "points": null
         },
         {
           "team": "Paris Lights",
-          "played": 6,
+          "played": 7,
           "win": 2,
           "draw": null,
-          "loss": 4,
-          "for": 100,
-          "against": 181,
-          "diff": -81,
+          "loss": 5,
+          "for": 123,
+          "against": 225,
+          "diff": -102,
           "points": null
         },
         {
           "team": "Alpine Rams",
-          "played": 6,
+          "played": 7,
           "win": 1,
           "draw": null,
-          "loss": 5,
-          "for": 118,
-          "against": 186,
-          "diff": -68,
+          "loss": 6,
+          "for": 135,
+          "against": 226,
+          "diff": -91,
           "points": null
         }
       ],
@@ -14394,17 +14394,6 @@
           "points": null
         },
         {
-          "team": "Berlin Thunder",
-          "played": 8,
-          "win": 4,
-          "draw": null,
-          "loss": 4,
-          "for": 220,
-          "against": 235,
-          "diff": -15,
-          "points": null
-        },
-        {
           "team": "London Warriors",
           "played": 8,
           "win": 4,
@@ -14413,6 +14402,17 @@
           "for": 223,
           "against": 278,
           "diff": -55,
+          "points": null
+        },
+        {
+          "team": "Berlin Thunder",
+          "played": 8,
+          "win": 4,
+          "draw": null,
+          "loss": 4,
+          "for": 220,
+          "against": 235,
+          "diff": -15,
           "points": null
         },
         {
