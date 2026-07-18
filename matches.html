@@ -122,16 +122,77 @@
     margin-bottom: 16px;
     overflow: hidden;
   }
+  .league-scroller-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 4px;
+  }
+  .scroller-arrow {
+    flex: 0 0 auto;
+    border: none;
+    background: white;
+    color: var(--navy);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scroller-arrow:disabled { opacity: 0.3; cursor: default; }
   .league-scroller {
     display: flex;
     gap: 8px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding: 2px 20px 12px;
-    margin: 0 -20px 4px;
+    scrollbar-width: thin;
+    padding: 2px 4px 12px;
+    flex: 1;
+    min-width: 0;
   }
-  .league-scroller::-webkit-scrollbar { display: none; }
+  .league-scroller::-webkit-scrollbar { height: 6px; }
+  .league-scroller::-webkit-scrollbar-thumb {
+    background: #c7cedb;
+    border-radius: 3px;
+  }
+  .round-picker {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 0 0 12px;
+  }
+  .round-pill {
+    border: none;
+    background: #e8edf5;
+    color: var(--navy);
+    padding: 5px 12px;
+    border-radius: 14px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .round-pill.active { background: var(--navy); color: white; }
+  .standings-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 8px 16px 12px;
+    font-size: 11px;
+    color: var(--grey);
+  }
+  .standings-legend .swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: -1px;
+  }
   .league-pill {
     flex: 0 0 auto;
     scroll-snap-align: start;
@@ -519,6 +580,9 @@ const STANDINGS_COLUMNS = [
   { key: 'points', label: 'Pts' },
 ];
 
+// A wiki-sourced highlight color is usually a pale tint (e.g. #E8FFD8 for
+// "advances"), light enough to use directly as a full row background
+// without needing to dim/lighten it further.
 function renderStandingsTable(rows) {
   const activeCols = STANDINGS_COLUMNS.filter(c => rows.some(r => r[c.key] !== null && r[c.key] !== undefined));
 
@@ -538,10 +602,42 @@ function renderStandingsTable(rows) {
       const display = (val === null || val === undefined) ? '–' : (c.key === 'diff' && val > 0 ? '+' + val : val);
       return `<td class="${cls}">${display}</td>`;
     }).join('');
-    return `<tr><td class="pos-col">${i + 1}</td><td class="team-col">${r.team}</td>${cells}</tr>`;
+    const rowStyle = r.highlight ? ` style="background:${r.highlight}"` : '';
+    return `<tr${rowStyle}><td class="pos-col">${i + 1}</td><td class="team-col">${r.team}</td>${cells}</tr>`;
   }).join('');
 
   return `<table class="standings-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
+}
+
+// A standings group is stored as {rows, legend} now, but tolerate a plain
+// array too (older cached fixtures.json from before this changed).
+function groupRows(groupData) {
+  return Array.isArray(groupData) ? groupData : (groupData.rows || []);
+}
+function groupLegend(groupData) {
+  return Array.isArray(groupData) ? {} : (groupData.legend || {});
+}
+
+function renderLegend(legend) {
+  const entries = Object.entries(legend || {});
+  if (!entries.length) return '';
+  const items = entries.map(([color, label]) =>
+    `<span><span class="swatch" style="background:${color}"></span>${label}</span>`
+  ).join('');
+  return `<div class="standings-legend">${items}</div>`;
+}
+
+// Which round-path is selected per league, e.g. "Pre-Qualifiers · First
+// Round", for leagues whose group labels carry that kind of breadcrumb
+// (see fetch_phased_standings() in fetch_fixtures.py). Leagues with no
+// such breadcrumb never populate/consult this.
+const standingsRoundKey = {};
+const BREADCRUMB_SEP = ' \u00b7 ';
+
+function splitBreadcrumb(groupLabel) {
+  const parts = groupLabel.split(BREADCRUMB_SEP);
+  if (parts.length < 2) return { roundPath: null, group: groupLabel };
+  return { roundPath: parts.slice(0, -1).join(BREADCRUMB_SEP), group: parts[parts.length - 1] };
 }
 
 function renderStandings() {
@@ -551,7 +647,7 @@ function renderStandings() {
   // group are worth a pill - a league whose scrape failed/hasn't run
   // yet just doesn't show up here rather than showing an empty tab.
   const leagueKeys = Object.keys(standings).filter(
-    key => Object.values(standings[key] || {}).some(rows => rows && rows.length)
+    key => Object.values(standings[key] || {}).some(g => groupRows(g).length)
   );
 
   if (leagueKeys.length === 0) {
@@ -566,6 +662,14 @@ function renderStandings() {
     standingsLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
   }
 
+  const row = document.createElement('div');
+  row.className = 'league-scroller-row';
+
+  const leftArrow = document.createElement('button');
+  leftArrow.className = 'scroller-arrow';
+  leftArrow.setAttribute('aria-label', 'Scroll leagues left');
+  leftArrow.textContent = '\u2039';
+
   const scroller = document.createElement('div');
   scroller.className = 'league-scroller';
   for (const key of leagueKeys) {
@@ -578,7 +682,24 @@ function renderStandings() {
     });
     scroller.appendChild(btn);
   }
-  standingsView.appendChild(scroller);
+
+  const rightArrow = document.createElement('button');
+  rightArrow.className = 'scroller-arrow';
+  rightArrow.setAttribute('aria-label', 'Scroll leagues right');
+  rightArrow.textContent = '\u203a';
+
+  const updateArrows = () => {
+    leftArrow.disabled = scroller.scrollLeft <= 0;
+    rightArrow.disabled = scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 1;
+  };
+  leftArrow.addEventListener('click', () => scroller.scrollBy({ left: -160, behavior: 'smooth' }));
+  rightArrow.addEventListener('click', () => scroller.scrollBy({ left: 160, behavior: 'smooth' }));
+  scroller.addEventListener('scroll', updateArrows);
+
+  row.appendChild(leftArrow);
+  row.appendChild(scroller);
+  row.appendChild(rightArrow);
+  standingsView.appendChild(row);
 
   // Scroll the active pill into view (e.g. after the underlying league
   // list re-renders) so it's never hidden off-screen to the right.
@@ -586,19 +707,62 @@ function renderStandings() {
   if (activePill && typeof activePill.scrollIntoView === 'function') {
     activePill.scrollIntoView({ block: 'nearest', inline: 'center' });
   }
+  // Defer so layout has settled before measuring scrollWidth/clientWidth.
+  setTimeout(updateArrows, 0);
 
   const leagueName = (leagues[standingsLeagueKey] && leagues[standingsLeagueKey].name) || standingsLeagueKey;
-  for (const [groupLabel, rows] of Object.entries(standings[standingsLeagueKey] || {})) {
-    if (!rows || !rows.length) continue;
+  const groups = standings[standingsLeagueKey] || {};
+
+  // Leagues whose group labels are breadcrumbs ("Phase · Round · Group",
+  // e.g. FIBA qualification) get a round-picker; everything else (a
+  // league with no breadcrumb, e.g. Currie Cup's plain "Premier
+  // Division") just lists its groups directly, as before.
+  const roundPaths = [];
+  for (const label of Object.keys(groups)) {
+    const { roundPath } = splitBreadcrumb(label);
+    if (roundPath && !roundPaths.includes(roundPath)) roundPaths.push(roundPath);
+  }
+
+  let visibleEntries = Object.entries(groups);
+
+  if (roundPaths.length > 1) {
+    if (!standingsRoundKey[standingsLeagueKey] || !roundPaths.includes(standingsRoundKey[standingsLeagueKey])) {
+      standingsRoundKey[standingsLeagueKey] = roundPaths[0];
+    }
+    const picker = document.createElement('div');
+    picker.className = 'round-picker';
+    for (const path of roundPaths) {
+      const btn = document.createElement('button');
+      btn.className = 'round-pill' + (path === standingsRoundKey[standingsLeagueKey] ? ' active' : '');
+      btn.textContent = path;
+      btn.addEventListener('click', () => {
+        standingsRoundKey[standingsLeagueKey] = path;
+        renderStandings();
+      });
+      picker.appendChild(btn);
+    }
+    standingsView.appendChild(picker);
+
+    visibleEntries = visibleEntries.filter(([label]) => {
+      const { roundPath } = splitBreadcrumb(label);
+      return roundPath === standingsRoundKey[standingsLeagueKey];
+    });
+  }
+
+  for (const [groupLabel, groupData] of visibleEntries) {
+    const rows = groupRows(groupData);
+    if (!rows.length) continue;
+    const { group: groupOnly } = splitBreadcrumb(groupLabel);
     const wrap = document.createElement('div');
     wrap.className = 'standings-group';
     // Only show the group label as its own heading when it's not just a
     // generic restatement of the league itself (e.g. skip a redundant
     // "Standings" sub-heading, but keep "West Division" / "Pool A" etc).
-    const showGroupLabel = !/^(standings?|table|ladder)$/i.test(groupLabel.trim());
+    const showGroupLabel = !/^(standings?|table|ladder)$/i.test(groupOnly.trim());
     wrap.innerHTML = `
-      <h3>${leagueName}${showGroupLabel ? ' · ' + groupLabel : ''}</h3>
+      <h3>${leagueName}${showGroupLabel ? ' · ' + groupOnly : ''}</h3>
       ${renderStandingsTable(rows)}
+      ${renderLegend(groupLegend(groupData))}
     `;
     standingsView.appendChild(wrap);
   }

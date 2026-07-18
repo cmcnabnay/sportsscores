@@ -166,6 +166,21 @@ LEAGUES = {
             ],
         },
     },
+    "currie-cup-2026": {
+        "name": "Currie Cup Premier Division 2026",
+        "page": "2026_Currie_Cup_Premier_Division",
+        "sport": "rugby",
+        "parser": "rugbybox2",
+        "utc_offset": 2,  # South Africa Standard Time (SAST), no DST -
+                          # always used directly rather than via
+                          # guess_utc_offset(), see parse_rugbybox2_matches.
+        "standings": {
+            "page": "2026_Currie_Cup_Premier_Division",
+            "groups": [
+                {"label": "Premier Division", "heading_ids": ["Standings", "Table"]},
+            ],
+        },
+    },
     "nrl-2026": {
         "name": "NRL 2026",
         "page": "2026_NRL_season_results",
@@ -230,6 +245,11 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "utc_offset": 2,  # Central European Summer Time
+        # This page's results table is headed "Home"/"Away" but the actual
+        # on-page convention for this sport lists Away team first, Home
+        # team second (i.e. what's under "Home" is really the away side) -
+        # see the swap_home_away handling in parse_wikitable_matches.
+        "swap_home_away": True,
         "standings": {
             "page": "2026_American_Football_League_Europe_season",
             "groups": [
@@ -246,6 +266,8 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "utc_offset": 2,  # Central European Summer Time
+        # Same Away-team-first convention as AFLE - see afle-2026's comment.
+        "swap_home_away": True,
         "standings": {
             # Confirmed from the page's own wikitext:
             #   ===Standings===
@@ -322,6 +344,27 @@ LEAGUES = {
             ],
         },
     },
+    # --- FIBA World Cup 2027 qualification standings -----------------------
+    # These four pages reuse the same group letters (Group A, Group B, ...)
+    # across multiple different rounds/phases (e.g. Europe's Pre-Qualifiers
+    # Second Round and Qualifiers First Round both have a "Group A"), so a
+    # single flat "grab every heading matching Group_X" scan (the old
+    # auto_groups approach) mixed unrelated rounds' tables together under
+    # duplicate-looking labels. Instead, "phases" scopes the search: each
+    # phase (optionally with its own "rounds" sub-list, for pages that have
+    # a Pre-Qualifiers/Qualifiers split above the round level) is anchored
+    # to its own heading id, and every standings-shaped table nested under
+    # that heading - however many groups it actually contains, whatever
+    # they're called ("Group A", "Best fourth-placed team", "Ranking of
+    # second-placed teams", ...) - is picked up automatically. See
+    # fetch_phased_standings()/collect_subsection_tables(). Group labels
+    # come out as "Phase \u00b7 Round \u00b7 Group" breadcrumbs, which
+    # matches.html splits on to build the round-picker menu.
+    #
+    # Heading ids below are best-effort (built from each page's documented
+    # round names) - if Wikipedia's actual anchor text differs, a run will
+    # print a "phase heading ... not found" warning rather than silently
+    # showing nothing, so any mismatch is easy to spot and fix.
     "fiba-wcq-africa-2027": {
         "name": "FIBA Basketball World Cup 2027 Qualification - Africa",
         "page": "2027_FIBA_Basketball_World_Cup_qualification_(Africa)",
@@ -331,9 +374,10 @@ LEAGUES = {
         # country, looked up in COUNTRY_UTC_OFFSETS per-match instead.
         "standings": {
             "page": "2027_FIBA_Basketball_World_Cup_qualification_(Africa)",
-            # However many groups exist (Group A, Group B, ...) - grab
-            # every one rather than hardcoding a count.
-            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+            "phases": [
+                {"label": "First Round", "heading_id": ["First_round", "First_Round"]},
+                {"label": "Second Round", "heading_id": ["Second_round", "Second_Round"]},
+            ],
         },
     },
     "fiba-wcq-americas-2027": {
@@ -343,7 +387,26 @@ LEAGUES = {
         "parser": "basketballbox",
         "standings": {
             "page": "2027_FIBA_Basketball_World_Cup_qualification_(Americas)",
-            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+            "phases": [
+                {
+                    "label": "Pre-Qualifiers",
+                    "heading_id": ["Pre-Qualifiers", "Pre-qualifiers"],
+                    "rounds": [
+                        {"label": "First Round", "heading_id": ["First_round", "First_Round"]},
+                        {"label": "Second Round", "heading_id": ["Second_round", "Second_Round"]},
+                    ],
+                },
+                {
+                    "label": "Qualifiers",
+                    "heading_id": ["Qualifiers"],
+                    "rounds": [
+                        # 2nd occurrence of these heading names on the page
+                        # - MediaWiki disambiguates repeated ids as _2, _3...
+                        {"label": "First Round", "heading_id": ["First_round_2", "First_Round_2", "First_round", "First_Round"]},
+                        {"label": "Second Round", "heading_id": ["Second_round_2", "Second_Round_2", "Second_round", "Second_Round"]},
+                    ],
+                },
+            ],
         },
     },
     "fiba-wcq-asia-2027": {
@@ -353,7 +416,10 @@ LEAGUES = {
         "parser": "basketballbox",
         "standings": {
             "page": "2027_FIBA_Basketball_World_Cup_qualification_(Asia)",
-            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+            "phases": [
+                {"label": "First Round", "heading_id": ["First_round", "First_Round"]},
+                {"label": "Second Round", "heading_id": ["Second_round", "Second_Round"]},
+            ],
         },
     },
     "fiba-wcq-europe-2027": {
@@ -363,7 +429,24 @@ LEAGUES = {
         "parser": "basketballbox",
         "standings": {
             "page": "2027_FIBA_Basketball_World_Cup_qualification_(Europe)",
-            "auto_groups": {"heading_pattern": r"^Group_[A-Za-z0-9]+$"},
+            "phases": [
+                {
+                    "label": "Pre-Qualifiers",
+                    "heading_id": ["Pre-Qualifiers", "Pre-qualifiers"],
+                    "rounds": [
+                        {"label": "First Round", "heading_id": ["First_round", "First_Round"]},
+                        {"label": "Second Round", "heading_id": ["Second_round", "Second_Round"]},
+                    ],
+                },
+                {
+                    "label": "Qualifiers",
+                    "heading_id": ["Qualifiers"],
+                    "rounds": [
+                        {"label": "First Round", "heading_id": ["First_round_2", "First_Round_2", "First_round", "First_Round"]},
+                        {"label": "Second Round", "heading_id": ["Second_round_2", "Second_Round_2", "Second_round", "Second_Round"]},
+                    ],
+                },
+            ],
         },
     },
 }
@@ -1180,6 +1263,23 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
             offset = guess_utc_offset(venue, default_offset)
             utc = compute_utc(date_out, time_out, offset)
 
+            # American football's "Home"/"Away" column convention on these
+            # particular Wikipedia pages (AFLE, EFA) is inverted vs. every
+            # other league here: the column literally labelled "Home" names
+            # the away team's Wikipedia-editorial "away" convention (rows
+            # read as "Away team vs Home team"), so what map_columns() calls
+            # roles["home"] is actually the away team, and vice versa - and
+            # the score, being read off the row in that same column order,
+            # is inverted right along with it. Swapping both together here
+            # (rather than just relabelling home/away) is what fixes the
+            # score attribution, not just the team order.
+            if cfg.get("swap_home_away"):
+                home, away = away, home
+                if score:
+                    sm = re.match(r"^\s*(\d{1,3})\s*[-\u2013]\s*(\d{1,3})\s*$", score)
+                    if sm:
+                        score = f"{sm.group(2)}-{sm.group(1)}"
+
             matches.append(
                 {
                     "league": league_key,
@@ -1630,6 +1730,81 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
     return matches
 
 
+RUT_TEAM_RE = re.compile(r"\{\{Rut\|([^}|]+)")
+
+
+def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
+    """
+    Parse {{Rugbybox collapsible2|...}} template instances, used by the
+    Currie Cup page. Unlike the {{rugbybox}} template (Nations Championship/
+    Nations Cup - team1=/team2= fields, {{ru|CODE}} 3-letter country codes,
+    score derived implicitly), this template gives team names directly via
+    home=/away= fields wrapping a {{Rut|Team Name}} template (sometimes with
+    a trailing bonus-point annotation like "(2 BP)"), and states the final
+    score directly in a score= field (e.g. "24\u201326") rather than needing
+    it inferred from try/con/penalty detail.
+
+    All Currie Cup venues are inside South Africa, which is UTC+2 year-round
+    (no DST) - so this always uses the league's configured utc_offset
+    directly rather than guess_utc_offset()'s venue-keyword lookup, which
+    would otherwise misfire on e.g. "Wellington" (mapped there to New
+    Zealand, UTC+12) when the actual venue is Wellington, South Africa.
+    """
+    matches = []
+    offset = cfg.get("utc_offset")
+
+    for inner in find_templates(wikitext, "Rugbybox collapsible2"):
+        params = split_template_params(inner)[1:]  # drop template name
+        field = {}
+        for p in params:
+            if "=" in p:
+                k, v = p.split("=", 1)
+                field[k.strip().lower()] = v.strip()
+
+        home_raw = field.get("home", "")
+        away_raw = field.get("away", "")
+        m1 = RUT_TEAM_RE.search(home_raw)
+        m2 = RUT_TEAM_RE.search(away_raw)
+        home = clean_team_name(m1.group(1)) if m1 else clean_team_name(strip_wikilinks(home_raw))
+        away = clean_team_name(m2.group(1)) if m2 else clean_team_name(strip_wikilinks(away_raw))
+        if not home or not away:
+            continue
+
+        score = field.get("score", "").strip()
+        score = score.replace("\u2013", "-").replace("\u2212", "-") if score else None
+        score = score if score else None
+
+        date_out = parse_full_date(field.get("date", ""))
+        time_field = field.get("time", "")
+        time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
+        time_out = time_match.group(0) if time_match else None
+
+        venue = strip_citations(strip_wikilinks(field.get("stadium", "")))
+        venue = venue if venue else None
+
+        utc = compute_utc(date_out, time_out, offset)
+
+        attendance = strip_wikilinks(field.get("attendance", "")).strip()
+        attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
+        matches.append(
+            {
+                "league": league_key,
+                "home": home,
+                "away": away,
+                "score": score,
+                "date": date_out,
+                "time": time_out,
+                "utc": utc,
+                "venue": venue,
+                "attendance": attendance,
+            }
+        )
+
+    return matches
+
+
 def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
     """
     Parse {{basketballbox collapsible|...}} template instances used by
@@ -1815,12 +1990,34 @@ def _standings_header_row(grid):
     return None, {}
 
 
+HIGHLIGHT_COLOR_RE = re.compile(r"background(?:-color)?\s*:\s*(#[0-9a-fA-F]{3,6}|[a-zA-Z]+)")
+
+
+def _row_highlight_color(tr):
+    """Wikipedia's standings tables/modules (e.g. Module:Sports table's
+    col_XX/text_XX params) mark which rows advance/qualify/get relegated
+    by giving that <tr> - or, sometimes, just its leading cell(s) - an
+    inline background-color style, rather than any semantic class. Pull
+    that color straight off the rendered HTML so the app can reproduce it
+    (e.g. a pale green row = advances to the next round) instead of
+    showing every row identically. Returns None if no such style is set."""
+    style = tr.get("style", "") or ""
+    m = HIGHLIGHT_COLOR_RE.search(style)
+    if m:
+        return m.group(1)
+    for cell in tr.find_all(["td", "th"]):
+        m = HIGHLIGHT_COLOR_RE.search(cell.get("style", "") or "")
+        if m:
+            return m.group(1)
+    return None
+
+
 def parse_standings_table(table):
     """Turn a rendered <table class="wikitable"> standings table into a
     list of {"team", "played", "win", "draw", "loss", "for", "against",
-    "diff", "points"} dicts (any field the table doesn't have stays None).
-    Column order/wording varies by sport/page, so columns are matched by
-    header keyword rather than position."""
+    "diff", "points", "highlight"} dicts (any field the table doesn't have
+    stays None). Column order/wording varies by sport/page, so columns are
+    matched by header keyword rather than position."""
     grid = table_to_grid(table)
     if not grid:
         return []
@@ -1835,13 +2032,26 @@ def parse_standings_table(table):
         m = re.search(r"-?\d+", raw)
         return int(m.group(0)) if m else None
 
+    raw_trs = table.find_all("tr")
+
     rows_out = []
-    for row in grid[header_idx + 1:]:
+    for tr_idx, row in enumerate(grid[header_idx + 1:], start=header_idx + 1):
         if roles["team"] >= len(row):
             continue
         team = strip_citations(re.sub(r"\s+", " ", row[roles["team"]]).strip())
         if not team or team.lower() in ("source", "notes", "key", "notes:"):
             continue
+        stat_values = (
+            get_num(row, "played"), get_num(row, "win"), get_num(row, "draw"),
+            get_num(row, "loss"), get_num(row, "points"),
+        )
+        if all(v is None for v in stat_values):
+            # No numeric stats at all - almost certainly a colspan'd
+            # legend/footnote row (its text gets smeared across every
+            # column by colspan expansion, including the team column),
+            # not an actual team, e.g. "Qualification for Semifinals".
+            continue
+        highlight = _row_highlight_color(raw_trs[tr_idx]) if tr_idx < len(raw_trs) else None
         rows_out.append(
             {
                 "team": team,
@@ -1853,9 +2063,71 @@ def parse_standings_table(table):
                 "against": get_num(row, "against"),
                 "diff": get_num(row, "diff"),
                 "points": get_num(row, "points"),
+                "highlight": highlight,
             }
         )
     return rows_out
+
+
+def extract_color_legend(table):
+    """Best-effort scan for a legend mapping each highlight color to what
+    it means (e.g. '#E8FFD8 -> Qualification for Semifinals'). Wikipedia
+    standings tables usually carry this either as a single colspan'd row
+    inside the table itself, or as a short list/paragraph immediately
+    following the table, built out of small color-swatch spans followed by
+    label text. Returns {color: label}; an empty dict just means the app
+    shows colored rows without a text explanation, which is a fine
+    degradation - not every page's legend markup is guessable in advance.
+    """
+    legend = {}
+
+    def scan(container):
+        for swatch in container.find_all(["span", "td", "th"]):
+            m = HIGHLIGHT_COLOR_RE.search(swatch.get("style", "") or "")
+            if not m:
+                continue
+            color = m.group(1).lower()
+            if color in legend:
+                continue
+            label = swatch.get_text(" ", strip=True)
+            if not label:
+                parts, nxt = [], swatch.next_sibling
+                while nxt is not None and not parts:
+                    if getattr(nxt, "get", None) and HIGHLIGHT_COLOR_RE.search(nxt.get("style", "") or ""):
+                        break
+                    text = nxt if isinstance(nxt, str) else nxt.get_text(" ", strip=True)
+                    if text and text.strip():
+                        parts.append(text.strip())
+                    nxt = nxt.next_sibling
+                label = " ".join(parts).strip(" -\u2013:")
+            if label and len(label) < 120:
+                legend[color] = label
+
+    for tr in table.find_all("tr"):
+        cells = tr.find_all(["td", "th"])
+        if len(cells) == 1 and cells[0].get("colspan"):
+            scan(cells[0])
+
+    sib, hops = table.find_next_sibling(), 0
+    while sib is not None and hops < 4:
+        if sib.name and (re.match(r"^h[1-6]$", sib.name) or sib.name == "table"):
+            break
+        scan(sib)
+        sib = sib.find_next_sibling()
+        hops += 1
+
+    return legend
+
+
+def build_group_result(table):
+    """Bundle a table's rows + whatever color legend could be found for it
+    into the shape stored in fixtures.json / consumed by matches.html:
+    {"rows": [...], "legend": {color: label}}. Returns None if the table
+    didn't actually contain any usable standings rows."""
+    rows = parse_standings_table(table)
+    if not rows:
+        return None
+    return {"rows": rows, "legend": extract_color_legend(table)}
 
 
 def find_table_after_heading(soup, heading_id, position=0):
@@ -1952,9 +2224,9 @@ def _resolve_group_table(soup, group, fallback_tables):
             template_tables = find_all_standings_tables(template_soup)
             template_position = group.get("template_position", 0)
             if template_position < len(template_tables):
-                _, rows = template_tables[template_position]
+                tbl, rows = template_tables[template_position]
                 if rows:
-                    return rows, f"template {group['template']!r}"
+                    return tbl, rows, f"template {group['template']!r}"
 
     heading_ids = group.get("heading_ids")
     if heading_ids is None:
@@ -1965,15 +2237,16 @@ def _resolve_group_table(soup, group, fallback_tables):
         if table is not None:
             rows = parse_standings_table(table)
             if rows:
-                return rows, f"heading {heading_id!r}"
+                return table, rows, f"heading {heading_id!r}"
 
     if "table_index" in group:
         idx = group["table_index"]
         all_tables = soup.find_all("table")
         if idx < len(all_tables):
-            rows = parse_standings_table(all_tables[idx])
+            table = all_tables[idx]
+            rows = parse_standings_table(table)
             if rows:
-                return rows, f"table_index {idx}"
+                return table, rows, f"table_index {idx}"
 
     # Last resort: position-th table on the whole page that actually
     # looks like a standings table (has a recognizable team column plus
@@ -1982,19 +2255,109 @@ def _resolve_group_table(soup, group, fallback_tables):
     # "couldn't find" warning below rather than grabbing an unrelated
     # table.
     if position < len(fallback_tables):
-        _, rows = fallback_tables[position]
+        tbl, rows = fallback_tables[position]
         if rows:
-            return rows, f"page-wide fallback (position {position})"
+            return tbl, rows, f"page-wide fallback (position {position})"
 
-    return None, None
+    return None, None, None
+
+
+def heading_tag_by_id(soup, heading_id):
+    """Find the h1-h6 tag for a given heading id (or the first id in a
+    list of candidates that actually exists on the page), tolerating both
+    id-on-the-heading-tag (current MediaWiki) and id-on-a-nested
+    <span class="mw-headline"> (older convention). Returns None if none of
+    the candidates are found."""
+    candidates = heading_id if isinstance(heading_id, (list, tuple)) else [heading_id]
+    for hid in candidates:
+        el = soup.find(id=hid)
+        if el is None:
+            continue
+        if el.name and re.match(r"^h[1-6]$", el.name):
+            return el
+        parent = el.find_parent(re.compile(r"^h[1-6]$"))
+        if parent is not None:
+            return parent
+    return None
+
+
+def collect_subsection_tables(soup, heading_tag, label_prefix):
+    """Within heading_tag's section (i.e. up to, but not including, the
+    next heading at the same-or-higher level), find every deeper heading
+    that has a standings-shaped table following it, and return
+    {"label_prefix · sub-heading text": {"rows": [...], "legend": {...}}}.
+    Deliberately doesn't care what the sub-headings are called ("Group A",
+    "Best fourth-placed team", "Ranking of second-placed teams", ...) - if
+    it has a real standings table under it, it gets included."""
+    if heading_tag is None:
+        return {}
+    level = int(heading_tag.name[1])
+    result = {}
+    seen_ids = set()
+
+    def maybe_add(hid, text):
+        if not hid or hid in seen_ids:
+            return
+        seen_ids.add(hid)
+        table = find_table_after_heading(soup, hid)
+        if table is None:
+            return
+        group_result = build_group_result(table)
+        if not group_result:
+            return
+        label = text or hid.replace("_", " ")
+        key = f"{label_prefix} \u00b7 {label}" if label_prefix else label
+        result[key] = group_result
+
+    for el in heading_tag.find_all_next():
+        if el.name and re.match(r"^h[1-6]$", el.name):
+            if int(el.name[1]) <= level:
+                break
+            maybe_add(el.get("id"), el.get_text(" ", strip=True))
+        elif el.name == "span" and el.get("class") and "mw-headline" in el.get("class"):
+            maybe_add(el.get("id"), el.get_text(" ", strip=True))
+
+    return result
+
+
+def fetch_phased_standings(soup, phases_cfg, key):
+    """Resolve a "phases" standings config (see the FIBA league entries in
+    LEAGUES) into {breadcrumb_label: {"rows": [...], "legend": {...}}}."""
+    result = {}
+    for phase in phases_cfg:
+        phase_tag = heading_tag_by_id(soup, phase["heading_id"])
+        if phase_tag is None:
+            print(
+                f"  !! standings: {key} - phase heading {phase['heading_id']!r} not found, "
+                f"skipping {phase['label']!r} (heading id may need updating)",
+                file=sys.stderr,
+            )
+            continue
+        if "rounds" in phase:
+            for rnd in phase["rounds"]:
+                round_tag = heading_tag_by_id(soup, rnd["heading_id"])
+                if round_tag is None:
+                    print(
+                        f"  !! standings: {key} - round heading {rnd['heading_id']!r} not found "
+                        f"under {phase['label']!r} (heading id may need updating)",
+                        file=sys.stderr,
+                    )
+                    continue
+                result.update(
+                    collect_subsection_tables(soup, round_tag, f"{phase['label']} \u00b7 {rnd['label']}")
+                )
+        else:
+            result.update(collect_subsection_tables(soup, phase_tag, phase["label"]))
+    return result
 
 
 def fetch_standings(cfg, key):
     """Fetch and parse whatever standings tables a league's config
-    describes. Returns {group_label: [team_row, ...]}; an empty dict if
-    the league has no "standings" config, or if none of its configured
-    groups could be located on the page (a stderr warning is printed per
-    missing group so a stale heading id/page title shows up immediately).
+    describes. Returns {group_label: {"rows": [...], "legend": {...}}};
+    an empty dict if the league has no "standings" config, or if none of
+    its configured groups could be located on the page (a stderr warning
+    is printed per missing group so a stale heading id/page title shows up
+    immediately).
 
     Heading ids and even the page containing the table can drift out of
     sync with a "standings" config over time as Wikipedia editors rename
@@ -2012,6 +2375,9 @@ def fetch_standings(cfg, key):
     html = fetch_page_html(page)
     soup = BeautifulSoup(html, "html.parser")
     result = {}
+
+    if "phases" in standings_cfg:
+        return fetch_phased_standings(soup, standings_cfg["phases"], key)
 
     if "auto_groups" in standings_cfg:
         pattern = re.compile(standings_cfg["auto_groups"]["heading_pattern"])
@@ -2031,9 +2397,9 @@ def fetch_standings(cfg, key):
             if table is None:
                 continue
             label = heading.get_text(" ", strip=True) or heading_id.replace("_", " ")
-            rows = parse_standings_table(table)
-            if rows:
-                result[label] = rows
+            group_result = build_group_result(table)
+            if group_result:
+                result[label] = group_result
         return result
 
     # Built lazily (only once, and only if at least one group needs it)
@@ -2044,7 +2410,7 @@ def fetch_standings(cfg, key):
         if fallback_tables is None:
             fallback_tables = find_all_standings_tables(soup)
 
-        rows, how = _resolve_group_table(soup, group, fallback_tables)
+        table, rows, how = _resolve_group_table(soup, group, fallback_tables)
 
         if rows is None:
             print(
@@ -2062,7 +2428,7 @@ def fetch_standings(cfg, key):
                 file=sys.stderr,
             )
 
-        result[group["label"]] = rows
+        result[group["label"]] = {"rows": rows, "legend": extract_color_legend(table)}
 
     return result
 
@@ -2216,6 +2582,13 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
         for page in pages:
             wikitext = fetch_page_wikitext(page)
             matches.extend(parse_rugbybox_matches(wikitext, key, cfg))
+        return matches
+
+    if parser_type == "rugbybox2":
+        matches = []
+        for page in pages:
+            wikitext = fetch_page_wikitext(page)
+            matches.extend(parse_rugbybox2_matches(wikitext, key, cfg))
         return matches
 
     if parser_type == "fivb_template":
