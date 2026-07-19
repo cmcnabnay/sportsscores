@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T18:10:24+00:00",
+  "updated": "2026-07-19T18:21:30+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9565,7 +9565,7 @@
       "league": "afle-2026",
       "home": "Panthers Wrocław",
       "away": "Firenze Red Lions",
-      "score": "62-00",
+      "score": "62-0",
       "date": "2026-07-19",
       "time": "15:00",
       "utc": "2026-07-19T13:00:00+00:00",
@@ -14662,13 +14662,13 @@
           },
           {
             "team": "Panthers Wrocław",
-            "played": 7,
-            "win": 5,
+            "played": 8,
+            "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 229,
+            "for": 291,
             "against": 171,
-            "diff": 58,
+            "diff": 120,
             "points": null,
             "highlight": "#ccffcc"
           },
@@ -14686,13 +14686,13 @@
           },
           {
             "team": "Firenze Red Lions",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 90,
-            "against": 267,
-            "diff": 177,
+            "against": 329,
+            "diff": 239,
             "points": null,
             "highlight": null
           }
@@ -14727,13 +14727,13 @@
           },
           {
             "team": "Panthers Wrocław",
-            "played": 7,
-            "win": 5,
+            "played": 8,
+            "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 229,
+            "for": 291,
             "against": 171,
-            "diff": 58,
+            "diff": 120,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -14787,13 +14787,13 @@
           },
           {
             "team": "Firenze Red Lions",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 90,
-            "against": 267,
-            "diff": -177,
+            "against": 329,
+            "diff": -239,
             "points": null,
             "highlight": "transparent"
           }
