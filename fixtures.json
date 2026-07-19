@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T23:31:04+00:00",
+  "updated": "2026-07-19T05:16:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8416,7 +8416,7 @@
       "time": "18:00",
       "utc": "2026-07-11T22:00:00+00:00",
       "venue": "Estadio Sausalito, Vina del Mar",
-      "attendance": null
+      "attendance": "12000"
     },
     {
       "league": "afle-2026",
@@ -9139,12 +9139,12 @@
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "32-38",
       "date": "2026-07-18",
       "time": "14:00",
       "utc": "2026-07-18T20:00:00+00:00",
       "venue": "McMahon Stadium",
-      "attendance": null
+      "attendance": "19228"
     },
     {
       "league": "nations-championship-2026",
@@ -9232,7 +9232,7 @@
       "time": "16:10",
       "utc": "2026-07-18T19:10:00+00:00",
       "venue": "Estadio Único Madre de Ciudades, Santiago del Estero",
-      "attendance": null
+      "attendance": "22225"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -9352,7 +9352,7 @@
       "league": "nations-cup-2026",
       "home": "Canada",
       "away": "Zimbabwe",
-      "score": null,
+      "score": "23-19",
       "date": "2026-07-18",
       "time": "19:00",
       "utc": "2026-07-19T00:00:00+00:00",
@@ -9385,7 +9385,7 @@
       "league": "nations-cup-2026",
       "home": "United States",
       "away": "Spain",
-      "score": null,
+      "score": "29-22",
       "date": "2026-07-18",
       "time": "19:30",
       "utc": "2026-07-18T23:30:00+00:00",
@@ -9407,12 +9407,12 @@
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Toronto Argonauts",
-      "score": null,
+      "score": "24-23",
       "date": "2026-07-18",
       "time": "19:30",
       "utc": "2026-07-18T23:30:00+00:00",
       "venue": "Hamilton Stadium",
-      "attendance": null
+      "attendance": "21262"
     },
     {
       "league": "super-league-2026",
@@ -9440,7 +9440,7 @@
       "league": "fivb-nations-league-2026",
       "home": "United States",
       "away": "Bulgaria",
-      "score": "-",
+      "score": "1-3",
       "date": "2026-07-18",
       "time": "20:00",
       "utc": "2026-07-19T01:00:00+00:00",
@@ -14817,6 +14817,18 @@
             "highlight": "#ccffcc"
           },
           {
+            "team": "Poland (Q)",
+            "played": 11,
+            "win": 9,
+            "draw": null,
+            "loss": 2,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 26,
+            "highlight": "#ccffcc"
+          },
+          {
             "team": "Slovenia (Q)",
             "played": 11,
             "win": 9,
@@ -14838,18 +14850,6 @@
             "against": null,
             "diff": null,
             "points": 25,
-            "highlight": "#ccffcc"
-          },
-          {
-            "team": "Poland (Q)",
-            "played": 10,
-            "win": 8,
-            "draw": null,
-            "loss": 2,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 23,
             "highlight": "#ccffcc"
           },
           {
@@ -14890,14 +14890,14 @@
           },
           {
             "team": "Bulgaria",
-            "played": 10,
-            "win": 6,
+            "played": 11,
+            "win": 7,
             "draw": null,
             "loss": 4,
             "for": null,
             "against": null,
             "diff": null,
-            "points": 17,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -14938,10 +14938,10 @@
           },
           {
             "team": "France",
-            "played": 10,
+            "played": 11,
             "win": 5,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": null,
             "against": null,
             "diff": null,
@@ -17423,6 +17423,18 @@
       "Americas-Pacific": {
         "rows": [
           {
+            "team": "United States",
+            "played": 3,
+            "win": 3,
+            "draw": 0,
+            "loss": 0,
+            "for": 90,
+            "against": 66,
+            "diff": 24,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Chile",
             "played": 3,
             "win": 2,
@@ -17432,18 +17444,6 @@
             "against": 97,
             "diff": 11,
             "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "United States",
-            "played": 2,
-            "win": 2,
-            "draw": 0,
-            "loss": 0,
-            "for": 61,
-            "against": 44,
-            "diff": 17,
-            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -17455,6 +17455,18 @@
             "for": 115,
             "against": 90,
             "diff": 25,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Tonga",
+            "played": 3,
+            "win": 1,
+            "draw": 0,
+            "loss": 2,
+            "for": 73,
+            "against": 90,
+            "diff": -17,
             "points": 7,
             "highlight": "transparent"
           },
@@ -17471,27 +17483,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Tonga",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 55,
-            "against": 58,
-            "diff": -3,
-            "points": 5,
-            "highlight": "transparent"
-          },
-          {
             "team": "Canada",
-            "played": 2,
-            "win": 0,
+            "played": 3,
+            "win": 1,
             "draw": 1,
             "loss": 1,
-            "for": 56,
-            "against": 80,
-            "diff": -24,
-            "points": 3,
+            "for": 79,
+            "against": 99,
+            "diff": -20,
+            "points": 7,
             "highlight": "transparent"
           }
         ],
@@ -17512,6 +17512,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Portugal",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 99,
+            "against": 72,
+            "diff": 27,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Romania",
             "played": 3,
             "win": 1,
@@ -17525,26 +17537,14 @@
           },
           {
             "team": "Spain",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": 1,
-            "loss": 0,
-            "for": 74,
-            "against": 61,
-            "diff": 13,
-            "points": 8,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Portugal",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
             "loss": 1,
-            "for": 67,
-            "against": 44,
-            "diff": 23,
-            "points": 7,
+            "for": 96,
+            "against": 90,
+            "diff": 6,
+            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -17561,14 +17561,14 @@
           },
           {
             "team": "Zimbabwe",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": 0,
-            "loss": 2,
-            "for": 41,
-            "against": 67,
-            "diff": -26,
-            "points": 1,
+            "loss": 3,
+            "for": 60,
+            "against": 90,
+            "diff": -30,
+            "points": 2,
             "highlight": "transparent"
           }
         ],
@@ -17616,12 +17616,12 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 194,
-            "against": 176,
+            "loss": 4,
+            "for": 226,
+            "against": 214,
             "diff": null,
             "points": 4,
             "highlight": null
@@ -17645,36 +17645,36 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 5,
-            "win": 4,
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 170,
-            "against": 154,
+            "for": 208,
+            "against": 186,
             "diff": null,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Toronto Argonauts",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 171,
-            "against": 183,
-            "diff": null,
-            "points": 4,
+            "points": 10,
             "highlight": null
           },
           {
             "team": "Hamilton Tiger-Cats",
-            "played": 5,
-            "win": 2,
+            "played": 6,
+            "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 125,
-            "against": 136,
+            "for": 149,
+            "against": 159,
+            "diff": null,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Toronto Argonauts",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 194,
+            "against": 207,
             "diff": null,
             "points": 4,
             "highlight": null
