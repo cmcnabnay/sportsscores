@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T17:59:23+00:00",
+  "updated": "2026-07-19T18:10:24+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9510,7 +9510,7 @@
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Lions",
-      "score": null,
+      "score": "29-27",
       "date": "2026-07-19",
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
@@ -18086,13 +18086,13 @@
         "rows": [
           {
             "team": "x – Munich Ravens",
-            "played": 7,
-            "win": 7,
+            "played": 8,
+            "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 296,
-            "against": 139,
-            "diff": 157,
+            "for": 344,
+            "against": 151,
+            "diff": 193,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -18134,13 +18134,13 @@
           },
           {
             "team": "Prague Lions",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 148,
-            "against": 272,
-            "diff": -124,
+            "loss": 6,
+            "for": 160,
+            "against": 320,
+            "diff": -160,
             "points": null,
             "highlight": "transparent"
           },
