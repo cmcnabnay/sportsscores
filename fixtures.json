@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T23:24:02+00:00",
+  "updated": "2026-07-19T23:35:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9598,7 +9598,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Bulgaria",
       "away": "France",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-19",
       "time": "16:00",
       "utc": "2026-07-19T21:00:00+00:00",
@@ -14877,7 +14877,7 @@
             "highlight": "#ccffcc"
           },
           {
-            "team": "Ukraine",
+            "team": "Ukraine (Q)",
             "played": 12,
             "win": 7,
             "draw": null,
@@ -14890,10 +14890,10 @@
           },
           {
             "team": "Bulgaria",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": null,
             "against": null,
             "diff": null,
@@ -14910,6 +14910,18 @@
             "against": null,
             "diff": null,
             "points": 19,
+            "highlight": "transparent"
+          },
+          {
+            "team": "France",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 16,
             "highlight": "transparent"
           },
           {
@@ -14934,18 +14946,6 @@
             "against": null,
             "diff": null,
             "points": 15,
-            "highlight": "transparent"
-          },
-          {
-            "team": "France",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 13,
             "highlight": "transparent"
           },
           {
