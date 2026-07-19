@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T08:27:02+00:00",
+  "updated": "2026-07-19T17:16:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9177,7 +9177,7 @@
       "time": "15:00",
       "utc": "2026-07-18T14:00:00+00:00",
       "venue": "Halliwell Jones Stadium",
-      "attendance": null
+      "attendance": "10025"
     },
     {
       "league": "efa-2026",
@@ -9205,7 +9205,7 @@
       "league": "nations-cup-2026",
       "home": "Tonga",
       "away": "Portugal",
-      "score": null,
+      "score": "28-32",
       "date": "2026-07-18",
       "time": "15:45",
       "utc": "2026-07-18T20:45:00+00:00",
@@ -9287,7 +9287,7 @@
       "time": "17:30",
       "utc": "2026-07-18T16:30:00+00:00",
       "venue": "MKM Stadium",
-      "attendance": null
+      "attendance": "11843"
     },
     {
       "league": "nations-championship-2026",
@@ -9315,7 +9315,7 @@
       "league": "u20-jwc-2026",
       "home": "Georgia",
       "away": "Fiji",
-      "score": null,
+      "score": "10-30",
       "date": "2026-07-18",
       "time": "18:00",
       "utc": "2026-07-18T14:00:00+00:00",
@@ -9423,7 +9423,7 @@
       "time": "20:00",
       "utc": "2026-07-18T19:00:00+00:00",
       "venue": "Stade Ernest Wallon",
-      "attendance": null
+      "attendance": "3450"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -9449,9 +9449,9 @@
     },
     {
       "league": "u20-jwc-2026",
-      "home": "Ireland",
-      "away": "Italy",
-      "score": null,
+      "home": "Italy",
+      "away": "Ireland",
+      "score": "26-34",
       "date": "2026-07-18",
       "time": "20:30",
       "utc": "2026-07-18T16:30:00+00:00",
@@ -9521,7 +9521,7 @@
       "league": "efa-2026",
       "home": "Prague Lions",
       "away": "Munich Ravens",
-      "score": null,
+      "score": "12-48",
       "date": "2026-07-19",
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
@@ -9532,7 +9532,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Turkey",
       "away": "Iran",
-      "score": "-",
+      "score": "3-1",
       "date": "2026-07-19",
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
@@ -9548,13 +9548,13 @@
       "time": "14:00",
       "utc": "2026-07-19T04:00:00+00:00",
       "venue": "Cbus Super Stadium",
-      "attendance": null
+      "attendance": "15525"
     },
     {
       "league": "super-league-2026",
       "home": "Castleford Tigers",
       "away": "Leeds Rhinos",
-      "score": null,
+      "score": "36–34",
       "date": "2026-07-19",
       "time": "15:00",
       "utc": "2026-07-19T14:00:00+00:00",
@@ -9565,12 +9565,12 @@
       "league": "afle-2026",
       "home": "Panthers Wrocław",
       "away": "Firenze Red Lions",
-      "score": null,
+      "score": "62-00",
       "date": "2026-07-19",
       "time": "15:00",
       "utc": "2026-07-19T13:00:00+00:00",
       "venue": "Olympic Stadium , Wrocław",
-      "attendance": null
+      "attendance": "1378"
     },
     {
       "league": "currie-cup-2026",
@@ -9614,13 +9614,13 @@
       "time": "16:05",
       "utc": "2026-07-19T06:05:00+00:00",
       "venue": "Suncorp Stadium",
-      "attendance": null
+      "attendance": "35213"
     },
     {
       "league": "fivb-nations-league-2026",
       "home": "Ukraine",
       "away": "Germany",
-      "score": "-",
+      "score": "3-1",
       "date": "2026-07-19",
       "time": "16:30",
       "utc": "2026-07-19T14:30:00+00:00",
@@ -9642,7 +9642,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "Argentina",
-      "score": "-",
+      "score": "3-0",
       "date": "2026-07-19",
       "time": "19:20",
       "utc": "2026-07-19T10:20:00+00:00",
@@ -9848,6 +9848,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Panthers Wrocław",
+      "away": "Alpine Rams",
+      "score": null,
+      "date": "2026-07-25",
+      "time": "15:00",
+      "utc": "2026-07-25T13:00:00+00:00",
+      "venue": "Olympic Stadium , Wrocław",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Toronto Argonauts",
@@ -9936,17 +9947,6 @@
       "attendance": null
     },
     {
-      "league": "afle-2026",
-      "home": "Panthers Wrocław",
-      "away": "Alpine Rams",
-      "score": null,
-      "date": "2026-07-25",
-      "time": null,
-      "utc": null,
-      "venue": "Olympic Stadium , Wrocław",
-      "attendance": null
-    },
-    {
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Gold Coast Titans",
@@ -10013,24 +10013,13 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Montreal Alouettes",
-      "away": "Hamilton Tiger-Cats",
-      "score": null,
-      "date": "2026-07-26",
-      "time": "19:00",
-      "utc": "2026-07-26T23:00:00+00:00",
-      "venue": "Molson Stadium",
-      "attendance": null
-    },
-    {
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "Rhein Fire",
       "score": null,
       "date": "2026-07-26",
-      "time": null,
-      "utc": null,
+      "time": "16:40",
+      "utc": "2026-07-26T14:40:00+00:00",
       "venue": "Vélodrome Jacques-Anquetil , Paris",
       "attendance": null
     },
@@ -10040,9 +10029,20 @@
       "away": "Vienna Vikings",
       "score": null,
       "date": "2026-07-26",
-      "time": null,
-      "utc": null,
+      "time": "17:00",
+      "utc": "2026-07-26T15:00:00+00:00",
       "venue": "Stadio Gino Bozzi , Florence",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Montreal Alouettes",
+      "away": "Hamilton Tiger-Cats",
+      "score": null,
+      "date": "2026-07-26",
+      "time": "19:00",
+      "utc": "2026-07-26T23:00:00+00:00",
+      "venue": "Molson Stadium",
       "attendance": null
     },
     {
@@ -14806,14 +14806,14 @@
         "rows": [
           {
             "team": "Japan (Q)",
-            "played": 11,
-            "win": 11,
+            "played": 12,
+            "win": 12,
             "draw": null,
             "loss": 0,
             "for": null,
             "against": null,
             "diff": null,
-            "points": 27,
+            "points": 30,
             "highlight": "#ccffcc"
           },
           {
@@ -14865,35 +14865,35 @@
             "highlight": "#ccffcc"
           },
           {
+            "team": "Turkey (Q)",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 22,
+            "highlight": "#ccffcc"
+          },
+          {
+            "team": "Ukraine",
+            "played": 12,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 23,
+            "highlight": "#ccffcc"
+          },
+          {
             "team": "Bulgaria",
             "played": 11,
             "win": 7,
             "draw": null,
             "loss": 4,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 20,
-            "highlight": "#ccffcc"
-          },
-          {
-            "team": "Turkey",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 19,
-            "highlight": "#ccffcc"
-          },
-          {
-            "team": "Ukraine",
-            "played": 11,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
             "for": null,
             "against": null,
             "diff": null,
@@ -14926,10 +14926,10 @@
           },
           {
             "team": "Germany",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": null,
             "against": null,
             "diff": null,
@@ -14962,10 +14962,10 @@
           },
           {
             "team": "Iran",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": null,
             "against": null,
             "diff": null,
@@ -14974,10 +14974,10 @@
           },
           {
             "team": "Argentina",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": null,
             "against": null,
             "diff": null,
@@ -17464,9 +17464,9 @@
             "win": 1,
             "draw": 0,
             "loss": 2,
-            "for": 73,
+            "for": 83,
             "against": 90,
-            "diff": -17,
+            "diff": -7,
             "points": 7,
             "highlight": "transparent"
           },
@@ -17491,7 +17491,7 @@
             "for": 110,
             "against": 119,
             "diff": -9,
-            "points": 5,
+            "points": 7,
             "highlight": "transparent"
           }
         ],
@@ -17911,13 +17911,13 @@
         "rows": [
           {
             "team": "Leeds Rhinos",
-            "played": 18,
+            "played": 19,
             "win": 15,
             "draw": 0,
-            "loss": 3,
-            "for": 622,
-            "against": 256,
-            "diff": 366,
+            "loss": 4,
+            "for": 656,
+            "against": 292,
+            "diff": 364,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -18018,6 +18018,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Castleford Tigers",
+            "played": 19,
+            "win": 7,
+            "draw": 0,
+            "loss": 12,
+            "for": 358,
+            "against": 558,
+            "diff": -200,
+            "points": 14,
+            "highlight": "transparent"
+          },
+          {
             "team": "York Knights",
             "played": 19,
             "win": 6,
@@ -18038,18 +18050,6 @@
             "for": 354,
             "against": 547,
             "diff": -193,
-            "points": 12,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Castleford Tigers",
-            "played": 18,
-            "win": 6,
-            "draw": 0,
-            "loss": 12,
-            "for": 322,
-            "against": 524,
-            "diff": -202,
             "points": 12,
             "highlight": "transparent"
           },
