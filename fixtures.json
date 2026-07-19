@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T19:22:02+00:00",
+  "updated": "2026-07-19T19:33:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9653,7 +9653,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Serbia",
       "away": "Slovenia",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-19",
       "time": "20:00",
       "utc": "2026-07-19T18:00:00+00:00",
@@ -14817,9 +14817,9 @@
             "highlight": "#ccffcc"
           },
           {
-            "team": "Poland (Q)",
-            "played": 11,
-            "win": 9,
+            "team": "Slovenia (Q)",
+            "played": 12,
+            "win": 10,
             "draw": null,
             "loss": 2,
             "for": null,
@@ -14829,7 +14829,7 @@
             "highlight": "#ccffcc"
           },
           {
-            "team": "Slovenia (Q)",
+            "team": "Poland (Q)",
             "played": 11,
             "win": 9,
             "draw": null,
@@ -14837,7 +14837,7 @@
             "for": null,
             "against": null,
             "diff": null,
-            "points": 23,
+            "points": 26,
             "highlight": "#ccffcc"
           },
           {
@@ -14914,10 +14914,10 @@
           },
           {
             "team": "Serbia",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": null,
             "against": null,
             "diff": null,
