@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T18:21:30+00:00",
+  "updated": "2026-07-19T19:22:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9488,7 +9488,7 @@
       "league": "fivb-nations-league-2026",
       "home": "China",
       "away": "Brazil",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-19",
       "time": "12:00",
       "utc": "2026-07-19T17:00:00+00:00",
@@ -9576,7 +9576,7 @@
       "league": "currie-cup-2026",
       "home": "Boland Cavaliers",
       "away": "Bulls XV",
-      "score": null,
+      "score": "24-10",
       "date": "2026-07-19",
       "time": "15:05",
       "utc": "2026-07-19T13:05:00+00:00",
@@ -14902,14 +14902,14 @@
           },
           {
             "team": "Brazil",
-            "played": 11,
-            "win": 6,
+            "played": 12,
+            "win": 7,
             "draw": null,
             "loss": 5,
             "for": null,
             "against": null,
             "diff": null,
-            "points": 16,
+            "points": 19,
             "highlight": "transparent"
           },
           {
@@ -15010,10 +15010,10 @@
           },
           {
             "team": "China [ a ]",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": null,
-            "loss": 10,
+            "loss": 11,
             "for": null,
             "against": null,
             "diff": null,
@@ -18378,6 +18378,18 @@
       "Premier Division": {
         "rows": [
           {
+            "team": "Cheetahs",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 29,
+            "against": 27,
+            "diff": 2,
+            "points": 5,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Sharks XV",
             "played": 1,
             "win": 1,
@@ -18387,6 +18399,18 @@
             "against": 24,
             "diff": 2,
             "points": 5,
+            "highlight": "#E8FFD8"
+          },
+          {
+            "team": "Boland Cavaliers",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 24,
+            "against": 10,
+            "diff": 14,
+            "points": 4,
             "highlight": "#E8FFD8"
           },
           {
@@ -18402,6 +18426,18 @@
             "highlight": "#E8FFD8"
           },
           {
+            "team": "Lions",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 27,
+            "against": 29,
+            "diff": -2,
+            "points": 2,
+            "highlight": "transparent"
+          },
+          {
             "team": "Pumas",
             "played": 1,
             "win": 0,
@@ -18411,7 +18447,7 @@
             "against": 26,
             "diff": -2,
             "points": 2,
-            "highlight": "#E8FFD8"
+            "highlight": "transparent"
           },
           {
             "team": "Griquas",
@@ -18423,53 +18459,17 @@
             "against": 25,
             "diff": -6,
             "points": 1,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Boland Cavaliers",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": "transparent"
           },
           {
             "team": "Bulls XV",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Cheetahs",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Lions",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
+            "loss": 1,
+            "for": 10,
+            "against": 24,
+            "diff": -14,
             "points": 0,
             "highlight": "transparent"
           }
