@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T07:55:02+00:00",
+  "updated": "2026-07-19T08:06:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9609,7 +9609,7 @@
       "league": "nrl-2026",
       "home": "Dolphins",
       "away": "North Queensland Cowboys",
-      "score": null,
+      "score": "36–16",
       "date": "2026-07-19",
       "time": "16:05",
       "utc": "2026-07-19T06:05:00+00:00",
@@ -17747,6 +17747,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Dolphins",
+            "played": 18,
+            "win": 11,
+            "draw": 0,
+            "loss": 7,
+            "for": 488,
+            "against": 404,
+            "diff": 84,
+            "points": 26,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newcastle Knights",
             "played": 18,
             "win": 11,
@@ -17771,26 +17783,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dolphins",
-            "played": 17,
-            "win": 10,
-            "draw": 0,
-            "loss": 7,
-            "for": 452,
-            "against": 388,
-            "diff": 64,
-            "points": 24,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "North Queensland Cowboys",
-            "played": 17,
+            "played": 18,
             "win": 10,
             "draw": 0,
-            "loss": 7,
-            "for": 408,
-            "against": 424,
-            "diff": -16,
+            "loss": 8,
+            "for": 424,
+            "against": 460,
+            "diff": -36,
             "points": 24,
             "highlight": "#BBF3BB"
           },
