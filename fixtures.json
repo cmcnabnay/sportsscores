@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T05:21:02+00:00",
+  "updated": "2026-07-19T05:32:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9499,7 +9499,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Belgium",
       "away": "Canada",
-      "score": "-",
+      "score": "3-0",
       "date": "2026-07-19",
       "time": "12:00",
       "utc": "2026-07-19T03:00:00+00:00",
@@ -14842,10 +14842,10 @@
           },
           {
             "team": "United States (Q)",
-            "played": 10,
+            "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": null,
             "against": null,
             "diff": null,
@@ -14862,6 +14862,18 @@
             "against": null,
             "diff": null,
             "points": 23,
+            "highlight": "#ccffcc"
+          },
+          {
+            "team": "Bulgaria",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 20,
             "highlight": "#ccffcc"
           },
           {
@@ -14882,18 +14894,6 @@
             "win": 6,
             "draw": null,
             "loss": 5,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 20,
-            "highlight": "#ccffcc"
-          },
-          {
-            "team": "Bulgaria",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
             "for": null,
             "against": null,
             "diff": null,
@@ -14949,6 +14949,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Belgium",
+            "played": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 8,
+            "for": null,
+            "against": null,
+            "diff": null,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Iran",
             "played": 11,
             "win": 3,
@@ -14985,23 +14997,11 @@
             "highlight": "transparent"
           },
           {
-            "team": "Belgium",
-            "played": 11,
-            "win": 3,
-            "draw": null,
-            "loss": 8,
-            "for": null,
-            "against": null,
-            "diff": null,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
             "team": "Canada (R)",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": null,
-            "loss": 10,
+            "loss": 11,
             "for": null,
             "against": null,
             "diff": null,
