@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T07:11:04+00:00",
+  "updated": "2026-07-19T07:22:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17471,18 +17471,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Uruguay",
-            "played": 3,
-            "win": 0,
-            "draw": 1,
-            "loss": 2,
-            "for": 110,
-            "against": 119,
-            "diff": -9,
-            "points": 5,
-            "highlight": "transparent"
-          },
-          {
             "team": "Canada",
             "played": 3,
             "win": 1,
@@ -17492,6 +17480,18 @@
             "against": 99,
             "diff": -20,
             "points": 7,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Uruguay",
+            "played": 3,
+            "win": 0,
+            "draw": 1,
+            "loss": 2,
+            "for": 110,
+            "against": 119,
+            "diff": -9,
+            "points": 5,
             "highlight": "transparent"
           }
         ],
@@ -17796,13 +17796,13 @@
           },
           {
             "team": "Manly Warringah Sea Eagles",
-            "played": 17,
+            "played": 18,
             "win": 9,
             "draw": 0,
-            "loss": 8,
-            "for": 441,
-            "against": 309,
-            "diff": 132,
+            "loss": 9,
+            "for": 473,
+            "against": 347,
+            "diff": 126,
             "points": 22,
             "highlight": "transparent"
           },
@@ -17880,14 +17880,14 @@
           },
           {
             "team": "Gold Coast Titans",
-            "played": 16,
-            "win": 4,
+            "played": 17,
+            "win": 5,
             "draw": 0,
             "loss": 12,
-            "for": 297,
-            "against": 409,
-            "diff": -112,
-            "points": 14,
+            "for": 335,
+            "against": 441,
+            "diff": -106,
+            "points": 16,
             "highlight": "transparent"
           },
           {
