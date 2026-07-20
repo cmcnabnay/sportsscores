@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T03:14:02+00:00",
+  "updated": "2026-07-20T03:25:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9636,7 +9636,7 @@
       "time": "19:00",
       "utc": "2026-07-19T23:00:00+00:00",
       "venue": "TD Place Stadium",
-      "attendance": null
+      "attendance": "14148"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -14817,7 +14817,7 @@
             "highlight": "#ccffcc"
           },
           {
-            "team": "Slovenia (Q)",
+            "team": "Poland (Q)",
             "played": 12,
             "win": 10,
             "draw": null,
@@ -14825,13 +14825,13 @@
             "for": null,
             "against": null,
             "diff": null,
-            "points": 26,
+            "points": 29,
             "highlight": "#ccffcc"
           },
           {
-            "team": "Poland (Q)",
-            "played": 11,
-            "win": 9,
+            "team": "Slovenia (Q)",
+            "played": 12,
+            "win": 10,
             "draw": null,
             "loss": 2,
             "for": null,
@@ -14854,10 +14854,10 @@
           },
           {
             "team": "United States (Q)",
-            "played": 11,
+            "played": 12,
             "win": 8,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": null,
             "against": null,
             "diff": null,
