@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:44:49+00:00",
+  "updated": "2026-07-21T00:45:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -7245,7 +7245,7 @@
       "time": "14:00",
       "utc": "2026-07-04T17:00:00+00:00",
       "venue": "Estadio Charrua, Montevideo",
-      "attendance": null
+      "attendance": "1000"
     },
     {
       "league": "nations-championship-2026",
@@ -7267,7 +7267,7 @@
       "time": "15:00",
       "utc": "2026-07-04T19:00:00+00:00",
       "venue": "Estadio Nacional Julio Martinez Pradanos, Santiago (Chile)",
-      "attendance": null
+      "attendance": "15972"
     },
     {
       "league": "super-league-2026",
@@ -7355,7 +7355,7 @@
       "time": "16:15",
       "utc": "2026-07-04T22:15:00+00:00",
       "venue": "Dick's Sporting Goods Park, Commerce City (United States)",
-      "attendance": null
+      "attendance": "10500"
     },
     {
       "league": "afle-2026",
@@ -8262,7 +8262,7 @@
       "time": "14:00",
       "utc": "2026-07-11T17:00:00+00:00",
       "venue": "Estadio Charrua, Montevideo",
-      "attendance": null
+      "attendance": "500"
     },
     {
       "league": "nations-championship-2026",
@@ -8284,7 +8284,7 @@
       "time": "15:00",
       "utc": "2026-07-11T19:00:00+00:00",
       "venue": "Estadio Sausalito, Vina del Mar, Chile",
-      "attendance": null
+      "attendance": "12872"
     },
     {
       "league": "nrl-2026",
@@ -8471,7 +8471,7 @@
       "time": "19:30",
       "utc": "2026-07-11T23:30:00+00:00",
       "venue": "American Legion Memorial Stadium, Charlotte",
-      "attendance": null
+      "attendance": "3000"
     },
     {
       "league": "nrl-2026",
@@ -9088,7 +9088,7 @@
       "date": "2026-07-18",
       "time": "11:30",
       "utc": "2026-07-18T14:30:00+00:00",
-      "venue": "Estadio Charrua, Montevideo, Uruguay",
+      "venue": "Estadio Charrúa, Montevideo, Uruguay",
       "attendance": null
     },
     {
@@ -9132,7 +9132,7 @@
       "date": "2026-07-18",
       "time": "14:00",
       "utc": "2026-07-18T17:00:00+00:00",
-      "venue": "Estadio Charrua, Montevideo",
+      "venue": "Estadio Charrúa, Montevideo",
       "attendance": null
     },
     {
@@ -9390,7 +9390,7 @@
       "time": "19:30",
       "utc": "2026-07-18T23:30:00+00:00",
       "venue": "WakeMed Soccer Park, Cary",
-      "attendance": null
+      "attendance": "7900"
     },
     {
       "league": "nrl-2026",
@@ -9548,7 +9548,7 @@
       "time": "14:00",
       "utc": "2026-07-19T04:00:00+00:00",
       "venue": "Cbus Super Stadium",
-      "attendance": "15525"
+      "attendance": "15252"
     },
     {
       "league": "super-league-2026",
@@ -10043,6 +10043,50 @@
       "time": "19:00",
       "utc": "2026-07-26T23:00:00+00:00",
       "venue": "Molson Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Slovenia",
+      "away": "Turkey",
+      "score": "-",
+      "date": "2026-07-29",
+      "time": "15:00",
+      "utc": "2026-07-29T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Japan",
+      "away": "China",
+      "score": "-",
+      "date": "2026-07-29",
+      "time": "19:30",
+      "utc": "2026-07-29T11:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Italy",
+      "away": "United States",
+      "score": "-",
+      "date": "2026-07-30",
+      "time": "15:00",
+      "utc": "2026-07-30T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Poland",
+      "away": "Ukraine",
+      "score": "-",
+      "date": "2026-07-30",
+      "time": "19:30",
+      "utc": "2026-07-30T11:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
