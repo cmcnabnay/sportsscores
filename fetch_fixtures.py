@@ -1431,8 +1431,29 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
         if heading and re.search(r"pre[- ]?season", heading, re.IGNORECASE):
             continue  # preseason games don't count as part of the season schedule
 
+        current_section = None
         for chunk in re.split(r"\n\|-[^\n]*\n", block):
             cells = _extract_wikitable_cells(chunk)
+            has_opponent = any(re.match(r"^(vs\.|at\.)\s+\S", c) for c in cells)
+
+            if not has_opponent:
+                # Not a game row - possibly a section-divider row (e.g. a
+                # colspan'd "'''Preseason'''" / "'''Regular Season'''"
+                # sub-header sitting inside this same table, rather than a
+                # separate table under its own wiki heading). Track which
+                # section we're in so preseason rows can be skipped even
+                # though they live in the same {| ... |} block as the
+                # regular-season rows.
+                divider_text = " ".join(cells)
+                if re.search(r"pre[- ]?season", divider_text, re.IGNORECASE):
+                    current_section = "preseason"
+                elif re.search(r"regular[- ]?season|post[- ]?season|play-?offs?", divider_text, re.IGNORECASE):
+                    current_section = None
+                continue
+
+            if current_section == "preseason":
+                continue  # preseason games don't count as part of the season schedule
+
             if len(cells) < 4 or any("bye" in c.lower() for c in cells):
                 continue
 
