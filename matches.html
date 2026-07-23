@@ -347,7 +347,7 @@
     user-select: none;
   }
   table.standings-table th.sortable:hover { color: var(--navy); }
-  table.standings-table td.avg-att-clickable {
+  table.standings-table td.total-att-clickable {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-style: dotted;
@@ -411,6 +411,8 @@
   }
   .modal-game-row:last-child { border-bottom: none; }
   .modal-game-row .att-figure { font-weight: 700; color: var(--navy); flex-shrink: 0; }
+  .modal-game-row .game-main { flex: 1; min-width: 0; }
+  .modal-game-row .game-venue { font-size: 11px; color: var(--grey); margin-top: 2px; }
 </style>
 </head>
 <body>
@@ -496,10 +498,13 @@ const modalBody = document.getElementById('modal-body');
 // pages list home first) - see fetch_fixtures.py's "swap_home_away" comment.
 // m.home/m.away are already stored with the correct real-world attribution
 // (fetch_fixtures.py fixes that at parse time), so this is purely a display
-// convention: for these two leagues only, show the away team's row above the
+// convention: for these leagues, show the away team's row above the
 // home team's row (scores stay attached to their own team, only the on-
 // screen order flips) to match how fans are used to seeing these boxscores.
-const AWAY_FIRST_LEAGUES = new Set(['afle-2026', 'efa-2026']);
+// CFL is included here too - its own team-season source pages (see
+// parse_cfl_schedule) are read from the home team's page, but CFL fans are
+// used to seeing the visiting team listed first on the scoreboard.
+const AWAY_FIRST_LEAGUES = new Set(['afle-2026', 'efa-2026', 'cfl-2026']);
 
 function closeGameModal() {
   gameModalOverlay.style.display = 'none';
@@ -531,7 +536,8 @@ function escapeHtml(str) {
 // is on record for that game yet).
 function showTeamGamesModal(leagueKey, team) {
   const games = allMatches
-    .filter(m => m.league === leagueKey && m.home === team)
+    .filter(m => m.league === leagueKey && normalizeTeamName(m.home) === team)
+    .filter(m => !isNeutralVenue(m.venue) && !isExcludedHomeMatch(m))
     .slice()
     .sort((a, b) => (a.date || '9999-99-99').localeCompare(b.date || '9999-99-99'));
 
@@ -545,7 +551,17 @@ function showTeamGamesModal(leagueKey, team) {
       const att = (m.attendance !== null && m.attendance !== undefined && m.attendance !== '' && !Number.isNaN(attNum))
         ? attNum.toLocaleString()
         : '-';
-      return `<div class="modal-game-row"><span>${formatShortDate(m.date)} vs ${m.away}</span><span class="att-figure">${att}</span></div>`;
+      // Venue string already carries city/country where the source page
+      // gives it (see fetch_fixtures.py's per-parser venue building), so
+      // showing it as-is covers "venue, city, country (if available)".
+      const venueLine = m.venue ? `<div class="game-venue">${escapeHtml(m.venue)}</div>` : '';
+      return `<div class="modal-game-row">
+        <div class="game-main">
+          <div>${formatShortDate(m.date)} vs ${escapeHtml(m.away)}</div>
+          ${venueLine}
+        </div>
+        <span class="att-figure">${att}</span>
+      </div>`;
     }).join('');
   }
 
@@ -938,6 +954,33 @@ function renderStandings() {
 // playing at home. Matched against m.venue by substring, case-insensitive.
 const NEUTRAL_VENUES = ['Allegiant Stadium'];
 
+// Same rationale as NEUTRAL_VENUES above, but keyed by exact match identity
+// for one-off games that shouldn't count as a home game for the team
+// nominally listed as "home", where the venue text itself isn't a reliable
+// substring to match on - e.g. Hull KR's 3/1/26 game against Leeds Rhinos,
+// which was actually played at a neutral site.
+const EXCLUDED_HOME_MATCHES = new Set([
+  'super-league-2026|2026-03-01|Hull KR|Leeds Rhinos',
+]);
+
+function isExcludedHomeMatch(m) {
+  return EXCLUDED_HOME_MATCHES.has(`${m.league}|${m.date}|${m.home}|${m.away}`);
+}
+
+// Some source tables glue a footnote/marker onto an otherwise-normal team
+// name - a leading "x-"/"y-"/"z-" clinched-status marker, a trailing "[a]"-
+// style footnote reference, or a trailing "(H)"/"(A)" host/away designation
+// on an international page. Left alone, these produce a second, garbled
+// "team" that's really just the same club/nation, so every roster lookup
+// normalizes through this first.
+function normalizeTeamName(raw) {
+  return String(raw)
+    .replace(/^[xyz]\s*[-\u2013]\s*/i, '')
+    .replace(/\s*\[[a-zA-Z0-9]{1,3}\]\s*$/, '')
+    .replace(/\s*\((?:H|A)\)\s*$/i, '')
+    .trim();
+}
+
 // Some competitions' schedules list a future/undetermined fixture with a
 // placeholder team name (e.g. Super League's Grand Final qualifiers
 // before they're known: "1st place" / "2nd place" / "3rd place" /
@@ -960,14 +1003,14 @@ function getLeagueRoster(leagueKey) {
   const groups = standings[leagueKey] || {};
   for (const groupData of Object.values(groups)) {
     for (const r of groupRows(groupData)) {
-      if (r.team) names.add(r.team);
+      if (r.team) names.add(normalizeTeamName(r.team));
     }
   }
   if (names.size === 0) {
     for (const m of allMatches) {
       if (m.league !== leagueKey) continue;
-      if (m.home && !PLACEHOLDER_TEAM_RE.test(m.home.trim())) names.add(m.home);
-      if (m.away && !PLACEHOLDER_TEAM_RE.test(m.away.trim())) names.add(m.away);
+      if (m.home && !PLACEHOLDER_TEAM_RE.test(m.home.trim())) names.add(normalizeTeamName(m.home));
+      if (m.away && !PLACEHOLDER_TEAM_RE.test(m.away.trim())) names.add(normalizeTeamName(m.away));
     }
   }
   return Array.from(names);
@@ -987,13 +1030,14 @@ function computeAttendanceStats(leagueKey) {
   for (const m of allMatches) {
     if (m.league !== leagueKey || !m.home) continue;
     if (PLACEHOLDER_TEAM_RE.test(m.home.trim())) continue;
-    if (isNeutralVenue(m.venue)) continue;
+    if (isNeutralVenue(m.venue) || isExcludedHomeMatch(m)) continue;
     const played = m.score !== null && m.score !== undefined && m.score !== '';
     if (!played) continue;
-    if (!stats[m.home]) {
-      stats[m.home] = { team: m.home, withAttendance: 0, totalAttendance: 0 };
+    const homeTeam = normalizeTeamName(m.home);
+    if (!stats[homeTeam]) {
+      stats[homeTeam] = { team: homeTeam, withAttendance: 0, totalAttendance: 0 };
     }
-    const s = stats[m.home];
+    const s = stats[homeTeam];
     const att = Number(m.attendance);
     if (m.attendance !== null && m.attendance !== undefined && m.attendance !== '' && !Number.isNaN(att)) {
       s.withAttendance += 1;
@@ -1068,15 +1112,15 @@ function renderAttendanceTable(rows) {
       return `<tr>
         <td class="team-col">${r.team}</td>
         <td class="dash-cell">\u2013</td>
-        <td class="dash-cell">\u2013</td>
+        <td class="dash-cell total-att-clickable" data-team="${escapeHtml(r.team)}">\u2013</td>
         <td class="dash-cell">\u2013</td>
       </tr>`;
     }
     return `<tr>
       <td class="team-col">${r.team}</td>
       <td>${r.homeGames}</td>
-      <td>${r.totalAttendance.toLocaleString()}</td>
-      <td class="avg-att-clickable" data-team="${escapeHtml(r.team)}">${r.avgAttendance.toLocaleString()}</td>
+      <td class="total-att-clickable" data-team="${escapeHtml(r.team)}">${r.totalAttendance.toLocaleString()}</td>
+      <td>${r.avgAttendance.toLocaleString()}</td>
     </tr>`;
   }).join('');
 
@@ -1112,21 +1156,9 @@ function attachAttendanceTableHandlers(container, leagueKey) {
       renderAttendance();
     });
   });
-  container.querySelectorAll('.avg-att-clickable').forEach(td => {
+  container.querySelectorAll('.total-att-clickable').forEach(td => {
     td.addEventListener('click', () => showTeamGamesModal(leagueKey, td.dataset.team));
   });
-}
-
-// League-wide average: total attendance across every team, divided by the
-// total number of (attendance-recorded) home games across every team -
-// i.e. a straight per-game average across the whole competition, not an
-// average-of-averages.
-function renderLeagueAverage(rows) {
-  const totalAtt = rows.reduce((sum, r) => sum + (r.totalAttendance || 0), 0);
-  const totalGames = rows.reduce((sum, r) => sum + (r.withAttendance || 0), 0);
-  if (!totalGames) return '';
-  const avg = Math.round(totalAtt / totalGames);
-  return `<div class="league-name">League average attendance: ${avg.toLocaleString()} (across ${totalGames.toLocaleString()} games)</div>`;
 }
 
 function renderAttendance() {
@@ -1204,7 +1236,6 @@ function renderAttendance() {
   wrap.className = 'standings-group';
   wrap.innerHTML = `
     <h3>${leagueName} \u00b7 Attendance</h3>
-    ${renderLeagueAverage(rows)}
     ${renderAttendanceTable(rows)}
   `;
   attendanceView.appendChild(wrap);

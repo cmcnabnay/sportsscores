@@ -1404,9 +1404,32 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
     default_offset = cfg.get("utc_offset")
     matches = []
 
-    for block in re.findall(r"\{\|.*?\n\|\}", wikitext, re.DOTALL):
+    # CFL team-season pages break their schedule table into "Preseason" /
+    # "Regular season" / "Postseason" sub-tables (each its own separate
+    # {| ... |} block), so the preseason games can be dropped just by
+    # checking which heading immediately precedes each block, without
+    # needing to know anything about the individual games themselves.
+    headings = [
+        (m.start(), m.group(1).strip())
+        for m in re.finditer(r"^={2,4}\s*([^=\n]+?)\s*={2,4}\s*$", wikitext, re.MULTILINE)
+    ]
+
+    def preceding_heading(pos):
+        heading = None
+        for hpos, htext in headings:
+            if hpos >= pos:
+                break
+            heading = htext
+        return heading
+
+    for block_match in re.finditer(r"\{\|.*?\n\|\}", wikitext, re.DOTALL):
+        block = block_match.group(0)
         if not re.search(r"\b(?:vs\.|at\.)\s*\[\[", block):
             continue  # not the schedule table (draft picks, standings, roster, ...)
+
+        heading = preceding_heading(block_match.start())
+        if heading and re.search(r"pre[- ]?season", heading, re.IGNORECASE):
+            continue  # preseason games don't count as part of the season schedule
 
         for chunk in re.split(r"\n\|-[^\n]*\n", block):
             cells = _extract_wikitable_cells(chunk)
@@ -2067,6 +2090,18 @@ def parse_standings_table(table):
         if roles["team"] >= len(row):
             continue
         team = strip_citations(re.sub(r"\s+", " ", row[roles["team"]]).strip())
+        # Strip footnote/marker artifacts some pages glue onto an otherwise
+        # normal team name - a leading "x-"/"y-"/"z-" clinched-status
+        # marker (common on North American standings pages), a trailing
+        # "[a]"-style footnote reference (e.g. Super League's Warrington
+        # Wolves/Hull KR groundshare notes), or a trailing "(H)"/"(A)"
+        # host/away designation on an international qualifying page (e.g.
+        # FIBA's host nations). Left in place these read as a second,
+        # different-looking "team" for a club/nation that already has its
+        # own proper row elsewhere.
+        team = re.sub(r"^[xyz]\s*[-\u2013]\s*", "", team, flags=re.IGNORECASE)
+        team = re.sub(r"\s*\[[a-zA-Z0-9]{1,3}\]\s*$", "", team)
+        team = re.sub(r"\s*\((?:H|A)\)\s*$", "", team, flags=re.IGNORECASE)
         if not team or team.lower() in ("source", "notes", "key", "notes:"):
             continue
         stat_values = (
