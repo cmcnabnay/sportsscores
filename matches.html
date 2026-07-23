@@ -370,6 +370,7 @@
 <div class="view-tabs">
   <button id="view-fixtures-btn" class="active">Fixtures</button>
   <button id="view-standings-btn">Standings</button>
+  <button id="view-attendance-btn">Attendance</button>
 </div>
 
 <div class="day-nav" id="day-nav">
@@ -382,25 +383,29 @@
   <div class="selected-date" id="selected-date-label"></div>
   <div id="match-list"></div>
   <div id="standings-view" style="display:none;"></div>
+  <div id="attendance-view" style="display:none;"></div>
 </main>
 
 <script>
 let allMatches = [];
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
-let currentView = 'fixtures'; // 'fixtures' | 'standings'
+let currentView = 'fixtures'; // 'fixtures' | 'standings' | 'attendance'
 let standingsLeagueKey = null; // which league's pill is active in the Standings view
+let attendanceLeagueKey = null; // which league's pill is active in the Attendance view
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
 const matchList = document.getElementById('match-list');
 const standingsView = document.getElementById('standings-view');
+const attendanceView = document.getElementById('attendance-view');
 const dayNav = document.getElementById('day-nav');
 const controlsBar = document.getElementById('controls-bar');
 const selectedDateLabel = document.getElementById('selected-date-label');
 const updateNote = document.getElementById('update-note');
 const viewFixturesBtn = document.getElementById('view-fixtures-btn');
 const viewStandingsBtn = document.getElementById('view-standings-btn');
+const viewAttendanceBtn = document.getElementById('view-attendance-btn');
 
 function toISODate(d) {
   return d.toISOString().slice(0, 10);
@@ -425,18 +430,21 @@ leagueSelect.addEventListener('change', render);
 function setView(view) {
   currentView = view;
   const showFixtures = view === 'fixtures';
-  viewFixturesBtn.classList.toggle('active', showFixtures);
-  viewStandingsBtn.classList.toggle('active', !showFixtures);
+  viewFixturesBtn.classList.toggle('active', view === 'fixtures');
+  viewStandingsBtn.classList.toggle('active', view === 'standings');
+  viewAttendanceBtn.classList.toggle('active', view === 'attendance');
   dayNav.style.display = showFixtures ? 'flex' : 'none';
   controlsBar.style.display = showFixtures ? 'flex' : 'none';
   selectedDateLabel.style.display = showFixtures ? '' : 'none';
   matchList.style.display = showFixtures ? '' : 'none';
-  standingsView.style.display = showFixtures ? 'none' : '';
+  standingsView.style.display = view === 'standings' ? '' : 'none';
+  attendanceView.style.display = view === 'attendance' ? '' : 'none';
   render();
 }
 
 viewFixturesBtn.addEventListener('click', () => setView('fixtures'));
 viewStandingsBtn.addEventListener('click', () => setView('standings'));
+viewAttendanceBtn.addEventListener('click', () => setView('attendance'));
 
 function enrichMatch(m) {
   // Prefer the true UTC instant (converted to whatever timezone this
@@ -486,6 +494,10 @@ function formatDateLabel(iso) {
 function render() {
   if (currentView === 'standings') {
     renderStandings();
+    return;
+  }
+  if (currentView === 'attendance') {
+    renderAttendance();
     return;
   }
 
@@ -766,6 +778,122 @@ function renderStandings() {
     `;
     standingsView.appendChild(wrap);
   }
+}
+
+// Per-team attendance stats for one league, built straight from allMatches
+// (no separate scrape needed - attendance already lives on each match).
+// "Home games" counts every home fixture found for the team; total/average
+// attendance are computed only from the subset of those that actually have
+// a recorded attendance figure, so a run of TBC future fixtures doesn't
+// drag the average down.
+function computeAttendanceStats(leagueKey) {
+  const stats = {};
+  for (const m of allMatches) {
+    if (m.league !== leagueKey || !m.home) continue;
+    if (!stats[m.home]) {
+      stats[m.home] = { team: m.home, homeGames: 0, withAttendance: 0, totalAttendance: 0 };
+    }
+    const s = stats[m.home];
+    s.homeGames += 1;
+    const att = Number(m.attendance);
+    if (m.attendance !== null && m.attendance !== undefined && m.attendance !== '' && !Number.isNaN(att)) {
+      s.withAttendance += 1;
+      s.totalAttendance += att;
+    }
+  }
+  return Object.values(stats)
+    .map(s => ({ ...s, avgAttendance: s.withAttendance ? Math.round(s.totalAttendance / s.withAttendance) : null }))
+    .sort((a, b) => b.totalAttendance - a.totalAttendance);
+}
+
+function renderAttendanceTable(rows) {
+  const bodyRows = rows.map(r => `
+    <tr>
+      <td class="team-col">${r.team}</td>
+      <td>${r.homeGames}</td>
+      <td>${r.totalAttendance ? r.totalAttendance.toLocaleString() : '\u2013'}</td>
+      <td>${r.avgAttendance !== null ? r.avgAttendance.toLocaleString() : '\u2013'}</td>
+    </tr>
+  `).join('');
+  return `<table class="standings-table"><thead><tr>
+    <th class="team-col">Team</th><th>Home&nbsp;GP</th><th>Total&nbsp;Att.</th><th>Avg&nbsp;Att.</th>
+  </tr></thead><tbody>${bodyRows}</tbody></table>`;
+}
+
+function renderAttendance() {
+  attendanceView.innerHTML = '';
+
+  // Only leagues with at least one home match carrying a recorded
+  // attendance figure get a pill - same "don't show an empty tab" rule
+  // as the Standings view.
+  const leagueKeys = Object.keys(leagues).filter(key =>
+    allMatches.some(m => m.league === key && m.home && m.attendance !== null && m.attendance !== undefined && m.attendance !== '')
+  );
+
+  if (leagueKeys.length === 0) {
+    attendanceView.innerHTML = '<div class="empty-state">No attendance data available yet.</div>';
+    return;
+  }
+
+  if (!attendanceLeagueKey || !leagueKeys.includes(attendanceLeagueKey)) {
+    attendanceLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+  }
+
+  const row = document.createElement('div');
+  row.className = 'league-scroller-row';
+
+  const leftArrow = document.createElement('button');
+  leftArrow.className = 'scroller-arrow';
+  leftArrow.setAttribute('aria-label', 'Scroll leagues left');
+  leftArrow.textContent = '\u2039';
+
+  const scroller = document.createElement('div');
+  scroller.className = 'league-scroller';
+  for (const key of leagueKeys) {
+    const btn = document.createElement('button');
+    btn.className = 'league-pill' + (key === attendanceLeagueKey ? ' active' : '');
+    btn.textContent = (leagues[key] && leagues[key].name) || key;
+    btn.addEventListener('click', () => {
+      attendanceLeagueKey = key;
+      renderAttendance();
+    });
+    scroller.appendChild(btn);
+  }
+
+  const rightArrow = document.createElement('button');
+  rightArrow.className = 'scroller-arrow';
+  rightArrow.setAttribute('aria-label', 'Scroll leagues right');
+  rightArrow.textContent = '\u203a';
+
+  const updateArrows = () => {
+    leftArrow.disabled = scroller.scrollLeft <= 0;
+    rightArrow.disabled = scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 1;
+  };
+  leftArrow.addEventListener('click', () => scroller.scrollBy({ left: -160, behavior: 'smooth' }));
+  rightArrow.addEventListener('click', () => scroller.scrollBy({ left: 160, behavior: 'smooth' }));
+  scroller.addEventListener('scroll', updateArrows);
+
+  row.appendChild(leftArrow);
+  row.appendChild(scroller);
+  row.appendChild(rightArrow);
+  attendanceView.appendChild(row);
+
+  const activePill = scroller.querySelector('.league-pill.active');
+  if (activePill && typeof activePill.scrollIntoView === 'function') {
+    activePill.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }
+  setTimeout(updateArrows, 0);
+
+  const leagueName = (leagues[attendanceLeagueKey] && leagues[attendanceLeagueKey].name) || attendanceLeagueKey;
+  const rows = computeAttendanceStats(attendanceLeagueKey);
+
+  const wrap = document.createElement('div');
+  wrap.className = 'standings-group';
+  wrap.innerHTML = `
+    <h3>${leagueName} \u00b7 Attendance</h3>
+    ${renderAttendanceTable(rows)}
+  `;
+  attendanceView.appendChild(wrap);
 }
 
 function populateLeagueOptions() {

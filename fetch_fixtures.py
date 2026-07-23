@@ -112,6 +112,14 @@ LEAGUES = {
         "page": "2026_World_Rugby_Junior_World_Championship",
         "sport": "rugby",
         "parser": "vevent",
+        # Tournament finished - stop re-fetching (fixtures AND standings)
+        # on every default run. Stored matches/standings/league entry are
+        # left exactly as-is in fixtures.json (run() never touches a key
+        # that isn't in the list it's asked to process), so matches.html
+        # keeps showing the final results and table. Run
+        # `python3 fetch_fixtures.py u20-jwc-2026 --force` manually if a
+        # correction ever needs to be pulled in after the fact.
+        "completed": True,
         "utc_offset": 4,  # Georgia (GET), no DST
         "tag_sections": True,  # tags each match with its enclosing Pool/
                                 # bracket (h3) and round (h4) headings, so
@@ -2823,7 +2831,11 @@ def main():
             print(f"  {key:20s} {cfg['name']}")
         return
 
-    keys = args.leagues or list(LEAGUES.keys())
+    # Default (no leagues named) skips anything marked "completed" - those
+    # tournaments are over and their stored data (matches + standings) is
+    # left untouched rather than re-fetched every run. Naming a completed
+    # league explicitly still works, for a manual one-off re-check.
+    keys = args.leagues or [k for k, cfg in LEAGUES.items() if not cfg.get("completed")]
     unknown = [k for k in keys if k not in LEAGUES]
     if unknown:
         print(f"Unknown league key(s): {', '.join(unknown)}", file=sys.stderr)
