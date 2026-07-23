@@ -1404,31 +1404,43 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
     default_offset = cfg.get("utc_offset")
     matches = []
 
-    # CFL team-season pages break their schedule table into "Preseason" /
-    # "Regular season" / "Postseason" sub-tables (each its own separate
-    # {| ... |} block), so the preseason games can be dropped just by
-    # checking which heading immediately precedes each block, without
-    # needing to know anything about the individual games themselves.
-    headings = [
-        (m.start(), m.group(1).strip())
-        for m in re.finditer(r"^={2,4}\s*([^=\n]+?)\s*={2,4}\s*$", wikitext, re.MULTILINE)
-    ]
+    # CFL team-season pages put Preseason / Regular season / Postseason
+    # games in their own separate schedule tables, each under its own big
+    # section heading (e.g. "==Preseason==" ... "===Schedule===" ... {|
+    # ... |} ... "==Regular season==" ... "===Standings===" ... "===Schedule==="
+    # ... {| ... |}). The nearest heading right above a given table is
+    # usually the "Schedule"/"Standings" subheading, not the Preseason/
+    # Regular season one - so rather than just taking whatever heading
+    # comes right before the table, only headings whose own text names an
+    # actual section (Preseason/Regular season/Postseason) update which
+    # section we're in; a "Schedule" or "Standings" subheading in between
+    # is simply ignored, and the state carries through it. "=" counts on
+    # each side aren't assumed to match (some pages have malformed heading
+    # markup like "=Preseason==").
+    section_headings = []
+    for m in re.finditer(r"^={1,6}\s*([^=\n]+?)\s*={1,6}\s*$", wikitext, re.MULTILINE):
+        text = m.group(1).strip()
+        if re.search(r"pre[- ]?season", text, re.IGNORECASE):
+            section_headings.append((m.start(), "preseason"))
+        elif re.search(r"regular[- ]?season", text, re.IGNORECASE):
+            section_headings.append((m.start(), "regular"))
+        elif re.search(r"post[- ]?season|play-?offs?", text, re.IGNORECASE):
+            section_headings.append((m.start(), "postseason"))
 
-    def preceding_heading(pos):
-        heading = None
-        for hpos, htext in headings:
+    def section_at(pos):
+        section = None
+        for hpos, sec in section_headings:
             if hpos >= pos:
                 break
-            heading = htext
-        return heading
+            section = sec
+        return section
 
     for block_match in re.finditer(r"\{\|.*?\n\|\}", wikitext, re.DOTALL):
         block = block_match.group(0)
         if not re.search(r"\b(?:vs\.|at\.)\s*\[\[", block):
             continue  # not the schedule table (draft picks, standings, roster, ...)
 
-        heading = preceding_heading(block_match.start())
-        if heading and re.search(r"pre[- ]?season", heading, re.IGNORECASE):
+        if section_at(block_match.start()) == "preseason":
             continue  # preseason games don't count as part of the season schedule
 
         current_section = None
@@ -1440,10 +1452,10 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                 # Not a game row - possibly a section-divider row (e.g. a
                 # colspan'd "'''Preseason'''" / "'''Regular Season'''"
                 # sub-header sitting inside this same table, rather than a
-                # separate table under its own wiki heading). Track which
-                # section we're in so preseason rows can be skipped even
-                # though they live in the same {| ... |} block as the
-                # regular-season rows.
+                # separate table under its own wiki heading, on pages laid
+                # out that way instead). Track which section we're in so
+                # preseason rows can be skipped even though they live in
+                # the same {| ... |} block as the regular-season rows.
                 divider_text = " ".join(cells)
                 if re.search(r"pre[- ]?season", divider_text, re.IGNORECASE):
                     current_section = "preseason"
