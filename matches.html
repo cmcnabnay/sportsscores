@@ -341,6 +341,76 @@
     50% { opacity: 0.55; }
   }
   .match-time.is-live { color: var(--red); }
+
+  table.standings-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+  }
+  table.standings-table th.sortable:hover { color: var(--navy); }
+  table.standings-table td.avg-att-clickable {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: var(--navy);
+    font-weight: 700;
+  }
+  table.standings-table tr.attendance-total-row {
+    border-top: 2px solid var(--navy);
+    background: #eef1f7 !important;
+  }
+  table.standings-table tr.attendance-total-row td { font-weight: 700; }
+  table.standings-table td.dash-cell { color: var(--grey); }
+
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(11,31,58,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 1000;
+  }
+  .modal-box {
+    background: white;
+    border-radius: 12px;
+    max-width: 420px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  }
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--paper);
+    position: sticky;
+    top: 0;
+    background: white;
+    border-radius: 12px 12px 0 0;
+  }
+  .modal-header h3 { margin: 0; font-size: 15px; color: var(--navy); }
+  #modal-close-btn {
+    border: none;
+    background: none;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--grey);
+    padding: 0 4px;
+  }
+  .modal-body { padding: 6px 16px 16px; font-size: 13px; }
+  .modal-game-row {
+    padding: 7px 0;
+    border-bottom: 1px solid #f0f2f5;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .modal-game-row:last-child { border-bottom: none; }
+  .modal-game-row .att-figure { font-weight: 700; color: var(--navy); flex-shrink: 0; }
 </style>
 </head>
 <body>
@@ -386,6 +456,16 @@
   <div id="attendance-view" style="display:none;"></div>
 </main>
 
+<div id="game-modal-overlay" class="modal-overlay" style="display:none;">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 id="modal-title"></h3>
+      <button id="modal-close-btn" aria-label="Close">&times;</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+  </div>
+</div>
+
 <script>
 let allMatches = [];
 let leagues = {};
@@ -407,6 +487,70 @@ const updateNote = document.getElementById('update-note');
 const viewFixturesBtn = document.getElementById('view-fixtures-btn');
 const viewStandingsBtn = document.getElementById('view-standings-btn');
 const viewAttendanceBtn = document.getElementById('view-attendance-btn');
+const gameModalOverlay = document.getElementById('game-modal-overlay');
+const modalTitle = document.getElementById('modal-title');
+const modalBody = document.getElementById('modal-body');
+
+// AFLE/EFA source pages list the away team first / on top and the home team
+// second / on the bottom (the opposite of every other league here, whose
+// pages list home first) - see fetch_fixtures.py's "swap_home_away" comment.
+// m.home/m.away are already stored with the correct real-world attribution
+// (fetch_fixtures.py fixes that at parse time), so this is purely a display
+// convention: for these two leagues only, show the away team's row above the
+// home team's row (scores stay attached to their own team, only the on-
+// screen order flips) to match how fans are used to seeing these boxscores.
+const AWAY_FIRST_LEAGUES = new Set(['afle-2026', 'efa-2026']);
+
+function closeGameModal() {
+  gameModalOverlay.style.display = 'none';
+}
+document.getElementById('modal-close-btn').addEventListener('click', closeGameModal);
+gameModalOverlay.addEventListener('click', (e) => {
+  if (e.target === gameModalOverlay) closeGameModal();
+});
+
+// '2026-07-04' -> '7/4/26'
+function formatShortDate(iso) {
+  if (!iso) return 'TBC';
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!m) return iso;
+  const [, y, mo, d] = m;
+  return `${Number(mo)}/${Number(d)}/${y.slice(2)}`;
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Popup listing every home game a team has played in a league, in the
+// format "M/D/YY vs Opponent: attendance" (or "-" when no attendance figure
+// is on record for that game yet).
+function showTeamGamesModal(leagueKey, team) {
+  const games = allMatches
+    .filter(m => m.league === leagueKey && m.home === team)
+    .slice()
+    .sort((a, b) => (a.date || '9999-99-99').localeCompare(b.date || '9999-99-99'));
+
+  modalTitle.textContent = team;
+
+  if (!games.length) {
+    modalBody.innerHTML = '<div class="empty-state">No home games recorded yet.</div>';
+  } else {
+    modalBody.innerHTML = games.map(m => {
+      const attNum = Number(m.attendance);
+      const att = (m.attendance !== null && m.attendance !== undefined && m.attendance !== '' && !Number.isNaN(attNum))
+        ? attNum.toLocaleString()
+        : '-';
+      return `<div class="modal-game-row"><span>${formatShortDate(m.date)} vs ${m.away}</span><span class="att-figure">${att}</span></div>`;
+    }).join('');
+  }
+
+  gameModalOverlay.style.display = 'flex';
+}
 
 function toISODate(d) {
   return d.toISOString().slice(0, 10);
@@ -552,6 +696,20 @@ function render() {
       statusClass = 'status-upcoming';
     }
 
+    const homeRow = `
+        <div class="team-row ${homeWin ? 'winner' : ''}">
+          <span class="team-name">${m.home}</span>
+          <span class="team-score">${homeScore}</span>
+        </div>`;
+    const awayRow = `
+        <div class="team-row ${awayWin ? 'winner' : ''}">
+          <span class="team-name">${m.away}</span>
+          <span class="team-score">${awayScore}</span>
+        </div>`;
+    // AFLE/EFA display convention: away team's row on top, home team's row
+    // on the bottom (see AWAY_FIRST_LEAGUES comment above).
+    const teamRowsHtml = AWAY_FIRST_LEAGUES.has(m.league) ? (awayRow + homeRow) : (homeRow + awayRow);
+
     card.innerHTML = `
       <div class="match-time ${status === 'live' ? 'is-live' : ''}">
         ${m._localTime || 'TBC'}
@@ -559,14 +717,7 @@ function render() {
       </div>
       <div class="match-teams">
         <div class="league-tag">${leagueName}</div>
-        <div class="team-row ${homeWin ? 'winner' : ''}">
-          <span class="team-name">${m.home}</span>
-          <span class="team-score">${homeScore}</span>
-        </div>
-        <div class="team-row ${awayWin ? 'winner' : ''}">
-          <span class="team-name">${m.away}</span>
-          <span class="team-score">${awayScore}</span>
-        </div>
+        ${teamRowsHtml}
         <div class="match-meta">
           ${m.venue ? m.venue : ''}${m.referee ? ' · Ref: ' + m.referee : ''}${m.attendance ? ' · Att: ' + Number(m.attendance).toLocaleString() : ''}
         </div>
@@ -798,14 +949,39 @@ function isNeutralVenue(venue) {
   return !!venue && NEUTRAL_VENUES.some(v => venue.includes(v));
 }
 
+// Every team known to belong to a league, so a team that hasn't hosted a
+// single (attendance-recorded) home game yet still gets its own row (shown
+// with dashes) instead of being missing from the table entirely. Pulled
+// from the league's standings (covers every team, whether or not they've
+// played yet); if a league has no standings on record, falls back to every
+// team seen as a home or away side in that league's matches.
+function getLeagueRoster(leagueKey) {
+  const names = new Set();
+  const groups = standings[leagueKey] || {};
+  for (const groupData of Object.values(groups)) {
+    for (const r of groupRows(groupData)) {
+      if (r.team) names.add(r.team);
+    }
+  }
+  if (names.size === 0) {
+    for (const m of allMatches) {
+      if (m.league !== leagueKey) continue;
+      if (m.home && !PLACEHOLDER_TEAM_RE.test(m.home.trim())) names.add(m.home);
+      if (m.away && !PLACEHOLDER_TEAM_RE.test(m.away.trim())) names.add(m.away);
+    }
+  }
+  return Array.from(names);
+}
+
 // Per-team attendance stats for one league, built straight from allMatches
 // (no separate scrape needed for most leagues - attendance already lives
-// on each match). Counts a match toward a team's "home games" ONLY if it
-// has actually been played (has a recorded score) - an upcoming/TBC home
-// fixture doesn't count yet - and skips neutral-venue and placeholder-team
-// rows entirely. Total/average attendance are further limited to the
-// subset of those played games that also have a recorded attendance
-// figure, so a played-but-unrecorded game doesn't drag the average down.
+// on each match). A match only counts toward a team's Home GP if it's been
+// played AND has a recorded attendance figure - a played home game with no
+// attendance on record yet does NOT add to Home GP (it isn't "played with
+// unknown attendance", it just doesn't count until the figure shows up).
+// Neutral-venue and placeholder-team rows are skipped entirely. Every team
+// in the league's roster gets a row even with zero qualifying games, so it
+// can be shown with dashes rather than disappearing from the table.
 function computeAttendanceStats(leagueKey) {
   const stats = {};
   for (const m of allMatches) {
@@ -815,49 +991,130 @@ function computeAttendanceStats(leagueKey) {
     const played = m.score !== null && m.score !== undefined && m.score !== '';
     if (!played) continue;
     if (!stats[m.home]) {
-      stats[m.home] = { team: m.home, homeGames: 0, withAttendance: 0, totalAttendance: 0 };
+      stats[m.home] = { team: m.home, withAttendance: 0, totalAttendance: 0 };
     }
     const s = stats[m.home];
-    s.homeGames += 1;
     const att = Number(m.attendance);
     if (m.attendance !== null && m.attendance !== undefined && m.attendance !== '' && !Number.isNaN(att)) {
       s.withAttendance += 1;
       s.totalAttendance += att;
     }
   }
-  return Object.values(stats)
-    .map(s => ({ ...s, avgAttendance: s.withAttendance ? Math.round(s.totalAttendance / s.withAttendance) : null }))
-    .sort((a, b) => b.totalAttendance - a.totalAttendance);
+  for (const team of getLeagueRoster(leagueKey)) {
+    if (!stats[team]) stats[team] = { team, withAttendance: 0, totalAttendance: 0 };
+  }
+  return Object.values(stats).map(s => ({
+    team: s.team,
+    homeGames: s.withAttendance,
+    totalAttendance: s.totalAttendance,
+    withAttendance: s.withAttendance,
+    avgAttendance: s.withAttendance ? Math.round(s.totalAttendance / s.withAttendance) : null,
+    noData: s.withAttendance === 0,
+  }));
 }
 
 // Normalize an official scraped attendance table (see attendance_tables in
-// fetch_fixtures.py - currently just NRL's Wikipedia-maintained Games/
-// Total/Average table) into the same row shape computeAttendanceStats()
+// fetch_fixtures.py - currently NRL/Super League's Wikipedia-maintained
+// Games/Total/Average table) into the same row shape computeAttendanceStats()
 // produces, so both sources can share one renderer.
 function normalizeOfficialAttendanceRows(rows) {
-  return rows
-    .map(r => ({
-      team: r.team,
-      homeGames: r.games,
-      totalAttendance: r.total || 0,
-      withAttendance: r.total ? r.games : 0,
-      avgAttendance: r.average !== null && r.average !== undefined ? r.average : null,
-    }))
-    .sort((a, b) => b.totalAttendance - a.totalAttendance);
+  return rows.map(r => ({
+    team: r.team,
+    homeGames: r.games,
+    totalAttendance: r.total || 0,
+    withAttendance: r.total ? r.games : 0,
+    avgAttendance: r.average !== null && r.average !== undefined ? r.average : null,
+    noData: !r.total,
+  }));
+}
+
+// Sort state for the Attendance table (shared across renders/leagues).
+// key: 'team' | 'total' | 'avg'; dir: 'asc' | 'desc'.
+let attendanceSort = { key: 'total', dir: 'desc' };
+
+function sortAttendanceRows(rows, sort) {
+  const arr = rows.slice();
+  arr.sort((a, b) => {
+    let av, bv;
+    if (sort.key === 'team') {
+      av = (a.team || '').toLowerCase();
+      bv = (b.team || '').toLowerCase();
+    } else if (sort.key === 'avg') {
+      av = a.avgAttendance || 0;
+      bv = b.avgAttendance || 0;
+    } else {
+      av = a.totalAttendance || 0;
+      bv = b.totalAttendance || 0;
+    }
+    if (av < bv) return sort.dir === 'asc' ? -1 : 1;
+    if (av > bv) return sort.dir === 'asc' ? 1 : -1;
+    return 0;
+  });
+  return arr;
 }
 
 function renderAttendanceTable(rows) {
-  const bodyRows = rows.map(r => `
-    <tr>
+  const sorted = sortAttendanceRows(rows, attendanceSort);
+
+  // Bottom "Total" row: total home games (GP) and total attendance summed
+  // across every team, with the average recomputed from those totals -
+  // not an average of each team's own average.
+  const totalGames = rows.reduce((sum, r) => sum + (r.withAttendance || 0), 0);
+  const totalAtt = rows.reduce((sum, r) => sum + (r.totalAttendance || 0), 0);
+  const totalAvg = totalGames ? Math.round(totalAtt / totalGames) : null;
+
+  const bodyRows = sorted.map(r => {
+    if (r.noData) {
+      return `<tr>
+        <td class="team-col">${r.team}</td>
+        <td class="dash-cell">\u2013</td>
+        <td class="dash-cell">\u2013</td>
+        <td class="dash-cell">\u2013</td>
+      </tr>`;
+    }
+    return `<tr>
       <td class="team-col">${r.team}</td>
       <td>${r.homeGames}</td>
-      <td>${r.totalAttendance ? r.totalAttendance.toLocaleString() : '\u2013'}</td>
-      <td>${r.avgAttendance !== null ? r.avgAttendance.toLocaleString() : '\u2013'}</td>
-    </tr>
-  `).join('');
+      <td>${r.totalAttendance.toLocaleString()}</td>
+      <td class="avg-att-clickable" data-team="${escapeHtml(r.team)}">${r.avgAttendance.toLocaleString()}</td>
+    </tr>`;
+  }).join('');
+
+  const totalRow = `<tr class="attendance-total-row">
+    <td class="team-col">Total</td>
+    <td>${totalGames.toLocaleString()}</td>
+    <td>${totalAtt.toLocaleString()}</td>
+    <td>${totalAvg !== null ? totalAvg.toLocaleString() : '\u2013'}</td>
+  </tr>`;
+
+  const arrow = (key) => attendanceSort.key === key ? (attendanceSort.dir === 'asc' ? ' \u2191' : ' \u2193') : '';
+
   return `<table class="standings-table"><thead><tr>
-    <th class="team-col">Team</th><th>Home&nbsp;GP</th><th>Total&nbsp;Att.</th><th>Avg&nbsp;Att.</th>
-  </tr></thead><tbody>${bodyRows}</tbody></table>`;
+    <th class="team-col sortable" data-sort="team">Team${arrow('team')}</th>
+    <th>Home&nbsp;GP</th>
+    <th class="sortable" data-sort="total">Total&nbsp;Att.${arrow('total')}</th>
+    <th class="sortable" data-sort="avg">Avg&nbsp;Att.${arrow('avg')}</th>
+  </tr></thead><tbody>${bodyRows}${totalRow}</tbody></table>`;
+}
+
+// Wires up the sortable column headers and the clickable Avg Att. cells
+// inside a freshly-rendered attendance table container.
+function attachAttendanceTableHandlers(container, leagueKey) {
+  container.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.sort;
+      if (attendanceSort.key === key) {
+        attendanceSort.dir = attendanceSort.dir === 'asc' ? 'desc' : 'asc';
+      } else {
+        attendanceSort.key = key;
+        attendanceSort.dir = key === 'team' ? 'asc' : 'desc';
+      }
+      renderAttendance();
+    });
+  });
+  container.querySelectorAll('.avg-att-clickable').forEach(td => {
+    td.addEventListener('click', () => showTeamGamesModal(leagueKey, td.dataset.team));
+  });
 }
 
 // League-wide average: total attendance across every team, divided by the
@@ -951,6 +1208,7 @@ function renderAttendance() {
     ${renderAttendanceTable(rows)}
   `;
   attendanceView.appendChild(wrap);
+  attachAttendanceTableHandlers(wrap, attendanceLeagueKey);
 }
 
 function populateLeagueOptions() {
