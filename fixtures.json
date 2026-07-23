@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T06:10:20+00:00",
+  "updated": "2026-07-23T06:19:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18521,5 +18521,111 @@
         "legend": {}
       }
     }
+  },
+  "attendance_tables": {
+    "nrl-2026": [
+      {
+        "team": "Brisbane Broncos",
+        "games": 9,
+        "total": 381006,
+        "average": 42334
+      },
+      {
+        "team": "Canberra Raiders",
+        "games": 9,
+        "total": 134346,
+        "average": 14927
+      },
+      {
+        "team": "Canterbury-Bankstown Bulldogs",
+        "games": 9,
+        "total": 215511,
+        "average": 23946
+      },
+      {
+        "team": "Cronulla-Sutherland Sharks",
+        "games": 8,
+        "total": 120544,
+        "average": 15068
+      },
+      {
+        "team": "Dolphins",
+        "games": 10,
+        "total": 205381,
+        "average": 20538
+      },
+      {
+        "team": "Gold Coast Titans",
+        "games": 6,
+        "total": 102498,
+        "average": 17083
+      },
+      {
+        "team": "Manly Warringah Sea Eagles",
+        "games": 9,
+        "total": 147837,
+        "average": 16426
+      },
+      {
+        "team": "Melbourne Storm",
+        "games": 9,
+        "total": 176962,
+        "average": 19662
+      },
+      {
+        "team": "Newcastle Knights",
+        "games": 9,
+        "total": 219759,
+        "average": 24418
+      },
+      {
+        "team": "New Zealand Warriors",
+        "games": 8,
+        "total": 203547,
+        "average": 25443
+      },
+      {
+        "team": "North Queensland Cowboys",
+        "games": 8,
+        "total": 154605,
+        "average": 19326
+      },
+      {
+        "team": "Parramatta Eels",
+        "games": 8,
+        "total": 161747,
+        "average": 20218
+      },
+      {
+        "team": "Penrith Panthers",
+        "games": 7,
+        "total": 118217,
+        "average": 16888
+      },
+      {
+        "team": "South Sydney Rabbitohs",
+        "games": 7,
+        "total": 177884,
+        "average": 25412
+      },
+      {
+        "team": "St. George Illawarra Dragons",
+        "games": 7,
+        "total": 103852,
+        "average": 14836
+      },
+      {
+        "team": "Sydney Roosters",
+        "games": 8,
+        "total": 182679,
+        "average": 22835
+      },
+      {
+        "team": "Wests Tigers",
+        "games": 9,
+        "total": 147134,
+        "average": 16348
+      }
+    ]
   }
 }

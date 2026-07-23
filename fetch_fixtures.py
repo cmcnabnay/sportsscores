@@ -222,6 +222,20 @@ LEAGUES = {
                 }
             ],
         },
+        # NRL's season page carries its own official per-club attendance
+        # table (==Attendances== -> ===Club figures===: Team/Games/Total/
+        # Average/...). Use it directly instead of computing attendance
+        # from individual match records - it already excludes Magic Round
+        # home games from each club's Games figure (Wikipedia marks this
+        # with a footnote asterisk on the number itself), which a naive
+        # "count every home fixture" computation over fixtures.json can't
+        # replicate without separately knowing which fixtures were Magic
+        # Round. If the heading has drifted, fetch_attendance_table()
+        # falls back to a page-wide scan for a same-shaped table.
+        "attendance_table": {
+            "page": "2026_NRL_season",
+            "heading_ids": ["Club_figures", "Attendances"],
+        },
     },
     "super-league-2026": {
         "name": "Super League Rugby 2026",
@@ -2447,6 +2461,117 @@ def fetch_standings(cfg, key):
     return result
 
 
+def parse_attendance_table(table):
+    """Turn a rendered <table> from a season page's official attendance
+    summary section (e.g. NRL's "==Attendances== -> ===Club figures==="")
+    into a list of {"team", "games", "total", "average"} dicts.
+
+    Column order on these pages is Team | Games | Total | <year> Average |
+    <prior year> Average | Difference | Highest | Lowest - only the first
+    "*Average" column found is used (the current-season one; it's always
+    the first of the two "Average" columns on the page), and Difference/
+    Highest/Lowest are ignored entirely since the app doesn't show them.
+
+    A trailing "*" on a Games figure (Wikipedia's own footnote marker,
+    e.g. "8*" meaning "Magic Round home game not counted") is just a
+    footnote symbol - the number itself already excludes that game, which
+    is exactly the behavior wanted here, so no extra filtering is needed."""
+    grid = table_to_grid(table)
+    if not grid:
+        return []
+
+    header_idx, col = None, {}
+    for idx, row in enumerate(grid):
+        lower = [re.sub(r"\s+", " ", c).strip().lower() for c in row]
+        if "team" not in lower or not any("game" in c for c in lower):
+            continue
+        header_idx = idx
+        for i, c in enumerate(lower):
+            if c == "team":
+                col.setdefault("team", i)
+            elif "game" in c:
+                col.setdefault("games", i)
+            elif c == "total":
+                col.setdefault("total", i)
+            elif re.match(r"^\d{4}\s+average$", c):
+                col.setdefault("average", i)
+        break
+    if header_idx is None or "team" not in col:
+        return []
+
+    def get_int(row, role):
+        if role not in col or col[role] >= len(row):
+            return None
+        raw = row[col[role]].replace(",", "")
+        m = re.search(r"\d+", raw)
+        return int(m.group(0)) if m else None
+
+    rows_out = []
+    for row in grid[header_idx + 1:]:
+        if col["team"] >= len(row):
+            continue
+        team = strip_citations(re.sub(r"\s+", " ", row[col["team"]]).strip())
+        if not team:
+            continue
+        games = get_int(row, "games")
+        if games is None:
+            # Almost certainly a footnote/legend row (e.g. the "* = Magic
+            # Round home game not counted" line), not an actual club.
+            continue
+        rows_out.append({
+            "team": team,
+            "games": games,
+            "total": get_int(row, "total"),
+            "average": get_int(row, "average"),
+        })
+    return rows_out
+
+
+def fetch_attendance_table(cfg, key):
+    """Fetch a league's official per-club attendance summary table, for
+    leagues whose config names one via "attendance_table" (currently just
+    NRL). Returns a list of {"team","games","total","average"} dicts, or
+    an empty list if not configured, or not found on the page.
+
+    Used INSTEAD of computing attendance from individual match records for
+    leagues that have a Wikipedia-maintained summary table already
+    handling quirks (like NRL's Vegas/Magic Round neutral-venue games)
+    that a naive "count every home fixture in fixtures.json" computation
+    can't replicate without separately tagging which fixtures were
+    neutral-venue - the official table already has this baked in."""
+    att_cfg = cfg.get("attendance_table")
+    if not att_cfg:
+        return []
+
+    html = fetch_page_html(att_cfg["page"])
+    soup = BeautifulSoup(html, "html.parser")
+
+    heading_tag = heading_tag_by_id(soup, att_cfg.get("heading_ids") or att_cfg.get("heading_id"))
+    table = find_table_after_heading(soup, heading_tag.get("id")) if heading_tag is not None else None
+
+    if table is not None:
+        rows = parse_attendance_table(table)
+        if rows:
+            return rows
+
+    # Configured heading id (or the table right after it) didn't pan out -
+    # fall back to a page-wide scan for any table shaped like an
+    # attendance summary (has a recognizable Team + Games column pair),
+    # same resilience strategy as find_all_standings_tables() uses for
+    # standings tables whose heading has drifted.
+    for candidate in soup.find_all("table"):
+        rows = parse_attendance_table(candidate)
+        if rows:
+            return rows
+
+    print(
+        f"  !! attendance table: couldn't find one for {key} on page "
+        f"{att_cfg['page']!r} - heading id or page title may need updating",
+        file=sys.stderr,
+    )
+    return []
+
+
 # How far ahead/behind "now" a match has to be to have its stored fields
 # refreshed on this run. This does NOT control what's displayed - the app
 # shows the full season, every run - it only controls which matches are
@@ -2707,6 +2832,7 @@ def run(league_keys, force=False):
     data = load_existing()
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
+    data.setdefault("attendance_tables", {})
     now = datetime.now(timezone.utc)
 
     existing_by_league = {}
@@ -2759,6 +2885,17 @@ def run(league_keys, force=False):
                     print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! standings failed: {e}", file=sys.stderr)
+            # Same reasoning as standings above: not tied to the fixture
+            # scrape window, always re-checked even when fixtures are
+            # skipped, so a mismatched heading gets another chance next
+            # run instead of silently never picking up attendance data.
+            try:
+                attendance_rows = fetch_attendance_table(cfg, key)
+                if attendance_rows:
+                    data["attendance_tables"][key] = attendance_rows
+                    print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
+            except Exception as e:
+                print(f"  !! attendance table failed: {e}", file=sys.stderr)
             continue
 
         if "team_pages" in cfg:
@@ -2808,6 +2945,14 @@ def run(league_keys, force=False):
             # standings just because this particular run didn't refresh them.
         except Exception as e:
             print(f"  !! standings failed: {e}", file=sys.stderr)
+
+        try:
+            attendance_rows = fetch_attendance_table(cfg, key)
+            if attendance_rows:
+                data["attendance_tables"][key] = attendance_rows
+                print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
+        except Exception as e:
+            print(f"  !! attendance table failed: {e}", file=sys.stderr)
 
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)

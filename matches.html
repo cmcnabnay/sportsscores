@@ -390,6 +390,7 @@
 let allMatches = [];
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
+let attendanceTables = {}; // { leagueKey: [ {team, games, total, average}, ... ] } - official scraped tables (currently just NRL)
 let currentView = 'fixtures'; // 'fixtures' | 'standings' | 'attendance'
 let standingsLeagueKey = null; // which league's pill is active in the Standings view
 let attendanceLeagueKey = null; // which league's pill is active in the Attendance view
@@ -780,16 +781,39 @@ function renderStandings() {
   }
 }
 
+// Neutral-venue games (e.g. the NRL/Super League "Vegas round") shouldn't
+// count as a home game for whichever team is nominally listed as "home" -
+// the whole point of those fixtures is that neither side is actually
+// playing at home. Matched against m.venue by substring, case-insensitive.
+const NEUTRAL_VENUES = ['Allegiant Stadium'];
+
+// Some competitions' schedules list a future/undetermined fixture with a
+// placeholder team name (e.g. Super League's Grand Final qualifiers
+// before they're known: "1st place" / "2nd place" / "3rd place" /
+// "4th place") rather than a real club - these aren't teams and shouldn't
+// get their own attendance row.
+const PLACEHOLDER_TEAM_RE = /^(?:\d+(?:st|nd|rd|th)|first|second|third|fourth)\s+place$/i;
+
+function isNeutralVenue(venue) {
+  return !!venue && NEUTRAL_VENUES.some(v => venue.includes(v));
+}
+
 // Per-team attendance stats for one league, built straight from allMatches
-// (no separate scrape needed - attendance already lives on each match).
-// "Home games" counts every home fixture found for the team; total/average
-// attendance are computed only from the subset of those that actually have
-// a recorded attendance figure, so a run of TBC future fixtures doesn't
-// drag the average down.
+// (no separate scrape needed for most leagues - attendance already lives
+// on each match). Counts a match toward a team's "home games" ONLY if it
+// has actually been played (has a recorded score) - an upcoming/TBC home
+// fixture doesn't count yet - and skips neutral-venue and placeholder-team
+// rows entirely. Total/average attendance are further limited to the
+// subset of those played games that also have a recorded attendance
+// figure, so a played-but-unrecorded game doesn't drag the average down.
 function computeAttendanceStats(leagueKey) {
   const stats = {};
   for (const m of allMatches) {
     if (m.league !== leagueKey || !m.home) continue;
+    if (PLACEHOLDER_TEAM_RE.test(m.home.trim())) continue;
+    if (isNeutralVenue(m.venue)) continue;
+    const played = m.score !== null && m.score !== undefined && m.score !== '';
+    if (!played) continue;
     if (!stats[m.home]) {
       stats[m.home] = { team: m.home, homeGames: 0, withAttendance: 0, totalAttendance: 0 };
     }
@@ -803,6 +827,22 @@ function computeAttendanceStats(leagueKey) {
   }
   return Object.values(stats)
     .map(s => ({ ...s, avgAttendance: s.withAttendance ? Math.round(s.totalAttendance / s.withAttendance) : null }))
+    .sort((a, b) => b.totalAttendance - a.totalAttendance);
+}
+
+// Normalize an official scraped attendance table (see attendance_tables in
+// fetch_fixtures.py - currently just NRL's Wikipedia-maintained Games/
+// Total/Average table) into the same row shape computeAttendanceStats()
+// produces, so both sources can share one renderer.
+function normalizeOfficialAttendanceRows(rows) {
+  return rows
+    .map(r => ({
+      team: r.team,
+      homeGames: r.games,
+      totalAttendance: r.total || 0,
+      withAttendance: r.total ? r.games : 0,
+      avgAttendance: r.average !== null && r.average !== undefined ? r.average : null,
+    }))
     .sort((a, b) => b.totalAttendance - a.totalAttendance);
 }
 
@@ -820,15 +860,28 @@ function renderAttendanceTable(rows) {
   </tr></thead><tbody>${bodyRows}</tbody></table>`;
 }
 
+// League-wide average: total attendance across every team, divided by the
+// total number of (attendance-recorded) home games across every team -
+// i.e. a straight per-game average across the whole competition, not an
+// average-of-averages.
+function renderLeagueAverage(rows) {
+  const totalAtt = rows.reduce((sum, r) => sum + (r.totalAttendance || 0), 0);
+  const totalGames = rows.reduce((sum, r) => sum + (r.withAttendance || 0), 0);
+  if (!totalGames) return '';
+  const avg = Math.round(totalAtt / totalGames);
+  return `<div class="league-name">League average attendance: ${avg.toLocaleString()} (across ${totalGames.toLocaleString()} games)</div>`;
+}
+
 function renderAttendance() {
   attendanceView.innerHTML = '';
 
-  // Only leagues with at least one home match carrying a recorded
-  // attendance figure get a pill - same "don't show an empty tab" rule
-  // as the Standings view.
-  const leagueKeys = Object.keys(leagues).filter(key =>
-    allMatches.some(m => m.league === key && m.home && m.attendance !== null && m.attendance !== undefined && m.attendance !== '')
-  );
+  // A league qualifies for a pill if it either has an official scraped
+  // attendance table, or at least one played home match with a recorded
+  // attendance figure - same "don't show an empty tab" rule as Standings.
+  const leagueKeys = Object.keys(leagues).filter(key => {
+    if ((attendanceTables[key] || []).length) return true;
+    return computeAttendanceStats(key).some(r => r.withAttendance > 0);
+  });
 
   if (leagueKeys.length === 0) {
     attendanceView.innerHTML = '<div class="empty-state">No attendance data available yet.</div>';
@@ -885,12 +938,16 @@ function renderAttendance() {
   setTimeout(updateArrows, 0);
 
   const leagueName = (leagues[attendanceLeagueKey] && leagues[attendanceLeagueKey].name) || attendanceLeagueKey;
-  const rows = computeAttendanceStats(attendanceLeagueKey);
+  const officialRows = attendanceTables[attendanceLeagueKey];
+  const rows = (officialRows && officialRows.length)
+    ? normalizeOfficialAttendanceRows(officialRows)
+    : computeAttendanceStats(attendanceLeagueKey);
 
   const wrap = document.createElement('div');
   wrap.className = 'standings-group';
   wrap.innerHTML = `
     <h3>${leagueName} \u00b7 Attendance</h3>
+    ${renderLeagueAverage(rows)}
     ${renderAttendanceTable(rows)}
   `;
   attendanceView.appendChild(wrap);
@@ -927,6 +984,7 @@ function loadFixtures(isRefresh) {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
       standings = data.standings || {};
+      attendanceTables = data.attendance_tables || {};
       if (!isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();
