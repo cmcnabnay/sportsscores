@@ -918,20 +918,35 @@ def find_round_date_range(table, year):
     heading like 'March 12-15' for context. Look at the text immediately
     preceding the table for that kind of range and return a
     {weekday_name: 'YYYY-MM-DD'} map covering every date in it.
+
+    The range can cross a month boundary (e.g. 'July 30 - August 2'),
+    in which case the second month name is present and applies to the
+    end day instead of the start day's month.
     """
-    preceding_text = table.find_previous(string=re.compile(r"[A-Z][a-z]+\s+\d{1,2}\s*[–-]\s*\d{1,2}"))
+    date_range_re = re.compile(
+        r"([A-Z][a-z]+)\s+(\d{1,2})\s*[–-]\s*(?:([A-Z][a-z]+)\s+)?(\d{1,2})\b"
+    )
+    preceding_text = table.find_previous(string=date_range_re)
     if not preceding_text:
         return {}
-    m = re.search(r"([A-Z][a-z]+)\s+(\d{1,2})\s*[–-]\s*(\d{1,2})", preceding_text)
+    m = date_range_re.search(preceding_text)
     if not m:
         return {}
-    month, d1, d2 = m.group(1), int(m.group(2)), int(m.group(3))
+    start_month, d1, end_month, d2 = m.groups()
+    end_month = end_month or start_month
+    d1, d2 = int(d1), int(d2)
     try:
-        start = datetime.strptime(f"{d1} {month} {year}", "%d %B %Y")
+        start = datetime.strptime(f"{d1} {start_month} {year}", "%d %B %Y")
+        end = datetime.strptime(f"{d2} {end_month} {year}", "%d %B %Y")
     except ValueError:
         return {}
+    if end < start:
+        # end_month defaulted to start_month but the range actually wraps
+        # into the next calendar year (e.g. a 'December 29 - 2' round) -
+        # not expected for NRL specifically, but cheap to guard against.
+        end = end.replace(year=end.year + 1)
     mapping = {}
-    for offset in range(0, max(d2 - d1, 0) + 1):
+    for offset in range((end - start).days + 1):
         dt = start + timedelta(days=offset)
         mapping[dt.strftime("%A")] = dt.strftime("%Y-%m-%d")
     return mapping
