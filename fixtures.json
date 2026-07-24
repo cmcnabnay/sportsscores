@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T14:46:42+00:00",
+  "updated": "2026-07-24T04:47:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8383,7 +8383,7 @@
       "time": "17:30",
       "utc": "2026-07-11T16:30:00+00:00",
       "venue": "Sewell Group Craven Park",
-      "attendance": null
+      "attendance": "11408"
     },
     {
       "league": "nations-championship-2026",
@@ -9675,18 +9675,18 @@
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Edmonton Elks",
-      "score": null,
+      "score": "34-36",
       "date": "2026-07-23",
       "time": "19:00",
       "utc": "2026-07-24T01:00:00+00:00",
       "venue": "Mosaic Stadium",
-      "attendance": null
+      "attendance": "28513"
     },
     {
       "league": "nrl-2026",
       "home": "Parramatta Eels",
       "away": "Penrith Panthers",
-      "score": null,
+      "score": "18–24",
       "date": "2026-07-23",
       "time": "19:50",
       "utc": "2026-07-23T09:50:00+00:00",
@@ -9708,12 +9708,12 @@
       "league": "super-league-2026",
       "home": "Hull F.C.",
       "away": "Hull KR",
-      "score": null,
+      "score": "20–34",
       "date": "2026-07-23",
       "time": "20:00",
       "utc": "2026-07-23T19:00:00+00:00",
       "venue": "MKM Stadium",
-      "attendance": null
+      "attendance": "18809"
     },
     {
       "league": "currie-cup-2026",
@@ -17624,24 +17624,24 @@
         "rows": [
           {
             "team": "Edmonton Elks",
-            "played": 6,
-            "win": 5,
+            "played": 7,
+            "win": 6,
             "draw": null,
             "loss": 1,
-            "for": 167,
-            "against": 138,
+            "for": 203,
+            "against": 172,
             "diff": null,
-            "points": 10,
+            "points": 12,
             "highlight": null
           },
           {
             "team": "Saskatchewan Roughriders",
-            "played": 5,
+            "played": 6,
             "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 170,
-            "against": 133,
+            "loss": 2,
+            "for": 204,
+            "against": 169,
             "diff": null,
             "points": 8,
             "highlight": null
@@ -17744,14 +17744,14 @@
         "rows": [
           {
             "team": "Penrith Panthers (Q)",
-            "played": 17,
-            "win": 13,
+            "played": 18,
+            "win": 14,
             "draw": 0,
             "loss": 4,
-            "for": 515,
-            "against": 237,
-            "diff": 278,
-            "points": 32,
+            "for": 539,
+            "against": 255,
+            "diff": 284,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
@@ -17799,7 +17799,7 @@
             "for": 488,
             "against": 404,
             "diff": 84,
-            "points": 26,
+            "points": 28,
             "highlight": "#BBF3BB"
           },
           {
@@ -17912,13 +17912,13 @@
           },
           {
             "team": "Parramatta Eels",
-            "played": 17,
+            "played": 18,
             "win": 6,
             "draw": 0,
-            "loss": 11,
-            "for": 331,
-            "against": 507,
-            "diff": -176,
+            "loss": 12,
+            "for": 349,
+            "against": 531,
+            "diff": -182,
             "points": 18,
             "highlight": "transparent"
           },
@@ -18002,14 +18002,14 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "St Helens",
+            "team": "Hull KR [ a ]",
             "played": 19,
             "win": 12,
             "draw": 0,
             "loss": 7,
-            "for": 434,
-            "against": 388,
-            "diff": 46,
+            "for": 548,
+            "against": 323,
+            "diff": 225,
             "points": 24,
             "highlight": "#BBF3FF"
           },
@@ -18026,15 +18026,15 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Hull KR [ a ]",
-            "played": 18,
-            "win": 11,
+            "team": "St Helens",
+            "played": 19,
+            "win": 12,
             "draw": 0,
             "loss": 7,
-            "for": 514,
-            "against": 303,
-            "diff": 211,
-            "points": 22,
+            "for": 434,
+            "against": 388,
+            "diff": 46,
+            "points": 24,
             "highlight": "transparent"
           },
           {
@@ -18099,13 +18099,13 @@
           },
           {
             "team": "Hull F.C.",
-            "played": 19,
+            "played": 20,
             "win": 5,
             "draw": 0,
-            "loss": 14,
-            "for": 317,
-            "against": 407,
-            "diff": -90,
+            "loss": 15,
+            "for": 337,
+            "against": 441,
+            "diff": -104,
             "points": 10,
             "highlight": "transparent"
           },
