@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T06:04:05+00:00",
+  "updated": "2026-07-24T06:12:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10321,6 +10321,17 @@
       "attendance": null
     },
     {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Calgary Stampeders",
+      "score": null,
+      "date": "2026-08-06",
+      "time": "19:30",
+      "utc": "2026-08-06T23:30:00+00:00",
+      "venue": "BMO Field",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "North Queensland Cowboys",
@@ -11099,6 +11110,17 @@
       "time": "17:30",
       "utc": "2026-08-22T16:30:00+00:00",
       "venue": "Sewell Group Craven Park",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Hamilton Tiger-Cats",
+      "score": null,
+      "date": "2026-08-22",
+      "time": "19:00",
+      "utc": "2026-08-22T23:00:00+00:00",
+      "venue": "BMO Field",
       "attendance": null
     },
     {
@@ -12522,6 +12544,17 @@
     },
     {
       "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Ottawa Redblacks",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "13:00",
+      "utc": "2026-09-12T17:00:00+00:00",
+      "venue": "BMO Field",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Saskatchewan Roughriders",
       "score": null,
@@ -12573,6 +12606,17 @@
       "time": "19:30",
       "utc": "2026-09-18T23:30:00+00:00",
       "venue": "Hamilton Stadium",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Edmonton Elks",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "15:00",
+      "utc": "2026-09-19T19:00:00+00:00",
+      "venue": "BMO Field",
       "attendance": null
     },
     {
@@ -12698,6 +12742,17 @@
     },
     {
       "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "BC Lions",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "15:00",
+      "utc": "2026-10-03T19:00:00+00:00",
+      "venue": "BMO Field",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Winnipeg Blue Bombers",
       "score": null,
@@ -12804,6 +12859,17 @@
       "time": "19:00",
       "utc": "2026-10-23T23:00:00+00:00",
       "venue": "BC Place",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Montreal Alouettes",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "19:00",
+      "utc": "2026-10-23T23:00:00+00:00",
+      "venue": "BMO Field",
       "attendance": null
     },
     {

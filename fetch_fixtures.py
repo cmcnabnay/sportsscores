@@ -1437,7 +1437,7 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
 
     for block_match in re.finditer(r"\{\|.*?\n\|\}", wikitext, re.DOTALL):
         block = block_match.group(0)
-        if not re.search(r"\b(?:vs\.|at\.)\s*\[\[", block):
+        if not re.search(r"\|\s*(?:vs\.|at)\s+\S", block):
             continue  # not the schedule table (draft picks, standings, roster, ...)
 
         if section_at(block_match.start()) == "preseason":
@@ -1446,7 +1446,7 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
         current_section = None
         for chunk in re.split(r"\n\|-[^\n]*\n", block):
             cells = _extract_wikitable_cells(chunk)
-            has_opponent = any(re.match(r"^(vs\.|at\.)\s+\S", c) for c in cells)
+            has_opponent = any(re.match(r"^(vs\.|at)\s+\S", c) for c in cells)
 
             if not has_opponent:
                 # Not a game row - possibly a section-divider row (e.g. a
@@ -1470,12 +1470,12 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                 continue
 
             opp_idx = next(
-                (i for i, c in enumerate(cells) if re.match(r"^(vs\.|at\.)\s+\S", c)), None
+                (i for i, c in enumerate(cells) if re.match(r"^(vs\.|at)\s+\S", c)), None
             )
             if opp_idx is None:
                 continue
 
-            prefix, opponent = re.match(r"^(vs\.|at\.)\s+(.*)", cells[opp_idx]).groups()
+            prefix, opponent = re.match(r"^(vs\.|at)\s+(.*)", cells[opp_idx]).groups()
             opponent = opponent.strip()
             home, away = (team_name, opponent) if prefix == "vs." else (opponent, team_name)
             if home != team_name:
