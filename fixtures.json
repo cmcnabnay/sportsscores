@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T08:05:10+00:00",
+  "updated": "2026-07-25T05:23:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9614,7 +9614,7 @@
       "time": "19:50",
       "utc": "2026-07-23T09:50:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
+      "attendance": "15562"
     },
     {
       "league": "super-league-2026",
@@ -9631,7 +9631,7 @@
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Sharks XV",
-      "score": null,
+      "score": "43-21",
       "date": "2026-07-24",
       "time": "17:00",
       "utc": "2026-07-24T15:00:00+00:00",
@@ -9642,40 +9642,40 @@
       "league": "nrl-2026",
       "home": "Newcastle Knights",
       "away": "Sydney Roosters",
-      "score": null,
+      "score": "22–23",
       "date": "2026-07-24",
       "time": "18:00",
       "utc": "2026-07-24T08:00:00+00:00",
       "venue": "McDonald Jones Stadium",
-      "attendance": null
+      "attendance": "21313"
     },
     {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Calgary Stampeders",
-      "score": null,
+      "score": "30-52",
       "date": "2026-07-24",
       "time": "19:30",
       "utc": "2026-07-25T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "32343"
     },
     {
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Melbourne Storm",
-      "score": null,
+      "score": "28–26",
       "date": "2026-07-24",
       "time": "20:00",
       "utc": "2026-07-24T10:00:00+00:00",
       "venue": "Accor Stadium",
-      "attendance": null
+      "attendance": "10009"
     },
     {
       "league": "super-league-2026",
       "home": "Wakefield Trinity",
       "away": "Castleford Tigers",
-      "score": null,
+      "score": "52–14",
       "date": "2026-07-24",
       "time": "20:00",
       "utc": "2026-07-24T19:00:00+00:00",
@@ -9686,12 +9686,12 @@
       "league": "super-league-2026",
       "home": "Wigan Warriors",
       "away": "St Helens",
-      "score": null,
+      "score": "38–16",
       "date": "2026-07-24",
       "time": "20:00",
       "utc": "2026-07-24T19:00:00+00:00",
       "venue": "Brick Community Stadium",
-      "attendance": null
+      "attendance": "18906"
     },
     {
       "league": "currie-cup-2026",
@@ -17637,26 +17637,26 @@
           },
           {
             "team": "Winnipeg Blue Bombers",
-            "played": 6,
+            "played": 7,
             "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 155,
-            "against": 156,
+            "loss": 3,
+            "for": 185,
+            "against": 208,
             "diff": null,
             "points": 8,
             "highlight": null
           },
           {
             "team": "Calgary Stampeders",
-            "played": 6,
-            "win": 2,
+            "played": 7,
+            "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 226,
-            "against": 214,
+            "for": 278,
+            "against": 244,
             "diff": null,
-            "points": 4,
+            "points": 6,
             "highlight": null
           },
           {
@@ -17744,6 +17744,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sydney Roosters (Q)",
+            "played": 18,
+            "win": 13,
+            "draw": 0,
+            "loss": 5,
+            "for": 449,
+            "against": 364,
+            "diff": 85,
+            "points": 32,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "New Zealand Warriors",
             "played": 17,
             "win": 12,
@@ -17752,18 +17764,6 @@
             "for": 490,
             "against": 288,
             "diff": 202,
-            "points": 30,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Sydney Roosters",
-            "played": 17,
-            "win": 12,
-            "draw": 0,
-            "loss": 5,
-            "for": 426,
-            "against": 342,
-            "diff": 84,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -17792,27 +17792,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Newcastle Knights",
+            "team": "South Sydney Rabbitohs",
             "played": 18,
-            "win": 11,
+            "win": 10,
             "draw": 0,
-            "loss": 7,
-            "for": 459,
-            "against": 422,
-            "diff": 37,
+            "loss": 8,
+            "for": 510,
+            "against": 432,
+            "diff": 78,
             "points": 26,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "South Sydney Rabbitohs",
-            "played": 17,
-            "win": 9,
+            "team": "Newcastle Knights",
+            "played": 19,
+            "win": 11,
             "draw": 0,
             "loss": 8,
-            "for": 482,
-            "against": 406,
-            "diff": 76,
-            "points": 24,
+            "for": 481,
+            "against": 445,
+            "diff": 36,
+            "points": 26,
             "highlight": "#BBF3BB"
           },
           {
@@ -17853,13 +17853,13 @@
           },
           {
             "team": "Melbourne Storm",
-            "played": 18,
+            "played": 19,
             "win": 8,
             "draw": 0,
-            "loss": 10,
-            "for": 420,
-            "against": 430,
-            "diff": -10,
+            "loss": 11,
+            "for": 446,
+            "against": 458,
+            "diff": -12,
             "points": 20,
             "highlight": "transparent"
           },
@@ -17955,27 +17955,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Wigan Warriors",
-            "played": 19,
-            "win": 14,
+            "team": "Wakefield Trinity",
+            "played": 20,
+            "win": 15,
             "draw": 0,
             "loss": 5,
-            "for": 549,
-            "against": 359,
-            "diff": 190,
-            "points": 28,
+            "for": 555,
+            "against": 340,
+            "diff": 215,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Wakefield Trinity",
-            "played": 19,
-            "win": 14,
+            "team": "Wigan Warriors",
+            "played": 20,
+            "win": 15,
             "draw": 0,
             "loss": 5,
-            "for": 503,
-            "against": 326,
-            "diff": 177,
-            "points": 28,
+            "for": 587,
+            "against": 375,
+            "diff": 212,
+            "points": 30,
             "highlight": "#BBF3FF"
           },
           {
@@ -18016,13 +18016,13 @@
           },
           {
             "team": "St Helens",
-            "played": 19,
+            "played": 20,
             "win": 12,
             "draw": 0,
-            "loss": 7,
-            "for": 434,
-            "against": 388,
-            "diff": 46,
+            "loss": 8,
+            "for": 450,
+            "against": 426,
+            "diff": 24,
             "points": 24,
             "highlight": "transparent"
           },
@@ -18052,13 +18052,13 @@
           },
           {
             "team": "Castleford Tigers",
-            "played": 19,
+            "played": 20,
             "win": 7,
             "draw": 0,
-            "loss": 12,
-            "for": 358,
-            "against": 558,
-            "diff": -200,
+            "loss": 13,
+            "for": 372,
+            "against": 610,
+            "diff": -238,
             "points": 14,
             "highlight": "transparent"
           },
@@ -18412,25 +18412,25 @@
         "rows": [
           {
             "team": "Cheetahs",
-            "played": 1,
-            "win": 1,
+            "played": 2,
+            "win": 2,
             "draw": 0,
             "loss": 0,
-            "for": 29,
-            "against": 27,
-            "diff": 2,
-            "points": 5,
+            "for": 72,
+            "against": 49,
+            "diff": 23,
+            "points": 10,
             "highlight": "#E8FFD8"
           },
           {
             "team": "Sharks XV",
-            "played": 1,
+            "played": 2,
             "win": 1,
             "draw": 0,
-            "loss": 0,
-            "for": 26,
-            "against": 24,
-            "diff": 2,
+            "loss": 1,
+            "for": 47,
+            "against": 67,
+            "diff": -20,
             "points": 5,
             "highlight": "#E8FFD8"
           },
@@ -18563,9 +18563,9 @@
       },
       {
         "team": "Newcastle Knights",
-        "games": 9,
-        "total": 219759,
-        "average": 24418
+        "games": 10,
+        "total": 241072,
+        "average": 24107
       },
       {
         "team": "New Zealand Warriors",
@@ -18581,9 +18581,9 @@
       },
       {
         "team": "Parramatta Eels",
-        "games": 8,
-        "total": 161747,
-        "average": 20218
+        "games": 9,
+        "total": 177309,
+        "average": 19701
       },
       {
         "team": "Penrith Panthers",
@@ -18593,9 +18593,9 @@
       },
       {
         "team": "South Sydney Rabbitohs",
-        "games": 7,
-        "total": 177884,
-        "average": 25412
+        "games": 8,
+        "total": 187893,
+        "average": 23487
       },
       {
         "team": "St. George Illawarra Dragons",
