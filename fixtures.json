@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T07:01:20+00:00",
+  "updated": "2026-07-25T07:12:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17840,6 +17840,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Canberra Raiders",
+            "played": 19,
+            "win": 9,
+            "draw": 0,
+            "loss": 10,
+            "for": 435,
+            "against": 470,
+            "diff": -35,
+            "points": 22,
+            "highlight": "transparent"
+          },
+          {
             "team": "Canterbury-Bankstown Bulldogs",
             "played": 17,
             "win": 8,
@@ -17864,18 +17876,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Canberra Raiders",
-            "played": 18,
-            "win": 8,
-            "draw": 0,
-            "loss": 10,
-            "for": 379,
-            "against": 460,
-            "diff": -81,
-            "points": 20,
-            "highlight": "transparent"
-          },
-          {
             "team": "Brisbane Broncos",
             "played": 17,
             "win": 6,
@@ -17888,18 +17888,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Wests Tigers",
-            "played": 18,
-            "win": 7,
-            "draw": 0,
-            "loss": 11,
-            "for": 355,
-            "against": 517,
-            "diff": -162,
-            "points": 18,
-            "highlight": "transparent"
-          },
-          {
             "team": "Parramatta Eels",
             "played": 18,
             "win": 6,
@@ -17908,6 +17896,18 @@
             "for": 349,
             "against": 531,
             "diff": -182,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Wests Tigers",
+            "played": 19,
+            "win": 7,
+            "draw": 0,
+            "loss": 12,
+            "for": 365,
+            "against": 573,
+            "diff": -208,
             "points": 18,
             "highlight": "transparent"
           },
