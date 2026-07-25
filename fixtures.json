@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T08:40:21+00:00",
+  "updated": "2026-07-25T16:24:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9697,7 +9697,7 @@
       "league": "currie-cup-2026",
       "home": "Lions",
       "away": "Pumas",
-      "score": null,
+      "score": "52-29",
       "date": "2026-07-25",
       "time": "15:00",
       "utc": "2026-07-25T13:00:00+00:00",
@@ -9763,12 +9763,12 @@
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "New Zealand Warriors",
-      "score": null,
+      "score": "18–6",
       "date": "2026-07-25",
       "time": "17:30",
       "utc": "2026-07-25T07:30:00+00:00",
       "venue": "Accor Stadium",
-      "attendance": null
+      "attendance": "22135"
     },
     {
       "league": "super-league-2026",
@@ -9785,12 +9785,12 @@
       "league": "nrl-2026",
       "home": "North Queensland Cowboys",
       "away": "Brisbane Broncos",
-      "score": null,
+      "score": "18–10",
       "date": "2026-07-25",
       "time": "19:30",
       "utc": "2026-07-25T09:30:00+00:00",
       "venue": "Queensland Country Bank Stadium",
-      "attendance": null
+      "attendance": "25461"
     },
     {
       "league": "super-league-2026",
@@ -17757,13 +17757,13 @@
           },
           {
             "team": "New Zealand Warriors",
-            "played": 17,
+            "played": 18,
             "win": 12,
             "draw": 0,
-            "loss": 5,
-            "for": 490,
-            "against": 288,
-            "diff": 202,
+            "loss": 6,
+            "for": 496,
+            "against": 306,
+            "diff": 190,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -17817,15 +17817,27 @@
           },
           {
             "team": "North Queensland Cowboys",
-            "played": 18,
-            "win": 10,
+            "played": 19,
+            "win": 11,
             "draw": 0,
             "loss": 8,
-            "for": 424,
-            "against": 460,
-            "diff": -36,
-            "points": 24,
+            "for": 442,
+            "against": 470,
+            "diff": -28,
+            "points": 26,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Canterbury-Bankstown Bulldogs",
+            "played": 18,
+            "win": 9,
+            "draw": 0,
+            "loss": 9,
+            "for": 342,
+            "against": 400,
+            "diff": -58,
+            "points": 24,
+            "highlight": "transparent"
           },
           {
             "team": "Manly Warringah Sea Eagles",
@@ -17852,18 +17864,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Canterbury-Bankstown Bulldogs",
-            "played": 17,
-            "win": 8,
-            "draw": 0,
-            "loss": 9,
-            "for": 324,
-            "against": 394,
-            "diff": -70,
-            "points": 22,
-            "highlight": "transparent"
-          },
-          {
             "team": "Melbourne Storm",
             "played": 19,
             "win": 8,
@@ -17877,13 +17877,13 @@
           },
           {
             "team": "Brisbane Broncos",
-            "played": 17,
+            "played": 18,
             "win": 6,
             "draw": 0,
-            "loss": 11,
-            "for": 329,
-            "against": 453,
-            "diff": -124,
+            "loss": 12,
+            "for": 339,
+            "against": 471,
+            "diff": -132,
             "points": 18,
             "highlight": "transparent"
           },
@@ -18064,13 +18064,13 @@
           },
           {
             "team": "York Knights",
-            "played": 19,
+            "played": 20,
             "win": 6,
             "draw": 0,
-            "loss": 13,
-            "for": 374,
-            "against": 557,
-            "diff": -183,
+            "loss": 14,
+            "for": 396,
+            "against": 581,
+            "diff": -185,
             "points": 12,
             "highlight": "transparent"
           },
@@ -18100,14 +18100,14 @@
           },
           {
             "team": "Huddersfield Giants",
-            "played": 19,
-            "win": 2,
+            "played": 20,
+            "win": 3,
             "draw": 0,
             "loss": 17,
-            "for": 287,
-            "against": 593,
-            "diff": -306,
-            "points": 4,
+            "for": 311,
+            "against": 615,
+            "diff": -304,
+            "points": 6,
             "highlight": "transparent"
           }
         ],
@@ -18521,15 +18521,15 @@
       },
       {
         "team": "Canberra Raiders",
-        "games": 9,
-        "total": 134346,
-        "average": 14927
+        "games": 10,
+        "total": 150569,
+        "average": 15057
       },
       {
         "team": "Canterbury-Bankstown Bulldogs",
-        "games": 9,
-        "total": 215511,
-        "average": 23946
+        "games": 10,
+        "total": 237646,
+        "average": 23765
       },
       {
         "team": "Cronulla-Sutherland Sharks",
