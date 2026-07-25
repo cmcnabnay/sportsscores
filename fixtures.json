@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T17:08:24+00:00",
+  "updated": "2026-07-25T17:19:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9752,7 +9752,7 @@
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "Bulls XV",
-      "score": null,
+      "score": "56-26",
       "date": "2026-07-25",
       "time": "17:05",
       "utc": "2026-07-25T15:05:00+00:00",
@@ -18423,6 +18423,30 @@
             "highlight": "#E8FFD8"
           },
           {
+            "team": "Lions",
+            "played": 2,
+            "win": 1,
+            "draw": 0,
+            "loss": 1,
+            "for": 79,
+            "against": 58,
+            "diff": 21,
+            "points": 7,
+            "highlight": "#E8FFD8"
+          },
+          {
+            "team": "Griquas",
+            "played": 2,
+            "win": 1,
+            "draw": 0,
+            "loss": 1,
+            "for": 75,
+            "against": 51,
+            "diff": 24,
+            "points": 6,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Sharks XV",
             "played": 2,
             "win": 1,
@@ -18444,7 +18468,7 @@
             "against": 10,
             "diff": 14,
             "points": 4,
-            "highlight": "#E8FFD8"
+            "highlight": "transparent"
           },
           {
             "team": "Stormers XXIII",
@@ -18456,54 +18480,30 @@
             "against": 19,
             "diff": 6,
             "points": 4,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Lions",
-            "played": 1,
-            "win": 0,
-            "draw": 0,
-            "loss": 1,
-            "for": 27,
-            "against": 29,
-            "diff": -2,
-            "points": 2,
             "highlight": "transparent"
           },
           {
             "team": "Pumas",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": 0,
-            "loss": 1,
-            "for": 24,
-            "against": 26,
-            "diff": -2,
-            "points": 2,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Griquas",
-            "played": 1,
-            "win": 0,
-            "draw": 0,
-            "loss": 1,
-            "for": 19,
-            "against": 25,
-            "diff": -6,
-            "points": 1,
+            "loss": 2,
+            "for": 53,
+            "against": 78,
+            "diff": -25,
+            "points": 3,
             "highlight": "transparent"
           },
           {
             "team": "Bulls XV",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": 0,
-            "loss": 1,
-            "for": 10,
-            "against": 24,
-            "diff": -14,
-            "points": 0,
+            "loss": 2,
+            "for": 36,
+            "against": 80,
+            "diff": -44,
+            "points": 1,
             "highlight": "transparent"
           }
         ],
