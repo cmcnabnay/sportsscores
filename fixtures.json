@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T15:56:21+00:00",
+  "updated": "2026-07-26T16:07:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17944,14 +17944,14 @@
         "rows": [
           {
             "team": "Leeds Rhinos",
-            "played": 19,
-            "win": 15,
+            "played": 20,
+            "win": 16,
             "draw": 0,
             "loss": 4,
-            "for": 656,
-            "against": 292,
-            "diff": 364,
-            "points": 30,
+            "for": 698,
+            "against": 304,
+            "diff": 394,
+            "points": 32,
             "highlight": "#BBF3BB"
           },
           {
@@ -17980,13 +17980,25 @@
           },
           {
             "team": "Warrington Wolves [ a ]",
-            "played": 18,
+            "played": 19,
             "win": 13,
             "draw": 0,
-            "loss": 5,
-            "for": 466,
-            "against": 300,
-            "diff": 166,
+            "loss": 6,
+            "for": 478,
+            "against": 328,
+            "diff": 150,
+            "points": 26,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Leigh Leopards",
+            "played": 20,
+            "win": 13,
+            "draw": 0,
+            "loss": 7,
+            "for": 458,
+            "against": 378,
+            "diff": 80,
             "points": 26,
             "highlight": "#BBF3FF"
           },
@@ -17999,18 +18011,6 @@
             "for": 548,
             "against": 323,
             "diff": 225,
-            "points": 24,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Leigh Leopards",
-            "played": 19,
-            "win": 12,
-            "draw": 0,
-            "loss": 7,
-            "for": 430,
-            "against": 366,
-            "diff": 64,
             "points": 24,
             "highlight": "#BBF3FF"
           },
@@ -18032,8 +18032,8 @@
             "win": 9,
             "draw": 0,
             "loss": 11,
-            "for": 405,
-            "against": 585,
+            "for": 407,
+            "against": 587,
             "diff": -180,
             "points": 18,
             "highlight": "transparent"
@@ -18044,8 +18044,8 @@
             "win": 7,
             "draw": 0,
             "loss": 13,
-            "for": 430,
-            "against": 496,
+            "for": 432,
+            "against": 498,
             "diff": -66,
             "points": 14,
             "highlight": "transparent"
@@ -18076,13 +18076,13 @@
           },
           {
             "team": "Bradford Bulls",
-            "played": 19,
+            "played": 20,
             "win": 6,
             "draw": 0,
-            "loss": 13,
-            "for": 354,
-            "against": 547,
-            "diff": -193,
+            "loss": 14,
+            "for": 366,
+            "against": 589,
+            "diff": -223,
             "points": 12,
             "highlight": "transparent"
           },
