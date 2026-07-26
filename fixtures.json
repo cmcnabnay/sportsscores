@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T18:50:16+00:00",
+  "updated": "2026-07-26T19:46:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10706,6 +10706,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Paris Lights",
+      "away": "Berlin Thunder",
+      "score": null,
+      "date": "2026-08-15",
+      "time": "13:00",
+      "utc": "2026-08-15T11:00:00+00:00",
+      "venue": "Vélodrome Jacques-Anquetil , Paris",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Toronto Argonauts",
@@ -10772,6 +10783,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Alpine Rams",
+      "away": "Vienna Vikings",
+      "score": null,
+      "date": "2026-08-15",
+      "time": "18:00",
+      "utc": "2026-08-15T16:00:00+00:00",
+      "venue": "Tissot Arena , Biel/Bienne",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Saskatchewan Roughriders",
@@ -10805,28 +10827,6 @@
       "attendance": null
     },
     {
-      "league": "afle-2026",
-      "home": "Paris Lights",
-      "away": "Berlin Thunder",
-      "score": null,
-      "date": "2026-08-15",
-      "time": null,
-      "utc": null,
-      "venue": "Vélodrome Jacques-Anquetil , Paris",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Alpine Rams",
-      "away": "Vienna Vikings",
-      "score": null,
-      "date": "2026-08-15",
-      "time": null,
-      "utc": null,
-      "venue": "Tissot Arena , Biel/Bienne",
-      "attendance": null
-    },
-    {
       "league": "nrl-2026",
       "home": "Newcastle Knights",
       "away": "Gold Coast Titans",
@@ -10849,6 +10849,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Panthers Wrocław",
+      "away": "London Warriors",
+      "score": null,
+      "date": "2026-08-16",
+      "time": "15:00",
+      "utc": "2026-08-16T13:00:00+00:00",
+      "venue": "Olympic Stadium , Wrocław",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Wests Tigers",
       "away": "St. George Illawarra Dragons",
@@ -10861,23 +10872,12 @@
     },
     {
       "league": "afle-2026",
-      "home": "Panthers Wrocław",
-      "away": "London Warriors",
-      "score": null,
-      "date": "2026-08-16",
-      "time": null,
-      "utc": null,
-      "venue": "Olympic Stadium , Wrocław",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
       "home": "Firenze Red Lions",
       "away": "Rhein Fire",
       "score": null,
       "date": "2026-08-16",
-      "time": null,
-      "utc": null,
+      "time": "16:40",
+      "utc": "2026-08-16T14:40:00+00:00",
       "venue": "Stadio Gino Bozzi , Florence",
       "attendance": null
     },
