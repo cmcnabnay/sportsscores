@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T08:37:20+00:00",
+  "updated": "2026-07-26T15:56:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9829,12 +9829,12 @@
       "league": "super-league-2026",
       "home": "Leeds Rhinos",
       "away": "Bradford Bulls",
-      "score": null,
+      "score": "42–12",
       "date": "2026-07-26",
       "time": "15:00",
       "utc": "2026-07-26T14:00:00+00:00",
       "venue": "Headingley Stadium",
-      "attendance": null
+      "attendance": "16548"
     },
     {
       "league": "nrl-2026",
@@ -17732,7 +17732,7 @@
       "Ladder": {
         "rows": [
           {
-            "team": "Penrith Panthers (Q)",
+            "team": "Penrith Panthers",
             "played": 18,
             "win": 14,
             "draw": 0,
@@ -17744,7 +17744,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Sydney Roosters (Q)",
+            "team": "Sydney Roosters",
             "played": 18,
             "win": 13,
             "draw": 0,
@@ -18028,25 +18028,25 @@
           },
           {
             "team": "Catalans Dragons",
-            "played": 19,
-            "win": 8,
+            "played": 20,
+            "win": 9,
             "draw": 0,
             "loss": 11,
-            "for": 389,
-            "against": 571,
-            "diff": -182,
-            "points": 16,
+            "for": 405,
+            "against": 585,
+            "diff": -180,
+            "points": 18,
             "highlight": "transparent"
           },
           {
             "team": "Toulouse Olympique",
-            "played": 19,
+            "played": 20,
             "win": 7,
             "draw": 0,
-            "loss": 12,
-            "for": 416,
-            "against": 480,
-            "diff": -64,
+            "loss": 13,
+            "for": 430,
+            "against": 496,
+            "diff": -66,
             "points": 14,
             "highlight": "transparent"
           },
