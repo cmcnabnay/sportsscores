@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T18:29:19+00:00",
+  "updated": "2026-07-26T18:40:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10101,6 +10101,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Firenze Red Lions",
+      "away": "Paris Lights",
+      "score": null,
+      "date": "2026-08-01",
+      "time": "17:10",
+      "utc": "2026-08-01T15:10:00+00:00",
+      "venue": "Stadio Gino Bozzi , Florence",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Canberra Raiders",
@@ -10123,6 +10134,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Rhein Fire",
+      "away": "Alpine Rams",
+      "score": null,
+      "date": "2026-08-01",
+      "time": "18:00",
+      "utc": "2026-08-01T16:00:00+00:00",
+      "venue": "Schauinsland-Reisen-Arena , Duisburg",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Brisbane Broncos",
       "away": "Newcastle Knights",
@@ -10142,17 +10164,6 @@
       "time": "20:00",
       "utc": "2026-08-01T19:00:00+00:00",
       "venue": "Stade Gilbert Brutus",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Rhein Fire",
-      "away": "Alpine Rams",
-      "score": null,
-      "date": "2026-08-01",
-      "time": null,
-      "utc": null,
-      "venue": "Schauinsland-Reisen-Arena , Duisburg",
       "attendance": null
     },
     {
@@ -10227,8 +10238,8 @@
       "away": "London Warriors",
       "score": null,
       "date": "2026-08-02",
-      "time": null,
-      "utc": null,
+      "time": "16:10",
+      "utc": "2026-08-02T14:10:00+00:00",
       "venue": "Cantianstadion , Berlin",
       "attendance": null
     },
@@ -10420,6 +10431,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Alpine Rams",
+      "away": "Firenze Red Lions",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "16:00",
+      "utc": "2026-08-08T14:00:00+00:00",
+      "venue": "Tissot Arena , Biel/Bienne",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Hamilton Tiger-Cats",
@@ -10464,6 +10486,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Vienna Vikings",
+      "away": "Panthers Wrocław",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "18:00",
+      "utc": "2026-08-08T16:00:00+00:00",
+      "venue": "Wiener Sport-Club Stadium , Vienna",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Parramatta Eels",
@@ -10472,28 +10505,6 @@
       "time": "19:30",
       "utc": "2026-08-08T09:30:00+00:00",
       "venue": "Allianz Stadium",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Vienna Vikings",
-      "away": "Panthers Wrocław",
-      "score": null,
-      "date": "2026-08-08",
-      "time": null,
-      "utc": null,
-      "venue": "Wiener Sport-Club Stadium , Vienna",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Alpine Rams",
-      "away": "Firenze Red Lions",
-      "score": null,
-      "date": "2026-08-08",
-      "time": null,
-      "utc": null,
-      "venue": "Tissot Arena , Biel/Bienne",
       "attendance": null
     },
     {
@@ -10530,6 +10541,17 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "London Warriors",
+      "away": "Paris Lights",
+      "score": null,
+      "date": "2026-08-09",
+      "time": "15:00",
+      "utc": "2026-08-09T14:00:00+00:00",
+      "venue": "Trailfinders Sports Ground , London",
+      "attendance": null
+    },
+    {
       "league": "efa-2026",
       "home": "Raiders Tirol",
       "away": "Paris Musketeers",
@@ -10557,20 +10579,9 @@
       "away": "Rhein Fire",
       "score": null,
       "date": "2026-08-09",
-      "time": null,
-      "utc": null,
+      "time": "16:10",
+      "utc": "2026-08-09T14:10:00+00:00",
       "venue": "Cantianstadion , Berlin",
-      "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "London Warriors",
-      "away": "Paris Lights",
-      "score": null,
-      "date": "2026-08-09",
-      "time": null,
-      "utc": null,
-      "venue": "Trailfinders Sports Ground , London",
       "attendance": null
     },
     {
