@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T07:53:20+00:00",
+  "updated": "2026-07-26T08:04:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9840,7 +9840,7 @@
       "league": "nrl-2026",
       "home": "Manly Warringah Sea Eagles",
       "away": "Cronulla-Sutherland Sharks",
-      "score": null,
+      "score": "12–48",
       "date": "2026-07-26",
       "time": "16:05",
       "utc": "2026-07-26T06:05:00+00:00",
@@ -17769,14 +17769,14 @@
           },
           {
             "team": "Cronulla-Sutherland Sharks",
-            "played": 17,
-            "win": 11,
+            "played": 18,
+            "win": 12,
             "draw": 0,
             "loss": 6,
-            "for": 488,
-            "against": 363,
-            "diff": 125,
-            "points": 28,
+            "for": 536,
+            "against": 375,
+            "diff": 161,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -17841,13 +17841,13 @@
           },
           {
             "team": "Manly Warringah Sea Eagles",
-            "played": 18,
+            "played": 19,
             "win": 9,
             "draw": 0,
-            "loss": 9,
-            "for": 473,
-            "against": 347,
-            "diff": 126,
+            "loss": 10,
+            "for": 485,
+            "against": 395,
+            "diff": 90,
             "points": 22,
             "highlight": "transparent"
           },
