@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T17:41:18+00:00",
+  "updated": "2026-07-26T06:14:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9730,23 +9730,23 @@
       "league": "afle-2026",
       "home": "Panthers Wrocław",
       "away": "Alpine Rams",
-      "score": null,
+      "score": "44-14",
       "date": "2026-07-25",
       "time": "15:00",
       "utc": "2026-07-25T13:00:00+00:00",
       "venue": "Olympic Stadium , Wrocław",
-      "attendance": null
+      "attendance": "1655"
     },
     {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Toronto Argonauts",
-      "score": null,
+      "score": "12-26",
       "date": "2026-07-25",
       "time": "16:00",
       "utc": "2026-07-25T23:00:00+00:00",
       "venue": "BC Place",
-      "attendance": null
+      "attendance": "21438"
     },
     {
       "league": "currie-cup-2026",
@@ -9774,12 +9774,12 @@
       "league": "super-league-2026",
       "home": "Leigh Leopards",
       "away": "Warrington Wolves",
-      "score": null,
+      "score": "28–12",
       "date": "2026-07-25",
       "time": "17:30",
       "utc": "2026-07-25T16:30:00+00:00",
       "venue": "Leigh Sports Village",
-      "attendance": null
+      "attendance": "9145"
     },
     {
       "league": "nrl-2026",
@@ -9796,7 +9796,7 @@
       "league": "super-league-2026",
       "home": "Toulouse Olympique",
       "away": "Catalans Dragons",
-      "score": null,
+      "score": "16–18",
       "date": "2026-07-25",
       "time": "20:00",
       "utc": "2026-07-25T19:00:00+00:00",
@@ -9807,7 +9807,7 @@
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Gold Coast Titans",
-      "score": null,
+      "score": "18–38",
       "date": "2026-07-26",
       "time": "14:00",
       "utc": "2026-07-26T04:00:00+00:00",
@@ -17661,12 +17661,12 @@
           },
           {
             "team": "BC Lions",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 140,
-            "against": 156,
+            "loss": 5,
+            "for": 152,
+            "against": 182,
             "diff": null,
             "points": 2,
             "highlight": null
@@ -17702,14 +17702,14 @@
           },
           {
             "team": "Toronto Argonauts",
-            "played": 6,
-            "win": 2,
+            "played": 7,
+            "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 194,
-            "against": 207,
+            "for": 220,
+            "against": 219,
             "diff": null,
-            "points": 4,
+            "points": 6,
             "highlight": null
           },
           {
@@ -17876,6 +17876,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Gold Coast Titans",
+            "played": 18,
+            "win": 6,
+            "draw": 0,
+            "loss": 12,
+            "for": 373,
+            "against": 459,
+            "diff": -86,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
             "team": "Brisbane Broncos",
             "played": 18,
             "win": 6,
@@ -17912,26 +17924,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Gold Coast Titans",
-            "played": 17,
-            "win": 5,
-            "draw": 0,
-            "loss": 12,
-            "for": 335,
-            "against": 441,
-            "diff": -106,
-            "points": 16,
-            "highlight": "transparent"
-          },
-          {
             "team": "St. George Illawarra Dragons (X)",
-            "played": 17,
+            "played": 18,
             "win": 2,
             "draw": 0,
-            "loss": 15,
-            "for": 256,
-            "against": 503,
-            "diff": -247,
+            "loss": 16,
+            "for": 274,
+            "against": 541,
+            "diff": -267,
             "points": 10,
             "highlight": "transparent"
           }
@@ -18575,9 +18575,9 @@
       },
       {
         "team": "North Queensland Cowboys",
-        "games": 8,
-        "total": 154605,
-        "average": 19326
+        "games": 9,
+        "total": 180066,
+        "average": 20007
       },
       {
         "team": "Parramatta Eels",
