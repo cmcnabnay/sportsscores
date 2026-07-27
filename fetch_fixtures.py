@@ -503,8 +503,9 @@ VENUE_UTC_OFFSETS = {
     # CFL host cities (fallback only - the schedule pages give an explicit
     # zone abbreviation like "EDT" per match, which takes priority; see
     # CFL_TZ_OFFSETS / extract_cfl_time below)
-    "ottawa": -4, "toronto": -4, "hamilton": -4, "montreal": -4,
-    "regina": -6, "calgary": -6, "vancouver": -7,
+    "td place stadium": -4, "bmo fild": -4, "hamilton stadium": -4, "molson stadium": -4,
+    "mosaic stadium": -6, "mcmahon stadium": -6, "commonwealth stadium": -6, "bc place": -7, 
+    "apple bowl": -7, "princess auto stadium": -5,
 }
 
 # CFL schedule pages state each kickoff's timezone as an abbreviation
@@ -513,12 +514,25 @@ VENUE_UTC_OFFSETS = {
 # offset wouldn't be reliable across the season anyway. This is checked
 # per-match before falling back to the venue-city table above.
 CFL_TZ_OFFSETS = {
-    "EDT": -4, "EST": -5,
-    "CDT": -5, "CST": -6,
-    "MDT": -6, "MST": -7,
-    "PDT": -7, "PST": -8,
+    "EDT": -4, "EST": -5, "ET": -4,
+    "CDT": -5, "CST": -6, "CT": -5,
+    "MDT": -6, "MST": -7, "MT": -6,
+    "PDT": -7, "PST": -8, "PT": -7,
 }
 
+# Fallback UTC offset by home team, used only when a row has neither an
+# explicit zone abbreviation ("PT") nor a recognized venue keyword.
+CFL_TEAM_UTC_OFFSETS = {
+    "BC Lions": -7,
+    "Calgary Stampeders": -6,
+    "Edmonton Elks": -6,
+    "Saskatchewan Roughriders": -6,
+    "Winnipeg Blue Bombers": -5,
+    "Hamilton Tiger-Cats": -4,
+    "Toronto Argonauts": -4,
+    "Ottawa Redblacks": -4,
+    "Montreal Alouettes": -4,
+}
 
 # 3-letter country codes used by the FIVB VNL page's {{vb-rt|..}}/{{vb|..}}
 # sub-templates. Add more here if a league/year introduces new ones -
@@ -1398,7 +1412,7 @@ def extract_cfl_time(text):
         if ampm == "a" and hour == 12:
             hour = 0
         time_out = f"{hour:02d}:{minute}"
-    tzm = re.search(r"\b(EDT|EST|CDT|CST|MDT|MST|PDT|PST)\b", text)
+    tzm = re.search(r"\b(EDT|EST|ET|CDT|CST|CT|MDT|MST|MT|PDT|PST|PT)\b", text)
     offset = CFL_TZ_OFFSETS.get(tzm.group(1)) if tzm else None
     return time_out, offset
 
@@ -1534,7 +1548,10 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                 if sm:
                     score = f"{sm.group(1)}-{sm.group(2)}"
 
-            offset = tz_offset if tz_offset is not None else guess_utc_offset(venue_text, default_offset)
+            offset = tz_offset if tz_offset is not None else guess_utc_offset(
+            venue_text, CFL_TEAM_UTC_OFFSETS.get(team_name, default_offset)
+            )
+
             utc = compute_utc(date_out, time_out, offset)
 
             matches.append(
