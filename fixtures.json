@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T13:26:18+00:00",
+  "updated": "2026-07-30T13:37:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9947,7 +9947,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Poland",
       "away": "Ukraine",
-      "score": "-",
+      "score": "3-1",
       "date": "2026-07-30",
       "time": "19:30",
       "utc": "2026-07-30T11:30:00+00:00",
@@ -10095,6 +10095,17 @@
       "time": "15:00",
       "utc": "2026-08-01T14:00:00+00:00",
       "venue": "OneBore Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Slovenia",
+      "away": "Poland",
+      "score": "-",
+      "date": "2026-08-01",
+      "time": "15:00",
+      "utc": "2026-08-01T07:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
