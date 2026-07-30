@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T08:31:18+00:00",
+  "updated": "2026-07-30T08:42:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9925,7 +9925,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Italy",
       "away": "United States",
-      "score": "-",
+      "score": "0-3",
       "date": "2026-07-30",
       "time": "15:00",
       "utc": "2026-07-30T07:00:00+00:00",
@@ -10183,6 +10183,17 @@
       "time": "19:30",
       "utc": "2026-08-01T09:30:00+00:00",
       "venue": "Suncorp Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Japan",
+      "away": "United States",
+      "score": "-",
+      "date": "2026-08-01",
+      "time": "19:30",
+      "utc": "2026-08-01T11:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
