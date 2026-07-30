@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T11:48:18+00:00",
+  "updated": "2026-07-30T11:59:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17962,14 +17962,14 @@
           },
           {
             "team": "Sydney Roosters",
-            "played": 18,
-            "win": 13,
+            "played": 19,
+            "win": 14,
             "draw": 0,
             "loss": 5,
-            "for": 449,
-            "against": 364,
-            "diff": 85,
-            "points": 32,
+            "for": 531,
+            "against": 376,
+            "diff": 155,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
@@ -18034,15 +18034,27 @@
           },
           {
             "team": "North Queensland Cowboys",
-            "played": 19,
+            "played": 20,
             "win": 11,
             "draw": 0,
-            "loss": 8,
-            "for": 442,
-            "against": 470,
-            "diff": -28,
+            "loss": 9,
+            "for": 454,
+            "against": 552,
+            "diff": -98,
             "points": 26,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Manly Warringah Sea Eagles",
+            "played": 19,
+            "win": 9,
+            "draw": 0,
+            "loss": 10,
+            "for": 485,
+            "against": 395,
+            "diff": 90,
+            "points": 24,
+            "highlight": "transparent"
           },
           {
             "team": "Canterbury-Bankstown Bulldogs",
@@ -18054,18 +18066,6 @@
             "against": 400,
             "diff": -58,
             "points": 24,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Manly Warringah Sea Eagles",
-            "played": 19,
-            "win": 9,
-            "draw": 0,
-            "loss": 10,
-            "for": 485,
-            "against": 395,
-            "diff": 90,
-            "points": 22,
             "highlight": "transparent"
           },
           {
