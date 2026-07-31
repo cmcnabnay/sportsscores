@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T03:53:17+00:00",
+  "updated": "2026-07-31T04:04:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9958,12 +9958,12 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "BC Lions",
-      "score": null,
+      "score": "19-35",
       "date": "2026-07-30",
       "time": "19:30",
       "utc": "2026-07-31T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "31509"
     },
     {
       "league": "nrl-2026",
@@ -17865,12 +17865,12 @@
           },
           {
             "team": "Winnipeg Blue Bombers",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 185,
-            "against": 208,
+            "loss": 4,
+            "for": 204,
+            "against": 243,
             "diff": null,
             "points": 8,
             "highlight": null
@@ -17889,14 +17889,14 @@
           },
           {
             "team": "BC Lions",
-            "played": 6,
-            "win": 1,
+            "played": 7,
+            "win": 2,
             "draw": null,
             "loss": 5,
-            "for": 152,
-            "against": 182,
+            "for": 187,
+            "against": 201,
             "diff": null,
-            "points": 2,
+            "points": 4,
             "highlight": null
           }
         ],
