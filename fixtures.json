@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T14:31:18+00:00",
+  "updated": "2026-07-31T02:47:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -9980,7 +9980,7 @@
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Hull F.C.",
-      "score": null,
+      "score": "22–16",
       "date": "2026-07-30",
       "time": "20:00",
       "utc": "2026-07-30T19:00:00+00:00",
@@ -18316,26 +18316,26 @@
           },
           {
             "team": "Hull F.C.",
-            "played": 20,
+            "played": 21,
             "win": 5,
             "draw": 0,
-            "loss": 15,
-            "for": 337,
-            "against": 441,
-            "diff": -104,
+            "loss": 16,
+            "for": 353,
+            "against": 463,
+            "diff": -110,
             "points": 10,
             "highlight": "transparent"
           },
           {
             "team": "Huddersfield Giants",
-            "played": 20,
-            "win": 3,
+            "played": 21,
+            "win": 4,
             "draw": 0,
             "loss": 17,
-            "for": 311,
-            "against": 615,
-            "diff": -304,
-            "points": 6,
+            "for": 333,
+            "against": 631,
+            "diff": -298,
+            "points": 8,
             "highlight": "transparent"
           }
         ],
