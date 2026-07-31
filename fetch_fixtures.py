@@ -193,6 +193,20 @@ LEAGUES = {
             ],
         },
     },
+    "npc-2026": {
+        "name": "2026 National Provincial Championship",
+        "page": "2026_Hilux_NPC",
+        "sport": "rugby",
+        "parser": "rugbybox3",
+        # no utc_offset needed - each match's time field states its own
+        # NZST/NZDT label directly, read per-match in parse_rugbybox3_matches
+        "standings": {
+            "page": "2026_Hilux_NPC",
+            "groups": [
+                {"label": "Standings", "heading_ids": ["Standings", "Table"]},
+            ],
+        },
+    },
     "nrl-2026": {
         "name": "NRL 2026",
         "page": "2026_NRL_season_results",
@@ -792,6 +806,16 @@ def parse_matches(html: str, league_key: str, cfg: dict):
     return matches
 
 
+def _safe_span(value):
+    """Parse a colspan/rowspan attribute value as an int, defaulting to 1
+    for anything missing or non-numeric (e.g. a legend row's
+    colspan="100%")."""
+    try:
+        return int(value or 1)
+    except ValueError:
+        return 1
+
+
 def table_to_grid(table):
     """
     Expand an HTML <table> into a full rectangular grid of cell text,
@@ -831,8 +855,13 @@ def table_to_grid(table):
             for navbar in cell.select(".navbar"):
                 navbar.decompose()
             text = cell.get_text(" ", strip=True)
-            colspan = int(cell.get("colspan", 1) or 1)
-            rowspan = int(cell.get("rowspan", 1) or 1)
+            # colspan/rowspan are occasionally non-numeric in the wild
+            # (e.g. a legend row's colspan="100%") - not a valid HTML
+            # table attribute value, but browsers/MediaWiki just render it
+            # as a single column rather than erroring, so fall back to 1
+            # here too instead of crashing the whole parse over one row.
+            colspan = _safe_span(cell.get("colspan"))
+            rowspan = _safe_span(cell.get("rowspan"))
             for i in range(colspan):
                 row_out[col + i] = text
                 if rowspan > 1:
@@ -1846,7 +1875,7 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
     return matches
 
 
-RUT_TEAM_RE = re.compile(r"\{\{Rut\|([^}|]+)")
+RUT_TEAM_RE = re.compile(r"\{\{Rut\|([^}|]*)")
 
 
 def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
@@ -1897,6 +1926,91 @@ def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
 
         venue = strip_citations(strip_wikilinks(field.get("stadium", "")))
         venue = venue if venue else None
+
+        utc = compute_utc(date_out, time_out, offset)
+
+        attendance = strip_wikilinks(field.get("attendance", "")).strip()
+        attendance_match = re.search(r"([\d,]+)", attendance) if attendance else None
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
+        matches.append(
+            {
+                "league": league_key,
+                "home": home,
+                "away": away,
+                "score": score,
+                "date": date_out,
+                "time": time_out,
+                "utc": utc,
+                "venue": venue,
+                "attendance": attendance,
+            }
+        )
+
+    return matches
+
+
+RUS_VENUE_RE = re.compile(r"\{\{Rus\|([^}|]+)")
+
+# NPC match boxes state the kickoff zone directly (NZDT during the playoffs/
+# finals, NZST for the rest of the regular season) rather than a fixed UTC
+# offset - New Zealand observes DST (NZDT, UTC+13) from late September, so a
+# single hardcoded offset for the whole season would be wrong for the
+# quarter-finals onward.
+NZ_TZ_OFFSETS = {"NZST": 12, "NZDT": 13}
+
+
+def parse_rugbybox3_matches(wikitext: str, league_key: str, cfg: dict):
+    """
+    Parse {{rugbybox|...}} template instances used by the National
+    Provincial Championship page. Unlike the Nations Championship/Nations
+    Cup {{rugbybox}} usage (team1=/team2= fields, {{ru|CODE}} 3-letter
+    country codes), this page gives team names directly via home=/away=
+    fields wrapping a {{Rut|Team Name}} template - the same convention as
+    Currie Cup's {{Rugbybox collapsible2}} (see parse_rugbybox2_matches) -
+    and wraps the venue in its own {{Rus|Venue Name}} template rather than
+    a wikilink. Placeholder boxes for not-yet-determined playoff matches
+    (e.g. 'home = {{Rut|}}TBD') have an empty team name and are skipped.
+
+    Kickoff zone is read per-match from the time= field's NZST/NZDT label
+    (see NZ_TZ_OFFSETS) rather than a fixed league-level utc_offset, since
+    the NPC season crosses New Zealand's DST transition (NZDT from late
+    September) during the playoffs.
+    """
+    matches = []
+
+    for inner in find_templates(wikitext, "rugbybox"):
+        params = split_template_params(inner)[1:]  # drop template name
+        field = {}
+        for p in params:
+            if "=" in p:
+                k, v = p.split("=", 1)
+                field[k.strip().lower()] = v.strip()
+
+        home_raw = field.get("home", "")
+        away_raw = field.get("away", "")
+        m1 = RUT_TEAM_RE.search(home_raw)
+        m2 = RUT_TEAM_RE.search(away_raw)
+        home = clean_team_name(m1.group(1)) if m1 else clean_team_name(strip_wikilinks(home_raw))
+        away = clean_team_name(m2.group(1)) if m2 else clean_team_name(strip_wikilinks(away_raw))
+        if not home or not away:
+            continue  # placeholder slot for a not-yet-determined playoff match
+
+        score = field.get("score", "").strip()
+        score = score.replace("–", "-").replace("−", "-") if score else None
+        score = score if score else None
+
+        date_out = parse_full_date(field.get("date", ""))
+
+        time_field = re.sub(r"<!--.*?-->", "", field.get("time", ""), flags=re.DOTALL)
+        time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
+        time_out = time_match.group(0) if time_match else None
+        tz_match = re.search(r"\b(NZST|NZDT)\b", time_field)
+        offset = NZ_TZ_OFFSETS.get(tz_match.group(1)) if tz_match else cfg.get("utc_offset")
+
+        venue_m = RUS_VENUE_RE.search(field.get("stadium", ""))
+        venue = clean_team_name(venue_m.group(1)) if venue_m else strip_wikilinks(field.get("stadium", ""))
+        venue = strip_citations(venue) if venue else None
 
         utc = compute_utc(date_out, time_out, offset)
 
@@ -2870,6 +2984,13 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
         for page in pages:
             wikitext = fetch_page_wikitext(page)
             matches.extend(parse_rugbybox2_matches(wikitext, key, cfg))
+        return matches
+
+    if parser_type == "rugbybox3":
+        matches = []
+        for page in pages:
+            wikitext = fetch_page_wikitext(page)
+            matches.extend(parse_rugbybox3_matches(wikitext, key, cfg))
         return matches
 
     if parser_type == "fivb_template":

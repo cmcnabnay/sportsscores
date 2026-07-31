@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T06:03:19+00:00",
+  "updated": "2026-07-31T06:35:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64,6 +64,10 @@
     "copa-argentina-2026": {
       "name": "Copa Argentina 2026",
       "sport": "football"
+    },
+    "npc-2026": {
+      "name": "2026 National Provincial Championship",
+      "sport": "rugby"
     }
   },
   "matches": [
@@ -5535,6 +5539,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "North Otago",
+      "score": "46-14",
+      "date": "2026-06-16",
+      "time": "18:30",
+      "utc": "2026-06-16T06:30:00+00:00",
+      "venue": "Forsyth Barr Stadium",
+      "attendance": "2138"
+    },
+    {
       "league": "super-league-2026",
       "home": "Warrington Wolves",
       "away": "Leeds Rhinos",
@@ -9636,6 +9651,17 @@
       "attendance": "18809"
     },
     {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Mid Canterbury",
+      "score": "78-14",
+      "date": "2026-07-24",
+      "time": "14:30",
+      "utc": "2026-07-24T02:30:00+00:00",
+      "venue": "Molyneux Park, Alexandra",
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Sharks XV",
@@ -9944,6 +9970,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Waikato",
+      "away": "Bay of Plenty",
+      "score": "38-26",
+      "date": "2026-07-30",
+      "time": "19:10",
+      "utc": "2026-07-30T07:10:00+00:00",
+      "venue": "FMG Stadium Waikato",
+      "attendance": null
+    },
+    {
       "league": "fivb-nations-league-2026",
       "home": "Poland",
       "away": "Ukraine",
@@ -10010,6 +10047,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Tasman",
+      "away": "North Harbour",
+      "score": null,
+      "date": "2026-07-31",
+      "time": "19:10",
+      "utc": "2026-07-31T07:10:00+00:00",
+      "venue": "Trafalgar Park",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Montreal Alouettes",
@@ -10062,6 +10110,17 @@
       "time": "20:00",
       "utc": "2026-07-31T19:00:00+00:00",
       "venue": "Leigh Sports Village",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Counties Manukau",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-08-01",
+      "time": "14:05",
+      "utc": "2026-08-01T02:05:00+00:00",
+      "venue": "Navigation Homes Stadium",
       "attendance": null
     },
     {
@@ -10142,6 +10201,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Southland",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-08-01",
+      "time": "17:05",
+      "utc": "2026-08-01T05:05:00+00:00",
+      "venue": "Rugby Park Stadium",
+      "attendance": null
+    },
+    {
       "league": "afle-2026",
       "home": "Firenze Red Lions",
       "away": "Paris Lights",
@@ -10183,6 +10253,17 @@
       "time": "18:00",
       "utc": "2026-08-01T16:00:00+00:00",
       "venue": "Schauinsland-Reisen-Arena , Duisburg",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Auckland",
+      "score": null,
+      "date": "2026-08-01",
+      "time": "19:10",
+      "utc": "2026-08-01T07:10:00+00:00",
+      "venue": "One NZ Stadium",
       "attendance": null
     },
     {
@@ -10263,6 +10344,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Manawatu",
+      "score": null,
+      "date": "2026-08-02",
+      "time": "14:05",
+      "utc": "2026-08-02T02:05:00+00:00",
+      "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Boland Cavaliers",
       "away": "Pumas",
@@ -10296,6 +10388,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Wellington",
+      "away": "Hawke's Bay",
+      "score": null,
+      "date": "2026-08-02",
+      "time": "17:05",
+      "utc": "2026-08-02T05:05:00+00:00",
+      "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
       "league": "afle-2026",
       "home": "Firenze Red Lions",
       "away": "Paris Lights",
@@ -10315,6 +10418,17 @@
       "time": "19:00",
       "utc": "2026-08-03T22:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "North Harbour",
+      "away": "Counties Manukau",
+      "score": null,
+      "date": "2026-08-06",
+      "time": "19:10",
+      "utc": "2026-08-06T07:10:00+00:00",
+      "venue": "North Harbour Stadium",
       "attendance": null
     },
     {
@@ -10370,6 +10484,17 @@
       "time": "19:00",
       "utc": "2026-08-08T01:00:00+00:00",
       "venue": "Mosaic Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Taranaki",
+      "away": "Waikato",
+      "score": null,
+      "date": "2026-08-07",
+      "time": "19:10",
+      "utc": "2026-08-07T07:10:00+00:00",
+      "venue": "Stadium Taranaki",
       "attendance": null
     },
     {
@@ -10450,6 +10575,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Auckland",
+      "away": "Wellington",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "14:05",
+      "utc": "2026-08-08T02:05:00+00:00",
+      "venue": "{{rus|Western Springs Stadium}}",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "Manly Warringah Sea Eagles",
@@ -10516,6 +10652,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Bay of Plenty",
+      "away": "Northland",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "17:05",
+      "utc": "2026-08-08T05:05:00+00:00",
+      "venue": "Rotorua International Stadium",
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Sharks XV",
       "away": "Boland Cavaliers",
@@ -10560,6 +10707,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Hawke's Bay",
+      "away": "Tasman",
+      "score": null,
+      "date": "2026-08-08",
+      "time": "19:10",
+      "utc": "2026-08-08T07:10:00+00:00",
+      "venue": "McLean Park",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Parramatta Eels",
@@ -10590,6 +10748,17 @@
       "time": "14:00",
       "utc": "2026-08-09T04:00:00+00:00",
       "venue": "GIO Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Canterbury",
+      "score": null,
+      "date": "2026-08-09",
+      "time": "14:05",
+      "utc": "2026-08-09T02:05:00+00:00",
+      "venue": "Forsyth Barr Stadium",
       "attendance": null
     },
     {
@@ -10659,6 +10828,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Manawatu",
+      "away": "Southland",
+      "score": null,
+      "date": "2026-08-09",
+      "time": "17:05",
+      "utc": "2026-08-09T05:05:00+00:00",
+      "venue": "Central Energy Trust Arena",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "BC Lions",
@@ -10667,6 +10847,17 @@
       "time": "19:00",
       "utc": "2026-08-14T01:00:00+00:00",
       "venue": "McMahon Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Wellington",
+      "away": "North Harbour",
+      "score": null,
+      "date": "2026-08-13",
+      "time": "19:10",
+      "utc": "2026-08-13T07:10:00+00:00",
+      "venue": "Hnry Stadium",
       "attendance": null
     },
     {
@@ -10747,6 +10938,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-08-14",
+      "time": "19:10",
+      "utc": "2026-08-14T07:10:00+00:00",
+      "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Ottawa Redblacks",
@@ -10802,6 +11004,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Bay of Plenty",
+      "score": null,
+      "date": "2026-08-15",
+      "time": "14:05",
+      "utc": "2026-08-15T02:05:00+00:00",
+      "venue": "One NZ Stadium",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Cronulla-Sutherland Sharks",
       "away": "Canberra Raiders",
@@ -10832,6 +11045,17 @@
       "time": "17:00",
       "utc": "2026-08-15T15:00:00+00:00",
       "venue": "Mbombela Stadium, Mbombela",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Auckland",
+      "away": "Hawke's Bay",
+      "score": null,
+      "date": "2026-08-15",
+      "time": "17:05",
+      "utc": "2026-08-15T05:05:00+00:00",
+      "venue": "Eden Park",
       "attendance": null
     },
     {
@@ -10879,6 +11103,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Manawatu",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-08-15",
+      "time": "19:10",
+      "utc": "2026-08-15T07:10:00+00:00",
+      "venue": "Central Energy Trust Arena",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Brisbane Broncos",
       "away": "New Zealand Warriors",
@@ -10909,6 +11144,17 @@
       "time": "14:00",
       "utc": "2026-08-16T04:00:00+00:00",
       "venue": "McDonald Jones Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Southland",
+      "away": "Waikato",
+      "score": null,
+      "date": "2026-08-16",
+      "time": "14:05",
+      "utc": "2026-08-16T02:05:00+00:00",
+      "venue": "Rugby Park Stadium",
       "attendance": null
     },
     {
@@ -10967,6 +11213,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Counties Manukau",
+      "away": "Tasman",
+      "score": null,
+      "date": "2026-08-16",
+      "time": "17:05",
+      "utc": "2026-08-16T05:05:00+00:00",
+      "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Hull KR",
       "away": "Warrington Wolves",
@@ -10975,6 +11232,17 @@
       "time": "20:00",
       "utc": "2026-08-18T19:00:00+00:00",
       "venue": "Sewell Group Craven Park",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Northland",
+      "score": null,
+      "date": "2026-08-20",
+      "time": "19:10",
+      "utc": "2026-08-20T07:10:00+00:00",
+      "venue": "One NZ Stadium",
       "attendance": null
     },
     {
@@ -11044,6 +11312,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Hawke's Bay",
+      "away": "Manawatu",
+      "score": null,
+      "date": "2026-08-21",
+      "time": "19:10",
+      "utc": "2026-08-21T07:10:00+00:00",
+      "venue": "McLean Park",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Winnipeg Blue Bombers",
@@ -11085,6 +11364,17 @@
       "time": "20:00",
       "utc": "2026-08-21T19:00:00+00:00",
       "venue": "Leigh Sports Village",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Tasman",
+      "away": "Southland",
+      "score": null,
+      "date": "2026-08-22",
+      "time": "13:05",
+      "utc": "2026-08-22T01:05:00+00:00",
+      "venue": "Trafalgar Park",
       "attendance": null
     },
     {
@@ -11132,6 +11422,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "North Harbour",
+      "away": "Auckland",
+      "score": null,
+      "date": "2026-08-22",
+      "time": "17:35",
+      "utc": "2026-08-22T05:35:00+00:00",
+      "venue": "North Harbour Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "Hamilton Tiger-Cats",
@@ -11151,6 +11452,17 @@
       "time": "19:30",
       "utc": "2026-08-22T09:30:00+00:00",
       "venue": "Allianz Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Bay of Plenty",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-08-22",
+      "time": "19:35",
+      "utc": "2026-08-22T07:35:00+00:00",
+      "venue": "Rotorua International Stadium",
       "attendance": null
     },
     {
@@ -11195,6 +11507,17 @@
       "time": "14:00",
       "utc": "2026-08-23T04:00:00+00:00",
       "venue": "Cbus Super Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Waikato",
+      "away": "Counties Manukau",
+      "score": null,
+      "date": "2026-08-23",
+      "time": "14:05",
+      "utc": "2026-08-23T02:05:00+00:00",
+      "venue": "FMG Stadium Waikato",
       "attendance": null
     },
     {
@@ -11264,6 +11587,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Wellington",
+      "score": null,
+      "date": "2026-08-23",
+      "time": "17:05",
+      "utc": "2026-08-23T05:05:00+00:00",
+      "venue": "Forsyth Barr Stadium",
+      "attendance": null
+    },
+    {
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "Alpine Rams",
@@ -11283,6 +11617,17 @@
       "time": null,
       "utc": null,
       "venue": "Estadio Balear , Palma de Mallorca",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Southland",
+      "away": "Hawke's Bay",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "19:10",
+      "utc": "2026-08-27T07:10:00+00:00",
+      "venue": "Rugby Park Stadium",
       "attendance": null
     },
     {
@@ -11561,6 +11906,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Auckland",
+      "away": "Bay of Plenty",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "19:10",
+      "utc": "2026-08-28T07:10:00+00:00",
+      "venue": "Eden Park",
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Sharks XV",
       "away": "Bulls XV",
@@ -11803,6 +12159,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Taranaki",
+      "away": "Canterbury",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "14:05",
+      "utc": "2026-08-29T02:05:00+00:00",
+      "venue": "Stadium Taranaki",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "South Sydney Rabbitohs",
@@ -11836,6 +12203,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Waikato",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "17:05",
+      "utc": "2026-08-29T05:05:00+00:00",
+      "venue": "Forsyth Barr Stadium",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Dolphins",
@@ -11855,6 +12233,17 @@
       "time": "17:30",
       "utc": "2026-08-29T16:30:00+00:00",
       "venue": "MKM Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Manawatu",
+      "away": "North Harbour",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "19:10",
+      "utc": "2026-08-29T07:10:00+00:00",
+      "venue": "Central Energy Trust Arena",
       "attendance": null
     },
     {
@@ -11902,6 +12291,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Wellington",
+      "away": "Counties Manukau",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "14:05",
+      "utc": "2026-08-30T02:05:00+00:00",
+      "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Boland Cavaliers",
       "away": "Griquas",
@@ -11943,6 +12343,17 @@
       "time": "17:00",
       "utc": "2026-08-30T20:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Tasman",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "17:05",
+      "utc": "2026-08-30T05:05:00+00:00",
+      "venue": "Semenoff Stadium",
       "attendance": null
     },
     {
@@ -12287,6 +12698,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Taranaki",
+      "away": "Auckland",
+      "score": null,
+      "date": "2026-09-03",
+      "time": "19:10",
+      "utc": "2026-09-03T07:10:00+00:00",
+      "venue": "Stadium Taranaki",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "Brisbane Broncos",
@@ -12328,6 +12750,17 @@
       "time": "18:00",
       "utc": "2026-09-04T17:00:00+00:00",
       "venue": "Stade Ernest Wallon",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Hawke's Bay",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-09-04",
+      "time": "19:10",
+      "utc": "2026-09-04T07:10:00+00:00",
+      "venue": "McLean Park",
       "attendance": null
     },
     {
@@ -12397,6 +12830,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Bay of Plenty",
+      "away": "Manawatu",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "14:05",
+      "utc": "2026-09-05T02:05:00+00:00",
+      "venue": "Tauranga Domain",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Manly Warringah Sea Eagles",
@@ -12430,6 +12874,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Tasman",
+      "away": "Wellington",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "17:05",
+      "utc": "2026-09-05T05:05:00+00:00",
+      "venue": "Lansdowne Park",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "North Queensland Cowboys",
       "away": "Canberra Raiders",
@@ -12438,6 +12893,17 @@
       "time": "17:30",
       "utc": "2026-09-05T07:30:00+00:00",
       "venue": "Queensland Country Bank Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Waikato",
+      "away": "Canterbury",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "19:10",
+      "utc": "2026-09-05T07:10:00+00:00",
+      "venue": "FMG Stadium Waikato",
       "attendance": null
     },
     {
@@ -12474,6 +12940,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Counties Manukau",
+      "away": "Southland",
+      "score": null,
+      "date": "2026-09-06",
+      "time": "14:05",
+      "utc": "2026-09-06T02:05:00+00:00",
+      "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Wests Tigers",
@@ -12507,6 +12984,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "North Harbour",
+      "away": "Northland",
+      "score": null,
+      "date": "2026-09-06",
+      "time": "17:05",
+      "utc": "2026-09-06T05:05:00+00:00",
+      "venue": "North Harbour Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Toronto Argonauts",
@@ -12526,6 +13014,28 @@
       "time": "16:00",
       "utc": "2026-09-07T22:00:00+00:00",
       "venue": "McMahon Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Manawatu",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-09-10",
+      "time": "19:10",
+      "utc": "2026-09-10T07:10:00+00:00",
+      "venue": "Central Energy Trust Arena",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Tasman",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "19:10",
+      "utc": "2026-09-11T07:10:00+00:00",
+      "venue": "Forsyth Barr Stadium",
       "attendance": null
     },
     {
@@ -12617,6 +13127,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Auckland",
+      "away": "Counties Manukau",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "14:05",
+      "utc": "2026-09-12T02:05:00+00:00",
+      "venue": "Eden Park",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Saskatchewan Roughriders",
@@ -12639,6 +13160,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Waikato",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "17:05",
+      "utc": "2026-09-12T05:05:00+00:00",
+      "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Montreal Alouettes",
@@ -12647,6 +13179,17 @@
       "time": "19:00",
       "utc": "2026-09-12T23:00:00+00:00",
       "venue": "BC Place",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Wellington",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "19:10",
+      "utc": "2026-09-12T07:10:00+00:00",
+      "venue": "One NZ Stadium",
       "attendance": null
     },
     {
@@ -12661,6 +13204,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Hawke's Bay",
+      "away": "North Harbour",
+      "score": null,
+      "date": "2026-09-13",
+      "time": "14:05",
+      "utc": "2026-09-13T02:05:00+00:00",
+      "venue": "McLean Park",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Newell's Old Boys",
       "away": "Vélez Sarsfield",
@@ -12672,6 +13226,39 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Southland",
+      "away": "Bay of Plenty",
+      "score": null,
+      "date": "2026-09-13",
+      "time": "17:05",
+      "utc": "2026-09-13T05:05:00+00:00",
+      "venue": "Rugby Park Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Counties Manukau",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-09-17",
+      "time": "19:10",
+      "utc": "2026-09-17T07:10:00+00:00",
+      "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Tasman",
+      "away": "Auckland",
+      "score": null,
+      "date": "2026-09-18",
+      "time": "19:10",
+      "utc": "2026-09-18T07:10:00+00:00",
+      "venue": "Lansdowne Park",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Montreal Alouettes",
@@ -12680,6 +13267,17 @@
       "time": "19:30",
       "utc": "2026-09-18T23:30:00+00:00",
       "venue": "Hamilton Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Bay of Plenty",
+      "away": "Hawke's Bay",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "14:05",
+      "utc": "2026-09-19T02:05:00+00:00",
+      "venue": "Tauranga Domain",
       "attendance": null
     },
     {
@@ -12705,6 +13303,28 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Waikato",
+      "away": "Manawatu",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "17:05",
+      "utc": "2026-09-19T05:05:00+00:00",
+      "venue": "FMG Stadium Waikato",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Wellington",
+      "away": "Northland",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "19:10",
+      "utc": "2026-09-19T07:10:00+00:00",
+      "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "3rd place",
       "away": "6th place",
@@ -12713,6 +13333,17 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "North Harbour",
+      "away": "Canterbury",
+      "score": null,
+      "date": "2026-09-20",
+      "time": "14:05",
+      "utc": "2026-09-20T02:05:00+00:00",
+      "venue": "North Harbour Stadium",
       "attendance": null
     },
     {
@@ -12727,6 +13358,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Taranaki",
+      "away": "Southland",
+      "score": null,
+      "date": "2026-09-20",
+      "time": "17:05",
+      "utc": "2026-09-20T05:05:00+00:00",
+      "venue": "Stadium Taranaki",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "4th place",
       "away": "5th place",
@@ -12735,6 +13377,17 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Tasman",
+      "away": "Bay of Plenty",
+      "score": null,
+      "date": "2026-09-24",
+      "time": "19:10",
+      "utc": "2026-09-24T07:10:00+00:00",
+      "venue": "Trafalgar Park",
       "attendance": null
     },
     {
@@ -12749,6 +13402,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Auckland",
+      "away": "Manawatu",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "19:10",
+      "utc": "2026-09-25T07:10:00+00:00",
+      "venue": "Eden Park",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Saskatchewan Roughriders",
@@ -12757,6 +13421,17 @@
       "time": "19:30",
       "utc": "2026-09-25T23:30:00+00:00",
       "venue": "BC Place",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Counties Manukau",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:05",
+      "utc": "2026-09-26T02:05:00+00:00",
+      "venue": "Semenoff Stadium",
       "attendance": null
     },
     {
@@ -12782,6 +13457,28 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Southland",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "17:05",
+      "utc": "2026-09-26T05:05:00+00:00",
+      "venue": "One NZ Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "North Harbour",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "19:10",
+      "utc": "2026-09-26T07:10:00+00:00",
+      "venue": "North Harbour Stadium",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "2nd place",
       "away": "highest ranked winner",
@@ -12790,6 +13487,28 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Wellington",
+      "away": "Waikato",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "14:05",
+      "utc": "2026-09-27T01:05:00+00:00",
+      "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Hawke's Bay",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "17:05",
+      "utc": "2026-09-27T04:05:00+00:00",
+      "venue": "McLean Park",
       "attendance": null
     },
     {
@@ -12804,6 +13523,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Otago",
+      "away": "Auckland",
+      "score": null,
+      "date": "2026-10-01",
+      "time": "19:10",
+      "utc": "2026-10-01T06:10:00+00:00",
+      "venue": "Forsyth Barr Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Hamilton Tiger-Cats",
@@ -12812,6 +13542,17 @@
       "time": "19:00",
       "utc": "2026-10-02T23:00:00+00:00",
       "venue": "TD Place Stadium",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Southland",
+      "away": "Northland",
+      "score": null,
+      "date": "2026-10-02",
+      "time": "19:10",
+      "utc": "2026-10-02T06:10:00+00:00",
+      "venue": "Rugby Park Stadium",
       "attendance": null
     },
     {
@@ -12826,6 +13567,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Manawatu",
+      "away": "Canterbury",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:05",
+      "utc": "2026-10-03T01:05:00+00:00",
+      "venue": "Central Energy Trust Arena",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "BC Lions",
@@ -12834,6 +13586,17 @@
       "time": "15:00",
       "utc": "2026-10-03T19:00:00+00:00",
       "venue": "BMO Field",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Counties Manukau",
+      "away": "Hawke's Bay",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "17:05",
+      "utc": "2026-10-03T04:05:00+00:00",
+      "venue": "Navigation Homes Stadium",
       "attendance": null
     },
     {
@@ -12848,6 +13611,28 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Waikato",
+      "away": "Tasman",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "19:10",
+      "utc": "2026-10-03T06:10:00+00:00",
+      "venue": "FMG Stadium Waikato",
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Taranaki",
+      "away": "Wellington",
+      "score": null,
+      "date": "2026-10-04",
+      "time": "14:05",
+      "utc": "2026-10-04T01:05:00+00:00",
+      "venue": "Stadium Taranaki",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Platense",
@@ -12856,6 +13641,17 @@
       "time": "17:00",
       "utc": "2026-10-04T20:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Bay of Plenty",
+      "away": "North Harbour",
+      "score": null,
+      "date": "2026-10-04",
+      "time": "17:05",
+      "utc": "2026-10-04T04:05:00+00:00",
+      "venue": "Tauranga Domain",
       "attendance": null
     },
     {
@@ -18732,6 +19528,181 @@
             "against": 80,
             "diff": -44,
             "points": 1,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "npc-2026": {
+      "Standings": {
+        "rows": [
+          {
+            "team": "Waikato",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 38,
+            "against": 26,
+            "diff": 12,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Bay of Plenty",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 26,
+            "against": 38,
+            "diff": -12,
+            "points": 1,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Auckland",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Canterbury",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Counties Manukau",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Hawke's Bay",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Manawatu",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "North Harbour",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Northland",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Otago (RS)",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Southland",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Taranaki",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Tasman",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Wellington",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": "transparent"
           }
         ],
