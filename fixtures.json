@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T07:53:19+00:00",
+  "updated": "2026-08-01T01:25:23+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10022,24 +10022,24 @@
       "time": "20:00",
       "utc": "2026-07-30T19:00:00+00:00",
       "venue": "Accu Stadium",
-      "attendance": null
+      "attendance": "4215"
     },
     {
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Dolphins",
-      "score": null,
+      "score": "22–28",
       "date": "2026-07-31",
       "time": "18:00",
       "utc": "2026-07-31T08:00:00+00:00",
       "venue": "WIN Stadium",
-      "attendance": null
+      "attendance": "9218"
     },
     {
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "Cheetahs",
-      "score": null,
+      "score": "24-21",
       "date": "2026-07-31",
       "time": "19:00",
       "utc": "2026-07-31T17:00:00+00:00",
@@ -10072,18 +10072,18 @@
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "Canterbury-Bankstown Bulldogs",
-      "score": null,
+      "score": "22–36",
       "date": "2026-07-31",
       "time": "20:00",
       "utc": "2026-07-31T10:00:00+00:00",
       "venue": "AAMI Park",
-      "attendance": null
+      "attendance": "19243"
     },
     {
       "league": "super-league-2026",
       "home": "Hull KR",
       "away": "Bradford Bulls",
-      "score": null,
+      "score": "40–16",
       "date": "2026-07-31",
       "time": "20:00",
       "utc": "2026-07-31T19:00:00+00:00",
@@ -10094,23 +10094,23 @@
       "league": "super-league-2026",
       "home": "Leeds Rhinos",
       "away": "Toulouse Olympique",
-      "score": null,
+      "score": "46–0",
       "date": "2026-07-31",
       "time": "20:00",
       "utc": "2026-07-31T19:00:00+00:00",
       "venue": "Headingley Rugby Stadium",
-      "attendance": null
+      "attendance": "15249"
     },
     {
       "league": "super-league-2026",
       "home": "Leigh Leopards",
       "away": "Wigan Warriors",
-      "score": null,
+      "score": "8–20",
       "date": "2026-07-31",
       "time": "20:00",
       "utc": "2026-07-31T19:00:00+00:00",
       "venue": "Leigh Sports Village",
-      "attendance": null
+      "attendance": "10265"
     },
     {
       "league": "npc-2026",
@@ -10197,7 +10197,7 @@
       "date": "2026-08-01",
       "time": "17:05",
       "utc": "2026-08-01T15:05:00+00:00",
-      "venue": "Ellis Park, Johannesburg",
+      "venue": "UJ Stadium, Johannesburg",
       "attendance": null
     },
     {
@@ -18805,14 +18805,14 @@
           },
           {
             "team": "Dolphins",
-            "played": 18,
-            "win": 11,
+            "played": 19,
+            "win": 12,
             "draw": 0,
             "loss": 7,
-            "for": 488,
-            "against": 404,
-            "diff": 84,
-            "points": 28,
+            "for": 516,
+            "against": 426,
+            "diff": 90,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -18840,6 +18840,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Canterbury-Bankstown Bulldogs",
+            "played": 19,
+            "win": 10,
+            "draw": 0,
+            "loss": 9,
+            "for": 378,
+            "against": 422,
+            "diff": -44,
+            "points": 26,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "North Queensland Cowboys",
             "played": 20,
             "win": 11,
@@ -18849,7 +18861,7 @@
             "against": 552,
             "diff": -98,
             "points": 26,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Manly Warringah Sea Eagles",
@@ -18860,18 +18872,6 @@
             "for": 485,
             "against": 395,
             "diff": 90,
-            "points": 24,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Canterbury-Bankstown Bulldogs",
-            "played": 18,
-            "win": 9,
-            "draw": 0,
-            "loss": 9,
-            "for": 342,
-            "against": 400,
-            "diff": -58,
             "points": 24,
             "highlight": "transparent"
           },
@@ -18889,13 +18889,13 @@
           },
           {
             "team": "Melbourne Storm",
-            "played": 19,
+            "played": 20,
             "win": 8,
             "draw": 0,
-            "loss": 11,
-            "for": 446,
-            "against": 458,
-            "diff": -12,
+            "loss": 12,
+            "for": 468,
+            "against": 494,
+            "diff": -26,
             "points": 20,
             "highlight": "transparent"
           },
@@ -18949,13 +18949,13 @@
           },
           {
             "team": "St. George Illawarra Dragons (X)",
-            "played": 18,
+            "played": 19,
             "win": 2,
             "draw": 0,
-            "loss": 16,
-            "for": 274,
-            "against": 541,
-            "diff": -267,
+            "loss": 17,
+            "for": 296,
+            "against": 569,
+            "diff": -273,
             "points": 10,
             "highlight": "transparent"
           }
@@ -18968,13 +18968,25 @@
         "rows": [
           {
             "team": "Leeds Rhinos",
-            "played": 20,
-            "win": 16,
+            "played": 21,
+            "win": 17,
             "draw": 0,
             "loss": 4,
-            "for": 698,
+            "for": 744,
             "against": 304,
-            "diff": 394,
+            "diff": 440,
+            "points": 34,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Wigan Warriors",
+            "played": 21,
+            "win": 16,
+            "draw": 0,
+            "loss": 5,
+            "for": 607,
+            "against": 383,
+            "diff": 224,
             "points": 32,
             "highlight": "#BBF3BB"
           },
@@ -18988,18 +19000,18 @@
             "against": 340,
             "diff": 215,
             "points": 30,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
-            "team": "Wigan Warriors",
+            "team": "Hull KR [ a ]",
             "played": 20,
-            "win": 15,
+            "win": 13,
             "draw": 0,
-            "loss": 5,
-            "for": 587,
-            "against": 375,
-            "diff": 212,
-            "points": 30,
+            "loss": 7,
+            "for": 594,
+            "against": 339,
+            "diff": 255,
+            "points": 26,
             "highlight": "#BBF3FF"
           },
           {
@@ -19016,26 +19028,14 @@
           },
           {
             "team": "Leigh Leopards",
-            "played": 20,
+            "played": 21,
             "win": 13,
             "draw": 0,
-            "loss": 7,
-            "for": 458,
-            "against": 378,
-            "diff": 80,
+            "loss": 8,
+            "for": 466,
+            "against": 398,
+            "diff": 68,
             "points": 26,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Hull KR [ a ]",
-            "played": 19,
-            "win": 12,
-            "draw": 0,
-            "loss": 7,
-            "for": 548,
-            "against": 323,
-            "diff": 225,
-            "points": 24,
             "highlight": "#BBF3FF"
           },
           {
@@ -19064,13 +19064,13 @@
           },
           {
             "team": "Toulouse Olympique",
-            "played": 20,
+            "played": 21,
             "win": 7,
             "draw": 0,
-            "loss": 13,
+            "loss": 14,
             "for": 432,
-            "against": 498,
-            "diff": -66,
+            "against": 544,
+            "diff": -112,
             "points": 14,
             "highlight": "transparent"
           },
@@ -19087,7 +19087,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "York Knights",
+            "team": "York Knights (E)",
             "played": 20,
             "win": 6,
             "draw": 0,
@@ -19099,19 +19099,19 @@
             "highlight": "transparent"
           },
           {
-            "team": "Bradford Bulls",
-            "played": 20,
+            "team": "Bradford Bulls (E)",
+            "played": 21,
             "win": 6,
             "draw": 0,
-            "loss": 14,
-            "for": 366,
-            "against": 589,
-            "diff": -223,
+            "loss": 15,
+            "for": 382,
+            "against": 635,
+            "diff": -253,
             "points": 12,
             "highlight": "transparent"
           },
           {
-            "team": "Hull F.C.",
+            "team": "Hull F.C. (E)",
             "played": 21,
             "win": 5,
             "draw": 0,
@@ -19123,7 +19123,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Huddersfield Giants",
+            "team": "Huddersfield Giants (E)",
             "played": 21,
             "win": 4,
             "draw": 0,
@@ -19435,15 +19435,27 @@
       "Premier Division": {
         "rows": [
           {
-            "team": "Cheetahs",
-            "played": 2,
+            "team": "Griquas",
+            "played": 3,
             "win": 2,
             "draw": 0,
-            "loss": 0,
-            "for": 72,
-            "against": 48,
-            "diff": 24,
-            "points": 10,
+            "loss": 1,
+            "for": 99,
+            "against": 72,
+            "diff": 27,
+            "points": 11,
+            "highlight": "#E8FFD8"
+          },
+          {
+            "team": "Cheetahs",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 93,
+            "against": 72,
+            "diff": 21,
+            "points": 11,
             "highlight": "#E8FFD8"
           },
           {
@@ -19468,18 +19480,6 @@
             "against": 58,
             "diff": 21,
             "points": 7,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Griquas",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 75,
-            "against": 51,
-            "diff": 24,
-            "points": 6,
             "highlight": "#E8FFD8"
           },
           {
@@ -19756,9 +19756,9 @@
       },
       {
         "team": "Melbourne Storm",
-        "games": 9,
-        "total": 176962,
-        "average": 19662
+        "games": 10,
+        "total": 196205,
+        "average": 19621
       },
       {
         "team": "Newcastle Knights",
@@ -19798,9 +19798,9 @@
       },
       {
         "team": "St. George Illawarra Dragons",
-        "games": 8,
-        "total": 112883,
-        "average": 14110
+        "games": 9,
+        "total": 122101,
+        "average": 13567
       },
       {
         "team": "Sydney Roosters",
