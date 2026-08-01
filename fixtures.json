@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T16:58:02+00:00",
+  "updated": "2026-08-01T17:09:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19025,6 +19025,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Warrington Wolves [ a ]",
+            "played": 20,
+            "win": 14,
+            "draw": 0,
+            "loss": 6,
+            "for": 526,
+            "against": 346,
+            "diff": 180,
+            "points": 28,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Hull KR [ a ]",
             "played": 20,
             "win": 13,
@@ -19033,18 +19045,6 @@
             "for": 594,
             "against": 339,
             "diff": 255,
-            "points": 26,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Warrington Wolves [ a ]",
-            "played": 19,
-            "win": 13,
-            "draw": 0,
-            "loss": 6,
-            "for": 478,
-            "against": 328,
-            "diff": 150,
             "points": 26,
             "highlight": "#BBF3FF"
           },
@@ -19098,13 +19098,13 @@
           },
           {
             "team": "Castleford Tigers",
-            "played": 20,
+            "played": 21,
             "win": 7,
             "draw": 0,
-            "loss": 13,
-            "for": 372,
-            "against": 610,
-            "diff": -238,
+            "loss": 14,
+            "for": 390,
+            "against": 658,
+            "diff": -268,
             "points": 14,
             "highlight": "transparent"
           },
