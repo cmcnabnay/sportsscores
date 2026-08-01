@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T22:17:02+00:00",
+  "updated": "2026-08-01T22:28:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10171,7 +10171,7 @@
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Calgary Stampeders",
-      "score": null,
+      "score": "20-44",
       "date": "2026-08-01",
       "time": "15:00",
       "utc": "2026-08-01T19:00:00+00:00",
@@ -18695,14 +18695,14 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 7,
-            "win": 3,
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 278,
-            "against": 244,
+            "for": 322,
+            "against": 264,
             "diff": null,
-            "points": 6,
+            "points": 8,
             "highlight": null
           },
           {
@@ -18735,18 +18735,6 @@
             "highlight": null
           },
           {
-            "team": "Hamilton Tiger-Cats",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 167,
-            "against": 190,
-            "diff": null,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Toronto Argonauts",
             "played": 7,
             "win": 3,
@@ -18754,6 +18742,18 @@
             "loss": 4,
             "for": 220,
             "against": 219,
+            "diff": null,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Hamilton Tiger-Cats",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 187,
+            "against": 234,
             "diff": null,
             "points": 6,
             "highlight": null
