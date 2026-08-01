@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T03:06:22+00:00",
+  "updated": "2026-08-01T03:18:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10050,7 +10050,7 @@
       "league": "npc-2026",
       "home": "Tasman",
       "away": "North Harbour",
-      "score": null,
+      "score": "31-29",
       "date": "2026-07-31",
       "time": "19:10",
       "utc": "2026-07-31T07:10:00+00:00",
@@ -19550,6 +19550,30 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Tasman",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 31,
+            "against": 29,
+            "diff": 2,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "North Harbour",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 29,
+            "against": 31,
+            "diff": -2,
+            "points": 2,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Bay of Plenty",
             "played": 1,
             "win": 0,
@@ -19619,19 +19643,7 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "North Harbour",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Northland",
@@ -19671,18 +19683,6 @@
           },
           {
             "team": "Taranaki",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Tasman",
             "played": 0,
             "win": 0,
             "draw": 0,
