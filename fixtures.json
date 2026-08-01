@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T08:26:03+00:00",
+  "updated": "2026-08-01T15:30:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10061,12 +10061,12 @@
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "13-34",
       "date": "2026-07-31",
       "time": "19:30",
       "utc": "2026-07-31T23:30:00+00:00",
       "venue": "TD Place Stadium",
-      "attendance": null
+      "attendance": "17336"
     },
     {
       "league": "nrl-2026",
@@ -10226,12 +10226,12 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Canberra Raiders",
-      "score": null,
+      "score": "42–18",
       "date": "2026-08-01",
       "time": "17:30",
       "utc": "2026-08-01T07:30:00+00:00",
       "venue": "Glen Willow Oval",
-      "attendance": null
+      "attendance": "10000"
     },
     {
       "league": "super-league-2026",
@@ -10259,7 +10259,7 @@
       "league": "npc-2026",
       "home": "Canterbury",
       "away": "Auckland",
-      "score": null,
+      "score": "38-31",
       "date": "2026-08-01",
       "time": "19:10",
       "utc": "2026-08-01T07:10:00+00:00",
@@ -10281,7 +10281,7 @@
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "United States",
-      "score": "-",
+      "score": "2-3",
       "date": "2026-08-01",
       "time": "19:30",
       "utc": "2026-08-01T11:30:00+00:00",
@@ -10307,7 +10307,7 @@
       "date": "2026-08-02",
       "time": "13:00",
       "utc": "2026-08-02T11:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol",
+      "venue": "PSD Bank Arena , Frankfurt",
       "attendance": null
     },
     {
@@ -10318,7 +10318,7 @@
       "date": "2026-08-02",
       "time": "13:00",
       "utc": "2026-08-02T11:00:00+00:00",
-      "venue": "FK Viktoria Stadion",
+      "venue": "FK Viktoria Stadion , Prague",
       "attendance": null
     },
     {
@@ -10329,7 +10329,7 @@
       "date": "2026-08-02",
       "time": "13:00",
       "utc": "2026-08-02T11:00:00+00:00",
-      "venue": "Sportpark Unterhaching",
+      "venue": "Sportpark Unterhaching , Unterhaching",
       "attendance": null
     },
     {
@@ -10366,6 +10366,17 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Japan",
+      "away": "Slovenia",
+      "score": "-",
+      "date": "2026-08-02",
+      "time": "15:40",
+      "utc": "2026-08-02T07:40:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Wests Tigers",
       "away": "Parramatta Eels",
@@ -10396,6 +10407,17 @@
       "time": "17:05",
       "utc": "2026-08-02T05:05:00+00:00",
       "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "United States",
+      "away": "Poland",
+      "score": "-",
+      "date": "2026-08-02",
+      "time": "19:30",
+      "utc": "2026-08-02T11:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -18702,14 +18724,14 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 239,
-            "against": 204,
+            "for": 273,
+            "against": 217,
             "diff": null,
-            "points": 12,
+            "points": 14,
             "highlight": null
           },
           {
@@ -18738,12 +18760,12 @@
           },
           {
             "team": "Ottawa Redblacks",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": null,
-            "loss": 6,
-            "for": 153,
-            "against": 213,
+            "loss": 7,
+            "for": 166,
+            "against": 247,
             "diff": null,
             "points": 0,
             "highlight": null
@@ -18756,15 +18778,15 @@
       "Ladder": {
         "rows": [
           {
-            "team": "Penrith Panthers",
-            "played": 18,
-            "win": 14,
+            "team": "Penrith Panthers (Q)",
+            "played": 19,
+            "win": 15,
             "draw": 0,
             "loss": 4,
-            "for": 539,
-            "against": 255,
-            "diff": 284,
-            "points": 34,
+            "for": 581,
+            "against": 273,
+            "diff": 308,
+            "points": 36,
             "highlight": "#BBF3BB"
           },
           {
@@ -18816,6 +18838,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Newcastle Knights",
+            "played": 20,
+            "win": 12,
+            "draw": 0,
+            "loss": 8,
+            "for": 511,
+            "against": 451,
+            "diff": 60,
+            "points": 28,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "South Sydney Rabbitohs",
             "played": 18,
             "win": 10,
@@ -18824,18 +18858,6 @@
             "for": 510,
             "against": 432,
             "diff": 78,
-            "points": 26,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Newcastle Knights",
-            "played": 19,
-            "win": 11,
-            "draw": 0,
-            "loss": 8,
-            "for": 481,
-            "against": 445,
-            "diff": 36,
             "points": 26,
             "highlight": "#BBF3BB"
           },
@@ -18877,13 +18899,13 @@
           },
           {
             "team": "Canberra Raiders",
-            "played": 19,
+            "played": 20,
             "win": 9,
             "draw": 0,
-            "loss": 10,
-            "for": 435,
-            "against": 470,
-            "diff": -35,
+            "loss": 11,
+            "for": 453,
+            "against": 512,
+            "diff": -59,
             "points": 22,
             "highlight": "transparent"
           },
@@ -18913,13 +18935,13 @@
           },
           {
             "team": "Brisbane Broncos",
-            "played": 18,
+            "played": 19,
             "win": 6,
             "draw": 0,
-            "loss": 12,
-            "for": 339,
-            "against": 471,
-            "diff": -132,
+            "loss": 13,
+            "for": 345,
+            "against": 501,
+            "diff": -156,
             "points": 18,
             "highlight": "transparent"
           },
@@ -19538,6 +19560,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "Otago (RS)",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 41,
+            "against": 14,
+            "diff": 27,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Waikato",
             "played": 1,
             "win": 1,
@@ -19546,6 +19580,18 @@
             "for": 38,
             "against": 26,
             "diff": 12,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Canterbury",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 38,
+            "against": 31,
+            "diff": 7,
             "points": 5,
             "highlight": "#CCF9CC"
           },
@@ -19562,6 +19608,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Taranaki",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 20,
+            "against": 5,
+            "diff": 15,
+            "points": 4,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "North Harbour",
             "played": 1,
             "win": 0,
@@ -19570,6 +19628,18 @@
             "for": 29,
             "against": 31,
             "diff": -2,
+            "points": 2,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Auckland",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 31,
+            "against": 38,
+            "diff": -7,
             "points": 2,
             "highlight": "#CCF9CC"
           },
@@ -19586,42 +19656,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Auckland",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Canterbury",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Counties Manukau",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Hawke's Bay",
             "played": 0,
             "win": 0,
@@ -19631,7 +19665,7 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Manawatu",
@@ -19658,42 +19692,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Otago (RS)",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Southland",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Taranaki",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
             "team": "Wellington",
             "played": 0,
             "win": 0,
@@ -19702,6 +19700,30 @@
             "for": 0,
             "against": 0,
             "diff": 0,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Counties Manukau",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 5,
+            "against": 20,
+            "diff": -15,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Southland",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 14,
+            "against": 41,
+            "diff": -27,
             "points": 0,
             "highlight": "transparent"
           }
@@ -19786,9 +19808,9 @@
       },
       {
         "team": "Penrith Panthers",
-        "games": 7,
-        "total": 118217,
-        "average": 16888
+        "games": 8,
+        "total": 128217,
+        "average": 16027
       },
       {
         "team": "South Sydney Rabbitohs",
