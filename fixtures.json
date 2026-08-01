@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T20:05:02+00:00",
+  "updated": "2026-08-01T20:16:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10193,7 +10193,7 @@
       "league": "currie-cup-2026",
       "home": "Lions",
       "away": "Bulls XV",
-      "score": null,
+      "score": "42-19",
       "date": "2026-08-01",
       "time": "17:05",
       "utc": "2026-08-01T15:05:00+00:00",
@@ -10215,12 +10215,12 @@
       "league": "afle-2026",
       "home": "Firenze Red Lions",
       "away": "Paris Lights",
-      "score": null,
+      "score": "26-45",
       "date": "2026-08-01",
       "time": "17:10",
       "utc": "2026-08-01T15:10:00+00:00",
       "venue": "Stadio Gino Bozzi , Florence",
-      "attendance": null
+      "attendance": "43"
     },
     {
       "league": "nrl-2026",
@@ -10248,12 +10248,12 @@
       "league": "afle-2026",
       "home": "Rhein Fire",
       "away": "Alpine Rams",
-      "score": null,
+      "score": "59-6",
       "date": "2026-08-01",
       "time": "18:00",
       "utc": "2026-08-01T16:00:00+00:00",
       "venue": "Schauinsland-Reisen-Arena , Duisburg",
-      "attendance": null
+      "attendance": "5136"
     },
     {
       "league": "npc-2026",
@@ -19457,6 +19457,18 @@
       "Premier Division": {
         "rows": [
           {
+            "team": "Lions",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 121,
+            "against": 77,
+            "diff": 44,
+            "points": 12,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Griquas",
             "played": 3,
             "win": 2,
@@ -19493,39 +19505,27 @@
             "highlight": "#E8FFD8"
           },
           {
-            "team": "Lions",
-            "played": 2,
-            "win": 1,
+            "team": "Stormers XXIII",
+            "played": 3,
+            "win": 2,
             "draw": 0,
             "loss": 1,
-            "for": 79,
-            "against": 58,
-            "diff": 21,
-            "points": 7,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Sharks XV",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 47,
-            "against": 67,
-            "diff": -20,
-            "points": 5,
+            "for": 64,
+            "against": 88,
+            "diff": -24,
+            "points": 9,
             "highlight": "transparent"
           },
           {
-            "team": "Stormers XXIII",
-            "played": 2,
+            "team": "Sharks XV",
+            "played": 3,
             "win": 1,
             "draw": 0,
-            "loss": 1,
-            "for": 28,
-            "against": 60,
-            "diff": -32,
-            "points": 4,
+            "loss": 2,
+            "for": 75,
+            "against": 103,
+            "diff": -28,
+            "points": 6,
             "highlight": "transparent"
           },
           {
@@ -19542,13 +19542,13 @@
           },
           {
             "team": "Bulls XV",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": 0,
-            "loss": 2,
-            "for": 36,
-            "against": 80,
-            "diff": -44,
+            "loss": 3,
+            "for": 55,
+            "against": 122,
+            "diff": -67,
             "points": 1,
             "highlight": "transparent"
           }
