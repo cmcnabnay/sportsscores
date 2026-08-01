@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T20:49:02+00:00",
+  "updated": "2026-08-01T21:00:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19001,6 +19001,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Wakefield Trinity",
+            "played": 21,
+            "win": 16,
+            "draw": 0,
+            "loss": 5,
+            "for": 587,
+            "against": 352,
+            "diff": 235,
+            "points": 32,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Wigan Warriors",
             "played": 21,
             "win": 16,
@@ -19010,18 +19022,6 @@
             "against": 383,
             "diff": 224,
             "points": 32,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Wakefield Trinity",
-            "played": 20,
-            "win": 15,
-            "draw": 0,
-            "loss": 5,
-            "for": 555,
-            "against": 340,
-            "diff": 215,
-            "points": 30,
             "highlight": "#BBF3FF"
           },
           {
@@ -19074,13 +19074,13 @@
           },
           {
             "team": "Catalans Dragons",
-            "played": 20,
+            "played": 21,
             "win": 9,
             "draw": 0,
-            "loss": 11,
-            "for": 407,
-            "against": 587,
-            "diff": -180,
+            "loss": 12,
+            "for": 419,
+            "against": 619,
+            "diff": -200,
             "points": 18,
             "highlight": "transparent"
           },
