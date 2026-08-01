@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T06:47:02+00:00",
+  "updated": "2026-08-01T06:58:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10204,7 +10204,7 @@
       "league": "npc-2026",
       "home": "Southland",
       "away": "Otago",
-      "score": null,
+      "score": "14-41",
       "date": "2026-08-01",
       "time": "17:05",
       "utc": "2026-08-01T05:05:00+00:00",
@@ -18781,14 +18781,14 @@
           },
           {
             "team": "New Zealand Warriors",
-            "played": 18,
-            "win": 12,
+            "played": 19,
+            "win": 13,
             "draw": 0,
             "loss": 6,
-            "for": 496,
-            "against": 306,
-            "diff": 190,
-            "points": 30,
+            "for": 538,
+            "against": 312,
+            "diff": 226,
+            "points": 32,
             "highlight": "#BBF3BB"
           },
           {
@@ -18901,13 +18901,13 @@
           },
           {
             "team": "Gold Coast Titans",
-            "played": 18,
+            "played": 19,
             "win": 6,
             "draw": 0,
-            "loss": 12,
-            "for": 373,
-            "against": 459,
-            "diff": -86,
+            "loss": 13,
+            "for": 379,
+            "against": 501,
+            "diff": -122,
             "points": 18,
             "highlight": "transparent"
           },
