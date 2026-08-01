@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T18:15:02+00:00",
+  "updated": "2026-08-01T18:26:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19062,13 +19062,13 @@
           },
           {
             "team": "St Helens",
-            "played": 20,
+            "played": 21,
             "win": 12,
             "draw": 0,
-            "loss": 8,
-            "for": 450,
-            "against": 426,
-            "diff": 24,
+            "loss": 9,
+            "for": 482,
+            "against": 460,
+            "diff": 22,
             "points": 24,
             "highlight": "transparent"
           },
@@ -19097,6 +19097,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "York Knights (E)",
+            "played": 21,
+            "win": 7,
+            "draw": 0,
+            "loss": 14,
+            "for": 430,
+            "against": 613,
+            "diff": -183,
+            "points": 14,
+            "highlight": "transparent"
+          },
+          {
             "team": "Castleford Tigers",
             "played": 21,
             "win": 7,
@@ -19106,18 +19118,6 @@
             "against": 658,
             "diff": -268,
             "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "York Knights (E)",
-            "played": 20,
-            "win": 6,
-            "draw": 0,
-            "loss": 14,
-            "for": 396,
-            "against": 581,
-            "diff": -185,
-            "points": 12,
             "highlight": "transparent"
           },
           {
