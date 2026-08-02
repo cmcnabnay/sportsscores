@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T05:48:04+00:00",
+  "updated": "2026-08-02T05:59:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10132,7 +10132,7 @@
       "time": "15:00",
       "utc": "2026-08-01T13:00:00+00:00",
       "venue": "Cape Town Stadium, Cape Town",
-      "attendance": null
+      "attendance": "14000"
     },
     {
       "league": "nrl-2026",
@@ -18815,14 +18815,14 @@
           },
           {
             "team": "Cronulla-Sutherland Sharks",
-            "played": 18,
-            "win": 12,
+            "played": 19,
+            "win": 13,
             "draw": 0,
             "loss": 6,
-            "for": 536,
-            "against": 375,
-            "diff": 161,
-            "points": 30,
+            "for": 568,
+            "against": 391,
+            "diff": 177,
+            "points": 32,
             "highlight": "#BBF3BB"
           },
           {
@@ -18851,13 +18851,13 @@
           },
           {
             "team": "South Sydney Rabbitohs",
-            "played": 18,
+            "played": 19,
             "win": 10,
             "draw": 0,
-            "loss": 8,
-            "for": 510,
-            "against": 432,
-            "diff": 78,
+            "loss": 9,
+            "for": 526,
+            "against": 464,
+            "diff": 62,
             "points": 26,
             "highlight": "#BBF3BB"
           },
