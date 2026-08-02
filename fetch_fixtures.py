@@ -37,6 +37,11 @@ articles) by setting "pages": [...] instead of "page": "..." in its
 LEAGUES entry; results from each page are merged under the same league
 key.
 
+Separately, every run also checks Vélez Sarsfield's results (Argentina
+Liga Profesional) - see update_velez_results() near the bottom of this
+file for why that league isn't in LEAGUES/fetch_and_parse like everything
+else above.
+
 Usage:
     python3 fetch_fixtures.py                 # fetch every configured league
     python3 fetch_fixtures.py u20-jwc-2026     # fetch just one league
@@ -2947,6 +2952,184 @@ def save(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+# ---------------------------------------------------------------------------
+# Vélez Sarsfield results (Argentina Liga Profesional) - deliberately NOT a
+# LEAGUES entry. That page (2026 AFA Liga Profesional de Fútbol) publishes
+# results as a 30-team round-robin score matrix (Template:Sports results -
+# a triangular grid split across two Zone templates) plus two separate
+# "Interzonal matches" wikitables - a layout no existing parser above
+# handles, and building a full generic 30-team parser for it isn't worth it
+# when the app only actually needs Vélez's own 16 results. Fixture dates,
+# kickoff times, and venues for this league are assumed to already be in
+# fixtures.json from wherever they were originally entered; this only ever
+# fills in a missing score on an already-listed Vélez match.
+# ---------------------------------------------------------------------------
+AFA_LIGA_PROFESIONAL_PAGE = "2026_AFA_Liga_Profesional_de_Fútbol"
+AFA_LIGA_PROFESIONAL_LEAGUE_KEY = "argentina-liga-profesional-2026"
+VELEZ_TEAM_CODE = "VEL"
+
+
+def _afa_wikilink_aliases(cell_text):
+    """A team/score cell on the AFA results page is either bare text, or a
+    [[Target]] / [[Target|Display]] wikilink (occasionally {{nowrap|...}}
+    wrapped for a couple of the longer team names so they don't line-wrap
+    in the interzonal tables). Returns every name this cell could resolve
+    to - the link target and the display text, when they differ - since
+    fixtures.json's own Vélez matches (entered separately from this page)
+    inconsistently use one or the other per team, e.g. "Talleres de
+    Córdoba" (the link target) but "Estudiantes (LP)" (the display text)."""
+    text = cell_text.strip()
+    m = re.match(r"\{\{nowrap\|(.*)\}\}$", text)
+    if m:
+        text = m.group(1).strip()
+    m = re.match(r"\[\[([^\]|]+)(?:\|([^\]]*))?\]\]$", text)
+    if m:
+        target, display = m.group(1).strip(), (m.group(2) or "").strip()
+        return {target, display} if display else {target}
+    return {text}
+
+
+def _afa_score_from_cell(cell_text):
+    """Normalize an interzonal-table score cell to fixtures.json's
+    plain-hyphen format ('2-1'), or None if it isn't an actual final score
+    - an unplayed fixture renders as a bare en dash '–', sometimes wrapped
+    in a derby-name wikilink like [[Superclásico|–]]."""
+    for alias in _afa_wikilink_aliases(cell_text):
+        normalized = alias.replace("\u2013", "-").replace("\u2014", "-").strip()
+        if re.match(r"^\d+-\d+$", normalized):
+            return normalized
+    return None
+
+
+def _afa_matrix_cell_score(value):
+    """Normalize a Sports-results-template matrix cell
+    ('match_XXX_YYY=...') to fixtures.json's score format, or None if it's
+    'null' (not this pairing's meaningful direction - see
+    parse_afa_velez_results) or a bare dash (not played yet)."""
+    value = value.strip()
+    if value in ("", "null"):
+        return None
+    value = value.replace("\u2013", "-").replace("\u2014", "-")
+    if re.match(r"^\d+-\d+$", value):
+        return value
+    return None
+
+
+def parse_afa_velez_results(wikitext):
+    """Parse every Vélez Sarsfield result off the AFA Liga Profesional
+    page: 14 zone matches from the round-robin score matrix (a triangular
+    grid where exactly one of match_VEL_XXX / match_XXX_VEL is the
+    meaningful direction for a given pair, the other being the literal
+    string 'null'), plus 2 interzonal matches from the separate wikitables
+    under '=====Interzonal matches====='.
+
+    Returns a list of (home_aliases, away_aliases, score_or_None) tuples,
+    where each *_aliases is a set of name variants for that team (see
+    _afa_wikilink_aliases) so the caller can match against however
+    fixtures.json happens to already spell that team's name."""
+    team_aliases = {}
+    for m in re.finditer(r"\|name_([A-Z]{3})=(.+)", wikitext):
+        team_aliases[m.group(1)] = _afa_wikilink_aliases(m.group(2))
+    velez_aliases = team_aliases.get(VELEZ_TEAM_CODE, {"Vélez Sarsfield"})
+
+    results = []
+    seen_codes = set()
+    for m in re.finditer(rf"\|match_{VELEZ_TEAM_CODE}_([A-Z]{{3}})=(.*)", wikitext):
+        code, raw = m.group(1), m.group(2)
+        if code == VELEZ_TEAM_CODE or code not in team_aliases or raw.strip() == "null":
+            continue
+        seen_codes.add(code)
+        results.append((velez_aliases, team_aliases[code], _afa_matrix_cell_score(raw)))
+    for m in re.finditer(rf"\|match_([A-Z]{{3}})_{VELEZ_TEAM_CODE}=(.*)", wikitext):
+        code, raw = m.group(1), m.group(2)
+        if code == VELEZ_TEAM_CODE or code not in team_aliases or code in seen_codes or raw.strip() == "null":
+            continue
+        results.append((team_aliases[code], velez_aliases, _afa_matrix_cell_score(raw)))
+
+    section = re.search(r"=====Interzonal matches=====(.*?)(?:\n=====|\Z)", wikitext, re.S)
+    if section:
+        for table in re.findall(r"\{\|.*?\n\|\}", section.group(1), re.S):
+            for row in re.split(r"\n\|-\n?", table):
+                cell_lines = [
+                    l.strip() for l in row.strip().split("\n")
+                    if l.strip().startswith("|")
+                    and not l.strip().startswith(("|-", "|}"))
+                    and not l.strip().startswith("!")
+                ]
+                if len(cell_lines) != 3:
+                    continue
+                home_raw, score_raw, away_raw = (
+                    re.sub(r'^\|(?:style="[^"]*"\|)?(?:bgcolor=\S+\|)?', "", c)
+                    for c in cell_lines
+                )
+                home_aliases = _afa_wikilink_aliases(home_raw)
+                away_aliases = _afa_wikilink_aliases(away_raw)
+                if not (velez_aliases & (home_aliases | away_aliases)):
+                    continue
+                results.append((home_aliases, away_aliases, _afa_score_from_cell(score_raw)))
+    return results
+
+
+def _afa_looks_unplayed(score):
+    return not (score and re.match(r"^\d+-\d+$", score.strip()))
+
+
+def update_velez_results(data, now, force=False):
+    """Fill in Vélez Sarsfield's results in fixtures.json's
+    argentina-liga-profesional-2026 matches from the AFA Liga Profesional
+    Wikipedia page (see the module-level comment above this section for why
+    this doesn't go through LEAGUES/fetch_and_parse like every other
+    league). Mutates the matching entries in data["matches"] in place.
+
+    Network is only touched when at least one of Vélez's already-listed
+    matches with a kickoff time in the past still has no score recorded -
+    if every past Vélez match already has a real score, this returns
+    without fetching anything. --force always fetches and re-checks every
+    Vélez match (past or future), same as everywhere else in this script."""
+    velez_matches = [
+        m for m in data.get("matches", [])
+        if m.get("league") == AFA_LIGA_PROFESIONAL_LEAGUE_KEY
+        and "Vélez" in (m.get("home") or "") + (m.get("away") or "")
+    ]
+    if not velez_matches:
+        return
+
+    today = now.date()
+    stale = [
+        m for m in velez_matches
+        if m.get("date")
+        and datetime.strptime(m["date"], "%Y-%m-%d").date() < today
+        and _afa_looks_unplayed(m.get("score"))
+    ]
+    if not stale and not force:
+        print(f"Skipping Vélez Sarsfield results - all {len(velez_matches)} stored "
+              f"matches with a past kickoff already have a score "
+              f"(use --force to check anyway)")
+        return
+
+    print(f"Fetching {AFA_LIGA_PROFESIONAL_PAGE} for Vélez Sarsfield results "
+          f"({len(stale)} past match(es) still missing a score) ...")
+    try:
+        wikitext = fetch_page_wikitext(AFA_LIGA_PROFESIONAL_PAGE)
+        parsed = parse_afa_velez_results(wikitext)
+    except Exception as e:
+        print(f"  !! Vélez results fetch failed: {e}", file=sys.stderr)
+        return
+
+    updated = 0
+    for m in velez_matches:
+        for home_aliases, away_aliases, score in parsed:
+            if score is None:
+                continue
+            if m.get("home") in home_aliases and m.get("away") in away_aliases:
+                if m.get("score") != score:
+                    m["score"] = score
+                    updated += 1
+                break
+    print(f"  -> Vélez Sarsfield: {updated} result(s) updated from the results "
+          f"matrix / interzonal tables")
+
+
 def fetch_and_parse(cfg, key, cached=None, now=None):
     parser_type = cfg.get("parser", "vevent")
     pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
@@ -3174,6 +3357,16 @@ def run(league_keys, force=False):
                 print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
         except Exception as e:
             print(f"  !! attendance table failed: {e}", file=sys.stderr)
+
+    # Not gated behind `key in league_keys` like the LEAGUES loop above -
+    # argentina-liga-profesional-2026 isn't a LEAGUES entry (see the
+    # comment above update_velez_results), so this always runs and decides
+    # for itself, from fixtures.json's own stored data, whether there's
+    # anything worth checking on Wikipedia this time.
+    try:
+        update_velez_results(data, now, force=force)
+    except Exception as e:
+        print(f"  !! Vélez results update failed: {e}", file=sys.stderr)
 
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
