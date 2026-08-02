@@ -37,10 +37,12 @@ articles) by setting "pages": [...] instead of "page": "..." in its
 LEAGUES entry; results from each page are merged under the same league
 key.
 
-Separately, every run also checks Vélez Sarsfield's results (Argentina
-Liga Profesional) - see update_velez_results() near the bottom of this
-file for why that league isn't in LEAGUES/fetch_and_parse like everything
-else above.
+Separately, every run also checks a small set of single-team results
+against their league's Wikipedia results-matrix page - currently Vélez
+Sarsfield (Argentina Liga Profesional) and Torpedo Moscow (Russian First
+League). See the MATRIX_TEAMS config and update_matrix_team_results()
+near the bottom of this file for why those leagues aren't in
+LEAGUES/fetch_and_parse like everything else above.
 
 Usage:
     python3 fetch_fixtures.py                 # fetch every configured league
@@ -710,7 +712,37 @@ def strip_citations(text: str) -> str:
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
-def preceding_heading_breadcrumb(element, levels=(3, 4)):
+def strip_team_note_markers(name: str) -> str:
+    """Strip Wikipedia's own footnote/marker annotations off a team name
+    scraped from a fixtures/standings/attendance table:
+      - a leading "x-"/"y-"/"z-" clinched-status marker (common on North
+        American standings pages)
+      - a trailing "[a]"-style footnote reference (e.g. Super League's
+        Warrington Wolves/Hull KR groundshare notes)
+      - a trailing short parenthetical marker like "(H)", "(A)", "(E)"
+        (host/away designation on an international qualifying page, or a
+        reserve/academy-side flag on a rugby league table)
+
+    Left in place, any of these makes an otherwise-identical row read as a
+    second, different-looking team for a club that already has its own
+    proper row/fixtures elsewhere - which is exactly the kind of thing
+    that silently double-counts a team (e.g. the Attendance tab groups
+    fixtures.json matches by team name string, so "Warrington Wolves" and
+    "Warrington Wolves [a]" become two separate rows for the same club)."""
+    if not name:
+        return name
+    name = re.sub(r"^[xyz]\s*[-\u2013]\s*", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s*\[\s*[a-zA-Z0-9]{1,3}\s*\]\s*$", "", name)
+    # Deliberately only these known footnote letters (Home/Away/reserves-
+    # or-Expansion side/Reserves), not any short parenthetical - some
+    # leagues' real team names legitimately end in a short parenthetical
+    # disambiguator (e.g. Argentina's "Estudiantes (LP)"), which must
+    # NOT be stripped here.
+    name = re.sub(r"\s*\((?:H|A|E|R)\)\s*$", "", name, flags=re.IGNORECASE)
+    return name.strip()
+
+
+
     """Return {level: heading_text} for the nearest heading at each given
     level that appears before `element` in document order - i.e. which
     section(s) this element sits inside, most specific included. Used to
@@ -1319,6 +1351,14 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
 
             home = row[roles["home"]].strip()
             away = row[roles["away"]].strip()
+            # See strip_team_note_markers() - without this, a club that
+            # picks up a footnote marker on some fixture rows (e.g. Super
+            # League's Warrington Wolves/Hull KR groundshare note) ends up
+            # stored under two different name strings across matches. The
+            # Attendance tab groups fixtures.json matches by exact team
+            # name, so that club would silently get split into two rows.
+            home = strip_team_note_markers(home)
+            away = strip_team_note_markers(away)
             if not home or not away:
                 continue
             # Skip "Bye:" / "Source:" rows, which end up with identical
@@ -2274,18 +2314,10 @@ def parse_standings_table(table):
         if roles["team"] >= len(row):
             continue
         team = strip_citations(re.sub(r"\s+", " ", row[roles["team"]]).strip())
-        # Strip footnote/marker artifacts some pages glue onto an otherwise
-        # normal team name - a leading "x-"/"y-"/"z-" clinched-status
-        # marker (common on North American standings pages), a trailing
-        # "[a]"-style footnote reference (e.g. Super League's Warrington
-        # Wolves/Hull KR groundshare notes), or a trailing "(H)"/"(A)"
-        # host/away designation on an international qualifying page (e.g.
-        # FIBA's host nations). Left in place these read as a second,
-        # different-looking "team" for a club/nation that already has its
-        # own proper row elsewhere.
-        team = re.sub(r"^[xyz]\s*[-\u2013]\s*", "", team, flags=re.IGNORECASE)
-        team = re.sub(r"\s*\[[a-zA-Z0-9]{1,3}\]\s*$", "", team)
-        team = re.sub(r"\s*\((?:H|A)\)\s*$", "", team, flags=re.IGNORECASE)
+        # See strip_team_note_markers() - a leading clinched-status marker
+        # or trailing footnote reference would otherwise read as a second,
+        # different-looking team for a club that already has its own row.
+        team = strip_team_note_markers(team)
         if not team or team.lower() in ("source", "notes", "key", "notes:"):
             continue
         stat_values = (
@@ -2730,6 +2762,11 @@ def parse_attendance_table(table):
         if col["team"] >= len(row):
             continue
         team = strip_citations(re.sub(r"\s+", " ", row[col["team"]]).strip())
+        # See strip_team_note_markers() - without this, a club that has a
+        # footnote marker on some rows (e.g. Super League's Warrington
+        # Wolves/Hull KR groundshare note, or an "(E)" reserve-side flag)
+        # gets counted as a second, separate team in the rendered table.
+        team = strip_team_note_markers(team)
         if not team:
             continue
         games = get_int(row, "games")
@@ -2953,31 +2990,56 @@ def save(data):
 
 
 # ---------------------------------------------------------------------------
-# Vélez Sarsfield results (Argentina Liga Profesional) - deliberately NOT a
-# LEAGUES entry. That page (2026 AFA Liga Profesional de Fútbol) publishes
-# results as a 30-team round-robin score matrix (Template:Sports results -
-# a triangular grid split across two Zone templates) plus two separate
-# "Interzonal matches" wikitables - a layout no existing parser above
-# handles, and building a full generic 30-team parser for it isn't worth it
-# when the app only actually needs Vélez's own 16 results. Fixture dates,
-# kickoff times, and venues for this league are assumed to already be in
-# fixtures.json from wherever they were originally entered; this only ever
-# fills in a missing score on an already-listed Vélez match.
+# Single-team results-matrix updates - deliberately NOT LEAGUES entries.
+# Some Wikipedia league pages publish results only as a big round-robin
+# score matrix (Template:Sports results - a triangular grid of
+# match_XXX_YYY= cells), sometimes alongside separate "Interzonal matches"
+# wikitables for teams outside the main grid. That's a layout none of the
+# parsers above handle, and building a full generic N-team parser for it
+# isn't worth it when the app only actually needs one team's results out
+# of the whole grid. Fixture dates, kickoff times, and venues for these
+# leagues are assumed to already be in fixtures.json from wherever they
+# were originally entered (see the hardcoded blocks in fixtures.json for
+# each such team); this only ever fills in a missing score on an
+# already-listed match for that one team.
+#
+# MATRIX_TEAMS below is the team-agnostic config for this: add an entry
+# per team and update_matrix_team_results() (called once per entry from
+# run()) handles it the same way regardless of which team/league it is.
+# Vélez Sarsfield (Argentina Liga Profesional) was the first of these;
+# Torpedo Moscow (Russian First League) reuses the exact same code path.
 # ---------------------------------------------------------------------------
-AFA_LIGA_PROFESIONAL_PAGE = "2026_AFA_Liga_Profesional_de_Fútbol"
-AFA_LIGA_PROFESIONAL_LEAGUE_KEY = "argentina-liga-profesional-2026"
-VELEZ_TEAM_CODE = "VEL"
+MATRIX_TEAMS = {
+    "velez": {
+        "team_name": "Vélez Sarsfield",
+        "team_code": "VEL",
+        "wiki_page": "2026_AFA_Liga_Profesional_de_Fútbol",
+        "league_key": "argentina-liga-profesional-2026",
+        # This page's matrix is split into two Zone templates plus two
+        # separate "Interzonal matches" wikitables for cross-zone games.
+        "interzonal_heading": "Interzonal matches",
+    },
+    "torpedo": {
+        "team_name": "Torpedo Moscow",
+        "team_code": "TOR",
+        "wiki_page": "2026–27_Russian_First_League",
+        "league_key": "russian-first-league-2026-27",
+        # Single 18-team round-robin grid, no separate interzonal tables.
+        "interzonal_heading": None,
+    },
+}
 
 
-def _afa_wikilink_aliases(cell_text):
-    """A team/score cell on the AFA results page is either bare text, or a
-    [[Target]] / [[Target|Display]] wikilink (occasionally {{nowrap|...}}
-    wrapped for a couple of the longer team names so they don't line-wrap
-    in the interzonal tables). Returns every name this cell could resolve
-    to - the link target and the display text, when they differ - since
-    fixtures.json's own Vélez matches (entered separately from this page)
-    inconsistently use one or the other per team, e.g. "Talleres de
-    Córdoba" (the link target) but "Estudiantes (LP)" (the display text)."""
+def _matrix_wikilink_aliases(cell_text):
+    """A team/score cell on one of these results-matrix pages is either
+    bare text, or a [[Target]] / [[Target|Display]] wikilink (occasionally
+    {{nowrap|...}} wrapped for a couple of the longer team names so they
+    don't line-wrap in the interzonal tables). Returns every name this
+    cell could resolve to - the link target and the display text, when
+    they differ - since fixtures.json's own matches (entered separately
+    from this page) inconsistently use one or the other per team, e.g.
+    "Talleres de Córdoba" (the link target) but "Estudiantes (LP)" (the
+    display text)."""
     text = cell_text.strip()
     m = re.match(r"\{\{nowrap\|(.*)\}\}$", text)
     if m:
@@ -2989,135 +3051,208 @@ def _afa_wikilink_aliases(cell_text):
     return {text}
 
 
-def _afa_score_from_cell(cell_text):
+def _matrix_clean_cell(text):
+    """Strip HTML comments, <ref>...</ref> footnotes, and self-closing
+    <ref .../> tags out of a wikitext cell before trying to read a score
+    out of it - real match cells occasionally carry a trailing footnote
+    (VAR note, abandoned-match ref, etc.) right after the score with no
+    separating whitespace, which would otherwise stop a strict
+    start-to-end match from recognizing the score at all."""
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+    text = re.sub(r"<ref[^>]*/>", "", text)
+    text = re.sub(r"<ref[^>]*>.*?</ref>", "", text, flags=re.S)
+    return text.strip()
+
+
+_MATRIX_SCORE_PATTERN = re.compile(r"(\d+)\s*[\u2013\u2014\u2212-]\s*(\d+)")
+
+
+def _matrix_score_from_cell(cell_text):
     """Normalize an interzonal-table score cell to fixtures.json's
     plain-hyphen format ('2-1'), or None if it isn't an actual final score
     - an unplayed fixture renders as a bare en dash '–', sometimes wrapped
-    in a derby-name wikilink like [[Superclásico|–]]."""
-    for alias in _afa_wikilink_aliases(cell_text):
-        normalized = alias.replace("\u2013", "-").replace("\u2014", "-").strip()
-        if re.match(r"^\d+-\d+$", normalized):
-            return normalized
+    in a derby-name wikilink like [[Superclásico|–]]. Uses a search (not a
+    strict full-string match) so a trailing footnote/comment right after
+    the score doesn't hide it."""
+    for alias in _matrix_wikilink_aliases(_matrix_clean_cell(cell_text)):
+        m = _MATRIX_SCORE_PATTERN.search(alias)
+        if m:
+            return f"{m.group(1)}-{m.group(2)}"
     return None
 
 
-def _afa_matrix_cell_score(value):
+def _matrix_cell_score(value):
     """Normalize a Sports-results-template matrix cell
     ('match_XXX_YYY=...') to fixtures.json's score format, or None if it's
     'null' (not this pairing's meaningful direction - see
-    parse_afa_velez_results) or a bare dash (not played yet)."""
-    value = value.strip()
-    if value in ("", "null"):
+    parse_matrix_team_results) or a bare dash (not played yet). Same
+    search-based approach as _matrix_score_from_cell, for the same
+    reason."""
+    value = _matrix_clean_cell(value)
+    if value == "" or value.lower() == "null":
         return None
-    value = value.replace("\u2013", "-").replace("\u2014", "-")
-    if re.match(r"^\d+-\d+$", value):
-        return value
-    return None
+    m = _MATRIX_SCORE_PATTERN.search(value)
+    return f"{m.group(1)}-{m.group(2)}" if m else None
 
 
-def parse_afa_velez_results(wikitext):
-    """Parse every Vélez Sarsfield result off the AFA Liga Profesional
-    page: 14 zone matches from the round-robin score matrix (a triangular
-    grid where exactly one of match_VEL_XXX / match_XXX_VEL is the
-    meaningful direction for a given pair, the other being the literal
-    string 'null'), plus 2 interzonal matches from the separate wikitables
-    under '=====Interzonal matches====='.
+def parse_matrix_team_results(wikitext, team_code, team_name, interzonal_heading=None, debug=False):
+    """Parse every result for one team (identified by its 3-letter
+    Template:Sports results code) off a Wikipedia results-matrix page:
+    matches from the round-robin score matrix (a triangular grid where
+    exactly one of match_CODE_XXX / match_XXX_CODE is the meaningful
+    direction for a given pair, the other being the literal string
+    'null'), plus - if interzonal_heading is given - extra matches from
+    separate wikitables under a "=====<interzonal_heading>=====" section
+    (e.g. AFA Liga Profesional's cross-zone games, which aren't part of
+    either zone's triangular grid).
+
+    Some pages (e.g. AFA Liga Profesional, split into Apertura/Clausura)
+    carry this same block MORE THAN ONCE per season, reusing the exact
+    same team codes and layout each time. Whichever block is physically
+    LAST in the document is treated as current, so a later occurrence of
+    a given pairing always wins over an earlier one - not "first non-null
+    wins", which would let a long-finished earlier phase's score for a
+    pairing silently block that same pairing's separate, currently-
+    relevant later result from ever being read. Same "last one wins"
+    treatment applies to the interzonal tables, which are also repeated
+    per phase under an identical heading when present.
 
     Returns a list of (home_aliases, away_aliases, score_or_None) tuples,
     where each *_aliases is a set of name variants for that team (see
-    _afa_wikilink_aliases) so the caller can match against however
-    fixtures.json happens to already spell that team's name."""
+    _matrix_wikilink_aliases) so the caller can match against however
+    fixtures.json happens to already spell that team's name.
+
+    If debug=True, also prints every raw match_CODE_XXX / match_XXX_CODE
+    occurrence found on the page (there may be more than one per code -
+    see above) and which one ultimately won, so a mismatch between what's
+    actually on the page and what fixtures.json expects is visible
+    directly instead of having to guess at it."""
     team_aliases = {}
     for m in re.finditer(r"\|name_([A-Z]{3})=(.+)", wikitext):
-        team_aliases[m.group(1)] = _afa_wikilink_aliases(m.group(2))
-    velez_aliases = team_aliases.get(VELEZ_TEAM_CODE, {"Vélez Sarsfield"})
+        team_aliases[m.group(1)] = _matrix_wikilink_aliases(m.group(2))
+    this_team_aliases = team_aliases.get(team_code, {team_name})
+    if debug:
+        print(f"  [debug] resolved {len(team_aliases)} team code(s) from name_XXX= lines "
+              f"({team_code + ' found' if team_code in team_aliases else team_code + ' NOT FOUND'})")
+
+    # code -> raw cell text; a later occurrence in the document simply
+    # overwrites an earlier one, so these end up holding whichever phase's
+    # block appeared last (see docstring).
+    home_direction, away_direction = {}, {}
+    for m in re.finditer(rf"\|match_{team_code}_([A-Z]{{3}})=(.*)", wikitext):
+        code, raw = m.group(1), m.group(2)
+        if debug:
+            cleaned = _matrix_clean_cell(raw)
+            print(f"  [debug] match_{team_code}_{code} = {raw!r} -> "
+                  f"{'null/skip' if cleaned.lower() == 'null' else _matrix_cell_score(raw)!r}"
+                  f"{' (overwrites earlier occurrence)' if code in home_direction else ''}")
+        if code != team_code and code in team_aliases:
+            home_direction[code] = raw
+    for m in re.finditer(rf"\|match_([A-Z]{{3}})_{team_code}=(.*)", wikitext):
+        code, raw = m.group(1), m.group(2)
+        if debug:
+            cleaned = _matrix_clean_cell(raw)
+            print(f"  [debug] match_{code}_{team_code} = {raw!r} -> "
+                  f"{'null/skip' if cleaned.lower() == 'null' else _matrix_cell_score(raw)!r}"
+                  f"{' (overwrites earlier occurrence)' if code in away_direction else ''}")
+        if code != team_code and code in team_aliases:
+            away_direction[code] = raw
 
     results = []
-    seen_codes = set()
-    for m in re.finditer(rf"\|match_{VELEZ_TEAM_CODE}_([A-Z]{{3}})=(.*)", wikitext):
-        code, raw = m.group(1), m.group(2)
-        if code == VELEZ_TEAM_CODE or code not in team_aliases or raw.strip() == "null":
+    for code, raw in home_direction.items():
+        if _matrix_clean_cell(raw).lower() == "null":
             continue
-        seen_codes.add(code)
-        results.append((velez_aliases, team_aliases[code], _afa_matrix_cell_score(raw)))
-    for m in re.finditer(rf"\|match_([A-Z]{{3}})_{VELEZ_TEAM_CODE}=(.*)", wikitext):
-        code, raw = m.group(1), m.group(2)
-        if code == VELEZ_TEAM_CODE or code not in team_aliases or code in seen_codes or raw.strip() == "null":
+        results.append((this_team_aliases, team_aliases[code], _matrix_cell_score(raw)))
+    for code, raw in away_direction.items():
+        if _matrix_clean_cell(raw).lower() == "null":
             continue
-        results.append((team_aliases[code], velez_aliases, _afa_matrix_cell_score(raw)))
+        results.append((team_aliases[code], this_team_aliases, _matrix_cell_score(raw)))
 
-    section = re.search(r"=====Interzonal matches=====(.*?)(?:\n=====|\Z)", wikitext, re.S)
-    if section:
-        for table in re.findall(r"\{\|.*?\n\|\}", section.group(1), re.S):
-            for row in re.split(r"\n\|-\n?", table):
-                cell_lines = [
-                    l.strip() for l in row.strip().split("\n")
-                    if l.strip().startswith("|")
-                    and not l.strip().startswith(("|-", "|}"))
-                    and not l.strip().startswith("!")
-                ]
-                if len(cell_lines) != 3:
-                    continue
-                home_raw, score_raw, away_raw = (
-                    re.sub(r'^\|(?:style="[^"]*"\|)?(?:bgcolor=\S+\|)?', "", c)
-                    for c in cell_lines
-                )
-                home_aliases = _afa_wikilink_aliases(home_raw)
-                away_aliases = _afa_wikilink_aliases(away_raw)
-                if not (velez_aliases & (home_aliases | away_aliases)):
-                    continue
-                results.append((home_aliases, away_aliases, _afa_score_from_cell(score_raw)))
+    if interzonal_heading:
+        interzonal_sections = re.findall(
+            rf"====={re.escape(interzonal_heading)}=====(.*?)(?:\n=====|\Z)", wikitext, re.S)
+        if debug:
+            print(f"  [debug] found {len(interzonal_sections)} '{interzonal_heading}' "
+                  f"section(s) on the page - using the last one")
+        if interzonal_sections:
+            section = interzonal_sections[-1]
+            for table in re.findall(r"\{\|.*?\n\|\}", section, re.S):
+                for row in re.split(r"\n\|-\n?", table):
+                    cell_lines = [
+                        l.strip() for l in row.strip().split("\n")
+                        if l.strip().startswith("|")
+                        and not l.strip().startswith(("|-", "|}"))
+                        and not l.strip().startswith("!")
+                    ]
+                    if len(cell_lines) != 3:
+                        continue
+                    home_raw, score_raw, away_raw = (
+                        re.sub(r'^\|(?:style="[^"]*"\|)?(?:bgcolor=\S+\|)?', "", c)
+                        for c in cell_lines
+                    )
+                    home_aliases = _matrix_wikilink_aliases(home_raw)
+                    away_aliases = _matrix_wikilink_aliases(away_raw)
+                    if not (this_team_aliases & (home_aliases | away_aliases)):
+                        continue
+                    results.append((home_aliases, away_aliases, _matrix_score_from_cell(score_raw)))
     return results
 
 
-def _afa_looks_unplayed(score):
+def _matrix_looks_unplayed(score):
     return not (score and re.match(r"^\d+-\d+$", score.strip()))
 
 
-def update_velez_results(data, now, force=False):
-    """Fill in Vélez Sarsfield's results in fixtures.json's
-    argentina-liga-profesional-2026 matches from the AFA Liga Profesional
-    Wikipedia page (see the module-level comment above this section for why
-    this doesn't go through LEAGUES/fetch_and_parse like every other
-    league). Mutates the matching entries in data["matches"] in place.
+def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=False):
+    """Fill in one team's results in fixtures.json's matches for its
+    league from that league's Wikipedia results-matrix page (see the
+    module-level comment above MATRIX_TEAMS for why this doesn't go
+    through LEAGUES/fetch_and_parse like every other league). Mutates the
+    matching entries in data["matches"] in place. `cfg` is the
+    corresponding MATRIX_TEAMS[matrix_key] entry.
 
-    Network is only touched when at least one of Vélez's already-listed
-    matches with a kickoff time in the past still has no score recorded -
-    if every past Vélez match already has a real score, this returns
+    Network is only touched when at least one of this team's already-
+    listed matches with a kickoff time in the past still has no score
+    recorded - if every past match already has a real score, this returns
     without fetching anything. --force always fetches and re-checks every
-    Vélez match (past or future), same as everywhere else in this script."""
-    velez_matches = [
+    match for this team (past or future), same as everywhere else in this
+    script. debug=True prints every raw match_CODE_XXX/match_XXX_CODE cell
+    found on the page, for diagnosing a mismatch between what's actually
+    published and what fixtures.json expects."""
+    team_name = cfg["team_name"]
+    team_matches = [
         m for m in data.get("matches", [])
-        if m.get("league") == AFA_LIGA_PROFESIONAL_LEAGUE_KEY
-        and "Vélez" in (m.get("home") or "") + (m.get("away") or "")
+        if m.get("league") == cfg["league_key"]
+        and team_name in (m.get("home") or "") + (m.get("away") or "")
     ]
-    if not velez_matches:
+    if not team_matches:
         return
 
     today = now.date()
     stale = [
-        m for m in velez_matches
+        m for m in team_matches
         if m.get("date")
         and datetime.strptime(m["date"], "%Y-%m-%d").date() < today
-        and _afa_looks_unplayed(m.get("score"))
+        and _matrix_looks_unplayed(m.get("score"))
     ]
     if not stale and not force:
-        print(f"Skipping Vélez Sarsfield results - all {len(velez_matches)} stored "
+        print(f"Skipping {team_name} results - all {len(team_matches)} stored "
               f"matches with a past kickoff already have a score "
               f"(use --force to check anyway)")
         return
 
-    print(f"Fetching {AFA_LIGA_PROFESIONAL_PAGE} for Vélez Sarsfield results "
+    print(f"Fetching {cfg['wiki_page']} for {team_name} results "
           f"({len(stale)} past match(es) still missing a score) ...")
     try:
-        wikitext = fetch_page_wikitext(AFA_LIGA_PROFESIONAL_PAGE)
-        parsed = parse_afa_velez_results(wikitext)
+        wikitext = fetch_page_wikitext(cfg["wiki_page"])
+        parsed = parse_matrix_team_results(
+            wikitext, cfg["team_code"], team_name,
+            interzonal_heading=cfg.get("interzonal_heading"), debug=debug)
     except Exception as e:
-        print(f"  !! Vélez results fetch failed: {e}", file=sys.stderr)
+        print(f"  !! {team_name} results fetch failed: {e}", file=sys.stderr)
         return
 
     updated = 0
-    for m in velez_matches:
+    for m in team_matches:
         for home_aliases, away_aliases, score in parsed:
             if score is None:
                 continue
@@ -3126,8 +3261,8 @@ def update_velez_results(data, now, force=False):
                     m["score"] = score
                     updated += 1
                 break
-    print(f"  -> Vélez Sarsfield: {updated} result(s) updated from the results "
-          f"matrix / interzonal tables")
+    print(f"  -> {team_name}: {updated} result(s) updated from the results matrix"
+          f"{' / interzonal tables' if cfg.get('interzonal_heading') else ''}")
 
 
 def fetch_and_parse(cfg, key, cached=None, now=None):
@@ -3232,12 +3367,47 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
     raise ValueError(f"Unknown parser type '{parser_type}' for league '{key}'")
 
 
-def run(league_keys, force=False):
+def normalize_stored_team_names(data):
+    """One-time cleanup, run every time regardless of scrape window: strip
+    any footnote marker (see strip_team_note_markers) off home/away names
+    already sitting in fixtures.json from before this stripping existed in
+    the parsers. Without this, a club whose name was stored with a marker
+    on some already-scraped matches (e.g. "Warrington Wolves [a]") would
+    keep reading as a second, separate team from its own un-marked
+    matches forever, since those matches are outside the scrape window and
+    would otherwise never get re-parsed. Purely a string cleanup - doesn't
+    touch scores/dates/venues, and running it on already-clean names is a
+    no-op, so this is safe (and cheap - no network) to run unconditionally
+    every run."""
+    changed = 0
+    for m in data.get("matches", []):
+        for side in ("home", "away"):
+            name = m.get(side)
+            if name:
+                cleaned = strip_team_note_markers(name)
+                if cleaned != name:
+                    m[side] = cleaned
+                    changed += 1
+    for rows in data.get("attendance_tables", {}).values():
+        for row in rows:
+            name = row.get("team")
+            if name:
+                cleaned = strip_team_note_markers(name)
+                if cleaned != name:
+                    row["team"] = cleaned
+                    changed += 1
+    if changed:
+        print(f"Normalized {changed} stored team name(s) with a footnote marker "
+              f"(e.g. \"Team [a]\" -> \"Team\")")
+
+
+def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data = load_existing()
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
     data.setdefault("attendance_tables", {})
     now = datetime.now(timezone.utc)
+    normalize_stored_team_names(data)
 
     existing_by_league = {}
     for m in data.get("matches", []):
@@ -3359,14 +3529,18 @@ def run(league_keys, force=False):
             print(f"  !! attendance table failed: {e}", file=sys.stderr)
 
     # Not gated behind `key in league_keys` like the LEAGUES loop above -
-    # argentina-liga-profesional-2026 isn't a LEAGUES entry (see the
-    # comment above update_velez_results), so this always runs and decides
-    # for itself, from fixtures.json's own stored data, whether there's
-    # anything worth checking on Wikipedia this time.
-    try:
-        update_velez_results(data, now, force=force)
-    except Exception as e:
-        print(f"  !! Vélez results update failed: {e}", file=sys.stderr)
+    # none of MATRIX_TEAMS' league keys are LEAGUES entries (see the
+    # comment above MATRIX_TEAMS), so each of these always runs and
+    # decides for itself, from fixtures.json's own stored data, whether
+    # there's anything worth checking on Wikipedia this time.
+    debug_matrix = debug_matrix or set()
+    for matrix_key in (matrix_keys if matrix_keys is not None else list(MATRIX_TEAMS)):
+        cfg = MATRIX_TEAMS[matrix_key]
+        try:
+            update_matrix_team_results(
+                data, matrix_key, cfg, now, force=force, debug=(matrix_key in debug_matrix))
+        except Exception as e:
+            print(f"  !! {cfg['team_name']} results update failed: {e}", file=sys.stderr)
 
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
@@ -3383,11 +3557,58 @@ def main():
              "the scrape window (by default those leagues are skipped entirely - use "
              "this occasionally to catch newly-published fixtures or postponements)",
     )
+    parser.add_argument(
+        "--debug-matrix", nargs="*", choices=list(MATRIX_TEAMS), default=[], metavar="TEAM",
+        help="print every raw match_CODE_XXX/match_XXX_CODE cell found on the named "
+             "MATRIX_TEAMS entry's results page (velez, torpedo, ...) and how it was "
+             "interpreted, for diagnosing a mismatch between what's actually published "
+             "and what fixtures.json expects; give no names to debug all of them",
+    )
+    parser.add_argument(
+        "--matrix-only", choices=list(MATRIX_TEAMS), metavar="TEAM",
+        help="skip every LEAGUES fetch entirely and only run the named MATRIX_TEAMS "
+             "entry's results check - its league isn't a LEAGUES entry (see the comment "
+             "above MATRIX_TEAMS), so it can't be named as a normal league argument; "
+             "this is the fast way to check/debug just it without also fetching every "
+             "other league",
+    )
+    parser.add_argument(
+        "--debug-velez", action="store_true",
+        help="alias for --debug-matrix velez (kept for backwards compatibility)",
+    )
+    parser.add_argument(
+        "--velez-only", action="store_true",
+        help="alias for --matrix-only velez (kept for backwards compatibility)",
+    )
+    parser.add_argument(
+        "--debug-torpedo", action="store_true",
+        help="alias for --debug-matrix torpedo",
+    )
+    parser.add_argument(
+        "--torpedo-only", action="store_true",
+        help="alias for --matrix-only torpedo",
+    )
     args = parser.parse_args()
 
     if args.list:
         for key, cfg in LEAGUES.items():
             print(f"  {key:20s} {cfg['name']}")
+        return
+
+    debug_matrix = set(args.debug_matrix)
+    if args.debug_velez:
+        debug_matrix.add("velez")
+    if args.debug_torpedo:
+        debug_matrix.add("torpedo")
+
+    matrix_only = args.matrix_only
+    if args.velez_only:
+        matrix_only = "velez"
+    if args.torpedo_only:
+        matrix_only = "torpedo"
+
+    if matrix_only:
+        run([], force=args.force, debug_matrix=debug_matrix, matrix_keys=[matrix_only])
         return
 
     # Default (no leagues named) skips anything marked "completed" - those
@@ -3401,7 +3622,7 @@ def main():
         print("Use --list to see configured leagues.", file=sys.stderr)
         sys.exit(1)
 
-    run(keys, force=args.force)
+    run(keys, force=args.force, debug_matrix=debug_matrix)
 
 
 if __name__ == "__main__":
