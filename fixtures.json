@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T07:05:02+00:00",
+  "updated": "2026-08-02T07:16:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19572,6 +19572,30 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Northland",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 40,
+            "against": 14,
+            "diff": 26,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Hawke's Bay",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 52,
+            "against": 33,
+            "diff": 19,
+            "points": 5,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Waikato",
             "played": 1,
             "win": 1,
@@ -19641,7 +19665,7 @@
             "against": 38,
             "diff": -7,
             "points": 2,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Bay of Plenty",
@@ -19653,54 +19677,18 @@
             "against": 38,
             "diff": -12,
             "points": 1,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Hawke's Bay",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Manawatu",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Northland",
-            "played": 0,
-            "win": 0,
-            "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": "transparent"
           },
           {
             "team": "Wellington",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": 0,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 33,
+            "against": 52,
+            "diff": -19,
+            "points": 1,
             "highlight": "transparent"
           },
           {
@@ -19712,6 +19700,18 @@
             "for": 5,
             "against": 20,
             "diff": -15,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Manawatu",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 14,
+            "against": 40,
+            "diff": -26,
             "points": 0,
             "highlight": "transparent"
           },
