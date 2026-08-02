@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T08:00:03+00:00",
+  "updated": "2026-08-02T08:11:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18922,6 +18922,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Parramatta Eels",
+            "played": 19,
+            "win": 7,
+            "draw": 0,
+            "loss": 12,
+            "for": 365,
+            "against": 544,
+            "diff": -179,
+            "points": 20,
+            "highlight": "transparent"
+          },
+          {
             "team": "Gold Coast Titans",
             "played": 19,
             "win": 6,
@@ -18946,26 +18958,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Parramatta Eels",
-            "played": 18,
-            "win": 6,
-            "draw": 0,
-            "loss": 12,
-            "for": 349,
-            "against": 531,
-            "diff": -182,
-            "points": 18,
-            "highlight": "transparent"
-          },
-          {
             "team": "Wests Tigers",
-            "played": 19,
+            "played": 20,
             "win": 7,
             "draw": 0,
-            "loss": 12,
-            "for": 365,
-            "against": 573,
-            "diff": -208,
+            "loss": 13,
+            "for": 378,
+            "against": 589,
+            "diff": -211,
             "points": 18,
             "highlight": "transparent"
           },
