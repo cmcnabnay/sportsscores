@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T19:38:03+00:00",
+  "updated": "2026-08-03T00:46:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -5088,17 +5088,6 @@
       "attendance": "12784"
     },
     {
-      "league": "super-league-2026",
-      "home": "St Helens",
-      "away": "Warrington Wolves",
-      "score": "6–18",
-      "date": "2026-06-11",
-      "time": "20:00",
-      "utc": "2026-06-11T19:00:00+00:00",
-      "venue": "BrewDog Stadium",
-      "attendance": "11590"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Brazil",
       "away": "Belgium",
@@ -5119,6 +5108,17 @@
       "utc": "2026-06-11T12:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "St Helens",
+      "away": "Warrington Wolves",
+      "score": "6–18",
+      "date": "2026-06-11",
+      "time": "20:00",
+      "utc": "2026-06-11T19:00:00+00:00",
+      "venue": "BrewDog Stadium",
+      "attendance": "11590"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -5187,6 +5187,28 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Iran",
+      "away": "Argentina",
+      "score": "3-0",
+      "date": "2026-06-12",
+      "time": "20:00",
+      "utc": "2026-06-12T23:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Japan",
+      "away": "Poland",
+      "score": "3-2",
+      "date": "2026-06-12",
+      "time": "20:00",
+      "utc": "2026-06-12T12:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Dolphins",
       "away": "Sydney Roosters",
@@ -5218,28 +5240,6 @@
       "utc": "2026-06-12T19:00:00+00:00",
       "venue": "Sewell Group Craven Park",
       "attendance": "11408"
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Iran",
-      "away": "Argentina",
-      "score": "3-0",
-      "date": "2026-06-12",
-      "time": "20:00",
-      "utc": "2026-06-12T23:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Japan",
-      "away": "Poland",
-      "score": "3-2",
-      "date": "2026-06-12",
-      "time": "20:00",
-      "utc": "2026-06-12T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
     },
     {
       "league": "fivb-nations-league-2026",
@@ -5363,17 +5363,6 @@
       "attendance": "2413"
     },
     {
-      "league": "nrl-2026",
-      "home": "Parramatta Eels",
-      "away": "Canberra Raiders",
-      "score": "15–12",
-      "date": "2026-06-13",
-      "time": "19:30",
-      "utc": "2026-06-13T09:30:00+00:00",
-      "venue": "CommBank Stadium",
-      "attendance": "16657"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Turkey",
       "away": "Italy",
@@ -5383,6 +5372,17 @@
       "utc": "2026-06-13T23:30:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Parramatta Eels",
+      "away": "Canberra Raiders",
+      "score": "15–12",
+      "date": "2026-06-13",
+      "time": "19:30",
+      "utc": "2026-06-13T09:30:00+00:00",
+      "venue": "CommBank Stadium",
+      "attendance": "16657"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -5418,6 +5418,17 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Ukraine",
+      "away": "Poland",
+      "score": "2-3",
+      "date": "2026-06-14",
+      "time": "13:00",
+      "utc": "2026-06-14T05:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "efa-2026",
       "home": "Munich Ravens",
       "away": "Prague Lions",
@@ -5438,17 +5449,6 @@
       "utc": "2026-06-14T11:00:00+00:00",
       "venue": "Gladsaxe Stadium , Søborg",
       "attendance": "1593"
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Ukraine",
-      "away": "Poland",
-      "score": "2-3",
-      "date": "2026-06-14",
-      "time": "13:00",
-      "utc": "2026-06-14T05:00:00+00:00",
-      "venue": null,
-      "attendance": null
     },
     {
       "league": "afle-2026",
@@ -5979,17 +5979,6 @@
       "attendance": "14365"
     },
     {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Catalans Dragons",
-      "score": "18–16",
-      "date": "2026-06-25",
-      "time": "20:00",
-      "utc": "2026-06-25T19:00:00+00:00",
-      "venue": "Halliwell Jones Stadium",
-      "attendance": "8354"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Poland",
       "away": "Turkey",
@@ -5999,6 +5988,17 @@
       "utc": "2026-06-25T18:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Catalans Dragons",
+      "score": "18–16",
+      "date": "2026-06-25",
+      "time": "20:00",
+      "utc": "2026-06-25T19:00:00+00:00",
+      "venue": "Halliwell Jones Stadium",
+      "attendance": "8354"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -6078,6 +6078,28 @@
       "attendance": "25035"
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Belgium",
+      "away": "Germany",
+      "score": "1-3",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "utc": "2026-06-26T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Brazil",
+      "away": "Italy",
+      "score": "1-3",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "utc": "2026-06-26T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Brisbane Broncos",
       "away": "Sydney Roosters",
@@ -6109,28 +6131,6 @@
       "utc": "2026-06-26T19:00:00+00:00",
       "venue": "OneBore Stadium",
       "attendance": "8079"
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Belgium",
-      "away": "Germany",
-      "score": "1-3",
-      "date": "2026-06-26",
-      "time": "20:00",
-      "utc": "2026-06-26T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Brazil",
-      "away": "Italy",
-      "score": "1-3",
-      "date": "2026-06-26",
-      "time": "20:00",
-      "utc": "2026-06-26T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
     },
     {
       "league": "fivb-nations-league-2026",
@@ -6236,17 +6236,6 @@
       "attendance": null
     },
     {
-      "league": "super-league-2026",
-      "home": "Toulouse Olympique",
-      "away": "Leigh Leopards",
-      "score": "16–40",
-      "date": "2026-06-27",
-      "time": "17:00",
-      "utc": "2026-06-27T16:00:00+00:00",
-      "venue": "Stade Ernest Wallon",
-      "attendance": "3740"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "United States",
       "away": "Japan",
@@ -6267,6 +6256,17 @@
       "utc": "2026-06-27T15:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Toulouse Olympique",
+      "away": "Leigh Leopards",
+      "score": "16–40",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "utc": "2026-06-27T16:00:00+00:00",
+      "venue": "Stade Ernest Wallon",
+      "attendance": "3740"
     },
     {
       "league": "afle-2026",
@@ -6405,17 +6405,6 @@
       "attendance": null
     },
     {
-      "league": "efa-2026",
-      "home": "Munich Ravens",
-      "away": "Nordic Storm",
-      "score": "34 – 37",
-      "date": "2026-06-28",
-      "time": "13:00",
-      "utc": "2026-06-28T11:00:00+00:00",
-      "venue": "Sportpark Unterhaching , Unterhaching",
-      "attendance": "2772"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "China",
       "away": "Germany",
@@ -6436,6 +6425,17 @@
       "utc": "2026-06-28T11:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "efa-2026",
+      "home": "Munich Ravens",
+      "away": "Nordic Storm",
+      "score": "34 – 37",
+      "date": "2026-06-28",
+      "time": "13:00",
+      "utc": "2026-06-28T11:00:00+00:00",
+      "venue": "Sportpark Unterhaching , Unterhaching",
+      "attendance": "2772"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -8832,17 +8832,6 @@
       "attendance": "15437"
     },
     {
-      "league": "super-league-2026",
-      "home": "Bradford Bulls",
-      "away": "Wakefield Trinity",
-      "score": "12–26",
-      "date": "2026-07-16",
-      "time": "20:00",
-      "utc": "2026-07-16T19:00:00+00:00",
-      "venue": "Odsal Stadium",
-      "attendance": "7518"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Serbia",
       "away": "Ukraine",
@@ -8863,6 +8852,17 @@
       "utc": "2026-07-17T01:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Bradford Bulls",
+      "away": "Wakefield Trinity",
+      "score": "12–26",
+      "date": "2026-07-16",
+      "time": "20:00",
+      "utc": "2026-07-16T19:00:00+00:00",
+      "venue": "Odsal Stadium",
+      "attendance": "7518"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -8979,6 +8979,28 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Iran",
+      "away": "Slovenia",
+      "score": "0-3",
+      "date": "2026-07-17",
+      "time": "20:00",
+      "utc": "2026-07-17T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fivb-nations-league-2026",
+      "home": "Brazil",
+      "away": "Poland",
+      "score": "0-3",
+      "date": "2026-07-17",
+      "time": "20:00",
+      "utc": "2026-07-18T01:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Melbourne Storm",
@@ -9010,28 +9032,6 @@
       "utc": "2026-07-17T19:00:00+00:00",
       "venue": "BrewDog Stadium",
       "attendance": "9866"
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Iran",
-      "away": "Slovenia",
-      "score": "0-3",
-      "date": "2026-07-17",
-      "time": "20:00",
-      "utc": "2026-07-17T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Brazil",
-      "away": "Poland",
-      "score": "0-3",
-      "date": "2026-07-17",
-      "time": "20:00",
-      "utc": "2026-07-18T01:00:00+00:00",
-      "venue": null,
-      "attendance": null
     },
     {
       "league": "u20-jwc-2026",
@@ -9071,6 +9071,17 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Canada",
+      "away": "Cuba",
+      "score": "0-3",
+      "date": "2026-07-18",
+      "time": "13:00",
+      "utc": "2026-07-18T04:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Chile",
       "away": "Georgia",
@@ -9090,17 +9101,6 @@
       "time": "13:00",
       "utc": "2026-07-18T11:00:00+00:00",
       "venue": "Vélodrome Jacques-Anquetil , Paris",
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Canada",
-      "away": "Cuba",
-      "score": "0-3",
-      "date": "2026-07-18",
-      "time": "13:00",
-      "utc": "2026-07-18T04:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -9394,17 +9394,6 @@
       "attendance": "21262"
     },
     {
-      "league": "super-league-2026",
-      "home": "Toulouse Olympique",
-      "away": "York Knights",
-      "score": "30–22",
-      "date": "2026-07-18",
-      "time": "20:00",
-      "utc": "2026-07-18T19:00:00+00:00",
-      "venue": "Stade Ernest Wallon",
-      "attendance": "3450"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Serbia",
       "away": "Germany",
@@ -9425,6 +9414,17 @@
       "utc": "2026-07-19T01:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Toulouse Olympique",
+      "away": "York Knights",
+      "score": "30–22",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "utc": "2026-07-18T19:00:00+00:00",
+      "venue": "Stade Ernest Wallon",
+      "attendance": "3450"
     },
     {
       "league": "u20-jwc-2026",
@@ -9497,6 +9497,17 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Turkey",
+      "away": "Iran",
+      "score": "3-1",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "utc": "2026-07-19T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Lions",
@@ -9516,17 +9527,6 @@
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
       "venue": "FK Viktoria Stadion , Prague",
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Turkey",
-      "away": "Iran",
-      "score": "3-1",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "utc": "2026-07-19T11:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -10179,6 +10179,17 @@
       "attendance": null
     },
     {
+      "league": "fivb-nations-league-2026",
+      "home": "Slovenia",
+      "away": "Poland",
+      "score": "0-3",
+      "date": "2026-08-01",
+      "time": "15:00",
+      "utc": "2026-08-01T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Stormers XXIII",
       "away": "Sharks XV",
@@ -10209,17 +10220,6 @@
       "time": "15:00",
       "utc": "2026-08-01T14:00:00+00:00",
       "venue": "OneBore Stadium",
-      "attendance": null
-    },
-    {
-      "league": "fivb-nations-league-2026",
-      "home": "Slovenia",
-      "away": "Poland",
-      "score": "0-3",
-      "date": "2026-08-01",
-      "time": "15:00",
-      "utc": "2026-08-01T07:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -10322,17 +10322,6 @@
       "attendance": null
     },
     {
-      "league": "nrl-2026",
-      "home": "Brisbane Broncos",
-      "away": "Newcastle Knights",
-      "score": "6–30",
-      "date": "2026-08-01",
-      "time": "19:30",
-      "utc": "2026-08-01T09:30:00+00:00",
-      "venue": "Suncorp Stadium",
-      "attendance": "37538"
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "Japan",
       "away": "United States",
@@ -10342,6 +10331,17 @@
       "utc": "2026-08-01T11:30:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Brisbane Broncos",
+      "away": "Newcastle Knights",
+      "score": "6–30",
+      "date": "2026-08-01",
+      "time": "19:30",
+      "utc": "2026-08-01T09:30:00+00:00",
+      "venue": "Suncorp Stadium",
+      "attendance": "37538"
     },
     {
       "league": "super-league-2026",
@@ -10407,7 +10407,7 @@
       "time": "14:00",
       "utc": "2026-08-02T04:00:00+00:00",
       "venue": "Ocean Protect Stadium",
-      "attendance": null
+      "attendance": "14125"
     },
     {
       "league": "npc-2026",
