@@ -42,7 +42,13 @@ against their league's Wikipedia results-matrix page - currently Vélez
 Sarsfield (Argentina Liga Profesional) and Torpedo Moscow (Russian First
 League). See the MATRIX_TEAMS config and update_matrix_team_results()
 near the bottom of this file for why those leagues aren't in
-LEAGUES/fetch_and_parse like everything else above.
+LEAGUES/fetch_and_parse like everything else above. Each MATRIX_TEAMS
+entry can also carry its own "standings" config (same page/groups/phases
+shape as a LEAGUES entry's) - see update_matrix_league_standings(), called
+right alongside update_matrix_team_results() for the same reason. Argentina
+Liga Profesional's standings are split into Apertura/Clausura phases (each
+with a Zone A/Zone B table), which matches.html's round-picker lets the
+user switch between; the Russian First League's is a single flat table.
 
 Usage:
     python3 fetch_fixtures.py                 # fetch every configured league
@@ -2995,6 +3001,62 @@ def save(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+# Matches on/before this date, for these two leagues, were fetched before
+# parse_wikitable_matches's swap_home_away score-flip fix landed (see the
+# comment on that code, and on afle-2026/efa-2026's LEAGUES entries).
+# AFLE weeks 1-8 and EFA weeks 1-9 both happen to end on the same
+# date (both leagues played a week 11-12 July round; AFLE's week 9 and
+# EFA's week 10 both start 18-19 July) - confirmed against the leagues'
+# published week-by-week schedules. Matches on/before this date have their
+# home/away team labels right, but "score" is still stored in the raw
+# away-first order the wiki page's Result column uses, instead of the
+# home-first order matches.html assumes (m.score.split(...)[0] = home
+# score) - see FIX_EARLY_SCORE_ORDER_LEAGUES below and
+# fix_early_score_order().
+FIX_EARLY_SCORE_ORDER_LEAGUES = {
+    "afle-2026": "2026-07-12",
+    "efa-2026": "2026-07-12",
+}
+
+
+def fix_early_score_order(data):
+    """One-time repair for matches fetched before the swap_home_away
+    score-flip fix (see FIX_EARLY_SCORE_ORDER_LEAGUES above): these
+    matches are outside the normal scrape window (already played) and so
+    never get re-parsed by a normal run - merge_league_matches() only
+    ever refreshes a match's stored fields while it's still within the
+    scrape window - which is why the bug persisted for them after the
+    parser itself was fixed. This flips just the two score numbers (home
+    and away team labels are already correct - only the score digit
+    order is wrong) for every affected league's matches on or before its
+    cutoff date.
+
+    NOT idempotent - the whole point is to flip a value that's currently
+    backwards, so running this a second time on already-fixed data would
+    flip it right back to wrong. That's why it's wired up as its own
+    explicit --fix-early-scores CLI flag rather than something every
+    normal run does automatically; run it once, then never again unless
+    fixtures.json gets reset from an older backup.
+
+    Returns the number of matches whose score was flipped.
+    """
+    fixed = 0
+    for m in data.get("matches", []):
+        cutoff = FIX_EARLY_SCORE_ORDER_LEAGUES.get(m.get("league"))
+        if not cutoff or not m.get("date") or m["date"] > cutoff:
+            continue
+        score = m.get("score")
+        if not score:
+            continue
+        sm = re.match(r"^\s*(\d{1,3})\s*[-\u2013]\s*(\d{1,3})\s*$", score)
+        if not sm:
+            # Already-null/unplayed/malformed score - nothing to flip.
+            continue
+        m["score"] = f"{sm.group(2)}-{sm.group(1)}"
+        fixed += 1
+    return fixed
+
+
 # ---------------------------------------------------------------------------
 # Single-team results-matrix updates - deliberately NOT LEAGUES entries.
 # Some Wikipedia league pages publish results only as a big round-robin
@@ -3024,6 +3086,26 @@ MATRIX_TEAMS = {
         # This page's matrix is split into two Zone templates plus two
         # separate "Interzonal matches" wikitables for cross-zone games.
         "interzonal_heading": "Interzonal matches",
+        # The season is split into two independent tournaments (Torneo
+        # Apertura, Torneo Clausura), each with its own "Standings" section
+        # containing a Zone A and Zone B table. This reuses the same
+        # "phases" shape as the FIBA LEAGUES entries above (see the module
+        # comment there) - fetch_standings()/fetch_phased_standings() don't
+        # care that this cfg lives in MATRIX_TEAMS rather than LEAGUES,
+        # they just read cfg["standings"]. Each phase's heading_id list
+        # auto-collects whatever standings-shaped tables sit under it
+        # (i.e. both zones), so "Zone A"/"Zone B" don't need to be spelled
+        # out explicitly - see collect_subsection_tables(). Group labels
+        # come out as "Apertura · Zone A", "Clausura · Zone B", etc.,
+        # which matches.html's round-picker splits on to let the user
+        # switch between Apertura and Clausura.
+        "standings": {
+            "page": "2026_AFA_Liga_Profesional_de_Fútbol",
+            "phases": [
+                {"label": "Apertura", "heading_id": ["Torneo_Apertura", "Apertura"]},
+                {"label": "Clausura", "heading_id": ["Torneo_Clausura", "Clausura"]},
+            ],
+        },
     },
     "torpedo": {
         "team_name": "Torpedo Moscow",
@@ -3032,6 +3114,15 @@ MATRIX_TEAMS = {
         "league_key": "russian-first-league-2026-27",
         # Single 18-team round-robin grid, no separate interzonal tables.
         "interzonal_heading": None,
+        # Single flat table (no Apertura/Clausura-style split), so this
+        # just needs one "groups" entry - same shape as e.g. Currie Cup's
+        # standings config in LEAGUES above.
+        "standings": {
+            "page": "2026–27_Russian_First_League",
+            "groups": [
+                {"label": "Table", "heading_ids": ["League_table", "Table", "Standings"]},
+            ],
+        },
     },
 }
 
@@ -3206,6 +3297,35 @@ def parse_matrix_team_results(wikitext, team_code, team_name, interzonal_heading
 
 def _matrix_looks_unplayed(score):
     return not (score and re.match(r"^\d+-\d+$", score.strip()))
+
+
+def update_matrix_league_standings(data, cfg):
+    """Fetch a MATRIX_TEAMS league's standings (see the module comment
+    above MATRIX_TEAMS for why leagues like Argentina Liga Profesional and
+    the Russian First League aren't LEAGUES entries) and store them under
+    cfg["league_key"] in data["standings"], exactly where matches.html
+    expects to find any other league's standings. `cfg["standings"]` uses
+    the same shape (page/groups/phases) as a LEAGUES entry's "standings"
+    config, so this just calls fetch_standings() directly rather than
+    going through the LEAGUES-only loop in run(). A league with no
+    "standings" key configured is silently skipped. Always re-fetched
+    every run, same reasoning as the LEAGUES standings fetch: a
+    stale/mismatched heading id should get another chance next run rather
+    than silently going stale forever, regardless of whether this team's
+    own fixtures (update_matrix_team_results) found anything worth
+    re-checking this time.
+    """
+    standings_cfg = cfg.get("standings")
+    if not standings_cfg:
+        return
+    league_key = cfg["league_key"]
+    try:
+        standings = fetch_standings(cfg, league_key)
+        if standings:
+            data["standings"][league_key] = standings
+            print(f"  -> standings: {len(standings)} table(s) for {cfg['team_name']}'s league")
+    except Exception as e:
+        print(f"  !! standings failed for {cfg['team_name']}'s league: {e}", file=sys.stderr)
 
 
 def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=False):
@@ -3548,6 +3668,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 data, matrix_key, cfg, now, force=force, debug=(matrix_key in debug_matrix))
         except Exception as e:
             print(f"  !! {cfg['team_name']} results update failed: {e}", file=sys.stderr)
+        update_matrix_league_standings(data, cfg)
 
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
@@ -3595,7 +3716,23 @@ def main():
         "--torpedo-only", action="store_true",
         help="alias for --matrix-only torpedo",
     )
+    parser.add_argument(
+        "--fix-early-scores", action="store_true",
+        help="one-time repair: flip the score digit order on AFLE weeks 1-8 and "
+             "EFA weeks 1-9 matches (see FIX_EARLY_SCORE_ORDER_LEAGUES/"
+             "fix_early_score_order()) - these were fetched before the "
+             "swap_home_away score-flip fix and are outside the normal scrape "
+             "window, so a normal run never touches them. Does nothing else and "
+             "exits immediately after saving; run it once, not every time.",
+    )
     args = parser.parse_args()
+
+    if args.fix_early_scores:
+        data = load_existing()
+        fixed = fix_early_score_order(data)
+        save(data)
+        print(f"Fixed score order on {fixed} match(es); wrote {OUTPUT_FILE}")
+        return
 
     if args.list:
         for key, cfg in LEAGUES.items():
