@@ -336,6 +336,12 @@ LEAGUES = {
         "sport": "volleyball",
         "parser": "fivb_template",
         "year": 2026,
+        # Tournament finished (Finals concluded 2026-08-02) - stop
+        # re-fetching on every default run, same treatment as
+        # u20-jwc-2026 above. Stored matches/standings are left exactly
+        # as-is; run `python3 fetch_fixtures.py fivb-nations-league-2026
+        # --force` manually if a correction ever needs to be pulled in.
+        "completed": True,
         # no single utc_offset - each pool states its own timezone in the
         # wikitext ("All times are ... (UTC-04:00)"), parsed per-match
         "standings": {
@@ -3439,7 +3445,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                   f"matches falls within the scrape window; reusing as-is "
                   f"(use --force to check anyway)")
             data["matches"].extend(cached)
-            data["leagues"].setdefault(key, {"name": cfg["name"], "sport": cfg["sport"]})
+            data["leagues"].setdefault(
+                key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
             # Standings are NOT tied to the fixture scrape window above - a
             # ladder/table can change every time a match is played regardless
             # of whether any of THIS league's remaining fixtures happen to
@@ -3498,7 +3505,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                   f"{len(merged)} total now stored (was {len(cached)})")
 
             data["matches"].extend(merged)
-            data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"]}
+            data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
             # Fetch failed outright - keep whatever was already stored

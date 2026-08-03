@@ -122,44 +122,6 @@
     margin-bottom: 16px;
     overflow: hidden;
   }
-  .league-scroller-row {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    margin: 0 0 4px;
-  }
-  .scroller-arrow {
-    flex: 0 0 auto;
-    border: none;
-    background: white;
-    color: var(--navy);
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    font-size: 14px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .scroller-arrow:disabled { opacity: 0.3; cursor: default; }
-  .league-scroller {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    padding: 2px 4px 12px;
-    flex: 1;
-    min-width: 0;
-  }
-  .league-scroller::-webkit-scrollbar { height: 6px; }
-  .league-scroller::-webkit-scrollbar-thumb {
-    background: #c7cedb;
-    border-radius: 3px;
-  }
   .round-picker {
     display: flex;
     gap: 6px;
@@ -193,13 +155,40 @@
     margin-right: 5px;
     vertical-align: -1px;
   }
-  .league-pill {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
+  /* Standings/Attendance league picker - a dropdown (instead of the
+     horizontal pill-scroller used elsewhere) plus an "Archived" toggle
+     that swaps the dropdown's contents over to completed leagues. */
+  .league-select-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 12px;
+  }
+  .league-select-dropdown {
+    flex: 1;
+    min-width: 0;
     border: none;
     background: white;
     color: var(--navy);
-    padding: 7px 16px;
+    padding: 8px 34px 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(11,31,58,0.12);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%230b1f3a'%3E%3Cpath d='M5.5 7.5l4.5 4.5 4.5-4.5' stroke='%230b1f3a' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+  }
+  .archive-toggle-btn {
+    flex: 0 0 auto;
+    border: none;
+    background: white;
+    color: var(--grey);
+    padding: 8px 16px;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -207,8 +196,8 @@
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(11,31,58,0.12);
   }
-  .league-pill.active {
-    background: var(--navy);
+  .archive-toggle-btn.active {
+    background: var(--red);
     color: white;
   }
   .standings-group h3 {
@@ -474,8 +463,10 @@ let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
 let attendanceTables = {}; // { leagueKey: [ {team, games, total, average}, ... ] } - official scraped tables (currently just NRL)
 let currentView = 'fixtures'; // 'fixtures' | 'standings' | 'attendance'
-let standingsLeagueKey = null; // which league's pill is active in the Standings view
-let attendanceLeagueKey = null; // which league's pill is active in the Attendance view
+let standingsLeagueKey = null; // which league is selected in the Standings view
+let attendanceLeagueKey = null; // which league is selected in the Attendance view
+let standingsShowArchived = false; // Standings view: dropdown showing completed leagues instead of active ones
+let attendanceShowArchived = false; // Attendance view: same, independent of the Standings toggle
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
@@ -820,11 +811,59 @@ function splitBreadcrumb(groupLabel) {
   return { roundPath: parts.slice(0, -1).join(BREADCRUMB_SEP), group: parts[parts.length - 1] };
 }
 
+// Split a list of league keys (that already have data worth showing) into
+// the normal ("active") set and the completed ("archived") set, per
+// fixtures.json's leagues[key].completed - see fetch_fixtures.py's
+// LEAGUES[...].completed for where that flag originates. A finished
+// tournament only ever shows up in the archived split, never mixed into
+// the everyday one.
+function splitArchivedLeagueKeys(allKeys) {
+  const archived = allKeys.filter(key => leagues[key] && leagues[key].completed);
+  const active = allKeys.filter(key => !(leagues[key] && leagues[key].completed));
+  return { active, archived };
+}
+
+// Shared league picker for the Standings and Attendance views: a dropdown
+// (instead of the old horizontal pill-scroller) for `visibleKeys`, plus -
+// only when `archivedCount` is non-zero - an "Archived" toggle button so a
+// finished tournament's final table stays reachable without cluttering the
+// everyday dropdown. Pure render: all "which list/key is active" decisions
+// are made by the caller and passed in; onToggleArchived/onSelect just
+// report the click back.
+function renderLeagueSelector(view, { visibleKeys, activeKey, archivedCount, showArchived, onToggleArchived, onSelect }) {
+  const row = document.createElement('div');
+  row.className = 'league-select-row';
+
+  if (archivedCount) {
+    const archiveBtn = document.createElement('button');
+    archiveBtn.className = 'archive-toggle-btn' + (showArchived ? ' active' : '');
+    archiveBtn.textContent = 'Archived';
+    archiveBtn.setAttribute('aria-pressed', String(showArchived));
+    archiveBtn.addEventListener('click', onToggleArchived);
+    row.appendChild(archiveBtn);
+  }
+
+  const select = document.createElement('select');
+  select.className = 'league-select-dropdown';
+  select.setAttribute('aria-label', 'Select league');
+  for (const key of visibleKeys) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = (leagues[key] && leagues[key].name) || key;
+    select.appendChild(opt);
+  }
+  select.value = activeKey;
+  select.addEventListener('change', () => onSelect(select.value));
+  row.appendChild(select);
+
+  view.appendChild(row);
+}
+
 function renderStandings() {
   standingsView.innerHTML = '';
 
   // Only leagues that actually have at least one non-empty standings
-  // group are worth a pill - a league whose scrape failed/hasn't run
+  // group are worth listing - a league whose scrape failed/hasn't run
   // yet just doesn't show up here rather than showing an empty tab.
   const leagueKeys = Object.keys(standings).filter(
     key => Object.values(standings[key] || {}).some(g => groupRows(g).length)
@@ -835,60 +874,36 @@ function renderStandings() {
     return;
   }
 
-  // Keep whatever league is currently selected if it still has
-  // standings; otherwise fall back to the Fixtures view's league filter
-  // (if it names a real league); otherwise just the first available one.
-  if (!standingsLeagueKey || !leagueKeys.includes(standingsLeagueKey)) {
-    standingsLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+  const { active, archived } = splitArchivedLeagueKeys(leagueKeys);
+  // Nothing to show in the normal list (e.g. every league with standings
+  // on record happens to be archived) - fall into Archived instead of an
+  // empty dropdown.
+  if (!active.length && archived.length) standingsShowArchived = true;
+  const visibleKeys = standingsShowArchived ? archived : active;
+
+  // Keep whatever league is currently selected if it's still in the
+  // visible (active/archived) list; otherwise fall back to the Fixtures
+  // view's league filter (if it names a league in that list); otherwise
+  // just the first one available.
+  if (!standingsLeagueKey || !visibleKeys.includes(standingsLeagueKey)) {
+    standingsLeagueKey = visibleKeys.includes(leagueSelect.value) ? leagueSelect.value : visibleKeys[0];
   }
 
-  const row = document.createElement('div');
-  row.className = 'league-scroller-row';
-
-  const leftArrow = document.createElement('button');
-  leftArrow.className = 'scroller-arrow';
-  leftArrow.setAttribute('aria-label', 'Scroll leagues left');
-  leftArrow.textContent = '\u2039';
-
-  const scroller = document.createElement('div');
-  scroller.className = 'league-scroller';
-  for (const key of leagueKeys) {
-    const btn = document.createElement('button');
-    btn.className = 'league-pill' + (key === standingsLeagueKey ? ' active' : '');
-    btn.textContent = (leagues[key] && leagues[key].name) || key;
-    btn.addEventListener('click', () => {
+  renderLeagueSelector(standingsView, {
+    visibleKeys,
+    activeKey: standingsLeagueKey,
+    archivedCount: archived.length,
+    showArchived: standingsShowArchived,
+    onToggleArchived: () => {
+      standingsShowArchived = !standingsShowArchived;
+      standingsLeagueKey = null;
+      renderStandings();
+    },
+    onSelect: (key) => {
       standingsLeagueKey = key;
       renderStandings();
-    });
-    scroller.appendChild(btn);
-  }
-
-  const rightArrow = document.createElement('button');
-  rightArrow.className = 'scroller-arrow';
-  rightArrow.setAttribute('aria-label', 'Scroll leagues right');
-  rightArrow.textContent = '\u203a';
-
-  const updateArrows = () => {
-    leftArrow.disabled = scroller.scrollLeft <= 0;
-    rightArrow.disabled = scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 1;
-  };
-  leftArrow.addEventListener('click', () => scroller.scrollBy({ left: -160, behavior: 'smooth' }));
-  rightArrow.addEventListener('click', () => scroller.scrollBy({ left: 160, behavior: 'smooth' }));
-  scroller.addEventListener('scroll', updateArrows);
-
-  row.appendChild(leftArrow);
-  row.appendChild(scroller);
-  row.appendChild(rightArrow);
-  standingsView.appendChild(row);
-
-  // Scroll the active pill into view (e.g. after the underlying league
-  // list re-renders) so it's never hidden off-screen to the right.
-  const activePill = scroller.querySelector('.league-pill.active');
-  if (activePill && typeof activePill.scrollIntoView === 'function') {
-    activePill.scrollIntoView({ block: 'nearest', inline: 'center' });
-  }
-  // Defer so layout has settled before measuring scrollWidth/clientWidth.
-  setTimeout(updateArrows, 0);
+    },
+  });
 
   const leagueName = (leagues[standingsLeagueKey] && leagues[standingsLeagueKey].name) || standingsLeagueKey;
   const groups = standings[standingsLeagueKey] || {};
@@ -1164,9 +1179,10 @@ function attachAttendanceTableHandlers(container, leagueKey) {
 function renderAttendance() {
   attendanceView.innerHTML = '';
 
-  // A league qualifies for a pill if it either has an official scraped
-  // attendance table, or at least one played home match with a recorded
-  // attendance figure - same "don't show an empty tab" rule as Standings.
+  // A league qualifies for the dropdown if it either has an official
+  // scraped attendance table, or at least one played home match with a
+  // recorded attendance figure - same "don't show an empty tab" rule as
+  // Standings.
   const leagueKeys = Object.keys(leagues).filter(key => {
     if ((attendanceTables[key] || []).length) return true;
     return computeAttendanceStats(key).some(r => r.withAttendance > 0);
@@ -1177,54 +1193,29 @@ function renderAttendance() {
     return;
   }
 
-  if (!attendanceLeagueKey || !leagueKeys.includes(attendanceLeagueKey)) {
-    attendanceLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+  const { active, archived } = splitArchivedLeagueKeys(leagueKeys);
+  if (!active.length && archived.length) attendanceShowArchived = true;
+  const visibleKeys = attendanceShowArchived ? archived : active;
+
+  if (!attendanceLeagueKey || !visibleKeys.includes(attendanceLeagueKey)) {
+    attendanceLeagueKey = visibleKeys.includes(leagueSelect.value) ? leagueSelect.value : visibleKeys[0];
   }
 
-  const row = document.createElement('div');
-  row.className = 'league-scroller-row';
-
-  const leftArrow = document.createElement('button');
-  leftArrow.className = 'scroller-arrow';
-  leftArrow.setAttribute('aria-label', 'Scroll leagues left');
-  leftArrow.textContent = '\u2039';
-
-  const scroller = document.createElement('div');
-  scroller.className = 'league-scroller';
-  for (const key of leagueKeys) {
-    const btn = document.createElement('button');
-    btn.className = 'league-pill' + (key === attendanceLeagueKey ? ' active' : '');
-    btn.textContent = (leagues[key] && leagues[key].name) || key;
-    btn.addEventListener('click', () => {
+  renderLeagueSelector(attendanceView, {
+    visibleKeys,
+    activeKey: attendanceLeagueKey,
+    archivedCount: archived.length,
+    showArchived: attendanceShowArchived,
+    onToggleArchived: () => {
+      attendanceShowArchived = !attendanceShowArchived;
+      attendanceLeagueKey = null;
+      renderAttendance();
+    },
+    onSelect: (key) => {
       attendanceLeagueKey = key;
       renderAttendance();
-    });
-    scroller.appendChild(btn);
-  }
-
-  const rightArrow = document.createElement('button');
-  rightArrow.className = 'scroller-arrow';
-  rightArrow.setAttribute('aria-label', 'Scroll leagues right');
-  rightArrow.textContent = '\u203a';
-
-  const updateArrows = () => {
-    leftArrow.disabled = scroller.scrollLeft <= 0;
-    rightArrow.disabled = scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 1;
-  };
-  leftArrow.addEventListener('click', () => scroller.scrollBy({ left: -160, behavior: 'smooth' }));
-  rightArrow.addEventListener('click', () => scroller.scrollBy({ left: 160, behavior: 'smooth' }));
-  scroller.addEventListener('scroll', updateArrows);
-
-  row.appendChild(leftArrow);
-  row.appendChild(scroller);
-  row.appendChild(rightArrow);
-  attendanceView.appendChild(row);
-
-  const activePill = scroller.querySelector('.league-pill.active');
-  if (activePill && typeof activePill.scrollIntoView === 'function') {
-    activePill.scrollIntoView({ block: 'nearest', inline: 'center' });
-  }
-  setTimeout(updateArrows, 0);
+    },
+  });
 
   const leagueName = (leagues[attendanceLeagueKey] && leagues[attendanceLeagueKey].name) || attendanceLeagueKey;
   const officialRows = attendanceTables[attendanceLeagueKey];

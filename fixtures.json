@@ -1,77 +1,95 @@
 {
-  "updated": "2026-08-03T00:36:02+00:00",
+  "updated": "2026-08-02T19:38:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
-      "sport": "rugby"
+      "sport": "rugby",
+      "completed": true
     },
     "nations-championship-2026": {
       "name": "Rugby Nations Championship 2026",
-      "sport": "rugby"
+      "sport": "rugby",
+      "completed": false
     },
     "nrl-2026": {
       "name": "NRL 2026",
-      "sport": "rugby-league"
+      "sport": "rugby-league",
+      "completed": false
     },
     "afle-2026": {
       "name": "American Football League Europe 2026",
-      "sport": "american-football"
+      "sport": "american-football",
+      "completed": false
     },
     "efa-2026": {
       "name": "European Football Alliance 2026",
-      "sport": "american-football"
+      "sport": "american-football",
+      "completed": false
     },
     "super-league-2026": {
       "name": "Super League Rugby 2026",
-      "sport": "rugby-league"
+      "sport": "rugby-league",
+      "completed": false
     },
     "fivb-nations-league-2026": {
       "name": "FIVB Men's Volleyball Nations League 2026",
-      "sport": "volleyball"
+      "sport": "volleyball",
+      "completed": true
     },
     "nations-cup-2026": {
       "name": "World Rugby Nations Cup 2026",
-      "sport": "rugby"
+      "sport": "rugby",
+      "completed": false
     },
     "cfl-2026": {
       "name": "CFL 2026",
-      "sport": "canadian-football"
+      "sport": "canadian-football",
+      "completed": false
     },
     "fiba-wcq-africa-2027": {
       "name": "FIBA Basketball World Cup 2027 Qualification - Africa",
-      "sport": "basketball"
+      "sport": "basketball",
+      "completed": false
     },
     "fiba-wcq-americas-2027": {
       "name": "FIBA Basketball World Cup 2027 Qualification - Americas",
-      "sport": "basketball"
+      "sport": "basketball",
+      "completed": false
     },
     "fiba-wcq-asia-2027": {
       "name": "FIBA Basketball World Cup 2027 Qualification - Asia",
-      "sport": "basketball"
+      "sport": "basketball",
+      "completed": false
     },
     "fiba-wcq-europe-2027": {
       "name": "FIBA Basketball World Cup 2027 Qualification - Europe",
-      "sport": "basketball"
+      "sport": "basketball",
+      "completed": false
     },
     "currie-cup-2026": {
       "name": "Currie Cup Premier Division 2026",
-      "sport": "rugby"
+      "sport": "rugby",
+      "completed": false
     },
     "argentina-liga-profesional-2026": {
       "name": "Liga Profesional Argentina 2026",
-      "sport": "football"
+      "sport": "football",
+      "completed": false
     },
     "copa-argentina-2026": {
       "name": "Copa Argentina 2026",
-      "sport": "football"
+      "sport": "football",
+      "completed": false
     },
     "npc-2026": {
       "name": "2026 National Provincial Championship",
-      "sport": "rugby"
+      "sport": "rugby",
+      "completed": false
     },
     "russian-first-league-2026-27": {
       "name": "Russian First League 2026–27",
-      "sport": "football"
+      "sport": "football",
+      "completed": false
     }
   },
   "matches": [
@@ -10389,7 +10407,7 @@
       "time": "14:00",
       "utc": "2026-08-02T04:00:00+00:00",
       "venue": "Ocean Protect Stadium",
-      "attendance": "14125"
+      "attendance": null
     },
     {
       "league": "npc-2026",
@@ -10466,6 +10484,17 @@
       "time": "19:30",
       "utc": "2026-08-02T11:30:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "afle-2026",
+      "home": "Firenze Red Lions",
+      "away": "Paris Lights",
+      "score": null,
+      "date": "2026-08-02",
+      "time": null,
+      "utc": null,
+      "venue": "Stadio Gino Bozzi , Florence",
       "attendance": null
     },
     {
