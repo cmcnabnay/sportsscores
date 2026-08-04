@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T15:04:16+00:00",
+  "updated": "2026-08-04T03:55:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10231,7 +10231,7 @@
       "time": "15:00",
       "utc": "2026-08-01T19:00:00+00:00",
       "venue": "Hamilton Stadium",
-      "attendance": null
+      "attendance": "20026"
     },
     {
       "league": "cfl-2026",
@@ -10297,7 +10297,7 @@
       "time": "17:30",
       "utc": "2026-08-01T16:30:00+00:00",
       "venue": "York Community Stadium",
-      "attendance": null
+      "attendance": "6136"
     },
     {
       "league": "afle-2026",
@@ -10347,7 +10347,7 @@
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "Wakefield Trinity",
-      "score": "12–30",
+      "score": "12–32",
       "date": "2026-08-01",
       "time": "20:00",
       "utc": "2026-08-01T19:00:00+00:00",
@@ -10501,7 +10501,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Independiente",
-      "score": "-",
+      "score": "1-0",
       "date": "2026-08-03",
       "time": "19:00",
       "utc": "2026-08-03T22:00:00+00:00",
@@ -20502,30 +20502,30 @@
         "rows": [
           {
             "team": "Vélez Sarsfield",
-            "played": 2,
-            "win": 2,
+            "played": 3,
+            "win": 3,
             "draw": 0,
             "loss": 0,
-            "for": 4,
+            "for": 5,
             "against": 1,
-            "diff": 3,
+            "diff": 4,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 3,
+            "against": 1,
+            "diff": 2,
             "points": 6,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Independiente",
-            "played": 2,
-            "win": 2,
-            "draw": 0,
-            "loss": 0,
-            "for": 3,
-            "against": 0,
-            "diff": 3,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
             "played": 3,
             "win": 2,
             "draw": 0,
@@ -20573,6 +20573,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Talleres (C)",
+            "played": 3,
+            "win": 1,
+            "draw": 0,
+            "loss": 2,
+            "for": 5,
+            "against": 4,
+            "diff": 1,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Deportivo Riestra",
             "played": 3,
             "win": 1,
@@ -20594,7 +20606,7 @@
             "against": 2,
             "diff": 1,
             "points": 3,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Lanús",
@@ -20610,26 +20622,26 @@
           },
           {
             "team": "San Lorenzo",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": 0,
-            "loss": 1,
+            "loss": 2,
             "for": 1,
-            "against": 1,
-            "diff": 0,
+            "against": 2,
+            "diff": -1,
             "points": 3,
             "highlight": "transparent"
           },
           {
-            "team": "Platense",
-            "played": 2,
-            "win": 0,
-            "draw": 1,
-            "loss": 1,
-            "for": 3,
-            "against": 4,
-            "diff": -1,
-            "points": 1,
+            "team": "Central Córdoba (SdE)",
+            "played": 3,
+            "win": 1,
+            "draw": 0,
+            "loss": 2,
+            "for": 1,
+            "against": 3,
+            "diff": -2,
+            "points": 3,
             "highlight": "transparent"
           },
           {
@@ -20657,27 +20669,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Talleres (C)",
-            "played": 2,
+            "team": "Platense",
+            "played": 3,
             "win": 0,
-            "draw": 0,
+            "draw": 1,
             "loss": 2,
-            "for": 1,
-            "against": 4,
-            "diff": -3,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Central Córdoba (SdE)",
-            "played": 2,
-            "win": 0,
-            "draw": 0,
-            "loss": 2,
-            "for": 0,
-            "against": 3,
-            "diff": -3,
-            "points": 0,
+            "for": 3,
+            "against": 8,
+            "diff": -5,
+            "points": 1,
             "highlight": "transparent"
           }
         ],
@@ -20723,26 +20723,14 @@
           },
           {
             "team": "Atlético Tucumán",
-            "played": 2,
+            "played": 3,
             "win": 1,
-            "draw": 1,
+            "draw": 2,
             "loss": 0,
             "for": 2,
             "against": 0,
             "diff": 2,
-            "points": 4,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Independiente Rivadavia",
-            "played": 2,
-            "win": 1,
-            "draw": 1,
-            "loss": 0,
-            "for": 2,
-            "against": 1,
-            "diff": 1,
-            "points": 4,
+            "points": 5,
             "highlight": "#BBF3BB"
           },
           {
@@ -20753,6 +20741,30 @@
             "loss": 1,
             "for": 3,
             "against": 3,
+            "diff": 0,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Independiente Rivadavia",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 3,
+            "against": 3,
+            "diff": 0,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Huracán",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 2,
+            "against": 2,
             "diff": 0,
             "points": 4,
             "highlight": "#BBF3BB"
@@ -20779,7 +20791,7 @@
             "against": 4,
             "diff": -1,
             "points": 4,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Estudiantes (RC)",
@@ -20818,14 +20830,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Huracán",
-            "played": 2,
+            "team": "Sarmiento (J)",
+            "played": 3,
             "win": 1,
             "draw": 0,
-            "loss": 1,
-            "for": 2,
-            "against": 2,
-            "diff": 0,
+            "loss": 2,
+            "for": 6,
+            "against": 7,
+            "diff": -1,
             "points": 3,
             "highlight": "transparent"
           },
@@ -20839,18 +20851,6 @@
             "against": 4,
             "diff": -2,
             "points": 1,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sarmiento (J)",
-            "played": 2,
-            "win": 0,
-            "draw": 0,
-            "loss": 2,
-            "for": 4,
-            "against": 6,
-            "diff": -2,
-            "points": 0,
             "highlight": "transparent"
           },
           {
@@ -20885,6 +20885,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Veles Moscow",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 5,
+            "against": 5,
+            "diff": 0,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Spartak Kostroma",
             "played": 4,
             "win": 2,
@@ -20894,7 +20906,19 @@
             "against": 3,
             "diff": 4,
             "points": 8,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Ufa",
+            "played": 4,
+            "win": 2,
+            "draw": 2,
+            "loss": 0,
+            "for": 7,
+            "against": 3,
+            "diff": 4,
+            "points": 8,
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Ural Yekaterinburg",
@@ -20906,19 +20930,7 @@
             "against": 1,
             "diff": 5,
             "points": 7,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Ufa",
-            "played": 3,
-            "win": 2,
-            "draw": 1,
-            "loss": 0,
-            "for": 6,
-            "against": 2,
-            "diff": 4,
-            "points": 7,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Torpedo Moscow",
@@ -20958,25 +20970,13 @@
           },
           {
             "team": "Rotor Volgograd",
-            "played": 3,
+            "played": 4,
             "win": 2,
             "draw": 0,
-            "loss": 1,
-            "for": 5,
-            "against": 4,
-            "diff": 1,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Veles Moscow",
-            "played": 3,
-            "win": 2,
-            "draw": 0,
-            "loss": 1,
-            "for": 3,
-            "against": 4,
-            "diff": -1,
+            "loss": 2,
+            "for": 6,
+            "against": 6,
+            "diff": 0,
             "points": 6,
             "highlight": "transparent"
           },
@@ -21066,14 +21066,14 @@
           },
           {
             "team": "KAMAZ Naberezhnye Chelny",
-            "played": 3,
+            "played": 4,
             "win": 0,
-            "draw": 0,
+            "draw": 1,
             "loss": 3,
-            "for": 2,
-            "against": 7,
+            "for": 3,
+            "against": 8,
             "diff": -5,
-            "points": 0,
+            "points": 1,
             "highlight": "#FFBBBB"
           },
           {
