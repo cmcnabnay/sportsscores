@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T08:19:03+00:00",
+  "updated": "2026-08-05T04:48:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19608,18 +19608,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "e – Prague Lions",
-            "played": 9,
-            "win": 2,
-            "draw": null,
-            "loss": 7,
-            "for": 189,
-            "against": 361,
-            "diff": -172,
-            "points": null,
-            "highlight": "transparent"
-          },
-          {
             "team": "Raiders Tirol",
             "played": 9,
             "win": 2,
@@ -19628,6 +19616,18 @@
             "for": 252,
             "against": 329,
             "diff": -77,
+            "points": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "e – Prague Lions",
+            "played": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 7,
+            "for": 189,
+            "against": 361,
+            "diff": -172,
             "points": null,
             "highlight": "transparent"
           }
