@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T11:36:11+00:00",
+  "updated": "2026-08-06T11:47:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10534,7 +10534,7 @@
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "North Queensland Cowboys",
-      "score": null,
+      "score": "8–30",
       "date": "2026-08-06",
       "time": "19:50",
       "utc": "2026-08-06T09:50:00+00:00",
@@ -19246,6 +19246,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "North Queensland Cowboys",
+            "played": 21,
+            "win": 12,
+            "draw": 0,
+            "loss": 9,
+            "for": 484,
+            "against": 560,
+            "diff": -76,
+            "points": 28,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "South Sydney Rabbitohs",
             "played": 19,
             "win": 10,
@@ -19266,18 +19278,6 @@
             "for": 378,
             "against": 422,
             "diff": -44,
-            "points": 26,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "North Queensland Cowboys",
-            "played": 20,
-            "win": 11,
-            "draw": 0,
-            "loss": 9,
-            "for": 454,
-            "against": 552,
-            "diff": -98,
             "points": 26,
             "highlight": "transparent"
           },
@@ -19342,14 +19342,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Gold Coast Titans",
-            "played": 19,
+            "team": "Gold Coast Titans (X)",
+            "played": 20,
             "win": 6,
             "draw": 0,
-            "loss": 13,
-            "for": 379,
-            "against": 501,
-            "diff": -122,
+            "loss": 14,
+            "for": 387,
+            "against": 531,
+            "diff": -144,
             "points": 18,
             "highlight": "transparent"
           },
