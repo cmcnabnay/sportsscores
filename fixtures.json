@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T08:04:37+00:00",
+  "updated": "2026-08-06T03:51:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20561,6 +20561,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Boca Juniors",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 3,
+            "against": 5,
+            "diff": -2,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Defensa y Justicia",
             "played": 3,
             "win": 1,
@@ -20594,17 +20606,17 @@
             "against": 3,
             "diff": 1,
             "points": 3,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Estudiantes (LP)",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": 0,
-            "loss": 1,
+            "loss": 2,
             "for": 3,
-            "against": 2,
-            "diff": 1,
+            "against": 3,
+            "diff": 0,
             "points": 3,
             "highlight": "transparent"
           },
@@ -20653,18 +20665,6 @@
             "for": 2,
             "against": 4,
             "diff": -2,
-            "points": 1,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 2,
-            "win": 0,
-            "draw": 1,
-            "loss": 1,
-            "for": 2,
-            "against": 5,
-            "diff": -3,
             "points": 1,
             "highlight": "transparent"
           },
@@ -20734,6 +20734,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Tigre",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 3,
+            "against": 2,
+            "diff": 1,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Banfield",
             "played": 3,
             "win": 1,
@@ -20758,7 +20770,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Huracán",
+            "team": "Belgrano",
             "played": 3,
             "win": 1,
             "draw": 1,
@@ -20770,6 +20782,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Huracán",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 2,
+            "against": 2,
+            "diff": 0,
+            "points": 4,
+            "highlight": "transparent"
+          },
+          {
             "team": "Rosario Central",
             "played": 3,
             "win": 1,
@@ -20779,7 +20803,7 @@
             "against": 2,
             "diff": 0,
             "points": 4,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Racing",
@@ -20803,30 +20827,6 @@
             "against": 3,
             "diff": -2,
             "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Tigre",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 3,
-            "against": 2,
-            "diff": 1,
-            "points": 3,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Belgrano",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 2,
-            "against": 2,
-            "diff": 0,
-            "points": 3,
             "highlight": "transparent"
           },
           {
