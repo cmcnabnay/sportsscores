@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T09:02:12+00:00",
+  "updated": "2026-08-06T09:13:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19956,6 +19956,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "North Harbour",
+            "played": 2,
+            "win": 1,
+            "draw": 0,
+            "loss": 1,
+            "for": 88,
+            "against": 50,
+            "diff": 38,
+            "points": 7,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Otago (RS)",
             "played": 1,
             "win": 1,
@@ -20040,18 +20052,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "North Harbour",
-            "played": 1,
-            "win": 0,
-            "draw": 0,
-            "loss": 1,
-            "for": 29,
-            "against": 31,
-            "diff": -2,
-            "points": 2,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Auckland",
             "played": 1,
             "win": 0,
@@ -20088,18 +20088,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Counties Manukau",
-            "played": 1,
-            "win": 0,
-            "draw": 0,
-            "loss": 1,
-            "for": 5,
-            "against": 20,
-            "diff": -15,
-            "points": 0,
-            "highlight": "transparent"
-          },
-          {
             "team": "Manawatu",
             "played": 1,
             "win": 0,
@@ -20120,6 +20108,18 @@
             "for": 14,
             "against": 41,
             "diff": -27,
+            "points": 0,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Counties Manukau",
+            "played": 2,
+            "win": 0,
+            "draw": 0,
+            "loss": 2,
+            "for": 24,
+            "against": 79,
+            "diff": -55,
             "points": 0,
             "highlight": "transparent"
           }
