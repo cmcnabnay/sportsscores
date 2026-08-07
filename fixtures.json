@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T14:43:11+00:00",
+  "updated": "2026-08-07T03:56:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19458,13 +19458,13 @@
           },
           {
             "team": "St Helens",
-            "played": 21,
+            "played": 22,
             "win": 12,
             "draw": 0,
-            "loss": 9,
-            "for": 484,
-            "against": 460,
-            "diff": 24,
+            "loss": 10,
+            "for": 500,
+            "against": 492,
+            "diff": 8,
             "points": 24,
             "highlight": "transparent"
           },
@@ -19475,8 +19475,8 @@
             "draw": 0,
             "loss": 12,
             "for": 419,
-            "against": 621,
-            "diff": -202,
+            "against": 619,
+            "diff": -200,
             "points": 18,
             "highlight": "transparent"
           },
@@ -19517,6 +19517,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Hull F.C.",
+            "played": 22,
+            "win": 6,
+            "draw": 0,
+            "loss": 16,
+            "for": 385,
+            "against": 481,
+            "diff": -96,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Bradford Bulls",
             "played": 21,
             "win": 6,
@@ -19526,18 +19538,6 @@
             "against": 629,
             "diff": -247,
             "points": 12,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Hull F.C.",
-            "played": 21,
-            "win": 5,
-            "draw": 0,
-            "loss": 16,
-            "for": 353,
-            "against": 463,
-            "diff": -110,
-            "points": 10,
             "highlight": "transparent"
           },
           {
@@ -20561,6 +20561,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Unión",
+            "played": 3,
+            "win": 1,
+            "draw": 1,
+            "loss": 1,
+            "for": 4,
+            "against": 5,
+            "diff": -1,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Boca Juniors",
             "played": 3,
             "win": 1,
@@ -20594,7 +20606,7 @@
             "against": 4,
             "diff": 1,
             "points": 3,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Deportivo Riestra",
@@ -20622,13 +20634,13 @@
           },
           {
             "team": "Lanús",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": 0,
-            "loss": 1,
-            "for": 1,
-            "against": 1,
-            "diff": 0,
+            "loss": 2,
+            "for": 2,
+            "against": 3,
+            "diff": -1,
             "points": 3,
             "highlight": "transparent"
           },
@@ -20654,18 +20666,6 @@
             "against": 3,
             "diff": -2,
             "points": 3,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Unión",
-            "played": 2,
-            "win": 0,
-            "draw": 1,
-            "loss": 1,
-            "for": 2,
-            "against": 4,
-            "diff": -2,
-            "points": 1,
             "highlight": "transparent"
           },
           {
