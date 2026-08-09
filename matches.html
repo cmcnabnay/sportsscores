@@ -990,7 +990,15 @@ function isExcludedHomeMatch(m) {
 // normalizes through this first.
 function normalizeTeamName(raw) {
   return String(raw)
-    .replace(/^[xyz]\s*[-\u2013]\s*/i, '')
+    // Wikipedia's Module:Sports table standings prefix a team name with a
+    // single-letter qualification/elimination marker and a dash - which
+    // letter varies by league/sport (e.g. "x" for clinched playoff spot,
+    // "e" for eliminated - see EFA's standings). Stripping any single
+    // letter here (rather than a hardcoded x/y/z set) keeps a team's
+    // standings-derived name matching its match-derived name regardless
+    // of which marker a given league happens to use, so it doesn't end up
+    // as two separate rows in the Attendance table.
+    .replace(/^[a-z]\s*[-\u2013]\s*/i, '')
     .replace(/\s*\[[a-zA-Z0-9]{1,3}\]\s*$/, '')
     .replace(/\s*\((?:H|A)\)\s*$/i, '')
     .trim();
