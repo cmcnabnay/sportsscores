@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T08:20:05+00:00",
+  "updated": "2026-08-12T05:35:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10836,7 +10836,7 @@
       "time": "13:00",
       "utc": "2026-08-09T11:00:00+00:00",
       "venue": "FK Viktoria Stadion , Prague",
-      "attendance": null
+      "attendance": "1228"
     },
     {
       "league": "nrl-2026",
@@ -10891,7 +10891,7 @@
       "time": "16:00",
       "utc": "2026-08-09T14:00:00+00:00",
       "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": null
+      "attendance": "4083"
     },
     {
       "league": "nrl-2026",
@@ -20549,6 +20549,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Lanús",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 5,
+            "against": 3,
+            "diff": 2,
+            "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Gimnasia y Esgrima (M)",
             "played": 4,
             "win": 2,
@@ -20573,6 +20585,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Central Córdoba (SdE)",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 3,
+            "against": 4,
+            "diff": -1,
+            "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Boca Juniors",
             "played": 4,
             "win": 1,
@@ -20582,7 +20606,7 @@
             "against": 6,
             "diff": -2,
             "points": 5,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Newell's Old Boys",
@@ -20594,17 +20618,17 @@
             "against": 5,
             "diff": -1,
             "points": 4,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Unión",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": 1,
-            "loss": 1,
-            "for": 4,
-            "against": 5,
-            "diff": -1,
+            "loss": 2,
+            "for": 5,
+            "against": 7,
+            "diff": -2,
             "points": 4,
             "highlight": "transparent"
           },
@@ -20622,25 +20646,13 @@
           },
           {
             "team": "Talleres (C)",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": 0,
-            "loss": 2,
+            "loss": 3,
             "for": 5,
-            "against": 4,
-            "diff": 1,
-            "points": 3,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Lanús",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 2,
-            "against": 3,
-            "diff": -1,
+            "against": 7,
+            "diff": -2,
             "points": 3,
             "highlight": "transparent"
           },
@@ -20652,18 +20664,6 @@
             "loss": 3,
             "for": 3,
             "against": 5,
-            "diff": -2,
-            "points": 3,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Central Córdoba (SdE)",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 1,
-            "against": 3,
             "diff": -2,
             "points": 3,
             "highlight": "transparent"
@@ -20719,6 +20719,18 @@
             "against": 2,
             "diff": 1,
             "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Belgrano",
+            "played": 4,
+            "win": 2,
+            "draw": 1,
+            "loss": 1,
+            "for": 4,
+            "against": 2,
+            "diff": 2,
+            "points": 7,
             "highlight": "#BBF3BB"
           },
           {
@@ -20779,7 +20791,7 @@
             "against": 8,
             "diff": 0,
             "points": 6,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Atlético Tucumán",
@@ -20794,30 +20806,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Banfield",
-            "played": 3,
-            "win": 1,
-            "draw": 1,
-            "loss": 1,
-            "for": 3,
-            "against": 3,
-            "diff": 0,
-            "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Belgrano",
-            "played": 3,
-            "win": 1,
-            "draw": 1,
-            "loss": 1,
-            "for": 2,
-            "against": 2,
-            "diff": 0,
-            "points": 4,
-            "highlight": "transparent"
-          },
-          {
             "team": "Racing",
             "played": 4,
             "win": 1,
@@ -20825,6 +20813,18 @@
             "loss": 2,
             "for": 4,
             "against": 6,
+            "diff": -2,
+            "points": 4,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Banfield",
+            "played": 4,
+            "win": 1,
+            "draw": 1,
+            "loss": 2,
+            "for": 3,
+            "against": 5,
             "diff": -2,
             "points": 4,
             "highlight": "transparent"
