@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T08:07:04+00:00",
+  "updated": "2026-08-13T14:05:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10952,7 +10952,7 @@
       "league": "npc-2026",
       "home": "Wellington",
       "away": "North Harbour",
-      "score": null,
+      "score": "7-47",
       "date": "2026-08-13",
       "time": "19:10",
       "utc": "2026-08-13T07:10:00+00:00",
@@ -10963,7 +10963,7 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Sydney Roosters",
-      "score": null,
+      "score": "6–12",
       "date": "2026-08-13",
       "time": "19:50",
       "utc": "2026-08-13T09:50:00+00:00",
@@ -11011,7 +11011,7 @@
       "date": "2026-08-14",
       "time": "15:00",
       "utc": "2026-08-14T13:00:00+00:00",
-      "venue": "Ellis Park, Johannesburg",
+      "venue": "Bidvest Stadium, Johannesburg",
       "attendance": null
     },
     {
@@ -19174,26 +19174,26 @@
       "Ladder": {
         "rows": [
           {
-            "team": "Penrith Panthers (Q)",
-            "played": 20,
-            "win": 15,
+            "team": "Sydney Roosters (Q)",
+            "played": 21,
+            "win": 16,
             "draw": 0,
             "loss": 5,
-            "for": 593,
-            "against": 301,
-            "diff": 292,
-            "points": 36,
+            "for": 563,
+            "against": 400,
+            "diff": 163,
+            "points": 38,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Sydney Roosters (Q)",
-            "played": 20,
+            "team": "Penrith Panthers (Q)",
+            "played": 21,
             "win": 15,
             "draw": 0,
-            "loss": 5,
-            "for": 551,
-            "against": 394,
-            "diff": 157,
+            "loss": 6,
+            "for": 599,
+            "against": 313,
+            "diff": 286,
             "points": 36,
             "highlight": "#BBF3BB"
           },
@@ -19302,7 +19302,7 @@
             "for": 510,
             "against": 514,
             "diff": -4,
-            "points": 22,
+            "points": 24,
             "highlight": "transparent"
           },
           {
@@ -19956,6 +19956,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "North Harbour",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 135,
+            "against": 57,
+            "diff": 78,
+            "points": 12,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Hawke's Bay",
             "played": 2,
             "win": 2,
@@ -19989,18 +20001,6 @@
             "against": 46,
             "diff": 11,
             "points": 9,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "North Harbour",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 88,
-            "against": 50,
-            "diff": 38,
-            "points": 7,
             "highlight": "#CCF9CC"
           },
           {
@@ -20089,13 +20089,13 @@
           },
           {
             "team": "Wellington",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": 0,
-            "loss": 2,
-            "for": 64,
-            "against": 86,
-            "diff": -22,
+            "loss": 3,
+            "for": 71,
+            "against": 133,
+            "diff": -62,
             "points": 3,
             "highlight": "transparent"
           },
