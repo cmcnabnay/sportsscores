@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T06:37:04+00:00",
+  "updated": "2026-08-15T03:59:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10941,12 +10941,12 @@
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "BC Lions",
-      "score": null,
+      "score": "26-30",
       "date": "2026-08-13",
       "time": "19:00",
       "utc": "2026-08-14T01:00:00+00:00",
       "venue": "McMahon Stadium",
-      "attendance": null
+      "attendance": "17076"
     },
     {
       "league": "npc-2026",
@@ -10968,7 +10968,7 @@
       "time": "19:50",
       "utc": "2026-08-13T09:50:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
+      "attendance": "16768"
     },
     {
       "league": "super-league-2026",
@@ -11007,7 +11007,7 @@
       "league": "currie-cup-2026",
       "home": "Lions",
       "away": "Boland Cavaliers",
-      "score": null,
+      "score": "29-38",
       "date": "2026-08-14",
       "time": "15:00",
       "utc": "2026-08-14T13:00:00+00:00",
@@ -11018,7 +11018,7 @@
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "Sharks XV",
-      "score": null,
+      "score": "55-21",
       "date": "2026-08-14",
       "time": "17:05",
       "utc": "2026-08-14T15:05:00+00:00",
@@ -11029,18 +11029,18 @@
       "league": "nrl-2026",
       "home": "Manly Warringah Sea Eagles",
       "away": "Dolphins",
-      "score": null,
+      "score": "0–22",
       "date": "2026-08-14",
       "time": "18:00",
       "utc": "2026-08-14T08:00:00+00:00",
       "venue": "4 Pines Park",
-      "attendance": null
+      "attendance": "11108"
     },
     {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Taranaki",
-      "score": null,
+      "score": "42-0",
       "date": "2026-08-14",
       "time": "19:10",
       "utc": "2026-08-14T07:10:00+00:00",
@@ -11051,23 +11051,23 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Ottawa Redblacks",
-      "score": null,
+      "score": "33-21",
       "date": "2026-08-14",
       "time": "19:30",
       "utc": "2026-08-15T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "31312"
     },
     {
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "South Sydney Rabbitohs",
-      "score": null,
+      "score": "6–22",
       "date": "2026-08-14",
       "time": "20:00",
       "utc": "2026-08-14T10:00:00+00:00",
       "venue": "Accor Stadium",
-      "attendance": null
+      "attendance": "26582"
     },
     {
       "league": "super-league-2026",
@@ -11106,7 +11106,7 @@
       "league": "npc-2026",
       "home": "Canterbury",
       "away": "Bay of Plenty",
-      "score": null,
+      "score": "33-28",
       "date": "2026-08-15",
       "time": "14:05",
       "utc": "2026-08-15T02:05:00+00:00",
@@ -19079,38 +19079,38 @@
           },
           {
             "team": "Winnipeg Blue Bombers",
-            "played": 8,
-            "win": 4,
+            "played": 9,
+            "win": 5,
             "draw": null,
             "loss": 4,
-            "for": 204,
-            "against": 243,
+            "for": 237,
+            "against": 264,
+            "diff": null,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "BC Lions",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 244,
+            "against": 251,
             "diff": null,
             "points": 8,
             "highlight": null
           },
           {
             "team": "Calgary Stampeders",
-            "played": 9,
+            "played": 10,
             "win": 4,
             "draw": null,
-            "loss": 5,
-            "for": 352,
-            "against": 297,
+            "loss": 6,
+            "for": 378,
+            "against": 327,
             "diff": null,
             "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "BC Lions",
-            "played": 8,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 214,
-            "against": 225,
-            "diff": null,
-            "points": 6,
             "highlight": null
           }
         ],
@@ -19156,12 +19156,12 @@
           },
           {
             "team": "Ottawa Redblacks",
-            "played": 8,
+            "played": 9,
             "win": 0,
             "draw": null,
-            "loss": 8,
-            "for": 186,
-            "against": 289,
+            "loss": 9,
+            "for": 207,
+            "against": 322,
             "diff": null,
             "points": 0,
             "highlight": null
@@ -19198,7 +19198,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "New Zealand Warriors",
+            "team": "New Zealand Warriors (Q)",
             "played": 20,
             "win": 14,
             "draw": 0,
@@ -19206,6 +19206,18 @@
             "for": 566,
             "against": 324,
             "diff": 242,
+            "points": 34,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Dolphins (Q)",
+            "played": 21,
+            "win": 14,
+            "draw": 0,
+            "loss": 7,
+            "for": 578,
+            "against": 458,
+            "diff": 120,
             "points": 34,
             "highlight": "#BBF3BB"
           },
@@ -19222,15 +19234,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dolphins",
-            "played": 20,
-            "win": 13,
+            "team": "South Sydney Rabbitohs",
+            "played": 21,
+            "win": 12,
             "draw": 0,
-            "loss": 7,
-            "for": 556,
-            "against": 458,
-            "diff": 98,
-            "points": 32,
+            "loss": 9,
+            "for": 576,
+            "against": 494,
+            "diff": 82,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -19243,18 +19255,6 @@
             "against": 475,
             "diff": 66,
             "points": 30,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "South Sydney Rabbitohs",
-            "played": 20,
-            "win": 11,
-            "draw": 0,
-            "loss": 9,
-            "for": 554,
-            "against": 488,
-            "diff": 66,
-            "points": 28,
             "highlight": "#BBF3BB"
           },
           {
@@ -19271,25 +19271,25 @@
           },
           {
             "team": "Canterbury-Bankstown Bulldogs",
-            "played": 20,
+            "played": 21,
             "win": 10,
             "draw": 0,
-            "loss": 10,
-            "for": 396,
-            "against": 442,
-            "diff": -46,
+            "loss": 11,
+            "for": 402,
+            "against": 464,
+            "diff": -62,
             "points": 26,
             "highlight": "transparent"
           },
           {
             "team": "Manly Warringah Sea Eagles",
-            "played": 20,
+            "played": 21,
             "win": 9,
             "draw": 0,
-            "loss": 11,
+            "loss": 12,
             "for": 505,
-            "against": 437,
-            "diff": 68,
+            "against": 459,
+            "diff": 46,
             "points": 24,
             "highlight": "transparent"
           },
@@ -19318,7 +19318,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Parramatta Eels",
+            "team": "Parramatta Eels (X)",
             "played": 20,
             "win": 7,
             "draw": 0,
@@ -19330,7 +19330,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Wests Tigers",
+            "team": "Wests Tigers (X)",
             "played": 20,
             "win": 7,
             "draw": 0,
@@ -19481,6 +19481,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Castleford Tigers",
+            "played": 23,
+            "win": 8,
+            "draw": 0,
+            "loss": 15,
+            "for": 408,
+            "against": 716,
+            "diff": -308,
+            "points": 16,
+            "highlight": "transparent"
+          },
+          {
             "team": "Toulouse Olympique",
             "played": 22,
             "win": 7,
@@ -19505,26 +19517,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Castleford Tigers",
-            "played": 22,
-            "win": 7,
-            "draw": 0,
-            "loss": 15,
-            "for": 390,
-            "against": 702,
-            "diff": -312,
-            "points": 14,
-            "highlight": "transparent"
-          },
-          {
             "team": "Hull F.C.",
-            "played": 22,
+            "played": 23,
             "win": 6,
             "draw": 0,
-            "loss": 16,
-            "for": 385,
-            "against": 481,
-            "diff": -96,
+            "loss": 17,
+            "for": 399,
+            "against": 499,
+            "diff": -100,
             "points": 12,
             "highlight": "transparent"
           },
@@ -19854,13 +19854,25 @@
         "rows": [
           {
             "team": "Griquas",
-            "played": 4,
-            "win": 3,
+            "played": 5,
+            "win": 4,
             "draw": 0,
             "loss": 1,
+            "for": 185,
+            "against": 112,
+            "diff": 73,
+            "points": 21,
+            "highlight": "#E8FFD8"
+          },
+          {
+            "team": "Boland Cavaliers",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
             "for": 130,
-            "against": 91,
-            "diff": 39,
+            "against": 81,
+            "diff": 49,
             "points": 16,
             "highlight": "#E8FFD8"
           },
@@ -19878,14 +19890,14 @@
           },
           {
             "team": "Lions",
-            "played": 4,
+            "played": 5,
             "win": 2,
             "draw": 0,
-            "loss": 2,
-            "for": 140,
-            "against": 108,
-            "diff": 32,
-            "points": 12,
+            "loss": 3,
+            "for": 169,
+            "against": 146,
+            "diff": 23,
+            "points": 13,
             "highlight": "#E8FFD8"
           },
           {
@@ -19898,18 +19910,6 @@
             "against": 124,
             "diff": -18,
             "points": 12,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Boland Cavaliers",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 92,
-            "against": 52,
-            "diff": 40,
-            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -19926,13 +19926,13 @@
           },
           {
             "team": "Sharks XV",
-            "played": 4,
+            "played": 5,
             "win": 2,
             "draw": 0,
-            "loss": 2,
-            "for": 94,
-            "against": 115,
-            "diff": -21,
+            "loss": 3,
+            "for": 115,
+            "against": 170,
+            "diff": -55,
             "points": 10,
             "highlight": "transparent"
           },
@@ -19964,6 +19964,18 @@
             "for": 135,
             "against": 57,
             "diff": 78,
+            "points": 12,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Northland",
+            "played": 3,
+            "win": 2,
+            "draw": 0,
+            "loss": 1,
+            "for": 113,
+            "against": 48,
+            "diff": 65,
             "points": 12,
             "highlight": "#CCF9CC"
           },
@@ -20004,18 +20016,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Northland",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 71,
-            "against": 48,
-            "diff": 23,
-            "points": 7,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Auckland",
             "played": 2,
             "win": 1,
@@ -20040,18 +20040,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Taranaki",
-            "played": 2,
-            "win": 1,
-            "draw": 0,
-            "loss": 1,
-            "for": 52,
-            "against": 43,
-            "diff": 9,
-            "points": 6,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Bay of Plenty",
             "played": 2,
             "win": 1,
@@ -20060,6 +20048,18 @@
             "for": 60,
             "against": 69,
             "diff": -9,
+            "points": 6,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Taranaki",
+            "played": 3,
+            "win": 1,
+            "draw": 0,
+            "loss": 2,
+            "for": 52,
+            "against": 85,
+            "diff": -33,
             "points": 6,
             "highlight": "transparent"
           },
@@ -20782,6 +20782,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Banfield",
+            "played": 5,
+            "win": 2,
+            "draw": 1,
+            "loss": 2,
+            "for": 4,
+            "against": 5,
+            "diff": -1,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 4,
             "win": 2,
@@ -20807,25 +20819,13 @@
           },
           {
             "team": "Racing",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 1,
-            "loss": 2,
+            "loss": 3,
             "for": 4,
-            "against": 6,
-            "diff": -2,
-            "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Banfield",
-            "played": 4,
-            "win": 1,
-            "draw": 1,
-            "loss": 2,
-            "for": 3,
-            "against": 5,
-            "diff": -2,
+            "against": 7,
+            "diff": -3,
             "points": 4,
             "highlight": "transparent"
           },
@@ -21109,9 +21109,9 @@
       },
       {
         "team": "Canterbury-Bankstown Bulldogs",
-        "games": 10,
-        "total": 237646,
-        "average": 23765
+        "games": 11,
+        "total": 264228,
+        "average": 24021
       },
       {
         "team": "Cronulla-Sutherland Sharks",
@@ -21133,9 +21133,9 @@
       },
       {
         "team": "Manly Warringah Sea Eagles",
-        "games": 10,
-        "total": 164963,
-        "average": 16496
+        "games": 11,
+        "total": 176071,
+        "average": 16006
       },
       {
         "team": "Melbourne Storm",
@@ -21169,9 +21169,9 @@
       },
       {
         "team": "Penrith Panthers",
-        "games": 8,
-        "total": 128217,
-        "average": 16027
+        "games": 9,
+        "total": 144985,
+        "average": 16109
       },
       {
         "team": "South Sydney Rabbitohs",
