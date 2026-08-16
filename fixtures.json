@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T23:23:08+00:00",
+  "updated": "2026-08-16T23:35:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11271,7 +11271,7 @@
       "league": "currie-cup-2026",
       "home": "Bulls XV",
       "away": "Cheetahs",
-      "score": null,
+      "score": "52-62",
       "date": "2026-08-16",
       "time": "15:00",
       "utc": "2026-08-16T13:00:00+00:00",
@@ -11304,12 +11304,12 @@
       "league": "afle-2026",
       "home": "Firenze Red Lions",
       "away": "Rhein Fire",
-      "score": null,
+      "score": "14-66",
       "date": "2026-08-16",
       "time": "16:40",
       "utc": "2026-08-16T14:40:00+00:00",
       "venue": "Stadio Gino Bozzi , Florence",
-      "attendance": null
+      "attendance": "93"
     },
     {
       "league": "argentina-liga-profesional-2026",
@@ -16083,13 +16083,13 @@
         "rows": [
           {
             "team": "Rhein Fire",
-            "played": 10,
-            "win": 8,
+            "played": 11,
+            "win": 9,
             "draw": null,
             "loss": 2,
-            "for": 412,
-            "against": 154,
-            "diff": 258,
+            "for": 478,
+            "against": 168,
+            "diff": 310,
             "points": null,
             "highlight": "#ccffcc"
           },
@@ -16172,13 +16172,13 @@
           },
           {
             "team": "Firenze Red Lions",
-            "played": 10,
+            "played": 11,
             "win": 0,
             "draw": null,
-            "loss": 10,
-            "for": 164,
-            "against": 487,
-            "diff": 323,
+            "loss": 11,
+            "for": 178,
+            "against": 553,
+            "diff": 375,
             "points": null,
             "highlight": null
           }
@@ -16205,16 +16205,16 @@
             "win": 9,
             "draw": null,
             "loss": 2,
-            "for": 412,
-            "against": 154,
-            "diff": 258,
+            "for": 478,
+            "against": 168,
+            "diff": 310,
             "points": null,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Panthers Wrocław",
-            "played": 10,
-            "win": 8,
+            "played": 11,
+            "win": 9,
             "draw": null,
             "loss": 2,
             "for": 410,
@@ -16273,13 +16273,13 @@
           },
           {
             "team": "e – Firenze Red Lions",
-            "played": 10,
+            "played": 11,
             "win": 0,
             "draw": null,
-            "loss": 10,
-            "for": 164,
-            "against": 487,
-            "diff": -323,
+            "loss": 11,
+            "for": 178,
+            "against": 553,
+            "diff": -375,
             "points": null,
             "highlight": "transparent"
           }
@@ -19245,7 +19245,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Newcastle Knights",
+            "team": "Newcastle Knights (Q)",
             "played": 22,
             "win": 14,
             "draw": 0,
@@ -19329,7 +19329,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Parramatta Eels",
+            "team": "Parramatta Eels (X)",
             "played": 21,
             "win": 8,
             "draw": 0,
@@ -19342,13 +19342,13 @@
           },
           {
             "team": "Wests Tigers (X)",
-            "played": 20,
+            "played": 21,
             "win": 7,
             "draw": 0,
-            "loss": 13,
-            "for": 400,
-            "against": 613,
-            "diff": -213,
+            "loss": 14,
+            "for": 422,
+            "against": 637,
+            "diff": -215,
             "points": 20,
             "highlight": "transparent"
           },
@@ -19378,14 +19378,14 @@
           },
           {
             "team": "St. George Illawarra Dragons (X)",
-            "played": 20,
-            "win": 3,
+            "played": 21,
+            "win": 4,
             "draw": 0,
             "loss": 17,
-            "for": 344,
-            "against": 607,
-            "diff": -263,
-            "points": 14,
+            "for": 368,
+            "against": 629,
+            "diff": -261,
+            "points": 16,
             "highlight": "transparent"
           }
         ],
@@ -19876,6 +19876,18 @@
             "highlight": "#E8FFD8"
           },
           {
+            "team": "Cheetahs",
+            "played": 5,
+            "win": 4,
+            "draw": 0,
+            "loss": 1,
+            "for": 186,
+            "against": 150,
+            "diff": 36,
+            "points": 21,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Pumas",
             "played": 5,
             "win": 3,
@@ -19896,18 +19908,6 @@
             "for": 130,
             "against": 81,
             "diff": 49,
-            "points": 16,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Cheetahs",
-            "played": 4,
-            "win": 3,
-            "draw": 0,
-            "loss": 1,
-            "for": 124,
-            "against": 98,
-            "diff": 26,
             "points": 16,
             "highlight": "#E8FFD8"
           },
@@ -19949,13 +19949,13 @@
           },
           {
             "team": "Bulls XV",
-            "played": 4,
+            "played": 5,
             "win": 0,
             "draw": 0,
-            "loss": 4,
-            "for": 86,
-            "against": 155,
-            "diff": -69,
+            "loss": 5,
+            "for": 138,
+            "against": 217,
+            "diff": -79,
             "points": 3,
             "highlight": "transparent"
           }
@@ -20698,13 +20698,13 @@
         "rows": [
           {
             "team": "Argentinos Juniors",
-            "played": 4,
+            "played": 5,
             "win": 4,
             "draw": 0,
-            "loss": 0,
+            "loss": 1,
             "for": 9,
-            "against": 3,
-            "diff": 6,
+            "against": 5,
+            "diff": 4,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -20718,6 +20718,18 @@
             "against": 2,
             "diff": 4,
             "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sarmiento (J)",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
+            "for": 10,
+            "against": 8,
+            "diff": 2,
+            "points": 9,
             "highlight": "#BBF3BB"
           },
           {
@@ -20757,18 +20769,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Huracán",
-            "played": 4,
-            "win": 2,
-            "draw": 1,
-            "loss": 1,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
-            "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Rosario Central",
             "played": 4,
             "win": 2,
@@ -20777,6 +20777,18 @@
             "for": 4,
             "against": 3,
             "diff": 1,
+            "points": 7,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Huracán",
+            "played": 5,
+            "win": 2,
+            "draw": 1,
+            "loss": 2,
+            "for": 4,
+            "against": 4,
+            "diff": 0,
             "points": 7,
             "highlight": "#BBF3BB"
           },
@@ -20790,7 +20802,7 @@
             "against": 6,
             "diff": -1,
             "points": 7,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Banfield",
@@ -20802,18 +20814,6 @@
             "against": 5,
             "diff": -1,
             "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sarmiento (J)",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 8,
-            "against": 8,
-            "diff": 0,
-            "points": 6,
             "highlight": "transparent"
           },
           {
@@ -20853,6 +20853,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "River Plate",
+            "played": 5,
+            "win": 1,
+            "draw": 0,
+            "loss": 4,
+            "for": 2,
+            "against": 4,
+            "diff": -2,
+            "points": 3,
+            "highlight": "transparent"
+          },
+          {
             "team": "Aldosivi",
             "played": 5,
             "win": 0,
@@ -20862,18 +20874,6 @@
             "against": 6,
             "diff": -3,
             "points": 2,
-            "highlight": "transparent"
-          },
-          {
-            "team": "River Plate",
-            "played": 4,
-            "win": 0,
-            "draw": 0,
-            "loss": 4,
-            "for": 0,
-            "against": 4,
-            "diff": -4,
-            "points": 0,
             "highlight": "transparent"
           }
         ],
@@ -20944,6 +20944,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Sochi",
+            "played": 6,
+            "win": 3,
+            "draw": 1,
+            "loss": 2,
+            "for": 11,
+            "against": 7,
+            "diff": 4,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
             "team": "Rotor Volgograd",
             "played": 6,
             "win": 3,
@@ -21004,26 +21016,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Sochi",
-            "played": 5,
-            "win": 2,
-            "draw": 1,
-            "loss": 2,
-            "for": 10,
-            "against": 7,
-            "diff": 3,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
             "team": "Volga Ulyanovsk",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": 0,
-            "loss": 3,
+            "loss": 4,
             "for": 6,
-            "against": 8,
-            "diff": -2,
+            "against": 9,
+            "diff": -3,
             "points": 6,
             "highlight": "transparent"
           },
