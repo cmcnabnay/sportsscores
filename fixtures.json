@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T05:02:02+00:00",
+  "updated": "2026-08-17T05:13:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11202,6 +11202,19 @@
       "attendance": "534"
     },
     {
+      "league": "efa-2026",
+      "home": "Munich Ravens",
+      "away": "Frankfurt Galaxy",
+      "score": "52-33",
+      "date": "2026-08-15",
+      "time": "18:00",
+      "utc": "2026-08-15T16:00:00+00:00",
+      "venue": "PSD Bank Arena , Frankfurt",
+      "attendance": "4094",
+      "group": "Playoffs",
+      "round": "BIG4"
+    },
+    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Saskatchewan Roughriders",
@@ -11288,6 +11301,19 @@
       "utc": "2026-08-16T13:00:00+00:00",
       "venue": "Olympic Stadium , Wrocław",
       "attendance": null
+    },
+    {
+      "league": "efa-2026",
+      "home": "Nordic Storm",
+      "away": "Paris Musketeers",
+      "score": "45-6",
+      "date": "2026-08-16",
+      "time": "15:00",
+      "utc": "2026-08-16T13:00:00+00:00",
+      "venue": "PSD Bank Arena , Frankfurt",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "BIG4"
     },
     {
       "league": "nrl-2026",
@@ -12377,6 +12403,19 @@
       "utc": "2026-08-29T16:30:00+00:00",
       "venue": "MKM Stadium",
       "attendance": null
+    },
+    {
+      "league": "efa-2026",
+      "home": "Nordic Storm",
+      "away": "Munich Ravens",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "18:00",
+      "utc": "2026-08-29T16:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "EFA Championship Game"
     },
     {
       "league": "npc-2026",
@@ -21209,5 +21248,52 @@
         "average": 15457
       }
     ]
+  },
+  "playoffs": {
+    "efa-2026": {
+      "name": "European Football Alliance 2026 · Play-offs",
+      "rounds": [
+        {
+          "label": "BIG4",
+          "matches": [
+            {
+              "seed1": 1,
+              "team1": "Nordic Storm",
+              "score1": 45,
+              "seed2": 4,
+              "team2": "Paris Musketeers",
+              "score2": 6,
+              "date": "2026-08-16",
+              "venue": "PSD Bank Arena, Frankfurt, Germany"
+            },
+            {
+              "seed1": 2,
+              "team1": "Munich Ravens",
+              "score1": 52,
+              "seed2": 3,
+              "team2": "Frankfurt Galaxy",
+              "score2": 33,
+              "date": "2026-08-15",
+              "venue": "PSD Bank Arena, Frankfurt, Germany"
+            }
+          ]
+        },
+        {
+          "label": "EFA Championship Game",
+          "matches": [
+            {
+              "seed1": 1,
+              "team1": "Nordic Storm",
+              "score1": null,
+              "seed2": 2,
+              "team2": "Munich Ravens",
+              "score2": null,
+              "date": "2026-08-29",
+              "venue": "Tivoli Stadion Tirol, Innsbruck, Austria"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
