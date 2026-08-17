@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T01:35:03+00:00",
+  "updated": "2026-08-17T01:46:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20721,6 +20721,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Rosario Central",
+            "played": 5,
+            "win": 3,
+            "draw": 1,
+            "loss": 1,
+            "for": 5,
+            "against": 3,
+            "diff": 2,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 5,
             "win": 3,
@@ -20734,13 +20746,13 @@
           },
           {
             "team": "Barracas Central",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": 0,
-            "loss": 1,
+            "loss": 2,
             "for": 3,
-            "against": 2,
-            "diff": 1,
+            "against": 3,
+            "diff": 0,
             "points": 9,
             "highlight": "#BBF3BB"
           },
@@ -20766,18 +20778,6 @@
             "against": 2,
             "diff": 2,
             "points": 8,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rosario Central",
-            "played": 4,
-            "win": 2,
-            "draw": 1,
-            "loss": 1,
-            "for": 4,
-            "against": 3,
-            "diff": 1,
-            "points": 7,
             "highlight": "#BBF3BB"
           },
           {
