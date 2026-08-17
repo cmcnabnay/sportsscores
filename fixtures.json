@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T01:02:03+00:00",
+  "updated": "2026-08-17T01:13:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10220,7 +10220,7 @@
       "time": "15:00",
       "utc": "2026-08-01T14:00:00+00:00",
       "venue": "OneBore Stadium",
-      "attendance": null
+      "attendance": "8802"
     },
     {
       "league": "cfl-2026",
@@ -10616,7 +10616,7 @@
       "time": "20:00",
       "utc": "2026-08-07T19:00:00+00:00",
       "venue": "OneBore Stadium",
-      "attendance": null
+      "attendance": "9203"
     },
     {
       "league": "super-league-2026",
@@ -20512,6 +20512,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Instituto",
+            "played": 5,
+            "win": 4,
+            "draw": 0,
+            "loss": 1,
+            "for": 5,
+            "against": 2,
+            "diff": 3,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Vélez Sarsfield",
             "played": 4,
             "win": 3,
@@ -20521,18 +20533,6 @@
             "against": 2,
             "diff": 4,
             "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Instituto",
-            "played": 4,
-            "win": 3,
-            "draw": 0,
-            "loss": 1,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
-            "points": 9,
             "highlight": "#BBF3BB"
           },
           {
@@ -20620,18 +20620,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Central Córdoba (SdE)",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 3,
-            "against": 4,
-            "diff": -1,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Boca Juniors",
             "played": 5,
             "win": 1,
@@ -20639,6 +20627,18 @@
             "loss": 1,
             "for": 5,
             "against": 7,
+            "diff": -2,
+            "points": 6,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Central Córdoba (SdE)",
+            "played": 5,
+            "win": 2,
+            "draw": 0,
+            "loss": 3,
+            "for": 3,
+            "against": 5,
             "diff": -2,
             "points": 6,
             "highlight": "transparent"
