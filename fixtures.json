@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T19:56:02+00:00",
+  "updated": "2026-08-17T23:26:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10979,7 +10979,7 @@
       "time": "20:00",
       "utc": "2026-08-13T19:00:00+00:00",
       "venue": "Sewell Group Craven Park",
-      "attendance": null
+      "attendance": "11294"
     },
     {
       "league": "super-league-2026",
@@ -20575,6 +20575,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Independiente",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
+            "for": 6,
+            "against": 3,
+            "diff": 3,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newell's Old Boys",
             "played": 5,
             "win": 2,
@@ -20611,18 +20623,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Lanús",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 5,
-            "against": 3,
-            "diff": 2,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Deportivo Riestra",
             "played": 5,
             "win": 2,
@@ -20647,14 +20647,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Independiente",
-            "played": 4,
+            "team": "Lanús",
+            "played": 5,
             "win": 2,
             "draw": 0,
-            "loss": 2,
-            "for": 3,
-            "against": 2,
-            "diff": 1,
+            "loss": 3,
+            "for": 6,
+            "against": 6,
+            "diff": 0,
             "points": 6,
             "highlight": "transparent"
           },
