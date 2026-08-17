@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T02:08:02+00:00",
+  "updated": "2026-08-17T02:19:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -10729,6 +10729,17 @@
       "attendance": "19387"
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Boca Juniors",
+      "away": "Vélez Sarsfield",
+      "score": "1-1",
+      "date": "2026-08-08",
+      "time": "17:00",
+      "utc": "2026-08-09T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Bay of Plenty",
       "away": "Northland",
@@ -10914,17 +10925,6 @@
       "utc": "2026-08-09T14:10:00+00:00",
       "venue": "Friedrich-Ludwig-Jahn-Sportpark , Kleines Stadion, Berlin",
       "attendance": "786"
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Boca Juniors",
-      "away": "Vélez Sarsfield",
-      "score": "1-1",
-      "date": "2026-08-09",
-      "time": "17:00",
-      "utc": "2026-08-09T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
     },
     {
       "league": "npc-2026",
@@ -11312,17 +11312,6 @@
       "attendance": "93"
     },
     {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Defensa y Justicia",
-      "score": "-",
-      "date": "2026-08-16",
-      "time": "17:00",
-      "utc": "2026-08-16T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "npc-2026",
       "home": "Counties Manukau",
       "away": "Tasman",
@@ -11331,6 +11320,17 @@
       "time": "17:05",
       "utc": "2026-08-16T05:05:00+00:00",
       "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Defensa y Justicia",
+      "score": "-",
+      "date": "2026-08-17",
+      "time": "17:00",
+      "utc": "2026-08-16T20:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -12324,6 +12324,17 @@
       "attendance": null
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Deportivo Riestra",
+      "away": "Vélez Sarsfield",
+      "score": "-",
+      "date": "2026-08-29",
+      "time": "17:00",
+      "utc": "2026-08-30T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Toronto Argonauts",
@@ -12464,28 +12475,6 @@
       "time": "16:05",
       "utc": "2026-08-30T06:05:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Deportivo Riestra",
-      "away": "Vélez Sarsfield",
-      "score": "-",
-      "date": "2026-08-30",
-      "time": "17:00",
-      "utc": "2026-08-30T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "copa-argentina-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Boca Juniors",
-      "score": "-",
-      "date": "2026-08-30",
-      "time": "17:00",
-      "utc": "2026-08-30T20:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -12837,6 +12826,17 @@
       "date": "2026-08-31",
       "time": null,
       "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "copa-argentina-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Boca Juniors",
+      "score": "-",
+      "date": "2026-09-02",
+      "time": "17:00",
+      "utc": "2026-08-30T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
