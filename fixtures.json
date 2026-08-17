@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:07:09+00:00",
+  "updated": "2026-08-17T19:23:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20935,6 +20935,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Spartak Kostroma",
+            "played": 6,
+            "win": 3,
+            "draw": 3,
+            "loss": 0,
+            "for": 11,
+            "against": 5,
+            "diff": 6,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Veles Moscow",
             "played": 6,
             "win": 4,
@@ -20944,7 +20956,7 @@
             "against": 8,
             "diff": -1,
             "points": 12,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Ural Yekaterinburg",
@@ -20955,18 +20967,6 @@
             "for": 10,
             "against": 2,
             "diff": 8,
-            "points": 11,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Spartak Kostroma",
-            "played": 5,
-            "win": 3,
-            "draw": 2,
-            "loss": 0,
-            "for": 10,
-            "against": 4,
-            "diff": 6,
             "points": 11,
             "highlight": "#CCF9CC"
           },
@@ -21032,14 +21032,14 @@
           },
           {
             "team": "Ufa",
-            "played": 5,
+            "played": 6,
             "win": 2,
-            "draw": 2,
+            "draw": 3,
             "loss": 1,
-            "for": 7,
-            "against": 6,
+            "for": 8,
+            "against": 7,
             "diff": 1,
-            "points": 8,
+            "points": 9,
             "highlight": "transparent"
           },
           {
