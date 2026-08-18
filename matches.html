@@ -350,6 +350,54 @@
   table.standings-table tr.attendance-total-row td { font-weight: 700; }
   table.standings-table td.dash-cell { color: var(--grey); }
 
+  .bracket-round { margin-bottom: 18px; }
+  .bracket-round-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--grey);
+    padding: 0 0 8px;
+    font-weight: 700;
+  }
+  .bracket-match {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(11,31,58,0.08);
+    margin: 0 0 12px;
+    overflow: hidden;
+  }
+  .bracket-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+  .bracket-team + .bracket-team { border-top: 1px solid var(--paper); }
+  .bracket-team.winner { font-weight: 700; background: #f2f6ff; }
+  .bracket-team-name { display: flex; align-items: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bracket-seed {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--paper);
+    color: var(--grey);
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+  .bracket-score { font-weight: 700; color: var(--navy); padding-left: 10px; flex-shrink: 0; }
+  .bracket-team.pending .bracket-score { color: var(--grey); }
+  .bracket-match-meta {
+    padding: 0 14px 10px;
+    font-size: 11px;
+    color: var(--grey);
+  }
+
   .modal-overlay {
     position: fixed;
     inset: 0;
@@ -432,6 +480,7 @@
   <button id="view-fixtures-btn" class="active">Fixtures</button>
   <button id="view-standings-btn">Standings</button>
   <button id="view-attendance-btn">Attendance</button>
+  <button id="view-playoffs-btn">Playoffs</button>
 </div>
 
 <div class="day-nav" id="day-nav">
@@ -445,6 +494,7 @@
   <div id="match-list"></div>
   <div id="standings-view" style="display:none;"></div>
   <div id="attendance-view" style="display:none;"></div>
+  <div id="playoffs-view" style="display:none;"></div>
 </main>
 
 <div id="game-modal-overlay" class="modal-overlay" style="display:none;">
@@ -462,9 +512,11 @@ let allMatches = [];
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
 let attendanceTables = {}; // { leagueKey: [ {team, games, total, average}, ... ] } - official scraped tables (currently just NRL)
-let currentView = 'fixtures'; // 'fixtures' | 'standings' | 'attendance'
+let playoffs = {}; // { leagueKey: { name, rounds: [ { label, matches: [ {seed1,team1,score1,seed2,team2,score2,date,venue}, ... ] } ] } }
+let currentView = 'fixtures'; // 'fixtures' | 'standings' | 'attendance' | 'playoffs'
 let standingsLeagueKey = null; // which league is selected in the Standings view
 let attendanceLeagueKey = null; // which league is selected in the Attendance view
+let playoffsLeagueKey = null; // which league is selected in the Playoffs view
 let standingsShowArchived = false; // Standings view: dropdown showing completed leagues instead of active ones
 let attendanceShowArchived = false; // Attendance view: same, independent of the Standings toggle
 
@@ -473,6 +525,7 @@ const leagueSelect = document.getElementById('league-select');
 const matchList = document.getElementById('match-list');
 const standingsView = document.getElementById('standings-view');
 const attendanceView = document.getElementById('attendance-view');
+const playoffsView = document.getElementById('playoffs-view');
 const dayNav = document.getElementById('day-nav');
 const controlsBar = document.getElementById('controls-bar');
 const selectedDateLabel = document.getElementById('selected-date-label');
@@ -480,6 +533,7 @@ const updateNote = document.getElementById('update-note');
 const viewFixturesBtn = document.getElementById('view-fixtures-btn');
 const viewStandingsBtn = document.getElementById('view-standings-btn');
 const viewAttendanceBtn = document.getElementById('view-attendance-btn');
+const viewPlayoffsBtn = document.getElementById('view-playoffs-btn');
 const gameModalOverlay = document.getElementById('game-modal-overlay');
 const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
@@ -496,6 +550,53 @@ const modalBody = document.getElementById('modal-body');
 // parse_cfl_schedule) are read from the home team's page, but CFL fans are
 // used to seeing the visiting team listed first on the scoreboard.
 const AWAY_FIRST_LEAGUES = new Set(['afle-2026', 'efa-2026', 'cfl-2026']);
+
+// Some clubs play across more than one competition that's stored as a
+// separate league key (e.g. Vélez Sarsfield plays in both the Liga
+// Profesional and the separate Copa Argentina cup; Torpedo Moscow's league
+// key stands alone today but may gain a cup entry later). A fan of that one
+// club wants a single "show me all of this team's games" filter rather than
+// having to pick between its competitions one at a time. Selecting one of
+// these virtual keys in the Fixtures view's League dropdown filters
+// allMatches by team name across every league in `leagueKeys`, instead of
+// by a single league key.
+//
+// This ONLY changes the Fixtures-view League dropdown/filter -
+// Standings/Attendance keep listing every underlying league (including
+// these) under its own real name and table, since a team-based filter
+// doesn't make sense for a standings ladder. Each match's own league tag
+// (shown on its card) still names the real competition, so cup vs. league
+// fixtures stay distinguishable even though they're filtered together.
+const TEAM_LEAGUE_FILTERS = {
+  'team:velez': {
+    label: 'Vélez Sarsfield',
+    team: 'Vélez Sarsfield',
+    leagueKeys: ['argentina-liga-profesional-2026', 'copa-argentina-2026'],
+  },
+  'team:torpedo': {
+    label: 'Torpedo Moscow',
+    team: 'Torpedo Moscow',
+    leagueKeys: ['russian-first-league-2026-27'],
+  },
+};
+// Reverse lookup: real league key -> the virtual team-filter key that
+// replaces it in the Fixtures dropdown, so populateLeagueOptions() can skip
+// adding that league as its own option.
+const LEAGUE_KEY_TO_TEAM_FILTER = {};
+for (const [virtualKey, cfg] of Object.entries(TEAM_LEAGUE_FILTERS)) {
+  for (const key of cfg.leagueKeys) LEAGUE_KEY_TO_TEAM_FILTER[key] = virtualKey;
+}
+
+// True if match `m` should show up under the currently selected Fixtures
+// League dropdown value - either a real league key (exact match, as
+// before) or one of the virtual TEAM_LEAGUE_FILTERS keys (team name match
+// across every league in that filter's group).
+function matchesLeagueSelection(m, selectedLeague) {
+  if (selectedLeague === 'all') return true;
+  const teamFilter = TEAM_LEAGUE_FILTERS[selectedLeague];
+  if (teamFilter) return m.home === teamFilter.team || m.away === teamFilter.team;
+  return m.league === selectedLeague;
+}
 
 function closeGameModal() {
   gameModalOverlay.style.display = 'none';
@@ -585,18 +686,21 @@ function setView(view) {
   viewFixturesBtn.classList.toggle('active', view === 'fixtures');
   viewStandingsBtn.classList.toggle('active', view === 'standings');
   viewAttendanceBtn.classList.toggle('active', view === 'attendance');
+  viewPlayoffsBtn.classList.toggle('active', view === 'playoffs');
   dayNav.style.display = showFixtures ? 'flex' : 'none';
   controlsBar.style.display = showFixtures ? 'flex' : 'none';
   selectedDateLabel.style.display = showFixtures ? '' : 'none';
   matchList.style.display = showFixtures ? '' : 'none';
   standingsView.style.display = view === 'standings' ? '' : 'none';
   attendanceView.style.display = view === 'attendance' ? '' : 'none';
+  playoffsView.style.display = view === 'playoffs' ? '' : 'none';
   render();
 }
 
 viewFixturesBtn.addEventListener('click', () => setView('fixtures'));
 viewStandingsBtn.addEventListener('click', () => setView('standings'));
 viewAttendanceBtn.addEventListener('click', () => setView('attendance'));
+viewPlayoffsBtn.addEventListener('click', () => setView('playoffs'));
 
 function enrichMatch(m) {
   // Prefer the true UTC instant (converted to whatever timezone this
@@ -607,6 +711,11 @@ function enrichMatch(m) {
   // UTC offset for that venue.
   if (m.utc) {
     const d = new Date(m.utc);
+    console.log("UTC:", m.utc);
+    console.log("Date object:", d);
+    console.log("getHours():", d.getHours());
+    console.log("getMinutes():", d.getMinutes());
+    console.log("getTimezoneOffset():", d.getTimezoneOffset());
     m._localDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     m._localTime = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
     m._timeIsLocal = true;
@@ -652,6 +761,10 @@ function render() {
     renderAttendance();
     return;
   }
+  if (currentView === 'playoffs') {
+    renderPlayoffs();
+    return;
+  }
 
   const selectedDate = dateInput.value;
   const selectedLeague = leagueSelect.value;
@@ -660,7 +773,7 @@ function render() {
 
   const dayMatches = allMatches
     .filter(m => m._localDate === selectedDate)
-    .filter(m => selectedLeague === 'all' || m.league === selectedLeague)
+    .filter(m => matchesLeagueSelection(m, selectedLeague))
     .sort((a, b) => (a._localTime || '99:99').localeCompare(b._localTime || '99:99'));
 
   matchList.innerHTML = '';
@@ -1000,7 +1113,17 @@ function normalizeTeamName(raw) {
     // as two separate rows in the Attendance table.
     .replace(/^[a-z]\s*[-\u2013]\s*/i, '')
     .replace(/\s*\[[a-zA-Z0-9]{1,3}\]\s*$/, '')
-    .replace(/\s*\((?:H|A)\)\s*$/i, '')
+    // Trailing single-letter status markers in parens: "(H)"/"(A)" host/
+    // away on an international page, plus the clinch-style markers some
+    // ladder tables glue onto a name - "(Q)" qualified, "(X)" eliminated,
+    // "(T)" top-4/already secured (e.g. Super League's "Leeds Rhinos (T)").
+    // Deliberately NOT a bare "any single letter" wildcard here (unlike the
+    // dash-prefix marker above) - some leagues use a parenthetical letter
+    // as part of a team's actual identity, not a status marker (e.g.
+    // Argentina's "Gimnasia y Esgrima (M)" for Mendoza vs "... (LP)" for La
+    // Plata, or "Talleres (C)" for Córdoba) - stripping those would wrongly
+    // merge two different real clubs into one row.
+    .replace(/\s*\((?:H|A|Q|X|T)\)\s*$/i, '')
     .trim();
 }
 
@@ -1241,8 +1364,115 @@ function renderAttendance() {
   attachAttendanceTableHandlers(wrap, attendanceLeagueKey);
 }
 
+// Renders one bracket match (both teams stacked, winner bolded once
+// played) from a playoffs.json-style match object:
+// {seed1, team1, score1, seed2, team2, score2, date, venue}. A match with
+// no score yet on either side just shows both teams with no score/winner
+// styling (e.g. the EFA Championship Game before it's been played).
+function renderBracketMatch(m) {
+  const played = m.score1 !== null && m.score1 !== undefined
+    && m.score2 !== null && m.score2 !== undefined;
+  const team1Wins = played && Number(m.score1) > Number(m.score2);
+  const team2Wins = played && Number(m.score2) > Number(m.score1);
+
+  const teamRow = (seed, team, score, isWinner) => `
+    <div class="bracket-team ${isWinner ? 'winner' : ''} ${played ? '' : 'pending'}">
+      <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${seed}</span>` : ''}${escapeHtml(team || 'TBD')}</span>
+      <span class="bracket-score">${played ? escapeHtml(String(score)) : ''}</span>
+    </div>`;
+
+  const metaBits = [];
+  if (m.date) metaBits.push(formatShortDate(m.date));
+  if (m.venue) metaBits.push(m.venue);
+  const meta = metaBits.length
+    ? `<div class="bracket-match-meta">${escapeHtml(metaBits.join(' · '))}</div>`
+    : '';
+
+  return `<div class="bracket-match">
+    ${teamRow(m.seed1, m.team1, m.score1, team1Wins)}
+    ${teamRow(m.seed2, m.team2, m.score2, team2Wins)}
+    ${meta}
+  </div>`;
+}
+
+function renderPlayoffs() {
+  playoffsView.innerHTML = '';
+
+  // A league qualifies for the Playoffs dropdown if it has at least one
+  // round with at least one match on record - same "don't show an empty
+  // tab" rule as Standings/Attendance.
+  const leagueKeys = Object.keys(playoffs).filter(
+    key => (playoffs[key].rounds || []).some(r => (r.matches || []).length)
+  );
+
+  if (leagueKeys.length === 0) {
+    playoffsView.innerHTML = '<div class="empty-state">No playoff brackets available yet.</div>';
+    return;
+  }
+
+  if (!playoffsLeagueKey || !leagueKeys.includes(playoffsLeagueKey)) {
+    playoffsLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+  }
+
+  // Simple dropdown, same look as the Standings/Attendance league picker,
+  // but sourced from playoffs[key].name rather than `leagues` - kept
+  // separate from renderLeagueSelector() since there's no
+  // active/archived split for a bracket.
+  const row = document.createElement('div');
+  row.className = 'league-select-row';
+  const select = document.createElement('select');
+  select.className = 'league-select-dropdown';
+  select.setAttribute('aria-label', 'Select league');
+  for (const key of leagueKeys) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = (playoffs[key] && playoffs[key].name) || (leagues[key] && leagues[key].name) || key;
+    select.appendChild(opt);
+  }
+  select.value = playoffsLeagueKey;
+  select.addEventListener('change', () => {
+    playoffsLeagueKey = select.value;
+    renderPlayoffs();
+  });
+  row.appendChild(select);
+  playoffsView.appendChild(row);
+
+  const bracket = playoffs[playoffsLeagueKey] || { rounds: [] };
+  const roundsHtml = (bracket.rounds || []).map(round => {
+    const matchesHtml = (round.matches || []).map(renderBracketMatch).join('');
+    return `<div class="bracket-round">
+      <div class="bracket-round-label">${escapeHtml(round.label || '')}</div>
+      ${matchesHtml}
+    </div>`;
+  }).join('');
+
+  const wrap = document.createElement('div');
+  wrap.className = 'standings-group';
+  wrap.innerHTML = `
+    <h3>${escapeHtml(bracket.name || (leagues[playoffsLeagueKey] && leagues[playoffsLeagueKey].name) || playoffsLeagueKey)}</h3>
+    <div style="padding:12px 16px;">${roundsHtml}</div>
+  `;
+  playoffsView.appendChild(wrap);
+}
+
 function populateLeagueOptions() {
+  const addedTeamFilters = new Set();
   for (const [key, info] of Object.entries(leagues)) {
+    const teamFilterKey = LEAGUE_KEY_TO_TEAM_FILTER[key];
+    if (teamFilterKey) {
+      // Replace this league's own dropdown entry with (at most) one shared
+      // "Team Name" entry the first time any league in its group is seen -
+      // subsequent leagues in the same group (e.g. Copa Argentina after
+      // Liga Profesional) are skipped entirely rather than adding a
+      // duplicate option.
+      if (addedTeamFilters.has(teamFilterKey)) continue;
+      addedTeamFilters.add(teamFilterKey);
+      const opt = document.createElement('option');
+      opt.value = teamFilterKey;
+      opt.textContent = TEAM_LEAGUE_FILTERS[teamFilterKey].label;
+      leagueSelect.appendChild(opt);
+      continue;
+    }
     const opt = document.createElement('option');
     opt.value = key;
     opt.textContent = info.name || key;
@@ -1273,6 +1503,7 @@ function loadFixtures(isRefresh) {
       leagues = data.leagues || {};
       standings = data.standings || {};
       attendanceTables = data.attendance_tables || {};
+      playoffs = data.playoffs || {};
       if (!isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();
