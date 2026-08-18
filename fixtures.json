@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T00:10:01+00:00",
+  "updated": "2026-08-18T00:21:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11352,7 +11352,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Defensa y Justicia",
-      "score": "-",
+      "score": "1-1",
       "date": "2026-08-17",
       "time": "17:00",
       "utc": "2026-08-17T20:00:00+00:00",
@@ -20564,14 +20564,14 @@
           },
           {
             "team": "Vélez Sarsfield",
-            "played": 4,
+            "played": 5,
             "win": 3,
-            "draw": 1,
+            "draw": 2,
             "loss": 0,
-            "for": 6,
-            "against": 2,
+            "for": 7,
+            "against": 3,
             "diff": 4,
-            "points": 10,
+            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
@@ -20587,6 +20587,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Defensa y Justicia",
+            "played": 5,
+            "win": 2,
+            "draw": 2,
+            "loss": 1,
+            "for": 6,
+            "against": 7,
+            "diff": -1,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newell's Old Boys",
             "played": 5,
             "win": 2,
@@ -20595,18 +20607,6 @@
             "for": 6,
             "against": 5,
             "diff": 1,
-            "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Defensa y Justicia",
-            "played": 4,
-            "win": 2,
-            "draw": 1,
-            "loss": 1,
-            "for": 5,
-            "against": 6,
-            "diff": -1,
             "points": 7,
             "highlight": "#BBF3BB"
           },
