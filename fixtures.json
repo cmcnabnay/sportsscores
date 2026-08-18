@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T02:21:02+00:00",
+  "updated": "2026-08-18T02:32:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20575,6 +20575,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
+            "for": 6,
+            "against": 3,
+            "diff": 3,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 5,
             "win": 3,
@@ -20630,18 +20642,6 @@
             "loss": 3,
             "for": 6,
             "against": 5,
-            "diff": 1,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 3,
-            "against": 2,
             "diff": 1,
             "points": 6,
             "highlight": "#BBF3BB"
@@ -20720,13 +20720,13 @@
           },
           {
             "team": "Talleres (C)",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 0,
-            "loss": 3,
-            "for": 5,
-            "against": 7,
-            "diff": -2,
+            "loss": 4,
+            "for": 6,
+            "against": 10,
+            "diff": -4,
             "points": 3,
             "highlight": "transparent"
           }
