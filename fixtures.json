@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T05:46:02+00:00",
+  "updated": "2026-08-20T19:13:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11374,7 +11374,7 @@
       "league": "npc-2026",
       "home": "Canterbury",
       "away": "Northland",
-      "score": null,
+      "score": "12-36",
       "date": "2026-08-20",
       "time": "19:10",
       "utc": "2026-08-20T07:10:00+00:00",
@@ -11396,7 +11396,7 @@
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "Penrith Panthers",
-      "score": null,
+      "score": "14–22",
       "date": "2026-08-20",
       "time": "19:50",
       "utc": "2026-08-20T09:50:00+00:00",
@@ -19235,6 +19235,18 @@
       "Ladder": {
         "rows": [
           {
+            "team": "Penrith Panthers (Q)",
+            "played": 22,
+            "win": 16,
+            "draw": 0,
+            "loss": 6,
+            "for": 621,
+            "against": 327,
+            "diff": 294,
+            "points": 38,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sydney Roosters (Q)",
             "played": 21,
             "win": 16,
@@ -19244,18 +19256,6 @@
             "against": 400,
             "diff": 163,
             "points": 38,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Penrith Panthers (Q)",
-            "played": 21,
-            "win": 15,
-            "draw": 0,
-            "loss": 6,
-            "for": 599,
-            "against": 313,
-            "diff": 286,
-            "points": 36,
             "highlight": "#BBF3BB"
           },
           {
@@ -19327,7 +19327,7 @@
             "for": 514,
             "against": 592,
             "diff": -78,
-            "points": 28,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -19355,14 +19355,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Melbourne Storm",
-            "played": 21,
+            "team": "Melbourne Storm (X)",
+            "played": 22,
             "win": 9,
             "draw": 0,
-            "loss": 12,
-            "for": 510,
-            "against": 514,
-            "diff": -4,
+            "loss": 13,
+            "for": 524,
+            "against": 536,
+            "diff": -12,
             "points": 24,
             "highlight": "transparent"
           },
@@ -20017,6 +20017,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "Northland (RS)",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 149,
+            "against": 60,
+            "diff": 89,
+            "points": 17,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Hawke's Bay",
             "played": 3,
             "win": 3,
@@ -20029,14 +20041,14 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Canterbury (RS)",
-            "played": 3,
+            "team": "Canterbury",
+            "played": 4,
             "win": 3,
             "draw": 0,
-            "loss": 0,
-            "for": 90,
-            "against": 74,
-            "diff": 16,
+            "loss": 1,
+            "for": 102,
+            "against": 110,
+            "diff": -8,
             "points": 14,
             "highlight": "#CCF9CC"
           },
@@ -20049,18 +20061,6 @@
             "for": 135,
             "against": 57,
             "diff": 78,
-            "points": 12,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Northland",
-            "played": 3,
-            "win": 2,
-            "draw": 0,
-            "loss": 1,
-            "for": 113,
-            "against": 48,
-            "diff": 65,
             "points": 12,
             "highlight": "#CCF9CC"
           },
