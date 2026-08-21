@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T11:47:08+00:00",
+  "updated": "2026-08-21T11:58:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11484,7 +11484,7 @@
       "league": "nrl-2026",
       "home": "Dolphins",
       "away": "Parramatta Eels",
-      "score": null,
+      "score": "34–16",
       "date": "2026-08-21",
       "time": "20:00",
       "utc": "2026-08-21T10:00:00+00:00",
@@ -19272,14 +19272,14 @@
           },
           {
             "team": "Dolphins (Q)",
-            "played": 21,
-            "win": 14,
+            "played": 22,
+            "win": 15,
             "draw": 0,
             "loss": 7,
-            "for": 578,
-            "against": 458,
-            "diff": 120,
-            "points": 34,
+            "for": 612,
+            "against": 474,
+            "diff": 138,
+            "points": 36,
             "highlight": "#BBF3BB"
           },
           {
@@ -19380,13 +19380,13 @@
           },
           {
             "team": "Parramatta Eels (X)",
-            "played": 21,
+            "played": 22,
             "win": 8,
             "draw": 0,
-            "loss": 13,
-            "for": 421,
-            "against": 602,
-            "diff": -181,
+            "loss": 14,
+            "for": 437,
+            "against": 636,
+            "diff": -199,
             "points": 22,
             "highlight": "transparent"
           },
