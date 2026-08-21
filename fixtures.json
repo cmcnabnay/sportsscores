@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T02:28:08+00:00",
+  "updated": "2026-08-21T02:39:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11385,12 +11385,12 @@
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Ottawa Redblacks",
-      "score": null,
+      "score": "46-16",
       "date": "2026-08-20",
       "time": "19:30",
       "utc": "2026-08-20T23:30:00+00:00",
       "venue": "Molson Stadium",
-      "attendance": null
+      "attendance": "22482"
     },
     {
       "league": "nrl-2026",
@@ -19181,14 +19181,14 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 9,
-            "win": 8,
+            "played": 10,
+            "win": 9,
             "draw": null,
             "loss": 1,
-            "for": 321,
-            "against": 247,
+            "for": 367,
+            "against": 263,
             "diff": null,
-            "points": 16,
+            "points": 18,
             "highlight": null
           },
           {
@@ -19217,12 +19217,12 @@
           },
           {
             "team": "Ottawa Redblacks",
-            "played": 9,
+            "played": 10,
             "win": 0,
             "draw": null,
-            "loss": 9,
-            "for": 207,
-            "against": 322,
+            "loss": 10,
+            "for": 223,
+            "against": 368,
             "diff": null,
             "points": 0,
             "highlight": null
