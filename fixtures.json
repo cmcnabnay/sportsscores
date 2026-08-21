@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T05:23:08+00:00",
+  "updated": "2026-08-21T05:34:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -8475,17 +8475,6 @@
       "attendance": "11021"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Ural",
-      "away": "Torpedo Moscow",
-      "score": "0-1",
-      "date": "2026-07-12",
-      "time": "12:00",
-      "utc": "2026-07-12T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Munich Ravens",
       "away": "Frankfurt Galaxy",
@@ -8650,6 +8639,17 @@
       "attendance": null,
       "group": "Championship bracket",
       "round": "Semi-finals"
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Ural",
+      "away": "Torpedo Moscow",
+      "score": "0-1",
+      "date": "2026-07-13",
+      "time": "19:00",
+      "utc": "2026-07-13T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "u20-jwc-2026",
@@ -9464,17 +9464,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Volga Ulyanovsk",
-      "score": "3-1",
-      "date": "2026-07-19",
-      "time": "12:00",
-      "utc": "2026-07-19T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fivb-nations-league-2026",
       "home": "China",
       "away": "Brazil",
@@ -9614,6 +9603,17 @@
       "date": "2026-07-19",
       "time": "16:30",
       "utc": "2026-07-19T14:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Volga Ulyanovsk",
+      "score": "3-1",
+      "date": "2026-07-19",
+      "time": "18:30",
+      "utc": "2026-07-19T15:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -9893,17 +9893,6 @@
       "attendance": "7024"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Shinnik Yaroslavl",
-      "score": "1-1",
-      "date": "2026-07-26",
-      "time": "12:00",
-      "utc": "2026-07-26T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Gold Coast Titans",
@@ -9956,6 +9945,17 @@
       "time": "16:40",
       "utc": "2026-07-26T14:40:00+00:00",
       "venue": "Vélodrome Jacques-Anquetil , Paris",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Shinnik Yaroslavl",
+      "score": "1-1",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "utc": "2026-07-26T14:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -10355,17 +10355,6 @@
       "attendance": "7951"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Arsenal Tula",
-      "away": "Torpedo Moscow",
-      "score": "1-0",
-      "date": "2026-08-02",
-      "time": "12:00",
-      "utc": "2026-08-02T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Frankfurt Galaxy",
       "away": "Nordic Storm",
@@ -10418,6 +10407,17 @@
       "time": "14:05",
       "utc": "2026-08-02T02:05:00+00:00",
       "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Arsenal Tula",
+      "away": "Torpedo Moscow",
+      "score": "1-0",
+      "date": "2026-08-02",
+      "time": "15:00",
+      "utc": "2026-08-02T12:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -10630,17 +10630,6 @@
       "attendance": "8249"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Sochi",
-      "score": "1-2",
-      "date": "2026-08-08",
-      "time": "12:00",
-      "utc": "2026-08-08T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Munich Ravens",
@@ -10793,6 +10782,17 @@
       "utc": "2026-08-08T16:30:00+00:00",
       "venue": "Brick Community Stadium",
       "attendance": "16889"
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Sochi",
+      "score": "1-2",
+      "date": "2026-08-08",
+      "time": "18:00",
+      "utc": "2026-08-08T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "afle-2026",
@@ -11081,17 +11081,6 @@
       "attendance": "12030"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Chelyabinsk",
-      "away": "Torpedo Moscow",
-      "score": "0-4",
-      "date": "2026-08-15",
-      "time": "12:00",
-      "utc": "2026-08-15T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "Berlin Thunder",
@@ -11145,6 +11134,17 @@
       "utc": "2026-08-15T14:00:00+00:00",
       "venue": "Odsal Stadium",
       "attendance": "7561"
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Chelyabinsk",
+      "away": "Torpedo Moscow",
+      "score": "0-4",
+      "date": "2026-08-15",
+      "time": "15:30",
+      "utc": "2026-08-15T10:30:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "currie-cup-2026",
@@ -11404,17 +11404,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Spartak Kostroma",
-      "score": "-",
-      "date": "2026-08-21",
-      "time": "12:00",
-      "utc": "2026-08-21T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "currie-cup-2026",
       "home": "Pumas",
       "away": "Griquas",
@@ -11467,6 +11456,17 @@
       "time": "19:10",
       "utc": "2026-08-21T07:10:00+00:00",
       "venue": "McLean Park",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Spartak Kostroma",
+      "score": "-",
+      "date": "2026-08-21",
+      "time": "19:30",
+      "utc": "2026-08-21T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -12462,17 +12462,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "SKA-Khabarovsk",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-08-30",
-      "time": "12:00",
-      "utc": "2026-08-30T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Newcastle Knights",
@@ -12492,6 +12481,17 @@
       "time": "14:05",
       "utc": "2026-08-30T02:05:00+00:00",
       "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "SKA-Khabarovsk",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-08-30",
+      "time": "15:00",
+      "utc": "2026-08-30T05:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -12946,6 +12946,17 @@
       "attendance": null
     },
     {
+      "league": "russian-first-league-2026-27",
+      "home": "Tekstilshchik Ivanovo",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-09-04",
+      "time": "19:30",
+      "utc": "2026-09-04T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "BC Lions",
@@ -13009,17 +13020,6 @@
       "time": null,
       "utc": null,
       "venue": "TBC",
-      "attendance": null
-    },
-    {
-      "league": "russian-first-league-2026-27",
-      "home": "Tekstilshchik Ivanovo",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-09-05",
-      "time": "12:00",
-      "utc": "2026-09-05T12:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -13309,17 +13309,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Pari NN",
-      "score": "-",
-      "date": "2026-09-12",
-      "time": "12:00",
-      "utc": "2026-09-12T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "Ottawa Redblacks",
@@ -13383,6 +13372,17 @@
       "time": "17:05",
       "utc": "2026-09-12T05:05:00+00:00",
       "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Pari NN",
+      "score": "-",
+      "date": "2026-09-12",
+      "time": "18:00",
+      "utc": "2026-09-12T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13457,8 +13457,8 @@
       "away": "Veles Moscow",
       "score": "-",
       "date": "2026-09-17",
-      "time": "12:00",
-      "utc": "2026-09-17T12:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-09-17T15:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -13650,17 +13650,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Ufa",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-09-26",
-      "time": "12:00",
-      "utc": "2026-09-26T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Counties Manukau",
@@ -13713,6 +13702,17 @@
       "time": "19:10",
       "utc": "2026-09-26T07:10:00+00:00",
       "venue": "North Harbour Stadium",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Ufa",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "utc": "2026-09-26T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13919,8 +13919,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2026-10-10",
-      "time": "12:00",
-      "utc": "2026-10-10T12:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-10-10T15:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -13980,17 +13980,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Yenisey Krasnoyarsk",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-10-17",
-      "time": "12:00",
-      "utc": "2026-10-17T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Montreal Alouettes",
@@ -14010,6 +13999,17 @@
       "time": "17:00",
       "utc": "2026-10-17T23:00:00+00:00",
       "venue": "McMahon Stadium",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Yenisey Krasnoyarsk",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-10-17",
+      "time": "22:00",
+      "utc": "2026-10-17T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -14046,17 +14046,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Rotor Volgograd",
-      "score": "-",
-      "date": "2026-10-24",
-      "time": "12:00",
-      "utc": "2026-10-24T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Edmonton Elks",
@@ -14079,6 +14068,17 @@
       "attendance": null
     },
     {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Rotor Volgograd",
+      "score": "-",
+      "date": "2026-10-24",
+      "time": "18:00",
+      "utc": "2026-10-24T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Central Córdoba (SdE)",
       "away": "Vélez Sarsfield",
@@ -14095,8 +14095,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2026-10-31",
-      "time": "12:00",
-      "utc": "2026-10-31T12:00:00+00:00",
+      "time": "19:00",
+      "utc": "2026-10-31T16:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14120,17 +14120,6 @@
       "time": "20:10",
       "utc": "2026-11-06T20:10:00+00:00",
       "venue": "Aviva Stadium, Dublin",
-      "attendance": null
-    },
-    {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Neftekhimik",
-      "score": "-",
-      "date": "2026-11-07",
-      "time": "12:00",
-      "utc": "2026-11-07T12:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -14164,6 +14153,17 @@
       "time": "16:40",
       "utc": "2026-11-07T16:40:00+00:00",
       "venue": "Millennium Stadium, Cardiff",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Neftekhimik",
+      "score": "-",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "utc": "2026-11-07T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -14398,17 +14398,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Pari NN",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-11-21",
-      "time": "12:00",
-      "utc": "2026-11-21T12:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "nations-championship-2026",
       "home": "England",
       "away": "New Zealand",
@@ -14450,6 +14439,17 @@
       "time": "17:40",
       "utc": "2026-11-21T16:40:00+00:00",
       "venue": "Stadio Friuli, Udine",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Pari NN",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-11-21",
+      "time": "18:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -14546,8 +14546,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2026-11-25",
-      "time": "12:00",
-      "utc": "2026-11-25T12:00:00+00:00",
+      "time": "19:00",
+      "utc": "2026-11-25T15:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14821,8 +14821,8 @@
       "away": "SKA-Khabarovsk",
       "score": "-",
       "date": "2026-11-28",
-      "time": "12:00",
-      "utc": "2026-11-28T12:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-11-28T15:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -15096,8 +15096,8 @@
       "away": "Chelyabinsk",
       "score": "-",
       "date": "2026-12-05",
-      "time": "12:00",
-      "utc": "2026-12-05T12:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-12-05T15:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -15833,8 +15833,8 @@
       "away": "Ural",
       "score": "-",
       "date": "2027-03-06",
-      "time": "12:00",
-      "utc": "2027-03-06T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15844,8 +15844,8 @@
       "away": "Ufa",
       "score": "-",
       "date": "2027-03-13",
-      "time": "12:00",
-      "utc": "2027-03-13T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15855,8 +15855,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-03-20",
-      "time": "12:00",
-      "utc": "2027-03-20T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15866,8 +15866,8 @@
       "away": "KAMAZ Naberezhnye Chelny",
       "score": "-",
       "date": "2027-04-03",
-      "time": "12:00",
-      "utc": "2027-04-03T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15877,8 +15877,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-04-10",
-      "time": "12:00",
-      "utc": "2027-04-10T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15888,8 +15888,8 @@
       "away": "Yenisey Krasnoyarsk",
       "score": "-",
       "date": "2027-04-14",
-      "time": "12:00",
-      "utc": "2027-04-14T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15899,8 +15899,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-04-17",
-      "time": "12:00",
-      "utc": "2027-04-17T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15910,8 +15910,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-04-24",
-      "time": "12:00",
-      "utc": "2027-04-24T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15921,8 +15921,8 @@
       "away": "Tekstilshchik Ivanovo",
       "score": "-",
       "date": "2027-05-01",
-      "time": "12:00",
-      "utc": "2027-05-01T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15932,8 +15932,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-05-08",
-      "time": "12:00",
-      "utc": "2027-05-08T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15943,8 +15943,8 @@
       "away": "Leningradets",
       "score": "-",
       "date": "2027-05-15",
-      "time": "12:00",
-      "utc": "2027-05-15T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15954,8 +15954,8 @@
       "away": "Arsenal Tula",
       "score": "-",
       "date": "2027-05-22",
-      "time": "12:00",
-      "utc": "2027-05-22T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     },
@@ -15965,8 +15965,8 @@
       "away": "Torpedo Moscow",
       "score": "-",
       "date": "2027-05-29",
-      "time": "12:00",
-      "utc": "2027-05-29T12:00:00+00:00",
+      "time": null,
+      "utc": null,
       "venue": null,
       "attendance": null
     }
