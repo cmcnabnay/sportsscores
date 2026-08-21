@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T09:14:08+00:00",
+  "updated": "2026-08-21T09:25:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20017,6 +20017,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "Hawke's Bay",
+            "played": 4,
+            "win": 4,
+            "draw": 0,
+            "loss": 0,
+            "for": 205,
+            "against": 100,
+            "diff": 105,
+            "points": 20,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Northland (RS)",
             "played": 4,
             "win": 3,
@@ -20026,18 +20038,6 @@
             "against": 60,
             "diff": 89,
             "points": 17,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Hawke's Bay",
-            "played": 3,
-            "win": 3,
-            "draw": 0,
-            "loss": 0,
-            "for": 146,
-            "against": 83,
-            "diff": 63,
-            "points": 15,
             "highlight": "#CCF9CC"
           },
           {
@@ -20137,18 +20137,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Manawatu",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 77,
-            "against": 104,
-            "diff": -27,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Taranaki",
             "played": 3,
             "win": 1,
@@ -20157,6 +20145,18 @@
             "for": 52,
             "against": 85,
             "diff": -33,
+            "points": 6,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Manawatu",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 94,
+            "against": 163,
+            "diff": -69,
             "points": 6,
             "highlight": "transparent"
           },
