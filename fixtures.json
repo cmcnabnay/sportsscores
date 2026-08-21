@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T09:47:08+00:00",
+  "updated": "2026-08-21T09:58:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11429,7 +11429,7 @@
       "league": "nrl-2026",
       "home": "Canberra Raiders",
       "away": "Brisbane Broncos",
-      "score": null,
+      "score": "30–34",
       "date": "2026-08-21",
       "time": "18:00",
       "utc": "2026-08-21T08:00:00+00:00",
@@ -19368,13 +19368,13 @@
           },
           {
             "team": "Canberra Raiders",
-            "played": 22,
+            "played": 23,
             "win": 10,
             "draw": 0,
-            "loss": 12,
-            "for": 501,
-            "against": 562,
-            "diff": -61,
+            "loss": 13,
+            "for": 531,
+            "against": 596,
+            "diff": -65,
             "points": 24,
             "highlight": "transparent"
           },
@@ -19388,6 +19388,18 @@
             "against": 602,
             "diff": -181,
             "points": 22,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Brisbane Broncos (X)",
+            "played": 22,
+            "win": 7,
+            "draw": 0,
+            "loss": 15,
+            "for": 417,
+            "against": 611,
+            "diff": -194,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -19411,18 +19423,6 @@
             "for": 413,
             "against": 567,
             "diff": -154,
-            "points": 18,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Brisbane Broncos (X)",
-            "played": 21,
-            "win": 6,
-            "draw": 0,
-            "loss": 15,
-            "for": 383,
-            "against": 581,
-            "diff": -198,
             "points": 18,
             "highlight": "transparent"
           },
