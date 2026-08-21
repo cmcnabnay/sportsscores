@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T20:50:08+00:00",
+  "updated": "2026-08-21T21:01:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11495,23 +11495,23 @@
       "league": "super-league-2026",
       "home": "Wigan Warriors",
       "away": "Wakefield Trinity",
-      "score": null,
+      "score": "26–12",
       "date": "2026-08-21",
       "time": "20:00",
       "utc": "2026-08-21T19:00:00+00:00",
       "venue": "Brick Community Stadium",
-      "attendance": null
+      "attendance": "15652"
     },
     {
       "league": "super-league-2026",
       "home": "Leigh Leopards",
       "away": "Bradford Bulls",
-      "score": null,
+      "score": "62–10",
       "date": "2026-08-21",
       "time": "20:00",
       "utc": "2026-08-21T19:00:00+00:00",
       "venue": "Leigh Sports Village",
-      "attendance": null
+      "attendance": "8045"
     },
     {
       "league": "npc-2026",
@@ -19446,6 +19446,18 @@
       "Table": {
         "rows": [
           {
+            "team": "Wigan Warriors (T)",
+            "played": 24,
+            "win": 19,
+            "draw": 0,
+            "loss": 5,
+            "for": 715,
+            "against": 419,
+            "diff": 296,
+            "points": 38,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Leeds Rhinos (T)",
             "played": 23,
             "win": 18,
@@ -19454,18 +19466,6 @@
             "for": 784,
             "against": 346,
             "diff": 438,
-            "points": 36,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Wigan Warriors (T)",
-            "played": 23,
-            "win": 18,
-            "draw": 0,
-            "loss": 5,
-            "for": 689,
-            "against": 407,
-            "diff": 282,
             "points": 36,
             "highlight": "#BBF3BB"
           },
@@ -19483,13 +19483,25 @@
           },
           {
             "team": "Wakefield Trinity",
-            "played": 23,
+            "played": 24,
             "win": 16,
             "draw": 0,
-            "loss": 7,
-            "for": 625,
-            "against": 422,
-            "diff": 203,
+            "loss": 8,
+            "for": 637,
+            "against": 448,
+            "diff": 189,
+            "points": 32,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Leigh Leopards",
+            "played": 24,
+            "win": 16,
+            "draw": 0,
+            "loss": 8,
+            "for": 570,
+            "against": 438,
+            "diff": 132,
             "points": 32,
             "highlight": "#BBF3FF"
           },
@@ -19502,18 +19514,6 @@
             "for": 688,
             "against": 383,
             "diff": 305,
-            "points": 30,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Leigh Leopards",
-            "played": 23,
-            "win": 15,
-            "draw": 0,
-            "loss": 8,
-            "for": 508,
-            "against": 428,
-            "diff": 80,
             "points": 30,
             "highlight": "#BBF3FF"
           },
@@ -19603,13 +19603,13 @@
           },
           {
             "team": "Bradford Bulls",
-            "played": 23,
+            "played": 24,
             "win": 6,
             "draw": 0,
-            "loss": 17,
-            "for": 392,
-            "against": 705,
-            "diff": -313,
+            "loss": 18,
+            "for": 402,
+            "against": 767,
+            "diff": -365,
             "points": 12,
             "highlight": "transparent"
           }
