@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T20:49:03+00:00",
+  "updated": "2026-08-22T20:59:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20563,13 +20563,25 @@
         "rows": [
           {
             "team": "Instituto",
-            "played": 5,
+            "played": 6,
             "win": 4,
-            "draw": 0,
+            "draw": 1,
             "loss": 1,
             "for": 5,
             "against": 2,
             "diff": 3,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 6,
+            "win": 4,
+            "draw": 0,
+            "loss": 2,
+            "for": 9,
+            "against": 5,
+            "diff": 4,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -20583,18 +20595,6 @@
             "against": 3,
             "diff": 4,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 5,
-            "win": 3,
-            "draw": 0,
-            "loss": 2,
-            "for": 6,
-            "against": 3,
-            "diff": 3,
-            "points": 9,
             "highlight": "#BBF3BB"
           },
           {
@@ -20795,6 +20795,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Atlético Tucumán",
+            "played": 6,
+            "win": 2,
+            "draw": 3,
+            "loss": 1,
+            "for": 4,
+            "against": 2,
+            "diff": 2,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Barracas Central",
             "played": 5,
             "win": 3,
@@ -20808,26 +20820,14 @@
           },
           {
             "team": "Gimnasia y Esgrima (LP)",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": 0,
-            "loss": 2,
-            "for": 6,
-            "against": 7,
-            "diff": -1,
+            "loss": 3,
+            "for": 8,
+            "against": 10,
+            "diff": -2,
             "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Atlético Tucumán",
-            "played": 5,
-            "win": 2,
-            "draw": 2,
-            "loss": 1,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
-            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
