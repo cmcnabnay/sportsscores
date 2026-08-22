@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T19:12:03+00:00",
+  "updated": "2026-08-22T19:23:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19507,26 +19507,26 @@
           },
           {
             "team": "Hull KR",
-            "played": 23,
+            "played": 24,
             "win": 15,
             "draw": 0,
-            "loss": 8,
-            "for": 688,
-            "against": 383,
-            "diff": 305,
+            "loss": 9,
+            "for": 700,
+            "against": 415,
+            "diff": 285,
             "points": 30,
             "highlight": "#BBF3FF"
           },
           {
             "team": "St Helens",
-            "played": 23,
-            "win": 13,
+            "played": 24,
+            "win": 14,
             "draw": 0,
             "loss": 10,
-            "for": 548,
-            "against": 508,
-            "diff": 40,
-            "points": 26,
+            "for": 584,
+            "against": 520,
+            "diff": 64,
+            "points": 28,
             "highlight": "transparent"
           },
           {
@@ -19542,27 +19542,27 @@
             "highlight": "transparent"
           },
           {
-            "team": "Castleford Tigers",
-            "played": 23,
+            "team": "Toulouse Olympique",
+            "played": 24,
             "win": 8,
             "draw": 0,
-            "loss": 15,
-            "for": 408,
-            "against": 716,
-            "diff": -308,
+            "loss": 16,
+            "for": 492,
+            "against": 630,
+            "diff": -138,
             "points": 16,
             "highlight": "transparent"
           },
           {
-            "team": "Toulouse Olympique",
-            "played": 23,
-            "win": 7,
+            "team": "Castleford Tigers",
+            "played": 24,
+            "win": 8,
             "draw": 0,
             "loss": 16,
-            "for": 460,
-            "against": 618,
-            "diff": -158,
-            "points": 14,
+            "for": 420,
+            "against": 752,
+            "diff": -332,
+            "points": 16,
             "highlight": "transparent"
           },
           {
