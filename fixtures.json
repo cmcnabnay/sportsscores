@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T23:10:03+00:00",
+  "updated": "2026-08-22T23:20:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20958,6 +20958,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Ural Yekaterinburg",
+            "played": 7,
+            "win": 4,
+            "draw": 2,
+            "loss": 1,
+            "for": 12,
+            "against": 2,
+            "diff": 10,
+            "points": 14,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Sochi",
             "played": 7,
             "win": 4,
@@ -20970,27 +20982,39 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Spartak Kostroma",
-            "played": 6,
-            "win": 3,
-            "draw": 3,
-            "loss": 0,
-            "for": 11,
+            "team": "Torpedo Moscow",
+            "played": 7,
+            "win": 4,
+            "draw": 1,
+            "loss": 2,
+            "for": 13,
             "against": 5,
-            "diff": 6,
-            "points": 12,
-            "highlight": "#CCF9CC"
+            "diff": 8,
+            "points": 13,
+            "highlight": "transparent"
           },
           {
-            "team": "Ural Yekaterinburg",
-            "played": 6,
+            "team": "Shinnik Yaroslavl",
+            "played": 7,
             "win": 3,
-            "draw": 2,
+            "draw": 3,
             "loss": 1,
-            "for": 10,
-            "against": 2,
-            "diff": 8,
-            "points": 11,
+            "for": 12,
+            "against": 9,
+            "diff": 3,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Spartak Kostroma",
+            "played": 7,
+            "win": 3,
+            "draw": 3,
+            "loss": 1,
+            "for": 11,
+            "against": 8,
+            "diff": 3,
+            "points": 12,
             "highlight": "transparent"
           },
           {
@@ -21003,18 +21027,6 @@
             "against": 10,
             "diff": -3,
             "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Torpedo Moscow",
-            "played": 6,
-            "win": 3,
-            "draw": 1,
-            "loss": 2,
-            "for": 10,
-            "against": 5,
-            "diff": 5,
-            "points": 10,
             "highlight": "transparent"
           },
           {
@@ -21042,18 +21054,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Shinnik Yaroslavl",
-            "played": 6,
-            "win": 2,
-            "draw": 3,
-            "loss": 1,
-            "for": 9,
-            "against": 8,
-            "diff": 1,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
             "team": "Ufa",
             "played": 6,
             "win": 2,
@@ -21066,23 +21066,23 @@
             "highlight": "transparent"
           },
           {
-            "team": "Volga Ulyanovsk",
-            "played": 6,
-            "win": 2,
-            "draw": 0,
-            "loss": 4,
-            "for": 6,
-            "against": 9,
-            "diff": -3,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Chelyabinsk",
             "played": 6,
             "win": 2,
             "draw": 0,
             "loss": 4,
+            "for": 7,
+            "against": 12,
+            "diff": -5,
+            "points": 6,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Volga Ulyanovsk",
+            "played": 7,
+            "win": 2,
+            "draw": 0,
+            "loss": 5,
             "for": 7,
             "against": 12,
             "diff": -5,
@@ -21103,13 +21103,13 @@
           },
           {
             "team": "Tekstilshchik Ivanovo",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": 3,
-            "loss": 3,
+            "loss": 4,
             "for": 5,
-            "against": 8,
-            "diff": -3,
+            "against": 10,
+            "diff": -5,
             "points": 6,
             "highlight": "transparent"
           },
