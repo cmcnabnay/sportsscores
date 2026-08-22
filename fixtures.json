@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T23:20:04+00:00",
+  "updated": "2026-08-22T23:31:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20599,14 +20599,14 @@
           },
           {
             "team": "Independiente",
-            "played": 5,
+            "played": 6,
             "win": 3,
-            "draw": 0,
+            "draw": 1,
             "loss": 2,
             "for": 6,
             "against": 3,
             "diff": 3,
-            "points": 9,
+            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -20843,6 +20843,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Independiente Rivadavia",
+            "played": 6,
+            "win": 2,
+            "draw": 2,
+            "loss": 2,
+            "for": 5,
+            "against": 6,
+            "diff": -1,
+            "points": 8,
+            "highlight": "transparent"
+          },
+          {
             "team": "Huracán",
             "played": 5,
             "win": 2,
@@ -20851,18 +20863,6 @@
             "for": 4,
             "against": 4,
             "diff": 0,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Independiente Rivadavia",
-            "played": 5,
-            "win": 2,
-            "draw": 1,
-            "loss": 2,
-            "for": 5,
-            "against": 6,
-            "diff": -1,
             "points": 7,
             "highlight": "transparent"
           },
