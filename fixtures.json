@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T05:31:09+00:00",
+  "updated": "2026-08-22T14:41:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11473,12 +11473,12 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Winnipeg Blue Bombers",
-      "score": null,
+      "score": "22-19",
       "date": "2026-08-21",
       "time": "19:30",
       "utc": "2026-08-22T01:30:00+00:00",
       "venue": "Commonwealth Stadium",
-      "attendance": null
+      "attendance": "22805"
     },
     {
       "league": "nrl-2026",
@@ -11528,12 +11528,12 @@
       "league": "nrl-2026",
       "home": "Newcastle Knights",
       "away": "Manly Warringah Sea Eagles",
-      "score": null,
+      "score": "24–44",
       "date": "2026-08-22",
       "time": "15:00",
       "utc": "2026-08-22T05:00:00+00:00",
       "venue": "McDonald Jones Stadium",
-      "attendance": null
+      "attendance": "24537"
     },
     {
       "league": "super-league-2026",
@@ -11561,12 +11561,12 @@
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "New Zealand Warriors",
-      "score": null,
+      "score": "26–45",
       "date": "2026-08-22",
       "time": "17:30",
       "utc": "2026-08-22T07:30:00+00:00",
       "venue": "Accor Stadium",
-      "attendance": null
+      "attendance": "19531"
     },
     {
       "league": "super-league-2026",
@@ -11583,7 +11583,7 @@
       "league": "npc-2026",
       "home": "North Harbour",
       "away": "Auckland",
-      "score": null,
+      "score": "27-19",
       "date": "2026-08-22",
       "time": "17:35",
       "utc": "2026-08-22T05:35:00+00:00",
@@ -11616,18 +11616,18 @@
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Canterbury-Bankstown Bulldogs",
-      "score": null,
+      "score": "14–44",
       "date": "2026-08-22",
       "time": "19:30",
       "utc": "2026-08-22T09:30:00+00:00",
       "venue": "Allianz Stadium",
-      "attendance": null
+      "attendance": "14711"
     },
     {
       "league": "npc-2026",
       "home": "Bay of Plenty",
       "away": "Taranaki",
-      "score": null,
+      "score": "28-24",
       "date": "2026-08-22",
       "time": "19:35",
       "utc": "2026-08-22T07:35:00+00:00",
@@ -19116,14 +19116,14 @@
         "rows": [
           {
             "team": "Edmonton Elks",
-            "played": 10,
-            "win": 7,
+            "played": 11,
+            "win": 8,
             "draw": null,
             "loss": 3,
-            "for": 301,
-            "against": 260,
+            "for": 323,
+            "against": 279,
             "diff": null,
-            "points": 14,
+            "points": 16,
             "highlight": null
           },
           {
@@ -19140,12 +19140,12 @@
           },
           {
             "team": "Winnipeg Blue Bombers",
-            "played": 9,
+            "played": 10,
             "win": 5,
             "draw": null,
-            "loss": 4,
-            "for": 237,
-            "against": 264,
+            "loss": 5,
+            "for": 256,
+            "against": 286,
             "diff": null,
             "points": 10,
             "highlight": null
@@ -19235,6 +19235,18 @@
       "Ladder": {
         "rows": [
           {
+            "team": "New Zealand Warriors (Q)",
+            "played": 22,
+            "win": 16,
+            "draw": 0,
+            "loss": 6,
+            "for": 651,
+            "against": 356,
+            "diff": 295,
+            "points": 38,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Penrith Panthers (Q)",
             "played": 22,
             "win": 16,
@@ -19256,18 +19268,6 @@
             "against": 400,
             "diff": 163,
             "points": 38,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "New Zealand Warriors (Q)",
-            "played": 21,
-            "win": 15,
-            "draw": 0,
-            "loss": 6,
-            "for": 606,
-            "against": 330,
-            "diff": 276,
-            "points": 36,
             "highlight": "#BBF3BB"
           },
           {
@@ -19296,25 +19296,25 @@
           },
           {
             "team": "Newcastle Knights (Q)",
-            "played": 22,
+            "played": 23,
             "win": 14,
             "draw": 0,
-            "loss": 8,
-            "for": 577,
-            "against": 501,
-            "diff": 76,
+            "loss": 9,
+            "for": 601,
+            "against": 545,
+            "diff": 56,
             "points": 32,
             "highlight": "#BBF3BB"
           },
           {
             "team": "South Sydney Rabbitohs",
-            "played": 21,
+            "played": 22,
             "win": 12,
             "draw": 0,
-            "loss": 9,
-            "for": 576,
-            "against": 494,
-            "diff": 82,
+            "loss": 10,
+            "for": 602,
+            "against": 539,
+            "diff": 63,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -19332,26 +19332,26 @@
           },
           {
             "team": "Canterbury-Bankstown Bulldogs",
-            "played": 21,
-            "win": 10,
+            "played": 22,
+            "win": 11,
             "draw": 0,
             "loss": 11,
-            "for": 402,
-            "against": 464,
-            "diff": -62,
-            "points": 26,
+            "for": 446,
+            "against": 478,
+            "diff": -32,
+            "points": 28,
             "highlight": "transparent"
           },
           {
             "team": "Manly Warringah Sea Eagles",
-            "played": 21,
-            "win": 9,
+            "played": 22,
+            "win": 10,
             "draw": 0,
             "loss": 12,
-            "for": 505,
-            "against": 459,
-            "diff": 46,
-            "points": 24,
+            "for": 549,
+            "against": 483,
+            "diff": 66,
+            "points": 26,
             "highlight": "transparent"
           },
           {
@@ -19428,13 +19428,13 @@
           },
           {
             "team": "St. George Illawarra Dragons (X)",
-            "played": 21,
+            "played": 22,
             "win": 4,
             "draw": 0,
-            "loss": 17,
-            "for": 344,
-            "against": 607,
-            "diff": -263,
+            "loss": 18,
+            "for": 358,
+            "against": 651,
+            "diff": -293,
             "points": 14,
             "highlight": "transparent"
           }
@@ -19470,7 +19470,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Warrington Wolves (T)",
+            "team": "Warrington Wolves",
             "played": 23,
             "win": 17,
             "draw": 0,
@@ -20041,6 +20041,30 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "North Harbour",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 162,
+            "against": 76,
+            "diff": 86,
+            "points": 17,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Tasman",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 146,
+            "against": 131,
+            "diff": 15,
+            "points": 15,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Canterbury",
             "played": 4,
             "win": 3,
@@ -20053,15 +20077,15 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "North Harbour",
-            "played": 3,
+            "team": "Bay of Plenty",
+            "played": 4,
             "win": 2,
             "draw": 0,
-            "loss": 1,
-            "for": 135,
-            "against": 57,
-            "diff": 78,
-            "points": 12,
+            "loss": 2,
+            "for": 116,
+            "against": 126,
+            "diff": -10,
+            "points": 13,
             "highlight": "#CCF9CC"
           },
           {
@@ -20089,63 +20113,39 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Tasman",
-            "played": 3,
-            "win": 2,
-            "draw": 0,
-            "loss": 1,
-            "for": 100,
-            "against": 114,
-            "diff": -14,
-            "points": 10,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Bay of Plenty",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 88,
-            "against": 102,
-            "diff": -14,
-            "points": 8,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Auckland",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": 0,
-            "loss": 2,
-            "for": 96,
+            "loss": 3,
+            "for": 115,
+            "against": 140,
+            "diff": -25,
+            "points": 8,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Taranaki",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 76,
             "against": 113,
-            "diff": -17,
+            "diff": -37,
             "points": 8,
             "highlight": "transparent"
           },
           {
             "team": "Southland",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": 0,
-            "loss": 2,
-            "for": 81,
-            "against": 108,
-            "diff": -27,
+            "loss": 3,
+            "for": 98,
+            "against": 154,
+            "diff": -56,
             "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Taranaki",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 52,
-            "against": 85,
-            "diff": -33,
-            "points": 6,
             "highlight": "transparent"
           },
           {
@@ -21206,9 +21206,9 @@
       },
       {
         "team": "Newcastle Knights",
-        "games": 11,
-        "total": 261075,
-        "average": 23734
+        "games": 12,
+        "total": 285612,
+        "average": 23801
       },
       {
         "team": "New Zealand Warriors",
@@ -21236,15 +21236,15 @@
       },
       {
         "team": "South Sydney Rabbitohs",
-        "games": 9,
-        "total": 206970,
-        "average": 22997
+        "games": 10,
+        "total": 226501,
+        "average": 22650
       },
       {
         "team": "St. George Illawarra Dragons",
-        "games": 10,
-        "total": 133119,
-        "average": 13312
+        "games": 11,
+        "total": 147830,
+        "average": 13439
       },
       {
         "team": "Sydney Roosters",
