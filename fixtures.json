@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T00:49:10+00:00",
+  "updated": "2026-08-22T01:00:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20646,6 +20646,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "San Lorenzo",
+            "played": 6,
+            "win": 2,
+            "draw": 1,
+            "loss": 3,
+            "for": 2,
+            "against": 4,
+            "diff": -2,
+            "points": 7,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Estudiantes (LP)",
             "played": 5,
             "win": 2,
@@ -20655,7 +20667,7 @@
             "against": 5,
             "diff": 2,
             "points": 6,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Deportivo Riestra",
@@ -20701,18 +20713,6 @@
             "loss": 3,
             "for": 3,
             "against": 5,
-            "diff": -2,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
-            "team": "San Lorenzo",
-            "played": 5,
-            "win": 2,
-            "draw": 0,
-            "loss": 3,
-            "for": 2,
-            "against": 4,
             "diff": -2,
             "points": 6,
             "highlight": "transparent"
@@ -20879,6 +20879,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Estudiantes (RC)",
+            "played": 6,
+            "win": 1,
+            "draw": 2,
+            "loss": 3,
+            "for": 2,
+            "against": 6,
+            "diff": -4,
+            "points": 5,
+            "highlight": "transparent"
+          },
+          {
             "team": "Racing",
             "played": 5,
             "win": 1,
@@ -20887,18 +20899,6 @@
             "for": 4,
             "against": 7,
             "diff": -3,
-            "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Estudiantes (RC)",
-            "played": 5,
-            "win": 1,
-            "draw": 1,
-            "loss": 3,
-            "for": 2,
-            "against": 6,
-            "diff": -4,
             "points": 4,
             "highlight": "transparent"
           },
