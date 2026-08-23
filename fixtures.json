@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T02:46:02+00:00",
+  "updated": "2026-08-23T02:57:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11605,7 +11605,7 @@
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "Hamilton Tiger-Cats",
-      "score": null,
+      "score": "39-20",
       "date": "2026-08-22",
       "time": "19:00",
       "utc": "2026-08-22T23:00:00+00:00",
@@ -19193,24 +19193,24 @@
           },
           {
             "team": "Toronto Argonauts",
-            "played": 9,
-            "win": 4,
+            "played": 10,
+            "win": 5,
             "draw": null,
             "loss": 5,
-            "for": 265,
-            "against": 291,
+            "for": 304,
+            "against": 311,
             "diff": null,
-            "points": 8,
+            "points": 10,
             "highlight": null
           },
           {
             "team": "Hamilton Tiger-Cats",
-            "played": 10,
+            "played": 11,
             "win": 4,
             "draw": null,
-            "loss": 6,
-            "for": 237,
-            "against": 280,
+            "loss": 7,
+            "for": 257,
+            "against": 319,
             "diff": null,
             "points": 8,
             "highlight": null
