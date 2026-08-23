@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T05:50:03+00:00",
+  "updated": "2026-08-23T06:00:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11671,7 +11671,7 @@
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "Cronulla-Sutherland Sharks",
-      "score": null,
+      "score": "22–30",
       "date": "2026-08-23",
       "time": "14:00",
       "utc": "2026-08-23T04:00:00+00:00",
@@ -19284,14 +19284,14 @@
           },
           {
             "team": "Cronulla-Sutherland Sharks",
-            "played": 21,
-            "win": 13,
+            "played": 22,
+            "win": 14,
             "draw": 0,
             "loss": 8,
-            "for": 604,
-            "against": 439,
-            "diff": 165,
-            "points": 32,
+            "for": 634,
+            "against": 461,
+            "diff": 173,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
@@ -19416,13 +19416,13 @@
           },
           {
             "team": "Gold Coast Titans (X)",
-            "played": 21,
+            "played": 22,
             "win": 6,
             "draw": 0,
-            "loss": 15,
-            "for": 413,
-            "against": 567,
-            "diff": -154,
+            "loss": 16,
+            "for": 435,
+            "against": 597,
+            "diff": -162,
             "points": 18,
             "highlight": "transparent"
           },
