@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T16:56:03+00:00",
+  "updated": "2026-08-23T17:07:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19446,6 +19446,18 @@
       "Table": {
         "rows": [
           {
+            "team": "Leeds Rhinos (T)",
+            "played": 24,
+            "win": 19,
+            "draw": 0,
+            "loss": 5,
+            "for": 850,
+            "against": 362,
+            "diff": 488,
+            "points": 38,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Wigan Warriors (T)",
             "played": 24,
             "win": 19,
@@ -19458,27 +19470,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Leeds Rhinos (T)",
-            "played": 23,
+            "team": "Warrington Wolves",
+            "played": 24,
             "win": 18,
             "draw": 0,
-            "loss": 5,
-            "for": 784,
-            "against": 346,
-            "diff": 438,
-            "points": 36,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Warrington Wolves",
-            "played": 23,
-            "win": 17,
-            "draw": 0,
             "loss": 6,
-            "for": 632,
-            "against": 388,
-            "diff": 244,
-            "points": 34,
+            "for": 666,
+            "against": 412,
+            "diff": 254,
+            "points": 36,
             "highlight": "#BBF3FF"
           },
           {
@@ -19579,25 +19579,25 @@
           },
           {
             "team": "York Knights",
-            "played": 23,
+            "played": 24,
             "win": 7,
             "draw": 0,
-            "loss": 16,
-            "for": 454,
-            "against": 665,
-            "diff": -211,
+            "loss": 17,
+            "for": 470,
+            "against": 731,
+            "diff": -261,
             "points": 14,
             "highlight": "transparent"
           },
           {
             "team": "Huddersfield Giants",
-            "played": 23,
+            "played": 24,
             "win": 6,
             "draw": 0,
-            "loss": 17,
-            "for": 401,
-            "against": 661,
-            "diff": -260,
+            "loss": 18,
+            "for": 425,
+            "against": 695,
+            "diff": -270,
             "points": 12,
             "highlight": "transparent"
           },
