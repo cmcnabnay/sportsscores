@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T08:00:03+00:00",
+  "updated": "2026-08-23T08:10:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11737,7 +11737,7 @@
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Wests Tigers",
-      "score": null,
+      "score": "24–25",
       "date": "2026-08-23",
       "time": "16:05",
       "utc": "2026-08-23T06:05:00+00:00",
@@ -19260,13 +19260,13 @@
           },
           {
             "team": "Sydney Roosters (Q)",
-            "played": 21,
+            "played": 22,
             "win": 16,
             "draw": 0,
-            "loss": 5,
-            "for": 563,
-            "against": 400,
-            "diff": 163,
+            "loss": 6,
+            "for": 587,
+            "against": 425,
+            "diff": 162,
             "points": 38,
             "highlight": "#BBF3BB"
           },
@@ -19283,7 +19283,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Cronulla-Sutherland Sharks",
+            "team": "Cronulla-Sutherland Sharks (Q)",
             "played": 22,
             "win": 14,
             "draw": 0,
@@ -19391,6 +19391,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Wests Tigers (X)",
+            "played": 22,
+            "win": 8,
+            "draw": 0,
+            "loss": 14,
+            "for": 425,
+            "against": 637,
+            "diff": -212,
+            "points": 22,
+            "highlight": "transparent"
+          },
+          {
             "team": "Brisbane Broncos (X)",
             "played": 22,
             "win": 7,
@@ -19399,18 +19411,6 @@
             "for": 417,
             "against": 611,
             "diff": -194,
-            "points": 20,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Wests Tigers (X)",
-            "played": 21,
-            "win": 7,
-            "draw": 0,
-            "loss": 14,
-            "for": 400,
-            "against": 613,
-            "diff": -213,
             "points": 20,
             "highlight": "transparent"
           },
