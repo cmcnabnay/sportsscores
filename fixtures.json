@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T19:39:04+00:00",
+  "updated": "2026-08-23T19:50:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20634,6 +20634,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Platense",
+            "played": 6,
+            "win": 2,
+            "draw": 2,
+            "loss": 2,
+            "for": 7,
+            "against": 10,
+            "diff": -3,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Deportivo Riestra",
             "played": 6,
             "win": 2,
@@ -20655,7 +20667,7 @@
             "against": 9,
             "diff": -1,
             "points": 7,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "San Lorenzo",
@@ -20671,13 +20683,13 @@
           },
           {
             "team": "Estudiantes (LP)",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": 0,
-            "loss": 3,
+            "loss": 4,
             "for": 7,
-            "against": 5,
-            "diff": 2,
+            "against": 7,
+            "diff": 0,
             "points": 6,
             "highlight": "transparent"
           },
@@ -20718,18 +20730,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Platense",
-            "played": 5,
-            "win": 1,
-            "draw": 2,
-            "loss": 2,
-            "for": 5,
-            "against": 9,
-            "diff": -4,
-            "points": 5,
-            "highlight": "transparent"
-          },
-          {
             "team": "Talleres (C)",
             "played": 5,
             "win": 1,
@@ -20746,6 +20746,18 @@
       },
       "Clausura · Zone B": {
         "rows": [
+          {
+            "team": "Sarmiento (J)",
+            "played": 6,
+            "win": 4,
+            "draw": 0,
+            "loss": 2,
+            "for": 12,
+            "against": 8,
+            "diff": 4,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
           {
             "team": "Argentinos Juniors",
             "played": 5,
@@ -20783,18 +20795,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Sarmiento (J)",
-            "played": 5,
-            "win": 3,
-            "draw": 0,
-            "loss": 2,
-            "for": 10,
-            "against": 8,
-            "diff": 2,
-            "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Atlético Tucumán",
             "played": 6,
             "win": 2,
@@ -20808,13 +20808,13 @@
           },
           {
             "team": "Barracas Central",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": 0,
-            "loss": 2,
-            "for": 3,
-            "against": 3,
-            "diff": 0,
+            "loss": 3,
+            "for": 4,
+            "against": 5,
+            "diff": -1,
             "points": 9,
             "highlight": "#BBF3BB"
           },
