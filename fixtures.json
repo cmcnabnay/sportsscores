@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T20:45:04+00:00",
+  "updated": "2026-08-23T20:56:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21018,6 +21018,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Ufa",
+            "played": 7,
+            "win": 3,
+            "draw": 3,
+            "loss": 1,
+            "for": 11,
+            "against": 8,
+            "diff": 3,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Arsenal Tula",
             "played": 7,
             "win": 3,
@@ -21043,38 +21055,26 @@
           },
           {
             "team": "Yenisey Krasnoyarsk",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": 3,
-            "loss": 1,
-            "for": 10,
-            "against": 9,
-            "diff": 1,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Ufa",
-            "played": 6,
-            "win": 2,
-            "draw": 3,
-            "loss": 1,
-            "for": 8,
-            "against": 7,
-            "diff": 1,
+            "loss": 2,
+            "for": 11,
+            "against": 12,
+            "diff": -1,
             "points": 9,
             "highlight": "transparent"
           },
           {
             "team": "Chelyabinsk",
-            "played": 6,
+            "played": 7,
             "win": 2,
-            "draw": 0,
+            "draw": 1,
             "loss": 4,
-            "for": 7,
-            "against": 12,
+            "for": 8,
+            "against": 13,
             "diff": -5,
-            "points": 6,
+            "points": 7,
             "highlight": "transparent"
           },
           {
@@ -21115,14 +21115,14 @@
           },
           {
             "team": "Leningradets Leningrad Oblast",
-            "played": 6,
+            "played": 7,
             "win": 1,
-            "draw": 2,
+            "draw": 3,
             "loss": 3,
-            "for": 3,
-            "against": 8,
+            "for": 4,
+            "against": 9,
             "diff": -5,
-            "points": 5,
+            "points": 6,
             "highlight": "#FFBBBB"
           },
           {
