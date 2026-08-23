@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T01:51:04+00:00",
+  "updated": "2026-08-23T02:02:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20610,6 +20610,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Newell's Old Boys",
+            "played": 6,
+            "win": 3,
+            "draw": 1,
+            "loss": 2,
+            "for": 8,
+            "against": 6,
+            "diff": 2,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Defensa y Justicia",
             "played": 5,
             "win": 2,
@@ -20622,11 +20634,11 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Newell's Old Boys",
-            "played": 5,
+            "team": "Deportivo Riestra",
+            "played": 6,
             "win": 2,
             "draw": 1,
-            "loss": 2,
+            "loss": 3,
             "for": 6,
             "against": 5,
             "diff": 1,
@@ -20655,7 +20667,7 @@
             "against": 4,
             "diff": -2,
             "points": 7,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Estudiantes (LP)",
@@ -20666,18 +20678,6 @@
             "for": 7,
             "against": 5,
             "diff": 2,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Deportivo Riestra",
-            "played": 5,
-            "win": 2,
-            "draw": 0,
-            "loss": 3,
-            "for": 6,
-            "against": 5,
-            "diff": 1,
             "points": 6,
             "highlight": "transparent"
           },
@@ -20843,6 +20843,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Huracán",
+            "played": 6,
+            "win": 2,
+            "draw": 2,
+            "loss": 2,
+            "for": 4,
+            "against": 4,
+            "diff": 0,
+            "points": 8,
+            "highlight": "transparent"
+          },
+          {
             "team": "Independiente Rivadavia",
             "played": 6,
             "win": 2,
@@ -20855,26 +20867,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Huracán",
-            "played": 5,
-            "win": 2,
-            "draw": 1,
-            "loss": 2,
-            "for": 4,
-            "against": 4,
-            "diff": 0,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
             "team": "Banfield",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": 1,
-            "loss": 2,
-            "for": 4,
-            "against": 5,
-            "diff": -1,
+            "loss": 3,
+            "for": 5,
+            "against": 7,
+            "diff": -2,
             "points": 7,
             "highlight": "transparent"
           },
