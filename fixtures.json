@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T06:55:02+00:00",
+  "updated": "2026-08-23T07:05:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20053,6 +20053,30 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Waikato",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 152,
+            "against": 102,
+            "diff": 50,
+            "points": 17,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Otago",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 146,
+            "against": 82,
+            "diff": 64,
+            "points": 16,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Tasman",
             "played": 4,
             "win": 3,
@@ -20086,30 +20110,6 @@
             "against": 126,
             "diff": -10,
             "points": 13,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Waikato",
-            "played": 3,
-            "win": 2,
-            "draw": 0,
-            "loss": 1,
-            "for": 107,
-            "against": 90,
-            "diff": 17,
-            "points": 12,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Otago",
-            "played": 3,
-            "win": 2,
-            "draw": 0,
-            "loss": 1,
-            "for": 85,
-            "against": 60,
-            "diff": 25,
-            "points": 11,
             "highlight": "#CCF9CC"
           },
           {
@@ -20162,25 +20162,25 @@
           },
           {
             "team": "Wellington",
-            "played": 3,
+            "played": 4,
             "win": 0,
             "draw": 0,
-            "loss": 3,
-            "for": 71,
-            "against": 133,
-            "diff": -62,
+            "loss": 4,
+            "for": 93,
+            "against": 194,
+            "diff": -101,
             "points": 3,
             "highlight": "transparent"
           },
           {
             "team": "Counties Manukau",
-            "played": 3,
+            "played": 4,
             "win": 0,
             "draw": 0,
-            "loss": 3,
-            "for": 59,
-            "against": 129,
-            "diff": -70,
+            "loss": 4,
+            "for": 71,
+            "against": 174,
+            "diff": -103,
             "points": 1,
             "highlight": "transparent"
           }
