@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T15:06:02+00:00",
+  "updated": "2026-08-23T15:17:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11693,7 +11693,7 @@
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Boland Cavaliers",
-      "score": null,
+      "score": "33-24",
       "date": "2026-08-23",
       "time": "15:00",
       "utc": "2026-08-23T13:00:00+00:00",
@@ -19927,14 +19927,14 @@
           },
           {
             "team": "Cheetahs",
-            "played": 5,
-            "win": 4,
+            "played": 6,
+            "win": 5,
             "draw": 0,
             "loss": 1,
-            "for": 186,
-            "against": 150,
-            "diff": 36,
-            "points": 21,
+            "for": 219,
+            "against": 174,
+            "diff": 45,
+            "points": 26,
             "highlight": "#E8FFD8"
           },
           {
@@ -19951,13 +19951,13 @@
           },
           {
             "team": "Boland Cavaliers",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": 0,
-            "loss": 2,
-            "for": 130,
-            "against": 81,
-            "diff": 49,
+            "loss": 3,
+            "for": 154,
+            "against": 114,
+            "diff": 40,
             "points": 16,
             "highlight": "#E8FFD8"
           },
