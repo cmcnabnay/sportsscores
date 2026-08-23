@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T21:51:02+00:00",
+  "updated": "2026-08-23T22:02:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20598,6 +20598,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Defensa y Justicia",
+            "played": 6,
+            "win": 3,
+            "draw": 2,
+            "loss": 1,
+            "for": 8,
+            "against": 8,
+            "diff": 0,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 6,
             "win": 3,
@@ -20619,18 +20631,6 @@
             "against": 6,
             "diff": 2,
             "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Defensa y Justicia",
-            "played": 5,
-            "win": 2,
-            "draw": 2,
-            "loss": 1,
-            "for": 6,
-            "against": 7,
-            "diff": -1,
-            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -20772,13 +20772,13 @@
           },
           {
             "team": "Belgrano",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": 1,
-            "loss": 1,
-            "for": 6,
-            "against": 2,
-            "diff": 4,
+            "loss": 2,
+            "for": 7,
+            "against": 4,
+            "diff": 3,
             "points": 10,
             "highlight": "#BBF3BB"
           },
