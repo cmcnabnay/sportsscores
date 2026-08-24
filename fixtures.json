@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T02:23:02+00:00",
+  "updated": "2026-08-24T02:34:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20670,6 +20670,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Boca Juniors",
+            "played": 6,
+            "win": 1,
+            "draw": 4,
+            "loss": 1,
+            "for": 6,
+            "against": 8,
+            "diff": -2,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
             "team": "San Lorenzo",
             "played": 6,
             "win": 2,
@@ -20702,18 +20714,6 @@
             "for": 6,
             "against": 6,
             "diff": 0,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 5,
-            "win": 1,
-            "draw": 3,
-            "loss": 1,
-            "for": 5,
-            "against": 7,
-            "diff": -2,
             "points": 6,
             "highlight": "transparent"
           },
@@ -20879,6 +20879,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Racing",
+            "played": 6,
+            "win": 1,
+            "draw": 2,
+            "loss": 3,
+            "for": 5,
+            "against": 8,
+            "diff": -3,
+            "points": 5,
+            "highlight": "transparent"
+          },
+          {
             "team": "Estudiantes (RC)",
             "played": 6,
             "win": 1,
@@ -20899,18 +20911,6 @@
             "for": 4,
             "against": 6,
             "diff": -2,
-            "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Racing",
-            "played": 5,
-            "win": 1,
-            "draw": 1,
-            "loss": 3,
-            "for": 4,
-            "against": 7,
-            "diff": -3,
             "points": 4,
             "highlight": "transparent"
           },
