@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T01:39:05+00:00",
+  "updated": "2026-08-24T01:50:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11726,12 +11726,12 @@
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Saskatchewan Roughriders",
-      "score": null,
+      "score": "30-16",
       "date": "2026-08-23",
       "time": "16:00",
       "utc": "2026-08-23T23:00:00+00:00",
       "venue": "BC Place",
-      "attendance": null
+      "attendance": "30083"
     },
     {
       "league": "nrl-2026",
@@ -19128,14 +19128,26 @@
           },
           {
             "team": "Saskatchewan Roughriders",
-            "played": 9,
+            "played": 10,
             "win": 6,
             "draw": null,
-            "loss": 3,
-            "for": 293,
-            "against": 241,
+            "loss": 4,
+            "for": 309,
+            "against": 271,
             "diff": null,
             "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "BC Lions",
+            "played": 10,
+            "win": 5,
+            "draw": null,
+            "loss": 5,
+            "for": 274,
+            "against": 267,
+            "diff": null,
+            "points": 10,
             "highlight": null
           },
           {
@@ -19148,18 +19160,6 @@
             "against": 286,
             "diff": null,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "BC Lions",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 244,
-            "against": 251,
-            "diff": null,
-            "points": 8,
             "highlight": null
           },
           {
