@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T00:01:03+00:00",
+  "updated": "2026-08-24T00:12:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11759,7 +11759,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "River Plate",
       "away": "Vélez Sarsfield",
-      "score": "-",
+      "score": "2-2",
       "date": "2026-08-23",
       "time": "19:15",
       "utc": "2026-08-23T22:15:00+00:00",
@@ -20587,14 +20587,14 @@
           },
           {
             "team": "Vélez Sarsfield",
-            "played": 5,
+            "played": 6,
             "win": 3,
-            "draw": 2,
+            "draw": 3,
             "loss": 0,
-            "for": 7,
-            "against": 3,
+            "for": 9,
+            "against": 5,
             "diff": 4,
-            "points": 11,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -20891,6 +20891,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "River Plate",
+            "played": 6,
+            "win": 1,
+            "draw": 1,
+            "loss": 4,
+            "for": 4,
+            "against": 6,
+            "diff": -2,
+            "points": 4,
+            "highlight": "transparent"
+          },
+          {
             "team": "Racing",
             "played": 5,
             "win": 1,
@@ -20900,18 +20912,6 @@
             "against": 7,
             "diff": -3,
             "points": 4,
-            "highlight": "transparent"
-          },
-          {
-            "team": "River Plate",
-            "played": 5,
-            "win": 1,
-            "draw": 0,
-            "loss": 4,
-            "for": 2,
-            "against": 4,
-            "diff": -2,
-            "points": 3,
             "highlight": "transparent"
           },
           {
