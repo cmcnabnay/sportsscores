@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T23:56:03+00:00",
+  "updated": "2026-08-25T00:07:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20719,13 +20719,13 @@
           },
           {
             "team": "Central Córdoba (SdE)",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": 0,
-            "loss": 3,
-            "for": 3,
-            "against": 5,
-            "diff": -2,
+            "loss": 4,
+            "for": 4,
+            "against": 7,
+            "diff": -3,
             "points": 6,
             "highlight": "transparent"
           },
@@ -20768,6 +20768,18 @@
             "against": 5,
             "diff": 4,
             "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Tigre",
+            "played": 6,
+            "win": 3,
+            "draw": 2,
+            "loss": 1,
+            "for": 6,
+            "against": 3,
+            "diff": 3,
+            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
@@ -20828,18 +20840,6 @@
             "against": 10,
             "diff": -2,
             "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Tigre",
-            "played": 5,
-            "win": 2,
-            "draw": 2,
-            "loss": 1,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
-            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -20935,27 +20935,39 @@
         "rows": [
           {
             "team": "Nizhny Novgorod",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": 0,
             "loss": 1,
-            "for": 21,
-            "against": 9,
-            "diff": 12,
-            "points": 18,
+            "for": 25,
+            "against": 11,
+            "diff": 14,
+            "points": 21,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Veles Moscow",
-            "played": 7,
-            "win": 5,
+            "played": 8,
+            "win": 6,
             "draw": 0,
             "loss": 2,
-            "for": 10,
+            "for": 12,
             "against": 10,
-            "diff": 0,
-            "points": 15,
+            "diff": 2,
+            "points": 18,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sochi",
+            "played": 8,
+            "win": 5,
+            "draw": 1,
+            "loss": 2,
+            "for": 16,
+            "against": 10,
+            "diff": 6,
+            "points": 16,
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Ural Yekaterinburg",
@@ -20967,18 +20979,6 @@
             "against": 2,
             "diff": 10,
             "points": 14,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Sochi",
-            "played": 7,
-            "win": 4,
-            "draw": 1,
-            "loss": 2,
-            "for": 13,
-            "against": 8,
-            "diff": 5,
-            "points": 13,
             "highlight": "#CCF9CC"
           },
           {
@@ -21031,26 +21031,38 @@
           },
           {
             "team": "Arsenal Tula",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": 2,
-            "loss": 2,
+            "loss": 3,
             "for": 7,
-            "against": 10,
-            "diff": -3,
+            "against": 12,
+            "diff": -5,
             "points": 11,
             "highlight": "transparent"
           },
           {
             "team": "Rotor Volgograd",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": 1,
-            "loss": 3,
+            "loss": 4,
             "for": 12,
-            "against": 10,
-            "diff": 2,
+            "against": 11,
+            "diff": 1,
             "points": 10,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Neftekhimik Nizhnekamsk",
+            "played": 8,
+            "win": 3,
+            "draw": 0,
+            "loss": 5,
+            "for": 5,
+            "against": 12,
+            "diff": -7,
+            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -21090,18 +21102,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Neftekhimik Nizhnekamsk",
-            "played": 7,
-            "win": 2,
-            "draw": 0,
-            "loss": 5,
-            "for": 4,
-            "against": 12,
-            "diff": -8,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Tekstilshchik Ivanovo",
             "played": 8,
             "win": 1,
@@ -21127,25 +21127,25 @@
           },
           {
             "team": "SKA-Khabarovsk",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": 0,
-            "loss": 5,
-            "for": 4,
-            "against": 11,
-            "diff": -7,
+            "loss": 6,
+            "for": 6,
+            "against": 15,
+            "diff": -9,
             "points": 3,
             "highlight": "#FFBBBB"
           },
           {
             "team": "KAMAZ Naberezhnye Chelny",
-            "played": 7,
+            "played": 8,
             "win": 0,
             "draw": 2,
-            "loss": 5,
-            "for": 6,
-            "against": 13,
-            "diff": -7,
+            "loss": 6,
+            "for": 8,
+            "against": 16,
+            "diff": -8,
             "points": 2,
             "highlight": "#FFBBBB"
           }
