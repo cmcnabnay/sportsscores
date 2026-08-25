@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T02:06:03+00:00",
+  "updated": "2026-08-25T02:17:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20658,6 +20658,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Lanús",
+            "played": 6,
+            "win": 2,
+            "draw": 1,
+            "loss": 3,
+            "for": 7,
+            "against": 7,
+            "diff": 0,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
             "team": "Unión",
             "played": 6,
             "win": 2,
@@ -20706,18 +20718,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Lanús",
-            "played": 5,
-            "win": 2,
-            "draw": 0,
-            "loss": 3,
-            "for": 6,
-            "against": 6,
-            "diff": 0,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Central Córdoba (SdE)",
             "played": 6,
             "win": 2,
@@ -20731,14 +20731,14 @@
           },
           {
             "team": "Talleres (C)",
-            "played": 5,
+            "played": 6,
             "win": 1,
-            "draw": 0,
+            "draw": 1,
             "loss": 4,
-            "for": 6,
-            "against": 10,
+            "for": 8,
+            "against": 12,
             "diff": -4,
-            "points": 3,
+            "points": 4,
             "highlight": "transparent"
           }
         ],
@@ -20747,6 +20747,18 @@
       "Clausura · Zone B": {
         "rows": [
           {
+            "team": "Argentinos Juniors",
+            "played": 6,
+            "win": 4,
+            "draw": 1,
+            "loss": 1,
+            "for": 10,
+            "against": 6,
+            "diff": 4,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 6,
             "win": 4,
@@ -20754,18 +20766,6 @@
             "loss": 2,
             "for": 12,
             "against": 8,
-            "diff": 4,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Argentinos Juniors",
-            "played": 5,
-            "win": 4,
-            "draw": 0,
-            "loss": 1,
-            "for": 9,
-            "against": 5,
             "diff": 4,
             "points": 12,
             "highlight": "#BBF3BB"
@@ -20783,6 +20783,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Rosario Central",
+            "played": 6,
+            "win": 3,
+            "draw": 2,
+            "loss": 1,
+            "for": 7,
+            "against": 5,
+            "diff": 2,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Belgrano",
             "played": 6,
             "win": 3,
@@ -20791,18 +20803,6 @@
             "for": 7,
             "against": 4,
             "diff": 3,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rosario Central",
-            "played": 5,
-            "win": 3,
-            "draw": 1,
-            "loss": 1,
-            "for": 5,
-            "against": 3,
-            "diff": 2,
             "points": 10,
             "highlight": "#BBF3BB"
           },
