@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T23:56:03+00:00",
+  "updated": "2026-08-26T00:07:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -2137,7 +2137,7 @@
       "time": "19:30",
       "utc": "2026-02-27T19:30:00+00:00",
       "venue": "Vertu Motors Arena, Newcastle upon Tyne",
-      "attendance": null
+      "attendance": "2407"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -11778,6 +11778,105 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "DR Congo",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "12:30",
+      "utc": "2026-08-27T12:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Guinea",
+      "away": "South Sudan",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "13:00",
+      "utc": "2026-08-27T12:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Mali",
+      "away": "Ivory Coast",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "15:30",
+      "utc": "2026-08-27T15:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Nigeria",
+      "away": "Cameroon",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "16:00",
+      "utc": "2026-08-27T15:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Hungary",
+      "away": "Estonia",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "18:00",
+      "utc": "2026-08-27T16:00:00+00:00",
+      "venue": "DVTK Aréna, Miskolc",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Senegal",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "18:30",
+      "utc": "2026-08-27T18:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Finland",
+      "away": "Sweden",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "18:30",
+      "utc": "2026-08-27T15:30:00+00:00",
+      "venue": "Veikkaus Arena, Helsinki",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Tunisia",
+      "away": "Cape Verde",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "19:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Qatar",
+      "away": "China",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "19:00",
+      "utc": "2026-08-27T16:00:00+00:00",
+      "venue": "Al-Gharafa Sports Club Multi-Purpose Hall, Doha",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Southland",
       "away": "Hawke's Bay",
@@ -11786,6 +11885,28 @@
       "time": "19:10",
       "utc": "2026-08-27T07:10:00+00:00",
       "venue": "Rugby Park Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "United States",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "19:10",
+      "utc": "2026-08-27T23:10:00+00:00",
+      "venue": "Centro de Deportes Colectivos, Santiago",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Argentina",
+      "away": "Puerto Rico",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "19:10",
+      "utc": "2026-08-27T22:10:00+00:00",
+      "venue": "Polideportivo Islas Malvinas, Mar del Plata",
       "attendance": null
     },
     {
@@ -11811,80 +11932,36 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Nigeria",
-      "away": "Cameroon",
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Japan",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "time": "20:00",
+      "utc": "2026-08-27T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "South Sudan",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Croatia",
+      "away": "Latvia",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "time": "20:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Krešimir Ćosić Hall, Zadar",
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "Cape Verde",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Germany",
+      "away": "Netherlands",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Senegal",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Mali",
-      "away": "Ivory Coast",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "DR Congo",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Chile",
-      "away": "United States",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "20:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Lanxess Arena, Cologne",
       "attendance": null
     },
     {
@@ -11893,8 +11970,8 @@
       "away": "Dominican Republic",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
+      "time": "20:10",
+      "utc": "2026-08-27T23:10:00+00:00",
       "venue": "Nilson Nelson Gymnasium, Brasília",
       "attendance": null
     },
@@ -11904,20 +11981,9 @@
       "away": "Mexico",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Panama",
-      "away": "Canada",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "20:10",
+      "utc": "2026-08-28T02:10:00+00:00",
+      "venue": "Gimnasio Marcelino González, Zacatecas",
       "attendance": null
     },
     {
@@ -11926,86 +11992,9 @@
       "away": "Bahamas",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Argentina",
-      "away": "Puerto Rico",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Japan",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "South Korea",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Qatar",
-      "away": "China",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Croatia",
-      "away": "Latvia",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Germany",
-      "away": "Netherlands",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Israel",
-      "away": "Poland",
-      "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "20:10",
+      "utc": "2026-08-27T23:10:00+00:00",
+      "venue": "Antel Arena, Montevideo",
       "attendance": null
     },
     {
@@ -12014,31 +12003,108 @@
       "away": "Slovenia",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "20:30",
+      "utc": "2026-08-27T18:30:00+00:00",
+      "venue": "Accor Arena, Paris",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Panama",
+      "away": "Canada",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "20:40",
+      "utc": "2026-08-28T01:40:00+00:00",
+      "venue": "Roberto Durán Arena, Panama City",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "South Korea",
+      "score": null,
+      "date": "2026-08-27",
+      "time": "21:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
       "attendance": null
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Finland",
-      "away": "Sweden",
+      "home": "Israel",
+      "away": "Poland",
       "score": null,
       "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "21:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Israel}}",
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Hungary",
-      "away": "Estonia",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "Egypt",
       "score": null,
-      "date": "2026-08-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "date": "2026-08-28",
+      "time": "12:30",
+      "utc": "2026-08-28T12:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "South Sudan",
+      "away": "Nigeria",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "13:00",
+      "utc": "2026-08-28T12:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "14:00",
+      "utc": "2026-08-28T06:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "DR Congo",
+      "away": "Mali",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "15:30",
+      "utc": "2026-08-28T15:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cape Verde",
+      "away": "Guinea",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "16:00",
+      "utc": "2026-08-28T15:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "17:00",
+      "utc": "2026-08-28T09:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
       "attendance": null
     },
     {
@@ -12061,6 +12127,39 @@
       "time": "18:00",
       "utc": "2026-08-28T08:00:00+00:00",
       "venue": "4 Pines Park",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Senegal",
+      "away": "Angola",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "18:30",
+      "utc": "2026-08-28T18:30:00+00:00",
+      "venue": "Dakar Arena, Dakar",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cameroon",
+      "away": "Tunisia",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "19:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Ukraine",
+      "away": "Greece",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "19:00",
+      "utc": "2026-08-28T16:00:00+00:00",
+      "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Ukraine}}",
       "attendance": null
     },
     {
@@ -12094,6 +12193,17 @@
       "time": "19:30",
       "utc": "2026-08-29T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Georgia",
+      "away": "Montenegro",
+      "score": null,
+      "date": "2026-08-28",
+      "time": "19:30",
+      "utc": "2026-08-28T15:30:00+00:00",
+      "venue": "Tbilisi Arena, Tbilisi",
       "attendance": null
     },
     {
@@ -12141,91 +12251,25 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cameroon",
-      "away": "Tunisia",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Iceland",
       "score": null,
       "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Belgrade Arena, Belgrade",
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "South Sudan",
-      "away": "Nigeria",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
       "score": null,
       "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cape Verde",
-      "away": "Guinea",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Senegal",
-      "away": "Angola",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "Egypt",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "DR Congo",
-      "away": "Mali",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "Australia",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Mejdan Hall, Tuzla",
       "attendance": null
     },
     {
@@ -12234,8 +12278,8 @@
       "away": "Philippines",
       "score": null,
       "date": "2026-08-28",
-      "time": null,
-      "utc": null,
+      "time": "20:30",
+      "utc": "2026-08-28T12:30:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay, Philippines",
       "attendance": null
     },
@@ -12245,31 +12289,9 @@
       "away": "Portugal",
       "score": null,
       "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Ukraine",
-      "away": "Greece",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Georgia",
-      "away": "Montenegro",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "21:00",
+      "utc": "2026-08-28T19:00:00+00:00",
+      "venue": "Pabellón Príncipe Felipe, Zaragoza",
       "attendance": null
     },
     {
@@ -12278,31 +12300,9 @@
       "away": "Lithuania",
       "score": null,
       "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Iceland",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "score": null,
-      "date": "2026-08-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "21:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Basketball Development Center, Istanbul",
       "attendance": null
     },
     {
@@ -12462,6 +12462,28 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "DR Congo",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "12:30",
+      "utc": "2026-08-30T12:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Nigeria",
+      "away": "Cape Verde",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "13:00",
+      "utc": "2026-08-30T12:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Newcastle Knights",
@@ -12473,6 +12495,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Syria",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "14:00",
+      "utc": "2026-08-30T06:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Wellington",
       "away": "Counties Manukau",
@@ -12481,6 +12514,28 @@
       "time": "14:05",
       "utc": "2026-08-30T02:05:00+00:00",
       "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Croatia",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "14:30",
+      "utc": "2026-08-30T12:30:00+00:00",
+      "venue": "Topsportcentrum, Almere",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Poland",
+      "away": "Germany",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "14:45",
+      "utc": "2026-08-30T12:45:00+00:00",
+      "venue": "Ergo Arena, Gdańsk",
       "attendance": null
     },
     {
@@ -12506,6 +12561,28 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "Ivory Coast",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "15:30",
+      "utc": "2026-08-30T15:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Guinea",
+      "away": "Cameroon",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "16:00",
+      "utc": "2026-08-30T15:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Parramatta Eels",
       "away": "Cronulla-Sutherland Sharks",
@@ -12517,6 +12594,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "Jordan",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "17:00",
+      "utc": "2026-08-30T09:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Tasman",
@@ -12525,6 +12613,28 @@
       "time": "17:05",
       "utc": "2026-08-30T05:05:00+00:00",
       "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Sweden",
+      "away": "France",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "17:30",
+      "utc": "2026-08-30T15:30:00+00:00",
+      "venue": "Avicii Arena, Stockholm",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Mali",
+      "away": "Senegal",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "18:30",
+      "utc": "2026-08-30T18:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
       "attendance": null
     },
     {
@@ -12540,123 +12650,13 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "Cameroon",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
       "home": "Tunisia",
       "away": "South Sudan",
       "score": null,
       "date": "2026-08-30",
-      "time": null,
-      "utc": null,
+      "time": "19:00",
+      "utc": "2026-08-30T18:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Nigeria",
-      "away": "Cape Verde",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Mali",
-      "away": "Senegal",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Ivory Coast",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "DR Congo",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "Jordan",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Syria",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Iran",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": "SM Mall of Asia Arena, Pasay",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Croatia",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Poland",
-      "away": "Germany",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
       "attendance": null
     },
     {
@@ -12665,20 +12665,9 @@
       "away": "Israel",
       "score": null,
       "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Sweden",
-      "away": "France",
-      "score": null,
-      "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "19:00",
+      "utc": "2026-08-30T16:00:00+00:00",
+      "venue": "Xiaomi Arena, Riga",
       "attendance": null
     },
     {
@@ -12687,9 +12676,20 @@
       "away": "Finland",
       "score": null,
       "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "19:00",
+      "utc": "2026-08-30T16:00:00+00:00",
+      "venue": "Unibet Arena, Tallinn",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Iran",
+      "score": null,
+      "date": "2026-08-30",
+      "time": "20:00",
+      "utc": "2026-08-30T12:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay",
       "attendance": null
     },
     {
@@ -12698,163 +12698,9 @@
       "away": "Hungary",
       "score": null,
       "date": "2026-08-30",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "United States",
-      "away": "Colombia",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Dominican Republic",
-      "away": "Chile",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Mexico",
-      "away": "Brazil",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Canada",
-      "away": "Argentina",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Bahamas",
-      "away": "Panama",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Puerto Rico",
-      "away": "Uruguay",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Japan",
-      "away": "Qatar",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Saudi Arabia",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Lebanon",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Greece",
-      "away": "Spain",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Montenegro",
-      "away": "Ukraine",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Portugal",
-      "away": "Georgia",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Iceland",
-      "away": "Turkey",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Italy",
-      "away": "Serbia",
-      "score": null,
-      "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "20:00",
+      "utc": "2026-08-30T18:00:00+00:00",
+      "venue": "Arena Stožice, Ljubljana",
       "attendance": null
     },
     {
@@ -12863,9 +12709,163 @@
       "away": "Bosnia and Herzegovina",
       "score": null,
       "date": "2026-08-31",
-      "time": null,
-      "utc": null,
-      "venue": null,
+      "time": "18:30",
+      "utc": "2026-08-31T15:30:00+00:00",
+      "venue": "Arena Vilnius, Vilnius",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "United States",
+      "away": "Colombia",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T23:00:00+00:00",
+      "venue": "CareFirst Arena, Washington, D.C.",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Saudi Arabia",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T10:00:00+00:00",
+      "venue": "KT Sonicboom Arena, Suwon",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Greece",
+      "away": "Spain",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T16:00:00+00:00",
+      "venue": "Telekom Center Athens, Athens",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Portugal",
+      "away": "Georgia",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T18:00:00+00:00",
+      "venue": "Centro de Desportos e Congressos de Matosinhos, Matosinhos",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Canada",
+      "away": "Argentina",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:10",
+      "utc": "2026-08-31T23:10:00+00:00",
+      "venue": "Centre Vidéotron, Quebec City",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Japan",
+      "away": "Qatar",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:10",
+      "utc": "2026-08-31T10:10:00+00:00",
+      "venue": "Toyota Arena Tokyo, Tokyo",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Lebanon",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T11:30:00+00:00",
+      "venue": "Zhuji Basketball Center, Zhuji",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Iceland",
+      "away": "Turkey",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T19:30:00+00:00",
+      "venue": "Laugardalshöll, Reykjavík",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Italy",
+      "away": "Serbia",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T17:30:00+00:00",
+      "venue": "Vitrifrigo Arena, Pesaro",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Dominican Republic",
+      "away": "Chile",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "20:10",
+      "utc": "2026-09-01T00:10:00+00:00",
+      "venue": "Arena BanReservas, Santo Domingo",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Mexico",
+      "away": "Brazil",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "20:10",
+      "utc": "2026-09-01T02:10:00+00:00",
+      "venue": "Gimnasio Marcelino González, Zacatecas",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Bahamas",
+      "away": "Panama",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "20:10",
+      "utc": "2026-09-01T00:10:00+00:00",
+      "venue": "Kendal Isaacs Gymnasium, Nassau",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Puerto Rico",
+      "away": "Uruguay",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "20:10",
+      "utc": "2026-08-31T23:10:00+00:00",
+      "venue": "Antel Arena, Montevideo",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Montenegro",
+      "away": "Ukraine",
+      "score": null,
+      "date": "2026-08-31",
+      "time": "20:30",
+      "utc": "2026-08-31T18:30:00+00:00",
+      "venue": "Morača Sports Center, Podgorica",
       "attendance": null
     },
     {
@@ -14856,7 +14856,7 @@
       "date": "2026-11-29",
       "time": null,
       "utc": null,
-      "venue": null,
+      "venue": "San Juan",
       "attendance": null
     },
     {
