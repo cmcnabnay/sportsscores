@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:08:03+00:00",
+  "updated": "2026-08-27T21:19:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16963,27 +16963,27 @@
       "Second Round · Best third placed team": {
         "rows": [
           {
-            "team": "Mali",
-            "played": 6,
+            "team": "Angola",
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 484,
-            "against": 446,
-            "diff": 38,
-            "points": 11,
+            "loss": 2,
+            "for": 608,
+            "against": 503,
+            "diff": 105,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Guinea",
-            "played": 6,
-            "win": 4,
+            "team": "Tunisia",
+            "played": 7,
+            "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 435,
-            "against": 386,
-            "diff": 49,
-            "points": 10,
+            "for": 509,
+            "against": 467,
+            "diff": 42,
+            "points": 12,
             "highlight": "transparent"
           }
         ],
