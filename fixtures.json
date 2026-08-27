@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T05:32:03+00:00",
+  "updated": "2026-08-27T14:09:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11880,7 +11880,7 @@
       "league": "npc-2026",
       "home": "Southland",
       "away": "Hawke's Bay",
-      "score": null,
+      "score": "21-36",
       "date": "2026-08-27",
       "time": "19:10",
       "utc": "2026-08-27T07:10:00+00:00",
@@ -11913,7 +11913,7 @@
       "league": "nrl-2026",
       "home": "Brisbane Broncos",
       "away": "Melbourne Storm",
-      "score": null,
+      "score": "20–46",
       "date": "2026-08-27",
       "time": "19:50",
       "utc": "2026-08-27T09:50:00+00:00",
@@ -19356,14 +19356,14 @@
           },
           {
             "team": "Melbourne Storm (X)",
-            "played": 22,
-            "win": 9,
+            "played": 23,
+            "win": 10,
             "draw": 0,
             "loss": 13,
-            "for": 524,
-            "against": 536,
-            "diff": -12,
-            "points": 24,
+            "for": 570,
+            "against": 556,
+            "diff": 14,
+            "points": 26,
             "highlight": "transparent"
           },
           {
@@ -19375,7 +19375,7 @@
             "for": 531,
             "against": 596,
             "diff": -65,
-            "points": 24,
+            "points": 26,
             "highlight": "transparent"
           },
           {
@@ -19404,13 +19404,13 @@
           },
           {
             "team": "Brisbane Broncos (X)",
-            "played": 22,
+            "played": 23,
             "win": 7,
             "draw": 0,
-            "loss": 15,
-            "for": 417,
-            "against": 611,
-            "diff": -194,
+            "loss": 16,
+            "for": 437,
+            "against": 657,
+            "diff": -220,
             "points": 20,
             "highlight": "transparent"
           },
@@ -20018,14 +20018,14 @@
         "rows": [
           {
             "team": "Hawke's Bay",
-            "played": 4,
-            "win": 4,
+            "played": 5,
+            "win": 5,
             "draw": 0,
             "loss": 0,
-            "for": 205,
-            "against": 100,
-            "diff": 105,
-            "points": 20,
+            "for": 241,
+            "against": 121,
+            "diff": 120,
+            "points": 25,
             "highlight": "#CCF9CC"
           },
           {
@@ -20138,13 +20138,13 @@
           },
           {
             "team": "Southland",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 0,
-            "loss": 3,
-            "for": 98,
-            "against": 154,
-            "diff": -56,
+            "loss": 4,
+            "for": 119,
+            "against": 190,
+            "diff": -71,
             "points": 7,
             "highlight": "transparent"
           },
