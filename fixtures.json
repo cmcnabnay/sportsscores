@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T20:25:02+00:00",
+  "updated": "2026-08-27T20:36:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11836,7 +11836,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Egypt",
       "away": "Senegal",
-      "score": null,
+      "score": "76-67",
       "date": "2026-08-27",
       "time": "18:30",
       "utc": "2026-08-27T18:30:00+00:00",
@@ -11940,7 +11940,7 @@
       "time": "20:00",
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Krešimir Ćosić Hall, Zadar",
-      "attendance": null
+      "attendance": "7306"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -12001,7 +12001,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "France",
       "away": "Slovenia",
-      "score": null,
+      "score": "92-67",
       "date": "2026-08-27",
       "time": "20:30",
       "utc": "2026-08-27T18:30:00+00:00",
@@ -16898,6 +16898,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Senegal",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 596,
+            "against": 482,
+            "diff": 114,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Angola",
             "played": 7,
             "win": 5,
@@ -16907,7 +16919,7 @@
             "against": 503,
             "diff": 105,
             "points": 12,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Mali",
@@ -16919,30 +16931,18 @@
             "against": 529,
             "diff": 32,
             "points": 12,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Senegal",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 529,
-            "against": 406,
-            "diff": 123,
-            "points": 11,
             "highlight": "transparent"
           },
           {
             "team": "Egypt",
-            "played": 6,
-            "win": 3,
+            "played": 7,
+            "win": 4,
             "draw": null,
             "loss": 3,
-            "for": 466,
-            "against": 442,
-            "diff": 24,
-            "points": 9,
+            "for": 542,
+            "against": 509,
+            "diff": 33,
+            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -18914,14 +18914,14 @@
         "rows": [
           {
             "team": "France",
-            "played": 6,
-            "win": 5,
+            "played": 7,
+            "win": 6,
             "draw": null,
             "loss": 1,
-            "for": 505,
-            "against": 437,
-            "diff": 68,
-            "points": 11,
+            "for": 597,
+            "against": 504,
+            "diff": 93,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -18974,14 +18974,14 @@
           },
           {
             "team": "Slovenia",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 513,
-            "against": 501,
-            "diff": 12,
-            "points": 9,
+            "loss": 4,
+            "for": 580,
+            "against": 593,
+            "diff": -13,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
