@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T16:43:02+00:00",
+  "updated": "2026-08-27T18:03:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11803,29 +11803,29 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Mali",
       "away": "Ivory Coast",
-      "score": null,
+      "score": "77-83",
       "date": "2026-08-27",
       "time": "15:30",
       "utc": "2026-08-27T15:30:00+00:00",
       "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
+      "attendance": "160"
     },
     {
       "league": "fiba-wcq-africa-2027",
       "home": "Nigeria",
       "away": "Cameroon",
-      "score": null,
+      "score": "62-78",
       "date": "2026-08-27",
       "time": "16:00",
       "utc": "2026-08-27T15:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-europe-2027",
       "home": "Hungary",
       "away": "Estonia",
-      "score": null,
+      "score": "85-67",
       "date": "2026-08-27",
       "time": "18:00",
       "utc": "2026-08-27T16:00:00+00:00",
@@ -11847,7 +11847,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Finland",
       "away": "Sweden",
-      "score": null,
+      "score": "81-86",
       "date": "2026-08-27",
       "time": "18:30",
       "utc": "2026-08-27T15:30:00+00:00",
@@ -11869,12 +11869,12 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Qatar",
       "away": "China",
-      "score": null,
+      "score": "57-83",
       "date": "2026-08-27",
       "time": "19:00",
       "utc": "2026-08-27T16:00:00+00:00",
       "venue": "Al-Gharafa Sports Club Multi-Purpose Hall, Doha",
-      "attendance": null
+      "attendance": "6985"
     },
     {
       "league": "npc-2026",
@@ -16776,6 +16776,18 @@
       "Second Round · Group E": {
         "rows": [
           {
+            "team": "Cameroon",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 548,
+            "against": 483,
+            "diff": 65,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "South Sudan",
             "played": 7,
             "win": 5,
@@ -16797,19 +16809,19 @@
             "against": 467,
             "diff": 39,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
-            "team": "Cameroon",
-            "played": 6,
-            "win": 5,
+            "team": "Nigeria",
+            "played": 7,
+            "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 460,
-            "against": 431,
-            "diff": 29,
+            "loss": 3,
+            "for": 540,
+            "against": 526,
+            "diff": 14,
             "points": 11,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Tunisia",
@@ -16820,18 +16832,6 @@
             "for": 449,
             "against": 411,
             "diff": 38,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Nigeria",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 478,
-            "against": 448,
-            "diff": 30,
             "points": 10,
             "highlight": "transparent"
           },
@@ -16853,6 +16853,18 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "Ivory Coast",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 652,
+            "against": 528,
+            "diff": 124,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Angola",
             "played": 7,
             "win": 5,
@@ -16865,6 +16877,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Mali",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 561,
+            "against": 529,
+            "diff": 32,
+            "points": 12,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Senegal",
             "played": 6,
             "win": 5,
@@ -16873,30 +16897,6 @@
             "for": 529,
             "against": 406,
             "diff": 123,
-            "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Ivory Coast",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 569,
-            "against": 451,
-            "diff": 118,
-            "points": 11,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Mali",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 484,
-            "against": 446,
-            "diff": 38,
             "points": 11,
             "highlight": "transparent"
           },
@@ -17818,6 +17818,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "China",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 587,
+            "against": 566,
+            "diff": 21,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Qatar",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 537,
+            "against": 529,
+            "diff": 8,
+            "points": 11,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Japan",
             "played": 6,
             "win": 4,
@@ -17830,18 +17854,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Qatar",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 480,
-            "against": 446,
-            "diff": 34,
-            "points": 10,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Saudi Arabia",
             "played": 6,
             "win": 3,
@@ -17851,7 +17863,7 @@
             "against": 446,
             "diff": 15,
             "points": 9,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "South Korea",
@@ -17862,18 +17874,6 @@
             "for": 468,
             "against": 468,
             "diff": 0,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "China",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 504,
-            "against": 509,
-            "diff": -5,
             "points": 9,
             "highlight": "transparent"
           }
@@ -18892,28 +18892,52 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Finland",
-            "played": 6,
+            "team": "Hungary",
+            "played": 7,
             "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 468,
-            "against": 481,
-            "diff": -13,
-            "points": 10,
+            "loss": 3,
+            "for": 573,
+            "against": 561,
+            "diff": 12,
+            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Estonia",
-            "played": 6,
-            "win": 3,
+            "team": "Sweden",
+            "played": 7,
+            "win": 4,
             "draw": null,
             "loss": 3,
-            "for": 509,
-            "against": 483,
-            "diff": 26,
-            "points": 9,
+            "for": 580,
+            "against": 584,
+            "diff": -4,
+            "points": 11,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Finland",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 549,
+            "against": 567,
+            "diff": -18,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Estonia",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 576,
+            "against": 568,
+            "diff": 8,
+            "points": 10,
+            "highlight": "transparent"
           },
           {
             "team": "Slovenia",
@@ -18924,30 +18948,6 @@
             "for": 513,
             "against": 501,
             "diff": 12,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Hungary",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 488,
-            "against": 494,
-            "diff": -6,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sweden",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 494,
-            "against": 503,
-            "diff": -9,
             "points": 9,
             "highlight": "transparent"
           }
