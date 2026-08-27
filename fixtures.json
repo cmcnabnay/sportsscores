@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T16:11:03+00:00",
+  "updated": "2026-08-27T16:22:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11781,23 +11781,23 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Angola",
       "away": "DR Congo",
-      "score": null,
+      "score": "100-68",
       "date": "2026-08-27",
       "time": "12:30",
       "utc": "2026-08-27T12:30:00+00:00",
       "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
+      "attendance": "50"
     },
     {
       "league": "fiba-wcq-africa-2027",
       "home": "Guinea",
       "away": "South Sudan",
-      "score": null,
+      "score": "71-81",
       "date": "2026-08-27",
       "time": "13:00",
       "utc": "2026-08-27T12:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -16776,6 +16776,30 @@
       "Second Round · Group E": {
         "rows": [
           {
+            "team": "South Sudan",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 577,
+            "against": 463,
+            "diff": 114,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Guinea",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 506,
+            "against": 467,
+            "diff": 39,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Cameroon",
             "played": 6,
             "win": 5,
@@ -16785,30 +16809,6 @@
             "against": 431,
             "diff": 29,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "South Sudan",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 496,
-            "against": 392,
-            "diff": 104,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Guinea",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 435,
-            "against": 386,
-            "diff": 49,
-            "points": 10,
             "highlight": "#BBF3FF"
           },
           {
@@ -16853,6 +16853,18 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "Angola",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 608,
+            "against": 503,
+            "diff": 105,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Senegal",
             "played": 6,
             "win": 5,
@@ -16874,7 +16886,7 @@
             "against": 451,
             "diff": 118,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Mali",
@@ -16886,18 +16898,6 @@
             "against": 446,
             "diff": 38,
             "points": 11,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Angola",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 508,
-            "against": 435,
-            "diff": 73,
-            "points": 10,
             "highlight": "transparent"
           },
           {
@@ -16914,14 +16914,14 @@
           },
           {
             "team": "DR Congo",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 398,
-            "against": 495,
-            "diff": -97,
-            "points": 8,
+            "loss": 5,
+            "for": 466,
+            "against": 595,
+            "diff": -129,
+            "points": 9,
             "highlight": "transparent"
           }
         ],
