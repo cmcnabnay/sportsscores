@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T18:25:03+00:00",
+  "updated": "2026-08-27T18:36:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11924,7 +11924,7 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Saudi Arabia",
       "away": "Japan",
-      "score": null,
+      "score": "78-106",
       "date": "2026-08-27",
       "time": "20:00",
       "utc": "2026-08-27T17:00:00+00:00",
@@ -17806,6 +17806,18 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "Japan",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 605,
+            "against": 528,
+            "diff": 77,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Lebanon",
             "played": 6,
             "win": 5,
@@ -17827,7 +17839,7 @@
             "against": 566,
             "diff": 21,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Qatar",
@@ -17839,30 +17851,18 @@
             "against": 529,
             "diff": 8,
             "points": 11,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Japan",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 499,
-            "against": 450,
-            "diff": 49,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Saudi Arabia",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 461,
-            "against": 446,
-            "diff": 15,
-            "points": 9,
+            "loss": 4,
+            "for": 539,
+            "against": 552,
+            "diff": -13,
+            "points": 10,
             "highlight": "transparent"
           },
           {
