@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:19:03+00:00",
+  "updated": "2026-08-27T21:30:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19479,6 +19479,18 @@
       "Table": {
         "rows": [
           {
+            "team": "Wigan Warriors (T)",
+            "played": 25,
+            "win": 20,
+            "draw": 0,
+            "loss": 5,
+            "for": 761,
+            "against": 419,
+            "diff": 342,
+            "points": 40,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Leeds Rhinos (T)",
             "played": 24,
             "win": 19,
@@ -19487,18 +19499,6 @@
             "for": 850,
             "against": 362,
             "diff": 488,
-            "points": 38,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Wigan Warriors (T)",
-            "played": 24,
-            "win": 19,
-            "draw": 0,
-            "loss": 5,
-            "for": 715,
-            "against": 419,
-            "diff": 296,
             "points": 38,
             "highlight": "#BBF3BB"
           },
@@ -19540,13 +19540,13 @@
           },
           {
             "team": "Hull KR",
-            "played": 24,
+            "played": 25,
             "win": 15,
             "draw": 0,
-            "loss": 9,
+            "loss": 10,
             "for": 700,
-            "against": 415,
-            "diff": 285,
+            "against": 461,
+            "diff": 239,
             "points": 30,
             "highlight": "#BBF3FF"
           },
