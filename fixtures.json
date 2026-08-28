@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T01:07:03+00:00",
+  "updated": "2026-08-28T01:18:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11891,7 +11891,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Chile",
       "away": "United States",
-      "score": null,
+      "score": "71-89",
       "date": "2026-08-27",
       "time": "19:10",
       "utc": "2026-08-27T23:10:00+00:00",
@@ -17365,6 +17365,18 @@
       "Qualifiers · Second Round · Group E": {
         "rows": [
           {
+            "team": "United States",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 692,
+            "against": 580,
+            "diff": 112,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Brazil",
             "played": 6,
             "win": 6,
@@ -17374,18 +17386,6 @@
             "against": 452,
             "diff": 110,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "United States",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 603,
-            "against": 509,
-            "diff": 94,
-            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
@@ -17426,14 +17426,14 @@
           },
           {
             "team": "Chile",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 433,
-            "against": 463,
-            "diff": -30,
-            "points": 8,
+            "loss": 5,
+            "for": 504,
+            "against": 552,
+            "diff": -48,
+            "points": 9,
             "highlight": "transparent"
           }
         ],
