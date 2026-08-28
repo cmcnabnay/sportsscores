@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T19:51:03+00:00",
+  "updated": "2026-08-28T20:02:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12220,7 +12220,7 @@
       "time": "19:00",
       "utc": "2026-08-28T18:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": null
+      "attendance": "500"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -12325,7 +12325,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Serbia",
       "away": "Iceland",
-      "score": null,
+      "score": "102-73",
       "date": "2026-08-28",
       "time": "20:00",
       "utc": "2026-08-28T18:00:00+00:00",
@@ -18974,6 +18974,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Serbia",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 621,
+            "against": 561,
+            "diff": 60,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Italy",
             "played": 6,
             "win": 5,
@@ -18983,18 +18995,6 @@
             "against": 461,
             "diff": 63,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Serbia",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 519,
-            "against": 488,
-            "diff": 31,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -19011,14 +19011,14 @@
           },
           {
             "team": "Iceland",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 504,
-            "against": 538,
-            "diff": -34,
-            "points": 9,
+            "loss": 4,
+            "for": 577,
+            "against": 640,
+            "diff": -63,
+            "points": 10,
             "highlight": "transparent"
           },
           {
