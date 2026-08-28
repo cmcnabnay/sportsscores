@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T20:55:02+00:00",
+  "updated": "2026-08-28T21:06:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12341,7 +12341,7 @@
       "time": "20:00",
       "utc": "2026-08-28T18:00:00+00:00",
       "venue": "Mejdan Hall, Tuzla",
-      "attendance": null
+      "attendance": "4850"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -18998,18 +18998,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Bosnia and Herzegovina",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 552,
-            "against": 529,
-            "diff": 23,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
             "team": "Lithuania",
             "played": 7,
             "win": 3,
@@ -19030,6 +19018,18 @@
             "for": 577,
             "against": 640,
             "diff": -63,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Bosnia and Herzegovina",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 552,
+            "against": 539,
+            "diff": 13,
             "points": 10,
             "highlight": "transparent"
           }
