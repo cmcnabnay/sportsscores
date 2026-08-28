@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T19:18:04+00:00",
+  "updated": "2026-08-28T19:29:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12248,7 +12248,7 @@
       "league": "currie-cup-2026",
       "home": "Sharks XV",
       "away": "Bulls XV",
-      "score": null,
+      "score": "53-22",
       "date": "2026-08-28",
       "time": "19:15",
       "utc": "2026-08-28T17:15:00+00:00",
@@ -20174,6 +20174,30 @@
             "highlight": "#E8FFD8"
           },
           {
+            "team": "Lions",
+            "played": 7,
+            "win": 3,
+            "draw": 1,
+            "loss": 3,
+            "for": 227,
+            "against": 180,
+            "diff": 47,
+            "points": 20,
+            "highlight": "#E8FFD8"
+          },
+          {
+            "team": "Sharks XV",
+            "played": 7,
+            "win": 3,
+            "draw": 1,
+            "loss": 3,
+            "for": 190,
+            "against": 214,
+            "diff": -24,
+            "points": 18,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Pumas",
             "played": 6,
             "win": 3,
@@ -20183,7 +20207,7 @@
             "against": 169,
             "diff": -20,
             "points": 17,
-            "highlight": "#E8FFD8"
+            "highlight": "transparent"
           },
           {
             "team": "Boland Cavaliers",
@@ -20195,54 +20219,30 @@
             "against": 114,
             "diff": 40,
             "points": 16,
-            "highlight": "#E8FFD8"
+            "highlight": "transparent"
           },
           {
             "team": "Stormers XXIII",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 0,
-            "loss": 3,
-            "for": 147,
-            "against": 174,
-            "diff": -27,
+            "loss": 4,
+            "for": 159,
+            "against": 210,
+            "diff": -51,
             "points": 16,
             "highlight": "transparent"
           },
           {
-            "team": "Lions",
-            "played": 6,
-            "win": 2,
-            "draw": 1,
-            "loss": 3,
-            "for": 191,
-            "against": 168,
-            "diff": 23,
-            "points": 15,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sharks XV",
-            "played": 6,
-            "win": 2,
-            "draw": 1,
-            "loss": 3,
-            "for": 137,
-            "against": 192,
-            "diff": -55,
-            "points": 13,
-            "highlight": "transparent"
-          },
-          {
             "team": "Bulls XV",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": 0,
-            "loss": 6,
-            "for": 164,
-            "against": 267,
-            "diff": -103,
-            "points": 5,
+            "loss": 7,
+            "for": 186,
+            "against": 320,
+            "diff": -134,
+            "points": 6,
             "highlight": "transparent"
           }
         ],
