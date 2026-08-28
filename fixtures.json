@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T20:02:03+00:00",
+  "updated": "2026-08-28T20:13:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12330,13 +12330,13 @@
       "time": "20:00",
       "utc": "2026-08-28T18:00:00+00:00",
       "venue": "Belgrade Arena, Belgrade",
-      "attendance": null
+      "attendance": "12384"
     },
     {
       "league": "fiba-wcq-europe-2027",
       "home": "Bosnia and Herzegovina",
       "away": "Italy",
-      "score": null,
+      "score": "78-76",
       "date": "2026-08-28",
       "time": "20:00",
       "utc": "2026-08-28T18:00:00+00:00",
@@ -18974,6 +18974,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Italy",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 600,
+            "against": 539,
+            "diff": 61,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Serbia",
             "played": 7,
             "win": 5,
@@ -18986,16 +18998,16 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Italy",
-            "played": 6,
-            "win": 5,
+            "team": "Bosnia and Herzegovina",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 524,
-            "against": 461,
-            "diff": 63,
-            "points": 11,
-            "highlight": "#BBF3BB"
+            "loss": 4,
+            "for": 552,
+            "against": 529,
+            "diff": 23,
+            "points": 10,
+            "highlight": "transparent"
           },
           {
             "team": "Lithuania",
@@ -19019,18 +19031,6 @@
             "against": 640,
             "diff": -63,
             "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Bosnia and Herzegovina",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 474,
-            "against": 463,
-            "diff": 11,
-            "points": 8,
             "highlight": "transparent"
           }
         ],
