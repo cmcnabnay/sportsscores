@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T00:02:03+00:00",
+  "updated": "2026-08-28T00:13:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11902,7 +11902,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Argentina",
       "away": "Puerto Rico",
-      "score": null,
+      "score": "89-75",
       "date": "2026-08-27",
       "time": "19:10",
       "utc": "2026-08-27T22:10:00+00:00",
@@ -17442,6 +17442,18 @@
       "Qualifiers · Second Round · Group F": {
         "rows": [
           {
+            "team": "Argentina",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 606,
+            "against": 475,
+            "diff": 131,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Canada",
             "played": 6,
             "win": 6,
@@ -17466,27 +17478,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Argentina",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 517,
-            "against": 400,
-            "diff": 117,
-            "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Puerto Rico",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 537,
-            "against": 553,
-            "diff": -16,
-            "points": 8,
+            "loss": 5,
+            "for": 612,
+            "against": 642,
+            "diff": -30,
+            "points": 9,
             "highlight": "#BBF3FF"
           },
           {
