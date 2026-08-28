@@ -30,6 +30,15 @@ key in LEAGUES:
                   "team_pages" config key) and only keeps each team's
                   home ("vs.") rows, so every match is captured exactly
                   once even though it appears on two different pages.
+  - "espn"      : not Wikipedia at all - ESPN's public scoreboard API
+                  (site.api.espn.com), queried once for a whole date range
+                  via the "espn_sport"/"espn_league"/"espn_date_range"
+                  config keys. Used for competitions with no single good
+                  Wikipedia results page (e.g. bilateral rugby test
+                  matches). Kickoff instants and final scores come
+                  straight from ESPN's JSON, already in UTC, so no
+                  timezone guessing is needed the way it is for the
+                  Wikipedia-sourced parsers above.
 
 A league can fetch from more than one Wikipedia page (e.g. a tournament
 split into "Southern Hemisphere Series" / "Northern Hemisphere Series"
@@ -81,6 +90,23 @@ OUTPUT_FILE = Path(__file__).parent / "fixtures.json"
 print(OUTPUT_FILE)
 API_URL = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "fixtures-fetcher/1.0 (personal project; contact: cmcnabnay)"}
+
+# ESPN's site API (used by the "espn" parser) sits behind Akamai, which
+# flat-out 403s this script's normal Wikipedia HEADERS above - even a
+# browser User-Agent isn't enough on its own without Referer/Origin
+# headers that make the request look like it came from a tab open on
+# espn.com. Kept separate from HEADERS since Wikipedia's API doesn't need
+# (and doesn't care about) any of this.
+ESPN_API_URL = "https://site.api.espn.com/apis/site/v2/sports"
+ESPN_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.espn.com/",
+    "Origin": "https://www.espn.com",
+}
+ESPN_MAX_RETRIES = 3
 
 # Minimum gap between consecutive Wikipedia API requests, and retry/backoff
 # settings for when a burst of requests (e.g. CFL's 9 team pages) still
@@ -219,6 +245,21 @@ LEAGUES = {
                 {"label": "Standings", "heading_ids": ["Standings", "Table"]},
             ],
         },
+    },
+    "internationals-2026": {
+        "name": "Rugby Internationals 2026",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 289234 is ESPN's league id for internationals/
+        # test matches (the "league" segment of espn.com/rugby/scoreboard
+        # URLs); "rugby" here is ESPN's sport slug, not this dict's own
+        # "sport" key below. One request covers the whole date range, so
+        # unlike the Wikipedia leagues above there's no "page"/"pages".
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "289234",
+        "espn_date_range": "20260101-20261231",
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
     },
     "nrl-2026": {
         "name": "NRL 2026",
@@ -669,6 +710,82 @@ def fetch_page_wikitext(page_title: str) -> str:
         raise RuntimeError(f"Unexpected non-wikitext response for '{page_title}' via action=raw")
     _page_cache.setdefault(page_title, {})["wikitext"] = wikitext
     return wikitext
+
+
+def fetch_espn_scoreboard(espn_sport, espn_league, date_range):
+    """Fetch one ESPN scoreboard response covering `date_range` (e.g.
+    "20260101-20261231") in a single request - ESPN's API returns every
+    match in range directly, unlike Wikipedia's page-per-tournament model,
+    so there's no per-page loop here. Note ESPN caps a single response at
+    100 events regardless of range, so a date_range spanning a league with
+    a lot more than ~100 matches a year would need splitting into more
+    than one call; fine for the leagues configured here so far.
+
+    Retries on failure since even with ESPN_HEADERS in place (see the
+    comment above ESPN_HEADERS) this intermittently 403s anyway - a
+    transient bot-detection false positive, not a real block, in practice
+    it succeeds within a retry or two."""
+    url = f"{ESPN_API_URL}/{espn_sport}/{espn_league}/scoreboard?dates={date_range}"
+    req = Request(url, headers=ESPN_HEADERS)
+    last_err = None
+    for attempt in range(ESPN_MAX_RETRIES):
+        try:
+            with urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except HTTPError as e:
+            last_err = e
+            if attempt < ESPN_MAX_RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_err
+
+
+def parse_espn_matches(data, league_key, cfg):
+    """Parse an ESPN scoreboard JSON response (see fetch_espn_scoreboard)
+    into this project's usual match dict shape. ESPN already gives a
+    UTC kickoff instant and a final score directly - no HTML/wikitext
+    parsing or timezone guessing needed the way the Wikipedia-sourced
+    parsers elsewhere in this file require."""
+    matches = []
+    for event in data.get("events", []):
+        competitions = event.get("competitions") or []
+        if not competitions:
+            continue
+        comp = competitions[0]
+        competitors = comp.get("competitors", [])
+        home = next((c for c in competitors if c.get("homeAway") == "home"), None)
+        away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+        if not home or not away:
+            continue
+
+        completed = comp.get("status", {}).get("type", {}).get("completed", False)
+        score = None
+        if completed and home.get("score") is not None and away.get("score") is not None:
+            score = f"{home['score']}-{away['score']}"
+
+        date_out, time_out = normalize_date(comp.get("date") or event.get("date"), None, None)
+        utc_out = compute_utc(date_out, time_out, utc_offset=0)  # ESPN's date is already UTC
+
+        venue = comp.get("venue") or {}
+        address = venue.get("address") or {}
+        venue_name, city, country = venue.get("fullName"), address.get("city"), address.get("state")
+        venue_out = ", ".join(p for p in (venue_name, city) if p) or None
+        if venue_out and country and country != city:
+            venue_out += f" ({country})"
+
+        attendance = comp.get("attendance")
+
+        matches.append({
+            "league": league_key,
+            "home": home.get("team", {}).get("displayName"),
+            "away": away.get("team", {}).get("displayName"),
+            "score": score,
+            "date": date_out,
+            "time": time_out,
+            "utc": utc_out,
+            "venue": venue_out,
+            "attendance": str(attendance) if attendance else None,
+        })
+    return matches
 
 
 def normalize_date(iso_date, date_text, time_text):
@@ -3448,6 +3565,10 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
             matches.extend(parse_basketballbox_matches(wikitext, key, cfg))
         return matches
 
+    if parser_type == "espn":
+        data = fetch_espn_scoreboard(cfg["espn_sport"], cfg["espn_league"], cfg["espn_date_range"])
+        return parse_espn_matches(data, key, cfg)
+
     if parser_type == "cfl_schedule":
         # Unlike every other parser here, each CFL team has its own,
         # independent page - so unlike a single shared results page (which
@@ -3601,6 +3722,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
         if "team_pages" in cfg:
             source_desc = f"{len(cfg['team_pages'])} team pages"
+        elif "espn_league" in cfg:
+            source_desc = f"ESPN league {cfg['espn_league']}, {cfg['espn_date_range']}"
         else:
             pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
             source_desc = ", ".join(pages)
