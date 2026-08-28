@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T01:28:03+00:00",
+  "updated": "2026-08-28T01:39:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11968,7 +11968,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Brazil",
       "away": "Dominican Republic",
-      "score": null,
+      "score": "90-94",
       "date": "2026-08-27",
       "time": "20:10",
       "utc": "2026-08-27T23:10:00+00:00",
@@ -17378,26 +17378,26 @@
           },
           {
             "team": "Brazil",
-            "played": 6,
+            "played": 7,
             "win": 6,
             "draw": null,
-            "loss": 0,
-            "for": 562,
-            "against": 452,
-            "diff": 110,
-            "points": 12,
+            "loss": 1,
+            "for": 652,
+            "against": 546,
+            "diff": 106,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Dominican Republic",
-            "played": 6,
-            "win": 4,
+            "played": 7,
+            "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 533,
-            "against": 472,
-            "diff": 61,
-            "points": 10,
+            "for": 627,
+            "against": 562,
+            "diff": 65,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
