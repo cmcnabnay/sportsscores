@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T15:53:03+00:00",
+  "updated": "2026-08-28T16:03:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -89,6 +89,11 @@
     "russian-first-league-2026-27": {
       "name": "Russian First League 2026–27",
       "sport": "football",
+      "completed": false
+    },
+    "internationals-2026": {
+      "name": "Rugby Internationals 2026",
+      "sport": "rugby",
       "completed": false
     }
   },
@@ -3317,6 +3322,17 @@
       "attendance": "10023"
     },
     {
+      "league": "internationals-2026",
+      "home": "Czechia",
+      "away": "Mexico",
+      "score": "54-27",
+      "date": "2026-04-03",
+      "time": "12:00",
+      "utc": "2026-04-03T12:00:00+00:00",
+      "venue": "Marketa Stadium, Prague (Czech Republic)",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Hull KR",
       "away": "Hull F.C.",
@@ -3480,6 +3496,17 @@
       "utc": "2026-04-09T09:50:00+00:00",
       "venue": "Accor Stadium",
       "attendance": "23984"
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Croatia",
+      "away": "Mexico",
+      "score": "17-33",
+      "date": "2026-04-10",
+      "time": "17:00",
+      "utc": "2026-04-10T17:00:00+00:00",
+      "venue": "Stadion Park Mladeži",
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -10630,6 +10657,17 @@
       "attendance": "8249"
     },
     {
+      "league": "internationals-2026",
+      "home": "Japan",
+      "away": "Australia",
+      "score": "32-35",
+      "date": "2026-08-08",
+      "time": "10:05",
+      "utc": "2026-08-08T10:05:00+00:00",
+      "venue": "Hanazono Rugby Stadium, Osaka (Japan)",
+      "attendance": null
+    },
+    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Munich Ravens",
@@ -10803,6 +10841,17 @@
       "time": "18:30",
       "utc": "2026-08-08T17:30:00+00:00",
       "venue": "Odsal Stadium",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Argentina",
+      "away": "South Africa",
+      "score": "10-17",
+      "date": "2026-08-08",
+      "time": "19:00",
+      "utc": "2026-08-08T19:00:00+00:00",
+      "venue": "Estadio José Amalfitani, Buenos Aires (Argentina)",
       "attendance": null
     },
     {
@@ -11079,6 +11128,17 @@
       "utc": "2026-08-14T19:00:00+00:00",
       "venue": "MKM Stadium",
       "attendance": "12030"
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Australia",
+      "away": "Japan",
+      "score": "56-17",
+      "date": "2026-08-15",
+      "time": "05:15",
+      "utc": "2026-08-15T05:15:00+00:00",
+      "venue": "Queensland Country Bank Stadium, Townsville (Australia)",
+      "attendance": null
     },
     {
       "league": "afle-2026",
@@ -11556,6 +11616,17 @@
       "utc": "2026-08-22T13:00:00+00:00",
       "venue": "Friedrich-Ludwig-Jahn-Sportpark , Kleines Stadion, Berlin",
       "attendance": "375"
+    },
+    {
+      "league": "internationals-2026",
+      "home": "South Africa",
+      "away": "New Zealand",
+      "score": "16-33",
+      "date": "2026-08-22",
+      "time": "15:10",
+      "utc": "2026-08-22T15:10:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -12372,6 +12443,17 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "South Africa",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "15:10",
+      "utc": "2026-08-29T15:10:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "DR Congo",
       "away": "Mali",
@@ -12448,6 +12530,17 @@
       "time": "18:30",
       "utc": "2026-08-29T18:30:00+00:00",
       "venue": "Dakar Arena, Dakar",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Argentina",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-08-29",
+      "time": "19:00",
+      "utc": "2026-08-29T19:00:00+00:00",
+      "venue": "Estadio 23 de Agosto, San Salvador (El Salvador)",
       "attendance": null
     },
     {
@@ -13056,6 +13149,17 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "Japan",
+      "away": "Canada",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "05:50",
+      "utc": "2026-09-05T05:50:00+00:00",
+      "venue": "Denka Big Swan Stadium",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Bay of Plenty",
       "away": "Manawatu",
@@ -13086,6 +13190,17 @@
       "time": "15:00",
       "utc": "2026-09-05T14:00:00+00:00",
       "venue": "DIY Kitchens Stadium",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "South Africa",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "15:10",
+      "utc": "2026-09-05T15:10:00+00:00",
+      "venue": "FNB Stadium, Johannesburg (South Africa)",
       "attendance": null
     },
     {
@@ -13152,6 +13267,17 @@
       "time": "20:00",
       "utc": "2026-09-05T19:00:00+00:00",
       "venue": "Headingley Rugby Stadium",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Argentina",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-09-05",
+      "time": "21:00",
+      "utc": "2026-09-05T21:00:00+00:00",
+      "venue": "Estadio Malvinas Argentinas, Mendoza (Argentina)",
       "attendance": null
     },
     {
@@ -13438,6 +13564,17 @@
       "time": "19:10",
       "utc": "2026-09-12T07:10:00+00:00",
       "venue": "One NZ Stadium",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "South Africa",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "21:00",
+      "utc": "2026-09-12T21:00:00+00:00",
+      "venue": "M&T Bank Stadium",
       "attendance": null
     },
     {
@@ -13760,6 +13897,17 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "Australia",
+      "away": "South Africa",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "09:45",
+      "utc": "2026-09-27T09:45:00+00:00",
+      "venue": "Optus Stadium, Perth (Australia)",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Wellington",
       "away": "Waikato",
@@ -13947,6 +14095,17 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "New Zealand",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "06:10",
+      "utc": "2026-10-10T06:10:00+00:00",
+      "venue": "Eden Park, Auckland (New Zealand)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Leningradets",
       "away": "Torpedo Moscow",
@@ -14010,6 +14169,17 @@
       "time": "19:30",
       "utc": "2026-10-17T01:30:00+00:00",
       "venue": "Commonwealth Stadium",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Australia",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "05:00",
+      "utc": "2026-10-17T05:00:00+00:00",
+      "venue": "Accor Stadium, Sydney (Australia)",
       "attendance": null
     },
     {
@@ -14079,6 +14249,17 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "Japan",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "05:50",
+      "utc": "2026-10-24T05:50:00+00:00",
+      "venue": "Prince Chichibu Memorial Stadium, Tokyo (Japan)",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Edmonton Elks",
@@ -14119,6 +14300,17 @@
       "date": "2026-10-25",
       "time": "18:00",
       "utc": "2026-10-25T21:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Belgium",
+      "away": "Hong Kong",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "00:00",
+      "utc": "2026-10-31T00:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14307,6 +14499,17 @@
       "time": "21:10",
       "utc": "2026-11-13T20:10:00+00:00",
       "venue": "Stade de France, Paris",
+      "attendance": null
+    },
+    {
+      "league": "internationals-2026",
+      "home": "Paraguay",
+      "away": "Brazil",
+      "score": null,
+      "date": "2026-11-14",
+      "time": "00:00",
+      "utc": "2026-11-14T00:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
