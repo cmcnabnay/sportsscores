@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T09:51:03+00:00",
+  "updated": "2026-08-28T10:02:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19364,6 +19364,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Manly Warringah Sea Eagles",
+            "played": 23,
+            "win": 11,
+            "draw": 0,
+            "loss": 12,
+            "for": 593,
+            "against": 493,
+            "diff": 100,
+            "points": 28,
+            "highlight": "transparent"
+          },
+          {
             "team": "Canterbury-Bankstown Bulldogs",
             "played": 22,
             "win": 11,
@@ -19373,18 +19385,6 @@
             "against": 478,
             "diff": -32,
             "points": 28,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Manly Warringah Sea Eagles",
-            "played": 22,
-            "win": 10,
-            "draw": 0,
-            "loss": 12,
-            "for": 549,
-            "against": 483,
-            "diff": 66,
-            "points": 26,
             "highlight": "transparent"
           },
           {
@@ -19461,13 +19461,13 @@
           },
           {
             "team": "St. George Illawarra Dragons (X)",
-            "played": 22,
+            "played": 23,
             "win": 4,
             "draw": 0,
-            "loss": 18,
-            "for": 358,
-            "against": 651,
-            "diff": -293,
+            "loss": 19,
+            "for": 368,
+            "against": 695,
+            "diff": -327,
             "points": 14,
             "highlight": "transparent"
           }
