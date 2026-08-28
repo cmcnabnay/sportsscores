@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T17:52:03+00:00",
+  "updated": "2026-08-28T18:03:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12226,7 +12226,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Ukraine",
       "away": "Greece",
-      "score": null,
+      "score": "82-76",
       "date": "2026-08-28",
       "time": "19:00",
       "utc": "2026-08-28T16:00:00+00:00",
@@ -18885,6 +18885,18 @@
       "Qualifiers · Second Round · Group I": {
         "rows": [
           {
+            "team": "Ukraine",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 586,
+            "against": 535,
+            "diff": 51,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Spain",
             "played": 6,
             "win": 5,
@@ -18918,17 +18930,17 @@
             "against": 535,
             "diff": -50,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
-            "team": "Ukraine",
-            "played": 6,
-            "win": 4,
+            "team": "Greece",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 2,
-            "for": 504,
-            "against": 459,
-            "diff": 45,
+            "loss": 4,
+            "for": 509,
+            "against": 490,
+            "diff": 19,
             "points": 10,
             "highlight": "transparent"
           },
@@ -18941,18 +18953,6 @@
             "for": 485,
             "against": 449,
             "diff": 36,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Greece",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 433,
-            "against": 408,
-            "diff": 25,
             "points": 9,
             "highlight": "transparent"
           }
