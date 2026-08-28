@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T16:58:03+00:00",
+  "updated": "2026-08-28T17:08:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12160,7 +12160,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Guinea",
-      "score": null,
+      "score": "61-81",
       "date": "2026-08-28",
       "time": "16:00",
       "utc": "2026-08-28T15:00:00+00:00",
@@ -17024,6 +17024,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Guinea",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 587,
+            "against": 528,
+            "diff": 59,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Cameroon",
             "played": 7,
             "win": 6,
@@ -17033,7 +17045,7 @@
             "against": 493,
             "diff": 45,
             "points": 13,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Tunisia",
@@ -17045,7 +17057,7 @@
             "against": 467,
             "diff": 42,
             "points": 12,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Nigeria",
@@ -17060,27 +17072,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Guinea",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 506,
-            "against": 467,
-            "diff": 39,
-            "points": 11,
-            "highlight": "transparent"
-          },
-          {
             "team": "Cape Verde",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 535,
-            "against": 551,
-            "diff": -16,
-            "points": 10,
+            "loss": 5,
+            "for": 596,
+            "against": 632,
+            "diff": -36,
+            "points": 11,
             "highlight": "transparent"
           }
         ],
