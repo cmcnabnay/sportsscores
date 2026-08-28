@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T08:56:02+00:00",
+  "updated": "2026-08-28T09:07:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20098,6 +20098,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Bay of Plenty",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
+            "for": 138,
+            "against": 145,
+            "diff": -7,
+            "points": 17,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Otago",
             "played": 4,
             "win": 3,
@@ -20134,27 +20146,15 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Bay of Plenty",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 116,
-            "against": 126,
-            "diff": -10,
-            "points": 13,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Auckland",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 0,
-            "loss": 3,
-            "for": 115,
-            "against": 140,
-            "diff": -25,
-            "points": 8,
+            "loss": 4,
+            "for": 134,
+            "against": 162,
+            "diff": -28,
+            "points": 9,
             "highlight": "transparent"
           },
           {
