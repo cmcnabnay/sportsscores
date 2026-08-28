@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:37:03+00:00",
+  "updated": "2026-08-28T14:48:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12281,7 +12281,7 @@
       "time": "20:30",
       "utc": "2026-08-28T12:30:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
+      "attendance": "12294"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -17774,6 +17774,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Jordan",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 591,
+            "against": 442,
+            "diff": 149,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "New Zealand",
             "played": 7,
             "win": 5,
@@ -17798,16 +17810,16 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Jordan",
-            "played": 6,
-            "win": 5,
+            "team": "Philippines",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 510,
-            "against": 360,
-            "diff": 150,
-            "points": 11,
-            "highlight": "#BBF3BB"
+            "loss": 4,
+            "for": 547,
+            "against": 558,
+            "diff": -11,
+            "points": 10,
+            "highlight": "transparent"
           },
           {
             "team": "Syria",
@@ -17819,18 +17831,6 @@
             "against": 593,
             "diff": -133,
             "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Philippines",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 465,
-            "against": 477,
-            "diff": -12,
-            "points": 8,
             "highlight": "transparent"
           }
         ],
