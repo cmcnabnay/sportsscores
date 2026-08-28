@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:04:03+00:00",
+  "updated": "2026-08-28T14:15:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12056,7 +12056,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Nigeria",
-      "score": null,
+      "score": "82-79",
       "date": "2026-08-28",
       "time": "13:00",
       "utc": "2026-08-28T12:00:00+00:00",
@@ -16809,6 +16809,18 @@
       "Second Round · Group E": {
         "rows": [
           {
+            "team": "South Sudan",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 659,
+            "against": 542,
+            "diff": 117,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Cameroon",
             "played": 7,
             "win": 6,
@@ -16818,18 +16830,6 @@
             "against": 493,
             "diff": 45,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "South Sudan",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 577,
-            "against": 463,
-            "diff": 114,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -16845,6 +16845,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Nigeria",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 619,
+            "against": 608,
+            "diff": 11,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Guinea",
             "played": 7,
             "win": 4,
@@ -16853,18 +16865,6 @@
             "for": 506,
             "against": 467,
             "diff": 39,
-            "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Nigeria",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 540,
-            "against": 526,
-            "diff": 14,
             "points": 11,
             "highlight": "transparent"
           },
