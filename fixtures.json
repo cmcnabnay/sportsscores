@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T11:52:03+00:00",
+  "updated": "2026-08-28T12:03:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19268,6 +19268,18 @@
       "Ladder": {
         "rows": [
           {
+            "team": "Penrith Panthers (Q)",
+            "played": 23,
+            "win": 17,
+            "draw": 0,
+            "loss": 6,
+            "for": 645,
+            "against": 337,
+            "diff": 308,
+            "points": 40,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "New Zealand Warriors (Q)",
             "played": 22,
             "win": 16,
@@ -19276,18 +19288,6 @@
             "for": 651,
             "against": 356,
             "diff": 295,
-            "points": 38,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Penrith Panthers (Q)",
-            "played": 22,
-            "win": 16,
-            "draw": 0,
-            "loss": 6,
-            "for": 621,
-            "against": 327,
-            "diff": 294,
             "points": 38,
             "highlight": "#BBF3BB"
           },
@@ -19377,13 +19377,13 @@
           },
           {
             "team": "Canterbury-Bankstown Bulldogs",
-            "played": 22,
+            "played": 23,
             "win": 11,
             "draw": 0,
-            "loss": 11,
-            "for": 446,
-            "against": 478,
-            "diff": -32,
+            "loss": 12,
+            "for": 456,
+            "against": 502,
+            "diff": -46,
             "points": 28,
             "highlight": "transparent"
           },
@@ -21227,9 +21227,9 @@
       },
       {
         "team": "Manly Warringah Sea Eagles",
-        "games": 11,
-        "total": 176071,
-        "average": 16006
+        "games": 12,
+        "total": 190028,
+        "average": 15836
       },
       {
         "team": "Melbourne Storm",
