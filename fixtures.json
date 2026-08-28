@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T03:28:04+00:00",
+  "updated": "2026-08-28T03:38:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12012,7 +12012,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Panama",
       "away": "Canada",
-      "score": null,
+      "score": "66-86",
       "date": "2026-08-27",
       "time": "20:40",
       "utc": "2026-08-28T01:40:00+00:00",
@@ -17442,6 +17442,18 @@
       "Qualifiers · Second Round · Group F": {
         "rows": [
           {
+            "team": "Canada",
+            "played": 7,
+            "win": 7,
+            "draw": null,
+            "loss": 0,
+            "for": 710,
+            "against": 557,
+            "diff": 153,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Argentina",
             "played": 7,
             "win": 6,
@@ -17451,18 +17463,6 @@
             "against": 475,
             "diff": 131,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Canada",
-            "played": 6,
-            "win": 6,
-            "draw": null,
-            "loss": 0,
-            "for": 624,
-            "against": 491,
-            "diff": 133,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -17503,14 +17503,14 @@
           },
           {
             "team": "Panama",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 455,
-            "against": 525,
-            "diff": -70,
-            "points": 8,
+            "loss": 5,
+            "for": 521,
+            "against": 611,
+            "diff": -90,
+            "points": 9,
             "highlight": "transparent"
           }
         ],
