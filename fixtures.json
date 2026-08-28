@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T01:18:03+00:00",
+  "updated": "2026-08-28T01:28:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11990,7 +11990,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Uruguay",
       "away": "Bahamas",
-      "score": null,
+      "score": "94-103",
       "date": "2026-08-27",
       "time": "20:10",
       "utc": "2026-08-27T23:10:00+00:00",
@@ -17467,15 +17467,27 @@
           },
           {
             "team": "Uruguay",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 501,
-            "against": 409,
-            "diff": 92,
-            "points": 11,
+            "loss": 2,
+            "for": 595,
+            "against": 512,
+            "diff": 83,
+            "points": 12,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Bahamas",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 646,
+            "against": 655,
+            "diff": -9,
+            "points": 10,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Puerto Rico",
@@ -17487,18 +17499,6 @@
             "against": 642,
             "diff": -30,
             "points": 9,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Bahamas",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 543,
-            "against": 561,
-            "diff": -18,
-            "points": 8,
             "highlight": "transparent"
           },
           {
