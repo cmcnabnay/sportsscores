@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T21:06:03+00:00",
+  "updated": "2026-08-28T21:17:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12358,7 +12358,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Portugal",
-      "score": null,
+      "score": "89-95",
       "date": "2026-08-28",
       "time": "21:00",
       "utc": "2026-08-28T19:00:00+00:00",
@@ -18885,6 +18885,18 @@
       "Qualifiers · Second Round · Group I": {
         "rows": [
           {
+            "team": "Spain",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 615,
+            "against": 522,
+            "diff": 93,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ukraine",
             "played": 7,
             "win": 5,
@@ -18897,14 +18909,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Spain",
-            "played": 6,
-            "win": 5,
+            "team": "Portugal",
+            "played": 7,
+            "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 526,
-            "against": 427,
-            "diff": 99,
+            "loss": 3,
+            "for": 580,
+            "against": 538,
+            "diff": 42,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -18918,7 +18930,7 @@
             "against": 571,
             "diff": 15,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Montenegro",
@@ -18942,18 +18954,6 @@
             "against": 490,
             "diff": 19,
             "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Portugal",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 485,
-            "against": 449,
-            "diff": 36,
-            "points": 9,
             "highlight": "transparent"
           }
         ],
