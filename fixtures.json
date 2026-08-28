@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T19:40:03+00:00",
+  "updated": "2026-08-28T19:51:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12215,7 +12215,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Cameroon",
       "away": "Tunisia",
-      "score": null,
+      "score": "83-61",
       "date": "2026-08-28",
       "time": "19:00",
       "utc": "2026-08-28T18:00:00+00:00",
@@ -12369,12 +12369,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Lithuania",
-      "score": null,
+      "score": "94-66",
       "date": "2026-08-28",
       "time": "21:00",
       "utc": "2026-08-28T18:00:00+00:00",
       "venue": "Basketball Development Center, Istanbul",
-      "attendance": null
+      "attendance": "5921"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -17012,6 +17012,18 @@
       "Second Round · Group E": {
         "rows": [
           {
+            "team": "Cameroon",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 621,
+            "against": 554,
+            "diff": 67,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "South Sudan",
             "played": 8,
             "win": 6,
@@ -17033,30 +17045,18 @@
             "against": 528,
             "diff": 59,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Cameroon",
-            "played": 7,
-            "win": 6,
-            "draw": null,
-            "loss": 1,
-            "for": 538,
-            "against": 493,
-            "diff": 45,
-            "points": 13,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Tunisia",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 509,
-            "against": 467,
-            "diff": 42,
-            "points": 12,
+            "loss": 3,
+            "for": 570,
+            "against": 550,
+            "diff": 20,
+            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -18963,14 +18963,14 @@
         "rows": [
           {
             "team": "Turkey",
-            "played": 6,
-            "win": 6,
+            "played": 7,
+            "win": 7,
             "draw": null,
             "loss": 0,
-            "for": 531,
-            "against": 442,
-            "diff": 89,
-            "points": 12,
+            "for": 625,
+            "against": 508,
+            "diff": 117,
+            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
@@ -18999,14 +18999,14 @@
           },
           {
             "team": "Lithuania",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 543,
-            "against": 510,
-            "diff": 33,
-            "points": 9,
+            "loss": 4,
+            "for": 609,
+            "against": 604,
+            "diff": 5,
+            "points": 10,
             "highlight": "transparent"
           },
           {
