@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T09:42:02+00:00",
+  "updated": "2026-08-29T09:53:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19682,6 +19682,18 @@
       "Table": {
         "rows": [
           {
+            "team": "Leeds Rhinos (T)",
+            "played": 25,
+            "win": 20,
+            "draw": 0,
+            "loss": 5,
+            "for": 884,
+            "against": 368,
+            "diff": 516,
+            "points": 40,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Wigan Warriors (T)",
             "played": 25,
             "win": 20,
@@ -19691,18 +19703,6 @@
             "against": 419,
             "diff": 342,
             "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Leeds Rhinos (T)",
-            "played": 24,
-            "win": 19,
-            "draw": 0,
-            "loss": 5,
-            "for": 850,
-            "against": 362,
-            "diff": 488,
-            "points": 38,
             "highlight": "#BBF3BB"
           },
           {
@@ -19731,13 +19731,13 @@
           },
           {
             "team": "Leigh Leopards",
-            "played": 24,
+            "played": 25,
             "win": 16,
             "draw": 0,
-            "loss": 8,
-            "for": 570,
-            "against": 438,
-            "diff": 132,
+            "loss": 9,
+            "for": 588,
+            "against": 468,
+            "diff": 120,
             "points": 32,
             "highlight": "#BBF3FF"
           },
@@ -19755,26 +19755,26 @@
           },
           {
             "team": "St Helens",
-            "played": 24,
+            "played": 25,
             "win": 14,
             "draw": 0,
-            "loss": 10,
-            "for": 584,
-            "against": 520,
-            "diff": 64,
+            "loss": 11,
+            "for": 590,
+            "against": 554,
+            "diff": 36,
             "points": 28,
             "highlight": "transparent"
           },
           {
             "team": "Catalans Dragons",
-            "played": 24,
-            "win": 9,
+            "played": 25,
+            "win": 10,
             "draw": 0,
             "loss": 15,
-            "for": 475,
-            "against": 718,
-            "diff": -243,
-            "points": 18,
+            "for": 509,
+            "against": 724,
+            "diff": -215,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -19791,13 +19791,13 @@
           },
           {
             "team": "Castleford Tigers",
-            "played": 24,
+            "played": 25,
             "win": 8,
             "draw": 0,
-            "loss": 16,
-            "for": 420,
-            "against": 752,
-            "diff": -332,
+            "loss": 17,
+            "for": 426,
+            "against": 786,
+            "diff": -360,
             "points": 16,
             "highlight": "transparent"
           },
@@ -19814,6 +19814,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Huddersfield Giants",
+            "played": 25,
+            "win": 7,
+            "draw": 0,
+            "loss": 18,
+            "for": 455,
+            "against": 713,
+            "diff": -258,
+            "points": 14,
+            "highlight": "transparent"
+          },
+          {
             "team": "York Knights",
             "played": 24,
             "win": 7,
@@ -19823,18 +19835,6 @@
             "against": 731,
             "diff": -261,
             "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Huddersfield Giants",
-            "played": 24,
-            "win": 6,
-            "draw": 0,
-            "loss": 18,
-            "for": 425,
-            "against": 695,
-            "diff": -270,
-            "points": 12,
             "highlight": "transparent"
           },
           {
