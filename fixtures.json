@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T21:48:03+00:00",
+  "updated": "2026-08-29T21:59:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12391,7 +12391,7 @@
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Hamilton Tiger-Cats",
-      "score": null,
+      "score": "28-23",
       "date": "2026-08-29",
       "time": "13:00",
       "utc": "2026-08-29T19:00:00+00:00",
@@ -19426,14 +19426,14 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 10,
-            "win": 4,
+            "played": 11,
+            "win": 5,
             "draw": null,
             "loss": 6,
-            "for": 378,
-            "against": 327,
+            "for": 306,
+            "against": 350,
             "diff": null,
-            "points": 8,
+            "points": 10,
             "highlight": null
           }
         ],
@@ -19467,12 +19467,12 @@
           },
           {
             "team": "Hamilton Tiger-Cats",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": null,
-            "loss": 7,
-            "for": 257,
-            "against": 319,
+            "loss": 8,
+            "for": 280,
+            "against": 347,
             "diff": null,
             "points": 8,
             "highlight": null
@@ -21033,6 +21033,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (LP)",
+            "played": 7,
+            "win": 4,
+            "draw": 0,
+            "loss": 3,
+            "for": 10,
+            "against": 11,
+            "diff": -1,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tigre",
             "played": 6,
             "win": 3,
@@ -21046,13 +21058,13 @@
           },
           {
             "team": "Rosario Central",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 2,
-            "loss": 1,
-            "for": 7,
-            "against": 5,
-            "diff": 2,
+            "loss": 2,
+            "for": 8,
+            "against": 7,
+            "diff": 1,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -21089,18 +21101,6 @@
             "for": 4,
             "against": 5,
             "diff": -1,
-            "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (LP)",
-            "played": 6,
-            "win": 3,
-            "draw": 0,
-            "loss": 3,
-            "for": 8,
-            "against": 10,
-            "diff": -2,
             "points": 9,
             "highlight": "#BBF3BB"
           },
