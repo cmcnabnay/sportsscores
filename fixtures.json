@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T11:21:03+00:00",
+  "updated": "2026-08-29T11:32:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12558,7 +12558,7 @@
       "league": "nrl-2026",
       "home": "North Queensland Cowboys",
       "away": "Wests Tigers",
-      "score": null,
+      "score": "24–10",
       "date": "2026-08-29",
       "time": "19:30",
       "utc": "2026-08-29T09:30:00+00:00",
@@ -19555,19 +19555,19 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "North Queensland Cowboys",
-            "played": 22,
-            "win": 12,
+            "team": "North Queensland Cowboys (Q)",
+            "played": 23,
+            "win": 13,
             "draw": 0,
             "loss": 10,
-            "for": 514,
-            "against": 592,
-            "diff": -78,
-            "points": 30,
+            "for": 538,
+            "against": 602,
+            "diff": -64,
+            "points": 32,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Manly Warringah Sea Eagles",
+            "team": "Manly Warringah Sea Eagles (X)",
             "played": 23,
             "win": 11,
             "draw": 0,
@@ -19579,7 +19579,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Canterbury-Bankstown Bulldogs",
+            "team": "Canterbury-Bankstown Bulldogs (X)",
             "played": 23,
             "win": 11,
             "draw": 0,
@@ -19628,13 +19628,13 @@
           },
           {
             "team": "Wests Tigers (X)",
-            "played": 22,
+            "played": 23,
             "win": 8,
             "draw": 0,
-            "loss": 14,
-            "for": 425,
-            "against": 637,
-            "diff": -212,
+            "loss": 15,
+            "for": 435,
+            "against": 661,
+            "diff": -226,
             "points": 22,
             "highlight": "transparent"
           },
