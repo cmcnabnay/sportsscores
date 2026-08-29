@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T09:09:03+00:00",
+  "updated": "2026-08-29T09:20:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12303,18 +12303,18 @@
       "league": "super-league-2026",
       "home": "St Helens",
       "away": "Leeds Rhinos",
-      "score": null,
+      "score": "6–34",
       "date": "2026-08-28",
       "time": "20:00",
       "utc": "2026-08-28T19:00:00+00:00",
       "venue": "BrewDog Stadium",
-      "attendance": null
+      "attendance": "11558"
     },
     {
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Leigh Leopards",
-      "score": null,
+      "score": "30–18",
       "date": "2026-08-28",
       "time": "20:00",
       "utc": "2026-08-28T19:00:00+00:00",
@@ -20265,39 +20265,39 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Northland (RS)",
-            "played": 4,
-            "win": 3,
+            "team": "Otago",
+            "played": 5,
+            "win": 4,
             "draw": 0,
             "loss": 1,
-            "for": 149,
-            "against": 60,
-            "diff": 89,
-            "points": 17,
+            "for": 189,
+            "against": 120,
+            "diff": 69,
+            "points": 21,
             "highlight": "#CCF9CC"
           },
           {
             "team": "North Harbour",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": 0,
-            "loss": 1,
-            "for": 162,
-            "against": 76,
-            "diff": 86,
-            "points": 17,
+            "loss": 2,
+            "for": 202,
+            "against": 119,
+            "diff": 83,
+            "points": 19,
             "highlight": "#CCF9CC"
           },
           {
             "team": "Waikato",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": 0,
-            "loss": 1,
-            "for": 152,
-            "against": 102,
-            "diff": 50,
-            "points": 17,
+            "loss": 2,
+            "for": 190,
+            "against": 145,
+            "diff": 45,
+            "points": 19,
             "highlight": "#CCF9CC"
           },
           {
@@ -20313,15 +20313,15 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Otago",
+            "team": "Northland (RS)",
             "played": 4,
             "win": 3,
             "draw": 0,
             "loss": 1,
-            "for": 146,
-            "against": 82,
-            "diff": 64,
-            "points": 16,
+            "for": 149,
+            "against": 60,
+            "diff": 89,
+            "points": 17,
             "highlight": "#CCF9CC"
           },
           {
@@ -20338,15 +20338,39 @@
           },
           {
             "team": "Canterbury",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": 0,
-            "loss": 1,
-            "for": 102,
-            "against": 110,
-            "diff": -8,
-            "points": 14,
+            "loss": 2,
+            "for": 128,
+            "against": 150,
+            "diff": -22,
+            "points": 15,
             "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Taranaki",
+            "played": 5,
+            "win": 2,
+            "draw": 0,
+            "loss": 3,
+            "for": 116,
+            "against": 139,
+            "diff": -23,
+            "points": 13,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Manawatu",
+            "played": 5,
+            "win": 2,
+            "draw": 0,
+            "loss": 3,
+            "for": 137,
+            "against": 203,
+            "diff": -66,
+            "points": 11,
+            "highlight": "transparent"
           },
           {
             "team": "Auckland",
@@ -20361,18 +20385,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Taranaki",
-            "played": 4,
-            "win": 1,
-            "draw": 0,
-            "loss": 3,
-            "for": 76,
-            "against": 113,
-            "diff": -37,
-            "points": 8,
-            "highlight": "transparent"
-          },
-          {
             "team": "Southland",
             "played": 5,
             "win": 1,
@@ -20382,18 +20394,6 @@
             "against": 190,
             "diff": -71,
             "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Manawatu",
-            "played": 4,
-            "win": 1,
-            "draw": 0,
-            "loss": 3,
-            "for": 94,
-            "against": 163,
-            "diff": -69,
-            "points": 6,
             "highlight": "transparent"
           },
           {
