@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T17:41:04+00:00",
+  "updated": "2026-08-29T17:51:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12520,6 +12520,19 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "date": "2026-08-29",
+      "time": "18:00",
+      "utc": "2026-08-29T16:00:00+00:00",
+      "home": "Vienna Vikings",
+      "away": "London Warriors",
+      "score": null,
+      "venue": "Wiener Sport-Club Stadium , Vienna",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "Semifinals"
+    },
+    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Munich Ravens",
@@ -12685,6 +12698,19 @@
       "utc": "2026-08-30T13:00:00+00:00",
       "venue": "Boland Stadium, Wellington",
       "attendance": null
+    },
+    {
+      "league": "afle-2026",
+      "date": "2026-08-30",
+      "time": "15:10",
+      "utc": "2026-08-30T13:10:00+00:00",
+      "home": "Rhein Fire",
+      "away": "Panthers Wrocław",
+      "score": null,
+      "venue": "Niederrheinstadion , Oberhausen",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "Semifinals"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -21537,6 +21563,51 @@
               "score2": null,
               "date": "2026-08-29",
               "venue": "Tivoli Stadion Tirol, Innsbruck, Austria"
+            }
+          ]
+        }
+      ]
+    },
+    "afle-2026": {
+      "name": "American Football League Europe 2026 · Play-offs",
+      "rounds": [
+        {
+          "label": "Semifinals",
+          "matches": [
+            {
+              "seed1": 1,
+              "team1": "Vienna Vikings",
+              "score1": null,
+              "seed2": 4,
+              "team2": "London Warriors",
+              "score2": null,
+              "date": "2026-08-29",
+              "venue": "Wiener Sport-Club Stadium, Vienna, Austria"
+            },
+            {
+              "seed1": 2,
+              "team1": "Rhein Fire",
+              "score1": null,
+              "seed2": 3,
+              "team2": "Panthers Wrocław",
+              "score2": null,
+              "date": "2026-08-30",
+              "venue": "Niederrheinstadion, Oberhausen, Germany"
+            }
+          ]
+        },
+        {
+          "label": "Gold Bowl",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": "2026-09-06",
+              "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
             }
           ]
         }
