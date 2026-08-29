@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T23:47:04+00:00",
+  "updated": "2026-08-29T23:58:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19805,14 +19805,14 @@
           },
           {
             "team": "Toulouse Olympique",
-            "played": 24,
-            "win": 8,
+            "played": 25,
+            "win": 9,
             "draw": 0,
             "loss": 16,
-            "for": 492,
-            "against": 630,
-            "diff": -138,
-            "points": 16,
+            "for": 520,
+            "against": 648,
+            "diff": -128,
+            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -19865,13 +19865,13 @@
           },
           {
             "team": "Bradford Bulls",
-            "played": 24,
+            "played": 25,
             "win": 6,
             "draw": 0,
-            "loss": 18,
-            "for": 402,
-            "against": 767,
-            "diff": -365,
+            "loss": 19,
+            "for": 420,
+            "against": 795,
+            "diff": -375,
             "points": 12,
             "highlight": "transparent"
           }
@@ -21093,6 +21093,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Huracán",
+            "played": 7,
+            "win": 2,
+            "draw": 3,
+            "loss": 2,
+            "for": 5,
+            "against": 5,
+            "diff": 0,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Barracas Central",
             "played": 6,
             "win": 3,
@@ -21102,18 +21114,6 @@
             "against": 5,
             "diff": -1,
             "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Huracán",
-            "played": 6,
-            "win": 2,
-            "draw": 2,
-            "loss": 2,
-            "for": 4,
-            "against": 4,
-            "diff": 0,
-            "points": 8,
             "highlight": "transparent"
           },
           {
@@ -21141,6 +21141,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Estudiantes (RC)",
+            "played": 7,
+            "win": 1,
+            "draw": 3,
+            "loss": 3,
+            "for": 3,
+            "against": 7,
+            "diff": -4,
+            "points": 6,
+            "highlight": "transparent"
+          },
+          {
             "team": "Racing",
             "played": 6,
             "win": 1,
@@ -21149,18 +21161,6 @@
             "for": 5,
             "against": 8,
             "diff": -3,
-            "points": 5,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Estudiantes (RC)",
-            "played": 6,
-            "win": 1,
-            "draw": 2,
-            "loss": 3,
-            "for": 2,
-            "against": 6,
-            "diff": -4,
             "points": 5,
             "highlight": "transparent"
           },
