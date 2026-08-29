@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T20:32:03+00:00",
+  "updated": "2026-08-29T20:43:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12549,7 +12549,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Senegal",
       "away": "Angola",
-      "score": null,
+      "score": "84-82",
       "date": "2026-08-29",
       "time": "18:30",
       "utc": "2026-08-29T18:30:00+00:00",
@@ -17127,6 +17127,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Senegal",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 680,
+            "against": 564,
+            "diff": 116,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mali",
             "played": 8,
             "win": 6,
@@ -17136,30 +17148,18 @@
             "against": 605,
             "diff": 57,
             "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Senegal",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 596,
-            "against": 482,
-            "diff": 114,
-            "points": 12,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Angola",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 608,
-            "against": 503,
-            "diff": 105,
-            "points": 12,
+            "loss": 3,
+            "for": 690,
+            "against": 587,
+            "diff": 103,
+            "points": 13,
             "highlight": "transparent"
           },
           {
