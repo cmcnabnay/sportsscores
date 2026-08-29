@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T03:15:03+00:00",
+  "updated": "2026-08-29T04:53:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12198,7 +12198,7 @@
       "time": "18:00",
       "utc": "2026-08-28T08:00:00+00:00",
       "venue": "4 Pines Park",
-      "attendance": null
+      "attendance": "13597"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -12259,12 +12259,12 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "44-28",
       "date": "2026-08-28",
       "time": "19:30",
       "utc": "2026-08-29T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "32343"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -12286,7 +12286,7 @@
       "time": "20:00",
       "utc": "2026-08-28T10:00:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
+      "attendance": "19979"
     },
     {
       "league": "super-league-2026",
@@ -12402,7 +12402,7 @@
       "league": "npc-2026",
       "home": "Taranaki",
       "away": "Canterbury",
-      "score": null,
+      "score": "40-26",
       "date": "2026-08-29",
       "time": "14:05",
       "utc": "2026-08-29T02:05:00+00:00",
@@ -19375,6 +19375,18 @@
             "highlight": null
           },
           {
+            "team": "Winnipeg Blue Bombers",
+            "played": 11,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 300,
+            "against": 314,
+            "diff": null,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "BC Lions",
             "played": 10,
             "win": 5,
@@ -19382,18 +19394,6 @@
             "loss": 5,
             "for": 274,
             "against": 267,
-            "diff": null,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Winnipeg Blue Bombers",
-            "played": 10,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 256,
-            "against": 286,
             "diff": null,
             "points": 10,
             "highlight": null
@@ -19417,12 +19417,12 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 10,
+            "played": 11,
             "win": 9,
             "draw": null,
-            "loss": 1,
-            "for": 367,
-            "against": 263,
+            "loss": 2,
+            "for": 395,
+            "against": 307,
             "diff": null,
             "points": 18,
             "highlight": null
@@ -21430,9 +21430,9 @@
       },
       {
         "team": "Manly Warringah Sea Eagles",
-        "games": 11,
-        "total": 176071,
-        "average": 16006
+        "games": 12,
+        "total": 189668,
+        "average": 15806
       },
       {
         "team": "Melbourne Storm",
@@ -21466,9 +21466,9 @@
       },
       {
         "team": "Penrith Panthers",
-        "games": 9,
-        "total": 144985,
-        "average": 16109
+        "games": 10,
+        "total": 164964,
+        "average": 16496
       },
       {
         "team": "South Sydney Rabbitohs",
