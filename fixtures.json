@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T18:02:03+00:00",
+  "updated": "2026-08-29T18:13:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12468,12 +12468,12 @@
       "league": "fiba-wcq-africa-2027",
       "home": "DR Congo",
       "away": "Mali",
-      "score": null,
+      "score": "76-101",
       "date": "2026-08-29",
       "time": "15:30",
       "utc": "2026-08-29T15:30:00+00:00",
       "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
+      "attendance": "500"
     },
     {
       "league": "cfl-2026",
@@ -17127,6 +17127,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Mali",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 662,
+            "against": 605,
+            "diff": 57,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Senegal",
             "played": 7,
             "win": 5,
@@ -17136,7 +17148,7 @@
             "against": 482,
             "diff": 114,
             "points": 12,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Angola",
@@ -17147,18 +17159,6 @@
             "for": 608,
             "against": 503,
             "diff": 105,
-            "points": 12,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Mali",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 561,
-            "against": 529,
-            "diff": 32,
             "points": 12,
             "highlight": "transparent"
           },
@@ -17176,14 +17176,14 @@
           },
           {
             "team": "DR Congo",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 466,
-            "against": 595,
-            "diff": -129,
-            "points": 9,
+            "loss": 6,
+            "for": 542,
+            "against": 696,
+            "diff": -154,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
