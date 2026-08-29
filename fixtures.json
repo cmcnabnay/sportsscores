@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T14:27:03+00:00",
+  "updated": "2026-08-29T14:38:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12380,12 +12380,12 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Ivory Coast",
       "away": "Egypt",
-      "score": null,
+      "score": "72-66",
       "date": "2026-08-29",
       "time": "12:30",
       "utc": "2026-08-29T12:30:00+00:00",
       "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
+      "attendance": "110"
     },
     {
       "league": "cfl-2026",
@@ -17090,14 +17090,14 @@
         "rows": [
           {
             "team": "Ivory Coast",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 652,
-            "against": 528,
-            "diff": 124,
-            "points": 13,
+            "for": 724,
+            "against": 594,
+            "diff": 130,
+            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
@@ -17138,14 +17138,14 @@
           },
           {
             "team": "Egypt",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 542,
-            "against": 509,
-            "diff": 33,
-            "points": 11,
+            "loss": 4,
+            "for": 608,
+            "against": 581,
+            "diff": 27,
+            "points": 12,
             "highlight": "transparent"
           },
           {
