@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T06:57:03+00:00",
+  "updated": "2026-08-29T07:08:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12424,7 +12424,7 @@
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "South Sydney Rabbitohs",
-      "score": null,
+      "score": "22–42",
       "date": "2026-08-29",
       "time": "15:00",
       "utc": "2026-08-29T05:00:00+00:00",
@@ -19531,6 +19531,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "South Sydney Rabbitohs (Q)",
+            "played": 23,
+            "win": 13,
+            "draw": 0,
+            "loss": 10,
+            "for": 644,
+            "against": 561,
+            "diff": 83,
+            "points": 32,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newcastle Knights (Q)",
             "played": 23,
             "win": 14,
@@ -19540,18 +19552,6 @@
             "against": 545,
             "diff": 56,
             "points": 32,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "South Sydney Rabbitohs",
-            "played": 22,
-            "win": 12,
-            "draw": 0,
-            "loss": 10,
-            "for": 602,
-            "against": 539,
-            "diff": 63,
-            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -19652,13 +19652,13 @@
           },
           {
             "team": "Gold Coast Titans (X)",
-            "played": 22,
+            "played": 23,
             "win": 6,
             "draw": 0,
-            "loss": 16,
-            "for": 435,
-            "against": 597,
-            "diff": -162,
+            "loss": 17,
+            "for": 457,
+            "against": 639,
+            "diff": -182,
             "points": 18,
             "highlight": "transparent"
           },
