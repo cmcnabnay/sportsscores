@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T01:00:03+00:00",
+  "updated": "2026-08-29T01:10:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20858,6 +20858,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Unión",
+            "played": 7,
+            "win": 3,
+            "draw": 1,
+            "loss": 3,
+            "for": 12,
+            "against": 10,
+            "diff": 2,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newell's Old Boys",
             "played": 6,
             "win": 3,
@@ -20891,7 +20903,7 @@
             "against": 5,
             "diff": 1,
             "points": 7,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Lanús",
@@ -20902,18 +20914,6 @@
             "for": 7,
             "against": 7,
             "diff": 0,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Unión",
-            "played": 6,
-            "win": 2,
-            "draw": 1,
-            "loss": 3,
-            "for": 8,
-            "against": 9,
-            "diff": -1,
             "points": 7,
             "highlight": "transparent"
           },
@@ -20996,13 +20996,13 @@
           },
           {
             "team": "Sarmiento (J)",
-            "played": 6,
+            "played": 7,
             "win": 4,
             "draw": 0,
-            "loss": 2,
-            "for": 12,
-            "against": 8,
-            "diff": 4,
+            "loss": 3,
+            "for": 13,
+            "against": 12,
+            "diff": 1,
             "points": 12,
             "highlight": "#BBF3BB"
           },
