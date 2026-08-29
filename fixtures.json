@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T16:58:03+00:00",
+  "updated": "2026-08-29T17:09:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12399,6 +12399,17 @@
       "attendance": null
     },
     {
+      "league": "currie-cup-2026",
+      "home": "Pumas",
+      "away": "Cheetahs",
+      "score": "52-26",
+      "date": "2026-08-29",
+      "time": "14:00",
+      "utc": "2026-08-29T12:00:00+00:00",
+      "venue": "Mbombela Stadium, Mbombela",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Taranaki",
       "away": "Canterbury",
@@ -12574,17 +12585,6 @@
       "time": "20:00",
       "utc": "2026-08-29T19:00:00+00:00",
       "venue": "Stade Ernest Wallon",
-      "attendance": null
-    },
-    {
-      "league": "currie-cup-2026",
-      "home": "Pumas",
-      "away": "Cheetahs",
-      "score": null,
-      "date": "2026-08-29",
-      "time": null,
-      "utc": null,
-      "venue": "Mbombela Stadium, Mbombela",
       "attendance": null
     },
     {
@@ -20150,6 +20150,18 @@
       "Premier Division": {
         "rows": [
           {
+            "team": "Cheetahs",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 245,
+            "against": 226,
+            "diff": 19,
+            "points": 27,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Griquas",
             "played": 6,
             "win": 5,
@@ -20162,15 +20174,15 @@
             "highlight": "#E8FFD8"
           },
           {
-            "team": "Cheetahs",
-            "played": 6,
-            "win": 5,
+            "team": "Pumas",
+            "played": 7,
+            "win": 4,
             "draw": 0,
-            "loss": 1,
-            "for": 219,
-            "against": 174,
-            "diff": 45,
-            "points": 26,
+            "loss": 3,
+            "for": 201,
+            "against": 195,
+            "diff": 6,
+            "points": 22,
             "highlight": "#E8FFD8"
           },
           {
@@ -20195,18 +20207,6 @@
             "against": 214,
             "diff": -24,
             "points": 18,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Pumas",
-            "played": 6,
-            "win": 3,
-            "draw": 0,
-            "loss": 3,
-            "for": 149,
-            "against": 169,
-            "diff": -20,
-            "points": 17,
             "highlight": "transparent"
           },
           {
