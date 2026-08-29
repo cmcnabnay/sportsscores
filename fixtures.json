@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T19:39:04+00:00",
+  "updated": "2026-08-29T19:50:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20824,6 +20824,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Vélez Sarsfield",
+            "played": 7,
+            "win": 3,
+            "draw": 4,
+            "loss": 0,
+            "for": 10,
+            "against": 6,
+            "diff": 4,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Instituto",
             "played": 6,
             "win": 4,
@@ -20841,18 +20853,6 @@
             "win": 4,
             "draw": 0,
             "loss": 2,
-            "for": 9,
-            "against": 5,
-            "diff": 4,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Vélez Sarsfield",
-            "played": 6,
-            "win": 3,
-            "draw": 3,
-            "loss": 0,
             "for": 9,
             "against": 5,
             "diff": 4,
@@ -20920,6 +20920,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Deportivo Riestra",
+            "played": 7,
+            "win": 2,
+            "draw": 2,
+            "loss": 3,
+            "for": 7,
+            "against": 6,
+            "diff": 1,
+            "points": 8,
+            "highlight": "transparent"
+          },
+          {
             "team": "Platense",
             "played": 6,
             "win": 2,
@@ -20929,18 +20941,6 @@
             "against": 10,
             "diff": -3,
             "points": 8,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Deportivo Riestra",
-            "played": 6,
-            "win": 2,
-            "draw": 1,
-            "loss": 3,
-            "for": 6,
-            "against": 5,
-            "diff": 1,
-            "points": 7,
             "highlight": "transparent"
           },
           {
