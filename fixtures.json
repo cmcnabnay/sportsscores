@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T02:15:03+00:00",
+  "updated": "2026-08-29T02:26:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20882,6 +20882,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Boca Juniors",
+            "played": 7,
+            "win": 2,
+            "draw": 4,
+            "loss": 1,
+            "for": 7,
+            "against": 8,
+            "diff": -1,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Platense",
             "played": 6,
             "win": 2,
@@ -20891,7 +20903,7 @@
             "against": 10,
             "diff": -3,
             "points": 8,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Deportivo Riestra",
@@ -20907,25 +20919,13 @@
           },
           {
             "team": "Lanús",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": 1,
-            "loss": 3,
+            "loss": 4,
             "for": 7,
-            "against": 7,
-            "diff": 0,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 6,
-            "win": 1,
-            "draw": 4,
-            "loss": 1,
-            "for": 6,
             "against": 8,
-            "diff": -2,
+            "diff": -1,
             "points": 7,
             "highlight": "transparent"
           },
