@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T20:54:03+00:00",
+  "updated": "2026-08-30T21:05:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21218,6 +21218,18 @@
       "Table": {
         "rows": [
           {
+            "team": "Nizhny Novgorod",
+            "played": 9,
+            "win": 7,
+            "draw": 1,
+            "loss": 1,
+            "for": 27,
+            "against": 13,
+            "diff": 14,
+            "points": 22,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Veles Moscow",
             "played": 9,
             "win": 7,
@@ -21230,26 +21242,26 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Nizhny Novgorod",
-            "played": 8,
-            "win": 7,
-            "draw": 0,
-            "loss": 1,
-            "for": 25,
+            "team": "Sochi",
+            "played": 9,
+            "win": 6,
+            "draw": 1,
+            "loss": 2,
+            "for": 18,
             "against": 11,
-            "diff": 14,
-            "points": 21,
-            "highlight": "#BBF3BB"
+            "diff": 7,
+            "points": 19,
+            "highlight": "#CCF9CC"
           },
           {
-            "team": "Sochi",
+            "team": "Torpedo Moscow",
             "played": 8,
             "win": 5,
             "draw": 1,
             "loss": 2,
-            "for": 16,
-            "against": 10,
-            "diff": 6,
+            "for": 15,
+            "against": 5,
+            "diff": 10,
             "points": 16,
             "highlight": "#CCF9CC"
           },
@@ -21263,7 +21275,7 @@
             "against": 4,
             "diff": 10,
             "points": 15,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Ufa",
@@ -21278,27 +21290,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Torpedo Moscow",
-            "played": 7,
-            "win": 4,
-            "draw": 1,
-            "loss": 2,
-            "for": 13,
-            "against": 5,
-            "diff": 8,
-            "points": 13,
-            "highlight": "transparent"
-          },
-          {
             "team": "Shinnik Yaroslavl",
-            "played": 7,
+            "played": 8,
             "win": 3,
-            "draw": 3,
+            "draw": 4,
             "loss": 1,
             "for": 12,
             "against": 9,
             "diff": 3,
-            "points": 12,
+            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -21338,6 +21338,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Yenisey Krasnoyarsk",
+            "played": 8,
+            "win": 2,
+            "draw": 4,
+            "loss": 2,
+            "for": 11,
+            "against": 12,
+            "diff": -1,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 9,
             "win": 3,
@@ -21350,39 +21362,27 @@
             "highlight": "transparent"
           },
           {
-            "team": "Yenisey Krasnoyarsk",
-            "played": 7,
-            "win": 2,
-            "draw": 3,
-            "loss": 2,
-            "for": 11,
-            "against": 12,
-            "diff": -1,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
             "team": "Chelyabinsk",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": 1,
-            "loss": 4,
-            "for": 8,
-            "against": 13,
-            "diff": -5,
+            "loss": 5,
+            "for": 9,
+            "against": 15,
+            "diff": -6,
             "points": 7,
             "highlight": "transparent"
           },
           {
             "team": "Volga Ulyanovsk",
-            "played": 7,
+            "played": 8,
             "win": 2,
-            "draw": 0,
+            "draw": 1,
             "loss": 5,
-            "for": 7,
-            "against": 12,
+            "for": 9,
+            "against": 14,
             "diff": -5,
-            "points": 6,
+            "points": 7,
             "highlight": "transparent"
           },
           {
@@ -21423,13 +21423,13 @@
           },
           {
             "team": "SKA-Khabarovsk",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": 0,
-            "loss": 6,
+            "loss": 7,
             "for": 6,
-            "against": 15,
-            "diff": -9,
+            "against": 17,
+            "diff": -11,
             "points": 3,
             "highlight": "#FFBBBB"
           }
