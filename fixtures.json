@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T20:00:01+00:00",
+  "updated": "2026-08-30T20:10:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12848,7 +12848,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Slovenia",
       "away": "Hungary",
-      "score": null,
+      "score": "92-77",
       "date": "2026-08-30",
       "time": "20:00",
       "utc": "2026-08-30T18:00:00+00:00",
@@ -17192,6 +17192,18 @@
       "Second Round · Best third placed team": {
         "rows": [
           {
+            "team": "Guinea",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 677,
+            "against": 595,
+            "diff": 82,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mali",
             "played": 8,
             "win": 6,
@@ -17201,18 +17213,6 @@
             "against": 605,
             "diff": 57,
             "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Tunisia",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 570,
-            "against": 550,
-            "diff": 20,
-            "points": 13,
             "highlight": "transparent"
           }
         ],
@@ -19166,6 +19166,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Slovenia",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 672,
+            "against": 670,
+            "diff": 2,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Hungary",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 650,
+            "against": 653,
+            "diff": -3,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Sweden",
             "played": 8,
             "win": 4,
@@ -19175,18 +19199,6 @@
             "against": 668,
             "diff": -19,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Hungary",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 573,
-            "against": 561,
-            "diff": 12,
-            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -19199,18 +19211,6 @@
             "against": 664,
             "diff": -21,
             "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Slovenia",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 580,
-            "against": 593,
-            "diff": -13,
-            "points": 10,
             "highlight": "transparent"
           }
         ],
