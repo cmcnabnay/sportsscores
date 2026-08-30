@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T06:05:03+00:00",
+  "updated": "2026-08-30T06:15:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19497,6 +19497,18 @@
       "Ladder": {
         "rows": [
           {
+            "team": "New Zealand Warriors (Q)",
+            "played": 23,
+            "win": 17,
+            "draw": 0,
+            "loss": 6,
+            "for": 697,
+            "against": 388,
+            "diff": 309,
+            "points": 40,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Penrith Panthers (Q)",
             "played": 23,
             "win": 17,
@@ -19506,18 +19518,6 @@
             "against": 337,
             "diff": 308,
             "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "New Zealand Warriors (Q)",
-            "played": 22,
-            "win": 16,
-            "draw": 0,
-            "loss": 6,
-            "for": 651,
-            "against": 356,
-            "diff": 295,
-            "points": 38,
             "highlight": "#BBF3BB"
           },
           {
@@ -19570,13 +19570,13 @@
           },
           {
             "team": "Newcastle Knights (Q)",
-            "played": 23,
+            "played": 24,
             "win": 14,
             "draw": 0,
-            "loss": 9,
-            "for": 601,
-            "against": 545,
-            "diff": 56,
+            "loss": 10,
+            "for": 633,
+            "against": 591,
+            "diff": 42,
             "points": 32,
             "highlight": "#BBF3BB"
           },
