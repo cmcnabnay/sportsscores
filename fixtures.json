@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T02:08:03+00:00",
+  "updated": "2026-08-30T02:19:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12479,7 +12479,7 @@
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Toronto Argonauts",
-      "score": null,
+      "score": "28-24",
       "date": "2026-08-29",
       "time": "17:00",
       "utc": "2026-08-29T23:00:00+00:00",
@@ -19390,14 +19390,14 @@
           },
           {
             "team": "Saskatchewan Roughriders",
-            "played": 10,
-            "win": 6,
+            "played": 11,
+            "win": 7,
             "draw": null,
             "loss": 4,
-            "for": 309,
-            "against": 271,
+            "for": 337,
+            "against": 295,
             "diff": null,
-            "points": 12,
+            "points": 14,
             "highlight": null
           },
           {
@@ -19455,12 +19455,12 @@
           },
           {
             "team": "Toronto Argonauts",
-            "played": 10,
+            "played": 11,
             "win": 5,
             "draw": null,
-            "loss": 5,
-            "for": 304,
-            "against": 311,
+            "loss": 6,
+            "for": 328,
+            "against": 339,
             "diff": null,
             "points": 10,
             "highlight": null
