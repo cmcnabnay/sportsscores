@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T19:16:03+00:00",
+  "updated": "2026-08-30T19:27:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12776,7 +12776,7 @@
       "time": "17:30",
       "utc": "2026-08-30T15:30:00+00:00",
       "venue": "Avicii Arena, Stockholm",
-      "attendance": null
+      "attendance": "14750"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -12831,7 +12831,7 @@
       "time": "19:00",
       "utc": "2026-08-30T16:00:00+00:00",
       "venue": "Unibet Arena, Tallinn",
-      "attendance": null
+      "attendance": "7068"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -19159,9 +19159,9 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 549,
-            "against": 567,
-            "diff": -18,
+            "for": 645,
+            "against": 634,
+            "diff": 11,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -19195,9 +19195,9 @@
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 653,
+            "for": 643,
             "against": 664,
-            "diff": -11,
+            "diff": -21,
             "points": 11,
             "highlight": "transparent"
           },
@@ -19207,9 +19207,9 @@
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 676,
-            "against": 660,
-            "diff": 16,
+            "for": 580,
+            "against": 593,
+            "diff": -13,
             "points": 10,
             "highlight": "transparent"
           }
