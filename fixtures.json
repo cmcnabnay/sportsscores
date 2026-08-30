@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T20:10:03+00:00",
+  "updated": "2026-08-30T20:21:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12692,7 +12692,7 @@
       "league": "currie-cup-2026",
       "home": "Boland Cavaliers",
       "away": "Griquas",
-      "score": null,
+      "score": "17-48",
       "date": "2026-08-30",
       "time": "15:00",
       "utc": "2026-08-30T13:00:00+00:00",
@@ -12853,7 +12853,7 @@
       "time": "20:00",
       "utc": "2026-08-30T18:00:00+00:00",
       "venue": "Arena Stožice, Ljubljana",
-      "attendance": null
+      "attendance": "2500"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -20176,6 +20176,18 @@
       "Premier Division": {
         "rows": [
           {
+            "team": "Griquas",
+            "played": 7,
+            "win": 6,
+            "draw": 0,
+            "loss": 1,
+            "for": 271,
+            "against": 143,
+            "diff": 128,
+            "points": 31,
+            "highlight": "#E8FFD8"
+          },
+          {
             "team": "Cheetahs",
             "played": 7,
             "win": 5,
@@ -20185,18 +20197,6 @@
             "against": 226,
             "diff": 19,
             "points": 27,
-            "highlight": "#E8FFD8"
-          },
-          {
-            "team": "Griquas",
-            "played": 6,
-            "win": 5,
-            "draw": 0,
-            "loss": 1,
-            "for": 223,
-            "against": 126,
-            "diff": 97,
-            "points": 26,
             "highlight": "#E8FFD8"
           },
           {
@@ -20237,13 +20237,13 @@
           },
           {
             "team": "Boland Cavaliers",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 0,
-            "loss": 3,
-            "for": 154,
-            "against": 114,
-            "diff": 40,
+            "loss": 4,
+            "for": 171,
+            "against": 162,
+            "diff": 9,
             "points": 16,
             "highlight": "transparent"
           },
