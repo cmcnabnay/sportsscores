@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T02:19:03+00:00",
+  "updated": "2026-08-30T02:30:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20968,6 +20968,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Central Córdoba (SdE)",
+            "played": 7,
+            "win": 2,
+            "draw": 1,
+            "loss": 4,
+            "for": 4,
+            "against": 7,
+            "diff": -3,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
             "team": "Estudiantes (LP)",
             "played": 6,
             "win": 2,
@@ -20980,27 +20992,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Central Córdoba (SdE)",
-            "played": 6,
-            "win": 2,
-            "draw": 0,
-            "loss": 4,
-            "for": 4,
-            "against": 7,
-            "diff": -3,
-            "points": 6,
-            "highlight": "transparent"
-          },
-          {
             "team": "Talleres (C)",
-            "played": 6,
+            "played": 7,
             "win": 1,
-            "draw": 1,
+            "draw": 2,
             "loss": 4,
             "for": 8,
             "against": 12,
             "diff": -4,
-            "points": 4,
+            "points": 5,
             "highlight": "transparent"
           }
         ],
@@ -21045,6 +21045,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Belgrano",
+            "played": 7,
+            "win": 3,
+            "draw": 2,
+            "loss": 2,
+            "for": 7,
+            "against": 4,
+            "diff": 3,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tigre",
             "played": 6,
             "win": 3,
@@ -21069,27 +21081,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Belgrano",
-            "played": 6,
-            "win": 3,
-            "draw": 1,
-            "loss": 2,
-            "for": 7,
-            "against": 4,
-            "diff": 3,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Atlético Tucumán",
-            "played": 6,
+            "played": 7,
             "win": 2,
-            "draw": 3,
+            "draw": 4,
             "loss": 1,
             "for": 4,
             "against": 2,
             "diff": 2,
-            "points": 9,
+            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
