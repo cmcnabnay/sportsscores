@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T17:28:03+00:00",
+  "updated": "2026-08-30T17:39:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12716,7 +12716,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Angola",
       "away": "Ivory Coast",
-      "score": null,
+      "score": "88-69",
       "date": "2026-08-30",
       "time": "15:30",
       "utc": "2026-08-30T15:30:00+00:00",
@@ -12727,7 +12727,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Guinea",
       "away": "Cameroon",
-      "score": null,
+      "score": "90-67",
       "date": "2026-08-30",
       "time": "16:00",
       "utc": "2026-08-30T15:00:00+00:00",
@@ -17116,13 +17116,25 @@
         "rows": [
           {
             "team": "Ivory Coast",
-            "played": 8,
+            "played": 9,
             "win": 7,
             "draw": null,
-            "loss": 1,
-            "for": 724,
-            "against": 594,
-            "diff": 130,
+            "loss": 2,
+            "for": 793,
+            "against": 682,
+            "diff": 111,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Angola",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 778,
+            "against": 656,
+            "diff": 122,
             "points": 15,
             "highlight": "#BBF3BB"
           },
@@ -17136,7 +17148,7 @@
             "against": 564,
             "diff": 116,
             "points": 14,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Mali",
@@ -17148,18 +17160,6 @@
             "against": 605,
             "diff": 57,
             "points": 14,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Angola",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 690,
-            "against": 587,
-            "diff": 103,
-            "points": 13,
             "highlight": "transparent"
           },
           {
