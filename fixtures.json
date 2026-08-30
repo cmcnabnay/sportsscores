@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T06:26:03+00:00",
+  "updated": "2026-08-30T14:45:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -11966,7 +11966,7 @@
       "date": "2026-08-27",
       "time": "19:10",
       "utc": "2026-08-27T23:10:00+00:00",
-      "venue": "Centro de Deportes Colectivos, Santiago, Chile",
+      "venue": "Centro de Deportes Colectivos, Santiago",
       "attendance": null
     },
     {
@@ -12043,7 +12043,7 @@
       "date": "2026-08-27",
       "time": "20:10",
       "utc": "2026-08-27T23:10:00+00:00",
-      "venue": "Nilson Nelson Gymnasium, Brasília, Brazil",
+      "venue": "Nilson Nelson Gymnasium, Brasília",
       "attendance": "7087"
     },
     {
@@ -12054,7 +12054,7 @@
       "date": "2026-08-27",
       "time": "20:10",
       "utc": "2026-08-28T02:10:00+00:00",
-      "venue": "Gimnasio Marcelino González, Zacatecas, Mexico",
+      "venue": "Gimnasio Marcelino González, Zacatecas",
       "attendance": "2560"
     },
     {
@@ -12484,7 +12484,7 @@
       "time": "17:00",
       "utc": "2026-08-29T23:00:00+00:00",
       "venue": "Mosaic Stadium",
-      "attendance": null
+      "attendance": "33350"
     },
     {
       "league": "npc-2026",
@@ -12604,7 +12604,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Egypt",
       "away": "DR Congo",
-      "score": null,
+      "score": "75-77",
       "date": "2026-08-30",
       "time": "12:30",
       "utc": "2026-08-30T12:30:00+00:00",
@@ -12615,7 +12615,7 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Nigeria",
       "away": "Cape Verde",
-      "score": null,
+      "score": "100-84",
       "date": "2026-08-30",
       "time": "13:00",
       "utc": "2026-08-30T12:00:00+00:00",
@@ -12637,12 +12637,12 @@
       "league": "fiba-wcq-asia-2027",
       "home": "New Zealand",
       "away": "Syria",
-      "score": null,
+      "score": "126-74",
       "date": "2026-08-30",
       "time": "14:00",
       "utc": "2026-08-30T06:00:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
+      "attendance": "1750"
     },
     {
       "league": "npc-2026",
@@ -12659,7 +12659,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Croatia",
-      "score": null,
+      "score": "99-101",
       "date": "2026-08-30",
       "time": "14:30",
       "utc": "2026-08-30T12:30:00+00:00",
@@ -12738,7 +12738,7 @@
       "league": "nrl-2026",
       "home": "Parramatta Eels",
       "away": "Cronulla-Sutherland Sharks",
-      "score": null,
+      "score": "38–18",
       "date": "2026-08-30",
       "time": "16:05",
       "utc": "2026-08-30T06:05:00+00:00",
@@ -12749,18 +12749,18 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Australia",
       "away": "Jordan",
-      "score": null,
+      "score": "126-93",
       "date": "2026-08-30",
       "time": "17:00",
       "utc": "2026-08-30T09:00:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": null
+      "attendance": "9653"
     },
     {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Tasman",
-      "score": null,
+      "score": "20-10",
       "date": "2026-08-30",
       "time": "17:05",
       "utc": "2026-08-30T05:05:00+00:00",
@@ -12837,12 +12837,12 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Philippines",
       "away": "Iran",
-      "score": null,
+      "score": "68-56",
       "date": "2026-08-30",
       "time": "20:00",
       "utc": "2026-08-30T12:00:00+00:00",
-      "venue": "SM Mall of Asia Arena, Pasay",
-      "attendance": null
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "attendance": "18308"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -17062,6 +17062,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Nigeria",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 719,
+            "against": 692,
+            "diff": 27,
+            "points": 14,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Tunisia",
             "played": 8,
             "win": 5,
@@ -17071,7 +17083,7 @@
             "against": 550,
             "diff": 20,
             "points": 13,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Guinea",
@@ -17086,27 +17098,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Nigeria",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 619,
-            "against": 608,
-            "diff": 11,
-            "points": 12,
-            "highlight": "transparent"
-          },
-          {
             "team": "Cape Verde",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": null,
-            "loss": 5,
-            "for": 596,
-            "against": 632,
-            "diff": -36,
-            "points": 11,
+            "loss": 6,
+            "for": 680,
+            "against": 732,
+            "diff": -52,
+            "points": 12,
             "highlight": "transparent"
           }
         ],
@@ -17164,26 +17164,26 @@
           },
           {
             "team": "Egypt",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 608,
-            "against": 581,
-            "diff": 27,
-            "points": 12,
+            "loss": 5,
+            "for": 683,
+            "against": 658,
+            "diff": 25,
+            "points": 13,
             "highlight": "transparent"
           },
           {
             "team": "DR Congo",
-            "played": 8,
-            "win": 2,
+            "played": 9,
+            "win": 3,
             "draw": null,
             "loss": 6,
-            "for": 542,
-            "against": 696,
-            "diff": -154,
-            "points": 10,
+            "for": 619,
+            "against": 771,
+            "diff": -152,
+            "points": 12,
             "highlight": "transparent"
           }
         ],
@@ -17992,74 +17992,74 @@
         "rows": [
           {
             "team": "Australia",
-            "played": 7,
-            "win": 7,
+            "played": 8,
+            "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 688,
-            "against": 467,
-            "diff": 221,
+            "for": 814,
+            "against": 560,
+            "diff": 254,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "New Zealand",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 778,
+            "against": 638,
+            "diff": 140,
             "points": 14,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Iran",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 543,
-            "against": 474,
-            "diff": 69,
-            "points": 12,
+            "loss": 3,
+            "for": 599,
+            "against": 542,
+            "diff": 57,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Jordan",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 591,
-            "against": 442,
-            "diff": 149,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "New Zealand",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 652,
-            "against": 564,
-            "diff": 88,
-            "points": 12,
-            "highlight": "#BBF3BB"
+            "loss": 3,
+            "for": 684,
+            "against": 568,
+            "diff": 116,
+            "points": 13,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Philippines",
-            "played": 7,
-            "win": 3,
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 547,
-            "against": 558,
-            "diff": -11,
-            "points": 10,
+            "for": 615,
+            "against": 614,
+            "diff": 1,
+            "points": 12,
             "highlight": "transparent"
           },
           {
             "team": "Syria",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 460,
-            "against": 593,
-            "diff": -133,
-            "points": 9,
+            "loss": 6,
+            "for": 534,
+            "against": 719,
+            "diff": -185,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
@@ -18125,7 +18125,7 @@
             "against": 552,
             "diff": -13,
             "points": 10,
-            "highlight": "transparent"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "South Korea",
@@ -19065,6 +19065,18 @@
       "Qualifiers · Second Round · Group K": {
         "rows": [
           {
+            "team": "Croatia",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 809,
+            "against": 614,
+            "diff": 195,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Poland",
             "played": 7,
             "win": 7,
@@ -19074,18 +19086,6 @@
             "against": 562,
             "diff": 110,
             "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Croatia",
-            "played": 7,
-            "win": 6,
-            "draw": null,
-            "loss": 1,
-            "for": 708,
-            "against": 515,
-            "diff": 193,
-            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -19101,6 +19101,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Netherlands",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 672,
+            "against": 686,
+            "diff": -14,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
             "team": "Latvia",
             "played": 7,
             "win": 3,
@@ -19110,18 +19122,6 @@
             "against": 580,
             "diff": 2,
             "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Netherlands",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 573,
-            "against": 585,
-            "diff": -12,
-            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -19546,13 +19546,13 @@
           },
           {
             "team": "Cronulla-Sutherland Sharks (Q)",
-            "played": 22,
+            "played": 23,
             "win": 14,
             "draw": 0,
-            "loss": 8,
-            "for": 634,
-            "against": 461,
-            "diff": 173,
+            "loss": 9,
+            "for": 652,
+            "against": 499,
+            "diff": 153,
             "points": 34,
             "highlight": "#BBF3BB"
           },
@@ -19642,14 +19642,14 @@
           },
           {
             "team": "Parramatta Eels (X)",
-            "played": 22,
-            "win": 8,
+            "played": 23,
+            "win": 9,
             "draw": 0,
             "loss": 14,
-            "for": 437,
-            "against": 636,
-            "diff": -199,
-            "points": 22,
+            "for": 475,
+            "against": 654,
+            "diff": -179,
+            "points": 24,
             "highlight": "transparent"
           },
           {
@@ -20291,6 +20291,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Northland (RS)",
+            "played": 5,
+            "win": 4,
+            "draw": 0,
+            "loss": 1,
+            "for": 169,
+            "against": 70,
+            "diff": 99,
+            "points": 21,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Otago",
             "played": 5,
             "win": 4,
@@ -20339,26 +20351,14 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Northland (RS)",
-            "played": 4,
-            "win": 3,
-            "draw": 0,
-            "loss": 1,
-            "for": 149,
-            "against": 60,
-            "diff": 89,
-            "points": 17,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Tasman",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": 0,
-            "loss": 1,
-            "for": 146,
-            "against": 131,
-            "diff": 15,
+            "loss": 2,
+            "for": 156,
+            "against": 151,
+            "diff": 5,
             "points": 15,
             "highlight": "#CCF9CC"
           },
@@ -20423,27 +20423,27 @@
             "highlight": "transparent"
           },
           {
-            "team": "Wellington",
-            "played": 4,
-            "win": 0,
+            "team": "Counties Manukau",
+            "played": 5,
+            "win": 1,
             "draw": 0,
             "loss": 4,
-            "for": 93,
-            "against": 194,
-            "diff": -101,
-            "points": 3,
+            "for": 117,
+            "against": 209,
+            "diff": -92,
+            "points": 6,
             "highlight": "transparent"
           },
           {
-            "team": "Counties Manukau",
-            "played": 4,
+            "team": "Wellington",
+            "played": 5,
             "win": 0,
             "draw": 0,
-            "loss": 4,
-            "for": 71,
-            "against": 174,
-            "diff": -103,
-            "points": 1,
+            "loss": 5,
+            "for": 128,
+            "against": 240,
+            "diff": -112,
+            "points": 4,
             "highlight": "transparent"
           }
         ],
