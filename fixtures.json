@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T16:44:22+00:00",
+  "updated": "2026-08-30T16:55:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17039,14 +17039,14 @@
         "rows": [
           {
             "team": "Cameroon",
-            "played": 8,
+            "played": 9,
             "win": 7,
             "draw": null,
-            "loss": 1,
-            "for": 621,
-            "against": 554,
-            "diff": 67,
-            "points": 15,
+            "loss": 2,
+            "for": 688,
+            "against": 644,
+            "diff": 44,
+            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -17062,6 +17062,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Guinea",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 677,
+            "against": 595,
+            "diff": 82,
+            "points": 15,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Nigeria",
             "played": 9,
             "win": 5,
@@ -17071,7 +17083,7 @@
             "against": 692,
             "diff": 27,
             "points": 14,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Tunisia",
@@ -17082,18 +17094,6 @@
             "for": 570,
             "against": 550,
             "diff": 20,
-            "points": 13,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Guinea",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 587,
-            "against": 528,
-            "diff": 59,
             "points": 13,
             "highlight": "transparent"
           },
@@ -19065,6 +19065,18 @@
       "Qualifiers · Second Round · Group K": {
         "rows": [
           {
+            "team": "Germany",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 749,
+            "against": 657,
+            "diff": 92,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Croatia",
             "played": 8,
             "win": 7,
@@ -19078,26 +19090,14 @@
           },
           {
             "team": "Poland",
-            "played": 7,
+            "played": 8,
             "win": 7,
             "draw": null,
-            "loss": 0,
-            "for": 672,
-            "against": 562,
-            "diff": 110,
-            "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Germany",
-            "played": 7,
-            "win": 6,
-            "draw": null,
             "loss": 1,
-            "for": 653,
-            "against": 563,
-            "diff": 90,
-            "points": 13,
+            "for": 766,
+            "against": 658,
+            "diff": 108,
+            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
