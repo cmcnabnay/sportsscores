@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T18:22:03+00:00",
+  "updated": "2026-08-30T18:33:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12815,7 +12815,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Israel",
-      "score": null,
+      "score": "85-70",
       "date": "2026-08-30",
       "time": "19:00",
       "utc": "2026-08-30T16:00:00+00:00",
@@ -12826,7 +12826,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Estonia",
       "away": "Finland",
-      "score": null,
+      "score": "67-96",
       "date": "2026-08-30",
       "time": "19:00",
       "utc": "2026-08-30T16:00:00+00:00",
@@ -19065,18 +19065,6 @@
       "Qualifiers · Second Round · Group K": {
         "rows": [
           {
-            "team": "Germany",
-            "played": 8,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 749,
-            "against": 657,
-            "diff": 92,
-            "points": 15,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Croatia",
             "played": 8,
             "win": 7,
@@ -19101,6 +19089,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Germany",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 749,
+            "against": 657,
+            "diff": 92,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Latvia",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 667,
+            "against": 650,
+            "diff": 17,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Netherlands",
             "played": 8,
             "win": 2,
@@ -19113,27 +19125,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Latvia",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 582,
-            "against": 580,
-            "diff": 2,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
             "team": "Israel",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 564,
-            "against": 583,
-            "diff": -19,
-            "points": 9,
+            "loss": 6,
+            "for": 634,
+            "against": 668,
+            "diff": -34,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
@@ -19151,6 +19151,18 @@
             "against": 573,
             "diff": 108,
             "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Finland",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 549,
+            "against": 567,
+            "diff": -18,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -19175,30 +19187,18 @@
             "against": 561,
             "diff": 12,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Finland",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 549,
-            "against": 567,
-            "diff": -18,
-            "points": 11,
             "highlight": "transparent"
           },
           {
             "team": "Estonia",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 576,
-            "against": 568,
-            "diff": 8,
-            "points": 10,
+            "loss": 5,
+            "for": 653,
+            "against": 664,
+            "diff": -11,
+            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -19207,9 +19207,9 @@
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 580,
-            "against": 593,
-            "diff": -13,
+            "for": 676,
+            "against": 660,
+            "diff": 16,
             "points": 10,
             "highlight": "transparent"
           }
