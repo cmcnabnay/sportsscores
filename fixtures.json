@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T20:21:03+00:00",
+  "updated": "2026-08-30T20:32:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13307,6 +13307,17 @@
       "attendance": null
     },
     {
+      "league": "currie-cup-2026",
+      "home": "Griquas",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-09-06",
+      "time": "13:00",
+      "utc": "2026-09-06T11:00:00+00:00",
+      "venue": "Griqua Park, Kimberley",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Parramatta Eels",
@@ -13326,6 +13337,17 @@
       "time": "14:05",
       "utc": "2026-09-06T02:05:00+00:00",
       "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
+      "league": "currie-cup-2026",
+      "home": "Cheetahs",
+      "away": "Pumas",
+      "score": null,
+      "date": "2026-09-06",
+      "time": "15:30",
+      "utc": "2026-09-06T13:30:00+00:00",
+      "venue": "Free State Stadium, Bloemfontein",
       "attendance": null
     },
     {
