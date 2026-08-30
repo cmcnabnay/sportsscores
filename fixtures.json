@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T15:50:03+00:00",
+  "updated": "2026-08-30T16:01:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13418,6 +13418,61 @@
     },
     {
       "league": "super-league-2026",
+      "home": "Leeds Rhinos",
+      "away": "Hull F.C.",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "20:00",
+      "utc": "2026-09-11T19:00:00+00:00",
+      "venue": "Headingley Rugby Stadium",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Leigh Leopards",
+      "away": "Wakefield Trinity",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "20:00",
+      "utc": "2026-09-11T19:00:00+00:00",
+      "venue": "Leigh Sports Village",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Toulouse Olympique",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "20:00",
+      "utc": "2026-09-11T19:00:00+00:00",
+      "venue": "Halliwell Jones Stadium",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "St Helens",
+      "away": "Hull KR",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "20:00",
+      "utc": "2026-09-11T19:00:00+00:00",
+      "venue": "BrewDog Stadium",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "Catalans Dragons",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "20:00",
+      "utc": "2026-09-11T19:00:00+00:00",
+      "venue": "Brick Community Stadium",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Castleford Tigers",
       "score": null,
@@ -13429,39 +13484,6 @@
     },
     {
       "league": "super-league-2026",
-      "home": "Leeds Rhinos",
-      "away": "Hull F.C.",
-      "score": null,
-      "date": "2026-09-11",
-      "time": null,
-      "utc": null,
-      "venue": "Headingley Rugby Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Leigh Leopards",
-      "away": "Wakefield Trinity",
-      "score": null,
-      "date": "2026-09-11",
-      "time": null,
-      "utc": null,
-      "venue": "Leigh Sports Village",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Toulouse Olympique",
-      "score": null,
-      "date": "2026-09-11",
-      "time": null,
-      "utc": null,
-      "venue": "Halliwell Jones Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
       "home": "York Knights",
       "away": "Bradford Bulls",
       "score": null,
@@ -13469,28 +13491,6 @@
       "time": null,
       "utc": null,
       "venue": "York Community Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "St Helens",
-      "away": "Hull KR",
-      "score": null,
-      "date": "2026-09-11",
-      "time": null,
-      "utc": null,
-      "venue": "BrewDog Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "Catalans Dragons",
-      "score": null,
-      "date": "2026-09-11",
-      "time": null,
-      "utc": null,
-      "venue": "Brick Community Stadium",
       "attendance": null
     },
     {
