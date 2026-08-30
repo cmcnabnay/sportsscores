@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T17:17:03+00:00",
+  "updated": "2026-08-30T17:28:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12771,7 +12771,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Sweden",
       "away": "France",
-      "score": null,
+      "score": "69-84",
       "date": "2026-08-30",
       "time": "17:30",
       "utc": "2026-08-30T15:30:00+00:00",
@@ -17050,18 +17050,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "South Sudan",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 659,
-            "against": 542,
-            "diff": 117,
-            "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Guinea",
             "played": 9,
             "win": 6,
@@ -17071,6 +17059,18 @@
             "against": 595,
             "diff": 82,
             "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "South Sudan",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 659,
+            "against": 542,
+            "diff": 117,
+            "points": 14,
             "highlight": "#BBF3FF"
           },
           {
@@ -19143,14 +19143,26 @@
         "rows": [
           {
             "team": "France",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 597,
-            "against": 504,
-            "diff": 93,
-            "points": 13,
+            "for": 681,
+            "against": 573,
+            "diff": 108,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sweden",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 649,
+            "against": 668,
+            "diff": -19,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -19162,18 +19174,6 @@
             "for": 573,
             "against": 561,
             "diff": 12,
-            "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Sweden",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 580,
-            "against": 584,
-            "diff": -4,
             "points": 11,
             "highlight": "#BBF3BB"
           },
