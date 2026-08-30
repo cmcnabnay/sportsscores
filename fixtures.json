@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T20:32:03+00:00",
+  "updated": "2026-08-30T20:43:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12782,12 +12782,12 @@
       "league": "fiba-wcq-africa-2027",
       "home": "Mali",
       "away": "Senegal",
-      "score": null,
+      "score": "71-97",
       "date": "2026-08-30",
       "time": "18:30",
       "utc": "2026-08-30T18:30:00+00:00",
       "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": null
+      "attendance": "9500"
     },
     {
       "league": "cfl-2026",
@@ -17137,6 +17137,18 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "Senegal",
+            "played": 9,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 777,
+            "against": 635,
+            "diff": 142,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ivory Coast",
             "played": 9,
             "win": 7,
@@ -17158,30 +17170,18 @@
             "against": 657,
             "diff": 124,
             "points": 15,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Senegal",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 680,
-            "against": 564,
-            "diff": 116,
-            "points": 14,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Mali",
-            "played": 8,
+            "played": 9,
             "win": 6,
             "draw": null,
-            "loss": 2,
-            "for": 662,
-            "against": 605,
-            "diff": 57,
-            "points": 14,
+            "loss": 3,
+            "for": 733,
+            "against": 702,
+            "diff": 31,
+            "points": 15,
             "highlight": "transparent"
           },
           {
@@ -17214,6 +17214,18 @@
       "Second Round · Best third placed team": {
         "rows": [
           {
+            "team": "Angola",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 781,
+            "against": 657,
+            "diff": 124,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Guinea",
             "played": 9,
             "win": 6,
@@ -17223,18 +17235,6 @@
             "against": 595,
             "diff": 82,
             "points": 15,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Mali",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 662,
-            "against": 605,
-            "diff": 57,
-            "points": 14,
             "highlight": "transparent"
           }
         ],
