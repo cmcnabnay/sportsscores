@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T20:49:03+00:00",
+  "updated": "2026-08-31T21:00:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13013,7 +13013,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Montenegro",
       "away": "Ukraine",
-      "score": null,
+      "score": "89-98",
       "date": "2026-08-31",
       "time": "20:30",
       "utc": "2026-08-31T18:30:00+00:00",
@@ -18962,6 +18962,18 @@
       "Qualifiers · Second Round · Group I": {
         "rows": [
           {
+            "team": "Ukraine",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 684,
+            "against": 624,
+            "diff": 60,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Spain",
             "played": 8,
             "win": 5,
@@ -18983,18 +18995,6 @@
             "against": 661,
             "diff": 23,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Ukraine",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 586,
-            "against": 535,
-            "diff": 51,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -19023,14 +19023,14 @@
           },
           {
             "team": "Montenegro",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 485,
-            "against": 535,
-            "diff": -50,
-            "points": 11,
+            "loss": 4,
+            "for": 574,
+            "against": 633,
+            "diff": -59,
+            "points": 12,
             "highlight": "transparent"
           }
         ],
@@ -21307,6 +21307,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Spartak Kostroma",
+            "played": 8,
+            "win": 4,
+            "draw": 3,
+            "loss": 1,
+            "for": 12,
+            "against": 8,
+            "diff": 4,
+            "points": 15,
+            "highlight": "transparent"
+          },
+          {
             "team": "Ufa",
             "played": 8,
             "win": 4,
@@ -21331,18 +21343,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Spartak Kostroma",
-            "played": 7,
-            "win": 3,
-            "draw": 3,
-            "loss": 1,
-            "for": 11,
-            "against": 8,
-            "diff": 3,
-            "points": 12,
-            "highlight": "transparent"
-          },
-          {
             "team": "Arsenal Tula",
             "played": 9,
             "win": 3,
@@ -21356,13 +21356,13 @@
           },
           {
             "team": "Rotor Volgograd",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": 1,
-            "loss": 4,
+            "loss": 5,
             "for": 12,
-            "against": 11,
-            "diff": 1,
+            "against": 12,
+            "diff": 0,
             "points": 10,
             "highlight": "transparent"
           },
