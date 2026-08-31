@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T02:08:03+00:00",
+  "updated": "2026-08-31T02:19:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12793,7 +12793,7 @@
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "BC Lions",
-      "score": null,
+      "score": "24-45",
       "date": "2026-08-30",
       "time": "19:00",
       "utc": "2026-08-30T23:00:00+00:00",
@@ -19423,6 +19423,18 @@
             "highlight": null
           },
           {
+            "team": "BC Lions",
+            "played": 11,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 319,
+            "against": 291,
+            "diff": null,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Winnipeg Blue Bombers",
             "played": 11,
             "win": 6,
@@ -19432,18 +19444,6 @@
             "against": 314,
             "diff": null,
             "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "BC Lions",
-            "played": 10,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 274,
-            "against": 267,
-            "diff": null,
-            "points": 10,
             "highlight": null
           },
           {
@@ -19501,12 +19501,12 @@
           },
           {
             "team": "Ottawa Redblacks",
-            "played": 10,
+            "played": 11,
             "win": 0,
             "draw": null,
-            "loss": 10,
-            "for": 223,
-            "against": 368,
+            "loss": 11,
+            "for": 247,
+            "against": 403,
             "diff": null,
             "points": 0,
             "highlight": null
