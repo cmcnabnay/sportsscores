@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T21:22:03+00:00",
+  "updated": "2026-08-31T21:33:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12947,7 +12947,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Iceland",
       "away": "Turkey",
-      "score": null,
+      "score": "73-110",
       "date": "2026-08-31",
       "time": "19:30",
       "utc": "2026-08-31T19:30:00+00:00",
@@ -18060,18 +18060,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Iran",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 599,
-            "against": 542,
-            "diff": 57,
-            "points": 13,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Jordan",
             "played": 8,
             "win": 5,
@@ -18080,6 +18068,18 @@
             "for": 684,
             "against": 568,
             "diff": 116,
+            "points": 13,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Iran",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 599,
+            "against": 542,
+            "diff": 57,
             "points": 13,
             "highlight": "transparent"
           },
@@ -19051,14 +19051,14 @@
         "rows": [
           {
             "team": "Turkey",
-            "played": 7,
-            "win": 7,
+            "played": 8,
+            "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 625,
-            "against": 508,
-            "diff": 117,
-            "points": 14,
+            "for": 735,
+            "against": 581,
+            "diff": 154,
+            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -19111,14 +19111,14 @@
           },
           {
             "team": "Iceland",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 577,
-            "against": 640,
-            "diff": -63,
-            "points": 10,
+            "loss": 5,
+            "for": 650,
+            "against": 750,
+            "diff": -100,
+            "points": 11,
             "highlight": "transparent"
           }
         ],
