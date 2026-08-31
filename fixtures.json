@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T12:08:03+00:00",
+  "updated": "2026-08-31T12:19:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12925,7 +12925,7 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Japan",
       "away": "Qatar",
-      "score": null,
+      "score": "123-70",
       "date": "2026-08-31",
       "time": "19:10",
       "utc": "2026-08-31T10:10:00+00:00",
@@ -18090,6 +18090,18 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "Japan",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 728,
+            "against": 598,
+            "diff": 130,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Lebanon",
             "played": 7,
             "win": 6,
@@ -18099,18 +18111,6 @@
             "against": 508,
             "diff": 122,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Japan",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 605,
-            "against": 528,
-            "diff": 77,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -18126,6 +18126,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Qatar",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 607,
+            "against": 652,
+            "diff": -45,
+            "points": 12,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "China",
             "played": 7,
             "win": 4,
@@ -18134,18 +18146,6 @@
             "for": 587,
             "against": 566,
             "diff": 21,
-            "points": 11,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Qatar",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 537,
-            "against": 529,
-            "diff": 8,
             "points": 11,
             "highlight": "transparent"
           },
