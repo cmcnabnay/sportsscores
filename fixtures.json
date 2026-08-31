@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T02:19:03+00:00",
+  "updated": "2026-08-31T02:30:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21091,6 +21091,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Independiente Rivadavia",
+            "played": 7,
+            "win": 3,
+            "draw": 2,
+            "loss": 2,
+            "for": 8,
+            "against": 7,
+            "diff": 1,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Rosario Central",
             "played": 7,
             "win": 3,
@@ -21124,7 +21136,7 @@
             "against": 5,
             "diff": 0,
             "points": 9,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Barracas Central",
@@ -21136,18 +21148,6 @@
             "against": 5,
             "diff": -1,
             "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Independiente Rivadavia",
-            "played": 6,
-            "win": 2,
-            "draw": 2,
-            "loss": 2,
-            "for": 5,
-            "against": 6,
-            "diff": -1,
-            "points": 8,
             "highlight": "transparent"
           },
           {
@@ -21188,13 +21188,13 @@
           },
           {
             "team": "Racing",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": 2,
-            "loss": 3,
-            "for": 5,
-            "against": 8,
-            "diff": -3,
+            "loss": 4,
+            "for": 6,
+            "against": 11,
+            "diff": -5,
             "points": 5,
             "highlight": "transparent"
           },
