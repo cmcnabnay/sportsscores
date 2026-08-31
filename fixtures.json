@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T11:57:03+00:00",
+  "updated": "2026-08-31T12:08:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12881,7 +12881,7 @@
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "Saudi Arabia",
-      "score": null,
+      "score": "85-72",
       "date": "2026-08-31",
       "time": "19:00",
       "utc": "2026-08-31T10:00:00+00:00",
@@ -18114,6 +18114,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "South Korea",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 627,
+            "against": 633,
+            "diff": -6,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "China",
             "played": 7,
             "win": 4,
@@ -18123,7 +18135,7 @@
             "against": 566,
             "diff": 21,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Qatar",
@@ -18135,30 +18147,18 @@
             "against": 529,
             "diff": 8,
             "points": 11,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Saudi Arabia",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 539,
-            "against": 552,
-            "diff": -13,
-            "points": 10,
             "highlight": "transparent"
           },
           {
-            "team": "South Korea",
-            "played": 7,
+            "team": "Saudi Arabia",
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 542,
-            "against": 561,
-            "diff": -19,
-            "points": 10,
+            "loss": 5,
+            "for": 611,
+            "against": 637,
+            "diff": -26,
+            "points": 11,
             "highlight": "transparent"
           }
         ],
