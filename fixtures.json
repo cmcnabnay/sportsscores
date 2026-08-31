@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T16:54:45+00:00",
+  "updated": "2026-08-31T17:55:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12859,12 +12859,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Lithuania",
       "away": "Bosnia and Herzegovina",
-      "score": null,
+      "score": "78-73",
       "date": "2026-08-31",
       "time": "18:30",
       "utc": "2026-08-31T15:30:00+00:00",
       "venue": "Arena Vilnius, Vilnius",
-      "attendance": null
+      "attendance": "4989"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -19076,14 +19076,26 @@
           },
           {
             "team": "Lithuania",
-            "played": 7,
-            "win": 3,
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 609,
-            "against": 604,
-            "diff": 5,
-            "points": 10,
+            "for": 687,
+            "against": 677,
+            "diff": 10,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Bosnia and Herzegovina",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 625,
+            "against": 617,
+            "diff": 8,
+            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -19095,18 +19107,6 @@
             "for": 577,
             "against": 640,
             "diff": -63,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Bosnia and Herzegovina",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 552,
-            "against": 539,
-            "diff": 13,
             "points": 10,
             "highlight": "transparent"
           }
