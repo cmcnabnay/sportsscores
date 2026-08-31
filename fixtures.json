@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:13:03+00:00",
+  "updated": "2026-08-31T13:24:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18103,14 +18103,14 @@
           },
           {
             "team": "Lebanon",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 630,
             "against": 508,
             "diff": 122,
-            "points": 13,
+            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
@@ -18139,14 +18139,14 @@
           },
           {
             "team": "China",
-            "played": 7,
-            "win": 4,
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
             "for": 587,
             "against": 566,
             "diff": 21,
-            "points": 11,
+            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -18159,6 +18159,35 @@
             "against": 637,
             "diff": -26,
             "points": 11,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Second Round · Best fourth placed team": {
+        "rows": [
+          {
+            "team": "Jordan",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 684,
+            "against": 568,
+            "diff": 116,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "South Korea",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 627,
+            "against": 633,
+            "diff": -6,
+            "points": 12,
             "highlight": "transparent"
           }
         ],
