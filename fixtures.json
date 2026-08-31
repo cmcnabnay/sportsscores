@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T21:11:03+00:00",
+  "updated": "2026-08-31T21:22:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13021,6 +13021,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "New Zealand",
+      "score": "71-67",
+      "date": "2026-08-31",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "copa-argentina-2026",
       "home": "Vélez Sarsfield",
       "away": "Boca Juniors",
@@ -18026,13 +18037,25 @@
           },
           {
             "team": "New Zealand",
-            "played": 8,
+            "played": 9,
             "win": 6,
             "draw": null,
-            "loss": 2,
-            "for": 778,
-            "against": 638,
-            "diff": 140,
+            "loss": 3,
+            "for": 845,
+            "against": 642,
+            "diff": 203,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Philippines",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 686,
+            "against": 610,
+            "diff": 76,
             "points": 14,
             "highlight": "#BBF3BB"
           },
@@ -18046,7 +18069,7 @@
             "against": 542,
             "diff": 57,
             "points": 13,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Jordan",
@@ -18058,18 +18081,6 @@
             "against": 568,
             "diff": 116,
             "points": 13,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Philippines",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 615,
-            "against": 614,
-            "diff": 1,
-            "points": 12,
             "highlight": "transparent"
           },
           {
