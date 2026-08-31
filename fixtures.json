@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T23:58:03+00:00",
+  "updated": "2026-08-31T00:09:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20846,6 +20846,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 12,
+            "against": 5,
+            "diff": 7,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Vélez Sarsfield",
             "played": 7,
             "win": 3,
@@ -20870,18 +20882,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 6,
-            "win": 4,
-            "draw": 0,
-            "loss": 2,
-            "for": 9,
-            "against": 5,
-            "diff": 4,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Defensa y Justicia",
             "played": 6,
             "win": 3,
@@ -20891,18 +20891,6 @@
             "against": 8,
             "diff": 0,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Independiente",
-            "played": 6,
-            "win": 3,
-            "draw": 1,
-            "loss": 2,
-            "for": 6,
-            "against": 3,
-            "diff": 3,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -20926,6 +20914,18 @@
             "for": 8,
             "against": 6,
             "diff": 2,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Independiente",
+            "played": 7,
+            "win": 3,
+            "draw": 1,
+            "loss": 3,
+            "for": 6,
+            "against": 6,
+            "diff": 0,
             "points": 10,
             "highlight": "#BBF3BB"
           },
