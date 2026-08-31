@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T19:56:02+00:00",
+  "updated": "2026-08-31T20:07:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12903,7 +12903,7 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Portugal",
       "away": "Georgia",
-      "score": null,
+      "score": "90-98",
       "date": "2026-08-31",
       "time": "19:00",
       "utc": "2026-08-31T18:00:00+00:00",
@@ -18974,6 +18974,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Georgia",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 684,
+            "against": 661,
+            "diff": 23,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ukraine",
             "played": 7,
             "win": 5,
@@ -18986,6 +18998,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Portugal",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 670,
+            "against": 636,
+            "diff": 34,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Greece",
             "played": 8,
             "win": 4,
@@ -18995,30 +19019,6 @@
             "against": 596,
             "diff": 21,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Portugal",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 580,
-            "against": 538,
-            "diff": 42,
-            "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Georgia",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 586,
-            "against": 571,
-            "diff": 15,
-            "points": 11,
             "highlight": "transparent"
           },
           {
