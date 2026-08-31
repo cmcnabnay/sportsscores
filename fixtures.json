@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:24:04+00:00",
+  "updated": "2026-08-31T14:03:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12936,7 +12936,7 @@
       "league": "fiba-wcq-asia-2027",
       "home": "China",
       "away": "Lebanon",
-      "score": null,
+      "score": "89-87",
       "date": "2026-08-31",
       "time": "19:30",
       "utc": "2026-08-31T11:30:00+00:00",
@@ -18058,7 +18058,7 @@
             "against": 568,
             "diff": 116,
             "points": 13,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Philippines",
@@ -18107,10 +18107,22 @@
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 630,
-            "against": 508,
-            "diff": 122,
+            "for": 717,
+            "against": 597,
+            "diff": 120,
             "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "China",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 676,
+            "against": 653,
+            "diff": 23,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -18123,7 +18135,7 @@
             "against": 633,
             "diff": -6,
             "points": 12,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Qatar",
@@ -18136,18 +18148,6 @@
             "diff": -45,
             "points": 12,
             "highlight": "#CCF9CC"
-          },
-          {
-            "team": "China",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 587,
-            "against": 566,
-            "diff": 21,
-            "points": 13,
-            "highlight": "transparent"
           },
           {
             "team": "Saudi Arabia",
