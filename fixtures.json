@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T01:56:03+00:00",
+  "updated": "2026-09-01T02:07:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12852,7 +12852,7 @@
       "date": "2026-08-30",
       "time": "20:00",
       "utc": "2026-08-30T18:00:00+00:00",
-      "venue": "Arena Stožice, Ljubljana",
+      "venue": "Tivoli Hall, Ljubljana",
       "attendance": "2500"
     },
     {
@@ -12919,7 +12919,7 @@
       "time": "19:10",
       "utc": "2026-08-31T23:10:00+00:00",
       "venue": "Centre Vidéotron, Quebec City",
-      "attendance": null
+      "attendance": "12380"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -12991,7 +12991,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Bahamas",
       "away": "Panama",
-      "score": null,
+      "score": "100-82",
       "date": "2026-08-31",
       "time": "20:10",
       "utc": "2026-09-01T00:10:00+00:00",
@@ -17741,14 +17741,14 @@
           },
           {
             "team": "Bahamas",
-            "played": 7,
-            "win": 3,
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 646,
-            "against": 655,
-            "diff": -9,
-            "points": 10,
+            "for": 746,
+            "against": 737,
+            "diff": 9,
+            "points": 12,
             "highlight": "#BBF3FF"
           },
           {
@@ -17765,14 +17765,14 @@
           },
           {
             "team": "Panama",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 521,
-            "against": 611,
-            "diff": -90,
-            "points": 9,
+            "loss": 6,
+            "for": 603,
+            "against": 711,
+            "diff": -108,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
