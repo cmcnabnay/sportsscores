@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T02:07:03+00:00",
+  "updated": "2026-09-01T02:18:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12969,12 +12969,12 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Dominican Republic",
       "away": "Chile",
-      "score": null,
+      "score": "101-66",
       "date": "2026-08-31",
       "time": "20:10",
       "utc": "2026-09-01T00:10:00+00:00",
       "venue": "Arena BanReservas, Santo Domingo",
-      "attendance": null
+      "attendance": "3500"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -12996,7 +12996,7 @@
       "time": "20:10",
       "utc": "2026-09-01T00:10:00+00:00",
       "venue": "Kendal Isaacs Gymnasium, Nassau",
-      "attendance": null
+      "attendance": "700"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -17639,6 +17639,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Dominican Republic",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 728,
+            "against": 628,
+            "diff": 100,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Brazil",
             "played": 7,
             "win": 6,
@@ -17648,18 +17660,6 @@
             "against": 546,
             "diff": 106,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dominican Republic",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 627,
-            "against": 562,
-            "diff": 65,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -17688,14 +17688,14 @@
           },
           {
             "team": "Chile",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 504,
-            "against": 552,
-            "diff": -48,
-            "points": 9,
+            "loss": 6,
+            "for": 570,
+            "against": 653,
+            "diff": -83,
+            "points": 10,
             "highlight": "transparent"
           }
         ],
@@ -17781,6 +17781,18 @@
       "Qualifiers · Second Round · Best fourth placed team": {
         "rows": [
           {
+            "team": "Bahamas",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 746,
+            "against": 737,
+            "diff": 9,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mexico",
             "played": 7,
             "win": 4,
@@ -17790,18 +17802,6 @@
             "against": 634,
             "diff": 30,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Bahamas",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 646,
-            "against": 655,
-            "diff": -9,
-            "points": 10,
             "highlight": "transparent"
           }
         ],
@@ -20886,6 +20886,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Instituto",
+            "played": 7,
+            "win": 5,
+            "draw": 1,
+            "loss": 1,
+            "for": 6,
+            "against": 2,
+            "diff": 4,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Gimnasia y Esgrima (M)",
             "played": 7,
             "win": 5,
@@ -20918,18 +20930,6 @@
             "for": 10,
             "against": 6,
             "diff": 4,
-            "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Instituto",
-            "played": 6,
-            "win": 4,
-            "draw": 1,
-            "loss": 1,
-            "for": 5,
-            "against": 2,
-            "diff": 3,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -21030,18 +21030,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "San Lorenzo",
-            "played": 6,
-            "win": 2,
-            "draw": 1,
-            "loss": 3,
-            "for": 2,
-            "against": 4,
-            "diff": -2,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
             "team": "Central Córdoba (SdE)",
             "played": 7,
             "win": 2,
@@ -21049,6 +21037,18 @@
             "loss": 4,
             "for": 4,
             "against": 7,
+            "diff": -3,
+            "points": 7,
+            "highlight": "transparent"
+          },
+          {
+            "team": "San Lorenzo",
+            "played": 7,
+            "win": 2,
+            "draw": 1,
+            "loss": 4,
+            "for": 2,
+            "against": 5,
             "diff": -3,
             "points": 7,
             "highlight": "transparent"
@@ -21083,6 +21083,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Tigre",
+            "played": 7,
+            "win": 3,
+            "draw": 3,
+            "loss": 1,
+            "for": 6,
+            "against": 3,
+            "diff": 3,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 7,
             "win": 4,
@@ -21114,18 +21126,6 @@
             "loss": 2,
             "for": 7,
             "against": 4,
-            "diff": 3,
-            "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Tigre",
-            "played": 6,
-            "win": 3,
-            "draw": 2,
-            "loss": 1,
-            "for": 6,
-            "against": 3,
             "diff": 3,
             "points": 11,
             "highlight": "#BBF3BB"
@@ -21167,6 +21167,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Barracas Central",
+            "played": 7,
+            "win": 3,
+            "draw": 1,
+            "loss": 3,
+            "for": 4,
+            "against": 5,
+            "diff": -1,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
             "team": "Huracán",
             "played": 7,
             "win": 2,
@@ -21175,18 +21187,6 @@
             "for": 5,
             "against": 5,
             "diff": 0,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Barracas Central",
-            "played": 6,
-            "win": 3,
-            "draw": 0,
-            "loss": 3,
-            "for": 4,
-            "against": 5,
-            "diff": -1,
             "points": 9,
             "highlight": "transparent"
           },
