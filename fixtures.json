@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T04:07:03+00:00",
+  "updated": "2026-09-01T04:18:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12980,7 +12980,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Mexico",
       "away": "Brazil",
-      "score": null,
+      "score": "79-74",
       "date": "2026-08-31",
       "time": "20:10",
       "utc": "2026-09-01T02:10:00+00:00",
@@ -17652,26 +17652,26 @@
           },
           {
             "team": "Brazil",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
-            "for": 652,
-            "against": 546,
-            "diff": 106,
-            "points": 13,
+            "loss": 2,
+            "for": 726,
+            "against": 625,
+            "diff": 101,
+            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Mexico",
-            "played": 7,
-            "win": 4,
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 664,
-            "against": 634,
-            "diff": 30,
-            "points": 11,
+            "for": 743,
+            "against": 708,
+            "diff": 35,
+            "points": 13,
             "highlight": "#BBF3FF"
           },
           {
@@ -17781,6 +17781,18 @@
       "Qualifiers · Second Round · Best fourth placed team": {
         "rows": [
           {
+            "team": "Mexico",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 743,
+            "against": 708,
+            "diff": 35,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Bahamas",
             "played": 8,
             "win": 4,
@@ -17790,18 +17802,6 @@
             "against": 737,
             "diff": 9,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Mexico",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 664,
-            "against": 634,
-            "diff": 30,
-            "points": 11,
             "highlight": "transparent"
           }
         ],
