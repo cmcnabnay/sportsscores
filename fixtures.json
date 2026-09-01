@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T00:39:03+00:00",
+  "updated": "2026-09-01T00:50:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12870,12 +12870,12 @@
       "league": "fiba-wcq-americas-2027",
       "home": "United States",
       "away": "Colombia",
-      "score": null,
+      "score": "104-80",
       "date": "2026-08-31",
       "time": "19:00",
       "utc": "2026-08-31T23:00:00+00:00",
       "venue": "CareFirst Arena, Washington, D.C.",
-      "attendance": null
+      "attendance": "715"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -17628,14 +17628,14 @@
         "rows": [
           {
             "team": "United States",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 692,
-            "against": 580,
-            "diff": 112,
-            "points": 13,
+            "for": 796,
+            "against": 660,
+            "diff": 136,
+            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
@@ -17676,14 +17676,14 @@
           },
           {
             "team": "Colombia",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 585,
-            "against": 640,
-            "diff": -55,
-            "points": 10,
+            "loss": 5,
+            "for": 665,
+            "against": 744,
+            "diff": -79,
+            "points": 11,
             "highlight": "transparent"
           },
           {
