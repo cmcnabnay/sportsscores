@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T23:55:02+00:00",
+  "updated": "2026-09-01T00:06:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20898,6 +20898,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Defensa y Justicia",
+            "played": 7,
+            "win": 4,
+            "draw": 2,
+            "loss": 1,
+            "for": 9,
+            "against": 8,
+            "diff": 1,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Vélez Sarsfield",
             "played": 7,
             "win": 3,
@@ -20922,14 +20934,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Defensa y Justicia",
-            "played": 6,
+            "team": "Newell's Old Boys",
+            "played": 7,
             "win": 3,
             "draw": 2,
-            "loss": 1,
+            "loss": 2,
             "for": 8,
-            "against": 8,
-            "diff": 0,
+            "against": 6,
+            "diff": 2,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -20941,18 +20953,6 @@
             "loss": 3,
             "for": 12,
             "against": 10,
-            "diff": 2,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Newell's Old Boys",
-            "played": 6,
-            "win": 3,
-            "draw": 1,
-            "loss": 2,
-            "for": 8,
-            "against": 6,
             "diff": 2,
             "points": 10,
             "highlight": "#BBF3BB"
@@ -20995,14 +20995,26 @@
           },
           {
             "team": "Platense",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": 2,
-            "loss": 2,
+            "loss": 3,
             "for": 7,
-            "against": 10,
-            "diff": -3,
+            "against": 11,
+            "diff": -4,
             "points": 8,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Estudiantes (LP)",
+            "played": 7,
+            "win": 2,
+            "draw": 1,
+            "loss": 4,
+            "for": 7,
+            "against": 7,
+            "diff": 0,
+            "points": 7,
             "highlight": "transparent"
           },
           {
@@ -21039,18 +21051,6 @@
             "against": 7,
             "diff": -3,
             "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Estudiantes (LP)",
-            "played": 6,
-            "win": 2,
-            "draw": 0,
-            "loss": 4,
-            "for": 7,
-            "against": 7,
-            "diff": 0,
-            "points": 6,
             "highlight": "transparent"
           },
           {
