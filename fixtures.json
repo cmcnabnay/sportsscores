@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T01:23:03+00:00",
+  "updated": "2026-09-01T01:34:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12914,7 +12914,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Canada",
       "away": "Argentina",
-      "score": null,
+      "score": "97-92",
       "date": "2026-08-31",
       "time": "19:10",
       "utc": "2026-08-31T23:10:00+00:00",
@@ -13002,12 +13002,12 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Uruguay",
       "away": "Puerto Rico",
-      "score": null,
+      "score": "80-75",
       "date": "2026-08-31",
       "time": "20:10",
       "utc": "2026-08-31T23:10:00+00:00",
       "venue": "Antel Arena, Montevideo",
-      "attendance": null
+      "attendance": "6271"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -17705,38 +17705,38 @@
         "rows": [
           {
             "team": "Canada",
-            "played": 7,
-            "win": 7,
+            "played": 8,
+            "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 710,
-            "against": 557,
-            "diff": 153,
+            "for": 807,
+            "against": 649,
+            "diff": 158,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Uruguay",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 675,
+            "against": 587,
+            "diff": 88,
             "points": 14,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Argentina",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
-            "for": 606,
-            "against": 475,
-            "diff": 131,
-            "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Uruguay",
-            "played": 7,
-            "win": 5,
-            "draw": null,
             "loss": 2,
-            "for": 595,
-            "against": 512,
-            "diff": 83,
-            "points": 12,
+            "for": 698,
+            "against": 572,
+            "diff": 126,
+            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
@@ -17753,14 +17753,14 @@
           },
           {
             "team": "Puerto Rico",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 612,
-            "against": 642,
-            "diff": -30,
-            "points": 9,
+            "loss": 6,
+            "for": 687,
+            "against": 722,
+            "diff": -35,
+            "points": 10,
             "highlight": "transparent"
           },
           {
