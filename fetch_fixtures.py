@@ -363,6 +363,14 @@ LEAGUES = {
         "sport": "american-football",
         "parser": "wikitable",
         "year": 2026,
+        # Season finished - the EFA Championship Game (the last of the "30
+        # + 3 playoff games") was played 29 August 2026. Stop re-fetching
+        # (fixtures, standings AND the playoff bracket) on every default
+        # run, same treatment as u20-jwc-2026/fivb-nations-league-2026
+        # above. Stored data is left exactly as-is; run
+        # `python3 fetch_fixtures.py efa-2026 --force` manually if a
+        # correction ever needs to be pulled in after the fact.
+        "completed": True,
         "utc_offset": 2,  # Central European Summer Time
         # Same Away-team-first convention as AFLE - see afle-2026's comment.
         "swap_home_away": True,

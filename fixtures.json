@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T05:05:03+00:00",
+  "updated": "2026-09-03T05:12:49+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -24,7 +24,7 @@
     "efa-2026": {
       "name": "European Football Alliance 2026",
       "sport": "american-football",
-      "completed": false
+      "completed": true
     },
     "super-league-2026": {
       "name": "Super League Rugby 2026",
@@ -7419,17 +7419,6 @@
       "attendance": "15972"
     },
     {
-      "league": "efa-2026",
-      "home": "Raiders Tirol",
-      "away": "Munich Ravens",
-      "score": "24-32",
-      "date": "2026-07-04",
-      "time": "18:00",
-      "utc": "2026-07-04T16:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": "3076"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cameroon",
       "away": "Libya",
@@ -7450,6 +7439,17 @@
       "utc": "2026-07-04T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar",
       "attendance": "320"
+    },
+    {
+      "league": "efa-2026",
+      "home": "Raiders Tirol",
+      "away": "Munich Ravens",
+      "score": "24-32",
+      "date": "2026-07-04",
+      "time": "18:00",
+      "utc": "2026-07-04T16:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
+      "attendance": "3076"
     },
     {
       "league": "nations-cup-2026",
@@ -7639,17 +7639,6 @@
       "attendance": "2045"
     },
     {
-      "league": "efa-2026",
-      "home": "Paris Musketeers",
-      "away": "Frankfurt Galaxy",
-      "score": "24-31",
-      "date": "2026-07-05",
-      "time": "16:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "Stade Essone , Bondoufle",
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Egypt",
       "away": "Uganda",
@@ -7659,6 +7648,17 @@
       "utc": "2026-07-05T15:00:00+00:00",
       "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
       "attendance": "1000"
+    },
+    {
+      "league": "efa-2026",
+      "home": "Paris Musketeers",
+      "away": "Frankfurt Galaxy",
+      "score": "24-31",
+      "date": "2026-07-05",
+      "time": "16:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "Stade Essone , Bondoufle",
+      "attendance": null
     },
     {
       "league": "nrl-2026",
