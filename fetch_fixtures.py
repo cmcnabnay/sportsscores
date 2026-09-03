@@ -352,6 +352,10 @@ LEAGUES = {
                 {"label": "League Wide", "heading_id": "League_Wide"},
             ],
         },
+        # Confirmed from the page's own wikitext: "== Play-offs ==" holds a
+        # single {{4TeamBracket}} template (Semifinals -> Gold Bowl). See
+        # fetch_playoffs_bracket().
+        "playoffs": {},
     },
     "efa-2026": {
         "name": "European Football Alliance 2026",
@@ -376,6 +380,9 @@ LEAGUES = {
                 }
             ],
         },
+        # Same "== Play-offs ==" / {{4TeamBracket}} shape as afle-2026
+        # above (BIG4 -> EFA Championship Game). See fetch_playoffs_bracket().
+        "playoffs": {},
     },
     "fivb-nations-league-2026": {
         "name": "FIVB Men's Volleyball Nations League 2026",
@@ -1849,6 +1856,212 @@ def split_template_params(inner):
     return params
 
 
+_HEADING_RE = re.compile(r"^(={2,6})\s*(.+?)\s*\1\s*$", re.MULTILINE)
+
+
+def find_wikitext_section(wikitext, heading_text):
+    """Find the first heading (any level 2-6) whose text matches
+    `heading_text` (case-insensitive, after stripping wikilinks/templates
+    off the heading itself), and return (level, content) where content
+    spans from just after that heading line to the start of the next
+    heading whose level is <= it (or the end of the document). Returns
+    (None, None) if no heading matches.
+
+    Used to slice out one section (e.g. "Play-offs") from a full article,
+    and again to slice a single round (e.g. "BIG4") out of that section,
+    so match-box templates get attributed to the right round without
+    hardcoding byte offsets."""
+    headings = list(_HEADING_RE.finditer(wikitext))
+    for i, m in enumerate(headings):
+        level = len(m.group(1))
+        title = strip_wikilinks(re.sub(r"\{\{[^{}]*\}\}", "", m.group(2))).strip()
+        if title.lower() != heading_text.lower():
+            continue
+        start = m.end()
+        end = len(wikitext)
+        for nxt in headings[i + 1:]:
+            if len(nxt.group(1)) <= level:
+                end = nxt.start()
+                break
+        return level, wikitext[start:end]
+    return None, None
+
+
+_BRACKET_PARAM_RE = re.compile(r"^RD(\d+)(?:-(seed|team|score)(\d+))?$")
+
+
+def parse_bracket_template(inner):
+    """Parse the inner params of an {{NTeamBracket}}-family template
+    (e.g. {{4TeamBracket|RD1=...|RD1-seed1=1|RD1-team1=...|RD1-score1=...
+    |RD2=...|...}}) into {round_number: {"label": str, "seed": {slot:
+    val}, "team": {slot: val}, "score": {slot: val}}}. Slot numbers are
+    1-based and pair up (1,2), (3,4), ... into matches - see
+    build_bracket_rounds()."""
+    rounds = {}
+    for raw_param in split_template_params(inner):
+        if "=" not in raw_param:
+            continue
+        key, val = raw_param.split("=", 1)
+        key, val = key.strip(), val.strip()
+        m = _BRACKET_PARAM_RE.match(key)
+        if not m:
+            continue
+        rd = int(m.group(1))
+        field, idx = m.group(2), m.group(3)
+        rnd = rounds.setdefault(rd, {"label": None, "seed": {}, "team": {}, "score": {}})
+        if field is None:
+            rnd["label"] = val
+        else:
+            rnd[field][int(idx)] = val
+    return rounds
+
+
+def clean_bracket_team(raw):
+    """Strip a bracket template's team cell (e.g. '{{flagicon|DEN}}
+    [[Nordic Storm]]') down to the plain display name."""
+    if raw is None:
+        return None
+    text = strip_wikilinks(re.sub(r"\{\{[^{}]*\}\}", "", raw))
+    text = re.sub(r"\s+", " ", text).strip()
+    return text or None
+
+
+def clean_bracket_score(raw):
+    if raw is None:
+        return None
+    text = strip_wikilinks(raw).strip()
+    if not text:
+        return None
+    try:
+        return int(text)
+    except ValueError:
+        return text
+
+
+def clean_bracket_seed(raw):
+    if raw is None:
+        return None
+    text = strip_wikilinks(raw).strip()
+    return int(text) if text.isdigit() else None
+
+
+def build_bracket_rounds(rounds_by_num):
+    """Turn parse_bracket_template()'s {round_number: {...}} dict into the
+    ordered [{label, matches: [{seed1,team1,score1,seed2,team2,score2},
+    ...]}] shape matches.html's Playoffs tab expects. Slots are paired
+    (1,2), (3,4), ... in ascending order; a round with an odd slot left
+    over (a bye) just drops that trailing slot rather than guessing an
+    opponent for it."""
+    rounds = []
+    for rd in sorted(rounds_by_num):
+        r = rounds_by_num[rd]
+        slots = sorted(r["team"])
+        matches = []
+        for i in range(0, len(slots) - 1, 2):
+            s1, s2 = slots[i], slots[i + 1]
+            matches.append({
+                "seed1": clean_bracket_seed(r["seed"].get(s1)),
+                "team1": clean_bracket_team(r["team"].get(s1)),
+                "score1": clean_bracket_score(r["score"].get(s1)),
+                "seed2": clean_bracket_seed(r["seed"].get(s2)),
+                "team2": clean_bracket_team(r["team"].get(s2)),
+                "score2": clean_bracket_score(r["score"].get(s2)),
+                "date": None,
+                "venue": None,
+            })
+        rounds.append({"label": clean_bracket_team(r["label"]) or f"Round {rd}", "matches": matches})
+    return rounds
+
+
+_BOX_TEMPLATE_NAME_RE = re.compile(r"\{\{\s*([A-Za-z][A-Za-z0-9 _-]*?[Bb]ox)\b")
+
+
+def enrich_bracket_round_dates_venues(section_text, round_label, matches):
+    """Fill in date/venue on a round's matches from the individual
+    '{{...box}}' match templates (e.g. {{Americanfootballbox}}) under that
+    round's own subheading, matched to bracket slots positionally - on
+    every page seen so far, a round's box templates appear in the same
+    seed-pair order as its bracket slots (RD1 seed1-vs-seed2, then
+    seed3-vs-seed4, etc.). If the box count doesn't match the match count,
+    date/venue are left as None rather than risk mis-assigning them."""
+    _level, content = find_wikitext_section(section_text, round_label)
+    if content is None:
+        return
+    name_match = _BOX_TEMPLATE_NAME_RE.search(content)
+    if not name_match:
+        return
+    boxes = find_templates(content, name_match.group(1))
+    if len(boxes) != len(matches):
+        return
+    for m, inner in zip(matches, boxes):
+        kv = {}
+        for p in split_template_params(inner):
+            if "=" not in p:
+                continue
+            k, v = p.split("=", 1)
+            kv[k.strip().lower()] = v.strip()
+        date_out = parse_full_date(kv.get("date", ""))
+        if date_out:
+            m["date"] = date_out
+        venue_raw = kv.get("stadium") or kv.get("venue")
+        if venue_raw:
+            venue = strip_citations(strip_wikilinks(venue_raw))
+            venue = re.sub(r"\s+", " ", venue).strip()
+            if venue:
+                m["venue"] = venue
+
+
+def fetch_playoffs_bracket(cfg, key):
+    """Fetch and parse a league's Wikipedia-hosted playoff bracket into
+    the {name, rounds: [{label, matches: [{seed1,team1,score1,seed2,
+    team2,score2,date,venue}, ...]}]} shape matches.html's Playoffs tab
+    reads from fixtures.json's "playoffs" key. Returns None if the league
+    has no "playoffs" config, or if the configured heading/bracket
+    template can't be located on the page (heading text/template choice
+    can drift the same way a standings heading id can - see
+    fetch_standings)."""
+    playoffs_cfg = cfg.get("playoffs")
+    if playoffs_cfg is None:
+        return None
+
+    page = playoffs_cfg.get("page") or cfg["page"]
+    heading = playoffs_cfg.get("heading", "Play-offs")
+    wikitext = fetch_page_wikitext(page)
+
+    _level, section = find_wikitext_section(wikitext, heading)
+    if section is None:
+        print(f"  !! playoffs: couldn't find {heading!r} section on page {page!r} "
+              f"for {key} - heading may need updating", file=sys.stderr)
+        return None
+
+    template_name = playoffs_cfg.get("template")
+    if not template_name:
+        m = re.search(r"\{\{\s*(\d+TeamBracket)\b", section)
+        if not m:
+            print(f"  !! playoffs: no *TeamBracket template found in {heading!r} "
+                  f"section on page {page!r} for {key}", file=sys.stderr)
+            return None
+        template_name = m.group(1)
+
+    templates = find_templates(section, template_name)
+    if not templates:
+        print(f"  !! playoffs: {template_name!r} template not found in {heading!r} "
+              f"section on page {page!r} for {key}", file=sys.stderr)
+        return None
+
+    rounds_by_num = parse_bracket_template(templates[0])
+    if not rounds_by_num:
+        return None
+    rounds = build_bracket_rounds(rounds_by_num)
+
+    for r in rounds:
+        if r["matches"]:
+            enrich_bracket_round_dates_venues(section, r["label"], r["matches"])
+
+    name = playoffs_cfg.get("name", f'{cfg["name"]} · Play-offs')
+    return {"name": name, "rounds": rounds}
+
+
 def split_by_timezone_sections(wikitext):
     """
     FIVB's page states each pool's/week's timezone inline, e.g.
@@ -3108,8 +3321,9 @@ def load_existing():
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
         data.setdefault("standings", {})
+        data.setdefault("playoffs", {})
         return data
-    return {"updated": None, "leagues": {}, "matches": [], "standings": {}}
+    return {"updated": None, "leagues": {}, "matches": [], "standings": {}, "playoffs": {}}
 
 
 def save(data):
@@ -3653,6 +3867,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
     data.setdefault("attendance_tables", {})
+    data.setdefault("playoffs", {})
     now = datetime.now(timezone.utc)
     normalize_stored_team_names(data)
 
@@ -3718,6 +3933,17 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                     print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! attendance table failed: {e}", file=sys.stderr)
+            # Same reasoning as standings/attendance above: a playoff
+            # bracket's scores/rounds can change independent of whether
+            # this league's regular-season fixtures fall inside the scrape
+            # window right now, so it's always re-checked too.
+            try:
+                bracket = fetch_playoffs_bracket(cfg, key)
+                if bracket:
+                    data["playoffs"][key] = bracket
+                    print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
+            except Exception as e:
+                print(f"  !! playoffs failed: {e}", file=sys.stderr)
             continue
 
         if "team_pages" in cfg:
@@ -3777,6 +4003,14 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
         except Exception as e:
             print(f"  !! attendance table failed: {e}", file=sys.stderr)
+
+        try:
+            bracket = fetch_playoffs_bracket(cfg, key)
+            if bracket:
+                data["playoffs"][key] = bracket
+                print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
+        except Exception as e:
+            print(f"  !! playoffs failed: {e}", file=sys.stderr)
 
     # Not gated behind `key in league_keys` like the LEAGUES loop above -
     # none of MATRIX_TEAMS' league keys are LEAGUES entries (see the
