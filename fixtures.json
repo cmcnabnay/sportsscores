@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T05:12:49+00:00",
+  "updated": "2026-09-03T05:15:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -4455,17 +4455,6 @@
       "attendance": "8741"
     },
     {
-      "league": "super-league-2026",
-      "home": "Toulouse Olympique",
-      "away": "Wakefield Trinity",
-      "score": "18–22",
-      "date": "2026-05-23",
-      "time": "18:00",
-      "utc": "2026-05-23T17:00:00+00:00",
-      "venue": "Stade Ernest Wallon",
-      "attendance": "3259"
-    },
-    {
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Prague Lions",
@@ -4486,6 +4475,17 @@
       "utc": "2026-05-23T16:00:00+00:00",
       "venue": "Gladsaxe Stadium , Søborg",
       "attendance": "1617"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Toulouse Olympique",
+      "away": "Wakefield Trinity",
+      "score": "18–22",
+      "date": "2026-05-23",
+      "time": "18:00",
+      "utc": "2026-05-23T17:00:00+00:00",
+      "venue": "Stade Ernest Wallon",
+      "attendance": "3259"
     },
     {
       "league": "nrl-2026",
@@ -4587,17 +4587,6 @@
       "attendance": "17505"
     },
     {
-      "league": "afle-2026",
-      "home": "Rhein Fire",
-      "away": "London Warriors",
-      "score": "43-6",
-      "date": "2026-05-30",
-      "time": "18:00",
-      "utc": "2026-05-30T16:00:00+00:00",
-      "venue": "Schauinsland-Reisen-Arena , Duisburg",
-      "attendance": "4886"
-    },
-    {
       "league": "efa-2026",
       "home": "Frankfurt Galaxy",
       "away": "Munich Ravens",
@@ -4607,6 +4596,17 @@
       "utc": "2026-05-30T16:00:00+00:00",
       "venue": "PSD Bank Arena , Frankfurt",
       "attendance": "4581"
+    },
+    {
+      "league": "afle-2026",
+      "home": "Rhein Fire",
+      "away": "London Warriors",
+      "score": "43-6",
+      "date": "2026-05-30",
+      "time": "18:00",
+      "utc": "2026-05-30T16:00:00+00:00",
+      "venue": "Schauinsland-Reisen-Arena , Duisburg",
+      "attendance": "4886"
     },
     {
       "league": "nrl-2026",
@@ -5346,6 +5346,17 @@
       "attendance": "24938"
     },
     {
+      "league": "efa-2026",
+      "home": "Paris Musketeers",
+      "away": "Raiders Tirol",
+      "score": "24-17",
+      "date": "2026-06-13",
+      "time": "18:00",
+      "utc": "2026-06-13T16:00:00+00:00",
+      "venue": "Stade Bauer , Saint-Ouen-sur-Seine",
+      "attendance": "2413"
+    },
+    {
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "Castleford Tigers",
@@ -5377,17 +5388,6 @@
       "utc": "2026-06-13T16:00:00+00:00",
       "venue": "Schauinsland-Reisen-Arena , Duisburg",
       "attendance": "4219"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Paris Musketeers",
-      "away": "Raiders Tirol",
-      "score": "24-17",
-      "date": "2026-06-13",
-      "time": "18:00",
-      "utc": "2026-06-13T16:00:00+00:00",
-      "venue": "Stade Bauer , Saint-Ouen-sur-Seine",
-      "attendance": "2413"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -7408,6 +7408,17 @@
       "attendance": "52790"
     },
     {
+      "league": "efa-2026",
+      "home": "Raiders Tirol",
+      "away": "Munich Ravens",
+      "score": "24-32",
+      "date": "2026-07-04",
+      "time": "18:00",
+      "utc": "2026-07-04T16:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
+      "attendance": "3076"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Chile",
       "away": "Romania",
@@ -7439,17 +7450,6 @@
       "utc": "2026-07-04T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar",
       "attendance": "320"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Raiders Tirol",
-      "away": "Munich Ravens",
-      "score": "24-32",
-      "date": "2026-07-04",
-      "time": "18:00",
-      "utc": "2026-07-04T16:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": "3076"
     },
     {
       "league": "nations-cup-2026",
@@ -7639,17 +7639,6 @@
       "attendance": "2045"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Uganda",
-      "score": "77-70",
-      "date": "2026-07-05",
-      "time": "16:00",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "1000"
-    },
-    {
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Frankfurt Galaxy",
@@ -7659,6 +7648,17 @@
       "utc": "2026-07-05T14:00:00+00:00",
       "venue": "Stade Essone , Bondoufle",
       "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Uganda",
+      "score": "77-70",
+      "date": "2026-07-05",
+      "time": "16:00",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "1000"
     },
     {
       "league": "nrl-2026",
@@ -8403,6 +8403,17 @@
       "attendance": "45053"
     },
     {
+      "league": "efa-2026",
+      "home": "Raiders Tirol",
+      "away": "Nordic Storm",
+      "score": "14-40",
+      "date": "2026-07-11",
+      "time": "18:00",
+      "utc": "2026-07-11T16:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
+      "attendance": "2312"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Chile",
       "away": "Hong Kong",
@@ -8423,17 +8434,6 @@
       "utc": "2026-07-11T16:00:00+00:00",
       "venue": "Wiener Sport-Club Stadium , Vienna",
       "attendance": "4146"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Raiders Tirol",
-      "away": "Nordic Storm",
-      "score": "14-40",
-      "date": "2026-07-11",
-      "time": "18:00",
-      "utc": "2026-07-11T16:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": "2312"
     },
     {
       "league": "nations-cup-2026",
@@ -9164,6 +9164,17 @@
       "attendance": "55125"
     },
     {
+      "league": "efa-2026",
+      "home": "Paris Musketeers",
+      "away": "Nordic Storm",
+      "score": "3-41",
+      "date": "2026-07-18",
+      "time": "15:00",
+      "utc": "2026-07-18T13:00:00+00:00",
+      "venue": "Stade Essone , Bondoufle",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Canberra Raiders",
       "away": "South Sydney Rabbitohs",
@@ -9184,17 +9195,6 @@
       "utc": "2026-07-18T14:00:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "10025"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Paris Musketeers",
-      "away": "Nordic Storm",
-      "score": "3-41",
-      "date": "2026-07-18",
-      "time": "15:00",
-      "utc": "2026-07-18T13:00:00+00:00",
-      "venue": "Stade Essone , Bondoufle",
-      "attendance": null
     },
     {
       "league": "efa-2026",
@@ -9524,17 +9524,6 @@
       "attendance": null
     },
     {
-      "league": "currie-cup-2026",
-      "home": "Cheetahs",
-      "away": "Lions",
-      "score": "29-27",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "utc": "2026-07-19T11:00:00+00:00",
-      "venue": "Free State Stadium, Bloemfontein",
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Prague Lions",
       "away": "Munich Ravens",
@@ -9543,6 +9532,17 @@
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
       "venue": "FK Viktoria Stadion , Prague",
+      "attendance": null
+    },
+    {
+      "league": "currie-cup-2026",
+      "home": "Cheetahs",
+      "away": "Lions",
+      "score": "29-27",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "utc": "2026-07-19T11:00:00+00:00",
+      "venue": "Free State Stadium, Bloemfontein",
       "attendance": null
     },
     {
@@ -11251,17 +11251,6 @@
       "attendance": "9258"
     },
     {
-      "league": "afle-2026",
-      "home": "Alpine Rams",
-      "away": "Vienna Vikings",
-      "score": "24-47",
-      "date": "2026-08-15",
-      "time": "18:00",
-      "utc": "2026-08-15T16:00:00+00:00",
-      "venue": "Stadion Deutweg , Winterthur",
-      "attendance": "534"
-    },
-    {
       "league": "efa-2026",
       "home": "Munich Ravens",
       "away": "Frankfurt Galaxy",
@@ -11273,6 +11262,17 @@
       "attendance": "4094",
       "group": "Playoffs",
       "round": "BIG4"
+    },
+    {
+      "league": "afle-2026",
+      "home": "Alpine Rams",
+      "away": "Vienna Vikings",
+      "score": "24-47",
+      "date": "2026-08-15",
+      "time": "18:00",
+      "utc": "2026-08-15T16:00:00+00:00",
+      "venue": "Stadion Deutweg , Winterthur",
+      "attendance": "534"
     },
     {
       "league": "cfl-2026",
@@ -11341,6 +11341,19 @@
       "attendance": null
     },
     {
+      "league": "efa-2026",
+      "home": "Nordic Storm",
+      "away": "Paris Musketeers",
+      "score": "45-6",
+      "date": "2026-08-16",
+      "time": "15:00",
+      "utc": "2026-08-16T13:00:00+00:00",
+      "venue": "PSD Bank Arena , Frankfurt",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "BIG4"
+    },
+    {
       "league": "currie-cup-2026",
       "home": "Bulls XV",
       "away": "Cheetahs",
@@ -11361,19 +11374,6 @@
       "utc": "2026-08-16T13:00:00+00:00",
       "venue": "Olympic Stadium , Wrocław",
       "attendance": null
-    },
-    {
-      "league": "efa-2026",
-      "home": "Nordic Storm",
-      "away": "Paris Musketeers",
-      "score": "45-6",
-      "date": "2026-08-16",
-      "time": "15:00",
-      "utc": "2026-08-16T13:00:00+00:00",
-      "venue": "PSD Bank Arena , Frankfurt",
-      "attendance": null,
-      "group": "Playoffs",
-      "round": "BIG4"
     },
     {
       "league": "nrl-2026",
@@ -12520,19 +12520,6 @@
       "attendance": "12255"
     },
     {
-      "league": "afle-2026",
-      "date": "2026-08-29",
-      "time": "18:00",
-      "utc": "2026-08-29T16:00:00+00:00",
-      "home": "Vienna Vikings",
-      "away": "London Warriors",
-      "score": null,
-      "venue": "Wiener Sport-Club Stadium , Vienna",
-      "attendance": null,
-      "group": "Playoffs",
-      "round": "Semifinals"
-    },
-    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Munich Ravens",
@@ -12544,6 +12531,19 @@
       "attendance": null,
       "group": "Playoffs",
       "round": "EFA Championship Game"
+    },
+    {
+      "league": "afle-2026",
+      "date": "2026-08-29",
+      "time": "18:00",
+      "utc": "2026-08-29T16:00:00+00:00",
+      "home": "Vienna Vikings",
+      "away": "London Warriors",
+      "score": null,
+      "venue": "Wiener Sport-Club Stadium , Vienna",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "Semifinals"
     },
     {
       "league": "fiba-wcq-africa-2027",
