@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T05:47:17+00:00",
+  "updated": "2026-09-03T14:05:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13046,7 +13046,7 @@
       "league": "npc-2026",
       "home": "Taranaki",
       "away": "Auckland",
-      "score": null,
+      "score": "28-12",
       "date": "2026-09-03",
       "time": "19:10",
       "utc": "2026-09-03T07:10:00+00:00",
@@ -13057,7 +13057,7 @@
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "Brisbane Broncos",
-      "score": null,
+      "score": "20–34",
       "date": "2026-09-03",
       "time": "19:50",
       "utc": "2026-09-03T09:50:00+00:00",
@@ -19619,18 +19619,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "South Sydney Rabbitohs (Q)",
-            "played": 23,
-            "win": 13,
-            "draw": 0,
-            "loss": 10,
-            "for": 644,
-            "against": 561,
-            "diff": 83,
-            "points": 32,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Newcastle Knights (Q)",
             "played": 24,
             "win": 14,
@@ -19639,6 +19627,18 @@
             "for": 633,
             "against": 591,
             "diff": 42,
+            "points": 34,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "South Sydney Rabbitohs (Q)",
+            "played": 23,
+            "win": 13,
+            "draw": 0,
+            "loss": 10,
+            "for": 644,
+            "against": 561,
+            "diff": 83,
             "points": 32,
             "highlight": "#BBF3BB"
           },
@@ -19668,13 +19668,13 @@
           },
           {
             "team": "Canterbury-Bankstown Bulldogs (X)",
-            "played": 23,
+            "played": 24,
             "win": 11,
             "draw": 0,
-            "loss": 12,
-            "for": 456,
-            "against": 502,
-            "diff": -46,
+            "loss": 13,
+            "for": 476,
+            "against": 536,
+            "diff": -60,
             "points": 28,
             "highlight": "transparent"
           },
@@ -19715,6 +19715,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Brisbane Broncos (X)",
+            "played": 24,
+            "win": 8,
+            "draw": 0,
+            "loss": 16,
+            "for": 471,
+            "against": 677,
+            "diff": -206,
+            "points": 22,
+            "highlight": "transparent"
+          },
+          {
             "team": "Wests Tigers (X)",
             "played": 23,
             "win": 8,
@@ -19724,18 +19736,6 @@
             "against": 661,
             "diff": -226,
             "points": 22,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Brisbane Broncos (X)",
-            "played": 23,
-            "win": 7,
-            "draw": 0,
-            "loss": 16,
-            "for": 437,
-            "against": 657,
-            "diff": -220,
-            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -20401,6 +20401,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Taranaki",
+            "played": 6,
+            "win": 3,
+            "draw": 0,
+            "loss": 3,
+            "for": 144,
+            "against": 151,
+            "diff": -7,
+            "points": 18,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Bay of Plenty",
             "played": 5,
             "win": 3,
@@ -20434,18 +20446,6 @@
             "against": 150,
             "diff": -22,
             "points": 15,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Taranaki",
-            "played": 5,
-            "win": 2,
-            "draw": 0,
-            "loss": 3,
-            "for": 116,
-            "against": 139,
-            "diff": -23,
-            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -20462,13 +20462,13 @@
           },
           {
             "team": "Auckland",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": 0,
-            "loss": 4,
-            "for": 134,
-            "against": 162,
-            "diff": -28,
+            "loss": 5,
+            "for": 146,
+            "against": 190,
+            "diff": -44,
             "points": 9,
             "highlight": "transparent"
           },
