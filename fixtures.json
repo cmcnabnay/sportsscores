@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T04:00:03+00:00",
+  "updated": "2026-09-03T04:11:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21619,10 +21619,10 @@
             {
               "seed1": 1,
               "team1": "Nordic Storm",
-              "score1": null,
+              "score1": 48,
               "seed2": 2,
               "team2": "Munich Ravens",
-              "score2": null,
+              "score2": 28,
               "date": "2026-08-29",
               "venue": "Tivoli Stadion Tirol, Innsbruck, Austria"
             }
@@ -21639,20 +21639,20 @@
             {
               "seed1": 1,
               "team1": "Vienna Vikings",
-              "score1": null,
+              "score1": 71,
               "seed2": 4,
               "team2": "London Warriors",
-              "score2": null,
+              "score2": 34,
               "date": "2026-08-29",
               "venue": "Wiener Sport-Club Stadium, Vienna, Austria"
             },
             {
               "seed1": 2,
               "team1": "Rhein Fire",
-              "score1": null,
+              "score1": 40,
               "seed2": 3,
               "team2": "Panthers Wrocław",
-              "score2": null,
+              "score2": 41,
               "date": "2026-08-30",
               "venue": "Niederrheinstadion, Oberhausen, Germany"
             }
@@ -21662,11 +21662,11 @@
           "label": "Gold Bowl",
           "matches": [
             {
-              "seed1": null,
-              "team1": null,
+              "seed1": 1,
+              "team1": "Vienna Vikings",
               "score1": null,
-              "seed2": null,
-              "team2": null,
+              "seed2": 3,
+              "team2": "Panthers Wrocław",
               "score2": null,
               "date": "2026-09-06",
               "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
