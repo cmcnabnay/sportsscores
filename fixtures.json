@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T06:27:15+00:00",
+  "updated": "2026-09-04T14:33:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13084,7 +13084,7 @@
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "Dolphins",
-      "score": null,
+      "score": "20–24",
       "date": "2026-09-04",
       "time": "18:00",
       "utc": "2026-09-04T08:00:00+00:00",
@@ -13106,7 +13106,7 @@
       "league": "npc-2026",
       "home": "Hawke's Bay",
       "away": "Otago",
-      "score": null,
+      "score": "35-24",
       "date": "2026-09-04",
       "time": "19:10",
       "utc": "2026-09-04T07:10:00+00:00",
@@ -13139,7 +13139,7 @@
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Sydney Roosters",
-      "score": null,
+      "score": "50–20",
       "date": "2026-09-04",
       "time": "20:00",
       "utc": "2026-09-04T10:00:00+00:00",
@@ -21591,25 +21591,25 @@
           },
           {
             "team": "Dolphins (Q)",
-            "played": 23,
-            "win": 16,
+            "played": 24,
+            "win": 17,
             "draw": 0,
             "loss": 7,
-            "for": 638,
-            "against": 486,
-            "diff": 152,
-            "points": 38,
+            "for": 662,
+            "against": 506,
+            "diff": 156,
+            "points": 40,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Sydney Roosters (Q)",
-            "played": 23,
+            "played": 24,
             "win": 16,
             "draw": 0,
-            "loss": 7,
-            "for": 599,
-            "against": 451,
-            "diff": 148,
+            "loss": 8,
+            "for": 619,
+            "against": 501,
+            "diff": 118,
             "points": 38,
             "highlight": "#BBF3BB"
           },
@@ -21626,6 +21626,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "South Sydney Rabbitohs (Q)",
+            "played": 24,
+            "win": 14,
+            "draw": 0,
+            "loss": 10,
+            "for": 694,
+            "against": 581,
+            "diff": 113,
+            "points": 34,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newcastle Knights (Q)",
             "played": 24,
             "win": 14,
@@ -21635,18 +21647,6 @@
             "against": 591,
             "diff": 42,
             "points": 34,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "South Sydney Rabbitohs (Q)",
-            "played": 23,
-            "win": 13,
-            "draw": 0,
-            "loss": 10,
-            "for": 644,
-            "against": 561,
-            "diff": 83,
-            "points": 32,
             "highlight": "#BBF3BB"
           },
           {
@@ -21747,13 +21747,13 @@
           },
           {
             "team": "Gold Coast Titans (X)",
-            "played": 23,
+            "played": 24,
             "win": 6,
             "draw": 0,
-            "loss": 17,
-            "for": 457,
-            "against": 639,
-            "diff": -182,
+            "loss": 18,
+            "for": 477,
+            "against": 663,
+            "diff": -186,
             "points": 18,
             "highlight": "transparent"
           },
@@ -22349,14 +22349,26 @@
         "rows": [
           {
             "team": "Hawke's Bay",
-            "played": 5,
-            "win": 5,
+            "played": 6,
+            "win": 6,
             "draw": 0,
             "loss": 0,
-            "for": 241,
-            "against": 121,
-            "diff": 120,
-            "points": 25,
+            "for": 276,
+            "against": 145,
+            "diff": 131,
+            "points": 30,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Otago",
+            "played": 6,
+            "win": 4,
+            "draw": 0,
+            "loss": 2,
+            "for": 213,
+            "against": 155,
+            "diff": 58,
+            "points": 22,
             "highlight": "#CCF9CC"
           },
           {
@@ -22368,18 +22380,6 @@
             "for": 169,
             "against": 70,
             "diff": 99,
-            "points": 21,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Otago",
-            "played": 5,
-            "win": 4,
-            "draw": 0,
-            "loss": 1,
-            "for": 189,
-            "against": 120,
-            "diff": 69,
             "points": 21,
             "highlight": "#CCF9CC"
           },
