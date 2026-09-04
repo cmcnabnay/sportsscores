@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T05:55:15+00:00",
+  "updated": "2026-09-04T06:05:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13741,17 +13741,6 @@
       "attendance": null
     },
     {
-      "league": "top14-2026",
-      "home": "Toulon",
-      "away": "La Rochelle",
-      "score": null,
-      "date": "2026-09-12",
-      "time": "19:00",
-      "utc": "2026-09-12T19:00:00+00:00",
-      "venue": "Stade Mayol, Toulon (France)",
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Montreal Alouettes",
@@ -13760,6 +13749,17 @@
       "time": "19:00",
       "utc": "2026-09-12T23:00:00+00:00",
       "venue": "BC Place",
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "La Rochelle",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "19:00",
+      "utc": "2026-09-12T19:00:00+00:00",
+      "venue": "Stade Mayol, Toulon (France)",
       "attendance": null
     },
     {
@@ -14445,17 +14445,6 @@
       "attendance": null
     },
     {
-      "league": "top14-2026",
-      "home": "Castres Olympique",
-      "away": "Stade Toulousain",
-      "score": null,
-      "date": "2026-10-03",
-      "time": "19:00",
-      "utc": "2026-10-03T19:00:00+00:00",
-      "venue": "Stade Pierre Fabre, Castres (France)",
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Winnipeg Blue Bombers",
@@ -14464,6 +14453,17 @@
       "time": "19:00",
       "utc": "2026-10-03T23:00:00+00:00",
       "venue": "Molson Stadium",
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Stade Toulousain",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "19:00",
+      "utc": "2026-10-03T19:00:00+00:00",
+      "venue": "Stade Pierre Fabre, Castres (France)",
       "attendance": null
     },
     {

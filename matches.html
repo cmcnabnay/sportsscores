@@ -350,7 +350,42 @@
   table.standings-table tr.attendance-total-row td { font-weight: 700; }
   table.standings-table td.dash-cell { color: var(--grey); }
 
-  .bracket-round { margin-bottom: 18px; }
+  .bracket-outer {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 4px 4px 16px;
+  }
+  .bracket-cols {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    gap: 46px;
+    width: max-content;
+    min-width: 100%;
+  }
+  .bracket-col {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    flex: 0 0 230px;
+  }
+  .bracket-col-matches {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .bracket-match-wrap { position: relative; z-index: 1; padding: 6px 0; }
+  svg.bracket-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .bracket-line { fill: none; stroke: #cbd5e6; stroke-width: 2; }
   .bracket-round-label {
     font-size: 11px;
     text-transform: uppercase;
@@ -358,12 +393,12 @@
     color: var(--grey);
     padding: 0 0 8px;
     font-weight: 700;
+    text-align: center;
   }
   .bracket-match {
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(11,31,58,0.08);
-    margin: 0 0 12px;
     overflow: hidden;
   }
   .bracket-team {
@@ -1395,6 +1430,115 @@ function renderBracketMatch(m) {
   </div>`;
 }
 
+// Renders bracket.rounds as an actual connected bracket: one column per
+// round (widths driven by CSS flex, matches within a column spread out
+// with justify-content:space-around so each round is vertically centered
+// against its two feeder matches) plus an SVG overlay of connector lines
+// drawn from real, post-layout DOM positions. Reading positions off the
+// DOM (rather than computing them) means it degrades gracefully for any
+// card height (long team names, a meta line, etc.) without hardcoding
+// pixel math per round.
+function renderBracket(bracket) {
+  const rounds = (bracket.rounds || []).filter(r => (r.matches || []).length);
+
+  const outer = document.createElement('div');
+  outer.className = 'bracket-outer';
+
+  if (!rounds.length) {
+    outer.innerHTML = '<div class="empty-state">No playoff bracket available yet.</div>';
+    return outer;
+  }
+
+  // SVG goes in the DOM before the columns so the columns (and their
+  // opaque match cards) paint on top of the connector lines.
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('class', 'bracket-lines');
+  outer.appendChild(svg);
+
+  const cols = document.createElement('div');
+  cols.className = 'bracket-cols';
+  outer.appendChild(cols);
+
+  const roundMatchWraps = rounds.map(round => {
+    const col = document.createElement('div');
+    col.className = 'bracket-col';
+
+    const label = document.createElement('div');
+    label.className = 'bracket-round-label';
+    label.textContent = round.label || '';
+    col.appendChild(label);
+
+    const matchesWrap = document.createElement('div');
+    matchesWrap.className = 'bracket-col-matches';
+    (round.matches || []).forEach(m => {
+      const cardWrap = document.createElement('div');
+      cardWrap.className = 'bracket-match-wrap';
+      cardWrap.innerHTML = renderBracketMatch(m);
+      matchesWrap.appendChild(cardWrap);
+    });
+    col.appendChild(matchesWrap);
+    cols.appendChild(col);
+    return matchesWrap;
+  });
+
+  requestAnimationFrame(() => drawBracketConnectors(outer, svg, cols, roundMatchWraps));
+  return outer;
+}
+
+// Draws the lines joining each pair of matches in round r to the single
+// match they feed into in round r+1. Only handles the standard
+// elimination shape (round r+1 has exactly half as many matches as round
+// r, paired as [2i, 2i+1] -> i) - an irregular bracket (byes, a
+// third-place game, etc.) just skips connectors for that gap and still
+// shows the columns side by side.
+function drawBracketConnectors(outer, svg, cols, roundMatchWraps) {
+  const w = cols.offsetWidth;
+  const h = cols.offsetHeight;
+  if (!w || !h) return;
+  svg.setAttribute('width', w);
+  svg.setAttribute('height', h);
+  svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+  svg.innerHTML = '';
+
+  const outerRect = outer.getBoundingClientRect();
+  const point = (rect, edge) => ({
+    x: (edge === 'left' ? rect.left : rect.right) - outerRect.left + outer.scrollLeft,
+    y: rect.top + rect.height / 2 - outerRect.top + outer.scrollTop,
+  });
+
+  const svgNs = 'http://www.w3.org/2000/svg';
+  const addPath = d => {
+    const path = document.createElementNS(svgNs, 'path');
+    path.setAttribute('class', 'bracket-line');
+    path.setAttribute('d', d);
+    svg.appendChild(path);
+  };
+
+  for (let r = 0; r < roundMatchWraps.length - 1; r++) {
+    const curCards = Array.from(roundMatchWraps[r].children);
+    const nextCards = Array.from(roundMatchWraps[r + 1].children);
+    if (curCards.length !== nextCards.length * 2) continue;
+
+    for (let i = 0; i < nextCards.length; i++) {
+      const a = point(curCards[2 * i].getBoundingClientRect(), 'right');
+      const b = point(curCards[2 * i + 1].getBoundingClientRect(), 'right');
+      const t = point(nextCards[i].getBoundingClientRect(), 'left');
+      const midX = a.x + (t.x - a.x) / 2;
+      const midY = (a.y + b.y) / 2;
+
+      addPath(`M ${a.x} ${a.y} H ${midX} V ${b.y} H ${b.x}`);
+      addPath(`M ${midX} ${midY} V ${t.y} H ${t.x}`);
+    }
+  }
+}
+
+let bracketResizeTimer = null;
+window.addEventListener('resize', () => {
+  if (currentView !== 'playoffs') return;
+  clearTimeout(bracketResizeTimer);
+  bracketResizeTimer = setTimeout(renderPlayoffs, 150);
+});
+
 function renderPlayoffs() {
   playoffsView.innerHTML = '';
 
@@ -1438,20 +1582,11 @@ function renderPlayoffs() {
   playoffsView.appendChild(row);
 
   const bracket = playoffs[playoffsLeagueKey] || { rounds: [] };
-  const roundsHtml = (bracket.rounds || []).map(round => {
-    const matchesHtml = (round.matches || []).map(renderBracketMatch).join('');
-    return `<div class="bracket-round">
-      <div class="bracket-round-label">${escapeHtml(round.label || '')}</div>
-      ${matchesHtml}
-    </div>`;
-  }).join('');
 
   const wrap = document.createElement('div');
   wrap.className = 'standings-group';
-  wrap.innerHTML = `
-    <h3>${escapeHtml(bracket.name || (leagues[playoffsLeagueKey] && leagues[playoffsLeagueKey].name) || playoffsLeagueKey)}</h3>
-    <div style="padding:12px 16px;">${roundsHtml}</div>
-  `;
+  wrap.innerHTML = `<h3>${escapeHtml(bracket.name || (leagues[playoffsLeagueKey] && leagues[playoffsLeagueKey].name) || playoffsLeagueKey)}</h3>`;
+  wrap.appendChild(renderBracket(bracket));
   playoffsView.appendChild(wrap);
 }
 

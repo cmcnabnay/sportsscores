@@ -38,7 +38,11 @@ key in LEAGUES:
                   matches). Kickoff instants and final scores come
                   straight from ESPN's JSON, already in UTC, so no
                   timezone guessing is needed the way it is for the
-                  Wikipedia-sourced parsers above.
+                  Wikipedia-sourced parsers above. "espn_date_range" can
+                  also be a list of "YYYYMMDD-YYYYMMDD" strings instead of
+                  one, for a league with well over 100 matches a season
+                  (ESPN caps a single response at 100 events) - each range
+                  is fetched separately and the results merged.
 
 A league can fetch from more than one Wikipedia page (e.g. a tournament
 split into "Southern Hemisphere Series" / "Northern Hemisphere Series"
@@ -259,6 +263,27 @@ LEAGUES = {
         "espn_sport": "rugby",
         "espn_league": "289234",
         "espn_date_range": "20260101-20261231",
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+    },
+    "top14-2026": {
+        "name": "French Top 14 2026-27",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 270559 is ESPN's league id for the French
+        # Top 14 (the "league" segment of espn.com/rugby/scoreboard URLs).
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "270559",
+        # A full Top 14 season (14 clubs, double round-robin plus playoffs)
+        # is ~190 matches - well over ESPN's 100-event-per-response cap
+        # (see fetch_espn_scoreboard) - so the season is split into
+        # quarterly ranges rather than one 20260801-20270630 request.
+        "espn_date_range": [
+            "20260801-20261031",
+            "20261101-20270131",
+            "20270201-20270430",
+            "20270501-20270630",
+        ],
         # no utc_offset needed - ESPN gives each match's kickoff already in UTC
     },
     "nrl-2026": {
@@ -3788,8 +3813,19 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
         return matches
 
     if parser_type == "espn":
-        data = fetch_espn_scoreboard(cfg["espn_sport"], cfg["espn_league"], cfg["espn_date_range"])
-        return parse_espn_matches(data, key, cfg)
+        # espn_date_range is usually a single "YYYYMMDD-YYYYMMDD" string, but
+        # can be a list of them for a league with well over 100 matches a
+        # season (e.g. Top 14's ~190 games) - see fetch_espn_scoreboard's
+        # 100-event-cap note. Non-overlapping ranges are assumed, so no
+        # cross-range dedup is needed.
+        date_ranges = cfg["espn_date_range"]
+        if isinstance(date_ranges, str):
+            date_ranges = [date_ranges]
+        matches = []
+        for date_range in date_ranges:
+            data = fetch_espn_scoreboard(cfg["espn_sport"], cfg["espn_league"], date_range)
+            matches.extend(parse_espn_matches(data, key, cfg))
+        return matches
 
     if parser_type == "cfl_schedule":
         # Unlike every other parser here, each CFL team has its own,
