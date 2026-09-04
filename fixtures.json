@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:06:03+00:00",
+  "updated": "2026-09-04T15:07:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -1039,17 +1039,6 @@
       "attendance": "2809"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Italy",
-      "away": "Iceland",
-      "score": "76-81",
-      "date": "2025-11-27",
-      "time": "20:00",
-      "utc": "2025-11-27T19:00:00+00:00",
-      "venue": "PalaFerraris, Tortona",
-      "attendance": "4711"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Rwanda",
       "away": "Guinea",
@@ -1059,6 +1048,17 @@
       "utc": "2025-11-27T19:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
       "attendance": "50"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Italy",
+      "away": "Iceland",
+      "score": "76-81",
+      "date": "2025-11-27",
+      "time": "20:00",
+      "utc": "2025-11-27T19:00:00+00:00",
+      "venue": "PalaFerraris, Tortona",
+      "attendance": "4711"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -1380,6 +1380,17 @@
       "attendance": "1800"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Guinea",
+      "away": "Tunisia",
+      "score": "66-57",
+      "date": "2025-11-30",
+      "time": "17:00",
+      "utc": "2025-11-30T16:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": "2500"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Portugal",
       "away": "Greece",
@@ -1400,17 +1411,6 @@
       "utc": "2025-11-30T16:00:00+00:00",
       "venue": "Site Sportif Saint-Léonard, Fribourg",
       "attendance": "3000"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "Tunisia",
-      "score": "66-57",
-      "date": "2025-11-30",
-      "time": "17:00",
-      "utc": "2025-11-30T16:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": "2500"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -1490,17 +1490,6 @@
       "attendance": "2844"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Serbia",
-      "score": "72-74",
-      "date": "2025-11-30",
-      "time": "20:00",
-      "utc": "2025-11-30T19:00:00+00:00",
-      "venue": "Mirza Delibašić Hall, Sarajevo",
-      "attendance": "4500"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Nigeria",
       "away": "Rwanda",
@@ -1510,6 +1499,17 @@
       "utc": "2025-11-30T19:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
       "attendance": "100"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Bosnia and Herzegovina",
+      "away": "Serbia",
+      "score": "72-74",
+      "date": "2025-11-30",
+      "time": "20:00",
+      "utc": "2025-11-30T19:00:00+00:00",
+      "venue": "Mirza Delibašić Hall, Sarajevo",
+      "attendance": "4500"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -2458,6 +2458,17 @@
       "attendance": "1408"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Madagascar",
+      "away": "Ivory Coast",
+      "score": "74-99",
+      "date": "2026-03-01",
+      "time": "18:00",
+      "utc": "2026-03-01T18:00:00+00:00",
+      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
+      "attendance": "850"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Puerto Rico",
       "away": "Bahamas",
@@ -2511,17 +2522,6 @@
       "utc": "2026-03-01T17:00:00+00:00",
       "venue": "Horácká aréna, Jihlava",
       "attendance": "5321"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Madagascar",
-      "away": "Ivory Coast",
-      "score": "74-99",
-      "date": "2026-03-01",
-      "time": "18:00",
-      "utc": "2026-03-01T18:00:00+00:00",
-      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
-      "attendance": "850"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -4460,17 +4460,6 @@
       "attendance": "8741"
     },
     {
-      "league": "super-league-2026",
-      "home": "Toulouse Olympique",
-      "away": "Wakefield Trinity",
-      "score": "18–22",
-      "date": "2026-05-23",
-      "time": "18:00",
-      "utc": "2026-05-23T17:00:00+00:00",
-      "venue": "Stade Ernest Wallon",
-      "attendance": "3259"
-    },
-    {
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Prague Lions",
@@ -4491,6 +4480,17 @@
       "utc": "2026-05-23T16:00:00+00:00",
       "venue": "Gladsaxe Stadium , Søborg",
       "attendance": "1617"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Toulouse Olympique",
+      "away": "Wakefield Trinity",
+      "score": "18–22",
+      "date": "2026-05-23",
+      "time": "18:00",
+      "utc": "2026-05-23T17:00:00+00:00",
+      "venue": "Stade Ernest Wallon",
+      "attendance": "3259"
     },
     {
       "league": "nrl-2026",
@@ -5351,17 +5351,6 @@
       "attendance": "24938"
     },
     {
-      "league": "super-league-2026",
-      "home": "Catalans Dragons",
-      "away": "Castleford Tigers",
-      "score": "34–28",
-      "date": "2026-06-13",
-      "time": "18:00",
-      "utc": "2026-06-13T17:00:00+00:00",
-      "venue": "Stade Gilbert Brutus",
-      "attendance": "7222"
-    },
-    {
       "league": "efa-2026",
       "home": "Paris Musketeers",
       "away": "Raiders Tirol",
@@ -5371,6 +5360,17 @@
       "utc": "2026-06-13T16:00:00+00:00",
       "venue": "Stade Bauer , Saint-Ouen-sur-Seine",
       "attendance": "2413"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Catalans Dragons",
+      "away": "Castleford Tigers",
+      "score": "34–28",
+      "date": "2026-06-13",
+      "time": "18:00",
+      "utc": "2026-06-13T17:00:00+00:00",
+      "venue": "Stade Gilbert Brutus",
+      "attendance": "7222"
     },
     {
       "league": "afle-2026",
@@ -6784,17 +6784,6 @@
       "group": "Pool C"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "India",
-      "away": "Qatar",
-      "score": "56-65",
-      "date": "2026-07-02",
-      "time": "18:00",
-      "utc": "2026-07-02T12:30:00+00:00",
-      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
-      "attendance": "3587"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Cameroon",
@@ -6815,6 +6804,17 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "3400"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "India",
+      "away": "Qatar",
+      "score": "56-65",
+      "date": "2026-07-02",
+      "time": "18:00",
+      "utc": "2026-07-02T12:30:00+00:00",
+      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
+      "attendance": "3587"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -6850,6 +6850,17 @@
       "attendance": "19100"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Uganda",
+      "away": "Angola",
+      "score": "62-95",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "utc": "2026-07-02T18:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "1000"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Denmark",
@@ -6881,17 +6892,6 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Centro de Desportos e Congressos de Matosinhos, Matosinhos",
       "attendance": "1612"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Uganda",
-      "away": "Angola",
-      "score": "62-95",
-      "date": "2026-07-02",
-      "time": "19:00",
-      "utc": "2026-07-02T18:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "1000"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -7039,6 +7039,17 @@
       "attendance": "12489"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Rwanda",
+      "away": "Tunisia",
+      "score": "67-83",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "utc": "2026-07-03T18:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "40"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Colombia",
       "away": "Chile",
@@ -7081,17 +7092,6 @@
       "utc": "2026-07-03T17:00:00+00:00",
       "venue": "Hovet, Stockholm",
       "attendance": "9000"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Rwanda",
-      "away": "Tunisia",
-      "score": "67-83",
-      "date": "2026-07-03",
-      "time": "19:00",
-      "utc": "2026-07-03T18:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "40"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -7281,6 +7281,17 @@
       "attendance": "34539"
     },
     {
+      "league": "afle-2026",
+      "home": "Panthers Wrocław",
+      "away": "Paris Lights",
+      "score": "45-36",
+      "date": "2026-07-04",
+      "time": "15:00",
+      "utc": "2026-07-04T13:00:00+00:00",
+      "venue": "Olympic Stadium , Wrocław",
+      "attendance": "2659"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Cape Verde",
@@ -7301,17 +7312,6 @@
       "utc": "2026-07-04T15:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "125"
-    },
-    {
-      "league": "afle-2026",
-      "home": "Panthers Wrocław",
-      "away": "Paris Lights",
-      "score": "45-36",
-      "date": "2026-07-04",
-      "time": "15:00",
-      "utc": "2026-07-04T13:00:00+00:00",
-      "venue": "Olympic Stadium , Wrocław",
-      "attendance": "2659"
     },
     {
       "league": "cfl-2026",
@@ -7413,6 +7413,17 @@
       "attendance": "52790"
     },
     {
+      "league": "efa-2026",
+      "home": "Raiders Tirol",
+      "away": "Munich Ravens",
+      "score": "24-32",
+      "date": "2026-07-04",
+      "time": "18:00",
+      "utc": "2026-07-04T16:00:00+00:00",
+      "venue": "Tivoli Stadion Tirol , Innsbruck",
+      "attendance": "3076"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Chile",
       "away": "Romania",
@@ -7444,17 +7455,6 @@
       "utc": "2026-07-04T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar",
       "attendance": "320"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Raiders Tirol",
-      "away": "Munich Ravens",
-      "score": "24-32",
-      "date": "2026-07-04",
-      "time": "18:00",
-      "utc": "2026-07-04T16:00:00+00:00",
-      "venue": "Tivoli Stadion Tirol , Innsbruck",
-      "attendance": "3076"
     },
     {
       "league": "nations-cup-2026",
@@ -7600,28 +7600,6 @@
       "attendance": "42903"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Denmark",
-      "away": "Ukraine",
-      "score": "69-99",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T13:00:00+00:00",
-      "venue": "Farum Arena, Farum",
-      "attendance": "1317"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Great Britain",
-      "away": "Iceland",
-      "score": "86-88",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "National Basketball Performance Centre, Manchester",
-      "attendance": "2045"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Libya",
@@ -7644,15 +7622,26 @@
       "attendance": "200"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Uganda",
-      "score": "77-70",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Denmark",
+      "away": "Ukraine",
+      "score": "69-99",
       "date": "2026-07-05",
-      "time": "16:00",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "1000"
+      "time": "15:00",
+      "utc": "2026-07-05T13:00:00+00:00",
+      "venue": "Farum Arena, Farum",
+      "attendance": "1317"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Great Britain",
+      "away": "Iceland",
+      "score": "86-88",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "National Basketball Performance Centre, Manchester",
+      "attendance": "2045"
     },
     {
       "league": "efa-2026",
@@ -7664,6 +7653,17 @@
       "utc": "2026-07-05T14:00:00+00:00",
       "venue": "Stade Essone , Bondoufle",
       "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Uganda",
+      "score": "77-70",
+      "date": "2026-07-05",
+      "time": "16:00",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "1000"
     },
     {
       "league": "nrl-2026",
@@ -7710,17 +7710,6 @@
       "attendance": "42903"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Qatar",
-      "score": "73-76",
-      "date": "2026-07-05",
-      "time": "18:00",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "1152"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Cameroon",
@@ -7741,6 +7730,17 @@
       "utc": "2026-07-05T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "3450"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Qatar",
+      "score": "73-76",
+      "date": "2026-07-05",
+      "time": "18:00",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "1152"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -8408,17 +8408,6 @@
       "attendance": "45053"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "Chile",
-      "away": "Hong Kong",
-      "score": "38-17",
-      "date": "2026-07-11",
-      "time": "18:00",
-      "utc": "2026-07-11T22:00:00+00:00",
-      "venue": "Estadio Sausalito, Vina del Mar",
-      "attendance": "12000"
-    },
-    {
       "league": "efa-2026",
       "home": "Raiders Tirol",
       "away": "Nordic Storm",
@@ -8428,6 +8417,17 @@
       "utc": "2026-07-11T16:00:00+00:00",
       "venue": "Tivoli Stadion Tirol , Innsbruck",
       "attendance": "2312"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "Chile",
+      "away": "Hong Kong",
+      "score": "38-17",
+      "date": "2026-07-11",
+      "time": "18:00",
+      "utc": "2026-07-11T22:00:00+00:00",
+      "venue": "Estadio Sausalito, Vina del Mar",
+      "attendance": "12000"
     },
     {
       "league": "afle-2026",
@@ -9169,6 +9169,17 @@
       "attendance": "55125"
     },
     {
+      "league": "efa-2026",
+      "home": "Paris Musketeers",
+      "away": "Nordic Storm",
+      "score": "3-41",
+      "date": "2026-07-18",
+      "time": "15:00",
+      "utc": "2026-07-18T13:00:00+00:00",
+      "venue": "Stade Essone , Bondoufle",
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Canberra Raiders",
       "away": "South Sydney Rabbitohs",
@@ -9189,17 +9200,6 @@
       "utc": "2026-07-18T14:00:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "10025"
-    },
-    {
-      "league": "efa-2026",
-      "home": "Paris Musketeers",
-      "away": "Nordic Storm",
-      "score": "3-41",
-      "date": "2026-07-18",
-      "time": "15:00",
-      "utc": "2026-07-18T13:00:00+00:00",
-      "venue": "Stade Essone , Bondoufle",
-      "attendance": null
     },
     {
       "league": "efa-2026",
@@ -9518,17 +9518,6 @@
       "attendance": null
     },
     {
-      "league": "currie-cup-2026",
-      "home": "Cheetahs",
-      "away": "Lions",
-      "score": "29-27",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "utc": "2026-07-19T11:00:00+00:00",
-      "venue": "Free State Stadium, Bloemfontein",
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Prague Lions",
       "away": "Munich Ravens",
@@ -9537,6 +9526,17 @@
       "time": "13:00",
       "utc": "2026-07-19T11:00:00+00:00",
       "venue": "FK Viktoria Stadion , Prague",
+      "attendance": null
+    },
+    {
+      "league": "currie-cup-2026",
+      "home": "Cheetahs",
+      "away": "Lions",
+      "score": "29-27",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "utc": "2026-07-19T11:00:00+00:00",
+      "venue": "Free State Stadium, Bloemfontein",
       "attendance": null
     },
     {
@@ -10728,17 +10728,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "BC Lions",
-      "away": "Hamilton Tiger-Cats",
-      "score": "27-24",
-      "date": "2026-08-08",
-      "time": "16:00",
-      "utc": "2026-08-08T23:00:00+00:00",
-      "venue": "BC Place",
-      "attendance": "19387"
-    },
-    {
       "league": "afle-2026",
       "home": "Alpine Rams",
       "away": "Firenze Red Lions",
@@ -10748,6 +10737,17 @@
       "utc": "2026-08-08T14:00:00+00:00",
       "venue": "Tissot Arena , Biel/Bienne",
       "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "BC Lions",
+      "away": "Hamilton Tiger-Cats",
+      "score": "27-24",
+      "date": "2026-08-08",
+      "time": "16:00",
+      "utc": "2026-08-08T23:00:00+00:00",
+      "venue": "BC Place",
+      "attendance": "19387"
     },
     {
       "league": "npc-2026",
@@ -11124,17 +11124,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Edmonton Elks",
-      "away": "Toronto Argonauts",
-      "score": "42-12",
-      "date": "2026-08-15",
-      "time": "13:00",
-      "utc": "2026-08-15T19:00:00+00:00",
-      "venue": "Commonwealth Stadium",
-      "attendance": "22583"
-    },
-    {
       "league": "afle-2026",
       "home": "Paris Lights",
       "away": "Berlin Thunder",
@@ -11144,6 +11133,17 @@
       "utc": "2026-08-15T11:00:00+00:00",
       "venue": "Vélodrome Jacques-Anquetil , Paris",
       "attendance": "252"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Edmonton Elks",
+      "away": "Toronto Argonauts",
+      "score": "42-12",
+      "date": "2026-08-15",
+      "time": "13:00",
+      "utc": "2026-08-15T19:00:00+00:00",
+      "venue": "Commonwealth Stadium",
+      "attendance": "22583"
     },
     {
       "league": "npc-2026",
@@ -11324,17 +11324,6 @@
       "attendance": null
     },
     {
-      "league": "currie-cup-2026",
-      "home": "Bulls XV",
-      "away": "Cheetahs",
-      "score": "52-62",
-      "date": "2026-08-16",
-      "time": "15:00",
-      "utc": "2026-08-16T13:00:00+00:00",
-      "venue": "Loftus Versfeld Stadium, Pretoria",
-      "attendance": null
-    },
-    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Paris Musketeers",
@@ -11346,6 +11335,17 @@
       "attendance": null,
       "group": "Playoffs",
       "round": "BIG4"
+    },
+    {
+      "league": "currie-cup-2026",
+      "home": "Bulls XV",
+      "away": "Cheetahs",
+      "score": "52-62",
+      "date": "2026-08-16",
+      "time": "15:00",
+      "utc": "2026-08-16T13:00:00+00:00",
+      "venue": "Loftus Versfeld Stadium, Pretoria",
+      "attendance": null
     },
     {
       "league": "afle-2026",
@@ -11876,6 +11876,17 @@
       "attendance": "1800"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Senegal",
+      "score": "76-67",
+      "date": "2026-08-27",
+      "time": "18:30",
+      "utc": "2026-08-27T18:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": "550"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Finland",
       "away": "Sweden",
@@ -11888,14 +11899,14 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Senegal",
-      "score": "76-67",
+      "home": "Tunisia",
+      "away": "Cape Verde",
+      "score": "60-56",
       "date": "2026-08-27",
-      "time": "18:30",
-      "utc": "2026-08-27T18:30:00+00:00",
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": "550"
+      "time": "19:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès",
+      "attendance": "500"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -11907,17 +11918,6 @@
       "utc": "2026-08-27T16:00:00+00:00",
       "venue": "Al Janoub Stadium, Al Wakrah",
       "attendance": "6985"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "Cape Verde",
-      "score": "60-56",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "utc": "2026-08-27T18:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": "500"
     },
     {
       "league": "npc-2026",
@@ -12151,17 +12151,6 @@
       "attendance": "13597"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Ukraine",
-      "away": "Greece",
-      "score": "82-76",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "utc": "2026-08-28T16:00:00+00:00",
-      "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Ukraine}}",
-      "attendance": "900"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cameroon",
       "away": "Tunisia",
@@ -12171,6 +12160,17 @@
       "utc": "2026-08-28T18:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
       "attendance": "500"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Ukraine",
+      "away": "Greece",
+      "score": "82-76",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "utc": "2026-08-28T16:00:00+00:00",
+      "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Ukraine}}",
+      "attendance": "900"
     },
     {
       "league": "npc-2026",
@@ -12740,6 +12740,17 @@
       "attendance": "13727"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Tunisia",
+      "away": "South Sudan",
+      "score": "75-79",
+      "date": "2026-08-30",
+      "time": "19:00",
+      "utc": "2026-08-30T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès",
+      "attendance": "1200"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Israel",
@@ -12760,17 +12771,6 @@
       "utc": "2026-08-30T16:00:00+00:00",
       "venue": "Unibet Arena, Tallinn",
       "attendance": "7068"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "South Sudan",
-      "score": "75-79",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "utc": "2026-08-30T18:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": "1200"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -16612,6 +16612,72 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cameroon",
+      "away": "Nigeria",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "South Sudan",
+      "away": "Guinea",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cape Verde",
+      "away": "Tunisia",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Senegal",
+      "away": "Egypt",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "Mali",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "DR Congo",
+      "away": "Angola",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "United States",
       "away": "Chile",
@@ -16745,10 +16811,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Cameroon",
-      "away": "Nigeria",
+      "home": "Tunisia",
+      "away": "Cameroon",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16756,10 +16822,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "South Sudan",
-      "away": "Guinea",
+      "home": "Nigeria",
+      "away": "South Sudan",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16767,10 +16833,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Cape Verde",
-      "away": "Tunisia",
+      "home": "Guinea",
+      "away": "Cape Verde",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16778,10 +16844,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Senegal",
-      "away": "Egypt",
+      "home": "Angola",
+      "away": "Senegal",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16789,10 +16855,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "Mali",
+      "home": "Egypt",
+      "away": "Ivory Coast",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16800,10 +16866,10 @@
     },
     {
       "league": "fiba-wcq-africa-2027",
-      "home": "DR Congo",
-      "away": "Angola",
+      "home": "Mali",
+      "away": "DR Congo",
       "score": null,
-      "date": "2027-02-25",
+      "date": "2027-02-26",
       "time": null,
       "utc": null,
       "venue": null,
@@ -16942,72 +17008,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "Cameroon",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Nigeria",
-      "away": "South Sudan",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "Cape Verde",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Senegal",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Ivory Coast",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Mali",
-      "away": "DR Congo",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "top14-2026",
       "home": "Bordeaux Begles",
       "away": "Toulon",
@@ -17082,6 +17082,72 @@
       "time": "00:00",
       "utc": "2027-02-27T00:00:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cameroon",
+      "away": "Guinea",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "South Sudan",
+      "away": "Tunisia",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cape Verde",
+      "away": "Nigeria",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Senegal",
+      "away": "Mali",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "Angola",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "DR Congo",
+      "away": "Egypt",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
       "attendance": null
     },
     {
@@ -17209,72 +17275,6 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Hungary",
       "away": "Sweden",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cameroon",
-      "away": "Guinea",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "South Sudan",
-      "away": "Tunisia",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cape Verde",
-      "away": "Nigeria",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Senegal",
-      "away": "Mali",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "Angola",
-      "score": null,
-      "date": "2027-02-28",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "DR Congo",
-      "away": "Egypt",
       "score": null,
       "date": "2027-02-28",
       "time": null,
