@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T21:30:14+00:00",
+  "updated": "2026-09-04T21:41:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22991,6 +22991,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sarmiento (J)",
+            "played": 8,
+            "win": 5,
+            "draw": 0,
+            "loss": 3,
+            "for": 15,
+            "against": 12,
+            "diff": 3,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tigre",
             "played": 7,
             "win": 3,
@@ -22999,18 +23011,6 @@
             "for": 6,
             "against": 3,
             "diff": 3,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Sarmiento (J)",
-            "played": 7,
-            "win": 4,
-            "draw": 0,
-            "loss": 3,
-            "for": 13,
-            "against": 12,
-            "diff": 1,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -23124,13 +23124,13 @@
           },
           {
             "team": "Estudiantes (RC)",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": 3,
-            "loss": 3,
+            "loss": 4,
             "for": 3,
-            "against": 7,
-            "diff": -4,
+            "against": 9,
+            "diff": -6,
             "points": 6,
             "highlight": "transparent"
           },
