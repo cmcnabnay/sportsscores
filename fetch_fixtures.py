@@ -3349,6 +3349,46 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, now):
     return list(merged.values())
 
 
+def sync_playoff_scores_into_matches(matches, key, bracket):
+    """Backfill a playoff match's score in `matches` (in place) from the
+    just-fetched playoffs bracket for league `key`.
+
+    Playoff games live on Wikipedia as a {{4TeamBracket}}-style template,
+    not a row in the Results wikitable that parse_wikitable_matches()
+    reads - so fetch_and_parse() never yields them at all, and a playoff
+    match's `matches` entry (however it originally got seeded - e.g. from
+    the bracket's team/seed pairing before either game had been played)
+    can never pick up its final score through the normal merge path in
+    run(), no matter how many times the league is re-fetched or --forced.
+    fetch_playoffs_bracket() is the only code path that ever sees these
+    scores, so it has to be the one to write them into `matches` too.
+
+    Matches a bracket game to a stored `matches` entry the same way
+    merge_league_matches() matches anything else: same league, same
+    (sorted team pair, date) identity - and only ever fills in a score
+    that's still None, never overwrites one already there."""
+    if not bracket:
+        return
+    by_ident = {}
+    for m in matches:
+        if m.get("league") == key:
+            by_ident.setdefault(_match_identity(m), m)
+    for round_ in bracket.get("rounds", []):
+        for game in round_.get("matches", []):
+            score1, score2 = game.get("score1"), game.get("score2")
+            if score1 is None or score2 is None:
+                continue
+            team1, team2 = game.get("team1"), game.get("team2")
+            ident = (tuple(sorted([team1 or "", team2 or ""])), game.get("date"))
+            stored = by_ident.get(ident)
+            if stored is None or stored.get("score") is not None:
+                continue
+            if stored.get("home") == team1:
+                stored["score"] = f"{score1}-{score2}"
+            else:
+                stored["score"] = f"{score2}-{score1}"
+
+
 def load_existing():
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
@@ -3589,7 +3629,7 @@ def parse_matrix_team_results(wikitext, team_code, team_name, interzonal_heading
     actually on the page and what fixtures.json expects is visible
     directly instead of having to guess at it."""
     team_aliases = {}
-    for m in re.finditer(r"\|name_([A-Z]{3})=(.+)", wikitext):
+    for m in re.finditer(r"\|name_([A-Z]{3})\s*=\s*(.+)", wikitext):
         team_aliases[m.group(1)] = _matrix_wikilink_aliases(m.group(2))
     this_team_aliases = team_aliases.get(team_code, {team_name})
     if debug:
@@ -3600,7 +3640,7 @@ def parse_matrix_team_results(wikitext, team_code, team_name, interzonal_heading
     # overwrites an earlier one, so these end up holding whichever phase's
     # block appeared last (see docstring).
     home_direction, away_direction = {}, {}
-    for m in re.finditer(rf"\|match_{team_code}_([A-Z]{{3}})=(.*)", wikitext):
+    for m in re.finditer(rf"\|match_{team_code}_([A-Z]{{3}})\s*=\s*(.*)", wikitext):
         code, raw = m.group(1), m.group(2)
         if debug:
             cleaned = _matrix_clean_cell(raw)
@@ -3609,7 +3649,7 @@ def parse_matrix_team_results(wikitext, team_code, team_name, interzonal_heading
                   f"{' (overwrites earlier occurrence)' if code in home_direction else ''}")
         if code != team_code and code in team_aliases:
             home_direction[code] = raw
-    for m in re.finditer(rf"\|match_([A-Z]{{3}})_{team_code}=(.*)", wikitext):
+    for m in re.finditer(rf"\|match_([A-Z]{{3}})_{team_code}\s*=\s*(.*)", wikitext):
         code, raw = m.group(1), m.group(2)
         if debug:
             cleaned = _matrix_clean_cell(raw)
@@ -3985,6 +4025,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 bracket = fetch_playoffs_bracket(cfg, key)
                 if bracket:
                     data["playoffs"][key] = bracket
+                    sync_playoff_scores_into_matches(data["matches"], key, bracket)
                     print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! playoffs failed: {e}", file=sys.stderr)
@@ -4052,6 +4093,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             bracket = fetch_playoffs_bracket(cfg, key)
             if bracket:
                 data["playoffs"][key] = bracket
+                sync_playoff_scores_into_matches(data["matches"], key, bracket)
                 print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
         except Exception as e:
             print(f"  !! playoffs failed: {e}", file=sys.stderr)
