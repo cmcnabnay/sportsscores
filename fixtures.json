@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:17:14+00:00",
+  "updated": "2026-09-04T15:27:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23578,6 +23578,141 @@
               "score2": null,
               "date": "2026-09-06",
               "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
+            }
+          ]
+        }
+      ]
+    },
+    "npc-2026": {
+      "name": "2026 National Provincial Championship · Play-offs",
+      "rounds": [
+        {
+          "label": "Quarter-finals",
+          "matches": [
+            {
+              "seed1": 1,
+              "team1": null,
+              "score1": null,
+              "seed2": 8,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-09",
+              "venue": null
+            },
+            {
+              "seed1": 4,
+              "team1": null,
+              "score1": null,
+              "seed2": 5,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-10",
+              "venue": null
+            },
+            {
+              "seed1": 2,
+              "team1": null,
+              "score1": null,
+              "seed2": 7,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-10",
+              "venue": null
+            },
+            {
+              "seed1": 3,
+              "team1": null,
+              "score1": null,
+              "seed2": 6,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-11",
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Semi-finals",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-16",
+              "venue": null
+            },
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-17",
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": "2026-10-24",
+              "venue": null
+            }
+          ]
+        }
+      ]
+    },
+    "currie-cup-2026": {
+      "name": "Currie Cup Premier Division 2026 · Play-offs",
+      "rounds": [
+        {
+          "label": "Semifinals",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Griquas",
+              "score1": null,
+              "seed2": null,
+              "team2": "Lions",
+              "score2": null,
+              "date": "2026-09-06",
+              "venue": "Griqua Park, Kimberley"
+            },
+            {
+              "seed1": null,
+              "team1": "Cheetahs",
+              "score1": null,
+              "seed2": null,
+              "team2": "Pumas",
+              "score2": null,
+              "date": "2026-09-06",
+              "venue": "Free State Stadium, Bloemfontein"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "TBC",
+              "score1": null,
+              "seed2": null,
+              "team2": "TBC",
+              "score2": null,
+              "date": "2026-09-12",
+              "venue": "TBC"
             }
           ]
         }

@@ -235,6 +235,19 @@ LEAGUES = {
                 {"label": "Premier Division", "heading_ids": ["Standings", "Table"]},
             ],
         },
+        # No *TeamBracket template on this page - the knockout matches
+        # (set by regular-season standings, not a published bracket) are
+        # just {{Rugbybox collapsible2}} boxes under their own "=== Semi
+        # Finals ===" / "=== Final ===" headings, same as every other
+        # round. build_headed_playoff_rounds() reads those two sections
+        # directly with the normal rugbybox2 parser instead of looking
+        # for a bracket template. See fetch_playoffs_bracket().
+        "playoffs": {
+            "rounds": [
+                {"heading": "Semi Finals", "label": "Semifinals"},
+                {"heading": "Final", "label": "Final"},
+            ],
+        },
     },
     "npc-2026": {
         "name": "2026 National Provincial Championship",
@@ -249,6 +262,15 @@ LEAGUES = {
                 {"label": "Standings", "heading_ids": ["Standings", "Table"]},
             ],
         },
+        # Confirmed from the page's own wikitext: "==Play-offs==" holds a
+        # single {{8TeamBracket}} template (Quarter-finals -> Semi-finals
+        # -> Final). Teams are still unseeded placeholders ({{Rut|}}) as
+        # of writing - build_bracket_rounds() reads those as team=None,
+        # so the bracket shows up in the Playoffs tab with empty slots
+        # and fills itself in as Wikipedia updates the template, no code
+        # change needed once real teams/seeds land. See
+        # fetch_playoffs_bracket().
+        "playoffs": {},
     },
     "internationals-2026": {
         "name": "Rugby Internationals 2026",
@@ -1935,7 +1957,15 @@ def parse_bracket_template(inner):
         if "=" not in raw_param:
             continue
         key, val = raw_param.split("=", 1)
-        key, val = key.strip(), val.strip()
+        key = key.strip()
+        # A round-transition comment (e.g. "<!-- Semi-finals -->", used to
+        # mark where the next RD block starts) sits on its own line right
+        # after the last param of the previous round, with no "|" between
+        # it and that param's value - so it gets swept into that value
+        # otherwise (e.g. an empty RD1-score8 ends up as literally
+        # "<!-- Semi-finals -->", and a round's RD*-label like
+        # "[[#Final|Final]]" picks up the *next* round's leading comment).
+        val = re.sub(r"<!--.*?-->", "", val, flags=re.S).strip()
         m = _BRACKET_PARAM_RE.match(key)
         if not m:
             continue
@@ -2044,6 +2074,75 @@ def enrich_bracket_round_dates_venues(section_text, round_label, matches):
                 m["venue"] = venue
 
 
+def _parse_wikitext_section_matches(cfg, key, section_text):
+    """Parse a chunk of wikitext (already narrowed to one heading's
+    section) with whichever of the wikitext-based match-box parsers this
+    league's "parser" config names - i.e. the same parser fetch_and_parse()
+    would use on the full page, just handed a section instead. Used by
+    build_headed_playoff_rounds() to read a knockout round's matches
+    directly off the page the same way the regular season is read,
+    without needing a *TeamBracket template. Returns [] for a "parser"
+    that isn't one of the wikitext (as opposed to HTML-vevent) parsers -
+    those pages don't have wikitext sections to hand this in the first
+    place."""
+    parser_type = cfg.get("parser", "vevent")
+    if parser_type == "rugbybox":
+        return parse_rugbybox_matches(section_text, key, cfg)
+    if parser_type == "rugbybox2":
+        return parse_rugbybox2_matches(section_text, key, cfg)
+    if parser_type == "rugbybox3":
+        return parse_rugbybox3_matches(section_text, key, cfg)
+    if parser_type == "bare_table":
+        return parse_bare_table_matches(section_text, key, cfg)
+    if parser_type == "basketballbox":
+        return parse_basketballbox_matches(section_text, key, cfg)
+    return []
+
+
+_SCORE_RE = re.compile(r"^(\d+)-(\d+)$")
+
+
+def build_headed_playoff_rounds(cfg, key, wikitext, rounds_cfg):
+    """Build playoff bracket rounds for a league whose knockout matches
+    are just plain match-box templates under their own headings (e.g.
+    "=== Semi Finals ===", "=== Final ==="), with no *TeamBracket
+    template on the page at all to read seeding from (Currie Cup:
+    knockout matches are set purely by regular-season standings, and the
+    page publishes them exactly like any other round's fixtures - see
+    parse_rugbybox2_matches). Reuses the league's normal match parser on
+    each heading's own section, then reshapes {home,away,score,date,venue}
+    into the {seed1,team1,score1,seed2,team2,score2,date,venue} shape
+    build_bracket_rounds() produces from an actual bracket template
+    (seed1/seed2 always None here - the page doesn't state one)."""
+    rounds = []
+    for entry in rounds_cfg:
+        heading = entry["heading"]
+        _level, content = find_wikitext_section(wikitext, heading)
+        if content is None:
+            print(f"  !! playoffs: couldn't find {heading!r} section on page "
+                  f"for {key} - heading may need updating", file=sys.stderr)
+            continue
+        section_matches = _parse_wikitext_section_matches(cfg, key, content)
+        matches = []
+        for sm in section_matches:
+            score1 = score2 = None
+            m = _SCORE_RE.match(sm.get("score") or "")
+            if m:
+                score1, score2 = int(m.group(1)), int(m.group(2))
+            matches.append({
+                "seed1": None,
+                "team1": sm.get("home"),
+                "score1": score1,
+                "seed2": None,
+                "team2": sm.get("away"),
+                "score2": score2,
+                "date": sm.get("date"),
+                "venue": sm.get("venue"),
+            })
+        rounds.append({"label": entry.get("label", heading), "matches": matches})
+    return rounds
+
+
 def fetch_playoffs_bracket(cfg, key):
     """Fetch and parse a league's Wikipedia-hosted playoff bracket into
     the {name, rounds: [{label, matches: [{seed1,team1,score1,seed2,
@@ -2058,9 +2157,17 @@ def fetch_playoffs_bracket(cfg, key):
         return None
 
     page = playoffs_cfg.get("page") or cfg["page"]
-    heading = playoffs_cfg.get("heading", "Play-offs")
     wikitext = fetch_page_wikitext(page)
 
+    rounds_cfg = playoffs_cfg.get("rounds")
+    if rounds_cfg:
+        rounds = build_headed_playoff_rounds(cfg, key, wikitext, rounds_cfg)
+        if not rounds:
+            return None
+        name = playoffs_cfg.get("name", f'{cfg["name"]} · Play-offs')
+        return {"name": name, "rounds": rounds}
+
+    heading = playoffs_cfg.get("heading", "Play-offs")
     _level, section = find_wikitext_section(wikitext, heading)
     if section is None:
         print(f"  !! playoffs: couldn't find {heading!r} section on page {page!r} "
