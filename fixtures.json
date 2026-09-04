@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T20:47:16+00:00",
+  "updated": "2026-09-04T20:58:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13023,7 +13023,7 @@
       "time": "18:00",
       "utc": "2026-09-04T17:00:00+00:00",
       "venue": "Stade Ernest Wallon",
-      "attendance": null
+      "attendance": "7360"
     },
     {
       "league": "npc-2026",
@@ -13073,12 +13073,12 @@
       "league": "super-league-2026",
       "home": "Hull KR",
       "away": "Huddersfield Giants",
-      "score": null,
+      "score": "36–6",
       "date": "2026-09-04",
       "time": "20:00",
       "utc": "2026-09-04T19:00:00+00:00",
       "venue": "Sewell Group Craven Park",
-      "attendance": null
+      "attendance": "11787"
     },
     {
       "league": "super-league-2026",
@@ -21726,38 +21726,38 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Leigh Leopards",
-            "played": 25,
-            "win": 16,
+            "team": "Leigh Leopards (Q)",
+            "played": 26,
+            "win": 17,
             "draw": 0,
             "loss": 9,
-            "for": 588,
-            "against": 468,
-            "diff": 120,
+            "for": 636,
+            "against": 478,
+            "diff": 158,
+            "points": 34,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Hull KR (Q)",
+            "played": 26,
+            "win": 16,
+            "draw": 0,
+            "loss": 10,
+            "for": 736,
+            "against": 467,
+            "diff": 269,
             "points": 32,
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Hull KR",
-            "played": 25,
-            "win": 15,
-            "draw": 0,
-            "loss": 10,
-            "for": 700,
-            "against": 461,
-            "diff": 239,
-            "points": 30,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "St Helens",
-            "played": 25,
+            "played": 26,
             "win": 14,
             "draw": 0,
-            "loss": 11,
-            "for": 590,
-            "against": 554,
-            "diff": 36,
+            "loss": 12,
+            "for": 600,
+            "against": 602,
+            "diff": -2,
             "points": 28,
             "highlight": "transparent"
           },
@@ -21811,13 +21811,13 @@
           },
           {
             "team": "Huddersfield Giants",
-            "played": 25,
+            "played": 26,
             "win": 7,
             "draw": 0,
-            "loss": 18,
-            "for": 455,
-            "against": 713,
-            "diff": -258,
+            "loss": 19,
+            "for": 461,
+            "against": 749,
+            "diff": -288,
             "points": 14,
             "highlight": "transparent"
           },
