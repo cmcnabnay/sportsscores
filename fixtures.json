@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T19:08:13+00:00",
+  "updated": "2026-09-04T19:19:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21762,6 +21762,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Toulouse Olympique",
+            "played": 26,
+            "win": 10,
+            "draw": 0,
+            "loss": 16,
+            "for": 564,
+            "against": 678,
+            "diff": -114,
+            "points": 20,
+            "highlight": "transparent"
+          },
+          {
             "team": "Catalans Dragons",
             "played": 25,
             "win": 10,
@@ -21771,18 +21783,6 @@
             "against": 724,
             "diff": -215,
             "points": 20,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Toulouse Olympique",
-            "played": 25,
-            "win": 9,
-            "draw": 0,
-            "loss": 16,
-            "for": 520,
-            "against": 648,
-            "diff": -128,
-            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -21799,13 +21799,13 @@
           },
           {
             "team": "Hull F.C.",
-            "played": 25,
+            "played": 26,
             "win": 7,
             "draw": 0,
-            "loss": 18,
-            "for": 440,
-            "against": 541,
-            "diff": -101,
+            "loss": 19,
+            "for": 470,
+            "against": 585,
+            "diff": -115,
             "points": 14,
             "highlight": "transparent"
           },
