@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T15:46:16+00:00",
+  "updated": "2026-09-05T15:57:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13128,7 +13128,7 @@
       "league": "super-league-2026",
       "home": "Wakefield Trinity",
       "away": "Warrington Wolves",
-      "score": null,
+      "score": "25–18",
       "date": "2026-09-05",
       "time": "15:00",
       "utc": "2026-09-05T14:00:00+00:00",
@@ -21722,7 +21722,7 @@
       "Table": {
         "rows": [
           {
-            "team": "Leeds Rhinos (T)",
+            "team": "Leeds Rhinos (Q)",
             "played": 25,
             "win": 20,
             "draw": 0,
@@ -21734,7 +21734,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Wigan Warriors (T)",
+            "team": "Wigan Warriors (Q)",
             "played": 25,
             "win": 20,
             "draw": 0,
@@ -21746,27 +21746,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Warrington Wolves (T)",
-            "played": 25,
+            "team": "Warrington Wolves (Q)",
+            "played": 26,
             "win": 19,
             "draw": 0,
-            "loss": 6,
-            "for": 682,
-            "against": 426,
-            "diff": 256,
+            "loss": 7,
+            "for": 700,
+            "against": 451,
+            "diff": 249,
             "points": 38,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Wakefield Trinity (Q)",
-            "played": 25,
-            "win": 17,
+            "played": 26,
+            "win": 18,
             "draw": 0,
             "loss": 8,
-            "for": 665,
-            "against": 460,
-            "diff": 205,
-            "points": 34,
+            "for": 690,
+            "against": 478,
+            "diff": 212,
+            "points": 36,
             "highlight": "#BBF3FF"
           },
           {
