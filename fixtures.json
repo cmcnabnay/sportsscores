@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T23:53:13+00:00",
+  "updated": "2026-09-05T00:04:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22891,26 +22891,26 @@
           },
           {
             "team": "Deportivo Riestra",
-            "played": 7,
+            "played": 8,
             "win": 2,
-            "draw": 2,
+            "draw": 3,
             "loss": 3,
-            "for": 7,
-            "against": 6,
+            "for": 8,
+            "against": 7,
             "diff": 1,
-            "points": 8,
+            "points": 9,
             "highlight": "transparent"
           },
           {
             "team": "Platense",
-            "played": 7,
+            "played": 8,
             "win": 2,
-            "draw": 2,
+            "draw": 3,
             "loss": 3,
-            "for": 7,
-            "against": 11,
+            "for": 8,
+            "against": 12,
             "diff": -4,
-            "points": 8,
+            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -23003,6 +23003,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Belgrano",
+            "played": 8,
+            "win": 3,
+            "draw": 3,
+            "loss": 2,
+            "for": 8,
+            "against": 5,
+            "diff": 3,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tigre",
             "played": 7,
             "win": 3,
@@ -23024,18 +23036,6 @@
             "against": 11,
             "diff": -1,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Belgrano",
-            "played": 7,
-            "win": 3,
-            "draw": 2,
-            "loss": 2,
-            "for": 7,
-            "against": 4,
-            "diff": 3,
-            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
@@ -23075,6 +23075,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Huracán",
+            "played": 8,
+            "win": 2,
+            "draw": 4,
+            "loss": 2,
+            "for": 6,
+            "against": 6,
+            "diff": 0,
+            "points": 10,
+            "highlight": "transparent"
+          },
+          {
             "team": "Barracas Central",
             "played": 7,
             "win": 3,
@@ -23084,18 +23096,6 @@
             "against": 5,
             "diff": -1,
             "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Huracán",
-            "played": 7,
-            "win": 2,
-            "draw": 3,
-            "loss": 2,
-            "for": 5,
-            "against": 5,
-            "diff": 0,
-            "points": 9,
             "highlight": "transparent"
           },
           {
