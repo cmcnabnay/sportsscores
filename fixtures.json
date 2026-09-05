@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T21:24:15+00:00",
+  "updated": "2026-09-05T21:35:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22871,6 +22871,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 8,
+            "win": 5,
+            "draw": 1,
+            "loss": 2,
+            "for": 14,
+            "against": 7,
+            "diff": 7,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Instituto",
             "played": 7,
             "win": 5,
@@ -22880,18 +22892,6 @@
             "against": 2,
             "diff": 4,
             "points": 16,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 7,
-            "win": 5,
-            "draw": 0,
-            "loss": 2,
-            "for": 12,
-            "against": 5,
-            "diff": 7,
-            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
@@ -22931,6 +22931,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Boca Juniors",
+            "played": 8,
+            "win": 2,
+            "draw": 5,
+            "loss": 1,
+            "for": 9,
+            "against": 10,
+            "diff": -1,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Unión",
             "played": 7,
             "win": 3,
@@ -22951,18 +22963,6 @@
             "for": 6,
             "against": 6,
             "diff": 0,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 7,
-            "win": 2,
-            "draw": 4,
-            "loss": 1,
-            "for": 7,
-            "against": 8,
-            "diff": -1,
             "points": 10,
             "highlight": "#BBF3BB"
           },
