@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T19:24:15+00:00",
+  "updated": "2026-09-05T19:35:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23058,6 +23058,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (LP)",
+            "played": 8,
+            "win": 5,
+            "draw": 0,
+            "loss": 3,
+            "for": 12,
+            "against": 12,
+            "diff": 0,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Belgrano",
             "played": 8,
             "win": 3,
@@ -23071,25 +23083,13 @@
           },
           {
             "team": "Tigre",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": 3,
-            "loss": 1,
-            "for": 6,
-            "against": 3,
-            "diff": 3,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (LP)",
-            "played": 7,
-            "win": 4,
-            "draw": 0,
-            "loss": 3,
-            "for": 10,
-            "against": 11,
-            "diff": -1,
+            "loss": 2,
+            "for": 7,
+            "against": 5,
+            "diff": 2,
             "points": 12,
             "highlight": "#BBF3BB"
           },
