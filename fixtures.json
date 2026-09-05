@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T20:51:15+00:00",
+  "updated": "2026-09-05T21:02:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13150,7 +13150,7 @@
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "York Knights",
-      "score": null,
+      "score": "16–28",
       "date": "2026-09-05",
       "time": "17:00",
       "utc": "2026-09-05T16:00:00+00:00",
@@ -13271,7 +13271,7 @@
       "league": "super-league-2026",
       "home": "Leeds Rhinos",
       "away": "Wigan Warriors",
-      "score": null,
+      "score": "8–40",
       "date": "2026-09-05",
       "time": "20:00",
       "utc": "2026-09-05T19:00:00+00:00",
@@ -14214,6 +14214,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Wigan/Leeds",
+      "away": "highest ranked winner",
+      "score": null,
+      "date": "2026-09-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Australia",
       "away": "South Africa",
@@ -14260,6 +14271,17 @@
     {
       "league": "super-league-2026",
       "home": "1st place",
+      "away": "lowest ranked winner",
+      "score": null,
+      "date": "2026-09-27",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Wigan/Leeds",
       "away": "lowest ranked winner",
       "score": null,
       "date": "2026-09-27",
@@ -21733,31 +21755,31 @@
       "Table": {
         "rows": [
           {
-            "team": "Leeds Rhinos (T)",
-            "played": 25,
-            "win": 20,
+            "team": "Wigan Warriors (Q)",
+            "played": 26,
+            "win": 21,
             "draw": 0,
             "loss": 5,
-            "for": 884,
-            "against": 368,
-            "diff": 516,
+            "for": 801,
+            "against": 427,
+            "diff": 374,
+            "points": 42,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Leeds Rhinos (Q)",
+            "played": 26,
+            "win": 20,
+            "draw": 0,
+            "loss": 6,
+            "for": 892,
+            "against": 408,
+            "diff": 484,
             "points": 40,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Wigan Warriors (T)",
-            "played": 25,
-            "win": 20,
-            "draw": 0,
-            "loss": 5,
-            "for": 761,
-            "against": 419,
-            "diff": 342,
-            "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Warrington Wolves (T)",
+            "team": "Warrington Wolves (Q)",
             "played": 26,
             "win": 19,
             "draw": 0,
