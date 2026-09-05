@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T19:57:15+00:00",
+  "updated": "2026-09-05T20:08:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21830,14 +21830,26 @@
           },
           {
             "team": "Catalans Dragons",
-            "played": 25,
+            "played": 26,
             "win": 10,
             "draw": 0,
-            "loss": 15,
-            "for": 509,
-            "against": 724,
-            "diff": -215,
+            "loss": 16,
+            "for": 525,
+            "against": 752,
+            "diff": -227,
             "points": 20,
+            "highlight": "transparent"
+          },
+          {
+            "team": "York Knights",
+            "played": 26,
+            "win": 8,
+            "draw": 0,
+            "loss": 18,
+            "for": 510,
+            "against": 775,
+            "diff": -265,
+            "points": 16,
             "highlight": "transparent"
           },
           {
@@ -21873,18 +21885,6 @@
             "for": 461,
             "against": 749,
             "diff": -288,
-            "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "York Knights",
-            "played": 25,
-            "win": 7,
-            "draw": 0,
-            "loss": 18,
-            "for": 482,
-            "against": 759,
-            "diff": -277,
             "points": 14,
             "highlight": "transparent"
           },
