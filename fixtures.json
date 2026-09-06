@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:10:16+00:00",
+  "updated": "2026-09-06T06:21:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13348,7 +13348,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Estudiantes (LP)",
-      "score": "-",
+      "score": "1-0",
       "date": "2026-09-06",
       "time": "17:00",
       "utc": "2026-09-06T20:00:00+00:00",
@@ -13387,6 +13387,19 @@
       "utc": "2026-09-06T19:05:00+00:00",
       "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
       "attendance": null
+    },
+    {
+      "league": "afle-2026",
+      "home": "Vienna Vikings",
+      "away": "Panthers Wrocław",
+      "score": null,
+      "date": "2026-09-06",
+      "time": null,
+      "utc": null,
+      "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "Gold Bowl"
     },
     {
       "league": "cfl-2026",
