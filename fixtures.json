@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:53:16+00:00",
+  "updated": "2026-09-06T14:27:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13304,7 +13304,7 @@
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "Lions",
-      "score": null,
+      "score": "52-12",
       "date": "2026-09-06",
       "time": "13:00",
       "utc": "2026-09-06T11:00:00+00:00",
@@ -13361,7 +13361,7 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Wests Tigers",
-      "score": null,
+      "score": "38–10",
       "date": "2026-09-06",
       "time": "16:05",
       "utc": "2026-09-06T06:05:00+00:00",
@@ -13655,6 +13655,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "New Zealand Warriors",
+      "away": "Dolphins",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "16:05",
+      "utc": "2026-09-12T06:05:00+00:00",
+      "venue": "Go Media Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Calgary Stampeders",
@@ -13754,6 +13765,17 @@
       "attendance": null
     },
     {
+      "league": "currie-cup-2026",
+      "home": "Griquas",
+      "away": "TBC",
+      "score": null,
+      "date": "2026-09-12",
+      "time": null,
+      "utc": null,
+      "venue": "Griqua Park, Kimberley",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Hawke's Bay",
       "away": "North Harbour",
@@ -13773,6 +13795,17 @@
       "time": "16:05",
       "utc": "2026-09-13T06:05:00+00:00",
       "venue": "TBD",
+      "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Penrith Panthers",
+      "away": "Sydney Roosters",
+      "score": null,
+      "date": "2026-09-13",
+      "time": "16:05",
+      "utc": "2026-09-13T06:05:00+00:00",
+      "venue": "Commbank Stadium",
       "attendance": null
     },
     {
@@ -21590,7 +21623,19 @@
       "Ladder": {
         "rows": [
           {
-            "team": "New Zealand Warriors (Q)",
+            "team": "Penrith Panthers",
+            "played": 24,
+            "win": 18,
+            "draw": 0,
+            "loss": 6,
+            "for": 683,
+            "against": 347,
+            "diff": 336,
+            "points": 42,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "New Zealand Warriors",
             "played": 24,
             "win": 18,
             "draw": 0,
@@ -21602,19 +21647,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Penrith Panthers (Q)",
-            "played": 23,
-            "win": 17,
-            "draw": 0,
-            "loss": 6,
-            "for": 645,
-            "against": 337,
-            "diff": 308,
-            "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dolphins (Q)",
+            "team": "Dolphins",
             "played": 24,
             "win": 17,
             "draw": 0,
@@ -21626,7 +21659,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Sydney Roosters (Q)",
+            "team": "Sydney Roosters",
             "played": 24,
             "win": 16,
             "draw": 0,
@@ -21638,7 +21671,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Cronulla-Sutherland Sharks (Q)",
+            "team": "Cronulla-Sutherland Sharks",
             "played": 24,
             "win": 14,
             "draw": 0,
@@ -21650,7 +21683,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "South Sydney Rabbitohs (Q)",
+            "team": "South Sydney Rabbitohs",
             "played": 24,
             "win": 14,
             "draw": 0,
@@ -21662,7 +21695,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Newcastle Knights (Q)",
+            "team": "Newcastle Knights",
             "played": 24,
             "win": 14,
             "draw": 0,
@@ -21674,7 +21707,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "North Queensland Cowboys (Q)",
+            "team": "North Queensland Cowboys",
             "played": 24,
             "win": 13,
             "draw": 0,
@@ -21686,7 +21719,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Manly Warringah Sea Eagles (X)",
+            "team": "Manly Warringah Sea Eagles",
             "played": 24,
             "win": 11,
             "draw": 0,
@@ -21698,7 +21731,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Melbourne Storm (X)",
+            "team": "Melbourne Storm",
             "played": 24,
             "win": 11,
             "draw": 0,
@@ -21710,7 +21743,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Canberra Raiders (X)",
+            "team": "Canberra Raiders",
             "played": 24,
             "win": 11,
             "draw": 0,
@@ -21722,7 +21755,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Canterbury-Bankstown Bulldogs (X)",
+            "team": "Canterbury-Bankstown Bulldogs",
             "played": 24,
             "win": 11,
             "draw": 0,
@@ -21734,7 +21767,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Parramatta Eels (X)",
+            "team": "Parramatta Eels",
             "played": 24,
             "win": 9,
             "draw": 0,
@@ -21746,7 +21779,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "Brisbane Broncos (X)",
+            "team": "Brisbane Broncos",
             "played": 24,
             "win": 8,
             "draw": 0,
@@ -21758,19 +21791,19 @@
             "highlight": "transparent"
           },
           {
-            "team": "Wests Tigers (X)",
-            "played": 23,
+            "team": "Wests Tigers",
+            "played": 24,
             "win": 8,
             "draw": 0,
-            "loss": 15,
-            "for": 435,
-            "against": 661,
-            "diff": -226,
+            "loss": 16,
+            "for": 445,
+            "against": 699,
+            "diff": -254,
             "points": 22,
             "highlight": "transparent"
           },
           {
-            "team": "Gold Coast Titans (X)",
+            "team": "Gold Coast Titans",
             "played": 24,
             "win": 6,
             "draw": 0,
@@ -21782,7 +21815,7 @@
             "highlight": "transparent"
           },
           {
-            "team": "St. George Illawarra Dragons (X)",
+            "team": "St. George Illawarra Dragons",
             "played": 24,
             "win": 5,
             "draw": 0,
@@ -22384,6 +22417,30 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "North Harbour",
+            "played": 6,
+            "win": 4,
+            "draw": 0,
+            "loss": 2,
+            "for": 259,
+            "against": 161,
+            "diff": 98,
+            "points": 24,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Northland (RS)",
+            "played": 6,
+            "win": 4,
+            "draw": 0,
+            "loss": 2,
+            "for": 211,
+            "against": 127,
+            "diff": 84,
+            "points": 22,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Otago",
             "played": 6,
             "win": 4,
@@ -22393,18 +22450,6 @@
             "against": 155,
             "diff": 58,
             "points": 22,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Northland (RS)",
-            "played": 5,
-            "win": 4,
-            "draw": 0,
-            "loss": 1,
-            "for": 169,
-            "against": 70,
-            "diff": 99,
-            "points": 21,
             "highlight": "#CCF9CC"
           },
           {
@@ -22429,18 +22474,6 @@
             "against": 164,
             "diff": 0,
             "points": 20,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "North Harbour",
-            "played": 5,
-            "win": 3,
-            "draw": 0,
-            "loss": 2,
-            "for": 202,
-            "against": 119,
-            "diff": 83,
-            "points": 19,
             "highlight": "#CCF9CC"
           },
           {
@@ -22492,6 +22525,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Counties Manukau",
+            "played": 6,
+            "win": 2,
+            "draw": 0,
+            "loss": 4,
+            "for": 164,
+            "against": 233,
+            "diff": -69,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
             "team": "Auckland",
             "played": 6,
             "win": 1,
@@ -22505,26 +22550,14 @@
           },
           {
             "team": "Southland",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": 0,
-            "loss": 4,
-            "for": 119,
-            "against": 190,
-            "diff": -71,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Counties Manukau",
-            "played": 5,
-            "win": 1,
-            "draw": 0,
-            "loss": 4,
-            "for": 117,
-            "against": 209,
-            "diff": -92,
-            "points": 6,
+            "loss": 5,
+            "for": 143,
+            "against": 237,
+            "diff": -94,
+            "points": 8,
             "highlight": "transparent"
           },
           {
@@ -23805,10 +23838,10 @@
             {
               "seed1": null,
               "team1": "Griquas",
-              "score1": null,
+              "score1": 52,
               "seed2": null,
               "team2": "Lions",
-              "score2": null,
+              "score2": 12,
               "date": "2026-09-06",
               "venue": "Griqua Park, Kimberley"
             },
@@ -23829,13 +23862,13 @@
           "matches": [
             {
               "seed1": null,
-              "team1": "TBC",
+              "team1": "Griquas",
               "score1": null,
               "seed2": null,
               "team2": "TBC",
               "score2": null,
               "date": "2026-09-12",
-              "venue": "TBC"
+              "venue": "Griqua Park, Kimberley"
             }
           ]
         }
