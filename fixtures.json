@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T16:27:16+00:00",
+  "updated": "2026-09-06T16:38:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13348,7 +13348,7 @@
       "league": "afle-2026",
       "home": "Vienna Vikings",
       "away": "Panthers Wrocław",
-      "score": null,
+      "score": "68-5",
       "date": "2026-09-06",
       "time": "15:30",
       "utc": "2026-09-06T13:30:00+00:00",
@@ -23720,7 +23720,7 @@
       "name": "American Football League Europe 2026 · Play-offs",
       "rounds": [
         {
-          "label": "Semifinals",
+          "label": "Semi-finals",
           "matches": [
             {
               "seed1": 1,
@@ -23750,10 +23750,10 @@
             {
               "seed1": 1,
               "team1": "Vienna Vikings",
-              "score1": null,
+              "score1": 68,
               "seed2": 3,
               "team2": "Panthers Wrocław",
-              "score2": null,
+              "score2": 5,
               "date": "2026-09-06",
               "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
             }
