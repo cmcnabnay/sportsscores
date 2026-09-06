@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:55:18+00:00",
+  "updated": "2026-09-06T22:06:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23009,14 +23009,26 @@
           },
           {
             "team": "Defensa y Justicia",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": 2,
-            "loss": 1,
+            "loss": 2,
             "for": 9,
-            "against": 8,
-            "diff": 1,
+            "against": 9,
+            "diff": 0,
             "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Independiente",
+            "played": 8,
+            "win": 4,
+            "draw": 1,
+            "loss": 3,
+            "for": 7,
+            "against": 6,
+            "diff": 1,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -23056,16 +23068,16 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Independiente",
-            "played": 7,
+            "team": "Lanús",
+            "played": 8,
             "win": 3,
             "draw": 1,
-            "loss": 3,
-            "for": 6,
-            "against": 6,
+            "loss": 4,
+            "for": 8,
+            "against": 8,
             "diff": 0,
             "points": 10,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "San Lorenzo",
@@ -23116,26 +23128,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Lanús",
-            "played": 7,
-            "win": 2,
-            "draw": 1,
-            "loss": 4,
-            "for": 7,
-            "against": 8,
-            "diff": -1,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
             "team": "Central Córdoba (SdE)",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": 1,
-            "loss": 4,
+            "loss": 5,
             "for": 4,
-            "against": 7,
-            "diff": -3,
+            "against": 8,
+            "diff": -4,
             "points": 7,
             "highlight": "transparent"
           },
