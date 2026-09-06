@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:31:16+00:00",
+  "updated": "2026-09-06T06:38:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -12480,7 +12480,7 @@
       "away": "London Warriors",
       "score": "71-34",
       "venue": "Wiener Sport-Club Stadium , Vienna",
-      "attendance": null,
+      "attendance": "4561",
       "group": "Playoffs",
       "round": "Semifinals"
     },
@@ -12647,7 +12647,7 @@
       "away": "Panthers Wrocław",
       "score": "40-41",
       "venue": "Niederrheinstadion , Oberhausen",
-      "attendance": null,
+      "attendance": "4232",
       "group": "Playoffs",
       "round": "Semifinals"
     },
@@ -13147,6 +13147,17 @@
       "attendance": null
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Estudiantes (LP)",
+      "score": "1-0",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "utc": "2026-09-05T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "York Knights",
@@ -13334,6 +13345,19 @@
       "attendance": null
     },
     {
+      "league": "afle-2026",
+      "home": "Vienna Vikings",
+      "away": "Panthers Wrocław",
+      "score": null,
+      "date": "2026-09-06",
+      "time": "15:30",
+      "utc": "2026-09-06T13:30:00+00:00",
+      "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany",
+      "attendance": null,
+      "group": "Playoffs",
+      "round": "Gold Bowl"
+    },
+    {
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Wests Tigers",
@@ -13342,17 +13366,6 @@
       "time": "16:05",
       "utc": "2026-09-06T06:05:00+00:00",
       "venue": "CommBank Stadium",
-      "attendance": null
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Estudiantes (LP)",
-      "score": "1-0",
-      "date": "2026-09-06",
-      "time": "17:00",
-      "utc": "2026-09-06T20:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -13387,19 +13400,6 @@
       "utc": "2026-09-06T19:05:00+00:00",
       "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
       "attendance": null
-    },
-    {
-      "league": "afle-2026",
-      "home": "Vienna Vikings",
-      "away": "Panthers Wrocław",
-      "score": null,
-      "date": "2026-09-06",
-      "time": null,
-      "utc": null,
-      "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany",
-      "attendance": null,
-      "group": "Playoffs",
-      "round": "Gold Bowl"
     },
     {
       "league": "cfl-2026",
@@ -23675,9 +23675,7 @@
               "team2": "London Warriors",
               "score2": 34,
               "date": "2026-08-29",
-              "venue": "Wiener Sport-Club Stadium, Vienna, Austria",
-              "time": "18:00",
-              "utc": "2026-08-29T16:00:00+00:00"
+              "venue": "Wiener Sport-Club Stadium, Vienna, Austria"
             },
             {
               "seed1": 2,
@@ -23687,9 +23685,7 @@
               "team2": "Panthers Wrocław",
               "score2": 41,
               "date": "2026-08-30",
-              "venue": "Niederrheinstadion, Oberhausen, Germany",
-              "time": "15:10",
-              "utc": "2026-08-30T13:10:00+00:00"
+              "venue": "Niederrheinstadion, Oberhausen, Germany"
             }
           ]
         },
@@ -23704,9 +23700,7 @@
               "team2": "Panthers Wrocław",
               "score2": null,
               "date": "2026-09-06",
-              "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany",
-              "time": "15:30",
-              "utc": "2026-09-06T13:30:00+00:00"
+              "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
             }
           ]
         }
@@ -23726,9 +23720,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-09",
-              "venue": null,
-              "time": "19:10",
-              "utc": null
+              "venue": null
             },
             {
               "seed1": 4,
@@ -23738,9 +23730,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-10",
-              "venue": null,
-              "time": "17:05",
-              "utc": null
+              "venue": null
             },
             {
               "seed1": 2,
@@ -23750,9 +23740,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-10",
-              "venue": null,
-              "time": "19:10",
-              "utc": null
+              "venue": null
             },
             {
               "seed1": 3,
@@ -23762,9 +23750,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-11",
-              "venue": null,
-              "time": "14:05",
-              "utc": null
+              "venue": null
             }
           ]
         },
@@ -23779,9 +23765,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-16",
-              "venue": null,
-              "time": "19:10",
-              "utc": null
+              "venue": null
             },
             {
               "seed1": null,
@@ -23791,9 +23775,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-17",
-              "venue": null,
-              "time": "19:10",
-              "utc": null
+              "venue": null
             }
           ]
         },
@@ -23808,9 +23790,7 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-24",
-              "venue": null,
-              "time": "19:10",
-              "utc": null
+              "venue": null
             }
           ]
         }

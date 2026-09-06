@@ -1148,13 +1148,13 @@ def map_columns(header_row):
 
 
 def to_24h(time_str):
-    """Convert '5:00 pm' / '17:00' style text to 'HH:MM'."""
-    m = re.search(r"(\d{1,2}):(\d{2})\s*(am|pm)?", time_str, re.IGNORECASE)
+    """Convert '5:00 pm' / '5:00 p.m.' / '17:00' style text to 'HH:MM'."""
+    m = re.search(r"(\d{1,2}):(\d{2})\s*(a\.?m\.?|p\.?m\.?)?", time_str, re.IGNORECASE)
     if not m:
         return None
     hour, minute, ampm = int(m.group(1)), m.group(2), m.group(3)
     if ampm:
-        ampm = ampm.lower()
+        ampm = ampm.lower().replace(".", "")
         if ampm == "pm" and hour != 12:
             hour += 12
         if ampm == "am" and hour == 12:
@@ -2641,6 +2641,128 @@ def parse_basketballbox_matches(wikitext: str, league_key: str, cfg: dict):
     return matches
 
 
+def split_wikitext_subsections(text):
+    """Split `text` (already the content of some outer heading, e.g.
+    "Play-offs") into (title, chunk) pairs on whichever heading level
+    appears first inside it (its own "=== Semifinals ===" / "=== Gold
+    Bowl ===" subheadings, say) - each pair's chunk runs up to the next
+    heading of that same level. Any text before the first such heading is
+    dropped, since there's no title to tag it with. Returns [] if `text`
+    has no headings at all."""
+    heads = list(_HEADING_RE.finditer(text))
+    if not heads:
+        return []
+    top_level = min(len(m.group(1)) for m in heads)
+    top_heads = [m for m in heads if len(m.group(1)) == top_level]
+    sections = []
+    for i, m in enumerate(top_heads):
+        title = strip_wikilinks(re.sub(r"\{\{[^{}]*\}\}", "", m.group(2))).strip()
+        start = m.end()
+        end = top_heads[i + 1].start() if i + 1 < len(top_heads) else len(text)
+        sections.append((title, text[start:end]))
+    return sections
+
+
+_TITLE_VS_RE = re.compile(r"^(.*?)\s+vs\.?\s+(.*)$", re.IGNORECASE)
+
+
+def parse_americanfootballbox_matches(section_text, league_key, cfg, group="Playoffs"):
+    """Parse {{Americanfootballbox|...}} template instances - how AFLE/EFA-
+    style pages write up each individual playoff game (Semifinals, Gold
+    Bowl/Championship Game), a completely different shape from the plain
+    Results wikitable the regular season uses (parse_wikitable_matches) -
+    so these games need their own parser rather than being reconstructed
+    from the {{4TeamBracket}} template fetch_playoffs_bracket() reads for
+    the Playoffs-tab bracket display (that template only ever carries a
+    seed/team/final-score summary, not a real fixture - no kickoff time,
+    and its date/venue are themselves backfilled from these same box
+    templates, see enrich_bracket_round_dates_venues).
+
+    `section_text` is expected to already be narrowed to the page's
+    "Play-offs" heading (or whatever `cfg["playoffs"]["heading"]" names) -
+    each subheading inside it (split via split_wikitext_subsections)
+    becomes the `round` tag on that subsection's matches, with `group`
+    applied to all of them (e.g. "Playoffs"/"Semifinals", "Playoffs"/
+    "Gold Bowl").
+
+    The template's own 'home'/'road' params are just short nicknames
+    ('Vikings', 'Fire') used to label the H*/R* quarter-score fields - the
+    full team names are read off the 'title' param instead ("Home vs.
+    Away"), which always lists them in the same order as H*/R*: H1-H4 are
+    the home team's per-quarter points, R1-R4 ("road") the away team's -
+    summed for the final score only once all four of a side's quarters
+    are filled in (a game with some but not all quarters posted is still
+    in progress; leave its score None rather than under-count it)."""
+    matches = []
+    for round_label, chunk in split_wikitext_subsections(section_text):
+        for inner in find_templates(chunk, "Americanfootballbox"):
+            kv = {}
+            for p in split_template_params(inner):
+                if "=" not in p:
+                    continue
+                k, v = p.split("=", 1)
+                kv[k.strip().lower()] = v.strip()
+
+            title = re.sub(r"'{2,3}", "", strip_wikilinks(kv.get("title", ""))).strip()
+            title_match = _TITLE_VS_RE.match(title)
+            if not title_match:
+                continue
+            home = title_match.group(1).strip()
+            away = title_match.group(2).strip()
+            if not home or not away:
+                continue
+
+            def quarter_total(prefix):
+                total = 0
+                for i in range(1, 5):
+                    raw = kv.get(f"{prefix}{i}", "").strip()
+                    if not raw:
+                        return None
+                    try:
+                        total += int(raw)
+                    except ValueError:
+                        return None
+                return total
+
+            home_score = quarter_total("h")
+            away_score = quarter_total("r")
+            score = f"{home_score}-{away_score}" if home_score is not None and away_score is not None else None
+
+            date_out = parse_full_date(kv.get("date", ""))
+            time_raw = kv.get("time", "")
+            time_out = to_24h(strip_wikilinks(time_raw)) if time_raw else None
+
+            venue_raw = kv.get("stadium") or kv.get("venue")
+            venue = None
+            if venue_raw:
+                venue = strip_citations(strip_wikilinks(venue_raw))
+                venue = re.sub(r"\s+", " ", venue).strip() or None
+
+            offset = guess_utc_offset(venue, cfg.get("utc_offset"))
+            utc = compute_utc(date_out, time_out, offset)
+
+            attendance_raw = kv.get("attendance", "")
+            attendance_match = re.search(r"([\d,]+)", attendance_raw) if attendance_raw else None
+            attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
+            matches.append(
+                {
+                    "league": league_key,
+                    "home": home,
+                    "away": away,
+                    "score": score,
+                    "date": date_out,
+                    "time": time_out,
+                    "utc": utc,
+                    "venue": venue,
+                    "attendance": attendance,
+                    "group": group,
+                    "round": round_label,
+                }
+            )
+    return matches
+
+
 # ---------------------------------------------------------------------------
 # Standings / tables
 #
@@ -3458,17 +3580,16 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, now):
 
 def sync_playoff_scores_into_matches(matches, key, bracket):
     """Backfill a playoff match's score in `matches` (in place) from the
-    just-fetched playoffs bracket for league `key`.
-
-    Playoff games live on Wikipedia as a {{4TeamBracket}}-style template,
-    not a row in the Results wikitable that parse_wikitable_matches()
-    reads - so fetch_and_parse() never yields them at all, and a playoff
-    match's `matches` entry (however it originally got seeded - e.g. from
-    the bracket's team/seed pairing before either game had been played)
-    can never pick up its final score through the normal merge path in
-    run(), no matter how many times the league is re-fetched or --forced.
-    fetch_playoffs_bracket() is the only code path that ever sees these
-    scores, so it has to be the one to write them into `matches` too.
+    just-fetched playoffs bracket for league `key`, for a league whose
+    `matches` entries for these games come from somewhere other than the
+    bracket itself (e.g. a knockout round set purely by seeding, with no
+    separate box-template writeup on the page yet). For AFLE/EFA-style
+    leagues, the real source of these `matches` entries is
+    parse_americanfootballbox_matches() (see fetch_and_parse's "wikitable"
+    branch) reading the page's own {{Americanfootballbox}} templates
+    directly - this is just a defensive backfill in case that ever comes
+    up empty (e.g. a page redesign) while the {{4TeamBracket}} template
+    still resolves a final score.
 
     Matches a bracket game to a stored `matches` entry the same way
     merge_league_matches() matches anything else: same league, same
@@ -3918,6 +4039,20 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
         for page in pages:
             html = fetch_page_html(page)
             matches.extend(parse_wikitable_matches(html, key, cfg))
+        # AFLE/EFA-style pages write up playoff games as their own
+        # {{Americanfootballbox}} templates under the "Play-offs" heading,
+        # not as rows in the Results wikitable above - parse_wikitable_matches
+        # (which only looks at <table> elements) never sees them. Read that
+        # section directly so these games are scraped in their own right,
+        # same as any other match, rather than only ever showing up via
+        # fetch_playoffs_bracket()'s {{4TeamBracket}}-derived summary.
+        playoffs_cfg = cfg.get("playoffs")
+        if playoffs_cfg is not None:
+            heading = playoffs_cfg.get("heading", "Play-offs")
+            wikitext = fetch_page_wikitext(playoffs_cfg.get("page") or cfg["page"])
+            _level, section = find_wikitext_section(wikitext, heading)
+            if section is not None:
+                matches.extend(parse_americanfootballbox_matches(section, key, cfg))
         return matches
 
     if parser_type == "bare_table":
