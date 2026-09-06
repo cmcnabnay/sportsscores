@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T05:48:16+00:00",
+  "updated": "2026-09-06T05:59:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13304,7 +13304,7 @@
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Parramatta Eels",
-      "score": null,
+      "score": "24–22",
       "date": "2026-09-06",
       "time": "14:00",
       "utc": "2026-09-06T04:00:00+00:00",
@@ -13441,6 +13441,17 @@
       "time": "19:10",
       "utc": "2026-09-11T07:10:00+00:00",
       "venue": "Forsyth Barr Stadium",
+      "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "South Sydney Rabbitohs",
+      "away": "Newcastle Knights",
+      "score": null,
+      "date": "2026-09-11",
+      "time": "19:50",
+      "utc": "2026-09-11T09:50:00+00:00",
+      "venue": "Allianz Stadium",
       "attendance": null
     },
     {
@@ -13620,6 +13631,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "TBD",
+      "away": "Dolphins",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "16:05",
+      "utc": "2026-09-12T06:05:00+00:00",
+      "venue": "TBD",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Calgary Stampeders",
@@ -13686,6 +13708,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "Cronulla-Sutherland Sharks",
+      "away": "North Queensland Cowboys",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "19:50",
+      "utc": "2026-09-12T09:50:00+00:00",
+      "venue": "Allianz Stadium",
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "South Africa",
       "away": "New Zealand",
@@ -13719,6 +13752,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "TBD",
+      "away": "Sydney Roosters",
+      "score": null,
+      "date": "2026-09-13",
+      "time": "16:05",
+      "utc": "2026-09-13T06:05:00+00:00",
+      "venue": "TBD",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Newell's Old Boys",
       "away": "Vélez Sarsfield",
@@ -13749,17 +13793,6 @@
       "time": "19:05",
       "utc": "2026-09-13T19:05:00+00:00",
       "venue": "Stade Ernest-Wallon, Toulouse (France)",
-      "attendance": null
-    },
-    {
-      "league": "nrl-2026",
-      "home": "TBD",
-      "away": "Sydney Roosters",
-      "score": null,
-      "date": "2026-09-13",
-      "time": null,
-      "utc": null,
-      "venue": "TBD",
       "attendance": null
     },
     {
