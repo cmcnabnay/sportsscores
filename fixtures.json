@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T01:59:15+00:00",
+  "updated": "2026-09-06T02:10:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22883,6 +22883,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Vélez Sarsfield",
+            "played": 8,
+            "win": 4,
+            "draw": 4,
+            "loss": 0,
+            "for": 11,
+            "against": 6,
+            "diff": 5,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Instituto",
             "played": 7,
             "win": 5,
@@ -22904,18 +22916,6 @@
             "against": 8,
             "diff": 1,
             "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Vélez Sarsfield",
-            "played": 7,
-            "win": 3,
-            "draw": 4,
-            "loss": 0,
-            "for": 10,
-            "against": 6,
-            "diff": 4,
-            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -23004,13 +23004,13 @@
           },
           {
             "team": "Estudiantes (LP)",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": 1,
-            "loss": 4,
+            "loss": 5,
             "for": 7,
-            "against": 7,
-            "diff": 0,
+            "against": 8,
+            "diff": -1,
             "points": 7,
             "highlight": "transparent"
           },
