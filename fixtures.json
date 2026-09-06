@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:44:17+00:00",
+  "updated": "2026-09-06T21:55:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23392,6 +23392,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Ural Yekaterinburg",
+            "played": 9,
+            "win": 5,
+            "draw": 3,
+            "loss": 1,
+            "for": 16,
+            "against": 4,
+            "diff": 12,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
             "team": "Spartak Kostroma",
             "played": 9,
             "win": 5,
@@ -23413,18 +23425,6 @@
             "against": 9,
             "diff": 4,
             "points": 16,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Ural Yekaterinburg",
-            "played": 8,
-            "win": 4,
-            "draw": 3,
-            "loss": 1,
-            "for": 14,
-            "against": 4,
-            "diff": 10,
-            "points": 15,
             "highlight": "transparent"
           },
           {
@@ -23537,13 +23537,13 @@
           },
           {
             "team": "KAMAZ Naberezhnye Chelny",
-            "played": 9,
+            "played": 10,
             "win": 1,
             "draw": 2,
-            "loss": 6,
+            "loss": 7,
             "for": 9,
-            "against": 16,
-            "diff": -7,
+            "against": 18,
+            "diff": -9,
             "points": 5,
             "highlight": "#FFBBBB"
           },
