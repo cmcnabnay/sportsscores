@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:21:03+00:00",
+  "updated": "2026-09-06T06:31:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23675,7 +23675,9 @@
               "team2": "London Warriors",
               "score2": 34,
               "date": "2026-08-29",
-              "venue": "Wiener Sport-Club Stadium, Vienna, Austria"
+              "venue": "Wiener Sport-Club Stadium, Vienna, Austria",
+              "time": "18:00",
+              "utc": "2026-08-29T16:00:00+00:00"
             },
             {
               "seed1": 2,
@@ -23685,7 +23687,9 @@
               "team2": "Panthers Wrocław",
               "score2": 41,
               "date": "2026-08-30",
-              "venue": "Niederrheinstadion, Oberhausen, Germany"
+              "venue": "Niederrheinstadion, Oberhausen, Germany",
+              "time": "15:10",
+              "utc": "2026-08-30T13:10:00+00:00"
             }
           ]
         },
@@ -23700,7 +23704,9 @@
               "team2": "Panthers Wrocław",
               "score2": null,
               "date": "2026-09-06",
-              "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany"
+              "venue": "Schauinsland-Reisen-Arena, Duisburg, Germany",
+              "time": "15:30",
+              "utc": "2026-09-06T13:30:00+00:00"
             }
           ]
         }
@@ -23720,7 +23726,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-09",
-              "venue": null
+              "venue": null,
+              "time": "19:10",
+              "utc": null
             },
             {
               "seed1": 4,
@@ -23730,7 +23738,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-10",
-              "venue": null
+              "venue": null,
+              "time": "17:05",
+              "utc": null
             },
             {
               "seed1": 2,
@@ -23740,7 +23750,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-10",
-              "venue": null
+              "venue": null,
+              "time": "19:10",
+              "utc": null
             },
             {
               "seed1": 3,
@@ -23750,7 +23762,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-11",
-              "venue": null
+              "venue": null,
+              "time": "14:05",
+              "utc": null
             }
           ]
         },
@@ -23765,7 +23779,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-16",
-              "venue": null
+              "venue": null,
+              "time": "19:10",
+              "utc": null
             },
             {
               "seed1": null,
@@ -23775,7 +23791,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-17",
-              "venue": null
+              "venue": null,
+              "time": "19:10",
+              "utc": null
             }
           ]
         },
@@ -23790,7 +23808,9 @@
               "team2": null,
               "score2": null,
               "date": "2026-10-24",
-              "venue": null
+              "venue": null,
+              "time": "19:10",
+              "utc": null
             }
           ]
         }
