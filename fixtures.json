@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T18:49:16+00:00",
+  "updated": "2026-09-06T19:00:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13677,6 +13677,17 @@
       "attendance": null
     },
     {
+      "league": "currie-cup-2026",
+      "home": "Griquas",
+      "away": "Pumas",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "17:05",
+      "utc": "2026-09-12T15:05:00+00:00",
+      "venue": "Griqua Park, Kimberley",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Waikato",
@@ -13768,17 +13779,6 @@
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "TBC",
-      "score": null,
-      "date": "2026-09-12",
-      "time": null,
-      "utc": null,
-      "venue": "Griqua Park, Kimberley",
-      "attendance": null
-    },
-    {
-      "league": "currie-cup-2026",
-      "home": "Griquas",
-      "away": "Pumas",
       "score": null,
       "date": "2026-09-12",
       "time": null,
