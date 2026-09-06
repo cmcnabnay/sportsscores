@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T15:22:16+00:00",
+  "updated": "2026-09-06T15:33:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13337,7 +13337,7 @@
       "league": "currie-cup-2026",
       "home": "Cheetahs",
       "away": "Pumas",
-      "score": null,
+      "score": "24-27",
       "date": "2026-09-06",
       "time": "15:30",
       "utc": "2026-09-06T13:30:00+00:00",
@@ -13768,6 +13768,17 @@
       "league": "currie-cup-2026",
       "home": "Griquas",
       "away": "TBC",
+      "score": null,
+      "date": "2026-09-12",
+      "time": null,
+      "utc": null,
+      "venue": "Griqua Park, Kimberley",
+      "attendance": null
+    },
+    {
+      "league": "currie-cup-2026",
+      "home": "Griquas",
+      "away": "Pumas",
       "score": null,
       "date": "2026-09-12",
       "time": null,
@@ -23859,10 +23870,10 @@
             {
               "seed1": null,
               "team1": "Cheetahs",
-              "score1": null,
+              "score1": 24,
               "seed2": null,
               "team2": "Pumas",
-              "score2": null,
+              "score2": 27,
               "date": "2026-09-06",
               "venue": "Free State Stadium, Bloemfontein"
             }
@@ -23876,7 +23887,7 @@
               "team1": "Griquas",
               "score1": null,
               "seed2": null,
-              "team2": "TBC",
+              "team2": "Pumas",
               "score2": null,
               "date": "2026-09-12",
               "venue": "Griqua Park, Kimberley"
