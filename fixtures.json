@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T23:42:12+00:00",
+  "updated": "2026-09-07T23:53:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23048,14 +23048,14 @@
         "rows": [
           {
             "team": "Argentinos Juniors",
-            "played": 7,
+            "played": 8,
             "win": 5,
-            "draw": 1,
+            "draw": 2,
             "loss": 1,
             "for": 12,
             "against": 7,
             "diff": 5,
-            "points": 16,
+            "points": 17,
             "highlight": "#BBF3BB"
           },
           {
@@ -23143,6 +23143,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Barracas Central",
+            "played": 8,
+            "win": 3,
+            "draw": 2,
+            "loss": 3,
+            "for": 4,
+            "against": 5,
+            "diff": -1,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
             "team": "River Plate",
             "played": 8,
             "win": 3,
@@ -23163,18 +23175,6 @@
             "for": 6,
             "against": 6,
             "diff": 0,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Barracas Central",
-            "played": 7,
-            "win": 3,
-            "draw": 1,
-            "loss": 3,
-            "for": 4,
-            "against": 5,
-            "diff": -1,
             "points": 10,
             "highlight": "transparent"
           },
