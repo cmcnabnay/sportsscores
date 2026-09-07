@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T02:08:17+00:00",
+  "updated": "2026-09-07T02:19:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13372,12 +13372,12 @@
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Winnipeg Blue Bombers",
-      "score": null,
+      "score": "32-26",
       "date": "2026-09-06",
       "time": "17:00",
       "utc": "2026-09-06T23:00:00+00:00",
       "venue": "Mosaic Stadium",
-      "attendance": null
+      "attendance": "33350"
     },
     {
       "league": "npc-2026",
@@ -21538,26 +21538,14 @@
           },
           {
             "team": "Saskatchewan Roughriders",
-            "played": 11,
-            "win": 7,
+            "played": 12,
+            "win": 8,
             "draw": null,
             "loss": 4,
-            "for": 337,
-            "against": 295,
+            "for": 369,
+            "against": 321,
             "diff": null,
-            "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Winnipeg Blue Bombers",
-            "played": 11,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
-            "for": 300,
-            "against": 314,
-            "diff": null,
-            "points": 12,
+            "points": 16,
             "highlight": null
           },
           {
@@ -21568,6 +21556,18 @@
             "loss": 6,
             "for": 349,
             "against": 328,
+            "diff": null,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Winnipeg Blue Bombers",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 326,
+            "against": 346,
             "diff": null,
             "points": 12,
             "highlight": null
