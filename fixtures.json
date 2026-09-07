@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T02:19:18+00:00",
+  "updated": "2026-09-07T02:30:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23193,6 +23193,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Atlético Tucumán",
+            "played": 8,
+            "win": 3,
+            "draw": 4,
+            "loss": 1,
+            "for": 6,
+            "against": 3,
+            "diff": 3,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Belgrano",
             "played": 8,
             "win": 3,
@@ -23238,18 +23250,6 @@
             "against": 10,
             "diff": -1,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Atlético Tucumán",
-            "played": 7,
-            "win": 2,
-            "draw": 4,
-            "loss": 1,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -23326,13 +23326,13 @@
           },
           {
             "team": "Racing",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": 2,
-            "loss": 4,
-            "for": 6,
-            "against": 11,
-            "diff": -5,
+            "loss": 5,
+            "for": 7,
+            "against": 13,
+            "diff": -6,
             "points": 5,
             "highlight": "transparent"
           }
