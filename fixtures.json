@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T01:09:13+00:00",
+  "updated": "2026-09-08T01:20:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13416,7 +13416,7 @@
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Edmonton Elks",
-      "score": null,
+      "score": "28-38",
       "date": "2026-09-07",
       "time": "16:00",
       "utc": "2026-09-07T22:00:00+00:00",
@@ -21416,14 +21416,14 @@
         "rows": [
           {
             "team": "Edmonton Elks",
-            "played": 11,
-            "win": 8,
+            "played": 12,
+            "win": 9,
             "draw": null,
             "loss": 3,
-            "for": 323,
-            "against": 279,
+            "for": 361,
+            "against": 307,
             "diff": null,
-            "points": 16,
+            "points": 18,
             "highlight": null
           },
           {
@@ -21464,12 +21464,12 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
-            "for": 306,
-            "against": 350,
+            "loss": 7,
+            "for": 334,
+            "against": 384,
             "diff": null,
             "points": 10,
             "highlight": null
