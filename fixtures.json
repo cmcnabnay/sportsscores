@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T03:32:11+00:00",
+  "updated": "2026-09-08T03:43:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22887,13 +22887,13 @@
           },
           {
             "team": "Instituto",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": 1,
-            "loss": 1,
-            "for": 6,
-            "against": 2,
-            "diff": 4,
+            "loss": 2,
+            "for": 8,
+            "against": 5,
+            "diff": 3,
             "points": 16,
             "highlight": "#BBF3BB"
           },
@@ -22907,6 +22907,18 @@
             "against": 9,
             "diff": 0,
             "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Unión",
+            "played": 8,
+            "win": 4,
+            "draw": 1,
+            "loss": 3,
+            "for": 15,
+            "against": 12,
+            "diff": 3,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -22943,18 +22955,6 @@
             "against": 10,
             "diff": -1,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Unión",
-            "played": 7,
-            "win": 3,
-            "draw": 1,
-            "loss": 3,
-            "for": 12,
-            "against": 10,
-            "diff": 2,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
