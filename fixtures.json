@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T20:06:10+00:00",
+  "updated": "2026-09-10T21:05:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13438,7 +13438,7 @@
       "league": "super-league-2026",
       "home": "York Knights",
       "away": "Bradford Bulls",
-      "score": null,
+      "score": "35–18",
       "date": "2026-09-10",
       "time": "20:00",
       "utc": "2026-09-10T19:00:00+00:00",
@@ -21855,14 +21855,14 @@
           },
           {
             "team": "York Knights",
-            "played": 26,
-            "win": 8,
+            "played": 27,
+            "win": 9,
             "draw": 0,
             "loss": 18,
-            "for": 510,
-            "against": 775,
-            "diff": -265,
-            "points": 16,
+            "for": 545,
+            "against": 791,
+            "diff": -246,
+            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -21903,13 +21903,13 @@
           },
           {
             "team": "Bradford Bulls",
-            "played": 26,
+            "played": 27,
             "win": 7,
             "draw": 0,
-            "loss": 19,
-            "for": 452,
-            "against": 817,
-            "diff": -365,
+            "loss": 20,
+            "for": 468,
+            "against": 852,
+            "diff": -384,
             "points": 14,
             "highlight": "transparent"
           }
