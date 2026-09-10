@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T06:05:10+00:00",
+  "updated": "2026-09-10T14:02:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13427,7 +13427,7 @@
       "league": "npc-2026",
       "home": "Manawatu",
       "away": "Taranaki",
-      "score": null,
+      "score": "27-25",
       "date": "2026-09-10",
       "time": "19:10",
       "utc": "2026-09-10T07:10:00+00:00",
@@ -22389,6 +22389,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Manawatu",
+            "played": 7,
+            "win": 4,
+            "draw": 0,
+            "loss": 3,
+            "for": 193,
+            "against": 240,
+            "diff": -47,
+            "points": 20,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Waikato",
             "played": 6,
             "win": 3,
@@ -22402,15 +22414,15 @@
           },
           {
             "team": "Taranaki",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 0,
-            "loss": 3,
-            "for": 144,
-            "against": 151,
-            "diff": -7,
-            "points": 18,
-            "highlight": "#CCF9CC"
+            "loss": 4,
+            "for": 169,
+            "against": 178,
+            "diff": -9,
+            "points": 19,
+            "highlight": "transparent"
           },
           {
             "team": "Bay of Plenty",
@@ -22422,18 +22434,6 @@
             "against": 174,
             "diff": -24,
             "points": 17,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Manawatu",
-            "played": 6,
-            "win": 3,
-            "draw": 0,
-            "loss": 3,
-            "for": 166,
-            "against": 215,
-            "diff": -49,
-            "points": 16,
             "highlight": "transparent"
           },
           {
