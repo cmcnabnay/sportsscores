@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T18:54:33+00:00",
+  "updated": "2026-09-10T19:06:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13600,6 +13600,17 @@
       "attendance": null
     },
     {
+      "league": "currie-cup-2026",
+      "home": "Griquas",
+      "away": "Pumas",
+      "score": null,
+      "date": "2026-09-12",
+      "time": "15:00",
+      "utc": "2026-09-12T13:00:00+00:00",
+      "venue": "Griqua Park, Kimberley",
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Castleford Tigers",
@@ -13630,17 +13641,6 @@
       "time": "16:05",
       "utc": "2026-09-12T06:05:00+00:00",
       "venue": "Go Media Stadium",
-      "attendance": null
-    },
-    {
-      "league": "currie-cup-2026",
-      "home": "Griquas",
-      "away": "Pumas",
-      "score": null,
-      "date": "2026-09-12",
-      "time": "17:05",
-      "utc": "2026-09-12T15:05:00+00:00",
-      "venue": "Griqua Park, Kimberley",
       "attendance": null
     },
     {
@@ -14675,6 +14675,17 @@
       "time": "05:00",
       "utc": "2026-10-17T05:00:00+00:00",
       "venue": "Accor Stadium, Sydney (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Saskatchewan Roughriders",
+      "away": "Montreal Alouettes",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "13:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Mosaic Stadium",
       "attendance": null
     },
     {
