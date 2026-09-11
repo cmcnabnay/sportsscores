@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:10:06+00:00",
+  "updated": "2026-09-11T21:21:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13487,7 +13487,7 @@
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
       "venue": "Leigh Sports Village",
-      "attendance": null
+      "attendance": "8868"
     },
     {
       "league": "super-league-2026",
@@ -13509,7 +13509,7 @@
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
       "venue": "BrewDog Stadium",
-      "attendance": null
+      "attendance": "10717"
     },
     {
       "league": "super-league-2026",
@@ -13520,7 +13520,7 @@
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
       "venue": "Brick Community Stadium",
-      "attendance": null
+      "attendance": "19049"
     },
     {
       "league": "cfl-2026",
@@ -21831,9 +21831,9 @@
             "win": 19,
             "draw": 0,
             "loss": 8,
-            "for": 699,
+            "for": 709,
             "against": 486,
-            "diff": 213,
+            "diff": 223,
             "points": 38,
             "highlight": "#BBF3FF"
           },
@@ -21910,18 +21910,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Castleford Tigers",
-            "played": 26,
-            "win": 8,
-            "draw": 0,
-            "loss": 18,
-            "for": 448,
-            "against": 818,
-            "diff": -370,
-            "points": 16,
-            "highlight": "transparent"
-          },
-          {
             "team": "Hull F.C.",
             "played": 27,
             "win": 8,
@@ -21930,6 +21918,18 @@
             "for": 488,
             "against": 597,
             "diff": -109,
+            "points": 16,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Castleford Tigers",
+            "played": 26,
+            "win": 8,
+            "draw": 0,
+            "loss": 18,
+            "for": 448,
+            "against": 818,
+            "diff": -370,
             "points": 16,
             "highlight": "transparent"
           },
