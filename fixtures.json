@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T19:33:06+00:00",
+  "updated": "2026-09-11T19:44:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13831,6 +13831,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "4th place",
+      "away": "5th place",
+      "score": null,
+      "date": "2026-09-18",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Toulon",
@@ -14004,17 +14015,6 @@
       "time": "19:05",
       "utc": "2026-09-20T19:05:00+00:00",
       "venue": "Stade Chaban-Delmas, Bordeaux (France)",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "4th place",
-      "away": "5th place",
-      "score": null,
-      "date": "2026-09-20",
-      "time": null,
-      "utc": null,
-      "venue": null,
       "attendance": null
     },
     {
