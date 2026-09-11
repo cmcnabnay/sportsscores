@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:54:06+00:00",
+  "updated": "2026-09-11T22:05:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22917,6 +22917,18 @@
       "Clausura · Zone A": {
         "rows": [
           {
+            "team": "Vélez Sarsfield",
+            "played": 9,
+            "win": 4,
+            "draw": 5,
+            "loss": 0,
+            "for": 12,
+            "against": 7,
+            "diff": 5,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Gimnasia y Esgrima (M)",
             "played": 8,
             "win": 5,
@@ -22925,18 +22937,6 @@
             "for": 14,
             "against": 7,
             "diff": 7,
-            "points": 16,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Vélez Sarsfield",
-            "played": 8,
-            "win": 4,
-            "draw": 4,
-            "loss": 0,
-            "for": 11,
-            "against": 6,
-            "diff": 5,
             "points": 16,
             "highlight": "#BBF3BB"
           },
@@ -22977,6 +22977,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Newell's Old Boys",
+            "played": 9,
+            "win": 3,
+            "draw": 4,
+            "loss": 2,
+            "for": 10,
+            "against": 8,
+            "diff": 2,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 8,
             "win": 4,
@@ -22986,18 +22998,6 @@
             "against": 6,
             "diff": 1,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Newell's Old Boys",
-            "played": 8,
-            "win": 3,
-            "draw": 3,
-            "loss": 2,
-            "for": 9,
-            "against": 7,
-            "diff": 2,
-            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
