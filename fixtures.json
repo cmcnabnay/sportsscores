@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T20:28:06+00:00",
+  "updated": "2026-09-11T20:38:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13941,6 +13941,28 @@
       "attendance": null
     },
     {
+      "league": "internationals-2026",
+      "home": "Poland",
+      "away": "Czechia",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "18:00",
+      "utc": "2026-09-19T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "RC Vannes",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "18:55",
+      "utc": "2026-09-19T18:55:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Vannes",
       "away": "Stade Toulousain",
@@ -21746,7 +21768,7 @@
       "Table": {
         "rows": [
           {
-            "team": "Wigan Warriors (Q)",
+            "team": "Wigan Warriors (Q, L)",
             "played": 26,
             "win": 21,
             "draw": 0,
