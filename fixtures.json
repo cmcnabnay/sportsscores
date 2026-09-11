@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T05:23:10+00:00",
+  "updated": "2026-09-11T15:31:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13438,7 +13438,7 @@
       "league": "super-league-2026",
       "home": "York Knights",
       "away": "Bradford Bulls",
-      "score": "35–18",
+      "score": "35–16",
       "date": "2026-09-10",
       "time": "20:00",
       "utc": "2026-09-10T19:00:00+00:00",
@@ -13449,7 +13449,7 @@
       "league": "npc-2026",
       "home": "Otago",
       "away": "Tasman",
-      "score": null,
+      "score": "57-33",
       "date": "2026-09-11",
       "time": "19:10",
       "utc": "2026-09-11T07:10:00+00:00",
@@ -13460,7 +13460,7 @@
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Newcastle Knights",
-      "score": null,
+      "score": "10–20",
       "date": "2026-09-11",
       "time": "19:50",
       "utc": "2026-09-11T09:50:00+00:00",
@@ -22329,6 +22329,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Otago",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 270,
+            "against": 188,
+            "diff": 82,
+            "points": 27,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "North Harbour",
             "played": 6,
             "win": 4,
@@ -22353,27 +22365,15 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Otago",
-            "played": 6,
-            "win": 4,
-            "draw": 0,
-            "loss": 2,
-            "for": 213,
-            "against": 155,
-            "diff": 58,
-            "points": 22,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Tasman",
-            "played": 6,
+            "played": 7,
             "win": 4,
             "draw": 0,
-            "loss": 2,
-            "for": 198,
-            "against": 179,
-            "diff": 19,
-            "points": 20,
+            "loss": 3,
+            "for": 231,
+            "against": 236,
+            "diff": -5,
+            "points": 21,
             "highlight": "#CCF9CC"
           },
           {
@@ -23815,10 +23815,10 @@
             {
               "seed1": null,
               "team1": "South Sydney",
-              "score1": null,
+              "score1": 10,
               "seed2": null,
               "team2": "Newcastle",
-              "score2": null,
+              "score2": 20,
               "date": null,
               "venue": null
             },
@@ -23852,7 +23852,7 @@
               "team1": "TBD",
               "score1": null,
               "seed2": null,
-              "team2": "TBD",
+              "team2": "Newcastle",
               "score2": null,
               "date": null,
               "venue": null
