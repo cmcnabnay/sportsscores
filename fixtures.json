@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T20:48:13+00:00",
+  "updated": "2026-09-11T20:59:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13471,7 +13471,7 @@
       "league": "super-league-2026",
       "home": "Leeds Rhinos",
       "away": "Hull F.C.",
-      "score": null,
+      "score": "12–18",
       "date": "2026-09-11",
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
@@ -13482,7 +13482,7 @@
       "league": "super-league-2026",
       "home": "Leigh Leopards",
       "away": "Wakefield Trinity",
-      "score": null,
+      "score": "8–19",
       "date": "2026-09-11",
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
@@ -13515,7 +13515,7 @@
       "league": "super-league-2026",
       "home": "Wigan Warriors",
       "away": "Catalans Dragons",
-      "score": null,
+      "score": "50–12",
       "date": "2026-09-11",
       "time": "20:00",
       "utc": "2026-09-11T19:00:00+00:00",
@@ -13842,6 +13842,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Wakefield Trinity",
+      "away": "Leigh Leopards",
+      "score": null,
+      "date": "2026-09-18",
+      "time": null,
+      "utc": null,
+      "venue": "Belle Vue",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Toulon",
@@ -13993,6 +14004,17 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Hull Kingston Rovers",
+      "score": null,
+      "date": "2026-09-19",
+      "time": null,
+      "utc": null,
+      "venue": "Halliwell Jones Stadium",
       "attendance": null
     },
     {
@@ -21768,7 +21790,7 @@
       "Table": {
         "rows": [
           {
-            "team": "Wigan Warriors (Q)",
+            "team": "Wigan Warriors (Q, L)",
             "played": 26,
             "win": 21,
             "draw": 0,
