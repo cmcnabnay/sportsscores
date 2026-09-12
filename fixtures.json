@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:33:07+00:00",
+  "updated": "2026-09-12T22:44:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -98,6 +98,11 @@
     },
     "top14-2026": {
       "name": "French Top 14 2026-27",
+      "sport": "rugby",
+      "completed": false
+    },
+    "pacific-nations-cup-2026": {
+      "name": "World Rugby Pacific Nations Cup 2026",
       "sport": "rugby",
       "completed": false
     }
@@ -13644,6 +13649,17 @@
       "attendance": null
     },
     {
+      "league": "pacific-nations-cup-2026",
+      "home": "Fiji",
+      "away": "Canada",
+      "score": "45-29",
+      "date": "2026-09-12",
+      "time": "16:00",
+      "utc": "2026-09-12T07:00:00+00:00",
+      "venue": "Hanazono Rugby Stadium, Higashiōsaka",
+      "attendance": "13559"
+    },
+    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Dolphins",
@@ -13686,6 +13702,17 @@
       "utc": "2026-09-13T02:00:00+00:00",
       "venue": "BC Place",
       "attendance": null
+    },
+    {
+      "league": "pacific-nations-cup-2026",
+      "home": "Japan",
+      "away": "United States",
+      "score": "63-14",
+      "date": "2026-09-12",
+      "time": "19:05",
+      "utc": "2026-09-12T10:05:00+00:00",
+      "venue": "Hanazono Rugby Stadium, Higashiōsaka",
+      "attendance": "13559"
     },
     {
       "league": "npc-2026",
@@ -13919,6 +13946,17 @@
       "attendance": null
     },
     {
+      "league": "pacific-nations-cup-2026",
+      "home": "Canada",
+      "away": "United States",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "16:00",
+      "utc": "2026-09-19T07:00:00+00:00",
+      "venue": "Chichibunomiya Rugby Stadium, Tokyo",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Ottawa Redblacks",
@@ -13985,6 +14023,17 @@
       "attendance": null
     },
     {
+      "league": "pacific-nations-cup-2026",
+      "home": "Fiji",
+      "away": "Japan",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "19:05",
+      "utc": "2026-09-19T10:05:00+00:00",
+      "venue": "Chichibunomiya Rugby Stadium, Tokyo",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Wellington",
       "away": "Northland",
@@ -14037,6 +14086,17 @@
       "time": "19:05",
       "utc": "2026-09-20T19:05:00+00:00",
       "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "New Zealand Warriors",
+      "away": "Newcastle Knights",
+      "score": null,
+      "date": "2026-09-20",
+      "time": null,
+      "utc": null,
+      "venue": "TBD",
       "attendance": null
     },
     {
@@ -23874,6 +23934,66 @@
               "score2": null,
               "date": null,
               "venue": null
+            }
+          ]
+        }
+      ]
+    },
+    "pacific-nations-cup-2026": {
+      "name": "World Rugby Pacific Nations Cup 2026 · Play-offs",
+      "rounds": [
+        {
+          "label": "Semi-finals",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Fiji",
+              "score1": 45,
+              "seed2": null,
+              "team2": "Canada",
+              "score2": 29,
+              "date": "2026-09-12",
+              "venue": "Hanazono Rugby Stadium, Higashiōsaka"
+            },
+            {
+              "seed1": null,
+              "team1": "Japan",
+              "score1": 63,
+              "seed2": null,
+              "team2": "United States",
+              "score2": 14,
+              "date": "2026-09-12",
+              "venue": "Hanazono Rugby Stadium, Higashiōsaka"
+            }
+          ]
+        },
+        {
+          "label": "Third place play-off",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Canada",
+              "score1": null,
+              "seed2": null,
+              "team2": "United States",
+              "score2": null,
+              "date": "2026-09-19",
+              "venue": "Chichibunomiya Rugby Stadium, Tokyo"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Fiji",
+              "score1": null,
+              "seed2": null,
+              "team2": "Japan",
+              "score2": null,
+              "date": "2026-09-19",
+              "venue": "Chichibunomiya Rugby Stadium, Tokyo"
             }
           ]
         }
