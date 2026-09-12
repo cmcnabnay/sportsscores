@@ -102,6 +102,9 @@ HEADERS = {"User-Agent": "fixtures-fetcher/1.0 (personal project; contact: cmcna
 # espn.com. Kept separate from HEADERS since Wikipedia's API doesn't need
 # (and doesn't care about) any of this.
 ESPN_API_URL = "https://site.api.espn.com/apis/site/v2/sports"
+# Standings live under a different (non-"site") path than the scoreboard
+# above - same host/auth requirements, just a different API surface.
+ESPN_STANDINGS_API_URL = "https://site.api.espn.com/apis/v2/sports"
 ESPN_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -221,10 +224,47 @@ LEAGUES = {
             ],
         },
     },
+    "pacific-nations-cup-2026": {
+        "name": "World Rugby Pacific Nations Cup 2026",
+        "page": "2026_World_Rugby_Pacific_Nations_Cup",
+        "sport": "rugby",
+        "parser": "rugbybox",
+        # no utc_offset needed - each match states its own UTC offset directly
+        # No group/pool stage this edition - straight to a 4-team knockout
+        # (Semi-finals -> Grand Final, plus a Third place play-off), so
+        # there's no separate standings table to fetch.
+        #
+        # The page's "==Bracket==" section holds a {{Round4-with third}}
+        # template purely for the tree diagram - it carries no scores of
+        # its own (see the pipe-delimited "|date-place|team1|score1|team2|
+        # score2" rows there, e.g. the Final/Third-place rows leaving
+        # score1/score2 blank even once a semi-final's already been
+        # played). The actual per-match date/time/score/venue lives in the
+        # "==Matches==" section's own {{rugbybox}} boxes, one per named
+        # round heading - so, same as Currie Cup above, read those
+        # headings directly with the normal rugbybox parser instead of
+        # trying to parse Round4-with third for results. See
+        # build_headed_playoff_rounds()/fetch_playoffs_bracket().
+        "playoffs": {
+            "rounds": [
+                {"heading": "Semi-finals", "label": "Semi-finals"},
+                {"heading": "Third place play-off", "label": "Third place play-off"},
+                {"heading": "Grand Final", "label": "Final"},
+            ],
+        },
+    },
     "currie-cup-2026": {
         "name": "Currie Cup Premier Division 2026",
         "page": "2026_Currie_Cup_Premier_Division",
         "sport": "rugby",
+        # Season finished - Griquas beat the Pumas 23-16 in the Final on
+        # 12 September 2026. Stop re-fetching (fixtures, standings AND the
+        # playoff bracket) on every default run, same treatment as
+        # u20-jwc-2026/afle-2026/etc. above. Stored data is left exactly
+        # as-is; run `python3 fetch_fixtures.py currie-cup-2026 --force`
+        # manually if a correction ever needs to be pulled in after the
+        # fact.
+        "completed": True,
         "parser": "rugbybox2",
         "utc_offset": 2,  # South Africa Standard Time (SAST), no DST -
                           # always used directly rather than via
@@ -307,6 +347,109 @@ LEAGUES = {
             "20270501-20270630",
         ],
         # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        # ESPN doesn't expose a Top 14 standings table, so this comes from
+        # Wikipedia instead - fixtures/scores still come from ESPN above,
+        # this is standings only. The page's "==Table==" section is a bare
+        # {{#invoke:Sports table|main|...}} transclusion, which by the
+        # time it's rendered is just a normal wikitable (Pos/Team/Pld/W/D/
+        # L/PF/PA/PD/TF/TA/TB/LB/Pts/Qualification) - fetch_standings()
+        # reads it the same generic way as any other rendered standings
+        # table, no special-casing needed for the Lua module itself.
+        "standings": {
+            "page": "2026–27_Top_14_season",
+            "groups": [
+                {"label": "Table", "heading_ids": ["Table"]},
+            ],
+        },
+    },
+    "premiership-2026": {
+        "name": "Gallagher Premiership 2026-27",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 267979 is ESPN's league id for the Gallagher
+        # Premiership. Season hasn't started yet as of writing - a 10-club
+        # double round-robin is 90 matches, under ESPN's 100-event cap, so
+        # (unlike Top 14/URC below) this fits in a single date range with
+        # room to spare for however many playoff matches get added once
+        # they're scheduled.
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "267979",
+        "espn_date_range": "20260801-20270630",
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        # Unlike Top 14, ESPN DOES carry a standings table for this
+        # league - see fetch_espn_standings_groups(). All zeros until the
+        # season actually kicks off.
+        "standings": {
+            "espn_sport": "rugby",
+            "espn_league": "267979",
+        },
+    },
+    "urc-2026": {
+        "name": "United Rugby Championship 2026-27",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 270557 is ESPN's league id for the United
+        # Rugby Championship. Season hasn't started yet as of writing.
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "270557",
+        # 16 clubs, single round-robin (18 rounds) plus playoffs is ~140+
+        # matches a season - checked against ESPN's own event count while
+        # wiring this up (a single 20260801-20270630 request truncated at
+        # exactly the 100-event cap) - so, same as Top 14 above, split
+        # into quarterly ranges instead of one request.
+        "espn_date_range": [
+            "20260801-20261031",
+            "20261101-20270131",
+            "20270201-20270430",
+            "20270501-20270630",
+        ],
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        "standings": {
+            "espn_sport": "rugby",
+            "espn_league": "270557",
+        },
+    },
+    "champions-cup-2026": {
+        "name": "European Rugby Champions Cup 2026-27",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 271937 is ESPN's league id for the European
+        # Rugby Champions Cup. Season hasn't started yet as of writing;
+        # pool-stage-plus-knockouts is well under 100 matches, so one
+        # request covers the season.
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "271937",
+        "espn_date_range": "20260801-20270630",
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        # This competition is split into pools (4 of them, 6 teams each,
+        # this season) rather than one table - fetch_espn_standings_groups()
+        # doesn't need to know the pool count/names in advance, it just
+        # turns each of ESPN's response "children" (one per pool here)
+        # into its own group.
+        "standings": {
+            "espn_sport": "rugby",
+            "espn_league": "271937",
+        },
+    },
+    "challenge-cup-2026": {
+        "name": "European Rugby Challenge Cup 2026-27",
+        # Not a Wikipedia page - see the "espn" parser docstring at the
+        # top of this file. 272073 is ESPN's league id for the European
+        # Rugby Challenge Cup. Season hasn't started yet as of writing.
+        "sport": "rugby",
+        "parser": "espn",
+        "espn_sport": "rugby",
+        "espn_league": "272073",
+        "espn_date_range": "20260801-20270630",
+        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        # No "standings" config on purpose: ESPN's standings endpoint has
+        # no actual table for this competition (checked while wiring this
+        # up - the response's "children" carry league metadata but no
+        # "standings"/"entries" at all, unlike Premiership/URC/Champions
+        # Cup above), so there's nothing to scrape yet.
     },
     "nrl-2026": {
         "name": "NRL 2026",
@@ -396,6 +539,16 @@ LEAGUES = {
                     "heading_ids": ["Table", "League_table"],
                 }
             ],
+        },
+        # Confirmed from the page's own wikitext: "==Play-offs==" ->
+        # "===Team bracket===" holds a {{6TeamBracket}} template (this
+        # page, not the "_season_results" fixtures page, so "page" is
+        # given explicitly here) - auto-detected fine by
+        # fetch_playoffs_bracket()'s "\d+TeamBracket" regex, no "template"
+        # override needed. See fetch_playoffs_bracket().
+        "playoffs": {
+            "page": "2026_Super_League_season",
+            "heading": "Team bracket",
         },
     },
     "afle-2026": {
@@ -875,6 +1028,109 @@ def parse_espn_matches(data, league_key, cfg):
             "attendance": str(attendance) if attendance else None,
         })
     return matches
+
+
+def fetch_espn_standings(espn_sport, espn_league):
+    """Fetch a league's standings straight from ESPN's own standings
+    endpoint (a different API surface than fetch_espn_scoreboard's - see
+    ESPN_STANDINGS_API_URL). No date range/season needed: hitting this
+    without a `season` query param already returns whatever ESPN
+    considers the current season (checked against the Gallagher
+    Premiership/URC/Champions Cup 2026-27 tables while wiring this up),
+    so this stays correct next season with no config change. Same retry
+    treatment as fetch_espn_scoreboard - intermittent 403s here too."""
+    url = f"{ESPN_STANDINGS_API_URL}/{espn_sport}/{espn_league}/standings"
+    req = Request(url, headers=ESPN_HEADERS)
+    last_err = None
+    for attempt in range(ESPN_MAX_RETRIES):
+        try:
+            with urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except HTTPError as e:
+            last_err = e
+            if attempt < ESPN_MAX_RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_err
+
+
+# Maps this project's standard standings row roles (see
+# parse_standings_table's docstring) to the "name" field ESPN gives each
+# entry's stat objects.
+ESPN_STANDINGS_STAT_NAMES = {
+    "played": "gamesPlayed",
+    "win": "gamesWon",
+    "draw": "gamesDrawn",
+    "loss": "gamesLost",
+    "for": "pointsFor",
+    "against": "pointsAgainst",
+    "diff": "pointsDifference",
+    "points": "points",
+}
+
+
+def parse_espn_standings_group(entries):
+    """Turn one ESPN standings "children[i].standings.entries" list into
+    the same {"team","played","win","draw","loss","for","against","diff",
+    "points","highlight"} row shape parse_standings_table() produces from
+    a Wikipedia table, so matches.html doesn't need to care which source a
+    league's standings came from. ESPN doesn't mark rows with a qualify/
+    relegate color the way Wikipedia's Module:Sports table does, so
+    "highlight" is always None here."""
+    rows = []
+    for entry in entries:
+        team = entry.get("team", {}).get("displayName")
+        if not team:
+            continue
+        stats_by_name = {s.get("name"): s for s in entry.get("stats", [])}
+
+        def get_num(role):
+            stat = stats_by_name.get(ESPN_STANDINGS_STAT_NAMES[role])
+            if stat is None or stat.get("value") is None:
+                return None
+            return int(stat["value"])
+
+        rows.append({
+            "team": team,
+            "played": get_num("played"),
+            "win": get_num("win"),
+            "draw": get_num("draw"),
+            "loss": get_num("loss"),
+            "for": get_num("for"),
+            "against": get_num("against"),
+            "diff": get_num("diff"),
+            "points": get_num("points"),
+            "highlight": None,
+        })
+    return rows
+
+
+def fetch_espn_standings_groups(cfg, key):
+    """Resolve an "standings": {"espn_sport": ..., "espn_league": ...}
+    config (see LEAGUES' Gallagher Premiership/URC/Champions Cup entries)
+    into the {group_label: {"rows": [...], "legend": {}}} shape
+    fetch_standings() returns for every other (Wikipedia-sourced) league.
+
+    Each of ESPN's response "children" becomes its own group - a single-
+    table league like the Premiership or URC has exactly one child (named
+    after the league itself), while a pooled competition like the
+    Champions Cup has one child per pool ("Pool 1".."Pool 4"), so this
+    doesn't need to know in advance how many groups a given league has."""
+    standings_cfg = cfg["standings"]
+    try:
+        data = fetch_espn_standings(standings_cfg["espn_sport"], standings_cfg["espn_league"])
+    except Exception as e:
+        print(f"  !! standings: ESPN fetch failed for {key}: {e}", file=sys.stderr)
+        return {}
+
+    result = {}
+    for child in data.get("children", []):
+        entries = child.get("standings", {}).get("entries")
+        if not entries:
+            continue
+        rows = parse_espn_standings_group(entries)
+        if rows:
+            result[child.get("name", key)] = {"rows": rows, "legend": {}}
+    return result
 
 
 def normalize_date(iso_date, date_text, time_text):
@@ -1673,7 +1929,22 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
                 time_out = to_24h(combined)
             else:
                 if "date" in roles:
-                    date_out = resolve_date(row[roles["date"]], year, round_dates)
+                    date_cell = row[roles["date"]]
+                    date_out = resolve_date(date_cell, year, round_dates)
+                    if "time" not in roles:
+                        # Some pages fold the kickoff time into the same
+                        # "Date" column without a separate Time column or a
+                        # "date/time"-worded header for map_columns to key
+                        # off of - e.g. Super League's playoffs summary
+                        # table heads it just "Date" with an HTML comment
+                        # "<!--and time-->" that's invisible in the
+                        # rendered header text, while the cells themselves
+                        # read "18 September 2026, 20:00". Fall back to
+                        # pulling a time out of the same cell rather than
+                        # leaving it permanently None; to_24h() finds
+                        # nothing (and stays a no-op) on a cell that really
+                        # is date-only.
+                        time_out = to_24h(date_cell)
                 if "time" in roles:
                     time_out = to_24h(row[roles["time"]])
 
@@ -2076,12 +2347,38 @@ def parse_bracket_template(inner):
     return rounds
 
 
+# Bracket-team templates whose argument is the actual text to keep (just a
+# formatting wrapper) rather than an icon/flag to drop outright - e.g.
+# Super League's "{{nowrap|{{leagueicon|Warrington|12}} [[Warrington
+# Wolves|Warrington]]}}" uses {{nowrap|...}} purely so the longer team
+# names don't awkwardly line-wrap in the rendered bracket.
+_BRACKET_WRAPPER_TEMPLATES = {"nowrap"}
+
+
 def clean_bracket_team(raw):
     """Strip a bracket template's team cell (e.g. '{{flagicon|DEN}}
     [[Nordic Storm]]') down to the plain display name."""
     if raw is None:
         return None
-    text = strip_wikilinks(re.sub(r"\{\{[^{}]*\}\}", "", raw))
+    text = raw
+    # Repeatedly resolve the innermost {{...}} template (one with no
+    # further {{ }} nested inside it) until none remain, so a wrapper
+    # template around an icon template (both are {{...}}) gets unwrapped
+    # one layer at a time instead of a single non-recursive pass either
+    # missing the outer one or - if it deleted wholesale like the icon
+    # case below - taking the wrapper's actual text content down with it.
+    while True:
+        m = re.search(r"\{\{([^{}|]+)(\|[^{}]*)?\}\}", text)
+        if not m:
+            break
+        name = m.group(1).strip().lower()
+        if name in _BRACKET_WRAPPER_TEMPLATES:
+            arg = m.group(2) or ""
+            replacement = arg[1:] if arg.startswith("|") else ""
+        else:
+            replacement = ""
+        text = text[:m.start()] + replacement + text[m.end():]
+    text = strip_wikilinks(text)
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
 
@@ -2428,8 +2725,13 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
                 k, v = p.split("=", 1)
                 field[k.strip().lower()] = v.strip()
 
-        team1_raw = field.get("team1", "")
-        team2_raw = field.get("team2", "")
+        # Different pages/editors spell the two team slots differently -
+        # Nations Championship/Nations Cup use "team1"/"team2", while the
+        # 2026 World Rugby Pacific Nations Cup page instead uses "home"/
+        # "away" (same {{rugbybox}} template, just filled in with the
+        # other of its two documented param-name conventions).
+        team1_raw = field.get("team1") or field.get("home", "")
+        team2_raw = field.get("team2") or field.get("away", "")
         m1 = code_pattern.search(team1_raw)
         m2 = code_pattern.search(team2_raw)
         if not m1 or not m2:
@@ -3357,6 +3659,9 @@ def fetch_standings(cfg, key):
     standings_cfg = cfg.get("standings")
     if not standings_cfg:
         return {}
+
+    if "espn_league" in standings_cfg:
+        return fetch_espn_standings_groups(cfg, key)
 
     page = standings_cfg["page"]
     html = fetch_page_html(page)
