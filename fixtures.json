@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:11:41+00:00",
+  "updated": "2026-09-12T23:17:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13760,7 +13760,7 @@
       "league": "internationals-2026",
       "home": "South Africa",
       "away": "New Zealand",
-      "score": null,
+      "score": "43-28",
       "date": "2026-09-12",
       "time": "21:00",
       "utc": "2026-09-12T21:00:00+00:00",
@@ -15239,6 +15239,17 @@
       "time": "12:00",
       "utc": "2026-10-17T12:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Saskatchewan Roughriders",
+      "away": "Montreal Alouettes",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "13:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Mosaic Stadium",
       "attendance": null
     },
     {
