@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T09:27:05+00:00",
+  "updated": "2026-09-12T09:38:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22384,6 +22384,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Northland (RS)",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 245,
+            "against": 144,
+            "diff": 101,
+            "points": 27,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Otago",
             "played": 7,
             "win": 5,
@@ -22393,6 +22405,18 @@
             "against": 188,
             "diff": 82,
             "points": 27,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Canterbury",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 230,
+            "against": 183,
+            "diff": 47,
+            "points": 25,
             "highlight": "#CCF9CC"
           },
           {
@@ -22408,18 +22432,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Northland (RS)",
-            "played": 6,
-            "win": 4,
-            "draw": 0,
-            "loss": 2,
-            "for": 211,
-            "against": 127,
-            "diff": 84,
-            "points": 22,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Tasman",
             "played": 7,
             "win": 4,
@@ -22429,18 +22441,6 @@
             "against": 236,
             "diff": -5,
             "points": 21,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Canterbury",
-            "played": 6,
-            "win": 4,
-            "draw": 0,
-            "loss": 2,
-            "for": 164,
-            "against": 164,
-            "diff": 0,
-            "points": 20,
             "highlight": "#CCF9CC"
           },
           {
@@ -22457,13 +22457,13 @@
           },
           {
             "team": "Waikato",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 0,
-            "loss": 3,
-            "for": 204,
-            "against": 181,
-            "diff": 23,
+            "loss": 4,
+            "for": 221,
+            "against": 215,
+            "diff": 6,
             "points": 19,
             "highlight": "#CCF9CC"
           },
@@ -22492,27 +22492,27 @@
             "highlight": "transparent"
           },
           {
-            "team": "Counties Manukau",
-            "played": 6,
+            "team": "Auckland",
+            "played": 7,
             "win": 2,
             "draw": 0,
-            "loss": 4,
-            "for": 164,
-            "against": 233,
-            "diff": -69,
-            "points": 11,
+            "loss": 5,
+            "for": 189,
+            "against": 223,
+            "diff": -34,
+            "points": 14,
             "highlight": "transparent"
           },
           {
-            "team": "Auckland",
-            "played": 6,
-            "win": 1,
+            "team": "Counties Manukau",
+            "played": 7,
+            "win": 2,
             "draw": 0,
             "loss": 5,
-            "for": 146,
-            "against": 190,
-            "diff": -44,
-            "points": 9,
+            "for": 197,
+            "against": 276,
+            "diff": -79,
+            "points": 12,
             "highlight": "transparent"
           },
           {
@@ -22529,13 +22529,13 @@
           },
           {
             "team": "Wellington",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": 0,
-            "loss": 6,
-            "for": 156,
-            "against": 282,
-            "diff": -126,
+            "loss": 7,
+            "for": 175,
+            "against": 348,
+            "diff": -173,
             "points": 5,
             "highlight": "transparent"
           }
