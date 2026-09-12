@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:44:07+00:00",
+  "updated": "2026-09-12T22:55:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -69,7 +69,7 @@
     "currie-cup-2026": {
       "name": "Currie Cup Premier Division 2026",
       "sport": "rugby",
-      "completed": false
+      "completed": true
     },
     "argentina-liga-profesional-2026": {
       "name": "Liga Profesional Argentina 2026",
@@ -103,6 +103,26 @@
     },
     "pacific-nations-cup-2026": {
       "name": "World Rugby Pacific Nations Cup 2026",
+      "sport": "rugby",
+      "completed": false
+    },
+    "premiership-2026": {
+      "name": "Gallagher Premiership 2026-27",
+      "sport": "rugby",
+      "completed": false
+    },
+    "urc-2026": {
+      "name": "United Rugby Championship 2026-27",
+      "sport": "rugby",
+      "completed": false
+    },
+    "champions-cup-2026": {
+      "name": "European Rugby Champions Cup 2026-27",
+      "sport": "rugby",
+      "completed": false
+    },
+    "challenge-cup-2026": {
+      "name": "European Rugby Challenge Cup 2026-27",
       "sport": "rugby",
       "completed": false
     }
@@ -14111,6 +14131,61 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Stormers",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Toronto Argonauts",
@@ -14144,6 +14219,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "11:30",
+      "utc": "2026-09-26T11:30:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Perpignan",
       "away": "Bordeaux Begles",
@@ -14155,6 +14241,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Northland",
       "away": "Counties Manukau",
@@ -14163,6 +14260,17 @@
       "time": "14:05",
       "utc": "2026-09-26T02:05:00+00:00",
       "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:05",
+      "utc": "2026-09-26T14:05:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
       "attendance": null
     },
     {
@@ -14221,6 +14329,39 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "16:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "16:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Bulls",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "16:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Hamilton Tiger-Cats",
@@ -14240,6 +14381,17 @@
       "time": "17:05",
       "utc": "2026-09-26T05:05:00+00:00",
       "venue": "One NZ Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "18:45",
+      "utc": "2026-09-26T18:45:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
       "attendance": null
     },
     {
@@ -14287,6 +14439,17 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Saracens",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "14:00",
+      "utc": "2026-09-27T14:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Wellington",
       "away": "Waikato",
@@ -14331,6 +14494,50 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Zebre",
+      "score": null,
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Stormers",
+      "score": null,
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Connacht",
+      "score": null,
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Hamilton Tiger-Cats",
@@ -14364,6 +14571,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "11:45",
+      "utc": "2026-10-03T11:45:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Bordeaux Begles",
       "away": "Lyon",
@@ -14375,6 +14593,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Manawatu",
       "away": "Canterbury",
@@ -14383,6 +14612,17 @@
       "time": "14:05",
       "utc": "2026-10-03T01:05:00+00:00",
       "venue": "Central Energy Trust Arena",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:05",
+      "utc": "2026-10-03T14:05:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
       "attendance": null
     },
     {
@@ -14441,6 +14681,39 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Ulster",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
       "league": "npc-2026",
       "home": "Counties Manukau",
       "away": "Hawke's Bay",
@@ -14449,6 +14722,28 @@
       "time": "17:05",
       "utc": "2026-10-03T04:05:00+00:00",
       "venue": "Navigation Homes Stadium",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "18:45",
+      "utc": "2026-10-03T18:45:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Bulls",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "18:45",
+      "utc": "2026-10-03T18:45:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
       "attendance": null
     },
     {
@@ -14482,6 +14777,17 @@
       "time": "19:10",
       "utc": "2026-10-03T06:10:00+00:00",
       "venue": "FMG Stadium Waikato",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2026-10-04",
+      "time": "14:00",
+      "utc": "2026-10-04T14:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
       "attendance": null
     },
     {
@@ -14526,6 +14832,39 @@
       "time": "19:05",
       "utc": "2026-10-04T19:05:00+00:00",
       "venue": "Septeo Stadium, Montpellier (France)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "18:45",
+      "utc": "2026-10-09T18:45:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Connacht",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "18:45",
+      "utc": "2026-10-09T18:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "18:45",
+      "utc": "2026-10-09T18:45:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
       "attendance": null
     },
     {
@@ -14639,6 +14978,83 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "11:30",
+      "utc": "2026-10-10T11:30:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Sharks",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:05",
+      "utc": "2026-10-10T14:05:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Munster",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Leningradets",
       "away": "Torpedo Moscow",
@@ -14661,6 +15077,39 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "18:45",
+      "utc": "2026-10-10T18:45:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2026-10-11",
+      "time": "14:00",
+      "utc": "2026-10-11T14:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-10-11",
+      "time": "14:00",
+      "utc": "2026-10-11T14:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Lanús",
       "away": "Vélez Sarsfield",
@@ -14680,6 +15129,39 @@
       "time": "13:00",
       "utc": "2026-10-12T17:00:00+00:00",
       "venue": "Molson Stadium",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Gloucester Rugby",
+      "away": "Bordeaux Begles",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T19:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Dragons",
+      "away": "Perpignan",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T19:00:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Edinburgh",
+      "away": "Toulon",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T19:00:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
       "attendance": null
     },
     {
@@ -14716,6 +15198,50 @@
       "attendance": null
     },
     {
+      "league": "champions-cup-2026",
+      "home": "Sale Sharks",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "12:00",
+      "utc": "2026-10-17T12:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bulls",
+      "away": "Stade Francais Paris",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "12:00",
+      "utc": "2026-10-17T12:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Lyon",
+      "away": "Sharks",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "12:00",
+      "utc": "2026-10-17T12:00:00+00:00",
+      "venue": "Matmut Stadium de Gerland, Lyon (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Black Lion",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "12:00",
+      "utc": "2026-10-17T12:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Montreal Alouettes",
@@ -14724,6 +15250,61 @@
       "time": "13:00",
       "utc": "2026-10-17T19:00:00+00:00",
       "venue": "Mosaic Stadium",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Clermont Auvergne",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "14:15",
+      "utc": "2026-10-17T14:15:00+00:00",
+      "venue": "Stade Marcel Michelin, Clermont-Ferrand (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stormers",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "14:15",
+      "utc": "2026-10-17T14:15:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Zebre",
+      "away": "Ulster",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "14:15",
+      "utc": "2026-10-17T14:15:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Connacht",
+      "away": "Saracens",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "16:30",
+      "utc": "2026-10-17T16:30:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "La Rochelle",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "16:30",
+      "utc": "2026-10-17T16:30:00+00:00",
+      "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
       "attendance": null
     },
     {
@@ -14738,6 +15319,39 @@
       "attendance": null
     },
     {
+      "league": "champions-cup-2026",
+      "home": "Munster",
+      "away": "Racing 92",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "19:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Pairc Ui Chaoimh, Cork (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bath Rugby",
+      "away": "Montpellier Herault",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "19:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Scarlets",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "19:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Yenisey Krasnoyarsk",
       "away": "Torpedo Moscow",
@@ -14749,6 +15363,72 @@
       "attendance": null
     },
     {
+      "league": "champions-cup-2026",
+      "home": "Pau",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "12:00",
+      "utc": "2026-10-18T12:00:00+00:00",
+      "venue": "Stade du Hameau, Pau (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Bayonne",
+      "away": "Cheetahs",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "12:00",
+      "utc": "2026-10-18T12:00:00+00:00",
+      "venue": "Stade Jean Dauger, Bayonne (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Harlequins",
+      "away": "Vannes",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "12:00",
+      "utc": "2026-10-18T12:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stade Toulousain",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "14:15",
+      "utc": "2026-10-18T14:15:00+00:00",
+      "venue": "Stadium de Toulouse, Toulouse (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Northampton Saints",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "16:30",
+      "utc": "2026-10-18T16:30:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Castres Olympique",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "16:30",
+      "utc": "2026-10-18T16:30:00+00:00",
+      "venue": "Stade Pierre Fabre, Castres (France)",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Gimnasia y Esgrima (M)",
@@ -14757,6 +15437,61 @@
       "time": "17:00",
       "utc": "2026-10-18T20:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Sharks",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Zebre",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
       "attendance": null
     },
     {
@@ -14870,6 +15605,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Ulster",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "11:45",
+      "utc": "2026-10-24T11:45:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Saskatchewan Roughriders",
       "away": "Edmonton Elks",
@@ -14878,6 +15624,39 @@
       "time": "13:00",
       "utc": "2026-10-24T19:00:00+00:00",
       "venue": "Mosaic Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:05",
+      "utc": "2026-10-24T14:05:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
       "attendance": null
     },
     {
@@ -14892,6 +15671,28 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "16:30",
+      "utc": "2026-10-24T16:30:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Munster",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "17:00",
+      "utc": "2026-10-24T17:00:00+00:00",
+      "venue": "Aviva Stadium, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Torpedo Moscow",
       "away": "Rotor Volgograd",
@@ -14903,6 +15704,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "18:00",
+      "utc": "2026-10-24T18:00:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Saracens",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "15:00",
+      "utc": "2026-10-25T15:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Central Córdoba (SdE)",
       "away": "Vélez Sarsfield",
@@ -14911,6 +15734,39 @@
       "time": "18:00",
       "utc": "2026-10-25T21:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "19:45",
+      "utc": "2026-10-30T19:45:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "19:45",
+      "utc": "2026-10-30T19:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "19:45",
+      "utc": "2026-10-30T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
       "attendance": null
     },
     {
@@ -14991,6 +15847,39 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "15:05",
+      "utc": "2026-10-31T15:05:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Belgium",
       "away": "Hong Kong",
@@ -14999,6 +15888,17 @@
       "time": "17:00",
       "utc": "2026-10-31T17:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "17:30",
+      "utc": "2026-10-31T17:30:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
       "attendance": null
     },
     {
@@ -16168,6 +17068,39 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "19:45",
+      "utc": "2026-12-04T19:45:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "19:45",
+      "utc": "2026-12-04T19:45:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "19:45",
+      "utc": "2026-12-04T19:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Perpignan",
       "away": "Clermont Auvergne",
@@ -16242,6 +17175,83 @@
       "time": "00:00",
       "utc": "2026-12-05T00:00:00+00:00",
       "venue": "Stade Ernest-Wallon, Toulouse (France)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Bulls",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "12:30",
+      "utc": "2026-12-05T12:30:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Stormers",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Ulster",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:05",
+      "utc": "2026-12-05T15:05:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Connacht",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:15",
+      "utc": "2026-12-05T17:15:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:30",
+      "utc": "2026-12-05T17:30:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
       "attendance": null
     },
     {
@@ -16256,6 +17266,303 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "19:45",
+      "utc": "2026-12-05T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Munster",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "19:45",
+      "utc": "2026-12-05T19:45:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "15:00",
+      "utc": "2026-12-06T15:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Glasgow Warriors",
+      "away": "Pau",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stade Francais Paris",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": "Stade Jean Bouin, Paris (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Lions",
+      "away": "Stade Toulousain",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "13:00",
+      "utc": "2026-12-12T13:00:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Ospreys",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "13:00",
+      "utc": "2026-12-12T13:00:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Ulster",
+      "away": "Bayonne",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "13:00",
+      "utc": "2026-12-12T13:00:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Leicester Tigers",
+      "away": "Clermont Auvergne",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "15:15",
+      "utc": "2026-12-12T15:15:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Montpellier Herault",
+      "away": "Bulls",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "15:15",
+      "utc": "2026-12-12T15:15:00+00:00",
+      "venue": "Septeo Stadium, Montpellier (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Leinster",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Saracens",
+      "away": "La Rochelle",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Benetton Treviso",
+      "away": "Lyon",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Sharks",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bristol Rugby",
+      "away": "Munster",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "20:00",
+      "utc": "2026-12-12T20:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Cardiff Blues",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "20:00",
+      "utc": "2026-12-12T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Toulon",
+      "away": "Black Lion",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "20:00",
+      "utc": "2026-12-12T20:00:00+00:00",
+      "venue": "Stade Mayol, Toulon (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Newcastle Falcons",
+      "away": "Castres Olympique",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "20:00",
+      "utc": "2026-12-12T20:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Exeter Chiefs",
+      "away": "Connacht",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "13:00",
+      "utc": "2026-12-13T13:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Vannes",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "13:00",
+      "utc": "2026-12-13T13:00:00+00:00",
+      "venue": "Stade de la Rabine, Vannes (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Cheetahs",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "13:00",
+      "utc": "2026-12-13T13:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bordeaux Begles",
+      "away": "Stormers",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "15:15",
+      "utc": "2026-12-13T15:15:00+00:00",
+      "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Perpignan",
+      "away": "Zebre",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "15:15",
+      "utc": "2026-12-13T15:15:00+00:00",
+      "venue": "Stade Aime Giral, Perpignan (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Racing 92",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "17:30",
+      "utc": "2026-12-13T17:30:00+00:00",
+      "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "19:45",
+      "utc": "2026-12-18T19:45:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "19:45",
+      "utc": "2026-12-18T19:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "19:45",
+      "utc": "2026-12-18T19:45:00+00:00",
+      "venue": "Virgin Media Park, Cork (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "Perpignan",
@@ -16330,6 +17637,116 @@
       "time": "00:00",
       "utc": "2026-12-19T00:00:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "13:30",
+      "utc": "2026-12-19T13:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Lions",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "14:00",
+      "utc": "2026-12-19T14:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Saracens",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:00",
+      "utc": "2026-12-19T15:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:00",
+      "utc": "2026-12-19T15:00:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:05",
+      "utc": "2026-12-19T15:05:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Bulls",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "16:30",
+      "utc": "2026-12-19T16:30:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "17:30",
+      "utc": "2026-12-19T17:30:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "17:30",
+      "utc": "2026-12-19T17:30:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "19:45",
+      "utc": "2026-12-19T19:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2026-12-20",
+      "time": "15:00",
+      "utc": "2026-12-20T15:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
       "attendance": null
     },
     {
@@ -16410,6 +17827,138 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:05",
+      "utc": "2026-12-26T15:05:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "17:30",
+      "utc": "2026-12-26T17:30:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "17:30",
+      "utc": "2026-12-26T17:30:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Zebre",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "13:30",
+      "utc": "2026-12-27T13:30:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "15:00",
+      "utc": "2026-12-27T15:00:00+00:00",
+      "venue": "Scottish Gas Murrayfield, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Saracens",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "15:05",
+      "utc": "2026-12-27T15:05:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Connacht",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "17:30",
+      "utc": "2026-12-27T17:30:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Leinster",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "19:45",
+      "utc": "2026-12-27T19:45:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2026-12-28",
+      "time": "17:00",
+      "utc": "2026-12-28T17:00:00+00:00",
+      "venue": "Allianz Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-01-01",
+      "time": "19:45",
+      "utc": "2027-01-01T19:45:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "Stade Toulousain",
@@ -16484,6 +18033,622 @@
       "time": "00:00",
       "utc": "2027-01-02T00:00:00+00:00",
       "venue": "Stade Mayol, Toulon (France)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:05",
+      "utc": "2027-01-02T15:05:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:15",
+      "utc": "2027-01-02T17:15:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "19:45",
+      "utc": "2027-01-02T19:45:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-03",
+      "time": "14:00",
+      "utc": "2027-01-03T14:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-01-03",
+      "time": "15:00",
+      "utc": "2027-01-03T15:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Glasgow Warriors",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "20:00",
+      "utc": "2027-01-08T20:00:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Dragons",
+      "away": "Bayonne",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "20:00",
+      "utc": "2027-01-08T20:00:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Newcastle Falcons",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "20:00",
+      "utc": "2027-01-08T20:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Gloucester Rugby",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "13:00",
+      "utc": "2027-01-09T13:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Sharks",
+      "away": "Castres Olympique",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "13:00",
+      "utc": "2027-01-09T13:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Edinburgh",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "13:00",
+      "utc": "2027-01-09T13:00:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Toulon",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "13:00",
+      "utc": "2027-01-09T13:00:00+00:00",
+      "venue": "Stade Mayol, Toulon (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Exeter Chiefs",
+      "away": "La Rochelle",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "15:15",
+      "utc": "2027-01-09T15:15:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bulls",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "15:15",
+      "utc": "2027-01-09T15:15:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Leinster",
+      "away": "Pau",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "17:30",
+      "utc": "2027-01-09T17:30:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Montpellier Herault",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "17:30",
+      "utc": "2027-01-09T17:30:00+00:00",
+      "venue": "Septeo Stadium, Montpellier (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Connacht",
+      "away": "Stade Toulousain",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "20:00",
+      "utc": "2027-01-09T20:00:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stade Francais Paris",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "20:00",
+      "utc": "2027-01-09T20:00:00+00:00",
+      "venue": "Stade Jean Bouin, Paris (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Scarlets",
+      "away": "Lyon",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "20:00",
+      "utc": "2027-01-09T20:00:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Racing 92",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "13:00",
+      "utc": "2027-01-10T13:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Perpignan",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "13:00",
+      "utc": "2027-01-10T13:00:00+00:00",
+      "venue": "Stade Aime Giral, Perpignan (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Vannes",
+      "away": "Black Lion",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "13:00",
+      "utc": "2027-01-10T13:00:00+00:00",
+      "venue": "Stade de la Rabine, Vannes (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Saracens",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "15:15",
+      "utc": "2027-01-10T15:15:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bordeaux Begles",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "15:15",
+      "utc": "2027-01-10T15:15:00+00:00",
+      "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Sale Sharks",
+      "away": "Clermont Auvergne",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "17:30",
+      "utc": "2027-01-10T17:30:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Zebre",
+      "away": "Cheetahs",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "17:30",
+      "utc": "2027-01-10T17:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Northampton Saints",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "20:00",
+      "utc": "2027-01-15T20:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Cardiff Blues",
+      "away": "Montpellier Herault",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "20:00",
+      "utc": "2027-01-15T20:00:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Harlequins",
+      "away": "Toulon",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "20:00",
+      "utc": "2027-01-15T20:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Pau",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "13:00",
+      "utc": "2027-01-16T13:00:00+00:00",
+      "venue": "Stade du Hameau, Pau (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Lions",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "13:00",
+      "utc": "2027-01-16T13:00:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Bayonne",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "13:00",
+      "utc": "2027-01-16T13:00:00+00:00",
+      "venue": "Stade Jean Dauger, Bayonne (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bristol Rugby",
+      "away": "Bordeaux Begles",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "15:15",
+      "utc": "2027-01-16T15:15:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stormers",
+      "away": "Racing 92",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "15:15",
+      "utc": "2027-01-16T15:15:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Ulster",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "15:15",
+      "utc": "2027-01-16T15:15:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Castres Olympique",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "15:15",
+      "utc": "2027-01-16T15:15:00+00:00",
+      "venue": "Stade Pierre Fabre, Castres (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "La Rochelle",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "17:30",
+      "utc": "2027-01-16T17:30:00+00:00",
+      "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Munster",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "17:30",
+      "utc": "2027-01-16T17:30:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Benetton Treviso",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "17:30",
+      "utc": "2027-01-16T17:30:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Clermont Auvergne",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "20:00",
+      "utc": "2027-01-16T20:00:00+00:00",
+      "venue": "Stade Marcel Michelin, Clermont-Ferrand (France)",
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Leicester Tigers",
+      "away": "Leinster",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "20:00",
+      "utc": "2027-01-16T20:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Ospreys",
+      "away": "Vannes",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "20:00",
+      "utc": "2027-01-16T20:00:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Lyon",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "13:00",
+      "utc": "2027-01-17T13:00:00+00:00",
+      "venue": "Matmut Stadium de Gerland, Lyon (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Black Lion",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "13:00",
+      "utc": "2027-01-17T13:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Stade Toulousain",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "15:15",
+      "utc": "2027-01-17T15:15:00+00:00",
+      "venue": "Stade Ernest-Wallon, Toulouse (France)",
+      "attendance": null
+    },
+    {
+      "league": "challenge-cup-2026",
+      "home": "Cheetahs",
+      "away": "Perpignan",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "15:15",
+      "utc": "2027-01-17T15:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "champions-cup-2026",
+      "home": "Bath Rugby",
+      "away": "Stade Francais Paris",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "17:30",
+      "utc": "2027-01-17T17:30:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2027-01-22",
+      "time": "19:45",
+      "utc": "2027-01-22T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-01-22",
+      "time": "19:45",
+      "utc": "2027-01-22T19:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
       "attendance": null
     },
     {
@@ -16564,6 +18729,149 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "00:00",
+      "utc": "2027-01-23T00:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "00:00",
+      "utc": "2027-01-23T00:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "00:00",
+      "utc": "2027-01-23T00:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "00:00",
+      "utc": "2027-01-23T00:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "00:00",
+      "utc": "2027-01-23T00:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "12:45",
+      "utc": "2027-01-23T12:45:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "17:30",
+      "utc": "2027-01-23T17:30:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "17:30",
+      "utc": "2027-01-23T17:30:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "19:45",
+      "utc": "2027-01-23T19:45:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-01-29",
+      "time": "19:45",
+      "utc": "2027-01-29T19:45:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-01-29",
+      "time": "19:45",
+      "utc": "2027-01-29T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Perpignan",
       "away": "Stade Francais Paris",
@@ -16641,6 +18949,72 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "12:45",
+      "utc": "2027-01-30T12:45:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "17:30",
+      "utc": "2027-01-30T17:30:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "19:45",
+      "utc": "2027-01-30T19:45:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "19:45",
+      "utc": "2027-01-30T19:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "La Rochelle",
@@ -16715,6 +19089,28 @@
       "time": "00:00",
       "utc": "2027-02-20T00:00:00+00:00",
       "venue": "Stade Ernest-Wallon, Toulouse (France)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-02-20",
+      "time": "12:00",
+      "utc": "2027-02-20T12:00:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-02-21",
+      "time": "13:00",
+      "utc": "2027-02-21T13:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
       "attendance": null
     },
     {
@@ -16913,6 +19309,28 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-02-26",
+      "time": "19:45",
+      "utc": "2027-02-26T19:45:00+00:00",
+      "venue": "Virgin Media Park, Cork (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-02-26",
+      "time": "19:45",
+      "utc": "2027-02-26T19:45:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
       "attendance": null
     },
     {
@@ -17188,6 +19606,72 @@
       "time": "00:00",
       "utc": "2027-02-27T00:00:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "12:30",
+      "utc": "2027-02-27T12:30:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "17:30",
+      "utc": "2027-02-27T17:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "17:30",
+      "utc": "2027-02-27T17:30:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Leinster",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "19:45",
+      "utc": "2027-02-27T19:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
       "attendance": null
     },
     {
@@ -17543,6 +20027,39 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-03-19",
+      "time": "17:00",
+      "utc": "2027-03-19T17:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-03-19",
+      "time": "19:45",
+      "utc": "2027-03-19T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-03-19",
+      "time": "19:45",
+      "utc": "2027-03-19T19:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "Bordeaux Begles",
@@ -17620,6 +20137,116 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "00:00",
+      "utc": "2027-03-20T00:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "00:00",
+      "utc": "2027-03-20T00:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "00:00",
+      "utc": "2027-03-20T00:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "00:00",
+      "utc": "2027-03-20T00:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "00:00",
+      "utc": "2027-03-20T00:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "17:30",
+      "utc": "2027-03-20T17:30:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "17:30",
+      "utc": "2027-03-20T17:30:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "19:45",
+      "utc": "2027-03-20T19:45:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Sochi",
       "away": "Torpedo Moscow",
@@ -17628,6 +20255,28 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:45",
+      "utc": "2027-03-26T19:45:00+00:00",
+      "venue": "Scotstoun Stadium, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Leinster",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:45",
+      "utc": "2027-03-26T19:45:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
       "attendance": null
     },
     {
@@ -17705,6 +20354,127 @@
       "time": "00:00",
       "utc": "2027-03-27T00:00:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "00:00",
+      "utc": "2027-03-27T00:00:00+00:00",
+      "venue": "Villa Park, Birmingham (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "00:00",
+      "utc": "2027-03-27T00:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "00:00",
+      "utc": "2027-03-27T00:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "00:00",
+      "utc": "2027-03-27T00:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "00:00",
+      "utc": "2027-03-27T00:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "12:00",
+      "utc": "2027-03-27T12:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "14:15",
+      "utc": "2027-03-27T14:15:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "16:30",
+      "utc": "2027-03-27T16:30:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "17:30",
+      "utc": "2027-03-27T17:30:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "19:45",
+      "utc": "2027-03-27T19:45:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "19:45",
+      "utc": "2027-03-27T19:45:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
       "attendance": null
     },
     {
@@ -17741,6 +20511,39 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-04-16",
+      "time": "17:30",
+      "utc": "2027-04-16T17:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-04-16",
+      "time": "18:45",
+      "utc": "2027-04-16T18:45:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-04-16",
+      "time": "18:45",
+      "utc": "2027-04-16T18:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Bayonne",
@@ -17818,6 +20621,116 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "00:00",
+      "utc": "2027-04-17T00:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "00:00",
+      "utc": "2027-04-17T00:00:00+00:00",
+      "venue": "Principality Stadium, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "00:00",
+      "utc": "2027-04-17T00:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "00:00",
+      "utc": "2027-04-17T00:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "00:00",
+      "utc": "2027-04-17T00:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "11:45",
+      "utc": "2027-04-17T11:45:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "14:00",
+      "utc": "2027-04-17T14:00:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "16:30",
+      "utc": "2027-04-17T16:30:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "16:45",
+      "utc": "2027-04-17T16:45:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "18:45",
+      "utc": "2027-04-17T18:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Spartak Kostroma",
       "away": "Torpedo Moscow",
@@ -17826,6 +20739,39 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-04-23",
+      "time": "17:00",
+      "utc": "2027-04-23T17:00:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Leinster",
+      "score": null,
+      "date": "2027-04-23",
+      "time": "18:45",
+      "utc": "2027-04-23T18:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-04-23",
+      "time": "19:05",
+      "utc": "2027-04-23T19:05:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
       "attendance": null
     },
     {
@@ -17906,6 +20852,116 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "00:00",
+      "utc": "2027-04-24T00:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "00:00",
+      "utc": "2027-04-24T00:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "00:00",
+      "utc": "2027-04-24T00:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "00:00",
+      "utc": "2027-04-24T00:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "00:00",
+      "utc": "2027-04-24T00:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Lions",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "11:45",
+      "utc": "2027-04-24T11:45:00+00:00",
+      "venue": "Ellis Park, Johannesburg (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "14:00",
+      "utc": "2027-04-24T14:00:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "16:05",
+      "utc": "2027-04-24T16:05:00+00:00",
+      "venue": "DHL Stadium, Cape Town (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "16:45",
+      "utc": "2027-04-24T16:45:00+00:00",
+      "venue": "Hampden Park, Glasgow (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-04-24",
+      "time": "18:45",
+      "utc": "2027-04-24T18:45:00+00:00",
+      "venue": "Dexcom Stadium, Galway (Ireland)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Shinnik Yaroslavl",
       "away": "Torpedo Moscow",
@@ -17925,6 +20981,28 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-05-07",
+      "time": "18:45",
+      "utc": "2027-05-07T18:45:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-05-07",
+      "time": "18:45",
+      "utc": "2027-05-07T18:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
       "attendance": null
     },
     {
@@ -18005,6 +21083,127 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "00:00",
+      "utc": "2027-05-08T00:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "00:00",
+      "utc": "2027-05-08T00:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "00:00",
+      "utc": "2027-05-08T00:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "00:00",
+      "utc": "2027-05-08T00:00:00+00:00",
+      "venue": "Allianz Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "00:00",
+      "utc": "2027-05-08T00:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "11:30",
+      "utc": "2027-05-08T11:30:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "14:00",
+      "utc": "2027-05-08T14:00:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Ulster",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "16:15",
+      "utc": "2027-05-08T16:15:00+00:00",
+      "venue": "Thomond Park, Limerick (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "16:30",
+      "utc": "2027-05-08T16:30:00+00:00",
+      "venue": "Parc y Scarlets, Llanelli (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "18:45",
+      "utc": "2027-05-08T18:45:00+00:00",
+      "venue": "Laya Arena, Dublin (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Cardiff Blues",
+      "score": null,
+      "date": "2027-05-08",
+      "time": "18:45",
+      "utc": "2027-05-08T18:45:00+00:00",
+      "venue": "Stadio Comunale di Monigo, Treviso (Italy)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Neftekhimik",
       "away": "Torpedo Moscow",
@@ -18013,6 +21212,39 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-05-14",
+      "time": "18:45",
+      "utc": "2027-05-14T18:45:00+00:00",
+      "venue": "St Helen's Rugby and Cricket Ground, Swansea (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-05-14",
+      "time": "18:45",
+      "utc": "2027-05-14T18:45:00+00:00",
+      "venue": "Affidea Stadium, Belfast (Ireland)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-05-14",
+      "time": "18:45",
+      "utc": "2027-05-14T18:45:00+00:00",
+      "venue": "Hive Stadium, Edinburgh (Scotland)",
       "attendance": null
     },
     {
@@ -18090,6 +21322,116 @@
       "time": "00:00",
       "utc": "2027-05-15T00:00:00+00:00",
       "venue": "Stade Ernest-Wallon, Toulouse (France)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "00:00",
+      "utc": "2027-05-15T00:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "00:00",
+      "utc": "2027-05-15T00:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "00:00",
+      "utc": "2027-05-15T00:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "00:00",
+      "utc": "2027-05-15T00:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "00:00",
+      "utc": "2027-05-15T00:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "11:30",
+      "utc": "2027-05-15T11:30:00+00:00",
+      "venue": "Loftus Versfeld, Pretoria (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Blues",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "14:00",
+      "utc": "2027-05-15T14:00:00+00:00",
+      "venue": "Cardiff Arms Park, Cardiff (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "14:00",
+      "utc": "2027-05-15T14:00:00+00:00",
+      "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "16:30",
+      "utc": "2027-05-15T16:30:00+00:00",
+      "venue": "Rodney Parade, Newport (Wales)",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Leinster",
+      "score": null,
+      "date": "2027-05-15",
+      "time": "16:30",
+      "utc": "2027-05-15T16:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
       "attendance": null
     },
     {
@@ -18192,6 +21534,61 @@
       "attendance": null
     },
     {
+      "league": "premiership-2026",
+      "home": "Bristol Rugby",
+      "away": "Bath Rugby",
+      "score": null,
+      "date": "2027-05-29",
+      "time": "00:00",
+      "utc": "2027-05-29T00:00:00+00:00",
+      "venue": "Ashton Gate, Bristol (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Exeter Chiefs",
+      "away": "Leicester Tigers",
+      "score": null,
+      "date": "2027-05-29",
+      "time": "00:00",
+      "utc": "2027-05-29T00:00:00+00:00",
+      "venue": "Sandy Park, Exeter (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Harlequins",
+      "away": "Sale Sharks",
+      "score": null,
+      "date": "2027-05-29",
+      "time": "00:00",
+      "utc": "2027-05-29T00:00:00+00:00",
+      "venue": "Twickenham Stoop, London (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Newcastle Falcons",
+      "away": "Northampton Saints",
+      "score": null,
+      "date": "2027-05-29",
+      "time": "00:00",
+      "utc": "2027-05-29T00:00:00+00:00",
+      "venue": "Kingston Park, Newcastle (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Saracens",
+      "away": "Gloucester Rugby",
+      "score": null,
+      "date": "2027-05-29",
+      "time": "00:00",
+      "utc": "2027-05-29T00:00:00+00:00",
+      "venue": "StoneX Stadium, London (England)",
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Veles Moscow",
       "away": "Torpedo Moscow",
@@ -18277,6 +21674,61 @@
       "time": "00:00",
       "utc": "2027-06-05T00:00:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Bath Rugby",
+      "away": "Saracens",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "13:00",
+      "utc": "2027-06-05T13:00:00+00:00",
+      "venue": "Recreation Ground, Bath (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Gloucester Rugby",
+      "away": "Exeter Chiefs",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "13:00",
+      "utc": "2027-06-05T13:00:00+00:00",
+      "venue": "Kingsholm, Gloucester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Leicester Tigers",
+      "away": "Harlequins",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "13:00",
+      "utc": "2027-06-05T13:00:00+00:00",
+      "venue": "Mattioli Woods Welford Road Stadium, Leicester (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Northampton Saints",
+      "away": "Bristol Rugby",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "13:00",
+      "utc": "2027-06-05T13:00:00+00:00",
+      "venue": "cinch Stadium at Franklin's Gardens, Northampton (England)",
+      "attendance": null
+    },
+    {
+      "league": "premiership-2026",
+      "home": "Sale Sharks",
+      "away": "Newcastle Falcons",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "13:00",
+      "utc": "2027-06-05T13:00:00+00:00",
+      "venue": "CorpAcq Stadium, Salford (England)",
       "attendance": null
     }
   ],
@@ -23490,6 +26942,820 @@
         ],
         "legend": {}
       }
+    },
+    "top14-2026": {
+      "Table": {
+        "rows": [
+          {
+            "team": "Bordeaux Bègles",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 64,
+            "against": 5,
+            "diff": 59,
+            "points": 5,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Castres",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 29,
+            "against": 20,
+            "diff": 9,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Pau",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 27,
+            "against": 19,
+            "diff": 8,
+            "points": 4,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Lyon",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 40,
+            "against": 36,
+            "diff": 4,
+            "points": 4,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "La Rochelle",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 30,
+            "against": 27,
+            "diff": 3,
+            "points": 4,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Stade Français",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 28,
+            "against": 26,
+            "diff": 2,
+            "points": 4,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Bayonne",
+            "played": 1,
+            "win": 1,
+            "draw": 0,
+            "loss": 0,
+            "for": 27,
+            "against": 26,
+            "diff": 1,
+            "points": 4,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Toulon",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 26,
+            "against": 27,
+            "diff": -1,
+            "points": 1,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Perpignan",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 26,
+            "against": 28,
+            "diff": -2,
+            "points": 1,
+            "highlight": "inherit"
+          },
+          {
+            "team": "Toulouse",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 27,
+            "against": 30,
+            "diff": -3,
+            "points": 1,
+            "highlight": "inherit"
+          },
+          {
+            "team": "Clermont",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 36,
+            "against": 40,
+            "diff": -4,
+            "points": 1,
+            "highlight": "inherit"
+          },
+          {
+            "team": "Montpellier",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 19,
+            "against": 27,
+            "diff": -8,
+            "points": 0,
+            "highlight": "inherit"
+          },
+          {
+            "team": "Vannes",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 20,
+            "against": 29,
+            "diff": -9,
+            "points": 0,
+            "highlight": "#FFCCCC"
+          },
+          {
+            "team": "Racing 92",
+            "played": 1,
+            "win": 0,
+            "draw": 0,
+            "loss": 1,
+            "for": 5,
+            "against": 64,
+            "diff": -59,
+            "points": 0,
+            "highlight": "#FFBBBB"
+          }
+        ],
+        "legend": {
+          "#bbf3ff": "27–26",
+          "#fbb": "19–27"
+        }
+      }
+    },
+    "premiership-2026": {
+      "Gallagher Premiership": {
+        "rows": [
+          {
+            "team": "Bath Rugby",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Bristol Rugby",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Exeter Chiefs",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Gloucester Rugby",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Harlequins",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Leicester Tigers",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Newcastle Falcons",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Northampton Saints",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Sale Sharks",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Saracens",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "urc-2026": {
+      "United Rugby Championship": {
+        "rows": [
+          {
+            "team": "Benetton Treviso",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Bulls",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cardiff Blues",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Connacht",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Dragons",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Edinburgh",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Glasgow Warriors",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Leinster",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Lions",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Munster",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Ospreys",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Scarlets",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Sharks",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Stormers",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Ulster",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Zebre",
+            "played": 0,
+            "win": 0,
+            "draw": 0,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "champions-cup-2026": {
+      "Pool 1": {
+        "rows": [
+          {
+            "team": "Glasgow Warriors",
+            "played": 4,
+            "win": 4,
+            "draw": 0,
+            "loss": 0,
+            "for": 115,
+            "against": 66,
+            "diff": 49,
+            "points": 20,
+            "highlight": null
+          },
+          {
+            "team": "Stade Toulousain",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 168,
+            "against": 74,
+            "diff": 94,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Sale Sharks",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 89,
+            "against": 127,
+            "diff": -38,
+            "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Saracens",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 93,
+            "against": 80,
+            "diff": 13,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Sharks",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 107,
+            "against": 117,
+            "diff": -10,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Clermont Auvergne",
+            "played": 4,
+            "win": 0,
+            "draw": 0,
+            "loss": 4,
+            "for": 57,
+            "against": 165,
+            "diff": -108,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      },
+      "Pool 2": {
+        "rows": [
+          {
+            "team": "Bath Rugby",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 180,
+            "against": 89,
+            "diff": 91,
+            "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "Toulon",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 123,
+            "against": 106,
+            "diff": 17,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Castres Olympique",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 98,
+            "against": 106,
+            "diff": -8,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Edinburgh",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 69,
+            "against": 140,
+            "diff": -71,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Munster",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 99,
+            "against": 101,
+            "diff": -2,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Gloucester Rugby",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 75,
+            "against": 102,
+            "diff": -27,
+            "points": 6,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      },
+      "Pool 3": {
+        "rows": [
+          {
+            "team": "Leinster",
+            "played": 4,
+            "win": 4,
+            "draw": 0,
+            "loss": 0,
+            "for": 115,
+            "against": 80,
+            "diff": 35,
+            "points": 18,
+            "highlight": null
+          },
+          {
+            "team": "Harlequins",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 184,
+            "against": 86,
+            "diff": 98,
+            "points": 15,
+            "highlight": null
+          },
+          {
+            "team": "Stormers",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 117,
+            "against": 125,
+            "diff": -8,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Leicester Tigers",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 118,
+            "against": 115,
+            "diff": 3,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "La Rochelle",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 101,
+            "against": 114,
+            "diff": -13,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Bayonne",
+            "played": 4,
+            "win": 0,
+            "draw": 0,
+            "loss": 4,
+            "for": 58,
+            "against": 173,
+            "diff": -115,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      },
+      "Pool 4": {
+        "rows": [
+          {
+            "team": "Bordeaux Begles",
+            "played": 4,
+            "win": 4,
+            "draw": 0,
+            "loss": 0,
+            "for": 173,
+            "against": 97,
+            "diff": 76,
+            "points": 20,
+            "highlight": null
+          },
+          {
+            "team": "Northampton Saints",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 156,
+            "against": 110,
+            "diff": 46,
+            "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "Bristol Rugby",
+            "played": 4,
+            "win": 3,
+            "draw": 0,
+            "loss": 1,
+            "for": 154,
+            "against": 104,
+            "diff": 50,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Bulls",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 113,
+            "against": 181,
+            "diff": -68,
+            "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "Pau",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 110,
+            "against": 160,
+            "diff": -50,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Scarlets",
+            "played": 4,
+            "win": 0,
+            "draw": 0,
+            "loss": 4,
+            "for": 103,
+            "against": 157,
+            "diff": -54,
+            "points": 3,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      }
     }
   },
   "attendance_tables": {
@@ -23994,6 +28260,76 @@
               "score2": null,
               "date": "2026-09-19",
               "venue": "Chichibunomiya Rugby Stadium, Tokyo"
+            }
+          ]
+        }
+      ]
+    },
+    "super-league-2026": {
+      "name": "Super League Rugby 2026 · Play-offs",
+      "rounds": [
+        {
+          "label": "Eliminators",
+          "matches": [
+            {
+              "seed1": 3,
+              "team1": null,
+              "score1": null,
+              "seed2": 6,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": 4,
+              "team1": null,
+              "score1": null,
+              "seed2": 5,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Semi-finals",
+          "matches": [
+            {
+              "seed1": 1,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": 2,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Grand Final",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
             }
           ]
         }
