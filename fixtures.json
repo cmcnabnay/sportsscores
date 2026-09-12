@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:00:11+00:00",
+  "updated": "2026-09-12T22:07:28+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -1952,17 +1952,6 @@
       "attendance": "12054"
     },
     {
-      "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "Leigh Leopards",
-      "score": "54–0",
-      "date": "2026-02-26",
-      "time": "20:00",
-      "utc": "2026-02-26T19:00:00+00:00",
-      "venue": "Brick Community Stadium",
-      "attendance": "16370"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Angola",
       "away": "Uganda",
@@ -1972,6 +1961,17 @@
       "utc": "2026-02-26T18:00:00+00:00",
       "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
       "attendance": "300"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "Leigh Leopards",
+      "score": "54–0",
+      "date": "2026-02-26",
+      "time": "20:00",
+      "utc": "2026-02-26T19:00:00+00:00",
+      "venue": "Brick Community Stadium",
+      "attendance": "16370"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -2172,28 +2172,6 @@
       "attendance": "10829"
     },
     {
-      "league": "super-league-2026",
-      "home": "Castleford Tigers",
-      "away": "Huddersfield Giants",
-      "score": "34–8",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "OneBore Stadium",
-      "attendance": "6105"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Hull F.C.",
-      "away": "York Knights",
-      "score": "16–17",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "MKM Stadium",
-      "attendance": "12716"
-    },
-    {
       "league": "fiba-wcq-americas-2027",
       "home": "Chile",
       "away": "Colombia",
@@ -2225,6 +2203,28 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Dražen Petrović Basketball Hall, Zagreb",
       "attendance": "4700"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Castleford Tigers",
+      "away": "Huddersfield Giants",
+      "score": "34–8",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "OneBore Stadium",
+      "attendance": "6105"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Hull F.C.",
+      "away": "York Knights",
+      "score": "16–17",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "MKM Stadium",
+      "attendance": "12716"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -2304,17 +2304,6 @@
       "attendance": "10094"
     },
     {
-      "league": "super-league-2026",
-      "home": "Catalans Dragons",
-      "away": "St Helens",
-      "score": "4–36",
-      "date": "2026-02-28",
-      "time": "18:00",
-      "utc": "2026-02-28T17:00:00+00:00",
-      "venue": "Stade Gilbert Brutus",
-      "attendance": "8729"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Ivory Coast",
       "away": "DR Congo",
@@ -2324,6 +2313,17 @@
       "utc": "2026-02-28T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "1200"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Catalans Dragons",
+      "away": "St Helens",
+      "score": "4–36",
+      "date": "2026-02-28",
+      "time": "18:00",
+      "utc": "2026-02-28T17:00:00+00:00",
+      "venue": "Stade Gilbert Brutus",
+      "attendance": "8729"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -7281,17 +7281,6 @@
       "attendance": "15972"
     },
     {
-      "league": "super-league-2026",
-      "home": "Hull KR",
-      "away": "Hull F.C.",
-      "score": "26–12",
-      "date": "2026-07-04",
-      "time": "15:00",
-      "utc": "2026-07-04T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "34539"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Cape Verde",
@@ -7312,6 +7301,17 @@
       "utc": "2026-07-04T15:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "125"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Hull KR",
+      "away": "Hull F.C.",
+      "score": "26–12",
+      "date": "2026-07-04",
+      "time": "15:00",
+      "utc": "2026-07-04T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "34539"
     },
     {
       "league": "cfl-2026",
@@ -7589,17 +7589,6 @@
       "attendance": "18778"
     },
     {
-      "league": "super-league-2026",
-      "home": "Leeds Rhinos",
-      "away": "Bradford Bulls",
-      "score": "50–16",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "42903"
-    },
-    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Libya",
@@ -7642,6 +7631,17 @@
       "utc": "2026-07-05T14:00:00+00:00",
       "venue": "National Basketball Performance Centre, Manchester",
       "attendance": "2045"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Leeds Rhinos",
+      "away": "Bradford Bulls",
+      "score": "50–16",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "42903"
     },
     {
       "league": "efa-2026",
@@ -10233,17 +10233,6 @@
       "attendance": "25181"
     },
     {
-      "league": "super-league-2026",
-      "home": "Castleford Tigers",
-      "away": "Warrington Wolves",
-      "score": "18–48",
-      "date": "2026-08-01",
-      "time": "15:00",
-      "utc": "2026-08-01T14:00:00+00:00",
-      "venue": "OneBore Stadium",
-      "attendance": "8802"
-    },
-    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Calgary Stampeders",
@@ -10253,6 +10242,17 @@
       "utc": "2026-08-01T19:00:00+00:00",
       "venue": "Hamilton Stadium",
       "attendance": "20026"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Castleford Tigers",
+      "away": "Warrington Wolves",
+      "score": "18–48",
+      "date": "2026-08-01",
+      "time": "15:00",
+      "utc": "2026-08-01T14:00:00+00:00",
+      "venue": "OneBore Stadium",
+      "attendance": "8802"
     },
     {
       "league": "cfl-2026",
@@ -12228,6 +12228,28 @@
       "attendance": "19979"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Iceland",
+      "score": "102-73",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Belgrade Arena, Belgrade",
+      "attendance": "12384"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "score": "78-76",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Mejdan Hall, Tuzla",
+      "attendance": "4850"
+    },
+    {
       "league": "super-league-2026",
       "home": "Castleford Tigers",
       "away": "Catalans Dragons",
@@ -12259,28 +12281,6 @@
       "utc": "2026-08-28T19:00:00+00:00",
       "venue": "Accu Stadium",
       "attendance": "4156"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Iceland",
-      "score": "102-73",
-      "date": "2026-08-28",
-      "time": "20:00",
-      "utc": "2026-08-28T18:00:00+00:00",
-      "venue": "Belgrade Arena, Belgrade",
-      "attendance": "12384"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "score": "78-76",
-      "date": "2026-08-28",
-      "time": "20:00",
-      "utc": "2026-08-28T18:00:00+00:00",
-      "venue": "Mejdan Hall, Tuzla",
-      "attendance": "4850"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13611,17 +13611,6 @@
       "attendance": null
     },
     {
-      "league": "super-league-2026",
-      "home": "Huddersfield Giants",
-      "away": "Castleford Tigers",
-      "score": "48–16",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "utc": "2026-09-12T14:00:00+00:00",
-      "venue": "Accu Stadium",
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Saskatchewan Roughriders",
@@ -13630,6 +13619,17 @@
       "time": "15:00",
       "utc": "2026-09-12T20:00:00+00:00",
       "venue": "Princess Auto Stadium",
+      "attendance": null
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Huddersfield Giants",
+      "away": "Castleford Tigers",
+      "score": "48–16",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "utc": "2026-09-12T14:00:00+00:00",
+      "venue": "Accu Stadium",
       "attendance": null
     },
     {
@@ -13832,17 +13832,6 @@
     },
     {
       "league": "super-league-2026",
-      "home": "4th place",
-      "away": "5th place",
-      "score": null,
-      "date": "2026-09-18",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
       "home": "Wakefield Trinity",
       "away": "Leigh Leopards",
       "score": null,
@@ -13993,28 +13982,6 @@
       "time": "19:10",
       "utc": "2026-09-19T07:10:00+00:00",
       "venue": "Hnry Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "3rd place",
-      "away": "6th place",
-      "score": null,
-      "date": "2026-09-19",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Hull Kingston Rovers",
-      "score": null,
-      "date": "2026-09-19",
-      "time": null,
-      "utc": null,
-      "venue": "Halliwell Jones Stadium",
       "attendance": null
     },
     {
@@ -14249,28 +14216,6 @@
       "attendance": null
     },
     {
-      "league": "super-league-2026",
-      "home": "2nd place",
-      "away": "highest ranked winner",
-      "score": null,
-      "date": "2026-09-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Wigan/Leeds",
-      "away": "highest ranked winner",
-      "score": null,
-      "date": "2026-09-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "internationals-2026",
       "home": "Australia",
       "away": "South Africa",
@@ -14312,28 +14257,6 @@
       "time": "19:05",
       "utc": "2026-09-27T19:05:00+00:00",
       "venue": "Stade Ernest-Wallon, Toulouse (France)",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "1st place",
-      "away": "lowest ranked winner",
-      "score": null,
-      "date": "2026-09-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Wigan/Leeds",
-      "away": "lowest ranked winner",
-      "score": null,
-      "date": "2026-09-27",
-      "time": null,
-      "utc": null,
-      "venue": null,
       "attendance": null
     },
     {
@@ -14730,17 +14653,6 @@
       "time": "05:00",
       "utc": "2026-10-17T05:00:00+00:00",
       "venue": "Accor Stadium, Sydney (Australia)",
-      "attendance": null
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Saskatchewan Roughriders",
-      "away": "Montreal Alouettes",
-      "score": null,
-      "date": "2026-10-17",
-      "time": "13:00",
-      "utc": "2026-10-17T19:00:00+00:00",
-      "venue": "Mosaic Stadium",
       "attendance": null
     },
     {

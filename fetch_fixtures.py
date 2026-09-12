@@ -351,6 +351,25 @@ LEAGUES = {
             "page": "2026_NRL_season",
             "heading_ids": ["Club_figures", "Attendances"],
         },
+        # Confirmed from the page's own wikitext: "==Finals series==" holds
+        # a {{8TeamBracket-PagePlayoff}} template. fetch_playoffs_bracket()'s
+        # auto-detect regex only looks for "\d+TeamBracket" (matches up to
+        # the "-PagePlayoff" suffix), and find_templates() matches by
+        # "{{8TeamBracket" prefix regardless of what follows, so this
+        # doesn't need an explicit "template" override - just the heading,
+        # since the page calls it "Finals series" rather than the default
+        # "Play-offs". NOTE: the finals bracket here isn't a straight
+        # single-elimination tree (a 1v4 loser drops to the semis rather
+        # than being eliminated, etc.) - build_bracket_rounds() just pairs
+        # each round's slots in order and has no notion of that shape, so
+        # the Playoffs tab bracket is best-effort. The per-match dates/
+        # scores/venues that matter for the Fixtures tab come from the
+        # separate results wikitable via parse_wikitable_matches() same as
+        # every other round - NOT from this bracket template, which the
+        # page leaves at "TBD" until each round is actually reached.
+        "playoffs": {
+            "heading": "Finals series",
+        },
     },
     "super-league-2026": {
         "name": "Super League Rugby 2026",
@@ -385,6 +404,14 @@ LEAGUES = {
         "sport": "american-football",
         "parser": "wikitable",
         "year": 2026,
+        # Season finished - the Gold Bowl (final) was played 6 September
+        # 2026. Stop re-fetching (fixtures, standings AND the playoff
+        # bracket) on every default run, same treatment as
+        # efa-2026/u20-jwc-2026/fivb-nations-league-2026 above. Stored data
+        # is left exactly as-is; run `python3 fetch_fixtures.py afle-2026
+        # --force` manually if a correction ever needs to be pulled in
+        # after the fact.
+        "completed": True,
         "utc_offset": 2,  # Central European Summer Time
         # This page's results table is headed "Home"/"Away" but the actual
         # on-page convention for this sport lists Away team first, Home
@@ -879,11 +906,69 @@ def normalize_date(iso_date, date_text, time_text):
     return date_out, time_out
 
 
+# A handful of clubs get written under two different names across the same
+# league's own pages - typically its regular fixtures table using the short
+# form while a less-frequently-edited section (e.g. a finals/bracket row)
+# spells out the full official name. Left unmapped, a match scraped from
+# each spelling reads as two different teams, so a since-resolved playoff
+# slot (e.g. "Warrington Wolves" vs "Hull Kingston Rovers") sits alongside
+# the same fixture scraped from the regular table ("Warrington Wolves" vs
+# "Hull KR") as a ghost duplicate rather than the same stored match getting
+# overwritten. Canonicalize to whichever spelling is this dataset's
+# prevailing form for that club.
+TEAM_NAME_ALIASES = {
+    "hull kingston rovers": "Hull KR",
+}
+
+
+def canonicalize_team_name(name: str) -> str:
+    if not name:
+        return name
+    return TEAM_NAME_ALIASES.get(name.strip().lower(), name)
+
+
 def clean_team_name(raw: str) -> str:
     """Strip bonus-point annotations like '(2 BP)' that get glued onto team names,
     wherever they land (prefix or suffix), and tidy whitespace."""
     cleaned = re.sub(r"\(\s*\d+\s*BP\s*\)", "", raw)
-    return re.sub(r"\s+", " ", cleaned).strip()
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return canonicalize_team_name(cleaned)
+
+
+# Literal placeholder text Wikipedia pages use in a team-name slot for a
+# not-yet-determined playoff qualifier (e.g. NRL's wikitable rows, or
+# Currie Cup's {{Rugbybox collapsible2|home={{Rut|TBC}}|...}} - unlike NPC's
+# {{rugbybox}} usage, which leaves the {{Rut|}} argument empty instead of
+# writing placeholder text into it, so it's already caught by the "empty
+# team name" check in parse_rugbybox3_matches). A parser that finds one of
+# these as a scraped team name should skip the row entirely rather than
+# storing it - see is_placeholder_team_name() callers.
+PLACEHOLDER_TEAM_NAMES = {"TBD", "TBC"}
+
+# Some pages (e.g. Super League Rugby's results wikitable, for its
+# Eliminators/semis before the regular season decides seeding) spell a
+# not-yet-determined slot as a standings-position reference instead of a
+# bare "TBD"/"TBC" - "4th place", "highest ranked winner", or a combined
+# "Winner-of-game-A/Winner-of-game-B" slot like "Wigan/Leeds" - rather than
+# literal placeholder text. Same story as PLACEHOLDER_TEAM_NAMES: once the
+# real qualifier is known, the page rewrites that cell to the actual team
+# name, which parses to a different (home, away) identity from the
+# placeholder row, so merge_league_matches() would otherwise add it as a
+# ghost duplicate alongside the real fixture instead of replacing it.
+PLACEHOLDER_TEAM_NAME_PATTERNS = (
+    re.compile(r"^\d+(?:st|nd|rd|th) place$", re.IGNORECASE),
+    re.compile(r"^(?:highest|lowest) ranked (?:winner|loser)$", re.IGNORECASE),
+    re.compile(r"^[^/]+/[^/]+$"),
+)
+
+
+def is_placeholder_team_name(name: str) -> bool:
+    if not name:
+        return False
+    cleaned = name.strip()
+    if cleaned.upper() in PLACEHOLDER_TEAM_NAMES:
+        return True
+    return any(p.match(cleaned) for p in PLACEHOLDER_TEAM_NAME_PATTERNS)
 
 
 def strip_citations(text: str) -> str:
@@ -930,7 +1015,7 @@ def strip_team_note_markers(name: str) -> str:
     # disambiguator (e.g. Argentina's "Estudiantes (LP)"), which must
     # NOT be stripped here.
     name = re.sub(r"\s*\((?:H|A|E|R)\)\s*$", "", name, flags=re.IGNORECASE)
-    return name.strip()
+    return canonicalize_team_name(name.strip())
 
 
 
@@ -1555,6 +1640,18 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
             # Skip "Bye:" / "Source:" rows, which end up with identical
             # (colspan-merged) text repeated across every column.
             if home == away or "bye" in home.lower() or "source" in home.lower():
+                continue
+            # Skip not-yet-determined playoff slots (e.g. NRL finals rows
+            # published before the bracket locks in, with "TBD"/"TBC"
+            # standing in for the actual qualifier - see
+            # PLACEHOLDER_TEAM_NAMES). Storing that literal text as a team
+            # name creates a ghost fixture: once the real team is known, it
+            # parses to a different (home, away, date) identity from the
+            # placeholder row, so merge_league_matches() adds it as a new
+            # match alongside rather than replacing the placeholder - see
+            # parse_rugbybox3_matches()'s equivalent guard for the
+            # rugbybox-template leagues.
+            if is_placeholder_team_name(home) or is_placeholder_team_name(away):
                 continue
 
             score = row[roles["score"]].strip() if "score" in roles else None
@@ -2440,6 +2537,13 @@ def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
         home = clean_team_name(m1.group(1)) if m1 else clean_team_name(strip_wikilinks(home_raw))
         away = clean_team_name(m2.group(1)) if m2 else clean_team_name(strip_wikilinks(away_raw))
         if not home or not away:
+            continue
+        # Not-yet-determined playoff slot: unlike parse_rugbybox3_matches's
+        # NPC pages (which leave the {{Rut|}} argument empty), Currie Cup
+        # writes the placeholder text directly into it - e.g.
+        # "home={{Rut|TBC}}" - so home/away come out non-empty here and
+        # need their own check. See PLACEHOLDER_TEAM_NAMES.
+        if is_placeholder_team_name(home) or is_placeholder_team_name(away):
             continue
 
         score = field.get("score", "").strip()
@@ -3432,15 +3536,18 @@ def fetch_attendance_table(cfg, key):
     return []
 
 
-# How far ahead/behind "now" a match has to be to have its stored fields
-# refreshed on this run. This does NOT control what's displayed - the app
-# shows the full season, every run - it only controls which matches are
-# worth re-checking against Wikipedia's current text: what's live/
-# imminent, or what just finished (attendance figures sometimes land a
-# few days after full time). Anything else keeps whatever's already
-# stored rather than being re-parsed every run.
-SCRAPE_WINDOW_PAST = timedelta(days=3)
-SCRAPE_WINDOW_FUTURE = timedelta(days=1)
+# How far ahead/behind "now" a match has to be for its league to be worth
+# re-fetching from Wikipedia this run. This does NOT control what's
+# displayed - the app shows the full season, every run - and it does NOT
+# gate which individual matches get refreshed once a league's page IS
+# fetched (merge_league_matches() overwrites every matched identity from
+# the fresh parse unconditionally). It only controls run()'s per-league
+# "is there anything due soon enough to bother checking Wikipedia again"
+# skip check: if none of a league's stored matches fall in this window,
+# the whole fetch (and re-parse) is skipped and last run's data is reused
+# as-is.
+SCRAPE_WINDOW_PAST = timedelta(days=7)
+SCRAPE_WINDOW_FUTURE = timedelta(days=7)
 
 
 def _match_instant(m):
@@ -3467,10 +3574,11 @@ def _match_instant(m):
 
 def within_scrape_window(m, now):
     """True if this match's kickoff is within the last 7 days or the next
-    24 hours - i.e. worth refreshing from a fresh parse. Matches with no
-    usable date at all are treated as always-eligible, since there's no
-    window to check them against and a stray unmatched fixture is better
-    than one that silently never updates."""
+    7 days - i.e. recent/soon enough that its league is worth re-fetching
+    from Wikipedia this run. Matches with no usable date at all are
+    treated as always-eligible, since there's no window to check them
+    against and a stray unmatched fixture is better than one that
+    silently never updates."""
     instant = _match_instant(m)
     if instant is None:
         return True
@@ -3491,32 +3599,71 @@ def _match_identity(m):
     return (pair, m.get("date"))
 
 
-def merge_league_matches(existing_matches, freshly_parsed_matches, now):
+# How many days apart two unplayed matches between the same two teams can
+# be and still be treated as "the same fixture, rescheduled" rather than
+# two genuinely different meetings (e.g. a double round-robin's separate
+# home/away legs, which are always months apart in practice). Covers the
+# common case of a finals match whose exact day/kickoff isn't locked in
+# yet (e.g. published as "13 September" while the bracket is still
+# settling) later being confirmed a day or two either side.
+RESCHEDULE_WINDOW_DAYS = 5
+
+
+def _date_diff_days(d1, d2):
+    """Absolute day gap between two 'YYYY-MM-DD' date strings, or None if
+    either is missing/unparseable."""
+    if not d1 or not d2:
+        return None
+    try:
+        dt1 = datetime.strptime(d1, "%Y-%m-%d")
+        dt2 = datetime.strptime(d2, "%Y-%m-%d")
+    except ValueError:
+        return None
+    return abs((dt1 - dt2).days)
+
+
+def _more_complete_match(a, b):
+    """Pick whichever of two records for the same fixture carries more
+    confirmed detail - a kick-off time first, then a real (non-placeholder)
+    venue - so a stale "date not locked in yet" duplicate loses to the
+    confirmed one regardless of which was stored first."""
+    def completeness(m):
+        has_time = m.get("time") is not None
+        has_real_venue = m.get("venue") not in (None, "TBD", "TBC")
+        return (has_time, has_real_venue)
+    return a if completeness(a) >= completeness(b) else b
+
+
+def merge_league_matches(existing_matches, freshly_parsed_matches):
     """Combine what's already stored for a league with a fresh parse of
     the page, so fixtures.json always holds the full season (past and
-    future) for the app to browse, while only the matches actually inside
-    the scrape window get their fields refreshed:
+    future) for the app to browse. This only ever runs when the league's
+    page was actually fetched this run (run()'s scrape-window check - see
+    within_scrape_window() - decides that part, before this function is
+    even called); once it has been, every match the fresh parse found gets
+    applied in full:
 
-      - A match already stored AND inside the window: replaced with the
-        freshly parsed version (picks up new scores, attendance, or a
-        kick-off time change).
-      - A match already stored but outside the window: left exactly as
-        stored - not re-parsed, not touched.
-      - A match that's brand new (wasn't stored before): always added,
-        regardless of window, since a newly published fixture should show
-        up right away rather than waiting for its own window to arrive.
+      - A match already stored: replaced with the freshly parsed version
+        (picks up new scores, attendance, a kick-off time change, or a
+        placeholder team name being resolved to the real one).
+      - A match that's brand new (wasn't stored before): added.
+      - A match that was stored before but the fresh parse no longer has
+        (e.g. an older round the page doesn't list anymore): left exactly
+        as stored - not touched, not dropped.
 
     Once a match has been scraped into fixtures.json it never disappears
     on a later run - the only two things that ever happen to a match on a
-    subsequent run are (a) getting its fields refreshed, if it's inside
-    the window, or (b) a brand new one getting appended.
+    subsequent run are (a) getting its fields overwritten by a fresh
+    parse, or (b) a brand new one getting appended.
 
     Known limitation: matches are matched between runs by (home, away,
-    date). If Wikipedia moves a fixture to a materially different date -
-    a postponement spotted outside the usual next-24h window - this can't
-    recognize it as "the same match, new date"; it gets added as a new
-    entry and the stale old-dated entry is left behind rather than
-    replaced.
+    date), so a date change normally reads as a brand new fixture rather
+    than "the same match, new date". The common case - an unplayed match
+    whose exact day/kickoff shifts by a few days as it gets locked in
+    (e.g. a finals slot first published loosely, then confirmed) - is
+    handled below via RESCHEDULE_WINDOW_DAYS; anything moved further out
+    than that (a genuine postponement) still isn't recognized, and the
+    stale old-dated entry is left behind rather than replaced.
     """
     # De-duplicate existing_matches by identity before loading - a league
     # may have ended up with two entries for the same fixture under different
@@ -3546,35 +3693,39 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, now):
         if ident[1] is None
     }
 
+    # Secondary index: team pairs with a dated-but-unplayed stored entry.
+    # Used below to catch the RESCHEDULE_WINDOW_DAYS case - a fixture whose
+    # date shifted by a few days as it got locked in, rather than one that
+    # simply isn't dated yet (that's pair_to_dateless_key, above). Only
+    # unplayed matches are indexed - a fixture that's already been played
+    # is never "the same match, rescheduled".
+    pair_to_unplayed_key = {
+        ident[0]: ident
+        for ident, stored in merged.items()
+        if ident[1] is not None and stored.get("score") is None
+    }
+
     for m in freshly_parsed_matches:
         ident = _match_identity(m)
-        # Fresh match has a real date but we have a dateless stale entry for
-        # the same team pair: replace the stale entry (always - a newly
-        # published date is exactly the kind of backfill we want).
         if ident[1] is not None and ident not in merged:
+            # Fresh match has a real date but we have a dateless stale entry
+            # for the same team pair: replace the stale entry (always - a
+            # newly published date is exactly the kind of backfill we want).
             stale_key = pair_to_dateless_key.get(ident[0])
+            # Otherwise, an unplayed stored entry for the same pair within
+            # RESCHEDULE_WINDOW_DAYS is treated as the same fixture having
+            # its date locked in/moved, not a second meeting.
+            if stale_key is None and m.get("score") is None:
+                candidate = pair_to_unplayed_key.get(ident[0])
+                if candidate is not None:
+                    days = _date_diff_days(candidate[1], ident[1])
+                    if days is not None and days <= RESCHEDULE_WINDOW_DAYS:
+                        stale_key = candidate
             if stale_key is not None:
                 del merged[stale_key]
                 pair_to_dateless_key.pop(ident[0], None)
-        if ident not in merged:
-            merged[ident] = m
-        elif within_scrape_window(m, now):
-            merged[ident] = m
-        else:
-            # Outside the scrape window, so don't let a fresh parse
-            # overwrite anything already stored (that's what the window is
-            # for - a finished match's score shouldn't flip-flop based on
-            # page-edit noise). But DO backfill any field that's still
-            # None on the stored record - e.g. a "group"/"round" bracket
-            # tag that a stale record never got (because tag_sections was
-            # added after this match was first scraped, or the heading
-            # breadcrumb failed to resolve at the time). A missing field
-            # getting filled in is never a "flip-flop"; there's nothing to
-            # protect by leaving it None forever.
-            stored = merged[ident]
-            for field, value in m.items():
-                if stored.get(field) is None and value is not None:
-                    stored[field] = value
+                pair_to_unplayed_key.pop(ident[0], None)
+        merged[ident] = m
     return list(merged.values())
 
 
@@ -3654,11 +3805,11 @@ FIX_EARLY_SCORE_ORDER_LEAGUES = {
 def fix_early_score_order(data):
     """One-time repair for matches fetched before the swap_home_away
     score-flip fix (see FIX_EARLY_SCORE_ORDER_LEAGUES above): these
-    matches are outside the normal scrape window (already played) and so
-    never get re-parsed by a normal run - merge_league_matches() only
-    ever refreshes a match's stored fields while it's still within the
-    scrape window - which is why the bug persisted for them after the
-    parser itself was fixed. This flips just the two score numbers (home
+    matches are outside the normal scrape window (already played), so once
+    a league itself has nothing left due soon, run()'s skip check stops
+    fetching its page at all and these never get re-parsed - which is why
+    the bug persisted for them after the parser itself was fixed. This
+    flips just the two score numbers (home
     and away team labels are already correct - only the score digit
     order is wrong) for every affected league's matches on or before its
     cutoff date.
@@ -4188,6 +4339,71 @@ def normalize_stored_team_names(data):
               f"(e.g. \"Team [a]\" -> \"Team\")")
 
 
+def prune_placeholder_matches(data):
+    """One-time cleanup, run every time regardless of scrape window: drop
+    any already-stored match whose home or away is a placeholder value
+    (see PLACEHOLDER_TEAM_NAMES) - a not-yet-determined playoff slot
+    scraped before its parser started skipping those rows (see the guards
+    in parse_wikitable_matches/parse_rugbybox2_matches). A placeholder row
+    is never a real fixture worth keeping: either the real matchup has
+    since been parsed under its own (different) identity - in which case
+    this is a pure duplicate ghost - or it genuinely still isn't known, in
+    which case there's nothing useful being displayed anyway. Cheap (no
+    network) and safe to run unconditionally every run."""
+    matches = data.get("matches", [])
+    kept = [m for m in matches
+            if not is_placeholder_team_name(m.get("home")) and not is_placeholder_team_name(m.get("away"))]
+    removed = len(matches) - len(kept)
+    if removed:
+        data["matches"] = kept
+        print(f"Removed {removed} stale placeholder match(es) (\"TBD\"/\"TBC\" team)")
+
+
+def prune_stale_rescheduled_matches(data):
+    """One-time cleanup, run every time regardless of scrape window: collapse
+    duplicate stored matches created before merge_league_matches() learned
+    to recognize a rescheduled fixture (see RESCHEDULE_WINDOW_DAYS there) -
+    e.g. an NRL finals game first stored as 2026-09-13 with no kick-off
+    time (the exact day wasn't locked in yet) and again as 2026-09-12 once
+    it was, since matches used to be keyed purely by (teams, date) and a
+    date change read as a brand new fixture.
+
+    For each league + team pair, groups its unplayed (no score) stored
+    matches and collapses any that fall within RESCHEDULE_WINDOW_DAYS of
+    each other into a single entry - keeping whichever carries more
+    confirmed detail (see _more_complete_match). Matches more than that
+    far apart are left alone (e.g. a double round-robin's separate home/
+    away legs). Cheap (no network) and safe to run unconditionally every
+    run - a league with no such duplicates is a no-op."""
+    groups = {}
+    for m in data.get("matches", []):
+        if m.get("score") is not None or not m.get("date"):
+            continue
+        key = (m.get("league"), _match_identity(m)[0])
+        groups.setdefault(key, []).append(m)
+
+    to_drop = set()
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        group.sort(key=lambda m: m["date"])
+        kept = group[0]
+        for m in group[1:]:
+            days = _date_diff_days(kept["date"], m["date"])
+            if days is not None and days <= RESCHEDULE_WINDOW_DAYS:
+                best = _more_complete_match(kept, m)
+                to_drop.add(id(m if best is kept else kept))
+                kept = best
+            else:
+                kept = m
+
+    if to_drop:
+        before = len(data["matches"])
+        data["matches"] = [m for m in data["matches"] if id(m) not in to_drop]
+        print(f"Removed {before - len(data['matches'])} stale rescheduled-fixture "
+              f"duplicate(s)")
+
+
 def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data = load_existing()
     data.setdefault("leagues", {})
@@ -4196,6 +4412,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data.setdefault("playoffs", {})
     now = datetime.now(timezone.utc)
     normalize_stored_team_names(data)
+    prune_placeholder_matches(data)
+    prune_stale_rescheduled_matches(data)
 
     existing_by_league = {}
     for m in data.get("matches", []):
@@ -4289,15 +4507,12 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
             fresh_by_ident = {_match_identity(m): m for m in fresh_matches}
             stored_idents = {_match_identity(m) for m in cached}
-            refreshed = sum(
-                1 for ident, m in fresh_by_ident.items()
-                if ident in stored_idents and within_scrape_window(m, now)
-            )
+            refreshed = sum(1 for ident in fresh_by_ident if ident in stored_idents)
             added = sum(1 for ident in fresh_by_ident if ident not in stored_idents)
 
-            merged = merge_league_matches(cached, fresh_matches, now)
+            merged = merge_league_matches(cached, fresh_matches)
             print(f"  -> parsed {len(fresh_matches)} matches on the page: "
-                  f"{refreshed} refreshed (in scrape window), {added} newly added, "
+                  f"{refreshed} refreshed, {added} newly added, "
                   f"{len(merged)} total now stored (was {len(cached)})")
 
             data["matches"].extend(merged)
