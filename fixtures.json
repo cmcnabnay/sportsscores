@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:22:08+00:00",
+  "updated": "2026-09-12T22:33:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13836,8 +13836,8 @@
       "away": "Leigh Leopards",
       "score": null,
       "date": "2026-09-18",
-      "time": null,
-      "utc": null,
+      "time": "20:00",
+      "utc": "2026-09-18T19:00:00+00:00",
       "venue": "DIY Kitchens Stadium",
       "attendance": null
     },
@@ -13941,6 +13941,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Hull KR",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "17:30",
+      "utc": "2026-09-19T16:30:00+00:00",
+      "venue": "Halliwell Jones Stadium",
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Poland",
       "away": "Czechia",
@@ -13982,17 +13993,6 @@
       "time": "19:10",
       "utc": "2026-09-19T07:10:00+00:00",
       "venue": "Hnry Stadium",
-      "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Hull KR",
-      "score": null,
-      "date": "2026-09-19",
-      "time": null,
-      "utc": null,
-      "venue": "Halliwell Jones Stadium",
       "attendance": null
     },
     {
@@ -23073,14 +23073,26 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "River Plate",
+            "played": 9,
+            "win": 4,
+            "draw": 1,
+            "loss": 4,
+            "for": 12,
+            "against": 10,
+            "diff": 2,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Atlético Tucumán",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": 4,
-            "loss": 1,
-            "for": 6,
-            "against": 3,
-            "diff": 3,
+            "loss": 2,
+            "for": 7,
+            "against": 5,
+            "diff": 2,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -23118,7 +23130,7 @@
             "against": 8,
             "diff": 1,
             "points": 12,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Barracas Central",
@@ -23130,18 +23142,6 @@
             "against": 5,
             "diff": -1,
             "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "River Plate",
-            "played": 8,
-            "win": 3,
-            "draw": 1,
-            "loss": 4,
-            "for": 10,
-            "against": 9,
-            "diff": 1,
-            "points": 10,
             "highlight": "transparent"
           },
           {
