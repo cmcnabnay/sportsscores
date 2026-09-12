@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T11:50:06+00:00",
+  "updated": "2026-09-12T12:01:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13702,12 +13702,12 @@
       "league": "nrl-2026",
       "home": "Cronulla-Sutherland Sharks",
       "away": "North Queensland Cowboys",
-      "score": null,
+      "score": "26–16",
       "date": "2026-09-12",
       "time": "19:50",
       "utc": "2026-09-12T09:50:00+00:00",
       "venue": "Allianz Stadium",
-      "attendance": null
+      "attendance": "17249"
     },
     {
       "league": "internationals-2026",
@@ -23860,10 +23860,10 @@
             {
               "seed1": null,
               "team1": "Cronulla",
-              "score1": null,
+              "score1": 26,
               "seed2": null,
               "team2": "North Queensland",
-              "score2": null,
+              "score2": 16,
               "date": null,
               "venue": null
             },
@@ -23880,10 +23880,10 @@
             {
               "seed1": null,
               "team1": "New Zealand",
-              "score1": null,
+              "score1": 16,
               "seed2": null,
               "team2": "Dolphins",
-              "score2": null,
+              "score2": 26,
               "date": null,
               "venue": null
             }
@@ -23897,7 +23897,7 @@
               "team1": "TBD",
               "score1": null,
               "seed2": null,
-              "team2": "TBD",
+              "team2": "Cronulla",
               "score2": null,
               "date": null,
               "venue": null
