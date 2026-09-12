@@ -246,10 +246,16 @@ LEAGUES = {
         # trying to parse Round4-with third for results. See
         # build_headed_playoff_rounds()/fetch_playoffs_bracket().
         "playoffs": {
+            # Order matters: Final must directly follow Semi-finals so
+            # matches.html draws the normal semis->final connector, and
+            # Third place play-off must come right after Final so it gets
+            # stacked below it (unconnected) rather than drawn as its own
+            # connected column - see build_headed_playoff_rounds()'s
+            # "standalone" handling.
             "rounds": [
                 {"heading": "Semi-finals", "label": "Semi-finals"},
-                {"heading": "Third place play-off", "label": "Third place play-off"},
                 {"heading": "Grand Final", "label": "Final"},
+                {"heading": "Third place play-off", "label": "Third place play-off", "standalone": True},
             ],
         },
     },
@@ -2533,7 +2539,17 @@ def build_headed_playoff_rounds(cfg, key, wikitext, rounds_cfg):
                 "date": sm.get("date"),
                 "venue": sm.get("venue"),
             })
-        rounds.append({"label": entry.get("label", heading), "matches": matches})
+        round_out = {"label": entry.get("label", heading), "matches": matches}
+        # A consolation match (e.g. a Third place play-off) doesn't feed
+        # from/into the standard elimination line the way every other
+        # round does - matches.html's renderBracket() uses this to stack
+        # it below the previous round in the same column, unconnected,
+        # rather than drawing it as its own connected column. See the
+        # Pacific Nations Cup entry above for the ordering this depends on
+        # (this round must come right after the round it's stacked under).
+        if entry.get("standalone"):
+            round_out["standalone"] = True
+        rounds.append(round_out)
     return rounds
 
 

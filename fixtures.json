@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:06:06+00:00",
+  "updated": "2026-09-12T23:11:41+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -15242,17 +15242,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Saskatchewan Roughriders",
-      "away": "Montreal Alouettes",
-      "score": null,
-      "date": "2026-10-17",
-      "time": "13:00",
-      "utc": "2026-10-17T19:00:00+00:00",
-      "venue": "Mosaic Stadium",
-      "attendance": null
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Clermont Auvergne",
       "away": "Leinster",
@@ -28234,21 +28223,6 @@
           ]
         },
         {
-          "label": "Third place play-off",
-          "matches": [
-            {
-              "seed1": null,
-              "team1": "Canada",
-              "score1": null,
-              "seed2": null,
-              "team2": "United States",
-              "score2": null,
-              "date": "2026-09-19",
-              "venue": "Chichibunomiya Rugby Stadium, Tokyo"
-            }
-          ]
-        },
-        {
           "label": "Final",
           "matches": [
             {
@@ -28262,6 +28236,22 @@
               "venue": "Chichibunomiya Rugby Stadium, Tokyo"
             }
           ]
+        },
+        {
+          "label": "Third place play-off",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Canada",
+              "score1": null,
+              "seed2": null,
+              "team2": "United States",
+              "score2": null,
+              "date": "2026-09-19",
+              "venue": "Chichibunomiya Rugby Stadium, Tokyo"
+            }
+          ],
+          "standalone": true
         }
       ]
     },

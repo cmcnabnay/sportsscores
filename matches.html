@@ -395,6 +395,7 @@
     font-weight: 700;
     text-align: center;
   }
+  .bracket-round-label-standalone { padding-top: 24px; }
   .bracket-match {
     background: white;
     border-radius: 10px;
@@ -1459,26 +1460,43 @@ function renderBracket(bracket) {
   cols.className = 'bracket-cols';
   outer.appendChild(cols);
 
-  const roundMatchWraps = rounds.map(round => {
-    const col = document.createElement('div');
-    col.className = 'bracket-col';
-
+  // A "standalone" round (e.g. a Third place play-off) doesn't feed
+  // from/into the standard elimination line the way every other round
+  // does, so it's stacked into the PREVIOUS round's own column - below its
+  // match(es), with its own label - rather than becoming a new connected
+  // column. It's deliberately left out of roundMatchWraps below so
+  // drawBracketConnectors() never tries to draw a line to/from it.
+  const roundMatchWraps = [];
+  let lastCol = null;
+  rounds.forEach(round => {
     const label = document.createElement('div');
-    label.className = 'bracket-round-label';
-    label.textContent = round.label || '';
-    col.appendChild(label);
-
     const matchesWrap = document.createElement('div');
-    matchesWrap.className = 'bracket-col-matches';
     (round.matches || []).forEach(m => {
       const cardWrap = document.createElement('div');
       cardWrap.className = 'bracket-match-wrap';
       cardWrap.innerHTML = renderBracketMatch(m);
       matchesWrap.appendChild(cardWrap);
     });
+
+    if (round.standalone && lastCol) {
+      label.className = 'bracket-round-label bracket-round-label-standalone';
+      label.textContent = round.label || '';
+      matchesWrap.className = 'bracket-col-matches';
+      lastCol.appendChild(label);
+      lastCol.appendChild(matchesWrap);
+      return;
+    }
+
+    const col = document.createElement('div');
+    col.className = 'bracket-col';
+    label.className = 'bracket-round-label';
+    label.textContent = round.label || '';
+    matchesWrap.className = 'bracket-col-matches';
+    col.appendChild(label);
     col.appendChild(matchesWrap);
     cols.appendChild(col);
-    return matchesWrap;
+    lastCol = col;
+    roundMatchWraps.push(matchesWrap);
   });
 
   requestAnimationFrame(() => drawBracketConnectors(outer, svg, cols, roundMatchWraps));
