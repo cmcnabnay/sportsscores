@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:59:26+00:00",
+  "updated": "2026-09-12T23:06:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13661,7 +13661,7 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Saskatchewan Roughriders",
-      "score": null,
+      "score": "19-6",
       "date": "2026-09-12",
       "time": "15:00",
       "utc": "2026-09-12T20:00:00+00:00",
@@ -15132,17 +15132,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Ottawa Redblacks",
-      "away": "Toronto Argonauts",
-      "score": null,
-      "date": "2026-10-16",
-      "time": "19:00",
-      "utc": "2026-10-16T23:00:00+00:00",
-      "venue": "TD Place Stadium",
-      "attendance": null
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Gloucester Rugby",
       "away": "Bordeaux Begles",
@@ -15173,6 +15162,17 @@
       "time": "19:00",
       "utc": "2026-10-16T19:00:00+00:00",
       "venue": "Hive Stadium, Edinburgh (Scotland)",
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Ottawa Redblacks",
+      "away": "Toronto Argonauts",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T23:00:00+00:00",
+      "venue": "TD Place Stadium",
       "attendance": null
     },
     {
@@ -15239,6 +15239,17 @@
       "time": "12:00",
       "utc": "2026-10-17T12:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Saskatchewan Roughriders",
+      "away": "Montreal Alouettes",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "13:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Mosaic Stadium",
       "attendance": null
     },
     {
@@ -24907,14 +24918,26 @@
           },
           {
             "team": "Saskatchewan Roughriders",
-            "played": 12,
+            "played": 13,
             "win": 8,
             "draw": null,
-            "loss": 4,
-            "for": 369,
-            "against": 321,
+            "loss": 5,
+            "for": 375,
+            "against": 340,
             "diff": null,
             "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "Winnipeg Blue Bombers",
+            "played": 13,
+            "win": 7,
+            "draw": null,
+            "loss": 6,
+            "for": 345,
+            "against": 352,
+            "diff": null,
+            "points": 14,
             "highlight": null
           },
           {
@@ -24925,18 +24948,6 @@
             "loss": 6,
             "for": 349,
             "against": 328,
-            "diff": null,
-            "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Winnipeg Blue Bombers",
-            "played": 12,
-            "win": 6,
-            "draw": null,
-            "loss": 6,
-            "for": 326,
-            "against": 346,
             "diff": null,
             "points": 12,
             "highlight": null
