@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T21:53:05+00:00",
+  "updated": "2026-09-13T22:04:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26560,14 +26560,14 @@
         "rows": [
           {
             "team": "Argentinos Juniors",
-            "played": 8,
+            "played": 9,
             "win": 5,
-            "draw": 2,
+            "draw": 3,
             "loss": 1,
-            "for": 12,
-            "against": 7,
+            "for": 13,
+            "against": 8,
             "diff": 5,
-            "points": 17,
+            "points": 18,
             "highlight": "#BBF3BB"
           },
           {
@@ -26583,6 +26583,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (LP)",
+            "played": 9,
+            "win": 5,
+            "draw": 1,
+            "loss": 3,
+            "for": 13,
+            "against": 13,
+            "diff": 0,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Rosario Central",
             "played": 9,
             "win": 4,
@@ -26591,18 +26603,6 @@
             "for": 10,
             "against": 8,
             "diff": 2,
-            "points": 15,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (LP)",
-            "played": 8,
-            "win": 5,
-            "draw": 0,
-            "loss": 3,
-            "for": 12,
-            "against": 12,
-            "diff": 0,
             "points": 15,
             "highlight": "#BBF3BB"
           },
