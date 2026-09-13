@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T05:37:06+00:00",
+  "updated": "2026-09-13T05:48:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13669,17 +13669,6 @@
       "attendance": "32343"
     },
     {
-      "league": "cfl-2026",
-      "home": "Edmonton Elks",
-      "away": "Calgary Stampeders",
-      "score": "53-16",
-      "date": "2026-09-12",
-      "time": "17:00",
-      "utc": "2026-09-12T23:00:00+00:00",
-      "venue": "Commonwealth Stadium",
-      "attendance": "31531"
-    },
-    {
       "league": "pacific-nations-cup-2026",
       "home": "Fiji",
       "away": "Canada",
@@ -13700,6 +13689,17 @@
       "utc": "2026-09-12T06:05:00+00:00",
       "venue": "Go Media Stadium",
       "attendance": "26131"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Edmonton Elks",
+      "away": "Calgary Stampeders",
+      "score": "53-16",
+      "date": "2026-09-12",
+      "time": "17:00",
+      "utc": "2026-09-12T23:00:00+00:00",
+      "venue": "Commonwealth Stadium",
+      "attendance": "31531"
     },
     {
       "league": "npc-2026",
@@ -13727,7 +13727,7 @@
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "48-29",
       "date": "2026-09-12",
       "time": "19:00",
       "utc": "2026-09-13T02:00:00+00:00",
@@ -24940,6 +24940,18 @@
             "highlight": null
           },
           {
+            "team": "BC Lions",
+            "played": 13,
+            "win": 7,
+            "draw": null,
+            "loss": 6,
+            "for": 397,
+            "against": 357,
+            "diff": null,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "Winnipeg Blue Bombers",
             "played": 13,
             "win": 7,
@@ -24949,18 +24961,6 @@
             "against": 352,
             "diff": null,
             "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "BC Lions",
-            "played": 12,
-            "win": 6,
-            "draw": null,
-            "loss": 6,
-            "for": 349,
-            "against": 328,
-            "diff": null,
-            "points": 12,
             "highlight": null
           },
           {
@@ -24982,12 +24982,12 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 12,
+            "played": 13,
             "win": 10,
             "draw": null,
-            "loss": 2,
-            "for": 422,
-            "against": 337,
+            "loss": 3,
+            "for": 451,
+            "against": 385,
             "diff": null,
             "points": 20,
             "highlight": null
