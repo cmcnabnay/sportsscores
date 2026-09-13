@@ -4689,18 +4689,25 @@ def prune_stale_rescheduled_matches(data):
     it was, since matches used to be keyed purely by (teams, date) and a
     date change read as a brand new fixture.
 
-    For each league + team pair, groups its unplayed (no score) stored
+    For each league + *directed* team pair (same home, same away - not
+    just the same two teams), groups its unplayed (no score) stored
     matches and collapses any that fall within RESCHEDULE_WINDOW_DAYS of
     each other into a single entry - keeping whichever carries more
     confirmed detail (see _more_complete_match). Matches more than that
     far apart are left alone (e.g. a double round-robin's separate home/
-    away legs). Cheap (no network) and safe to run unconditionally every
-    run - a league with no such duplicates is a no-op."""
+    away legs). Keying on the directed pair (rather than the unordered
+    team pair _match_identity() uses) matters here specifically: a
+    home-and-home rematch just days apart (e.g. CFL's Labour Day Classic
+    and its return leg the following week) is two genuinely different
+    fixtures with home/away swapped, not one fixture whose date moved -
+    collapsing those would silently delete a real, distinct match. Cheap
+    (no network) and safe to run unconditionally every run - a league
+    with no such duplicates is a no-op."""
     groups = {}
     for m in data.get("matches", []):
         if m.get("score") is not None or not m.get("date"):
             continue
-        key = (m.get("league"), _match_identity(m)[0])
+        key = (m.get("league"), m.get("home"), m.get("away"))
         groups.setdefault(key, []).append(m)
 
     to_drop = set()
