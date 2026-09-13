@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T19:41:07+00:00",
+  "updated": "2026-09-13T19:52:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26572,13 +26572,25 @@
           },
           {
             "team": "Sarmiento (J)",
-            "played": 8,
+            "played": 9,
             "win": 5,
-            "draw": 0,
+            "draw": 1,
             "loss": 3,
-            "for": 15,
-            "against": 12,
+            "for": 16,
+            "against": 13,
             "diff": 3,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Rosario Central",
+            "played": 9,
+            "win": 4,
+            "draw": 3,
+            "loss": 2,
+            "for": 10,
+            "against": 8,
+            "diff": 2,
             "points": 15,
             "highlight": "#BBF3BB"
           },
@@ -26607,6 +26619,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Belgrano",
+            "played": 9,
+            "win": 3,
+            "draw": 4,
+            "loss": 2,
+            "for": 9,
+            "against": 6,
+            "diff": 3,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "River Plate",
             "played": 9,
             "win": 4,
@@ -26631,37 +26655,13 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Belgrano",
-            "played": 8,
-            "win": 3,
-            "draw": 3,
-            "loss": 2,
-            "for": 8,
-            "against": 5,
-            "diff": 3,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Tigre",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": 3,
-            "loss": 2,
+            "loss": 3,
             "for": 7,
-            "against": 5,
-            "diff": 2,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rosario Central",
-            "played": 8,
-            "win": 3,
-            "draw": 3,
-            "loss": 2,
-            "for": 9,
-            "against": 8,
+            "against": 6,
             "diff": 1,
             "points": 12,
             "highlight": "transparent"
