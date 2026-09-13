@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:58:23+00:00",
+  "updated": "2026-09-13T00:10:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13567,7 +13567,7 @@
       "time": "13:00",
       "utc": "2026-09-12T17:00:00+00:00",
       "venue": "BMO Field",
-      "attendance": null
+      "attendance": "12494"
     },
     {
       "league": "npc-2026",
@@ -13666,7 +13666,7 @@
       "time": "15:00",
       "utc": "2026-09-12T20:00:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "32343"
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -15239,6 +15239,17 @@
       "time": "12:00",
       "utc": "2026-10-17T12:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Saskatchewan Roughriders",
+      "away": "Montreal Alouettes",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "13:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": "Mosaic Stadium",
       "attendance": null
     },
     {
