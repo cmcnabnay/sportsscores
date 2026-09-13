@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T00:43:08+00:00",
+  "updated": "2026-09-13T00:54:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26413,13 +26413,13 @@
           },
           {
             "team": "Unión",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": 1,
-            "loss": 3,
-            "for": 15,
-            "against": 12,
-            "diff": 3,
+            "loss": 4,
+            "for": 16,
+            "against": 14,
+            "diff": 2,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -26508,6 +26508,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Talleres (C)",
+            "played": 9,
+            "win": 2,
+            "draw": 2,
+            "loss": 5,
+            "for": 10,
+            "against": 14,
+            "diff": -4,
+            "points": 8,
+            "highlight": "transparent"
+          },
+          {
             "team": "Central Córdoba (SdE)",
             "played": 9,
             "win": 2,
@@ -26517,18 +26529,6 @@
             "against": 11,
             "diff": -6,
             "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Talleres (C)",
-            "played": 8,
-            "win": 1,
-            "draw": 2,
-            "loss": 5,
-            "for": 8,
-            "against": 13,
-            "diff": -5,
-            "points": 5,
             "highlight": "transparent"
           }
         ],
