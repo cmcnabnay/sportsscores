@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T05:48:06+00:00",
+  "updated": "2026-09-13T14:23:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13732,7 +13732,7 @@
       "time": "19:00",
       "utc": "2026-09-13T02:00:00+00:00",
       "venue": "BC Place",
-      "attendance": null
+      "attendance": "23380"
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -13793,12 +13793,12 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Sydney Roosters",
-      "score": null,
+      "score": "19–12",
       "date": "2026-09-13",
       "time": "16:05",
       "utc": "2026-09-13T06:05:00+00:00",
       "venue": "Commbank Stadium",
-      "attendance": null
+      "attendance": "22148"
     },
     {
       "league": "russian-first-league-2026-27",
@@ -13815,7 +13815,7 @@
       "league": "npc-2026",
       "home": "Southland",
       "away": "Bay of Plenty",
-      "score": null,
+      "score": "43-12",
       "date": "2026-09-13",
       "time": "17:05",
       "utc": "2026-09-13T05:05:00+00:00",
@@ -14073,6 +14073,17 @@
       "time": "19:10",
       "utc": "2026-09-19T07:10:00+00:00",
       "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Sydney Roosters",
+      "away": "Cronulla-Sutherland Sharks",
+      "score": null,
+      "date": "2026-09-19",
+      "time": "19:50",
+      "utc": "2026-09-19T09:50:00+00:00",
+      "venue": "Allianz Stadium",
       "attendance": null
     },
     {
@@ -24921,7 +24932,7 @@
             "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 413,
+            "for": 414,
             "against": 323,
             "diff": null,
             "points": 20,
@@ -25819,14 +25830,26 @@
         "rows": [
           {
             "team": "Hawke's Bay",
-            "played": 6,
+            "played": 7,
             "win": 6,
             "draw": 0,
-            "loss": 0,
-            "for": 276,
-            "against": 145,
-            "diff": 131,
-            "points": 30,
+            "loss": 1,
+            "for": 300,
+            "against": 176,
+            "diff": 124,
+            "points": 32,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "North Harbour",
+            "played": 7,
+            "win": 5,
+            "draw": 0,
+            "loss": 2,
+            "for": 290,
+            "against": 185,
+            "diff": 105,
+            "points": 29,
             "highlight": "#CCF9CC"
           },
           {
@@ -25863,18 +25886,6 @@
             "against": 183,
             "diff": 47,
             "points": 25,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "North Harbour",
-            "played": 6,
-            "win": 4,
-            "draw": 0,
-            "loss": 2,
-            "for": 259,
-            "against": 161,
-            "diff": 98,
-            "points": 24,
             "highlight": "#CCF9CC"
           },
           {
@@ -25927,13 +25938,13 @@
           },
           {
             "team": "Bay of Plenty",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": 0,
-            "loss": 3,
-            "for": 150,
-            "against": 174,
-            "diff": -24,
+            "loss": 4,
+            "for": 162,
+            "against": 217,
+            "diff": -55,
             "points": 17,
             "highlight": "transparent"
           },
@@ -25950,6 +25961,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Southland",
+            "played": 7,
+            "win": 2,
+            "draw": 0,
+            "loss": 5,
+            "for": 186,
+            "against": 249,
+            "diff": -63,
+            "points": 13,
+            "highlight": "transparent"
+          },
+          {
             "team": "Counties Manukau",
             "played": 7,
             "win": 2,
@@ -25959,18 +25982,6 @@
             "against": 276,
             "diff": -79,
             "points": 12,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Southland",
-            "played": 6,
-            "win": 1,
-            "draw": 0,
-            "loss": 5,
-            "for": 143,
-            "against": 237,
-            "diff": -94,
-            "points": 8,
             "highlight": "transparent"
           },
           {
@@ -28110,10 +28121,10 @@
             {
               "seed1": null,
               "team1": "Penrith",
-              "score1": null,
+              "score1": 19,
               "seed2": null,
               "team2": "Sydney",
-              "score2": null,
+              "score2": 12,
               "date": null,
               "venue": null
             },
@@ -28154,7 +28165,7 @@
           "matches": [
             {
               "seed1": null,
-              "team1": "TBD",
+              "team1": "Sydney",
               "score1": null,
               "seed2": null,
               "team2": "Cronulla",
@@ -28179,7 +28190,7 @@
           "matches": [
             {
               "seed1": null,
-              "team1": "TBD",
+              "team1": "Penrith",
               "score1": null,
               "seed2": null,
               "team2": "TBD",
