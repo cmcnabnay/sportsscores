@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T00:05:06+00:00",
+  "updated": "2026-09-14T00:16:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26434,6 +26434,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Independiente",
+            "played": 9,
+            "win": 4,
+            "draw": 2,
+            "loss": 3,
+            "for": 8,
+            "against": 7,
+            "diff": 1,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Unión",
             "played": 9,
             "win": 4,
@@ -26458,16 +26470,16 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Independiente",
-            "played": 8,
-            "win": 4,
-            "draw": 1,
-            "loss": 3,
-            "for": 7,
+            "team": "San Lorenzo",
+            "played": 9,
+            "win": 3,
+            "draw": 2,
+            "loss": 4,
+            "for": 4,
             "against": 6,
-            "diff": 1,
-            "points": 13,
-            "highlight": "#BBF3BB"
+            "diff": -2,
+            "points": 11,
+            "highlight": "transparent"
           },
           {
             "team": "Estudiantes (LP)",
@@ -26490,18 +26502,6 @@
             "for": 8,
             "against": 8,
             "diff": 0,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "San Lorenzo",
-            "played": 8,
-            "win": 3,
-            "draw": 1,
-            "loss": 4,
-            "for": 3,
-            "against": 5,
-            "diff": -2,
             "points": 10,
             "highlight": "transparent"
           },
