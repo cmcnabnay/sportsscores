@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T23:52:10+00:00",
+  "updated": "2026-09-15T00:02:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26446,6 +26446,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Lanús",
+            "played": 9,
+            "win": 4,
+            "draw": 1,
+            "loss": 4,
+            "for": 11,
+            "against": 8,
+            "diff": 3,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Unión",
             "played": 9,
             "win": 4,
@@ -26467,7 +26479,7 @@
             "against": 8,
             "diff": 2,
             "points": 13,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "San Lorenzo",
@@ -26494,26 +26506,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Lanús",
-            "played": 8,
-            "win": 3,
-            "draw": 1,
-            "loss": 4,
-            "for": 8,
-            "against": 8,
-            "diff": 0,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
             "team": "Deportivo Riestra",
-            "played": 8,
+            "played": 9,
             "win": 2,
             "draw": 3,
-            "loss": 3,
+            "loss": 4,
             "for": 8,
-            "against": 7,
-            "diff": 1,
+            "against": 10,
+            "diff": -2,
             "points": 9,
             "highlight": "transparent"
           },
@@ -26680,26 +26680,26 @@
           },
           {
             "team": "Barracas Central",
-            "played": 8,
+            "played": 9,
             "win": 3,
-            "draw": 2,
+            "draw": 3,
             "loss": 3,
-            "for": 4,
-            "against": 5,
+            "for": 5,
+            "against": 6,
             "diff": -1,
-            "points": 11,
+            "points": 12,
             "highlight": "transparent"
           },
           {
             "team": "Banfield",
-            "played": 8,
+            "played": 9,
             "win": 2,
-            "draw": 1,
+            "draw": 2,
             "loss": 5,
-            "for": 8,
-            "against": 13,
+            "for": 9,
+            "against": 14,
             "diff": -5,
-            "points": 7,
+            "points": 8,
             "highlight": "transparent"
           },
           {
