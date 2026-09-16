@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T23:34:11+00:00",
+  "updated": "2026-09-16T23:45:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26854,14 +26854,26 @@
             "highlight": "transparent"
           },
           {
-            "team": "Arsenal Tula",
+            "team": "Yenisey Krasnoyarsk",
             "played": 11,
             "win": 3,
             "draw": 4,
             "loss": 4,
-            "for": 11,
+            "for": 14,
             "against": 19,
-            "diff": -8,
+            "diff": -5,
+            "points": 13,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Arsenal Tula",
+            "played": 12,
+            "win": 3,
+            "draw": 4,
+            "loss": 5,
+            "for": 12,
+            "against": 22,
+            "diff": -10,
             "points": 13,
             "highlight": "transparent"
           },
@@ -26898,18 +26910,6 @@
             "for": 9,
             "against": 14,
             "diff": -5,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Yenisey Krasnoyarsk",
-            "played": 10,
-            "win": 2,
-            "draw": 4,
-            "loss": 4,
-            "for": 11,
-            "against": 18,
-            "diff": -7,
             "points": 10,
             "highlight": "transparent"
           },
