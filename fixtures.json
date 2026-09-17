@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T21:10:09+00:00",
+  "updated": "2026-09-17T21:21:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26769,14 +26769,26 @@
         "rows": [
           {
             "team": "Nizhny Novgorod",
-            "played": 11,
-            "win": 9,
+            "played": 12,
+            "win": 10,
             "draw": 1,
             "loss": 1,
-            "for": 30,
+            "for": 36,
             "against": 14,
-            "diff": 16,
-            "points": 28,
+            "diff": 22,
+            "points": 31,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Veles Moscow",
+            "played": 12,
+            "win": 7,
+            "draw": 2,
+            "loss": 3,
+            "for": 16,
+            "against": 14,
+            "diff": 2,
+            "points": 23,
             "highlight": "#BBF3BB"
           },
           {
@@ -26788,18 +26800,6 @@
             "for": 20,
             "against": 13,
             "diff": 7,
-            "points": 22,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Veles Moscow",
-            "played": 11,
-            "win": 7,
-            "draw": 1,
-            "loss": 3,
-            "for": 15,
-            "against": 13,
-            "diff": 2,
             "points": 22,
             "highlight": "#CCF9CC"
           },
@@ -26817,14 +26817,14 @@
           },
           {
             "team": "Torpedo Moscow",
-            "played": 10,
+            "played": 11,
             "win": 6,
-            "draw": 1,
+            "draw": 2,
             "loss": 3,
-            "for": 20,
-            "against": 8,
+            "for": 21,
+            "against": 9,
             "diff": 12,
-            "points": 19,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -26837,6 +26837,18 @@
             "against": 5,
             "diff": 12,
             "points": 19,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Rotor Volgograd",
+            "played": 12,
+            "win": 5,
+            "draw": 2,
+            "loss": 5,
+            "for": 20,
+            "against": 14,
+            "diff": 6,
+            "points": 17,
             "highlight": "transparent"
           },
           {
@@ -26861,18 +26873,6 @@
             "against": 12,
             "diff": 3,
             "points": 15,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Rotor Volgograd",
-            "played": 11,
-            "win": 4,
-            "draw": 2,
-            "loss": 5,
-            "for": 18,
-            "against": 14,
-            "diff": 4,
-            "points": 14,
             "highlight": "transparent"
           },
           {
@@ -26925,13 +26925,13 @@
           },
           {
             "team": "Leningradets Leningrad Oblast",
-            "played": 10,
+            "played": 11,
             "win": 2,
             "draw": 4,
-            "loss": 4,
+            "loss": 5,
             "for": 9,
-            "against": 14,
-            "diff": -5,
+            "against": 20,
+            "diff": -11,
             "points": 10,
             "highlight": "transparent"
           },
@@ -26949,13 +26949,13 @@
           },
           {
             "team": "Tekstilshchik Ivanovo",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": 4,
-            "loss": 6,
+            "loss": 7,
             "for": 8,
-            "against": 17,
-            "diff": -9,
+            "against": 19,
+            "diff": -11,
             "points": 7,
             "highlight": "#FFBBBB"
           },
