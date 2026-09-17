@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T08:55:11+00:00",
+  "updated": "2026-09-17T09:06:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13859,7 +13859,7 @@
       "league": "npc-2026",
       "home": "Counties Manukau",
       "away": "Otago",
-      "score": null,
+      "score": "21-50",
       "date": "2026-09-17",
       "time": "19:10",
       "utc": "2026-09-17T07:10:00+00:00",
@@ -25863,6 +25863,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Otago",
+            "played": 8,
+            "win": 6,
+            "draw": 0,
+            "loss": 2,
+            "for": 320,
+            "against": 209,
+            "diff": 111,
+            "points": 32,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "North Harbour",
             "played": 7,
             "win": 5,
@@ -25883,18 +25895,6 @@
             "for": 245,
             "against": 144,
             "diff": 101,
-            "points": 27,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Otago",
-            "played": 7,
-            "win": 5,
-            "draw": 0,
-            "loss": 2,
-            "for": 270,
-            "against": 188,
-            "diff": 82,
             "points": 27,
             "highlight": "#CCF9CC"
           },
@@ -25996,13 +25996,13 @@
           },
           {
             "team": "Counties Manukau",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": 0,
-            "loss": 5,
-            "for": 197,
-            "against": 276,
-            "diff": -79,
+            "loss": 6,
+            "for": 218,
+            "against": 326,
+            "diff": -108,
             "points": 12,
             "highlight": "transparent"
           },
