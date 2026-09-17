@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T06:55:10+00:00",
+  "updated": "2026-09-17T07:06:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14241,6 +14241,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "Dolphins",
+      "away": "Sydney Roosters or Cronulla-Sutherland Sharks",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "19:50",
+      "utc": "2026-09-25T09:50:00+00:00",
+      "venue": "Suncorp Stadium",
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Lions",
       "away": "Leinster",
@@ -14480,6 +14491,17 @@
       "time": "14:05",
       "utc": "2026-09-27T01:05:00+00:00",
       "venue": "Hnry Stadium",
+      "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Penrith Panthers",
+      "away": "New Zealand Warriors or Newcastle Knights",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "16:05",
+      "utc": "2026-09-27T06:05:00+00:00",
+      "venue": "Accor Stadium",
       "attendance": null
     },
     {
