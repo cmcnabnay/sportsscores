@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T08:48:08+00:00",
+  "updated": "2026-09-18T08:59:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13870,7 +13870,7 @@
       "league": "npc-2026",
       "home": "Tasman",
       "away": "Auckland",
-      "score": null,
+      "score": "22-24",
       "date": "2026-09-18",
       "time": "19:10",
       "utc": "2026-09-18T07:10:00+00:00",
@@ -25912,14 +25912,14 @@
           },
           {
             "team": "Tasman",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": 0,
-            "loss": 3,
-            "for": 231,
-            "against": 236,
-            "diff": -5,
-            "points": 21,
+            "loss": 4,
+            "for": 253,
+            "against": 260,
+            "diff": -7,
+            "points": 22,
             "highlight": "#CCF9CC"
           },
           {
@@ -25959,6 +25959,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Auckland",
+            "played": 8,
+            "win": 3,
+            "draw": 0,
+            "loss": 5,
+            "for": 213,
+            "against": 245,
+            "diff": -32,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
             "team": "Bay of Plenty",
             "played": 7,
             "win": 3,
@@ -25968,18 +25980,6 @@
             "against": 217,
             "diff": -55,
             "points": 17,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Auckland",
-            "played": 7,
-            "win": 2,
-            "draw": 0,
-            "loss": 5,
-            "for": 189,
-            "against": 223,
-            "diff": -34,
-            "points": 14,
             "highlight": "transparent"
           },
           {
