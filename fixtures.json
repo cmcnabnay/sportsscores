@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T21:52:09+00:00",
+  "updated": "2026-09-18T22:03:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26780,6 +26780,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Spartak Kostroma",
+            "played": 11,
+            "win": 7,
+            "draw": 3,
+            "loss": 1,
+            "for": 15,
+            "against": 8,
+            "diff": 7,
+            "points": 24,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sochi",
+            "played": 12,
+            "win": 7,
+            "draw": 2,
+            "loss": 3,
+            "for": 21,
+            "against": 14,
+            "diff": 7,
+            "points": 23,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Veles Moscow",
             "played": 12,
             "win": 7,
@@ -26789,31 +26813,19 @@
             "against": 14,
             "diff": 2,
             "points": 23,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
-            "team": "Sochi",
+            "team": "Ural Yekaterinburg",
             "played": 11,
-            "win": 7,
-            "draw": 1,
-            "loss": 3,
-            "for": 20,
-            "against": 13,
-            "diff": 7,
-            "points": 22,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Spartak Kostroma",
-            "played": 10,
             "win": 6,
-            "draw": 3,
+            "draw": 4,
             "loss": 1,
-            "for": 14,
-            "against": 8,
-            "diff": 6,
-            "points": 21,
-            "highlight": "#CCF9CC"
+            "for": 18,
+            "against": 5,
+            "diff": 13,
+            "points": 22,
+            "highlight": "transparent"
           },
           {
             "team": "Torpedo Moscow",
@@ -26825,18 +26837,6 @@
             "against": 9,
             "diff": 12,
             "points": 20,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Ural Yekaterinburg",
-            "played": 10,
-            "win": 5,
-            "draw": 4,
-            "loss": 1,
-            "for": 17,
-            "against": 5,
-            "diff": 12,
-            "points": 19,
             "highlight": "transparent"
           },
           {
@@ -26853,25 +26853,25 @@
           },
           {
             "team": "Ufa",
-            "played": 10,
+            "played": 11,
             "win": 4,
             "draw": 5,
-            "loss": 1,
-            "for": 15,
-            "against": 11,
-            "diff": 4,
+            "loss": 2,
+            "for": 16,
+            "against": 13,
+            "diff": 3,
             "points": 17,
             "highlight": "transparent"
           },
           {
             "team": "Shinnik Yaroslavl",
-            "played": 10,
+            "played": 11,
             "win": 3,
             "draw": 6,
-            "loss": 1,
+            "loss": 2,
             "for": 15,
-            "against": 12,
-            "diff": 3,
+            "against": 13,
+            "diff": 2,
             "points": 15,
             "highlight": "transparent"
           },
@@ -26901,25 +26901,37 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": 0,
-            "loss": 7,
+            "loss": 8,
             "for": 7,
-            "against": 14,
-            "diff": -7,
+            "against": 15,
+            "diff": -8,
             "points": 12,
             "highlight": "transparent"
           },
           {
-            "team": "Volga Ulyanovsk",
-            "played": 10,
+            "team": "Chelyabinsk",
+            "played": 11,
             "win": 3,
             "draw": 2,
-            "loss": 5,
+            "loss": 6,
+            "for": 12,
+            "against": 18,
+            "diff": -6,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Volga Ulyanovsk",
+            "played": 11,
+            "win": 3,
+            "draw": 2,
+            "loss": 6,
             "for": 14,
-            "against": 16,
-            "diff": -2,
+            "against": 17,
+            "diff": -3,
             "points": 11,
             "highlight": "transparent"
           },
@@ -26936,16 +26948,16 @@
             "highlight": "transparent"
           },
           {
-            "team": "Chelyabinsk",
-            "played": 10,
+            "team": "KAMAZ Naberezhnye Chelny",
+            "played": 12,
             "win": 2,
-            "draw": 2,
-            "loss": 6,
-            "for": 10,
-            "against": 17,
-            "diff": -7,
-            "points": 8,
-            "highlight": "transparent"
+            "draw": 3,
+            "loss": 7,
+            "for": 11,
+            "against": 19,
+            "diff": -8,
+            "points": 9,
+            "highlight": "#FFBBBB"
           },
           {
             "team": "Tekstilshchik Ivanovo",
@@ -26960,27 +26972,15 @@
             "highlight": "#FFBBBB"
           },
           {
-            "team": "KAMAZ Naberezhnye Chelny",
+            "team": "SKA-Khabarovsk",
             "played": 11,
             "win": 1,
-            "draw": 3,
-            "loss": 7,
-            "for": 10,
-            "against": 19,
-            "diff": -9,
-            "points": 6,
-            "highlight": "#FFBBBB"
-          },
-          {
-            "team": "SKA-Khabarovsk",
-            "played": 10,
-            "win": 1,
-            "draw": 1,
+            "draw": 2,
             "loss": 8,
-            "for": 10,
-            "against": 22,
+            "for": 11,
+            "against": 23,
             "diff": -12,
-            "points": 4,
+            "points": 5,
             "highlight": "#FFBBBB"
           }
         ],
