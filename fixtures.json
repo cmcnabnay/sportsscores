@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T23:08:08+00:00",
+  "updated": "2026-09-18T23:19:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26408,6 +26408,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Defensa y Justicia",
+            "played": 10,
+            "win": 5,
+            "draw": 3,
+            "loss": 2,
+            "for": 13,
+            "against": 11,
+            "diff": 2,
+            "points": 18,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Vélez Sarsfield",
             "played": 9,
             "win": 4,
@@ -26416,18 +26428,6 @@
             "for": 12,
             "against": 7,
             "diff": 5,
-            "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Defensa y Justicia",
-            "played": 9,
-            "win": 5,
-            "draw": 2,
-            "loss": 2,
-            "for": 11,
-            "against": 9,
-            "diff": 2,
             "points": 17,
             "highlight": "#BBF3BB"
           },
@@ -26565,14 +26565,14 @@
           },
           {
             "team": "Central Córdoba (SdE)",
-            "played": 9,
+            "played": 10,
             "win": 2,
-            "draw": 1,
+            "draw": 2,
             "loss": 6,
-            "for": 5,
-            "against": 11,
+            "for": 7,
+            "against": 13,
             "diff": -6,
-            "points": 7,
+            "points": 8,
             "highlight": "transparent"
           }
         ],
