@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T02:26:09+00:00",
+  "updated": "2026-09-19T02:37:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13881,7 +13881,7 @@
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "25-37",
       "date": "2026-09-18",
       "time": "19:30",
       "utc": "2026-09-18T23:30:00+00:00",
@@ -25015,14 +25015,14 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 13,
-            "win": 10,
+            "played": 14,
+            "win": 11,
             "draw": null,
             "loss": 3,
-            "for": 451,
-            "against": 385,
+            "for": 488,
+            "against": 410,
             "diff": null,
-            "points": 20,
+            "points": 22,
             "highlight": null
           },
           {
@@ -25039,12 +25039,12 @@
           },
           {
             "team": "Hamilton Tiger-Cats",
-            "played": 13,
+            "played": 14,
             "win": 4,
             "draw": null,
-            "loss": 9,
-            "for": 302,
-            "against": 384,
+            "loss": 10,
+            "for": 327,
+            "against": 421,
             "diff": null,
             "points": 8,
             "highlight": null
