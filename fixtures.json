@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T19:27:06+00:00",
+  "updated": "2026-09-19T19:34:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26442,6 +26442,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 10,
+            "win": 5,
+            "draw": 2,
+            "loss": 3,
+            "for": 14,
+            "against": 9,
+            "diff": 5,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Vélez Sarsfield",
             "played": 9,
             "win": 4,
@@ -26451,18 +26463,6 @@
             "against": 7,
             "diff": 5,
             "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 9,
-            "win": 5,
-            "draw": 1,
-            "loss": 3,
-            "for": 14,
-            "against": 9,
-            "diff": 5,
-            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -26551,14 +26551,14 @@
           },
           {
             "team": "Deportivo Riestra",
-            "played": 9,
+            "played": 10,
             "win": 2,
-            "draw": 3,
+            "draw": 4,
             "loss": 4,
             "for": 8,
             "against": 10,
             "diff": -2,
-            "points": 9,
+            "points": 10,
             "highlight": "transparent"
           },
           {
@@ -26615,6 +26615,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (LP)",
+            "played": 10,
+            "win": 5,
+            "draw": 2,
+            "loss": 3,
+            "for": 15,
+            "against": 15,
+            "diff": 0,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 10,
             "win": 5,
@@ -26623,18 +26635,6 @@
             "for": 17,
             "against": 16,
             "diff": 1,
-            "points": 16,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (LP)",
-            "played": 9,
-            "win": 5,
-            "draw": 1,
-            "loss": 3,
-            "for": 13,
-            "against": 13,
-            "diff": 0,
             "points": 16,
             "highlight": "#BBF3BB"
           },
@@ -26735,6 +26735,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Banfield",
+            "played": 10,
+            "win": 2,
+            "draw": 3,
+            "loss": 5,
+            "for": 11,
+            "against": 16,
+            "diff": -5,
+            "points": 9,
+            "highlight": "transparent"
+          },
+          {
             "team": "Racing",
             "played": 10,
             "win": 2,
@@ -26742,18 +26754,6 @@
             "loss": 6,
             "for": 11,
             "against": 16,
-            "diff": -5,
-            "points": 8,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Banfield",
-            "played": 9,
-            "win": 2,
-            "draw": 2,
-            "loss": 5,
-            "for": 9,
-            "against": 14,
             "diff": -5,
             "points": 8,
             "highlight": "transparent"
