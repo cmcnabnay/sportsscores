@@ -50,12 +50,15 @@ articles) by setting "pages": [...] instead of "page": "..." in its
 LEAGUES entry; results from each page are merged under the same league
 key.
 
-Separately, every run also checks a small set of single-team results
-against their league's Wikipedia results-matrix page - currently Vélez
-Sarsfield (Argentina Liga Profesional) and Torpedo Moscow (Russian First
-League). See the MATRIX_TEAMS config and update_matrix_team_results()
-near the bottom of this file for why those leagues aren't in
-LEAGUES/fetch_and_parse like everything else above. Each MATRIX_TEAMS
+Separately, every run also checks a small set of single-team results -
+currently Vélez Sarsfield (Argentina Liga Profesional) and Torpedo Moscow
+(Russian First League) - without going through LEAGUES/fetch_and_parse
+like every other league above (see the MATRIX_TEAMS config and
+update_matrix_team_results() near the bottom of this file for why).
+Torpedo Moscow's results still come from its league's Wikipedia
+results-matrix page; Vélez Sarsfield's come from 365Scores instead (see
+update_matrix_team_results_scores365()) - the matrix page was fragile to
+parse and slow to get updated with new results. Each MATRIX_TEAMS
 entry can also carry its own "standings" config (same page/groups/phases
 shape as a LEAGUES entry's) - see update_matrix_league_standings(), called
 right alongside update_matrix_team_results() for the same reason. Argentina
@@ -114,6 +117,39 @@ ESPN_HEADERS = {
     "Origin": "https://www.espn.com",
 }
 ESPN_MAX_RETRIES = 3
+
+# Once ESPN starts flat-out 403ing every request (seen starting
+# 2026-09-18 - not a per-request fluke, every retry/header combination
+# tried failed identically), stop attempting ESPN's API entirely for this
+# long before trying again, rather than every ~10-minute cron run hitting
+# a live block 3 retries at a time. Hammering a block while it's active
+# doesn't help it clear, and may look like exactly the sustained
+# automated traffic that keeps one in place. See espn_backoff_active/
+# set_espn_backoff/clear_espn_backoff - state lives in fixtures.json's
+# top-level "espn_backoff_until" so it persists across runs.
+ESPN_BACKOFF_HOURS = 8
+
+
+def espn_backoff_active(data, now):
+    """True if a prior ESPN failure set a cooldown that hasn't elapsed
+    yet - see ESPN_BACKOFF_HOURS."""
+    until = data.get("espn_backoff_until")
+    if not until:
+        return False
+    try:
+        until_dt = datetime.fromisoformat(until)
+    except ValueError:
+        return False
+    return now < until_dt
+
+
+def set_espn_backoff(data, now):
+    data["espn_backoff_until"] = (now + timedelta(hours=ESPN_BACKOFF_HOURS)).isoformat()
+
+
+def clear_espn_backoff(data):
+    data["espn_backoff_until"] = None
+
 
 # Minimum gap between consecutive Wikipedia API requests, and retry/backoff
 # settings for when a burst of requests (e.g. CFL's 9 team pages) still
@@ -519,6 +555,18 @@ LEAGUES = {
         "playoffs": {
             "heading": "Finals series",
         },
+        # The season-results page's own "Finals series" table (used just
+        # above for the Playoffs-tab bracket) sits on a stale placeholder
+        # score - even a literal "-" - well after a final has actually
+        # been played, because Wikipedia editors write the real result up
+        # on this separate {{main|2026 NRL finals series}} sub-article
+        # first and don't necessarily go back to sync the summary table on
+        # this page in step. Reading that sub-article directly, via its
+        # own {{rugbyleaguebox}} templates, is what actually keeps finals
+        # scores current - see parse_rugbyleaguebox_matches.
+        "extra_pages": [
+            {"page": "2026_NRL_finals_series", "parser": "rugbyleaguebox"},
+        ],
     },
     "super-league-2026": {
         "name": "Super League Rugby 2026",
@@ -3369,6 +3417,92 @@ def parse_americanfootballbox_matches(section_text, league_key, cfg, group="Play
     return matches
 
 
+def parse_rugbyleaguebox_matches(wikitext: str, league_key: str, cfg: dict):
+    """Parse {{rugbyleaguebox|...}} template instances - how a rugby
+    league finals series is written up on its own dedicated sub-article
+    (e.g. "2026 NRL finals series", which the parent season-results page
+    only links to via {{main|...}} rather than keeping in sync itself -
+    the parent page's own finals table can sit on a stale placeholder
+    score, or even "-", long after a final has actually been played and
+    written up in full on this sub-article). See nrl-2026's "extra_pages".
+
+    NOT the same template as the {{8TeamBracket-PagePlayoff}} the parent
+    page's Playoffs-tab bracket is built from (build_bracket_rounds) -
+    that one abbreviates club names for display (e.g.
+    "[[Sydney Roosters|Sydney]]"). team1/team2 here use the club's full
+    wikilink name, matching parse_wikitable_matches's own naming, so a
+    match already stored from the parent page's Results wikitable gets
+    its score filled in by merge_league_matches() in place, rather than
+    this becoming a same-fixture duplicate under a shortened name.
+
+    Also unlike {{rugbybox}} (national teams, {{ru-rt|CODE}} flag-code
+    params), team1/team2 here are plain club wikilinks, and "score" is
+    already one combined "home-away" string rather than separate fields."""
+    matches = []
+    tz_pattern = re.compile(r"(?:UTC|GMT)\s*([+−-])\s*(\d{1,2})(?::(\d{2}))?")
+
+    for inner in find_templates(wikitext, "rugbyleaguebox"):
+        kv = {}
+        for p in split_template_params(inner):
+            if "=" not in p:
+                continue
+            k, v = p.split("=", 1)
+            kv[k.strip().lower()] = v.strip()
+
+        home = clean_bracket_team(kv.get("team1"))
+        away = clean_bracket_team(kv.get("team2"))
+        if not home or not away:
+            continue
+
+        score = (kv.get("score") or "").replace("–", "-").strip()
+        score = re.sub(r"\s+", "", score) if re.match(r"^\d+\s*-\s*\d+$", score) else None
+
+        date_out = parse_full_date(kv.get("date", ""))
+        time_field = kv.get("time", "")
+        time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
+        time_out = time_match.group(0) if time_match else None
+
+        # The page states an explicit UTC offset per match (e.g. "19:50
+        # AEST (UTC+10)") - prefer that over the league's single default
+        # utc_offset, the same way parse_rugbybox_matches does, since a
+        # finals series often crosses into a different home team's
+        # timezone (e.g. an Auckland-hosted semifinal) than the league's
+        # usual assumption.
+        offset = None
+        tz_match = tz_pattern.search(time_field)
+        if tz_match:
+            sign = -1 if tz_match.group(1) in ("-", "−") else 1
+            hours = int(tz_match.group(2))
+            minutes = int(tz_match.group(3)) if tz_match.group(3) else 0
+            offset = sign * (hours + minutes / 60)
+        if offset is None:
+            offset = cfg.get("utc_offset")
+        utc = compute_utc(date_out, time_out, offset)
+
+        venue = strip_citations(strip_wikilinks(kv.get("stadium", "")))
+        venue = re.sub(r"\s+", " ", venue).strip() or None
+
+        attendance_raw = kv.get("attendance", "")
+        attendance_match = re.search(r"([\d,]+)", attendance_raw) if attendance_raw else None
+        attendance = attendance_match.group(1).replace(",", "") if attendance_match else None
+
+        referee = strip_wikilinks(kv.get("referee", "")).strip() or None
+
+        matches.append({
+            "league": league_key,
+            "home": home,
+            "away": away,
+            "score": score,
+            "date": date_out,
+            "time": time_out,
+            "utc": utc,
+            "venue": venue,
+            "attendance": attendance,
+            "referee": referee,
+        })
+    return matches
+
+
 # ---------------------------------------------------------------------------
 # Standings / tables
 #
@@ -4371,12 +4505,26 @@ def fix_early_score_order(data):
 MATRIX_TEAMS = {
     "velez": {
         "team_name": "Vélez Sarsfield",
-        "team_code": "VEL",
-        "wiki_page": "2026_AFA_Liga_Profesional_de_Fútbol",
         "league_key": "argentina-liga-profesional-2026",
-        # This page's matrix is split into two Zone templates plus two
-        # separate "Interzonal matches" wikitables for cross-zone games.
-        "interzonal_heading": "Interzonal matches",
+        # Results now come from 365Scores (competition 72 = Argentina
+        # Liga Profesional; team 872 = Velez Sarsfield) instead of the
+        # Wikipedia results-matrix page - see
+        # update_matrix_team_results_scores365(). The matrix page was
+        # slow to get updated with new results and fragile to parse
+        # (triangular grid keyed by 3-letter team codes, split across
+        # Apertura/Clausura blocks - see parse_matrix_team_results).
+        # Standings below are UNCHANGED - still scraped from Wikipedia,
+        # since 365Scores wasn't asked to replace those, just results.
+        "scores365_competition_id": 72,
+        "scores365_team_id": 872,
+        # Argentina is UTC-3 year-round (no DST since 2009). Needed to
+        # convert 365Scores' UTC startTime back to the Argentina-local
+        # calendar date fixtures.json's own "date" field uses (Wikipedia's
+        # convention throughout this file) - an evening kickoff (e.g.
+        # 21:30 local) lands after midnight UTC, one calendar day later,
+        # so matching on the UTC date directly would miss it. See
+        # update_matrix_team_results_scores365().
+        "scores365_utc_offset": -3,
         # The season is split into two independent tournaments (Torneo
         # Apertura, Torneo Clausura), each with its own "Standings" section
         # containing a Zone A and Zone B table. This reuses the same
@@ -4657,6 +4805,10 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
               f"(use --force to check anyway)")
         return
 
+    if "scores365_competition_id" in cfg:
+        update_matrix_team_results_scores365(cfg, team_matches, stale)
+        return
+
     print(f"Fetching {cfg['wiki_page']} for {team_name} results "
           f"({len(stale)} past match(es) still missing a score) ...")
     try:
@@ -4682,7 +4834,107 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
           f"{' / interzonal tables' if cfg.get('interzonal_heading') else ''}")
 
 
+def fetch_scores365_matrix_team_matches(competition_id, team_id):
+    """Fetch just the current window of games for one 365Scores
+    competition - no forward/backward pagination the way
+    fetch_scores365_games does for a full-season LEAGUES entry - filtered
+    down to games featuring the given team id. A MATRIX_TEAMS entry only
+    ever needs to check a small number of recent/upcoming matches for its
+    one team (see update_matrix_team_results's `stale` check above), and
+    the roughly ten rounds either side of "now" this single request
+    already returns is always more than enough for that."""
+    url = (f"{SCORES365_GAMES_URL}fixtures/?{SCORES365_COMMON_PARAMS}"
+           f"&competitions={competition_id}")
+    data = fetch_scores365_json(url)
+    return [
+        g for g in data.get("games", [])
+        if (g.get("homeCompetitor") or {}).get("id") == team_id
+        or (g.get("awayCompetitor") or {}).get("id") == team_id
+    ]
+
+
+def update_matrix_team_results_scores365(cfg, team_matches, stale):
+    """365Scores equivalent of the Wikipedia-results-matrix path in
+    update_matrix_team_results() above, for a MATRIX_TEAMS entry that
+    names a "scores365_competition_id"/"scores365_team_id" instead of a
+    "wiki_page" (currently just velez - see its config comment for why).
+
+    Matches a fetched game to an already-stored fixture purely by date,
+    not by opponent name: the two sources spell club names differently
+    (accents, suffixes like "(SdE)"/"(M)"), but this team only ever plays
+    one match on a given day, so the date alone is an unambiguous key -
+    no name-normalization table needed between the two sources. The date
+    used is the LOCAL calendar date (via "scores365_utc_offset"), not
+    365Scores' own UTC one - a late-evening kickoff can fall after
+    midnight UTC, a calendar day later than the local date fixtures.json
+    stores it under."""
+    team_name = cfg["team_name"]
+    competition_id = cfg["scores365_competition_id"]
+    team_id = cfg["scores365_team_id"]
+    utc_offset = cfg.get("scores365_utc_offset", 0)
+    print(f"Fetching 365Scores competition {competition_id} for {team_name} results "
+          f"({len(stale)} past match(es) still missing a score) ...")
+    try:
+        games = fetch_scores365_matrix_team_matches(competition_id, team_id)
+    except Exception as e:
+        print(f"  !! {team_name} results fetch failed: {e}", file=sys.stderr)
+        return
+
+    games_by_date = {}
+    for g in games:
+        try:
+            utc_dt = datetime.fromisoformat(g.get("startTime", ""))
+        except ValueError:
+            continue
+        local_date = (utc_dt + timedelta(hours=utc_offset)).strftime("%Y-%m-%d")
+        games_by_date[local_date] = g
+
+    updated = 0
+    for m in team_matches:
+        g = games_by_date.get(m.get("date"))
+        if g is None:
+            continue
+        home_c, away_c = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
+        home_score, away_score = home_c.get("score"), away_c.get("score")
+        if home_score is None or away_score is None or home_score < 0 or away_score < 0:
+            continue
+        velez_score, opp_score = (home_score, away_score) if home_c.get("id") == team_id \
+            else (away_score, home_score)
+        score = f"{int(velez_score)}-{int(opp_score)}" if team_name in (m.get("home") or "") \
+            else f"{int(opp_score)}-{int(velez_score)}"
+        if m.get("score") != score:
+            m["score"] = score
+            updated += 1
+    print(f"  -> {team_name}: {updated} result(s) updated from 365Scores")
+
+
+_EXTRA_PAGE_PARSERS = {
+    "rugbyleaguebox": parse_rugbyleaguebox_matches,
+}
+
+
 def fetch_and_parse(cfg, key, cached=None, now=None):
+    """Dispatch to this league's main parser (_fetch_and_parse_main below),
+    then append matches from any "extra_pages" entries - a supplementary
+    Wikipedia page carrying results this league's main page doesn't itself
+    stay in sync with (e.g. nrl-2026's finals series sub-article - see
+    parse_rugbyleaguebox_matches). Each entry's matches get merged into the
+    same stored fixtures the main page produces via the usual
+    merge_league_matches()/_match_identity() machinery in run() - matching
+    is by (sorted team-name pair, date), so an extra_pages parser must
+    produce the same team-name spelling as the main page for its shared
+    fixtures to update in place rather than show up as duplicates."""
+    matches = _fetch_and_parse_main(cfg, key, cached=cached, now=now)
+    for extra in cfg.get("extra_pages", []):
+        parse_fn = _EXTRA_PAGE_PARSERS.get(extra["parser"])
+        if parse_fn is None:
+            raise ValueError(f"Unknown extra_pages parser {extra['parser']!r} for league '{key}'")
+        wikitext = fetch_page_wikitext(extra["page"])
+        matches.extend(parse_fn(wikitext, key, cfg))
+    return matches
+
+
+def _fetch_and_parse_main(cfg, key, cached=None, now=None):
     parser_type = cfg.get("parser", "vevent")
     pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
 
@@ -4947,6 +5199,22 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         cfg = LEAGUES[key]
         cached = existing_by_league.get(key, [])
 
+        # ESPN cooldown check - see ESPN_BACKOFF_HOURS. Takes priority over
+        # (and skips entirely past) the ordinary scrape-window skip check
+        # below: while a cooldown is active there's no point even checking
+        # whether anything's "due soon", since the request would just
+        # 403 again. --force bypasses this the same way it bypasses the
+        # scrape-window check - an explicit manual run is exactly how you'd
+        # want to probe whether ESPN's block has lifted early.
+        if not force and cfg.get("parser") == "espn" and espn_backoff_active(data, now):
+            until = data.get("espn_backoff_until")
+            print(f"Skipping {cfg['name']} - ESPN backoff active until {until} "
+                  f"(use --force to check anyway)")
+            data["matches"].extend(cached)
+            data["leagues"].setdefault(
+                key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
+            continue
+
         # Nothing-due-soon check, straight from fixtures.json (this
         # script's own prior output - the only place with per-match dates
         # for every league). If we've successfully fetched this league
@@ -4985,6 +5253,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                     print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! standings failed: {e}", file=sys.stderr)
+                if cfg.get("parser") == "espn":
+                    set_espn_backoff(data, now)
             # Same reasoning as standings above: not tied to the fixture
             # scrape window, always re-checked even when fixtures are
             # skipped, so a mismatched heading gets another chance next
@@ -5020,6 +5290,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
             source_desc = ", ".join(pages)
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
+        is_espn = cfg.get("parser") == "espn"
         try:
             fresh_matches = fetch_and_parse(cfg, key, cached=cached, now=now)
             if not fresh_matches:
@@ -5038,6 +5309,14 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
             data["matches"].extend(merged)
             data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
+            if is_espn:
+                # A successful ESPN request is the clearest possible sign
+                # the block has lifted - clear the cooldown immediately
+                # rather than waiting out whatever's left of it, so the
+                # very next league in this same run (and every one after)
+                # gets a real attempt instead of being skipped on stale
+                # state.
+                clear_espn_backoff(data)
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
             # Fetch failed outright - keep whatever was already stored
@@ -5046,6 +5325,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             # from load_existing(), since it's only ever overwritten on a
             # successful parse above.
             data["matches"].extend(cached)
+            if is_espn:
+                set_espn_backoff(data, now)
 
         try:
             standings = fetch_standings(cfg, key)
@@ -5058,6 +5339,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             # standings just because this particular run didn't refresh them.
         except Exception as e:
             print(f"  !! standings failed: {e}", file=sys.stderr)
+            if is_espn:
+                set_espn_backoff(data, now)
 
         try:
             attendance_rows = fetch_attendance_table(cfg, key)
