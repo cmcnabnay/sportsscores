@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:16:09+00:00",
+  "updated": "2026-09-19T23:26:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31959,5 +31959,9 @@
       ]
     }
   },
-  "espn_backoff_until": "2026-09-20T04:33:36.646230+00:00"
+  "espn_backoff_until": "2026-09-20T04:33:36.646230+00:00",
+  "matrix_last_fetch": {
+    "velez": "2026-09-19T23:19:23.221897+00:00",
+    "torpedo": "2026-09-19T23:19:31.527272+00:00"
+  }
 }
