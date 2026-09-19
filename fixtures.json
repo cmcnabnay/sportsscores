@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T21:35:47+00:00",
+  "updated": "2026-09-19T21:46:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -926,6 +926,633 @@
       "attendance": "1598"
     },
     {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Pau",
+      "score": "50-27",
+      "date": "2025-09-20",
+      "time": "12:30",
+      "utc": "2025-09-20T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Stade Francais Paris",
+      "score": "42-37",
+      "date": "2025-09-20",
+      "time": "16:30",
+      "utc": "2025-09-20T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Bayonne",
+      "score": "48-17",
+      "date": "2025-09-20",
+      "time": "16:30",
+      "utc": "2025-09-20T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Racing 92",
+      "score": "15-28",
+      "date": "2025-09-20",
+      "time": "16:30",
+      "utc": "2025-09-20T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Montauban",
+      "score": "71-24",
+      "date": "2025-09-20",
+      "time": "16:30",
+      "utc": "2025-09-20T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Stade Toulousain",
+      "score": "44-14",
+      "date": "2025-09-20",
+      "time": "19:00",
+      "utc": "2025-09-20T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "La Rochelle",
+      "score": null,
+      "date": "2025-09-22",
+      "time": "19:05",
+      "utc": "2025-09-22T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Bordeaux Begles",
+      "score": "26-7",
+      "date": "2025-09-27",
+      "time": "12:30",
+      "utc": "2025-09-27T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Montpellier Herault",
+      "score": "22-22",
+      "date": "2025-09-27",
+      "time": "14:35",
+      "utc": "2025-09-27T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Perpignan",
+      "score": "7-8",
+      "date": "2025-09-27",
+      "time": "14:35",
+      "utc": "2025-09-27T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Lyon",
+      "score": "40-15",
+      "date": "2025-09-27",
+      "time": "14:35",
+      "utc": "2025-09-27T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Clermont Auvergne",
+      "score": "36-24",
+      "date": "2025-09-27",
+      "time": "14:35",
+      "utc": "2025-09-27T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Castres Olympique",
+      "score": "59-12",
+      "date": "2025-09-27",
+      "time": "19:00",
+      "utc": "2025-09-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Toulon",
+      "score": "35-32",
+      "date": "2025-09-28",
+      "time": "19:05",
+      "utc": "2025-09-28T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "La Rochelle",
+      "score": "37-13",
+      "date": "2025-10-04",
+      "time": "12:30",
+      "utc": "2025-10-04T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Montauban",
+      "score": "84-31",
+      "date": "2025-10-04",
+      "time": "14:35",
+      "utc": "2025-10-04T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Racing 92",
+      "score": "20-16",
+      "date": "2025-10-04",
+      "time": "14:35",
+      "utc": "2025-10-04T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Stade Francais Paris",
+      "score": "11-28",
+      "date": "2025-10-04",
+      "time": "14:35",
+      "utc": "2025-10-04T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Pau",
+      "score": "33-17",
+      "date": "2025-10-04",
+      "time": "14:35",
+      "utc": "2025-10-04T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Lyon",
+      "score": "32-20",
+      "date": "2025-10-04",
+      "time": "19:00",
+      "utc": "2025-10-04T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Stade Toulousain",
+      "score": "40-26",
+      "date": "2025-10-05",
+      "time": "19:05",
+      "utc": "2025-10-05T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Bayonne",
+      "score": "47-24",
+      "date": "2025-10-11",
+      "time": "12:30",
+      "utc": "2025-10-11T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Perpignan",
+      "score": "44-19",
+      "date": "2025-10-11",
+      "time": "14:35",
+      "utc": "2025-10-11T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Montpellier Herault",
+      "score": "32-25",
+      "date": "2025-10-11",
+      "time": "14:35",
+      "utc": "2025-10-11T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "La Rochelle",
+      "score": "26-24",
+      "date": "2025-10-11",
+      "time": "14:35",
+      "utc": "2025-10-11T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Castres Olympique",
+      "score": "28-32",
+      "date": "2025-10-11",
+      "time": "14:35",
+      "utc": "2025-10-11T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Toulon",
+      "score": "27-10",
+      "date": "2025-10-11",
+      "time": "19:00",
+      "utc": "2025-10-11T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Bordeaux Begles",
+      "score": "56-13",
+      "date": "2025-10-12",
+      "time": "19:05",
+      "utc": "2025-10-12T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Clermont Auvergne",
+      "score": "44-17",
+      "date": "2025-10-18",
+      "time": "12:30",
+      "utc": "2025-10-18T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Montauban",
+      "score": "54-19",
+      "date": "2025-10-18",
+      "time": "14:35",
+      "utc": "2025-10-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Bordeaux Begles",
+      "score": "12-27",
+      "date": "2025-10-18",
+      "time": "14:35",
+      "utc": "2025-10-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Stade Francais Paris",
+      "score": "29-24",
+      "date": "2025-10-18",
+      "time": "14:35",
+      "utc": "2025-10-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Lyon",
+      "score": "35-13",
+      "date": "2025-10-18",
+      "time": "14:35",
+      "utc": "2025-10-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Stade Toulousain",
+      "score": "30-26",
+      "date": "2025-10-18",
+      "time": "19:00",
+      "utc": "2025-10-18T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Racing 92",
+      "score": "45-21",
+      "date": "2025-10-19",
+      "time": "19:05",
+      "utc": "2025-10-19T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "La Rochelle",
+      "score": "19-36",
+      "date": "2025-10-25",
+      "time": "12:30",
+      "utc": "2025-10-25T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Castres Olympique",
+      "score": "63-14",
+      "date": "2025-10-25",
+      "time": "14:35",
+      "utc": "2025-10-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Pau",
+      "score": "15-10",
+      "date": "2025-10-25",
+      "time": "14:35",
+      "utc": "2025-10-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Montpellier Herault",
+      "score": "35-12",
+      "date": "2025-10-25",
+      "time": "14:35",
+      "utc": "2025-10-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Perpignan",
+      "score": "29-22",
+      "date": "2025-10-25",
+      "time": "14:35",
+      "utc": "2025-10-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Bayonne",
+      "score": "41-12",
+      "date": "2025-10-25",
+      "time": "19:00",
+      "utc": "2025-10-25T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Toulon",
+      "score": "59-24",
+      "date": "2025-10-26",
+      "time": "20:05",
+      "utc": "2025-10-26T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Lyon",
+      "score": "54-21",
+      "date": "2025-11-01",
+      "time": "13:30",
+      "utc": "2025-11-01T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Montauban",
+      "score": "49-7",
+      "date": "2025-11-01",
+      "time": "15:35",
+      "utc": "2025-11-01T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Clermont Auvergne",
+      "score": "7-9",
+      "date": "2025-11-01",
+      "time": "15:35",
+      "utc": "2025-11-01T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Perpignan",
+      "score": "27-23",
+      "date": "2025-11-01",
+      "time": "15:35",
+      "utc": "2025-11-01T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Bordeaux Begles",
+      "score": "26-28",
+      "date": "2025-11-01",
+      "time": "15:35",
+      "utc": "2025-11-01T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Stade Francais Paris",
+      "score": "29-17",
+      "date": "2025-11-01",
+      "time": "20:00",
+      "utc": "2025-11-01T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Racing 92",
+      "score": "33-6",
+      "date": "2025-11-02",
+      "time": "20:05",
+      "utc": "2025-11-02T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "La Rochelle",
+      "score": "39-14",
+      "date": "2025-11-08",
+      "time": "15:30",
+      "utc": "2025-11-08T15:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Pau",
+      "score": "33-34",
+      "date": "2025-11-21",
+      "time": "20:00",
+      "utc": "2025-11-21T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Clermont Auvergne",
+      "score": "43-24",
+      "date": "2025-11-22",
+      "time": "13:30",
+      "utc": "2025-11-22T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Castres Olympique",
+      "score": "17-19",
+      "date": "2025-11-22",
+      "time": "15:35",
+      "utc": "2025-11-22T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Montpellier Herault",
+      "score": "0-28",
+      "date": "2025-11-22",
+      "time": "15:35",
+      "utc": "2025-11-22T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Bayonne",
+      "score": "40-27",
+      "date": "2025-11-22",
+      "time": "15:35",
+      "utc": "2025-11-22T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Stade Toulousain",
+      "score": "7-49",
+      "date": "2025-11-22",
+      "time": "15:35",
+      "utc": "2025-11-22T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Toulon",
+      "score": "51-24",
+      "date": "2025-11-23",
+      "time": "20:05",
+      "utc": "2025-11-23T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cameroon",
       "away": "Cape Verde",
@@ -1344,6 +1971,17 @@
       "attendance": "3828"
     },
     {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Bordeaux Begles",
+      "score": "28-24",
+      "date": "2025-11-29",
+      "time": "13:30",
+      "utc": "2025-11-29T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Guinea",
       "away": "Nigeria",
@@ -1355,6 +1993,50 @@
       "attendance": "100"
     },
     {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Lyon",
+      "score": "22-20",
+      "date": "2025-11-29",
+      "time": "15:35",
+      "utc": "2025-11-29T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Perpignan",
+      "score": "23-7",
+      "date": "2025-11-29",
+      "time": "15:35",
+      "utc": "2025-11-29T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Stade Francais Paris",
+      "score": "36-32",
+      "date": "2025-11-29",
+      "time": "15:35",
+      "utc": "2025-11-29T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Montauban",
+      "score": "54-28",
+      "date": "2025-11-29",
+      "time": "15:35",
+      "utc": "2025-11-29T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Tunisia",
       "away": "Rwanda",
@@ -1364,6 +2046,17 @@
       "utc": "2025-11-29T16:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès",
       "attendance": "1000"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Racing 92",
+      "score": "48-24",
+      "date": "2025-11-29",
+      "time": "20:00",
+      "utc": "2025-11-29T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -1540,6 +2233,17 @@
       "utc": "2025-11-30T19:00:00+00:00",
       "venue": "Mirza Delibašić Hall, Sarajevo",
       "attendance": "4500"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "La Rochelle",
+      "score": "53-33",
+      "date": "2025-11-30",
+      "time": "20:05",
+      "utc": "2025-11-30T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -1751,6 +2455,413 @@
       "attendance": "45"
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Racing 92",
+      "score": "20-20",
+      "date": "2025-12-20",
+      "time": "13:30",
+      "utc": "2025-12-20T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Bayonne",
+      "score": "49-17",
+      "date": "2025-12-20",
+      "time": "15:35",
+      "utc": "2025-12-20T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Clermont Auvergne",
+      "score": "26-20",
+      "date": "2025-12-20",
+      "time": "15:35",
+      "utc": "2025-12-20T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Pau",
+      "score": "17-53",
+      "date": "2025-12-20",
+      "time": "15:35",
+      "utc": "2025-12-20T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Castres Olympique",
+      "score": "33-31",
+      "date": "2025-12-20",
+      "time": "15:35",
+      "utc": "2025-12-20T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Stade Toulousain",
+      "score": "19-41",
+      "date": "2025-12-20",
+      "time": "20:00",
+      "utc": "2025-12-20T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Toulon",
+      "score": "46-7",
+      "date": "2025-12-21",
+      "time": "20:05",
+      "utc": "2025-12-21T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Montauban",
+      "score": "61-16",
+      "date": "2025-12-27",
+      "time": "13:00",
+      "utc": "2025-12-27T13:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Lyon",
+      "score": "36-22",
+      "date": "2025-12-27",
+      "time": "15:00",
+      "utc": "2025-12-27T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Stade Francais Paris",
+      "score": "35-34",
+      "date": "2025-12-27",
+      "time": "17:00",
+      "utc": "2025-12-27T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Bordeaux Begles",
+      "score": "34-19",
+      "date": "2025-12-27",
+      "time": "20:00",
+      "utc": "2025-12-27T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Montpellier Herault",
+      "score": "35-33",
+      "date": "2025-12-28",
+      "time": "15:00",
+      "utc": "2025-12-28T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Perpignan",
+      "score": "31-16",
+      "date": "2025-12-28",
+      "time": "17:00",
+      "utc": "2025-12-28T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "La Rochelle",
+      "score": "60-14",
+      "date": "2025-12-28",
+      "time": "20:05",
+      "utc": "2025-12-28T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Stade Toulousain",
+      "score": "30-27",
+      "date": "2026-01-03",
+      "time": "13:30",
+      "utc": "2026-01-03T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Castres Olympique",
+      "score": "33-15",
+      "date": "2026-01-03",
+      "time": "15:35",
+      "utc": "2026-01-03T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Clermont Auvergne",
+      "score": "19-34",
+      "date": "2026-01-03",
+      "time": "15:35",
+      "utc": "2026-01-03T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Pau",
+      "score": "22-17",
+      "date": "2026-01-03",
+      "time": "15:35",
+      "utc": "2026-01-03T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Bayonne",
+      "score": "62-22",
+      "date": "2026-01-03",
+      "time": "15:35",
+      "utc": "2026-01-03T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Racing 92",
+      "score": "62-20",
+      "date": "2026-01-03",
+      "time": "20:00",
+      "utc": "2026-01-03T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Toulon",
+      "score": "66-0",
+      "date": "2026-01-04",
+      "time": "20:05",
+      "utc": "2026-01-04T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Stade Francais Paris",
+      "score": "28-33",
+      "date": "2026-01-24",
+      "time": "13:30",
+      "utc": "2026-01-24T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Lyon",
+      "score": "35-34",
+      "date": "2026-01-24",
+      "time": "15:35",
+      "utc": "2026-01-24T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Montauban",
+      "score": "31-8",
+      "date": "2026-01-24",
+      "time": "15:35",
+      "utc": "2026-01-24T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Castres Olympique",
+      "score": "10-13",
+      "date": "2026-01-24",
+      "time": "15:35",
+      "utc": "2026-01-24T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Pau",
+      "score": "59-22",
+      "date": "2026-01-24",
+      "time": "20:00",
+      "utc": "2026-01-24T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Montpellier Herault",
+      "score": null,
+      "date": "2026-01-25",
+      "time": "14:30",
+      "utc": "2026-01-25T14:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "La Rochelle",
+      "score": "32-27",
+      "date": "2026-01-25",
+      "time": "20:05",
+      "utc": "2026-01-25T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Stade Francais Paris",
+      "score": "44-7",
+      "date": "2026-01-31",
+      "time": "13:30",
+      "utc": "2026-01-31T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Perpignan",
+      "score": "37-31",
+      "date": "2026-01-31",
+      "time": "15:35",
+      "utc": "2026-01-31T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Bordeaux Begles",
+      "score": "16-31",
+      "date": "2026-01-31",
+      "time": "15:35",
+      "utc": "2026-01-31T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Lyon",
+      "score": "24-44",
+      "date": "2026-01-31",
+      "time": "15:35",
+      "utc": "2026-01-31T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Clermont Auvergne",
+      "score": "28-23",
+      "date": "2026-01-31",
+      "time": "15:35",
+      "utc": "2026-01-31T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Bayonne",
+      "score": "31-10",
+      "date": "2026-01-31",
+      "time": "20:00",
+      "utc": "2026-01-31T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Toulon",
+      "score": "32-12",
+      "date": "2026-02-01",
+      "time": "20:05",
+      "utc": "2026-02-01T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Toulon",
+      "score": null,
+      "date": "2026-02-07",
+      "time": "12:38",
+      "utc": "2026-02-07T12:38:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Pau",
+      "score": null,
+      "date": "2026-02-07",
+      "time": "13:24",
+      "utc": "2026-02-07T13:24:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "York Knights",
       "away": "Hull KR",
@@ -1795,6 +2906,61 @@
       "attendance": "9603"
     },
     {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Castres Olympique",
+      "score": "57-32",
+      "date": "2026-02-14",
+      "time": "13:30",
+      "utc": "2026-02-14T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Montauban",
+      "score": "73-12",
+      "date": "2026-02-14",
+      "time": "15:35",
+      "utc": "2026-02-14T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Racing 92",
+      "score": "36-41",
+      "date": "2026-02-14",
+      "time": "15:35",
+      "utc": "2026-02-14T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Pau",
+      "score": null,
+      "date": "2026-02-14",
+      "time": "15:35",
+      "utc": "2026-02-14T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Montpellier Herault",
+      "score": "33-43",
+      "date": "2026-02-14",
+      "time": "15:35",
+      "utc": "2026-02-14T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Hull F.C.",
       "away": "Bradford Bulls",
@@ -1804,6 +2970,17 @@
       "utc": "2026-02-14T16:30:00+00:00",
       "venue": "MKM Stadium",
       "attendance": "16653"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Clermont Auvergne",
+      "score": "14-34",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "utc": "2026-02-14T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "super-league-2026",
@@ -1826,6 +3003,17 @@
       "utc": "2026-02-15T14:00:00+00:00",
       "venue": "OneBore Stadium",
       "attendance": "8259"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Stade Toulousain",
+      "score": "9-13",
+      "date": "2026-02-15",
+      "time": "20:05",
+      "utc": "2026-02-15T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "super-league-2026",
@@ -1892,6 +3080,17 @@
       "utc": "2026-02-22T14:00:00+00:00",
       "venue": "Accu Stadium",
       "attendance": "6451"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Pau",
+      "score": "40-24",
+      "date": "2026-02-22",
+      "time": "17:15",
+      "utc": "2026-02-22T17:15:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -2323,6 +3522,61 @@
       "attendance": "689"
     },
     {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Bayonne",
+      "score": "38-15",
+      "date": "2026-02-28",
+      "time": "13:30",
+      "utc": "2026-02-28T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Montauban",
+      "score": "68-13",
+      "date": "2026-02-28",
+      "time": "15:35",
+      "utc": "2026-02-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Toulon",
+      "score": "13-13",
+      "date": "2026-02-28",
+      "time": "15:35",
+      "utc": "2026-02-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Racing 92",
+      "score": "41-17",
+      "date": "2026-02-28",
+      "time": "15:35",
+      "utc": "2026-02-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Perpignan",
+      "score": "42-21",
+      "date": "2026-02-28",
+      "time": "15:35",
+      "utc": "2026-02-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Warrington Wolves",
       "away": "Wakefield Trinity",
@@ -2354,6 +3608,17 @@
       "utc": "2026-02-28T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "1200"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "La Rochelle",
+      "score": "26-31",
+      "date": "2026-02-28",
+      "time": "20:00",
+      "utc": "2026-02-28T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -2618,6 +3883,17 @@
       "utc": "2026-03-01T18:00:00+00:00",
       "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
       "attendance": "400"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Bordeaux Begles",
+      "score": "39-17",
+      "date": "2026-03-01",
+      "time": "20:05",
+      "utc": "2026-03-01T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -3093,6 +4369,17 @@
       "attendance": "10031"
     },
     {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Montpellier Herault",
+      "score": "17-20",
+      "date": "2026-03-21",
+      "time": "13:30",
+      "utc": "2026-03-21T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Newcastle Knights",
       "away": "New Zealand Warriors",
@@ -3113,6 +4400,50 @@
       "utc": "2026-03-21T14:00:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "9342"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Stade Francais Paris",
+      "score": "27-46",
+      "date": "2026-03-21",
+      "time": "15:35",
+      "utc": "2026-03-21T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Bayonne",
+      "score": "26-60",
+      "date": "2026-03-21",
+      "time": "15:35",
+      "utc": "2026-03-21T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Lyon",
+      "score": "28-32",
+      "date": "2026-03-21",
+      "time": "15:35",
+      "utc": "2026-03-21T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Castres Olympique",
+      "score": "52-21",
+      "date": "2026-03-21",
+      "time": "15:35",
+      "utc": "2026-03-21T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -3148,6 +4479,17 @@
       "attendance": "19940"
     },
     {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Pau",
+      "score": "20-6",
+      "date": "2026-03-21",
+      "time": "20:00",
+      "utc": "2026-03-21T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Hull F.C.",
       "away": "Leeds Rhinos",
@@ -3179,6 +4521,17 @@
       "utc": "2026-03-22T07:15:00+00:00",
       "venue": "Queensland Country Bank Stadium",
       "attendance": "16999"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Stade Toulousain",
+      "score": "44-20",
+      "date": "2026-03-22",
+      "time": "20:05",
+      "utc": "2026-03-22T20:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -3247,6 +4600,17 @@
       "attendance": "5796"
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Montpellier Herault",
+      "score": "45-29",
+      "date": "2026-03-28",
+      "time": "13:30",
+      "utc": "2026-03-28T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "Newcastle Knights",
@@ -3267,6 +4631,50 @@
       "utc": "2026-03-28T14:00:00+00:00",
       "venue": "Brick Community Stadium",
       "attendance": "15611"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Montauban",
+      "score": "49-17",
+      "date": "2026-03-28",
+      "time": "15:35",
+      "utc": "2026-03-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Toulon",
+      "score": "34-20",
+      "date": "2026-03-28",
+      "time": "15:35",
+      "utc": "2026-03-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Racing 92",
+      "score": "27-17",
+      "date": "2026-03-28",
+      "time": "15:35",
+      "utc": "2026-03-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Bordeaux Begles",
+      "score": "17-21",
+      "date": "2026-03-28",
+      "time": "15:35",
+      "utc": "2026-03-28T15:35:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -3300,6 +4708,17 @@
       "utc": "2026-03-28T08:30:00+00:00",
       "venue": "Queensland Country Bank Stadium",
       "attendance": "20931"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "La Rochelle",
+      "score": "26-15",
+      "date": "2026-03-28",
+      "time": "20:00",
+      "utc": "2026-03-28T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "super-league-2026",
@@ -3344,6 +4763,17 @@
       "utc": "2026-03-29T16:30:00+00:00",
       "venue": "Headingley Rugby Stadium",
       "attendance": "16102"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Clermont Auvergne",
+      "score": "64-20",
+      "date": "2026-03-29",
+      "time": "19:05",
+      "utc": "2026-03-29T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -3698,6 +5128,61 @@
       "attendance": "5214"
     },
     {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Bordeaux Begles",
+      "score": "45-15",
+      "date": "2026-04-18",
+      "time": "12:30",
+      "utc": "2026-04-18T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Pau",
+      "score": "22-54",
+      "date": "2026-04-18",
+      "time": "14:35",
+      "utc": "2026-04-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Lyon",
+      "score": "41-23",
+      "date": "2026-04-18",
+      "time": "14:35",
+      "utc": "2026-04-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Perpignan",
+      "score": "42-31",
+      "date": "2026-04-18",
+      "time": "14:35",
+      "utc": "2026-04-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Toulon",
+      "score": "22-47",
+      "date": "2026-04-18",
+      "time": "14:35",
+      "utc": "2026-04-18T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Gold Coast Titans",
@@ -3742,6 +5227,17 @@
       "attendance": "9525"
     },
     {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Stade Toulousain",
+      "score": "25-42",
+      "date": "2026-04-18",
+      "time": "19:00",
+      "utc": "2026-04-18T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Wests Tigers",
       "away": "Brisbane Broncos",
@@ -3784,6 +5280,17 @@
       "utc": "2026-04-19T06:05:00+00:00",
       "venue": "CommBank Stadium",
       "attendance": "25938"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Stade Francais Paris",
+      "score": "47-20",
+      "date": "2026-04-19",
+      "time": "19:05",
+      "utc": "2026-04-19T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -3874,6 +5381,61 @@
       "attendance": "8030"
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Pau",
+      "score": "34-32",
+      "date": "2026-04-25",
+      "time": "12:30",
+      "utc": "2026-04-25T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Bayonne",
+      "score": "52-26",
+      "date": "2026-04-25",
+      "time": "14:35",
+      "utc": "2026-04-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Castres Olympique",
+      "score": "26-21",
+      "date": "2026-04-25",
+      "time": "14:35",
+      "utc": "2026-04-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Racing 92",
+      "score": "10-59",
+      "date": "2026-04-25",
+      "time": "14:35",
+      "utc": "2026-04-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "La Rochelle",
+      "score": "29-31",
+      "date": "2026-04-25",
+      "time": "14:35",
+      "utc": "2026-04-25T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "super-league-2026",
       "home": "Bradford Bulls",
       "away": "Hull KR",
@@ -3918,6 +5480,17 @@
       "attendance": "34812"
     },
     {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Montpellier Herault",
+      "score": "21-23",
+      "date": "2026-04-25",
+      "time": "19:00",
+      "utc": "2026-04-25T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "South Sydney Rabbitohs",
@@ -3949,6 +5522,17 @@
       "utc": "2026-04-26T06:05:00+00:00",
       "venue": "4 Pines Park",
       "attendance": "17389"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Clermont Auvergne",
+      "score": "24-27",
+      "date": "2026-04-26",
+      "time": "19:05",
+      "utc": "2026-04-26T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "super-league-2026",
@@ -4149,6 +5733,61 @@
       "attendance": "17626"
     },
     {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Castres Olympique",
+      "score": "27-15",
+      "date": "2026-05-09",
+      "time": "12:30",
+      "utc": "2026-05-09T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Perpignan",
+      "score": "45-14",
+      "date": "2026-05-09",
+      "time": "14:35",
+      "utc": "2026-05-09T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Bordeaux Begles",
+      "score": "38-40",
+      "date": "2026-05-09",
+      "time": "14:35",
+      "utc": "2026-05-09T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Lyon",
+      "score": "59-17",
+      "date": "2026-05-09",
+      "time": "14:35",
+      "utc": "2026-05-09T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Montauban",
+      "score": "59-7",
+      "date": "2026-05-09",
+      "time": "14:35",
+      "utc": "2026-05-09T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "St. George Illawarra Dragons",
       "away": "Newcastle Knights",
@@ -4169,6 +5808,17 @@
       "utc": "2026-05-09T07:30:00+00:00",
       "venue": "Accor Stadium",
       "attendance": "16714"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Stade Toulousain",
+      "score": "27-51",
+      "date": "2026-05-09",
+      "time": "19:00",
+      "utc": "2026-05-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -4202,6 +5852,17 @@
       "utc": "2026-05-10T06:05:00+00:00",
       "venue": "GIO Stadium",
       "attendance": "18018"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "La Rochelle",
+      "score": "24-26",
+      "date": "2026-05-10",
+      "time": "19:05",
+      "utc": "2026-05-10T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "super-league-2026",
@@ -4270,6 +5931,17 @@
       "attendance": "8532"
     },
     {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Clermont Auvergne",
+      "score": "24-19",
+      "date": "2026-05-16",
+      "time": "12:30",
+      "utc": "2026-05-16T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "efa-2026",
       "home": "Nordic Storm",
       "away": "Prague Lions",
@@ -4279,6 +5951,50 @@
       "utc": "2026-05-16T11:00:00+00:00",
       "venue": "Gladsaxe Stadium , Søborg",
       "attendance": "1690"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Perpignan",
+      "score": "37-32",
+      "date": "2026-05-16",
+      "time": "14:35",
+      "utc": "2026-05-16T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Bayonne",
+      "score": "42-35",
+      "date": "2026-05-16",
+      "time": "14:35",
+      "utc": "2026-05-16T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "Stade Francais Paris",
+      "score": "25-73",
+      "date": "2026-05-16",
+      "time": "14:35",
+      "utc": "2026-05-16T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Montpellier Herault",
+      "score": "33-36",
+      "date": "2026-05-16",
+      "time": "14:35",
+      "utc": "2026-05-16T14:35:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -4334,6 +6050,17 @@
       "utc": "2026-05-16T17:00:00+00:00",
       "venue": "Stade Michel Bendichou",
       "attendance": "4683"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Toulon",
+      "score": "43-28",
+      "date": "2026-05-16",
+      "time": "19:00",
+      "utc": "2026-05-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -4400,6 +6127,17 @@
       "utc": "2026-05-17T08:25:00+00:00",
       "venue": "Suncorp Stadium",
       "attendance": "50386"
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Stade Toulousain",
+      "score": "38-10",
+      "date": "2026-05-17",
+      "time": "19:05",
+      "utc": "2026-05-17T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -4600,6 +6338,50 @@
       "attendance": "1100"
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Bayonne",
+      "score": "38-21",
+      "date": "2026-05-30",
+      "time": "12:30",
+      "utc": "2026-05-30T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Castres Olympique",
+      "score": "29-27",
+      "date": "2026-05-30",
+      "time": "12:30",
+      "utc": "2026-05-30T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Lyon",
+      "score": "39-31",
+      "date": "2026-05-30",
+      "time": "12:30",
+      "utc": "2026-05-30T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montauban",
+      "away": "La Rochelle",
+      "score": "15-71",
+      "date": "2026-05-30",
+      "time": "12:30",
+      "utc": "2026-05-30T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Newcastle Knights",
       "away": "Parramatta Eels",
@@ -4644,6 +6426,17 @@
       "attendance": "4886"
     },
     {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Pau",
+      "score": "26-18",
+      "date": "2026-05-30",
+      "time": "19:15",
+      "utc": "2026-05-30T19:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "Sydney Roosters",
@@ -4664,6 +6457,17 @@
       "utc": "2026-05-31T04:00:00+00:00",
       "venue": "Suncorp Stadium",
       "attendance": "42275"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Bordeaux Begles",
+      "score": "27-22",
+      "date": "2026-05-31",
+      "time": "14:30",
+      "utc": "2026-05-31T14:30:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "afle-2026",
@@ -4708,6 +6512,17 @@
       "utc": "2026-05-31T08:15:00+00:00",
       "venue": "CommBank Stadium",
       "attendance": "17640"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Racing 92",
+      "score": "13-41",
+      "date": "2026-05-31",
+      "time": "19:05",
+      "utc": "2026-05-31T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "cfl-2026",
@@ -4917,6 +6732,83 @@
       "utc": "2026-06-06T23:00:00+00:00",
       "venue": "TD Place Stadium",
       "attendance": "15038"
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Stade Francais Paris",
+      "score": "27-22",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Clermont Auvergne",
+      "score": "31-34",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Montpellier Herault",
+      "score": "25-28",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Montauban",
+      "score": "71-35",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bayonne",
+      "away": "Perpignan",
+      "score": "52-7",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Castres Olympique",
+      "away": "Toulon",
+      "score": "38-21",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Racing 92",
+      "away": "Stade Toulousain",
+      "score": "31-20",
+      "date": "2026-06-06",
+      "time": "19:05",
+      "utc": "2026-06-06T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -5425,6 +7317,17 @@
       "attendance": "7222"
     },
     {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Racing 92",
+      "score": "31-33",
+      "date": "2026-06-13",
+      "time": "19:05",
+      "utc": "2026-06-13T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fivb-nations-league-2026",
       "home": "Turkey",
       "away": "Italy",
@@ -5612,6 +7515,17 @@
       "attendance": null
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "La Rochelle",
+      "score": "45-5",
+      "date": "2026-06-14",
+      "time": "19:05",
+      "utc": "2026-06-14T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fivb-nations-league-2026",
       "home": "Slovenia",
       "away": "Japan",
@@ -5643,6 +7557,17 @@
       "utc": "2026-06-18T19:00:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "10083"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Racing 92",
+      "score": "71-17",
+      "date": "2026-06-19",
+      "time": "19:05",
+      "utc": "2026-06-19T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "cfl-2026",
@@ -5775,6 +7700,17 @@
       "utc": "2026-06-20T17:00:00+00:00",
       "venue": "Stade Gilbert Brutus",
       "attendance": "8122"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Stade Francais Paris",
+      "score": "25-15",
+      "date": "2026-06-20",
+      "time": "19:05",
+      "utc": "2026-06-20T19:05:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -6386,6 +8322,17 @@
       "utc": "2026-06-27T16:00:00+00:00",
       "venue": "Tivoli Stadion Tirol , Innsbruck",
       "attendance": "2326"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Montpellier Herault",
+      "score": "28-20",
+      "date": "2026-06-27",
+      "time": "19:00",
+      "utc": "2026-06-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "nrl-2026",
@@ -13217,7 +15164,7 @@
       "date": "2026-09-05",
       "time": "17:05",
       "utc": "2026-09-05T17:05:00+00:00",
-      "venue": "Stade Jean Dauger, Bayonne (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13228,7 +15175,7 @@
       "date": "2026-09-05",
       "time": "17:05",
       "utc": "2026-09-05T17:05:00+00:00",
-      "venue": "Stade Pierre Fabre, Castres (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13239,7 +15186,7 @@
       "date": "2026-09-05",
       "time": "17:05",
       "utc": "2026-09-05T17:05:00+00:00",
-      "venue": "Matmut Stadium de Gerland, Lyon (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13250,7 +15197,7 @@
       "date": "2026-09-05",
       "time": "17:05",
       "utc": "2026-09-05T17:05:00+00:00",
-      "venue": "Septeo Stadium, Montpellier (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13261,7 +15208,7 @@
       "date": "2026-09-05",
       "time": "17:05",
       "utc": "2026-09-05T17:05:00+00:00",
-      "venue": "Stade Jean Bouin, Paris (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13294,7 +15241,7 @@
       "date": "2026-09-05",
       "time": "19:15",
       "utc": "2026-09-05T19:15:00+00:00",
-      "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13428,7 +15375,7 @@
       "date": "2026-09-06",
       "time": "19:05",
       "utc": "2026-09-06T19:05:00+00:00",
-      "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13594,7 +15541,7 @@
       "date": "2026-09-12",
       "time": "14:35",
       "utc": "2026-09-12T14:35:00+00:00",
-      "venue": "Stade Aime Giral, Perpignan (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13605,7 +15552,7 @@
       "date": "2026-09-12",
       "time": "14:35",
       "utc": "2026-09-12T14:35:00+00:00",
-      "venue": "Stade de la Rabine, Vannes (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13616,7 +15563,7 @@
       "date": "2026-09-12",
       "time": "14:35",
       "utc": "2026-09-12T14:35:00+00:00",
-      "venue": "Stade Marcel Michelin, Clermont-Ferrand (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13627,7 +15574,7 @@
       "date": "2026-09-12",
       "time": "14:35",
       "utc": "2026-09-12T14:35:00+00:00",
-      "venue": "Stade du Hameau, Pau (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13638,7 +15585,7 @@
       "date": "2026-09-12",
       "time": "14:35",
       "utc": "2026-09-12T14:35:00+00:00",
-      "venue": "Stade Dominique Duvauchelle, Creteil (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13727,7 +15674,7 @@
       "date": "2026-09-12",
       "time": "19:00",
       "utc": "2026-09-12T19:00:00+00:00",
-      "venue": "Stade Mayol, Toulon (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13833,24 +15780,13 @@
     },
     {
       "league": "top14-2026",
-      "home": "Bordeaux",
-      "away": "Stade Toulousain",
-      "score": null,
-      "date": "2026-09-13",
-      "time": "19:00",
-      "utc": "2026-09-13T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Stade Toulousain",
       "away": "Bordeaux Begles",
-      "score": "48-12",
+      "score": "10-0",
       "date": "2026-09-13",
       "time": "19:05",
       "utc": "2026-09-13T19:05:00+00:00",
-      "venue": "Stade Ernest-Wallon, Toulouse (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13923,11 +15859,11 @@
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Toulon",
-      "score": null,
+      "score": "29-27",
       "date": "2026-09-19",
       "time": "12:30",
       "utc": "2026-09-19T12:30:00+00:00",
-      "venue": "Stade Pierre Fabre, Castres (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13945,33 +15881,33 @@
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "Clermont Auvergne",
-      "score": null,
+      "score": "46-24",
       "date": "2026-09-19",
       "time": "14:35",
       "utc": "2026-09-19T14:35:00+00:00",
-      "venue": "Stade Jean Dauger, Bayonne (France)",
+      "venue": null,
       "attendance": null
     },
     {
       "league": "top14-2026",
       "home": "La Rochelle",
       "away": "Racing 92",
-      "score": null,
+      "score": "10-20",
       "date": "2026-09-19",
       "time": "14:35",
       "utc": "2026-09-19T14:35:00+00:00",
-      "venue": "Stade Marcel-Deflandre, La Rochelle (France)",
+      "venue": null,
       "attendance": null
     },
     {
       "league": "top14-2026",
       "home": "Lyon",
       "away": "Pau",
-      "score": null,
+      "score": "51-25",
       "date": "2026-09-19",
       "time": "14:35",
       "utc": "2026-09-19T14:35:00+00:00",
-      "venue": "Matmut Stadium de Gerland, Lyon (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -13982,7 +15918,7 @@
       "date": "2026-09-19",
       "time": "14:35",
       "utc": "2026-09-19T14:35:00+00:00",
-      "venue": "Septeo Stadium, Montpellier (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -14086,24 +16022,13 @@
     },
     {
       "league": "top14-2026",
-      "home": "Stade Toulousain",
-      "away": "RC Vannes",
-      "score": null,
-      "date": "2026-09-19",
-      "time": "18:55",
-      "utc": "2026-09-19T18:55:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Vannes",
       "away": "Stade Toulousain",
-      "score": null,
+      "score": "23-29",
       "date": "2026-09-19",
       "time": "19:00",
       "utc": "2026-09-19T19:00:00+00:00",
-      "venue": "Roazhon Park",
+      "venue": null,
       "attendance": null
     },
     {
@@ -14215,7 +16140,7 @@
       "date": "2026-09-20",
       "time": "19:05",
       "utc": "2026-09-20T19:05:00+00:00",
-      "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "venue": null,
       "attendance": null
     },
     {
@@ -30428,7 +32353,7 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Stade Français",
+            "team": "Stade Francais Paris",
             "played": 1,
             "win": 1,
             "draw": 0,
@@ -30488,7 +32413,7 @@
             "highlight": "inherit"
           },
           {
-            "team": "Clermont",
+            "team": "Clermont Auvergne",
             "played": 1,
             "win": 0,
             "draw": 0,
@@ -30500,7 +32425,7 @@
             "highlight": "inherit"
           },
           {
-            "team": "Montpellier",
+            "team": "Montpellier Herault",
             "played": 1,
             "win": 0,
             "draw": 0,
