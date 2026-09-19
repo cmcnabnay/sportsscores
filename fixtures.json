@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T06:59:13+00:00",
+  "updated": "2026-09-19T15:04:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13980,7 +13980,7 @@
       "league": "pacific-nations-cup-2026",
       "home": "Canada",
       "away": "United States",
-      "score": null,
+      "score": "19-16",
       "date": "2026-09-19",
       "time": "16:00",
       "utc": "2026-09-19T07:00:00+00:00",
@@ -14057,18 +14057,18 @@
       "league": "pacific-nations-cup-2026",
       "home": "Fiji",
       "away": "Japan",
-      "score": null,
+      "score": "15-20",
       "date": "2026-09-19",
       "time": "19:05",
       "utc": "2026-09-19T10:05:00+00:00",
       "venue": "Chichibunomiya Rugby Stadium, Tokyo",
-      "attendance": null
+      "attendance": "17421"
     },
     {
       "league": "npc-2026",
       "home": "Wellington",
       "away": "Northland",
-      "score": null,
+      "score": "28-52",
       "date": "2026-09-19",
       "time": "19:10",
       "utc": "2026-09-19T07:10:00+00:00",
@@ -25851,14 +25851,14 @@
       "Standings": {
         "rows": [
           {
-            "team": "Hawke's Bay",
-            "played": 7,
+            "team": "Northland (RS)",
+            "played": 8,
             "win": 6,
             "draw": 0,
-            "loss": 1,
-            "for": 300,
-            "against": 176,
-            "diff": 124,
+            "loss": 2,
+            "for": 297,
+            "against": 172,
+            "diff": 125,
             "points": 32,
             "highlight": "#CCF9CC"
           },
@@ -25875,6 +25875,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Hawke's Bay",
+            "played": 8,
+            "win": 6,
+            "draw": 0,
+            "loss": 2,
+            "for": 317,
+            "against": 208,
+            "diff": 109,
+            "points": 32,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "North Harbour",
             "played": 7,
             "win": 5,
@@ -25884,18 +25896,6 @@
             "against": 185,
             "diff": 105,
             "points": 29,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Northland (RS)",
-            "played": 7,
-            "win": 5,
-            "draw": 0,
-            "loss": 2,
-            "for": 245,
-            "against": 144,
-            "diff": 101,
-            "points": 27,
             "highlight": "#CCF9CC"
           },
           {
@@ -25911,6 +25911,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Waikato",
+            "played": 8,
+            "win": 4,
+            "draw": 0,
+            "loss": 4,
+            "for": 257,
+            "against": 242,
+            "diff": 15,
+            "points": 24,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Tasman",
             "played": 8,
             "win": 4,
@@ -25923,28 +25935,28 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Manawatu",
-            "played": 7,
+            "team": "Bay of Plenty",
+            "played": 8,
             "win": 4,
             "draw": 0,
-            "loss": 3,
-            "for": 193,
-            "against": 240,
-            "diff": -47,
-            "points": 20,
+            "loss": 4,
+            "for": 194,
+            "against": 234,
+            "diff": -40,
+            "points": 22,
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Waikato",
-            "played": 7,
-            "win": 3,
+            "team": "Manawatu",
+            "played": 8,
+            "win": 4,
             "draw": 0,
             "loss": 4,
-            "for": 221,
-            "against": 215,
-            "diff": 6,
-            "points": 19,
-            "highlight": "#CCF9CC"
+            "for": 220,
+            "against": 276,
+            "diff": -56,
+            "points": 20,
+            "highlight": "transparent"
           },
           {
             "team": "Taranaki",
@@ -25968,18 +25980,6 @@
             "against": 245,
             "diff": -32,
             "points": 18,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Bay of Plenty",
-            "played": 7,
-            "win": 3,
-            "draw": 0,
-            "loss": 4,
-            "for": 162,
-            "against": 217,
-            "diff": -55,
-            "points": 17,
             "highlight": "transparent"
           },
           {
@@ -26008,14 +26008,14 @@
           },
           {
             "team": "Wellington",
-            "played": 7,
+            "played": 8,
             "win": 0,
             "draw": 0,
-            "loss": 7,
-            "for": 175,
-            "against": 348,
-            "diff": -173,
-            "points": 5,
+            "loss": 8,
+            "for": 203,
+            "against": 400,
+            "diff": -197,
+            "points": 6,
             "highlight": "transparent"
           }
         ],
@@ -28187,11 +28187,11 @@
           "matches": [
             {
               "seed1": null,
-              "team1": "Sydney",
-              "score1": null,
+              "team1": "'''Sydney'''",
+              "score1": 46,
               "seed2": null,
               "team2": "Cronulla",
-              "score2": null,
+              "score2": 10,
               "date": null,
               "venue": null
             },
@@ -28225,7 +28225,7 @@
               "team1": "Dolphins",
               "score1": null,
               "seed2": null,
-              "team2": "TBD",
+              "team2": "Sydney",
               "score2": null,
               "date": null,
               "venue": null
@@ -28283,10 +28283,10 @@
             {
               "seed1": null,
               "team1": "Fiji",
-              "score1": null,
+              "score1": 15,
               "seed2": null,
               "team2": "Japan",
-              "score2": null,
+              "score2": 20,
               "date": "2026-09-19",
               "venue": "Chichibunomiya Rugby Stadium, Tokyo"
             }
@@ -28298,10 +28298,10 @@
             {
               "seed1": null,
               "team1": "Canada",
-              "score1": null,
+              "score1": 19,
               "seed2": null,
               "team2": "United States",
-              "score2": null,
+              "score2": 16,
               "date": "2026-09-19",
               "venue": "Chichibunomiya Rugby Stadium, Tokyo"
             }
@@ -28329,10 +28329,10 @@
             {
               "seed1": 4,
               "team1": "Wakefield",
-              "score1": null,
+              "score1": 26,
               "seed2": 5,
               "team2": "Leigh",
-              "score2": null,
+              "score2": 16,
               "date": null,
               "venue": null
             }
@@ -28346,7 +28346,7 @@
               "team1": "Wigan",
               "score1": null,
               "seed2": null,
-              "team2": null,
+              "team2": "Wakefield or Hull KR",
               "score2": null,
               "date": null,
               "venue": null
@@ -28356,7 +28356,7 @@
               "team1": "Leeds",
               "score1": null,
               "seed2": null,
-              "team2": null,
+              "team2": "Warrington or Hull KR",
               "score2": null,
               "date": null,
               "venue": null
