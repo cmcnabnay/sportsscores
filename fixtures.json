@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T21:58:24+00:00",
+  "updated": "2026-09-19T22:07:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13835,7 +13835,7 @@
       "league": "top14-2026",
       "home": "Stade Toulousain",
       "away": "Bordeaux Begles",
-      "score": "48-12",
+      "score": "10-0",
       "date": "2026-09-13",
       "time": "19:05",
       "utc": "2026-09-13T19:05:00+00:00",
@@ -13978,7 +13978,7 @@
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "Edmonton Elks",
-      "score": null,
+      "score": "24-19",
       "date": "2026-09-19",
       "time": "15:00",
       "utc": "2026-09-19T19:00:00+00:00",
@@ -28305,12 +28305,12 @@
         "rows": [
           {
             "team": "Edmonton Elks",
-            "played": 13,
+            "played": 14,
             "win": 10,
             "draw": null,
-            "loss": 3,
-            "for": 414,
-            "against": 323,
+            "loss": 4,
+            "for": 433,
+            "against": 347,
             "diff": null,
             "points": 20,
             "highlight": null
@@ -28382,14 +28382,14 @@
           },
           {
             "team": "Toronto Argonauts",
-            "played": 13,
-            "win": 7,
+            "played": 14,
+            "win": 8,
             "draw": null,
             "loss": 6,
-            "for": 391,
-            "against": 384,
+            "for": 415,
+            "against": 403,
             "diff": null,
-            "points": 14,
+            "points": 16,
             "highlight": null
           },
           {
