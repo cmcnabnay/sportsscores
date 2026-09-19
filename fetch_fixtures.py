@@ -403,6 +403,26 @@ LEAGUES = {
                 {"label": "Table", "heading_ids": ["Table"]},
             ],
         },
+        # Used INSTEAD of ESPN for fixtures/scores while an ESPN backoff
+        # is active (see ESPN_BACKOFF_HOURS/espn_backoff_active). 5644 =
+        # Top 14 on 365Scores, confirmed working with real current-season
+        # data. Bounded by date, not season_num, the way BBL/Vélez's
+        # scores365 sources are - 365Scores' "current season" number for
+        # this competition (8) hasn't actually incremented between the
+        # 2025-26 and 2026-27 real-world seasons (low-priority/poorly-
+        # maintained competition there - see its very low popularityRank),
+        # so season_num alone silently pulled in an entire extra year of
+        # already-finished matches under mismatched team-name spellings.
+        # Same window as espn_date_range above. See fetch_scores365_games.
+        #
+        # Not added to Premiership/URC/Champions Cup/Challenge Cup below:
+        # none of those are tracked as their own competition on 365Scores
+        # at all - every club I looked up there (Leicester, Northampton,
+        # Sale, Munster, Glasgow, Stormers) only resolves to the Champions/
+        # Challenge Cup competition ids, and those return zero fixtures
+        # right now (no season configured) - there's nothing reliable to
+        # fall back to for those leagues.
+        "scores365_fallback": {"competition_id": 5644, "min_date": "2026-08-01", "max_date": "2027-06-30"},
     },
     "premiership-2026": {
         "name": "Gallagher Premiership 2026-27",
@@ -1090,8 +1110,8 @@ def parse_espn_matches(data, league_key, cfg):
 
         matches.append({
             "league": league_key,
-            "home": home.get("team", {}).get("displayName"),
-            "away": away.get("team", {}).get("displayName"),
+            "home": canonicalize_team_name(home.get("team", {}).get("displayName")),
+            "away": canonicalize_team_name(away.get("team", {}).get("displayName")),
             "score": score,
             "date": date_out,
             "time": time_out,
@@ -1246,7 +1266,7 @@ def fetch_scores365_json(url):
     raise last_err
 
 
-def fetch_scores365_games(competition_id, season_num):
+def fetch_scores365_games(competition_id, season_num=None, min_date=None, max_date=None):
     """Fetch every match of one 365Scores competition season.
 
     Unlike ESPN's scoreboard (one request, whole date range), 365Scores'
@@ -1256,11 +1276,47 @@ def fetch_scores365_games(competition_id, season_num):
     id cursor each response's "paging" block provides - forward via
     "nextPage" for later rounds, backward via "previousPage" for earlier
     ones - until a direction's next page comes back with no games left
-    (paging otherwise keeps offering an (empty) page indefinitely).
-    Results are keyed by game id since the forward/backward windows
-    overlap at the edges, then filtered down to the requested season -
-    the same competition id also carries prior/future seasons' games."""
+    (paging otherwise keeps offering an (empty) page indefinitely), or
+    (see below) every game on a page already falls outside the requested
+    range. Results are keyed by game id since the forward/backward
+    windows overlap at the edges, then filtered down to the requested
+    season - the same competition id also carries prior/future seasons'
+    games.
+
+    Two ways to bound "the requested season", because 365Scores' season
+    numbering isn't reliable for every competition:
+      - `season_num`: exact match against each game's "seasonNum" - used
+        where that number reliably identifies one real-world season (the
+        Basketball Bundesliga, Argentina Liga Profesional).
+      - `min_date`/`max_date` ("YYYY-MM-DD", inclusive): used instead
+        where it doesn't - e.g. Top 14 (see top14-2026's
+        scores365_fallback config), whose "current season" number on
+        365Scores hasn't actually incremented between the 2025-26 and
+        2026-27 real-world seasons, so season_num alone would silently
+        pull in an entire extra year of already-finished matches.
+    Also used to stop paging early in a direction once every game on a
+    fetched page already falls outside the range (chronological order
+    means there's nothing more to find that way) - without this, a
+    competition with no true off-season gap (unlike Bundesliga/Liga
+    Profesional) would page arbitrarily far into adjacent seasons before
+    the empty-page check above ever kicks in."""
     games_by_id = {}
+
+    def game_date(g):
+        date_out, _ = normalize_date(g.get("startTime"), None, None)
+        return date_out
+
+    def in_range(g):
+        if season_num is not None:
+            return g.get("seasonNum") == season_num
+        d = game_date(g)
+        if d is None:
+            return False
+        if min_date and d < min_date:
+            return False
+        if max_date and d > max_date:
+            return False
+        return True
 
     def merge(resp):
         for g in resp.get("games", []):
@@ -1275,33 +1331,47 @@ def fetch_scores365_games(competition_id, season_num):
     while next_page:
         time.sleep(0.3)
         page_data = fetch_scores365_json(SCORES365_BASE + next_page)
-        if not page_data.get("games"):
+        new_games = page_data.get("games", [])
+        if not new_games:
             break
         merge(page_data)
+        if season_num is None and max_date and all((game_date(g) or "") > max_date for g in new_games):
+            break
         next_page = page_data.get("paging", {}).get("nextPage")
 
     prev_page = data.get("paging", {}).get("previousPage")
     while prev_page:
         time.sleep(0.3)
         page_data = fetch_scores365_json(SCORES365_BASE + prev_page)
-        if not page_data.get("games"):
+        new_games = page_data.get("games", [])
+        if not new_games:
             break
         merge(page_data)
+        if season_num is None and min_date and all((game_date(g) or "9999-99-99") < min_date for g in new_games):
+            break
         prev_page = page_data.get("paging", {}).get("previousPage")
 
-    return [g for g in games_by_id.values() if g.get("seasonNum") == season_num]
+    return [g for g in games_by_id.values() if in_range(g)]
 
 
 def parse_scores365_matches(games, league_key):
     """Turn 365Scores game objects (see fetch_scores365_games) into this
     project's usual match dict shape. A game that hasn't started yet
     carries -1 as both competitors' "score" (365Scores' sentinel for "no
-    score yet"), which is treated the same as a genuinely missing score."""
+    score yet"), which is treated the same as a genuinely missing score.
+
+    Team names go through canonicalize_team_name() - needed for a league
+    with a scores365_fallback config (see top14-2026): 365Scores spells a
+    club differently than the primary source does (short name, old
+    sponsor name, official name instead of the common one), and without
+    this the same real fixture reads as two different teams depending on
+    which source last wrote it."""
     matches = []
     for g in games:
         home_c = g.get("homeCompetitor") or {}
         away_c = g.get("awayCompetitor") or {}
-        home, away = home_c.get("name"), away_c.get("name")
+        home = canonicalize_team_name(home_c.get("name"))
+        away = canonicalize_team_name(away_c.get("name"))
         if not home or not away:
             continue
 
@@ -1371,6 +1441,29 @@ def fetch_scores365_standings_groups(cfg, key):
     return result
 
 
+def fetch_scores365_fallback_matches(cfg, key):
+    """Fetch a whole season's matches from 365Scores for a league whose
+    normal source is ESPN, via its "scores365_fallback": {"competition_id",
+    "season_num" or "min_date"/"max_date"} config (currently just
+    top14-2026 - see its LEAGUES entry for why the other ESPN-sourced
+    rugby leagues don't have one). Used by run() in place of
+    fetch_and_parse() while an ESPN backoff is active (see
+    ESPN_BACKOFF_HOURS), or right after a fresh ESPN failure, so this
+    league's fixtures keep updating instead of just going stale for the
+    whole cooldown window. Reuses the exact same full-season fetch built
+    for the Basketball Bundesliga (fetch_scores365_games) - ESPN vs.
+    365Scores is just a difference in data SOURCE, not shape, once
+    matches are parsed into this project's usual dict format."""
+    fb = cfg["scores365_fallback"]
+    games = fetch_scores365_games(
+        fb["competition_id"],
+        season_num=fb.get("season_num"),
+        min_date=fb.get("min_date"),
+        max_date=fb.get("max_date"),
+    )
+    return parse_scores365_matches(games, key)
+
+
 def normalize_date(iso_date, date_text, time_text):
     """Best-effort conversion of Wikipedia's date/time fields to YYYY-MM-DD / HH:MM."""
     date_out, time_out = None, None
@@ -1412,6 +1505,24 @@ def normalize_date(iso_date, date_text, time_text):
 # prevailing form for that club.
 TEAM_NAME_ALIASES = {
     "hull kingston rovers": "Hull KR",
+    # Top 14: ESPN itself is inconsistent for two clubs (a lone "Bordeaux"/
+    # "RC Vannes" row each amid 26 "Bordeaux Begles"/"Vannes" ones - see
+    # the LEAGUES entry's fallback comment), and 365Scores (used as a
+    # fallback when ESPN is blocked - see scores365_fallback) spells
+    # several clubs differently again (short name, old sponsor name, or
+    # official name instead of the common one). Without these, the same
+    # real fixture reads as two different teams depending on which source
+    # last wrote it, and shows up as a duplicate instead of one match
+    # getting its score/date updated in place.
+    "bordeaux": "Bordeaux Begles",
+    "rc vannes": "Vannes",
+    "aviron bayonnais": "Bayonne",
+    "clermont": "Clermont Auvergne",
+    "lyon ou": "Lyon",
+    "montpellier": "Montpellier Herault",
+    "section paloise": "Pau",
+    "racing-metro 92": "Racing 92",
+    "stade français": "Stade Francais Paris",
 }
 
 
@@ -5249,6 +5360,39 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         # want to probe whether ESPN's block has lifted early.
         if not force and cfg.get("parser") == "espn" and espn_backoff_active(data, now):
             until = data.get("espn_backoff_until")
+            fallback = cfg.get("scores365_fallback")
+            if fallback:
+                # A 365Scores fallback is configured (currently just
+                # top14-2026 - see its LEAGUES entry) - use it in ESPN's
+                # place for the whole cooldown, rather than just reusing
+                # stale cached matches until the cooldown expires.
+                print(f"{cfg['name']}: ESPN backoff active until {until} - "
+                      f"using 365Scores fallback instead")
+                try:
+                    fresh_matches = fetch_scores365_fallback_matches(cfg, key)
+                    merged = merge_league_matches(cached, fresh_matches)
+                    print(f"  -> parsed {len(fresh_matches)} matches via 365Scores fallback: "
+                          f"{len(merged)} total now stored (was {len(cached)})")
+                    data["matches"].extend(merged)
+                    data["leagues"][key] = {
+                        "name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
+                except Exception as e:
+                    print(f"  !! 365Scores fallback also failed: {e}", file=sys.stderr)
+                    data["matches"].extend(cached)
+                    data["leagues"].setdefault(
+                        key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
+                # Standings for top14-2026 come from Wikipedia (not ESPN),
+                # so the ESPN backoff doesn't affect them - still worth
+                # refreshing every run, same reasoning as the ordinary
+                # scrape-window skip path below.
+                try:
+                    standings = fetch_standings(cfg, key)
+                    if standings:
+                        data["standings"][key] = standings
+                        print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
+                except Exception as e:
+                    print(f"  !! standings failed: {e}", file=sys.stderr)
+                continue
             print(f"Skipping {cfg['name']} - ESPN backoff active until {until} "
                   f"(use --force to check anyway)")
             data["matches"].extend(cached)
@@ -5360,14 +5504,32 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 clear_espn_backoff(data)
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
-            # Fetch failed outright - keep whatever was already stored
-            # rather than losing the league's fixtures for this run.
-            # data["leagues"][key] already holds the prior entry (if any)
-            # from load_existing(), since it's only ever overwritten on a
-            # successful parse above.
-            data["matches"].extend(cached)
             if is_espn:
                 set_espn_backoff(data, now)
+            fallback = cfg.get("scores365_fallback") if is_espn else None
+            if fallback:
+                try:
+                    fresh_matches = fetch_scores365_fallback_matches(cfg, key)
+                    merged = merge_league_matches(cached, fresh_matches)
+                    print(f"  -> falling back to 365Scores: parsed {len(fresh_matches)} matches, "
+                          f"{len(merged)} total now stored (was {len(cached)})")
+                    data["matches"].extend(merged)
+                    data["leagues"][key] = {
+                        "name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
+                    fallback_ok = True
+                except Exception as fallback_e:
+                    print(f"  !! 365Scores fallback also failed: {fallback_e}", file=sys.stderr)
+                    fallback_ok = False
+            else:
+                fallback_ok = False
+            if not fallback_ok:
+                # Fetch (and any fallback) failed outright - keep whatever
+                # was already stored rather than losing the league's
+                # fixtures for this run. data["leagues"][key] already
+                # holds the prior entry (if any) from load_existing(),
+                # since it's only ever overwritten on a successful
+                # parse/fallback above.
+                data["matches"].extend(cached)
 
         try:
             standings = fetch_standings(cfg, key)
