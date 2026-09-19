@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T18:11:06+00:00",
+  "updated": "2026-09-19T18:22:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -28345,8 +28345,8 @@
               "seed1": 1,
               "team1": "Wigan",
               "score1": null,
-              "seed2": null,
-              "team2": "Wakefield or Hull KR",
+              "seed2": 4,
+              "team2": "Wakefield",
               "score2": null,
               "date": null,
               "venue": null
@@ -28355,8 +28355,8 @@
               "seed1": 2,
               "team1": "Leeds",
               "score1": null,
-              "seed2": null,
-              "team2": "Wakefield or Warrington",
+              "seed2": 3,
+              "team2": "Warrington",
               "score2": null,
               "date": null,
               "venue": null
