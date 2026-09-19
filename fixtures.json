@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T21:06:47+00:00",
+  "updated": "2026-09-19T21:15:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14185,17 +14185,6 @@
       "attendance": null
     },
     {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Tigre",
-      "score": "-",
-      "date": "2026-09-20",
-      "time": "17:00",
-      "utc": "2026-09-20T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "npc-2026",
       "home": "Taranaki",
       "away": "Southland",
@@ -14227,6 +14216,17 @@
       "time": "19:05",
       "utc": "2026-09-20T19:05:00+00:00",
       "venue": "Stade Chaban-Delmas, Bordeaux (France)",
+      "attendance": null
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Tigre",
+      "score": "-",
+      "date": "2026-09-20",
+      "time": "21:30",
+      "utc": "2026-09-21T00:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {

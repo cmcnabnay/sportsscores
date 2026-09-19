@@ -4782,7 +4782,17 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
     match for this team (past or future), same as everywhere else in this
     script. debug=True prints every raw match_CODE_XXX/match_XXX_CODE cell
     found on the page, for diagnosing a mismatch between what's actually
-    published and what fixtures.json expects."""
+    published and what fixtures.json expects.
+
+    The scores365_competition_id path (currently just velez) is the
+    exception to the "only touched when stale" rule above: it's a single
+    cheap, unauthenticated request (no pagination), so it's always
+    checked every run rather than gated behind a stale-score check - see
+    update_matrix_team_results_scores365() for why: it also corrects an
+    upcoming fixture's date/time as organizers/broadcasters move it
+    around, not just its score once played, and a fixture whose date/time
+    hasn't actually locked in yet is never "stale" by the score-only
+    definition below."""
     team_name = cfg["team_name"]
     team_matches = [
         m for m in data.get("matches", [])
@@ -4790,6 +4800,10 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
         and team_name in (m.get("home") or "") + (m.get("away") or "")
     ]
     if not team_matches:
+        return
+
+    if "scores365_competition_id" in cfg:
+        update_matrix_team_results_scores365(cfg, team_matches)
         return
 
     today = now.date()
@@ -4803,10 +4817,6 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
         print(f"Skipping {team_name} results - all {len(team_matches)} stored "
               f"matches with a past kickoff already have a score "
               f"(use --force to check anyway)")
-        return
-
-    if "scores365_competition_id" in cfg:
-        update_matrix_team_results_scores365(cfg, team_matches, stale)
         return
 
     print(f"Fetching {cfg['wiki_page']} for {team_name} results "
@@ -4853,47 +4863,77 @@ def fetch_scores365_matrix_team_matches(competition_id, team_id):
     ]
 
 
-def update_matrix_team_results_scores365(cfg, team_matches, stale):
+# Once locked in, a league fixture's date/time doesn't move further than
+# this from whatever was last stored, so the closest 365Scores game to a
+# stored fixture's (possibly stale) date is treated as that same
+# real-world match - same idea as RESCHEDULE_WINDOW_DAYS elsewhere in
+# this file, just wider: broadcaster-driven reschedules in Argentine
+# football can land more than a couple of days off the originally
+# announced date. See update_matrix_team_results_scores365().
+SCORES365_MATRIX_MATCH_WINDOW_DAYS = 4
+
+
+def update_matrix_team_results_scores365(cfg, team_matches):
     """365Scores equivalent of the Wikipedia-results-matrix path in
     update_matrix_team_results() above, for a MATRIX_TEAMS entry that
     names a "scores365_competition_id"/"scores365_team_id" instead of a
     "wiki_page" (currently just velez - see its config comment for why).
+    Unlike that path, this corrects a stored fixture's date/time (not
+    just its score) - the actual motivation for the switch: Wikipedia's
+    announced kickoff for an unplayed match can sit stale for days after
+    a broadcaster-driven reschedule, where 365Scores already has the
+    corrected time.
 
-    Matches a fetched game to an already-stored fixture purely by date,
-    not by opponent name: the two sources spell club names differently
-    (accents, suffixes like "(SdE)"/"(M)"), but this team only ever plays
-    one match on a given day, so the date alone is an unambiguous key -
-    no name-normalization table needed between the two sources. The date
-    used is the LOCAL calendar date (via "scores365_utc_offset"), not
-    365Scores' own UTC one - a late-evening kickoff can fall after
-    midnight UTC, a calendar day later than the local date fixtures.json
-    stores it under."""
+    Matches a fetched game to an already-stored fixture by CLOSEST local
+    date within SCORES365_MATRIX_MATCH_WINDOW_DAYS, not by opponent name
+    (the two sources spell club names differently - accents, suffixes
+    like "(SdE)"/"(M)") and not by exact date (the whole point here is
+    that the stored date can be wrong). This team playing only about
+    once a week makes "closest game within the window" unambiguous in
+    practice. The date used for that comparison is the LOCAL calendar
+    date (via "scores365_utc_offset"), not 365Scores' own UTC one - a
+    late-evening kickoff can fall after midnight UTC, a calendar day
+    later than the local date fixtures.json stores it under."""
     team_name = cfg["team_name"]
     competition_id = cfg["scores365_competition_id"]
     team_id = cfg["scores365_team_id"]
     utc_offset = cfg.get("scores365_utc_offset", 0)
-    print(f"Fetching 365Scores competition {competition_id} for {team_name} results "
-          f"({len(stale)} past match(es) still missing a score) ...")
+    print(f"Fetching 365Scores competition {competition_id} for {team_name} fixtures ...")
     try:
         games = fetch_scores365_matrix_team_matches(competition_id, team_id)
     except Exception as e:
-        print(f"  !! {team_name} results fetch failed: {e}", file=sys.stderr)
+        print(f"  !! {team_name} fixtures fetch failed: {e}", file=sys.stderr)
         return
 
-    games_by_date = {}
+    parsed_games = []
     for g in games:
         try:
             utc_dt = datetime.fromisoformat(g.get("startTime", ""))
         except ValueError:
             continue
-        local_date = (utc_dt + timedelta(hours=utc_offset)).strftime("%Y-%m-%d")
-        games_by_date[local_date] = g
+        parsed_games.append((utc_dt + timedelta(hours=utc_offset), g))
 
-    updated = 0
+    updated_schedule = 0
+    updated_score = 0
     for m in team_matches:
-        g = games_by_date.get(m.get("date"))
-        if g is None:
+        if not m.get("date"):
             continue
+        try:
+            stored_date = datetime.strptime(m["date"], "%Y-%m-%d").date()
+        except ValueError:
+            continue
+
+        local_dt, g = min(
+            parsed_games, key=lambda pg: abs((pg[0].date() - stored_date).days),
+            default=(None, None))
+        if g is None or abs((local_dt.date() - stored_date).days) > SCORES365_MATRIX_MATCH_WINDOW_DAYS:
+            continue
+
+        new_date, new_time = local_dt.strftime("%Y-%m-%d"), local_dt.strftime("%H:%M")
+        if m.get("date") != new_date or m.get("time") != new_time:
+            m["date"], m["time"], m["utc"] = new_date, new_time, g.get("startTime")
+            updated_schedule += 1
+
         home_c, away_c = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
         home_score, away_score = home_c.get("score"), away_c.get("score")
         if home_score is None or away_score is None or home_score < 0 or away_score < 0:
@@ -4904,8 +4944,9 @@ def update_matrix_team_results_scores365(cfg, team_matches, stale):
             else f"{int(opp_score)}-{int(velez_score)}"
         if m.get("score") != score:
             m["score"] = score
-            updated += 1
-    print(f"  -> {team_name}: {updated} result(s) updated from 365Scores")
+            updated_score += 1
+    print(f"  -> {team_name}: {updated_schedule} date/time update(s), "
+          f"{updated_score} score update(s) from 365Scores")
 
 
 _EXTRA_PAGE_PARSERS = {
