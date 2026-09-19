@@ -80,7 +80,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
@@ -797,6 +797,24 @@ LEAGUES = {
             ],
         },
     },
+    "bbl-2026-27": {
+        "name": "Basketball Bundesliga 2026-27",
+        "sport": "basketball",
+        # Not a Wikipedia page - sourced from 365Scores' own JSON API
+        # (the same data their embeddable widget renders; competition id
+        # 27 = Germany's Basketball Bundesliga). See fetch_scores365_games.
+        "parser": "scores365",
+        "scores365_competition_id": 27,
+        # 365Scores' "current season" pointer for this competition as of
+        # the 2026-09-18 season kickoff. Bump this (and the key/name above)
+        # when the 2027-28 season starts - see u20-jwc-2026 for the
+        # precedent of one LEAGUES entry per season rather than an
+        # auto-following "current season" lookup.
+        "scores365_season_num": 63,
+        "standings": {
+            "scores365_competition_id": 27,
+        },
+    },
 }
 
 # Keyword -> UTC offset (hours), checked against a match's venue text to
@@ -1136,6 +1154,172 @@ def fetch_espn_standings_groups(cfg, key):
         rows = parse_espn_standings_group(entries)
         if rows:
             result[child.get("name", key)] = {"rows": rows, "legend": {}}
+    return result
+
+
+# 365Scores' own web API (the same one their embeddable widget calls) -
+# public, unauthenticated JSON, no key required. Used for the basketball
+# Bundesliga (competition id 27), which has no reliably-structured
+# Wikipedia results page the way this project's other leagues do.
+SCORES365_BASE = "https://webws.365scores.com"
+SCORES365_GAMES_URL = f"{SCORES365_BASE}/web/games/"
+SCORES365_STANDINGS_URL = f"{SCORES365_BASE}/web/standings/"
+# timezoneName=UTC means every date/time this API hands back is already in
+# UTC, same simplification ESPN's API gets (see parse_espn_matches) - no
+# venue-timezone guessing needed the way the Wikipedia-sourced parsers
+# elsewhere in this file require.
+SCORES365_COMMON_PARAMS = "appTypeId=5&langId=1&timezoneName=UTC&userCountryId=97"
+SCORES365_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+}
+SCORES365_MAX_RETRIES = 3
+
+
+def fetch_scores365_json(url):
+    """GET one 365Scores API URL and parse its JSON body, retrying on
+    failure like fetch_espn_scoreboard does for ESPN's API. Unlike ESPN
+    (one request per league), a full season here means paging through
+    ~15 of these calls in a row (see fetch_scores365_games), so a plain
+    connection hiccup/read timeout (URLError/TimeoutError, not just an
+    HTTP error status) is retried too rather than aborting the whole
+    season fetch partway through."""
+    req = Request(url, headers=SCORES365_HEADERS)
+    last_err = None
+    for attempt in range(SCORES365_MAX_RETRIES):
+        try:
+            with urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except (HTTPError, URLError, TimeoutError) as e:
+            last_err = e
+            if attempt < SCORES365_MAX_RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_err
+
+
+def fetch_scores365_games(competition_id, season_num):
+    """Fetch every match of one 365Scores competition season.
+
+    Unlike ESPN's scoreboard (one request, whole date range), 365Scores'
+    "fixtures" endpoint only ever returns a window of games around
+    whatever it considers the current round. The full season is assembled
+    by paging outward from that window using the opaque "aftergame" game
+    id cursor each response's "paging" block provides - forward via
+    "nextPage" for later rounds, backward via "previousPage" for earlier
+    ones - until a direction's next page comes back with no games left
+    (paging otherwise keeps offering an (empty) page indefinitely).
+    Results are keyed by game id since the forward/backward windows
+    overlap at the edges, then filtered down to the requested season -
+    the same competition id also carries prior/future seasons' games."""
+    games_by_id = {}
+
+    def merge(resp):
+        for g in resp.get("games", []):
+            games_by_id[g["id"]] = g
+
+    url = (f"{SCORES365_GAMES_URL}fixtures/?{SCORES365_COMMON_PARAMS}"
+           f"&competitions={competition_id}")
+    data = fetch_scores365_json(url)
+    merge(data)
+
+    next_page = data.get("paging", {}).get("nextPage")
+    while next_page:
+        time.sleep(0.3)
+        page_data = fetch_scores365_json(SCORES365_BASE + next_page)
+        if not page_data.get("games"):
+            break
+        merge(page_data)
+        next_page = page_data.get("paging", {}).get("nextPage")
+
+    prev_page = data.get("paging", {}).get("previousPage")
+    while prev_page:
+        time.sleep(0.3)
+        page_data = fetch_scores365_json(SCORES365_BASE + prev_page)
+        if not page_data.get("games"):
+            break
+        merge(page_data)
+        prev_page = page_data.get("paging", {}).get("previousPage")
+
+    return [g for g in games_by_id.values() if g.get("seasonNum") == season_num]
+
+
+def parse_scores365_matches(games, league_key):
+    """Turn 365Scores game objects (see fetch_scores365_games) into this
+    project's usual match dict shape. A game that hasn't started yet
+    carries -1 as both competitors' "score" (365Scores' sentinel for "no
+    score yet"), which is treated the same as a genuinely missing score."""
+    matches = []
+    for g in games:
+        home_c = g.get("homeCompetitor") or {}
+        away_c = g.get("awayCompetitor") or {}
+        home, away = home_c.get("name"), away_c.get("name")
+        if not home or not away:
+            continue
+
+        home_score, away_score = home_c.get("score"), away_c.get("score")
+        score = None
+        if home_score is not None and away_score is not None and home_score >= 0 and away_score >= 0:
+            score = f"{int(home_score)}-{int(away_score)}"
+
+        date_out, time_out = normalize_date(g.get("startTime"), None, None)
+        utc_out = compute_utc(date_out, time_out, utc_offset=0)  # already UTC - see SCORES365_COMMON_PARAMS
+
+        matches.append({
+            "league": league_key,
+            "home": home,
+            "away": away,
+            "score": score,
+            "date": date_out,
+            "time": time_out,
+            "utc": utc_out,
+            "venue": None,  # not exposed by this API surface
+            "attendance": None,
+        })
+    return matches
+
+
+def fetch_scores365_standings_groups(cfg, key):
+    """Resolve a "standings": {"scores365_competition_id": ...} config
+    into the {group_label: {"rows": [...], "legend": {}}} shape
+    fetch_standings() returns for every other league. 365Scores marks a
+    qualify/relegate zone with a per-row background color the way
+    Wikipedia's Module:Sports table does, but that isn't parsed here (no
+    BBL-specific mapping known yet) - "highlight" is always None."""
+    standings_cfg = cfg["standings"]
+    competition_id = standings_cfg["scores365_competition_id"]
+    url = (f"{SCORES365_STANDINGS_URL}?{SCORES365_COMMON_PARAMS}"
+           f"&competitions={competition_id}")
+    try:
+        data = fetch_scores365_json(url)
+    except Exception as e:
+        print(f"  !! standings: 365Scores fetch failed for {key}: {e}", file=sys.stderr)
+        return {}
+
+    def num(x):
+        return int(x) if x is not None else None
+
+    result = {}
+    for table in data.get("standings", []):
+        rows_out = []
+        for row in table.get("rows", []):
+            team = (row.get("competitor") or {}).get("name")
+            if not team:
+                continue
+            rows_out.append({
+                "team": team,
+                "played": num(row.get("gamePlayed")),
+                "win": num(row.get("gamesWon")),
+                "draw": num(row.get("gamesEven")) or None,  # basketball has no draws
+                "loss": num(row.get("gamesLost")),
+                "for": num(row.get("for")),
+                "against": num(row.get("against")),
+                "diff": num(row.get("ratio")),
+                "points": num(row.get("points")),
+                "highlight": None,
+            })
+        if rows_out:
+            result[table.get("displayName") or cfg["name"]] = {"rows": rows_out, "legend": {}}
     return result
 
 
@@ -3679,6 +3863,9 @@ def fetch_standings(cfg, key):
     if "espn_league" in standings_cfg:
         return fetch_espn_standings_groups(cfg, key)
 
+    if "scores365_competition_id" in standings_cfg:
+        return fetch_scores365_standings_groups(cfg, key)
+
     page = standings_cfg["page"]
     html = fetch_page_html(page)
     soup = BeautifulSoup(html, "html.parser")
@@ -4566,6 +4753,10 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
             matches.extend(parse_basketballbox_matches(wikitext, key, cfg))
         return matches
 
+    if parser_type == "scores365":
+        games = fetch_scores365_games(cfg["scores365_competition_id"], cfg["scores365_season_num"])
+        return parse_scores365_matches(games, key)
+
     if parser_type == "espn":
         # espn_date_range is usually a single "YYYYMMDD-YYYYMMDD" string, but
         # can be a list of them for a league with well over 100 matches a
@@ -4823,6 +5014,8 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             source_desc = f"{len(cfg['team_pages'])} team pages"
         elif "espn_league" in cfg:
             source_desc = f"ESPN league {cfg['espn_league']}, {cfg['espn_date_range']}"
+        elif "scores365_competition_id" in cfg:
+            source_desc = f"365Scores competition {cfg['scores365_competition_id']}"
         else:
             pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
             source_desc = ", ".join(pages)
