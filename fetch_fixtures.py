@@ -55,10 +55,10 @@ currently Vélez Sarsfield (Argentina Liga Profesional) and Torpedo Moscow
 (Russian First League) - without going through LEAGUES/fetch_and_parse
 like every other league above (see the MATRIX_TEAMS config and
 update_matrix_team_results() near the bottom of this file for why).
-Torpedo Moscow's results still come from its league's Wikipedia
-results-matrix page; Vélez Sarsfield's come from 365Scores instead (see
-update_matrix_team_results_scores365()) - the matrix page was fragile to
-parse and slow to get updated with new results. Each MATRIX_TEAMS
+Both now come from 365Scores rather than their league's Wikipedia
+results-matrix page (see update_matrix_team_results_scores365()) - that
+page was fragile to parse and slow to get updated with new results/an
+upcoming fixture's date-time. Each MATRIX_TEAMS
 entry can also carry its own "standings" config (same page/groups/phases
 shape as a LEAGUES entry's) - see update_matrix_league_standings(), called
 right alongside update_matrix_team_results() for the same reason. Argentina
@@ -4659,11 +4659,24 @@ MATRIX_TEAMS = {
     },
     "torpedo": {
         "team_name": "Torpedo Moscow",
-        "team_code": "TOR",
-        "wiki_page": "2026–27_Russian_First_League",
         "league_key": "russian-first-league-2026-27",
-        # Single 18-team round-robin grid, no separate interzonal tables.
-        "interzonal_heading": None,
+        # Results now come from 365Scores (competition 92 = Russian First
+        # League; team 1115 = Torpedo Moscow) instead of the Wikipedia
+        # results-matrix page - see velez's config comment above for why
+        # (same reasoning: slow to update, fragile triangular-grid parse).
+        # Standings below are UNCHANGED - still scraped from Wikipedia.
+        "scores365_competition_id": 92,
+        "scores365_team_id": 1115,
+        # Russia spans several time zones (Moscow, Yekaterinburg, Ufa,
+        # Krasnoyarsk, Khabarovsk, ...), but the Wikipedia-matrix version
+        # of this entry always rendered every match - home AND away - in
+        # Moscow time regardless of the actual away venue's real zone
+        # (there was never real per-venue timezone data to work from on
+        # that page). Kept exactly the same here rather than introducing
+        # a new, different behavior as a side effect of this migration -
+        # an away game's displayed kickoff is Moscow-time-equivalent, not
+        # necessarily the true local time at the away ground.
+        "scores365_utc_offset": 3,
         # Single flat table (no Apertura/Clausura-style split), so this
         # just needs one "groups" entry - same shape as e.g. Currie Cup's
         # standings config in LEAGUES above.
