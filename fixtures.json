@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T20:18:30+00:00",
+  "updated": "2026-09-19T20:27:51+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -13501,12 +13501,13 @@
       "league": "nrl-2026",
       "home": "South Sydney Rabbitohs",
       "away": "Newcastle Knights",
-      "score": "10–20",
+      "score": "10-20",
       "date": "2026-09-11",
       "time": "19:50",
       "utc": "2026-09-11T09:50:00+00:00",
-      "venue": "Allianz Stadium",
-      "attendance": "28152"
+      "venue": "Allianz Stadium, Sydney",
+      "attendance": "28152",
+      "referee": "Ashley Klein"
     },
     {
       "league": "super-league-2026",
@@ -13685,17 +13686,6 @@
       "attendance": null
     },
     {
-      "league": "nrl-2026",
-      "home": "New Zealand Warriors",
-      "away": "Dolphins",
-      "score": "16–26",
-      "date": "2026-09-12",
-      "time": "16:05",
-      "utc": "2026-09-12T06:05:00+00:00",
-      "venue": "Go Media Stadium",
-      "attendance": "26131"
-    },
-    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Calgary Stampeders",
@@ -13716,6 +13706,18 @@
       "utc": "2026-09-12T05:05:00+00:00",
       "venue": "Semenoff Stadium",
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "New Zealand Warriors",
+      "away": "Dolphins",
+      "score": "16-26",
+      "date": "2026-09-12",
+      "time": "18:05",
+      "utc": "2026-09-12T06:05:00+00:00",
+      "venue": "Go Media Stadium, Auckland",
+      "attendance": "26131",
+      "referee": "Adam Gee"
     },
     {
       "league": "top14-2026",
@@ -13765,12 +13767,13 @@
       "league": "nrl-2026",
       "home": "Cronulla-Sutherland Sharks",
       "away": "North Queensland Cowboys",
-      "score": "26–16",
+      "score": "26-16",
       "date": "2026-09-12",
       "time": "19:50",
       "utc": "2026-09-12T09:50:00+00:00",
-      "venue": "Allianz Stadium",
-      "attendance": "17249"
+      "venue": "Allianz Stadium, Sydney",
+      "attendance": "17429",
+      "referee": "Grant Atkins"
     },
     {
       "league": "internationals-2026",
@@ -13798,12 +13801,13 @@
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Sydney Roosters",
-      "score": "19–12",
+      "score": "19-12",
       "date": "2026-09-13",
       "time": "16:05",
       "utc": "2026-09-13T06:05:00+00:00",
-      "venue": "Commbank Stadium",
-      "attendance": "22148"
+      "venue": "CommBank Stadium, Sydney",
+      "attendance": "22148",
+      "referee": "Gerard Sutton"
     },
     {
       "league": "russian-first-league-2026-27",
@@ -14128,12 +14132,13 @@
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Cronulla-Sutherland Sharks",
-      "score": null,
+      "score": "46-10",
       "date": "2026-09-19",
       "time": "19:50",
       "utc": "2026-09-19T09:50:00+00:00",
-      "venue": "Allianz Stadium",
-      "attendance": null
+      "venue": "Allianz Stadium, Sydney",
+      "attendance": "39147",
+      "referee": "Adam Gee"
     },
     {
       "league": "bbl-2026-27",
@@ -14180,17 +14185,6 @@
       "attendance": null
     },
     {
-      "league": "nrl-2026",
-      "home": "New Zealand Warriors",
-      "away": "Newcastle Knights",
-      "score": null,
-      "date": "2026-09-20",
-      "time": "16:05",
-      "utc": "2026-09-20T06:05:00+00:00",
-      "venue": "Eden Park",
-      "attendance": null
-    },
-    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Tigre",
@@ -14211,6 +14205,18 @@
       "utc": "2026-09-20T05:05:00+00:00",
       "venue": "Stadium Taranaki",
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "New Zealand Warriors",
+      "away": "Newcastle Knights",
+      "score": null,
+      "date": "2026-09-20",
+      "time": "18:05",
+      "utc": "2026-09-20T06:05:00+00:00",
+      "venue": "Eden Park, Auckland",
+      "attendance": null,
+      "referee": "Ashley Klein"
     },
     {
       "league": "top14-2026",
