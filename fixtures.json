@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T06:13:08+00:00",
+  "updated": "2026-09-20T14:50:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14809,7 +14809,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "2-1",
       "date": "2026-09-20",
       "time": "11:00",
       "utc": "2026-09-20T11:00:00+00:00",
@@ -14820,7 +14820,7 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Neftekhimik Nizhnekamsk",
-      "score": null,
+      "score": "6-2",
       "date": "2026-09-20",
       "time": "11:30",
       "utc": "2026-09-20T11:30:00+00:00",
@@ -14831,7 +14831,7 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "3-1",
       "date": "2026-09-20",
       "time": "11:30",
       "utc": "2026-09-20T11:30:00+00:00",
@@ -14853,7 +14853,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "Barys Astana",
-      "score": null,
+      "score": "0-2",
       "date": "2026-09-20",
       "time": "14:00",
       "utc": "2026-09-20T14:00:00+00:00",
@@ -14864,7 +14864,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "0-2",
       "date": "2026-09-20",
       "time": "14:00",
       "utc": "2026-09-20T14:00:00+00:00",
@@ -14886,7 +14886,7 @@
       "league": "khl-2026-27",
       "home": "Dinamo Minsk",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "1-0",
       "date": "2026-09-20",
       "time": "14:10",
       "utc": "2026-09-20T14:10:00+00:00",
@@ -14919,7 +14919,7 @@
       "league": "npc-2026",
       "home": "Taranaki",
       "away": "Southland",
-      "score": null,
+      "score": "55-19",
       "date": "2026-09-20",
       "time": "17:05",
       "utc": "2026-09-20T05:05:00+00:00",
@@ -14930,12 +14930,12 @@
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Newcastle Knights",
-      "score": null,
+      "score": "10-12",
       "date": "2026-09-20",
       "time": "18:05",
       "utc": "2026-09-20T06:05:00+00:00",
       "venue": "Eden Park, Auckland",
-      "attendance": null,
+      "attendance": "48511",
       "referee": "Ashley Klein"
     },
     {
@@ -15023,6 +15023,50 @@
       "date": "2026-09-22",
       "time": "16:30",
       "utc": "2026-09-22T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Amur Khabarovsk",
+      "away": "CSKA Moscow",
+      "score": null,
+      "date": "2026-09-23",
+      "time": "09:00",
+      "utc": "2026-09-23T09:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Admiral Vladivostok",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-09-23",
+      "time": "09:30",
+      "utc": "2026-09-23T09:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Salavat Yulayev Ufa",
+      "away": "Metallurg Magnitogorsk",
+      "score": null,
+      "date": "2026-09-23",
+      "time": "14:00",
+      "utc": "2026-09-23T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-09-23",
+      "time": "16:30",
+      "utc": "2026-09-23T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -15223,6 +15267,18 @@
       "utc": "2026-09-25T09:50:00+00:00",
       "venue": "Suncorp Stadium",
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Dolphins",
+      "away": "Sydney Roosters",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "19:50",
+      "utc": "2026-09-25T09:50:00+00:00",
+      "venue": "Suncorp Stadium, Brisbane",
+      "attendance": null,
+      "referee": null
     },
     {
       "league": "super-league-2026",
@@ -15597,6 +15653,18 @@
       "utc": "2026-09-27T06:05:00+00:00",
       "venue": "Accor Stadium",
       "attendance": null
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Penrith Panthers",
+      "away": "Newcastle Knights",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "16:05",
+      "utc": "2026-09-27T06:05:00+00:00",
+      "venue": "Accor Stadium, Sydney",
+      "attendance": null,
+      "referee": null
     },
     {
       "league": "npc-2026",
@@ -30062,26 +30130,26 @@
           },
           {
             "team": "North Harbour",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": 0,
-            "loss": 2,
-            "for": 290,
-            "against": 185,
-            "diff": 105,
-            "points": 29,
+            "loss": 3,
+            "for": 314,
+            "against": 210,
+            "diff": 104,
+            "points": 31,
             "highlight": "#CCF9CC"
           },
           {
             "team": "Canterbury",
-            "played": 7,
-            "win": 5,
+            "played": 8,
+            "win": 6,
             "draw": 0,
             "loss": 2,
-            "for": 230,
-            "against": 183,
-            "diff": 47,
-            "points": 25,
+            "for": 255,
+            "against": 207,
+            "diff": 48,
+            "points": 30,
             "highlight": "#CCF9CC"
           },
           {
@@ -30093,6 +30161,18 @@
             "for": 257,
             "against": 242,
             "diff": 15,
+            "points": 24,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Taranaki",
+            "played": 8,
+            "win": 4,
+            "draw": 0,
+            "loss": 4,
+            "for": 224,
+            "against": 197,
+            "diff": 27,
             "points": 24,
             "highlight": "#CCF9CC"
           },
@@ -30118,7 +30198,7 @@
             "against": 234,
             "diff": -40,
             "points": 22,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Manawatu",
@@ -30130,18 +30210,6 @@
             "against": 276,
             "diff": -56,
             "points": 20,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Taranaki",
-            "played": 7,
-            "win": 3,
-            "draw": 0,
-            "loss": 4,
-            "for": 169,
-            "against": 178,
-            "diff": -9,
-            "points": 19,
             "highlight": "transparent"
           },
           {
@@ -30158,13 +30226,13 @@
           },
           {
             "team": "Southland",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": 0,
-            "loss": 5,
-            "for": 186,
-            "against": 249,
-            "diff": -63,
+            "loss": 6,
+            "for": 205,
+            "against": 304,
+            "diff": -99,
             "points": 13,
             "highlight": "transparent"
           },
@@ -32015,6 +32083,18 @@
             "highlight": null
           },
           {
+            "team": "Baskets Oldenburg",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 74,
+            "against": 66,
+            "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 1,
             "win": 1,
@@ -32027,19 +32107,19 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
-            "played": 0,
-            "win": 0,
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 14,
+            "against": 11,
+            "diff": 3,
+            "points": 2,
             "highlight": null
           },
           {
-            "team": "Baskets Oldenburg",
+            "team": "Brose Bamberg",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -32063,43 +32143,7 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Science City Jena",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -32147,6 +32191,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 11,
+            "against": 14,
+            "diff": -3,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -32156,6 +32212,18 @@
             "against": 89,
             "diff": -7,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 66,
+            "against": 74,
+            "diff": -8,
+            "points": 1,
             "highlight": null
           },
           {
@@ -32203,25 +32271,25 @@
         "rows": [
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 6,
+            "played": 7,
             "win": 6,
             "draw": null,
-            "loss": 0,
+            "loss": 1,
             "for": 19,
-            "against": 7,
-            "diff": 12,
+            "against": 9,
+            "diff": 10,
             "points": 12,
             "highlight": null
           },
           {
             "team": "Spartak Moscow",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 20,
-            "against": 7,
-            "diff": 13,
+            "loss": 2,
+            "for": 21,
+            "against": 10,
+            "diff": 11,
             "points": 10,
             "highlight": null
           },
@@ -32262,6 +32330,18 @@
             "highlight": null
           },
           {
+            "team": "Dinamo Minsk",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 14,
+            "diff": 1,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "CSKA Moscow",
             "played": 6,
             "win": 3,
@@ -32271,18 +32351,6 @@
             "against": 12,
             "diff": 4,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 5,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 14,
-            "against": 14,
-            "diff": 0,
-            "points": 5,
             "highlight": null
           },
           {
@@ -32323,38 +32391,62 @@
           },
           {
             "team": "HC Sochi",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 5,
-            "against": 16,
-            "diff": -11,
+            "against": 18,
+            "diff": -13,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Neftekhimik Nizhnekamsk",
-            "played": 6,
-            "win": 4,
+            "team": "Metallurg Magnitogorsk",
+            "played": 7,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 17,
-            "against": 10,
-            "diff": 7,
+            "for": 21,
+            "against": 13,
+            "diff": 8,
+            "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Neftekhimik Nizhnekamsk",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 19,
+            "against": 16,
+            "diff": 3,
             "points": 9,
             "highlight": null
           },
           {
-            "team": "Metallurg Magnitogorsk",
+            "team": "Barys Astana",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 24,
+            "against": 13,
+            "diff": 11,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Salavat Yulayev Ufa",
             "played": 6,
             "win": 4,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 11,
-            "diff": 4,
-            "points": 9,
+            "for": 21,
+            "against": 14,
+            "diff": 7,
+            "points": 8,
             "highlight": null
           },
           {
@@ -32370,50 +32462,26 @@
             "highlight": null
           },
           {
-            "team": "Barys Astana",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 22,
-            "against": 13,
-            "diff": 9,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Salavat Yulayev Ufa",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 18,
-            "against": 13,
-            "diff": 5,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Avtomobilist Yekaterinburg",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 13,
-            "against": 13,
-            "diff": 0,
+            "against": 14,
+            "diff": -1,
             "points": 6,
             "highlight": null
           },
           {
             "team": "Avangard Omsk",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": null,
-            "loss": 2,
-            "for": 11,
-            "against": 11,
-            "diff": 0,
+            "loss": 3,
+            "for": 12,
+            "against": 13,
+            "diff": -1,
             "points": 6,
             "highlight": null
           },
@@ -32443,26 +32511,26 @@
           },
           {
             "team": "Sibir Novosibirsk",
-            "played": 6,
-            "win": 1,
+            "played": 7,
+            "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 9,
+            "for": 11,
             "against": 22,
-            "diff": -13,
-            "points": 3,
+            "diff": -11,
+            "points": 5,
             "highlight": null
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 5,
-            "win": 1,
+            "played": 6,
+            "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 8,
-            "against": 17,
-            "diff": -9,
-            "points": 2,
+            "for": 10,
+            "against": 18,
+            "diff": -8,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -32866,10 +32934,10 @@
             {
               "seed1": null,
               "team1": "New Zealand",
-              "score1": null,
+              "score1": 10,
               "seed2": null,
-              "team2": "Newcastle",
-              "score2": null,
+              "team2": "'''Newcastle'''",
+              "score2": 12,
               "date": null,
               "venue": null
             }
@@ -32883,7 +32951,7 @@
               "team1": "Penrith",
               "score1": null,
               "seed2": null,
-              "team2": "TBD",
+              "team2": "Newcastle",
               "score2": null,
               "date": null,
               "venue": null
@@ -33049,7 +33117,7 @@
       ]
     }
   },
-  "espn_backoff_until": "2026-09-20T12:34:01.115934+00:00",
+  "espn_backoff_until": "2026-09-20T22:48:59.479858+00:00",
   "matrix_last_fetch": {
     "velez": "2026-09-19T23:27:30.572493+00:00",
     "torpedo": "2026-09-19T23:27:30.572493+00:00"
