@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T15:12:07+00:00",
+  "updated": "2026-09-20T15:23:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -32064,21 +32064,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 93,
-            "against": 79,
-            "diff": 14,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 31,
-            "against": 20,
-            "diff": 11,
+            "for": 96,
+            "against": 81,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -32103,6 +32091,18 @@
             "for": 116,
             "against": 107,
             "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 35,
+            "against": 27,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -32203,6 +32203,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 27,
+            "against": 35,
+            "diff": -8,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "TBB Trier",
             "played": 1,
             "win": 0,
@@ -32227,26 +32239,14 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 20,
-            "against": 31,
-            "diff": -11,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 79,
-            "against": 93,
-            "diff": -14,
+            "for": 81,
+            "against": 96,
+            "diff": -15,
             "points": 1,
             "highlight": null
           },
@@ -32276,8 +32276,8 @@
             "draw": null,
             "loss": 1,
             "for": 19,
-            "against": 9,
-            "diff": 10,
+            "against": 10,
+            "diff": 9,
             "points": 12,
             "highlight": null
           },
@@ -32335,9 +32335,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 16,
+            "for": 17,
             "against": 15,
-            "diff": 1,
+            "diff": 2,
             "points": 7,
             "highlight": null
           },
@@ -32431,9 +32431,9 @@
             "win": 4,
             "draw": null,
             "loss": 2,
-            "for": 24,
+            "for": 25,
             "against": 13,
-            "diff": 11,
+            "diff": 12,
             "points": 8,
             "highlight": null
           },
@@ -32462,18 +32462,6 @@
             "highlight": null
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 14,
-            "against": 15,
-            "diff": -1,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Avangard Omsk",
             "played": 6,
             "win": 3,
@@ -32482,6 +32470,18 @@
             "for": 12,
             "against": 13,
             "diff": -1,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 14,
+            "against": 16,
+            "diff": -2,
             "points": 6,
             "highlight": null
           },
