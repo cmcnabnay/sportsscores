@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T16:18:13+00:00",
+  "updated": "2026-09-20T16:20:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33181,9 +33181,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 24,
-            "against": 12,
-            "diff": 12,
+            "for": 28,
+            "against": 13,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -33212,6 +33212,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 72,
+            "against": 64,
+            "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 1,
             "win": 1,
@@ -33219,18 +33231,6 @@
             "loss": 0,
             "for": 89,
             "against": 82,
-            "diff": 7,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 71,
-            "against": 64,
             "diff": 7,
             "points": 2,
             "highlight": null
@@ -33284,18 +33284,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 64,
-            "against": 71,
-            "diff": -7,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -33305,6 +33293,18 @@
             "against": 89,
             "diff": -7,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 64,
+            "against": 72,
+            "diff": -8,
+            "points": 1,
             "highlight": null
           },
           {
@@ -33337,9 +33337,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 12,
-            "against": 24,
-            "diff": -12,
+            "for": 13,
+            "against": 28,
+            "diff": -15,
             "points": 1,
             "highlight": null
           },

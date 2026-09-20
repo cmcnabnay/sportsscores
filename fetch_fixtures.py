@@ -264,6 +264,15 @@ LEAGUES = {
         "name": "World Rugby Pacific Nations Cup 2026",
         "page": "2026_World_Rugby_Pacific_Nations_Cup",
         "sport": "rugby",
+        # Tournament finished - Japan beat Fiji 20-15 in the Grand Final
+        # on 19 September 2026 (Canada beat the US in the Third place
+        # play-off the same day). Retired: stop re-fetching (fixtures,
+        # playoff bracket) on every default run, same treatment as
+        # currie-cup-2026/u20-jwc-2026/etc. above. Stored data is left
+        # exactly as-is; run `python3 fetch_fixtures.py
+        # pacific-nations-cup-2026 --force` manually if a correction ever
+        # needs to be pulled in after the fact.
+        "completed": True,
         "parser": "rugbybox",
         # no utc_offset needed - each match states its own UTC offset directly
         # No group/pool stage this edition - straight to a 4-team knockout
@@ -881,6 +890,58 @@ LEAGUES = {
         "scores365_season_num": 63,
         "standings": {
             "scores365_competition_id": 27,
+        },
+    },
+    "bcl-2026-27": {
+        "name": "Basketball Champions League 2026-27",
+        "sport": "basketball",
+        # Not a Wikipedia page - sourced from 365Scores' own JSON API, same
+        # as bbl-2026-27/khl-2026-27 above (competition id 6391 = FIBA's
+        # Basketball Champions League - confirmed via the widget snippet's
+        # data-entity-id).
+        "parser": "scores365",
+        "scores365_competition_id": 6391,
+        # 365Scores' "current season" pointer for this competition as of
+        # the 2026-09-14 Regular Season Matchday 1 kickoff - confirmed a
+        # clean break from the prior season (10, Sep 2025-May 2026) rather
+        # than a stuck-numbering situation like top14-2026's. Bump this
+        # (and the key/name above) when the 2027-28 season starts.
+        "scores365_season_num": 11,
+        # 8-group Regular Season (Group A-H) - 365Scores' standings
+        # response returns one table per group, each keyed by its own
+        # displayName; fetch_scores365_standings_groups() already handles
+        # multiple groups per competition with no BCL-specific code needed.
+        "standings": {
+            "scores365_competition_id": 6391,
+        },
+    },
+    "khl-2026-27": {
+        "name": "KHL 2026-27",
+        "sport": "hockey",
+        # Not a Wikipedia page - sourced from 365Scores' own JSON API,
+        # same as bbl-2026-27 above (competition id 636 = the KHL).
+        "parser": "scores365",
+        "scores365_competition_id": 636,
+        # 365Scores' "current season" pointer for this competition as of
+        # the 2026-09-05 season kickoff - confirmed a clean break from the
+        # prior season (13, Feb-May 2026 playoffs) rather than the stuck
+        # numbering top14-2026 has to work around (see its
+        # scores365_fallback comment). Bump this (and the key/name above)
+        # when the 2027-28 season starts.
+        #
+        # Unlike BBL, 365Scores only has a rolling few weeks of KHL
+        # fixtures loaded at a time (confirmed: a full-season fetch here
+        # returned 74 games, not the ~600+ a 22-team KHL season actually
+        # has) rather than the whole season loaded upfront - so this
+        # builds up match-by-match over time rather than arriving
+        # complete on day one. Each already-stored match is kept
+        # regardless of whether a later fetch's (still-rolling) window
+        # still includes it - see merge_league_matches() - so coverage
+        # only ever grows as the season goes on, it doesn't matter that
+        # any single fetch only sees a few weeks at a time.
+        "scores365_season_num": 14,
+        "standings": {
+            "scores365_competition_id": 636,
         },
     },
 }
@@ -4295,20 +4356,32 @@ def fetch_attendance_table(cfg, key):
 # gate which individual matches get refreshed once a league's page IS
 # fetched (merge_league_matches() overwrites every matched identity from
 # the fresh parse unconditionally). It only controls run()'s per-league
-# "is there anything due soon enough to bother checking Wikipedia again"
-# skip check: if none of a league's stored matches fall in this window,
+# "is there actually anything this source might have a new answer for"
+# skip check: if none of a league's stored matches are finished-but-
+# scoreless (see match_needs_score_check()/league_needs_fetch() below),
 # the whole fetch (and re-parse) is skipped and last run's data is reused
 # as-is.
-SCRAPE_WINDOW_PAST = timedelta(days=7)
-SCRAPE_WINDOW_FUTURE = timedelta(days=7)
+#
+# How long after a match's scheduled kickoff it's assumed to have
+# finished. Deliberately generous across very different sports (a T20
+# finishes well under this, a five-set tennis match or an extra-time
+# knockout game can run close to it) - the cost of checking a match too
+# early (a wasted fetch that just finds the same "no score yet") is much
+# lower than the cost of checking a genuinely-finished match too late.
+# Unrelated to matches.html's own live/final display heuristic, which
+# uses a different, shorter window (LIVE_WINDOW_MS there) for a different
+# purpose (labeling a match LIVE in the UI, not deciding whether to
+# re-fetch a whole league).
+MATCH_COMPLETION_BUFFER = timedelta(hours=2.5)
 
 
 def _match_instant(m):
-    """Best-effort datetime for a match, for scrape-window purposes only
-    (display logic in matches.html has its own, separate notion of
-    upcoming/live/final). Prefers the true UTC instant; falls back to the
-    venue-local date/time treated as if it were UTC, which is close enough
-    for a +/- several day window even though it's not precisely correct."""
+    """Best-effort datetime for a match, for the fetch-worthiness checks
+    below only (display logic in matches.html has its own, separate
+    notion of upcoming/live/final). Prefers the true UTC instant; falls
+    back to the venue-local date/time treated as if it were UTC, which is
+    close enough for a several-hour completion buffer even though it's
+    not precisely correct."""
     if m.get("utc"):
         try:
             return datetime.fromisoformat(m["utc"])
@@ -4325,17 +4398,89 @@ def _match_instant(m):
     return None
 
 
-def within_scrape_window(m, now):
-    """True if this match's kickoff is within the last 7 days or the next
-    7 days - i.e. recent/soon enough that its league is worth re-fetching
-    from Wikipedia this run. Matches with no usable date at all are
-    treated as always-eligible, since there's no window to check them
-    against and a stray unmatched fixture is better than one that
-    silently never updates."""
+def match_needs_score_check(m, now):
+    """True if this match's kickoff was more than MATCH_COMPLETION_BUFFER
+    ago (so it's assumed finished by now) but it still has no score
+    recorded - i.e. exactly the kind of match this league's source might
+    have a new answer for. A match with no usable kickoff instant at all
+    can never be confirmed "finished" one way or the other, but is still
+    treated as needing a check - a stray unparseable fixture is better
+    caught by re-fetching than left to silently never update."""
     instant = _match_instant(m)
     if instant is None:
         return True
-    return (now - SCRAPE_WINDOW_PAST) <= instant <= (now + SCRAPE_WINDOW_FUTURE)
+    if now - instant < MATCH_COMPLETION_BUFFER:
+        return False
+    return m.get("score") is None
+
+
+def league_needs_fetch(cached_matches, now):
+    """True if at least one of this league's already-stored matches is
+    finished but still missing a score (see match_needs_score_check()) -
+    i.e. there's something worth re-checking the source for. Replaces the
+    old "something's kicking off within +/- 7 days" scrape-window check:
+    a league can have several fixtures due imminently and still not need
+    a fetch (none of them have finished yet, so there's no new score to
+    find), or have nothing due "soon" by date and still need one (a
+    postponed/delayed match whose score never got backfilled, sitting
+    well outside any calendar window)."""
+    return any(match_needs_score_check(m, now) for m in cached_matches)
+
+
+# Leagues whose source regularly reports attendance separately from (and
+# later than) the score itself - e.g. NRL/Super League/CFL match reports
+# often get their score within minutes but the official attendance figure
+# added to the page hours later, and the FIBA/World Rugby qualifiers'
+# results templates are filled in similarly piecemeal. For these leagues
+# specifically, a match that already has its score is still worth
+# checking again for a while - see match_needs_attendance_check().
+ATTENDANCE_TRACKED_LEAGUES = {
+    "nrl-2026",
+    "cfl-2026",
+    "nations-cup-2026",  # World Rugby Nations Cup
+    "nations-championship-2026",  # World Rugby Nations Championship
+    "super-league-2026",
+    "fiba-wcq-africa-2027",
+    "fiba-wcq-americas-2027",
+    "fiba-wcq-asia-2027",
+    "fiba-wcq-europe-2027",
+}
+
+# How long after a match finishes to keep checking back for its
+# attendance figure before giving up on it - some leagues' pages just
+# never end up getting the attendance filled in for a given match at all,
+# and there's no point calling the API indefinitely on the strength of a
+# number that's never coming.
+ATTENDANCE_PENDING_WINDOW = timedelta(days=3)
+
+
+def match_needs_attendance_check(m, now):
+    """True if this match is finished and already has a score, but is
+    still missing its attendance figure, and finished recently enough
+    (within ATTENDANCE_PENDING_WINDOW) that it's still worth checking
+    back for it. Only meaningful for ATTENDANCE_TRACKED_LEAGUES - see
+    league_needs_fetch_for()."""
+    instant = _match_instant(m)
+    if instant is None:
+        return False
+    elapsed = now - instant
+    if elapsed < MATCH_COMPLETION_BUFFER:
+        return False
+    if m.get("score") is None or m.get("attendance") is not None:
+        return False
+    return elapsed <= ATTENDANCE_PENDING_WINDOW
+
+
+def league_needs_fetch_for(key, cached_matches, now):
+    """league_needs_fetch() above, extended with the attendance check for
+    leagues in ATTENDANCE_TRACKED_LEAGUES - a match that already has its
+    score but not yet its attendance is, for those leagues only, still
+    worth a fetch on its own."""
+    if league_needs_fetch(cached_matches, now):
+        return True
+    if key not in ATTENDANCE_TRACKED_LEAGUES:
+        return False
+    return any(match_needs_attendance_check(m, now) for m in cached_matches)
 
 
 def _match_identity(m):
@@ -4350,6 +4495,25 @@ def _match_identity(m):
     entry."""
     pair = tuple(sorted([m.get("home") or "", m.get("away") or ""]))
     return (pair, m.get("date"))
+
+
+def report_pending_score_updates(league_name, pending_matches, merged_matches):
+    """Print one line per match that was finished-but-scoreless before
+    this fetch (see match_needs_score_check() - `pending_matches` is
+    captured from `cached` right before the fetch happens), saying
+    whether the fresh parse found a score for it or not. This is the
+    per-game detail behind the one-line "-> parsed N matches..." summary
+    - which match(es) this fetch actually mattered for, not just how many
+    were on the page."""
+    if not pending_matches:
+        return
+    merged_by_ident = {_match_identity(m): m for m in merged_matches}
+    for m in pending_matches:
+        updated = merged_by_ident.get(_match_identity(m))
+        found = updated is not None and updated.get("score") is not None
+        status = "score found" if found else "no score yet"
+        date = m.get("date") or "unknown date"
+        print(f"{league_name}: {m.get('home')} vs {m.get('away')} ({date}) - {status}")
 
 
 # How many days apart two unplayed matches between the same two teams can
@@ -4391,8 +4555,8 @@ def merge_league_matches(existing_matches, freshly_parsed_matches):
     """Combine what's already stored for a league with a fresh parse of
     the page, so fixtures.json always holds the full season (past and
     future) for the app to browse. This only ever runs when the league's
-    page was actually fetched this run (run()'s scrape-window check - see
-    within_scrape_window() - decides that part, before this function is
+    page was actually fetched this run (run()'s fetch-worthiness check -
+    see league_needs_fetch() - decides that part, before this function is
     even called); once it has been, every match the fresh parse found gets
     applied in full:
 
@@ -4558,11 +4722,11 @@ FIX_EARLY_SCORE_ORDER_LEAGUES = {
 def fix_early_score_order(data):
     """One-time repair for matches fetched before the swap_home_away
     score-flip fix (see FIX_EARLY_SCORE_ORDER_LEAGUES above): these
-    matches are outside the normal scrape window (already played), so once
-    a league itself has nothing left due soon, run()'s skip check stops
-    fetching its page at all and these never get re-parsed - which is why
-    the bug persisted for them after the parser itself was fixed. This
-    flips just the two score numbers (home
+    matches already have a (wrongly-ordered) score, so once a league
+    itself has nothing left finished-but-scoreless, run()'s skip check
+    (league_needs_fetch()) stops fetching its page at all and these never
+    get re-parsed - which is why the bug persisted for them after the
+    parser itself was fixed. This flips just the two score numbers (home
     and away team labels are already correct - only the score digit
     order is wrong) for every affected league's matches on or before its
     cutoff date.
@@ -4891,6 +5055,34 @@ def update_matrix_league_standings(data, cfg):
         print(f"  !! standings failed for {cfg['team_name']}'s league: {e}", file=sys.stderr)
 
 
+# How often a scores365-backed MATRIX_TEAMS entry (currently velez,
+# torpedo) gets checked regardless of whether anything's finished-but-
+# scoreless (see league_needs_fetch_for()). That gate alone would never
+# catch an UPCOMING match's date/time moving (see
+# update_matrix_team_results_scores365 - it also corrects an unplayed
+# fixture's kickoff, not just a played one's score) during a stretch with
+# nothing recently finished - this is the catch-all that still checks in
+# once a day even then. Persisted per matrix_key in fixtures.json's
+# top-level "matrix_last_fetch" so it survives across runs, the same way
+# ESPN_BACKOFF_HOURS' cooldown does via "espn_backoff_until".
+MATRIX_DAILY_CHECK_INTERVAL = timedelta(days=1)
+
+
+def matrix_daily_check_due(data, matrix_key, now):
+    last = data.get("matrix_last_fetch", {}).get(matrix_key)
+    if not last:
+        return True
+    try:
+        last_dt = datetime.fromisoformat(last)
+    except ValueError:
+        return True
+    return (now - last_dt) >= MATRIX_DAILY_CHECK_INTERVAL
+
+
+def mark_matrix_fetched(data, matrix_key, now):
+    data.setdefault("matrix_last_fetch", {})[matrix_key] = now.isoformat()
+
+
 def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=False):
     """Fill in one team's results in fixtures.json's matches for its
     league from that league's Wikipedia results-matrix page (see the
@@ -4900,23 +5092,22 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
     corresponding MATRIX_TEAMS[matrix_key] entry.
 
     Network is only touched when at least one of this team's already-
-    listed matches with a kickoff time in the past still has no score
-    recorded - if every past match already has a real score, this returns
+    listed matches is finished but still missing a score (see
+    match_needs_score_check()/league_needs_fetch_for() - same gate every
+    other league is checked against) - if nothing qualifies, this returns
     without fetching anything. --force always fetches and re-checks every
     match for this team (past or future), same as everywhere else in this
     script. debug=True prints every raw match_CODE_XXX/match_XXX_CODE cell
     found on the page, for diagnosing a mismatch between what's actually
     published and what fixtures.json expects.
 
-    The scores365_competition_id path (currently just velez) is the
-    exception to the "only touched when stale" rule above: it's a single
-    cheap, unauthenticated request (no pagination), so it's always
-    checked every run rather than gated behind a stale-score check - see
-    update_matrix_team_results_scores365() for why: it also corrects an
-    upcoming fixture's date/time as organizers/broadcasters move it
-    around, not just its score once played, and a fixture whose date/time
-    hasn't actually locked in yet is never "stale" by the score-only
-    definition below."""
+    A scores365_competition_id entry (currently velez, torpedo) also
+    fetches once a day regardless of the score gate above (see
+    matrix_daily_check_due()/MATRIX_DAILY_CHECK_INTERVAL) - its
+    update_matrix_team_results_scores365() also corrects an upcoming
+    fixture's date/time, not just a played one's score, which the
+    score-only gate would otherwise never catch during a long stretch
+    with nothing recently finished."""
     team_name = cfg["team_name"]
     team_matches = [
         m for m in data.get("matches", [])
@@ -4927,7 +5118,18 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
         return
 
     if "scores365_competition_id" in cfg:
+        due = (force
+               or league_needs_fetch_for(cfg["league_key"], team_matches, now)
+               or matrix_daily_check_due(data, matrix_key, now))
+        if not due:
+            print(f"Skipping {team_name} fixtures - none of its {len(team_matches)} stored "
+                  f"matches are finished but still missing a score; reusing as-is "
+                  f"(use --force to check anyway)")
+            return
+        pending = [m for m in team_matches if match_needs_score_check(m, now)]
         update_matrix_team_results_scores365(cfg, team_matches)
+        report_pending_score_updates(team_name, pending, team_matches)
+        mark_matrix_fetched(data, matrix_key, now)
         return
 
     today = now.date()
@@ -5193,11 +5395,10 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
         # Unlike every other parser here, each CFL team has its own,
         # independent page - so unlike a single shared results page (which
         # always has to be fetched in full to check anything at all), a
-        # team whose page has no home game due within the scrape window
-        # genuinely doesn't need to be re-fetched this run. This is the
-        # one place fetching itself (not just parsing) can actually be
-        # skipped based on the window, cutting this league from 9 fetches
-        # a run down to typically 1-3.
+        # team with no finished-but-scoreless home game genuinely doesn't
+        # need to be re-fetched this run. This is the one place fetching
+        # itself (not just parsing) can actually be skipped, cutting this
+        # league from 9 fetches a run down to typically 1-3.
         home_games_by_team = {}
         for m in (cached or []):
             home_games_by_team.setdefault(m.get("home"), []).append(m)
@@ -5207,13 +5408,14 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
         skipped = 0
         for page, team_name in cfg["team_pages"].items():
             team_games = home_games_by_team.get(team_name, [])
-            due_soon = any(within_scrape_window(m, now) for m in team_games) if now else True
-            if team_games and not due_soon:
-                # We've fetched this team before and nothing of theirs
-                # (home game) is due soon - reuse what's stored instead of
-                # re-fetching. (An empty team_games list means we've never
-                # successfully parsed this team at all, e.g. first run or
-                # a prior fetch failure - always fetch in that case.)
+            needs_fetch = league_needs_fetch_for(key, team_games, now) if now else True
+            if team_games and not needs_fetch:
+                # We've fetched this team before and none of their home
+                # games are finished-but-scoreless - reuse what's stored
+                # instead of re-fetching. (An empty team_games list means
+                # we've never successfully parsed this team at all, e.g.
+                # first run or a prior fetch failure - always fetch in
+                # that case.)
                 skipped += 1
                 matches.extend(team_games)
                 continue
@@ -5228,21 +5430,23 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
                 matches.append(m)
         if skipped:
             print(f"  -> CFL: skipped re-fetching {skipped}/{len(cfg['team_pages'])} "
-                  f"team pages (no home game due soon, reused stored data)")
+                  f"team pages (no finished-but-scoreless home game, reused stored data)")
         return matches
 
     raise ValueError(f"Unknown parser type '{parser_type}' for league '{key}'")
 
 
 def normalize_stored_team_names(data):
-    """One-time cleanup, run every time regardless of scrape window: strip
-    any footnote marker (see strip_team_note_markers) off home/away names
-    already sitting in fixtures.json from before this stripping existed in
-    the parsers. Without this, a club whose name was stored with a marker
-    on some already-scraped matches (e.g. "Warrington Wolves [a]") would
-    keep reading as a second, separate team from its own un-marked
-    matches forever, since those matches are outside the scrape window and
-    would otherwise never get re-parsed. Purely a string cleanup - doesn't
+    """One-time cleanup, run every time regardless of which leagues get
+    fetched this run: strip any footnote marker (see
+    strip_team_note_markers) off home/away names already sitting in
+    fixtures.json from before this stripping existed in the parsers.
+    Without this, a club whose name was stored with a marker on some
+    already-scraped matches (e.g. "Warrington Wolves [a]") would keep
+    reading as a second, separate team from its own un-marked matches
+    forever, since those matches are already scored and would otherwise
+    never get re-parsed (see league_needs_fetch()). Purely a string
+    cleanup - doesn't
     touch scores/dates/venues, and running it on already-clean names is a
     no-op, so this is safe (and cheap - no network) to run unconditionally
     every run."""
@@ -5269,7 +5473,8 @@ def normalize_stored_team_names(data):
 
 
 def prune_placeholder_matches(data):
-    """One-time cleanup, run every time regardless of scrape window: drop
+    """One-time cleanup, run every time regardless of which leagues get
+    fetched this run: drop
     any already-stored match whose home or away is a placeholder value
     (see PLACEHOLDER_TEAM_NAMES) - a not-yet-determined playoff slot
     scraped before its parser started skipping those rows (see the guards
@@ -5289,7 +5494,8 @@ def prune_placeholder_matches(data):
 
 
 def prune_stale_rescheduled_matches(data):
-    """One-time cleanup, run every time regardless of scrape window: collapse
+    """One-time cleanup, run every time regardless of which leagues get
+    fetched this run: collapse
     duplicate stored matches created before merge_league_matches() learned
     to recognize a rescheduled fixture (see RESCHEDULE_WINDOW_DAYS there) -
     e.g. an NRL finals game first stored as 2026-09-13 with no kick-off
@@ -5365,11 +5571,11 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         cached = existing_by_league.get(key, [])
 
         # ESPN cooldown check - see ESPN_BACKOFF_HOURS. Takes priority over
-        # (and skips entirely past) the ordinary scrape-window skip check
+        # (and skips entirely past) the ordinary fetch-worthiness check
         # below: while a cooldown is active there's no point even checking
-        # whether anything's "due soon", since the request would just
+        # whether some match needs a score, since the request would just
         # 403 again. --force bypasses this the same way it bypasses the
-        # scrape-window check - an explicit manual run is exactly how you'd
+        # fetch-worthiness check - an explicit manual run is exactly how you'd
         # want to probe whether ESPN's block has lifted early.
         if not force and cfg.get("parser") == "espn" and espn_backoff_active(data, now):
             until = data.get("espn_backoff_until")
@@ -5397,7 +5603,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 # Standings for top14-2026 come from Wikipedia (not ESPN),
                 # so the ESPN backoff doesn't affect them - still worth
                 # refreshing every run, same reasoning as the ordinary
-                # scrape-window skip path below.
+                # fetch-worthiness skip path below.
                 try:
                     standings = fetch_standings(cfg, key)
                     if standings:
@@ -5413,29 +5619,37 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
             continue
 
-        # Nothing-due-soon check, straight from fixtures.json (this
+        # Nothing-to-check check, straight from fixtures.json (this
         # script's own prior output - the only place with per-match dates
-        # for every league). If we've successfully fetched this league
-        # before (cached is non-empty) and none of what we found then
-        # falls inside the current scrape window, there's nothing to
-        # check on Wikipedia right now - skip the fetch (and standings
-        # fetch) entirely and just keep what's stored. An empty `cached`
-        # means we've never successfully fetched this league (first run,
-        # or every prior attempt failed) - always fetch in that case.
-        # --force bypasses this, for an occasional full run to catch a
-        # newly-published fixture or postponement this check can't see
-        # (it only knows about matches already on record).
-        if not force and cached and not any(within_scrape_window(m, now) for m in cached):
-            print(f"Skipping {cfg['name']} fixtures - nothing in its {len(cached)} stored "
-                  f"matches falls within the scrape window; reusing as-is "
+        # AND scores for every league). If we've successfully fetched this
+        # league before (cached is non-empty) and none of its stored
+        # matches are finished-but-scoreless (see league_needs_fetch()/
+        # match_needs_score_check() - "finished" means kickoff was more
+        # than MATCH_COMPLETION_BUFFER ago), there's nothing this source
+        # could tell us that we don't already have - skip the fetch (and
+        # standings fetch) entirely and just keep what's stored. Note this
+        # is genuinely different from "nothing's due soon by date": a
+        # league can have several fixtures kicking off in the next hour
+        # and still be skipped here (none finished yet, nothing new to
+        # find), while a league with no upcoming fixtures for weeks still
+        # gets fetched if some past match is stuck without a score. An
+        # empty `cached` means we've never successfully fetched this
+        # league (first run, or every prior attempt failed) - always
+        # fetch in that case. --force bypasses this, for an occasional
+        # full run to catch a newly-published fixture or postponement
+        # this check can't see (it only knows about matches already on
+        # record).
+        if not force and cached and not league_needs_fetch_for(key, cached, now):
+            print(f"Skipping {cfg['name']} fixtures - none of its {len(cached)} stored "
+                  f"matches are finished but still missing a score; reusing as-is "
                   f"(use --force to check anyway)")
             data["matches"].extend(cached)
             data["leagues"].setdefault(
                 key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
-            # Standings are NOT tied to the fixture scrape window above - a
-            # ladder/table can change every time a match is played regardless
-            # of whether any of THIS league's remaining fixtures happen to
-            # fall inside the fixture-refresh window right now. Skipping this
+            # Standings are NOT tied to the fixtures check above - a
+            # ladder/table can change every time a match is played
+            # regardless of whether any of THIS league's matches are
+            # currently finished-but-scoreless. Skipping this
             # unconditionally on the fixtures-skip path (as a previous
             # version of this function did) meant any league whose standings
             # config had a mismatched heading/page the first time it ran
@@ -5443,37 +5657,37 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             # again - which is exactly what happened to nrl-2026,
             # super-league-2026, efa-2026, cfl-2026, u20-jwc-2026, and
             # nations-cup-2026 in the wild. So this always re-fetches
-            # standings, even when fixtures themselves are skipped.
+            # standings, even when fixtures themselves are skipped - just
+            # without printing anything about it when there's nothing new
+            # (an error is still worth surfacing, since that's exactly the
+            # kind of thing that silently went stale in the past).
             try:
                 standings = fetch_standings(cfg, key)
                 if standings:
                     data["standings"][key] = standings
-                    print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! standings failed: {e}", file=sys.stderr)
                 if cfg.get("parser") == "espn":
                     set_espn_backoff(data, now)
             # Same reasoning as standings above: not tied to the fixture
-            # scrape window, always re-checked even when fixtures are
-            # skipped, so a mismatched heading gets another chance next
+            # fetch-worthiness check, always re-checked even when fixtures
+            # are skipped, so a mismatched heading gets another chance next
             # run instead of silently never picking up attendance data.
             try:
                 attendance_rows = fetch_attendance_table(cfg, key)
                 if attendance_rows:
                     data["attendance_tables"][key] = attendance_rows
-                    print(f"  -> attendance table: {len(attendance_rows)} club row(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! attendance table failed: {e}", file=sys.stderr)
             # Same reasoning as standings/attendance above: a playoff
             # bracket's scores/rounds can change independent of whether
-            # this league's regular-season fixtures fall inside the scrape
-            # window right now, so it's always re-checked too.
+            # this league's regular-season fixtures are currently
+            # finished-but-scoreless, so it's always re-checked too.
             try:
                 bracket = fetch_playoffs_bracket(cfg, key)
                 if bracket:
                     data["playoffs"][key] = bracket
                     sync_playoff_scores_into_matches(data["matches"], key, bracket)
-                    print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
             except Exception as e:
                 print(f"  !! playoffs failed: {e}", file=sys.stderr)
             continue
@@ -5489,6 +5703,11 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             source_desc = ", ".join(pages)
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
         is_espn = cfg.get("parser") == "espn"
+        # Matches worth calling out by name once this fetch is done - see
+        # report_pending_score_updates(). Captured from `cached` (i.e.
+        # before this fetch) since that's the whole reason a fetch not
+        # forced by an empty cache/--force happened at all.
+        pending = [m for m in cached if match_needs_score_check(m, now)]
         try:
             fresh_matches = fetch_and_parse(cfg, key, cached=cached, now=now)
             if not fresh_matches:
@@ -5504,6 +5723,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             print(f"  -> parsed {len(fresh_matches)} matches on the page: "
                   f"{refreshed} refreshed, {added} newly added, "
                   f"{len(merged)} total now stored (was {len(cached)})")
+            report_pending_score_updates(cfg["name"], pending, merged)
 
             data["matches"].extend(merged)
             data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
@@ -5526,6 +5746,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                     merged = merge_league_matches(cached, fresh_matches)
                     print(f"  -> falling back to 365Scores: parsed {len(fresh_matches)} matches, "
                           f"{len(merged)} total now stored (was {len(cached)})")
+                    report_pending_score_updates(cfg["name"], pending, merged)
                     data["matches"].extend(merged)
                     data["leagues"][key] = {
                         "name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
@@ -5601,9 +5822,9 @@ def main():
     parser.add_argument("--list", action="store_true", help="list configured leagues and exit")
     parser.add_argument(
         "--force", action="store_true",
-        help="check every league even if nothing in its stored matches falls within "
-             "the scrape window (by default those leagues are skipped entirely - use "
-             "this occasionally to catch newly-published fixtures or postponements)",
+        help="check every league even if none of its stored matches are finished but "
+             "still missing a score (by default those leagues are skipped entirely - "
+             "use this occasionally to catch newly-published fixtures or postponements)",
     )
     parser.add_argument(
         "--debug-matrix", nargs="*", choices=list(MATRIX_TEAMS), default=[], metavar="TEAM",
