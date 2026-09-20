@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T15:01:08+00:00",
+  "updated": "2026-09-20T15:12:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -32064,9 +32064,21 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 81,
-            "against": 69,
-            "diff": 12,
+            "for": 93,
+            "against": 79,
+            "diff": 14,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 31,
+            "against": 20,
+            "diff": 11,
             "points": 2,
             "highlight": null
           },
@@ -32103,18 +32115,6 @@
             "for": 89,
             "against": 82,
             "diff": 7,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 21,
-            "against": 17,
-            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -32191,18 +32191,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 17,
-            "against": 21,
-            "diff": -4,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -32239,14 +32227,26 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 20,
+            "against": 31,
+            "diff": -11,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Mitteldeutscher",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 69,
-            "against": 81,
-            "diff": -12,
+            "for": 79,
+            "against": 93,
+            "diff": -14,
             "points": 1,
             "highlight": null
           },
@@ -32335,8 +32335,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 14,
+            "for": 16,
+            "against": 15,
             "diff": 1,
             "points": 7,
             "highlight": null
@@ -32396,8 +32396,8 @@
             "draw": null,
             "loss": 5,
             "for": 6,
-            "against": 19,
-            "diff": -13,
+            "against": 20,
+            "diff": -14,
             "points": 2,
             "highlight": null
           },
@@ -32467,8 +32467,8 @@
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 13,
-            "against": 14,
+            "for": 14,
+            "against": 15,
             "diff": -1,
             "points": 6,
             "highlight": null
@@ -32515,9 +32515,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 12,
+            "for": 13,
             "against": 23,
-            "diff": -11,
+            "diff": -10,
             "points": 5,
             "highlight": null
           },
