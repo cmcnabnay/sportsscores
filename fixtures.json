@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:57:03+00:00",
+  "updated": "2026-09-20T00:07:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -30779,6 +30779,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Huracán",
+            "played": 10,
+            "win": 4,
+            "draw": 4,
+            "loss": 2,
+            "for": 10,
+            "against": 8,
+            "diff": 2,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 10,
             "win": 5,
@@ -30827,18 +30839,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "River Plate",
-            "played": 9,
-            "win": 4,
-            "draw": 1,
-            "loss": 4,
-            "for": 12,
-            "against": 10,
-            "diff": 2,
-            "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Atlético Tucumán",
             "played": 9,
             "win": 3,
@@ -30851,13 +30851,13 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Huracán",
-            "played": 9,
-            "win": 3,
-            "draw": 4,
-            "loss": 2,
-            "for": 8,
-            "against": 7,
+            "team": "River Plate",
+            "played": 10,
+            "win": 4,
+            "draw": 1,
+            "loss": 5,
+            "for": 13,
+            "against": 12,
             "diff": 1,
             "points": 13,
             "highlight": "transparent"
