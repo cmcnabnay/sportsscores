@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T02:12:11+00:00",
+  "updated": "2026-09-20T02:23:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14709,7 +14709,7 @@
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Ottawa Redblacks",
-      "score": null,
+      "score": "40-38",
       "date": "2026-09-19",
       "time": "17:00",
       "utc": "2026-09-19T23:00:00+00:00",
@@ -29172,14 +29172,14 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 13,
-            "win": 5,
+            "played": 14,
+            "win": 6,
             "draw": null,
             "loss": 8,
-            "for": 350,
-            "against": 437,
+            "for": 390,
+            "against": 475,
             "diff": null,
-            "points": 10,
+            "points": 12,
             "highlight": null
           }
         ],
@@ -29225,12 +29225,12 @@
           },
           {
             "team": "e – Ottawa Redblacks",
-            "played": 12,
+            "played": 13,
             "win": 0,
             "draw": null,
-            "loss": 12,
-            "for": 270,
-            "against": 429,
+            "loss": 13,
+            "for": 308,
+            "against": 469,
             "diff": null,
             "points": 0,
             "highlight": null
@@ -30571,14 +30571,14 @@
         "rows": [
           {
             "team": "Instituto",
-            "played": 9,
-            "win": 6,
+            "played": 10,
+            "win": 7,
             "draw": 1,
             "loss": 2,
-            "for": 10,
-            "against": 6,
-            "diff": 4,
-            "points": 19,
+            "for": 13,
+            "against": 7,
+            "diff": 6,
+            "points": 22,
             "highlight": "#BBF3BB"
           },
           {
@@ -30727,13 +30727,13 @@
           },
           {
             "team": "Talleres (C)",
-            "played": 9,
+            "played": 10,
             "win": 2,
             "draw": 2,
-            "loss": 5,
-            "for": 10,
-            "against": 14,
-            "diff": -4,
+            "loss": 6,
+            "for": 11,
+            "against": 17,
+            "diff": -6,
             "points": 8,
             "highlight": "transparent"
           },
