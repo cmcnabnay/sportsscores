@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T14:50:17+00:00",
+  "updated": "2026-09-20T15:01:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -32059,6 +32059,18 @@
             "highlight": null
           },
           {
+            "team": "Baskets Oldenburg",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 69,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Rostock Seawolves",
             "played": 1,
             "win": 1,
@@ -32083,18 +32095,6 @@
             "highlight": null
           },
           {
-            "team": "Baskets Oldenburg",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 74,
-            "against": 66,
-            "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 1,
             "win": 1,
@@ -32112,9 +32112,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 14,
-            "against": 11,
-            "diff": 3,
+            "for": 21,
+            "against": 17,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -32196,9 +32196,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 14,
-            "diff": -3,
+            "for": 17,
+            "against": 21,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -32212,18 +32212,6 @@
             "against": 89,
             "diff": -7,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 66,
-            "against": 74,
-            "diff": -8,
-            "points": 1,
             "highlight": null
           },
           {
@@ -32248,6 +32236,18 @@
             "against": 102,
             "diff": -10,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 69,
+            "against": 81,
+            "diff": -12,
+            "points": 1,
             "highlight": null
           },
           {
@@ -32395,8 +32395,8 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 5,
-            "against": 18,
+            "for": 6,
+            "against": 19,
             "diff": -13,
             "points": 2,
             "highlight": null
@@ -32515,8 +32515,8 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 11,
-            "against": 22,
+            "for": 12,
+            "against": 23,
             "diff": -11,
             "points": 5,
             "highlight": null
