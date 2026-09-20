@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T21:47:09+00:00",
+  "updated": "2026-09-20T21:58:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31848,6 +31848,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Newell's Old Boys",
+            "played": 10,
+            "win": 4,
+            "draw": 4,
+            "loss": 2,
+            "for": 11,
+            "against": 8,
+            "diff": 3,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Lanús",
             "played": 9,
             "win": 4,
@@ -31856,18 +31868,6 @@
             "for": 11,
             "against": 8,
             "diff": 3,
-            "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Newell's Old Boys",
-            "played": 9,
-            "win": 3,
-            "draw": 4,
-            "loss": 2,
-            "for": 10,
-            "against": 8,
-            "diff": 2,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -31921,13 +31921,13 @@
           },
           {
             "team": "Platense",
-            "played": 9,
+            "played": 10,
             "win": 2,
             "draw": 3,
-            "loss": 4,
+            "loss": 5,
             "for": 9,
-            "against": 14,
-            "diff": -5,
+            "against": 15,
+            "diff": -6,
             "points": 9,
             "highlight": "transparent"
           },
@@ -31962,13 +31962,25 @@
         "rows": [
           {
             "team": "Argentinos Juniors",
-            "played": 9,
+            "played": 10,
             "win": 5,
             "draw": 3,
-            "loss": 1,
+            "loss": 2,
             "for": 13,
+            "against": 9,
+            "diff": 4,
+            "points": 18,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Rosario Central",
+            "played": 10,
+            "win": 5,
+            "draw": 3,
+            "loss": 2,
+            "for": 11,
             "against": 8,
-            "diff": 5,
+            "diff": 3,
             "points": 18,
             "highlight": "#BBF3BB"
           },
@@ -32006,18 +32018,6 @@
             "against": 16,
             "diff": 1,
             "points": 16,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rosario Central",
-            "played": 9,
-            "win": 4,
-            "draw": 3,
-            "loss": 2,
-            "for": 10,
-            "against": 8,
-            "diff": 2,
-            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
