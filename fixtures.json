@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T15:56:08+00:00",
+  "updated": "2026-09-20T16:11:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -134,6 +134,11 @@
     "khl-2026-27": {
       "name": "KHL 2026-27",
       "sport": "hockey",
+      "completed": false
+    },
+    "bcl-2026-27": {
+      "name": "Basketball Champions League 2026-27",
+      "sport": "basketball",
       "completed": false
     }
   },
@@ -14299,6 +14304,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "BK Opava",
+      "away": "Dziki Warszawa",
+      "score": "99-116",
+      "date": "2026-09-14",
+      "time": "13:30",
+      "utc": "2026-09-14T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "Dinamo Minsk",
@@ -14306,6 +14322,17 @@
       "date": "2026-09-14",
       "time": "15:00",
       "utc": "2026-09-14T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Breogán",
+      "away": "Rilski Sportist",
+      "score": "126-80",
+      "date": "2026-09-14",
+      "time": "16:00",
+      "utc": "2026-09-14T16:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14332,6 +14359,28 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Wurzburg Baskets",
+      "away": "Manchester Giants",
+      "score": "73-74",
+      "date": "2026-09-14",
+      "time": "18:15",
+      "utc": "2026-09-14T18:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "ASP Promitheas Patras",
+      "away": "BC Vienna",
+      "score": "92-82",
+      "date": "2026-09-15",
+      "time": "11:15",
+      "utc": "2026-09-15T11:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Avangard Omsk",
       "away": "Avtomobilist Yekaterinburg",
@@ -14354,6 +14403,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Benfica",
+      "away": "Genève Lions",
+      "score": "87-78",
+      "date": "2026-09-15",
+      "time": "15:45",
+      "utc": "2026-09-15T15:45:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Shanghai Dragons",
@@ -14365,6 +14425,28 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Merkezefendi Belediyesi",
+      "score": "101-98",
+      "date": "2026-09-15",
+      "time": "18:00",
+      "utc": "2026-09-15T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Levice",
+      "away": "Salon Vilpas",
+      "score": "87-90",
+      "date": "2026-09-16",
+      "time": "11:15",
+      "utc": "2026-09-16T11:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Sibir Novosibirsk",
       "away": "Neftekhimik Nizhnekamsk",
@@ -14372,6 +14454,17 @@
       "date": "2026-09-16",
       "time": "12:30",
       "utc": "2026-09-16T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bakken Bears",
+      "away": "Zwolle Landstede",
+      "score": "89-78",
+      "date": "2026-09-16",
+      "time": "13:30",
+      "utc": "2026-09-16T13:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14409,6 +14502,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Fribourg Olympic",
+      "away": "BC Batumi 2010",
+      "score": "85-86",
+      "date": "2026-09-16",
+      "time": "15:45",
+      "utc": "2026-09-16T15:45:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "CSKA Moscow",
@@ -14416,6 +14520,17 @@
       "date": "2026-09-16",
       "time": "16:30",
       "utc": "2026-09-16T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "CSM Oradea",
+      "away": "Aek Larnaca",
+      "score": "95-87",
+      "date": "2026-09-16",
+      "time": "18:00",
+      "utc": "2026-09-16T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14431,6 +14546,28 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "VEF Riga",
+      "away": "Dziki Warszawa",
+      "score": "95-102",
+      "date": "2026-09-17",
+      "time": "11:15",
+      "utc": "2026-09-17T11:15:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Manchester Giants",
+      "away": "Breogán",
+      "score": "84-105",
+      "date": "2026-09-17",
+      "time": "13:30",
+      "utc": "2026-09-17T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "russian-first-league-2026-27",
       "home": "Torpedo Moscow",
       "away": "Veles Moscow",
@@ -14438,6 +14575,17 @@
       "date": "2026-09-17",
       "time": "18:00",
       "utc": "2026-09-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Benfica",
+      "away": "SC Rasta Vechta",
+      "score": "88-98",
+      "date": "2026-09-17",
+      "time": "18:00",
+      "utc": "2026-09-17T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14486,6 +14634,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas",
+      "away": "Bakken Bears",
+      "score": "90-72",
+      "date": "2026-09-18",
+      "time": "15:00",
+      "utc": "2026-09-18T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Dinamo Minsk",
       "away": "Sibir Novosibirsk",
@@ -14526,6 +14685,17 @@
       "date": "2026-09-18",
       "time": "16:30",
       "utc": "2026-09-18T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "BC Batumi 2010",
+      "away": "CSM Oradea",
+      "score": "77-93",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -14905,6 +15075,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas",
+      "away": "CSM Oradea",
+      "score": "57-49",
+      "date": "2026-09-20",
+      "time": "15:00",
+      "utc": "2026-09-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Brose Bamberg",
@@ -14924,6 +15105,17 @@
       "time": "17:05",
       "utc": "2026-09-20T05:05:00+00:00",
       "venue": "Stadium Taranaki",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Dziki Warszawa",
+      "away": "SC Rasta Vechta",
+      "score": null,
+      "date": "2026-09-20",
+      "time": "17:30",
+      "utc": "2026-09-20T17:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -16151,6 +16343,160 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Hapoel Holon",
+      "away": "Cholet",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "16:30",
+      "utc": "2026-10-06T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Rytas Vilnius",
+      "away": "Sabah Baku",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "16:30",
+      "utc": "2026-10-06T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Peristeri",
+      "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "16:30",
+      "utc": "2026-10-06T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "Bnei Hertzliya",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Cibona Zagreb",
+      "away": "Galatasaray",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Strasbourg",
+      "away": "Legia Warszawa",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Pardubice",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Igokea",
+      "away": "Bilbao Basket",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Slavia Praha",
+      "away": "Alba Berlin",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Trabzonspor Medical Park",
+      "away": "Nanterre",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Juventus",
+      "away": "Unicaja Málaga",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "17:00",
+      "utc": "2026-10-07T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Talenet Giants Antwerp",
+      "away": "Szombathely",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:00",
+      "utc": "2026-10-07T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Telekom Baskets Bonn",
+      "away": "FC Porto",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:00",
+      "utc": "2026-10-07T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "UCAM Murcia",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:30",
+      "utc": "2026-10-07T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Science City Jena",
@@ -16547,6 +16893,83 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Alba Berlin",
+      "away": "KK Igokea",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Nanterre",
+      "away": "Rytas Vilnius",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Varese",
+      "away": "Peristeri",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Trabzonspor Medical Park",
+      "away": "Sabah Baku",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "16:00",
+      "utc": "2026-10-14T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "UCAM Murcia",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "17:00",
+      "utc": "2026-10-14T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Kk Spartak Subotica",
+      "away": "Hapoel Holon",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "utc": "2026-10-14T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bilbao Basket",
+      "away": "Slavia Praha",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "utc": "2026-10-14T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Gloucester Rugby",
       "away": "Bordeaux Begles",
@@ -16851,6 +17274,83 @@
       "date": "2026-10-18",
       "time": "17:00",
       "utc": "2026-10-18T20:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pardubice",
+      "away": "Unicaja Málaga",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "16:00",
+      "utc": "2026-10-20T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Galatasaray",
+      "away": "Strasbourg",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "17:00",
+      "utc": "2026-10-20T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Cibona Zagreb",
+      "away": "Legia Warszawa",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "18:00",
+      "utc": "2026-10-20T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "AEK",
+      "away": "Talenet Giants Antwerp",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "16:00",
+      "utc": "2026-10-21T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bnei Hertzliya",
+      "away": "FC Porto",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "16:30",
+      "utc": "2026-10-21T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Juventus",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "18:00",
+      "utc": "2026-10-21T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "Telekom Baskets Bonn",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "18:00",
+      "utc": "2026-10-21T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -17251,6 +17751,83 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Sabah Baku",
+      "away": "Nanterre",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "16:00",
+      "utc": "2026-10-27T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "18:00",
+      "utc": "2026-10-27T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Igokea",
+      "away": "Slavia Praha",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "19:00",
+      "utc": "2026-10-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "UCAM Murcia",
+      "away": "Peristeri",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "19:30",
+      "utc": "2026-10-27T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Rytas Vilnius",
+      "away": "Trabzonspor Medical Park",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "17:30",
+      "utc": "2026-10-28T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Cholet",
+      "away": "Kk Spartak Subotica",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "19:00",
+      "utc": "2026-10-28T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Alba Berlin",
+      "away": "Bilbao Basket",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "19:00",
+      "utc": "2026-10-28T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Phoenix Hagen",
       "away": "SC Rasta Vechta",
@@ -17526,6 +18103,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Juventus",
+      "away": "Pardubice",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "18:00",
+      "utc": "2026-11-03T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Basketball Lowen Braunschweig",
@@ -17533,6 +18121,72 @@
       "date": "2026-11-03",
       "time": "19:00",
       "utc": "2026-11-03T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Strasbourg",
+      "away": "KK Cibona Zagreb",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "19:00",
+      "utc": "2026-11-03T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Unicaja Málaga",
+      "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "19:30",
+      "utc": "2026-11-03T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Legia Warszawa",
+      "away": "Galatasaray",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "17:00",
+      "utc": "2026-11-04T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Szombathely",
+      "away": "AEK",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "17:00",
+      "utc": "2026-11-04T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Telekom Baskets Bonn",
+      "away": "Bnei Hertzliya",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "19:00",
+      "utc": "2026-11-04T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "FC Porto",
+      "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "19:30",
+      "utc": "2026-11-04T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -17867,6 +18521,83 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Sabah Baku",
+      "away": "Trabzonspor Medical Park",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "16:00",
+      "utc": "2026-11-10T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Kk Spartak Subotica",
+      "away": "Cholet",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "19:00",
+      "utc": "2026-11-10T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bilbao Basket",
+      "away": "Alba Berlin",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "19:00",
+      "utc": "2026-11-10T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Slavia Praha",
+      "away": "KK Igokea",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "17:00",
+      "utc": "2026-11-11T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Rytas Vilnius",
+      "away": "Nanterre",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "17:30",
+      "utc": "2026-11-11T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Peristeri",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "17:30",
+      "utc": "2026-11-11T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "UCAM Murcia",
+      "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "19:30",
+      "utc": "2026-11-11T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Phoenix Hagen",
       "away": "N.R. Ludwigsburg",
@@ -18105,6 +18836,83 @@
       "date": "2026-11-15",
       "time": "17:00",
       "utc": "2026-11-15T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bnei Hertzliya",
+      "away": "Telekom Baskets Bonn",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "17:30",
+      "utc": "2026-11-17T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Juventus",
+      "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "18:00",
+      "utc": "2026-11-17T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "FC Porto",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "19:00",
+      "utc": "2026-11-17T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Galatasaray",
+      "away": "Legia Warszawa",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "17:00",
+      "utc": "2026-11-18T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "AEK",
+      "away": "Szombathely",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "17:00",
+      "utc": "2026-11-18T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Cibona Zagreb",
+      "away": "Strasbourg",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "19:00",
+      "utc": "2026-11-18T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Unicaja Málaga",
+      "away": "Pardubice",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "19:30",
+      "utc": "2026-11-18T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -19319,6 +20127,83 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Slavia Praha",
+      "away": "Bilbao Basket",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "17:00",
+      "utc": "2026-12-08T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Peristeri",
+      "away": "UCAM Murcia",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "17:30",
+      "utc": "2026-12-08T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Igokea",
+      "away": "Alba Berlin",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "19:00",
+      "utc": "2026-12-08T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Trabzonspor Medical Park",
+      "away": "Rytas Vilnius",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "17:00",
+      "utc": "2026-12-09T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Hapoel Holon",
+      "away": "Kk Spartak Subotica",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "17:30",
+      "utc": "2026-12-09T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Nanterre",
+      "away": "Sabah Baku",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Varese",
+      "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Glasgow Warriors",
       "away": "Pau",
@@ -19550,6 +20435,61 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Strasbourg",
+      "away": "Galatasaray",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:00",
+      "utc": "2026-12-15T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Unicaja Málaga",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:00",
+      "utc": "2026-12-15T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Legia Warszawa",
+      "away": "KK Cibona Zagreb",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:00",
+      "utc": "2026-12-15T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Szombathely",
+      "away": "Talenet Giants Antwerp",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "17:00",
+      "utc": "2026-12-16T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pardubice",
+      "away": "Juventus",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "17:00",
+      "utc": "2026-12-16T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Basketball Lowen Braunschweig",
       "away": "Alba Berlin",
@@ -19557,6 +20497,28 @@
       "date": "2026-12-16",
       "time": "19:00",
       "utc": "2026-12-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Telekom Baskets Bonn",
+      "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "19:00",
+      "utc": "2026-12-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "FC Porto",
+      "away": "Bnei Hertzliya",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "19:30",
+      "utc": "2026-12-16T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -19876,6 +20838,149 @@
       "date": "2026-12-20",
       "time": "17:00",
       "utc": "2026-12-20T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Sabah Baku",
+      "away": "Rytas Vilnius",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:00",
+      "utc": "2026-12-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Nanterre",
+      "away": "Trabzonspor Medical Park",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:00",
+      "utc": "2026-12-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Peristeri",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:30",
+      "utc": "2026-12-22T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pallacanestro Varese",
+      "away": "UCAM Murcia",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:30",
+      "utc": "2026-12-22T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Alba Berlin",
+      "away": "Slavia Praha",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "19:00",
+      "utc": "2026-12-22T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bilbao Basket",
+      "away": "KK Igokea",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "19:00",
+      "utc": "2026-12-22T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Galatasaray",
+      "away": "KK Cibona Zagreb",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:00",
+      "utc": "2026-12-23T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Legia Warszawa",
+      "away": "Strasbourg",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:00",
+      "utc": "2026-12-23T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Bnei Hertzliya",
+      "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:30",
+      "utc": "2026-12-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "FC Porto",
+      "away": "Telekom Baskets Bonn",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:30",
+      "utc": "2026-12-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Cholet",
+      "away": "Hapoel Holon",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:00",
+      "utc": "2026-12-23T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Unicaja Málaga",
+      "away": "Juventus",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:30",
+      "utc": "2026-12-23T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Pardubice",
+      "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:30",
+      "utc": "2026-12-23T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -32112,22 +33217,22 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 56,
-            "against": 49,
-            "diff": 7,
+            "for": 62,
+            "against": 57,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
           {
             "team": "Brose Bamberg",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 8,
+            "against": 6,
+            "diff": 2,
+            "points": 2,
             "highlight": null
           },
           {
@@ -32144,18 +33249,6 @@
           },
           {
             "team": "Science City Jena",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Bayern Munich",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -32191,14 +33284,26 @@
             "highlight": null
           },
           {
+            "team": "Bayern Munich",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 6,
+            "against": 8,
+            "diff": -2,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "N.R. Ludwigsburg",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 49,
-            "against": 56,
-            "diff": -7,
+            "for": 57,
+            "against": 62,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -32336,8 +33441,8 @@
             "draw": null,
             "loss": 1,
             "for": 18,
-            "against": 15,
-            "diff": 3,
+            "against": 16,
+            "diff": 2,
             "points": 7,
             "highlight": null
           },
@@ -32479,9 +33584,9 @@
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 14,
+            "for": 15,
             "against": 17,
-            "diff": -3,
+            "diff": -2,
             "points": 6,
             "highlight": null
           },
@@ -32531,6 +33636,433 @@
             "against": 18,
             "diff": -8,
             "points": 4,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "bcl-2026-27": {
+      "FIBA Champions League": {
+        "rows": [
+          {
+            "team": "Sabah Baku",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Legia Warszawa",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Szombathely",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Kk Spartak Subotica",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "FC Porto",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Brose Bamberg",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Bnei Hertzliya",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Hapoel Holon",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Galatasaray",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cholet",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "AEK",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Cibona Zagreb",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Rytas Vilnius",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Peristeri",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Salon Vilpas",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "BK Opava",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Talenet Giants Antwerp",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Benfica",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Reggiana",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Juventus",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Trabzonspor Medical Park",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pardubice",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Igokea",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Strasbourg",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Bilbao Basket",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Telekom Baskets Bonn",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Wurzburg Baskets",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Levice",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Joventut de Badalona",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Nanterre",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Rilski Sportist",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           }
         ],
