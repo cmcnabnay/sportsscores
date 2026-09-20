@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T17:02:08+00:00",
+  "updated": "2026-09-20T17:13:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14840,7 +14840,7 @@
       "time": "15:00",
       "utc": "2026-09-19T19:00:00+00:00",
       "venue": "BMO Field",
-      "attendance": null
+      "attendance": "15991"
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -14884,7 +14884,7 @@
       "time": "17:00",
       "utc": "2026-09-19T23:00:00+00:00",
       "venue": "McMahon Stadium",
-      "attendance": null
+      "attendance": "20113"
     },
     {
       "league": "npc-2026",
@@ -33157,9 +33157,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 55,
-            "against": 30,
-            "diff": 25,
+            "for": 66,
+            "against": 37,
+            "diff": 29,
             "points": 2,
             "highlight": null
           },
@@ -33361,9 +33361,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 55,
-            "diff": -25,
+            "for": 37,
+            "against": 66,
+            "diff": -29,
             "points": 1,
             "highlight": null
           }
