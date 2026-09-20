@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T16:20:04+00:00",
+  "updated": "2026-09-20T16:29:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33164,6 +33164,18 @@
             "highlight": null
           },
           {
+            "team": "Bayern Munich",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 36,
+            "against": 17,
+            "diff": 19,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 1,
             "win": 1,
@@ -33171,18 +33183,6 @@
             "loss": 0,
             "for": 96,
             "against": 81,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Bayern Munich",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 28,
-            "against": 13,
             "diff": 15,
             "points": 2,
             "highlight": null
@@ -33212,18 +33212,6 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 72,
-            "against": 64,
-            "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 1,
             "win": 1,
@@ -33232,6 +33220,18 @@
             "for": 89,
             "against": 82,
             "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 71,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -33284,6 +33284,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 71,
+            "against": 75,
+            "diff": -4,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -33293,18 +33305,6 @@
             "against": 89,
             "diff": -7,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 64,
-            "against": 72,
-            "diff": -8,
-            "points": 1,
             "highlight": null
           },
           {
@@ -33332,18 +33332,6 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 13,
-            "against": 28,
-            "diff": -15,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 1,
             "win": 0,
@@ -33352,6 +33340,18 @@
             "for": 81,
             "against": 96,
             "diff": -15,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Brose Bamberg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 17,
+            "against": 36,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
@@ -33441,8 +33441,8 @@
             "draw": null,
             "loss": 1,
             "for": 18,
-            "against": 16,
-            "diff": 2,
+            "against": 17,
+            "diff": 1,
             "points": 7,
             "highlight": null
           },
@@ -33567,6 +33567,18 @@
             "highlight": null
           },
           {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 16,
+            "against": 17,
+            "diff": -1,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Avangard Omsk",
             "played": 6,
             "win": 3,
@@ -33575,18 +33587,6 @@
             "for": 12,
             "against": 13,
             "diff": -1,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 15,
-            "against": 17,
-            "diff": -2,
             "points": 6,
             "highlight": null
           },
