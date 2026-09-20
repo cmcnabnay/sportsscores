@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T19:57:09+00:00",
+  "updated": "2026-09-20T20:08:42+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14843,6 +14843,17 @@
       "attendance": "15991"
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Dziki Warszawa",
+      "away": "Breogán",
+      "score": "113-110",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "utc": "2026-09-19T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "pacific-nations-cup-2026",
       "home": "Canada",
       "away": "United States",
@@ -14907,6 +14918,17 @@
       "utc": "2026-09-19T16:30:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "11073"
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "ASP Promitheas Patras",
+      "away": "SC Rasta Vechta",
+      "score": "73-103",
+      "date": "2026-09-19",
+      "time": "17:30",
+      "utc": "2026-09-19T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "internationals-2026",
@@ -15078,7 +15100,7 @@
       "league": "bcl-2026-27",
       "home": "Salon Vilpas",
       "away": "CSM Oradea",
-      "score": "57-49",
+      "score": "98-96",
       "date": "2026-09-20",
       "time": "15:00",
       "utc": "2026-09-20T15:00:00+00:00",
@@ -15111,7 +15133,7 @@
       "league": "bcl-2026-27",
       "home": "Dziki Warszawa",
       "away": "SC Rasta Vechta",
-      "score": null,
+      "score": "82-93",
       "date": "2026-09-20",
       "time": "17:30",
       "utc": "2026-09-20T17:30:00+00:00",
@@ -20904,6 +20926,17 @@
       "date": "2026-12-22",
       "time": "19:00",
       "utc": "2026-12-22T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Talenet Giants Antwerp",
+      "away": "AEK",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "19:30",
+      "utc": "2026-12-22T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
