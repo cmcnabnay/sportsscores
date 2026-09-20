@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T16:40:18+00:00",
+  "updated": "2026-09-20T16:51:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33152,6 +33152,18 @@
       "Bundesliga": {
         "rows": [
           {
+            "team": "Bayern Munich",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 55,
+            "against": 28,
+            "diff": 27,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Telekom Baskets Bonn",
             "played": 1,
             "win": 1,
@@ -33159,18 +33171,6 @@
             "loss": 0,
             "for": 96,
             "against": 72,
-            "diff": 24,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Bayern Munich",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 44,
-            "against": 20,
             "diff": 24,
             "points": 2,
             "highlight": null
@@ -33212,6 +33212,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 86,
+            "against": 77,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 1,
             "win": 1,
@@ -33220,18 +33232,6 @@
             "for": 89,
             "against": 82,
             "diff": 7,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 80,
-            "against": 75,
-            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -33284,18 +33284,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 80,
-            "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -33305,6 +33293,18 @@
             "against": 89,
             "diff": -7,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 77,
+            "against": 86,
+            "diff": -9,
+            "points": 1,
             "highlight": null
           },
           {
@@ -33344,18 +33344,6 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 20,
-            "against": 44,
-            "diff": -24,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 1,
             "win": 0,
@@ -33365,6 +33353,18 @@
             "against": 96,
             "diff": -24,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Brose Bamberg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 28,
+            "against": 55,
+            "diff": -27,
+            "points": 1,
             "highlight": null
           }
         ],
