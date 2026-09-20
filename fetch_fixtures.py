@@ -1464,7 +1464,23 @@ def fetch_scores365_standings_groups(cfg, key):
     fetch_standings() returns for every other league. 365Scores marks a
     qualify/relegate zone with a per-row background color the way
     Wikipedia's Module:Sports table does, but that isn't parsed here (no
-    BBL-specific mapping known yet) - "highlight" is always None."""
+    BBL-specific mapping known yet) - "highlight" is always None.
+
+    A competition's one "standings" table entry can itself cover several
+    real-world groups at once - e.g. the Basketball Champions League's 8
+    Group Stage groups, or the KHL's Western/Eastern Conference - each row
+    tagged with a "groupNum" and the table's own "groups": [{"num",
+    "name"}, ...] naming each one (confirmed against both live: BCL's
+    competition 6391 and KHL's 636). When a table names more than one
+    group, rows are split into one result entry per group instead of a
+    single combined table. A row with no groupNum at all (BCL: a team
+    still in the separate, bracket-style Qualification stage - which
+    365Scores doesn't expose as a standings table, only as its own
+    "stages" metadata with hasStandings=False - hasn't been placed in a
+    group yet) is dropped rather than shown with all-zero stats in a group
+    it doesn't belong to; it'll appear once 365Scores assigns it one.
+    A table naming zero or one group (BBL, most others) keeps the
+    original single-table-under-the-competition-name behavior."""
     standings_cfg = cfg["standings"]
     competition_id = standings_cfg["scores365_competition_id"]
     url = (f"{SCORES365_STANDINGS_URL}?{SCORES365_COMMON_PARAMS}"
@@ -1478,27 +1494,40 @@ def fetch_scores365_standings_groups(cfg, key):
     def num(x):
         return int(x) if x is not None else None
 
+    def build_row(row):
+        team = (row.get("competitor") or {}).get("name")
+        if not team:
+            return None
+        return {
+            "team": team,
+            "played": num(row.get("gamePlayed")),
+            "win": num(row.get("gamesWon")),
+            "draw": num(row.get("gamesEven")) or None,  # basketball has no draws
+            "loss": num(row.get("gamesLost")),
+            "for": num(row.get("for")),
+            "against": num(row.get("against")),
+            "diff": num(row.get("ratio")),
+            "points": num(row.get("points")),
+            "highlight": None,
+        }
+
     result = {}
     for table in data.get("standings", []):
-        rows_out = []
-        for row in table.get("rows", []):
-            team = (row.get("competitor") or {}).get("name")
-            if not team:
-                continue
-            rows_out.append({
-                "team": team,
-                "played": num(row.get("gamePlayed")),
-                "win": num(row.get("gamesWon")),
-                "draw": num(row.get("gamesEven")) or None,  # basketball has no draws
-                "loss": num(row.get("gamesLost")),
-                "for": num(row.get("for")),
-                "against": num(row.get("against")),
-                "diff": num(row.get("ratio")),
-                "points": num(row.get("points")),
-                "highlight": None,
-            })
-        if rows_out:
-            result[table.get("displayName") or cfg["name"]] = {"rows": rows_out, "legend": {}}
+        group_names = {
+            g["num"]: g["name"] for g in (table.get("groups") or []) if g.get("num") is not None
+        }
+        if len(group_names) > 1:
+            for group_num in sorted(group_names):
+                rows_out = [
+                    r for row in table.get("rows", [])
+                    if row.get("groupNum") == group_num and (r := build_row(row))
+                ]
+                if rows_out:
+                    result[group_names[group_num]] = {"rows": rows_out, "legend": {}}
+        else:
+            rows_out = [r for row in table.get("rows", []) if (r := build_row(row))]
+            if rows_out:
+                result[table.get("displayName") or cfg["name"]] = {"rows": rows_out, "legend": {}}
     return result
 
 

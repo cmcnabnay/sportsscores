@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T16:29:07+00:00",
+  "updated": "2026-09-20T16:40:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33169,9 +33169,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 17,
-            "diff": 19,
+            "for": 44,
+            "against": 20,
+            "diff": 24,
             "points": 2,
             "highlight": null
           },
@@ -33229,9 +33229,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 75,
-            "against": 71,
-            "diff": 4,
+            "for": 80,
+            "against": 75,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -33289,9 +33289,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 71,
-            "against": 75,
-            "diff": -4,
+            "for": 75,
+            "against": 80,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -33349,9 +33349,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 17,
-            "against": 36,
-            "diff": -19,
+            "for": 20,
+            "against": 44,
+            "diff": -24,
             "points": 1,
             "highlight": null
           },
@@ -33372,7 +33372,7 @@
       }
     },
     "khl-2026-27": {
-      "KHL": {
+      "Western Conference": {
         "rows": [
           {
             "team": "Lokomotiv Yaroslavl",
@@ -33440,9 +33440,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 18,
+            "for": 19,
             "against": 17,
-            "diff": 1,
+            "diff": 2,
             "points": 7,
             "highlight": null
           },
@@ -33505,7 +33505,12 @@
             "diff": -15,
             "points": 2,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Eastern Conference": {
+        "rows": [
           {
             "team": "Metallurg Magnitogorsk",
             "played": 7,
@@ -33567,18 +33572,6 @@
             "highlight": null
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 16,
-            "against": 17,
-            "diff": -1,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Avangard Omsk",
             "played": 6,
             "win": 3,
@@ -33587,6 +33580,18 @@
             "for": 12,
             "against": 13,
             "diff": -1,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 16,
+            "against": 18,
+            "diff": -2,
             "points": 6,
             "highlight": null
           },
@@ -33643,68 +33648,8 @@
       }
     },
     "bcl-2026-27": {
-      "FIBA Champions League": {
+      "Group A": {
         "rows": [
-          {
-            "team": "Sabah Baku",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Legia Warszawa",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Szombathely",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Kk Spartak Subotica",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "FC Porto",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
           {
             "team": "Brose Bamberg",
             "played": 0,
@@ -33752,7 +33697,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group B": {
+        "rows": [
           {
             "team": "Alba Berlin",
             "played": 0,
@@ -33800,7 +33750,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group C": {
+        "rows": [
           {
             "team": "Rytas Vilnius",
             "played": 0,
@@ -33836,7 +33791,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group D": {
+        "rows": [
           {
             "team": "BK Opava",
             "played": 0,
@@ -33884,7 +33844,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group E": {
+        "rows": [
           {
             "team": "Juventus",
             "played": 0,
@@ -33932,7 +33897,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group F": {
+        "rows": [
           {
             "team": "Unicaja Málaga",
             "played": 0,
@@ -33968,7 +33938,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group G": {
+        "rows": [
           {
             "team": "Bilbao Basket",
             "played": 0,
@@ -34016,7 +33991,12 @@
             "diff": 0,
             "points": 0,
             "highlight": null
-          },
+          }
+        ],
+        "legend": {}
+      },
+      "Group H": {
+        "rows": [
           {
             "team": "Joventut de Badalona",
             "played": 0,
