@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T19:35:10+00:00",
+  "updated": "2026-09-20T19:46:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31791,6 +31791,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Boca Juniors",
+            "played": 10,
+            "win": 4,
+            "draw": 5,
+            "loss": 1,
+            "for": 14,
+            "against": 11,
+            "diff": 3,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 10,
             "win": 5,
@@ -31800,18 +31812,6 @@
             "against": 8,
             "diff": 2,
             "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 9,
-            "win": 3,
-            "draw": 5,
-            "loss": 1,
-            "for": 12,
-            "against": 11,
-            "diff": 1,
-            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
@@ -31852,13 +31852,13 @@
           },
           {
             "team": "San Lorenzo",
-            "played": 9,
+            "played": 10,
             "win": 3,
             "draw": 2,
-            "loss": 4,
+            "loss": 5,
             "for": 4,
-            "against": 6,
-            "diff": -2,
+            "against": 8,
+            "diff": -4,
             "points": 11,
             "highlight": "transparent"
           },
