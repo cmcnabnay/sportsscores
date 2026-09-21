@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T10:24:08+00:00",
+  "updated": "2026-09-21T10:35:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33444,18 +33444,6 @@
             "highlight": null
           },
           {
-            "team": "CSKA Moscow",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 17,
-            "against": 12,
-            "diff": 5,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 6,
             "win": 4,
@@ -33489,6 +33477,18 @@
             "against": 17,
             "diff": 2,
             "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "CSKA Moscow",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 17,
+            "against": 13,
+            "diff": 4,
+            "points": 6,
             "highlight": null
           },
           {
@@ -33645,10 +33645,10 @@
             "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 10,
+            "loss": 3,
+            "for": 11,
             "against": 11,
-            "diff": -1,
+            "diff": 0,
             "points": 5,
             "highlight": null
           },
