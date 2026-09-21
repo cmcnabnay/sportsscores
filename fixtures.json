@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T16:02:09+00:00",
+  "updated": "2026-09-21T16:13:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33547,6 +33547,18 @@
             "highlight": null
           },
           {
+            "team": "Lada Togliatti",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 11,
+            "against": 22,
+            "diff": -11,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Severstal Cherepovets",
             "played": 7,
             "win": 2,
@@ -33567,18 +33579,6 @@
             "for": 12,
             "against": 17,
             "diff": -5,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Lada Togliatti",
-            "played": 7,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 10,
-            "against": 22,
-            "diff": -12,
             "points": 4,
             "highlight": null
           },
@@ -33652,10 +33652,10 @@
             "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 16,
-            "against": 15,
-            "diff": 1,
+            "against": 16,
+            "diff": 0,
             "points": 7,
             "highlight": null
           },
