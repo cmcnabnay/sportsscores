@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:10:08+00:00",
+  "updated": "2026-09-21T00:21:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31997,6 +31997,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Belgrano",
+            "played": 10,
+            "win": 4,
+            "draw": 4,
+            "loss": 2,
+            "for": 11,
+            "against": 7,
+            "diff": 4,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Huracán",
             "played": 10,
             "win": 4,
@@ -32030,18 +32042,6 @@
             "against": 13,
             "diff": 0,
             "points": 14,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Belgrano",
-            "played": 9,
-            "win": 3,
-            "draw": 4,
-            "loss": 2,
-            "for": 9,
-            "against": 6,
-            "diff": 3,
-            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -32118,13 +32118,13 @@
           },
           {
             "team": "Estudiantes (RC)",
-            "played": 9,
+            "played": 10,
             "win": 1,
             "draw": 3,
-            "loss": 5,
-            "for": 4,
-            "against": 11,
-            "diff": -7,
+            "loss": 6,
+            "for": 5,
+            "against": 13,
+            "diff": -8,
             "points": 6,
             "highlight": "transparent"
           },
