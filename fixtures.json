@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T02:11:09+00:00",
+  "updated": "2026-09-21T02:22:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31788,6 +31788,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Vélez Sarsfield",
+            "played": 10,
+            "win": 5,
+            "draw": 5,
+            "loss": 0,
+            "for": 15,
+            "against": 9,
+            "diff": 6,
+            "points": 20,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Defensa y Justicia",
             "played": 10,
             "win": 5,
@@ -31807,18 +31819,6 @@
             "loss": 3,
             "for": 14,
             "against": 9,
-            "diff": 5,
-            "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Vélez Sarsfield",
-            "played": 9,
-            "win": 4,
-            "draw": 5,
-            "loss": 0,
-            "for": 12,
-            "against": 7,
             "diff": 5,
             "points": 17,
             "highlight": "#BBF3BB"
@@ -32070,13 +32070,13 @@
           },
           {
             "team": "Tigre",
-            "played": 9,
+            "played": 10,
             "win": 3,
             "draw": 3,
-            "loss": 3,
-            "for": 7,
-            "against": 6,
-            "diff": 1,
+            "loss": 4,
+            "for": 9,
+            "against": 9,
+            "diff": 0,
             "points": 12,
             "highlight": "transparent"
           },
