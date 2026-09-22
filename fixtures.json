@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T23:35:02+00:00",
+  "updated": "2026-09-22T23:46:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16420,17 +16420,6 @@
       "attendance": null
     },
     {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Platense",
-      "score": "-",
-      "date": "2026-10-04",
-      "time": "17:00",
-      "utc": "2026-10-04T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "npc-2026",
       "home": "Bay of Plenty",
       "away": "North Harbour",
@@ -16460,6 +16449,17 @@
       "date": "2026-10-05",
       "time": "18:00",
       "utc": "2026-10-05T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Platense",
+      "score": "-",
+      "date": "2026-10-05",
+      "time": "19:00",
+      "utc": "2026-10-05T22:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -34763,7 +34763,7 @@
   },
   "espn_backoff_until": "2026-09-23T05:10:52.514577+00:00",
   "matrix_last_fetch": {
-    "velez": "2026-09-21T23:39:30.151262+00:00",
-    "torpedo": "2026-09-21T23:39:30.151262+00:00"
+    "velez": "2026-09-22T23:44:52.517185+00:00",
+    "torpedo": "2026-09-22T23:44:52.517185+00:00"
   }
 }
