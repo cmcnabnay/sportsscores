@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T16:37:10+00:00",
+  "updated": "2026-09-22T16:50:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33547,18 +33547,6 @@
             "highlight": null
           },
           {
-            "team": "Shanghai Dragons",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 13,
-            "against": 17,
-            "diff": -4,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Severstal Cherepovets",
             "played": 7,
             "win": 2,
@@ -33580,6 +33568,18 @@
             "against": 25,
             "diff": -13,
             "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Shanghai Dragons",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 13,
+            "against": 18,
+            "diff": -5,
+            "points": 4,
             "highlight": null
           },
           {
@@ -33688,10 +33688,10 @@
             "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 16,
+            "loss": 2,
+            "for": 17,
             "against": 19,
-            "diff": -3,
+            "diff": -2,
             "points": 6,
             "highlight": null
           },
