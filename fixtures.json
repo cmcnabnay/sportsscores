@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T16:50:08+00:00",
+  "updated": "2026-09-22T17:01:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33499,6 +33499,18 @@
             "highlight": null
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 17,
+            "against": 13,
+            "diff": 4,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "CSKA Moscow",
             "played": 7,
             "win": 4,
@@ -33507,18 +33519,6 @@
             "for": 19,
             "against": 15,
             "diff": 4,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 16,
-            "against": 13,
-            "diff": 3,
             "points": 8,
             "highlight": null
           },
@@ -33672,18 +33672,6 @@
             "highlight": null
           },
           {
-            "team": "Avangard Omsk",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 12,
-            "against": 13,
-            "diff": -1,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Avtomobilist Yekaterinburg",
             "played": 7,
             "win": 2,
@@ -33691,6 +33679,18 @@
             "loss": 2,
             "for": 17,
             "against": 19,
+            "diff": -2,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avangard Omsk",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 12,
+            "against": 14,
             "diff": -2,
             "points": 6,
             "highlight": null
