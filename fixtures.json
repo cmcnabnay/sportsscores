@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T18:10:41+00:00",
+  "updated": "2026-09-22T18:21:28+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33552,9 +33552,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 14,
+            "for": 15,
             "against": 18,
-            "diff": -4,
+            "diff": -3,
             "points": 6,
             "highlight": null
           },
@@ -33672,18 +33672,6 @@
             "highlight": null
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 17,
-            "against": 20,
-            "diff": -3,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Avangard Omsk",
             "played": 7,
             "win": 3,
@@ -33692,6 +33680,18 @@
             "for": 13,
             "against": 16,
             "diff": -3,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 17,
+            "against": 21,
+            "diff": -4,
             "points": 6,
             "highlight": null
           },
