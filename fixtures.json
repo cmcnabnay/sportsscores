@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:34:10+00:00",
+  "updated": "2026-09-22T17:45:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -33504,9 +33504,9 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 18,
+            "for": 19,
             "against": 14,
-            "diff": 4,
+            "diff": 5,
             "points": 10,
             "highlight": null
           },
@@ -33527,10 +33527,10 @@
             "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 12,
+            "loss": 3,
+            "for": 13,
             "against": 17,
-            "diff": -5,
+            "diff": -4,
             "points": 8,
             "highlight": null
           },
@@ -33612,18 +33612,6 @@
             "highlight": null
           },
           {
-            "team": "Barys Astana",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 28,
-            "against": 13,
-            "diff": 15,
-            "points": 10,
-            "highlight": null
-          },
-          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 7,
             "win": 4,
@@ -33645,6 +33633,18 @@
             "against": 17,
             "diff": 2,
             "points": 9,
+            "highlight": null
+          },
+          {
+            "team": "Barys Astana",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 28,
+            "against": 14,
+            "diff": 14,
+            "points": 8,
             "highlight": null
           },
           {
@@ -33690,8 +33690,8 @@
             "draw": null,
             "loss": 4,
             "for": 13,
-            "against": 15,
-            "diff": -2,
+            "against": 16,
+            "diff": -3,
             "points": 6,
             "highlight": null
           },
