@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T18:54:09+00:00",
+  "updated": "2026-09-22T19:06:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -15211,7 +15211,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "5-1",
       "date": "2026-09-22",
       "time": "16:30",
       "utc": "2026-09-22T16:30:00+00:00",
@@ -15222,7 +15222,7 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Barys Astana",
-      "score": null,
+      "score": "1-4",
       "date": "2026-09-22",
       "time": "16:30",
       "utc": "2026-09-22T16:30:00+00:00",
@@ -15233,7 +15233,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "3-2",
       "date": "2026-09-22",
       "time": "16:30",
       "utc": "2026-09-22T16:30:00+00:00",
@@ -15381,6 +15381,50 @@
       "time": "19:10",
       "utc": "2026-09-24T07:10:00+00:00",
       "venue": "Trafalgar Park",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Amur Khabarovsk",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "09:00",
+      "utc": "2026-09-25T09:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "14:00",
+      "utc": "2026-09-25T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Neftekhimik Nizhnekamsk",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "14:30",
+      "utc": "2026-09-25T14:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Lada Togliatti",
+      "away": "CSKA Moscow",
+      "score": null,
+      "date": "2026-09-25",
+      "time": "15:00",
+      "utc": "2026-09-25T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
