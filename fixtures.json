@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T02:03:09+00:00",
+  "updated": "2026-09-22T02:14:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -31903,6 +31903,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Lanús",
+            "played": 10,
+            "win": 5,
+            "draw": 1,
+            "loss": 4,
+            "for": 13,
+            "against": 9,
+            "diff": 4,
+            "points": 16,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Newell's Old Boys",
             "played": 10,
             "win": 4,
@@ -31912,18 +31924,6 @@
             "against": 8,
             "diff": 3,
             "points": 16,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Lanús",
-            "played": 9,
-            "win": 4,
-            "draw": 1,
-            "loss": 4,
-            "for": 11,
-            "against": 8,
-            "diff": 3,
-            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -31952,13 +31952,13 @@
           },
           {
             "team": "Estudiantes (LP)",
-            "played": 9,
+            "played": 10,
             "win": 3,
             "draw": 1,
-            "loss": 5,
-            "for": 9,
-            "against": 9,
-            "diff": 0,
+            "loss": 6,
+            "for": 10,
+            "against": 11,
+            "diff": -1,
             "points": 10,
             "highlight": "transparent"
           },
