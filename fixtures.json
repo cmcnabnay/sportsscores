@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T11:26:01+00:00",
+  "updated": "2026-09-23T11:37:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -15244,7 +15244,7 @@
       "league": "khl-2026-27",
       "home": "Amur Khabarovsk",
       "away": "CSKA Moscow",
-      "score": null,
+      "score": "0-2",
       "date": "2026-09-23",
       "time": "09:00",
       "utc": "2026-09-23T09:00:00+00:00",
@@ -15255,7 +15255,7 @@
       "league": "khl-2026-27",
       "home": "Admiral Vladivostok",
       "away": "Lokomotiv Yaroslavl",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-23",
       "time": "09:30",
       "utc": "2026-09-23T09:30:00+00:00",
@@ -15616,6 +15616,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "AK Bars",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "11:30",
+      "utc": "2026-09-26T11:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Perpignan",
       "away": "Bordeaux Begles",
@@ -15646,6 +15657,50 @@
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
       "venue": "Hollywoodbets Kings Park, Durban (South Africa)",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "HC Sochi",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Spartak Moscow",
+      "away": "Avtomobilist Yekaterinburg",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dynamo Moscow",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Shanghai Dragons",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -33513,8 +33568,8 @@
             "draw": null,
             "loss": 1,
             "for": 21,
-            "against": 12,
-            "diff": 9,
+            "against": 13,
+            "diff": 8,
             "points": 14,
             "highlight": null
           },
@@ -33709,9 +33764,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 13,
+            "for": 14,
             "against": 15,
-            "diff": -2,
+            "diff": -1,
             "points": 6,
             "highlight": null
           },
