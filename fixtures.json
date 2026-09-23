@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T23:36:09+00:00",
+  "updated": "2026-09-23T23:47:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16838,6 +16838,17 @@
       "attendance": null
     },
     {
+      "league": "russian-first-league-2026-27",
+      "home": "Leningradets",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Stormers",
       "away": "Sharks",
@@ -16978,17 +16989,6 @@
       "time": "18:45",
       "utc": "2026-10-10T18:45:00+00:00",
       "venue": "Laya Arena, Dublin (Ireland)",
-      "attendance": null
-    },
-    {
-      "league": "russian-first-league-2026-27",
-      "home": "Leningradets",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-10-10",
-      "time": "20:00",
-      "utc": "2026-10-10T17:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -34818,7 +34818,7 @@
   },
   "espn_backoff_until": "2026-09-24T05:25:15.981744+00:00",
   "matrix_last_fetch": {
-    "velez": "2026-09-22T23:44:52.517185+00:00",
-    "torpedo": "2026-09-22T23:44:52.517185+00:00"
+    "velez": "2026-09-23T23:46:15.982087+00:00",
+    "torpedo": "2026-09-23T23:46:15.982087+00:00"
   }
 }
