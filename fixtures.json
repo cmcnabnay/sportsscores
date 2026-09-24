@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T16:35:15+00:00",
+  "updated": "2026-09-24T16:45:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -49039,6 +49039,18 @@
             "highlight": null
           },
           {
+            "team": "Rostock Seawolves",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 114,
+            "against": 95,
+            "diff": 19,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 1,
             "win": 1,
@@ -49048,18 +49060,6 @@
             "against": 81,
             "diff": 15,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 105,
-            "against": 92,
-            "diff": 13,
-            "points": 4,
             "highlight": null
           },
           {
@@ -49092,8 +49092,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 93,
-            "against": 86,
+            "for": 101,
+            "against": 94,
             "diff": 7,
             "points": 3,
             "highlight": null
@@ -49104,8 +49104,8 @@
             "win": 0,
             "draw": null,
             "loss": 0,
-            "for": 4,
-            "against": 4,
+            "for": 12,
+            "against": 12,
             "diff": 0,
             "points": 1,
             "highlight": null
@@ -49183,18 +49183,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 77,
-            "against": 89,
-            "diff": -12,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 1,
             "win": 0,
@@ -49204,6 +49192,18 @@
             "against": 96,
             "diff": -15,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 80,
+            "against": 98,
+            "diff": -18,
+            "points": 1,
             "highlight": null
           },
           {
