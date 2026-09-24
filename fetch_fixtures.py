@@ -944,6 +944,107 @@ LEAGUES = {
             "scores365_competition_id": 636,
         },
     },
+    # --- 365Scores-sourced basketball leagues added 2026-09-24. Each
+    # season number below was confirmed as the one every 2026-27 game on
+    # 365Scores carries, distinct from the prior season's. Bump the
+    # number (and key/name) when the 2027-28 season starts, same as
+    # bbl-2026-27 above.
+    "euroleague-2026-27": {
+        "name": "EuroLeague 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 569,
+        "scores365_season_num": 71,
+        "standings": {"scores365_competition_id": 569},
+    },
+    "eurocup-2026-27": {
+        "name": "EuroCup 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 329,
+        "scores365_season_num": 25,
+        # 4 regular-season groups - split per group automatically, same
+        # as bcl-2026-27's (see fetch_scores365_standings_groups).
+        "standings": {"scores365_competition_id": 329},
+    },
+    "fiba-europe-cup-2026-27": {
+        "name": "FIBA Europe Cup 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 6282,
+        # Season 12 also includes the qualification rounds (already
+        # under way on 2026-09-23); season 11 was 2025-26.
+        "scores365_season_num": 12,
+        "standings": {"scores365_competition_id": 6282},
+    },
+    "liga-acb-2026-27": {
+        "name": "Liga ACB 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 14,
+        "scores365_season_num": 71,
+        "standings": {"scores365_competition_id": 14},
+    },
+    "lega-a-2026-27": {
+        "name": "Lega Basket Serie A 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 19,
+        "scores365_season_num": 53,
+        "standings": {"scores365_competition_id": 19},
+    },
+    "lnb-elite-2026-27": {
+        "name": "LNB Élite 2026-27",
+        "sport": "basketball",
+        "parser": "scores365",
+        "scores365_competition_id": 38,
+        "scores365_season_num": 105,
+        "standings": {"scores365_competition_id": 38},
+    },
+    # --- 365Scores-sourced hockey leagues added 2026-09-24. As of that
+    # date 365Scores had NOT yet loaded any 2026-27 games for these three
+    # (their "fixtures" endpoint was empty and "results" only had the
+    # 2025-26 playoffs, even though all three seasons had already
+    # started), and their season numbers are unreliable (Liiga's games
+    # carry none at all, SHL's "current" is still 1, DEL's still 12). So
+    # these are bounded by date instead of season number, the same
+    # mechanism top14-2026's scores365_fallback uses - they'll show no
+    # matches until 365Scores loads the season, then fill in on their
+    # own with no config change needed. If they're still empty weeks
+    # from now, 365Scores may have moved the new season to a different
+    # competition id - search https://webws.365scores.com/web/search/
+    # again.
+    "liiga-2026-27": {
+        "name": "Liiga 2026-27",
+        "sport": "hockey",
+        "parser": "scores365",
+        "scores365_competition_id": 370,
+        "scores365_min_date": "2026-09-01",
+        "scores365_max_date": "2027-06-30",
+        # No standings: 365Scores served none for Liiga on 2026-09-24,
+        # and with no season number to filter on, a table appearing later
+        # couldn't be told apart from last season's. Add a
+        # {"scores365_competition_id": 370} block once it's confirmed
+        # current.
+    },
+    "shl-2026-27": {
+        "name": "SHL 2026-27",
+        "sport": "hockey",
+        "parser": "scores365",
+        "scores365_competition_id": 373,
+        "scores365_min_date": "2026-09-01",
+        "scores365_max_date": "2027-06-30",
+        "standings": {"scores365_competition_id": 373, "stale_season_nums": [1]},
+    },
+    "del-2026-27": {
+        "name": "DEL 2026-27",
+        "sport": "hockey",
+        "parser": "scores365",
+        "scores365_competition_id": 379,
+        "scores365_min_date": "2026-09-01",
+        "scores365_max_date": "2027-06-30",
+        "standings": {"scores365_competition_id": 379, "stale_season_nums": [12]},
+    },
 }
 
 # Keyword -> UTC offset (hours), checked against a match's venue text to
@@ -1495,7 +1596,9 @@ def fetch_scores365_standings_groups(cfg, key):
         return int(x) if x is not None else None
 
     def build_row(row):
-        team = (row.get("competitor") or {}).get("name")
+        # Same canonicalization parse_scores365_matches applies, so a
+        # table row reads the same as that team's fixtures.
+        team = canonicalize_team_name((row.get("competitor") or {}).get("name"))
         if not team:
             return None
         return {
@@ -1511,8 +1614,15 @@ def fetch_scores365_standings_groups(cfg, key):
             "highlight": None,
         }
 
+    # A competition 365Scores hasn't rolled over to the new season yet
+    # still serves last season's final table (e.g. del-2026-27: 52 games
+    # played, season 12) - drop those rather than show them as current.
+    stale_season_nums = set(standings_cfg.get("stale_season_nums", []))
+
     result = {}
     for table in data.get("standings", []):
+        if table.get("seasonNum") in stale_season_nums:
+            continue
         group_names = {
             g["num"]: g["name"] for g in (table.get("groups") or []) if g.get("num") is not None
         }
@@ -1613,6 +1723,11 @@ TEAM_NAME_ALIASES = {
     "section paloise": "Pau",
     "racing-metro 92": "Racing 92",
     "stade français": "Stade Francais Paris",
+    # LNB Élite: 365Scores' "Chalon/Saone" (Chalon-sur-Saône) otherwise
+    # matches the "Winner A/Winner B" placeholder pattern (see
+    # PLACEHOLDER_TEAM_NAME_PATTERNS) and every one of its games gets
+    # dropped as a not-yet-decided slot.
+    "chalon/saone": "Chalon-sur-Saône",
 }
 
 
@@ -1654,6 +1769,11 @@ PLACEHOLDER_TEAM_NAME_PATTERNS = (
     re.compile(r"^\d+(?:st|nd|rd|th) place$", re.IGNORECASE),
     re.compile(r"^(?:highest|lowest) ranked (?:winner|loser)$", re.IGNORECASE),
     re.compile(r"^[^/]+/[^/]+$"),
+    # NRL finals-week pages write a not-yet-decided slot as "Sydney
+    # Roosters or Cronulla-Sutherland Sharks" until the earlier game is
+    # played, then rewrite it to the winner - same ghost-duplicate story.
+    re.compile(r"^.+\s+or\s+.+$", re.IGNORECASE),
+    re.compile(r"^(?:winner|loser)s?\s+of\b", re.IGNORECASE),
 )
 
 
@@ -4440,7 +4560,9 @@ def match_needs_score_check(m, now):
         return True
     if now - instant < MATCH_COMPLETION_BUFFER:
         return False
-    return m.get("score") is None
+    # MATRIX_TEAMS leagues (velez, torpedo) store an unplayed match's
+    # score as "-" rather than None - treat that the same as missing.
+    return m.get("score") in (None, "", "-")
 
 
 def league_needs_fetch(cached_matches, now):
@@ -4539,7 +4661,7 @@ def report_pending_score_updates(league_name, pending_matches, merged_matches):
     merged_by_ident = {_match_identity(m): m for m in merged_matches}
     for m in pending_matches:
         updated = merged_by_ident.get(_match_identity(m))
-        found = updated is not None and updated.get("score") is not None
+        found = updated is not None and updated.get("score") not in (None, "", "-")
         status = "score found" if found else "no score yet"
         date = m.get("date") or "unknown date"
         print(f"{league_name}: {m.get('home')} vs {m.get('away')} ({date}) - {status}")
@@ -5205,14 +5327,23 @@ def fetch_scores365_matrix_team_matches(competition_id, team_id):
     fetch_scores365_games does for a full-season LEAGUES entry - filtered
     down to games featuring the given team id. A MATRIX_TEAMS entry only
     ever needs to check a small number of recent/upcoming matches for its
-    one team (see update_matrix_team_results's `stale` check above), and
-    the roughly ten rounds either side of "now" this single request
-    already returns is always more than enough for that."""
-    url = (f"{SCORES365_GAMES_URL}fixtures/?{SCORES365_COMMON_PARAMS}"
-           f"&competitions={competition_id}")
-    data = fetch_scores365_json(url)
+    one team (see update_matrix_team_results's `stale` check above).
+
+    The "fixtures" endpoint alone only returns UPCOMING games - once a
+    round finishes, its games drop out of that window entirely (confirmed:
+    Velez vs Tigre, 2026-09-20, never got its 3-2 result because by the
+    next run the fixtures window had already moved on to the following
+    round). The "results" endpoint returns the most recent finished
+    rounds, so both are fetched and merged by game id."""
+    games_by_id = {}
+    for endpoint in ("fixtures", "results"):
+        url = (f"{SCORES365_GAMES_URL}{endpoint}/?{SCORES365_COMMON_PARAMS}"
+               f"&competitions={competition_id}")
+        data = fetch_scores365_json(url)
+        for g in data.get("games", []):
+            games_by_id[g["id"]] = g
     return [
-        g for g in data.get("games", [])
+        g for g in games_by_id.values()
         if (g.get("homeCompetitor") or {}).get("id") == team_id
         or (g.get("awayCompetitor") or {}).get("id") == team_id
     ]
@@ -5327,7 +5458,12 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
             raise ValueError(f"Unknown extra_pages parser {extra['parser']!r} for league '{key}'")
         wikitext = fetch_page_wikitext(extra["page"])
         matches.extend(parse_fn(wikitext, key, cfg))
-    return matches
+    # Not every parser guards against placeholder slots itself (only the
+    # wikitable/rugbybox2 ones do) - drop them here for all of them, so a
+    # not-yet-decided slot never gets stored alongside the real fixture.
+    return [m for m in matches
+            if not is_placeholder_team_name(m.get("home"))
+            and not is_placeholder_team_name(m.get("away"))]
 
 
 def _fetch_and_parse_main(cfg, key, cached=None, now=None):
@@ -5402,7 +5538,14 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
         return matches
 
     if parser_type == "scores365":
-        games = fetch_scores365_games(cfg["scores365_competition_id"], cfg["scores365_season_num"])
+        # Either an exact season number, or (where 365Scores' numbering
+        # can't be trusted - see liiga/shl/del-2026-27) a date range.
+        games = fetch_scores365_games(
+            cfg["scores365_competition_id"],
+            season_num=cfg.get("scores365_season_num"),
+            min_date=cfg.get("scores365_min_date"),
+            max_date=cfg.get("scores365_max_date"),
+        )
         return parse_scores365_matches(games, key)
 
     if parser_type == "espn":
