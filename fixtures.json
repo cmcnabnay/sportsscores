@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T08:55:21+00:00",
+  "updated": "2026-09-24T09:06:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -47088,6 +47088,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Tasman",
+            "played": 9,
+            "win": 5,
+            "draw": 0,
+            "loss": 4,
+            "for": 298,
+            "against": 286,
+            "diff": 12,
+            "points": 27,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Waikato",
             "played": 8,
             "win": 4,
@@ -47112,27 +47124,15 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Tasman",
-            "played": 8,
-            "win": 4,
-            "draw": 0,
-            "loss": 4,
-            "for": 253,
-            "against": 260,
-            "diff": -7,
-            "points": 22,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Bay of Plenty",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": 0,
-            "loss": 4,
-            "for": 194,
-            "against": 234,
-            "diff": -40,
-            "points": 22,
+            "loss": 5,
+            "for": 220,
+            "against": 279,
+            "diff": -59,
+            "points": 23,
             "highlight": "transparent"
           },
           {
