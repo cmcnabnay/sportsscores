@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T14:58:11+00:00",
+  "updated": "2026-09-24T15:29:51+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -15333,7 +15333,7 @@
       "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "Lada Togliatti",
-      "score": "1-1",
+      "score": "7-3",
       "date": "2026-09-23",
       "time": "16:30",
       "utc": "2026-09-23T16:30:00+00:00",
@@ -15355,7 +15355,7 @@
       "league": "khl-2026-27",
       "home": "Sibir Novosibirsk",
       "away": "AK Bars",
-      "score": null,
+      "score": "2-3",
       "date": "2026-09-24",
       "time": "12:30",
       "utc": "2026-09-24T12:30:00+00:00",
@@ -16200,6 +16200,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Admiral Vladivostok",
+      "away": "Neftekhimik Nizhnekamsk",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "07:00",
+      "utc": "2026-09-27T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Australia",
       "away": "South Africa",
@@ -16222,6 +16233,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Sibir Novosibirsk",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "10:30",
+      "utc": "2026-09-27T10:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "San Pablo Burgos",
       "away": "Baskonia Vitoria",
@@ -16240,6 +16262,17 @@
       "date": "2026-09-27",
       "time": "11:00",
       "utc": "2026-09-27T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-09-27",
+      "time": "12:00",
+      "utc": "2026-09-27T12:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -49366,6 +49399,18 @@
             "highlight": null
           },
           {
+            "team": "AK Bars",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 21,
+            "against": 19,
+            "diff": 2,
+            "points": 11,
+            "highlight": null
+          },
+          {
             "team": "Barys Astana",
             "played": 7,
             "win": 5,
@@ -49375,18 +49420,6 @@
             "against": 14,
             "diff": 17,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "AK Bars",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 21,
-            "against": 19,
-            "diff": 2,
-            "points": 9,
             "highlight": null
           },
           {
@@ -49438,18 +49471,6 @@
             "highlight": null
           },
           {
-            "team": "Amur Khabarovsk",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 11,
-            "against": 15,
-            "diff": -4,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Sibir Novosibirsk",
             "played": 8,
             "win": 2,
@@ -49458,6 +49479,18 @@
             "for": 16,
             "against": 25,
             "diff": -9,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Amur Khabarovsk",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 11,
+            "against": 15,
+            "diff": -4,
             "points": 5,
             "highlight": null
           },
