@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T05:49:10+00:00",
+  "updated": "2026-09-24T05:57:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14326,10 +14326,10 @@
       "attendance": null
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Breogán",
-      "away": "Rilski Sportist",
-      "score": "126-80",
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Dynamo Moscow",
+      "score": "0-2",
       "date": "2026-09-14",
       "time": "16:00",
       "utc": "2026-09-14T16:00:00+00:00",
@@ -14337,10 +14337,10 @@
       "attendance": null
     },
     {
-      "league": "khl-2026-27",
-      "home": "Severstal Cherepovets",
-      "away": "Dynamo Moscow",
-      "score": "0-2",
+      "league": "bcl-2026-27",
+      "home": "Breogán",
+      "away": "Rilski Sportist",
+      "score": "126-80",
       "date": "2026-09-14",
       "time": "16:00",
       "utc": "2026-09-14T16:00:00+00:00",
@@ -16553,17 +16553,6 @@
     },
     {
       "league": "bcl-2026-27",
-      "home": "Joventut de Badalona",
-      "away": "Bnei Hertzliya",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "18:00",
-      "utc": "2026-10-06T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bcl-2026-27",
       "home": "KK Cibona Zagreb",
       "away": "Galatasaray",
       "score": null,
@@ -16608,6 +16597,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "Bnei Hertzliya",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:30",
+      "utc": "2026-10-06T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Slavia Praha",
       "away": "Alba Berlin",
       "score": null,
@@ -16621,6 +16621,17 @@
       "league": "bcl-2026-27",
       "home": "Trabzonspor Medical Park",
       "away": "Nanterre",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "AEK",
+      "away": "Salon Vilpas",
       "score": null,
       "date": "2026-10-07",
       "time": "16:00",
@@ -16654,6 +16665,17 @@
       "league": "bcl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "FC Porto",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:00",
+      "utc": "2026-10-07T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Kk Spartak Subotica",
+      "away": "SC Rasta Vechta",
       "score": null,
       "date": "2026-10-07",
       "time": "18:00",
@@ -17146,6 +17168,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Cholet",
+      "away": "SC Rasta Vechta",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "utc": "2026-10-14T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Gloucester Rugby",
       "away": "Bordeaux Begles",
@@ -17457,6 +17490,17 @@
       "league": "bcl-2026-27",
       "home": "Pardubice",
       "away": "Unicaja Málaga",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "16:00",
+      "utc": "2026-10-20T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Szombathely",
+      "away": "Salon Vilpas",
       "score": null,
       "date": "2026-10-20",
       "time": "16:00",
@@ -17983,6 +18027,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Hapoel Holon",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "utc": "2026-10-28T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Cholet",
       "away": "Kk Spartak Subotica",
       "score": null,
@@ -18280,6 +18335,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "Salon Vilpas",
+      "away": "Talenet Giants Antwerp",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "17:30",
+      "utc": "2026-11-03T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Juventus",
       "away": "Pardubice",
       "score": null,
@@ -18315,6 +18381,17 @@
       "league": "bcl-2026-27",
       "home": "Unicaja Málaga",
       "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "19:30",
+      "utc": "2026-11-03T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "FC Porto",
+      "away": "Joventut de Badalona",
       "score": null,
       "date": "2026-11-03",
       "time": "19:30",
@@ -18709,6 +18786,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "Hapoel Holon",
+      "away": "SC Rasta Vechta",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "17:30",
+      "utc": "2026-11-10T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Kk Spartak Subotica",
       "away": "Cholet",
       "score": null,
@@ -19039,12 +19127,23 @@
     },
     {
       "league": "bcl-2026-27",
-      "home": "Joventut de Badalona",
-      "away": "FC Porto",
+      "home": "Talenet Giants Antwerp",
+      "away": "Salon Vilpas",
       "score": null,
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "FC Porto",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "19:30",
+      "utc": "2026-11-17T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -20326,6 +20425,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Cholet",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "18:00",
+      "utc": "2026-12-08T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "KK Igokea",
       "away": "Alba Berlin",
       "score": null,
@@ -20608,6 +20718,17 @@
       "time": "17:30",
       "utc": "2026-12-13T17:30:00+00:00",
       "venue": "Paris La Defense Arena, Nanterre (France)",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas",
+      "away": "AEK",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:30",
+      "utc": "2026-12-15T17:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -21063,6 +21184,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "Salon Vilpas",
+      "away": "Szombathely",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "18:00",
+      "utc": "2026-12-22T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Alba Berlin",
       "away": "Slavia Praha",
       "score": null,
@@ -21142,6 +21274,17 @@
       "league": "bcl-2026-27",
       "home": "Cholet",
       "away": "Hapoel Holon",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:00",
+      "utc": "2026-12-23T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Kk Spartak Subotica",
       "score": null,
       "date": "2026-12-23",
       "time": "19:00",
@@ -34818,7 +34961,7 @@
   },
   "espn_backoff_until": "2026-09-24T13:26:16.024245+00:00",
   "matrix_last_fetch": {
-    "velez": "2026-09-23T23:46:15.982087+00:00",
-    "torpedo": "2026-09-23T23:46:15.982087+00:00"
+    "velez": "2026-09-24T05:56:47.087575+00:00",
+    "torpedo": "2026-09-24T05:56:47.087575+00:00"
   }
 }
