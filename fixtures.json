@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:16:12+00:00",
+  "updated": "2026-09-24T20:28:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64907,6 +64907,30 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Panathinaikos BC",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 91,
+            "against": 72,
+            "diff": 19,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Kauno Žalgiris",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 83,
+            "against": 77,
+            "diff": 6,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Bayern München",
             "played": 1,
             "win": 1,
@@ -64967,18 +64991,6 @@
             "highlight": null
           },
           {
-            "team": "Kauno Žalgiris",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Beşiktaş JK",
             "played": 0,
             "win": 0,
@@ -65004,18 +65016,6 @@
           },
           {
             "team": "Fenerbahçe Tarfin",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "KK Crvena zvezda",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -65075,30 +65075,6 @@
             "highlight": null
           },
           {
-            "team": "Panathinaikos BC",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Valencia Basket",
             "played": 0,
             "win": 0,
@@ -65143,6 +65119,30 @@
             "for": 84,
             "against": 86,
             "diff": -2,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "KK Crvena zvezda",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 77,
+            "against": 83,
+            "diff": -6,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 72,
+            "against": 91,
+            "diff": -19,
             "points": null,
             "highlight": null
           }
