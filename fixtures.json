@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T13:41:46+00:00",
+  "updated": "2026-09-24T14:03:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -49382,10 +49382,10 @@
             "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 20,
-            "against": 18,
-            "diff": 2,
+            "against": 19,
+            "diff": 1,
             "points": 9,
             "highlight": null
           },
@@ -49399,6 +49399,18 @@
             "against": 18,
             "diff": 6,
             "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Sibir Novosibirsk",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 16,
+            "against": 24,
+            "diff": -8,
+            "points": 7,
             "highlight": null
           },
           {
@@ -49446,18 +49458,6 @@
             "for": 11,
             "against": 15,
             "diff": -4,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Sibir Novosibirsk",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 15,
-            "against": 24,
-            "diff": -9,
             "points": 5,
             "highlight": null
           },
