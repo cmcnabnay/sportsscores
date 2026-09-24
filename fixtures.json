@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T18:16:15+00:00",
+  "updated": "2026-09-24T18:27:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62966,25 +62966,25 @@
             "highlight": null
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 171,
-            "against": 157,
-            "diff": 14,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 2,
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 166,
-            "against": 152,
+            "for": 175,
+            "against": 160,
+            "diff": 15,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 177,
+            "against": 163,
             "diff": 14,
             "points": 4,
             "highlight": null
@@ -63019,9 +63019,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 94,
-            "against": 122,
-            "diff": -28,
+            "for": 106,
+            "against": 123,
+            "diff": -17,
             "points": 2,
             "highlight": null
           },
@@ -63050,18 +63050,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 70,
-            "against": 77,
-            "diff": -7,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -63074,13 +63062,13 @@
             "highlight": null
           },
           {
-            "team": "SC Rasta Vechta",
+            "team": "Skyliners Frankfurt",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 14,
-            "against": 22,
+            "for": 78,
+            "against": 86,
             "diff": -8,
             "points": 1,
             "highlight": null
@@ -63115,8 +63103,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 142,
-            "against": 155,
+            "for": 148,
+            "against": 161,
             "diff": -13,
             "points": 1,
             "highlight": null
@@ -63131,6 +63119,18 @@
             "against": 96,
             "diff": -15,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 34,
+            "diff": -19,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63181,10 +63181,10 @@
             "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 21,
+            "loss": 2,
+            "for": 22,
             "against": 11,
-            "diff": 10,
+            "diff": 11,
             "points": 10,
             "highlight": null
           },
@@ -63213,27 +63213,27 @@
             "highlight": null
           },
           {
+            "team": "Dinamo Minsk",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 22,
+            "against": 19,
+            "diff": 3,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Dynamo Moscow",
             "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 15,
-            "against": 22,
-            "diff": -7,
+            "against": 23,
+            "diff": -8,
             "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 21,
-            "against": 19,
-            "diff": 2,
-            "points": 7,
             "highlight": null
           },
           {
@@ -63350,18 +63350,6 @@
             "highlight": null
           },
           {
-            "team": "Avangard Omsk",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 14,
-            "against": 18,
-            "diff": -4,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 8,
             "win": 2,
@@ -63370,6 +63358,18 @@
             "for": 14,
             "against": 15,
             "diff": -1,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avangard Omsk",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 14,
+            "against": 19,
+            "diff": -5,
             "points": 6,
             "highlight": null
           },
