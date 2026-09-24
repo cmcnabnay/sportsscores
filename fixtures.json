@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:49:10+00:00",
+  "updated": "2026-09-24T21:00:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64902,6 +64902,18 @@
             "highlight": null
           },
           {
+            "team": "LDLC ASVEL Lyon-Villeurbanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 84,
+            "against": 74,
+            "diff": 10,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Barça Basket",
             "played": 1,
             "win": 1,
@@ -64950,18 +64962,6 @@
             "highlight": null
           },
           {
-            "team": "LDLC ASVEL Lyon-Villeurbanne",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Beşiktaş JK",
             "played": 0,
             "win": 0,
@@ -64987,18 +64987,6 @@
           },
           {
             "team": "KK Partizan Mozzart Bet",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Maccabi Tel Aviv",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -65090,6 +65078,18 @@
             "for": 82,
             "against": 89,
             "diff": -7,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Maccabi Tel Aviv",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 74,
+            "against": 84,
+            "diff": -10,
             "points": null,
             "highlight": null
           },
