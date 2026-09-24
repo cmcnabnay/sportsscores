@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T16:55:12+00:00",
+  "updated": "2026-09-24T17:06:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -49044,9 +49044,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 117,
-            "against": 99,
-            "diff": 18,
+            "for": 130,
+            "against": 110,
+            "diff": 20,
             "points": 4,
             "highlight": null
           },
@@ -49060,18 +49060,6 @@
             "against": 81,
             "diff": 15,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 111,
-            "against": 100,
-            "diff": 11,
-            "points": 4,
             "highlight": null
           },
           {
@@ -49096,6 +49084,30 @@
             "against": 77,
             "diff": 9,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 30,
+            "against": 27,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 116,
+            "against": 112,
+            "diff": 4,
+            "points": 3,
             "highlight": null
           },
           {
@@ -49132,18 +49144,6 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 18,
-            "against": 22,
-            "diff": -4,
-            "points": 1,
             "highlight": null
           },
           {
@@ -49200,9 +49200,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 84,
-            "against": 101,
-            "diff": -17,
+            "for": 95,
+            "against": 114,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
@@ -49298,27 +49298,27 @@
             "highlight": null
           },
           {
-            "team": "Dynamo Moscow",
-            "played": 9,
-            "win": 5,
+            "team": "Dinamo Minsk",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 14,
-            "against": 20,
-            "diff": -6,
-            "points": 10,
+            "loss": 1,
+            "for": 21,
+            "against": 18,
+            "diff": 3,
+            "points": 9,
             "highlight": null
           },
           {
-            "team": "Dinamo Minsk",
-            "played": 7,
-            "win": 2,
+            "team": "Dynamo Moscow",
+            "played": 9,
+            "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 19,
-            "against": 18,
-            "diff": 1,
-            "points": 7,
+            "loss": 5,
+            "for": 14,
+            "against": 22,
+            "diff": -8,
+            "points": 8,
             "highlight": null
           },
           {
