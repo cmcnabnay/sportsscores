@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T06:13:57+00:00",
+  "updated": "2026-09-24T06:22:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -156,11 +156,6 @@
       "sport": "basketball",
       "completed": false
     },
-    "liga-acb-2026-27": {
-      "name": "Liga ACB 2026-27",
-      "sport": "basketball",
-      "completed": false
-    },
     "lega-a-2026-27": {
       "name": "Lega Basket Serie A 2026-27",
       "sport": "basketball",
@@ -184,6 +179,11 @@
     "del-2026-27": {
       "name": "DEL 2026-27",
       "sport": "hockey",
+      "completed": false
+    },
+    "liga-acb-2026-27": {
+      "name": "Liga ACB 2026-27",
+      "sport": "basketball",
       "completed": false
     }
   },
@@ -14613,17 +14613,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Veles Moscow",
-      "score": "1-1",
-      "date": "2026-09-17",
-      "time": "18:00",
-      "utc": "2026-09-17T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Benfica",
       "away": "SC Rasta Vechta",
@@ -14631,6 +14620,17 @@
       "date": "2026-09-17",
       "time": "18:00",
       "utc": "2026-09-17T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Veles Moscow",
+      "score": "1-1",
+      "date": "2026-09-17",
+      "time": "19:00",
+      "utc": "2026-09-17T16:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -15980,6 +15980,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Limoges",
+      "score": null,
+      "date": "2026-09-26",
+      "time": "16:00",
+      "utc": "2026-09-26T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "premiership-2026",
       "home": "Sale Sharks",
       "away": "Bristol Rugby",
@@ -17301,6 +17312,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "JL Bourg",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "18:30",
+      "utc": "2026-10-03T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "premiership-2026",
       "home": "Newcastle Falcons",
       "away": "Leicester Tigers",
@@ -18423,6 +18445,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Nancy",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Unicaja Málaga",
       "away": "MoraBanc Andorra",
@@ -19512,6 +19545,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Cholet",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "16:30",
+      "utc": "2026-10-17T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "BC Lions",
@@ -20560,6 +20604,17 @@
       "league": "bbl-2026-27",
       "home": "Mitteldeutscher",
       "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "16:30",
+      "utc": "2026-10-24T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Strasbourg",
       "score": null,
       "date": "2026-10-24",
       "time": "16:30",
@@ -21943,6 +21998,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Paris Basketball",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "18:00",
+      "utc": "2026-11-01T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Tofas",
       "away": "Neptūnas",
@@ -22606,6 +22672,17 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Pau-orthez",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Nanterre",
+      "away": "Chalon-sur-Saône",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -23519,6 +23596,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Pau-orthez",
       "away": "Strasbourg",
+      "score": null,
+      "date": "2026-11-14",
+      "time": "19:00",
+      "utc": "2026-11-14T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Boulazac",
       "score": null,
       "date": "2026-11-14",
       "time": "19:00",
@@ -24531,6 +24619,17 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "JL Bourg",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "19:00",
+      "utc": "2026-11-21T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Saint Quentin",
       "score": null,
       "date": "2026-11-21",
       "time": "19:00",
@@ -26024,6 +26123,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Gravelines",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "19:00",
+      "utc": "2026-12-05T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Glasgow Warriors",
       "away": "Benetton Treviso",
@@ -26962,6 +27072,17 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Paris Basketball",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "19:00",
+      "utc": "2026-12-12T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Le Mans",
       "score": null,
       "date": "2026-12-12",
       "time": "19:00",
@@ -28125,6 +28246,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Pau-orthez",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "19:00",
+      "utc": "2026-12-19T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Connacht",
       "away": "Edinburgh",
@@ -28623,6 +28755,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Pau-orthez",
       "away": "Boulazac",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "19:00",
+      "utc": "2026-12-22T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "ASVEL Villeurbanne",
       "score": null,
       "date": "2026-12-22",
       "time": "19:00",
@@ -29426,6 +29569,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Strasbourg",
       "away": "Nancy",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "19:00",
+      "utc": "2026-12-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chorale de Roanne",
+      "away": "Chalon-sur-Saône",
       "score": null,
       "date": "2026-12-27",
       "time": "19:00",
@@ -30974,6 +31128,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Dijon",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "19:00",
+      "utc": "2027-01-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Connacht",
       "away": "Stade Toulousain",
@@ -31975,6 +32140,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Gravelines",
+      "score": null,
+      "date": "2027-01-16",
+      "time": "19:00",
+      "utc": "2027-01-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Clermont Auvergne",
       "away": "Glasgow Warriors",
@@ -32800,6 +32976,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Nancy",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "19:00",
+      "utc": "2027-01-23T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Munster",
       "away": "Connacht",
@@ -33449,6 +33636,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Nanterre",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "19:00",
+      "utc": "2027-01-30T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Benetton Treviso",
       "away": "Sharks",
@@ -34043,6 +34241,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "ASVEL Villeurbanne",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-02-06",
+      "time": "19:00",
+      "utc": "2027-02-06T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Basquet Girona",
       "away": "Unicaja Málaga",
@@ -34497,6 +34706,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "Strasbourg",
+      "score": null,
+      "date": "2027-02-13",
+      "time": "19:00",
+      "utc": "2027-02-13T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Dijon",
       "score": null,
       "date": "2027-02-13",
       "time": "19:00",
@@ -36122,6 +36342,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Strasbourg",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-03-06",
+      "time": "19:00",
+      "utc": "2027-03-06T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Baskonia Vitoria",
       "away": "ICG Forca Lleida",
@@ -36719,6 +36950,17 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Le Mans",
+      "score": null,
+      "date": "2027-03-13",
+      "time": "19:00",
+      "utc": "2027-03-13T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Paris Basketball",
       "score": null,
       "date": "2027-03-13",
       "time": "19:00",
@@ -37401,6 +37643,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "Le Mans",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "19:00",
+      "utc": "2027-03-20T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Cholet",
       "score": null,
       "date": "2027-03-20",
       "time": "19:00",
@@ -38212,6 +38465,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Limoges",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "19:00",
+      "utc": "2027-03-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Benetton Treviso",
       "away": "Ulster",
@@ -38721,6 +38985,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "JL Bourg",
+      "score": null,
+      "date": "2027-04-03",
+      "time": "18:00",
+      "utc": "2027-04-03T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Pau-orthez",
       "score": null,
       "date": "2027-04-03",
       "time": "18:00",
@@ -39304,6 +39579,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Strasbourg",
       "away": "Limoges",
+      "score": null,
+      "date": "2027-04-10",
+      "time": "18:00",
+      "utc": "2027-04-10T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Saint Quentin",
+      "away": "Chalon-sur-Saône",
       "score": null,
       "date": "2027-04-10",
       "time": "18:00",
@@ -40008,6 +40294,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "18:00",
+      "utc": "2027-04-17T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "JL Bourg",
       "score": null,
       "date": "2027-04-17",
       "time": "18:00",
@@ -40841,6 +41138,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Le Mans",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2027-04-27",
+      "time": "18:00",
+      "utc": "2027-04-27T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Bayern Munich",
@@ -40987,6 +41295,17 @@
       "league": "lnb-elite-2026-27",
       "home": "Nanterre",
       "away": "Dijon",
+      "score": null,
+      "date": "2027-05-01",
+      "time": "18:00",
+      "utc": "2027-05-01T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Chorale de Roanne",
       "score": null,
       "date": "2027-05-01",
       "time": "18:00",
@@ -41900,6 +42219,17 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Saint Quentin",
+      "score": null,
+      "date": "2027-05-09",
+      "time": "18:00",
+      "utc": "2027-05-09T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Boulazac",
+      "away": "Chalon-sur-Saône",
       "score": null,
       "date": "2027-05-09",
       "time": "18:00",
@@ -50453,7 +50783,7 @@
             "highlight": null
           },
           {
-            "team": "Chalon/Saone",
+            "team": "Chalon-sur-Saône",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -51158,7 +51488,7 @@
   },
   "espn_backoff_until": "2026-09-24T13:26:16.024245+00:00",
   "matrix_last_fetch": {
-    "velez": "2026-09-24T06:05:47.256561+00:00",
-    "torpedo": "2026-09-24T05:56:47.087575+00:00"
+    "velez": "2026-09-24T06:13:56.342782+00:00",
+    "torpedo": "2026-09-24T06:13:56.342782+00:00"
   }
 }
