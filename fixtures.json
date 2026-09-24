@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T17:55:11+00:00",
+  "updated": "2026-09-24T18:05:23+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16224,7 +16224,7 @@
       "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "Tappara Tampere",
-      "score": null,
+      "score": "3-2",
       "date": "2026-09-24",
       "time": "15:30",
       "utc": "2026-09-24T15:30:00+00:00",
@@ -23832,6 +23832,28 @@
       "time": "14:00",
       "utc": "2026-10-24T14:00:00+00:00",
       "venue": "LahiTapiola Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Vaasan Sport",
+      "away": "SaiPa Lappeenranta",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "Vaasa Arena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Oulun Kärpät",
+      "away": "KalPa Kuopio",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "Oulun Energia Areena",
       "attendance": null
     },
     {
@@ -32027,6 +32049,17 @@
       "time": "15:00",
       "utc": "2026-12-05T15:00:00+00:00",
       "venue": "Lumon Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Rauman Lukko",
+      "away": "Oulun Kärpät",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": "Äijänsuo Arena",
       "attendance": null
     },
     {
@@ -44846,17 +44879,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "SaiPa Lappeenranta",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-02-05",
-      "time": "16:30",
-      "utc": "2027-02-05T16:30:00+00:00",
-      "venue": "Kisapuisto",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "Kiekko-Espoo",
       "score": null,
@@ -45139,6 +45161,17 @@
       "time": "15:00",
       "utc": "2027-02-06T15:00:00+00:00",
       "venue": "Kalevankankaan jäähalli",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "SaiPa Lappeenranta",
+      "away": "Vaasan Sport",
+      "score": null,
+      "date": "2027-02-06",
+      "time": "15:00",
+      "utc": "2027-02-06T15:00:00+00:00",
+      "venue": "Kisapuisto",
       "attendance": null
     },
     {
@@ -46606,17 +46639,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "KalPa Kuopio",
-      "away": "Oulun Kärpät",
-      "score": null,
-      "date": "2027-02-19",
-      "time": "17:30",
-      "utc": "2027-02-19T17:30:00+00:00",
-      "venue": "Olvi Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "Kiekko-Espoo",
       "score": null,
@@ -46888,6 +46910,17 @@
       "time": "15:00",
       "utc": "2027-02-20T15:00:00+00:00",
       "venue": "Vaasa Arena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "KalPa Kuopio",
+      "away": "Oulun Kärpät",
+      "score": null,
+      "date": "2027-02-20",
+      "time": "15:00",
+      "utc": "2027-02-20T15:00:00+00:00",
+      "venue": "Olvi Areena",
       "attendance": null
     },
     {
@@ -47937,17 +47970,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "KooKoo Kouvola",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": "Lumon Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "Mikkelin Jukurit",
       "score": null,
@@ -48640,6 +48662,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "KooKoo Kouvola",
+      "away": "Vaasan Sport",
+      "score": null,
+      "date": "2027-03-03",
+      "time": "16:30",
+      "utc": "2027-03-03T16:30:00+00:00",
+      "venue": "Lumon Areena",
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Schwenningen Wild Wings",
       "away": "Pinguins Bremerhaven",
@@ -48890,17 +48923,6 @@
       "time": "16:30",
       "utc": "2027-03-05T16:30:00+00:00",
       "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Oulun Kärpät",
-      "away": "Rauman Lukko",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "16:30",
-      "utc": "2027-03-05T16:30:00+00:00",
-      "venue": "Oulun Energia Areena",
       "attendance": null
     },
     {
@@ -49165,6 +49187,17 @@
       "time": "15:00",
       "utc": "2027-03-06T15:00:00+00:00",
       "venue": "Lumon Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Oulun Kärpät",
+      "away": "Rauman Lukko",
+      "score": null,
+      "date": "2027-03-06",
+      "time": "15:00",
+      "utc": "2027-03-06T15:00:00+00:00",
+      "venue": "Oulun Energia Areena",
       "attendance": null
     },
     {
@@ -62959,9 +62992,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 161,
-            "against": 142,
-            "diff": 19,
+            "for": 166,
+            "against": 149,
+            "diff": 17,
             "points": 4,
             "highlight": null
           },
@@ -62971,9 +63004,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 153,
-            "against": 137,
-            "diff": 16,
+            "for": 158,
+            "against": 141,
+            "diff": 17,
             "points": 4,
             "highlight": null
           },
@@ -63014,6 +63047,18 @@
             "highlight": null
           },
           {
+            "team": "SC Rasta Vechta",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 4,
+            "against": 2,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Science City Jena",
             "played": 0,
             "win": 0,
@@ -63038,18 +63083,6 @@
             "highlight": null
           },
           {
-            "team": "SC Rasta Vechta",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -63062,18 +63095,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 55,
-            "against": 64,
-            "diff": -9,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 1,
             "win": 0,
@@ -63083,6 +63104,18 @@
             "against": 116,
             "diff": -9,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 59,
+            "against": 69,
+            "diff": -10,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63115,9 +63148,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 127,
-            "against": 145,
-            "diff": -18,
+            "for": 134,
+            "against": 150,
+            "diff": -16,
             "points": 1,
             "highlight": null
           },
@@ -63135,14 +63168,14 @@
           },
           {
             "team": "Brose Bamberg",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 72,
-            "against": 108,
-            "diff": -36,
-            "points": 0,
+            "loss": 2,
+            "for": 74,
+            "against": 112,
+            "diff": -38,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -63170,9 +63203,9 @@
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 22,
+            "for": 23,
             "against": 14,
-            "diff": 8,
+            "diff": 9,
             "points": 12,
             "highlight": null
           },
@@ -63279,8 +63312,8 @@
             "draw": null,
             "loss": 6,
             "for": 6,
-            "against": 22,
-            "diff": -16,
+            "against": 23,
+            "diff": -17,
             "points": 2,
             "highlight": null
           }
@@ -64906,6 +64939,18 @@
             "highlight": null
           },
           {
+            "team": "Rauman Lukko",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 17,
+            "against": 16,
+            "diff": 1,
+            "points": 11,
+            "highlight": null
+          },
+          {
             "team": "SaiPa Lappeenranta",
             "played": 5,
             "win": 4,
@@ -64931,13 +64976,13 @@
           },
           {
             "team": "Tappara Tampere",
-            "played": 5,
+            "played": 6,
             "win": 3,
             "draw": null,
-            "loss": 2,
-            "for": 15,
-            "against": 10,
-            "diff": 5,
+            "loss": 3,
+            "for": 17,
+            "against": 13,
+            "diff": 4,
             "points": 9,
             "highlight": null
           },
@@ -64987,18 +65032,6 @@
             "against": 25,
             "diff": -10,
             "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Rauman Lukko",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 14,
-            "against": 14,
-            "diff": 0,
-            "points": 8,
             "highlight": null
           },
           {
