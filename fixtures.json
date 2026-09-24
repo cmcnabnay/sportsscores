@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T18:27:12+00:00",
+  "updated": "2026-09-24T18:40:42+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16235,7 +16235,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "HC Sochi",
-      "score": null,
+      "score": "3-0",
       "date": "2026-09-24",
       "time": "16:00",
       "utc": "2026-09-24T16:00:00+00:00",
@@ -16246,7 +16246,7 @@
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "5-2",
       "date": "2026-09-24",
       "time": "16:00",
       "utc": "2026-09-24T16:00:00+00:00",
@@ -16257,7 +16257,7 @@
       "league": "euroleague-2026-27",
       "home": "Hapoel Tel Aviv",
       "away": "Bayern Munich",
-      "score": null,
+      "score": "84-86",
       "date": "2026-09-24",
       "time": "16:00",
       "utc": "2026-09-24T16:00:00+00:00",
@@ -16268,7 +16268,7 @@
       "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "Real Madrid",
-      "score": null,
+      "score": "78-77",
       "date": "2026-09-24",
       "time": "16:00",
       "utc": "2026-09-24T16:00:00+00:00",
@@ -16301,7 +16301,7 @@
       "league": "khl-2026-27",
       "home": "Spartak Moscow",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "1-1",
       "date": "2026-09-24",
       "time": "16:30",
       "utc": "2026-09-24T16:30:00+00:00",
@@ -16312,7 +16312,7 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Dinamo Minsk",
-      "score": null,
+      "score": "2-3",
       "date": "2026-09-24",
       "time": "16:30",
       "utc": "2026-09-24T16:30:00+00:00",
@@ -16400,7 +16400,7 @@
       "league": "euroleague-2026-27",
       "home": "Crvena Zvezda",
       "away": "Zalgiris Kaunas",
-      "score": null,
+      "score": "31-32",
       "date": "2026-09-24",
       "time": "18:00",
       "utc": "2026-09-24T18:00:00+00:00",
@@ -16411,7 +16411,7 @@
       "league": "euroleague-2026-27",
       "home": "Panathinaikos",
       "away": "Paris Basketball",
-      "score": null,
+      "score": "31-17",
       "date": "2026-09-24",
       "time": "18:15",
       "utc": "2026-09-24T18:15:00+00:00",
@@ -16422,7 +16422,7 @@
       "league": "euroleague-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Olympiacos",
-      "score": null,
+      "score": "16-11",
       "date": "2026-09-24",
       "time": "18:30",
       "utc": "2026-09-24T18:30:00+00:00",
@@ -16433,7 +16433,7 @@
       "league": "euroleague-2026-27",
       "home": "Barcelona",
       "away": "Anadolu Efes",
-      "score": null,
+      "score": "6-19",
       "date": "2026-09-24",
       "time": "18:30",
       "utc": "2026-09-24T18:30:00+00:00",
@@ -62954,6 +62954,18 @@
             "highlight": null
           },
           {
+            "team": "Alba Berlin",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 183,
+            "against": 165,
+            "diff": 18,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 1,
             "win": 1,
@@ -62963,30 +62975,6 @@
             "against": 81,
             "diff": 15,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 175,
-            "against": 160,
-            "diff": 15,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 177,
-            "against": 163,
-            "diff": 14,
-            "points": 4,
             "highlight": null
           },
           {
@@ -63014,14 +63002,38 @@
             "highlight": null
           },
           {
+            "team": "Rostock Seawolves",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 177,
+            "against": 171,
+            "diff": 6,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 156,
+            "against": 161,
+            "diff": -5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Brose Bamberg",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 106,
-            "against": 123,
-            "diff": -17,
+            "for": 119,
+            "against": 127,
+            "diff": -8,
             "points": 2,
             "highlight": null
           },
@@ -63062,18 +63074,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 78,
-            "against": 86,
-            "diff": -8,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 1,
             "win": 0,
@@ -63098,14 +63098,14 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 2,
+            "team": "Skyliners Frankfurt",
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 148,
-            "against": 161,
-            "diff": -13,
+            "loss": 1,
+            "for": 83,
+            "against": 94,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
@@ -63122,18 +63122,6 @@
             "highlight": null
           },
           {
-            "team": "SC Rasta Vechta",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 15,
-            "against": 34,
-            "diff": -19,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 1,
             "win": 0,
@@ -63143,6 +63131,18 @@
             "against": 96,
             "diff": -24,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 19,
+            "against": 47,
+            "diff": -28,
+            "points": 1,
             "highlight": null
           }
         ],
