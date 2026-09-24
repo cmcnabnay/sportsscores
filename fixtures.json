@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:38:16+00:00",
+  "updated": "2026-09-24T20:49:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64902,6 +64902,18 @@
             "highlight": null
           },
           {
+            "team": "Barça Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 89,
+            "against": 82,
+            "diff": 7,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Kauno Žalgiris",
             "played": 1,
             "win": 1,
@@ -64938,18 +64950,6 @@
             "highlight": null
           },
           {
-            "team": "Anadolu Efes",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "LDLC ASVEL Lyon-Villeurbanne",
             "played": 0,
             "win": 0,
@@ -64963,18 +64963,6 @@
           },
           {
             "team": "Beşiktaş JK",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Barça Basket",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -65090,6 +65078,18 @@
             "for": 77,
             "against": 83,
             "diff": -6,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Anadolu Efes",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 82,
+            "against": 89,
+            "diff": -7,
             "points": null,
             "highlight": null
           },
