@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T19:01:02+00:00",
+  "updated": "2026-09-24T19:13:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16279,7 +16279,7 @@
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Skyliners Frankfurt",
-      "score": null,
+      "score": "94-83",
       "date": "2026-09-24",
       "time": "16:30",
       "utc": "2026-09-24T16:30:00+00:00",
@@ -16290,7 +16290,7 @@
       "league": "bbl-2026-27",
       "home": "N.R. Ludwigsburg",
       "away": "Rostock Seawolves",
-      "score": null,
+      "score": "81-78",
       "date": "2026-09-24",
       "time": "16:30",
       "utc": "2026-09-24T16:30:00+00:00",
@@ -16389,7 +16389,7 @@
       "league": "bbl-2026-27",
       "home": "SC Rasta Vechta",
       "away": "Brose Bamberg",
-      "score": null,
+      "score": "36-69",
       "date": "2026-09-24",
       "time": "18:00",
       "utc": "2026-09-24T18:00:00+00:00",
@@ -16909,8 +16909,8 @@
       "away": "Alba Berlin",
       "score": null,
       "date": "2026-09-26",
-      "time": "13:30",
-      "utc": "2026-09-26T13:30:00+00:00",
+      "time": "13:40",
+      "utc": "2026-09-26T13:40:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -20543,6 +20543,17 @@
       "time": "14:00",
       "utc": "2026-10-10T14:00:00+00:00",
       "venue": "Stadio Sergio Lanfranchi, Parma (Italy)",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "Bayern Munich",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -49213,8 +49224,8 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Alba Berlin",
-      "away": "Science City Jena",
+      "home": "Brose Bamberg",
+      "away": "SC Rasta Vechta",
       "score": null,
       "date": "2027-03-06",
       "time": "17:30",
@@ -49224,8 +49235,8 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "SC Rasta Vechta",
+      "home": "N.R. Ludwigsburg",
+      "away": "Ratiopharm Ulm",
       "score": null,
       "date": "2027-03-06",
       "time": "17:30",
@@ -49241,17 +49252,6 @@
       "date": "2027-03-06",
       "time": "18:30",
       "utc": "2027-03-06T18:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "N.R. Ludwigsburg",
-      "away": "Ratiopharm Ulm",
-      "score": null,
-      "date": "2027-03-06",
-      "time": "19:00",
-      "utc": "2027-03-06T19:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -49523,6 +49523,17 @@
       "league": "bbl-2026-27",
       "home": "Wurzburg Baskets",
       "away": "Phoenix Hagen",
+      "score": null,
+      "date": "2027-03-07",
+      "time": "14:00",
+      "utc": "2027-03-07T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Alba Berlin",
+      "away": "Science City Jena",
       "score": null,
       "date": "2027-03-07",
       "time": "14:00",
@@ -63014,6 +63025,18 @@
             "highlight": null
           },
           {
+            "team": "Brose Bamberg",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 141,
+            "against": 144,
+            "diff": -3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -63022,18 +63045,6 @@
             "for": 158,
             "against": 164,
             "diff": -6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Brose Bamberg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 129,
-            "against": 136,
-            "diff": -7,
             "points": 2,
             "highlight": null
           },
@@ -63139,9 +63150,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 28,
-            "against": 57,
-            "diff": -29,
+            "for": 36,
+            "against": 69,
+            "diff": -33,
             "points": 1,
             "highlight": null
           }
@@ -63215,13 +63226,13 @@
           {
             "team": "Dynamo Moscow",
             "played": 9,
-            "win": 4,
+            "win": 5,
             "draw": null,
             "loss": 4,
-            "for": 16,
+            "for": 17,
             "against": 23,
-            "diff": -7,
-            "points": 8,
+            "diff": -6,
+            "points": 10,
             "highlight": null
           },
           {
@@ -63231,9 +63242,9 @@
             "draw": null,
             "loss": 1,
             "for": 22,
-            "against": 20,
-            "diff": 2,
-            "points": 7,
+            "against": 21,
+            "diff": 1,
+            "points": 8,
             "highlight": null
           },
           {
