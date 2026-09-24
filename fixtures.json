@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T17:06:12+00:00",
+  "updated": "2026-09-24T17:17:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -49044,9 +49044,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 130,
-            "against": 110,
-            "diff": 20,
+            "for": 136,
+            "against": 117,
+            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -49092,8 +49092,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 30,
-            "against": 27,
+            "for": 39,
+            "against": 36,
             "diff": 3,
             "points": 2,
             "highlight": null
@@ -49104,8 +49104,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 116,
-            "against": 112,
+            "for": 125,
+            "against": 121,
             "diff": 4,
             "points": 3,
             "highlight": null
@@ -49200,9 +49200,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 95,
-            "against": 114,
-            "diff": -19,
+            "for": 102,
+            "against": 120,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -49250,6 +49250,18 @@
             "highlight": null
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 22,
+            "against": 14,
+            "diff": 8,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Spartak Moscow",
             "played": 8,
             "win": 5,
@@ -49270,18 +49282,6 @@
             "for": 20,
             "against": 12,
             "diff": 8,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 21,
-            "against": 14,
-            "diff": 7,
             "points": 10,
             "highlight": null
           },
@@ -49362,10 +49362,10 @@
             "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 6,
-            "against": 21,
-            "diff": -15,
+            "against": 22,
+            "diff": -16,
             "points": 2,
             "highlight": null
           }
