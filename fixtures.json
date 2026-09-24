@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T16:45:11+00:00",
+  "updated": "2026-09-24T16:55:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -49044,9 +49044,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 114,
-            "against": 95,
-            "diff": 19,
+            "for": 117,
+            "against": 99,
+            "diff": 18,
             "points": 4,
             "highlight": null
           },
@@ -49060,6 +49060,18 @@
             "against": 81,
             "diff": 15,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 111,
+            "against": 100,
+            "diff": 11,
+            "points": 4,
             "highlight": null
           },
           {
@@ -49084,30 +49096,6 @@
             "against": 77,
             "diff": 9,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 101,
-            "against": 94,
-            "diff": 7,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 12,
-            "against": 12,
-            "diff": 0,
-            "points": 1,
             "highlight": null
           },
           {
@@ -49144,6 +49132,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 18,
+            "against": 22,
+            "diff": -4,
+            "points": 1,
             "highlight": null
           },
           {
@@ -49200,9 +49200,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 80,
-            "against": 98,
-            "diff": -18,
+            "for": 84,
+            "against": 101,
+            "diff": -17,
             "points": 1,
             "highlight": null
           },
@@ -49322,6 +49322,18 @@
             "highlight": null
           },
           {
+            "team": "Severstal Cherepovets",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 10,
+            "against": 19,
+            "diff": -9,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Shanghai Dragons",
             "played": 5,
             "win": 3,
@@ -49331,18 +49343,6 @@
             "against": 19,
             "diff": -4,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Severstal Cherepovets",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 9,
-            "against": 19,
-            "diff": -10,
-            "points": 5,
             "highlight": null
           },
           {
@@ -49451,10 +49451,10 @@
             "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 19,
-            "against": 22,
-            "diff": -3,
+            "against": 23,
+            "diff": -4,
             "points": 6,
             "highlight": null
           },
