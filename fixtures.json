@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:35:15+00:00",
+  "updated": "2026-09-25T19:45:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62805,6 +62805,18 @@
             "highlight": null
           },
           {
+            "team": "Baskets Oldenburg",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 157,
+            "against": 137,
+            "diff": 20,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 2,
             "win": 2,
@@ -62829,18 +62841,6 @@
             "highlight": null
           },
           {
-            "team": "Wurzburg Baskets",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 52,
-            "against": 51,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 2,
             "win": 1,
@@ -62850,18 +62850,6 @@
             "against": 196,
             "diff": 17,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Baskets Oldenburg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 147,
-            "against": 133,
-            "diff": 14,
-            "points": 3,
             "highlight": null
           },
           {
@@ -62906,8 +62894,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 140,
-            "against": 142,
+            "for": 146,
+            "against": 148,
             "diff": -2,
             "points": 2,
             "highlight": null
@@ -62918,9 +62906,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 149,
-            "against": 153,
-            "diff": -4,
+            "for": 156,
+            "against": 158,
+            "diff": -2,
             "points": 2,
             "highlight": null
           },
@@ -62937,14 +62925,14 @@
             "highlight": null
           },
           {
-            "team": "Science City Jena",
+            "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 57,
-            "against": 68,
-            "diff": -11,
+            "for": 56,
+            "against": 61,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -62958,6 +62946,18 @@
             "against": 94,
             "diff": -11,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Science City Jena",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 62,
+            "against": 75,
+            "diff": -13,
+            "points": 1,
             "highlight": null
           },
           {
@@ -62978,8 +62978,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 125,
-            "against": 154,
+            "for": 131,
+            "against": 160,
             "diff": -29,
             "points": 1,
             "highlight": null
@@ -64113,9 +64113,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 71,
-            "against": 54,
-            "diff": 17,
+            "for": 78,
+            "against": 59,
+            "diff": 19,
             "points": 2,
             "highlight": null
           },
@@ -64161,9 +64161,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 54,
-            "against": 71,
-            "diff": -17,
+            "for": 59,
+            "against": 78,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
