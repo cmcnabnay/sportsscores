@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T18:52:19+00:00",
+  "updated": "2026-09-25T19:02:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16614,7 +16614,7 @@
       "league": "bbl-2026-27",
       "home": "TBB Trier",
       "away": "Telekom Baskets Bonn",
-      "score": null,
+      "score": "106-80",
       "date": "2026-09-25",
       "time": "16:30",
       "utc": "2026-09-25T16:30:00+00:00",
@@ -16625,7 +16625,7 @@
       "league": "bbl-2026-27",
       "home": "Phoenix Hagen",
       "away": "Ratiopharm Ulm",
-      "score": null,
+      "score": "78-93",
       "date": "2026-09-25",
       "time": "16:30",
       "utc": "2026-09-25T16:30:00+00:00",
@@ -62788,9 +62788,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 134,
-            "against": 113,
-            "diff": 21,
+            "for": 136,
+            "against": 114,
+            "diff": 22,
             "points": 4,
             "highlight": null
           },
@@ -62867,26 +62867,14 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 119,
-            "against": 121,
-            "diff": -2,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 121,
-            "against": 123,
-            "diff": -2,
+            "for": 126,
+            "against": 130,
+            "diff": -4,
             "points": 2,
             "highlight": null
           },
@@ -62903,14 +62891,38 @@
             "highlight": null
           },
           {
+            "team": "Bv Chemnitz 99",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 125,
+            "against": 131,
+            "diff": -6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 38,
-            "diff": -6,
+            "for": 33,
+            "against": 40,
+            "diff": -7,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Science City Jena",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 34,
+            "against": 45,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
@@ -62927,14 +62939,14 @@
             "highlight": null
           },
           {
-            "team": "Science City Jena",
-            "played": 1,
+            "team": "Hamburg Towers",
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 27,
-            "against": 40,
-            "diff": -13,
+            "loss": 2,
+            "for": 114,
+            "against": 139,
+            "diff": -25,
             "points": 1,
             "highlight": null
           },
@@ -62947,18 +62959,6 @@
             "for": 170,
             "against": 195,
             "diff": -25,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 104,
-            "against": 133,
-            "diff": -29,
             "points": 1,
             "highlight": null
           },
@@ -64345,6 +64345,18 @@
             "highlight": null
           },
           {
+            "team": "TPS Turku",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 18,
+            "against": 13,
+            "diff": 5,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Rauman Lukko",
             "played": 7,
             "win": 4,
@@ -64388,18 +64400,6 @@
             "loss": 3,
             "for": 17,
             "against": 13,
-            "diff": 4,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "TPS Turku",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 16,
-            "against": 12,
             "diff": 4,
             "points": 9,
             "highlight": null
@@ -64466,13 +64466,13 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
-            "for": 13,
-            "against": 25,
-            "diff": -12,
+            "loss": 6,
+            "for": 14,
+            "against": 27,
+            "diff": -13,
             "points": 4,
             "highlight": null
           },
