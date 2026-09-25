@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:56:10+00:00",
+  "updated": "2026-09-25T20:07:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16669,7 +16669,7 @@
       "league": "del-2026-27",
       "home": "Pinguins Bremerhaven",
       "away": "EHC Red Bull München",
-      "score": null,
+      "score": "1-4",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
@@ -16680,7 +16680,7 @@
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Krefeld Pinguine",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
@@ -16691,7 +16691,7 @@
       "league": "del-2026-27",
       "home": "Straubing Tigers",
       "away": "ERC Ingolstadt",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
@@ -16702,7 +16702,7 @@
       "league": "del-2026-27",
       "home": "Löwen Frankfurt",
       "away": "Nürnberg Ice Tigers",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
@@ -16713,12 +16713,13 @@
       "league": "del-2026-27",
       "home": "Grizzlys Wolfsburg",
       "away": "Schwenningen Wild Wings",
-      "score": null,
+      "score": "3-4",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
       "venue": "EisArena Wolfsburg",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "euroleague-2026-27",
@@ -32806,35 +32807,13 @@
     },
     {
       "league": "del-2026-27",
-      "home": "ERC Ingolstadt",
-      "away": "Schwenningen Wild Wings",
+      "home": "Kölner Haie",
+      "away": "Krefeld Pinguine",
       "score": null,
       "date": "2026-12-08",
       "time": "18:30",
       "utc": "2026-12-08T18:30:00+00:00",
-      "venue": "Saturn-Arena",
-      "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Pinguins Bremerhaven",
-      "away": "Grizzlys Wolfsburg",
-      "score": null,
-      "date": "2026-12-08",
-      "time": "18:30",
-      "utc": "2026-12-08T18:30:00+00:00",
-      "venue": "Eisarena Bremerhaven",
-      "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Straubing Tigers",
-      "away": "Nürnberg Ice Tigers",
-      "score": null,
-      "date": "2026-12-08",
-      "time": "18:30",
-      "utc": "2026-12-08T18:30:00+00:00",
-      "venue": "Eisstadion am Pulverturm",
+      "venue": "Lanxess Arena",
       "attendance": null
     },
     {
@@ -33022,39 +33001,6 @@
       "time": "18:00",
       "utc": "2026-12-09T18:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Adler Mannheim",
-      "away": "EHC Red Bull München",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:30",
-      "utc": "2026-12-09T18:30:00+00:00",
-      "venue": "SAP Arena",
-      "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Eisbären Berlin",
-      "away": "Iserlohn Roosters",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:30",
-      "utc": "2026-12-09T18:30:00+00:00",
-      "venue": "Uber Arena",
-      "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Löwen Frankfurt",
-      "away": "Augsburger Panther",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:30",
-      "utc": "2026-12-09T18:30:00+00:00",
-      "venue": "Eissporthalle Frankfurt",
       "attendance": null
     },
     {
@@ -62810,9 +62756,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 164,
-            "against": 140,
-            "diff": 24,
+            "for": 172,
+            "against": 149,
+            "diff": 23,
             "points": 4,
             "highlight": null
           },
@@ -62877,18 +62823,6 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 157,
-            "against": 156,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 2,
             "win": 1,
@@ -62925,14 +62859,38 @@
             "highlight": null
           },
           {
+            "team": "Hamburg Towers",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 152,
+            "against": 175,
+            "diff": -23,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 59,
-            "against": 68,
-            "diff": -9,
+            "for": 68,
+            "against": 76,
+            "diff": -8,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 161,
+            "against": 169,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -62969,18 +62927,6 @@
             "for": 170,
             "against": 195,
             "diff": -25,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 139,
-            "against": 171,
-            "diff": -32,
             "points": 1,
             "highlight": null
           },
@@ -64694,14 +64640,14 @@
         "rows": [
           {
             "team": "Nürnberg Ice Tigers",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 15,
-            "against": 6,
-            "diff": 9,
-            "points": 9,
+            "for": 17,
+            "against": 7,
+            "diff": 10,
+            "points": 12,
             "highlight": null
           },
           {
@@ -64714,6 +64660,18 @@
             "against": 13,
             "diff": 1,
             "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "Grizzlys Wolfsburg",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 11,
+            "diff": 4,
+            "points": 6,
             "highlight": null
           },
           {
@@ -64741,18 +64699,6 @@
             "highlight": null
           },
           {
-            "team": "Grizzlys Wolfsburg",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 12,
-            "against": 7,
-            "diff": 5,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Augsburger Panther",
             "played": 3,
             "win": 2,
@@ -64766,13 +64712,13 @@
           },
           {
             "team": "Löwen Frankfurt",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 8,
-            "against": 4,
-            "diff": 4,
+            "loss": 2,
+            "for": 9,
+            "against": 6,
+            "diff": 3,
             "points": 4,
             "highlight": null
           },
@@ -64785,6 +64731,18 @@
             "for": 7,
             "against": 6,
             "diff": 1,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Straubing Tigers",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 9,
+            "against": 11,
+            "diff": -2,
             "points": 3,
             "highlight": null
           },
@@ -64802,13 +64760,13 @@
           },
           {
             "team": "ERC Ingolstadt",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 6,
-            "against": 9,
-            "diff": -3,
+            "loss": 2,
+            "for": 7,
+            "against": 13,
+            "diff": -6,
             "points": 3,
             "highlight": null
           },
@@ -64825,6 +64783,18 @@
             "highlight": null
           },
           {
+            "team": "Schwenningen Wild Wings",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 7,
+            "against": 15,
+            "diff": -8,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Iserlohn Roosters",
             "played": 3,
             "win": 0,
@@ -64834,30 +64804,6 @@
             "against": 9,
             "diff": -3,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Straubing Tigers",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 5,
-            "against": 10,
-            "diff": -5,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Schwenningen Wild Wings",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 3,
-            "against": 12,
-            "diff": -9,
-            "points": 0,
             "highlight": null
           }
         ],
