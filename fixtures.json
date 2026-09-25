@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T20:41:04+00:00",
+  "updated": "2026-09-25T20:49:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64839,6 +64839,18 @@
             "highlight": null
           },
           {
+            "team": "KK Partizan Mozzart Bet",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 92,
+            "against": 76,
+            "diff": 16,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "LDLC ASVEL Lyon-Villeurbanne",
             "played": 1,
             "win": 1,
@@ -64923,30 +64935,6 @@
             "highlight": null
           },
           {
-            "team": "KK Partizan Mozzart Bet",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "EA7 Emporio Armani Milano",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Real Madrid",
             "played": 1,
             "win": 0,
@@ -65027,6 +65015,18 @@
             "for": 68,
             "against": 78,
             "diff": -10,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "EA7 Emporio Armani Milano",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 76,
+            "against": 92,
+            "diff": -16,
             "points": null,
             "highlight": null
           },
