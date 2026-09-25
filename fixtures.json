@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T17:51:09+00:00",
+  "updated": "2026-09-25T18:01:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16569,7 +16569,7 @@
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "KooKoo Kouvola",
-      "score": null,
+      "score": "6-0",
       "date": "2026-09-25",
       "time": "15:30",
       "utc": "2026-09-25T15:30:00+00:00",
@@ -16591,7 +16591,7 @@
       "league": "liiga-2026-27",
       "home": "Porin Ässät",
       "away": "SaiPa Lappeenranta",
-      "score": null,
+      "score": "0-5",
       "date": "2026-09-25",
       "time": "15:30",
       "utc": "2026-09-25T15:30:00+00:00",
@@ -16602,12 +16602,13 @@
       "league": "liiga-2026-27",
       "home": "Mikkelin Jukurit",
       "away": "Kiekko-Espoo",
-      "score": null,
+      "score": "2-1",
       "date": "2026-09-25",
       "time": "15:30",
       "utc": "2026-09-25T15:30:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "bbl-2026-27",
@@ -37270,6 +37271,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "Porin Ässät",
+      "away": "Mikkelin Jukurit",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "15:30",
+      "utc": "2026-12-29T15:30:00+00:00",
+      "venue": "Isomäki Areena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Turk Telekom",
       "away": "London Lions",
@@ -37311,17 +37323,6 @@
       "time": "16:30",
       "utc": "2026-12-29T16:30:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Porin Ässät",
-      "away": "Mikkelin Jukurit",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "16:30",
-      "utc": "2026-12-29T16:30:00+00:00",
-      "venue": "Isomäki Areena",
       "attendance": null
     },
     {
@@ -44596,17 +44597,6 @@
       "attendance": null
     },
     {
-      "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "Kiekko-Espoo",
-      "score": null,
-      "date": "2027-02-03",
-      "time": "16:30",
-      "utc": "2027-02-03T16:30:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
       "league": "euroleague-2026-27",
       "home": "Hapoel Tel-Aviv",
       "away": "Olympiacos BC",
@@ -44681,17 +44671,6 @@
       "time": "16:00",
       "utc": "2027-02-04T16:00:00+00:00",
       "venue": "Coca-Cola Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "HIFK Helsinki",
-      "away": "Oulun Kärpät",
-      "score": null,
-      "date": "2027-02-04",
-      "time": "16:30",
-      "utc": "2027-02-04T16:30:00+00:00",
-      "venue": "Helsingin jäähalli",
       "attendance": null
     },
     {
@@ -44806,17 +44785,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Rauman Lukko",
-      "away": "Kiekko-Espoo",
-      "score": null,
-      "date": "2027-02-05",
-      "time": "16:30",
-      "utc": "2027-02-05T16:30:00+00:00",
-      "venue": "Äijänsuo Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "KooKoo Kouvola",
       "score": null,
@@ -44835,17 +44803,6 @@
       "time": "16:30",
       "utc": "2027-02-05T16:30:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "SaiPa Lappeenranta",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-02-05",
-      "time": "16:30",
-      "utc": "2027-02-05T16:30:00+00:00",
-      "venue": "Kisapuisto",
       "attendance": null
     },
     {
@@ -48366,50 +48323,6 @@
       "time": null,
       "utc": null,
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Tampereen Ilves",
-      "away": "Lahti Pelicans",
-      "score": null,
-      "date": "2027-03-02",
-      "time": "16:30",
-      "utc": "2027-03-02T16:30:00+00:00",
-      "venue": "Nokia Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Rauman Lukko",
-      "away": "SaiPa Lappeenranta",
-      "score": null,
-      "date": "2027-03-02",
-      "time": "16:30",
-      "utc": "2027-03-02T16:30:00+00:00",
-      "venue": "Äijänsuo Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "HIFK Helsinki",
-      "away": "Porin Ässät",
-      "score": null,
-      "date": "2027-03-02",
-      "time": "16:30",
-      "utc": "2027-03-02T16:30:00+00:00",
-      "venue": "Helsingin jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "TPS Turku",
-      "away": "JYP Jyväskylä",
-      "score": null,
-      "date": "2027-03-02",
-      "time": "16:30",
-      "utc": "2027-03-02T16:30:00+00:00",
-      "venue": "Gatorade Center",
       "attendance": null
     },
     {
@@ -62863,8 +62776,8 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 149,
-            "against": 128,
+            "for": 160,
+            "against": 139,
             "diff": 21,
             "points": 4,
             "highlight": null
@@ -62882,18 +62795,6 @@
             "highlight": null
           },
           {
-            "team": "Baskets Oldenburg",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 96,
-            "against": 81,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Basketball Lowen Braunschweig",
             "played": 1,
             "win": 1,
@@ -62906,14 +62807,26 @@
             "highlight": null
           },
           {
+            "team": "Baskets Oldenburg",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 96,
+            "against": 81,
+            "diff": 15,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "TBB Trier",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 176,
-            "against": 165,
-            "diff": 11,
+            "for": 185,
+            "against": 173,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -62947,9 +62860,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 145,
-            "against": 141,
-            "diff": 4,
+            "for": 153,
+            "against": 150,
+            "diff": 3,
             "points": 3,
             "highlight": null
           },
@@ -62967,26 +62880,26 @@
           },
           {
             "team": "Science City Jena",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
             "team": "Wurzburg Baskets",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63015,14 +62928,14 @@
           },
           {
             "team": "Mitteldeutscher",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
             "loss": 1,
             "for": 81,
             "against": 96,
             "diff": -15,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63031,8 +62944,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 143,
-            "against": 165,
+            "for": 154,
+            "against": 176,
             "diff": -22,
             "points": 1,
             "highlight": null
@@ -64210,14 +64123,14 @@
           },
           {
             "team": "Strasbourg",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64234,14 +64147,14 @@
           },
           {
             "team": "Dijon",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64372,6 +64285,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "Mikkelin Jukurit",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 24,
+            "against": 16,
+            "diff": 8,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "JYP Jyväskylä",
             "played": 5,
             "win": 5,
@@ -64384,39 +64309,39 @@
             "highlight": null
           },
           {
-            "team": "Mikkelin Jukurit",
-            "played": 7,
+            "team": "Tampereen Ilves",
+            "played": 6,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 22,
-            "against": 15,
-            "diff": 7,
-            "points": 15,
+            "loss": 1,
+            "for": 19,
+            "against": 9,
+            "diff": 10,
+            "points": 14,
             "highlight": null
           },
           {
             "team": "Porin Ässät",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 18,
+            "against": 14,
+            "diff": 4,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "SaiPa Lappeenranta",
             "played": 6,
             "win": 5,
             "draw": null,
             "loss": 1,
             "for": 18,
-            "against": 9,
-            "diff": 9,
+            "against": 6,
+            "diff": 12,
             "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Tampereen Ilves",
-            "played": 5,
-            "win": 4,
-            "draw": null,
-            "loss": 1,
-            "for": 13,
-            "against": 9,
-            "diff": 4,
-            "points": 11,
             "highlight": null
           },
           {
@@ -64432,15 +64357,15 @@
             "highlight": null
           },
           {
-            "team": "SaiPa Lappeenranta",
-            "played": 5,
-            "win": 4,
+            "team": "Kiekko-Espoo",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 13,
-            "against": 6,
-            "diff": 7,
-            "points": 11,
+            "loss": 4,
+            "for": 16,
+            "against": 11,
+            "diff": 5,
+            "points": 10,
             "highlight": null
           },
           {
@@ -64488,18 +64413,6 @@
             "for": 14,
             "against": 16,
             "diff": -2,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Kiekko-Espoo",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 15,
-            "against": 9,
-            "diff": 6,
             "points": 9,
             "highlight": null
           },
@@ -64565,13 +64478,13 @@
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 12,
-            "against": 26,
-            "diff": -14,
+            "against": 32,
+            "diff": -20,
             "points": 1,
             "highlight": null
           }
