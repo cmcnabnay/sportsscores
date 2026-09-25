@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T20:18:01+00:00",
+  "updated": "2026-09-25T20:28:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62860,15 +62860,15 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
+            "team": "Hamburg Towers",
             "played": 2,
-            "win": 0,
+            "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 165,
-            "against": 172,
-            "diff": -7,
-            "points": 1,
+            "for": 166,
+            "against": 186,
+            "diff": -20,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62880,6 +62880,18 @@
             "for": 68,
             "against": 77,
             "diff": -9,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 172,
+            "against": 183,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
@@ -62904,18 +62916,6 @@
             "for": 62,
             "against": 77,
             "diff": -15,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 155,
-            "against": 179,
-            "diff": -24,
             "points": 1,
             "highlight": null
           },
@@ -64063,7 +64063,19 @@
             "for": 81,
             "against": 72,
             "diff": 9,
-            "points": 2,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Strasbourg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 72,
+            "against": 81,
+            "diff": -9,
+            "points": 0,
             "highlight": null
           },
           {
@@ -64100,18 +64112,6 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Strasbourg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 72,
-            "against": 81,
-            "diff": -9,
-            "points": 1,
             "highlight": null
           },
           {
