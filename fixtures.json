@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T18:01:18+00:00",
+  "updated": "2026-09-25T18:52:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16580,7 +16580,7 @@
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "JYP Jyväskylä",
-      "score": null,
+      "score": "3-4",
       "date": "2026-09-25",
       "time": "15:30",
       "utc": "2026-09-25T15:30:00+00:00",
@@ -16636,7 +16636,7 @@
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "TPS Turku",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-25",
       "time": "16:30",
       "utc": "2026-09-25T16:30:00+00:00",
@@ -62776,8 +62776,20 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 160,
-            "against": 139,
+            "for": 179,
+            "against": 155,
+            "diff": 24,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Baskets Oldenburg",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 134,
+            "against": 113,
             "diff": 21,
             "points": 4,
             "highlight": null
@@ -62807,26 +62819,14 @@
             "highlight": null
           },
           {
-            "team": "Baskets Oldenburg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 96,
-            "against": 81,
-            "diff": 15,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 185,
-            "against": 173,
-            "diff": 12,
+            "for": 213,
+            "against": 196,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -62860,10 +62860,34 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 153,
-            "against": 150,
-            "diff": 3,
+            "for": 176,
+            "against": 178,
+            "diff": -2,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 119,
+            "against": 121,
+            "diff": -2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 121,
+            "against": 123,
+            "diff": -2,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62879,39 +62903,15 @@
             "highlight": null
           },
           {
-            "team": "Science City Jena",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 1,
-            "win": 0,
-            "draw": null,
             "loss": 1,
-            "for": 82,
-            "against": 89,
-            "diff": -7,
-            "points": 0,
+            "for": 32,
+            "against": 38,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           },
           {
@@ -62927,14 +62927,14 @@
             "highlight": null
           },
           {
-            "team": "Mitteldeutscher",
-            "played": 2,
+            "team": "Science City Jena",
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 81,
-            "against": 96,
-            "diff": -15,
+            "for": 27,
+            "against": 40,
+            "diff": -13,
             "points": 1,
             "highlight": null
           },
@@ -62944,22 +62944,22 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 154,
-            "against": 176,
-            "diff": -22,
+            "for": 170,
+            "against": 195,
+            "diff": -25,
             "points": 1,
             "highlight": null
           },
           {
             "team": "Hamburg Towers",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 72,
-            "against": 96,
-            "diff": -24,
-            "points": 0,
+            "loss": 2,
+            "for": 104,
+            "against": 133,
+            "diff": -29,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64086,6 +64086,18 @@
       "LNB Élite": {
         "rows": [
           {
+            "team": "Dijon",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 41,
+            "against": 33,
+            "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Gravelines",
             "played": 0,
             "win": 0,
@@ -64126,10 +64138,10 @@
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
+            "loss": 1,
+            "for": 33,
+            "against": 41,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -64143,18 +64155,6 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Dijon",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
             "highlight": null
           },
           {
@@ -64285,6 +64285,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "JYP Jyväskylä",
+            "played": 6,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 25,
+            "against": 12,
+            "diff": 13,
+            "points": 18,
+            "highlight": null
+          },
+          {
             "team": "Mikkelin Jukurit",
             "played": 8,
             "win": 6,
@@ -64294,18 +64306,6 @@
             "against": 16,
             "diff": 8,
             "points": 17,
-            "highlight": null
-          },
-          {
-            "team": "JYP Jyväskylä",
-            "played": 5,
-            "win": 5,
-            "draw": null,
-            "loss": 0,
-            "for": 21,
-            "against": 9,
-            "diff": 12,
-            "points": 15,
             "highlight": null
           },
           {
@@ -64442,13 +64442,13 @@
           },
           {
             "team": "HIFK Helsinki",
-            "played": 6,
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 16,
-            "against": 22,
-            "diff": -6,
+            "loss": 5,
+            "for": 19,
+            "against": 26,
+            "diff": -7,
             "points": 7,
             "highlight": null
           },
