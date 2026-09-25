@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T20:49:15+00:00",
+  "updated": "2026-09-25T21:00:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -60227,7 +60227,7 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Warrington Wolves",
+            "team": "Warrington Wolves (F)",
             "played": 27,
             "win": 20,
             "draw": 0,
@@ -62776,18 +62776,6 @@
             "highlight": null
           },
           {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 116,
-            "against": 107,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 2,
             "win": 1,
@@ -62796,6 +62784,18 @@
             "for": 213,
             "against": 196,
             "diff": 17,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 116,
+            "against": 107,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -62844,7 +62844,7 @@
             "for": 176,
             "against": 178,
             "diff": -2,
-            "points": 3,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62860,18 +62860,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 166,
-            "against": 186,
-            "diff": -20,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
@@ -62880,7 +62868,7 @@
             "for": 68,
             "against": 77,
             "diff": -9,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -62892,7 +62880,7 @@
             "for": 172,
             "against": 183,
             "diff": -11,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -62916,7 +62904,19 @@
             "for": 62,
             "against": 77,
             "diff": -15,
-            "points": 1,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 166,
+            "against": 186,
+            "diff": -20,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62928,7 +62928,7 @@
             "for": 170,
             "against": 195,
             "diff": -25,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -66571,10 +66571,10 @@
             {
               "seed1": 2,
               "team1": "Leeds",
-              "score1": null,
+              "score1": 12,
               "seed2": 3,
               "team2": "Warrington",
-              "score2": null,
+              "score2": 14,
               "date": null,
               "venue": null
             }
@@ -66587,8 +66587,8 @@
               "seed1": null,
               "team1": null,
               "score1": null,
-              "seed2": null,
-              "team2": null,
+              "seed2": 3,
+              "team2": "Warrington",
               "score2": null,
               "date": null,
               "venue": null
