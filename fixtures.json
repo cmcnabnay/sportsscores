@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T09:07:10+00:00",
+  "updated": "2026-09-25T09:18:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -60909,6 +60909,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Manawatu",
+            "played": 9,
+            "win": 5,
+            "draw": 0,
+            "loss": 4,
+            "for": 260,
+            "against": 310,
+            "diff": -50,
+            "points": 25,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Waikato",
             "played": 8,
             "win": 4,
@@ -60930,7 +60942,7 @@
             "against": 197,
             "diff": 27,
             "points": 24,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Bay of Plenty",
@@ -60945,27 +60957,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Manawatu",
-            "played": 8,
-            "win": 4,
-            "draw": 0,
-            "loss": 4,
-            "for": 220,
-            "against": 276,
-            "diff": -56,
-            "points": 20,
-            "highlight": "transparent"
-          },
-          {
             "team": "Auckland",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": 0,
-            "loss": 5,
-            "for": 213,
-            "against": 245,
-            "diff": -32,
-            "points": 18,
+            "loss": 6,
+            "for": 247,
+            "against": 285,
+            "diff": -38,
+            "points": 20,
             "highlight": "transparent"
           },
           {
