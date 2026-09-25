@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T14:46:10+00:00",
+  "updated": "2026-09-25T16:48:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16547,7 +16547,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "SKA St. Petersburg",
-      "score": null,
+      "score": "3-4",
       "date": "2026-09-25",
       "time": "14:00",
       "utc": "2026-09-25T14:00:00+00:00",
@@ -62858,18 +62858,6 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 96,
-            "against": 72,
-            "diff": 24,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 2,
             "win": 2,
@@ -62894,6 +62882,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 107,
+            "against": 96,
+            "diff": 11,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Basketball Lowen Braunschweig",
             "played": 1,
             "win": 1,
@@ -62906,15 +62906,15 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
+            "team": "Telekom Baskets Bonn",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 86,
-            "against": 77,
-            "diff": 9,
-            "points": 2,
+            "loss": 1,
+            "for": 107,
+            "against": 93,
+            "diff": 14,
+            "points": 3,
             "highlight": null
           },
           {
@@ -62938,6 +62938,30 @@
             "for": 180,
             "against": 175,
             "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "TBB Trier",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 128,
+            "against": 127,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 158,
+            "against": 164,
+            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -62966,18 +62990,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 158,
-            "against": 164,
-            "diff": -6,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -62986,30 +62998,6 @@
             "for": 82,
             "against": 89,
             "diff": -7,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "TBB Trier",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 107,
-            "against": 116,
-            "diff": -9,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Phoenix Hagen",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 92,
-            "against": 102,
-            "diff": -10,
             "points": 0,
             "highlight": null
           },
@@ -63023,6 +63011,18 @@
             "against": 94,
             "diff": -11,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Phoenix Hagen",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 111,
+            "against": 123,
+            "diff": -12,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63093,6 +63093,30 @@
             "highlight": null
           },
           {
+            "team": "SKA St. Petersburg",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 24,
+            "against": 15,
+            "diff": 9,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "CSKA Moscow",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 24,
+            "against": 15,
+            "diff": 9,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Spartak Moscow",
             "played": 8,
             "win": 5,
@@ -63102,30 +63126,6 @@
             "against": 12,
             "diff": 10,
             "points": 11,
-            "highlight": null
-          },
-          {
-            "team": "SKA St. Petersburg",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 21,
-            "against": 13,
-            "diff": 8,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "CSKA Moscow",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 21,
-            "against": 15,
-            "diff": 6,
-            "points": 10,
             "highlight": null
           },
           {
@@ -63178,13 +63178,13 @@
           },
           {
             "team": "Lada Togliatti",
-            "played": 8,
+            "played": 9,
             "win": 1,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 15,
-            "against": 32,
-            "diff": -17,
+            "against": 35,
+            "diff": -20,
             "points": 5,
             "highlight": null
           },
@@ -63330,10 +63330,10 @@
             "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 11,
-            "against": 19,
-            "diff": -8,
+            "loss": 5,
+            "for": 13,
+            "against": 22,
+            "diff": -9,
             "points": 4,
             "highlight": null
           }
