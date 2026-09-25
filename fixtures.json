@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T17:29:09+00:00",
+  "updated": "2026-09-25T17:41:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16558,7 +16558,7 @@
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "CSKA Moscow",
-      "score": null,
+      "score": "0-5",
       "date": "2026-09-25",
       "time": "15:00",
       "utc": "2026-09-25T15:00:00+00:00",
@@ -62858,6 +62858,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 144,
+            "against": 124,
+            "diff": 20,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 2,
             "win": 2,
@@ -62882,18 +62894,6 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 129,
-            "against": 114,
-            "diff": 15,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Basketball Lowen Braunschweig",
             "played": 1,
             "win": 1,
@@ -62906,15 +62906,15 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
+            "team": "TBB Trier",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 134,
-            "against": 124,
-            "diff": 10,
-            "points": 3,
+            "for": 169,
+            "against": 156,
+            "diff": 13,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62942,15 +62942,15 @@
             "highlight": null
           },
           {
-            "team": "TBB Trier",
+            "team": "Telekom Baskets Bonn",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 159,
-            "against": 154,
-            "diff": 5,
-            "points": 2,
+            "for": 136,
+            "against": 134,
+            "diff": 2,
+            "points": 3,
             "highlight": null
           },
           {
@@ -63031,9 +63031,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 129,
-            "against": 145,
-            "diff": -16,
+            "for": 139,
+            "against": 160,
+            "diff": -21,
             "points": 1,
             "highlight": null
           },
