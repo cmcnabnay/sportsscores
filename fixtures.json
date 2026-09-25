@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:24:30+00:00",
+  "updated": "2026-09-25T19:35:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16647,7 +16647,7 @@
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Valencia Basket",
-      "score": null,
+      "score": "94-96",
       "date": "2026-09-25",
       "time": "17:00",
       "utc": "2026-09-25T17:00:00+00:00",
@@ -26481,28 +26481,6 @@
     },
     {
       "league": "euroleague-2026-27",
-      "home": "Olympiacos BC",
-      "away": "KK Crvena zvezda",
-      "score": null,
-      "date": "2026-11-06",
-      "time": "19:15",
-      "utc": "2026-11-06T19:15:00+00:00",
-      "venue": "Peace And Friendship Stadium",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Virtus Bologna",
-      "away": "BC Dubai",
-      "score": null,
-      "date": "2026-11-06",
-      "time": "19:30",
-      "utc": "2026-11-06T19:30:00+00:00",
-      "venue": "Virtus Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Maccabi Tel Aviv",
       "score": null,
@@ -33190,6 +33168,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Hapoel Tel-Aviv",
+      "away": "LDLC ASVEL Lyon-Villeurbanne",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "18:00",
+      "utc": "2026-12-10T18:00:00+00:00",
+      "venue": "Shlomo Group Arena",
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Nürnberg Ice Tigers",
       "away": "ERC Ingolstadt",
@@ -33209,6 +33198,39 @@
       "time": "19:00",
       "utc": "2026-12-10T19:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Valencia Basket",
+      "away": "KK Crvena zvezda",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "19:30",
+      "utc": "2026-12-10T19:30:00+00:00",
+      "venue": "Roig Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "EA7 Emporio Armani Milano",
+      "away": "Barça Basket",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "19:30",
+      "utc": "2026-12-10T19:30:00+00:00",
+      "venue": "Unipol Forum",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "EA7 Emporio Armani Milano",
+      "away": "Bayern München",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "19:30",
+      "utc": "2026-12-10T19:30:00+00:00",
+      "venue": "Unipol Forum",
       "attendance": null
     },
     {
@@ -39438,6 +39460,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "KK Crvena zvezda",
+      "away": "LDLC ASVEL Lyon-Villeurbanne",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "19:00",
+      "utc": "2027-01-08T19:00:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "San Pablo Burgos",
       "away": "La Laguna Tenerife",
@@ -39446,6 +39479,17 @@
       "time": "19:00",
       "utc": "2027-01-08T19:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kosner Baskonia",
+      "away": "Virtus Bologna",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "19:30",
+      "utc": "2027-01-08T19:30:00+00:00",
+      "venue": "Fernando Buesa Arena",
       "attendance": null
     },
     {
@@ -40414,28 +40458,6 @@
       "time": "19:15",
       "utc": "2027-01-12T19:15:00+00:00",
       "venue": "Telekom Center Athens",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Barça Basket",
-      "away": "EA7 Emporio Armani Milano",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "19:30",
-      "utc": "2027-01-12T19:30:00+00:00",
-      "venue": "Palau Blaugrana",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Maccabi Tel Aviv",
-      "away": "Bayern München",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "19:30",
-      "utc": "2027-01-12T19:30:00+00:00",
-      "venue": "Menora Mivtachim Arena",
       "attendance": null
     },
     {
@@ -62812,9 +62834,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 46,
-            "against": 42,
-            "diff": 4,
+            "for": 52,
+            "against": 51,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -62836,9 +62858,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 138,
-            "against": 127,
-            "diff": 11,
+            "for": 147,
+            "against": 133,
+            "diff": 14,
             "points": 3,
             "highlight": null
           },
@@ -62879,25 +62901,25 @@
             "highlight": null
           },
           {
-            "team": "Mitteldeutscher",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 143,
-            "against": 146,
-            "diff": -3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 127,
-            "against": 131,
+            "for": 140,
+            "against": 142,
+            "diff": -2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 149,
+            "against": 153,
             "diff": -4,
             "points": 2,
             "highlight": null
@@ -62915,6 +62937,18 @@
             "highlight": null
           },
           {
+            "team": "Science City Jena",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 57,
+            "against": 68,
+            "diff": -11,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 1,
             "win": 0,
@@ -62924,18 +62958,6 @@
             "against": 94,
             "diff": -11,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Science City Jena",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 50,
-            "against": 62,
-            "diff": -12,
-            "points": 1,
             "highlight": null
           },
           {
@@ -62956,9 +62978,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 114,
-            "against": 141,
-            "diff": -27,
+            "for": 125,
+            "against": 154,
+            "diff": -29,
             "points": 1,
             "highlight": null
           },
@@ -64091,8 +64113,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 62,
-            "against": 45,
+            "for": 71,
+            "against": 54,
             "diff": 17,
             "points": 2,
             "highlight": null
@@ -64139,8 +64161,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 45,
-            "against": 62,
+            "for": 54,
+            "against": 71,
             "diff": -17,
             "points": 1,
             "highlight": null
