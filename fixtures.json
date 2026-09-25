@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:02:40+00:00",
+  "updated": "2026-09-25T19:13:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62789,8 +62789,8 @@
             "draw": null,
             "loss": 0,
             "for": 136,
-            "against": 114,
-            "diff": 22,
+            "against": 117,
+            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -62855,6 +62855,18 @@
             "highlight": null
           },
           {
+            "team": "Mitteldeutscher",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 134,
+            "against": 134,
+            "diff": 0,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Telekom Baskets Bonn",
             "played": 2,
             "win": 1,
@@ -62864,18 +62876,6 @@
             "against": 178,
             "diff": -2,
             "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 126,
-            "against": 130,
-            "diff": -4,
-            "points": 2,
             "highlight": null
           },
           {
@@ -62908,21 +62908,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 33,
+            "for": 36,
             "against": 40,
-            "diff": -7,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Science City Jena",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 34,
-            "against": 45,
-            "diff": -11,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -62936,6 +62924,18 @@
             "against": 94,
             "diff": -11,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Science City Jena",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 38,
+            "against": 53,
+            "diff": -15,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64091,9 +64091,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 41,
-            "against": 33,
-            "diff": 8,
+            "for": 48,
+            "against": 35,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -64139,9 +64139,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 33,
-            "against": 41,
-            "diff": -8,
+            "for": 35,
+            "against": 48,
+            "diff": -13,
             "points": 1,
             "highlight": null
           },
