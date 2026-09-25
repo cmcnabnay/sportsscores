@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T20:07:15+00:00",
+  "updated": "2026-09-25T20:18:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16658,12 +16658,13 @@
       "league": "del-2026-27",
       "home": "Kölner Haie",
       "away": "Eisbären Berlin",
-      "score": null,
+      "score": "5-6",
       "date": "2026-09-25",
       "time": "17:30",
       "utc": "2026-09-25T17:30:00+00:00",
       "venue": "Lanxess Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "del-2026-27",
@@ -16725,7 +16726,7 @@
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "78-68",
       "date": "2026-09-25",
       "time": "17:45",
       "utc": "2026-09-25T17:45:00+00:00",
@@ -62756,9 +62757,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 172,
+            "for": 173,
             "against": 149,
-            "diff": 23,
+            "diff": 24,
             "points": 4,
             "highlight": null
           },
@@ -62859,15 +62860,15 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
+            "team": "Bv Chemnitz 99",
             "played": 2,
-            "win": 1,
+            "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 152,
-            "against": 175,
-            "diff": -23,
-            "points": 2,
+            "for": 165,
+            "against": 172,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           },
           {
@@ -62877,20 +62878,8 @@
             "draw": null,
             "loss": 1,
             "for": 68,
-            "against": 76,
-            "diff": -8,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 161,
-            "against": 169,
-            "diff": -8,
+            "against": 77,
+            "diff": -9,
             "points": 1,
             "highlight": null
           },
@@ -62915,6 +62904,18 @@
             "for": 62,
             "against": 77,
             "diff": -15,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 155,
+            "against": 179,
+            "diff": -24,
             "points": 1,
             "highlight": null
           },
@@ -64699,6 +64700,18 @@
             "highlight": null
           },
           {
+            "team": "Eisbären Berlin",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 13,
+            "against": 11,
+            "diff": 2,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "Augsburger Panther",
             "played": 3,
             "win": 2,
@@ -64720,18 +64733,6 @@
             "against": 6,
             "diff": 3,
             "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Eisbären Berlin",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 7,
-            "against": 6,
-            "diff": 1,
-            "points": 3,
             "highlight": null
           },
           {
@@ -64759,6 +64760,18 @@
             "highlight": null
           },
           {
+            "team": "Kölner Haie",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 13,
+            "against": 17,
+            "diff": -4,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "ERC Ingolstadt",
             "played": 3,
             "win": 1,
@@ -64768,18 +64781,6 @@
             "against": 13,
             "diff": -6,
             "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Kölner Haie",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 8,
-            "against": 11,
-            "diff": -3,
-            "points": 2,
             "highlight": null
           },
           {
