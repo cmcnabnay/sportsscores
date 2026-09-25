@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T16:57:10+00:00",
+  "updated": "2026-09-25T17:08:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62882,6 +62882,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 125,
+            "against": 112,
+            "diff": 13,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Basketball Lowen Braunschweig",
             "played": 1,
             "win": 1,
@@ -62899,21 +62911,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 120,
-            "against": 100,
-            "diff": 20,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 113,
-            "against": 106,
-            "diff": 7,
+            "for": 129,
+            "against": 114,
+            "diff": 15,
             "points": 3,
             "highlight": null
           },
@@ -62947,9 +62947,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 135,
-            "against": 140,
-            "diff": -5,
+            "for": 149,
+            "against": 149,
+            "diff": 0,
             "points": 2,
             "highlight": null
           },
@@ -62962,18 +62962,6 @@
             "for": 158,
             "against": 164,
             "diff": -6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Phoenix Hagen",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 121,
-            "against": 129,
-            "diff": -8,
             "points": 2,
             "highlight": null
           },
@@ -63023,6 +63011,18 @@
             "against": 94,
             "diff": -11,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Phoenix Hagen",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 127,
+            "against": 141,
+            "diff": -14,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63086,9 +63086,9 @@
             "win": 6,
             "draw": null,
             "loss": 3,
-            "for": 26,
+            "for": 25,
             "against": 15,
-            "diff": 11,
+            "diff": 10,
             "points": 12,
             "highlight": null
           },
@@ -63183,8 +63183,8 @@
             "draw": null,
             "loss": 5,
             "for": 15,
-            "against": 37,
-            "diff": -22,
+            "against": 36,
+            "diff": -21,
             "points": 5,
             "highlight": null
           },
