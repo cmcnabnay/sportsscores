@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T15:33:09+00:00",
+  "updated": "2026-09-26T15:44:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62766,9 +62766,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 199,
-            "against": 130,
-            "diff": 69,
+            "for": 203,
+            "against": 133,
+            "diff": 70,
             "points": 4,
             "highlight": null
           },
@@ -62797,30 +62797,6 @@
             "highlight": null
           },
           {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 116,
-            "against": 107,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 241,
-            "against": 256,
-            "diff": -15,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 2,
             "win": 1,
@@ -62829,6 +62805,18 @@
             "for": 213,
             "against": 196,
             "diff": 17,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 116,
+            "against": 107,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -62893,18 +62881,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 166,
-            "against": 186,
-            "diff": -20,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Wurzburg Baskets",
             "played": 1,
             "win": 0,
@@ -62950,6 +62926,30 @@
             "against": 77,
             "diff": -15,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 244,
+            "against": 260,
+            "diff": -16,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 166,
+            "against": 186,
+            "diff": -20,
+            "points": 2,
             "highlight": null
           },
           {
@@ -64498,6 +64498,18 @@
       "SHL 26/27": {
         "rows": [
           {
+            "team": "Färjestad BK",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 16,
+            "against": 4,
+            "diff": 12,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Frölunda HC",
             "played": 3,
             "win": 3,
@@ -64510,26 +64522,26 @@
             "highlight": null
           },
           {
-            "team": "Färjestad BK",
+            "team": "Brynäs IF",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 4,
-            "diff": 7,
-            "points": 7,
+            "for": 15,
+            "against": 11,
+            "diff": 4,
+            "points": 6,
             "highlight": null
           },
           {
             "team": "IF Björklöven",
-            "played": 2,
+            "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 0,
+            "loss": 1,
             "for": 7,
-            "against": 3,
-            "diff": 4,
+            "against": 8,
+            "diff": -1,
             "points": 5,
             "highlight": null
           },
@@ -64555,18 +64567,6 @@
             "against": 12,
             "diff": -4,
             "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Brynäs IF",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 11,
-            "against": 9,
-            "diff": 2,
-            "points": 3,
             "highlight": null
           },
           {
@@ -64619,13 +64619,13 @@
           },
           {
             "team": "Luleå Hockey",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 7,
-            "against": 9,
-            "diff": -2,
+            "loss": 2,
+            "for": 9,
+            "against": 13,
+            "diff": -4,
             "points": 3,
             "highlight": null
           },
