@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T17:55:16+00:00",
+  "updated": "2026-09-26T18:06:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62856,6 +62856,18 @@
             "highlight": null
           },
           {
+            "team": "Brose Bamberg",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 187,
+            "against": 175,
+            "diff": 12,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 3,
             "win": 2,
@@ -62892,18 +62904,6 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 180,
-            "against": 175,
-            "diff": 5,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 2,
             "win": 1,
@@ -62933,21 +62933,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 143,
-            "against": 147,
+            "for": 154,
+            "against": 158,
             "diff": -4,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 158,
-            "against": 164,
-            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -62961,6 +62949,18 @@
             "against": 186,
             "diff": -20,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 158,
+            "against": 171,
+            "diff": -13,
+            "points": 3,
             "highlight": null
           },
           {
@@ -63017,8 +63017,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 120,
-            "against": 168,
+            "for": 131,
+            "against": 179,
             "diff": -48,
             "points": 1,
             "highlight": null
@@ -63718,9 +63718,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 103,
-            "against": 86,
-            "diff": 17,
+            "for": 107,
+            "against": 92,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -63730,9 +63730,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 24,
-            "against": 11,
-            "diff": 13,
+            "for": 29,
+            "against": 22,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -63910,9 +63910,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 24,
-            "diff": -13,
+            "for": 22,
+            "against": 29,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -63922,9 +63922,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 86,
-            "against": 103,
-            "diff": -17,
+            "for": 92,
+            "against": 107,
+            "diff": -15,
             "points": 1,
             "highlight": null
           }
@@ -63936,31 +63936,31 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 9,
+            "against": 0,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 29,
-            "against": 26,
-            "diff": 3,
+            "for": 45,
+            "against": 38,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
           {
             "team": "Olimpia Milano",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Cantù",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -64009,18 +64009,6 @@
           },
           {
             "team": "Virtus Bologna",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Reyer Venezia",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -64121,9 +64109,21 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 26,
-            "against": 29,
-            "diff": -3,
+            "for": 38,
+            "against": 45,
+            "diff": -7,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Cantù",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 0,
+            "against": 9,
+            "diff": -9,
             "points": 0,
             "highlight": null
           }
@@ -64171,13 +64171,25 @@
             "highlight": null
           },
           {
+            "team": "Chorale de Roanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 79,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "JL Bourg",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 69,
-            "against": 56,
+            "for": 77,
+            "against": 64,
             "diff": 13,
             "points": 2,
             "highlight": null
@@ -64283,22 +64295,10 @@
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
+            "loss": 1,
             "for": 79,
-            "against": 79,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Chorale de Roanne",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 79,
-            "against": 79,
-            "diff": 0,
+            "against": 81,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -64308,8 +64308,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 56,
-            "against": 69,
+            "for": 64,
+            "against": 77,
             "diff": -13,
             "points": 1,
             "highlight": null
