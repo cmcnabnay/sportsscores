@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T18:17:09+00:00",
+  "updated": "2026-09-26T18:28:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62861,9 +62861,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 175,
-            "against": 180,
-            "diff": -5,
+            "for": 186,
+            "against": 187,
+            "diff": -1,
             "points": 4,
             "highlight": null
           },
@@ -62904,6 +62904,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 176,
+            "against": 175,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Mitteldeutscher",
             "played": 2,
             "win": 1,
@@ -62912,18 +62924,6 @@
             "for": 158,
             "against": 158,
             "diff": 0,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 167,
-            "against": 168,
-            "diff": -1,
             "points": 2,
             "highlight": null
           },
@@ -62957,9 +62957,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 196,
-            "against": 192,
-            "diff": 4,
+            "for": 203,
+            "against": 203,
+            "diff": 0,
             "points": 3,
             "highlight": null
           },
@@ -63017,9 +63017,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 141,
-            "against": 192,
-            "diff": -51,
+            "for": 148,
+            "against": 201,
+            "diff": -53,
             "points": 1,
             "highlight": null
           }
@@ -63730,9 +63730,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 42,
-            "against": 38,
-            "diff": 4,
+            "for": 46,
+            "against": 43,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -63910,9 +63910,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 38,
-            "against": 42,
-            "diff": -4,
+            "for": 43,
+            "against": 46,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63953,9 +63953,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 18,
-            "against": 8,
-            "diff": 10,
+            "for": 21,
+            "against": 19,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -64109,9 +64109,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 8,
-            "against": 18,
-            "diff": -10,
+            "for": 19,
+            "against": 21,
+            "diff": -2,
             "points": 0,
             "highlight": null
           },
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 79,
-            "against": 73,
-            "diff": 6,
+            "for": 89,
+            "against": 87,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 73,
-            "against": 79,
-            "diff": -6,
+            "for": 87,
+            "against": 89,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -64593,6 +64593,18 @@
             "highlight": null
           },
           {
+            "team": "Växjö Lakers HC",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 18,
+            "against": 17,
+            "diff": 1,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Rögle BK",
             "played": 4,
             "win": 2,
@@ -64641,18 +64653,6 @@
             "highlight": null
           },
           {
-            "team": "HV71",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 8,
-            "against": 8,
-            "diff": 0,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Malmö Redhawks",
             "played": 2,
             "win": 1,
@@ -64665,14 +64665,14 @@
             "highlight": null
           },
           {
-            "team": "Växjö Lakers HC",
+            "team": "HV71",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 11,
-            "against": 12,
-            "diff": -1,
+            "for": 13,
+            "against": 15,
+            "diff": -2,
             "points": 3,
             "highlight": null
           },
@@ -66641,10 +66641,10 @@
             {
               "seed1": 1,
               "team1": "Wigan",
-              "score1": null,
+              "score1": 6,
               "seed2": 4,
-              "team2": "Wakefield",
-              "score2": null,
+              "team2": "'''Wakefield'''",
+              "score2": 33,
               "date": null,
               "venue": null
             },
@@ -66653,7 +66653,7 @@
               "team1": "Leeds",
               "score1": 12,
               "seed2": 3,
-              "team2": "Warrington",
+              "team2": "'''Warrington'''",
               "score2": 14,
               "date": null,
               "venue": null
