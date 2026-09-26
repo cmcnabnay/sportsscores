@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:06:09+00:00",
+  "updated": "2026-09-26T16:19:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16764,7 +16764,8 @@
       "time": "18:00",
       "utc": "2026-09-25T18:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "lnb-elite-2026-27",
@@ -16981,7 +16982,7 @@
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Alba Berlin",
-      "score": null,
+      "score": "95-61",
       "date": "2026-09-26",
       "time": "13:40",
       "utc": "2026-09-26T13:40:00+00:00",
@@ -63147,10 +63148,10 @@
             "played": 9,
             "win": 5,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 24,
-            "against": 14,
-            "diff": 10,
+            "against": 16,
+            "diff": 8,
             "points": 11,
             "highlight": null
           },
@@ -63292,6 +63293,18 @@
             "highlight": null
           },
           {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 24,
+            "against": 28,
+            "diff": -4,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Avangard Omsk",
             "played": 8,
             "win": 4,
@@ -63324,18 +63337,6 @@
             "for": 14,
             "against": 15,
             "diff": -1,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 9,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 22,
-            "against": 28,
-            "diff": -6,
             "points": 6,
             "highlight": null
           },
@@ -63782,8 +63783,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 3,
-            "against": 0,
+            "for": 17,
+            "against": 14,
             "diff": 3,
             "points": 2,
             "highlight": null
@@ -63986,8 +63987,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 0,
-            "against": 3,
+            "for": 14,
+            "against": 17,
             "diff": -3,
             "points": 1,
             "highlight": null
@@ -64216,9 +64217,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 10,
-            "against": 4,
-            "diff": 6,
+            "for": 22,
+            "against": 21,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -64228,9 +64229,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 13,
-            "against": 6,
-            "diff": 7,
+            "for": 24,
+            "against": 13,
+            "diff": 11,
             "points": 2,
             "highlight": null
           },
@@ -64300,9 +64301,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 10,
-            "diff": -6,
+            "for": 21,
+            "against": 22,
+            "diff": -1,
             "points": 1,
             "highlight": null
           },
@@ -64348,9 +64349,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 6,
-            "against": 13,
-            "diff": -7,
+            "for": 13,
+            "against": 24,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
@@ -64446,6 +64447,18 @@
             "highlight": null
           },
           {
+            "team": "Rauman Lukko",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 19,
+            "against": 17,
+            "diff": 2,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "SaiPa Lappeenranta",
             "played": 6,
             "win": 5,
@@ -64470,18 +64483,6 @@
             "highlight": null
           },
           {
-            "team": "Rauman Lukko",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 17,
-            "against": 16,
-            "diff": 1,
-            "points": 11,
-            "highlight": null
-          },
-          {
             "team": "Kiekko-Espoo",
             "played": 7,
             "win": 3,
@@ -64495,13 +64496,13 @@
           },
           {
             "team": "KalPa Kuopio",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 18,
-            "against": 13,
-            "diff": 5,
+            "loss": 4,
+            "for": 19,
+            "against": 15,
+            "diff": 4,
             "points": 9,
             "highlight": null
           },
