@@ -30,19 +30,15 @@ key in LEAGUES:
                   "team_pages" config key) and only keeps each team's
                   home ("vs.") rows, so every match is captured exactly
                   once even though it appears on two different pages.
-  - "espn"      : not Wikipedia at all - ESPN's public scoreboard API
-                  (site.api.espn.com), queried once for a whole date range
-                  via the "espn_sport"/"espn_league"/"espn_date_range"
-                  config keys. Used for competitions with no single good
-                  Wikipedia results page (e.g. bilateral rugby test
-                  matches). Kickoff instants and final scores come
-                  straight from ESPN's JSON, already in UTC, so no
-                  timezone guessing is needed the way it is for the
-                  Wikipedia-sourced parsers above. "espn_date_range" can
-                  also be a list of "YYYYMMDD-YYYYMMDD" strings instead of
-                  one, for a league with well over 100 matches a season
-                  (ESPN caps a single response at 100 events) - each range
-                  is fetched separately and the results merged.
+  - "scores365" / "sofascore": not Wikipedia at all - 365Scores' and
+                  SofaScore's public JSON APIs (see the sections above
+                  fetch_scores365_json/fetch_sofascore_json). Kickoff
+                  instants come back already in UTC, so no timezone
+                  guessing is needed the way it is for the Wikipedia-
+                  sourced parsers above. Rugby union's club leagues and
+                  European cups come from SofaScore, rugby internationals
+                  from 365Scores (ESPN's API was used for these until
+                  2026-09-26 but was too unreliable - repeated 403 blocks).
 
 A league can fetch from more than one Wikipedia page (e.g. a tournament
 split into "Southern Hemisphere Series" / "Northern Hemisphere Series"
@@ -97,59 +93,6 @@ OUTPUT_FILE = Path(__file__).parent / "fixtures.json"
 print(OUTPUT_FILE)
 API_URL = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "fixtures-fetcher/1.0 (personal project; contact: cmcnabnay)"}
-
-# ESPN's site API (used by the "espn" parser) sits behind Akamai, which
-# flat-out 403s this script's normal Wikipedia HEADERS above - even a
-# browser User-Agent isn't enough on its own without Referer/Origin
-# headers that make the request look like it came from a tab open on
-# espn.com. Kept separate from HEADERS since Wikipedia's API doesn't need
-# (and doesn't care about) any of this.
-ESPN_API_URL = "https://site.api.espn.com/apis/site/v2/sports"
-# Standings live under a different (non-"site") path than the scoreboard
-# above - same host/auth requirements, just a different API surface.
-ESPN_STANDINGS_API_URL = "https://site.api.espn.com/apis/v2/sports"
-ESPN_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://www.espn.com/",
-    "Origin": "https://www.espn.com",
-}
-ESPN_MAX_RETRIES = 3
-
-# Once ESPN starts flat-out 403ing every request (seen starting
-# 2026-09-18 - not a per-request fluke, every retry/header combination
-# tried failed identically), stop attempting ESPN's API entirely for this
-# long before trying again, rather than every ~10-minute cron run hitting
-# a live block 3 retries at a time. Hammering a block while it's active
-# doesn't help it clear, and may look like exactly the sustained
-# automated traffic that keeps one in place. See espn_backoff_active/
-# set_espn_backoff/clear_espn_backoff - state lives in fixtures.json's
-# top-level "espn_backoff_until" so it persists across runs.
-ESPN_BACKOFF_HOURS = 8
-
-
-def espn_backoff_active(data, now):
-    """True if a prior ESPN failure set a cooldown that hasn't elapsed
-    yet - see ESPN_BACKOFF_HOURS."""
-    until = data.get("espn_backoff_until")
-    if not until:
-        return False
-    try:
-        until_dt = datetime.fromisoformat(until)
-    except ValueError:
-        return False
-    return now < until_dt
-
-
-def set_espn_backoff(data, now):
-    data["espn_backoff_until"] = (now + timedelta(hours=ESPN_BACKOFF_HOURS)).isoformat()
-
-
-def clear_espn_backoff(data):
-    data["espn_backoff_until"] = None
-
 
 # Minimum gap between consecutive Wikipedia API requests, and retry/backoff
 # settings for when a burst of requests (e.g. CFL's 9 team pages) still
@@ -365,162 +308,69 @@ LEAGUES = {
     },
     "internationals-2026": {
         "name": "Rugby Internationals 2026",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 289234 is ESPN's league id for internationals/
-        # test matches (the "league" segment of espn.com/rugby/scoreboard
-        # URLs); "rugby" here is ESPN's sport slug, not this dict's own
-        # "sport" key below. One request covers the whole date range, so
-        # unlike the Wikipedia leagues above there's no "page"/"pages".
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "289234",
-        "espn_date_range": "20260101-20261231",
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
+        # 365Scores files test matches under several competitions rather
+        # than one - Friendly International (6194) carries most 2026 tests
+        # incl. the Rugby Championship fixtures; the rest (5739 The Rugby
+        # Championship, 6873 Nations Cup, 7611 Autumn Nations Cup, 5746
+        # Test Series, 6872 Lions Tour) are included so tests filed there
+        # aren't missed. The games endpoint takes a comma-separated list.
+        # Six Nations (5959) is deliberately left out - it isn't part of
+        # this league's scope. No seasonNum on these games, so bounded by
+        # date (see fetch_scores365_games).
+        "parser": "scores365",
+        "scores365_competition_id": "6194,5739,6873,7611,5746,6872",
+        "scores365_min_date": "2026-01-01",
+        "scores365_max_date": "2026-12-31",
     },
+    # --- SofaScore-sourced rugby union leagues (see the SofaScore section
+    # above fetch_sofascore_json). Tournament id = SofaScore's
+    # "unique-tournament" id, season id = its "26/27" season. Bump the
+    # season id (and key/name) when 2027-28 starts. 365Scores was checked
+    # first: it has no URC data at all, hadn't loaded either European cup,
+    # only exposes the current round of Premiership/Top 14 games, and its
+    # Top 14 table is still last season's (it has no Premiership table).
     "top14-2026": {
         "name": "French Top 14 2026-27",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 270559 is ESPN's league id for the French
-        # Top 14 (the "league" segment of espn.com/rugby/scoreboard URLs).
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "270559",
-        # A full Top 14 season (14 clubs, double round-robin plus playoffs)
-        # is ~190 matches - well over ESPN's 100-event-per-response cap
-        # (see fetch_espn_scoreboard) - so the season is split into
-        # quarterly ranges rather than one 20260801-20270630 request.
-        "espn_date_range": [
-            "20260801-20261031",
-            "20261101-20270131",
-            "20270201-20270430",
-            "20270501-20270630",
-        ],
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
-        # ESPN doesn't expose a Top 14 standings table, so this comes from
-        # Wikipedia instead - fixtures/scores still come from ESPN above,
-        # this is standings only. The page's "==Table==" section is a bare
-        # {{#invoke:Sports table|main|...}} transclusion, which by the
-        # time it's rendered is just a normal wikitable (Pos/Team/Pld/W/D/
-        # L/PF/PA/PD/TF/TA/TB/LB/Pts/Qualification) - fetch_standings()
-        # reads it the same generic way as any other rendered standings
-        # table, no special-casing needed for the Lua module itself.
-        "standings": {
-            "page": "2026–27_Top_14_season",
-            "groups": [
-                {"label": "Table", "heading_ids": ["Table"]},
-            ],
-        },
-        # Used INSTEAD of ESPN for fixtures/scores while an ESPN backoff
-        # is active (see ESPN_BACKOFF_HOURS/espn_backoff_active). 5644 =
-        # Top 14 on 365Scores, confirmed working with real current-season
-        # data. Bounded by date, not season_num, the way BBL/Vélez's
-        # scores365 sources are - 365Scores' "current season" number for
-        # this competition (8) hasn't actually incremented between the
-        # 2025-26 and 2026-27 real-world seasons (low-priority/poorly-
-        # maintained competition there - see its very low popularityRank),
-        # so season_num alone silently pulled in an entire extra year of
-        # already-finished matches under mismatched team-name spellings.
-        # Same window as espn_date_range above. See fetch_scores365_games.
-        #
-        # Not added to Premiership/URC/Champions Cup/Challenge Cup below:
-        # none of those are tracked as their own competition on 365Scores
-        # at all - every club I looked up there (Leicester, Northampton,
-        # Sale, Munster, Glasgow, Stormers) only resolves to the Champions/
-        # Challenge Cup competition ids, and those return zero fixtures
-        # right now (no season configured) - there's nothing reliable to
-        # fall back to for those leagues.
-        "scores365_fallback": {"competition_id": 5644, "min_date": "2026-08-01", "max_date": "2027-06-30"},
+        "parser": "sofascore",
+        "sofascore_tournament_id": 420,
+        "sofascore_season_id": 98426,
+        "standings": {"sofascore_tournament_id": 420, "sofascore_season_id": 98426},
     },
     "premiership-2026": {
         "name": "Gallagher Premiership 2026-27",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 267979 is ESPN's league id for the Gallagher
-        # Premiership. Season hasn't started yet as of writing - a 10-club
-        # double round-robin is 90 matches, under ESPN's 100-event cap, so
-        # (unlike Top 14/URC below) this fits in a single date range with
-        # room to spare for however many playoff matches get added once
-        # they're scheduled.
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "267979",
-        "espn_date_range": "20260801-20270630",
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
-        # Unlike Top 14, ESPN DOES carry a standings table for this
-        # league - see fetch_espn_standings_groups(). All zeros until the
-        # season actually kicks off.
-        "standings": {
-            "espn_sport": "rugby",
-            "espn_league": "267979",
-        },
+        "parser": "sofascore",
+        "sofascore_tournament_id": 424,  # "Prem Rugby" on SofaScore
+        "sofascore_season_id": 99544,
+        "standings": {"sofascore_tournament_id": 424, "sofascore_season_id": 99544},
     },
     "urc-2026": {
         "name": "United Rugby Championship 2026-27",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 270557 is ESPN's league id for the United
-        # Rugby Championship. Season hasn't started yet as of writing.
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "270557",
-        # 16 clubs, single round-robin (18 rounds) plus playoffs is ~140+
-        # matches a season - checked against ESPN's own event count while
-        # wiring this up (a single 20260801-20270630 request truncated at
-        # exactly the 100-event cap) - so, same as Top 14 above, split
-        # into quarterly ranges instead of one request.
-        "espn_date_range": [
-            "20260801-20261031",
-            "20261101-20270131",
-            "20270201-20270430",
-            "20270501-20270630",
-        ],
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
-        "standings": {
-            "espn_sport": "rugby",
-            "espn_league": "270557",
-        },
+        "parser": "sofascore",
+        "sofascore_tournament_id": 419,
+        "sofascore_season_id": 98406,
+        "standings": {"sofascore_tournament_id": 419, "sofascore_season_id": 98406},
     },
     "champions-cup-2026": {
         "name": "European Rugby Champions Cup 2026-27",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 271937 is ESPN's league id for the European
-        # Rugby Champions Cup. Season hasn't started yet as of writing;
-        # pool-stage-plus-knockouts is well under 100 matches, so one
-        # request covers the season.
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "271937",
-        "espn_date_range": "20260801-20270630",
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
-        # This competition is split into pools (4 of them, 6 teams each,
-        # this season) rather than one table - fetch_espn_standings_groups()
-        # doesn't need to know the pool count/names in advance, it just
-        # turns each of ESPN's response "children" (one per pool here)
-        # into its own group.
-        "standings": {
-            "espn_sport": "rugby",
-            "espn_league": "271937",
-        },
+        "parser": "sofascore",
+        "sofascore_tournament_id": 401,
+        "sofascore_season_id": 98417,
+        # No pool tables on SofaScore until the pool stage starts
+        # (2026-10-16) - an empty fetch keeps whatever was stored before.
+        "standings": {"sofascore_tournament_id": 401, "sofascore_season_id": 98417},
     },
     "challenge-cup-2026": {
         "name": "European Rugby Challenge Cup 2026-27",
-        # Not a Wikipedia page - see the "espn" parser docstring at the
-        # top of this file. 272073 is ESPN's league id for the European
-        # Rugby Challenge Cup. Season hasn't started yet as of writing.
         "sport": "rugby",
-        "parser": "espn",
-        "espn_sport": "rugby",
-        "espn_league": "272073",
-        "espn_date_range": "20260801-20270630",
-        # no utc_offset needed - ESPN gives each match's kickoff already in UTC
-        # No "standings" config on purpose: ESPN's standings endpoint has
-        # no actual table for this competition (checked while wiring this
-        # up - the response's "children" carry league metadata but no
-        # "standings"/"entries" at all, unlike Premiership/URC/Champions
-        # Cup above), so there's nothing to scrape yet.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 752,
+        "sofascore_season_id": 98408,
+        "standings": {"sofascore_tournament_id": 752, "sofascore_season_id": 98408},
     },
     "nrl-2026": {
         "name": "NRL 2026",
@@ -895,25 +745,15 @@ LEAGUES = {
     "bcl-2026-27": {
         "name": "Basketball Champions League 2026-27",
         "sport": "basketball",
-        # Not a Wikipedia page - sourced from 365Scores' own JSON API, same
-        # as bbl-2026-27/khl-2026-27 above (competition id 6391 = FIBA's
-        # Basketball Champions League - confirmed via the widget snippet's
-        # data-entity-id).
-        "parser": "scores365",
-        "scores365_competition_id": 6391,
-        # 365Scores' "current season" pointer for this competition as of
-        # the 2026-09-14 Regular Season Matchday 1 kickoff - confirmed a
-        # clean break from the prior season (10, Sep 2025-May 2026) rather
-        # than a stuck-numbering situation like top14-2026's. Bump this
-        # (and the key/name above) when the 2027-28 season starts.
-        "scores365_season_num": 11,
-        # 8-group Regular Season (Group A-H) - 365Scores' standings
-        # response returns one table per group, each keyed by its own
-        # displayName; fetch_scores365_standings_groups() already handles
-        # multiple groups per competition with no BCL-specific code needed.
-        "standings": {
-            "scores365_competition_id": 6391,
-        },
+        # Moved from 365Scores (competition 6391) to SofaScore on
+        # 2026-09-24: 365Scores' group tables were incomplete (Groups C
+        # and F each missing a team, and every team stuck at 0 played).
+        # SofaScore has all 8 groups x 4 teams, plus the qualification
+        # rounds. See the SofaScore section above fetch_sofascore_json.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 9357,
+        "sofascore_season_id": 98086,
+        "standings": {"sofascore_tournament_id": 9357, "sofascore_season_id": 98086},
     },
     "khl-2026-27": {
         "name": "KHL 2026-27",
@@ -925,8 +765,8 @@ LEAGUES = {
         # 365Scores' "current season" pointer for this competition as of
         # the 2026-09-05 season kickoff - confirmed a clean break from the
         # prior season (13, Feb-May 2026 playoffs) rather than the stuck
-        # numbering top14-2026 has to work around (see its
-        # scores365_fallback comment). Bump this (and the key/name above)
+        # numbering some competitions have there (see the min_date/
+        # max_date note in fetch_scores365_games). Bump this (and the key/name above)
         # when the 2027-28 season starts.
         #
         # Unlike BBL, 365Scores only has a rolling few weeks of KHL
@@ -952,10 +792,12 @@ LEAGUES = {
     "euroleague-2026-27": {
         "name": "EuroLeague 2026-27",
         "sport": "basketball",
-        "parser": "scores365",
-        "scores365_competition_id": 569,
-        "scores365_season_num": 71,
-        "standings": {"scores365_competition_id": 569},
+        # SofaScore rather than 365Scores (competition 569): 365Scores
+        # served no EuroLeague standings at all even after tip-off.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 138,
+        "sofascore_season_id": 99582,
+        "standings": {"sofascore_tournament_id": 138, "sofascore_season_id": 99582},
     },
     "eurocup-2026-27": {
         "name": "EuroCup 2026-27",
@@ -1001,49 +843,36 @@ LEAGUES = {
         "scores365_season_num": 105,
         "standings": {"scores365_competition_id": 38},
     },
-    # --- 365Scores-sourced hockey leagues added 2026-09-24. As of that
-    # date 365Scores had NOT yet loaded any 2026-27 games for these three
-    # (their "fixtures" endpoint was empty and "results" only had the
-    # 2025-26 playoffs, even though all three seasons had already
-    # started), and their season numbers are unreliable (Liiga's games
-    # carry none at all, SHL's "current" is still 1, DEL's still 12). So
-    # these are bounded by date instead of season number, the same
-    # mechanism top14-2026's scores365_fallback uses - they'll show no
-    # matches until 365Scores loads the season, then fill in on their
-    # own with no config change needed. If they're still empty weeks
-    # from now, 365Scores may have moved the new season to a different
-    # competition id - search https://webws.365scores.com/web/search/
-    # again.
+    # --- SofaScore-sourced hockey leagues added 2026-09-24 (see the
+    # SofaScore section above fetch_sofascore_json). 365Scores was tried
+    # first but hadn't loaded any 2026-27 games for these three yet.
+    # Tournament id = SofaScore's "unique-tournament" id, season id = its
+    # "26/27" season (from /unique-tournament/<id>/seasons). Bump the
+    # season id (and key/name) when 2027-28 starts.
     "liiga-2026-27": {
         "name": "Liiga 2026-27",
         "sport": "hockey",
-        "parser": "scores365",
-        "scores365_competition_id": 370,
-        "scores365_min_date": "2026-09-01",
-        "scores365_max_date": "2027-06-30",
-        # No standings: 365Scores served none for Liiga on 2026-09-24,
-        # and with no season number to filter on, a table appearing later
-        # couldn't be told apart from last season's. Add a
-        # {"scores365_competition_id": 370} block once it's confirmed
-        # current.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 134,
+        "sofascore_season_id": 96425,
+        "standings": {"sofascore_tournament_id": 134, "sofascore_season_id": 96425},
     },
     "shl-2026-27": {
         "name": "SHL 2026-27",
         "sport": "hockey",
-        "parser": "scores365",
-        "scores365_competition_id": 373,
-        "scores365_min_date": "2026-09-01",
-        "scores365_max_date": "2027-06-30",
-        "standings": {"scores365_competition_id": 373, "stale_season_nums": [1]},
+        "parser": "sofascore",
+        # 261 = Sweden's SHL (not 1490, Slovakia's league of the same name)
+        "sofascore_tournament_id": 261,
+        "sofascore_season_id": 95202,
+        "standings": {"sofascore_tournament_id": 261, "sofascore_season_id": 95202},
     },
     "del-2026-27": {
         "name": "DEL 2026-27",
         "sport": "hockey",
-        "parser": "scores365",
-        "scores365_competition_id": 379,
-        "scores365_min_date": "2026-09-01",
-        "scores365_max_date": "2027-06-30",
-        "standings": {"scores365_competition_id": 379, "stale_season_nums": [12]},
+        "parser": "sofascore",
+        "sofascore_tournament_id": 225,
+        "sofascore_season_id": 97332,
+        "standings": {"sofascore_tournament_id": 225, "sofascore_season_id": 97332},
     },
 }
 
@@ -1208,185 +1037,6 @@ def fetch_page_wikitext(page_title: str) -> str:
     return wikitext
 
 
-def fetch_espn_scoreboard(espn_sport, espn_league, date_range):
-    """Fetch one ESPN scoreboard response covering `date_range` (e.g.
-    "20260101-20261231") in a single request - ESPN's API returns every
-    match in range directly, unlike Wikipedia's page-per-tournament model,
-    so there's no per-page loop here. Note ESPN caps a single response at
-    100 events regardless of range, so a date_range spanning a league with
-    a lot more than ~100 matches a year would need splitting into more
-    than one call; fine for the leagues configured here so far.
-
-    Retries on failure since even with ESPN_HEADERS in place (see the
-    comment above ESPN_HEADERS) this intermittently 403s anyway - a
-    transient bot-detection false positive, not a real block, in practice
-    it succeeds within a retry or two."""
-    url = f"{ESPN_API_URL}/{espn_sport}/{espn_league}/scoreboard?dates={date_range}"
-    req = Request(url, headers=ESPN_HEADERS)
-    last_err = None
-    for attempt in range(ESPN_MAX_RETRIES):
-        try:
-            with urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
-                return json.loads(resp.read().decode("utf-8"))
-        except HTTPError as e:
-            last_err = e
-            if attempt < ESPN_MAX_RETRIES - 1:
-                time.sleep(2 * (attempt + 1))
-    raise last_err
-
-
-def parse_espn_matches(data, league_key, cfg):
-    """Parse an ESPN scoreboard JSON response (see fetch_espn_scoreboard)
-    into this project's usual match dict shape. ESPN already gives a
-    UTC kickoff instant and a final score directly - no HTML/wikitext
-    parsing or timezone guessing needed the way the Wikipedia-sourced
-    parsers elsewhere in this file require."""
-    matches = []
-    for event in data.get("events", []):
-        competitions = event.get("competitions") or []
-        if not competitions:
-            continue
-        comp = competitions[0]
-        competitors = comp.get("competitors", [])
-        home = next((c for c in competitors if c.get("homeAway") == "home"), None)
-        away = next((c for c in competitors if c.get("homeAway") == "away"), None)
-        if not home or not away:
-            continue
-
-        completed = comp.get("status", {}).get("type", {}).get("completed", False)
-        score = None
-        if completed and home.get("score") is not None and away.get("score") is not None:
-            score = f"{home['score']}-{away['score']}"
-
-        date_out, time_out = normalize_date(comp.get("date") or event.get("date"), None, None)
-        utc_out = compute_utc(date_out, time_out, utc_offset=0)  # ESPN's date is already UTC
-
-        venue = comp.get("venue") or {}
-        address = venue.get("address") or {}
-        venue_name, city, country = venue.get("fullName"), address.get("city"), address.get("state")
-        venue_out = ", ".join(p for p in (venue_name, city) if p) or None
-        if venue_out and country and country != city:
-            venue_out += f" ({country})"
-
-        attendance = comp.get("attendance")
-
-        matches.append({
-            "league": league_key,
-            "home": canonicalize_team_name(home.get("team", {}).get("displayName")),
-            "away": canonicalize_team_name(away.get("team", {}).get("displayName")),
-            "score": score,
-            "date": date_out,
-            "time": time_out,
-            "utc": utc_out,
-            "venue": venue_out,
-            "attendance": str(attendance) if attendance else None,
-        })
-    return matches
-
-
-def fetch_espn_standings(espn_sport, espn_league):
-    """Fetch a league's standings straight from ESPN's own standings
-    endpoint (a different API surface than fetch_espn_scoreboard's - see
-    ESPN_STANDINGS_API_URL). No date range/season needed: hitting this
-    without a `season` query param already returns whatever ESPN
-    considers the current season (checked against the Gallagher
-    Premiership/URC/Champions Cup 2026-27 tables while wiring this up),
-    so this stays correct next season with no config change. Same retry
-    treatment as fetch_espn_scoreboard - intermittent 403s here too."""
-    url = f"{ESPN_STANDINGS_API_URL}/{espn_sport}/{espn_league}/standings"
-    req = Request(url, headers=ESPN_HEADERS)
-    last_err = None
-    for attempt in range(ESPN_MAX_RETRIES):
-        try:
-            with urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
-                return json.loads(resp.read().decode("utf-8"))
-        except HTTPError as e:
-            last_err = e
-            if attempt < ESPN_MAX_RETRIES - 1:
-                time.sleep(2 * (attempt + 1))
-    raise last_err
-
-
-# Maps this project's standard standings row roles (see
-# parse_standings_table's docstring) to the "name" field ESPN gives each
-# entry's stat objects.
-ESPN_STANDINGS_STAT_NAMES = {
-    "played": "gamesPlayed",
-    "win": "gamesWon",
-    "draw": "gamesDrawn",
-    "loss": "gamesLost",
-    "for": "pointsFor",
-    "against": "pointsAgainst",
-    "diff": "pointsDifference",
-    "points": "points",
-}
-
-
-def parse_espn_standings_group(entries):
-    """Turn one ESPN standings "children[i].standings.entries" list into
-    the same {"team","played","win","draw","loss","for","against","diff",
-    "points","highlight"} row shape parse_standings_table() produces from
-    a Wikipedia table, so matches.html doesn't need to care which source a
-    league's standings came from. ESPN doesn't mark rows with a qualify/
-    relegate color the way Wikipedia's Module:Sports table does, so
-    "highlight" is always None here."""
-    rows = []
-    for entry in entries:
-        team = entry.get("team", {}).get("displayName")
-        if not team:
-            continue
-        stats_by_name = {s.get("name"): s for s in entry.get("stats", [])}
-
-        def get_num(role):
-            stat = stats_by_name.get(ESPN_STANDINGS_STAT_NAMES[role])
-            if stat is None or stat.get("value") is None:
-                return None
-            return int(stat["value"])
-
-        rows.append({
-            "team": team,
-            "played": get_num("played"),
-            "win": get_num("win"),
-            "draw": get_num("draw"),
-            "loss": get_num("loss"),
-            "for": get_num("for"),
-            "against": get_num("against"),
-            "diff": get_num("diff"),
-            "points": get_num("points"),
-            "highlight": None,
-        })
-    return rows
-
-
-def fetch_espn_standings_groups(cfg, key):
-    """Resolve an "standings": {"espn_sport": ..., "espn_league": ...}
-    config (see LEAGUES' Gallagher Premiership/URC/Champions Cup entries)
-    into the {group_label: {"rows": [...], "legend": {}}} shape
-    fetch_standings() returns for every other (Wikipedia-sourced) league.
-
-    Each of ESPN's response "children" becomes its own group - a single-
-    table league like the Premiership or URC has exactly one child (named
-    after the league itself), while a pooled competition like the
-    Champions Cup has one child per pool ("Pool 1".."Pool 4"), so this
-    doesn't need to know in advance how many groups a given league has."""
-    standings_cfg = cfg["standings"]
-    try:
-        data = fetch_espn_standings(standings_cfg["espn_sport"], standings_cfg["espn_league"])
-    except Exception as e:
-        print(f"  !! standings: ESPN fetch failed for {key}: {e}", file=sys.stderr)
-        return {}
-
-    result = {}
-    for child in data.get("children", []):
-        entries = child.get("standings", {}).get("entries")
-        if not entries:
-            continue
-        rows = parse_espn_standings_group(entries)
-        if rows:
-            result[child.get("name", key)] = {"rows": rows, "legend": {}}
-    return result
-
-
 # 365Scores' own web API (the same one their embeddable widget calls) -
 # public, unauthenticated JSON, no key required. Used for the basketball
 # Bundesliga (competition id 27), which has no reliably-structured
@@ -1395,8 +1045,7 @@ SCORES365_BASE = "https://webws.365scores.com"
 SCORES365_GAMES_URL = f"{SCORES365_BASE}/web/games/"
 SCORES365_STANDINGS_URL = f"{SCORES365_BASE}/web/standings/"
 # timezoneName=UTC means every date/time this API hands back is already in
-# UTC, same simplification ESPN's API gets (see parse_espn_matches) - no
-# venue-timezone guessing needed the way the Wikipedia-sourced parsers
+# UTC - no venue-timezone guessing needed the way the Wikipedia-sourced parsers
 # elsewhere in this file require.
 SCORES365_COMMON_PARAMS = "appTypeId=5&langId=1&timezoneName=UTC&userCountryId=97"
 SCORES365_HEADERS = {
@@ -1405,12 +1054,15 @@ SCORES365_HEADERS = {
     "Accept": "application/json, text/plain, */*",
 }
 SCORES365_MAX_RETRIES = 3
+# A game's "statusGroup": 2 = scheduled, 3 = live, 4 = finished.
+SCORES365_STATUS_FINISHED = 4
+# "Final/OT", "Final/2OT", "Final/SO" (hockey), "Final/OT" (basketball).
+SCORES365_OT_STATUS_RE = re.compile(r"/\s*(?:\d*OT|SO)\b|\b(?:AET|After Pen)", re.IGNORECASE)
 
 
 def fetch_scores365_json(url):
     """GET one 365Scores API URL and parse its JSON body, retrying on
-    failure like fetch_espn_scoreboard does for ESPN's API. Unlike ESPN
-    (one request per league), a full season here means paging through
+    failure. A full season here means paging through
     ~15 of these calls in a row (see fetch_scores365_games), so a plain
     connection hiccup/read timeout (URLError/TimeoutError, not just an
     HTTP error status) is retried too rather than aborting the whole
@@ -1431,8 +1083,7 @@ def fetch_scores365_json(url):
 def fetch_scores365_games(competition_id, season_num=None, min_date=None, max_date=None):
     """Fetch every match of one 365Scores competition season.
 
-    Unlike ESPN's scoreboard (one request, whole date range), 365Scores'
-    "fixtures" endpoint only ever returns a window of games around
+    365Scores' "fixtures" endpoint only ever returns a window of games around
     whatever it considers the current round. The full season is assembled
     by paging outward from that window using the opaque "aftergame" game
     id cursor each response's "paging" block provides - forward via
@@ -1451,11 +1102,11 @@ def fetch_scores365_games(competition_id, season_num=None, min_date=None, max_da
         where that number reliably identifies one real-world season (the
         Basketball Bundesliga, Argentina Liga Profesional).
       - `min_date`/`max_date` ("YYYY-MM-DD", inclusive): used instead
-        where it doesn't - e.g. Top 14 (see top14-2026's
-        scores365_fallback config), whose "current season" number on
-        365Scores hasn't actually incremented between the 2025-26 and
-        2026-27 real-world seasons, so season_num alone would silently
-        pull in an entire extra year of already-finished matches.
+        where it doesn't - e.g. Top 14, whose "current season" number on
+        365Scores hadn't incremented between the 2025-26 and 2026-27
+        real-world seasons, or rugby internationals, whose games carry no
+        seasonNum at all (see internationals-2026's
+        scores365_min_date/scores365_max_date config).
     Also used to stop paging early in a direction once every game on a
     fetched page already falls outside the range (chronological order
     means there's nothing more to find that way) - without this, a
@@ -1522,12 +1173,11 @@ def parse_scores365_matches(games, league_key):
     carries -1 as both competitors' "score" (365Scores' sentinel for "no
     score yet"), which is treated the same as a genuinely missing score.
 
-    Team names go through canonicalize_team_name() - needed for a league
-    with a scores365_fallback config (see top14-2026): 365Scores spells a
-    club differently than the primary source does (short name, old
-    sponsor name, official name instead of the common one), and without
-    this the same real fixture reads as two different teams depending on
-    which source last wrote it."""
+    Team names go through canonicalize_team_name() - 365Scores can spell a
+    club differently than another source does (short name, old sponsor
+    name, official name instead of the common one), and without this the
+    same real fixture reads as two different teams depending on which
+    source last wrote it."""
     matches = []
     for g in games:
         home_c = g.get("homeCompetitor") or {}
@@ -1539,13 +1189,21 @@ def parse_scores365_matches(games, league_key):
 
         home_score, away_score = home_c.get("score"), away_c.get("score")
         score = None
-        if home_score is not None and away_score is not None and home_score >= 0 and away_score >= 0:
+        # Only a FINISHED game's score is stored (statusGroup 4 - "Final",
+        # "Final/OT", "Final/SO", "Ended"). A live score used to be stored
+        # too, and since league_needs_fetch() never re-checks a match that
+        # already has a score, whatever was live at fetch time stuck -
+        # e.g. KHL Spartak vs Avangard (2026-09-24) stayed 1-1, the score
+        # at the end of regulation, instead of the 1-2 OT final.
+        if (g.get("statusGroup") == SCORES365_STATUS_FINISHED
+                and home_score is not None and away_score is not None
+                and home_score >= 0 and away_score >= 0):
             score = f"{int(home_score)}-{int(away_score)}"
 
         date_out, time_out = normalize_date(g.get("startTime"), None, None)
         utc_out = compute_utc(date_out, time_out, utc_offset=0)  # already UTC - see SCORES365_COMMON_PARAMS
 
-        matches.append({
+        match = {
             "league": league_key,
             "home": home,
             "away": away,
@@ -1555,7 +1213,13 @@ def parse_scores365_matches(games, league_key):
             "utc": utc_out,
             "venue": None,  # not exposed by this API surface
             "attendance": None,
-        })
+        }
+        # Decided in overtime/shootout - matches.html shows "FT/OT"
+        # instead of "FT". 365Scores' score already includes the deciding
+        # OT goal / shootout goal (confirmed on KHL "Final/SO" games).
+        if score is not None and SCORES365_OT_STATUS_RE.search(g.get("statusText") or ""):
+            match["ot"] = True
+        matches.append(match)
     return matches
 
 
@@ -1614,15 +1278,8 @@ def fetch_scores365_standings_groups(cfg, key):
             "highlight": None,
         }
 
-    # A competition 365Scores hasn't rolled over to the new season yet
-    # still serves last season's final table (e.g. del-2026-27: 52 games
-    # played, season 12) - drop those rather than show them as current.
-    stale_season_nums = set(standings_cfg.get("stale_season_nums", []))
-
     result = {}
     for table in data.get("standings", []):
-        if table.get("seasonNum") in stale_season_nums:
-            continue
         group_names = {
             g["num"]: g["name"] for g in (table.get("groups") or []) if g.get("num") is not None
         }
@@ -1641,27 +1298,174 @@ def fetch_scores365_standings_groups(cfg, key):
     return result
 
 
-def fetch_scores365_fallback_matches(cfg, key):
-    """Fetch a whole season's matches from 365Scores for a league whose
-    normal source is ESPN, via its "scores365_fallback": {"competition_id",
-    "season_num" or "min_date"/"max_date"} config (currently just
-    top14-2026 - see its LEAGUES entry for why the other ESPN-sourced
-    rugby leagues don't have one). Used by run() in place of
-    fetch_and_parse() while an ESPN backoff is active (see
-    ESPN_BACKOFF_HOURS), or right after a fresh ESPN failure, so this
-    league's fixtures keep updating instead of just going stale for the
-    whole cooldown window. Reuses the exact same full-season fetch built
-    for the Basketball Bundesliga (fetch_scores365_games) - ESPN vs.
-    365Scores is just a difference in data SOURCE, not shape, once
-    matches are parsed into this project's usual dict format."""
-    fb = cfg["scores365_fallback"]
-    games = fetch_scores365_games(
-        fb["competition_id"],
-        season_num=fb.get("season_num"),
-        min_date=fb.get("min_date"),
-        max_date=fb.get("max_date"),
-    )
-    return parse_scores365_matches(games, key)
+# ---------------------------------------------------------------------------
+# SofaScore (used for liiga/shl/del-2026-27 - 365Scores hadn't loaded any
+# 2026-27 games for those three as of 2026-09-24, SofaScore had the full
+# seasons - and for euroleague/bcl-2026-27, whose 365Scores standings
+# were missing or incomplete). SofaScore's API rejects ordinary Python HTTP clients with a 403
+# based on the TLS handshake itself (headers alone don't help - confirmed
+# with browser User-Agent/Referer/Origin), so requests go through
+# curl_cffi, which imitates a real Chrome connection. Installed with
+# `python3 -m pip install --user curl_cffi`; imported lazily so the rest of
+# this script still runs if it's ever missing - only these leagues fail.
+# ---------------------------------------------------------------------------
+SOFASCORE_API_URL = "https://www.sofascore.com/api/v1"
+# Parsers whose fetch returns a league's entire season (not a rolling
+# window like the KHL's on 365Scores) - see the pruning in run().
+FULL_SEASON_PARSERS = {"sofascore"}
+SOFASCORE_MAX_RETRIES = 3
+# "last"/"next" event pages - a hockey regular season is well under 20
+# pages (30 events each) in either direction; this is just a runaway guard.
+SOFASCORE_MAX_PAGES = 40
+# Finished-status codes: 100 = regulation, 110 = after overtime, 120 =
+# after penalties/shootout.
+SOFASCORE_OT_STATUS_CODES = {110, 120}
+
+
+def fetch_sofascore_json(path):
+    """GET one SofaScore API path and parse its JSON body, retrying like
+    fetch_scores365_json. Returns None on a 404 - SofaScore's answer for
+    an events page past the last one, not an error."""
+    from curl_cffi import requests as cffi_requests
+    last_err = None
+    for attempt in range(SOFASCORE_MAX_RETRIES):
+        try:
+            resp = cffi_requests.get(SOFASCORE_API_URL + path, impersonate="chrome", timeout=30)
+            if resp.status_code == 404:
+                return None
+            resp.raise_for_status()
+            return resp.json()
+        except Exception as e:
+            last_err = e
+            if attempt < SOFASCORE_MAX_RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_err
+
+
+def fetch_sofascore_events(tournament_id, season_id):
+    """Every event of one SofaScore tournament season: pages backward
+    ("last" - already played) and forward ("next" - upcoming) until a page
+    reports hasNextPage false. Keyed by event id since a game going final
+    between two page requests can show up in both directions."""
+    events_by_id = {}
+    for direction in ("last", "next"):
+        for page in range(SOFASCORE_MAX_PAGES):
+            data = fetch_sofascore_json(
+                f"/unique-tournament/{tournament_id}/season/{season_id}/events/{direction}/{page}")
+            if not data:
+                break
+            for e in data.get("events", []):
+                events_by_id[e["id"]] = e
+            if not data.get("hasNextPage"):
+                break
+            time.sleep(0.3)
+    return list(events_by_id.values())
+
+
+def parse_sofascore_matches(events, league_key):
+    """Turn SofaScore events into this project's usual match dict shape.
+    A score is only recorded once the game's status is "finished" - a live
+    game's running score would otherwise be stored as if final, and
+    league_needs_fetch() would then never re-check it. "display" is the
+    final score including an overtime/shootout winner.
+
+    Postponed/canceled events are skipped: SofaScore leaves a postponed
+    game listed at its ORIGINAL date and adds the rescheduled one as a
+    separate event (confirmed: SHL Timrå vs Frölunda, 2027-02-03 postponed
+    alongside its new 2027-03-02 date), so keeping both would show the game
+    twice."""
+    matches = []
+    for e in events:
+        if (e.get("status") or {}).get("type") in ("postponed", "canceled"):
+            continue
+        home = canonicalize_team_name((e.get("homeTeam") or {}).get("name"))
+        away = canonicalize_team_name((e.get("awayTeam") or {}).get("name"))
+        if not home or not away:
+            continue
+
+        score = None
+        status = e.get("status") or {}
+        if status.get("type") == "finished":
+            hs = (e.get("homeScore") or {}).get("display")
+            as_ = (e.get("awayScore") or {}).get("display")
+            if hs is not None and as_ is not None:
+                hs, as_ = int(hs), int(as_)
+                # SofaScore can mark a shootout game finished before the
+                # deciding shootout goal is added to "display" (DEL
+                # Iserlohn vs Augsburg, 2026-09-24, was stored 2-2 instead
+                # of 2-3) - winnerCode (1 home, 2 away) is already right,
+                # so credit the winner the deciding goal.
+                if hs == as_ and e.get("winnerCode") == 1:
+                    hs += 1
+                elif hs == as_ and e.get("winnerCode") == 2:
+                    as_ += 1
+                score = f"{hs}-{as_}"
+
+        start = e.get("startTimestamp")
+        date_out = time_out = utc_out = None
+        if start:
+            dt = datetime.fromtimestamp(start, tz=timezone.utc)
+            date_out, time_out = dt.strftime("%Y-%m-%d"), dt.strftime("%H:%M")
+            utc_out = dt.isoformat()
+
+        match = {
+            "league": league_key,
+            "home": home,
+            "away": away,
+            "score": score,
+            "date": date_out,
+            "time": time_out,
+            "utc": utc_out,
+            "venue": (e.get("venue") or {}).get("name"),
+            "attendance": None,
+        }
+        # Decided in overtime (status code 110, "AOT"/"AET") or a shootout
+        # (120, "AP") - matches.html shows "FT/OT" instead of "FT".
+        if score is not None and status.get("code") in SOFASCORE_OT_STATUS_CODES:
+            match["ot"] = True
+        matches.append(match)
+    return matches
+
+
+def fetch_sofascore_standings_groups(cfg, key):
+    """Resolve a "standings": {"sofascore_tournament_id", "sofascore_season_id"}
+    config into the same {group_label: {"rows": [...], "legend": {}}} shape
+    fetch_scores365_standings_groups() returns. Hockey tables here count
+    overtime/shootout losses inside "losses" (SofaScore's own
+    normaltimeLosses splits them out), matching how 365Scores' KHL table
+    is shown."""
+    standings_cfg = cfg["standings"]
+    data = fetch_sofascore_json(
+        f"/unique-tournament/{standings_cfg['sofascore_tournament_id']}"
+        f"/season/{standings_cfg['sofascore_season_id']}/standings/total")
+    result = {}
+    for table in (data or {}).get("standings", []):
+        rows_out = []
+        for row in table.get("rows", []):
+            team = canonicalize_team_name((row.get("team") or {}).get("name"))
+            if not team:
+                continue
+            scored, conceded = row.get("scoresFor"), row.get("scoresAgainst")
+            rows_out.append({
+                "team": team,
+                "played": row.get("matches"),
+                "win": row.get("wins"),
+                "draw": row.get("draws") or None,
+                "loss": row.get("losses"),
+                "for": scored,
+                "against": conceded,
+                "diff": scored - conceded if scored is not None and conceded is not None else None,
+                "points": row.get("points"),
+                "highlight": None,
+            })
+        if rows_out:
+            # A multi-group competition names each table "Champions
+            # League 26/27, Group A" etc. - keep just the group part.
+            label = table.get("name") or cfg["name"]
+            if len(data["standings"]) > 1:
+                label = label.rsplit(", ", 1)[-1]
+            result[label] = {"rows": rows_out, "legend": {}}
+    return result
 
 
 def normalize_date(iso_date, date_text, time_text):
@@ -1705,15 +1509,14 @@ def normalize_date(iso_date, date_text, time_text):
 # prevailing form for that club.
 TEAM_NAME_ALIASES = {
     "hull kingston rovers": "Hull KR",
-    # Top 14: ESPN itself is inconsistent for two clubs (a lone "Bordeaux"/
-    # "RC Vannes" row each amid 26 "Bordeaux Begles"/"Vannes" ones - see
-    # the LEAGUES entry's fallback comment), and 365Scores (used as a
-    # fallback when ESPN is blocked - see scores365_fallback) spells
-    # several clubs differently again (short name, old sponsor name, or
+    # Rugby union clubs: fixtures.json's stored names (originally from
+    # ESPN) are the canonical short forms. 365Scores and SofaScore both
+    # spell several clubs differently (short name, old sponsor name, or
     # official name instead of the common one). Without these, the same
     # real fixture reads as two different teams depending on which source
     # last wrote it, and shows up as a duplicate instead of one match
-    # getting its score/date updated in place.
+    # getting its score/date updated in place - and a club would read
+    # differently in its domestic league than in the European cups.
     "bordeaux": "Bordeaux Begles",
     "rc vannes": "Vannes",
     "aviron bayonnais": "Bayonne",
@@ -1723,6 +1526,24 @@ TEAM_NAME_ALIASES = {
     "section paloise": "Pau",
     "racing-metro 92": "Racing 92",
     "stade français": "Stade Francais Paris",
+    # SofaScore spellings (Top 14 / Premiership / URC / European cups).
+    "asm clermont auvergne": "Clermont Auvergne",
+    "lyon olympique universitaire": "Lyon",
+    "montpellier hérault rugby": "Montpellier Herault",
+    "rc toulon": "Toulon",
+    "stade français paris": "Stade Francais Paris",
+    "stade rochelais": "La Rochelle",
+    "us arlequins perpignanais": "Perpignan",
+    "union bordeaux bègles": "Bordeaux Begles",
+    "harlequin fc": "Harlequins",
+    "connacht rugby": "Connacht",
+    "edinburgh rugby": "Edinburgh",
+    "leinster rugby": "Leinster",
+    "ulster rugby": "Ulster",
+    "zebre rugby": "Zebre",
+    "fidelity adt lions": "Lions",
+    "vodacom bulls xv": "Bulls",
+    "toyota cheetahs": "Cheetahs",
     # LNB Élite: 365Scores' "Chalon/Saone" (Chalon-sur-Saône) otherwise
     # matches the "Winner A/Winner B" placeholder pattern (see
     # PLACEHOLDER_TEAM_NAME_PATTERNS) and every one of its games gets
@@ -4315,11 +4136,11 @@ def fetch_standings(cfg, key):
     if not standings_cfg:
         return {}
 
-    if "espn_league" in standings_cfg:
-        return fetch_espn_standings_groups(cfg, key)
-
     if "scores365_competition_id" in standings_cfg:
         return fetch_scores365_standings_groups(cfg, key)
+
+    if "sofascore_tournament_id" in standings_cfg:
+        return fetch_sofascore_standings_groups(cfg, key)
 
     page = standings_cfg["page"]
     html = fetch_page_html(page)
@@ -4562,7 +4383,17 @@ def match_needs_score_check(m, now):
         return False
     # MATRIX_TEAMS leagues (velez, torpedo) store an unplayed match's
     # score as "-" rather than None - treat that the same as missing.
-    return m.get("score") in (None, "", "-")
+    if m.get("score") in (None, "", "-"):
+        return True
+    # Hockey and basketball games can't end level (overtime/shootout
+    # always decides them), so a tied stored score was saved before the
+    # game was really over - keep checking until the real result arrives.
+    sport = (LEAGUES.get(m.get("league")) or {}).get("sport")
+    if sport in ("hockey", "basketball"):
+        parts = str(m["score"]).split("-")
+        if len(parts) == 2 and parts[0].strip() == parts[1].strip():
+            return True
+    return False
 
 
 def league_needs_fetch(cached_matches, now):
@@ -4702,7 +4533,7 @@ def _more_complete_match(a, b):
     return a if completeness(a) >= completeness(b) else b
 
 
-def merge_league_matches(existing_matches, freshly_parsed_matches):
+def merge_league_matches(existing_matches, freshly_parsed_matches, detect_reschedules=True):
     """Combine what's already stored for a league with a fresh parse of
     the page, so fixtures.json always holds the full season (past and
     future) for the app to browse. This only ever runs when the league's
@@ -4782,8 +4613,9 @@ def merge_league_matches(existing_matches, freshly_parsed_matches):
             stale_key = pair_to_dateless_key.get(ident[0])
             # Otherwise, an unplayed stored entry for the same pair within
             # RESCHEDULE_WINDOW_DAYS is treated as the same fixture having
-            # its date locked in/moved, not a second meeting.
-            if stale_key is None and m.get("score") is None:
+            # its date locked in/moved, not a second meeting. Skipped for
+            # a full-season source (see prune_stale_rescheduled_matches).
+            if stale_key is None and m.get("score") is None and detect_reschedules:
                 candidate = pair_to_unplayed_key.get(ident[0])
                 if candidate is not None:
                     days = _date_diff_days(candidate[1], ident[1])
@@ -5214,8 +5046,7 @@ def update_matrix_league_standings(data, cfg):
 # fixture's kickoff, not just a played one's score) during a stretch with
 # nothing recently finished - this is the catch-all that still checks in
 # once a day even then. Persisted per matrix_key in fixtures.json's
-# top-level "matrix_last_fetch" so it survives across runs, the same way
-# ESPN_BACKOFF_HOURS' cooldown does via "espn_backoff_until".
+# top-level "matrix_last_fetch" so it survives across runs.
 MATRIX_DAILY_CHECK_INTERVAL = timedelta(days=1)
 
 
@@ -5422,6 +5253,8 @@ def update_matrix_team_results_scores365(cfg, team_matches):
 
         home_c, away_c = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
         home_score, away_score = home_c.get("score"), away_c.get("score")
+        if g.get("statusGroup") != SCORES365_STATUS_FINISHED:
+            continue  # live/scheduled - see parse_scores365_matches
         if home_score is None or away_score is None or home_score < 0 or away_score < 0:
             continue
         velez_score, opp_score = (home_score, away_score) if home_c.get("id") == team_id \
@@ -5537,9 +5370,11 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
             matches.extend(parse_basketballbox_matches(wikitext, key, cfg))
         return matches
 
+    if parser_type == "sofascore":
+        events = fetch_sofascore_events(cfg["sofascore_tournament_id"], cfg["sofascore_season_id"])
+        return parse_sofascore_matches(events, key)
+
     if parser_type == "scores365":
-        # Either an exact season number, or (where 365Scores' numbering
-        # can't be trusted - see liiga/shl/del-2026-27) a date range.
         games = fetch_scores365_games(
             cfg["scores365_competition_id"],
             season_num=cfg.get("scores365_season_num"),
@@ -5547,21 +5382,6 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
             max_date=cfg.get("scores365_max_date"),
         )
         return parse_scores365_matches(games, key)
-
-    if parser_type == "espn":
-        # espn_date_range is usually a single "YYYYMMDD-YYYYMMDD" string, but
-        # can be a list of them for a league with well over 100 matches a
-        # season (e.g. Top 14's ~190 games) - see fetch_espn_scoreboard's
-        # 100-event-cap note. Non-overlapping ranges are assumed, so no
-        # cross-range dedup is needed.
-        date_ranges = cfg["espn_date_range"]
-        if isinstance(date_ranges, str):
-            date_ranges = [date_ranges]
-        matches = []
-        for date_range in date_ranges:
-            data = fetch_espn_scoreboard(cfg["espn_sport"], cfg["espn_league"], date_range)
-            matches.extend(parse_espn_matches(data, key, cfg))
-        return matches
 
     if parser_type == "cfl_schedule":
         # Unlike every other parser here, each CFL team has its own,
@@ -5693,6 +5513,12 @@ def prune_stale_rescheduled_matches(data):
     for m in data.get("matches", []):
         if m.get("score") is not None or not m.get("date"):
             continue
+        # A full-season source gives every game its exact date, so there's
+        # nothing to guess - and a genuine back-to-back at the same venue
+        # (Liiga: Vaasan Sport vs SaiPa on 2026-10-23 AND 2026-10-24)
+        # would otherwise be collapsed into one game.
+        if (LEAGUES.get(m.get("league")) or {}).get("parser") in FULL_SEASON_PARSERS:
+            continue
         key = (m.get("league"), m.get("home"), m.get("away"))
         groups.setdefault(key, []).append(m)
 
@@ -5742,55 +5568,6 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         cfg = LEAGUES[key]
         cached = existing_by_league.get(key, [])
 
-        # ESPN cooldown check - see ESPN_BACKOFF_HOURS. Takes priority over
-        # (and skips entirely past) the ordinary fetch-worthiness check
-        # below: while a cooldown is active there's no point even checking
-        # whether some match needs a score, since the request would just
-        # 403 again. --force bypasses this the same way it bypasses the
-        # fetch-worthiness check - an explicit manual run is exactly how you'd
-        # want to probe whether ESPN's block has lifted early.
-        if not force and cfg.get("parser") == "espn" and espn_backoff_active(data, now):
-            until = data.get("espn_backoff_until")
-            fallback = cfg.get("scores365_fallback")
-            if fallback:
-                # A 365Scores fallback is configured (currently just
-                # top14-2026 - see its LEAGUES entry) - use it in ESPN's
-                # place for the whole cooldown, rather than just reusing
-                # stale cached matches until the cooldown expires.
-                print(f"{cfg['name']}: ESPN backoff active until {until} - "
-                      f"using 365Scores fallback instead")
-                try:
-                    fresh_matches = fetch_scores365_fallback_matches(cfg, key)
-                    merged = merge_league_matches(cached, fresh_matches)
-                    print(f"  -> parsed {len(fresh_matches)} matches via 365Scores fallback: "
-                          f"{len(merged)} total now stored (was {len(cached)})")
-                    data["matches"].extend(merged)
-                    data["leagues"][key] = {
-                        "name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
-                except Exception as e:
-                    print(f"  !! 365Scores fallback also failed: {e}", file=sys.stderr)
-                    data["matches"].extend(cached)
-                    data["leagues"].setdefault(
-                        key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
-                # Standings for top14-2026 come from Wikipedia (not ESPN),
-                # so the ESPN backoff doesn't affect them - still worth
-                # refreshing every run, same reasoning as the ordinary
-                # fetch-worthiness skip path below.
-                try:
-                    standings = fetch_standings(cfg, key)
-                    if standings:
-                        data["standings"][key] = standings
-                        print(f"  -> standings: {len(standings)} table(s) for {cfg['name']}")
-                except Exception as e:
-                    print(f"  !! standings failed: {e}", file=sys.stderr)
-                continue
-            print(f"Skipping {cfg['name']} - ESPN backoff active until {until} "
-                  f"(use --force to check anyway)")
-            data["matches"].extend(cached)
-            data["leagues"].setdefault(
-                key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
-            continue
-
         # Nothing-to-check check, straight from fixtures.json (this
         # script's own prior output - the only place with per-match dates
         # AND scores for every league). If we've successfully fetched this
@@ -5839,8 +5616,6 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                     data["standings"][key] = standings
             except Exception as e:
                 print(f"  !! standings failed: {e}", file=sys.stderr)
-                if cfg.get("parser") == "espn":
-                    set_espn_backoff(data, now)
             # Same reasoning as standings above: not tied to the fixture
             # fetch-worthiness check, always re-checked even when fixtures
             # are skipped, so a mismatched heading gets another chance next
@@ -5866,15 +5641,14 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
         if "team_pages" in cfg:
             source_desc = f"{len(cfg['team_pages'])} team pages"
-        elif "espn_league" in cfg:
-            source_desc = f"ESPN league {cfg['espn_league']}, {cfg['espn_date_range']}"
         elif "scores365_competition_id" in cfg:
             source_desc = f"365Scores competition {cfg['scores365_competition_id']}"
+        elif "sofascore_tournament_id" in cfg:
+            source_desc = f"SofaScore tournament {cfg['sofascore_tournament_id']}"
         else:
             pages = cfg.get("pages") or ([cfg["page"]] if "page" in cfg else [])
             source_desc = ", ".join(pages)
         print(f"Fetching {cfg['name']} ({source_desc}) ...")
-        is_espn = cfg.get("parser") == "espn"
         # Matches worth calling out by name once this fetch is done - see
         # report_pending_score_updates(). Captured from `cached` (i.e.
         # before this fetch) since that's the whole reason a fetch not
@@ -5891,7 +5665,18 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             refreshed = sum(1 for ident in fresh_by_ident if ident in stored_idents)
             added = sum(1 for ident in fresh_by_ident if ident not in stored_idents)
 
-            merged = merge_league_matches(cached, fresh_matches)
+            full_season = cfg.get("parser") in FULL_SEASON_PARSERS
+            merged = merge_league_matches(cached, fresh_matches, detect_reschedules=not full_season)
+            if full_season and fresh_matches:
+                # This source returns the WHOLE season every fetch, so an
+                # unplayed stored match it no longer lists has been
+                # rescheduled (and reappears under its new date) or pulled
+                # from the schedule - keeping it leaves a ghost behind
+                # (EuroLeague: Milano "hosting" both Barca and Bayern on
+                # 2026-12-10 after SofaScore moved one to 2026-10-22).
+                # Played matches are always kept.
+                merged = [m for m in merged
+                          if m.get("score") is not None or _match_identity(m) in fresh_by_ident]
             print(f"  -> parsed {len(fresh_matches)} matches on the page: "
                   f"{refreshed} refreshed, {added} newly added, "
                   f"{len(merged)} total now stored (was {len(cached)})")
@@ -5899,43 +5684,13 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
             data["matches"].extend(merged)
             data["leagues"][key] = {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
-            if is_espn:
-                # A successful ESPN request is the clearest possible sign
-                # the block has lifted - clear the cooldown immediately
-                # rather than waiting out whatever's left of it, so the
-                # very next league in this same run (and every one after)
-                # gets a real attempt instead of being skipped on stale
-                # state.
-                clear_espn_backoff(data)
         except Exception as e:
             print(f"  !! failed: {e}", file=sys.stderr)
-            if is_espn:
-                set_espn_backoff(data, now)
-            fallback = cfg.get("scores365_fallback") if is_espn else None
-            if fallback:
-                try:
-                    fresh_matches = fetch_scores365_fallback_matches(cfg, key)
-                    merged = merge_league_matches(cached, fresh_matches)
-                    print(f"  -> falling back to 365Scores: parsed {len(fresh_matches)} matches, "
-                          f"{len(merged)} total now stored (was {len(cached)})")
-                    report_pending_score_updates(cfg["name"], pending, merged)
-                    data["matches"].extend(merged)
-                    data["leagues"][key] = {
-                        "name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)}
-                    fallback_ok = True
-                except Exception as fallback_e:
-                    print(f"  !! 365Scores fallback also failed: {fallback_e}", file=sys.stderr)
-                    fallback_ok = False
-            else:
-                fallback_ok = False
-            if not fallback_ok:
-                # Fetch (and any fallback) failed outright - keep whatever
-                # was already stored rather than losing the league's
-                # fixtures for this run. data["leagues"][key] already
-                # holds the prior entry (if any) from load_existing(),
-                # since it's only ever overwritten on a successful
-                # parse/fallback above.
-                data["matches"].extend(cached)
+            # Keep whatever was already stored rather than losing the
+            # league's fixtures for this run. data["leagues"][key] already
+            # holds the prior entry (if any) from load_existing(), since
+            # it's only ever overwritten on a successful parse above.
+            data["matches"].extend(cached)
 
         try:
             standings = fetch_standings(cfg, key)
@@ -5948,8 +5703,6 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             # standings just because this particular run didn't refresh them.
         except Exception as e:
             print(f"  !! standings failed: {e}", file=sys.stderr)
-            if is_espn:
-                set_espn_backoff(data, now)
 
         try:
             attendance_rows = fetch_attendance_table(cfg, key)

@@ -841,7 +841,9 @@ function render() {
       statusLabel = 'LIVE';
       statusClass = 'status-live';
     } else if (status === 'final') {
-      statusLabel = 'FT';
+      // m.ot: decided in overtime/shootout - see fetch_fixtures.py's
+      // SCORES365_OT_STATUS_RE / SOFASCORE_OT_STATUS_CODES.
+      statusLabel = m.ot ? 'FT/OT' : 'FT';
       statusClass = 'status-final';
     } else {
       statusLabel = m._timeIsLocal ? 'kick-off' : (m._localTime ? 'venue time' : 'kick-off');
