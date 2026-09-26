@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T19:34:09+00:00",
+  "updated": "2026-09-26T19:45:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62869,14 +62869,14 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
+            "team": "N.R. Ludwigsburg",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 254,
-            "against": 247,
-            "diff": 7,
+            "for": 238,
+            "against": 238,
+            "diff": 0,
             "points": 4,
             "highlight": null
           },
@@ -62965,14 +62965,14 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
+            "team": "Brose Bamberg",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 230,
-            "against": 238,
-            "diff": -8,
+            "for": 254,
+            "against": 255,
+            "diff": -1,
             "points": 3,
             "highlight": null
           },
@@ -63738,18 +63738,6 @@
             "highlight": null
           },
           {
-            "team": "Barcelona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 34,
-            "against": 28,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -63758,6 +63746,18 @@
             "for": 90,
             "against": 85,
             "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Leyma Coruña",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 45,
+            "against": 43,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -63906,6 +63906,18 @@
             "highlight": null
           },
           {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 43,
+            "against": 45,
+            "diff": -2,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "MoraBanc Andorra",
             "played": 1,
             "win": 0,
@@ -63914,18 +63926,6 @@
             "for": 85,
             "against": 90,
             "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Leyma Coruña",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 28,
-            "against": 34,
-            "diff": -6,
             "points": 1,
             "highlight": null
           },
@@ -64213,9 +64213,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 26,
-            "diff": 19,
+            "for": 50,
+            "against": 35,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -64273,9 +64273,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 26,
-            "against": 45,
-            "diff": -19,
+            "for": 35,
+            "against": 50,
+            "diff": -15,
             "points": 1,
             "highlight": null
           },
