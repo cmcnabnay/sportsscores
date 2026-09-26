@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T17:12:09+00:00",
+  "updated": "2026-09-26T17:23:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62928,6 +62928,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 126,
+            "against": 128,
+            "diff": -2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -62936,18 +62948,6 @@
             "for": 158,
             "against": 164,
             "diff": -6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 112,
-            "against": 122,
-            "diff": -10,
             "points": 2,
             "highlight": null
           },
@@ -63017,9 +63017,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 95,
-            "against": 137,
-            "diff": -42,
+            "for": 101,
+            "against": 151,
+            "diff": -50,
             "points": 1,
             "highlight": null
           }
@@ -63718,9 +63718,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 51,
-            "against": 45,
-            "diff": 6,
+            "for": 64,
+            "against": 55,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -63922,9 +63922,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 45,
-            "against": 51,
-            "diff": -6,
+            "for": 55,
+            "against": 64,
+            "diff": -9,
             "points": 1,
             "highlight": null
           }
@@ -64147,14 +64147,14 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
+            "team": "Gravelines",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 41,
-            "against": 38,
-            "diff": 3,
+            "for": 43,
+            "against": 41,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -64164,9 +64164,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 51,
-            "against": 38,
-            "diff": 13,
+            "for": 64,
+            "against": 46,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -64176,9 +64176,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 33,
-            "diff": 3,
+            "for": 48,
+            "against": 42,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 55,
-            "against": 36,
-            "diff": 19,
+            "for": 58,
+            "against": 56,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -64207,14 +64207,14 @@
             "highlight": null
           },
           {
-            "team": "Gravelines",
+            "team": "Le Mans",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 38,
-            "against": 41,
-            "diff": -3,
+            "for": 41,
+            "against": 43,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -64248,9 +64248,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 38,
-            "against": 51,
-            "diff": -13,
+            "for": 46,
+            "against": 64,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -64296,9 +64296,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 36,
-            "against": 55,
-            "diff": -19,
+            "for": 56,
+            "against": 58,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 33,
-            "against": 36,
-            "diff": -3,
+            "for": 42,
+            "against": 48,
+            "diff": -6,
             "points": 1,
             "highlight": null
           },
@@ -64370,6 +64370,18 @@
             "highlight": null
           },
           {
+            "team": "Porin Ässät",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 22,
+            "against": 19,
+            "diff": 3,
+            "points": 15,
+            "highlight": null
+          },
+          {
             "team": "Tampereen Ilves",
             "played": 6,
             "win": 5,
@@ -64378,18 +64390,6 @@
             "for": 19,
             "against": 9,
             "diff": 10,
-            "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 18,
-            "against": 14,
-            "diff": 4,
             "points": 14,
             "highlight": null
           },
@@ -64490,6 +64490,18 @@
             "highlight": null
           },
           {
+            "team": "HPK Hämeenlinna",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 16,
+            "against": 25,
+            "diff": -9,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "HIFK Helsinki",
             "played": 8,
             "win": 2,
@@ -64499,18 +64511,6 @@
             "against": 28,
             "diff": -8,
             "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "HPK Hämeenlinna",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 11,
-            "against": 21,
-            "diff": -10,
-            "points": 6,
             "highlight": null
           },
           {
