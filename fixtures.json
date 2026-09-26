@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T22:05:11+00:00",
+  "updated": "2026-09-26T22:16:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17225,7 +17225,7 @@
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Calgary Stampeders",
-      "score": null,
+      "score": "31-45",
       "date": "2026-09-26",
       "time": "15:00",
       "utc": "2026-09-26T19:00:00+00:00",
@@ -60048,14 +60048,14 @@
           },
           {
             "team": "Calgary Stampeders",
-            "played": 14,
-            "win": 6,
+            "played": 15,
+            "win": 7,
             "draw": null,
             "loss": 8,
-            "for": 490,
-            "against": 479,
+            "for": 535,
+            "against": 510,
             "diff": null,
-            "points": 12,
+            "points": 14,
             "highlight": null
           }
         ],
@@ -60101,12 +60101,12 @@
           },
           {
             "team": "e – Ottawa Redblacks",
-            "played": 13,
+            "played": 14,
             "win": 0,
             "draw": null,
-            "loss": 13,
-            "for": 308,
-            "against": 479,
+            "loss": 14,
+            "for": 339,
+            "against": 524,
             "diff": null,
             "points": 0,
             "highlight": null
