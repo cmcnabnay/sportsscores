@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T18:06:10+00:00",
+  "updated": "2026-09-26T18:17:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62856,14 +62856,14 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
+            "team": "N.R. Ludwigsburg",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 187,
-            "against": 175,
-            "diff": 12,
+            "for": 175,
+            "against": 180,
+            "diff": -5,
             "points": 4,
             "highlight": null
           },
@@ -62916,6 +62916,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 167,
+            "against": 168,
+            "diff": -1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Telekom Baskets Bonn",
             "played": 2,
             "win": 1,
@@ -62924,18 +62936,6 @@
             "for": 176,
             "against": 178,
             "diff": -2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 154,
-            "against": 158,
-            "diff": -4,
             "points": 2,
             "highlight": null
           },
@@ -62952,14 +62952,14 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
+            "team": "Brose Bamberg",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 158,
-            "against": 171,
-            "diff": -13,
+            "for": 196,
+            "against": 192,
+            "diff": 4,
             "points": 3,
             "highlight": null
           },
@@ -63017,9 +63017,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 131,
-            "against": 179,
-            "diff": -48,
+            "for": 141,
+            "against": 192,
+            "diff": -51,
             "points": 1,
             "highlight": null
           }
@@ -63730,9 +63730,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 29,
-            "against": 22,
-            "diff": 7,
+            "for": 42,
+            "against": 38,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -63910,9 +63910,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 22,
-            "against": 29,
-            "diff": -7,
+            "for": 38,
+            "against": 42,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -63936,26 +63936,26 @@
       "Lega A": {
         "rows": [
           {
-            "team": "Reyer Venezia",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 9,
-            "against": 0,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 38,
-            "diff": 7,
+            "for": 57,
+            "against": 45,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 18,
+            "against": 8,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -64104,26 +64104,26 @@
             "highlight": null
           },
           {
-            "team": "BC Roma SPQR",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 38,
-            "against": 45,
-            "diff": -7,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Cantù",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 0,
-            "against": 9,
-            "diff": -9,
+            "for": 8,
+            "against": 18,
+            "diff": -10,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "BC Roma SPQR",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 45,
+            "against": 57,
+            "diff": -12,
             "points": 0,
             "highlight": null
           }
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 77,
-            "against": 64,
-            "diff": 13,
+            "for": 79,
+            "against": 73,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 64,
-            "against": 77,
-            "diff": -13,
+            "for": 73,
+            "against": 79,
+            "diff": -6,
             "points": 1,
             "highlight": null
           },
@@ -64569,6 +64569,18 @@
             "highlight": null
           },
           {
+            "team": "Örebro HK",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 11,
+            "against": 12,
+            "diff": -1,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Brynäs IF",
             "played": 3,
             "win": 2,
@@ -64606,25 +64618,13 @@
           },
           {
             "team": "Skellefteå AIK",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 10,
-            "against": 6,
-            "diff": 4,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Örebro HK",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 8,
-            "against": 12,
-            "diff": -4,
+            "for": 10,
+            "against": 9,
+            "diff": 1,
             "points": 4,
             "highlight": null
           },
@@ -66664,11 +66664,11 @@
           "label": "Grand Final",
           "matches": [
             {
-              "seed1": null,
-              "team1": null,
+              "seed1": 3,
+              "team1": "Warrington",
               "score1": null,
-              "seed2": 3,
-              "team2": "Warrington",
+              "seed2": 4,
+              "team2": "Wakefield",
               "score2": null,
               "date": null,
               "venue": null
