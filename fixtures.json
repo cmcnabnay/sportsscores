@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T21:11:57+00:00",
+  "updated": "2026-09-26T21:21:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17481,7 +17481,7 @@
       "league": "urc-2026",
       "home": "Scarlets",
       "away": "Cardiff Rugby",
-      "score": null,
+      "score": "15-21",
       "date": "2026-09-26",
       "time": "18:45",
       "utc": "2026-09-26T18:45:00+00:00",
@@ -48034,6 +48034,17 @@
       "time": "17:30",
       "utc": "2027-02-27T17:30:00+00:00",
       "venue": "Stadio Sergio Lanfranchi",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Connacht",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "17:30",
+      "utc": "2027-02-27T17:30:00+00:00",
+      "venue": "Swansea.com Stadium",
       "attendance": null
     },
     {
