@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T19:23:20+00:00",
+  "updated": "2026-09-26T19:34:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62869,14 +62869,14 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
+            "team": "Brose Bamberg",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 209,
-            "against": 214,
-            "diff": -5,
+            "for": 254,
+            "against": 247,
+            "diff": 7,
             "points": 4,
             "highlight": null
           },
@@ -62965,14 +62965,14 @@
             "highlight": null
           },
           {
-            "team": "Brose Bamberg",
+            "team": "N.R. Ludwigsburg",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
             "for": 230,
-            "against": 226,
-            "diff": 4,
+            "against": 238,
+            "diff": -8,
             "points": 3,
             "highlight": null
           },
@@ -63743,9 +63743,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 22,
-            "against": 18,
-            "diff": 4,
+            "for": 34,
+            "against": 28,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -63755,9 +63755,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 81,
-            "against": 77,
-            "diff": 4,
+            "for": 90,
+            "against": 85,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -63911,9 +63911,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 77,
-            "against": 81,
-            "diff": -4,
+            "for": 85,
+            "against": 90,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -63923,9 +63923,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 18,
-            "against": 22,
-            "diff": -4,
+            "for": 28,
+            "against": 34,
+            "diff": -6,
             "points": 1,
             "highlight": null
           },
@@ -63949,26 +63949,26 @@
       "Lega A": {
         "rows": [
           {
-            "team": "Reyer Venezia",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 67,
-            "against": 52,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 100,
-            "against": 88,
-            "diff": 12,
+            "for": 109,
+            "against": 94,
+            "diff": 15,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 62,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -64117,25 +64117,25 @@
             "highlight": null
           },
           {
-            "team": "BC Roma SPQR",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 88,
-            "against": 100,
-            "diff": -12,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Cantù",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 52,
-            "against": 67,
+            "for": 62,
+            "against": 75,
+            "diff": -13,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "BC Roma SPQR",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 94,
+            "against": 109,
             "diff": -15,
             "points": 0,
             "highlight": null
@@ -64213,9 +64213,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 41,
+            "for": 45,
             "against": 26,
-            "diff": 15,
+            "diff": 19,
             "points": 2,
             "highlight": null
           },
@@ -64274,8 +64274,8 @@
             "draw": null,
             "loss": 1,
             "for": 26,
-            "against": 41,
-            "diff": -15,
+            "against": 45,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
