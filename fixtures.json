@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T20:39:07+00:00",
+  "updated": "2026-09-26T20:49:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63446,6 +63446,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 110,
+            "against": 93,
+            "diff": 17,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bilbao Basket",
             "played": 1,
             "win": 1,
@@ -63454,18 +63466,6 @@
             "for": 107,
             "against": 92,
             "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Barcelona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 92,
-            "against": 81,
-            "diff": 11,
             "points": 2,
             "highlight": null
           },
@@ -63638,18 +63638,6 @@
             "highlight": null
           },
           {
-            "team": "Leyma Coruña",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 81,
-            "against": 92,
-            "diff": -11,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
@@ -63658,6 +63646,18 @@
             "for": 92,
             "against": 107,
             "diff": -15,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Leyma Coruña",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 93,
+            "against": 110,
+            "diff": -17,
             "points": 1,
             "highlight": null
           }
