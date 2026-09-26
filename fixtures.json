@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:40:00+00:00",
+  "updated": "2026-09-26T16:50:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62928,18 +62928,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 91,
-            "against": 95,
-            "diff": -4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -62960,6 +62948,18 @@
             "for": 166,
             "against": 186,
             "diff": -20,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 81,
+            "against": 121,
+            "diff": -40,
             "points": 2,
             "highlight": null
           },
@@ -62988,6 +62988,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 96,
+            "against": 108,
+            "diff": -12,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Science City Jena",
             "played": 1,
             "win": 0,
@@ -63009,18 +63021,6 @@
             "against": 195,
             "diff": -25,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "SC Rasta Vechta",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 68,
-            "against": 116,
-            "diff": -48,
-            "points": 1,
             "highlight": null
           }
         ],
@@ -63713,14 +63713,14 @@
       "ACB": {
         "rows": [
           {
-            "team": "Baxi Manresa",
+            "team": "Bilbao Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 27,
-            "against": 26,
-            "diff": 1,
+            "for": 41,
+            "against": 36,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -63917,14 +63917,14 @@
             "highlight": null
           },
           {
-            "team": "Bilbao Basket",
+            "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 26,
-            "against": 27,
-            "diff": -1,
+            "for": 36,
+            "against": 41,
+            "diff": -5,
             "points": 1,
             "highlight": null
           }
@@ -64147,25 +64147,25 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
+            "team": "Gravelines",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 11,
-            "against": 10,
-            "diff": 1,
+            "for": 28,
+            "against": 20,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Chalon-sur-Saône",
+            "team": "Limoges",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 32,
-            "against": 30,
+            "for": 34,
+            "against": 32,
             "diff": 2,
             "points": 2,
             "highlight": null
@@ -64176,9 +64176,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 14,
-            "against": 7,
-            "diff": 7,
+            "for": 22,
+            "against": 17,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 39,
-            "against": 25,
-            "diff": 14,
+            "for": 49,
+            "against": 31,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -64207,14 +64207,14 @@
             "highlight": null
           },
           {
-            "team": "Gravelines",
+            "team": "Le Mans",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 10,
-            "against": 11,
-            "diff": -1,
+            "for": 20,
+            "against": 28,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -64243,13 +64243,13 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
+            "team": "Chalon-sur-Saône",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 32,
+            "for": 32,
+            "against": 34,
             "diff": -2,
             "points": 1,
             "highlight": null
@@ -64296,9 +64296,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 25,
-            "against": 39,
-            "diff": -14,
+            "for": 31,
+            "against": 49,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 7,
-            "against": 14,
-            "diff": -7,
+            "for": 17,
+            "against": 22,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
