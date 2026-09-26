@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T14:49:10+00:00",
+  "updated": "2026-09-26T15:00:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62766,9 +62766,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 159,
+            "for": 167,
             "against": 108,
-            "diff": 51,
+            "diff": 59,
             "points": 4,
             "highlight": null
           },
@@ -62815,8 +62815,8 @@
             "draw": null,
             "loss": 1,
             "for": 219,
-            "against": 216,
-            "diff": 3,
+            "against": 224,
+            "diff": -5,
             "points": 5,
             "highlight": null
           },
@@ -63049,10 +63049,22 @@
             "win": 5,
             "draw": null,
             "loss": 5,
-            "for": 17,
-            "against": 24,
+            "for": 18,
+            "against": 25,
             "diff": -7,
             "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Severstal Cherepovets",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 15,
+            "against": 21,
+            "diff": -6,
+            "points": 9,
             "highlight": null
           },
           {
@@ -63080,18 +63092,6 @@
             "highlight": null
           },
           {
-            "team": "Severstal Cherepovets",
-            "played": 9,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 13,
-            "against": 20,
-            "diff": -7,
-            "points": 7,
-            "highlight": null
-          },
-          {
             "team": "Lada Togliatti",
             "played": 9,
             "win": 1,
@@ -63108,10 +63108,10 @@
             "played": 8,
             "win": 1,
             "draw": null,
-            "loss": 6,
-            "for": 6,
-            "against": 24,
-            "diff": -18,
+            "loss": 7,
+            "for": 7,
+            "against": 26,
+            "diff": -19,
             "points": 2,
             "highlight": null
           }
@@ -63174,8 +63174,8 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 25,
-            "against": 18,
+            "for": 26,
+            "against": 19,
             "diff": 7,
             "points": 10,
             "highlight": null
