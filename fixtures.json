@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T15:55:26+00:00",
+  "updated": "2026-09-26T16:06:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63161,8 +63161,8 @@
             "draw": null,
             "loss": 5,
             "for": 18,
-            "against": 26,
-            "diff": -8,
+            "against": 25,
+            "diff": -7,
             "points": 10,
             "highlight": null
           },
@@ -63172,9 +63172,9 @@
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 15,
+            "for": 16,
             "against": 21,
-            "diff": -6,
+            "diff": -5,
             "points": 9,
             "highlight": null
           },
@@ -63221,8 +63221,8 @@
             "draw": null,
             "loss": 7,
             "for": 7,
-            "against": 26,
-            "diff": -19,
+            "against": 27,
+            "diff": -20,
             "points": 2,
             "highlight": null
           }
@@ -63285,9 +63285,9 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 27,
+            "for": 26,
             "against": 19,
-            "diff": 8,
+            "diff": 7,
             "points": 10,
             "highlight": null
           },
@@ -63777,6 +63777,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Bilbao Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 3,
+            "against": 0,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Real Madrid",
             "played": 0,
             "win": 0,
@@ -63825,18 +63837,6 @@
             "highlight": null
           },
           {
-            "team": "Bilbao Basket",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Unicaja Málaga",
             "played": 0,
             "win": 0,
@@ -63862,18 +63862,6 @@
           },
           {
             "team": "UCAM Murcia",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Baxi Manresa",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63990,6 +63978,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 0,
+            "against": 3,
+            "diff": -3,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -64211,6 +64211,30 @@
             "highlight": null
           },
           {
+            "team": "Limoges",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 10,
+            "against": 4,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Chorale de Roanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 13,
+            "against": 6,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Strasbourg",
             "played": 1,
             "win": 0,
@@ -64272,26 +64296,14 @@
           },
           {
             "team": "Chalon-sur-Saône",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Limoges",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 4,
+            "against": 10,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64332,30 +64344,18 @@
           },
           {
             "team": "Boulazac",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 6,
+            "against": 13,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           },
           {
             "team": "JL Bourg",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Chorale de Roanne",
             "played": 0,
             "win": 0,
             "draw": null,
