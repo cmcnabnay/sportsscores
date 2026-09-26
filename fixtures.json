@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T15:44:09+00:00",
+  "updated": "2026-09-26T15:55:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16947,7 +16947,7 @@
       "league": "shl-2026-27",
       "home": "Brynäs IF",
       "away": "Luleå Hockey",
-      "score": null,
+      "score": "4-2",
       "date": "2026-09-26",
       "time": "13:15",
       "utc": "2026-09-26T13:15:00+00:00",
@@ -16958,7 +16958,7 @@
       "league": "shl-2026-27",
       "home": "IF Björklöven",
       "away": "Färjestad BK",
-      "score": null,
+      "score": "0-5",
       "date": "2026-09-26",
       "time": "13:15",
       "utc": "2026-09-26T13:15:00+00:00",
@@ -16969,12 +16969,13 @@
       "league": "shl-2026-27",
       "home": "Rögle BK",
       "away": "Linköping HC",
-      "score": null,
+      "score": "2-1",
       "date": "2026-09-26",
       "time": "13:15",
       "utc": "2026-09-26T13:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "bbl-2026-27",
@@ -46139,6 +46140,61 @@
       "attendance": null
     },
     {
+      "league": "shl-2026-27",
+      "home": "Djurgårdens IF",
+      "away": "Frölunda HC",
+      "score": null,
+      "date": "2027-02-16",
+      "time": "18:00",
+      "utc": "2027-02-16T18:00:00+00:00",
+      "venue": "Hovet",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Luleå Hockey",
+      "away": "Brynäs IF",
+      "score": null,
+      "date": "2027-02-16",
+      "time": "18:00",
+      "utc": "2027-02-16T18:00:00+00:00",
+      "venue": "Coop Norrbotten Arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "IF Björklöven",
+      "away": "Färjestad BK",
+      "score": null,
+      "date": "2027-02-16",
+      "time": "18:00",
+      "utc": "2027-02-16T18:00:00+00:00",
+      "venue": "Winpos arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Skellefteå AIK",
+      "away": "Malmö Redhawks",
+      "score": null,
+      "date": "2027-02-16",
+      "time": "18:00",
+      "utc": "2027-02-16T18:00:00+00:00",
+      "venue": "Skellefteå Kraft Arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Rögle BK",
+      "away": "Växjö Lakers HC",
+      "score": null,
+      "date": "2027-02-16",
+      "time": "18:00",
+      "utc": "2027-02-16T18:00:00+00:00",
+      "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "SaiPa Lappeenranta",
@@ -49659,6 +49715,39 @@
       "attendance": null
     },
     {
+      "league": "shl-2026-27",
+      "home": "Luleå Hockey",
+      "away": "Växjö Lakers HC",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "18:00",
+      "utc": "2027-03-09T18:00:00+00:00",
+      "venue": "Coop Norrbotten Arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Skellefteå AIK",
+      "away": "IF Björklöven",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "18:00",
+      "utc": "2027-03-09T18:00:00+00:00",
+      "venue": "Skellefteå Kraft Arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Timrå IK",
+      "away": "Malmö Redhawks",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "18:00",
+      "utc": "2027-03-09T18:00:00+00:00",
+      "venue": "SCA Arena",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Bayern München",
       "away": "Anadolu Efes",
@@ -49854,6 +49943,28 @@
       "time": "18:00",
       "utc": "2027-03-11T18:00:00+00:00",
       "venue": "Vida Arena",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Frölunda HC",
+      "away": "Skellefteå AIK",
+      "score": null,
+      "date": "2027-03-11",
+      "time": "18:00",
+      "utc": "2027-03-11T18:00:00+00:00",
+      "venue": "Scandinavium",
+      "attendance": null
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Färjestad BK",
+      "away": "Brynäs IF",
+      "score": null,
+      "date": "2027-03-11",
+      "time": "18:00",
+      "utc": "2027-03-11T18:00:00+00:00",
+      "venue": "Löfbergs Arena",
       "attendance": null
     },
     {
@@ -63036,10 +63147,10 @@
             "played": 9,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 22,
+            "loss": 2,
+            "for": 24,
             "against": 14,
-            "diff": 8,
+            "diff": 10,
             "points": 11,
             "highlight": null
           },
@@ -63050,8 +63161,8 @@
             "draw": null,
             "loss": 5,
             "for": 18,
-            "against": 25,
-            "diff": -7,
+            "against": 26,
+            "diff": -8,
             "points": 10,
             "highlight": null
           },
@@ -63174,22 +63285,10 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 26,
+            "for": 27,
             "against": 19,
-            "diff": 7,
+            "diff": 8,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 9,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 22,
-            "against": 26,
-            "diff": -4,
-            "points": 8,
             "highlight": null
           },
           {
@@ -63225,6 +63324,18 @@
             "for": 14,
             "against": 15,
             "diff": -1,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 22,
+            "against": 28,
+            "diff": -6,
             "points": 6,
             "highlight": null
           },
@@ -64534,6 +64645,18 @@
             "highlight": null
           },
           {
+            "team": "Rögle BK",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 8,
+            "against": 8,
+            "diff": 0,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "IF Björklöven",
             "played": 3,
             "win": 2,
@@ -64566,6 +64689,18 @@
             "for": 8,
             "against": 12,
             "diff": -4,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Linköping HC",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 6,
+            "against": 13,
+            "diff": -7,
             "points": 4,
             "highlight": null
           },
@@ -64606,18 +64741,6 @@
             "highlight": null
           },
           {
-            "team": "Rögle BK",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 6,
-            "against": 7,
-            "diff": -1,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Luleå Hockey",
             "played": 3,
             "win": 1,
@@ -64626,18 +64749,6 @@
             "for": 9,
             "against": 13,
             "diff": -4,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Linköping HC",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 5,
-            "against": 11,
-            "diff": -6,
             "points": 3,
             "highlight": null
           },
