@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T20:17:11+00:00",
+  "updated": "2026-09-26T20:28:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63458,18 +63458,6 @@
             "highlight": null
           },
           {
-            "team": "Barcelona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 67,
-            "against": 59,
-            "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -63477,6 +63465,18 @@
             "loss": 0,
             "for": 90,
             "against": 85,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 76,
             "diff": 5,
             "points": 2,
             "highlight": null
@@ -63626,6 +63626,18 @@
             "highlight": null
           },
           {
+            "team": "Leyma Coruña",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 76,
+            "against": 81,
+            "diff": -5,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "MoraBanc Andorra",
             "played": 1,
             "win": 0,
@@ -63634,18 +63646,6 @@
             "for": 85,
             "against": 90,
             "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Leyma Coruña",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 59,
-            "against": 67,
-            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -63693,14 +63693,14 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Reggiana",
+            "team": "Dolomiti Energia Trento",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 73,
-            "against": 71,
-            "diff": 2,
+            "for": 81,
+            "against": 78,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -63825,14 +63825,14 @@
             "highlight": null
           },
           {
-            "team": "Dolomiti Energia Trento",
+            "team": "Pallacanestro Reggiana",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 71,
-            "against": 73,
-            "diff": -2,
+            "for": 78,
+            "against": 81,
+            "diff": -3,
             "points": 0,
             "highlight": null
           },
@@ -63933,9 +63933,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 69,
-            "against": 54,
-            "diff": 15,
+            "for": 78,
+            "against": 64,
+            "diff": 14,
             "points": 2,
             "highlight": null
           },
@@ -63993,9 +63993,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 54,
-            "against": 69,
-            "diff": -15,
+            "for": 64,
+            "against": 78,
+            "diff": -14,
             "points": 1,
             "highlight": null
           },
