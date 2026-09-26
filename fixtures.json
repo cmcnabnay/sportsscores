@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T17:01:09+00:00",
+  "updated": "2026-09-26T17:12:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62928,18 +62928,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 110,
-            "against": 115,
-            "diff": -5,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -62948,6 +62936,18 @@
             "for": 158,
             "against": 164,
             "diff": -6,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 112,
+            "against": 122,
+            "diff": -10,
             "points": 2,
             "highlight": null
           },
@@ -63017,9 +63017,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 88,
-            "against": 135,
-            "diff": -47,
+            "for": 95,
+            "against": 137,
+            "diff": -42,
             "points": 1,
             "highlight": null
           }
@@ -63718,8 +63718,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 44,
-            "against": 38,
+            "for": 51,
+            "against": 45,
             "diff": 6,
             "points": 2,
             "highlight": null
@@ -63922,8 +63922,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 38,
-            "against": 44,
+            "for": 45,
+            "against": 51,
             "diff": -6,
             "points": 1,
             "highlight": null
@@ -64147,14 +64147,14 @@
             "highlight": null
           },
           {
-            "team": "Gravelines",
+            "team": "Le Mans",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 31,
-            "diff": 5,
+            "for": 41,
+            "against": 38,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -64164,9 +64164,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 40,
-            "against": 37,
-            "diff": 3,
+            "for": 51,
+            "against": 38,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -64176,9 +64176,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 25,
-            "diff": 1,
+            "for": 36,
+            "against": 33,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 51,
-            "against": 31,
-            "diff": 20,
+            "for": 55,
+            "against": 36,
+            "diff": 19,
             "points": 2,
             "highlight": null
           },
@@ -64207,14 +64207,14 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
+            "team": "Gravelines",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 31,
-            "against": 36,
-            "diff": -5,
+            "for": 38,
+            "against": 41,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -64248,9 +64248,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 37,
-            "against": 40,
-            "diff": -3,
+            "for": 38,
+            "against": 51,
+            "diff": -13,
             "points": 1,
             "highlight": null
           },
@@ -64296,9 +64296,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 31,
-            "against": 51,
-            "diff": -20,
+            "for": 36,
+            "against": 55,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 25,
-            "against": 26,
-            "diff": -1,
+            "for": 33,
+            "against": 36,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
