@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T17:35:06+00:00",
+  "updated": "2026-09-26T17:45:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62933,9 +62933,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 126,
-            "against": 128,
-            "diff": -2,
+            "for": 132,
+            "against": 136,
+            "diff": -4,
             "points": 2,
             "highlight": null
           },
@@ -63017,9 +63017,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 101,
-            "against": 151,
-            "diff": -50,
+            "for": 109,
+            "against": 157,
+            "diff": -48,
             "points": 1,
             "highlight": null
           }
@@ -63718,8 +63718,20 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 79,
-            "against": 67,
+            "for": 92,
+            "against": 76,
+            "diff": 16,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "MoraBanc Andorra",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 14,
+            "against": 2,
             "diff": 12,
             "points": 2,
             "highlight": null
@@ -63857,18 +63869,6 @@
             "highlight": null
           },
           {
-            "team": "MoraBanc Andorra",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "San Pablo Burgos",
             "played": 0,
             "win": 0,
@@ -63893,18 +63893,6 @@
             "highlight": null
           },
           {
-            "team": "Monbus Obradoiro",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Leyma Coruña",
             "played": 0,
             "win": 0,
@@ -63917,14 +63905,26 @@
             "highlight": null
           },
           {
+            "team": "Monbus Obradoiro",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 2,
+            "against": 14,
+            "diff": -12,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 67,
-            "against": 79,
-            "diff": -12,
+            "for": 76,
+            "against": 92,
+            "diff": -16,
             "points": 1,
             "highlight": null
           }
@@ -63935,6 +63935,18 @@
     "lega-a-2026-27": {
       "Lega A": {
         "rows": [
+          {
+            "team": "Treviso Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 21,
+            "against": 13,
+            "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
           {
             "team": "Olimpia Milano",
             "played": 0,
@@ -63955,18 +63967,6 @@
             "loss": 0,
             "for": 0,
             "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Treviso Basket",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 5,
-            "against": 5,
             "diff": 0,
             "points": 0,
             "highlight": null
@@ -64104,18 +64104,6 @@
             "highlight": null
           },
           {
-            "team": "BC Roma SPQR",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 5,
-            "against": 5,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Scafati",
             "played": 0,
             "win": 0,
@@ -64124,6 +64112,18 @@
             "for": 0,
             "against": 0,
             "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "BC Roma SPQR",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 13,
+            "against": 21,
+            "diff": -8,
             "points": 0,
             "highlight": null
           }
@@ -64152,9 +64152,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 48,
-            "against": 47,
-            "diff": 1,
+            "for": 61,
+            "against": 56,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -64164,9 +64164,21 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 75,
-            "against": 58,
-            "diff": 17,
+            "for": 82,
+            "against": 70,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Boulazac",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 73,
+            "against": 72,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -64176,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 54,
-            "against": 47,
-            "diff": 7,
+            "for": 59,
+            "against": 48,
+            "diff": 11,
             "points": 2,
             "highlight": null
           },
@@ -64200,9 +64212,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 47,
-            "against": 48,
-            "diff": -1,
+            "for": 56,
+            "against": 61,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -64236,9 +64248,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 58,
-            "against": 75,
-            "diff": -17,
+            "for": 70,
+            "against": 82,
+            "diff": -12,
             "points": 1,
             "highlight": null
           },
@@ -64279,26 +64291,14 @@
             "highlight": null
           },
           {
-            "team": "Boulazac",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 65,
-            "against": 65,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Chorale de Roanne",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 65,
-            "against": 65,
-            "diff": 0,
+            "loss": 1,
+            "for": 72,
+            "against": 73,
+            "diff": -1,
             "points": 1,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 47,
-            "against": 54,
-            "diff": -7,
+            "for": 48,
+            "against": 59,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
