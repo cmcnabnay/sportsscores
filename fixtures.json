@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:28:13+00:00",
+  "updated": "2026-09-26T16:40:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17004,7 +17004,7 @@
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "HC Sochi",
-      "score": null,
+      "score": "3-1",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17015,7 +17015,7 @@
       "league": "khl-2026-27",
       "home": "Spartak Moscow",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "2-4",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17026,7 +17026,7 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Salavat Yulayev Ufa",
-      "score": null,
+      "score": "1-3",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17037,7 +17037,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Dinamo Minsk",
-      "score": null,
+      "score": "2-1",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17048,7 +17048,7 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "SaiPa Lappeenranta",
-      "score": null,
+      "score": "2-4",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17059,7 +17059,7 @@
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "Jokerit Helsinki",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17070,7 +17070,7 @@
       "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "HIFK Helsinki",
-      "score": null,
+      "score": "2-1",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17081,7 +17081,7 @@
       "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "Rauman Lukko",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17092,7 +17092,7 @@
       "league": "liiga-2026-27",
       "home": "Vaasan Sport",
       "away": "Oulun Kärpät",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17103,18 +17103,19 @@
       "league": "liiga-2026-27",
       "home": "HPK Hämeenlinna",
       "away": "Porin Ässät",
-      "score": null,
+      "score": "5-4",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
       "home": "KooKoo Kouvola",
       "away": "Mikkelin Jukurit",
-      "score": null,
+      "score": "3-5",
       "date": "2026-09-26",
       "time": "14:00",
       "utc": "2026-09-26T14:00:00+00:00",
@@ -17147,7 +17148,7 @@
       "league": "top14-2026",
       "home": "Clermont Auvergne",
       "away": "Castres Olympique",
-      "score": null,
+      "score": "20-6",
       "date": "2026-09-26",
       "time": "14:35",
       "utc": "2026-09-26T14:35:00+00:00",
@@ -17158,7 +17159,7 @@
       "league": "top14-2026",
       "home": "Stade Francais Paris",
       "away": "Lyon",
-      "score": null,
+      "score": "31-10",
       "date": "2026-09-26",
       "time": "14:35",
       "utc": "2026-09-26T14:35:00+00:00",
@@ -17169,7 +17170,7 @@
       "league": "top14-2026",
       "home": "Racing 92",
       "away": "Bayonne",
-      "score": null,
+      "score": "17-20",
       "date": "2026-09-26",
       "time": "14:35",
       "utc": "2026-09-26T14:35:00+00:00",
@@ -17180,7 +17181,7 @@
       "league": "top14-2026",
       "home": "Toulon",
       "away": "Vannes",
-      "score": null,
+      "score": "28-10",
       "date": "2026-09-26",
       "time": "14:35",
       "utc": "2026-09-26T14:35:00+00:00",
@@ -44601,6 +44602,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "JYP Jyväskylä",
+      "away": "Kiekko-Espoo",
+      "score": null,
+      "date": "2027-02-03",
+      "time": "16:30",
+      "utc": "2027-02-03T16:30:00+00:00",
+      "venue": "LahiTapiola Areena",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Hapoel Tel-Aviv",
       "away": "Olympiacos BC",
@@ -44675,6 +44687,17 @@
       "time": "16:00",
       "utc": "2027-02-04T16:00:00+00:00",
       "venue": "Coca-Cola Arena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "HIFK Helsinki",
+      "away": "Oulun Kärpät",
+      "score": null,
+      "date": "2027-02-04",
+      "time": "16:30",
+      "utc": "2027-02-04T16:30:00+00:00",
+      "venue": "Helsingin jäähalli",
       "attendance": null
     },
     {
@@ -44800,24 +44823,24 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "HPK Hämeenlinna",
-      "away": "Mikkelin Jukurit",
+      "home": "SaiPa Lappeenranta",
+      "away": "Vaasan Sport",
       "score": null,
       "date": "2027-02-05",
       "time": "16:30",
       "utc": "2027-02-05T16:30:00+00:00",
-      "venue": "Ritarihalli",
+      "venue": "Kisapuisto",
       "attendance": null
     },
     {
       "league": "liiga-2026-27",
-      "home": "Jokerit Helsinki",
-      "away": "TPS Turku",
+      "home": "Rauman Lukko",
+      "away": "Kiekko-Espoo",
       "score": null,
       "date": "2027-02-05",
-      "time": "17:30",
-      "utc": "2027-02-05T17:30:00+00:00",
-      "venue": "Helsinki Halli",
+      "time": "16:30",
+      "utc": "2027-02-05T16:30:00+00:00",
+      "venue": "Äijänsuo Arena",
       "attendance": null
     },
     {
@@ -44998,50 +45021,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Tappara Tampere",
-      "away": "HIFK Helsinki",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": "Nokia Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "KalPa Kuopio",
-      "away": "Tampereen Ilves",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": "Olvi Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "TPS Turku",
-      "away": "Lahti Pelicans",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": "Gatorade Center",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Oulun Kärpät",
-      "away": "Porin Ässät",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": "Oulun Energia Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "KooKoo Kouvola",
       "away": "HPK Hämeenlinna",
       "score": null,
@@ -45060,17 +45039,6 @@
       "time": "15:00",
       "utc": "2027-02-06T15:00:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "SaiPa Lappeenranta",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": "Kisapuisto",
       "attendance": null
     },
     {
@@ -48385,6 +48353,50 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "Tampereen Ilves",
+      "away": "Lahti Pelicans",
+      "score": null,
+      "date": "2027-03-02",
+      "time": "16:30",
+      "utc": "2027-03-02T16:30:00+00:00",
+      "venue": "Nokia Arena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Rauman Lukko",
+      "away": "SaiPa Lappeenranta",
+      "score": null,
+      "date": "2027-03-02",
+      "time": "16:30",
+      "utc": "2027-03-02T16:30:00+00:00",
+      "venue": "Äijänsuo Arena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "HIFK Helsinki",
+      "away": "Porin Ässät",
+      "score": null,
+      "date": "2027-03-02",
+      "time": "16:30",
+      "utc": "2027-03-02T16:30:00+00:00",
+      "venue": "Helsingin jäähalli",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "TPS Turku",
+      "away": "JYP Jyväskylä",
+      "score": null,
+      "date": "2027-03-02",
+      "time": "16:30",
+      "utc": "2027-03-02T16:30:00+00:00",
+      "venue": "Gatorade Center",
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Timrå IK",
       "away": "Frölunda HC",
@@ -48517,39 +48529,6 @@
       "attendance": null
     },
     {
-      "league": "liiga-2026-27",
-      "home": "Porin Ässät",
-      "away": "HIFK Helsinki",
-      "score": null,
-      "date": "2027-03-03",
-      "time": "16:30",
-      "utc": "2027-03-03T16:30:00+00:00",
-      "venue": "Isomäki Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Jokerit Helsinki",
-      "away": "Mikkelin Jukurit",
-      "score": null,
-      "date": "2027-03-03",
-      "time": "16:30",
-      "utc": "2027-03-03T16:30:00+00:00",
-      "venue": "Helsinki Halli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "KooKoo Kouvola",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-03-03",
-      "time": "16:30",
-      "utc": "2027-03-03T16:30:00+00:00",
-      "venue": "Lumon Areena",
-      "attendance": null
-    },
-    {
       "league": "del-2026-27",
       "home": "Schwenningen Wild Wings",
       "away": "Pinguins Bremerhaven",
@@ -48580,17 +48559,6 @@
       "time": "18:30",
       "utc": "2027-03-03T18:30:00+00:00",
       "venue": "Yayla-Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Lahti Pelicans",
-      "away": "SaiPa Lappeenranta",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "16:30",
-      "utc": "2027-03-04T16:30:00+00:00",
-      "venue": "Isku Areena",
       "attendance": null
     },
     {
@@ -48782,28 +48750,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Tappara Tampere",
-      "away": "Jokerit Helsinki",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "16:30",
-      "utc": "2027-03-05T16:30:00+00:00",
-      "venue": "Nokia Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "Tampereen Ilves",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "16:30",
-      "utc": "2027-03-05T16:30:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Vaasan Sport",
       "away": "Porin Ässät",
       "score": null,
@@ -48833,17 +48779,6 @@
       "time": "16:30",
       "utc": "2027-03-05T16:30:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Oulun Kärpät",
-      "away": "Rauman Lukko",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "16:30",
-      "utc": "2027-03-05T16:30:00+00:00",
-      "venue": "Oulun Energia Areena",
       "attendance": null
     },
     {
@@ -62909,18 +62844,6 @@
             "highlight": null
           },
           {
-            "team": "TBB Trier",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 213,
-            "against": 196,
-            "diff": 17,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Basketball Lowen Braunschweig",
             "played": 1,
             "win": 1,
@@ -62929,6 +62852,30 @@
             "for": 116,
             "against": 107,
             "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 244,
+            "against": 260,
+            "diff": -16,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "TBB Trier",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 213,
+            "against": 196,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -62981,6 +62928,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 91,
+            "against": 95,
+            "diff": -4,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -62989,6 +62948,18 @@
             "for": 158,
             "against": 164,
             "diff": -6,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 166,
+            "against": 186,
+            "diff": -20,
             "points": 2,
             "highlight": null
           },
@@ -63017,18 +62988,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 83,
-            "against": 94,
-            "diff": -11,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Science City Jena",
             "played": 1,
             "win": 0,
@@ -63038,30 +62997,6 @@
             "against": 77,
             "diff": -15,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 244,
-            "against": 260,
-            "diff": -16,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Hamburg Towers",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 166,
-            "against": 186,
-            "diff": -20,
-            "points": 2,
             "highlight": null
           },
           {
@@ -63078,14 +63013,14 @@
           },
           {
             "team": "SC Rasta Vechta",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 67,
-            "against": 108,
-            "diff": -41,
-            "points": 0,
+            "loss": 2,
+            "for": 68,
+            "against": 116,
+            "diff": -48,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -63778,13 +63713,13 @@
       "ACB": {
         "rows": [
           {
-            "team": "Bilbao Basket",
+            "team": "Baxi Manresa",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 19,
-            "against": 18,
+            "for": 27,
+            "against": 26,
             "diff": 1,
             "points": 2,
             "highlight": null
@@ -63982,13 +63917,13 @@
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
+            "team": "Bilbao Basket",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 18,
-            "against": 19,
+            "for": 26,
+            "against": 27,
             "diff": -1,
             "points": 1,
             "highlight": null
@@ -64212,14 +64147,38 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
+            "team": "Le Mans",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 28,
-            "against": 25,
-            "diff": 3,
+            "for": 11,
+            "against": 10,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Chalon-sur-Saône",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 32,
+            "against": 30,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 14,
+            "against": 7,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -64229,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 30,
-            "against": 18,
-            "diff": 12,
+            "for": 39,
+            "against": 25,
+            "diff": 14,
             "points": 2,
             "highlight": null
           },
@@ -64249,26 +64208,14 @@
           },
           {
             "team": "Gravelines",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Le Mans",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 10,
+            "against": 11,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64296,14 +64243,14 @@
             "highlight": null
           },
           {
-            "team": "Chalon-sur-Saône",
+            "team": "Limoges",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 25,
-            "against": 28,
-            "diff": -3,
+            "for": 30,
+            "against": 32,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -64349,34 +64296,22 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 18,
-            "against": 30,
-            "diff": -12,
+            "for": 25,
+            "against": 39,
+            "diff": -14,
             "points": 1,
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Saint Quentin",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 7,
+            "against": 14,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           },
           {
@@ -64423,6 +64358,18 @@
             "highlight": null
           },
           {
+            "team": "SaiPa Lappeenranta",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 22,
+            "against": 8,
+            "diff": 14,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Tampereen Ilves",
             "played": 6,
             "win": 5,
@@ -64459,15 +64406,15 @@
             "highlight": null
           },
           {
-            "team": "SaiPa Lappeenranta",
-            "played": 6,
-            "win": 5,
+            "team": "Kiekko-Espoo",
+            "played": 8,
+            "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 18,
-            "against": 6,
-            "diff": 12,
-            "points": 14,
+            "loss": 4,
+            "for": 20,
+            "against": 12,
+            "diff": 8,
+            "points": 13,
             "highlight": null
           },
           {
@@ -64507,18 +64454,6 @@
             "highlight": null
           },
           {
-            "team": "Kiekko-Espoo",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 16,
-            "against": 11,
-            "diff": 5,
-            "points": 10,
-            "highlight": null
-          },
-          {
             "team": "KalPa Kuopio",
             "played": 7,
             "win": 3,
@@ -64532,13 +64467,13 @@
           },
           {
             "team": "Tappara Tampere",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 17,
-            "against": 13,
-            "diff": 4,
+            "loss": 4,
+            "for": 19,
+            "against": 17,
+            "diff": 2,
             "points": 9,
             "highlight": null
           },
@@ -64580,13 +64515,13 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": null,
-            "loss": 6,
-            "for": 14,
-            "against": 27,
-            "diff": -13,
+            "loss": 7,
+            "for": 15,
+            "against": 31,
+            "diff": -16,
             "points": 4,
             "highlight": null
           },
