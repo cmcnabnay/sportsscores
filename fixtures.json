@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:50:10+00:00",
+  "updated": "2026-09-26T17:01:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62928,6 +62928,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 110,
+            "against": 115,
+            "diff": -5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "N.R. Ludwigsburg",
             "played": 2,
             "win": 1,
@@ -62948,18 +62960,6 @@
             "for": 166,
             "against": 186,
             "diff": -20,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "SC Rasta Vechta",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 81,
-            "against": 121,
-            "diff": -40,
             "points": 2,
             "highlight": null
           },
@@ -62988,18 +62988,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 96,
-            "against": 108,
-            "diff": -12,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Science City Jena",
             "played": 1,
             "win": 0,
@@ -63021,6 +63009,18 @@
             "against": 195,
             "diff": -25,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 88,
+            "against": 135,
+            "diff": -47,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -63718,9 +63718,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 41,
-            "against": 36,
-            "diff": 5,
+            "for": 44,
+            "against": 38,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -63922,9 +63922,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 36,
-            "against": 41,
-            "diff": -5,
+            "for": 38,
+            "against": 44,
+            "diff": -6,
             "points": 1,
             "highlight": null
           }
@@ -64152,21 +64152,21 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 28,
-            "against": 20,
-            "diff": 8,
+            "for": 36,
+            "against": 31,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Limoges",
+            "team": "Chalon-sur-Saône",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 34,
-            "against": 32,
-            "diff": 2,
+            "for": 40,
+            "against": 37,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -64176,9 +64176,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 22,
-            "against": 17,
-            "diff": 5,
+            "for": 26,
+            "against": 25,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -64188,9 +64188,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
+            "for": 51,
             "against": 31,
-            "diff": 18,
+            "diff": 20,
             "points": 2,
             "highlight": null
           },
@@ -64212,9 +64212,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 20,
-            "against": 28,
-            "diff": -8,
+            "for": 31,
+            "against": 36,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -64243,14 +64243,14 @@
             "highlight": null
           },
           {
-            "team": "Chalon-sur-Saône",
+            "team": "Limoges",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 34,
-            "diff": -2,
+            "for": 37,
+            "against": 40,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -64297,8 +64297,8 @@
             "draw": null,
             "loss": 1,
             "for": 31,
-            "against": 49,
-            "diff": -18,
+            "against": 51,
+            "diff": -20,
             "points": 1,
             "highlight": null
           },
@@ -64308,9 +64308,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 17,
-            "against": 22,
-            "diff": -5,
+            "for": 25,
+            "against": 26,
+            "diff": -1,
             "points": 1,
             "highlight": null
           },
