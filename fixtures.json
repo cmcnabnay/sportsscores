@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T16:19:17+00:00",
+  "updated": "2026-09-26T16:28:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63162,8 +63162,8 @@
             "draw": null,
             "loss": 5,
             "for": 18,
-            "against": 25,
-            "diff": -7,
+            "against": 26,
+            "diff": -8,
             "points": 10,
             "highlight": null
           },
@@ -63185,9 +63185,9 @@
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 22,
+            "for": 23,
             "against": 23,
-            "diff": -1,
+            "diff": 0,
             "points": 8,
             "highlight": null
           },
@@ -63198,8 +63198,8 @@
             "draw": null,
             "loss": 2,
             "for": 17,
-            "against": 19,
-            "diff": -2,
+            "against": 20,
+            "diff": -3,
             "points": 8,
             "highlight": null
           },
@@ -63286,9 +63286,9 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 26,
+            "for": 27,
             "against": 19,
-            "diff": 7,
+            "diff": 8,
             "points": 10,
             "highlight": null
           },
@@ -63783,9 +63783,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 17,
-            "against": 14,
-            "diff": 3,
+            "for": 19,
+            "against": 18,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -63987,9 +63987,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 14,
-            "against": 17,
-            "diff": -3,
+            "for": 18,
+            "against": 19,
+            "diff": -1,
             "points": 1,
             "highlight": null
           }
@@ -64217,9 +64217,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 22,
-            "against": 21,
-            "diff": 1,
+            "for": 28,
+            "against": 25,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -64229,9 +64229,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 24,
-            "against": 13,
-            "diff": 11,
+            "for": 30,
+            "against": 18,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -64301,9 +64301,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 22,
-            "diff": -1,
+            "for": 25,
+            "against": 28,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -64349,9 +64349,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 13,
-            "against": 24,
-            "diff": -11,
+            "for": 18,
+            "against": 30,
+            "diff": -12,
             "points": 1,
             "highlight": null
           },
@@ -64399,6 +64399,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "Mikkelin Jukurit",
+            "played": 9,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 29,
+            "against": 19,
+            "diff": 10,
+            "points": 20,
+            "highlight": null
+          },
+          {
             "team": "JYP Jyväskylä",
             "played": 6,
             "win": 6,
@@ -64408,18 +64420,6 @@
             "against": 12,
             "diff": 13,
             "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Mikkelin Jukurit",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 24,
-            "against": 16,
-            "diff": 8,
-            "points": 17,
             "highlight": null
           },
           {
@@ -64483,6 +64483,30 @@
             "highlight": null
           },
           {
+            "team": "Lahti Pelicans",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 16,
+            "against": 17,
+            "diff": -1,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Oulun Kärpät",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 15,
+            "against": 19,
+            "diff": -4,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Kiekko-Espoo",
             "played": 7,
             "win": 3,
@@ -64519,50 +64543,26 @@
             "highlight": null
           },
           {
-            "team": "Lahti Pelicans",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 14,
-            "against": 16,
-            "diff": -2,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "Vaasan Sport",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": null,
-            "loss": 5,
-            "for": 15,
-            "against": 25,
-            "diff": -10,
+            "loss": 6,
+            "for": 16,
+            "against": 27,
+            "diff": -11,
             "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Oulun Kärpät",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 13,
-            "against": 18,
-            "diff": -5,
-            "points": 7,
             "highlight": null
           },
           {
             "team": "HIFK Helsinki",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 19,
-            "against": 26,
-            "diff": -7,
+            "loss": 6,
+            "for": 20,
+            "against": 28,
+            "diff": -8,
             "points": 7,
             "highlight": null
           },
@@ -64592,13 +64592,13 @@
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 7,
+            "played": 8,
             "win": 0,
             "draw": null,
-            "loss": 7,
-            "for": 12,
-            "against": 32,
-            "diff": -20,
+            "loss": 8,
+            "for": 15,
+            "against": 37,
+            "diff": -22,
             "points": 1,
             "highlight": null
           }
