@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T15:18:00+00:00",
+  "updated": "2026-09-27T15:29:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62890,9 +62890,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 213,
+            "for": 217,
             "against": 234,
-            "diff": -21,
+            "diff": -17,
             "points": 2,
             "highlight": null
           },
@@ -62915,8 +62915,8 @@
             "draw": null,
             "loss": 3,
             "for": 211,
-            "against": 226,
-            "diff": -15,
+            "against": 230,
+            "diff": -19,
             "points": 1,
             "highlight": null
           },
@@ -63670,6 +63670,18 @@
             "highlight": null
           },
           {
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 24,
+            "against": 18,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -63701,18 +63713,6 @@
             "loss": 0,
             "for": 81,
             "against": 80,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 17,
-            "against": 16,
             "diff": 1,
             "points": 2,
             "highlight": null
@@ -63766,18 +63766,6 @@
             "highlight": null
           },
           {
-            "team": "UCAM Murcia",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 16,
-            "against": 17,
-            "diff": -1,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "La Laguna Tenerife",
             "played": 1,
             "win": 0,
@@ -63811,6 +63799,18 @@
             "against": 90,
             "diff": -5,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 18,
+            "against": 24,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63893,27 +63893,27 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Trieste",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 66,
+            "against": 61,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 22,
-            "against": 21,
-            "diff": 1,
+            "for": 34,
+            "against": 31,
+            "diff": 3,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Olimpia Milano",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 51,
-            "against": 51,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -63965,18 +63965,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Trieste",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 51,
-            "against": 51,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -64006,9 +63994,21 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 22,
-            "diff": -1,
+            "for": 31,
+            "against": 34,
+            "diff": -3,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Olimpia Milano",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 61,
+            "against": 66,
+            "diff": -5,
             "points": 0,
             "highlight": null
           },
@@ -64133,9 +64133,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 31,
-            "against": 30,
-            "diff": 1,
+            "for": 35,
+            "against": 32,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -64229,9 +64229,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 31,
-            "diff": -1,
+            "for": 32,
+            "against": 35,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
