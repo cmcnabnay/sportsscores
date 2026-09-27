@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:44:10+00:00",
+  "updated": "2026-09-27T16:55:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62782,9 +62782,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 210,
-            "against": 191,
-            "diff": 19,
+            "for": 212,
+            "against": 196,
+            "diff": 16,
             "points": 5,
             "highlight": null
           },
@@ -62842,9 +62842,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 104,
-            "against": 108,
-            "diff": -4,
+            "for": 109,
+            "against": 110,
+            "diff": -1,
             "points": 2,
             "highlight": null
           },
@@ -62890,9 +62890,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 264,
-            "against": 273,
-            "diff": -9,
+            "for": 266,
+            "against": 276,
+            "diff": -10,
             "points": 2,
             "highlight": null
           },
@@ -62914,9 +62914,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 260,
-            "against": 287,
-            "diff": -27,
+            "for": 263,
+            "against": 289,
+            "diff": -26,
             "points": 1,
             "highlight": null
           },
@@ -63670,6 +63670,18 @@
             "highlight": null
           },
           {
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 69,
+            "against": 63,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -63687,20 +63699,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
-            "against": 45,
-            "diff": 4,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "UCAM Murcia",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 61,
-            "against": 58,
+            "for": 53,
+            "against": 50,
             "diff": 3,
             "points": 2,
             "highlight": null
@@ -63778,26 +63778,14 @@
             "highlight": null
           },
           {
-            "team": "Basquet Girona",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 58,
-            "against": 61,
-            "diff": -3,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "ICG Forca Lleida",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 45,
-            "against": 49,
-            "diff": -4,
+            "for": 50,
+            "against": 53,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63811,6 +63799,18 @@
             "against": 90,
             "diff": -5,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 63,
+            "against": 69,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63893,14 +63893,26 @@
             "highlight": null
           },
           {
+            "team": "Napoli Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 31,
+            "against": 22,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 98,
-            "against": 89,
-            "diff": 9,
+            "for": 101,
+            "against": 93,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -63929,18 +63941,6 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 21,
-            "against": 18,
-            "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Varese",
             "played": 0,
             "win": 0,
@@ -63961,18 +63961,6 @@
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Maxima Roma",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 18,
-            "against": 21,
-            "diff": -3,
             "points": 0,
             "highlight": null
           },
@@ -64006,8 +63994,20 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 89,
-            "against": 98,
+            "for": 93,
+            "against": 101,
+            "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 22,
+            "against": 31,
             "diff": -9,
             "points": 0,
             "highlight": null
@@ -64701,6 +64701,18 @@
             "highlight": null
           },
           {
+            "team": "Krefeld Pinguine",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 13,
+            "against": 12,
+            "diff": 1,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "EHC Red Bull München",
             "played": 4,
             "win": 2,
@@ -64749,18 +64761,6 @@
             "highlight": null
           },
           {
-            "team": "Krefeld Pinguine",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 8,
-            "against": 10,
-            "diff": -2,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Kölner Haie",
             "played": 3,
             "win": 1,
@@ -64786,13 +64786,13 @@
           },
           {
             "team": "Schwenningen Wild Wings",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 7,
-            "against": 15,
-            "diff": -8,
+            "loss": 3,
+            "for": 9,
+            "against": 20,
+            "diff": -11,
             "points": 2,
             "highlight": null
           },
