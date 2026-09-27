@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T02:23:08+00:00",
+  "updated": "2026-09-27T02:35:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17382,7 +17382,7 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Hamilton Tiger-Cats",
-      "score": null,
+      "score": "37-35",
       "date": "2026-09-26",
       "time": "17:00",
       "utc": "2026-09-26T23:00:00+00:00",
@@ -60000,14 +60000,14 @@
         "rows": [
           {
             "team": "Edmonton Elks",
-            "played": 14,
-            "win": 10,
+            "played": 15,
+            "win": 11,
             "draw": null,
             "loss": 4,
-            "for": 433,
-            "against": 347,
+            "for": 470,
+            "against": 382,
             "diff": null,
-            "points": 20,
+            "points": 22,
             "highlight": null
           },
           {
@@ -60088,13 +60088,13 @@
             "highlight": null
           },
           {
-            "team": "Hamilton Tiger-Cats",
-            "played": 14,
+            "team": "e – Hamilton Tiger-Cats",
+            "played": 15,
             "win": 4,
             "draw": null,
-            "loss": 10,
-            "for": 327,
-            "against": 421,
+            "loss": 11,
+            "for": 362,
+            "against": 458,
             "diff": null,
             "points": 8,
             "highlight": null
