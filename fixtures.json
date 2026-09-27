@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:48:09+00:00",
+  "updated": "2026-09-27T17:59:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62784,9 +62784,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 239,
-            "against": 232,
-            "diff": 7,
+            "for": 246,
+            "against": 245,
+            "diff": 1,
             "points": 5,
             "highlight": null
           },
@@ -62832,9 +62832,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 145,
-            "against": 137,
-            "diff": 8,
+            "for": 158,
+            "against": 144,
+            "diff": 14,
             "points": 2,
             "highlight": null
           },
@@ -63696,6 +63696,18 @@
             "highlight": null
           },
           {
+            "team": "ICG Forca Lleida",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 99,
+            "against": 96,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Baskonia Vitoria",
             "played": 1,
             "win": 1,
@@ -63732,18 +63744,6 @@
             "highlight": null
           },
           {
-            "team": "ICG Forca Lleida",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 84,
-            "against": 83,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Real Madrid",
             "played": 1,
             "win": 0,
@@ -63751,18 +63751,6 @@
             "loss": 1,
             "for": 46,
             "against": 47,
-            "diff": -1,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 83,
-            "against": 84,
             "diff": -1,
             "points": 1,
             "highlight": null
@@ -63788,6 +63776,18 @@
             "for": 97,
             "against": 98,
             "diff": -1,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Valencia Basket",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 96,
+            "against": 99,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63876,9 +63876,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 64,
-            "against": 48,
-            "diff": 16,
+            "for": 71,
+            "against": 54,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -63907,18 +63907,6 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 44,
-            "against": 35,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
@@ -63926,6 +63914,18 @@
             "loss": 0,
             "for": 101,
             "against": 93,
+            "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Virtus Bologna",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 47,
+            "against": 39,
             "diff": 8,
             "points": 2,
             "highlight": null
@@ -63979,6 +63979,18 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Varese",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 39,
+            "against": 47,
+            "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Scaligera Basket Verona",
             "played": 1,
             "win": 0,
@@ -63987,18 +63999,6 @@
             "for": 93,
             "against": 101,
             "diff": -8,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Varese",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 35,
-            "against": 44,
-            "diff": -9,
             "points": 0,
             "highlight": null
           },
@@ -64032,9 +64032,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 48,
-            "against": 64,
-            "diff": -16,
+            "for": 54,
+            "against": 71,
+            "diff": -17,
             "points": 0,
             "highlight": null
           },
@@ -64148,8 +64148,8 @@
             "draw": null,
             "loss": 0,
             "for": 58,
-            "against": 44,
-            "diff": 14,
+            "against": 45,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -64243,9 +64243,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 44,
+            "for": 45,
             "against": 58,
-            "diff": -14,
+            "diff": -13,
             "points": 1,
             "highlight": null
           }
