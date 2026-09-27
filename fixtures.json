@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T18:10:00+00:00",
+  "updated": "2026-09-27T18:20:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63732,25 +63732,25 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
+            "team": "Unicaja Málaga",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 53,
-            "against": 52,
+            "for": 63,
+            "against": 62,
             "diff": 1,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Unicaja Málaga",
+            "team": "Real Madrid",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 52,
-            "against": 53,
+            "for": 62,
+            "against": 63,
             "diff": -1,
             "points": 1,
             "highlight": null
@@ -63871,6 +63871,18 @@
             "highlight": null
           },
           {
+            "team": "Napoli Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 91,
+            "against": 73,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
@@ -63878,18 +63890,6 @@
             "loss": 0,
             "for": 109,
             "against": 94,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Napoli Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 75,
-            "against": 60,
             "diff": 15,
             "points": 2,
             "highlight": null
@@ -63907,6 +63907,18 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 53,
+            "against": 44,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
@@ -63914,18 +63926,6 @@
             "loss": 0,
             "for": 101,
             "against": 93,
-            "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 47,
-            "against": 39,
             "diff": 8,
             "points": 2,
             "highlight": null
@@ -63979,18 +63979,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Varese",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 39,
-            "against": 47,
-            "diff": -8,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Scaligera Basket Verona",
             "played": 1,
             "win": 0,
@@ -63999,6 +63987,18 @@
             "for": 93,
             "against": 101,
             "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 44,
+            "against": 53,
+            "diff": -9,
             "points": 0,
             "highlight": null
           },
@@ -64015,18 +64015,6 @@
             "highlight": null
           },
           {
-            "team": "Maxima Roma",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 60,
-            "against": 75,
-            "diff": -15,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "BC Roma SPQR",
             "played": 1,
             "win": 0,
@@ -64035,6 +64023,18 @@
             "for": 94,
             "against": 109,
             "diff": -15,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 91,
+            "diff": -18,
             "points": 0,
             "highlight": null
           },
@@ -64147,9 +64147,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 65,
-            "against": 53,
-            "diff": 12,
+            "for": 70,
+            "against": 62,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -64243,9 +64243,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 53,
-            "against": 65,
-            "diff": -12,
+            "for": 62,
+            "against": 70,
+            "diff": -8,
             "points": 1,
             "highlight": null
           }
