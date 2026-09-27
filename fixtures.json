@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T18:42:48+00:00",
+  "updated": "2026-09-27T18:52:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63684,18 +63684,6 @@
             "highlight": null
           },
           {
-            "team": "Unicaja Málaga",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 80,
-            "against": 74,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -63716,6 +63704,18 @@
             "for": 105,
             "against": 100,
             "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Real Madrid",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 84,
+            "against": 81,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -63768,6 +63768,18 @@
             "highlight": null
           },
           {
+            "team": "Unicaja Málaga",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 81,
+            "against": 84,
+            "diff": -3,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Valencia Basket",
             "played": 1,
             "win": 0,
@@ -63789,18 +63801,6 @@
             "against": 90,
             "diff": -5,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Real Madrid",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 74,
-            "against": 80,
-            "diff": -6,
-            "points": 1,
             "highlight": null
           },
           {
@@ -63912,9 +63912,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 68,
-            "against": 58,
-            "diff": 10,
+            "for": 72,
+            "against": 63,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -63996,9 +63996,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 58,
-            "against": 68,
-            "diff": -10,
+            "for": 63,
+            "against": 72,
+            "diff": -9,
             "points": 0,
             "highlight": null
           },
