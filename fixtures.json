@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:55:01+00:00",
+  "updated": "2026-09-27T17:07:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17668,7 +17668,7 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Mitteldeutscher",
-      "score": "77-72",
+      "score": "77-74",
       "date": "2026-09-27",
       "time": "13:00",
       "utc": "2026-09-27T13:00:00+00:00",
@@ -17723,7 +17723,7 @@
       "league": "bbl-2026-27",
       "home": "Baskets Oldenburg",
       "away": "Hamburg Towers",
-      "score": null,
+      "score": "75-74",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
@@ -17734,18 +17734,19 @@
       "league": "bbl-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Phoenix Hagen",
-      "score": null,
+      "score": "94-93",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "lnb-elite-2026-27",
       "home": "Nancy",
       "away": "Paris Basketball",
-      "score": null,
+      "score": "73-78",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
@@ -17756,7 +17757,7 @@
       "league": "del-2026-27",
       "home": "Augsburger Panther",
       "away": "Kölner Haie",
-      "score": null,
+      "score": "4-6",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
@@ -17767,7 +17768,7 @@
       "league": "del-2026-27",
       "home": "Krefeld Pinguine",
       "away": "Schwenningen Wild Wings",
-      "score": null,
+      "score": "5-2",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
@@ -17778,12 +17779,13 @@
       "league": "del-2026-27",
       "home": "Nürnberg Ice Tigers",
       "away": "Straubing Tigers",
-      "score": null,
+      "score": "2-3",
       "date": "2026-09-27",
       "time": "14:30",
       "utc": "2026-09-27T14:30:00+00:00",
       "venue": "Arena Nuernberger Versicherung",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liga-acb-2026-27",
@@ -63658,6 +63660,18 @@
             "highlight": null
           },
           {
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 79,
+            "against": 72,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Breogán",
             "played": 1,
             "win": 1,
@@ -63665,18 +63679,6 @@
             "loss": 0,
             "for": 110,
             "against": 104,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 69,
-            "against": 63,
             "diff": 6,
             "points": 2,
             "highlight": null
@@ -63706,6 +63708,18 @@
             "highlight": null
           },
           {
+            "team": "Real Madrid",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 6,
+            "against": 4,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Baskonia Vitoria",
             "played": 1,
             "win": 1,
@@ -63730,30 +63744,6 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "La Laguna Tenerife",
             "played": 1,
             "win": 0,
@@ -63774,6 +63764,18 @@
             "for": 97,
             "against": 98,
             "diff": -1,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 4,
+            "against": 6,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -63802,18 +63804,6 @@
             "highlight": null
           },
           {
-            "team": "UCAM Murcia",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 63,
-            "against": 69,
-            "diff": -6,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Joventut de Badalona",
             "played": 1,
             "win": 0,
@@ -63822,6 +63812,18 @@
             "for": 104,
             "against": 110,
             "diff": -6,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 72,
+            "against": 79,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -63862,9 +63864,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 47,
-            "against": 28,
-            "diff": 19,
+            "for": 59,
+            "against": 36,
+            "diff": 23,
             "points": 2,
             "highlight": null
           },
@@ -63898,9 +63900,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 31,
-            "against": 22,
-            "diff": 9,
+            "for": 41,
+            "against": 31,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -63942,25 +63944,25 @@
           },
           {
             "team": "Pallacanestro Varese",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 5,
+            "against": 3,
+            "diff": 2,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "Virtus Bologna",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
+            "loss": 1,
+            "for": 3,
+            "against": 5,
+            "diff": -2,
             "points": 0,
             "highlight": null
           },
@@ -64006,9 +64008,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 22,
-            "against": 31,
-            "diff": -9,
+            "for": 31,
+            "against": 41,
+            "diff": -10,
             "points": 0,
             "highlight": null
           },
@@ -64042,9 +64044,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 28,
-            "against": 47,
-            "diff": -19,
+            "for": 36,
+            "against": 59,
+            "diff": -23,
             "points": 0,
             "highlight": null
           }
@@ -64140,6 +64142,18 @@
             "highlight": null
           },
           {
+            "team": "ASVEL Villeurbanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 15,
+            "against": 6,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "JL Bourg",
             "played": 1,
             "win": 0,
@@ -64212,18 +64226,6 @@
             "highlight": null
           },
           {
-            "team": "ASVEL Villeurbanne",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Nancy",
             "played": 1,
             "win": 0,
@@ -64237,14 +64239,14 @@
           },
           {
             "team": "Cholet",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 6,
+            "against": 15,
+            "diff": -9,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -64642,14 +64644,14 @@
         "rows": [
           {
             "team": "Nürnberg Ice Tigers",
-            "played": 4,
+            "played": 5,
             "win": 4,
             "draw": null,
-            "loss": 0,
-            "for": 17,
-            "against": 7,
-            "diff": 10,
-            "points": 12,
+            "loss": 1,
+            "for": 19,
+            "against": 10,
+            "diff": 9,
+            "points": 13,
             "highlight": null
           },
           {
@@ -64737,39 +64739,39 @@
             "highlight": null
           },
           {
-            "team": "Augsburger Panther",
-            "played": 3,
+            "team": "Kölner Haie",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 11,
-            "against": 9,
-            "diff": 2,
+            "loss": 2,
+            "for": 19,
+            "against": 21,
+            "diff": -2,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Augsburger Panther",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 15,
+            "against": 15,
+            "diff": 0,
             "points": 5,
             "highlight": null
           },
           {
             "team": "Straubing Tigers",
-            "played": 3,
-            "win": 1,
+            "played": 4,
+            "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 9,
-            "against": 11,
-            "diff": -2,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Kölner Haie",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 13,
-            "against": 17,
-            "diff": -4,
-            "points": 3,
+            "for": 12,
+            "against": 13,
+            "diff": -1,
+            "points": 5,
             "highlight": null
           },
           {
