@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T18:52:20+00:00",
+  "updated": "2026-09-27T19:03:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63708,18 +63708,6 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 84,
-            "against": 81,
-            "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Baskonia Vitoria",
             "played": 1,
             "win": 1,
@@ -63744,6 +63732,30 @@
             "highlight": null
           },
           {
+            "team": "Real Madrid",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 88,
+            "against": 87,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 87,
+            "against": 88,
+            "diff": -1,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "La Laguna Tenerife",
             "played": 1,
             "win": 0,
@@ -63764,18 +63776,6 @@
             "for": 97,
             "against": 98,
             "diff": -1,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 81,
-            "against": 84,
-            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63883,6 +63883,18 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 63,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
@@ -63903,18 +63915,6 @@
             "for": 85,
             "against": 73,
             "diff": 12,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 72,
-            "against": 63,
-            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -63991,18 +63991,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Varese",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 63,
-            "against": 72,
-            "diff": -9,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Cantù",
             "played": 1,
             "win": 0,
@@ -64023,6 +64011,18 @@
             "for": 94,
             "against": 109,
             "diff": -15,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 63,
+            "against": 81,
+            "diff": -18,
             "points": 0,
             "highlight": null
           },
