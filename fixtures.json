@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T16:02:00+00:00",
+  "updated": "2026-09-27T16:12:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62741,6 +62741,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 192,
+            "against": 165,
+            "diff": 27,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Basketball Lowen Braunschweig",
             "played": 2,
             "win": 2,
@@ -62765,26 +62777,14 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 179,
-            "against": 155,
-            "diff": 24,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Baskets Oldenburg",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 228,
-            "against": 210,
-            "diff": 18,
+            "for": 235,
+            "against": 215,
+            "diff": 20,
             "points": 5,
             "highlight": null
           },
@@ -62813,18 +62813,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 227,
-            "against": 241,
-            "diff": -14,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 3,
             "win": 2,
@@ -62832,6 +62820,18 @@
             "loss": 1,
             "for": 244,
             "against": 260,
+            "diff": -16,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 232,
+            "against": 248,
             "diff": -16,
             "points": 4,
             "highlight": null
@@ -62890,9 +62890,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 241,
-            "against": 259,
-            "diff": -18,
+            "for": 245,
+            "against": 269,
+            "diff": -24,
             "points": 2,
             "highlight": null
           },
@@ -62901,10 +62901,10 @@
             "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 68,
-            "against": 77,
-            "diff": -9,
+            "loss": 2,
+            "for": 78,
+            "against": 90,
+            "diff": -12,
             "points": 1,
             "highlight": null
           },
@@ -62914,9 +62914,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 236,
-            "against": 254,
-            "diff": -18,
+            "for": 246,
+            "against": 258,
+            "diff": -12,
             "points": 1,
             "highlight": null
           },
@@ -63682,13 +63682,13 @@
             "highlight": null
           },
           {
-            "team": "Basquet Girona",
+            "team": "ICG Forca Lleida",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 33,
+            "for": 16,
+            "against": 13,
             "diff": 3,
             "points": 2,
             "highlight": null
@@ -63718,19 +63718,19 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
-            "played": 0,
-            "win": 0,
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 37,
+            "against": 36,
+            "diff": 1,
+            "points": 2,
             "highlight": null
           },
           {
-            "team": "Valencia Basket",
+            "team": "Real Madrid",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63754,15 +63754,15 @@
             "highlight": null
           },
           {
-            "team": "ICG Forca Lleida",
-            "played": 0,
+            "team": "UCAM Murcia",
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 36,
+            "against": 37,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63790,13 +63790,13 @@
             "highlight": null
           },
           {
-            "team": "UCAM Murcia",
+            "team": "Valencia Basket",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 33,
-            "against": 36,
+            "for": 13,
+            "against": 16,
             "diff": -3,
             "points": 1,
             "highlight": null
@@ -63881,6 +63881,18 @@
             "highlight": null
           },
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 14,
+            "against": 4,
+            "diff": 10,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Dolomiti Energia Trento",
             "played": 1,
             "win": 1,
@@ -63905,32 +63917,20 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
+            "team": "Scaligera Basket Verona",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 52,
-            "against": 48,
-            "diff": 4,
+            "for": 61,
+            "against": 59,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
           {
             "team": "Napoli Basket",
             "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
@@ -63977,26 +63977,14 @@
             "highlight": null
           },
           {
-            "team": "Scafati",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Scaligera Basket Verona",
+            "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 48,
-            "against": 52,
-            "diff": -4,
+            "for": 59,
+            "against": 61,
+            "diff": -2,
             "points": 0,
             "highlight": null
           },
@@ -64021,6 +64009,18 @@
             "for": 78,
             "against": 83,
             "diff": -5,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Scafati",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 4,
+            "against": 14,
+            "diff": -10,
             "points": 0,
             "highlight": null
           },
@@ -64133,9 +64133,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 56,
-            "against": 51,
-            "diff": 5,
+            "for": 65,
+            "against": 58,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -64241,9 +64241,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 51,
-            "against": 56,
-            "diff": -5,
+            "for": 58,
+            "against": 65,
+            "diff": -7,
             "points": 1,
             "highlight": null
           }
