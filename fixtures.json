@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T20:28:09+00:00",
+  "updated": "2026-09-27T20:39:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62464,7 +62464,7 @@
             "for": 47,
             "against": 13,
             "diff": 34,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -62476,7 +62476,7 @@
             "for": 41,
             "against": 24,
             "diff": 17,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -62488,19 +62488,7 @@
             "for": 29,
             "against": 15,
             "diff": 14,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Cardiff Rugby",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 21,
-            "against": 15,
-            "diff": 6,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -62512,7 +62500,7 @@
             "for": 26,
             "against": 20,
             "diff": 6,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -62524,6 +62512,18 @@
             "for": 34,
             "against": 29,
             "diff": 5,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Cardiff Rugby",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 21,
+            "against": 15,
+            "diff": 6,
             "points": 4,
             "highlight": null
           },
@@ -62584,7 +62584,7 @@
             "for": 29,
             "against": 34,
             "diff": -5,
-            "points": 1,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62612,18 +62612,6 @@
             "highlight": null
           },
           {
-            "team": "Connacht",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 15,
-            "against": 29,
-            "diff": -14,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Ospreys",
             "played": 1,
             "win": 0,
@@ -62632,6 +62620,18 @@
             "for": 24,
             "against": 41,
             "diff": -17,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Connacht",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 29,
+            "diff": -14,
             "points": 0,
             "highlight": null
           },
