@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:59:00+00:00",
+  "updated": "2026-09-27T18:10:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63701,9 +63701,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 99,
-            "against": 96,
-            "diff": 3,
+            "for": 105,
+            "against": 100,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -63732,25 +63732,25 @@
             "highlight": null
           },
           {
-            "team": "Unicaja Málaga",
+            "team": "Real Madrid",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 47,
-            "against": 46,
+            "for": 53,
+            "against": 52,
             "diff": 1,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Real Madrid",
+            "team": "Unicaja Málaga",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 46,
-            "against": 47,
+            "for": 52,
+            "against": 53,
             "diff": -1,
             "points": 1,
             "highlight": null
@@ -63785,9 +63785,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 96,
-            "against": 99,
-            "diff": -3,
+            "for": 100,
+            "against": 105,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -63871,18 +63871,6 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 71,
-            "against": 54,
-            "diff": 17,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Treviso Basket",
             "played": 1,
             "win": 1,
@@ -63890,6 +63878,18 @@
             "loss": 0,
             "for": 109,
             "against": 94,
+            "diff": 15,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Napoli Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 60,
             "diff": 15,
             "points": 2,
             "highlight": null
@@ -64015,6 +64015,18 @@
             "highlight": null
           },
           {
+            "team": "Maxima Roma",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 60,
+            "against": 75,
+            "diff": -15,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "BC Roma SPQR",
             "played": 1,
             "win": 0,
@@ -64023,18 +64035,6 @@
             "for": 94,
             "against": 109,
             "diff": -15,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Maxima Roma",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 54,
-            "against": 71,
-            "diff": -17,
             "points": 0,
             "highlight": null
           },
@@ -64147,9 +64147,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 58,
-            "against": 45,
-            "diff": 13,
+            "for": 65,
+            "against": 53,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -64243,9 +64243,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 45,
-            "against": 58,
-            "diff": -13,
+            "for": 53,
+            "against": 65,
+            "diff": -12,
             "points": 1,
             "highlight": null
           }
