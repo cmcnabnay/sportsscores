@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T21:32:16+00:00",
+  "updated": "2026-09-27T21:43:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17925,7 +17925,7 @@
       "league": "top14-2026",
       "home": "Stade Toulousain",
       "away": "Montpellier Herault",
-      "score": null,
+      "score": "40-18",
       "date": "2026-09-27",
       "time": "19:05",
       "utc": "2026-09-27T19:05:00+00:00",
@@ -54145,6 +54145,61 @@
       "attendance": null
     },
     {
+      "league": "top14-2026",
+      "home": "Montpellier Herault",
+      "away": "Bordeaux Begles",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "15:00",
+      "utc": "2027-04-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Vannes",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "15:00",
+      "utc": "2027-04-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Clermont Auvergne",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "15:00",
+      "utc": "2027-04-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Perpignan",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "15:00",
+      "utc": "2027-04-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Racing 92",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "15:00",
+      "utc": "2027-04-17T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Leyma Coruña",
       "away": "San Pablo Burgos",
@@ -56896,17 +56951,6 @@
     },
     {
       "league": "top14-2026",
-      "home": "La Rochelle",
-      "away": "Montpellier Herault",
-      "score": null,
-      "date": "2027-06-05",
-      "time": "15:00",
-      "utc": "2027-06-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Stade Francais Paris",
       "away": "Bayonne",
       "score": null,
@@ -56931,6 +56975,17 @@
       "league": "top14-2026",
       "home": "Racing 92",
       "away": "Clermont Auvergne",
+      "score": null,
+      "date": "2027-06-05",
+      "time": "15:00",
+      "utc": "2027-06-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Castres Olympique",
       "score": null,
       "date": "2027-06-05",
       "time": "15:00",
