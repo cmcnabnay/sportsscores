@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:16:10+00:00",
+  "updated": "2026-09-27T17:27:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62784,9 +62784,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 223,
-            "against": 200,
-            "diff": 23,
+            "for": 232,
+            "against": 211,
+            "diff": 21,
             "points": 5,
             "highlight": null
           },
@@ -62844,9 +62844,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 113,
-            "against": 121,
-            "diff": -8,
+            "for": 124,
+            "against": 130,
+            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -63660,18 +63660,6 @@
             "highlight": null
           },
           {
-            "team": "Valencia Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 63,
-            "against": 54,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Basquet Girona",
             "played": 1,
             "win": 1,
@@ -63708,6 +63696,30 @@
             "highlight": null
           },
           {
+            "team": "Real Madrid",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 27,
+            "against": 22,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "ICG Forca Lleida",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 70,
+            "against": 66,
+            "diff": 4,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Baskonia Vitoria",
             "played": 1,
             "win": 1,
@@ -63732,30 +63744,6 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 16,
-            "against": 16,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 16,
-            "against": 16,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "La Laguna Tenerife",
             "played": 1,
             "win": 0,
@@ -63776,6 +63764,30 @@
             "for": 97,
             "against": 98,
             "diff": -1,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Valencia Basket",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 66,
+            "against": 70,
+            "diff": -4,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 22,
+            "against": 27,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -63816,18 +63828,6 @@
             "highlight": null
           },
           {
-            "team": "ICG Forca Lleida",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 54,
-            "against": 63,
-            "diff": -9,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
@@ -63864,9 +63864,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 70,
-            "against": 40,
-            "diff": 30,
+            "for": 77,
+            "against": 45,
+            "diff": 32,
             "points": 2,
             "highlight": null
           },
@@ -63919,13 +63919,13 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
+            "team": "Virtus Bologna",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 40,
+            "for": 26,
+            "against": 21,
             "diff": 5,
             "points": 2,
             "highlight": null
@@ -63943,25 +63943,25 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
+            "team": "Napoli Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 15,
-            "against": 12,
+            "for": 45,
+            "against": 42,
             "diff": 3,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Pallacanestro Varese",
+            "team": "Maxima Roma",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 12,
-            "against": 15,
+            "for": 42,
+            "against": 45,
             "diff": -3,
             "points": 0,
             "highlight": null
@@ -63979,13 +63979,13 @@
             "highlight": null
           },
           {
-            "team": "Maxima Roma",
+            "team": "Pallacanestro Varese",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 40,
-            "against": 45,
+            "for": 21,
+            "against": 26,
             "diff": -5,
             "points": 0,
             "highlight": null
@@ -64044,9 +64044,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 40,
-            "against": 70,
-            "diff": -30,
+            "for": 45,
+            "against": 77,
+            "diff": -32,
             "points": 0,
             "highlight": null
           }
@@ -64147,9 +64147,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 21,
-            "against": 15,
-            "diff": 6,
+            "for": 30,
+            "against": 26,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -64243,9 +64243,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 21,
-            "diff": -6,
+            "for": 26,
+            "against": 30,
+            "diff": -4,
             "points": 1,
             "highlight": null
           }
