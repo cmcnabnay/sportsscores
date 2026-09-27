@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T18:31:00+00:00",
+  "updated": "2026-09-27T18:42:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17813,7 +17813,7 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Wurzburg Baskets",
-      "score": null,
+      "score": "67-90",
       "date": "2026-09-27",
       "time": "16:00",
       "utc": "2026-09-27T16:00:00+00:00",
@@ -17824,7 +17824,7 @@
       "league": "liga-acb-2026-27",
       "home": "Valencia Basket",
       "away": "ICG Forca Lleida",
-      "score": null,
+      "score": "100-105",
       "date": "2026-09-27",
       "time": "16:00",
       "utc": "2026-09-27T16:00:00+00:00",
@@ -17835,7 +17835,7 @@
       "league": "lega-a-2026-27",
       "home": "Amici Pallacanestro Udinese",
       "away": "Scafati",
-      "score": null,
+      "score": "87-63",
       "date": "2026-09-27",
       "time": "16:00",
       "utc": "2026-09-27T16:00:00+00:00",
@@ -17858,7 +17858,7 @@
       "league": "lega-a-2026-27",
       "home": "Maxima Roma",
       "away": "Napoli Basket",
-      "score": null,
+      "score": "75-94",
       "date": "2026-09-27",
       "time": "16:15",
       "utc": "2026-09-27T16:15:00+00:00",
@@ -63689,8 +63689,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 71,
-            "against": 65,
+            "for": 80,
+            "against": 74,
             "diff": 6,
             "points": 2,
             "highlight": null
@@ -63797,8 +63797,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 65,
-            "against": 71,
+            "for": 74,
+            "against": 80,
             "diff": -6,
             "points": 1,
             "highlight": null
@@ -63907,6 +63907,18 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 68,
+            "against": 58,
+            "diff": 10,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
@@ -63926,18 +63938,6 @@
             "loss": 0,
             "for": 83,
             "against": 78,
-            "diff": 5,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 58,
-            "against": 53,
             "diff": 5,
             "points": 2,
             "highlight": null
@@ -63967,18 +63967,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Varese",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 53,
-            "against": 58,
-            "diff": -5,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Reggiana",
             "played": 1,
             "win": 0,
@@ -63999,6 +63987,18 @@
             "for": 93,
             "against": 101,
             "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 58,
+            "against": 68,
+            "diff": -10,
             "points": 0,
             "highlight": null
           },
