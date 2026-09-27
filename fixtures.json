@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T20:50:01+00:00",
+  "updated": "2026-09-27T21:00:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62166,6 +62166,18 @@
             "highlight": null
           },
           {
+            "team": "Stade Toulousain",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 144,
+            "against": 83,
+            "diff": 61,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "Pau",
             "played": 4,
             "win": 3,
@@ -62190,14 +62202,14 @@
             "highlight": null
           },
           {
-            "team": "Stade Toulousain",
-            "played": 3,
+            "team": "Bordeaux Begles",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 104,
-            "against": 65,
-            "diff": 39,
+            "loss": 2,
+            "for": 141,
+            "against": 101,
+            "diff": 40,
             "points": 10,
             "highlight": null
           },
@@ -62214,26 +62226,14 @@
             "highlight": null
           },
           {
-            "team": "Bordeaux Begles",
+            "team": "Montpellier Herault",
             "played": 4,
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 141,
-            "against": 101,
-            "diff": 40,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Montpellier Herault",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 95,
-            "against": 52,
-            "diff": 43,
+            "for": 113,
+            "against": 92,
+            "diff": 21,
             "points": 9,
             "highlight": null
           },
