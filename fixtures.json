@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T19:36:17+00:00",
+  "updated": "2026-09-27T19:46:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -61943,16 +61943,28 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Ural Yekaterinburg",
+            "played": 12,
+            "win": 7,
+            "draw": 4,
+            "loss": 1,
+            "for": 20,
+            "against": 6,
+            "diff": 14,
+            "points": 25,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Spartak Kostroma",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": 3,
-            "loss": 1,
-            "for": 15,
-            "against": 8,
-            "diff": 7,
+            "loss": 2,
+            "for": 16,
+            "against": 10,
+            "diff": 6,
             "points": 24,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Sochi",
@@ -61976,30 +61988,30 @@
             "against": 14,
             "diff": 2,
             "points": 23,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Ural Yekaterinburg",
-            "played": 11,
-            "win": 6,
-            "draw": 4,
-            "loss": 1,
-            "for": 18,
-            "against": 5,
-            "diff": 13,
-            "points": 22,
             "highlight": "transparent"
           },
           {
             "team": "Torpedo Moscow",
-            "played": 11,
+            "played": 12,
             "win": 6,
-            "draw": 2,
+            "draw": 3,
             "loss": 3,
             "for": 21,
             "against": 9,
             "diff": 12,
-            "points": 20,
+            "points": 21,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Ufa",
+            "played": 12,
+            "win": 4,
+            "draw": 6,
+            "loss": 2,
+            "for": 16,
+            "against": 13,
+            "diff": 3,
+            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -62015,39 +62027,27 @@
             "highlight": "transparent"
           },
           {
-            "team": "Ufa",
-            "played": 11,
-            "win": 4,
-            "draw": 5,
-            "loss": 2,
-            "for": 16,
-            "against": 13,
-            "diff": 3,
-            "points": 17,
-            "highlight": "transparent"
-          },
-          {
             "team": "Shinnik Yaroslavl",
-            "played": 11,
+            "played": 12,
             "win": 3,
-            "draw": 6,
+            "draw": 7,
             "loss": 2,
             "for": 15,
             "against": 13,
             "diff": 2,
-            "points": 15,
+            "points": 16,
             "highlight": "transparent"
           },
           {
             "team": "Yenisey Krasnoyarsk",
-            "played": 11,
+            "played": 12,
             "win": 3,
-            "draw": 4,
+            "draw": 5,
             "loss": 4,
-            "for": 14,
-            "against": 19,
+            "for": 15,
+            "against": 20,
             "diff": -5,
-            "points": 13,
+            "points": 14,
             "highlight": "transparent"
           },
           {
@@ -62058,6 +62058,18 @@
             "loss": 5,
             "for": 12,
             "against": 22,
+            "diff": -10,
+            "points": 13,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Leningradets Leningrad Oblast",
+            "played": 12,
+            "win": 3,
+            "draw": 4,
+            "loss": 5,
+            "for": 10,
+            "against": 20,
             "diff": -10,
             "points": 13,
             "highlight": "transparent"
@@ -62076,38 +62088,26 @@
           },
           {
             "team": "Chelyabinsk",
-            "played": 11,
+            "played": 12,
             "win": 3,
-            "draw": 2,
+            "draw": 3,
             "loss": 6,
-            "for": 12,
-            "against": 18,
+            "for": 13,
+            "against": 19,
             "diff": -6,
-            "points": 11,
+            "points": 12,
             "highlight": "transparent"
           },
           {
             "team": "Volga Ulyanovsk",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": 2,
-            "loss": 6,
+            "loss": 7,
             "for": 14,
-            "against": 17,
-            "diff": -3,
+            "against": 18,
+            "diff": -4,
             "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Leningradets Leningrad Oblast",
-            "played": 11,
-            "win": 2,
-            "draw": 4,
-            "loss": 5,
-            "for": 9,
-            "against": 20,
-            "diff": -11,
-            "points": 10,
             "highlight": "transparent"
           },
           {
@@ -62136,14 +62136,14 @@
           },
           {
             "team": "SKA-Khabarovsk",
-            "played": 11,
+            "played": 12,
             "win": 1,
-            "draw": 2,
+            "draw": 3,
             "loss": 8,
             "for": 11,
             "against": 23,
             "diff": -12,
-            "points": 5,
+            "points": 6,
             "highlight": "#FFBBBB"
           }
         ],
@@ -63676,7 +63676,7 @@
             "for": 80,
             "against": 81,
             "diff": -1,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63688,7 +63688,7 @@
             "for": 97,
             "against": 98,
             "diff": -1,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63700,7 +63700,7 @@
             "for": 87,
             "against": 89,
             "diff": -2,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63712,7 +63712,7 @@
             "for": 100,
             "against": 105,
             "diff": -5,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63736,7 +63736,7 @@
             "for": 104,
             "against": 110,
             "diff": -6,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63748,7 +63748,7 @@
             "for": 77,
             "against": 84,
             "diff": -7,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -64006,6 +64006,18 @@
             "highlight": null
           },
           {
+            "team": "ASVEL Villeurbanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 97,
+            "against": 85,
+            "diff": 12,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Chalon-sur-Saône",
             "played": 1,
             "win": 1,
@@ -64062,19 +64074,7 @@
             "for": 78,
             "against": 73,
             "diff": 5,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "ASVEL Villeurbanne",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 79,
-            "against": 68,
-            "diff": 11,
-            "points": 2,
+            "points": 0,
             "highlight": null
           },
           {
@@ -64098,6 +64098,18 @@
             "for": 97,
             "against": 103,
             "diff": -6,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cholet",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 85,
+            "against": 97,
+            "diff": -12,
             "points": 0,
             "highlight": null
           },
@@ -64126,6 +64138,18 @@
             "highlight": null
           },
           {
+            "team": "Nancy",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 78,
+            "diff": -5,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Strasbourg",
             "played": 1,
             "win": 0,
@@ -64147,30 +64171,6 @@
             "against": 78,
             "diff": -14,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Nancy",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 73,
-            "against": 78,
-            "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Cholet",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 68,
-            "against": 79,
-            "diff": -11,
-            "points": 1,
             "highlight": null
           }
         ],
