@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T16:33:09+00:00",
+  "updated": "2026-09-28T16:44:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63006,10 +63006,10 @@
             "played": 9,
             "win": 6,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 24,
-            "against": 14,
-            "diff": 10,
+            "against": 16,
+            "diff": 8,
             "points": 12,
             "highlight": null
           },
@@ -63023,6 +63023,18 @@
             "against": 16,
             "diff": 8,
             "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Shanghai Dragons",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 18,
+            "against": 20,
+            "diff": -2,
+            "points": 10,
             "highlight": null
           },
           {
@@ -63062,18 +63074,6 @@
             "highlight": null
           },
           {
-            "team": "Shanghai Dragons",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 17,
-            "against": 20,
-            "diff": -3,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Lada Togliatti",
             "played": 10,
             "win": 1,
@@ -63090,10 +63090,10 @@
             "played": 9,
             "win": 1,
             "draw": null,
-            "loss": 7,
+            "loss": 8,
             "for": 7,
-            "against": 27,
-            "diff": -20,
+            "against": 28,
+            "diff": -21,
             "points": 2,
             "highlight": null
           }
@@ -63127,6 +63127,18 @@
             "highlight": null
           },
           {
+            "team": "Salavat Yulayev Ufa",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 29,
+            "against": 19,
+            "diff": 10,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "AK Bars",
             "played": 10,
             "win": 5,
@@ -63147,18 +63159,6 @@
             "for": 37,
             "against": 25,
             "diff": 12,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Salavat Yulayev Ufa",
-            "played": 9,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 27,
-            "against": 19,
-            "diff": 8,
             "points": 10,
             "highlight": null
           },
