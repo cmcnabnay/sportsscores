@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T02:52:00+00:00",
+  "updated": "2026-09-28T03:03:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62782,6 +62782,18 @@
             "highlight": null
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 253,
+            "against": 250,
+            "diff": 3,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 3,
             "win": 2,
@@ -62802,18 +62814,6 @@
             "for": 261,
             "against": 260,
             "diff": 1,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 253,
-            "against": 250,
-            "diff": 3,
             "points": 4,
             "highlight": null
           },
@@ -62898,7 +62898,7 @@
             "for": 263,
             "against": 289,
             "diff": -26,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
