@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T06:16:08+00:00",
+  "updated": "2026-09-28T14:02:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17536,7 +17536,7 @@
       "league": "internationals-2026",
       "home": "Australia",
       "away": "South Africa",
-      "score": null,
+      "score": "42-38",
       "date": "2026-09-27",
       "time": "09:45",
       "utc": "2026-09-27T09:45:00+00:00",
@@ -20644,9 +20644,9 @@
       "away": "Australia",
       "score": null,
       "date": "2026-10-10",
-      "time": "06:10",
-      "utc": "2026-10-10T06:10:00+00:00",
-      "venue": "Eden Park, Auckland (New Zealand)",
+      "time": "07:10",
+      "utc": "2026-10-10T07:10:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -63070,6 +63070,18 @@
       "Eastern Conference": {
         "rows": [
           {
+            "team": "Metallurg Magnitogorsk",
+            "played": 10,
+            "win": 8,
+            "draw": null,
+            "loss": 1,
+            "for": 29,
+            "against": 17,
+            "diff": 12,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 10,
             "win": 7,
@@ -63078,18 +63090,6 @@
             "for": 37,
             "against": 25,
             "diff": 12,
-            "points": 15,
-            "highlight": null
-          },
-          {
-            "team": "Metallurg Magnitogorsk",
-            "played": 9,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 27,
-            "against": 17,
-            "diff": 10,
             "points": 15,
             "highlight": null
           },
@@ -63143,13 +63143,13 @@
           },
           {
             "team": "Avangard Omsk",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 15,
-            "against": 19,
-            "diff": -4,
+            "against": 21,
+            "diff": -6,
             "points": 8,
             "highlight": null
           },
