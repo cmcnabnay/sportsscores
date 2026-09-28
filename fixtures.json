@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:46:51+00:00",
+  "updated": "2026-09-28T18:57:24+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63026,6 +63026,18 @@
             "highlight": null
           },
           {
+            "team": "Dynamo Moscow",
+            "played": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 5,
+            "for": 19,
+            "against": 28,
+            "diff": -9,
+            "points": 11,
+            "highlight": null
+          },
+          {
             "team": "Dinamo Minsk",
             "played": 9,
             "win": 3,
@@ -63046,18 +63058,6 @@
             "for": 21,
             "against": 21,
             "diff": 0,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Dynamo Moscow",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 19,
-            "against": 27,
-            "diff": -8,
             "points": 10,
             "highlight": null
           },
@@ -63211,6 +63211,18 @@
             "highlight": null
           },
           {
+            "team": "Traktor Chelyabinsk",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 15,
+            "against": 23,
+            "diff": -8,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Sibir Novosibirsk",
             "played": 9,
             "win": 2,
@@ -63220,18 +63232,6 @@
             "against": 27,
             "diff": -10,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 14,
-            "against": 23,
-            "diff": -9,
-            "points": 4,
             "highlight": null
           }
         ],
