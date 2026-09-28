@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:57:24+00:00",
+  "updated": "2026-09-28T19:08:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17958,7 +17958,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "Salavat Yulayev Ufa",
-      "score": null,
+      "score": "0-3",
       "date": "2026-09-28",
       "time": "16:30",
       "utc": "2026-09-28T16:30:00+00:00",
@@ -17969,7 +17969,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "HC Sochi",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-28",
       "time": "16:30",
       "utc": "2026-09-28T16:30:00+00:00",
@@ -17980,12 +17980,13 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Traktor Chelyabinsk",
-      "score": null,
+      "score": "1-2",
       "date": "2026-09-28",
       "time": "16:30",
       "utc": "2026-09-28T16:30:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
