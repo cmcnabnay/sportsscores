@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T15:06:08+00:00",
+  "updated": "2026-09-28T15:17:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14616,17 +14616,6 @@
       "referee": "Gerard Sutton"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "FC Nizhny Novgorod",
-      "score": "1-2",
-      "date": "2026-09-13",
-      "time": "16:30",
-      "utc": "2026-09-13T13:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "npc-2026",
       "home": "Southland",
       "away": "Bay of Plenty",
@@ -15090,6 +15079,17 @@
       "time": "18:00",
       "utc": "2026-09-17T18:00:00+00:00",
       "venue": "Pavilhão Fidelidade",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "FC Nizhny Novgorod",
+      "score": "1-1",
+      "date": "2026-09-17",
+      "time": "19:00",
+      "utc": "2026-09-17T16:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66582,6 +66582,6 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-09-27T19:55:12.842238+00:00",
-    "torpedo": "2026-09-27T15:06:19.667637+00:00"
+    "torpedo": "2026-09-28T15:16:31.259389+00:00"
   }
 }
