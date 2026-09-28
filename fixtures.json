@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T16:12:08+00:00",
+  "updated": "2026-09-28T16:22:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62242,18 +62242,6 @@
       "Top 14 26/27": {
         "rows": [
           {
-            "team": "Lyon",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 149,
-            "against": 123,
-            "diff": 26,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "Stade Toulousain",
             "played": 4,
             "win": 3,
@@ -62262,6 +62250,18 @@
             "for": 144,
             "against": 83,
             "diff": 61,
+            "points": 15,
+            "highlight": null
+          },
+          {
+            "team": "Lyon",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 149,
+            "against": 123,
+            "diff": 26,
             "points": 14,
             "highlight": null
           },
