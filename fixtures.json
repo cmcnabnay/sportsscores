@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T15:39:09+00:00",
+  "updated": "2026-09-28T15:50:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62440,7 +62440,19 @@
             "for": 40,
             "against": 38,
             "diff": 2,
-            "points": 4,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Leicester Tigers",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 38,
+            "against": 40,
+            "diff": -2,
+            "points": 2,
             "highlight": null
           },
           {
@@ -62465,18 +62477,6 @@
             "against": 59,
             "diff": -33,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Leicester Tigers",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 38,
-            "against": 40,
-            "diff": -2,
-            "points": 0,
             "highlight": null
           },
           {
@@ -63075,9 +63075,9 @@
             "win": 8,
             "draw": null,
             "loss": 1,
-            "for": 30,
+            "for": 32,
             "against": 18,
-            "diff": 12,
+            "diff": 14,
             "points": 17,
             "highlight": null
           },
@@ -63148,8 +63148,8 @@
             "draw": null,
             "loss": 5,
             "for": 16,
-            "against": 22,
-            "diff": -6,
+            "against": 24,
+            "diff": -8,
             "points": 8,
             "highlight": null
           },
