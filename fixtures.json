@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T18:06:20+00:00",
+  "updated": "2026-09-29T18:17:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63358,9 +63358,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
-            "against": 37,
-            "diff": 12,
+            "for": 59,
+            "against": 41,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -63370,9 +63370,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 5,
-            "against": 0,
-            "diff": 5,
+            "for": 12,
+            "against": 8,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -63430,9 +63430,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 0,
-            "against": 5,
-            "diff": -5,
+            "for": 8,
+            "against": 12,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -63442,9 +63442,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 37,
-            "against": 49,
-            "diff": -12,
+            "for": 41,
+            "against": 59,
+            "diff": -18,
             "points": 1,
             "highlight": null
           }
@@ -63560,9 +63560,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 46,
-            "against": 30,
-            "diff": 16,
+            "for": 52,
+            "against": 42,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -63644,9 +63644,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 46,
-            "diff": -16,
+            "for": 42,
+            "against": 52,
+            "diff": -10,
             "points": 1,
             "highlight": null
           }
@@ -64941,6 +64941,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "BC Dubai",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 172,
+            "against": 164,
+            "diff": 8,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Panathinaikos BC",
             "played": 1,
             "win": 1,
@@ -65001,18 +65013,6 @@
             "highlight": null
           },
           {
-            "team": "Barça Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 89,
-            "against": 82,
-            "diff": 7,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kauno Žalgiris",
             "played": 1,
             "win": 1,
@@ -65049,14 +65049,14 @@
             "highlight": null
           },
           {
-            "team": "BC Dubai",
-            "played": 1,
+            "team": "Barça Basket",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 78,
-            "against": 77,
-            "diff": 1,
+            "loss": 1,
+            "for": 176,
+            "against": 176,
+            "diff": 0,
             "points": null,
             "highlight": null
           },
