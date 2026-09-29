@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T20:07:02+00:00",
+  "updated": "2026-09-29T20:17:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63415,9 +63415,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 91,
-            "against": 63,
-            "diff": 28,
+            "for": 97,
+            "against": 66,
+            "diff": 31,
             "points": 2,
             "highlight": null
           },
@@ -63499,9 +63499,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 63,
-            "against": 91,
-            "diff": -28,
+            "for": 66,
+            "against": 97,
+            "diff": -31,
             "points": 1,
             "highlight": null
           }
@@ -65017,6 +65017,18 @@
             "highlight": null
           },
           {
+            "team": "Hapoel Tel-Aviv",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 165,
+            "against": 166,
+            "diff": -1,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Bayern München",
             "played": 2,
             "win": 1,
@@ -65041,26 +65053,14 @@
             "highlight": null
           },
           {
-            "team": "Hapoel Tel-Aviv",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 84,
-            "against": 86,
-            "diff": -2,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "KK Crvena zvezda",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 77,
-            "against": 83,
-            "diff": -6,
+            "loss": 2,
+            "for": 157,
+            "against": 164,
+            "diff": -7,
             "points": null,
             "highlight": null
           },
