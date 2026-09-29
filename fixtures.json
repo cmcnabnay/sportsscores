@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T20:28:05+00:00",
+  "updated": "2026-09-29T20:39:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18146,7 +18146,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Crvena zvezda",
       "away": "Hapoel Tel-Aviv",
-      "score": null,
+      "score": "80-81",
       "date": "2026-09-29",
       "time": "18:00",
       "utc": "2026-09-29T18:00:00+00:00",
@@ -18157,7 +18157,7 @@
       "league": "eurocup-2026-27",
       "home": "Le Mans",
       "away": "Aris Bsa",
-      "score": null,
+      "score": "74-87",
       "date": "2026-09-29",
       "time": "18:00",
       "utc": "2026-09-29T18:00:00+00:00",
@@ -18168,7 +18168,7 @@
       "league": "euroleague-2026-27",
       "home": "EA7 Emporio Armani Milano",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "87-85",
       "date": "2026-09-29",
       "time": "18:30",
       "utc": "2026-09-29T18:30:00+00:00",
@@ -18179,7 +18179,7 @@
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Kosner Baskonia",
-      "score": null,
+      "score": "111-88",
       "date": "2026-09-29",
       "time": "18:30",
       "utc": "2026-09-29T18:30:00+00:00",
@@ -18190,7 +18190,7 @@
       "league": "eurocup-2026-27",
       "home": "Reyer Venezia",
       "away": "Skyliners Frankfurt",
-      "score": null,
+      "score": "104-72",
       "date": "2026-09-29",
       "time": "18:30",
       "utc": "2026-09-29T18:30:00+00:00",
@@ -64909,6 +64909,18 @@
             "highlight": null
           },
           {
+            "team": "Valencia Basket",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 207,
+            "against": 182,
+            "diff": 25,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Olympiacos BC",
             "played": 2,
             "win": 2,
@@ -64993,18 +65005,6 @@
             "highlight": null
           },
           {
-            "team": "Valencia Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 96,
-            "against": 94,
-            "diff": 2,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Barça Basket",
             "played": 2,
             "win": 1,
@@ -65025,6 +65025,18 @@
             "for": 165,
             "against": 166,
             "diff": -1,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "EA7 Emporio Armani Milano",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 163,
+            "against": 177,
+            "diff": -14,
             "points": null,
             "highlight": null
           },
@@ -65077,18 +65089,6 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 68,
-            "against": 78,
-            "diff": -10,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Real Madrid",
             "played": 2,
             "win": 0,
@@ -65101,26 +65101,14 @@
             "highlight": null
           },
           {
-            "team": "EA7 Emporio Armani Milano",
-            "played": 1,
+            "team": "Virtus Bologna",
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 76,
-            "against": 92,
-            "diff": -16,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Kosner Baskonia",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 89,
-            "against": 106,
-            "diff": -17,
+            "loss": 2,
+            "for": 153,
+            "against": 165,
+            "diff": -12,
             "points": null,
             "highlight": null
           },
@@ -65133,6 +65121,18 @@
             "for": 72,
             "against": 91,
             "diff": -19,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Kosner Baskonia",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 177,
+            "against": 217,
+            "diff": -40,
             "points": null,
             "highlight": null
           }
