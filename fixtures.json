@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T18:28:18+00:00",
+  "updated": "2026-09-29T18:39:42+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18025,7 +18025,7 @@
       "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "Barça Basket",
-      "score": null,
+      "score": "94-87",
       "date": "2026-09-29",
       "time": "16:00",
       "utc": "2026-09-29T16:00:00+00:00",
@@ -18036,7 +18036,7 @@
       "league": "eurocup-2026-27",
       "home": "Neptūnas",
       "away": "Dolomiti Energia Trento",
-      "score": null,
+      "score": "73-76",
       "date": "2026-09-29",
       "time": "16:00",
       "utc": "2026-09-29T16:00:00+00:00",
@@ -18397,6 +18397,17 @@
     },
     {
       "league": "eurocup-2026-27",
+      "home": "Lietkabelis",
+      "away": "KK Bosna",
+      "score": null,
+      "date": "2026-09-30",
+      "time": "16:30",
+      "utc": "2026-09-30T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
       "home": "Slask Wroclaw",
       "away": "KK Budućnost",
       "score": null,
@@ -18436,7 +18447,7 @@
       "date": "2026-09-30",
       "time": "18:05",
       "utc": "2026-09-30T18:05:00+00:00",
-      "venue": "Menora Mivtachim Arena",
+      "venue": "Aleksandar Nikolic Hall",
       "attendance": null
     },
     {
@@ -33598,6 +33609,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "BC Dubai",
+      "away": "Beşiktaş JK",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "16:00",
+      "utc": "2026-12-11T16:00:00+00:00",
+      "venue": "Coca-Cola Arena",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "TPS Turku",
       "away": "Tappara Tampere",
@@ -34434,17 +34456,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Fenerbahçe Tarfin",
-      "away": "Hapoel Tel-Aviv",
-      "score": null,
-      "date": "2026-12-15",
-      "time": "17:45",
-      "utc": "2026-12-15T17:45:00+00:00",
-      "venue": "Ulker Sports Arena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Derthona Basket Tortona",
       "away": "Aris Bsa",
@@ -34519,17 +34530,6 @@
       "time": "19:00",
       "utc": "2026-12-15T19:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Virtus Bologna",
-      "away": "LDLC ASVEL Lyon-Villeurbanne",
-      "score": null,
-      "date": "2026-12-15",
-      "time": "19:30",
-      "utc": "2026-12-15T19:30:00+00:00",
-      "venue": "Virtus Arena",
       "attendance": null
     },
     {
@@ -40704,6 +40704,28 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Barça Basket",
+      "away": "EA7 Emporio Armani Milano",
+      "score": null,
+      "date": "2027-01-12",
+      "time": "19:30",
+      "utc": "2027-01-12T19:30:00+00:00",
+      "venue": "Palau Blaugrana",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Maccabi Tel Aviv",
+      "away": "Bayern München",
+      "score": null,
+      "date": "2027-01-12",
+      "time": "19:30",
+      "utc": "2027-01-12T19:30:00+00:00",
+      "venue": "Menora Mivtachim Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "Skyliners Frankfurt",
@@ -40778,17 +40800,6 @@
       "time": "16:30",
       "utc": "2027-01-13T16:30:00+00:00",
       "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "KK Partizan Mozzart Bet",
-      "score": null,
-      "date": "2027-01-13",
-      "time": "17:00",
-      "utc": "2027-01-13T17:00:00+00:00",
-      "venue": "BJK Akatlar Arena",
       "attendance": null
     },
     {
@@ -40869,17 +40880,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Olympiacos BC",
-      "away": "Kosner Baskonia",
-      "score": null,
-      "date": "2027-01-13",
-      "time": "19:15",
-      "utc": "2027-01-13T19:15:00+00:00",
-      "venue": "Peace And Friendship Stadium",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "San Pablo Burgos",
       "away": "Le Mans",
@@ -40932,28 +40932,6 @@
       "time": "16:30",
       "utc": "2027-01-14T16:30:00+00:00",
       "venue": "Oulun Energia Areena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Kauno Žalgiris",
-      "away": "KK Crvena zvezda",
-      "score": null,
-      "date": "2027-01-14",
-      "time": "18:00",
-      "utc": "2027-01-14T18:00:00+00:00",
-      "venue": "Žalgirio Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "Valencia Basket",
-      "score": null,
-      "date": "2027-01-14",
-      "time": "18:00",
-      "utc": "2027-01-14T18:00:00+00:00",
-      "venue": "Shlomo Group Arena",
       "attendance": null
     },
     {
@@ -41042,17 +41020,6 @@
       "time": "18:30",
       "utc": "2027-01-14T18:30:00+00:00",
       "venue": "Uber Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Panathinaikos BC",
-      "away": "Bayern München",
-      "score": null,
-      "date": "2027-01-14",
-      "time": "19:15",
-      "utc": "2027-01-14T19:15:00+00:00",
-      "venue": "Telekom Center Athens",
       "attendance": null
     },
     {
@@ -63094,8 +63061,8 @@
             "win": 7,
             "draw": null,
             "loss": 3,
-            "for": 31,
-            "against": 18,
+            "for": 32,
+            "against": 19,
             "diff": 13,
             "points": 14,
             "highlight": null
@@ -63106,8 +63073,8 @@
             "win": 7,
             "draw": null,
             "loss": 2,
-            "for": 32,
-            "against": 23,
+            "for": 33,
+            "against": 24,
             "diff": 9,
             "points": 14,
             "highlight": null
@@ -63358,9 +63325,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 71,
-            "against": 54,
-            "diff": 17,
+            "for": 83,
+            "against": 61,
+            "diff": 22,
             "points": 2,
             "highlight": null
           },
@@ -63370,9 +63337,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 15,
-            "diff": 11,
+            "for": 28,
+            "against": 26,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -63430,9 +63397,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 26,
-            "diff": -11,
+            "for": 26,
+            "against": 28,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -63442,9 +63409,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 54,
-            "against": 71,
-            "diff": -17,
+            "for": 61,
+            "against": 83,
+            "diff": -22,
             "points": 1,
             "highlight": null
           }
@@ -63454,15 +63421,15 @@
       "Group B": {
         "rows": [
           {
-            "team": "Skyliners Frankfurt",
-            "played": 0,
-            "win": 0,
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 17,
+            "against": 15,
+            "diff": 2,
+            "points": 2,
             "highlight": null
           },
           {
@@ -63479,18 +63446,6 @@
           },
           {
             "team": "London Lions",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Reyer Venezia",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63548,6 +63503,18 @@
             "diff": 0,
             "points": 0,
             "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 17,
+            "diff": -2,
+            "points": 1,
+            "highlight": null
           }
         ],
         "legend": {}
@@ -63560,9 +63527,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 55,
-            "against": 46,
-            "diff": 9,
+            "for": 60,
+            "against": 53,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -63644,9 +63611,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 46,
-            "against": 55,
-            "diff": -9,
+            "for": 53,
+            "against": 60,
+            "diff": -7,
             "points": 1,
             "highlight": null
           }
