@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T16:45:08+00:00",
+  "updated": "2026-09-29T18:06:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -25458,6 +25458,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "KalPa Kuopio",
+      "away": "Jokerit Helsinki",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "17:30",
+      "utc": "2026-10-30T17:30:00+00:00",
+      "venue": "Olvi Areena",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "KK Partizan Mozzart Bet",
@@ -30936,6 +30947,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "HIFK Helsinki",
+      "away": "SaiPa Lappeenranta",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "17:30",
+      "utc": "2026-11-27T17:30:00+00:00",
+      "venue": "Helsingin jäähalli",
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Augsburger Panther",
       "away": "Eisbären Berlin",
@@ -35014,6 +35036,17 @@
       "time": "16:30",
       "utc": "2026-12-18T16:30:00+00:00",
       "venue": "LahiTapiola Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Mikkelin Jukurit",
+      "away": "Jokerit Helsinki",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "16:30",
+      "utc": "2026-12-18T16:30:00+00:00",
+      "venue": "Kalevankankaan jäähalli",
       "attendance": null
     },
     {
@@ -42087,6 +42120,17 @@
       "time": "16:30",
       "utc": "2027-01-19T16:30:00+00:00",
       "venue": "Barona Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "HPK Hämeenlinna",
+      "away": "KalPa Kuopio",
+      "score": null,
+      "date": "2027-01-19",
+      "time": "16:30",
+      "utc": "2027-01-19T16:30:00+00:00",
+      "venue": "Ritarihalli",
       "attendance": null
     },
     {
@@ -63033,18 +63077,6 @@
       "Western Conference": {
         "rows": [
           {
-            "team": "SKA St. Petersburg",
-            "played": 9,
-            "win": 8,
-            "draw": null,
-            "loss": 1,
-            "for": 30,
-            "against": 18,
-            "diff": 12,
-            "points": 16,
-            "highlight": null
-          },
-          {
             "team": "Lokomotiv Yaroslavl",
             "played": 10,
             "win": 8,
@@ -63059,13 +63091,25 @@
           {
             "team": "CSKA Moscow",
             "played": 10,
-            "win": 6,
+            "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 26,
-            "against": 16,
-            "diff": 10,
-            "points": 12,
+            "loss": 3,
+            "for": 31,
+            "against": 18,
+            "diff": 13,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "SKA St. Petersburg",
+            "played": 9,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 32,
+            "against": 23,
+            "diff": 9,
+            "points": 14,
             "highlight": null
           },
           {
@@ -63309,39 +63353,27 @@
       "Group A": {
         "rows": [
           {
-            "team": "Le Mans",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Aris Bsa",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Hapoel Jerusalem",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
+            "for": 49,
+            "against": 37,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Le Mans",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 5,
             "against": 0,
-            "diff": 0,
-            "points": 0,
+            "diff": 5,
+            "points": 2,
             "highlight": null
           },
           {
@@ -63358,18 +63390,6 @@
           },
           {
             "team": "San Pablo Burgos",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63402,6 +63422,30 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Aris Bsa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 0,
+            "against": 5,
+            "diff": -5,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 37,
+            "against": 49,
+            "diff": -12,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -63511,14 +63555,26 @@
       "Group C": {
         "rows": [
           {
-            "team": "Neptūnas",
+            "team": "Tofas",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 32,
-            "against": 31,
-            "diff": 1,
+            "for": 46,
+            "against": 30,
+            "diff": 16,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 76,
+            "against": 73,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -63536,18 +63592,6 @@
           },
           {
             "team": "KK Budućnost",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Tofas",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63583,26 +63627,26 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
+            "team": "Neptūnas",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 31,
-            "against": 32,
-            "diff": -1,
+            "for": 73,
+            "against": 76,
+            "diff": -3,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 30,
+            "against": 46,
+            "diff": -16,
             "points": 1,
             "highlight": null
           }
@@ -64336,14 +64380,26 @@
       "Liiga 26/27": {
         "rows": [
           {
-            "team": "Mikkelin Jukurit",
-            "played": 9,
+            "team": "Tampereen Ilves",
+            "played": 8,
             "win": 7,
             "draw": null,
-            "loss": 2,
-            "for": 29,
-            "against": 19,
-            "diff": 10,
+            "loss": 1,
+            "for": 25,
+            "against": 13,
+            "diff": 12,
+            "points": 20,
+            "highlight": null
+          },
+          {
+            "team": "Mikkelin Jukurit",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 31,
+            "against": 22,
+            "diff": 9,
             "points": 20,
             "highlight": null
           },
@@ -64357,18 +64413,6 @@
             "against": 12,
             "diff": 13,
             "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Tampereen Ilves",
-            "played": 7,
-            "win": 6,
-            "draw": null,
-            "loss": 1,
-            "for": 22,
-            "against": 11,
-            "diff": 11,
-            "points": 17,
             "highlight": null
           },
           {
@@ -64493,13 +64537,13 @@
           },
           {
             "team": "HPK Hämeenlinna",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 16,
-            "against": 25,
-            "diff": -9,
+            "against": 28,
+            "diff": -12,
             "points": 8,
             "highlight": null
           },
@@ -64517,14 +64561,14 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 8,
-            "win": 1,
+            "played": 9,
+            "win": 2,
             "draw": null,
             "loss": 7,
-            "for": 15,
+            "for": 18,
             "against": 31,
-            "diff": -16,
-            "points": 4,
+            "diff": -13,
+            "points": 7,
             "highlight": null
           },
           {
