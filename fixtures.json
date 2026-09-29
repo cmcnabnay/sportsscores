@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T16:23:08+00:00",
+  "updated": "2026-09-29T16:34:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63046,7 +63046,7 @@
           },
           {
             "team": "SKA St. Petersburg",
-            "played": 8,
+            "played": 9,
             "win": 7,
             "draw": null,
             "loss": 1,
@@ -63058,7 +63058,7 @@
           },
           {
             "team": "CSKA Moscow",
-            "played": 9,
+            "played": 10,
             "win": 6,
             "draw": null,
             "loss": 3,
@@ -63511,13 +63511,13 @@
       "Group C": {
         "rows": [
           {
-            "team": "Dolomiti Energia Trento",
+            "team": "Neptūnas",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 16,
-            "against": 15,
+            "for": 22,
+            "against": 21,
             "diff": 1,
             "points": 2,
             "highlight": null
@@ -63595,13 +63595,13 @@
             "highlight": null
           },
           {
-            "team": "Neptūnas",
+            "team": "Dolomiti Energia Trento",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 16,
+            "for": 21,
+            "against": 22,
             "diff": -1,
             "points": 1,
             "highlight": null
