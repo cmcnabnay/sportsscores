@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T16:12:10+00:00",
+  "updated": "2026-09-29T16:23:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63511,6 +63511,18 @@
       "Group C": {
         "rows": [
           {
+            "team": "Dolomiti Energia Trento",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 16,
+            "against": 15,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Napoli Basket",
             "played": 0,
             "win": 0,
@@ -63547,30 +63559,6 @@
             "highlight": null
           },
           {
-            "team": "Neptūnas",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 6,
-            "against": 6,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 6,
-            "against": 6,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Slask Wroclaw",
             "played": 0,
             "win": 0,
@@ -63604,6 +63592,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Neptūnas",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 16,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           }
         ],
