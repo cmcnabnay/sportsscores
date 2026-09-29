@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T20:49:08+00:00",
+  "updated": "2026-09-29T21:00:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64909,6 +64909,18 @@
             "highlight": null
           },
           {
+            "team": "KK Partizan Mozzart Bet",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 184,
+            "against": 155,
+            "diff": 29,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Valencia Basket",
             "played": 2,
             "win": 2,
@@ -64953,18 +64965,6 @@
             "for": 91,
             "against": 72,
             "diff": 19,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "KK Partizan Mozzart Bet",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 92,
-            "against": 76,
-            "diff": 16,
             "points": null,
             "highlight": null
           },
@@ -65114,13 +65114,13 @@
           },
           {
             "team": "Paris Basketball",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 72,
-            "against": 91,
-            "diff": -19,
+            "loss": 2,
+            "for": 151,
+            "against": 183,
+            "diff": -32,
             "points": null,
             "highlight": null
           },
