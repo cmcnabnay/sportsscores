@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T19:56:58+00:00",
+  "updated": "2026-09-29T20:07:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21487,17 +21487,6 @@
       "attendance": null
     },
     {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Lanús",
-      "away": "Vélez Sarsfield",
-      "score": "-",
-      "date": "2026-10-11",
-      "time": "17:00",
-      "utc": "2026-10-11T20:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "liga-acb-2026-27",
       "home": "Barcelona",
       "away": "Valencia Basket",
@@ -21561,6 +21550,17 @@
       "time": "13:00",
       "utc": "2026-10-12T17:00:00+00:00",
       "venue": "Molson Stadium",
+      "attendance": null
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Lanús",
+      "away": "Vélez Sarsfield",
+      "score": "-",
+      "date": "2026-10-12",
+      "time": "16:00",
+      "utc": "2026-10-12T19:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -63326,9 +63326,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 83,
-            "against": 68,
-            "diff": 15,
+            "for": 87,
+            "against": 74,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -63386,9 +63386,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 68,
-            "against": 83,
-            "diff": -15,
+            "for": 74,
+            "against": 87,
+            "diff": -13,
             "points": 1,
             "highlight": null
           },
@@ -63415,9 +63415,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 79,
-            "against": 60,
-            "diff": 19,
+            "for": 91,
+            "against": 63,
+            "diff": 28,
             "points": 2,
             "highlight": null
           },
@@ -63499,9 +63499,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 60,
-            "against": 79,
-            "diff": -19,
+            "for": 63,
+            "against": 91,
+            "diff": -28,
             "points": 1,
             "highlight": null
           }
@@ -66681,7 +66681,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-09-28T20:02:02.895953+00:00",
+    "velez": "2026-09-29T20:05:51.062861+00:00",
     "torpedo": "2026-09-29T15:28:58.612854+00:00"
   }
 }
