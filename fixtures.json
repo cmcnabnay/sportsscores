@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T19:03:03+00:00",
+  "updated": "2026-09-29T19:12:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63426,9 +63426,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 40,
-            "against": 26,
-            "diff": 14,
+            "for": 46,
+            "against": 34,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -63510,9 +63510,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 26,
-            "against": 40,
-            "diff": -14,
+            "for": 34,
+            "against": 46,
+            "diff": -12,
             "points": 1,
             "highlight": null
           }
@@ -63527,9 +63527,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 74,
-            "against": 64,
-            "diff": 10,
+            "for": 82,
+            "against": 69,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -63611,9 +63611,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 64,
-            "against": 74,
-            "diff": -10,
+            "for": 69,
+            "against": 82,
+            "diff": -13,
             "points": 1,
             "highlight": null
           }
@@ -64582,6 +64582,18 @@
             "highlight": null
           },
           {
+            "team": "Brynäs IF",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 16,
+            "against": 11,
+            "diff": 5,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Örebro HK",
             "played": 4,
             "win": 2,
@@ -64591,18 +64603,6 @@
             "against": 12,
             "diff": -1,
             "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Brynäs IF",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 15,
-            "against": 11,
-            "diff": 4,
-            "points": 6,
             "highlight": null
           },
           {
@@ -64715,13 +64715,13 @@
           },
           {
             "team": "Timrå IK",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 6,
-            "against": 10,
-            "diff": -4,
+            "against": 11,
+            "diff": -5,
             "points": 2,
             "highlight": null
           }
@@ -64908,6 +64908,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Olympiacos BC",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 199,
+            "against": 180,
+            "diff": 19,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "BC Dubai",
             "played": 2,
             "win": 2,
@@ -64928,18 +64940,6 @@
             "for": 91,
             "against": 72,
             "diff": 19,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Olympiacos BC",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 106,
-            "against": 89,
-            "diff": 17,
             "points": null,
             "highlight": null
           },
@@ -64981,13 +64981,13 @@
           },
           {
             "team": "Kauno Žalgiris",
-            "played": 1,
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 77,
-            "diff": 6,
+            "loss": 1,
+            "for": 174,
+            "against": 170,
+            "diff": 4,
             "points": null,
             "highlight": null
           },
