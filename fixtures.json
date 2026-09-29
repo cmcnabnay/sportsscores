@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T15:16:08+00:00",
+  "updated": "2026-09-29T15:30:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22389,17 +22389,6 @@
       "attendance": null
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Yenisey Krasnoyarsk",
-      "away": "Torpedo Moscow",
-      "score": "-",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "utc": "2026-10-16T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "internationals-2026",
       "home": "Australia",
       "away": "New Zealand",
@@ -22408,6 +22397,17 @@
       "time": "05:00",
       "utc": "2026-10-17T05:00:00+00:00",
       "venue": "Accor Stadium, Sydney (Australia)",
+      "attendance": null
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Yenisey Krasnoyarsk",
+      "away": "Torpedo Moscow",
+      "score": "-",
+      "date": "2026-10-17",
+      "time": "11:30",
+      "utc": "2026-10-17T08:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66682,6 +66682,6 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-09-28T20:02:02.895953+00:00",
-    "torpedo": "2026-09-28T15:16:31.259389+00:00"
+    "torpedo": "2026-09-29T15:28:58.612854+00:00"
   }
 }
