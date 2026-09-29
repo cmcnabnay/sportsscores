@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T19:12:18+00:00",
+  "updated": "2026-09-29T19:56:58+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18003,7 +18003,7 @@
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "Mikkelin Jukurit",
-      "score": null,
+      "score": "3-2",
       "date": "2026-09-29",
       "time": "15:30",
       "utc": "2026-09-29T15:30:00+00:00",
@@ -18014,7 +18014,7 @@
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "HPK Hämeenlinna",
-      "score": null,
+      "score": "3-0",
       "date": "2026-09-29",
       "time": "15:30",
       "utc": "2026-09-29T15:30:00+00:00",
@@ -18058,7 +18058,7 @@
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Real Madrid",
-      "score": null,
+      "score": "94-84",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18069,7 +18069,7 @@
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "Olympiacos BC",
-      "score": null,
+      "score": "91-93",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18080,7 +18080,7 @@
       "league": "eurocup-2026-27",
       "home": "Hapoel Jerusalem",
       "away": "Rostock Seawolves",
-      "score": null,
+      "score": "94-73",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18091,7 +18091,7 @@
       "league": "eurocup-2026-27",
       "home": "Tofas",
       "away": "Bv Chemnitz 99",
-      "score": null,
+      "score": "82-69",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18102,7 +18102,7 @@
       "league": "shl-2026-27",
       "home": "Skellefteå AIK",
       "away": "Luleå Hockey",
-      "score": null,
+      "score": "6-1",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18113,7 +18113,7 @@
       "league": "shl-2026-27",
       "home": "Brynäs IF",
       "away": "Timrå IK",
-      "score": null,
+      "score": "1-0",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18124,7 +18124,7 @@
       "league": "shl-2026-27",
       "home": "IF Björklöven",
       "away": "HV71",
-      "score": null,
+      "score": "4-2",
       "date": "2026-09-29",
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
@@ -18135,7 +18135,7 @@
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "Bayern München",
-      "score": null,
+      "score": "100-76",
       "date": "2026-09-29",
       "time": "17:45",
       "utc": "2026-09-29T17:45:00+00:00",
@@ -31883,39 +31883,6 @@
     },
     {
       "league": "shl-2026-27",
-      "home": "Frölunda HC",
-      "away": "Timrå IK",
-      "score": null,
-      "date": "2026-12-03",
-      "time": "18:00",
-      "utc": "2026-12-03T18:00:00+00:00",
-      "venue": "Scandinavium",
-      "attendance": null
-    },
-    {
-      "league": "shl-2026-27",
-      "home": "Malmö Redhawks",
-      "away": "Brynäs IF",
-      "score": null,
-      "date": "2026-12-03",
-      "time": "18:00",
-      "utc": "2026-12-03T18:00:00+00:00",
-      "venue": "Malmö Arena",
-      "attendance": null
-    },
-    {
-      "league": "shl-2026-27",
-      "home": "IF Björklöven",
-      "away": "Djurgårdens IF",
-      "score": null,
-      "date": "2026-12-03",
-      "time": "18:00",
-      "utc": "2026-12-03T18:00:00+00:00",
-      "venue": "Winpos arena",
-      "attendance": null
-    },
-    {
-      "league": "shl-2026-27",
       "home": "HV71",
       "away": "Skellefteå AIK",
       "score": null,
@@ -37789,28 +37756,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Kauno Žalgiris",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "19:45",
-      "utc": "2026-12-29T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Real Madrid",
-      "away": "BC Dubai",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "20:00",
-      "utc": "2026-12-29T20:00:00+00:00",
-      "venue": "Movistar Arena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "Siauliai",
@@ -37940,17 +37885,6 @@
       "time": "17:30",
       "utc": "2026-12-30T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Anadolu Efes",
-      "away": "Barça Basket",
-      "score": null,
-      "date": "2026-12-30",
-      "time": "17:30",
-      "utc": "2026-12-30T17:30:00+00:00",
-      "venue": "Basketball Development Centre",
       "attendance": null
     },
     {
@@ -40803,6 +40737,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Beşiktaş JK",
+      "away": "KK Partizan Mozzart Bet",
+      "score": null,
+      "date": "2027-01-13",
+      "time": "17:00",
+      "utc": "2027-01-13T17:00:00+00:00",
+      "venue": "BJK Akatlar Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "Bahçeşehir Koleji",
@@ -40880,6 +40825,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Olympiacos BC",
+      "away": "Kosner Baskonia",
+      "score": null,
+      "date": "2027-01-13",
+      "time": "19:15",
+      "utc": "2027-01-13T19:15:00+00:00",
+      "venue": "Peace And Friendship Stadium",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "San Pablo Burgos",
       "away": "Le Mans",
@@ -40932,6 +40888,28 @@
       "time": "16:30",
       "utc": "2027-01-14T16:30:00+00:00",
       "venue": "Oulun Energia Areena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kauno Žalgiris",
+      "away": "KK Crvena zvezda",
+      "score": null,
+      "date": "2027-01-14",
+      "time": "18:00",
+      "utc": "2027-01-14T18:00:00+00:00",
+      "venue": "Žalgirio Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2027-01-14",
+      "time": "18:00",
+      "utc": "2027-01-14T18:00:00+00:00",
+      "venue": "Shlomo Group Arena",
       "attendance": null
     },
     {
@@ -41020,6 +40998,17 @@
       "time": "18:30",
       "utc": "2027-01-14T18:30:00+00:00",
       "venue": "Uber Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Panathinaikos BC",
+      "away": "Bayern München",
+      "score": null,
+      "date": "2027-01-14",
+      "time": "19:15",
+      "utc": "2027-01-14T19:15:00+00:00",
+      "venue": "Telekom Center Athens",
       "attendance": null
     },
     {
@@ -63332,14 +63321,14 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
+            "team": "Aris Bsa",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 40,
-            "against": 39,
-            "diff": 1,
+            "for": 83,
+            "against": 68,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -63392,14 +63381,14 @@
             "highlight": null
           },
           {
-            "team": "Aris Bsa",
+            "team": "Le Mans",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 39,
-            "against": 40,
-            "diff": -1,
+            "for": 68,
+            "against": 83,
+            "diff": -15,
             "points": 1,
             "highlight": null
           },
@@ -63426,9 +63415,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 46,
-            "against": 34,
-            "diff": 12,
+            "for": 79,
+            "against": 60,
+            "diff": 19,
             "points": 2,
             "highlight": null
           },
@@ -63510,9 +63499,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 34,
-            "against": 46,
-            "diff": -12,
+            "for": 60,
+            "against": 79,
+            "diff": -19,
             "points": 1,
             "highlight": null
           }
@@ -63623,6 +63612,30 @@
       "Group D": {
         "rows": [
           {
+            "team": "Balkan",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Bosna",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Baxi Manresa",
             "played": 0,
             "win": 0,
@@ -63660,30 +63673,6 @@
           },
           {
             "team": "Lietkabelis",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "AS Monaco",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Balkan Botevgrad",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -64594,6 +64583,30 @@
             "highlight": null
           },
           {
+            "team": "IF Björklöven",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 11,
+            "against": 10,
+            "diff": 1,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Skellefteå AIK",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 16,
+            "against": 10,
+            "diff": 6,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Örebro HK",
             "played": 4,
             "win": 2,
@@ -64630,30 +64643,6 @@
             "highlight": null
           },
           {
-            "team": "IF Björklöven",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 7,
-            "against": 8,
-            "diff": -1,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Skellefteå AIK",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 10,
-            "against": 9,
-            "diff": 1,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Linköping HC",
             "played": 3,
             "win": 1,
@@ -64679,24 +64668,12 @@
           },
           {
             "team": "HV71",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 13,
-            "against": 15,
-            "diff": -2,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Luleå Hockey",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 9,
-            "against": 13,
+            "loss": 3,
+            "for": 15,
+            "against": 19,
             "diff": -4,
             "points": 3,
             "highlight": null
@@ -64710,6 +64687,18 @@
             "for": 7,
             "against": 12,
             "diff": -5,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Luleå Hockey",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 10,
+            "against": 19,
+            "diff": -9,
             "points": 3,
             "highlight": null
           },
@@ -64908,6 +64897,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Fenerbahçe Tarfin",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 178,
+            "against": 144,
+            "diff": 34,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Olympiacos BC",
             "played": 2,
             "win": 2,
@@ -64968,18 +64969,6 @@
             "highlight": null
           },
           {
-            "team": "Fenerbahçe Tarfin",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 78,
-            "against": 68,
-            "diff": 10,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kauno Žalgiris",
             "played": 2,
             "win": 1,
@@ -64992,6 +64981,18 @@
             "highlight": null
           },
           {
+            "team": "Anadolu Efes",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 176,
+            "against": 173,
+            "diff": 3,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Valencia Basket",
             "played": 1,
             "win": 1,
@@ -64999,18 +65000,6 @@
             "loss": 0,
             "for": 96,
             "against": 94,
-            "diff": 2,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Bayern München",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 86,
-            "against": 84,
             "diff": 2,
             "points": null,
             "highlight": null
@@ -65028,14 +65017,14 @@
             "highlight": null
           },
           {
-            "team": "Real Madrid",
-            "played": 1,
-            "win": 0,
+            "team": "Bayern München",
+            "played": 2,
+            "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 77,
-            "against": 78,
-            "diff": -1,
+            "for": 162,
+            "against": 184,
+            "diff": -22,
             "points": null,
             "highlight": null
           },
@@ -65076,18 +65065,6 @@
             "highlight": null
           },
           {
-            "team": "Anadolu Efes",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 82,
-            "against": 89,
-            "diff": -7,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Maccabi Tel Aviv",
             "played": 1,
             "win": 0,
@@ -65108,6 +65085,18 @@
             "for": 68,
             "against": 78,
             "diff": -10,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Real Madrid",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 161,
+            "against": 172,
+            "diff": -11,
             "points": null,
             "highlight": null
           },
