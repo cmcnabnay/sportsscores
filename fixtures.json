@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T21:16:37+00:00",
+  "updated": "2026-09-30T21:26:23+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65092,18 +65092,6 @@
             "highlight": null
           },
           {
-            "team": "Avangard Omsk",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 16,
-            "against": 24,
-            "diff": -8,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 9,
             "win": 2,
@@ -65254,8 +65242,8 @@
             "draw": null,
             "loss": 0,
             "for": 82,
-            "against": 74,
-            "diff": 8,
+            "against": 75,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -65301,9 +65289,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 74,
+            "for": 75,
             "against": 82,
-            "diff": -8,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -65709,18 +65697,6 @@
             "highlight": null
           },
           {
-            "team": "Joventut de Badalona",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 104,
-            "against": 110,
-            "diff": -6,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "UCAM Murcia",
             "played": 1,
             "win": 0,
@@ -65796,6 +65772,18 @@
             "for": 94,
             "against": 75,
             "diff": 19,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Treviso Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 109,
+            "against": 94,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -65930,6 +65918,18 @@
             "diff": -21,
             "points": 0,
             "highlight": null
+          },
+          {
+            "team": "Scafati",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 63,
+            "against": 87,
+            "diff": -24,
+            "points": 0,
+            "highlight": null
           }
         ],
         "legend": {}
@@ -65938,6 +65938,18 @@
     "lnb-elite-2026-27": {
       "LNB Élite": {
         "rows": [
+          {
+            "team": "Saint Quentin",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 106,
+            "against": 103,
+            "diff": 3,
+            "points": 0,
+            "highlight": null
+          },
           {
             "team": "Le Mans",
             "played": 1,
@@ -66047,14 +66059,38 @@
             "highlight": null
           },
           {
-            "team": "Nancy",
+            "team": "Cholet",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 73,
-            "against": 78,
-            "diff": -5,
+            "for": 85,
+            "against": 97,
+            "diff": -12,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Boulazac",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 79,
+            "against": 81,
+            "diff": -2,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 74,
+            "against": 82,
+            "diff": -8,
             "points": 0,
             "highlight": null
           },
