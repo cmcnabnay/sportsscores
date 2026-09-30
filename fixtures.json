@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:54:26+00:00",
+  "updated": "2026-09-30T21:05:47+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18476,7 +18476,7 @@
       "league": "eurocup-2026-27",
       "home": "San Pablo Burgos",
       "away": "KK Cedevita Olimpija",
-      "score": null,
+      "score": "85-81",
       "date": "2026-09-30",
       "time": "18:30",
       "utc": "2026-09-30T18:30:00+00:00",
@@ -65135,6 +65135,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "Hapoel Jerusalem",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 94,
+            "against": 73,
+            "diff": 21,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Aris Bsa",
             "played": 1,
             "win": 1,
@@ -65152,8 +65164,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 83,
-            "against": 79,
+            "for": 85,
+            "against": 81,
             "diff": 4,
             "points": 2,
             "highlight": null
@@ -65188,8 +65200,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 79,
-            "against": 83,
+            "for": 81,
+            "against": 85,
             "diff": -4,
             "points": 1,
             "highlight": null
@@ -65241,9 +65253,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 70,
-            "against": 58,
-            "diff": 12,
+            "for": 78,
+            "against": 70,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -65257,6 +65269,18 @@
             "against": 71,
             "diff": 3,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
@@ -65277,9 +65301,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 58,
-            "against": 70,
-            "diff": -12,
+            "for": 70,
+            "against": 78,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -65301,9 +65325,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 40,
-            "against": 82,
-            "diff": -42,
+            "for": 47,
+            "against": 85,
+            "diff": -38,
             "points": 1,
             "highlight": null
           }
@@ -65345,6 +65369,18 @@
             "for": 84,
             "against": 76,
             "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 76,
+            "against": 73,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
