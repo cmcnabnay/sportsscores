@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T22:30:20+00:00",
+  "updated": "2026-09-30T22:41:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64660,18 +64660,6 @@
             "highlight": null
           },
           {
-            "team": "Baskets Oldenburg",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 248,
-            "against": 223,
-            "diff": 25,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Wurzburg Baskets",
             "played": 2,
             "win": 1,
@@ -64692,30 +64680,6 @@
             "for": 199,
             "against": 189,
             "diff": 10,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 262,
-            "against": 256,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 253,
-            "against": 250,
-            "diff": 3,
             "points": 4,
             "highlight": null
           },
@@ -64744,18 +64708,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 176,
-            "against": 175,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Brose Bamberg",
             "played": 3,
             "win": 1,
@@ -64765,42 +64717,6 @@
             "against": 278,
             "diff": -2,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 230,
-            "against": 235,
-            "diff": -5,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 266,
-            "against": 276,
-            "diff": -10,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 244,
-            "against": 260,
-            "diff": -16,
-            "points": 4,
             "highlight": null
           },
           {
@@ -64836,18 +64752,6 @@
             "for": 147,
             "against": 175,
             "diff": -28,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "SC Rasta Vechta",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 148,
-            "against": 201,
-            "diff": -53,
             "points": 0,
             "highlight": null
           }
@@ -65419,48 +65323,12 @@
             "diff": -13,
             "points": 1,
             "highlight": null
-          },
-          {
-            "team": "Slask Wroclaw",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 99,
-            "diff": -24,
-            "points": 1,
-            "highlight": null
           }
         ],
         "legend": {}
       },
       "Group D": {
         "rows": [
-          {
-            "team": "PAOK",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 93,
-            "against": 78,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 98,
-            "against": 84,
-            "diff": 14,
-            "points": 2,
-            "highlight": null
-          },
           {
             "team": "Bahçeşehir Koleji",
             "played": 1,
@@ -65518,18 +65386,6 @@
             "for": 84,
             "against": 98,
             "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 78,
-            "against": 93,
-            "diff": -15,
             "points": 1,
             "highlight": null
           }
