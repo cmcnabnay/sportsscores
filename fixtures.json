@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T16:21:09+00:00",
+  "updated": "2026-09-30T16:32:43+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18212,7 +18212,7 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "Lada Togliatti",
-      "score": null,
+      "score": "3-1",
       "date": "2026-09-30",
       "time": "14:00",
       "utc": "2026-09-30T14:00:00+00:00",
@@ -19111,6 +19111,39 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Shanghai Dragons",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "CSKA Moscow",
+      "away": "Dynamo Moscow",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "SKA St. Petersburg",
+      "away": "Admiral Vladivostok",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "Kiekko-Espoo",
@@ -19218,6 +19251,17 @@
       "time": "14:05",
       "utc": "2026-10-03T14:05:00+00:00",
       "venue": "Ashton Gate",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dinamo Minsk",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "14:10",
+      "utc": "2026-10-03T14:10:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -19389,6 +19433,17 @@
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Torpedo Nizhny Novgorod",
       "score": null,
       "date": "2026-10-03",
       "time": "16:30",
@@ -63034,7 +63089,7 @@
         "rows": [
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 10,
+            "played": 11,
             "win": 8,
             "draw": null,
             "loss": 2,
@@ -63082,7 +63137,7 @@
           },
           {
             "team": "Spartak Moscow",
-            "played": 9,
+            "played": 10,
             "win": 5,
             "draw": null,
             "loss": 3,
@@ -63118,7 +63173,7 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
             "loss": 2,
@@ -63154,7 +63209,7 @@
           },
           {
             "team": "HC Sochi",
-            "played": 9,
+            "played": 10,
             "win": 1,
             "draw": null,
             "loss": 8,
@@ -63171,7 +63226,7 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 10,
+            "played": 11,
             "win": 8,
             "draw": null,
             "loss": 1,
@@ -63207,7 +63262,7 @@
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 9,
+            "played": 10,
             "win": 6,
             "draw": null,
             "loss": 2,
@@ -63279,7 +63334,7 @@
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": null,
             "loss": 5,
@@ -63291,7 +63346,7 @@
           },
           {
             "team": "Sibir Novosibirsk",
-            "played": 9,
+            "played": 10,
             "win": 2,
             "draw": null,
             "loss": 5,
@@ -63338,9 +63393,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 31,
-            "against": 21,
-            "diff": 10,
+            "for": 35,
+            "against": 30,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -63374,9 +63429,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 31,
-            "diff": -10,
+            "for": 30,
+            "against": 35,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -63427,9 +63482,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 29,
-            "diff": 7,
+            "for": 41,
+            "against": 32,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -63487,9 +63542,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 29,
-            "against": 36,
-            "diff": -7,
+            "for": 32,
+            "against": 41,
+            "diff": -9,
             "points": 1,
             "highlight": null
           },
@@ -63612,14 +63667,26 @@
       "Group D": {
         "rows": [
           {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 11,
+            "against": 4,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bahçeşehir Koleji",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 23,
-            "against": 18,
-            "diff": 5,
+            "for": 31,
+            "against": 24,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -63636,27 +63703,15 @@
             "highlight": null
           },
           {
-            "team": "KK Bosna",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63673,26 +63728,14 @@
           },
           {
             "team": "PAOK",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Lietkabelis",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63705,6 +63748,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Bosna",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 4,
+            "against": 11,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           }
         ],
