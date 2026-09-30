@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T16:32:43+00:00",
+  "updated": "2026-09-30T16:42:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63141,8 +63141,8 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 24,
-            "against": 16,
+            "for": 25,
+            "against": 17,
             "diff": 8,
             "points": 11,
             "highlight": null
@@ -63338,8 +63338,8 @@
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 15,
-            "against": 23,
+            "for": 16,
+            "against": 24,
             "diff": -8,
             "points": 6,
             "highlight": null
@@ -63393,8 +63393,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 35,
-            "against": 30,
+            "for": 45,
+            "against": 40,
             "diff": 5,
             "points": 2,
             "highlight": null
@@ -63429,8 +63429,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 35,
+            "for": 40,
+            "against": 45,
             "diff": -5,
             "points": 1,
             "highlight": null
@@ -63667,26 +63667,38 @@
       "Group D": {
         "rows": [
           {
-            "team": "Lietkabelis",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 11,
-            "against": 4,
-            "diff": 7,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Bahçeşehir Koleji",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 31,
-            "against": 24,
+            "for": 41,
+            "against": 34,
             "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "KK Bosna",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 13,
+            "against": 7,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "PAOK",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 12,
+            "against": 11,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -63703,18 +63715,6 @@
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Ratiopharm Ulm",
             "played": 0,
             "win": 0,
@@ -63724,18 +63724,6 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "PAOK",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
             "highlight": null
           },
           {
@@ -63751,14 +63739,26 @@
             "highlight": null
           },
           {
-            "team": "KK Bosna",
+            "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 11,
-            "diff": -7,
+            "for": 11,
+            "against": 12,
+            "diff": -1,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 7,
+            "against": 13,
+            "diff": -6,
             "points": 1,
             "highlight": null
           }
