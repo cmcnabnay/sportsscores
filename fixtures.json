@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:23:39+00:00",
+  "updated": "2026-09-30T20:33:57+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18443,7 +18443,7 @@
       "league": "eurocup-2026-27",
       "home": "Napoli Basket",
       "away": "JL Bourg",
-      "score": null,
+      "score": "84-76",
       "date": "2026-09-30",
       "time": "18:00",
       "utc": "2026-09-30T18:00:00+00:00",
@@ -65073,8 +65073,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 56,
-            "against": 52,
+            "for": 65,
+            "against": 61,
             "diff": 4,
             "points": 2,
             "highlight": null
@@ -65109,8 +65109,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 52,
-            "against": 56,
+            "for": 61,
+            "against": 65,
             "diff": -4,
             "points": 1,
             "highlight": null
@@ -65157,6 +65157,18 @@
             "highlight": null
           },
           {
+            "team": "La Laguna Tenerife",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 54,
+            "against": 49,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Siauliai",
             "played": 1,
             "win": 1,
@@ -65165,18 +65177,6 @@
             "for": 74,
             "against": 71,
             "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "La Laguna Tenerife",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 49,
-            "against": 47,
-            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -65193,18 +65193,6 @@
             "highlight": null
           },
           {
-            "team": "Turk Telekom",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 47,
-            "against": 49,
-            "diff": -2,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "London Lions",
             "played": 1,
             "win": 0,
@@ -65217,14 +65205,26 @@
             "highlight": null
           },
           {
+            "team": "Turk Telekom",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 49,
+            "against": 54,
+            "diff": -5,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Cluj Napoca",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 55,
-            "diff": -25,
+            "for": 33,
+            "against": 63,
+            "diff": -30,
             "points": 1,
             "highlight": null
           },
@@ -65275,9 +65275,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 78,
-            "against": 73,
-            "diff": 5,
+            "for": 84,
+            "against": 76,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -65311,9 +65311,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 73,
-            "against": 78,
-            "diff": -5,
+            "for": 76,
+            "against": 84,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -66632,6 +66632,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Panathinaikos BC",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 193,
+            "against": 151,
+            "diff": 42,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Fenerbahçe Tarfin",
             "played": 2,
             "win": 2,
@@ -66692,26 +66704,14 @@
             "highlight": null
           },
           {
-            "team": "Panathinaikos BC",
-            "played": 1,
+            "team": "Beşiktaş JK",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 91,
-            "against": 72,
-            "diff": 19,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "LDLC ASVEL Lyon-Villeurbanne",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 84,
-            "against": 74,
-            "diff": 10,
+            "loss": 1,
+            "for": 203,
+            "against": 189,
+            "diff": 14,
             "points": null,
             "highlight": null
           },
@@ -66764,6 +66764,18 @@
             "highlight": null
           },
           {
+            "team": "LDLC ASVEL Lyon-Villeurbanne",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 163,
+            "against": 176,
+            "diff": -13,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "EA7 Emporio Armani Milano",
             "played": 2,
             "win": 1,
@@ -66784,30 +66796,6 @@
             "for": 162,
             "against": 184,
             "diff": -22,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Beşiktaş JK",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 94,
-            "against": 96,
-            "diff": -2,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Maccabi Tel Aviv",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 74,
-            "against": 84,
-            "diff": -10,
             "points": null,
             "highlight": null
           },
@@ -66844,6 +66832,18 @@
             "for": 153,
             "against": 165,
             "diff": -12,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Maccabi Tel Aviv",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 167,
+            "against": 193,
+            "diff": -26,
             "points": null,
             "highlight": null
           },
