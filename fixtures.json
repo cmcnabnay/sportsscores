@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T23:34:09+00:00",
+  "updated": "2026-09-30T23:45:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64684,6 +64684,18 @@
             "highlight": null
           },
           {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 199,
+            "against": 189,
+            "diff": 10,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Rostock Seawolves",
             "played": 3,
             "win": 1,
@@ -64720,6 +64732,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 261,
+            "against": 260,
+            "diff": 1,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 2,
             "win": 1,
@@ -64728,6 +64752,30 @@
             "for": 176,
             "against": 175,
             "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Brose Bamberg",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 276,
+            "against": 278,
+            "diff": -2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 230,
+            "against": 235,
+            "diff": -5,
             "points": 2,
             "highlight": null
           },
@@ -64753,6 +64801,18 @@
             "against": 260,
             "diff": -16,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 240,
+            "against": 261,
+            "diff": -21,
+            "points": 2,
             "highlight": null
           },
           {
