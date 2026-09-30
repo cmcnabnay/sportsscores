@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T15:27:09+00:00",
+  "updated": "2026-09-30T15:38:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63254,18 +63254,6 @@
             "highlight": null
           },
           {
-            "team": "Avangard Omsk",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 16,
-            "against": 24,
-            "diff": -8,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 9,
             "win": 2,
@@ -63422,31 +63410,19 @@
             "highlight": null
           },
           {
-            "team": "Turk Telekom",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "London Lions",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Siauliai",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 9,
+            "against": 6,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Turk Telekom",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -63491,6 +63467,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "London Lions",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 6,
+            "against": 9,
+            "diff": -3,
+            "points": 1,
             "highlight": null
           },
           {
@@ -66682,6 +66670,6 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-09-29T20:05:51.062861+00:00",
-    "torpedo": "2026-09-29T15:28:58.612854+00:00"
+    "torpedo": "2026-09-30T15:37:01.112997+00:00"
   }
 }
