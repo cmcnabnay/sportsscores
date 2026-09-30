@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T17:03:09+00:00",
+  "updated": "2026-09-30T17:54:41+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63092,10 +63092,10 @@
             "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 24,
-            "against": 17,
-            "diff": 7,
+            "against": 18,
+            "diff": 6,
             "points": 16,
             "highlight": null
           },
@@ -63136,14 +63136,26 @@
             "highlight": null
           },
           {
+            "team": "Shanghai Dragons",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 23,
+            "against": 21,
+            "diff": 2,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Spartak Moscow",
             "played": 10,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 25,
-            "against": 17,
-            "diff": 8,
+            "loss": 4,
+            "for": 26,
+            "against": 20,
+            "diff": 6,
             "points": 11,
             "highlight": null
           },
@@ -63168,18 +63180,6 @@
             "for": 28,
             "against": 27,
             "diff": 1,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Shanghai Dragons",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 21,
-            "against": 21,
-            "diff": 0,
             "points": 10,
             "highlight": null
           },
@@ -63213,8 +63213,8 @@
             "win": 2,
             "draw": null,
             "loss": 8,
-            "for": 9,
-            "against": 31,
+            "for": 11,
+            "against": 33,
             "diff": -22,
             "points": 4,
             "highlight": null
@@ -63229,10 +63229,10 @@
             "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 32,
-            "against": 18,
-            "diff": 14,
+            "against": 20,
+            "diff": 12,
             "points": 17,
             "highlight": null
           },
@@ -63254,9 +63254,9 @@
             "win": 6,
             "draw": null,
             "loss": 3,
-            "for": 24,
+            "for": 25,
             "against": 22,
-            "diff": 2,
+            "diff": 3,
             "points": 13,
             "highlight": null
           },
@@ -63266,8 +63266,8 @@
             "win": 6,
             "draw": null,
             "loss": 3,
-            "for": 30,
-            "against": 20,
+            "for": 32,
+            "against": 22,
             "diff": 10,
             "points": 12,
             "highlight": null
@@ -63279,8 +63279,8 @@
             "draw": null,
             "loss": 5,
             "for": 38,
-            "against": 27,
-            "diff": 11,
+            "against": 28,
+            "diff": 10,
             "points": 10,
             "highlight": null
           },
@@ -63309,14 +63309,26 @@
             "highlight": null
           },
           {
-            "team": "Avangard Omsk",
+            "team": "Traktor Chelyabinsk",
             "played": 9,
             "win": 4,
             "draw": null,
             "loss": 5,
-            "for": 16,
-            "against": 24,
-            "diff": -8,
+            "for": 19,
+            "against": 25,
+            "diff": -6,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Sibir Novosibirsk",
+            "played": 10,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 18,
+            "against": 27,
+            "diff": -9,
             "points": 8,
             "highlight": null
           },
@@ -63329,30 +63341,6 @@
             "for": 17,
             "against": 20,
             "diff": -3,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 9,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 16,
-            "against": 24,
-            "diff": -8,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Sibir Novosibirsk",
-            "played": 10,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 17,
-            "against": 27,
-            "diff": -10,
             "points": 6,
             "highlight": null
           }
@@ -63393,9 +63381,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 50,
-            "against": 46,
-            "diff": 4,
+            "for": 86,
+            "against": 84,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -63429,9 +63417,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 46,
-            "against": 50,
-            "diff": -4,
+            "for": 84,
+            "against": 86,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -63482,9 +63470,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 54,
-            "against": 50,
-            "diff": 4,
+            "for": 74,
+            "against": 71,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -63542,9 +63530,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 50,
-            "against": 54,
-            "diff": -4,
+            "for": 71,
+            "against": 74,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63565,6 +63553,18 @@
       },
       "Group C": {
         "rows": [
+          {
+            "team": "KK Budućnost",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 51,
+            "against": 33,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
           {
             "team": "Tofas",
             "played": 1,
@@ -63602,30 +63602,6 @@
             "highlight": null
           },
           {
-            "team": "KK Budućnost",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Slask Wroclaw",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "JL Bourg",
             "played": 0,
             "win": 0,
@@ -63660,6 +63636,18 @@
             "diff": -13,
             "points": 1,
             "highlight": null
+          },
+          {
+            "team": "Slask Wroclaw",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 33,
+            "against": 51,
+            "diff": -18,
+            "points": 1,
+            "highlight": null
           }
         ],
         "legend": {}
@@ -63667,39 +63655,39 @@
       "Group D": {
         "rows": [
           {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 54,
+            "against": 39,
+            "diff": 15,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 62,
+            "against": 53,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bahçeşehir Koleji",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 38,
-            "diff": 7,
+            "for": 85,
+            "against": 76,
+            "diff": 9,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "KK Bosna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 28,
-            "against": 22,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "BC Balkan Botevgrad",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -63708,22 +63696,10 @@
             "win": 0,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 26,
+            "for": 48,
+            "against": 48,
             "diff": 0,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -63732,8 +63708,8 @@
             "win": 0,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 26,
+            "for": 48,
+            "against": 48,
             "diff": 0,
             "points": 1,
             "highlight": null
@@ -63751,14 +63727,26 @@
             "highlight": null
           },
           {
-            "team": "Lietkabelis",
+            "team": "KK Bosna",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 22,
-            "against": 28,
-            "diff": -6,
+            "for": 53,
+            "against": 62,
+            "diff": -9,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "BC Balkan Botevgrad",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 39,
+            "against": 54,
+            "diff": -15,
             "points": 1,
             "highlight": null
           }
@@ -64252,18 +64240,6 @@
             "highlight": null
           },
           {
-            "team": "Chorale de Roanne",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 81,
-            "against": 79,
-            "diff": 2,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Nanterre",
             "played": 1,
             "win": 1,
@@ -64308,18 +64284,6 @@
             "for": 97,
             "against": 103,
             "diff": -6,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Cholet",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 85,
-            "against": 97,
-            "diff": -12,
             "points": 0,
             "highlight": null
           },
@@ -64475,6 +64439,18 @@
             "highlight": null
           },
           {
+            "team": "Tappara Tampere",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 22,
+            "against": 17,
+            "diff": 5,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "TPS Turku",
             "played": 8,
             "win": 4,
@@ -64519,18 +64495,6 @@
             "for": 19,
             "against": 15,
             "diff": 4,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Tappara Tampere",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 19,
-            "against": 17,
-            "diff": 2,
             "points": 9,
             "highlight": null
           },
@@ -64584,13 +64548,13 @@
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 8,
+            "played": 9,
             "win": 0,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": 15,
-            "against": 37,
-            "diff": -22,
+            "against": 40,
+            "diff": -25,
             "points": 1,
             "highlight": null
           }
