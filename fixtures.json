@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T19:11:24+00:00",
+  "updated": "2026-09-30T19:49:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65104,18 +65104,6 @@
             "highlight": null
           },
           {
-            "team": "San Pablo Burgos",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 18,
-            "against": 14,
-            "diff": 4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Rīgas Zelli",
             "played": 1,
             "win": 1,
@@ -65125,6 +65113,30 @@
             "against": 84,
             "diff": 2,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 43,
+            "against": 42,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "KK Cedevita Olimpija",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 42,
+            "against": 43,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           },
           {
@@ -65140,14 +65152,26 @@
             "highlight": null
           },
           {
-            "team": "KK Cedevita Olimpija",
+            "team": "Le Mans",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 14,
-            "against": 18,
-            "diff": -4,
+            "for": 74,
+            "against": 87,
+            "diff": -13,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 94,
+            "diff": -21,
             "points": 1,
             "highlight": null
           }
@@ -65174,9 +65198,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 13,
-            "against": 6,
-            "diff": 7,
+            "for": 37,
+            "against": 32,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -65190,18 +65214,6 @@
             "against": 71,
             "diff": 3,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Cluj Napoca",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -65234,9 +65246,21 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 6,
-            "against": 13,
-            "diff": -7,
+            "for": 32,
+            "against": 37,
+            "diff": -5,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Cluj Napoca",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 20,
+            "against": 38,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -65275,9 +65299,21 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 47,
-            "against": 37,
-            "diff": 10,
+            "for": 65,
+            "against": 48,
+            "diff": 17,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Tofas",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 82,
+            "against": 69,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -65306,18 +65342,6 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 37,
-            "against": 47,
-            "diff": -10,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -65326,6 +65350,18 @@
             "for": 69,
             "against": 82,
             "diff": -13,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 48,
+            "against": 65,
+            "diff": -17,
             "points": 1,
             "highlight": null
           },
@@ -65541,18 +65577,6 @@
             "loss": 0,
             "for": 98,
             "against": 97,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Casademont Zaragoza",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 81,
-            "against": 80,
             "diff": 1,
             "points": 2,
             "highlight": null
@@ -67330,18 +67354,6 @@
           },
           {
             "team": "KB Trepça",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "ASP Promitheas Patras",
             "played": 0,
             "win": 0,
             "draw": null,
