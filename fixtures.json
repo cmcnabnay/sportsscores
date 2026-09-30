@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T19:49:33+00:00",
+  "updated": "2026-09-30T20:00:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65198,9 +65198,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 37,
-            "against": 32,
-            "diff": 5,
+            "for": 44,
+            "against": 37,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -65246,9 +65246,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 37,
-            "diff": -5,
+            "for": 37,
+            "against": 44,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -65258,9 +65258,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 20,
-            "against": 38,
-            "diff": -18,
+            "for": 25,
+            "against": 53,
+            "diff": -28,
             "points": 1,
             "highlight": null
           },
@@ -65294,18 +65294,6 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 65,
-            "against": 48,
-            "diff": 17,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Tofas",
             "played": 1,
             "win": 1,
@@ -65314,6 +65302,18 @@
             "for": 82,
             "against": 69,
             "diff": 13,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Napoli Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 67,
+            "against": 57,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -65342,6 +65342,18 @@
             "highlight": null
           },
           {
+            "team": "JL Bourg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 57,
+            "against": 67,
+            "diff": -10,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -65350,18 +65362,6 @@
             "for": 69,
             "against": 82,
             "diff": -13,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "JL Bourg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 48,
-            "against": 65,
-            "diff": -17,
             "points": 1,
             "highlight": null
           },
