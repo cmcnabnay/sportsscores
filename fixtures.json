@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:00:34+00:00",
+  "updated": "2026-09-30T20:11:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65080,18 +65080,6 @@
       "Group A": {
         "rows": [
           {
-            "team": "Hapoel Jerusalem",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 94,
-            "against": 73,
-            "diff": 21,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Aris Bsa",
             "played": 1,
             "win": 1,
@@ -65100,6 +65088,18 @@
             "for": 87,
             "against": 74,
             "diff": 13,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 49,
+            "against": 46,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -65116,30 +65116,6 @@
             "highlight": null
           },
           {
-            "team": "San Pablo Burgos",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 43,
-            "against": 42,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "KK Cedevita Olimpija",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 42,
-            "against": 43,
-            "diff": -1,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 0,
@@ -65148,6 +65124,18 @@
             "for": 84,
             "against": 86,
             "diff": -2,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "KK Cedevita Olimpija",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 46,
+            "against": 49,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -65217,18 +65205,6 @@
             "highlight": null
           },
           {
-            "team": "Maxima Roma",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "London Lions",
             "played": 1,
             "win": 0,
@@ -65258,9 +65234,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 25,
-            "against": 53,
-            "diff": -28,
+            "for": 30,
+            "against": 55,
+            "diff": -25,
             "points": 1,
             "highlight": null
           },
@@ -65311,21 +65287,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 67,
-            "against": 57,
-            "diff": 10,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 76,
-            "against": 73,
-            "diff": 3,
+            "for": 71,
+            "against": 63,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -65347,9 +65311,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 57,
-            "against": 67,
-            "diff": -10,
+            "for": 63,
+            "against": 71,
+            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -68428,7 +68392,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-09-29T20:05:51.062861+00:00",
+    "velez": "2026-09-30T20:10:12.986939+00:00",
     "torpedo": "2026-09-30T15:37:01.112997+00:00"
   }
 }
