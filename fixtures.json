@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T22:19:09+00:00",
+  "updated": "2026-09-30T22:30:20+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65541,6 +65541,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 119,
+            "against": 101,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bilbao Basket",
             "played": 1,
             "win": 1,
@@ -65561,6 +65573,18 @@
             "for": 84,
             "against": 77,
             "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Breogán",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 110,
+            "against": 104,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -65601,6 +65625,18 @@
             "highlight": null
           },
           {
+            "team": "Baskonia Vitoria",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 98,
+            "against": 97,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Casademont Zaragoza",
             "played": 1,
             "win": 1,
@@ -65633,6 +65669,18 @@
             "for": 97,
             "against": 98,
             "diff": -1,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 87,
+            "against": 89,
+            "diff": -2,
             "points": 0,
             "highlight": null
           },
@@ -65764,18 +65812,6 @@
             "highlight": null
           },
           {
-            "team": "Reyer Venezia",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 85,
-            "against": 73,
-            "diff": 12,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
@@ -65784,18 +65820,6 @@
             "for": 101,
             "against": 93,
             "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 78,
-            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -65951,6 +65975,30 @@
             "highlight": null
           },
           {
+            "team": "Chalon-sur-Saône",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 82,
+            "against": 74,
+            "diff": 8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Dijon",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 72,
+            "diff": 9,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Chorale de Roanne",
             "played": 1,
             "win": 1,
@@ -65999,6 +66047,18 @@
             "highlight": null
           },
           {
+            "team": "Gravelines",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 97,
+            "against": 103,
+            "diff": -6,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Cholet",
             "played": 1,
             "win": 0,
@@ -66023,6 +66083,18 @@
             "highlight": null
           },
           {
+            "team": "Limoges",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 74,
+            "against": 82,
+            "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Nancy",
             "played": 1,
             "win": 0,
@@ -66031,6 +66103,30 @@
             "for": 73,
             "against": 78,
             "diff": -5,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Strasbourg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 72,
+            "against": 81,
+            "diff": -9,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pau-orthez",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 64,
+            "against": 78,
+            "diff": -14,
             "points": 0,
             "highlight": null
           }
