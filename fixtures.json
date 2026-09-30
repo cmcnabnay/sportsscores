@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T18:04:43+00:00",
+  "updated": "2026-09-30T18:15:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63246,10 +63246,10 @@
             "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 3,
-            "for": 24,
+            "loss": 2,
+            "for": 25,
             "against": 18,
-            "diff": 6,
+            "diff": 7,
             "points": 16,
             "highlight": null
           },
@@ -63487,18 +63487,6 @@
             "highlight": null
           },
           {
-            "team": "Sibir Novosibirsk",
-            "played": 10,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 18,
-            "against": 27,
-            "diff": -9,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 9,
             "win": 2,
@@ -63507,6 +63495,18 @@
             "for": 17,
             "against": 20,
             "diff": -3,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Sibir Novosibirsk",
+            "played": 10,
+            "win": 2,
+            "draw": null,
+            "loss": 5,
+            "for": 18,
+            "against": 28,
+            "diff": -10,
             "points": 6,
             "highlight": null
           }
@@ -63725,9 +63725,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 51,
-            "against": 33,
-            "diff": 18,
+            "for": 64,
+            "against": 50,
+            "diff": 14,
             "points": 2,
             "highlight": null
           },
@@ -63761,9 +63761,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 4,
-            "against": 2,
-            "diff": 2,
+            "for": 12,
+            "against": 11,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -63773,9 +63773,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 2,
-            "against": 4,
-            "diff": -2,
+            "for": 11,
+            "against": 12,
+            "diff": -1,
             "points": 1,
             "highlight": null
           },
@@ -63809,9 +63809,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 33,
-            "against": 51,
-            "diff": -18,
+            "for": 50,
+            "against": 64,
+            "diff": -14,
             "points": 1,
             "highlight": null
           }
@@ -63820,18 +63820,6 @@
       },
       "Group D": {
         "rows": [
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 56,
-            "against": 39,
-            "diff": 17,
-            "points": 2,
-            "highlight": null
-          },
           {
             "team": "Bahçeşehir Koleji",
             "played": 1,
@@ -63845,14 +63833,14 @@
             "highlight": null
           },
           {
-            "team": "Lietkabelis",
+            "team": "Ratiopharm Ulm",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 69,
-            "against": 60,
-            "diff": 9,
+            "for": 64,
+            "against": 52,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -63869,6 +63857,18 @@
             "highlight": null
           },
           {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 69,
+            "against": 68,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Roma Basketball",
             "played": 0,
             "win": 0,
@@ -63878,6 +63878,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Bosna",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 68,
+            "against": 69,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63893,26 +63905,14 @@
             "highlight": null
           },
           {
-            "team": "KK Bosna",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 60,
-            "against": 69,
-            "diff": -9,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "BC Balkan Botevgrad",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 39,
-            "against": 56,
-            "diff": -17,
+            "for": 52,
+            "against": 64,
+            "diff": -12,
             "points": 1,
             "highlight": null
           }
