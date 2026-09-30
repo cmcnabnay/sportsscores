@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T17:54:41+00:00",
+  "updated": "2026-09-30T18:04:43+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18223,7 +18223,7 @@
       "league": "eurocup-2026-27",
       "home": "Siauliai",
       "away": "London Lions",
-      "score": null,
+      "score": "74-71",
       "date": "2026-09-30",
       "time": "15:30",
       "utc": "2026-09-30T15:30:00+00:00",
@@ -18234,7 +18234,7 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "KooKoo Kouvola",
-      "score": null,
+      "score": "3-0",
       "date": "2026-09-30",
       "time": "15:30",
       "utc": "2026-09-30T15:30:00+00:00",
@@ -18245,7 +18245,7 @@
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "SaiPa Lappeenranta",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-30",
       "time": "15:30",
       "utc": "2026-09-30T15:30:00+00:00",
@@ -18256,7 +18256,7 @@
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "TPS Turku",
-      "score": null,
+      "score": "4-2",
       "date": "2026-09-30",
       "time": "15:30",
       "utc": "2026-09-30T15:30:00+00:00",
@@ -18278,7 +18278,7 @@
       "league": "eurocup-2026-27",
       "home": "Rīgas Zelli",
       "away": "Derthona Basket Tortona",
-      "score": null,
+      "score": "86-84",
       "date": "2026-09-30",
       "time": "16:00",
       "utc": "2026-09-30T16:00:00+00:00",
@@ -18289,7 +18289,7 @@
       "league": "eurocup-2026-27",
       "home": "Bahçeşehir Koleji",
       "away": "BC Roma SPQR",
-      "score": null,
+      "score": "91-78",
       "date": "2026-09-30",
       "time": "16:00",
       "utc": "2026-09-30T16:00:00+00:00",
@@ -18421,6 +18421,17 @@
       "league": "eurocup-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Balkan Botevgrad",
+      "score": null,
+      "date": "2026-09-30",
+      "time": "17:00",
+      "utc": "2026-09-30T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Ratiopharm Ulm",
+      "away": "BC Balkan Botevgrad",
       "score": null,
       "date": "2026-09-30",
       "time": "17:00",
@@ -20244,6 +20255,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
+      "away": "Bahçeşehir Koleji",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Utenos Juventus",
       "away": "Unicaja",
@@ -21762,6 +21784,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "BC Roma SPQR",
+      "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Panathinaikos BC",
@@ -23271,6 +23304,17 @@
     {
       "league": "eurocup-2026-27",
       "home": "Balkan Botevgrad",
+      "away": "Lietkabelis",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "16:00",
+      "utc": "2026-10-20T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
       "away": "Lietkabelis",
       "score": null,
       "date": "2026-10-20",
@@ -24855,6 +24899,17 @@
     {
       "league": "eurocup-2026-27",
       "home": "Balkan Botevgrad",
+      "away": "Baxi Manresa",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "17:00",
+      "utc": "2026-10-27T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
       "away": "Baxi Manresa",
       "score": null,
       "date": "2026-10-27",
@@ -26701,6 +26756,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "AS Monaco",
+      "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "18:30",
+      "utc": "2026-11-04T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Bnei Penlink Herzliya",
@@ -27528,6 +27594,17 @@
     {
       "league": "eurocup-2026-27",
       "home": "Balkan Botevgrad",
+      "away": "PAOK",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "17:00",
+      "utc": "2026-11-10T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
       "away": "PAOK",
       "score": null,
       "date": "2026-11-10",
@@ -28958,6 +29035,17 @@
     {
       "league": "eurocup-2026-27",
       "home": "Balkan Botevgrad",
+      "away": "Ratiopharm Ulm",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "17:00",
+      "utc": "2026-11-17T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
       "away": "Ratiopharm Ulm",
       "score": null,
       "date": "2026-11-17",
@@ -33059,6 +33147,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Bahçeşehir Koleji",
+      "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "16:00",
+      "utc": "2026-12-08T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Leyma Coruña",
       "away": "Real Madrid",
@@ -34458,6 +34557,17 @@
     {
       "league": "eurocup-2026-27",
       "home": "Balkan Botevgrad",
+      "away": "BC Roma SPQR",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:00",
+      "utc": "2026-12-15T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
       "away": "BC Roma SPQR",
       "score": null,
       "date": "2026-12-15",
@@ -36120,6 +36230,17 @@
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "Balkan Botevgrad",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:00",
+      "utc": "2026-12-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Lietkabelis",
+      "away": "BC Balkan Botevgrad",
       "score": null,
       "date": "2026-12-22",
       "time": "17:00",
@@ -37812,6 +37933,17 @@
     },
     {
       "league": "eurocup-2026-27",
+      "home": "Baxi Manresa",
+      "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "19:30",
+      "utc": "2026-12-29T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "Siauliai",
       "score": null,
@@ -39308,6 +39440,17 @@
     },
     {
       "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
+      "away": "AS Monaco",
+      "score": null,
+      "date": "2027-01-06",
+      "time": "17:00",
+      "utc": "2027-01-06T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
       "home": "Baxi Manresa",
       "away": "Lietkabelis",
       "score": null,
@@ -39813,6 +39956,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "Kiekko-Espoo",
+      "away": "Tappara Tampere",
+      "score": null,
+      "date": "2027-01-09",
+      "time": "13:00",
+      "utc": "2027-01-09T13:00:00+00:00",
+      "venue": "Barona Areena",
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Frölunda HC",
       "away": "Malmö Redhawks",
@@ -39876,17 +40030,6 @@
       "time": "15:00",
       "utc": "2027-01-09T15:00:00+00:00",
       "venue": "Helsinki Halli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Kiekko-Espoo",
-      "away": "Tappara Tampere",
-      "score": null,
-      "date": "2027-01-09",
-      "time": "15:00",
-      "utc": "2027-01-09T15:00:00+00:00",
-      "venue": "Barona Areena",
       "attendance": null
     },
     {
@@ -40839,6 +40982,17 @@
       "league": "eurocup-2026-27",
       "home": "PAOK",
       "away": "Balkan Botevgrad",
+      "score": null,
+      "date": "2027-01-13",
+      "time": "18:00",
+      "utc": "2027-01-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "PAOK",
+      "away": "BC Balkan Botevgrad",
       "score": null,
       "date": "2027-01-13",
       "time": "18:00",
@@ -63142,8 +63296,8 @@
             "draw": null,
             "loss": 2,
             "for": 23,
-            "against": 21,
-            "diff": 2,
+            "against": 22,
+            "diff": 1,
             "points": 12,
             "highlight": null
           },
@@ -63230,9 +63384,9 @@
             "win": 8,
             "draw": null,
             "loss": 2,
-            "for": 32,
+            "for": 33,
             "against": 20,
-            "diff": 12,
+            "diff": 13,
             "points": 17,
             "highlight": null
           },
@@ -63317,6 +63471,18 @@
             "for": 19,
             "against": 25,
             "diff": -6,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Avangard Omsk",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 16,
+            "against": 24,
+            "diff": -8,
             "points": 8,
             "highlight": null
           },
@@ -63590,27 +63756,27 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 0,
-            "win": 0,
+            "team": "JL Bourg",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 4,
+            "against": 2,
+            "diff": 2,
+            "points": 2,
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 0,
+            "team": "Napoli Basket",
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 2,
+            "against": 4,
+            "diff": -2,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63660,21 +63826,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 54,
+            "for": 56,
             "against": 39,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Lietkabelis",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 62,
-            "against": 53,
-            "diff": 9,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -63684,34 +63838,34 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 85,
-            "against": 76,
+            "for": 91,
+            "against": 78,
+            "diff": 13,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 69,
+            "against": 60,
             "diff": 9,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 48,
-            "against": 48,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "PAOK",
             "played": 1,
-            "win": 0,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 48,
-            "against": 48,
-            "diff": 0,
-            "points": 1,
+            "for": 56,
+            "against": 52,
+            "diff": 4,
+            "points": 2,
             "highlight": null
           },
           {
@@ -63727,13 +63881,25 @@
             "highlight": null
           },
           {
+            "team": "Baxi Manresa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 52,
+            "against": 56,
+            "diff": -4,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "KK Bosna",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 53,
-            "against": 62,
+            "for": 60,
+            "against": 69,
             "diff": -9,
             "points": 1,
             "highlight": null
@@ -63745,8 +63911,8 @@
             "draw": null,
             "loss": 1,
             "for": 39,
-            "against": 54,
-            "diff": -15,
+            "against": 56,
+            "diff": -17,
             "points": 1,
             "highlight": null
           }
@@ -64392,14 +64558,26 @@
           },
           {
             "team": "SaiPa Lappeenranta",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
-            "for": 22,
-            "against": 8,
-            "diff": 14,
+            "loss": 2,
+            "for": 23,
+            "against": 12,
+            "diff": 11,
             "points": 17,
+            "highlight": null
+          },
+          {
+            "team": "Kiekko-Espoo",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 24,
+            "against": 14,
+            "diff": 10,
+            "points": 16,
             "highlight": null
           },
           {
@@ -64427,14 +64605,14 @@
             "highlight": null
           },
           {
-            "team": "Kiekko-Espoo",
+            "team": "Oulun Kärpät",
             "played": 8,
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 20,
-            "against": 12,
-            "diff": 8,
+            "for": 19,
+            "against": 20,
+            "diff": -1,
             "points": 13,
             "highlight": null
           },
@@ -64452,13 +64630,13 @@
           },
           {
             "team": "TPS Turku",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 20,
-            "against": 16,
-            "diff": 4,
+            "loss": 5,
+            "for": 22,
+            "against": 20,
+            "diff": 2,
             "points": 12,
             "highlight": null
           },
@@ -64472,18 +64650,6 @@
             "against": 17,
             "diff": -1,
             "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Oulun Kärpät",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 15,
-            "against": 19,
-            "diff": -4,
-            "points": 10,
             "highlight": null
           },
           {
@@ -65084,18 +65250,6 @@
             "highlight": null
           },
           {
-            "team": "KK Crvena zvezda",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 157,
-            "against": 164,
-            "diff": -7,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Maccabi Tel Aviv",
             "played": 1,
             "win": 0,
@@ -65104,6 +65258,18 @@
             "for": 74,
             "against": 84,
             "diff": -10,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "KK Crvena zvezda",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 157,
+            "against": 164,
+            "diff": -7,
             "points": null,
             "highlight": null
           },
