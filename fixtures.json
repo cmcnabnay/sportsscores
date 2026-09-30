@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T16:42:12+00:00",
+  "updated": "2026-09-30T16:52:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63210,13 +63210,13 @@
           {
             "team": "HC Sochi",
             "played": 10,
-            "win": 1,
+            "win": 2,
             "draw": null,
             "loss": 8,
-            "for": 8,
+            "for": 9,
             "against": 31,
-            "diff": -23,
-            "points": 2,
+            "diff": -22,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -63265,10 +63265,10 @@
             "played": 10,
             "win": 6,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 30,
-            "against": 19,
-            "diff": 11,
+            "against": 20,
+            "diff": 10,
             "points": 12,
             "highlight": null
           },
@@ -63393,9 +63393,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 40,
-            "diff": 5,
+            "for": 50,
+            "against": 46,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -63429,9 +63429,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 40,
-            "against": 45,
-            "diff": -5,
+            "for": 46,
+            "against": 50,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -63482,8 +63482,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 41,
-            "against": 32,
+            "for": 49,
+            "against": 40,
             "diff": 9,
             "points": 2,
             "highlight": null
@@ -63542,8 +63542,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 41,
+            "for": 40,
+            "against": 49,
             "diff": -9,
             "points": 1,
             "highlight": null
@@ -63667,26 +63667,26 @@
       "Group D": {
         "rows": [
           {
-            "team": "Bahçeşehir Koleji",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 41,
-            "against": 34,
-            "diff": 7,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "KK Bosna",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 13,
-            "against": 7,
-            "diff": 6,
+            "for": 22,
+            "against": 12,
+            "diff": 10,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Bahçeşehir Koleji",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 45,
+            "against": 38,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -63696,9 +63696,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 12,
-            "against": 11,
-            "diff": 1,
+            "for": 21,
+            "against": 16,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -63744,9 +63744,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 12,
-            "diff": -1,
+            "for": 16,
+            "against": 21,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -63756,9 +63756,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 7,
-            "against": 13,
-            "diff": -6,
+            "for": 12,
+            "against": 22,
+            "diff": -10,
             "points": 1,
             "highlight": null
           }
