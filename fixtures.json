@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T18:15:11+00:00",
+  "updated": "2026-09-30T18:26:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63244,13 +63244,13 @@
           {
             "team": "Lokomotiv Yaroslavl",
             "played": 11,
-            "win": 8,
+            "win": 9,
             "draw": null,
             "loss": 2,
-            "for": 25,
+            "for": 26,
             "against": 18,
-            "diff": 7,
-            "points": 16,
+            "diff": 8,
+            "points": 18,
             "highlight": null
           },
           {
@@ -63367,9 +63367,9 @@
             "win": 2,
             "draw": null,
             "loss": 8,
-            "for": 11,
+            "for": 13,
             "against": 33,
-            "diff": -22,
+            "diff": -20,
             "points": 4,
             "highlight": null
           }
@@ -63408,9 +63408,9 @@
             "win": 6,
             "draw": null,
             "loss": 3,
-            "for": 25,
+            "for": 26,
             "against": 22,
-            "diff": 3,
+            "diff": 4,
             "points": 13,
             "highlight": null
           },
@@ -63421,8 +63421,8 @@
             "draw": null,
             "loss": 3,
             "for": 32,
-            "against": 22,
-            "diff": 10,
+            "against": 24,
+            "diff": 8,
             "points": 12,
             "highlight": null
           },
@@ -63433,8 +63433,8 @@
             "draw": null,
             "loss": 5,
             "for": 38,
-            "against": 28,
-            "diff": 10,
+            "against": 29,
+            "diff": 9,
             "points": 10,
             "highlight": null
           },
@@ -63503,10 +63503,10 @@
             "played": 10,
             "win": 2,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 18,
-            "against": 28,
-            "diff": -10,
+            "against": 29,
+            "diff": -11,
             "points": 6,
             "highlight": null
           }
@@ -63725,9 +63725,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 64,
-            "against": 50,
-            "diff": 14,
+            "for": 74,
+            "against": 58,
+            "diff": 16,
             "points": 2,
             "highlight": null
           },
@@ -63756,26 +63756,26 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
+            "team": "Napoli Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 12,
-            "against": 11,
-            "diff": 1,
+            "for": 19,
+            "against": 17,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
+            "team": "JL Bourg",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 12,
-            "diff": -1,
+            "for": 17,
+            "against": 19,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -63809,9 +63809,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 50,
-            "against": 64,
-            "diff": -14,
+            "for": 58,
+            "against": 74,
+            "diff": -16,
             "points": 1,
             "highlight": null
           }
@@ -63820,6 +63820,18 @@
       },
       "Group D": {
         "rows": [
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 59,
+            "diff": 16,
+            "points": 2,
+            "highlight": null
+          },
           {
             "team": "Bahçeşehir Koleji",
             "played": 1,
@@ -63833,39 +63845,39 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 64,
-            "against": 52,
-            "diff": 12,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "PAOK",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 56,
-            "against": 52,
-            "diff": 4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Lietkabelis",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 69,
-            "against": 68,
-            "diff": 1,
+            "for": 75,
+            "against": 72,
+            "diff": 3,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "PAOK",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
@@ -63886,21 +63898,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 68,
-            "against": 69,
-            "diff": -1,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 52,
-            "against": 56,
-            "diff": -4,
+            "for": 72,
+            "against": 75,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -63910,9 +63910,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 52,
-            "against": 64,
-            "diff": -12,
+            "for": 59,
+            "against": 75,
+            "diff": -16,
             "points": 1,
             "highlight": null
           }
@@ -64406,6 +64406,18 @@
             "highlight": null
           },
           {
+            "team": "Chorale de Roanne",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 79,
+            "diff": 2,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Nanterre",
             "played": 1,
             "win": 1,
@@ -64450,6 +64462,18 @@
             "for": 97,
             "against": 103,
             "diff": -6,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cholet",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 85,
+            "against": 97,
+            "diff": -12,
             "points": 0,
             "highlight": null
           },
