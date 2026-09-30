@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T16:52:13+00:00",
+  "updated": "2026-09-30T17:03:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63249,15 +63249,15 @@
             "highlight": null
           },
           {
-            "team": "Barys Astana",
-            "played": 10,
+            "team": "AK Bars",
+            "played": 11,
             "win": 6,
             "draw": null,
-            "loss": 4,
-            "for": 38,
-            "against": 25,
-            "diff": 13,
-            "points": 12,
+            "loss": 3,
+            "for": 24,
+            "against": 22,
+            "diff": 2,
+            "points": 13,
             "highlight": null
           },
           {
@@ -63273,15 +63273,15 @@
             "highlight": null
           },
           {
-            "team": "AK Bars",
-            "played": 11,
+            "team": "Barys Astana",
+            "played": 10,
             "win": 5,
             "draw": null,
-            "loss": 4,
-            "for": 22,
-            "against": 22,
-            "diff": 0,
-            "points": 11,
+            "loss": 5,
+            "for": 38,
+            "against": 27,
+            "diff": 11,
+            "points": 10,
             "highlight": null
           },
           {
@@ -63482,9 +63482,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
-            "against": 40,
-            "diff": 9,
+            "for": 54,
+            "against": 50,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -63542,9 +63542,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 40,
-            "against": 49,
-            "diff": -9,
+            "for": 50,
+            "against": 54,
+            "diff": -4,
             "points": 1,
             "highlight": null
           },
@@ -63603,26 +63603,26 @@
           },
           {
             "team": "KK Budućnost",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
             "team": "Slask Wroclaw",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
             "loss": 0,
             "for": 0,
             "against": 0,
             "diff": 0,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63667,18 +63667,6 @@
       "Group D": {
         "rows": [
           {
-            "team": "KK Bosna",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 22,
-            "against": 12,
-            "diff": 10,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Bahçeşehir Koleji",
             "played": 1,
             "win": 1,
@@ -63691,14 +63679,14 @@
             "highlight": null
           },
           {
-            "team": "PAOK",
+            "team": "KK Bosna",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 21,
-            "against": 16,
-            "diff": 5,
+            "for": 28,
+            "against": 22,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
@@ -63715,6 +63703,18 @@
             "highlight": null
           },
           {
+            "team": "Baxi Manresa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 26,
+            "against": 26,
+            "diff": 0,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 0,
             "win": 0,
@@ -63724,6 +63724,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "PAOK",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 26,
+            "against": 26,
+            "diff": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63739,26 +63751,14 @@
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 16,
-            "against": 21,
-            "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Lietkabelis",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 12,
-            "against": 22,
-            "diff": -10,
+            "for": 22,
+            "against": 28,
+            "diff": -6,
             "points": 1,
             "highlight": null
           }
