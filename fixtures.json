@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:33:57+00:00",
+  "updated": "2026-09-30T20:43:31+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18454,7 +18454,7 @@
       "league": "euroleague-2026-27",
       "home": "Maccabi Tel Aviv",
       "away": "Beşiktaş JK",
-      "score": null,
+      "score": "93-109",
       "date": "2026-09-30",
       "time": "18:05",
       "utc": "2026-09-30T18:05:00+00:00",
@@ -18465,7 +18465,7 @@
       "league": "euroleague-2026-27",
       "home": "Panathinaikos BC",
       "away": "LDLC ASVEL Lyon-Villeurbanne",
-      "score": null,
+      "score": "102-79",
       "date": "2026-09-30",
       "time": "18:15",
       "utc": "2026-09-30T18:15:00+00:00",
@@ -25744,6 +25744,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Beşiktaş JK",
+      "away": "Olympiacos BC",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "17:30",
+      "utc": "2026-10-28T17:30:00+00:00",
+      "venue": "BJK Akatlar Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Aris Bsa",
       "away": "KK Cedevita Olimpija",
@@ -25829,17 +25840,6 @@
       "time": "18:00",
       "utc": "2026-10-28T18:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "Olympiacos BC",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "18:30",
-      "utc": "2026-10-28T18:30:00+00:00",
-      "venue": "BJK Akatlar Arena",
       "attendance": null
     },
     {
@@ -35831,6 +35831,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Hapoel Tel-Aviv",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:45",
+      "utc": "2026-12-15T17:45:00+00:00",
+      "venue": "Ulker Sports Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Derthona Basket Tortona",
       "away": "Aris Bsa",
@@ -35938,6 +35949,17 @@
       "time": "19:30",
       "utc": "2026-12-15T19:30:00+00:00",
       "venue": "Roig Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Virtus Bologna",
+      "away": "LDLC ASVEL Lyon-Villeurbanne",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:30",
+      "utc": "2026-12-15T19:30:00+00:00",
+      "venue": "Virtus Arena",
       "attendance": null
     },
     {
@@ -39505,6 +39527,28 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Kauno Žalgiris",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "19:45",
+      "utc": "2026-12-29T19:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Real Madrid",
+      "away": "BC Dubai",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "20:00",
+      "utc": "2026-12-29T20:00:00+00:00",
+      "venue": "Movistar Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "Siauliai",
@@ -39634,6 +39678,17 @@
       "time": "17:30",
       "utc": "2026-12-30T17:30:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Anadolu Efes",
+      "away": "Barça Basket",
+      "score": null,
+      "date": "2026-12-30",
+      "time": "17:30",
+      "utc": "2026-12-30T17:30:00+00:00",
+      "venue": "Basketball Development Centre",
       "attendance": null
     },
     {
@@ -65073,9 +65128,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 65,
-            "against": 61,
-            "diff": 4,
+            "for": 73,
+            "against": 70,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -65109,9 +65164,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 61,
-            "against": 65,
-            "diff": -4,
+            "for": 70,
+            "against": 73,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -65162,9 +65217,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 54,
-            "against": 49,
-            "diff": 5,
+            "for": 65,
+            "against": 56,
+            "diff": 9,
             "points": 2,
             "highlight": null
           },
@@ -65210,21 +65265,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 49,
-            "against": 54,
-            "diff": -5,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Cluj Napoca",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 33,
-            "against": 63,
-            "diff": -30,
+            "for": 56,
+            "against": 65,
+            "diff": -9,
             "points": 1,
             "highlight": null
           },
@@ -65237,6 +65280,18 @@
             "for": 72,
             "against": 104,
             "diff": -32,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Cluj Napoca",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 36,
+            "against": 75,
+            "diff": -39,
             "points": 1,
             "highlight": null
           }
