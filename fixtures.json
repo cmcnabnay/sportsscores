@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T16:10:00+00:00",
+  "updated": "2026-09-30T16:21:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63194,6 +63194,18 @@
             "highlight": null
           },
           {
+            "team": "Barys Astana",
+            "played": 10,
+            "win": 6,
+            "draw": null,
+            "loss": 4,
+            "for": 38,
+            "against": 25,
+            "diff": 13,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Salavat Yulayev Ufa",
             "played": 9,
             "win": 6,
@@ -63210,23 +63222,11 @@
             "played": 11,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 22,
-            "against": 21,
-            "diff": 1,
-            "points": 11,
-            "highlight": null
-          },
-          {
-            "team": "Barys Astana",
-            "played": 10,
-            "win": 5,
-            "draw": null,
             "loss": 4,
-            "for": 37,
-            "against": 25,
-            "diff": 12,
-            "points": 10,
+            "for": 22,
+            "against": 22,
+            "diff": 0,
+            "points": 11,
             "highlight": null
           },
           {
@@ -63333,6 +63333,18 @@
             "highlight": null
           },
           {
+            "team": "Rīgas Zelli",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 31,
+            "against": 21,
+            "diff": 10,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "KK Cedevita Olimpija",
             "played": 0,
             "win": 0,
@@ -63357,27 +63369,15 @@
             "highlight": null
           },
           {
-            "team": "Rīgas Zelli",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 21,
+            "against": 31,
+            "diff": -10,
+            "points": 1,
             "highlight": null
           },
           {
@@ -63427,9 +63427,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 19,
-            "against": 16,
-            "diff": 3,
+            "for": 36,
+            "against": 29,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -63487,9 +63487,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 16,
-            "against": 19,
-            "diff": -3,
+            "for": 29,
+            "against": 36,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -63612,6 +63612,18 @@
       "Group D": {
         "rows": [
           {
+            "team": "Bahçeşehir Koleji",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 23,
+            "against": 18,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "BC Balkan Botevgrad",
             "played": 0,
             "win": 0,
@@ -63673,18 +63685,6 @@
           },
           {
             "team": "Lietkabelis",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Bahçeşehir Koleji",
             "played": 0,
             "win": 0,
             "draw": null,
