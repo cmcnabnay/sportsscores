@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T18:50:07+00:00",
+  "updated": "2026-09-30T18:59:59+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65109,9 +65109,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 18,
-            "against": 6,
-            "diff": 12,
+            "for": 7,
+            "against": 4,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -65145,9 +65145,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 6,
-            "against": 18,
-            "diff": -12,
+            "for": 4,
+            "against": 7,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -65282,6 +65282,18 @@
       "Group C": {
         "rows": [
           {
+            "team": "KK Budućnost",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 99,
+            "against": 75,
+            "diff": 24,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Tofas",
             "played": 1,
             "win": 1,
@@ -65294,26 +65306,14 @@
             "highlight": null
           },
           {
-            "team": "KK Budućnost",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 88,
-            "against": 75,
-            "diff": 13,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Napoli Basket",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 32,
-            "diff": 4,
+            "for": 47,
+            "against": 37,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -65347,21 +65347,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 36,
-            "diff": -4,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Slask Wroclaw",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 88,
-            "diff": -13,
+            "for": 37,
+            "against": 47,
+            "diff": -10,
             "points": 1,
             "highlight": null
           },
@@ -65376,12 +65364,36 @@
             "diff": -13,
             "points": 1,
             "highlight": null
+          },
+          {
+            "team": "Slask Wroclaw",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 75,
+            "against": 99,
+            "diff": -24,
+            "points": 1,
+            "highlight": null
           }
         ],
         "legend": {}
       },
       "Group D": {
         "rows": [
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 98,
+            "against": 84,
+            "diff": 14,
+            "points": 2,
+            "highlight": null
+          },
           {
             "team": "Bahçeşehir Koleji",
             "played": 1,
@@ -65400,21 +65412,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 67,
-            "against": 56,
-            "diff": 11,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 89,
-            "against": 80,
-            "diff": 9,
+            "for": 80,
+            "against": 68,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -65455,26 +65455,26 @@
             "highlight": null
           },
           {
-            "team": "BC Balkan Botevgrad",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 80,
-            "against": 89,
-            "diff": -9,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 56,
-            "against": 67,
-            "diff": -11,
+            "for": 68,
+            "against": 80,
+            "diff": -12,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "BC Balkan Botevgrad",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 84,
+            "against": 98,
+            "diff": -14,
             "points": 1,
             "highlight": null
           }
