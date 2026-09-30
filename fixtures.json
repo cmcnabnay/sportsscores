@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T18:59:59+00:00",
+  "updated": "2026-09-30T19:11:24+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18333,7 +18333,7 @@
       "league": "khl-2026-27",
       "home": "Spartak Moscow",
       "away": "Traktor Chelyabinsk",
-      "score": null,
+      "score": "2-4",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18344,7 +18344,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Salavat Yulayev Ufa",
-      "score": null,
+      "score": "6-3",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18355,7 +18355,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "4-1",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18366,7 +18366,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "3-1",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18388,7 +18388,7 @@
       "league": "eurocup-2026-27",
       "home": "PAOK",
       "away": "Baxi Manresa",
-      "score": null,
+      "score": "93-78",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18399,7 +18399,7 @@
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "KK Bosna",
-      "score": null,
+      "score": "75-72",
       "date": "2026-09-30",
       "time": "16:30",
       "utc": "2026-09-30T16:30:00+00:00",
@@ -18410,7 +18410,7 @@
       "league": "eurocup-2026-27",
       "home": "Slask Wroclaw",
       "away": "KK Budućnost",
-      "score": null,
+      "score": "75-99",
       "date": "2026-09-30",
       "time": "17:00",
       "utc": "2026-09-30T17:00:00+00:00",
@@ -18432,7 +18432,7 @@
       "league": "eurocup-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "BC Balkan Botevgrad",
-      "score": null,
+      "score": "98-84",
       "date": "2026-09-30",
       "time": "17:00",
       "utc": "2026-09-30T17:00:00+00:00",
@@ -65109,9 +65109,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 7,
-            "against": 4,
-            "diff": 3,
+            "for": 18,
+            "against": 14,
+            "diff": 4,
             "points": 2,
             "highlight": null
           },
@@ -65145,33 +65145,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 7,
-            "diff": -3,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Le Mans",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 74,
-            "against": 87,
-            "diff": -13,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 73,
-            "against": 94,
-            "diff": -21,
+            "for": 14,
+            "against": 18,
+            "diff": -4,
             "points": 1,
             "highlight": null
           }
@@ -65193,6 +65169,18 @@
             "highlight": null
           },
           {
+            "team": "La Laguna Tenerife",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 13,
+            "against": 6,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Siauliai",
             "played": 1,
             "win": 1,
@@ -65202,18 +65190,6 @@
             "against": 71,
             "diff": 3,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Turk Telekom",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -65241,18 +65217,6 @@
             "highlight": null
           },
           {
-            "team": "La Laguna Tenerife",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "London Lions",
             "played": 1,
             "win": 0,
@@ -65261,6 +65225,18 @@
             "for": 71,
             "against": 74,
             "diff": -3,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Turk Telekom",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 6,
+            "against": 13,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -65290,18 +65266,6 @@
             "for": 99,
             "against": 75,
             "diff": 24,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Tofas",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 82,
-            "against": 69,
-            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -65383,6 +65347,18 @@
       "Group D": {
         "rows": [
           {
+            "team": "PAOK",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 93,
+            "against": 78,
+            "diff": 15,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 1,
             "win": 1,
@@ -65403,18 +65379,6 @@
             "for": 91,
             "against": 78,
             "diff": 13,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "PAOK",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 80,
-            "against": 68,
-            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -65455,18 +65419,6 @@
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 68,
-            "against": 80,
-            "diff": -12,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "BC Balkan Botevgrad",
             "played": 1,
             "win": 0,
@@ -65475,6 +65427,18 @@
             "for": 84,
             "against": 98,
             "diff": -14,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 78,
+            "against": 93,
+            "diff": -15,
             "points": 1,
             "highlight": null
           }
