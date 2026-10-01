@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T07:48:25+00:00",
+  "updated": "2026-10-01T08:00:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -62995,6 +62995,18 @@
       "Standings": {
         "rows": [
           {
+            "team": "Otago (Q)",
+            "played": 10,
+            "win": 7,
+            "draw": 0,
+            "loss": 3,
+            "for": 386,
+            "against": 283,
+            "diff": 103,
+            "points": 37,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "North Harbour (Q)",
             "played": 9,
             "win": 6,
@@ -63039,18 +63051,6 @@
             "for": 331,
             "against": 258,
             "diff": 73,
-            "points": 32,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Otago (Q)",
-            "played": 9,
-            "win": 6,
-            "draw": 0,
-            "loss": 3,
-            "for": 341,
-            "against": 241,
-            "diff": 100,
             "points": 32,
             "highlight": "#CCF9CC"
           },
@@ -63116,14 +63116,14 @@
           },
           {
             "team": "Auckland",
-            "played": 9,
+            "played": 10,
             "win": 3,
             "draw": 0,
-            "loss": 6,
-            "for": 247,
-            "against": 285,
-            "diff": -38,
-            "points": 20,
+            "loss": 7,
+            "for": 289,
+            "against": 330,
+            "diff": -41,
+            "points": 22,
             "highlight": "transparent"
           },
           {
