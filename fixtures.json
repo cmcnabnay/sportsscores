@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T20:10:44+00:00",
+  "updated": "2026-10-01T20:21:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65976,18 +65976,6 @@
       "Lega A": {
         "rows": [
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 87,
-            "against": 63,
-            "diff": 24,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Virtus Bologna",
             "played": 1,
             "win": 1,
@@ -66032,18 +66020,6 @@
             "for": 85,
             "against": 73,
             "diff": 12,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Derthona Basket Tortona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 101,
-            "against": 93,
-            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -66104,18 +66080,6 @@
             "for": 93,
             "against": 101,
             "diff": -8,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Cantù",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 73,
-            "against": 85,
-            "diff": -12,
             "points": 0,
             "highlight": null
           },
@@ -67043,18 +67007,6 @@
             "highlight": null
           },
           {
-            "team": "Anadolu Efes",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 176,
-            "against": 173,
-            "diff": 3,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Barça Basket",
             "played": 2,
             "win": 1,
@@ -67103,14 +67055,26 @@
             "highlight": null
           },
           {
-            "team": "KK Crvena zvezda",
-            "played": 2,
-            "win": 0,
+            "team": "Anadolu Efes",
+            "played": 3,
+            "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 157,
-            "against": 164,
-            "diff": -7,
+            "for": 248,
+            "against": 250,
+            "diff": -2,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "KK Crvena zvezda",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 234,
+            "against": 236,
+            "diff": -2,
             "points": null,
             "highlight": null
           },
@@ -68719,7 +68683,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-09-30T20:10:12.986939+00:00",
+    "velez": "2026-10-01T20:20:05.668143+00:00",
     "torpedo": "2026-10-01T15:45:42.565345+00:00"
   }
 }
