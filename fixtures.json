@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T19:49:20+00:00",
+  "updated": "2026-10-01T19:59:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64873,18 +64873,6 @@
             "highlight": null
           },
           {
-            "team": "Science City Jena",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 219,
-            "against": 239,
-            "diff": -20,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 3,
             "win": 1,
@@ -64892,6 +64880,18 @@
             "loss": 2,
             "for": 240,
             "against": 261,
+            "diff": -21,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Science City Jena",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 225,
+            "against": 246,
             "diff": -21,
             "points": 2,
             "highlight": null
@@ -64914,9 +64914,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 212,
-            "against": 273,
-            "diff": -61,
+            "for": 219,
+            "against": 279,
+            "diff": -60,
             "points": 1,
             "highlight": null
           }
