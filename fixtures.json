@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T23:55:08+00:00",
+  "updated": "2026-10-01T00:06:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64895,6 +64895,18 @@
             "highlight": null
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 24,
+            "against": 17,
+            "diff": 7,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Shanghai Dragons",
             "played": 8,
             "win": 6,
@@ -64915,6 +64927,18 @@
             "for": 26,
             "against": 20,
             "diff": 6,
+            "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Dynamo Moscow",
+            "played": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 5,
+            "for": 19,
+            "against": 28,
+            "diff": -9,
             "points": 11,
             "highlight": null
           },
@@ -65041,6 +65065,18 @@
             "against": 29,
             "diff": -2,
             "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Amur Khabarovsk",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 15,
+            "against": 16,
+            "diff": -1,
+            "points": 9,
             "highlight": null
           },
           {
@@ -65505,6 +65541,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 119,
+            "against": 101,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bilbao Basket",
             "played": 1,
             "win": 1,
@@ -65577,6 +65625,30 @@
             "highlight": null
           },
           {
+            "team": "Baskonia Vitoria",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 98,
+            "against": 97,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Casademont Zaragoza",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 81,
+            "against": 80,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "La Laguna Tenerife",
             "played": 1,
             "win": 0,
@@ -65609,6 +65681,18 @@
             "for": 87,
             "against": 89,
             "diff": -2,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Valencia Basket",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 100,
+            "against": 105,
+            "diff": -5,
             "points": 0,
             "highlight": null
           },
@@ -65728,6 +65812,18 @@
             "highlight": null
           },
           {
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 85,
+            "against": 73,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 1,
@@ -65736,6 +65832,18 @@
             "for": 101,
             "against": 93,
             "diff": 8,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 83,
+            "against": 78,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -67691,6 +67799,18 @@
         "rows": [
           {
             "team": "Bakken Bears",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Benfica",
             "played": 0,
             "win": 0,
             "draw": null,
