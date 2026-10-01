@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T20:33:26+00:00",
+  "updated": "2026-10-01T20:43:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -26991,17 +26991,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -27983,17 +27972,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31046,17 +31024,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -64815,18 +64782,6 @@
       "Bundesliga": {
         "rows": [
           {
-            "team": "Bayern Munich",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 203,
-            "against": 133,
-            "diff": 70,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Baskets Oldenburg",
             "played": 3,
             "win": 3,
@@ -64839,14 +64794,14 @@
             "highlight": null
           },
           {
-            "team": "Basketball Lowen Braunschweig",
+            "team": "Bayern Munich",
             "played": 2,
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 199,
-            "against": 189,
-            "diff": 10,
+            "for": 203,
+            "against": 133,
+            "diff": 70,
             "points": 4,
             "highlight": null
           },
@@ -64863,14 +64818,14 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 3,
+            "team": "Basketball Lowen Braunschweig",
+            "played": 2,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 253,
-            "against": 250,
-            "diff": 3,
+            "loss": 0,
+            "for": 199,
+            "against": 189,
+            "diff": 10,
             "points": 4,
             "highlight": null
           },
@@ -64899,6 +64854,18 @@
             "highlight": null
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 253,
+            "against": 250,
+            "diff": 3,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Alba Berlin",
             "played": 3,
             "win": 2,
@@ -64911,6 +64878,30 @@
             "highlight": null
           },
           {
+            "team": "Mitteldeutscher",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 230,
+            "against": 235,
+            "diff": -5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 240,
+            "against": 261,
+            "diff": -21,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Wurzburg Baskets",
             "played": 2,
             "win": 1,
@@ -64919,18 +64910,6 @@
             "for": 158,
             "against": 144,
             "diff": 14,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 176,
-            "against": 175,
-            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -64947,6 +64926,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 176,
+            "against": 175,
+            "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Brose Bamberg",
             "played": 3,
             "win": 1,
@@ -64955,18 +64946,6 @@
             "for": 276,
             "against": 278,
             "diff": -2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 230,
-            "against": 235,
-            "diff": -5,
             "points": 2,
             "highlight": null
           },
@@ -64995,18 +64974,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 240,
-            "against": 261,
-            "diff": -21,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Phoenix Hagen",
             "played": 3,
             "win": 0,
@@ -65027,7 +64994,7 @@
             "for": 219,
             "against": 280,
             "diff": -61,
-            "points": 1,
+            "points": 0,
             "highlight": null
           }
         ],
@@ -66914,18 +66881,6 @@
             "highlight": null
           },
           {
-            "team": "Olympiacos BC",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 199,
-            "against": 180,
-            "diff": 19,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "BC Dubai",
             "played": 2,
             "win": 2,
@@ -66934,6 +66889,18 @@
             "for": 172,
             "against": 164,
             "diff": 8,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Olympiacos BC",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 293,
+            "against": 276,
+            "diff": 17,
             "points": null,
             "highlight": null
           },
@@ -67047,13 +67014,13 @@
           },
           {
             "team": "Virtus Bologna",
-            "played": 2,
-            "win": 0,
+            "played": 3,
+            "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 153,
-            "against": 165,
-            "diff": -12,
+            "for": 249,
+            "against": 259,
+            "diff": -10,
             "points": null,
             "highlight": null
           },
