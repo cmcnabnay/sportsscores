@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T02:46:33+00:00",
+  "updated": "2026-10-01T02:57:56+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65111,18 +65111,6 @@
       "Group A": {
         "rows": [
           {
-            "team": "Hapoel Jerusalem",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 94,
-            "against": 73,
-            "diff": 21,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Aris Bsa",
             "played": 1,
             "win": 1,
@@ -65179,18 +65167,6 @@
             "for": 81,
             "against": 85,
             "diff": -4,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Le Mans",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 74,
-            "against": 87,
-            "diff": -13,
             "points": 1,
             "highlight": null
           },
@@ -65284,18 +65260,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 72,
-            "against": 104,
-            "diff": -32,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Cluj Napoca",
             "played": 1,
             "win": 0,
@@ -65349,6 +65313,18 @@
             "highlight": null
           },
           {
+            "team": "Dolomiti Energia Trento",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 76,
+            "against": 73,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Neptūnas",
             "played": 1,
             "win": 0,
@@ -65369,18 +65345,6 @@
             "for": 76,
             "against": 84,
             "diff": -8,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 69,
-            "against": 82,
-            "diff": -13,
             "points": 1,
             "highlight": null
           },
