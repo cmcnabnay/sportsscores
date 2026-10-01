@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T19:59:26+00:00",
+  "updated": "2026-10-01T20:10:44+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18633,7 +18633,7 @@
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Iserlohn Roosters",
-      "score": null,
+      "score": "6-1",
       "date": "2026-10-01",
       "time": "17:30",
       "utc": "2026-10-01T17:30:00+00:00",
@@ -34965,6 +34965,17 @@
       "attendance": null
     },
     {
+      "league": "del-2026-27",
+      "home": "Nürnberg Ice Tigers",
+      "away": "ERC Ingolstadt",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "18:30",
+      "utc": "2026-12-10T18:30:00+00:00",
+      "venue": "Arena Nuernberger Versicherung",
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Breogán",
       "away": "Bilbao Basket",
@@ -35105,6 +35116,72 @@
       "time": "16:30",
       "utc": "2026-12-11T16:30:00+00:00",
       "venue": "Vaasa Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "EHC Red Bull München",
+      "away": "Eisbären Berlin",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "SAP Garden",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Kölner Haie",
+      "away": "Augsburger Panther",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "Lanxess Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Schwenningen Wild Wings",
+      "away": "Adler Mannheim",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "Helios Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Iserlohn Roosters",
+      "away": "Pinguins Bremerhaven",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "Eissporthalle Iserlohn",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Krefeld Pinguine",
+      "away": "Löwen Frankfurt",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "Yayla-Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Grizzlys Wolfsburg",
+      "away": "Straubing Tigers",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": "EisArena Wolfsburg",
       "attendance": null
     },
     {
@@ -40993,6 +41070,17 @@
       "attendance": null
     },
     {
+      "league": "del-2026-27",
+      "home": "Grizzlys Wolfsburg",
+      "away": "Iserlohn Roosters",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "18:30",
+      "utc": "2027-01-05T18:30:00+00:00",
+      "venue": "EisArena Wolfsburg",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "San Pablo Burgos",
@@ -41334,6 +41422,17 @@
       "attendance": null
     },
     {
+      "league": "del-2026-27",
+      "home": "EHC Red Bull München",
+      "away": "Adler Mannheim",
+      "score": null,
+      "date": "2027-01-07",
+      "time": "18:30",
+      "utc": "2027-01-07T18:30:00+00:00",
+      "venue": "SAP Garden",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "KK Partizan Mozzart Bet",
@@ -41496,6 +41595,17 @@
       "time": "18:30",
       "utc": "2027-01-08T18:30:00+00:00",
       "venue": "Yayla-Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Eisbären Berlin",
+      "away": "Schwenningen Wild Wings",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "18:30",
+      "utc": "2027-01-08T18:30:00+00:00",
+      "venue": "Uber Arena",
       "attendance": null
     },
     {
@@ -51088,6 +51198,39 @@
       "time": "18:30",
       "utc": "2027-03-05T18:30:00+00:00",
       "venue": "Eissporthalle Iserlohn",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Kölner Haie",
+      "away": "ERC Ingolstadt",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "18:30",
+      "utc": "2027-03-05T18:30:00+00:00",
+      "venue": "Lanxess Arena",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Pinguins Bremerhaven",
+      "away": "Augsburger Panther",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "18:30",
+      "utc": "2027-03-05T18:30:00+00:00",
+      "venue": "Eisarena Bremerhaven",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Schwenningen Wild Wings",
+      "away": "Straubing Tigers",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "18:30",
+      "utc": "2027-03-05T18:30:00+00:00",
+      "venue": "Helios Arena",
       "attendance": null
     },
     {
@@ -64873,6 +65016,18 @@
             "highlight": null
           },
           {
+            "team": "Science City Jena",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 226,
+            "against": 246,
+            "diff": -20,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Hamburg Towers",
             "played": 3,
             "win": 1,
@@ -64880,18 +65035,6 @@
             "loss": 2,
             "for": 240,
             "against": 261,
-            "diff": -21,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Science City Jena",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 225,
-            "against": 246,
             "diff": -21,
             "points": 2,
             "highlight": null
@@ -64915,8 +65058,8 @@
             "draw": null,
             "loss": 3,
             "for": 219,
-            "against": 279,
-            "diff": -60,
+            "against": 280,
+            "diff": -61,
             "points": 1,
             "highlight": null
           }
