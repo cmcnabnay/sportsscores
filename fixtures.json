@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T16:27:29+00:00",
+  "updated": "2026-10-01T16:37:29+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64672,6 +64672,18 @@
             "highlight": null
           },
           {
+            "team": "Wurzburg Baskets",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 158,
+            "against": 144,
+            "diff": 14,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Basketball Lowen Braunschweig",
             "played": 2,
             "win": 2,
@@ -64860,7 +64872,7 @@
           },
           {
             "team": "CSKA Moscow",
-            "played": 10,
+            "played": 11,
             "win": 7,
             "draw": null,
             "loss": 3,
@@ -64884,7 +64896,7 @@
           },
           {
             "team": "Torpedo Nizhny Novgorod",
-            "played": 9,
+            "played": 10,
             "win": 6,
             "draw": null,
             "loss": 3,
@@ -64920,7 +64932,7 @@
           },
           {
             "team": "Dynamo Moscow",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
             "loss": 5,
@@ -64932,7 +64944,7 @@
           },
           {
             "team": "Dinamo Minsk",
-            "played": 9,
+            "played": 10,
             "win": 3,
             "draw": null,
             "loss": 2,
@@ -64944,13 +64956,13 @@
           },
           {
             "team": "Severstal Cherepovets",
-            "played": 9,
+            "played": 10,
             "win": 4,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 16,
-            "against": 21,
-            "diff": -5,
+            "against": 22,
+            "diff": -6,
             "points": 9,
             "highlight": null
           },
@@ -65068,6 +65080,18 @@
             "highlight": null
           },
           {
+            "team": "Admiral Vladivostok",
+            "played": 10,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 18,
+            "against": 20,
+            "diff": -2,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Traktor Chelyabinsk",
             "played": 9,
             "win": 4,
@@ -65089,18 +65113,6 @@
             "against": 24,
             "diff": -8,
             "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Admiral Vladivostok",
-            "played": 9,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 17,
-            "against": 20,
-            "diff": -3,
-            "points": 6,
             "highlight": null
           },
           {
