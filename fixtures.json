@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T08:31:28+00:00",
+  "updated": "2026-10-01T08:41:27+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18685,7 +18685,7 @@
       "league": "npc-2026",
       "home": "Otago",
       "away": "Auckland",
-      "score": null,
+      "score": "45-42",
       "date": "2026-10-01",
       "time": "19:10",
       "utc": "2026-10-01T06:10:00+00:00",
@@ -66091,18 +66091,6 @@
             "for": 85,
             "against": 97,
             "diff": -12,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Boulazac",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 79,
-            "against": 81,
-            "diff": -2,
             "points": 0,
             "highlight": null
           },
