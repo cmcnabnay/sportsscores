@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T09:03:27+00:00",
+  "updated": "2026-10-01T09:13:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66095,6 +66095,18 @@
             "highlight": null
           },
           {
+            "team": "Boulazac",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 79,
+            "against": 81,
+            "diff": -2,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Limoges",
             "played": 1,
             "win": 0,
@@ -67383,18 +67395,6 @@
     "fiba-europe-cup-2026-27": {
       "Group A": {
         "rows": [
-          {
-            "team": "TBB Trier",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
           {
             "team": "BK Opava",
             "played": 0,
