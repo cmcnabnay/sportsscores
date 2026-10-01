@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T20:43:22+00:00",
+  "updated": "2026-10-01T21:12:27+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65113,18 +65113,6 @@
             "highlight": null
           },
           {
-            "team": "Lada Togliatti",
-            "played": 11,
-            "win": 1,
-            "draw": null,
-            "loss": 7,
-            "for": 20,
-            "against": 45,
-            "diff": -25,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "HC Sochi",
             "played": 10,
             "win": 2,
@@ -65198,18 +65186,6 @@
             "for": 38,
             "against": 29,
             "diff": 9,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 10,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 27,
-            "against": 29,
-            "diff": -2,
             "points": 10,
             "highlight": null
           },
@@ -65910,6 +65886,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 87,
+            "against": 63,
+            "diff": 24,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Virtus Bologna",
             "played": 1,
             "win": 1,
@@ -65954,6 +65942,18 @@
             "for": 85,
             "against": 73,
             "diff": 12,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Derthona Basket Tortona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 101,
+            "against": 93,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -66014,6 +66014,18 @@
             "for": 93,
             "against": 101,
             "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Cantù",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 85,
+            "diff": -12,
             "points": 0,
             "highlight": null
           },
@@ -66929,18 +66941,6 @@
             "highlight": null
           },
           {
-            "team": "Kauno Žalgiris",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 174,
-            "against": 170,
-            "diff": 4,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Barça Basket",
             "played": 2,
             "win": 1,
@@ -66989,6 +66989,18 @@
             "highlight": null
           },
           {
+            "team": "Kauno Žalgiris",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 252,
+            "against": 252,
+            "diff": 0,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Anadolu Efes",
             "played": 3,
             "win": 1,
@@ -67025,6 +67037,18 @@
             "highlight": null
           },
           {
+            "team": "Paris Basketball",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 233,
+            "against": 261,
+            "diff": -28,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Maccabi Tel Aviv",
             "played": 2,
             "win": 0,
@@ -67033,18 +67057,6 @@
             "for": 167,
             "against": 193,
             "diff": -26,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 151,
-            "against": 183,
-            "diff": -32,
             "points": null,
             "highlight": null
           },
