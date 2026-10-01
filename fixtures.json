@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T20:21:26+00:00",
+  "updated": "2026-10-01T20:33:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -17668,7 +17668,7 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Mitteldeutscher",
-      "score": "77-74",
+      "score": "77-72",
       "date": "2026-09-27",
       "time": "13:00",
       "utc": "2026-09-27T13:00:00+00:00",
@@ -18644,7 +18644,7 @@
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "SC Rasta Vechta",
-      "score": null,
+      "score": "79-71",
       "date": "2026-10-01",
       "time": "18:00",
       "utc": "2026-10-01T18:00:00+00:00",
@@ -18655,7 +18655,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Crvena zvezda",
       "away": "Anadolu Efes",
-      "score": null,
+      "score": "77-72",
       "date": "2026-10-01",
       "time": "18:00",
       "utc": "2026-10-01T18:00:00+00:00",
@@ -18666,7 +18666,7 @@
       "league": "euroleague-2026-27",
       "home": "Virtus Bologna",
       "away": "Olympiacos BC",
-      "score": null,
+      "score": "96-94",
       "date": "2026-10-01",
       "time": "18:30",
       "utc": "2026-10-01T18:30:00+00:00",
@@ -18912,7 +18912,7 @@
       "date": "2026-10-02",
       "time": "18:00",
       "utc": "2026-10-02T18:00:00+00:00",
-      "venue": "BMW Park",
+      "venue": "SAP Garden",
       "attendance": null
     },
     {
@@ -26209,6 +26209,17 @@
       "attendance": null
     },
     {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Skyliners Frankfurt",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "17:30",
+      "utc": "2026-10-30T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Panathinaikos BC",
@@ -26971,6 +26982,17 @@
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "Bayern Munich",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "14:00",
+      "utc": "2026-11-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Science City Jena",
       "score": null,
       "date": "2026-11-01",
       "time": "14:00",
@@ -27961,6 +27983,17 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31013,6 +31046,17 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -36483,17 +36527,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Panathinaikos BC",
-      "away": "KK Crvena zvezda",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "19:15",
-      "utc": "2026-12-16T19:15:00+00:00",
-      "venue": "Telekom Center Athens",
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Porto",
       "away": "Bnei Penlink Herzliya",
@@ -36502,17 +36535,6 @@
       "time": "19:30",
       "utc": "2026-12-16T19:30:00+00:00",
       "venue": "Dragão Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Kosner Baskonia",
-      "away": "Barça Basket",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "19:30",
-      "utc": "2026-12-16T19:30:00+00:00",
-      "venue": "Fernando Buesa Arena",
       "attendance": null
     },
     {
@@ -36546,28 +36568,6 @@
       "time": "16:30",
       "utc": "2026-12-17T16:30:00+00:00",
       "venue": "Oulun Energia Areena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Fenerbahçe Tarfin",
-      "away": "Maccabi Tel Aviv",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "17:45",
-      "utc": "2026-12-17T17:45:00+00:00",
-      "venue": "Ulker Sports Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "Kauno Žalgiris",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "18:00",
-      "utc": "2026-12-17T18:00:00+00:00",
-      "venue": "Shlomo Group Arena",
       "attendance": null
     },
     {
@@ -40825,6 +40825,17 @@
       "time": "18:00",
       "utc": "2027-01-03T18:00:00+00:00",
       "venue": "EisArena Wolfsburg",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "TBB Trier",
+      "away": "Bayern Munich",
+      "score": null,
+      "date": "2027-01-04",
+      "time": "19:00",
+      "utc": "2027-01-04T19:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -51267,28 +51278,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Barça Basket",
-      "away": "Real Madrid",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "19:30",
-      "utc": "2027-03-05T19:30:00+00:00",
-      "venue": "Palau Blaugrana",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "EA7 Emporio Armani Milano",
-      "away": "Anadolu Efes",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "19:30",
-      "utc": "2027-03-05T19:30:00+00:00",
-      "venue": "Unipol Forum",
-      "attendance": null
-    },
-    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "Tappara Tampere",
@@ -51946,28 +51935,6 @@
       "time": "16:30",
       "utc": "2027-03-09T16:30:00+00:00",
       "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "LDLC ASVEL Lyon-Villeurbanne",
-      "score": null,
-      "date": "2027-03-09",
-      "time": "17:00",
-      "utc": "2027-03-09T17:00:00+00:00",
-      "venue": "BJK Akatlar Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Kauno Žalgiris",
-      "away": "Barça Basket",
-      "score": null,
-      "date": "2027-03-09",
-      "time": "18:00",
-      "utc": "2027-03-09T18:00:00+00:00",
-      "venue": "Žalgirio Arena",
       "attendance": null
     },
     {
