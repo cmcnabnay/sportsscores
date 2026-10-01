@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T15:26:16+00:00",
+  "updated": "2026-10-01T15:37:27+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64859,6 +64859,18 @@
       "Western Conference": {
         "rows": [
           {
+            "team": "Lokomotiv Yaroslavl",
+            "played": 11,
+            "win": 9,
+            "draw": null,
+            "loss": 2,
+            "for": 27,
+            "against": 18,
+            "diff": 9,
+            "points": 18,
+            "highlight": null
+          },
+          {
             "team": "CSKA Moscow",
             "played": 10,
             "win": 7,
@@ -65168,18 +65180,6 @@
             "against": 84,
             "diff": 2,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Derthona Basket Tortona",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 84,
-            "against": 86,
-            "diff": -2,
-            "points": 1,
             "highlight": null
           },
           {
