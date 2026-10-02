@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T19:20:41+00:00",
+  "updated": "2026-10-02T19:30:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64898,18 +64898,6 @@
             "highlight": null
           },
           {
-            "team": "Wurzburg Baskets",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 210,
-            "against": 190,
-            "diff": 20,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Ratiopharm Ulm",
             "played": 3,
             "win": 2,
@@ -64946,6 +64934,18 @@
             "highlight": null
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 308,
+            "against": 307,
+            "diff": 1,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 2,
             "win": 1,
@@ -64955,18 +64955,6 @@
             "against": 175,
             "diff": 1,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 299,
-            "against": 302,
-            "diff": -3,
-            "points": 5,
             "highlight": null
           },
           {
@@ -66225,18 +66213,6 @@
             "highlight": null
           },
           {
-            "team": "Chorale de Roanne",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 141,
-            "against": 136,
-            "diff": 5,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Paris Basketball",
             "played": 1,
             "win": 1,
@@ -66249,14 +66225,26 @@
             "highlight": null
           },
           {
+            "team": "Chorale de Roanne",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 144,
+            "against": 142,
+            "diff": 2,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Nanterre",
             "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 135,
-            "against": 124,
-            "diff": 11,
+            "loss": 0,
+            "for": 141,
+            "against": 127,
+            "diff": 14,
             "points": 1,
             "highlight": null
           },
@@ -66285,6 +66273,18 @@
             "highlight": null
           },
           {
+            "team": "Cholet",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 85,
+            "against": 97,
+            "diff": -12,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Boulazac",
             "played": 1,
             "win": 0,
@@ -66305,6 +66305,30 @@
             "for": 74,
             "against": 82,
             "diff": -8,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Nancy",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 78,
+            "diff": -5,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Strasbourg",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 72,
+            "against": 81,
+            "diff": -9,
             "points": 0,
             "highlight": null
           },
