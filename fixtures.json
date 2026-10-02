@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T01:11:23+00:00",
+  "updated": "2026-10-02T02:59:38+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65687,6 +65687,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Barcelona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 119,
+            "against": 101,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bilbao Basket",
             "played": 1,
             "win": 1,
@@ -66153,18 +66165,6 @@
             "for": 81,
             "against": 72,
             "diff": 9,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Chorale de Roanne",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 81,
-            "against": 79,
-            "diff": 2,
             "points": 0,
             "highlight": null
           },
