@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T03:52:25+00:00",
+  "updated": "2026-10-02T04:03:01+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65077,18 +65077,6 @@
             "highlight": null
           },
           {
-            "team": "Dynamo Moscow",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 20,
-            "against": 31,
-            "diff": -11,
-            "points": 11,
-            "highlight": null
-          },
-          {
             "team": "Dinamo Minsk",
             "played": 10,
             "win": 3,
@@ -65246,18 +65234,6 @@
             "for": 19,
             "against": 25,
             "diff": -6,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 16,
-            "against": 24,
-            "diff": -8,
             "points": 8,
             "highlight": null
           },
@@ -65910,6 +65886,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 87,
+            "against": 63,
+            "diff": 24,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Virtus Bologna",
             "played": 1,
             "win": 1,
@@ -65930,6 +65918,18 @@
             "for": 94,
             "against": 75,
             "diff": 19,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Treviso Basket",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 109,
+            "against": 94,
+            "diff": 15,
             "points": 2,
             "highlight": null
           },
@@ -66153,6 +66153,18 @@
             "for": 81,
             "against": 79,
             "diff": 2,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Nanterre",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 78,
+            "against": 64,
+            "diff": 14,
             "points": 0,
             "highlight": null
           },
