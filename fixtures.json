@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T19:30:14+00:00",
+  "updated": "2026-10-02T19:40:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18822,11 +18822,11 @@
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Barça Basket",
-      "score": null,
+      "score": "82-95",
       "date": "2026-10-02",
       "time": "17:00",
       "utc": "2026-10-02T17:00:00+00:00",
-      "venue": "BJK Akatlar Arena",
+      "venue": "Basketball Development Centre",
       "attendance": null
     },
     {
@@ -36562,6 +36562,17 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Panathinaikos BC",
+      "away": "KK Crvena zvezda",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "19:15",
+      "utc": "2026-12-16T19:15:00+00:00",
+      "venue": "Telekom Center Athens",
+      "attendance": null
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Porto",
       "away": "Bnei Penlink Herzliya",
@@ -36570,6 +36581,17 @@
       "time": "19:30",
       "utc": "2026-12-16T19:30:00+00:00",
       "venue": "Dragão Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kosner Baskonia",
+      "away": "Barça Basket",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "19:30",
+      "utc": "2026-12-16T19:30:00+00:00",
+      "venue": "Fernando Buesa Arena",
       "attendance": null
     },
     {
@@ -36603,6 +36625,28 @@
       "time": "16:30",
       "utc": "2026-12-17T16:30:00+00:00",
       "venue": "Oulun Energia Areena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Maccabi Tel Aviv",
+      "score": null,
+      "date": "2026-12-17",
+      "time": "17:45",
+      "utc": "2026-12-17T17:45:00+00:00",
+      "venue": "Ulker Sports Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Kauno Žalgiris",
+      "score": null,
+      "date": "2026-12-17",
+      "time": "18:00",
+      "utc": "2026-12-17T18:00:00+00:00",
+      "venue": "Shlomo Group Arena",
       "attendance": null
     },
     {
@@ -51313,6 +51357,28 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Barça Basket",
+      "away": "Real Madrid",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "19:30",
+      "utc": "2027-03-05T19:30:00+00:00",
+      "venue": "Palau Blaugrana",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "EA7 Emporio Armani Milano",
+      "away": "Anadolu Efes",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "19:30",
+      "utc": "2027-03-05T19:30:00+00:00",
+      "venue": "Unipol Forum",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "Tappara Tampere",
@@ -51970,6 +52036,28 @@
       "time": "16:30",
       "utc": "2027-03-09T16:30:00+00:00",
       "venue": "LahiTapiola Areena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Beşiktaş JK",
+      "away": "LDLC ASVEL Lyon-Villeurbanne",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "17:00",
+      "utc": "2027-03-09T17:00:00+00:00",
+      "venue": "BJK Akatlar Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kauno Žalgiris",
+      "away": "Barça Basket",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "18:00",
+      "utc": "2027-03-09T18:00:00+00:00",
+      "venue": "Žalgirio Arena",
       "attendance": null
     },
     {
@@ -64886,6 +64974,18 @@
             "highlight": null
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 317,
+            "against": 312,
+            "diff": 5,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "TBB Trier",
             "played": 3,
             "win": 2,
@@ -64934,18 +65034,6 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 308,
-            "against": 307,
-            "diff": 1,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Skyliners Frankfurt",
             "played": 2,
             "win": 1,
@@ -64955,6 +65043,18 @@
             "against": 175,
             "diff": 1,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Wurzburg Baskets",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 220,
+            "against": 208,
+            "diff": 12,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66213,6 +66313,18 @@
             "highlight": null
           },
           {
+            "team": "Chorale de Roanne",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 149,
+            "against": 145,
+            "diff": 4,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 1,
             "win": 1,
@@ -66225,26 +66337,14 @@
             "highlight": null
           },
           {
-            "team": "Chorale de Roanne",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 144,
-            "against": 142,
-            "diff": 2,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Nanterre",
             "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 141,
-            "against": 127,
-            "diff": 14,
+            "loss": 1,
+            "for": 144,
+            "against": 132,
+            "diff": 12,
             "points": 1,
             "highlight": null
           },
@@ -66750,6 +66850,18 @@
             "highlight": null
           },
           {
+            "team": "Eisbären Berlin",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 19,
+            "against": 11,
+            "diff": 8,
+            "points": 11,
+            "highlight": null
+          },
+          {
             "team": "Adler Mannheim",
             "played": 6,
             "win": 3,
@@ -66774,26 +66886,14 @@
             "highlight": null
           },
           {
-            "team": "Eisbären Berlin",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 17,
-            "against": 11,
-            "diff": 6,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Löwen Frankfurt",
-            "played": 4,
+            "played": 5,
             "win": 2,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 13,
-            "against": 7,
-            "diff": 6,
+            "against": 9,
+            "diff": 4,
             "points": 7,
             "highlight": null
           },
