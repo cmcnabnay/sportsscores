@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T21:07:34+00:00",
+  "updated": "2026-10-03T21:17:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -18943,7 +18943,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "Nanterre",
-      "score": null,
+      "score": "93-83",
       "date": "2026-10-02",
       "time": "18:00",
       "utc": "2026-10-02T18:00:00+00:00",
@@ -19130,34 +19130,37 @@
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Shanghai Dragons",
-      "score": null,
+      "score": "2-1",
       "date": "2026-10-03",
       "time": "14:00",
       "utc": "2026-10-03T14:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
       "home": "CSKA Moscow",
       "away": "Dynamo Moscow",
-      "score": null,
+      "score": "4-3",
       "date": "2026-10-03",
       "time": "14:00",
       "utc": "2026-10-03T14:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "6-5",
       "date": "2026-10-03",
       "time": "14:00",
       "utc": "2026-10-03T14:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
@@ -19276,7 +19279,7 @@
       "league": "khl-2026-27",
       "home": "Dinamo Minsk",
       "away": "Lokomotiv Yaroslavl",
-      "score": null,
+      "score": "4-3",
       "date": "2026-10-03",
       "time": "14:10",
       "utc": "2026-10-03T14:10:00+00:00",
@@ -19364,7 +19367,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Strasbourg",
       "away": "Boulazac",
-      "score": null,
+      "score": "87-75",
       "date": "2026-10-03",
       "time": "16:00",
       "utc": "2026-10-03T16:00:00+00:00",
@@ -19375,7 +19378,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Nancy",
       "away": "Cholet",
-      "score": null,
+      "score": "76-85",
       "date": "2026-10-03",
       "time": "16:00",
       "utc": "2026-10-03T16:00:00+00:00",
@@ -19463,7 +19466,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Torpedo Nizhny Novgorod",
-      "score": null,
+      "score": "0-6",
       "date": "2026-10-03",
       "time": "16:30",
       "utc": "2026-10-03T16:30:00+00:00",
@@ -19474,7 +19477,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Pau-orthez",
       "away": "Dijon",
-      "score": null,
+      "score": "61-89",
       "date": "2026-10-03",
       "time": "16:30",
       "utc": "2026-10-03T16:30:00+00:00",
@@ -19485,7 +19488,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Limoges",
       "away": "Saint Quentin",
-      "score": null,
+      "score": "92-75",
       "date": "2026-10-03",
       "time": "16:30",
       "utc": "2026-10-03T16:30:00+00:00",
@@ -19540,7 +19543,7 @@
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Treviso Basket",
-      "score": null,
+      "score": "90-93",
       "date": "2026-10-03",
       "time": "18:00",
       "utc": "2026-10-03T18:00:00+00:00",
@@ -19551,7 +19554,7 @@
       "league": "lega-a-2026-27",
       "home": "Napoli Basket",
       "away": "Pallacanestro Reggiana",
-      "score": null,
+      "score": "99-93",
       "date": "2026-10-03",
       "time": "18:30",
       "utc": "2026-10-03T18:30:00+00:00",
@@ -19562,7 +19565,7 @@
       "league": "lnb-elite-2026-27",
       "home": "JL Bourg",
       "away": "Chalon-sur-Saône",
-      "score": null,
+      "score": "90-77",
       "date": "2026-10-03",
       "time": "18:30",
       "utc": "2026-10-03T18:30:00+00:00",
@@ -20076,6 +20079,28 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Avtomobilist Yekaterinburg",
+      "away": "Avangard Omsk",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "14:00",
+      "utc": "2026-10-06T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Amur Khabarovsk",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "14:00",
+      "utc": "2026-10-06T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "TPS Turku",
@@ -20139,6 +20164,17 @@
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
       "venue": "Holon Toto Hall",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "SKA St. Petersburg",
+      "away": "Severstal Cherepovets",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "16:30",
+      "utc": "2026-10-06T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -23233,6 +23269,17 @@
       "attendance": null
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Limoges",
+      "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "17:00",
+      "utc": "2026-10-17T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "MoraBanc Andorra",
       "away": "Breogán",
@@ -23251,17 +23298,6 @@
       "date": "2026-10-17",
       "time": "17:30",
       "utc": "2026-10-17T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Limoges",
-      "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2026-10-17",
-      "time": "18:30",
-      "utc": "2026-10-17T18:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27062,17 +27098,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28054,17 +28079,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31117,17 +31131,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -65903,6 +65906,30 @@
             "highlight": null
           },
           {
+            "team": "Breogán",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 211,
+            "against": 199,
+            "diff": 12,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 84,
+            "against": 77,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Monbus Obradoiro",
             "played": 1,
             "win": 1,
@@ -66064,9 +66091,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 181,
+            "for": 187,
             "against": 208,
-            "diff": -27,
+            "diff": -21,
             "points": 1,
             "highlight": null
           }
