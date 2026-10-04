@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T21:44:45+00:00",
+  "updated": "2026-10-04T21:53:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -27178,17 +27178,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28170,17 +28159,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31233,17 +31211,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -68939,7 +68906,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-04T21:41:18.658589+00:00",
-    "torpedo": "2026-10-04T21:41:18.658589+00:00"
+    "velez": "2026-10-04T21:43:06.934249+00:00",
+    "torpedo": "2026-10-04T21:43:06.934249+00:00"
   }
 }
