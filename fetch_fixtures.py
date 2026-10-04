@@ -805,6 +805,17 @@ LEAGUES = {
         "parser": "scores365",
         "scores365_competition_id": 329,
         "scores365_season_num": 25,
+        # 365Scores returns the whole regular season here (unlike the
+        # KHL's rolling window), so unplayed games it stops listing are
+        # pruned - see full_season in run(). Without this, a renamed club
+        # (ASK Riga -> Rigas Zelli, Balkan Botevgrad -> BC Balkan
+        # Botevgrad) left its old-name fixtures behind as scoreless ghosts.
+        "full_season": True,
+        # AS Monaco withdrew and KK Bosna took their slot (2026-09-30),
+        # but 365Scores still lists Monaco for not-yet-played games.
+        # League-scoped (unlike TEAM_NAME_ALIASES) so a real Monaco game
+        # in another competition is never renamed.
+        "team_aliases": {"as monaco": "KK Bosna"},
         # 4 regular-season groups - split per group automatically, same
         # as bcl-2026-27's (see fetch_scores365_standings_groups).
         "standings": {"scores365_competition_id": 329},
@@ -1178,12 +1189,18 @@ def parse_scores365_matches(games, league_key):
     name, official name instead of the common one), and without this the
     same real fixture reads as two different teams depending on which
     source last wrote it."""
+    league_aliases = (LEAGUES.get(league_key) or {}).get("team_aliases", {})
+
+    def team_name(raw):
+        name = canonicalize_team_name(raw)
+        return league_aliases.get((name or "").strip().lower(), name)
+
     matches = []
     for g in games:
         home_c = g.get("homeCompetitor") or {}
         away_c = g.get("awayCompetitor") or {}
-        home = canonicalize_team_name(home_c.get("name"))
-        away = canonicalize_team_name(away_c.get("name"))
+        home = team_name(home_c.get("name"))
+        away = team_name(away_c.get("name"))
         if not home or not away:
             continue
 
@@ -1313,6 +1330,14 @@ SOFASCORE_API_URL = "https://www.sofascore.com/api/v1"
 # Parsers whose fetch returns a league's entire season (not a rolling
 # window like the KHL's on 365Scores) - see the pruning in run().
 FULL_SEASON_PARSERS = {"sofascore"}
+
+
+def is_full_season(cfg):
+    """True if this league's fetch returns its entire season - every
+    FULL_SEASON_PARSERS league, plus any other league that opts in with
+    "full_season": True (e.g. a 365Scores competition whose feed, unlike
+    the KHL's, isn't a rolling window)."""
+    return cfg.get("parser") in FULL_SEASON_PARSERS or bool(cfg.get("full_season"))
 SOFASCORE_MAX_RETRIES = 3
 # "last"/"next" event pages - a hockey regular season is well under 20
 # pages (30 events each) in either direction; this is just a runaway guard.
@@ -4432,8 +4457,10 @@ ATTENDANCE_TRACKED_LEAGUES = {
 # attendance figure before giving up on it - some leagues' pages just
 # never end up getting the attendance filled in for a given match at all,
 # and there's no point calling the API indefinitely on the strength of a
-# number that's never coming.
-ATTENDANCE_PENDING_WINDOW = timedelta(days=3)
+# number that's never coming. Was 3 days, but CFL team pages routinely
+# get attendance added later than that (Hamilton vs Montreal 2026-09-18,
+# Winnipeg vs Toronto and BC vs Saskatchewan 2026-09-25 all missed it).
+ATTENDANCE_PENDING_WINDOW = timedelta(days=14)
 
 
 def match_needs_attendance_check(m, now):
@@ -5517,7 +5544,7 @@ def prune_stale_rescheduled_matches(data):
         # nothing to guess - and a genuine back-to-back at the same venue
         # (Liiga: Vaasan Sport vs SaiPa on 2026-10-23 AND 2026-10-24)
         # would otherwise be collapsed into one game.
-        if (LEAGUES.get(m.get("league")) or {}).get("parser") in FULL_SEASON_PARSERS:
+        if is_full_season(LEAGUES.get(m.get("league")) or {}):
             continue
         key = (m.get("league"), m.get("home"), m.get("away"))
         groups.setdefault(key, []).append(m)
@@ -5655,7 +5682,9 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         # forced by an empty cache/--force happened at all.
         pending = [m for m in cached if match_needs_score_check(m, now)]
         try:
-            fresh_matches = fetch_and_parse(cfg, key, cached=cached, now=now)
+            # now=None tells per-page skip logic (CFL's team pages) to
+            # fetch everything, so --force really re-checks the whole league.
+            fresh_matches = fetch_and_parse(cfg, key, cached=cached, now=None if force else now)
             if not fresh_matches:
                 print("  !! no matches parsed - the page's match-box markup may differ, "
                       "check LEAGUES config / page name", file=sys.stderr)
@@ -5665,7 +5694,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
             refreshed = sum(1 for ident in fresh_by_ident if ident in stored_idents)
             added = sum(1 for ident in fresh_by_ident if ident not in stored_idents)
 
-            full_season = cfg.get("parser") in FULL_SEASON_PARSERS
+            full_season = is_full_season(cfg)
             merged = merge_league_matches(cached, fresh_matches, detect_reschedules=not full_season)
             if full_season and fresh_matches:
                 # This source returns the WHOLE season every fetch, so an
