@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T14:16:04+00:00",
+  "updated": "2026-10-04T14:26:59+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64599,7 +64599,7 @@
             "for": 192,
             "against": 129,
             "diff": 63,
-            "points": 14,
+            "points": 15,
             "highlight": null
           },
           {
@@ -64623,7 +64623,7 @@
             "for": 116,
             "against": 119,
             "diff": -3,
-            "points": 12,
+            "points": 13,
             "highlight": null
           },
           {
@@ -64639,18 +64639,6 @@
             "highlight": null
           },
           {
-            "team": "Montpellier Herault",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 113,
-            "against": 92,
-            "diff": 21,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "Racing 92",
             "played": 5,
             "win": 2,
@@ -64659,7 +64647,7 @@
             "for": 128,
             "against": 167,
             "diff": -39,
-            "points": 9,
+            "points": 10,
             "highlight": null
           },
           {
@@ -64671,6 +64659,18 @@
             "for": 117,
             "against": 136,
             "diff": -19,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Montpellier Herault",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 113,
+            "against": 92,
+            "diff": 21,
             "points": 9,
             "highlight": null
           },
@@ -64695,7 +64695,7 @@
             "for": 100,
             "against": 118,
             "diff": -18,
-            "points": 8,
+            "points": 9,
             "highlight": null
           },
           {
@@ -64719,7 +64719,7 @@
             "for": 105,
             "against": 155,
             "diff": -50,
-            "points": 0,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -65061,9 +65061,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 278,
-            "against": 175,
-            "diff": 103,
+            "for": 292,
+            "against": 184,
+            "diff": 108,
             "points": 6,
             "highlight": null
           },
@@ -65085,9 +65085,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 290,
-            "against": 298,
-            "diff": -8,
+            "for": 299,
+            "against": 312,
+            "diff": -13,
             "points": 7,
             "highlight": null
           },
@@ -65112,18 +65112,6 @@
             "for": 241,
             "against": 220,
             "diff": 21,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 225,
-            "against": 223,
-            "diff": 2,
             "points": 4,
             "highlight": null
           },
@@ -65212,6 +65200,18 @@
             "highlight": null
           },
           {
+            "team": "Skyliners Frankfurt",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 235,
+            "against": 235,
+            "diff": 0,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Bv Chemnitz 99",
             "played": 3,
             "win": 1,
@@ -65236,6 +65236,18 @@
             "highlight": null
           },
           {
+            "team": "Phoenix Hagen",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 323,
+            "against": 348,
+            "diff": -25,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Hamburg Towers",
             "played": 4,
             "win": 1,
@@ -65245,18 +65257,6 @@
             "against": 352,
             "diff": -28,
             "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Phoenix Hagen",
-            "played": 4,
-            "win": 0,
-            "draw": null,
-            "loss": 4,
-            "for": 311,
-            "against": 338,
-            "diff": -27,
-            "points": 1,
             "highlight": null
           },
           {
@@ -66244,18 +66244,6 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 118,
-            "against": 114,
-            "diff": 4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Olimpia Milano",
             "played": 1,
             "win": 1,
@@ -66264,6 +66252,18 @@
             "for": 83,
             "against": 79,
             "diff": 4,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Derthona Basket Tortona",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 128,
+            "against": 125,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -66285,9 +66285,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 115,
-            "against": 126,
-            "diff": -11,
+            "for": 126,
+            "against": 136,
+            "diff": -10,
             "points": 2,
             "highlight": null
           },
@@ -66969,26 +66969,26 @@
         "rows": [
           {
             "team": "Nürnberg Ice Tigers",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 24,
-            "against": 10,
-            "diff": 14,
+            "loss": 2,
+            "for": 25,
+            "against": 14,
+            "diff": 11,
             "points": 16,
             "highlight": null
           },
           {
             "team": "Eisbären Berlin",
-            "played": 5,
-            "win": 4,
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 19,
-            "against": 11,
-            "diff": 8,
-            "points": 11,
+            "for": 23,
+            "against": 12,
+            "diff": 11,
+            "points": 14,
             "highlight": null
           },
           {
@@ -67000,6 +67000,18 @@
             "for": 22,
             "against": 17,
             "diff": 5,
+            "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Straubing Tigers",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 20,
+            "against": 18,
+            "diff": 2,
             "points": 11,
             "highlight": null
           },
@@ -67064,18 +67076,6 @@
             "highlight": null
           },
           {
-            "team": "Straubing Tigers",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 16,
-            "against": 16,
-            "diff": 0,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Löwen Frankfurt",
             "played": 6,
             "win": 2,
@@ -67113,13 +67113,13 @@
           },
           {
             "team": "Schwenningen Wild Wings",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 9,
-            "against": 25,
-            "diff": -16,
+            "loss": 5,
+            "for": 11,
+            "against": 29,
+            "diff": -18,
             "points": 2,
             "highlight": null
           },
