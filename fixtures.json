@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T16:58:12+00:00",
+  "updated": "2026-10-04T17:05:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19810,7 +19810,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Gravelines",
       "away": "ASVEL Villeurbanne",
-      "score": null,
+      "score": "65-70",
       "date": "2026-10-04",
       "time": "14:30",
       "utc": "2026-10-04T14:30:00+00:00",
@@ -20397,17 +20397,6 @@
       "date": "2026-10-07",
       "time": "12:30",
       "utc": "2026-10-07T12:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "khl-2026-27",
-      "home": "Metallurg Magnitogorsk",
-      "away": "Admiral Vladivostok",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "14:00",
-      "utc": "2026-10-07T14:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27189,17 +27178,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28181,17 +28159,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31244,17 +31211,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -65098,8 +65054,8 @@
             "draw": null,
             "loss": 1,
             "for": 358,
-            "against": 308,
-            "diff": 50,
+            "against": 315,
+            "diff": 43,
             "points": 6,
             "highlight": null
           },
@@ -65188,6 +65144,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 295,
+            "against": 307,
+            "diff": -12,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "Science City Jena",
             "played": 4,
             "win": 2,
@@ -65208,18 +65176,6 @@
             "for": 318,
             "against": 334,
             "diff": -16,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 288,
-            "against": 307,
-            "diff": -19,
             "points": 5,
             "highlight": null
           },
@@ -65973,18 +65929,6 @@
       "ACB": {
         "rows": [
           {
-            "team": "Barcelona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 119,
-            "against": 101,
-            "diff": 18,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Breogán",
             "played": 2,
             "win": 2,
@@ -65998,14 +65942,14 @@
           },
           {
             "team": "Basquet Girona",
-            "played": 1,
-            "win": 1,
+            "played": 2,
+            "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 84,
-            "against": 77,
-            "diff": 7,
-            "points": 2,
+            "for": 90,
+            "against": 81,
+            "diff": 9,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66021,15 +65965,15 @@
             "highlight": null
           },
           {
-            "team": "Baskonia Vitoria",
-            "played": 1,
+            "team": "Barcelona",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 98,
-            "against": 97,
-            "diff": 1,
-            "points": 2,
+            "loss": 1,
+            "for": 119,
+            "against": 103,
+            "diff": 16,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66090,6 +66034,30 @@
             "against": 197,
             "diff": 0,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Baskonia Vitoria",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 102,
+            "against": 103,
+            "diff": -1,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 79,
+            "against": 84,
+            "diff": -5,
+            "points": 2,
             "highlight": null
           },
           {
@@ -66165,18 +66133,6 @@
             "highlight": null
           },
           {
-            "team": "UCAM Murcia",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 77,
-            "against": 84,
-            "diff": -7,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
             "played": 2,
             "win": 0,
@@ -66204,18 +66160,6 @@
             "for": 193,
             "against": 168,
             "diff": 25,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 123,
-            "against": 101,
-            "diff": 22,
             "points": 4,
             "highlight": null
           },
@@ -66256,14 +66200,26 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 125,
+            "against": 108,
+            "diff": 17,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Reyer Venezia",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 144,
-            "against": 135,
-            "diff": 9,
+            "for": 148,
+            "against": 138,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -66297,9 +66253,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 141,
-            "against": 142,
-            "diff": -1,
+            "for": 144,
+            "against": 146,
+            "diff": -2,
             "points": 2,
             "highlight": null
           },
@@ -66309,9 +66265,21 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 149,
+            "for": 152,
             "against": 162,
-            "diff": -13,
+            "diff": -10,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 114,
+            "against": 129,
+            "diff": -15,
             "points": 2,
             "highlight": null
           },
@@ -66364,26 +66332,14 @@
             "highlight": null
           },
           {
-            "team": "Maxima Roma",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 107,
-            "against": 127,
-            "diff": -20,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Scafati",
             "played": 2,
             "win": 0,
             "draw": null,
             "loss": 2,
             "for": 135,
-            "against": 167,
-            "diff": -32,
+            "against": 170,
+            "diff": -35,
             "points": 0,
             "highlight": null
           }
@@ -66400,8 +66356,8 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 113,
-            "against": 105,
+            "for": 118,
+            "against": 110,
             "diff": 8,
             "points": 2,
             "highlight": null
@@ -66448,8 +66404,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 86,
-            "against": 83,
+            "for": 91,
+            "against": 88,
             "diff": 3,
             "points": 1,
             "highlight": null
