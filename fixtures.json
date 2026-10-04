@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T14:05:12+00:00",
+  "updated": "2026-10-04T14:16:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65061,9 +65061,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 260,
-            "against": 170,
-            "diff": 90,
+            "for": 278,
+            "against": 175,
+            "diff": 103,
             "points": 6,
             "highlight": null
           },
@@ -65085,9 +65085,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 285,
-            "against": 280,
-            "diff": 5,
+            "for": 290,
+            "against": 298,
+            "diff": -8,
             "points": 7,
             "highlight": null
           },
@@ -65121,8 +65121,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 217,
-            "against": 215,
+            "for": 225,
+            "against": 223,
             "diff": 2,
             "points": 4,
             "highlight": null
@@ -65253,8 +65253,8 @@
             "win": 0,
             "draw": null,
             "loss": 4,
-            "for": 303,
-            "against": 330,
+            "for": 311,
+            "against": 338,
             "diff": -27,
             "points": 1,
             "highlight": null
@@ -66249,8 +66249,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 106,
-            "against": 102,
+            "for": 118,
+            "against": 114,
             "diff": 4,
             "points": 2,
             "highlight": null
@@ -66285,8 +66285,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 103,
-            "against": 114,
+            "for": 115,
+            "against": 126,
             "diff": -11,
             "points": 2,
             "highlight": null
@@ -67040,6 +67040,18 @@
             "highlight": null
           },
           {
+            "team": "Pinguins Bremerhaven",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 13,
+            "against": 14,
+            "diff": -1,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Augsburger Panther",
             "played": 5,
             "win": 3,
@@ -67065,26 +67077,14 @@
           },
           {
             "team": "Löwen Frankfurt",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 13,
-            "against": 9,
-            "diff": 4,
+            "loss": 4,
+            "for": 14,
+            "against": 11,
+            "diff": 3,
             "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Pinguins Bremerhaven",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 11,
-            "against": 13,
-            "diff": -2,
-            "points": 6,
             "highlight": null
           },
           {
