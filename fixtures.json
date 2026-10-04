@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T22:06:06+00:00",
+  "updated": "2026-10-04T22:14:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -6946,6 +6946,17 @@
       "attendance": "5288"
     },
     {
+      "league": "cfl-2026",
+      "home": "Calgary Stampeders",
+      "away": "Toronto Argonauts",
+      "score": "58-36",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "utc": "2026-07-03T01:00:00+00:00",
+      "venue": "McMahon Stadium",
+      "attendance": "19100"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Uganda",
       "away": "Angola",
@@ -6988,17 +6999,6 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Centro de Desportos e Congressos de Matosinhos, Matosinhos",
       "attendance": "1612"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Calgary Stampeders",
-      "away": "Toronto Argonauts",
-      "score": "58-36",
-      "date": "2026-07-02",
-      "time": "19:00",
-      "utc": "2026-07-03T01:00:00+00:00",
-      "venue": "McMahon Stadium",
-      "attendance": "19100"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -7212,6 +7212,17 @@
       "attendance": null
     },
     {
+      "league": "cfl-2026",
+      "home": "Ottawa Redblacks",
+      "away": "Saskatchewan Roughriders",
+      "score": "22-27",
+      "date": "2026-07-03",
+      "time": "19:30",
+      "utc": "2026-07-03T23:30:00+00:00",
+      "venue": "TD Place Stadium",
+      "attendance": "15154"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "Chinese Taipei",
@@ -7243,17 +7254,6 @@
       "utc": "2026-07-03T17:30:00+00:00",
       "venue": "Topsportcentrum, Almere",
       "attendance": "3118"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Ottawa Redblacks",
-      "away": "Saskatchewan Roughriders",
-      "score": "22-27",
-      "date": "2026-07-03",
-      "time": "19:30",
-      "utc": "2026-07-03T23:30:00+00:00",
-      "venue": "TD Place Stadium",
-      "attendance": "15154"
     },
     {
       "league": "nrl-2026",
@@ -7421,17 +7421,6 @@
       "attendance": "125"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Mali",
-      "away": "Uganda",
-      "score": "82-59",
-      "date": "2026-07-04",
-      "time": "16:00",
-      "utc": "2026-07-04T15:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "40"
-    },
-    {
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Edmonton Elks",
@@ -7441,6 +7430,17 @@
       "utc": "2026-07-04T23:00:00+00:00",
       "venue": "Apple Bowl",
       "attendance": "19803"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Mali",
+      "away": "Uganda",
+      "score": "82-59",
+      "date": "2026-07-04",
+      "time": "16:00",
+      "utc": "2026-07-04T15:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "40"
     },
     {
       "league": "nations-championship-2026",
@@ -7861,17 +7861,6 @@
       "attendance": "4603"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Mali",
-      "score": "88-74",
-      "date": "2026-07-05",
-      "time": "19:00",
-      "utc": "2026-07-05T18:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas",
-      "attendance": "6000"
-    },
-    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Winnipeg Blue Bombers",
@@ -7881,6 +7870,17 @@
       "utc": "2026-07-05T23:00:00+00:00",
       "venue": "Hamilton Stadium",
       "attendance": "20189"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "Mali",
+      "score": "88-74",
+      "date": "2026-07-05",
+      "time": "19:00",
+      "utc": "2026-07-05T18:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas",
+      "attendance": "6000"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -12313,17 +12313,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Georgia",
-      "away": "Montenegro",
-      "score": "101-74",
-      "date": "2026-08-28",
-      "time": "19:30",
-      "utc": "2026-08-28T15:30:00+00:00",
-      "venue": "Tbilisi Arena, Tbilisi",
-      "attendance": "8222"
-    },
-    {
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Montreal Alouettes",
@@ -12333,6 +12322,17 @@
       "utc": "2026-08-29T00:30:00+00:00",
       "venue": "Princess Auto Stadium",
       "attendance": "32343"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Georgia",
+      "away": "Montenegro",
+      "score": "101-74",
+      "date": "2026-08-28",
+      "time": "19:30",
+      "utc": "2026-08-28T15:30:00+00:00",
+      "venue": "Tbilisi Arena, Tbilisi",
+      "attendance": "8222"
     },
     {
       "league": "nrl-2026",
@@ -12847,6 +12847,17 @@
       "attendance": "9500"
     },
     {
+      "league": "cfl-2026",
+      "home": "Ottawa Redblacks",
+      "away": "BC Lions",
+      "score": "24-45",
+      "date": "2026-08-30",
+      "time": "19:00",
+      "utc": "2026-08-30T23:00:00+00:00",
+      "venue": "TD Place Stadium",
+      "attendance": "13727"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Tunisia",
       "away": "South Sudan",
@@ -12878,17 +12889,6 @@
       "utc": "2026-08-30T16:00:00+00:00",
       "venue": "Unibet Arena, Tallinn",
       "attendance": "7068"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Ottawa Redblacks",
-      "away": "BC Lions",
-      "score": "24-45",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "utc": "2026-08-30T23:00:00+00:00",
-      "venue": "TD Place Stadium",
-      "attendance": "13727"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13833,17 +13833,6 @@
       "attendance": "25274"
     },
     {
-      "league": "khl-2026-27",
-      "home": "Severstal Cherepovets",
-      "away": "Lada Togliatti",
-      "score": "1-0",
-      "date": "2026-09-07",
-      "time": "16:00",
-      "utc": "2026-09-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Edmonton Elks",
@@ -13853,6 +13842,17 @@
       "utc": "2026-09-07T22:00:00+00:00",
       "venue": "McMahon Stadium",
       "attendance": "25698"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Lada Togliatti",
+      "score": "1-0",
+      "date": "2026-09-07",
+      "time": "16:00",
+      "utc": "2026-09-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "khl-2026-27",
@@ -15570,17 +15570,6 @@
       "attendance": null
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Dziki Warszawa",
-      "away": "Río Breogán",
-      "score": "113-110",
-      "date": "2026-09-19",
-      "time": "15:00",
-      "utc": "2026-09-19T15:00:00+00:00",
-      "venue": "Sports Arena Kolo",
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Toronto Argonauts",
       "away": "Edmonton Elks",
@@ -15590,6 +15579,17 @@
       "utc": "2026-09-19T19:00:00+00:00",
       "venue": "BMO Field",
       "attendance": "15991"
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Dziki Warszawa",
+      "away": "Río Breogán",
+      "score": "113-110",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "utc": "2026-09-19T15:00:00+00:00",
+      "venue": "Sports Arena Kolo",
+      "attendance": null
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -18077,6 +18077,28 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Hapoel Jerusalem",
+      "away": "Rostock Seawolves",
+      "score": "94-73",
+      "date": "2026-09-29",
+      "time": "17:00",
+      "utc": "2026-09-29T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Tofas",
+      "away": "Bv Chemnitz 99",
+      "score": "82-69",
+      "date": "2026-09-29",
+      "time": "17:00",
+      "utc": "2026-09-29T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Skellefteå AIK",
       "away": "Luleå Hockey",
@@ -18107,28 +18129,6 @@
       "time": "17:00",
       "utc": "2026-09-29T17:00:00+00:00",
       "venue": "Winpos arena",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Hapoel Jerusalem",
-      "away": "Rostock Seawolves",
-      "score": "94-73",
-      "date": "2026-09-29",
-      "time": "17:00",
-      "utc": "2026-09-29T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Tofas",
-      "away": "Bv Chemnitz 99",
-      "score": "82-69",
-      "date": "2026-09-29",
-      "time": "17:00",
-      "utc": "2026-09-29T17:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -18220,6 +18220,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Siauliai",
+      "away": "London Lions",
+      "score": "74-71",
+      "date": "2026-09-30",
+      "time": "15:30",
+      "utc": "2026-09-30T15:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "KooKoo Kouvola",
@@ -18253,43 +18264,10 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "London Lions",
-      "score": "74-71",
-      "date": "2026-09-30",
-      "time": "15:30",
-      "utc": "2026-09-30T15:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "khl-2026-27",
       "home": "AK Bars",
       "away": "Barys Astana",
       "score": "4-1",
-      "date": "2026-09-30",
-      "time": "16:00",
-      "utc": "2026-09-30T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Korvpalliklubi Parnu",
-      "away": "Neftchi IK",
-      "score": "73-61",
-      "date": "2026-09-30",
-      "time": "16:00",
-      "utc": "2026-09-30T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Dinamo Bucharest",
-      "away": "KB Peja",
-      "score": "105-83",
       "date": "2026-09-30",
       "time": "16:00",
       "utc": "2026-09-30T16:00:00+00:00",
@@ -18312,6 +18290,28 @@
       "home": "Bahçeşehir Koleji",
       "away": "BC Roma SPQR",
       "score": "91-78",
+      "date": "2026-09-30",
+      "time": "16:00",
+      "utc": "2026-09-30T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Korvpalliklubi Parnu",
+      "away": "Neftchi IK",
+      "score": "73-61",
+      "date": "2026-09-30",
+      "time": "16:00",
+      "utc": "2026-09-30T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Dinamo Bucharest",
+      "away": "KB Peja",
+      "score": "105-83",
       "date": "2026-09-30",
       "time": "16:00",
       "utc": "2026-09-30T16:00:00+00:00",
@@ -19573,17 +19573,6 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Baxi Manresa",
-      "away": "Breogán",
-      "score": "95-101",
-      "date": "2026-10-03",
-      "time": "19:00",
-      "utc": "2026-10-03T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Winnipeg Blue Bombers",
@@ -19593,6 +19582,17 @@
       "utc": "2026-10-03T23:00:00+00:00",
       "venue": "Molson Stadium",
       "attendance": "23035"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Baxi Manresa",
+      "away": "Breogán",
+      "score": "95-101",
+      "date": "2026-10-03",
+      "time": "19:00",
+      "utc": "2026-10-03T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "npc-2026",
@@ -20170,6 +20170,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "KK Budućnost",
+      "away": "Napoli Basket",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "17:00",
+      "utc": "2026-10-06T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Mzt Skopje",
       "away": "Iraklis",
@@ -20184,17 +20195,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Levice",
       "away": "BC Oostende",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "17:00",
-      "utc": "2026-10-06T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "KK Budućnost",
-      "away": "Napoli Basket",
       "score": null,
       "date": "2026-10-06",
       "time": "17:00",
@@ -20280,17 +20280,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Nancy",
-      "away": "BC Vienna",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "18:00",
-      "utc": "2026-10-06T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Slask Wroclaw",
@@ -20305,6 +20294,17 @@
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-10-06",
+      "time": "18:00",
+      "utc": "2026-10-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Nancy",
+      "away": "BC Vienna",
       "score": null,
       "date": "2026-10-06",
       "time": "18:00",
@@ -20423,28 +20423,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "BK Opava",
-      "away": "Split",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "16:00",
-      "utc": "2026-10-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Aek Larnaca",
-      "away": "Wurzburg Baskets",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "16:00",
-      "utc": "2026-10-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Cluj Napoca",
       "away": "Reyer Venezia",
@@ -20459,6 +20437,28 @@
       "league": "eurocup-2026-27",
       "home": "BC Balkan Botevgrad",
       "away": "Bahçeşehir Koleji",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BK Opava",
+      "away": "Split",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Aek Larnaca",
+      "away": "Wurzburg Baskets",
       "score": null,
       "date": "2026-10-07",
       "time": "16:00",
@@ -20522,28 +20522,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Kb Bashkimi",
-      "away": "Valmiera",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "17:00",
-      "utc": "2026-10-07T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Wilki Morskie Szczecin",
-      "away": "Nitra Blue Wings",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "17:00",
-      "utc": "2026-10-07T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Neptūnas",
@@ -20558,6 +20536,28 @@
       "league": "eurocup-2026-27",
       "home": "Aris Bsa",
       "away": "San Pablo Burgos",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "17:00",
+      "utc": "2026-10-07T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Kb Bashkimi",
+      "away": "Valmiera",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "17:00",
+      "utc": "2026-10-07T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Wilki Morskie Szczecin",
+      "away": "Nitra Blue Wings",
       "score": null,
       "date": "2026-10-07",
       "time": "17:00",
@@ -20599,6 +20599,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "BC Roma SPQR",
+      "away": "Lietkabelis",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:00",
+      "utc": "2026-10-07T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "CSM Oradea",
       "away": "Fribourg Olympic",
@@ -20621,17 +20632,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "BC Roma SPQR",
-      "away": "Lietkabelis",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "18:00",
-      "utc": "2026-10-07T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "UCAM Murcia",
       "away": "Openjobmetis Varese",
@@ -20643,9 +20643,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Sporting CP",
-      "away": "Rilski Sportist",
+      "league": "eurocup-2026-27",
+      "home": "Baxi Manresa",
+      "away": "Ratiopharm Ulm",
       "score": null,
       "date": "2026-10-07",
       "time": "18:30",
@@ -20654,9 +20654,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Baxi Manresa",
-      "away": "Ratiopharm Ulm",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Sporting CP",
+      "away": "Rilski Sportist",
       "score": null,
       "date": "2026-10-07",
       "time": "18:30",
@@ -21523,6 +21523,17 @@
       "attendance": null
     },
     {
+      "league": "cfl-2026",
+      "home": "Winnipeg Blue Bombers",
+      "away": "Calgary Stampeders",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "18:00",
+      "utc": "2026-10-10T23:00:00+00:00",
+      "venue": "Princess Auto Stadium",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "TBB Trier",
       "away": "Alba Berlin",
@@ -21564,17 +21575,6 @@
       "time": "18:00",
       "utc": "2026-10-10T18:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Winnipeg Blue Bombers",
-      "away": "Calgary Stampeders",
-      "score": null,
-      "date": "2026-10-10",
-      "time": "18:00",
-      "utc": "2026-10-10T23:00:00+00:00",
-      "venue": "Princess Auto Stadium",
       "attendance": null
     },
     {
@@ -22073,28 +22073,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Fribourg Olympic",
-      "away": "Mykonos",
-      "score": null,
-      "date": "2026-10-13",
-      "time": "18:00",
-      "utc": "2026-10-13T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "BC Vienna",
-      "away": "Wilki Morskie Szczecin",
-      "score": null,
-      "date": "2026-10-13",
-      "time": "18:00",
-      "utc": "2026-10-13T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Bv Chemnitz 99",
@@ -22109,6 +22087,28 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Fribourg Olympic",
+      "away": "Mykonos",
+      "score": null,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "utc": "2026-10-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Vienna",
+      "away": "Wilki Morskie Szczecin",
       "score": null,
       "date": "2026-10-13",
       "time": "18:00",
@@ -22183,6 +22183,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Siauliai",
+      "away": "Cluj Napoca",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "15:30",
+      "utc": "2026-10-14T15:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Rauman Lukko",
@@ -22205,17 +22216,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "Cluj Napoca",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "15:30",
-      "utc": "2026-10-14T15:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Trabzonspor",
       "away": "BC Sabah",
@@ -22235,6 +22235,17 @@
       "time": "16:00",
       "utc": "2026-10-14T16:00:00+00:00",
       "venue": "Shlomo Group Arena",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Rīgas Zelli",
+      "away": "KK Cedevita Olimpija",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "16:00",
+      "utc": "2026-10-14T16:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -22283,12 +22294,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Rīgas Zelli",
-      "away": "KK Cedevita Olimpija",
+      "home": "Ratiopharm Ulm",
+      "away": "KK Bosna",
       "score": null,
       "date": "2026-10-14",
-      "time": "16:00",
-      "utc": "2026-10-14T16:00:00+00:00",
+      "time": "16:30",
+      "utc": "2026-10-14T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -22315,17 +22326,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Ratiopharm Ulm",
-      "away": "KK Bosna",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "16:30",
-      "utc": "2026-10-14T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Bamberg Baskets",
       "away": "UCAM Murcia",
@@ -22334,39 +22334,6 @@
       "time": "17:00",
       "utc": "2026-10-14T17:00:00+00:00",
       "venue": "Brose Arena",
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Mzt Skopje",
-      "away": "Tartu Ülikool",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "17:00",
-      "utc": "2026-10-14T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Dziki Warszawa",
-      "away": "Aek Larnaca",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "17:00",
-      "utc": "2026-10-14T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Split",
-      "away": "KB Trepça",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "17:00",
-      "utc": "2026-10-14T17:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -22403,6 +22370,39 @@
       "attendance": null
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Mzt Skopje",
+      "away": "Tartu Ülikool",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "17:00",
+      "utc": "2026-10-14T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Dziki Warszawa",
+      "away": "Aek Larnaca",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "17:00",
+      "utc": "2026-10-14T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Split",
+      "away": "KB Trepça",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "17:00",
+      "utc": "2026-10-14T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Bayern München",
@@ -22422,6 +22422,17 @@
       "time": "18:00",
       "utc": "2026-10-14T18:00:00+00:00",
       "venue": "HS Dudova Suma",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Le Mans",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "utc": "2026-10-14T18:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -22448,19 +22459,8 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Le Mans",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "18:00",
-      "utc": "2026-10-14T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Genève Lions",
-      "away": "Bakken Bears",
+      "home": "San Pablo Burgos",
+      "away": "Hapoel Jerusalem",
       "score": null,
       "date": "2026-10-14",
       "time": "18:30",
@@ -22469,9 +22469,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "San Pablo Burgos",
-      "away": "Hapoel Jerusalem",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Genève Lions",
+      "away": "Bakken Bears",
       "score": null,
       "date": "2026-10-14",
       "time": "18:30",
@@ -23272,17 +23272,6 @@
       "attendance": null
     },
     {
-      "league": "lnb-elite-2026-27",
-      "home": "Limoges",
-      "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2026-10-17",
-      "time": "17:00",
-      "utc": "2026-10-17T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "BC Lions",
@@ -23291,6 +23280,17 @@
       "time": "17:00",
       "utc": "2026-10-17T23:00:00+00:00",
       "venue": "McMahon Stadium",
+      "attendance": null
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Limoges",
+      "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "17:00",
+      "utc": "2026-10-17T17:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -23789,6 +23789,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "KK Budućnost",
+      "away": "Neptūnas",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "17:00",
+      "utc": "2026-10-20T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Wurzburg Baskets",
       "away": "Mzt Skopje",
@@ -23819,17 +23830,6 @@
       "time": "17:00",
       "utc": "2026-10-20T17:00:00+00:00",
       "venue": "Husqvarna Garden",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "KK Budućnost",
-      "away": "Neptūnas",
-      "score": null,
-      "date": "2026-10-20",
-      "time": "17:00",
-      "utc": "2026-10-20T17:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -23866,6 +23866,28 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Rostock Seawolves",
+      "away": "Aris Bsa",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "18:00",
+      "utc": "2026-10-20T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Napoli Basket",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "18:00",
+      "utc": "2026-10-20T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Basquet Girona",
       "away": "Stelmet Zielona Gora",
@@ -23891,28 +23913,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Chalon-sur-Saône",
       "away": "Valmiera",
-      "score": null,
-      "date": "2026-10-20",
-      "time": "18:00",
-      "utc": "2026-10-20T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Rostock Seawolves",
-      "away": "Aris Bsa",
-      "score": null,
-      "date": "2026-10-20",
-      "time": "18:00",
-      "utc": "2026-10-20T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Napoli Basket",
-      "away": "Tofas",
       "score": null,
       "date": "2026-10-20",
       "time": "18:00",
@@ -23976,6 +23976,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Cluj Napoca",
+      "away": "London Lions",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "16:00",
+      "utc": "2026-10-21T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Aek Larnaca",
       "away": "Tartu Ülikool",
@@ -24031,17 +24042,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Cluj Napoca",
-      "away": "London Lions",
-      "score": null,
-      "date": "2026-10-21",
-      "time": "16:00",
-      "utc": "2026-10-21T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Bnei Penlink Herzliya",
       "away": "Porto",
@@ -24050,6 +24050,17 @@
       "time": "16:30",
       "utc": "2026-10-21T16:30:00+00:00",
       "venue": "Hayovel Herzeliya",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "KK Cedevita Olimpija",
+      "away": "Le Mans",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "16:30",
+      "utc": "2026-10-21T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -24078,17 +24089,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Iraklis",
       "away": "Dziki Warszawa",
-      "score": null,
-      "date": "2026-10-21",
-      "time": "16:30",
-      "utc": "2026-10-21T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "KK Cedevita Olimpija",
-      "away": "Le Mans",
       "score": null,
       "date": "2026-10-21",
       "time": "16:30",
@@ -24185,6 +24185,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Hapoel Jerusalem",
+      "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "18:00",
+      "utc": "2026-10-21T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "CSM Oradea",
       "away": "VEF Riga",
@@ -24199,17 +24210,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "TBB Trier",
       "away": "Split",
-      "score": null,
-      "date": "2026-10-21",
-      "time": "18:00",
-      "utc": "2026-10-21T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Hapoel Jerusalem",
-      "away": "Rīgas Zelli",
       "score": null,
       "date": "2026-10-21",
       "time": "18:00",
@@ -25560,17 +25560,6 @@
       "attendance": null
     },
     {
-      "league": "del-2026-27",
-      "home": "Kölner Haie",
-      "away": "Adler Mannheim",
-      "score": null,
-      "date": "2026-10-27",
-      "time": "18:30",
-      "utc": "2026-10-27T18:30:00+00:00",
-      "venue": "Lanxess Arena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Skyliners Frankfurt",
       "away": "Cluj Napoca",
@@ -25579,6 +25568,17 @@
       "time": "18:30",
       "utc": "2026-10-27T18:30:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Kölner Haie",
+      "away": "Adler Mannheim",
+      "score": null,
+      "date": "2026-10-27",
+      "time": "18:30",
+      "utc": "2026-10-27T18:30:00+00:00",
+      "venue": "Lanxess Arena",
       "attendance": null
     },
     {
@@ -25703,6 +25703,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Siauliai",
+      "away": "Maxima Roma",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "16:30",
+      "utc": "2026-10-28T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "Tampereen Ilves",
@@ -25781,12 +25792,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "Maxima Roma",
+      "home": "Neptūnas",
+      "away": "Napoli Basket",
       "score": null,
       "date": "2026-10-28",
-      "time": "16:30",
-      "utc": "2026-10-28T16:30:00+00:00",
+      "time": "17:00",
+      "utc": "2026-10-28T17:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -25857,17 +25868,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Neptūnas",
-      "away": "Napoli Basket",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "17:00",
-      "utc": "2026-10-28T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Rytas Vilnius",
       "away": "Trabzonspor",
@@ -25909,6 +25909,28 @@
       "time": "18:00",
       "utc": "2026-10-28T18:00:00+00:00",
       "venue": "Shlomo Group Arena",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "JL Bourg",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "utc": "2026-10-28T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Slask Wroclaw",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "utc": "2026-10-28T18:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -25957,23 +25979,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "JL Bourg",
+      "home": "Derthona Basket Tortona",
+      "away": "Rostock Seawolves",
       "score": null,
       "date": "2026-10-28",
-      "time": "18:00",
-      "utc": "2026-10-28T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Slask Wroclaw",
-      "away": "Tofas",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "18:00",
-      "utc": "2026-10-28T18:00:00+00:00",
+      "time": "18:30",
+      "utc": "2026-10-28T18:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -25986,17 +25997,6 @@
       "time": "18:30",
       "utc": "2026-10-28T18:30:00+00:00",
       "venue": "Yayla-Arena",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Derthona Basket Tortona",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "18:30",
-      "utc": "2026-10-28T18:30:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -26033,9 +26033,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Wilki Morskie Szczecin",
-      "away": "Nancy",
+      "league": "eurocup-2026-27",
+      "home": "Le Mans",
+      "away": "Hapoel Jerusalem",
       "score": null,
       "date": "2026-10-28",
       "time": "19:00",
@@ -26044,9 +26044,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Le Mans",
-      "away": "Hapoel Jerusalem",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Wilki Morskie Szczecin",
+      "away": "Nancy",
       "score": null,
       "date": "2026-10-28",
       "time": "19:00",
@@ -26066,17 +26066,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Genève Lions",
-      "away": "Benfica",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "19:30",
-      "utc": "2026-10-28T19:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "London Lions",
       "away": "Turk Telekom",
@@ -26091,6 +26080,17 @@
       "league": "eurocup-2026-27",
       "home": "San Pablo Burgos",
       "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "19:30",
+      "utc": "2026-10-28T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Genève Lions",
+      "away": "Benfica",
       "score": null,
       "date": "2026-10-28",
       "time": "19:30",
@@ -27331,9 +27331,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Mykonos",
-      "away": "CSM Oradea",
+      "league": "eurocup-2026-27",
+      "home": "Tofas",
+      "away": "Neptūnas",
       "score": null,
       "date": "2026-11-03",
       "time": "17:00",
@@ -27342,9 +27342,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Tofas",
-      "away": "Neptūnas",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Mykonos",
+      "away": "CSM Oradea",
       "score": null,
       "date": "2026-11-03",
       "time": "17:00",
@@ -27419,6 +27419,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Napoli Basket",
+      "away": "Dolomiti Energia Trento",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "19:00",
+      "utc": "2026-11-03T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Basquet Girona",
       "away": "Levice",
@@ -27433,17 +27444,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Nancy",
       "away": "Keravnos",
-      "score": null,
-      "date": "2026-11-03",
-      "time": "19:00",
-      "utc": "2026-11-03T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Napoli Basket",
-      "away": "Dolomiti Energia Trento",
       "score": null,
       "date": "2026-11-03",
       "time": "19:00",
@@ -27485,9 +27485,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Korfez Basket",
-      "away": "Kb Bashkimi",
+      "league": "eurocup-2026-27",
+      "home": "Turk Telekom",
+      "away": "Skyliners Frankfurt",
       "score": null,
       "date": "2026-11-04",
       "time": "16:30",
@@ -27496,9 +27496,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Turk Telekom",
-      "away": "Skyliners Frankfurt",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Korfez Basket",
+      "away": "Kb Bashkimi",
       "score": null,
       "date": "2026-11-04",
       "time": "16:30",
@@ -27529,28 +27529,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "ASP Promitheas Patras",
-      "away": "BK Opava",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "17:00",
-      "utc": "2026-11-04T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Nitra Blue Wings",
-      "away": "BC Vienna",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "17:00",
-      "utc": "2026-11-04T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "Baxi Manresa",
@@ -27574,12 +27552,23 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "Iraklis",
-      "away": "Aek Larnaca",
+      "home": "ASP Promitheas Patras",
+      "away": "BK Opava",
       "score": null,
       "date": "2026-11-04",
-      "time": "17:30",
-      "utc": "2026-11-04T17:30:00+00:00",
+      "time": "17:00",
+      "utc": "2026-11-04T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Nitra Blue Wings",
+      "away": "BC Vienna",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "17:00",
+      "utc": "2026-11-04T17:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27591,6 +27580,28 @@
       "date": "2026-11-04",
       "time": "17:30",
       "utc": "2026-11-04T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Iraklis",
+      "away": "Aek Larnaca",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "17:30",
+      "utc": "2026-11-04T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Slask Wroclaw",
+      "away": "JL Bourg",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "18:00",
+      "utc": "2026-11-04T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27618,17 +27629,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Slask Wroclaw",
-      "away": "JL Bourg",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "18:00",
-      "utc": "2026-11-04T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "KK Bosna",
       "away": "BC Balkan Botevgrad",
       "score": null,
@@ -27647,6 +27647,28 @@
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
       "venue": "Telekom Dome",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Hapoel Jerusalem",
+      "away": "Aris Bsa",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "19:00",
+      "utc": "2026-11-04T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Reyer Venezia",
+      "away": "Siauliai",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "19:00",
+      "utc": "2026-11-04T19:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -27684,30 +27706,8 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Hapoel Jerusalem",
-      "away": "Aris Bsa",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "19:00",
-      "utc": "2026-11-04T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Reyer Venezia",
-      "away": "Siauliai",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "19:00",
-      "utc": "2026-11-04T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "BC Oostende",
-      "away": "Szolnoki Olajbanyasz",
+      "home": "San Pablo Burgos",
+      "away": "Rostock Seawolves",
       "score": null,
       "date": "2026-11-04",
       "time": "19:30",
@@ -27716,9 +27716,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "San Pablo Burgos",
-      "away": "Rostock Seawolves",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Oostende",
+      "away": "Szolnoki Olajbanyasz",
       "score": null,
       "date": "2026-11-04",
       "time": "19:30",
@@ -28607,6 +28607,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Siauliai",
+      "away": "La Laguna Tenerife",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "16:30",
+      "utc": "2026-11-11T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "Lahti Pelicans",
@@ -28670,17 +28681,6 @@
       "time": "16:30",
       "utc": "2026-11-11T16:30:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "La Laguna Tenerife",
-      "score": null,
-      "date": "2026-11-11",
-      "time": "16:30",
-      "utc": "2026-11-11T16:30:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -28758,6 +28758,28 @@
       "time": "18:00",
       "utc": "2026-11-11T18:00:00+00:00",
       "venue": "Sportovni hala Slavia - EDEN",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Aris Bsa",
+      "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "18:00",
+      "utc": "2026-11-11T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "Napoli Basket",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "18:00",
+      "utc": "2026-11-11T18:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -28861,45 +28883,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Aris Bsa",
-      "away": "Rīgas Zelli",
-      "score": null,
-      "date": "2026-11-11",
-      "time": "18:00",
-      "utc": "2026-11-11T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "Napoli Basket",
-      "score": null,
-      "date": "2026-11-11",
-      "time": "18:00",
-      "utc": "2026-11-11T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "Derthona Basket Tortona",
       "away": "Hapoel Jerusalem",
       "score": null,
       "date": "2026-11-11",
       "time": "18:30",
       "utc": "2026-11-11T18:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Fribourg Olympic",
-      "away": "CSM Oradea",
-      "score": null,
-      "date": "2026-11-11",
-      "time": "19:00",
-      "utc": "2026-11-11T19:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28918,6 +28907,17 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "Ratiopharm Ulm",
+      "score": null,
+      "date": "2026-11-11",
+      "time": "19:00",
+      "utc": "2026-11-11T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Fribourg Olympic",
+      "away": "CSM Oradea",
       "score": null,
       "date": "2026-11-11",
       "time": "19:00",
@@ -30059,17 +30059,6 @@
       "attendance": null
     },
     {
-      "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2026-11-17",
-      "time": "16:30",
-      "utc": "2026-11-17T16:30:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Turk Telekom",
       "away": "La Laguna Tenerife",
@@ -30078,6 +30067,17 @@
       "time": "16:30",
       "utc": "2026-11-17T16:30:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "JYP Jyväskylä",
+      "away": "Vaasan Sport",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "16:30",
+      "utc": "2026-11-17T16:30:00+00:00",
+      "venue": "LahiTapiola Areena",
       "attendance": null
     },
     {
@@ -30092,9 +30092,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Mykonos",
-      "away": "Fribourg Olympic",
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
+      "away": "Ratiopharm Ulm",
       "score": null,
       "date": "2026-11-17",
       "time": "17:00",
@@ -30103,9 +30103,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "BC Balkan Botevgrad",
-      "away": "Ratiopharm Ulm",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Mykonos",
+      "away": "Fribourg Olympic",
       "score": null,
       "date": "2026-11-17",
       "time": "17:00",
@@ -30158,28 +30158,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Basquet Girona",
-      "away": "BC Oostende",
-      "score": null,
-      "date": "2026-11-17",
-      "time": "19:00",
-      "utc": "2026-11-17T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Chalon-sur-Saône",
-      "away": "Korfez Basket",
-      "score": null,
-      "date": "2026-11-17",
-      "time": "19:00",
-      "utc": "2026-11-17T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "Hapoel Jerusalem",
@@ -30194,6 +30172,28 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "Bahçeşehir Koleji",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "19:00",
+      "utc": "2026-11-17T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Basquet Girona",
+      "away": "BC Oostende",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "19:00",
+      "utc": "2026-11-17T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Korfez Basket",
       "score": null,
       "date": "2026-11-17",
       "time": "19:00",
@@ -30290,6 +30290,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Derthona Basket Tortona",
+      "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "16:30",
+      "utc": "2026-11-18T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "Tampereen Ilves",
@@ -30356,17 +30367,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Derthona Basket Tortona",
-      "away": "Rīgas Zelli",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "16:30",
-      "utc": "2026-11-18T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Galatasaray MCT Technic",
       "away": "Legia Warszawa",
@@ -30397,6 +30397,17 @@
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
       "venue": "BJK Akatlar Arena",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Cluj Napoca",
+      "away": "Maxima Roma",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "17:00",
+      "utc": "2026-11-18T17:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -30434,23 +30445,45 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Cluj Napoca",
-      "away": "Maxima Roma",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "17:00",
-      "utc": "2026-11-18T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "KK Cedevita Olimpija",
       "away": "San Pablo Burgos",
       "score": null,
       "date": "2026-11-18",
       "time": "17:30",
       "utc": "2026-11-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "KK Budućnost",
+      "away": "Slask Wroclaw",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "18:00",
+      "utc": "2026-11-18T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Aris Bsa",
+      "away": "Le Mans",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "18:00",
+      "utc": "2026-11-18T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "18:00",
+      "utc": "2026-11-18T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -30511,39 +30544,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "KK Budućnost",
-      "away": "Slask Wroclaw",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "18:00",
-      "utc": "2026-11-18T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Aris Bsa",
-      "away": "Le Mans",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "18:00",
-      "utc": "2026-11-18T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "Tofas",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "18:00",
-      "utc": "2026-11-18T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "Skyliners Frankfurt",
       "away": "Reyer Venezia",
       "score": null,
@@ -30587,6 +30587,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Dolomiti Energia Trento",
+      "away": "Neptūnas",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "19:00",
+      "utc": "2026-11-18T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "TBB Trier",
       "away": "ASP Promitheas Patras",
@@ -30609,17 +30620,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Dolomiti Energia Trento",
-      "away": "Neptūnas",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "19:00",
-      "utc": "2026-11-18T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Unicaja",
       "away": "BK JIP Pardubice",
@@ -30631,9 +30631,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Sporting CP",
-      "away": "CSU Craiova",
+      "league": "eurocup-2026-27",
+      "home": "Baxi Manresa",
+      "away": "PAOK",
       "score": null,
       "date": "2026-11-18",
       "time": "19:30",
@@ -30642,9 +30642,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Baxi Manresa",
-      "away": "PAOK",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Sporting CP",
+      "away": "CSU Craiova",
       "score": null,
       "date": "2026-11-18",
       "time": "19:30",
@@ -34360,6 +34360,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Bahçeşehir Koleji",
+      "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "16:00",
+      "utc": "2026-12-08T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Leyma Coruña",
       "away": "Real Madrid",
@@ -34372,12 +34383,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Bahçeşehir Koleji",
-      "away": "BC Balkan Botevgrad",
+      "home": "Siauliai",
+      "away": "Skyliners Frankfurt",
       "score": null,
       "date": "2026-12-08",
-      "time": "16:00",
-      "utc": "2026-12-08T16:00:00+00:00",
+      "time": "16:30",
+      "utc": "2026-12-08T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -34427,17 +34438,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "Skyliners Frankfurt",
-      "score": null,
-      "date": "2026-12-08",
-      "time": "16:30",
-      "utc": "2026-12-08T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "Neptūnas",
       "away": "Bv Chemnitz 99",
       "score": null,
@@ -34470,9 +34470,9 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Joventut de Badalona",
-      "away": "Valencia Basket",
+      "league": "eurocup-2026-27",
+      "home": "PAOK",
+      "away": "KK Bosna",
       "score": null,
       "date": "2026-12-08",
       "time": "18:00",
@@ -34481,9 +34481,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "PAOK",
-      "away": "KK Bosna",
+      "league": "liga-acb-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "Valencia Basket",
       "score": null,
       "date": "2026-12-08",
       "time": "18:00",
@@ -34657,6 +34657,39 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Rīgas Zelli",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "17:00",
+      "utc": "2026-12-09T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Tofas",
+      "away": "JL Bourg",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "17:00",
+      "utc": "2026-12-09T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Lietkabelis",
+      "away": "BC Roma SPQR",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "17:00",
+      "utc": "2026-12-09T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Tartu Ülikool",
       "away": "Aek Larnaca",
@@ -34723,39 +34756,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Rīgas Zelli",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "17:00",
-      "utc": "2026-12-09T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Tofas",
-      "away": "JL Bourg",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "17:00",
-      "utc": "2026-12-09T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Lietkabelis",
-      "away": "BC Roma SPQR",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "17:00",
-      "utc": "2026-12-09T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Hapoel Netanel Holon",
       "away": "KK Spartak Office Shoes",
@@ -34764,6 +34764,28 @@
       "time": "17:30",
       "utc": "2026-12-09T17:30:00+00:00",
       "venue": "Holon Toto Hall",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Slask Wroclaw",
+      "away": "Dolomiti Energia Trento",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "18:00",
+      "utc": "2026-12-09T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Ratiopharm Ulm",
+      "away": "Baxi Manresa",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "18:00",
+      "utc": "2026-12-09T18:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -34855,28 +34877,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Slask Wroclaw",
-      "away": "Dolomiti Energia Trento",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:00",
-      "utc": "2026-12-09T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Ratiopharm Ulm",
-      "away": "Baxi Manresa",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:00",
-      "utc": "2026-12-09T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "EHC Red Bull München",
@@ -34932,17 +34932,6 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "MoraBanc Andorra",
-      "away": "Casademont Zaragoza",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "19:00",
-      "utc": "2026-12-09T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Hapoel Jerusalem",
       "away": "KK Cedevita Olimpija",
@@ -34957,6 +34946,17 @@
       "league": "eurocup-2026-27",
       "home": "Reyer Venezia",
       "away": "Cluj Napoca",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "MoraBanc Andorra",
+      "away": "Casademont Zaragoza",
       "score": null,
       "date": "2026-12-09",
       "time": "19:00",
@@ -35999,9 +35999,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Mykonos",
-      "away": "VEF Riga",
+      "league": "eurocup-2026-27",
+      "home": "BC Balkan Botevgrad",
+      "away": "BC Roma SPQR",
       "score": null,
       "date": "2026-12-15",
       "time": "17:00",
@@ -36010,9 +36010,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "BC Balkan Botevgrad",
-      "away": "BC Roma SPQR",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Mykonos",
+      "away": "VEF Riga",
       "score": null,
       "date": "2026-12-15",
       "time": "17:00",
@@ -36098,28 +36098,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Nancy",
-      "away": "Wilki Morskie Szczecin",
-      "score": null,
-      "date": "2026-12-15",
-      "time": "19:00",
-      "utc": "2026-12-15T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Basquet Girona",
-      "away": "Szolnoki Olajbanyasz",
-      "score": null,
-      "date": "2026-12-15",
-      "time": "19:00",
-      "utc": "2026-12-15T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "Le Mans",
@@ -36134,6 +36112,28 @@
       "league": "eurocup-2026-27",
       "home": "Napoli Basket",
       "away": "Slask Wroclaw",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:00",
+      "utc": "2026-12-15T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Nancy",
+      "away": "Wilki Morskie Szczecin",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "19:00",
+      "utc": "2026-12-15T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Basquet Girona",
+      "away": "Szolnoki Olajbanyasz",
       "score": null,
       "date": "2026-12-15",
       "time": "19:00",
@@ -36164,9 +36164,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "BC Oostende",
-      "away": "Stelmet Zielona Gora",
+      "league": "eurocup-2026-27",
+      "home": "Baxi Manresa",
+      "away": "Bahçeşehir Koleji",
       "score": null,
       "date": "2026-12-15",
       "time": "19:30",
@@ -36175,9 +36175,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Baxi Manresa",
-      "away": "Bahçeşehir Koleji",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Oostende",
+      "away": "Stelmet Zielona Gora",
       "score": null,
       "date": "2026-12-15",
       "time": "19:30",
@@ -36219,9 +36219,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Esenler Erokspor",
-      "away": "Kolossos Rhodes",
+      "league": "eurocup-2026-27",
+      "home": "Turk Telekom",
+      "away": "Reyer Venezia",
       "score": null,
       "date": "2026-12-16",
       "time": "16:00",
@@ -36230,9 +36230,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Turk Telekom",
-      "away": "Reyer Venezia",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Esenler Erokspor",
+      "away": "Kolossos Rhodes",
       "score": null,
       "date": "2026-12-16",
       "time": "16:00",
@@ -36307,6 +36307,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Cluj Napoca",
+      "away": "Siauliai",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "17:00",
+      "utc": "2026-12-16T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Aek Larnaca",
       "away": "Mzt Skopje",
@@ -36330,12 +36341,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Cluj Napoca",
-      "away": "Siauliai",
+      "home": "KK Cedevita Olimpija",
+      "away": "Rīgas Zelli",
       "score": null,
       "date": "2026-12-16",
-      "time": "17:00",
-      "utc": "2026-12-16T17:00:00+00:00",
+      "time": "17:30",
+      "utc": "2026-12-16T17:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -36363,12 +36374,34 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "KK Cedevita Olimpija",
-      "away": "Rīgas Zelli",
+      "home": "Bv Chemnitz 99",
+      "away": "Dolomiti Energia Trento",
       "score": null,
       "date": "2026-12-16",
-      "time": "17:30",
-      "utc": "2026-12-16T17:30:00+00:00",
+      "time": "18:00",
+      "utc": "2026-12-16T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "KK Budućnost",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "18:00",
+      "utc": "2026-12-16T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "PAOK",
+      "away": "Lietkabelis",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "18:00",
+      "utc": "2026-12-16T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -36440,39 +36473,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "Dolomiti Energia Trento",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "18:00",
-      "utc": "2026-12-16T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "KK Budućnost",
-      "away": "Tofas",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "18:00",
-      "utc": "2026-12-16T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "PAOK",
-      "away": "Lietkabelis",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "18:00",
-      "utc": "2026-12-16T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "JL Bourg",
       "away": "Neptūnas",
       "score": null,
@@ -36516,9 +36516,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "TBB Trier",
-      "away": "BK Opava",
+      "league": "eurocup-2026-27",
+      "home": "Hapoel Jerusalem",
+      "away": "San Pablo Burgos",
       "score": null,
       "date": "2026-12-16",
       "time": "19:00",
@@ -36527,9 +36527,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Hapoel Jerusalem",
-      "away": "San Pablo Burgos",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "TBB Trier",
+      "away": "BK Opava",
       "score": null,
       "date": "2026-12-16",
       "time": "19:00",
@@ -37825,17 +37825,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Tartu Ülikool",
-      "away": "Wurzburg Baskets",
-      "score": null,
-      "date": "2026-12-22",
-      "time": "17:00",
-      "utc": "2026-12-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Neptūnas",
       "away": "KK Budućnost",
@@ -37850,6 +37839,17 @@
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "BC Balkan Botevgrad",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "17:00",
+      "utc": "2026-12-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Tartu Ülikool",
+      "away": "Wurzburg Baskets",
       "score": null,
       "date": "2026-12-22",
       "time": "17:00",
@@ -37968,6 +37968,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "BC Roma SPQR",
+      "away": "Baxi Manresa",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "19:00",
+      "utc": "2026-12-22T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "Cholet",
       "away": "Paris Basketball",
@@ -38048,17 +38059,6 @@
       "league": "lnb-elite-2026-27",
       "home": "Chalon-sur-Saône",
       "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2026-12-22",
-      "time": "19:00",
-      "utc": "2026-12-22T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "BC Roma SPQR",
-      "away": "Baxi Manresa",
       "score": null,
       "date": "2026-12-22",
       "time": "19:00",
@@ -38155,6 +38155,28 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Rīgas Zelli",
+      "away": "Hapoel Jerusalem",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:00",
+      "utc": "2026-12-23T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Tofas",
+      "away": "Napoli Basket",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:00",
+      "utc": "2026-12-23T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Szolnoki Olajbanyasz",
       "away": "BC Oostende",
@@ -38199,28 +38221,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Rīgas Zelli",
-      "away": "Hapoel Jerusalem",
-      "score": null,
-      "date": "2026-12-23",
-      "time": "17:00",
-      "utc": "2026-12-23T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Tofas",
-      "away": "Napoli Basket",
-      "score": null,
-      "date": "2026-12-23",
-      "time": "17:00",
-      "utc": "2026-12-23T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "bcl-2026-27",
       "home": "Porto",
       "away": "Telekom Baskets Bonn",
@@ -38251,6 +38251,17 @@
       "time": "18:00",
       "utc": "2026-12-23T18:00:00+00:00",
       "venue": "Žalgirio Arena",
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Ratiopharm Ulm",
+      "away": "PAOK",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "18:00",
+      "utc": "2026-12-23T18:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -38334,17 +38345,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Kb Bashkimi",
       "away": "Korfez Basket",
-      "score": null,
-      "date": "2026-12-23",
-      "time": "18:00",
-      "utc": "2026-12-23T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Ratiopharm Ulm",
-      "away": "PAOK",
       "score": null,
       "date": "2026-12-23",
       "time": "18:00",
@@ -38518,9 +38518,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Sporting CP",
-      "away": "Esenler Erokspor",
+      "league": "eurocup-2026-27",
+      "home": "London Lions",
+      "away": "Cluj Napoca",
       "score": null,
       "date": "2026-12-23",
       "time": "19:30",
@@ -38529,9 +38529,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "London Lions",
-      "away": "Cluj Napoca",
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Sporting CP",
+      "away": "Esenler Erokspor",
       "score": null,
       "date": "2026-12-23",
       "time": "19:30",
@@ -39486,6 +39486,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Turk Telekom",
+      "away": "London Lions",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "16:30",
+      "utc": "2026-12-29T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "Kiekko-Espoo",
@@ -39516,17 +39527,6 @@
       "time": "16:30",
       "utc": "2026-12-29T16:30:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Turk Telekom",
-      "away": "London Lions",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "16:30",
-      "utc": "2026-12-29T16:30:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -39574,6 +39574,28 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "JL Bourg",
+      "away": "Bv Chemnitz 99",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "18:30",
+      "utc": "2026-12-29T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "PAOK",
+      "away": "Bahçeşehir Koleji",
+      "score": null,
+      "date": "2026-12-29",
+      "time": "18:30",
+      "utc": "2026-12-29T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Kölner Haie",
       "away": "EHC Red Bull München",
@@ -39604,28 +39626,6 @@
       "time": "18:30",
       "utc": "2026-12-29T18:30:00+00:00",
       "venue": "Yayla-Arena",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "JL Bourg",
-      "away": "Bv Chemnitz 99",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "18:30",
-      "utc": "2026-12-29T18:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "PAOK",
-      "away": "Bahçeşehir Koleji",
-      "score": null,
-      "date": "2026-12-29",
-      "time": "18:30",
-      "utc": "2026-12-29T18:30:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -39772,28 +39772,6 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Bilbao Basket",
-      "away": "ICG Forca Lleida",
-      "score": null,
-      "date": "2026-12-30",
-      "time": "17:00",
-      "utc": "2026-12-30T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "liga-acb-2026-27",
-      "home": "Breogán",
-      "away": "Leyma Coruña",
-      "score": null,
-      "date": "2026-12-30",
-      "time": "17:00",
-      "utc": "2026-12-30T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Rīgas Zelli",
       "away": "San Pablo Burgos",
@@ -39819,6 +39797,28 @@
       "league": "eurocup-2026-27",
       "home": "Tofas",
       "away": "Slask Wroclaw",
+      "score": null,
+      "date": "2026-12-30",
+      "time": "17:00",
+      "utc": "2026-12-30T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Bilbao Basket",
+      "away": "ICG Forca Lleida",
+      "score": null,
+      "date": "2026-12-30",
+      "time": "17:00",
+      "utc": "2026-12-30T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Breogán",
+      "away": "Leyma Coruña",
       "score": null,
       "date": "2026-12-30",
       "time": "17:00",
@@ -39856,6 +39856,17 @@
       "date": "2026-12-30",
       "time": "17:30",
       "utc": "2026-12-30T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Ratiopharm Ulm",
+      "away": "Lietkabelis",
+      "score": null,
+      "date": "2026-12-30",
+      "time": "18:00",
+      "utc": "2026-12-30T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -39927,19 +39938,8 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Ratiopharm Ulm",
-      "away": "Lietkabelis",
-      "score": null,
-      "date": "2026-12-30",
-      "time": "18:00",
-      "utc": "2026-12-30T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "liga-acb-2026-27",
-      "home": "Basquet Girona",
-      "away": "MoraBanc Andorra",
+      "home": "KK Bosna",
+      "away": "BC Roma SPQR",
       "score": null,
       "date": "2026-12-30",
       "time": "18:30",
@@ -39948,9 +39948,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "KK Bosna",
-      "away": "BC Roma SPQR",
+      "league": "liga-acb-2026-27",
+      "home": "Basquet Girona",
+      "away": "MoraBanc Andorra",
       "score": null,
       "date": "2026-12-30",
       "time": "18:30",
@@ -40916,6 +40916,28 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Aris Bsa",
+      "away": "Hapoel Jerusalem",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "18:00",
+      "utc": "2027-01-05T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "KK Budućnost",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "18:00",
+      "utc": "2027-01-05T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Frölunda HC",
       "away": "HV71",
@@ -40990,28 +41012,6 @@
       "time": "18:00",
       "utc": "2027-01-05T18:00:00+00:00",
       "venue": "Winpos arena",
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Aris Bsa",
-      "away": "Hapoel Jerusalem",
-      "score": null,
-      "date": "2027-01-05",
-      "time": "18:00",
-      "utc": "2027-01-05T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "KK Budućnost",
-      "score": null,
-      "date": "2027-01-05",
-      "time": "18:00",
-      "utc": "2027-01-05T18:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -41158,6 +41158,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Siauliai",
+      "away": "Reyer Venezia",
+      "score": null,
+      "date": "2027-01-06",
+      "time": "16:30",
+      "utc": "2027-01-06T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "Lahti Pelicans",
@@ -41192,17 +41203,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Siauliai",
-      "away": "Reyer Venezia",
-      "score": null,
-      "date": "2027-01-06",
-      "time": "16:30",
-      "utc": "2027-01-06T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "Cluj Napoca",
       "away": "La Laguna Tenerife",
       "score": null,
@@ -41224,9 +41224,9 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Casademont Zaragoza",
-      "away": "Baskonia Vitoria",
+      "league": "eurocup-2026-27",
+      "home": "Baxi Manresa",
+      "away": "Lietkabelis",
       "score": null,
       "date": "2027-01-06",
       "time": "18:00",
@@ -41235,9 +41235,9 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Baxi Manresa",
-      "away": "Lietkabelis",
+      "league": "liga-acb-2026-27",
+      "home": "Casademont Zaragoza",
+      "away": "Baskonia Vitoria",
       "score": null,
       "date": "2027-01-06",
       "time": "18:00",
