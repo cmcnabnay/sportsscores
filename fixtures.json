@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T16:24:02+00:00",
+  "updated": "2026-10-05T17:03:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19953,7 +19953,7 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "2-5",
       "date": "2026-10-05",
       "time": "14:00",
       "utc": "2026-10-05T14:00:00+00:00",
@@ -20052,17 +20052,6 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "Avangard Omsk",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "14:00",
-      "utc": "2026-10-06T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "khl-2026-27",
-      "home": "Traktor Chelyabinsk",
-      "away": "Amur Khabarovsk",
       "score": null,
       "date": "2026-10-06",
       "time": "14:00",
@@ -20353,6 +20342,17 @@
       "date": "2026-10-07",
       "time": "12:30",
       "utc": "2026-10-07T12:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Admiral Vladivostok",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "14:00",
+      "utc": "2026-10-07T14:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -20676,6 +20676,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Amur Khabarovsk",
+      "score": null,
+      "date": "2026-10-08",
+      "time": "14:00",
+      "utc": "2026-10-08T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "HIFK Helsinki",
@@ -20717,6 +20728,39 @@
       "time": "16:00",
       "utc": "2026-10-08T16:00:00+00:00",
       "venue": "Menora Mivtachim Arena",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dinamo Minsk",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-10-08",
+      "time": "16:10",
+      "utc": "2026-10-08T16:10:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Severstal Cherepovets",
+      "score": null,
+      "date": "2026-10-08",
+      "time": "16:30",
+      "utc": "2026-10-08T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Avangard Omsk",
+      "score": null,
+      "date": "2026-10-08",
+      "time": "16:30",
+      "utc": "2026-10-08T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -65072,19 +65116,19 @@
         "rows": [
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 12,
-            "win": 9,
+            "played": 13,
+            "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 30,
+            "for": 31,
             "against": 22,
-            "diff": 8,
-            "points": 18,
+            "diff": 9,
+            "points": 20,
             "highlight": null
           },
           {
             "team": "CSKA Moscow",
-            "played": 12,
+            "played": 13,
             "win": 8,
             "draw": null,
             "loss": 3,
@@ -65096,13 +65140,13 @@
           },
           {
             "team": "Torpedo Nizhny Novgorod",
-            "played": 11,
+            "played": 12,
             "win": 8,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 33,
-            "against": 18,
-            "diff": 15,
+            "against": 19,
+            "diff": 14,
             "points": 16,
             "highlight": null
           },
@@ -65124,10 +65168,22 @@
             "win": 7,
             "draw": null,
             "loss": 2,
-            "for": 29,
+            "for": 30,
             "against": 24,
-            "diff": 5,
+            "diff": 6,
             "points": 15,
+            "highlight": null
+          },
+          {
+            "team": "Dinamo Minsk",
+            "played": 12,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 34,
+            "against": 34,
+            "diff": 0,
+            "points": 14,
             "highlight": null
           },
           {
@@ -65139,18 +65195,6 @@
             "for": 29,
             "against": 25,
             "diff": 4,
-            "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 11,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 33,
-            "against": 34,
-            "diff": -1,
             "points": 12,
             "highlight": null
           },
@@ -65185,8 +65229,8 @@
             "draw": null,
             "loss": 9,
             "for": 21,
-            "against": 52,
-            "diff": -31,
+            "against": 53,
+            "diff": -32,
             "points": 5,
             "highlight": null
           },
@@ -65245,19 +65289,19 @@
           },
           {
             "team": "AK Bars",
-            "played": 12,
+            "played": 13,
             "win": 6,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 28,
-            "against": 25,
-            "diff": 3,
+            "against": 26,
+            "diff": 2,
             "points": 13,
             "highlight": null
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 11,
+            "played": 12,
             "win": 6,
             "draw": null,
             "loss": 4,
