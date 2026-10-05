@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T20:22:22+00:00",
+  "updated": "2026-10-05T20:32:49+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20008,7 +20008,7 @@
       "league": "bbl-2026-27",
       "home": "SC Rasta Vechta",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
+      "score": "87-93",
       "date": "2026-10-05",
       "time": "18:00",
       "utc": "2026-10-05T18:00:00+00:00",
@@ -20019,12 +20019,13 @@
       "league": "lega-a-2026-27",
       "home": "Pallacanestro Cantù",
       "away": "Amici Pallacanestro Udinese",
-      "score": null,
+      "score": "84-85",
       "date": "2026-10-05",
       "time": "18:00",
       "utc": "2026-10-05T18:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "lega-a-2026-27",
@@ -27134,6 +27135,17 @@
     },
     {
       "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Science City Jena",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "14:00",
+      "utc": "2026-11-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28104,6 +28116,17 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31134,6 +31157,17 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66085,9 +66119,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 144,
-            "against": 139,
-            "diff": 5,
+            "for": 149,
+            "against": 142,
+            "diff": 7,
             "points": 4,
             "highlight": null
           },
@@ -66140,18 +66174,6 @@
             "highlight": null
           },
           {
-            "team": "Scaligera Basket Verona",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 153,
-            "against": 162,
-            "diff": -9,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Trieste",
             "played": 2,
             "win": 0,
@@ -66160,6 +66182,18 @@
             "for": 161,
             "against": 170,
             "diff": -9,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Scaligera Basket Verona",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 156,
+            "against": 167,
+            "diff": -11,
             "points": 0,
             "highlight": null
           },
