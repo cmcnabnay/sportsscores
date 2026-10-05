@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T00:06:04+00:00",
+  "updated": "2026-10-05T00:15:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63937,6 +63937,18 @@
       "Clausura · Zone B": {
         "rows": [
           {
+            "team": "Argentinos Juniors",
+            "played": 11,
+            "win": 6,
+            "draw": 3,
+            "loss": 2,
+            "for": 15,
+            "against": 10,
+            "diff": 5,
+            "points": 21,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Belgrano",
             "played": 11,
             "win": 5,
@@ -63958,18 +63970,6 @@
             "against": 8,
             "diff": 3,
             "points": 19,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Argentinos Juniors",
-            "played": 10,
-            "win": 5,
-            "draw": 3,
-            "loss": 2,
-            "for": 13,
-            "against": 9,
-            "diff": 4,
-            "points": 18,
             "highlight": "#BBF3BB"
           },
           {
@@ -64058,13 +64058,13 @@
           },
           {
             "team": "Tigre",
-            "played": 10,
+            "played": 11,
             "win": 3,
             "draw": 3,
-            "loss": 4,
-            "for": 9,
-            "against": 9,
-            "diff": 0,
+            "loss": 5,
+            "for": 10,
+            "against": 11,
+            "diff": -1,
             "points": 12,
             "highlight": "transparent"
           },
