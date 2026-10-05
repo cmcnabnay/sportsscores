@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:20:32+00:00",
+  "updated": "2026-10-05T18:30:32+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64909,9 +64909,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 224,
-            "against": 207,
-            "diff": 17,
+            "for": 230,
+            "against": 212,
+            "diff": 18,
             "points": 6,
             "highlight": null
           },
@@ -65101,9 +65101,9 @@
             "win": 0,
             "draw": null,
             "loss": 4,
-            "for": 237,
-            "against": 305,
-            "diff": -68,
+            "for": 242,
+            "against": 311,
+            "diff": -69,
             "points": 1,
             "highlight": null
           }
@@ -65129,13 +65129,13 @@
           {
             "team": "CSKA Moscow",
             "played": 13,
-            "win": 8,
+            "win": 9,
             "draw": null,
             "loss": 3,
-            "for": 39,
+            "for": 40,
             "against": 25,
-            "diff": 14,
-            "points": 17,
+            "diff": 15,
+            "points": 19,
             "highlight": null
           },
           {
@@ -65304,10 +65304,10 @@
             "played": 12,
             "win": 6,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 36,
-            "against": 30,
-            "diff": 6,
+            "against": 31,
+            "diff": 5,
             "points": 12,
             "highlight": null
           },
@@ -66032,18 +66032,6 @@
             "highlight": null
           },
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 105,
-            "against": 79,
-            "diff": 26,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Napoli Basket",
             "played": 2,
             "win": 2,
@@ -66092,6 +66080,18 @@
             "highlight": null
           },
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 108,
+            "against": 87,
+            "diff": 21,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Olimpia Milano",
             "played": 1,
             "win": 1,
@@ -66112,6 +66112,18 @@
             "for": 173,
             "against": 171,
             "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Cantù",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 97,
+            "against": 106,
+            "diff": -9,
             "points": 2,
             "highlight": null
           },
@@ -66172,18 +66184,6 @@
             "for": 171,
             "against": 182,
             "diff": -11,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Cantù",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 89,
-            "against": 103,
-            "diff": -14,
             "points": 0,
             "highlight": null
           },
