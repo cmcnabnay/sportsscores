@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:40:32+00:00",
+  "updated": "2026-10-05T18:50:37+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64909,9 +64909,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 238,
-            "against": 222,
-            "diff": 16,
+            "for": 242,
+            "against": 224,
+            "diff": 18,
             "points": 6,
             "highlight": null
           },
@@ -65101,9 +65101,9 @@
             "win": 0,
             "draw": null,
             "loss": 4,
-            "for": 252,
-            "against": 319,
-            "diff": -67,
+            "for": 254,
+            "against": 323,
+            "diff": -69,
             "points": 1,
             "highlight": null
           }
@@ -66032,18 +66032,6 @@
             "highlight": null
           },
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 118,
-            "against": 92,
-            "diff": 26,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Napoli Basket",
             "played": 2,
             "win": 2,
@@ -66080,6 +66068,18 @@
             "highlight": null
           },
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 123,
+            "against": 99,
+            "diff": 24,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "BC Roma SPQR",
             "played": 2,
             "win": 1,
@@ -66093,13 +66093,13 @@
           },
           {
             "team": "Olimpia Milano",
-            "played": 1,
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 79,
-            "diff": 4,
+            "loss": 1,
+            "for": 89,
+            "against": 87,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -66112,6 +66112,18 @@
             "for": 173,
             "against": 171,
             "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Scaligera Basket Verona",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 101,
+            "against": 107,
+            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -66137,18 +66149,6 @@
             "against": 201,
             "diff": -30,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Scaligera Basket Verona",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 93,
-            "against": 101,
-            "diff": -8,
-            "points": 0,
             "highlight": null
           },
           {
@@ -66180,10 +66180,10 @@
             "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 102,
-            "against": 116,
-            "diff": -14,
+            "loss": 1,
+            "for": 109,
+            "against": 121,
+            "diff": -12,
             "points": 0,
             "highlight": null
           },
