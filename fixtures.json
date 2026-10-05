@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T20:11:03+00:00",
+  "updated": "2026-10-05T20:22:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66080,6 +66080,18 @@
             "highlight": null
           },
           {
+            "team": "Olimpia Milano",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 144,
+            "against": 139,
+            "diff": 5,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "BC Roma SPQR",
             "played": 2,
             "win": 1,
@@ -66100,30 +66112,6 @@
             "for": 173,
             "against": 171,
             "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Olimpia Milano",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 136,
-            "against": 137,
-            "diff": -1,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Scaligera Basket Verona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 151,
-            "against": 154,
-            "diff": -3,
             "points": 2,
             "highlight": null
           },
@@ -66149,6 +66137,18 @@
             "against": 201,
             "diff": -30,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Scaligera Basket Verona",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 153,
+            "against": 162,
+            "diff": -9,
+            "points": 0,
             "highlight": null
           },
           {
