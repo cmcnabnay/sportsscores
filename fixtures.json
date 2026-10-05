@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T17:10:05+00:00",
+  "updated": "2026-10-05T17:19:36+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64217,13 +64217,13 @@
           },
           {
             "team": "Veles Moscow",
-            "played": 12,
+            "played": 13,
             "win": 7,
             "draw": 2,
-            "loss": 3,
-            "for": 16,
-            "against": 14,
-            "diff": 2,
+            "loss": 4,
+            "for": 17,
+            "against": 16,
+            "diff": 1,
             "points": 23,
             "highlight": "transparent"
           },
@@ -64288,6 +64288,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Volga Ulyanovsk",
+            "played": 13,
+            "win": 4,
+            "draw": 2,
+            "loss": 7,
+            "for": 16,
+            "against": 19,
+            "diff": -3,
+            "points": 14,
+            "highlight": "transparent"
+          },
+          {
             "team": "Arsenal Tula",
             "played": 12,
             "win": 3,
@@ -64333,18 +64345,6 @@
             "against": 19,
             "diff": -6,
             "points": 12,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Volga Ulyanovsk",
-            "played": 12,
-            "win": 3,
-            "draw": 2,
-            "loss": 7,
-            "for": 14,
-            "against": 18,
-            "diff": -4,
-            "points": 11,
             "highlight": "transparent"
           },
           {
