@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T17:40:54+00:00",
+  "updated": "2026-10-05T17:49:36+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20684,17 +20684,6 @@
       "time": "18:45",
       "utc": "2026-10-07T18:45:00+00:00",
       "venue": "Porte de La Chapelle Arena",
-      "attendance": null
-    },
-    {
-      "league": "khl-2026-27",
-      "home": "Traktor Chelyabinsk",
-      "away": "Amur Khabarovsk",
-      "score": null,
-      "date": "2026-10-08",
-      "time": "14:00",
-      "utc": "2026-10-08T14:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -65154,10 +65143,10 @@
             "played": 12,
             "win": 8,
             "draw": null,
-            "loss": 4,
-            "for": 33,
+            "loss": 3,
+            "for": 34,
             "against": 19,
-            "diff": 14,
+            "diff": 15,
             "points": 16,
             "highlight": null
           },
@@ -65186,18 +65175,6 @@
             "highlight": null
           },
           {
-            "team": "Dinamo Minsk",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 34,
-            "against": 34,
-            "diff": 0,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "Spartak Moscow",
             "played": 12,
             "win": 5,
@@ -65206,6 +65183,18 @@
             "for": 29,
             "against": 25,
             "diff": 4,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Dinamo Minsk",
+            "played": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 34,
+            "against": 35,
+            "diff": -1,
             "points": 12,
             "highlight": null
           },
