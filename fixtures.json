@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:50:37+00:00",
+  "updated": "2026-10-05T19:00:37+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65147,7 +65147,7 @@
             "for": 34,
             "against": 19,
             "diff": 15,
-            "points": 16,
+            "points": 17,
             "highlight": null
           },
           {
@@ -65175,18 +65175,6 @@
             "highlight": null
           },
           {
-            "team": "Spartak Moscow",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 29,
-            "against": 25,
-            "diff": 4,
-            "points": 12,
-            "highlight": null
-          },
-          {
             "team": "Dinamo Minsk",
             "played": 12,
             "win": 4,
@@ -65195,6 +65183,18 @@
             "for": 34,
             "against": 35,
             "diff": -1,
+            "points": 13,
+            "highlight": null
+          },
+          {
+            "team": "Spartak Moscow",
+            "played": 12,
+            "win": 5,
+            "draw": null,
+            "loss": 5,
+            "for": 29,
+            "against": 25,
+            "diff": 4,
             "points": 12,
             "highlight": null
           },
@@ -66068,6 +66068,18 @@
             "highlight": null
           },
           {
+            "team": "Olimpia Milano",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 99,
+            "against": 94,
+            "diff": 5,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Amici Pallacanestro Udinese",
             "played": 2,
             "win": 1,
@@ -66092,18 +66104,6 @@
             "highlight": null
           },
           {
-            "team": "Olimpia Milano",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 89,
-            "against": 87,
-            "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Dolomiti Energia Trento",
             "played": 2,
             "win": 1,
@@ -66112,18 +66112,6 @@
             "for": 173,
             "against": 171,
             "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Scaligera Basket Verona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 101,
-            "against": 107,
-            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -66149,6 +66137,18 @@
             "against": 201,
             "diff": -30,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Scaligera Basket Verona",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 108,
+            "against": 117,
+            "diff": -9,
+            "points": 0,
             "highlight": null
           },
           {
