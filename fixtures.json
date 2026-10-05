@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T02:18:02+00:00",
+  "updated": "2026-10-05T02:28:35+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64069,6 +64069,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Racing",
+            "played": 11,
+            "win": 3,
+            "draw": 2,
+            "loss": 6,
+            "for": 13,
+            "against": 17,
+            "diff": -4,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
             "team": "Banfield",
             "played": 10,
             "win": 2,
@@ -64093,26 +64105,14 @@
             "highlight": "transparent"
           },
           {
-            "team": "Racing",
-            "played": 10,
-            "win": 2,
-            "draw": 2,
-            "loss": 6,
-            "for": 11,
-            "against": 16,
-            "diff": -5,
-            "points": 8,
-            "highlight": "transparent"
-          },
-          {
             "team": "Estudiantes (RC)",
-            "played": 10,
+            "played": 11,
             "win": 1,
             "draw": 3,
-            "loss": 6,
-            "for": 5,
-            "against": 13,
-            "diff": -8,
+            "loss": 7,
+            "for": 6,
+            "against": 15,
+            "diff": -9,
             "points": 6,
             "highlight": "transparent"
           }
