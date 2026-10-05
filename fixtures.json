@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:30:32+00:00",
+  "updated": "2026-10-05T18:40:32+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19488,12 +19488,12 @@
       "league": "super-league-2026",
       "home": "Warrington Wolves",
       "away": "Wakefield Trinity",
-      "score": "10-23",
+      "score": "10–23",
       "date": "2026-10-03",
       "time": "18:00",
       "utc": "2026-10-03T17:00:00+00:00",
       "venue": "Old Trafford",
-      "attendance": null
+      "attendance": "71728"
     },
     {
       "league": "bbl-2026-27",
@@ -64909,9 +64909,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 230,
-            "against": 212,
-            "diff": 18,
+            "for": 238,
+            "against": 222,
+            "diff": 16,
             "points": 6,
             "highlight": null
           },
@@ -65101,9 +65101,9 @@
             "win": 0,
             "draw": null,
             "loss": 4,
-            "for": 242,
-            "against": 311,
-            "diff": -69,
+            "for": 252,
+            "against": 319,
+            "diff": -67,
             "points": 1,
             "highlight": null
           }
@@ -65132,9 +65132,9 @@
             "win": 9,
             "draw": null,
             "loss": 3,
-            "for": 40,
+            "for": 41,
             "against": 25,
-            "diff": 15,
+            "diff": 16,
             "points": 19,
             "highlight": null
           },
@@ -65306,8 +65306,8 @@
             "draw": null,
             "loss": 5,
             "for": 36,
-            "against": 31,
-            "diff": 5,
+            "against": 32,
+            "diff": 4,
             "points": 12,
             "highlight": null
           },
@@ -66032,6 +66032,18 @@
             "highlight": null
           },
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 118,
+            "against": 92,
+            "diff": 26,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Napoli Basket",
             "played": 2,
             "win": 2,
@@ -66080,18 +66092,6 @@
             "highlight": null
           },
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 108,
-            "against": 87,
-            "diff": 21,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Olimpia Milano",
             "played": 1,
             "win": 1,
@@ -66112,18 +66112,6 @@
             "for": 173,
             "against": 171,
             "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Cantù",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 97,
-            "against": 106,
-            "diff": -9,
             "points": 2,
             "highlight": null
           },
@@ -66184,6 +66172,18 @@
             "for": 171,
             "against": 182,
             "diff": -11,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Cantù",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 102,
+            "against": 116,
+            "diff": -14,
             "points": 0,
             "highlight": null
           },
