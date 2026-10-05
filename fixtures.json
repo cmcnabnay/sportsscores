@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T20:01:03+00:00",
+  "updated": "2026-10-05T20:11:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66044,6 +66044,18 @@
             "highlight": null
           },
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 172,
+            "against": 147,
+            "diff": 25,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Treviso Basket",
             "played": 2,
             "win": 2,
@@ -66068,18 +66080,6 @@
             "highlight": null
           },
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 167,
-            "against": 143,
-            "diff": 24,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "BC Roma SPQR",
             "played": 2,
             "win": 1,
@@ -66088,18 +66088,6 @@
             "for": 202,
             "against": 179,
             "diff": 23,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Olimpia Milano",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 130,
-            "against": 128,
-            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -66116,14 +66104,26 @@
             "highlight": null
           },
           {
+            "team": "Olimpia Milano",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 136,
+            "against": 137,
+            "diff": -1,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Scaligera Basket Verona",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 142,
-            "against": 148,
-            "diff": -6,
+            "for": 151,
+            "against": 154,
+            "diff": -3,
             "points": 2,
             "highlight": null
           },
@@ -66180,10 +66180,10 @@
             "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 153,
-            "against": 165,
-            "diff": -12,
+            "loss": 2,
+            "for": 157,
+            "against": 170,
+            "diff": -13,
             "points": 0,
             "highlight": null
           },
