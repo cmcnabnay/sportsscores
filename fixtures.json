@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T21:31:32+00:00",
+  "updated": "2026-10-05T21:42:39+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63905,6 +63905,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Deportivo Riestra",
+            "played": 11,
+            "win": 2,
+            "draw": 5,
+            "loss": 4,
+            "for": 9,
+            "against": 11,
+            "diff": -2,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
             "team": "San Lorenzo",
             "played": 11,
             "win": 3,
@@ -63929,18 +63941,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Deportivo Riestra",
-            "played": 10,
-            "win": 2,
-            "draw": 4,
-            "loss": 4,
-            "for": 8,
-            "against": 10,
-            "diff": -2,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
             "team": "Platense",
             "played": 10,
             "win": 2,
@@ -63954,14 +63954,14 @@
           },
           {
             "team": "Central Córdoba (SdE)",
-            "played": 10,
+            "played": 11,
             "win": 2,
-            "draw": 2,
+            "draw": 3,
             "loss": 6,
-            "for": 7,
-            "against": 13,
+            "for": 8,
+            "against": 14,
             "diff": -6,
-            "points": 8,
+            "points": 9,
             "highlight": "transparent"
           },
           {
