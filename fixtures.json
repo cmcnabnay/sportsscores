@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T15:58:05+00:00",
+  "updated": "2026-10-06T16:07:44+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65313,6 +65313,18 @@
             "highlight": null
           },
           {
+            "team": "Amur Khabarovsk",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 20,
+            "against": 20,
+            "diff": 0,
+            "points": 13,
+            "highlight": null
+          },
+          {
             "team": "Salavat Yulayev Ufa",
             "played": 12,
             "win": 6,
@@ -65337,26 +65349,14 @@
             "highlight": null
           },
           {
-            "team": "Amur Khabarovsk",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 19,
-            "against": 20,
-            "diff": -1,
-            "points": 11,
-            "highlight": null
-          },
-          {
             "team": "Traktor Chelyabinsk",
             "played": 11,
             "win": 5,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 23,
-            "against": 28,
-            "diff": -5,
+            "against": 29,
+            "diff": -6,
             "points": 10,
             "highlight": null
           },
@@ -67730,6 +67730,30 @@
       "Group B": {
         "rows": [
           {
+            "team": "Szolnoki Olajbanyasz",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 2,
+            "against": 0,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Stelmet Zielona Gora",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 0,
+            "against": 2,
+            "diff": -2,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "BC Oostende",
             "played": 0,
             "win": 0,
@@ -67743,30 +67767,6 @@
           },
           {
             "team": "Levice",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Szolnoki Olajbanyasz",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Stelmet Zielona Gora",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -67925,15 +67925,27 @@
       "Group E": {
         "rows": [
           {
-            "team": "Tartu Ülikool",
-            "played": 0,
-            "win": 0,
+            "team": "Dziki Warszawa",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 8,
+            "against": 1,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Tartu Ülikool",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 1,
+            "against": 8,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           },
           {
@@ -67974,18 +67986,6 @@
           },
           {
             "team": "Wurzburg Baskets",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Dziki Warszawa",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68120,6 +68120,18 @@
       "Group H": {
         "rows": [
           {
+            "team": "Mykonos",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 10,
+            "against": 7,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Fribourg Olympic",
             "played": 0,
             "win": 0,
@@ -68133,18 +68145,6 @@
           },
           {
             "team": "CSM Oradea",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Mykonos",
             "played": 0,
             "win": 0,
             "draw": null,
