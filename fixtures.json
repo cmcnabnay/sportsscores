@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:09:23+00:00",
+  "updated": "2026-10-06T18:18:45+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65431,9 +65431,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 147,
-            "against": 120,
-            "diff": 27,
+            "for": 157,
+            "against": 128,
+            "diff": 29,
             "points": 4,
             "highlight": null
           },
@@ -65467,9 +65467,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 83,
-            "against": 96,
-            "diff": -13,
+            "for": 91,
+            "against": 109,
+            "diff": -18,
             "points": 3,
             "highlight": null
           },
@@ -65479,9 +65479,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 88,
-            "against": 94,
-            "diff": -6,
+            "for": 101,
+            "against": 102,
+            "diff": -1,
             "points": 3,
             "highlight": null
           },
@@ -65503,9 +65503,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 128,
-            "against": 138,
-            "diff": -10,
+            "for": 136,
+            "against": 148,
+            "diff": -12,
             "points": 2,
             "highlight": null
           },
@@ -65526,6 +65526,18 @@
       },
       "Group B": {
         "rows": [
+          {
+            "team": "Siauliai",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 109,
+            "against": 99,
+            "diff": 10,
+            "points": 4,
+            "highlight": null
+          },
           {
             "team": "Reyer Venezia",
             "played": 1,
@@ -65551,26 +65563,14 @@
             "highlight": null
           },
           {
-            "team": "Siauliai",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 96,
-            "against": 93,
-            "diff": 3,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Turk Telekom",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 148,
-            "against": 150,
-            "diff": -2,
+            "for": 158,
+            "against": 155,
+            "diff": 3,
             "points": 3,
             "highlight": null
           },
@@ -65599,18 +65599,6 @@
             "highlight": null
           },
           {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 94,
-            "against": 126,
-            "diff": -32,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Cluj Napoca",
             "played": 1,
             "win": 0,
@@ -65620,6 +65608,18 @@
             "against": 89,
             "diff": -34,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 100,
+            "against": 139,
+            "diff": -39,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -65633,21 +65633,33 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 137,
-            "against": 109,
-            "diff": 28,
+            "for": 150,
+            "against": 119,
+            "diff": 31,
             "points": 4,
             "highlight": null
           },
           {
             "team": "Tofas",
             "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 126,
+            "against": 107,
+            "diff": 19,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 115,
-            "against": 103,
-            "diff": 12,
+            "for": 96,
+            "against": 94,
+            "diff": 2,
             "points": 3,
             "highlight": null
           },
@@ -65657,33 +65669,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 132,
-            "against": 128,
-            "diff": 4,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 79,
-            "against": 83,
-            "diff": -4,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "JL Bourg",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 110,
-            "against": 117,
-            "diff": -7,
+            "for": 142,
+            "against": 141,
+            "diff": 1,
             "points": 3,
             "highlight": null
           },
@@ -65693,9 +65681,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 85,
-            "against": 102,
-            "diff": -17,
+            "for": 96,
+            "against": 119,
+            "diff": -23,
             "points": 3,
             "highlight": null
           },
@@ -65722,6 +65710,18 @@
             "diff": -13,
             "points": 1,
             "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 114,
+            "against": 128,
+            "diff": -14,
+            "points": 2,
+            "highlight": null
           }
         ],
         "legend": {}
@@ -65734,9 +65734,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 126,
-            "against": 109,
-            "diff": 17,
+            "for": 131,
+            "against": 113,
+            "diff": 18,
             "points": 4,
             "highlight": null
           },
@@ -65794,9 +65794,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 103,
-            "against": 108,
-            "diff": -5,
+            "for": 107,
+            "against": 113,
+            "diff": -6,
             "points": 2,
             "highlight": null
           },
@@ -67776,30 +67776,6 @@
             "highlight": null
           },
           {
-            "team": "BC Oostende",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 55,
-            "against": 40,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 23,
-            "against": 17,
-            "diff": 6,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Szolnoki Olajbanyasz",
             "played": 1,
             "win": 0,
@@ -67812,15 +67788,39 @@
             "highlight": null
           },
           {
-            "team": "Levice",
-            "played": 1,
+            "team": "BC Oostende",
+            "played": 0,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 40,
-            "against": 55,
-            "diff": -15,
-            "points": 1,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Levice",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Basquet Girona",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           }
         ],
@@ -67894,31 +67894,31 @@
       "Group D": {
         "rows": [
           {
-            "team": "Nancy",
-            "played": 1,
+            "team": "Keravnos",
+            "played": 0,
             "win": 0,
             "draw": null,
             "loss": 0,
-            "for": 6,
-            "against": 6,
+            "for": 0,
+            "against": 0,
             "diff": 0,
-            "points": 1,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Nancy",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
             "team": "BC Vienna",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 6,
-            "against": 6,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Keravnos",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -67971,18 +67971,6 @@
             "highlight": null
           },
           {
-            "team": "Iraklis",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 40,
-            "against": 39,
-            "diff": 1,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Tartu Ülikool",
             "played": 1,
             "win": 0,
@@ -67996,14 +67984,26 @@
           },
           {
             "team": "Mzt Skopje",
-            "played": 1,
+            "played": 0,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 39,
-            "against": 40,
-            "diff": -1,
-            "points": 1,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Iraklis",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
