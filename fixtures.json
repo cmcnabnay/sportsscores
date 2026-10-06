@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T00:24:26+00:00",
+  "updated": "2026-10-06T00:35:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20042,7 +20042,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Platense",
-      "score": "-",
+      "score": "2-2",
       "date": "2026-10-05",
       "time": "19:00",
       "utc": "2026-10-05T22:00:00+00:00",
@@ -23515,6 +23515,17 @@
       "attendance": null
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Gimnasia y Esgrima (M)",
+      "score": "-",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "utc": "2026-10-18T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Pallacanestro Varese",
@@ -23676,17 +23687,6 @@
       "date": "2026-10-18",
       "time": "16:30",
       "utc": "2026-10-18T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Gimnasia y Esgrima (M)",
-      "score": "-",
-      "date": "2026-10-18",
-      "time": "17:00",
-      "utc": "2026-10-18T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -68764,7 +68764,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-05T22:11:07.970686+00:00",
+    "velez": "2026-10-06T00:33:07.098677+00:00",
     "torpedo": "2026-10-05T22:11:07.970686+00:00"
   }
 }
