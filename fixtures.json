@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:50:30+00:00",
+  "updated": "2026-10-06T17:14:50+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65431,9 +65431,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 108,
-            "against": 86,
-            "diff": 22,
+            "for": 119,
+            "against": 95,
+            "diff": 24,
             "points": 4,
             "highlight": null
           },
@@ -65491,9 +65491,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 94,
-            "against": 99,
-            "diff": -5,
+            "for": 103,
+            "against": 110,
+            "diff": -7,
             "points": 2,
             "highlight": null
           },
@@ -65592,9 +65592,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 97,
-            "against": 105,
-            "diff": -8,
+            "for": 111,
+            "against": 121,
+            "diff": -10,
             "points": 2,
             "highlight": null
           },
@@ -65628,15 +65628,15 @@
       "Group C": {
         "rows": [
           {
-            "team": "KK Budućnost",
-            "played": 1,
-            "win": 1,
+            "team": "Napoli Basket",
+            "played": 2,
+            "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 99,
-            "against": 75,
-            "diff": 24,
-            "points": 2,
+            "for": 93,
+            "against": 84,
+            "diff": 9,
+            "points": 4,
             "highlight": null
           },
           {
@@ -65652,18 +65652,6 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 84,
-            "against": 76,
-            "diff": 8,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Dolomiti Energia Trento",
             "played": 1,
             "win": 1,
@@ -65673,6 +65661,18 @@
             "against": 73,
             "diff": 3,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "KK Budućnost",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 107,
+            "against": 84,
+            "diff": 23,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67764,30 +67764,6 @@
       "Group B": {
         "rows": [
           {
-            "team": "Szolnoki Olajbanyasz",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 42,
-            "against": 40,
-            "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Stelmet Zielona Gora",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 40,
-            "against": 42,
-            "diff": -2,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "BC Oostende",
             "played": 0,
             "win": 0,
@@ -67801,6 +67777,30 @@
           },
           {
             "team": "Levice",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Szolnoki Olajbanyasz",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Stelmet Zielona Gora",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -67959,27 +67959,15 @@
       "Group E": {
         "rows": [
           {
-            "team": "Dziki Warszawa",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 55,
-            "against": 29,
-            "diff": 26,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Tartu Ülikool",
-            "played": 1,
+            "played": 0,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 29,
-            "against": 55,
-            "diff": -26,
-            "points": 1,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
@@ -68020,6 +68008,18 @@
           },
           {
             "team": "Wurzburg Baskets",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Dziki Warszawa",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68154,18 +68154,6 @@
       "Group H": {
         "rows": [
           {
-            "team": "Mykonos",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 34,
-            "against": 40,
-            "diff": -6,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Fribourg Olympic",
             "played": 0,
             "win": 0,
@@ -68179,6 +68167,18 @@
           },
           {
             "team": "CSM Oradea",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Mykonos",
             "played": 0,
             "win": 0,
             "draw": null,
