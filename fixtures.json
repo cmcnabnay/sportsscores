@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:07:44+00:00",
+  "updated": "2026-10-06T16:18:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65294,9 +65294,9 @@
             "win": 6,
             "draw": null,
             "loss": 5,
-            "for": 33,
+            "for": 34,
             "against": 32,
-            "diff": 1,
+            "diff": 2,
             "points": 14,
             "highlight": null
           },
@@ -65367,8 +65367,8 @@
             "draw": null,
             "loss": 6,
             "for": 20,
-            "against": 28,
-            "diff": -8,
+            "against": 29,
+            "diff": -9,
             "points": 10,
             "highlight": null
           },
@@ -67730,26 +67730,26 @@
       "Group B": {
         "rows": [
           {
-            "team": "Szolnoki Olajbanyasz",
+            "team": "Stelmet Zielona Gora",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 2,
-            "against": 0,
-            "diff": 2,
+            "for": 13,
+            "against": 10,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Stelmet Zielona Gora",
+            "team": "Szolnoki Olajbanyasz",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 0,
-            "against": 2,
-            "diff": -2,
+            "for": 10,
+            "against": 13,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -67930,9 +67930,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 8,
-            "against": 1,
-            "diff": 7,
+            "for": 28,
+            "against": 10,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -67942,9 +67942,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 1,
-            "against": 8,
-            "diff": -7,
+            "for": 10,
+            "against": 28,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -68125,9 +68125,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 10,
-            "against": 7,
-            "diff": 3,
+            "for": 22,
+            "against": 16,
+            "diff": 6,
             "points": 2,
             "highlight": null
           },
