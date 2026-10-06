@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T19:00:51+00:00",
+  "updated": "2026-10-06T19:13:35+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -14737,6 +14737,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Biotekno Körfez Basket",
+      "away": "Kolossos Rodou",
+      "score": "91-79",
+      "date": "2026-09-15",
+      "time": "13:30",
+      "utc": "2026-09-15T13:30:00+00:00",
+      "venue": "Muradiye Spor Kompleksi",
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Avangard Omsk",
       "away": "Avtomobilist Yekaterinburg",
@@ -14841,6 +14852,17 @@
       "league": "bcl-2026-27",
       "home": "Rasta Vechta",
       "away": "Yukatel Merkezefendi Belediyesi Basket",
+      "score": "101-98",
+      "date": "2026-09-15",
+      "time": "18:00",
+      "utc": "2026-09-15T18:00:00+00:00",
+      "venue": "Rasta-Dome",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Rasta Vechta",
+      "away": "Denizli Basket Spor Kulübü",
       "score": "101-98",
       "date": "2026-09-15",
       "time": "18:00",
@@ -15052,6 +15074,17 @@
       "league": "bcl-2026-27",
       "home": "Promitheas Patras BC Vikos Cola",
       "away": "Glint Korfez Basket",
+      "score": "94-93",
+      "date": "2026-09-17",
+      "time": "15:45",
+      "utc": "2026-09-17T15:45:00+00:00",
+      "venue": "Dimitris Tofalos Arena",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Promitheas Patras BC Vikos Cola",
+      "away": "Biotekno Körfez Basket",
       "score": "94-93",
       "date": "2026-09-17",
       "time": "15:45",
@@ -20073,6 +20106,28 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Hapoel Netanel Holon",
+      "away": "Cholet Basket",
+      "score": "79-99",
+      "date": "2026-10-06",
+      "time": "15:45",
+      "utc": "2026-10-06T15:45:00+00:00",
+      "venue": "Arena Samokov",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Cibona",
+      "away": "Galatasaray MCT Technic",
+      "score": "96-76",
+      "date": "2026-10-06",
+      "time": "16:00",
+      "utc": "2026-10-06T16:00:00+00:00",
+      "venue": "Dražen Petrović Basketball Hall",
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Tartu Ülikool",
       "away": "Dziki Warszawa",
@@ -20109,7 +20164,7 @@
       "league": "bcl-2026-27",
       "home": "Rytas Vilnius",
       "away": "BC Sabah",
-      "score": null,
+      "score": "82-73",
       "date": "2026-10-06",
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
@@ -20120,7 +20175,7 @@
       "league": "bcl-2026-27",
       "home": "Peristeri BC",
       "away": "Bamberg Baskets",
-      "score": null,
+      "score": "93-87",
       "date": "2026-10-06",
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
@@ -20128,21 +20183,10 @@
       "attendance": null
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Hapoel Netanel Holon",
-      "away": "Cholet Basket",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "16:30",
-      "utc": "2026-10-06T16:30:00+00:00",
-      "venue": "Holon Toto Hall",
-      "attendance": null
-    },
-    {
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Severstal Cherepovets",
-      "score": null,
+      "score": "2-5",
       "date": "2026-10-06",
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
@@ -20153,7 +20197,7 @@
       "league": "eurocup-2026-27",
       "home": "KK Cedevita Olimpija",
       "away": "Hapoel Jerusalem",
-      "score": null,
+      "score": "64-75",
       "date": "2026-10-06",
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
@@ -20164,7 +20208,7 @@
       "league": "eurocup-2026-27",
       "home": "Turk Telekom",
       "away": "Maxima Roma",
-      "score": null,
+      "score": "92-77",
       "date": "2026-10-06",
       "time": "16:30",
       "utc": "2026-10-06T16:30:00+00:00",
@@ -20175,7 +20219,7 @@
       "league": "eurocup-2026-27",
       "home": "KK Budućnost",
       "away": "Napoli Basket",
-      "score": null,
+      "score": "75-93",
       "date": "2026-10-06",
       "time": "17:00",
       "utc": "2026-10-06T17:00:00+00:00",
@@ -20246,17 +20290,6 @@
       "time": "17:45",
       "utc": "2026-10-06T17:45:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bcl-2026-27",
-      "home": "KK Cibona",
-      "away": "Galatasaray MCT Technic",
-      "score": null,
-      "date": "2026-10-06",
-      "time": "18:00",
-      "utc": "2026-10-06T18:00:00+00:00",
-      "venue": "Dražen Petrović Basketball Hall",
       "attendance": null
     },
     {
@@ -20443,7 +20476,18 @@
       "date": "2026-10-07",
       "time": "16:00",
       "utc": "2026-10-07T16:00:00+00:00",
-      "venue": "Sportovni hala Slavia - EDEN",
+      "venue": "Enteria Arena",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "AEK BC",
+      "away": "Salon Vilpas Vikings",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": "SUNEL Arena",
       "attendance": null
     },
     {
@@ -20527,6 +20571,17 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Shanghai Dragons",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:30",
+      "utc": "2026-10-07T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Spartak Moscow",
       "score": null,
       "date": "2026-10-07",
       "time": "16:30",
@@ -20642,6 +20697,17 @@
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
       "venue": "Telekom Dome",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "KK Spartak Office Shoes",
+      "away": "Rasta Vechta",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "18:00",
+      "utc": "2026-10-07T18:00:00+00:00",
+      "venue": "HS Dudova Suma",
       "attendance": null
     },
     {
@@ -22592,6 +22658,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Cholet Basket",
+      "away": "Rasta Vechta",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "utc": "2026-10-14T18:00:00+00:00",
+      "venue": "La Meilleraie",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Le Mans",
       "away": "Rostock Seawolves",
@@ -23931,6 +24008,17 @@
       "time": "16:00",
       "utc": "2026-10-20T16:00:00+00:00",
       "venue": "Sports Hall Dasicka",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Falco KC-Szombathely",
+      "away": "Salon Vilpas Vikings",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "16:00",
+      "utc": "2026-10-20T16:00:00+00:00",
+      "venue": "Arena Savaria",
       "attendance": null
     },
     {
@@ -26178,6 +26266,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Rasta Vechta",
+      "away": "Hapoel Netanel Holon",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "utc": "2026-10-28T18:00:00+00:00",
+      "venue": "Rasta-Dome",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Hapoel Tel-Aviv",
       "away": "Anadolu Efes",
@@ -27620,6 +27719,17 @@
     },
     {
       "league": "bcl-2026-27",
+      "home": "Salon Vilpas Vikings",
+      "away": "Windrose Giants Antwerp",
+      "score": null,
+      "date": "2026-11-03",
+      "time": "17:30",
+      "utc": "2026-11-03T17:30:00+00:00",
+      "venue": "Salohalli",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
       "home": "Utenos Juventus",
       "away": "BK JIP Pardubice",
       "score": null,
@@ -28826,6 +28936,17 @@
       "time": "17:00",
       "utc": "2026-11-10T17:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Hapoel Netanel Holon",
+      "away": "Rasta Vechta",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "17:30",
+      "utc": "2026-11-10T17:30:00+00:00",
+      "venue": "Holon Toto Hall",
       "attendance": null
     },
     {
@@ -30498,6 +30619,17 @@
       "time": "18:45",
       "utc": "2026-11-17T18:45:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Windrose Giants Antwerp",
+      "away": "Salon Vilpas Vikings",
+      "score": null,
+      "date": "2026-11-17",
+      "time": "19:00",
+      "utc": "2026-11-17T19:00:00+00:00",
+      "venue": "Lotto Arena",
       "attendance": null
     },
     {
@@ -34857,6 +34989,17 @@
       "attendance": null
     },
     {
+      "league": "bcl-2026-27",
+      "home": "Rasta Vechta",
+      "away": "Cholet Basket",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "18:00",
+      "utc": "2026-12-08T18:00:00+00:00",
+      "venue": "Rasta-Dome",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "PAOK",
       "away": "KK Bosna",
@@ -36438,6 +36581,17 @@
       "time": "17:00",
       "utc": "2026-12-15T17:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas Vikings",
+      "away": "AEK BC",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:30",
+      "utc": "2026-12-15T17:30:00+00:00",
+      "venue": "Salohalli",
       "attendance": null
     },
     {
@@ -38234,17 +38388,6 @@
       "attendance": null
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Windrose Giants Antwerp",
-      "away": "AEK BC",
-      "score": null,
-      "date": "2026-12-21",
-      "time": "23:00",
-      "utc": "2026-12-21T23:00:00+00:00",
-      "venue": "Lotto Arena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Bahçeşehir Koleji",
       "away": "KK Bosna",
@@ -38407,6 +38550,28 @@
       "time": "18:00",
       "utc": "2026-12-22T18:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Windrose Giants Antwerp",
+      "away": "AEK BC",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "18:30",
+      "utc": "2026-12-22T18:30:00+00:00",
+      "venue": "Lotto Arena",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas Vikings",
+      "away": "Falco KC-Szombathely",
+      "score": null,
+      "date": "2026-12-22",
+      "time": "18:30",
+      "utc": "2026-12-22T18:30:00+00:00",
+      "venue": "Salohalli",
       "attendance": null
     },
     {
@@ -38924,6 +39089,17 @@
       "time": "19:00",
       "utc": "2026-12-23T19:00:00+00:00",
       "venue": "La Meilleraie",
+      "attendance": null
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Rasta Vechta",
+      "away": "KK Spartak Office Shoes",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:00",
+      "utc": "2026-12-23T19:00:00+00:00",
+      "venue": "Rasta-Dome",
       "attendance": null
     },
     {
@@ -65874,8 +66050,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 113,
-            "against": 133,
+            "for": 115,
+            "against": 135,
             "diff": -20,
             "points": 3,
             "highlight": null
@@ -65886,8 +66062,8 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 125,
-            "against": 124,
+            "for": 127,
+            "against": 126,
             "diff": 1,
             "points": 3,
             "highlight": null
@@ -65934,30 +66110,6 @@
       "Group B": {
         "rows": [
           {
-            "team": "La Laguna Tenerife",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 101,
-            "against": 93,
-            "diff": 8,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Siauliai",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 129,
-            "against": 125,
-            "diff": 4,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Reyer Venezia",
             "played": 1,
             "win": 1,
@@ -65982,6 +66134,30 @@
             "highlight": null
           },
           {
+            "team": "La Laguna Tenerife",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 111,
+            "against": 104,
+            "diff": 7,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Siauliai",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 143,
+            "against": 140,
+            "diff": 3,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -65998,10 +66174,10 @@
             "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 89,
-            "against": 93,
-            "diff": -4,
+            "loss": 1,
+            "for": 100,
+            "against": 103,
+            "diff": -3,
             "points": 2,
             "highlight": null
           },
@@ -66010,10 +66186,10 @@
             "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 126,
-            "against": 159,
-            "diff": -33,
+            "loss": 1,
+            "for": 141,
+            "against": 173,
+            "diff": -32,
             "points": 2,
             "highlight": null
           },
@@ -66040,9 +66216,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 176,
-            "against": 149,
-            "diff": 27,
+            "for": 177,
+            "against": 151,
+            "diff": 26,
             "points": 4,
             "highlight": null
           },
@@ -66052,9 +66228,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 145,
-            "against": 129,
-            "diff": 16,
+            "for": 156,
+            "against": 137,
+            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -66064,9 +66240,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 172,
-            "against": 167,
-            "diff": 5,
+            "for": 174,
+            "against": 168,
+            "diff": 6,
             "points": 3,
             "highlight": null
           },
@@ -66076,9 +66252,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 125,
-            "against": 134,
-            "diff": -9,
+            "for": 128,
+            "against": 138,
+            "diff": -10,
             "points": 3,
             "highlight": null
           },
@@ -66088,9 +66264,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 111,
-            "against": 123,
-            "diff": -12,
+            "for": 115,
+            "against": 126,
+            "diff": -11,
             "points": 3,
             "highlight": null
           },
@@ -66107,18 +66283,6 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 136,
-            "against": 147,
-            "diff": -11,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 1,
             "win": 0,
@@ -66129,12 +66293,36 @@
             "diff": -13,
             "points": 1,
             "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 144,
+            "against": 158,
+            "diff": -14,
+            "points": 2,
+            "highlight": null
           }
         ],
         "legend": {}
       },
       "Group D": {
         "rows": [
+          {
+            "team": "PAOK",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 158,
+            "against": 142,
+            "diff": 16,
+            "points": 4,
+            "highlight": null
+          },
           {
             "team": "Ratiopharm Ulm",
             "played": 1,
@@ -66172,30 +66360,6 @@
             "highlight": null
           },
           {
-            "team": "KK Bosna",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 128,
-            "against": 128,
-            "diff": 0,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "PAOK",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 146,
-            "against": 134,
-            "diff": 12,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Roma Basketball",
             "played": 0,
             "win": 0,
@@ -66205,6 +66369,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "KK Bosna",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 136,
+            "against": 140,
+            "diff": -4,
+            "points": 2,
             "highlight": null
           },
           {
@@ -68195,6 +68371,18 @@
             "highlight": null
           },
           {
+            "team": "Basquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 65,
+            "against": 63,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Szolnoki Olajbanyasz",
             "played": 1,
             "win": 0,
@@ -68216,18 +68404,6 @@
             "against": 76,
             "diff": -7,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           }
         ],
@@ -68301,31 +68477,31 @@
       "Group D": {
         "rows": [
           {
-            "team": "Keravnos",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Nancy",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 52,
+            "against": 37,
+            "diff": 15,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "BC Vienna",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 37,
+            "against": 52,
+            "diff": -15,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Keravnos",
             "played": 0,
             "win": 0,
             "draw": null,
