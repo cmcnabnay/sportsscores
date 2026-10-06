@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:41:38+00:00",
+  "updated": "2026-10-06T16:50:30+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65191,8 +65191,8 @@
             "win": 8,
             "draw": null,
             "loss": 3,
-            "for": 40,
-            "against": 30,
+            "for": 41,
+            "against": 31,
             "diff": 10,
             "points": 16,
             "highlight": null
@@ -65215,8 +65215,8 @@
             "win": 6,
             "draw": null,
             "loss": 4,
-            "for": 21,
-            "against": 24,
+            "for": 22,
+            "against": 25,
             "diff": -3,
             "points": 14,
             "highlight": null
@@ -65431,8 +65431,8 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 104,
-            "against": 82,
+            "for": 108,
+            "against": 86,
             "diff": 22,
             "points": 4,
             "highlight": null
@@ -65491,8 +65491,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 90,
-            "against": 95,
+            "for": 94,
+            "against": 99,
             "diff": -5,
             "points": 2,
             "highlight": null
@@ -65563,18 +65563,6 @@
             "highlight": null
           },
           {
-            "team": "Turk Telekom",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 91,
-            "against": 96,
-            "diff": -5,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -65596,6 +65584,18 @@
             "against": 74,
             "diff": -3,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Turk Telekom",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 97,
+            "against": 105,
+            "diff": -8,
+            "points": 2,
             "highlight": null
           },
           {
@@ -67769,9 +67769,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 34,
-            "against": 31,
-            "diff": 3,
+            "for": 42,
+            "against": 40,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -67781,9 +67781,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 31,
-            "against": 34,
-            "diff": -3,
+            "for": 40,
+            "against": 42,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -67964,9 +67964,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 46,
-            "against": 21,
-            "diff": 25,
+            "for": 55,
+            "against": 29,
+            "diff": 26,
             "points": 2,
             "highlight": null
           },
@@ -67976,9 +67976,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 46,
-            "diff": -25,
+            "for": 29,
+            "against": 55,
+            "diff": -26,
             "points": 1,
             "highlight": null
           },
@@ -68156,13 +68156,13 @@
           {
             "team": "Mykonos",
             "played": 1,
-            "win": 1,
+            "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 30,
-            "against": 29,
-            "diff": 1,
-            "points": 2,
+            "loss": 1,
+            "for": 34,
+            "against": 40,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           },
           {
