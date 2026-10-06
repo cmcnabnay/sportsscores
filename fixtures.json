@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T17:24:33+00:00",
+  "updated": "2026-10-06T17:35:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65191,8 +65191,8 @@
             "win": 8,
             "draw": null,
             "loss": 3,
-            "for": 41,
-            "against": 31,
+            "for": 42,
+            "against": 32,
             "diff": 10,
             "points": 16,
             "highlight": null
@@ -65215,8 +65215,8 @@
             "win": 6,
             "draw": null,
             "loss": 4,
-            "for": 22,
-            "against": 25,
+            "for": 23,
+            "against": 26,
             "diff": -3,
             "points": 14,
             "highlight": null
@@ -65431,9 +65431,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 129,
-            "against": 99,
-            "diff": 30,
+            "for": 131,
+            "against": 100,
+            "diff": 31,
             "points": 4,
             "highlight": null
           },
@@ -65486,18 +65486,6 @@
             "highlight": null
           },
           {
-            "team": "KK Cedevita Olimpija",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 107,
-            "against": 120,
-            "diff": -13,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Le Mans",
             "played": 1,
             "win": 0,
@@ -65507,6 +65495,18 @@
             "against": 87,
             "diff": -13,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "KK Cedevita Olimpija",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 108,
+            "against": 122,
+            "diff": -14,
+            "points": 2,
             "highlight": null
           },
           {
@@ -65552,14 +65552,14 @@
           },
           {
             "team": "Siauliai",
-            "played": 1,
+            "played": 2,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 74,
-            "against": 71,
+            "for": 78,
+            "against": 75,
             "diff": 3,
-            "points": 2,
+            "points": 3,
             "highlight": null
           },
           {
@@ -65600,14 +65600,14 @@
           },
           {
             "team": "Skyliners Frankfurt",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 72,
-            "against": 104,
+            "for": 76,
+            "against": 108,
             "diff": -32,
-            "points": 1,
+            "points": 2,
             "highlight": null
           },
           {
@@ -65633,22 +65633,10 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 102,
-            "against": 89,
-            "diff": 13,
+            "for": 115,
+            "against": 103,
+            "diff": 12,
             "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Tofas",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 82,
-            "against": 69,
-            "diff": 13,
-            "points": 2,
             "highlight": null
           },
           {
@@ -65669,9 +65657,33 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 112,
-            "against": 93,
-            "diff": 19,
+            "for": 126,
+            "against": 106,
+            "diff": 20,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Tofas",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 82,
+            "against": 74,
+            "diff": 8,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 81,
+            "against": 84,
+            "diff": -3,
             "points": 3,
             "highlight": null
           },
@@ -65684,18 +65696,6 @@
             "for": 73,
             "against": 76,
             "diff": -3,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "JL Bourg",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 76,
-            "against": 84,
-            "diff": -8,
             "points": 1,
             "highlight": null
           },
@@ -65728,18 +65728,6 @@
       },
       "Group D": {
         "rows": [
-          {
-            "team": "PAOK",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 93,
-            "against": 78,
-            "diff": 15,
-            "points": 2,
-            "highlight": null
-          },
           {
             "team": "Ratiopharm Ulm",
             "played": 1,
@@ -65777,6 +65765,18 @@
             "highlight": null
           },
           {
+            "team": "PAOK",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 99,
+            "against": 84,
+            "diff": 15,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Roma Basketball",
             "played": 0,
             "win": 0,
@@ -65790,14 +65790,14 @@
           },
           {
             "team": "KK Bosna",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 72,
-            "against": 75,
+            "for": 78,
+            "against": 81,
             "diff": -3,
-            "points": 1,
+            "points": 2,
             "highlight": null
           },
           {
@@ -67769,9 +67769,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 28,
-            "against": 24,
-            "diff": 4,
+            "for": 38,
+            "against": 31,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -67781,8 +67781,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 62,
-            "against": 58,
+            "for": 67,
+            "against": 63,
             "diff": 4,
             "points": 2,
             "highlight": null
@@ -67793,9 +67793,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 24,
-            "against": 28,
-            "diff": -4,
+            "for": 31,
+            "against": 38,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -67805,8 +67805,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 58,
-            "against": 62,
+            "for": 63,
+            "against": 67,
             "diff": -4,
             "points": 1,
             "highlight": null
@@ -67964,9 +67964,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 21,
-            "diff": 5,
+            "for": 29,
+            "against": 26,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -67976,9 +67976,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 74,
-            "against": 49,
-            "diff": 25,
+            "for": 85,
+            "against": 52,
+            "diff": 33,
             "points": 2,
             "highlight": null
           },
@@ -67988,9 +67988,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 49,
-            "against": 74,
-            "diff": -25,
+            "for": 52,
+            "against": 85,
+            "diff": -33,
             "points": 1,
             "highlight": null
           },
@@ -68000,9 +68000,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 26,
-            "diff": -5,
+            "for": 26,
+            "against": 29,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -68159,9 +68159,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 46,
+            "for": 57,
             "against": 44,
-            "diff": 2,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
