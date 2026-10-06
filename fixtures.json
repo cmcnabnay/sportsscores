@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:49:31+00:00",
+  "updated": "2026-10-06T19:00:51+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65874,9 +65874,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 109,
-            "against": 123,
-            "diff": -14,
+            "for": 113,
+            "against": 133,
+            "diff": -20,
             "points": 3,
             "highlight": null
           },
@@ -65886,9 +65886,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 115,
-            "against": 120,
-            "diff": -5,
+            "for": 125,
+            "against": 124,
+            "diff": 1,
             "points": 3,
             "highlight": null
           },
@@ -65934,26 +65934,26 @@
       "Group B": {
         "rows": [
           {
-            "team": "Siauliai",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 125,
-            "against": 115,
-            "diff": 10,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "La Laguna Tenerife",
             "played": 2,
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 94,
-            "against": 85,
-            "diff": 9,
+            "for": 101,
+            "against": 93,
+            "diff": 8,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Siauliai",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 129,
+            "against": 125,
+            "diff": 4,
             "points": 4,
             "highlight": null
           },
@@ -65999,9 +65999,21 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 81,
-            "against": 86,
-            "diff": -5,
+            "for": 89,
+            "against": 93,
+            "diff": -4,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 126,
+            "against": 159,
+            "diff": -33,
             "points": 2,
             "highlight": null
           },
@@ -66016,18 +66028,6 @@
             "diff": -34,
             "points": 1,
             "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 116,
-            "against": 155,
-            "diff": -39,
-            "points": 2,
-            "highlight": null
           }
         ],
         "legend": {}
@@ -66040,9 +66040,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 161,
-            "against": 136,
-            "diff": 25,
+            "for": 176,
+            "against": 149,
+            "diff": 27,
             "points": 4,
             "highlight": null
           },
@@ -66052,9 +66052,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 136,
-            "against": 119,
-            "diff": 17,
+            "for": 145,
+            "against": 129,
+            "diff": 16,
             "points": 4,
             "highlight": null
           },
@@ -66064,9 +66064,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 159,
-            "against": 152,
-            "diff": 7,
+            "for": 172,
+            "against": 167,
+            "diff": 5,
             "points": 3,
             "highlight": null
           },
@@ -66077,8 +66077,8 @@
             "draw": null,
             "loss": 1,
             "for": 125,
-            "against": 132,
-            "diff": -7,
+            "against": 134,
+            "diff": -9,
             "points": 3,
             "highlight": null
           },
@@ -66088,9 +66088,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 109,
+            "for": 111,
             "against": 123,
-            "diff": -14,
+            "diff": -12,
             "points": 3,
             "highlight": null
           },
@@ -66112,9 +66112,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 126,
-            "against": 138,
-            "diff": -12,
+            "for": 136,
+            "against": 147,
+            "diff": -11,
             "points": 2,
             "highlight": null
           },
@@ -66177,9 +66177,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 122,
-            "against": 123,
-            "diff": -1,
+            "for": 128,
+            "against": 128,
+            "diff": 0,
             "points": 3,
             "highlight": null
           },
@@ -66189,9 +66189,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 141,
-            "against": 128,
-            "diff": 13,
+            "for": 146,
+            "against": 134,
+            "diff": 12,
             "points": 3,
             "highlight": null
           },
@@ -68195,18 +68195,6 @@
             "highlight": null
           },
           {
-            "team": "Basquet Girona",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 47,
-            "against": 44,
-            "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Szolnoki Olajbanyasz",
             "played": 1,
             "win": 0,
@@ -68228,6 +68216,18 @@
             "against": 76,
             "diff": -7,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Basquet Girona",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           }
         ],
@@ -68301,31 +68301,31 @@
       "Group D": {
         "rows": [
           {
-            "team": "Nancy",
-            "played": 1,
-            "win": 1,
+            "team": "Keravnos",
+            "played": 0,
+            "win": 0,
             "draw": null,
             "loss": 0,
-            "for": 43,
-            "against": 29,
-            "diff": 14,
-            "points": 2,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Nancy",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
             "highlight": null
           },
           {
             "team": "BC Vienna",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 29,
-            "against": 43,
-            "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Keravnos",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68383,9 +68383,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 60,
-            "against": 57,
-            "diff": 3,
+            "for": 64,
+            "against": 59,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -68407,9 +68407,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 57,
-            "against": 60,
-            "diff": -3,
+            "for": 59,
+            "against": 64,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
