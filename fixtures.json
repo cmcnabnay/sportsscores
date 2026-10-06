@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T18:18:45+00:00",
+  "updated": "2026-10-06T18:28:41+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65431,9 +65431,21 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 157,
-            "against": 128,
-            "diff": 29,
+            "for": 165,
+            "against": 131,
+            "diff": 34,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Rīgas Zelli",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 112,
+            "against": 107,
+            "diff": 5,
             "points": 4,
             "highlight": null
           },
@@ -65462,30 +65474,6 @@
             "highlight": null
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 91,
-            "against": 109,
-            "diff": -18,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Rīgas Zelli",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 101,
-            "against": 102,
-            "diff": -1,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
             "played": 1,
             "win": 0,
@@ -65498,18 +65486,6 @@
             "highlight": null
           },
           {
-            "team": "KK Cedevita Olimpija",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 136,
-            "against": 148,
-            "diff": -12,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Le Mans",
             "played": 1,
             "win": 0,
@@ -65519,6 +65495,30 @@
             "against": 87,
             "diff": -13,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "KK Cedevita Olimpija",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 139,
+            "against": 156,
+            "diff": -17,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 96,
+            "against": 120,
+            "diff": -24,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -65568,9 +65568,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 158,
-            "against": 155,
-            "diff": 3,
+            "for": 167,
+            "against": 159,
+            "diff": 8,
             "points": 3,
             "highlight": null
           },
@@ -65633,8 +65633,8 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 150,
-            "against": 119,
+            "for": 152,
+            "against": 121,
             "diff": 31,
             "points": 4,
             "highlight": null
@@ -65645,22 +65645,10 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 126,
-            "against": 107,
-            "diff": 19,
+            "for": 131,
+            "against": 109,
+            "diff": 22,
             "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 96,
-            "against": 94,
-            "diff": 2,
-            "points": 3,
             "highlight": null
           },
           {
@@ -65669,9 +65657,21 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 142,
-            "against": 141,
+            "for": 144,
+            "against": 143,
             "diff": 1,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 98,
+            "against": 104,
+            "diff": -6,
             "points": 3,
             "highlight": null
           },
@@ -65681,9 +65681,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 96,
-            "against": 119,
-            "diff": -23,
+            "for": 106,
+            "against": 121,
+            "diff": -15,
             "points": 3,
             "highlight": null
           },
@@ -65717,9 +65717,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 114,
-            "against": 128,
-            "diff": -14,
+            "for": 116,
+            "against": 133,
+            "diff": -17,
             "points": 2,
             "highlight": null
           }
@@ -65734,9 +65734,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 131,
+            "for": 133,
             "against": 113,
-            "diff": 18,
+            "diff": 20,
             "points": 4,
             "highlight": null
           },
@@ -65795,8 +65795,8 @@
             "draw": null,
             "loss": 2,
             "for": 107,
-            "against": 113,
-            "diff": -6,
+            "against": 115,
+            "diff": -8,
             "points": 2,
             "highlight": null
           },
@@ -67776,6 +67776,18 @@
             "highlight": null
           },
           {
+            "team": "BC Oostende",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 71,
+            "against": 53,
+            "diff": 18,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Szolnoki Olajbanyasz",
             "played": 1,
             "win": 0,
@@ -67788,39 +67800,27 @@
             "highlight": null
           },
           {
-            "team": "BC Oostende",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Levice",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 53,
+            "against": 71,
+            "diff": -18,
+            "points": 1,
             "highlight": null
           },
           {
             "team": "Basquet Girona",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 36,
+            "against": 37,
+            "diff": -1,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -67894,31 +67894,31 @@
       "Group D": {
         "rows": [
           {
-            "team": "Keravnos",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Nancy",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 28,
+            "against": 15,
+            "diff": 13,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "BC Vienna",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 15,
+            "against": 28,
+            "diff": -13,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Keravnos",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -67971,6 +67971,18 @@
             "highlight": null
           },
           {
+            "team": "Iraklis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 54,
+            "against": 51,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Tartu Ülikool",
             "played": 1,
             "win": 0,
@@ -67984,26 +67996,14 @@
           },
           {
             "team": "Mzt Skopje",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Iraklis",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 51,
+            "against": 54,
+            "diff": -3,
+            "points": 1,
             "highlight": null
           },
           {
