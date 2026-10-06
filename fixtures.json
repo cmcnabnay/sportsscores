@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T02:07:09+00:00",
+  "updated": "2026-10-06T02:15:30+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64006,6 +64006,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Rosario Central",
+            "played": 11,
+            "win": 5,
+            "draw": 4,
+            "loss": 2,
+            "for": 12,
+            "against": 9,
+            "diff": 3,
+            "points": 19,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Huracán",
             "played": 11,
             "win": 5,
@@ -64015,18 +64027,6 @@
             "against": 8,
             "diff": 3,
             "points": 19,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rosario Central",
-            "played": 10,
-            "win": 5,
-            "draw": 3,
-            "loss": 2,
-            "for": 11,
-            "against": 8,
-            "diff": 3,
-            "points": 18,
             "highlight": "#BBF3BB"
           },
           {
@@ -64127,14 +64127,14 @@
           },
           {
             "team": "Banfield",
-            "played": 10,
+            "played": 11,
             "win": 2,
-            "draw": 3,
+            "draw": 4,
             "loss": 5,
-            "for": 11,
-            "against": 16,
+            "for": 12,
+            "against": 17,
             "diff": -5,
-            "points": 9,
+            "points": 10,
             "highlight": "transparent"
           },
           {
