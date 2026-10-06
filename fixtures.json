@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T23:55:17+00:00",
+  "updated": "2026-10-06T00:03:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -63809,6 +63809,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Vélez Sarsfield",
+            "played": 11,
+            "win": 5,
+            "draw": 6,
+            "loss": 0,
+            "for": 17,
+            "against": 11,
+            "diff": 6,
+            "points": 21,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Defensa y Justicia",
             "played": 11,
             "win": 6,
@@ -63830,30 +63842,6 @@
             "against": 11,
             "diff": 6,
             "points": 20,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Vélez Sarsfield",
-            "played": 10,
-            "win": 5,
-            "draw": 5,
-            "loss": 0,
-            "for": 15,
-            "against": 9,
-            "diff": 6,
-            "points": 20,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 10,
-            "win": 5,
-            "draw": 2,
-            "loss": 3,
-            "for": 14,
-            "against": 9,
-            "diff": 5,
-            "points": 17,
             "highlight": "#BBF3BB"
           },
           {
@@ -63881,6 +63869,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 11,
+            "win": 5,
+            "draw": 2,
+            "loss": 4,
+            "for": 14,
+            "against": 12,
+            "diff": 2,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 11,
             "win": 5,
@@ -63891,6 +63891,18 @@
             "diff": -1,
             "points": 17,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Estudiantes (LP)",
+            "played": 11,
+            "win": 4,
+            "draw": 1,
+            "loss": 6,
+            "for": 13,
+            "against": 11,
+            "diff": 2,
+            "points": 13,
+            "highlight": "transparent"
           },
           {
             "team": "Unión",
@@ -63929,27 +63941,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Estudiantes (LP)",
-            "played": 10,
-            "win": 3,
-            "draw": 1,
-            "loss": 6,
-            "for": 10,
-            "against": 11,
-            "diff": -1,
-            "points": 10,
-            "highlight": "transparent"
-          },
-          {
             "team": "Platense",
-            "played": 10,
+            "played": 11,
             "win": 2,
-            "draw": 3,
+            "draw": 4,
             "loss": 5,
-            "for": 9,
-            "against": 15,
+            "for": 11,
+            "against": 17,
             "diff": -6,
-            "points": 9,
+            "points": 10,
             "highlight": "transparent"
           },
           {
