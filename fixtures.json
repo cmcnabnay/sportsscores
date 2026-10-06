@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T16:29:02+00:00",
+  "updated": "2026-10-06T16:41:38+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -19980,7 +19980,8 @@
       "time": "16:30",
       "utc": "2026-10-05T16:30:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
@@ -20053,7 +20054,18 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "4-0",
+      "date": "2026-10-06",
+      "time": "14:00",
+      "utc": "2026-10-06T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Amur Khabarovsk",
+      "score": "1-2",
       "date": "2026-10-06",
       "time": "14:00",
       "utc": "2026-10-06T14:00:00+00:00",
@@ -20479,17 +20491,6 @@
       "attendance": null
     },
     {
-      "league": "khl-2026-27",
-      "home": "HC Sochi",
-      "away": "Spartak Moscow",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "16:30",
-      "utc": "2026-10-07T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Bakken Bears",
       "away": "Benfica",
@@ -20897,6 +20898,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "14:00",
+      "utc": "2026-10-09T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "JYP Jyväskylä",
@@ -20960,6 +20972,28 @@
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
       "venue": "Lumon Areena",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dynamo Moscow",
+      "away": "CSKA Moscow",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "16:30",
+      "utc": "2026-10-09T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "16:30",
+      "utc": "2026-10-09T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -65153,13 +65187,13 @@
           },
           {
             "team": "SKA St. Petersburg",
-            "played": 10,
+            "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 2,
+            "loss": 3,
             "for": 40,
-            "against": 29,
-            "diff": 11,
+            "against": 30,
+            "diff": 10,
             "points": 16,
             "highlight": null
           },
@@ -65173,6 +65207,18 @@
             "against": 24,
             "diff": 7,
             "points": 15,
+            "highlight": null
+          },
+          {
+            "team": "Severstal Cherepovets",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 4,
+            "for": 21,
+            "against": 24,
+            "diff": -3,
+            "points": 14,
             "highlight": null
           },
           {
@@ -65196,18 +65242,6 @@
             "for": 29,
             "against": 25,
             "diff": 4,
-            "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Severstal Cherepovets",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 4,
-            "for": 20,
-            "against": 24,
-            "diff": -4,
             "points": 12,
             "highlight": null
           },
@@ -65393,14 +65427,14 @@
         "rows": [
           {
             "team": "Hapoel Jerusalem",
-            "played": 1,
-            "win": 1,
+            "played": 2,
+            "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 94,
-            "against": 73,
-            "diff": 21,
-            "points": 2,
+            "for": 104,
+            "against": 82,
+            "diff": 22,
+            "points": 4,
             "highlight": null
           },
           {
@@ -65453,14 +65487,14 @@
           },
           {
             "team": "KK Cedevita Olimpija",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 81,
-            "against": 85,
-            "diff": -4,
-            "points": 1,
+            "loss": 2,
+            "for": 90,
+            "against": 95,
+            "diff": -5,
+            "points": 2,
             "highlight": null
           },
           {
@@ -65529,6 +65563,18 @@
             "highlight": null
           },
           {
+            "team": "Turk Telekom",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 91,
+            "against": 96,
+            "diff": -5,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -65549,18 +65595,6 @@
             "for": 71,
             "against": 74,
             "diff": -3,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Turk Telekom",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 82,
-            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -67735,9 +67769,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 18,
-            "diff": 8,
+            "for": 34,
+            "against": 31,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -67747,9 +67781,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 18,
-            "against": 26,
-            "diff": -8,
+            "for": 31,
+            "against": 34,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
@@ -67930,9 +67964,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 36,
-            "against": 14,
-            "diff": 22,
+            "for": 46,
+            "against": 21,
+            "diff": 25,
             "points": 2,
             "highlight": null
           },
@@ -67942,9 +67976,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 14,
-            "against": 36,
-            "diff": -22,
+            "for": 21,
+            "against": 46,
+            "diff": -25,
             "points": 1,
             "highlight": null
           },
@@ -68125,9 +68159,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 25,
-            "against": 19,
-            "diff": 6,
+            "for": 30,
+            "against": 29,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
