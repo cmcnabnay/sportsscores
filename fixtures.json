@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T14:59:41+00:00",
+  "updated": "2026-10-07T15:13:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20395,7 +20395,7 @@
       "league": "khl-2026-27",
       "home": "Sibir Novosibirsk",
       "away": "Salavat Yulayev Ufa",
-      "score": null,
+      "score": "4-5",
       "date": "2026-10-07",
       "time": "12:30",
       "utc": "2026-10-07T12:30:00+00:00",
@@ -20571,17 +20571,6 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Shanghai Dragons",
-      "score": null,
-      "date": "2026-10-07",
-      "time": "16:30",
-      "utc": "2026-10-07T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "khl-2026-27",
-      "home": "HC Sochi",
-      "away": "Spartak Moscow",
       "score": null,
       "date": "2026-10-07",
       "time": "16:30",
@@ -21085,6 +21074,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-10-09",
+      "time": "16:30",
+      "utc": "2026-10-09T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "Tappara Tampere",
@@ -21294,6 +21294,28 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Admiral Vladivostok",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "07:00",
+      "utc": "2026-10-10T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Sibir Novosibirsk",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "11:00",
+      "utc": "2026-10-10T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "urc-2026",
       "home": "Bulls",
       "away": "Lions",
@@ -21302,6 +21324,17 @@
       "time": "11:30",
       "utc": "2026-10-10T11:30:00+00:00",
       "venue": "Loftus Versfeld Stadium",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Avangard Omsk",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "11:30",
+      "utc": "2026-10-10T11:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -21385,6 +21418,28 @@
       "league": "bbl-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Bayern Munich",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Lokomotiv Yaroslavl",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "AK Bars",
+      "away": "Severstal Cherepovets",
       "score": null,
       "date": "2026-10-10",
       "time": "14:00",
@@ -65828,13 +65883,13 @@
           {
             "team": "Metallurg Magnitogorsk",
             "played": 14,
-            "win": 9,
+            "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 37,
+            "for": 38,
             "against": 27,
-            "diff": 10,
-            "points": 19,
+            "diff": 11,
+            "points": 21,
             "highlight": null
           },
           {
@@ -65914,10 +65969,10 @@
             "played": 13,
             "win": 4,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 29,
-            "against": 30,
-            "diff": -1,
+            "against": 31,
+            "diff": -2,
             "points": 11,
             "highlight": null
           },
@@ -68369,30 +68424,30 @@
         "rows": [
           {
             "team": "CSU Craiova",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Sporting CP",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 14,
+            "against": 10,
+            "diff": 4,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "Kolossos Rhodes",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 10,
+            "against": 14,
+            "diff": -4,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Sporting CP",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68628,6 +68683,30 @@
       "Group G": {
         "rows": [
           {
+            "team": "Genève Lions",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 12,
+            "against": 9,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Absheron Lions",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 9,
+            "against": 12,
+            "diff": -3,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Bakken Bears",
             "played": 0,
             "win": 0,
@@ -68641,30 +68720,6 @@
           },
           {
             "team": "Benfica",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Absheron Lions",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Genève Lions",
             "played": 0,
             "win": 0,
             "draw": null,
