@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T18:08:46+00:00",
+  "updated": "2026-10-07T18:18:42+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20462,12 +20462,13 @@
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "Kiekko-Espoo",
-      "score": null,
+      "score": "8-7",
       "date": "2026-10-07",
       "time": "15:30",
       "utc": "2026-10-07T15:30:00+00:00",
       "venue": "Oulun Energia Areena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "bcl-2026-27",
@@ -66009,8 +66010,8 @@
             "draw": null,
             "loss": 5,
             "for": 32,
-            "against": 25,
-            "diff": 7,
+            "against": 27,
+            "diff": 5,
             "points": 14,
             "highlight": null
           },
@@ -66068,9 +66069,9 @@
             "win": 2,
             "draw": null,
             "loss": 10,
-            "for": 14,
+            "for": 16,
             "against": 43,
-            "diff": -29,
+            "diff": -27,
             "points": 4,
             "highlight": null
           }
@@ -66219,6 +66220,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "Aris Bsa",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 135,
+            "against": 100,
+            "diff": 35,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Hapoel Jerusalem",
             "played": 2,
             "win": 2,
@@ -66231,15 +66244,15 @@
             "highlight": null
           },
           {
-            "team": "Aris Bsa",
+            "team": "Derthona Basket Tortona",
             "played": 2,
-            "win": 2,
+            "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 125,
-            "against": 97,
-            "diff": 28,
-            "points": 4,
+            "loss": 1,
+            "for": 128,
+            "against": 124,
+            "diff": 4,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66255,26 +66268,14 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 114,
-            "against": 115,
-            "diff": -1,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "San Pablo Burgos",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 108,
-            "against": 119,
-            "diff": -11,
+            "for": 111,
+            "against": 129,
+            "diff": -18,
             "points": 3,
             "highlight": null
           },
@@ -66291,18 +66292,6 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 103,
-            "against": 117,
-            "diff": -14,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "KK Cedevita Olimpija",
             "played": 2,
             "win": 0,
@@ -66311,6 +66300,18 @@
             "for": 145,
             "against": 160,
             "diff": -15,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Le Mans",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 112,
+            "against": 131,
+            "diff": -19,
             "points": 2,
             "highlight": null
           }
@@ -66445,18 +66446,6 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 128,
-            "against": 121,
-            "diff": 7,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "KK Budućnost",
             "played": 2,
             "win": 1,
@@ -66465,6 +66454,18 @@
             "for": 174,
             "against": 168,
             "diff": 6,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 131,
+            "against": 133,
+            "diff": -2,
             "points": 3,
             "highlight": null
           },
@@ -66493,6 +66494,18 @@
             "highlight": null
           },
           {
+            "team": "Neptūnas",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 124,
+            "against": 138,
+            "diff": -14,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "JL Bourg",
             "played": 2,
             "win": 0,
@@ -66501,18 +66514,6 @@
             "for": 158,
             "against": 173,
             "diff": -15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Neptūnas",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 112,
-            "against": 135,
-            "diff": -23,
             "points": 2,
             "highlight": null
           }
@@ -66563,9 +66564,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 77,
-            "against": 78,
-            "diff": -1,
+            "for": 82,
+            "against": 90,
+            "diff": -8,
             "points": 3,
             "highlight": null
           },
@@ -67294,6 +67295,18 @@
             "highlight": null
           },
           {
+            "team": "Oulun Kärpät",
+            "played": 11,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 31,
+            "against": 30,
+            "diff": 1,
+            "points": 19,
+            "highlight": null
+          },
+          {
             "team": "JYP Jyväskylä",
             "played": 8,
             "win": 6,
@@ -67318,27 +67331,15 @@
             "highlight": null
           },
           {
-            "team": "Oulun Kärpät",
-            "played": 10,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 23,
-            "against": 23,
-            "diff": 0,
-            "points": 17,
-            "highlight": null
-          },
-          {
             "team": "Kiekko-Espoo",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
-            "for": 29,
-            "against": 23,
-            "diff": 6,
-            "points": 16,
+            "loss": 7,
+            "for": 36,
+            "against": 31,
+            "diff": 5,
+            "points": 17,
             "highlight": null
           },
           {
@@ -68054,6 +68055,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "Trabzonspor",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 93,
+            "against": 83,
+            "diff": 10,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Rytas Vilnius",
             "played": 1,
             "win": 1,
@@ -68079,26 +68092,14 @@
           },
           {
             "team": "Nanterre 92",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Trabzonspor",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 83,
+            "against": 93,
+            "diff": -10,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -68161,14 +68162,26 @@
         "rows": [
           {
             "team": "AEK BC",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 95,
+            "against": 93,
+            "diff": 2,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Salon Vilpas Vikings",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 93,
+            "against": 95,
+            "diff": -2,
+            "points": 1,
             "highlight": null
           },
           {
@@ -68185,18 +68198,6 @@
           },
           {
             "team": "Falco KC-Szombathely",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Salon Vilpas Vikings",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68497,20 +68498,20 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 83,
-            "against": 70,
-            "diff": 13,
+            "for": 91,
+            "against": 77,
+            "diff": 14,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "BC Batumi 2010",
+            "team": "TBB Trier",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 7,
-            "against": 5,
+            "for": 15,
+            "against": 13,
             "diff": 2,
             "points": 2,
             "highlight": null
@@ -68528,26 +68529,26 @@
             "highlight": null
           },
           {
-            "team": "TBB Trier",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 5,
-            "against": 7,
-            "diff": -2,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "KB Trepça",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 70,
-            "against": 83,
-            "diff": -13,
+            "for": 77,
+            "against": 91,
+            "diff": -14,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "BC Batumi 2010",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 13,
+            "against": 15,
+            "diff": -2,
             "points": 1,
             "highlight": null
           }
@@ -68716,9 +68717,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 43,
-            "against": 42,
-            "diff": 1,
+            "for": 52,
+            "against": 44,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -68740,9 +68741,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 42,
-            "against": 43,
-            "diff": -1,
+            "for": 44,
+            "against": 52,
+            "diff": -8,
             "points": 1,
             "highlight": null
           }
@@ -68829,27 +68830,27 @@
       "Group F": {
         "rows": [
           {
+            "team": "BC Kalev/Cramo",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 72,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Kb Bashkimi",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 60,
-            "against": 50,
-            "diff": 10,
+            "for": 64,
+            "against": 59,
+            "diff": 5,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "BC Kalev/Cramo",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 60,
-            "against": 68,
-            "diff": -8,
-            "points": 1,
             "highlight": null
           },
           {
@@ -68858,9 +68859,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 50,
-            "against": 60,
-            "diff": -10,
+            "for": 59,
+            "against": 64,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -68899,9 +68900,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 56,
-            "against": 48,
-            "diff": 8,
+            "for": 67,
+            "against": 50,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -68923,9 +68924,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 48,
-            "against": 56,
-            "diff": -8,
+            "for": 50,
+            "against": 67,
+            "diff": -17,
             "points": 1,
             "highlight": null
           },
