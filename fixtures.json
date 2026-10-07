@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T04:05:42+00:00",
+  "updated": "2026-10-07T04:16:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66099,6 +66099,18 @@
       "Group B": {
         "rows": [
           {
+            "team": "Reyer Venezia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 104,
+            "against": 72,
+            "diff": 32,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "London Lions",
             "played": 2,
             "win": 1,
@@ -66301,6 +66313,18 @@
             "highlight": null
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 98,
+            "against": 84,
+            "diff": 14,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Bahçeşehir Koleji",
             "played": 1,
             "win": 1,
@@ -66309,6 +66333,18 @@
             "for": 91,
             "against": 78,
             "diff": 13,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Lietkabelis",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 75,
+            "against": 72,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -66345,6 +66381,18 @@
             "for": 84,
             "against": 98,
             "diff": -14,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 78,
+            "against": 93,
+            "diff": -15,
             "points": 1,
             "highlight": null
           }
