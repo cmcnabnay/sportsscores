@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T16:25:34+00:00",
+  "updated": "2026-10-07T16:37:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20400,13 +20400,14 @@
       "time": "12:30",
       "utc": "2026-10-07T12:30:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "3-0",
       "date": "2026-10-07",
       "time": "14:00",
       "utc": "2026-10-07T14:00:00+00:00",
@@ -20571,6 +20572,17 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Shanghai Dragons",
+      "score": null,
+      "date": "2026-10-07",
+      "time": "16:30",
+      "utc": "2026-10-07T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Spartak Moscow",
       "score": null,
       "date": "2026-10-07",
       "time": "16:30",
@@ -65793,7 +65805,7 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 10,
+            "played": 11,
             "win": 7,
             "draw": null,
             "loss": 2,
@@ -65829,7 +65841,7 @@
           },
           {
             "team": "Spartak Moscow",
-            "played": 12,
+            "played": 13,
             "win": 5,
             "draw": null,
             "loss": 5,
@@ -65841,7 +65853,7 @@
           },
           {
             "team": "Dynamo Moscow",
-            "played": 13,
+            "played": 14,
             "win": 5,
             "draw": null,
             "loss": 6,
@@ -65865,7 +65877,7 @@
           },
           {
             "team": "HC Sochi",
-            "played": 11,
+            "played": 12,
             "win": 2,
             "draw": null,
             "loss": 9,
@@ -66126,9 +66138,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 131,
-            "against": 96,
-            "diff": 35,
+            "for": 142,
+            "against": 102,
+            "diff": 40,
             "points": 4,
             "highlight": null
           },
@@ -66210,9 +66222,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 79,
-            "against": 116,
-            "diff": -37,
+            "for": 85,
+            "against": 127,
+            "diff": -42,
             "points": 2,
             "highlight": null
           }
@@ -66328,9 +66340,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 115,
-            "against": 94,
-            "diff": 21,
+            "for": 129,
+            "against": 96,
+            "diff": 33,
             "points": 4,
             "highlight": null
           },
@@ -66412,9 +66424,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 100,
-            "against": 122,
-            "diff": -22,
+            "for": 102,
+            "against": 136,
+            "diff": -34,
             "points": 2,
             "highlight": null
           }
@@ -68281,14 +68293,26 @@
       "Group A": {
         "rows": [
           {
+            "team": "ASP Promitheas Patras",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 11,
+            "against": 2,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Split",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 20,
-            "against": 15,
-            "diff": 5,
+            "for": 34,
+            "against": 23,
+            "diff": 11,
             "points": 2,
             "highlight": null
           },
@@ -68298,38 +68322,26 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 20,
-            "diff": -5,
+            "for": 23,
+            "against": 34,
+            "diff": -11,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "KB Trepça",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 2,
+            "against": 11,
+            "diff": -9,
             "points": 1,
             "highlight": null
           },
           {
             "team": "TBB Trier",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "KB Trepça",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "ASP Promitheas Patras",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68358,7 +68370,7 @@
       "Group B": {
         "rows": [
           {
-            "team": "Stelmet Zielona Gora",
+            "team": "Zastal Zielona Góra",
             "played": 1,
             "win": 1,
             "draw": null,
@@ -68428,8 +68440,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 48,
-            "against": 46,
+            "for": 58,
+            "against": 56,
             "diff": 2,
             "points": 2,
             "highlight": null
@@ -68440,8 +68452,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 46,
-            "against": 48,
+            "for": 56,
+            "against": 58,
             "diff": -2,
             "points": 1,
             "highlight": null
@@ -68505,9 +68517,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 28,
-            "against": 11,
-            "diff": 17,
+            "for": 36,
+            "against": 20,
+            "diff": 16,
             "points": 2,
             "highlight": null
           },
@@ -68582,9 +68594,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 20,
-            "against": 15,
-            "diff": 5,
+            "for": 28,
+            "against": 26,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -68618,9 +68630,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 15,
-            "against": 20,
-            "diff": -5,
+            "for": 26,
+            "against": 28,
+            "diff": -2,
             "points": 1,
             "highlight": null
           }
@@ -68631,14 +68643,14 @@
         "rows": [
           {
             "team": "BC Kalev/Cramo",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 7,
+            "against": 9,
+            "diff": -2,
+            "points": 1,
             "highlight": null
           },
           {
@@ -68683,15 +68695,39 @@
       "Group G": {
         "rows": [
           {
+            "team": "Benfica",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 11,
+            "against": 4,
+            "diff": 7,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Genève Lions",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 79,
-            "against": 59,
-            "diff": 20,
+            "for": 94,
+            "against": 66,
+            "diff": 28,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Bakken Bears",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 4,
+            "against": 11,
+            "diff": -7,
+            "points": 1,
             "highlight": null
           },
           {
@@ -68700,34 +68736,10 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 59,
-            "against": 79,
-            "diff": -20,
+            "for": 66,
+            "against": 94,
+            "diff": -28,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Bakken Bears",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Benfica",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -68765,9 +68777,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 32,
-            "against": 21,
-            "diff": 11,
+            "for": 50,
+            "against": 32,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -68777,9 +68789,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 34,
-            "against": 27,
-            "diff": 7,
+            "for": 46,
+            "against": 36,
+            "diff": 10,
             "points": 2,
             "highlight": null
           },
@@ -68789,9 +68801,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 21,
-            "against": 32,
-            "diff": -11,
+            "for": 32,
+            "against": 50,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -68801,9 +68813,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 27,
-            "against": 34,
-            "diff": -7,
+            "for": 36,
+            "against": 46,
+            "diff": -10,
             "points": 1,
             "highlight": null
           }
