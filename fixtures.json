@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T16:15:39+00:00",
+  "updated": "2026-10-07T16:25:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66126,9 +66126,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 119,
-            "against": 85,
-            "diff": 34,
+            "for": 131,
+            "against": 96,
+            "diff": 35,
             "points": 4,
             "highlight": null
           },
@@ -66210,9 +66210,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 68,
-            "against": 104,
-            "diff": -36,
+            "for": 79,
+            "against": 116,
+            "diff": -37,
             "points": 2,
             "highlight": null
           }
@@ -66323,6 +66323,18 @@
       "Group D": {
         "rows": [
           {
+            "team": "Bahçeşehir Koleji",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 115,
+            "against": 94,
+            "diff": 21,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "PAOK",
             "played": 2,
             "win": 2,
@@ -66330,18 +66342,6 @@
             "loss": 0,
             "for": 168,
             "against": 150,
-            "diff": 18,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Bahçeşehir Koleji",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 104,
-            "against": 86,
             "diff": 18,
             "points": 4,
             "highlight": null
@@ -66412,9 +66412,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 92,
-            "against": 111,
-            "diff": -19,
+            "for": 100,
+            "against": 122,
+            "diff": -22,
             "points": 2,
             "highlight": null
           }
@@ -68281,26 +68281,26 @@
       "Group A": {
         "rows": [
           {
+            "team": "Split",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 20,
+            "against": 15,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "BK Opava",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 10,
-            "against": 10,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Split",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 10,
-            "against": 10,
-            "diff": 0,
+            "loss": 1,
+            "for": 15,
+            "against": 20,
+            "diff": -5,
             "points": 1,
             "highlight": null
           },
@@ -68423,26 +68423,26 @@
       "Group C": {
         "rows": [
           {
-            "team": "CSU Craiova",
+            "team": "Kolossos Rhodes",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 45,
-            "against": 42,
-            "diff": 3,
+            "for": 48,
+            "against": 46,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Kolossos Rhodes",
+            "team": "CSU Craiova",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 42,
-            "against": 45,
-            "diff": -3,
+            "for": 46,
+            "against": 48,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
@@ -68505,9 +68505,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 21,
-            "against": 8,
-            "diff": 13,
+            "for": 28,
+            "against": 11,
+            "diff": 17,
             "points": 2,
             "highlight": null
           },
@@ -68524,7 +68524,7 @@
             "highlight": null
           },
           {
-            "team": "Wilki Morskie Szczecin",
+            "team": "King Szczecin",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68582,9 +68582,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 15,
-            "against": 8,
-            "diff": 7,
+            "for": 20,
+            "against": 15,
+            "diff": 5,
             "points": 2,
             "highlight": null
           },
@@ -68618,9 +68618,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 8,
-            "against": 15,
-            "diff": -7,
+            "for": 15,
+            "against": 20,
+            "diff": -5,
             "points": 1,
             "highlight": null
           }
@@ -68688,9 +68688,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 67,
-            "against": 49,
-            "diff": 18,
+            "for": 79,
+            "against": 59,
+            "diff": 20,
             "points": 2,
             "highlight": null
           },
@@ -68700,9 +68700,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 49,
-            "against": 67,
-            "diff": -18,
+            "for": 59,
+            "against": 79,
+            "diff": -20,
             "points": 1,
             "highlight": null
           },
@@ -68765,21 +68765,21 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 20,
-            "against": 8,
-            "diff": 12,
+            "for": 32,
+            "against": 21,
+            "diff": 11,
             "points": 2,
             "highlight": null
           },
           {
-            "team": "Lokomotiv Plovdiv",
+            "team": "VEF Riga",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 26,
-            "against": 25,
-            "diff": 1,
+            "for": 34,
+            "against": 27,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -68789,21 +68789,21 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 8,
-            "against": 20,
-            "diff": -12,
+            "for": 21,
+            "against": 32,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
           {
-            "team": "VEF Riga",
+            "team": "Lokomotiv Plovdiv",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 25,
-            "against": 26,
-            "diff": -1,
+            "for": 27,
+            "against": 34,
+            "diff": -7,
             "points": 1,
             "highlight": null
           }
