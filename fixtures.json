@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T14:48:31+00:00",
+  "updated": "2026-10-07T14:59:41+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65862,6 +65862,18 @@
             "highlight": null
           },
           {
+            "team": "Salavat Yulayev Ufa",
+            "played": 13,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 41,
+            "against": 36,
+            "diff": 5,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "Avtomobilist Yekaterinburg",
             "played": 13,
             "win": 6,
@@ -65895,18 +65907,6 @@
             "against": 20,
             "diff": 0,
             "points": 13,
-            "highlight": null
-          },
-          {
-            "team": "Salavat Yulayev Ufa",
-            "played": 13,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
-            "for": 40,
-            "against": 36,
-            "diff": 4,
-            "points": 12,
             "highlight": null
           },
           {
@@ -65952,9 +65952,9 @@
             "draw": null,
             "loss": 7,
             "for": 28,
-            "against": 39,
-            "diff": -11,
-            "points": 8,
+            "against": 40,
+            "diff": -12,
+            "points": 9,
             "highlight": null
           }
         ],
