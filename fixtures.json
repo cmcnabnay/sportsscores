@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T18:18:42+00:00",
+  "updated": "2026-10-07T18:29:32+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65980,6 +65980,18 @@
             "highlight": null
           },
           {
+            "team": "Shanghai Dragons",
+            "played": 11,
+            "win": 8,
+            "draw": null,
+            "loss": 2,
+            "for": 33,
+            "against": 25,
+            "diff": 8,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "SKA St. Petersburg",
             "played": 11,
             "win": 8,
@@ -65989,18 +66001,6 @@
             "against": 34,
             "diff": 8,
             "points": 16,
-            "highlight": null
-          },
-          {
-            "team": "Shanghai Dragons",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 2,
-            "for": 32,
-            "against": 25,
-            "diff": 7,
-            "points": 15,
             "highlight": null
           },
           {
@@ -66044,10 +66044,10 @@
             "played": 14,
             "win": 5,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 24,
-            "against": 34,
-            "diff": -10,
+            "against": 35,
+            "diff": -11,
             "points": 12,
             "highlight": null
           },
@@ -66225,9 +66225,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 135,
-            "against": 100,
-            "diff": 35,
+            "for": 140,
+            "against": 104,
+            "diff": 36,
             "points": 4,
             "highlight": null
           },
@@ -66244,18 +66244,6 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 128,
-            "against": 124,
-            "diff": 4,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Rīgas Zelli",
             "played": 2,
             "win": 1,
@@ -66268,14 +66256,26 @@
             "highlight": null
           },
           {
+            "team": "Derthona Basket Tortona",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 130,
+            "against": 130,
+            "diff": 0,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "San Pablo Burgos",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 111,
-            "against": 129,
-            "diff": -18,
+            "for": 115,
+            "against": 134,
+            "diff": -19,
             "points": 3,
             "highlight": null
           },
@@ -66292,6 +66292,18 @@
             "highlight": null
           },
           {
+            "team": "Le Mans",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 118,
+            "against": 133,
+            "diff": -15,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "KK Cedevita Olimpija",
             "played": 2,
             "win": 0,
@@ -66300,18 +66312,6 @@
             "for": 145,
             "against": 160,
             "diff": -15,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Le Mans",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 112,
-            "against": 131,
-            "diff": -19,
             "points": 2,
             "highlight": null
           }
@@ -66463,9 +66463,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 131,
-            "against": 133,
-            "diff": -2,
+            "for": 141,
+            "against": 148,
+            "diff": -7,
             "points": 3,
             "highlight": null
           },
@@ -66499,9 +66499,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 124,
-            "against": 138,
-            "diff": -14,
+            "for": 139,
+            "against": 148,
+            "diff": -9,
             "points": 2,
             "highlight": null
           },
@@ -66564,9 +66564,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 82,
-            "against": 90,
-            "diff": -8,
+            "for": 92,
+            "against": 97,
+            "diff": -5,
             "points": 3,
             "highlight": null
           },
@@ -68510,9 +68510,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 15,
-            "against": 13,
-            "diff": 2,
+            "for": 23,
+            "against": 20,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -68546,9 +68546,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 13,
-            "against": 15,
-            "diff": -2,
+            "for": 20,
+            "against": 23,
+            "diff": -3,
             "points": 1,
             "highlight": null
           }
@@ -68712,14 +68712,14 @@
             "highlight": null
           },
           {
-            "team": "Nitra Blue Wings",
+            "team": "King Szczecin",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 52,
-            "against": 44,
-            "diff": 8,
+            "for": 61,
+            "against": 54,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -68736,14 +68736,14 @@
             "highlight": null
           },
           {
-            "team": "King Szczecin",
+            "team": "Nitra Blue Wings",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 44,
-            "against": 52,
-            "diff": -8,
+            "for": 54,
+            "against": 61,
+            "diff": -7,
             "points": 1,
             "highlight": null
           }
@@ -68835,21 +68835,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 75,
-            "against": 72,
-            "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Kb Bashkimi",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 64,
-            "against": 59,
-            "diff": 5,
+            "for": 86,
+            "against": 78,
+            "diff": 8,
             "points": 2,
             "highlight": null
           },
@@ -68858,10 +68846,22 @@
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 59,
-            "against": 64,
-            "diff": -5,
+            "loss": 0,
+            "for": 68,
+            "against": 68,
+            "diff": 0,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Kb Bashkimi",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 68,
+            "against": 68,
+            "diff": 0,
             "points": 1,
             "highlight": null
           },
@@ -68900,8 +68900,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 67,
-            "against": 50,
+            "for": 77,
+            "against": 60,
             "diff": 17,
             "points": 2,
             "highlight": null
@@ -68924,8 +68924,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 50,
-            "against": 67,
+            "for": 60,
+            "against": 77,
             "diff": -17,
             "points": 1,
             "highlight": null
