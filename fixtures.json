@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T15:54:10+00:00",
+  "updated": "2026-10-07T16:05:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66122,14 +66122,14 @@
         "rows": [
           {
             "team": "Reyer Venezia",
-            "played": 1,
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 104,
-            "against": 72,
-            "diff": 32,
-            "points": 2,
+            "loss": 1,
+            "for": 107,
+            "against": 77,
+            "diff": 30,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66193,6 +66193,18 @@
             "highlight": null
           },
           {
+            "team": "Cluj Napoca",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 60,
+            "against": 92,
+            "diff": -32,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -66202,18 +66214,6 @@
             "against": 0,
             "diff": 0,
             "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Cluj Napoca",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 55,
-            "against": 89,
-            "diff": -34,
-            "points": 1,
             "highlight": null
           }
         ],
@@ -66335,6 +66335,18 @@
             "highlight": null
           },
           {
+            "team": "Bahçeşehir Koleji",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 97,
+            "against": 80,
+            "diff": 17,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 1,
             "win": 1,
@@ -66343,18 +66355,6 @@
             "for": 98,
             "against": 84,
             "diff": 14,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Bahçeşehir Koleji",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 91,
-            "against": 78,
-            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -66395,18 +66395,6 @@
             "highlight": null
           },
           {
-            "team": "BC Balkan Botevgrad",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 84,
-            "against": 98,
-            "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Baxi Manresa",
             "played": 1,
             "win": 0,
@@ -66416,6 +66404,18 @@
             "against": 93,
             "diff": -15,
             "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "BC Balkan Botevgrad",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 86,
+            "against": 104,
+            "diff": -18,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -68281,19 +68281,31 @@
       "Group A": {
         "rows": [
           {
-            "team": "TBB Trier",
-            "played": 0,
-            "win": 0,
+            "team": "Split",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
+            "for": 2,
             "against": 0,
-            "diff": 0,
-            "points": 0,
+            "diff": 2,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "BK Opava",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 0,
+            "against": 2,
+            "diff": -2,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "TBB Trier",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68318,18 +68330,6 @@
           },
           {
             "team": "ASP Promitheas Patras",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Split",
             "played": 0,
             "win": 0,
             "draw": null,
@@ -68500,6 +68500,18 @@
             "highlight": null
           },
           {
+            "team": "Keravnos",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 5,
+            "against": 0,
+            "diff": 5,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "BC Vienna",
             "played": 1,
             "win": 0,
@@ -68509,18 +68521,6 @@
             "against": 66,
             "diff": -1,
             "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Keravnos",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
             "highlight": null
           },
           {
@@ -68577,6 +68577,18 @@
             "highlight": null
           },
           {
+            "team": "Aek Larnaca",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 3,
+            "against": 0,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Tartu Ülikool",
             "played": 1,
             "win": 0,
@@ -68601,27 +68613,15 @@
             "highlight": null
           },
           {
-            "team": "Aek Larnaca",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Wurzburg Baskets",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
+            "loss": 1,
             "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "against": 3,
+            "diff": -3,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -68688,9 +68688,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
+            "for": 52,
             "against": 36,
-            "diff": 13,
+            "diff": 16,
             "points": 2,
             "highlight": null
           },
@@ -68701,8 +68701,8 @@
             "draw": null,
             "loss": 1,
             "for": 36,
-            "against": 49,
-            "diff": -13,
+            "against": 52,
+            "diff": -16,
             "points": 1,
             "highlight": null
           },
@@ -68760,51 +68760,51 @@
             "highlight": null
           },
           {
-            "team": "Fribourg Olympic",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "CSM Oradea",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 7,
+            "against": 2,
+            "diff": 5,
+            "points": 2,
             "highlight": null
           },
           {
             "team": "Lokomotiv Plovdiv",
-            "played": 0,
-            "win": 0,
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 10,
+            "against": 4,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Fribourg Olympic",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 1,
+            "for": 2,
+            "against": 7,
+            "diff": -5,
+            "points": 1,
             "highlight": null
           },
           {
             "team": "VEF Riga",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 4,
+            "against": 10,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           }
         ],
