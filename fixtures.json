@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T20:54:48+00:00",
+  "updated": "2026-10-07T21:06:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20772,7 +20772,7 @@
       "league": "eurocup-2026-27",
       "home": "Baxi Manresa",
       "away": "Ratiopharm Ulm",
-      "score": null,
+      "score": "101-89",
       "date": "2026-10-07",
       "time": "18:30",
       "utc": "2026-10-07T18:30:00+00:00",
@@ -67938,6 +67938,18 @@
             "highlight": null
           },
           {
+            "team": "LDLC ASVEL Lyon-Villeurbanne",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 353,
+            "against": 377,
+            "diff": -24,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Beşiktaş JK",
             "played": 3,
             "win": 1,
@@ -68022,30 +68034,6 @@
             "highlight": null
           },
           {
-            "team": "LDLC ASVEL Lyon-Villeurbanne",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 255,
-            "against": 281,
-            "diff": -26,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 233,
-            "against": 261,
-            "diff": -28,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kosner Baskonia",
             "played": 3,
             "win": 1,
@@ -68053,6 +68041,18 @@
             "loss": 2,
             "for": 263,
             "against": 293,
+            "diff": -30,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 329,
+            "against": 359,
             "diff": -30,
             "points": null,
             "highlight": null
@@ -68669,6 +68669,18 @@
             "highlight": null
           },
           {
+            "team": "Sporting CP",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 78,
+            "against": 75,
+            "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "CSU Craiova",
             "played": 1,
             "win": 0,
@@ -68681,26 +68693,14 @@
             "highlight": null
           },
           {
-            "team": "Sporting CP",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 70,
-            "against": 70,
-            "diff": 0,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Rilski Sportist",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 70,
-            "against": 70,
-            "diff": 0,
+            "loss": 1,
+            "for": 75,
+            "against": 78,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
