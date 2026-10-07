@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T19:12:31+00:00",
+  "updated": "2026-10-07T20:44:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20629,7 +20629,7 @@
       "league": "bcl-2026-27",
       "home": "Utenos Juventus",
       "away": "Unicaja",
-      "score": null,
+      "score": "69-105",
       "date": "2026-10-07",
       "time": "17:00",
       "utc": "2026-10-07T17:00:00+00:00",
@@ -20640,7 +20640,7 @@
       "league": "eurocup-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Neptūnas",
-      "score": null,
+      "score": "93-84",
       "date": "2026-10-07",
       "time": "17:00",
       "utc": "2026-10-07T17:00:00+00:00",
@@ -20651,7 +20651,7 @@
       "league": "eurocup-2026-27",
       "home": "Aris Bsa",
       "away": "San Pablo Burgos",
-      "score": null,
+      "score": "93-80",
       "date": "2026-10-07",
       "time": "17:00",
       "utc": "2026-10-07T17:00:00+00:00",
@@ -20695,7 +20695,7 @@
       "league": "eurocup-2026-27",
       "home": "Derthona Basket Tortona",
       "away": "Le Mans",
-      "score": null,
+      "score": "89-83",
       "date": "2026-10-07",
       "time": "17:30",
       "utc": "2026-10-07T17:30:00+00:00",
@@ -20706,7 +20706,7 @@
       "league": "bcl-2026-27",
       "home": "Windrose Giants Antwerp",
       "away": "Falco KC-Szombathely",
-      "score": null,
+      "score": "99-93",
       "date": "2026-10-07",
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
@@ -20717,7 +20717,7 @@
       "league": "bcl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Porto",
-      "score": null,
+      "score": "78-74",
       "date": "2026-10-07",
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
@@ -20728,7 +20728,7 @@
       "league": "bcl-2026-27",
       "home": "KK Spartak Office Shoes",
       "away": "Rasta Vechta",
-      "score": null,
+      "score": "96-64",
       "date": "2026-10-07",
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
@@ -20739,7 +20739,7 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "Lietkabelis",
-      "score": null,
+      "score": "92-87",
       "date": "2026-10-07",
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
@@ -20750,7 +20750,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "TBB Trier",
       "away": "BC Batumi 2010",
-      "score": null,
+      "score": "92-59",
       "date": "2026-10-07",
       "time": "18:00",
       "utc": "2026-10-07T18:00:00+00:00",
@@ -20761,7 +20761,7 @@
       "league": "bcl-2026-27",
       "home": "UCAM Murcia",
       "away": "Openjobmetis Varese",
-      "score": null,
+      "score": "85-58",
       "date": "2026-10-07",
       "time": "18:30",
       "utc": "2026-10-07T18:30:00+00:00",
@@ -24245,6 +24245,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Napoli Basket",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-10-20",
+      "time": "18:00",
+      "utc": "2026-10-20T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Basquet Girona",
       "away": "Stelmet Zielona Gora",
@@ -24589,17 +24600,6 @@
       "league": "eurocup-2026-27",
       "home": "Hapoel Jerusalem",
       "away": "Rīgas Zelli",
-      "score": null,
-      "date": "2026-10-21",
-      "time": "18:00",
-      "utc": "2026-10-21T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Napoli Basket",
-      "away": "Tofas",
       "score": null,
       "date": "2026-10-21",
       "time": "18:00",
@@ -66254,18 +66254,6 @@
       "Group A": {
         "rows": [
           {
-            "team": "Aris Bsa",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 163,
-            "against": 129,
-            "diff": 34,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Hapoel Jerusalem",
             "played": 2,
             "win": 2,
@@ -66275,6 +66263,30 @@
             "against": 137,
             "diff": 32,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Aris Bsa",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 180,
+            "against": 154,
+            "diff": 26,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Derthona Basket Tortona",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 173,
+            "against": 169,
+            "diff": 4,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66290,26 +66302,14 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 144,
-            "against": 155,
-            "diff": -11,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "San Pablo Burgos",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 140,
-            "against": 157,
-            "diff": -17,
+            "for": 165,
+            "against": 174,
+            "diff": -9,
             "points": 3,
             "highlight": null
           },
@@ -66326,18 +66326,6 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 152,
-            "against": 156,
-            "diff": -4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "KK Cedevita Olimpija",
             "played": 2,
             "win": 0,
@@ -66346,6 +66334,18 @@
             "for": 145,
             "against": 160,
             "diff": -15,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Le Mans",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 157,
+            "against": 176,
+            "diff": -19,
             "points": 2,
             "highlight": null
           }
@@ -66581,15 +66581,15 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 2,
-            "win": 1,
+            "team": "Baxi Manresa",
+            "played": 3,
+            "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 136,
-            "against": 132,
-            "diff": 4,
-            "points": 3,
+            "for": 259,
+            "against": 251,
+            "diff": 8,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66598,22 +66598,22 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 117,
-            "against": 118,
-            "diff": -1,
+            "for": 162,
+            "against": 164,
+            "diff": -2,
             "points": 3,
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 2,
+            "team": "Ratiopharm Ulm",
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 126,
-            "against": 131,
-            "diff": -5,
-            "points": 3,
+            "loss": 2,
+            "for": 256,
+            "against": 265,
+            "diff": -9,
+            "points": 4,
             "highlight": null
           },
           {
@@ -68195,6 +68195,18 @@
       "Group C": {
         "rows": [
           {
+            "team": "Windrose Giants Antwerp",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 99,
+            "against": 93,
+            "diff": 6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "AEK BC",
             "played": 1,
             "win": 1,
@@ -68219,27 +68231,15 @@
             "highlight": null
           },
           {
-            "team": "Windrose Giants Antwerp",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Falco KC-Szombathely",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 93,
+            "against": 99,
+            "diff": -6,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -68247,6 +68247,18 @@
       },
       "Group D": {
         "rows": [
+          {
+            "team": "UCAM Murcia",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 85,
+            "against": 58,
+            "diff": 27,
+            "points": 2,
+            "highlight": null
+          },
           {
             "team": "Peristeri BC",
             "played": 1,
@@ -68273,26 +68285,14 @@
           },
           {
             "team": "Openjobmetis Varese",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "UCAM Murcia",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 58,
+            "against": 85,
+            "diff": -27,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -68354,6 +68354,18 @@
       "Group F": {
         "rows": [
           {
+            "team": "KK Spartak Office Shoes",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 96,
+            "against": 64,
+            "diff": 32,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Cholet Basket",
             "played": 1,
             "win": 1,
@@ -68378,27 +68390,15 @@
             "highlight": null
           },
           {
-            "team": "KK Spartak Office Shoes",
-            "played": 0,
-            "win": 0,
-            "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Rasta Vechta",
-            "played": 0,
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 64,
+            "against": 96,
+            "diff": -32,
+            "points": 1,
             "highlight": null
           }
         ],
@@ -68472,27 +68472,27 @@
             "highlight": null
           },
           {
-            "team": "Porto",
-            "played": 0,
-            "win": 0,
+            "team": "Telekom Baskets Bonn",
+            "played": 1,
+            "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "for": 78,
+            "against": 74,
+            "diff": 4,
+            "points": 2,
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 0,
+            "team": "Porto",
+            "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 0,
-            "against": 0,
-            "diff": 0,
-            "points": 0,
+            "loss": 1,
+            "for": 74,
+            "against": 78,
+            "diff": -4,
+            "points": 1,
             "highlight": null
           },
           {
@@ -68544,9 +68544,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 67,
-            "against": 38,
-            "diff": 29,
+            "for": 92,
+            "against": 59,
+            "diff": 33,
             "points": 2,
             "highlight": null
           },
@@ -68580,9 +68580,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 38,
-            "against": 67,
-            "diff": -29,
+            "for": 59,
+            "against": 92,
+            "diff": -33,
             "points": 1,
             "highlight": null
           }
@@ -68674,9 +68674,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 13,
-            "against": 11,
-            "diff": 2,
+            "for": 67,
+            "against": 64,
+            "diff": 3,
             "points": 2,
             "highlight": null
           },
@@ -68698,9 +68698,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 11,
-            "against": 13,
-            "diff": -2,
+            "for": 64,
+            "against": 67,
+            "diff": -3,
             "points": 1,
             "highlight": null
           },
