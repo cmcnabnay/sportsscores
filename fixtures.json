@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T05:56:39+00:00",
+  "updated": "2026-10-07T14:05:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20384,7 +20384,7 @@
       "league": "liiga-2026-27",
       "home": "Mikkelin Jukurit",
       "away": "Porin Ässät",
-      "score": null,
+      "score": "0-1",
       "date": "2026-10-07",
       "time": "09:00",
       "utc": "2026-10-07T09:00:00+00:00",
@@ -21433,7 +21433,7 @@
       "date": "2026-10-10",
       "time": "14:00",
       "utc": "2026-10-10T14:00:00+00:00",
-      "venue": "Ritarihalli",
+      "venue": "Pohjantahti Areena",
       "attendance": null
     },
     {
@@ -33835,17 +33835,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Vaasan Sport",
-      "away": "KalPa Kuopio",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "16:30",
-      "utc": "2026-12-04T16:30:00+00:00",
-      "venue": "Vaasa Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Mikkelin Jukurit",
       "away": "SaiPa Lappeenranta",
       "score": null,
@@ -41553,17 +41542,6 @@
       "time": "16:30",
       "utc": "2027-01-05T16:30:00+00:00",
       "venue": "Isomäki Areena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "HPK Hämeenlinna",
-      "away": "Kiekko-Espoo",
-      "score": null,
-      "date": "2027-01-05",
-      "time": "16:30",
-      "utc": "2027-01-05T16:30:00+00:00",
-      "venue": "Ritarihalli",
       "attendance": null
     },
     {
@@ -49451,17 +49429,6 @@
       "time": "17:30",
       "utc": "2027-02-19T17:30:00+00:00",
       "venue": "Helsingin jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "KalPa Kuopio",
-      "away": "Oulun Kärpät",
-      "score": null,
-      "date": "2027-02-19",
-      "time": "17:30",
-      "utc": "2027-02-19T17:30:00+00:00",
-      "venue": "Olvi Areena",
       "attendance": null
     },
     {
@@ -65860,7 +65827,7 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 13,
+            "played": 14,
             "win": 9,
             "draw": null,
             "loss": 3,
@@ -65932,19 +65899,19 @@
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 12,
+            "played": 13,
             "win": 6,
             "draw": null,
-            "loss": 5,
-            "for": 36,
-            "against": 32,
-            "diff": 4,
+            "loss": 6,
+            "for": 37,
+            "against": 35,
+            "diff": 2,
             "points": 12,
             "highlight": null
           },
           {
             "team": "Admiral Vladivostok",
-            "played": 12,
+            "played": 13,
             "win": 4,
             "draw": null,
             "loss": 5,
@@ -65967,6 +65934,18 @@
             "highlight": null
           },
           {
+            "team": "Sibir Novosibirsk",
+            "played": 13,
+            "win": 4,
+            "draw": null,
+            "loss": 7,
+            "for": 27,
+            "against": 36,
+            "diff": -9,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Avangard Omsk",
             "played": 11,
             "win": 5,
@@ -65976,18 +65955,6 @@
             "against": 29,
             "diff": -9,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Sibir Novosibirsk",
-            "played": 12,
-            "win": 3,
-            "draw": null,
-            "loss": 7,
-            "for": 24,
-            "against": 35,
-            "diff": -11,
-            "points": 8,
             "highlight": null
           }
         ],
@@ -67038,14 +67005,26 @@
           },
           {
             "team": "Mikkelin Jukurit",
-            "played": 11,
+            "played": 12,
             "win": 8,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 33,
-            "against": 23,
-            "diff": 10,
+            "against": 24,
+            "diff": 9,
             "points": 22,
+            "highlight": null
+          },
+          {
+            "team": "Porin Ässät",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 28,
+            "against": 24,
+            "diff": 4,
+            "points": 21,
             "highlight": null
           },
           {
@@ -67069,18 +67048,6 @@
             "for": 27,
             "against": 18,
             "diff": 9,
-            "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 10,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 27,
-            "against": 24,
-            "diff": 3,
             "points": 18,
             "highlight": null
           },
