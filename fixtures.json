@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T16:05:07+00:00",
+  "updated": "2026-10-07T16:15:39+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65886,9 +65886,9 @@
             "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 39,
+            "for": 40,
             "against": 27,
-            "diff": 12,
+            "diff": 13,
             "points": 21,
             "highlight": null
           },
@@ -65971,8 +65971,8 @@
             "draw": null,
             "loss": 6,
             "for": 29,
-            "against": 32,
-            "diff": -3,
+            "against": 33,
+            "diff": -4,
             "points": 11,
             "highlight": null
           },
@@ -66123,13 +66123,13 @@
           {
             "team": "Reyer Venezia",
             "played": 2,
-            "win": 1,
+            "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 107,
-            "against": 77,
-            "diff": 30,
-            "points": 3,
+            "loss": 0,
+            "for": 119,
+            "against": 85,
+            "diff": 34,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66193,18 +66193,6 @@
             "highlight": null
           },
           {
-            "team": "Cluj Napoca",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 60,
-            "against": 92,
-            "diff": -32,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Maxima Roma",
             "played": 0,
             "win": 0,
@@ -66214,6 +66202,18 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cluj Napoca",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 68,
+            "against": 104,
+            "diff": -36,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -66340,9 +66340,9 @@
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 97,
-            "against": 80,
-            "diff": 17,
+            "for": 104,
+            "against": 86,
+            "diff": 18,
             "points": 4,
             "highlight": null
           },
@@ -66412,9 +66412,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 86,
-            "against": 104,
-            "diff": -18,
+            "for": 92,
+            "against": 111,
+            "diff": -19,
             "points": 2,
             "highlight": null
           }
@@ -68281,26 +68281,26 @@
       "Group A": {
         "rows": [
           {
-            "team": "Split",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 2,
-            "against": 0,
-            "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "BK Opava",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 0,
-            "against": 2,
-            "diff": -2,
+            "loss": 0,
+            "for": 10,
+            "against": 10,
+            "diff": 0,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Split",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 10,
+            "against": 10,
+            "diff": 0,
             "points": 1,
             "highlight": null
           },
@@ -68428,8 +68428,8 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 35,
-            "against": 32,
+            "for": 45,
+            "against": 42,
             "diff": 3,
             "points": 2,
             "highlight": null
@@ -68440,8 +68440,8 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 32,
-            "against": 35,
+            "for": 42,
+            "against": 45,
             "diff": -3,
             "points": 1,
             "highlight": null
@@ -68505,9 +68505,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 5,
-            "against": 0,
-            "diff": 5,
+            "for": 21,
+            "against": 8,
+            "diff": 13,
             "points": 2,
             "highlight": null
           },
@@ -68582,9 +68582,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 3,
-            "against": 0,
-            "diff": 3,
+            "for": 15,
+            "against": 8,
+            "diff": 7,
             "points": 2,
             "highlight": null
           },
@@ -68618,9 +68618,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 0,
-            "against": 3,
-            "diff": -3,
+            "for": 8,
+            "against": 15,
+            "diff": -7,
             "points": 1,
             "highlight": null
           }
@@ -68688,9 +68688,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 52,
-            "against": 36,
-            "diff": 16,
+            "for": 67,
+            "against": 49,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -68700,9 +68700,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 36,
-            "against": 52,
-            "diff": -16,
+            "for": 49,
+            "against": 67,
+            "diff": -18,
             "points": 1,
             "highlight": null
           },
@@ -68765,9 +68765,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 7,
-            "against": 2,
-            "diff": 5,
+            "for": 20,
+            "against": 8,
+            "diff": 12,
             "points": 2,
             "highlight": null
           },
@@ -68777,9 +68777,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 10,
-            "against": 4,
-            "diff": 6,
+            "for": 26,
+            "against": 25,
+            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -68789,9 +68789,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 2,
-            "against": 7,
-            "diff": -5,
+            "for": 8,
+            "against": 20,
+            "diff": -12,
             "points": 1,
             "highlight": null
           },
@@ -68801,9 +68801,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 10,
-            "diff": -6,
+            "for": 25,
+            "against": 26,
+            "diff": -1,
             "points": 1,
             "highlight": null
           }
