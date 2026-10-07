@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T20:44:14+00:00",
+  "updated": "2026-10-07T20:54:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66581,15 +66581,15 @@
             "highlight": null
           },
           {
-            "team": "Baxi Manresa",
-            "played": 3,
-            "win": 2,
+            "team": "Ratiopharm Ulm",
+            "played": 2,
+            "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 259,
-            "against": 251,
-            "diff": 8,
-            "points": 5,
+            "for": 167,
+            "against": 166,
+            "diff": 1,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66605,15 +66605,15 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 3,
+            "team": "Baxi Manresa",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 256,
-            "against": 265,
-            "diff": -9,
-            "points": 4,
+            "loss": 1,
+            "for": 160,
+            "against": 162,
+            "diff": -2,
+            "points": 3,
             "highlight": null
           },
           {
@@ -68669,18 +68669,6 @@
             "highlight": null
           },
           {
-            "team": "Sporting CP",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 67,
-            "against": 64,
-            "diff": 3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "CSU Craiova",
             "played": 1,
             "win": 0,
@@ -68693,14 +68681,26 @@
             "highlight": null
           },
           {
+            "team": "Sporting CP",
+            "played": 1,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 70,
+            "against": 70,
+            "diff": 0,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Rilski Sportist",
             "played": 1,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 64,
-            "against": 67,
-            "diff": -3,
+            "loss": 0,
+            "for": 70,
+            "against": 70,
+            "diff": 0,
             "points": 1,
             "highlight": null
           },
