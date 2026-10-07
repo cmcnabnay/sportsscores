@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T19:02:28+00:00",
+  "updated": "2026-10-07T19:12:31+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66254,6 +66254,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "Aris Bsa",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 163,
+            "against": 129,
+            "diff": 34,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Hapoel Jerusalem",
             "played": 2,
             "win": 2,
@@ -66262,18 +66274,6 @@
             "for": 169,
             "against": 137,
             "diff": 32,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Aris Bsa",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 154,
-            "against": 124,
-            "diff": 30,
             "points": 4,
             "highlight": null
           },
@@ -66290,14 +66290,14 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
+            "team": "Le Mans",
             "played": 2,
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 150,
-            "against": 151,
-            "diff": -1,
+            "for": 144,
+            "against": 155,
+            "diff": -11,
             "points": 3,
             "highlight": null
           },
@@ -66307,9 +66307,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 135,
-            "against": 148,
-            "diff": -13,
+            "for": 140,
+            "against": 157,
+            "diff": -17,
             "points": 3,
             "highlight": null
           },
@@ -66326,14 +66326,14 @@
             "highlight": null
           },
           {
-            "team": "Le Mans",
+            "team": "Derthona Basket Tortona",
             "played": 2,
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 139,
-            "against": 153,
-            "diff": -14,
+            "for": 152,
+            "against": 156,
+            "diff": -4,
             "points": 2,
             "highlight": null
           },
@@ -66586,21 +66586,9 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 124,
-            "against": 124,
-            "diff": 0,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Baxi Manresa",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 118,
-            "against": 119,
-            "diff": -1,
+            "for": 136,
+            "against": 132,
+            "diff": 4,
             "points": 3,
             "highlight": null
           },
@@ -66610,9 +66598,21 @@
             "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 113,
-            "against": 115,
-            "diff": -2,
+            "for": 117,
+            "against": 118,
+            "diff": -1,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 126,
+            "against": 131,
+            "diff": -5,
             "points": 3,
             "highlight": null
           },
@@ -68544,9 +68544,9 @@
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 49,
-            "against": 30,
-            "diff": 19,
+            "for": 67,
+            "against": 38,
+            "diff": 29,
             "points": 2,
             "highlight": null
           },
@@ -68580,9 +68580,9 @@
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 30,
-            "against": 49,
-            "diff": -19,
+            "for": 38,
+            "against": 67,
+            "diff": -29,
             "points": 1,
             "highlight": null
           }
@@ -68669,14 +68669,14 @@
             "highlight": null
           },
           {
-            "team": "Rilski Sportist",
+            "team": "Sporting CP",
             "played": 1,
             "win": 1,
             "draw": null,
             "loss": 0,
-            "for": 9,
-            "against": 4,
-            "diff": 5,
+            "for": 13,
+            "against": 11,
+            "diff": 2,
             "points": 2,
             "highlight": null
           },
@@ -68693,14 +68693,14 @@
             "highlight": null
           },
           {
-            "team": "Sporting CP",
+            "team": "Rilski Sportist",
             "played": 1,
             "win": 0,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 9,
-            "diff": -5,
+            "for": 11,
+            "against": 13,
+            "diff": -2,
             "points": 1,
             "highlight": null
           },
