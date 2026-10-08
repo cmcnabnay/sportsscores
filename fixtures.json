@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T15:46:46+00:00",
+  "updated": "2026-10-08T15:58:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66217,6 +66217,18 @@
             "highlight": null
           },
           {
+            "team": "Amur Khabarovsk",
+            "played": 13,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 22,
+            "against": 20,
+            "diff": 2,
+            "points": 15,
+            "highlight": null
+          },
+          {
             "team": "Barys Astana",
             "played": 12,
             "win": 7,
@@ -66265,18 +66277,6 @@
             "highlight": null
           },
           {
-            "team": "Amur Khabarovsk",
-            "played": 13,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
-            "for": 20,
-            "against": 20,
-            "diff": 0,
-            "points": 13,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 13,
             "win": 4,
@@ -66293,10 +66293,10 @@
             "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 23,
-            "against": 29,
-            "diff": -6,
+            "against": 31,
+            "diff": -8,
             "points": 10,
             "highlight": null
           },
