@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:24:47+00:00",
+  "updated": "2026-10-08T18:34:50+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20840,7 +20840,7 @@
       "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "58-77",
       "date": "2026-10-08",
       "time": "16:00",
       "utc": "2026-10-08T16:00:00+00:00",
@@ -20851,7 +20851,7 @@
       "league": "euroleague-2026-27",
       "home": "Maccabi Tel Aviv",
       "away": "EA7 Emporio Armani Milano",
-      "score": null,
+      "score": "97-79",
       "date": "2026-10-08",
       "time": "16:00",
       "utc": "2026-10-08T16:00:00+00:00",
@@ -42669,6 +42669,17 @@
       "time": "19:00",
       "utc": "2027-01-08T19:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Crvena zvezda",
+      "away": "LDLC ASVEL Lyon-Villeurbanne",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "19:00",
+      "utc": "2027-01-08T19:00:00+00:00",
+      "venue": "Belgrade Arena",
       "attendance": null
     },
     {
@@ -66130,9 +66141,9 @@
             "win": 8,
             "draw": null,
             "loss": 4,
-            "for": 35,
+            "for": 36,
             "against": 22,
-            "diff": 13,
+            "diff": 14,
             "points": 17,
             "highlight": null
           },
@@ -66167,8 +66178,8 @@
             "draw": null,
             "loss": 4,
             "for": 28,
-            "against": 27,
-            "diff": 1,
+            "against": 28,
+            "diff": 0,
             "points": 16,
             "highlight": null
           },
