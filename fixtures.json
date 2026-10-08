@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T20:43:13+00:00",
+  "updated": "2026-10-08T20:52:46+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -67890,25 +67890,13 @@
           },
           {
             "team": "Valencia Basket",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 312,
-            "against": 274,
-            "diff": 38,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "KK Partizan Mozzart Bet",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 270,
-            "against": 239,
-            "diff": 31,
+            "for": 405,
+            "against": 356,
+            "diff": 49,
             "points": null,
             "highlight": null
           },
@@ -67921,6 +67909,18 @@
             "for": 328,
             "against": 302,
             "diff": 26,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "KK Partizan Mozzart Bet",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 346,
+            "against": 325,
+            "diff": 21,
             "points": null,
             "highlight": null
           },
@@ -67949,18 +67949,6 @@
             "highlight": null
           },
           {
-            "team": "Hapoel Tel-Aviv",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 267,
-            "against": 264,
-            "diff": 3,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "KK Crvena zvezda",
             "played": 4,
             "win": 2,
@@ -67981,6 +67969,18 @@
             "for": 343,
             "against": 346,
             "diff": -3,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Hapoel Tel-Aviv",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 349,
+            "against": 357,
+            "diff": -8,
             "points": null,
             "highlight": null
           },
@@ -68057,6 +68057,18 @@
             "highlight": null
           },
           {
+            "team": "Real Madrid",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 345,
+            "against": 350,
+            "diff": -5,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 4,
             "win": 1,
@@ -68101,18 +68113,6 @@
             "for": 318,
             "against": 360,
             "diff": -42,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Real Madrid",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 3,
-            "for": 259,
-            "against": 274,
-            "diff": -15,
             "points": null,
             "highlight": null
           }
