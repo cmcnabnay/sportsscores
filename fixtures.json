@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T17:54:48+00:00",
+  "updated": "2026-10-08T18:02:56+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20828,7 +20828,7 @@
       "league": "liiga-2026-27",
       "home": "SaiPa Lappeenranta",
       "away": "JYP Jyväskylä",
-      "score": null,
+      "score": "1-2",
       "date": "2026-10-08",
       "time": "15:30",
       "utc": "2026-10-08T15:30:00+00:00",
@@ -34135,6 +34135,17 @@
       "attendance": null
     },
     {
+      "league": "liiga-2026-27",
+      "home": "Vaasan Sport",
+      "away": "KalPa Kuopio",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "16:30",
+      "utc": "2026-12-04T16:30:00+00:00",
+      "venue": "Vaasa Arena",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Panathinaikos BC",
@@ -41931,6 +41942,17 @@
       "time": "16:30",
       "utc": "2027-01-05T16:30:00+00:00",
       "venue": "Isomäki Areena",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "HPK Hämeenlinna",
+      "away": "Kiekko-Espoo",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "16:30",
+      "utc": "2027-01-05T16:30:00+00:00",
+      "venue": "Ritarihalli",
       "attendance": null
     },
     {
@@ -49807,6 +49829,17 @@
       "time": "17:30",
       "utc": "2027-02-19T17:30:00+00:00",
       "venue": "Helsingin jäähalli",
+      "attendance": null
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "KalPa Kuopio",
+      "away": "Oulun Kärpät",
+      "score": null,
+      "date": "2027-02-19",
+      "time": "17:30",
+      "utc": "2027-02-19T17:30:00+00:00",
+      "venue": "Olvi Areena",
       "attendance": null
     },
     {
@@ -66091,25 +66124,13 @@
             "highlight": null
           },
           {
-            "team": "SKA St. Petersburg",
-            "played": 12,
-            "win": 9,
-            "draw": null,
-            "loss": 3,
-            "for": 43,
-            "against": 34,
-            "diff": 9,
-            "points": 18,
-            "highlight": null
-          },
-          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 13,
             "win": 8,
             "draw": null,
             "loss": 4,
-            "for": 34,
-            "against": 20,
+            "for": 35,
+            "against": 21,
             "diff": 14,
             "points": 17,
             "highlight": null
@@ -66127,15 +66148,39 @@
             "highlight": null
           },
           {
+            "team": "SKA St. Petersburg",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 44,
+            "against": 37,
+            "diff": 7,
+            "points": 16,
+            "highlight": null
+          },
+          {
             "team": "Severstal Cherepovets",
             "played": 13,
             "win": 7,
             "draw": null,
             "loss": 4,
-            "for": 26,
-            "against": 26,
+            "for": 27,
+            "against": 27,
             "diff": 0,
             "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "Dinamo Minsk",
+            "played": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 37,
+            "against": 37,
+            "diff": 0,
+            "points": 15,
             "highlight": null
           },
           {
@@ -66148,18 +66193,6 @@
             "against": 27,
             "diff": 7,
             "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 13,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 34,
-            "against": 36,
-            "diff": -2,
-            "points": 13,
             "highlight": null
           },
           {
@@ -66220,10 +66253,10 @@
             "played": 14,
             "win": 8,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 44,
-            "against": 33,
-            "diff": 11,
+            "against": 34,
+            "diff": 10,
             "points": 18,
             "highlight": null
           },
@@ -66288,6 +66321,18 @@
             "highlight": null
           },
           {
+            "team": "Avangard Omsk",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 21,
+            "against": 29,
+            "diff": -8,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Admiral Vladivostok",
             "played": 13,
             "win": 4,
@@ -66308,18 +66353,6 @@
             "for": 23,
             "against": 31,
             "diff": -8,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 20,
-            "against": 29,
-            "diff": -9,
             "points": 10,
             "highlight": null
           },
@@ -68015,14 +68048,26 @@
             "highlight": null
           },
           {
-            "team": "BC Dubai",
-            "played": 3,
+            "team": "KK Crvena zvezda",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 238,
-            "against": 240,
-            "diff": -2,
+            "loss": 2,
+            "for": 311,
+            "against": 294,
+            "diff": 17,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "BC Dubai",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 296,
+            "against": 317,
+            "diff": -21,
             "points": null,
             "highlight": null
           },
@@ -68070,18 +68115,6 @@
             "loss": 2,
             "for": 248,
             "against": 250,
-            "diff": -2,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "KK Crvena zvezda",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 234,
-            "against": 236,
             "diff": -2,
             "points": null,
             "highlight": null
