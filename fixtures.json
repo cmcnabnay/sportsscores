@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T20:31:44+00:00",
+  "updated": "2026-10-08T20:43:13+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20983,7 +20983,7 @@
       "league": "euroleague-2026-27",
       "home": "Bayern München",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "87-94",
       "date": "2026-10-08",
       "time": "18:00",
       "utc": "2026-10-08T18:00:00+00:00",
@@ -20994,7 +20994,7 @@
       "league": "euroleague-2026-27",
       "home": "Panathinaikos BC",
       "away": "Fenerbahçe Tarfin",
-      "score": null,
+      "score": "92-74",
       "date": "2026-10-08",
       "time": "18:15",
       "utc": "2026-10-08T18:15:00+00:00",
@@ -21005,7 +21005,7 @@
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Hapoel Tel-Aviv",
-      "score": null,
+      "score": "93-82",
       "date": "2026-10-08",
       "time": "18:30",
       "utc": "2026-10-08T18:30:00+00:00",
@@ -21016,7 +21016,7 @@
       "league": "euroleague-2026-27",
       "home": "Real Madrid",
       "away": "KK Partizan Mozzart Bet",
-      "score": null,
+      "score": "86-76",
       "date": "2026-10-08",
       "time": "18:45",
       "utc": "2026-10-08T18:45:00+00:00",
@@ -42727,17 +42727,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Kosner Baskonia",
-      "away": "Virtus Bologna",
-      "score": null,
-      "date": "2027-01-08",
-      "time": "19:30",
-      "utc": "2027-01-08T19:30:00+00:00",
-      "venue": "Fernando Buesa Arena",
-      "attendance": null
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Glasgow Warriors",
       "away": "Leicester Tigers",
@@ -43574,17 +43563,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "BC Dubai",
-      "away": "Fenerbahçe Tarfin",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "16:00",
-      "utc": "2027-01-12T16:00:00+00:00",
-      "venue": "Coca-Cola Arena",
-      "attendance": null
-    },
-    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "JYP Jyväskylä",
@@ -43604,17 +43582,6 @@
       "time": "16:30",
       "utc": "2027-01-12T16:30:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "Paris Basketball",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "17:00",
-      "utc": "2027-01-12T17:00:00+00:00",
-      "venue": "Shlomo Group Arena",
       "attendance": null
     },
     {
@@ -43662,28 +43629,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "KK Crvena zvezda",
-      "away": "Real Madrid",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "19:00",
-      "utc": "2027-01-12T19:00:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "LDLC ASVEL Lyon-Villeurbanne",
-      "away": "Kauno Žalgiris",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "19:00",
-      "utc": "2027-01-12T19:00:00+00:00",
-      "venue": "LDLC Arena",
-      "attendance": null
-    },
-    {
       "league": "eurocup-2026-27",
       "home": "Reyer Venezia",
       "away": "London Lions",
@@ -43692,17 +43637,6 @@
       "time": "19:00",
       "utc": "2027-01-12T19:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Panathinaikos BC",
-      "away": "Valencia Basket",
-      "score": null,
-      "date": "2027-01-12",
-      "time": "19:15",
-      "utc": "2027-01-12T19:15:00+00:00",
-      "venue": "Telekom Center Athens",
       "attendance": null
     },
     {
@@ -55242,72 +55176,6 @@
       "time": "19:15",
       "utc": "2027-03-24T19:15:00+00:00",
       "venue": "Peace And Friendship Stadium",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Valencia Basket",
-      "away": "Beşiktaş JK",
-      "score": null,
-      "date": "2027-03-24",
-      "time": "19:30",
-      "utc": "2027-03-24T19:30:00+00:00",
-      "venue": "Roig Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Anadolu Efes",
-      "away": "Kosner Baskonia",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "17:30",
-      "utc": "2027-03-25T17:30:00+00:00",
-      "venue": "Basketball Development Centre",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "BC Dubai",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "18:00",
-      "utc": "2027-03-25T18:00:00+00:00",
-      "venue": "Shlomo Group Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "LDLC ASVEL Lyon-Villeurbanne",
-      "away": "Paris Basketball",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "19:00",
-      "utc": "2027-03-25T19:00:00+00:00",
-      "venue": "LDLC Arena",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Panathinaikos BC",
-      "away": "KK Partizan Mozzart Bet",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "19:15",
-      "utc": "2027-03-25T19:15:00+00:00",
-      "venue": "Telekom Center Athens",
-      "attendance": null
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Fenerbahçe Tarfin",
-      "away": "Barça Basket",
-      "score": null,
-      "date": "2027-03-26",
-      "time": "17:45",
-      "utc": "2027-03-26T17:45:00+00:00",
-      "venue": "Ulker Sports Arena",
       "attendance": null
     },
     {
@@ -68010,25 +67878,13 @@
         "rows": [
           {
             "team": "Panathinaikos BC",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 283,
-            "against": 218,
-            "diff": 65,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Fenerbahçe Tarfin",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 254,
-            "against": 210,
-            "diff": 44,
+            "for": 375,
+            "against": 292,
+            "diff": 83,
             "points": null,
             "highlight": null
           },
@@ -68053,6 +67909,18 @@
             "for": 270,
             "against": 239,
             "diff": 31,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Fenerbahçe Tarfin",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 328,
+            "against": 302,
+            "diff": 26,
             "points": null,
             "highlight": null
           },
