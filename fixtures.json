@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T16:28:53+00:00",
+  "updated": "2026-10-08T17:54:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20806,7 +20806,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Amur Khabarovsk",
-      "score": null,
+      "score": "0-2",
       "date": "2026-10-08",
       "time": "14:00",
       "utc": "2026-10-08T14:00:00+00:00",
@@ -21988,6 +21988,17 @@
       "time": "14:00",
       "utc": "2026-10-11T14:00:00+00:00",
       "venue": "Sandy Park",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dynamo Moscow",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-10-11",
+      "time": "14:00",
+      "utc": "2026-10-11T14:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66080,14 +66091,26 @@
             "highlight": null
           },
           {
-            "team": "Torpedo Nizhny Novgorod",
+            "team": "SKA St. Petersburg",
             "played": 12,
-            "win": 8,
+            "win": 9,
             "draw": null,
             "loss": 3,
+            "for": 43,
+            "against": 34,
+            "diff": 9,
+            "points": 18,
+            "highlight": null
+          },
+          {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 13,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
             "for": 34,
-            "against": 19,
-            "diff": 15,
+            "against": 20,
+            "diff": 14,
             "points": 17,
             "highlight": null
           },
@@ -66104,14 +66127,14 @@
             "highlight": null
           },
           {
-            "team": "SKA St. Petersburg",
-            "played": 12,
-            "win": 8,
+            "team": "Severstal Cherepovets",
+            "played": 13,
+            "win": 7,
             "draw": null,
-            "loss": 3,
-            "for": 42,
-            "against": 34,
-            "diff": 8,
+            "loss": 4,
+            "for": 26,
+            "against": 26,
+            "diff": 0,
             "points": 16,
             "highlight": null
           },
@@ -66128,26 +66151,14 @@
             "highlight": null
           },
           {
-            "team": "Severstal Cherepovets",
-            "played": 12,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 25,
-            "against": 26,
-            "diff": -1,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "Dinamo Minsk",
             "played": 13,
             "win": 4,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 34,
-            "against": 35,
-            "diff": -1,
+            "against": 36,
+            "diff": -2,
             "points": 13,
             "highlight": null
           },
@@ -66206,7 +66217,7 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 13,
+            "played": 14,
             "win": 8,
             "draw": null,
             "loss": 3,
@@ -66302,7 +66313,7 @@
           },
           {
             "team": "Avangard Omsk",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": null,
             "loss": 6,
@@ -67383,6 +67394,18 @@
             "highlight": null
           },
           {
+            "team": "JYP Jyväskylä",
+            "played": 9,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 29,
+            "against": 19,
+            "diff": 10,
+            "points": 21,
+            "highlight": null
+          },
+          {
             "team": "Porin Ässät",
             "played": 11,
             "win": 7,
@@ -67396,13 +67419,13 @@
           },
           {
             "team": "SaiPa Lappeenranta",
-            "played": 10,
+            "played": 11,
             "win": 7,
             "draw": null,
-            "loss": 3,
-            "for": 29,
-            "against": 18,
-            "diff": 11,
+            "loss": 4,
+            "for": 30,
+            "against": 20,
+            "diff": 10,
             "points": 20,
             "highlight": null
           },
@@ -67416,18 +67439,6 @@
             "against": 30,
             "diff": 1,
             "points": 19,
-            "highlight": null
-          },
-          {
-            "team": "JYP Jyväskylä",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 27,
-            "against": 18,
-            "diff": 9,
-            "points": 18,
             "highlight": null
           },
           {
