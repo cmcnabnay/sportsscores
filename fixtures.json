@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:02:56+00:00",
+  "updated": "2026-10-08T18:13:55+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20817,12 +20817,13 @@
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "HIFK Helsinki",
-      "score": null,
+      "score": "3-2",
       "date": "2026-10-08",
       "time": "15:30",
       "utc": "2026-10-08T15:30:00+00:00",
       "venue": "Helsinki Halli",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
@@ -66130,8 +66131,8 @@
             "draw": null,
             "loss": 4,
             "for": 35,
-            "against": 21,
-            "diff": 14,
+            "against": 22,
+            "diff": 13,
             "points": 17,
             "highlight": null
           },
@@ -66154,8 +66155,8 @@
             "draw": null,
             "loss": 4,
             "for": 44,
-            "against": 37,
-            "diff": 7,
+            "against": 38,
+            "diff": 6,
             "points": 16,
             "highlight": null
           },
@@ -66165,9 +66166,9 @@
             "win": 7,
             "draw": null,
             "loss": 4,
-            "for": 27,
+            "for": 28,
             "against": 27,
-            "diff": 0,
+            "diff": 1,
             "points": 16,
             "highlight": null
           },
@@ -66177,9 +66178,9 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 37,
+            "for": 38,
             "against": 37,
-            "diff": 0,
+            "diff": 1,
             "points": 15,
             "highlight": null
           },
@@ -68144,18 +68145,6 @@
             "highlight": null
           },
           {
-            "team": "EA7 Emporio Armani Milano",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 239,
-            "against": 263,
-            "diff": -24,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kosner Baskonia",
             "played": 3,
             "win": 1,
@@ -68180,6 +68169,30 @@
             "highlight": null
           },
           {
+            "team": "Maccabi Tel Aviv",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 331,
+            "against": 362,
+            "diff": -31,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "EA7 Emporio Armani Milano",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 318,
+            "against": 360,
+            "diff": -42,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Real Madrid",
             "played": 3,
             "win": 0,
@@ -68188,18 +68201,6 @@
             "for": 259,
             "against": 274,
             "diff": -15,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Maccabi Tel Aviv",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 3,
-            "for": 234,
-            "against": 283,
-            "diff": -49,
             "points": null,
             "highlight": null
           }
