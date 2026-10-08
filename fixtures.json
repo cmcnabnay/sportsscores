@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T20:09:55+00:00",
+  "updated": "2026-10-08T20:20:45+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -68105,6 +68105,18 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 343,
+            "against": 346,
+            "diff": -3,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "BC Dubai",
             "played": 4,
             "win": 2,
@@ -68165,30 +68177,6 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 249,
-            "against": 259,
-            "diff": -10,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Bayern München",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 246,
-            "against": 270,
-            "diff": -24,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kosner Baskonia",
             "played": 3,
             "win": 1,
@@ -68209,6 +68197,18 @@
             "for": 329,
             "against": 359,
             "diff": -30,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Bayern München",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 333,
+            "against": 364,
+            "diff": -31,
             "points": null,
             "highlight": null
           },
