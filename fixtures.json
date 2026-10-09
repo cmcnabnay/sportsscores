@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T16:43:21+00:00",
+  "updated": "2026-10-09T16:54:43+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21027,7 +21027,7 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Salavat Yulayev Ufa",
-      "score": null,
+      "score": "7-1",
       "date": "2026-10-09",
       "time": "14:00",
       "utc": "2026-10-09T14:00:00+00:00",
@@ -22212,6 +22212,28 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Amur Khabarovsk",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "09:00",
+      "utc": "2026-10-12T09:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Salavat Yulayev Ufa",
+      "away": "Neftekhimik Nizhnekamsk",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "11:30",
+      "utc": "2026-10-12T11:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Saskatchewan Roughriders",
@@ -22223,6 +22245,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Sibir Novosibirsk",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "14:30",
+      "utc": "2026-10-12T14:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Lanús",
       "away": "Vélez Sarsfield",
@@ -22230,6 +22263,39 @@
       "date": "2026-10-12",
       "time": "16:00",
       "utc": "2026-10-12T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "AK Bars",
+      "away": "HC Sochi",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "16:00",
+      "utc": "2026-10-12T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Metallurg Magnitogorsk",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "16:30",
+      "utc": "2026-10-12T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Shanghai Dragons",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-10-12",
+      "time": "16:30",
+      "utc": "2026-10-12T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
