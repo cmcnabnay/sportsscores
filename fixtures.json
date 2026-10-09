@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T17:25:51+00:00",
+  "updated": "2026-10-09T18:04:53+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21049,7 +21049,7 @@
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "Rauman Lukko",
-      "score": null,
+      "score": "1-5",
       "date": "2026-10-09",
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
@@ -21060,12 +21060,13 @@
       "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "Oulun Kärpät",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-09",
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
       "venue": "Isku Areena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
@@ -21082,7 +21083,7 @@
       "league": "liiga-2026-27",
       "home": "KooKoo Kouvola",
       "away": "Mikkelin Jukurit",
-      "score": null,
+      "score": "4-1",
       "date": "2026-10-09",
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
@@ -65953,18 +65954,6 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 329,
-            "against": 333,
-            "diff": -4,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "N.R. Ludwigsburg",
             "played": 4,
             "win": 2,
@@ -65974,18 +65963,6 @@
             "against": 354,
             "diff": -13,
             "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Science City Jena",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 308,
-            "against": 322,
-            "diff": -14,
-            "points": 4,
             "highlight": null
           },
           {
@@ -66009,6 +65986,30 @@
             "for": 327,
             "against": 358,
             "diff": -31,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Telekom Baskets Bonn",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 329,
+            "against": 333,
+            "diff": -4,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Science City Jena",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 308,
+            "against": 322,
+            "diff": -14,
             "points": 5,
             "highlight": null
           },
@@ -66073,9 +66074,9 @@
             "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 42,
-            "against": 25,
-            "diff": 17,
+            "for": 45,
+            "against": 27,
+            "diff": 18,
             "points": 21,
             "highlight": null
           },
@@ -66169,9 +66170,9 @@
             "win": 5,
             "draw": null,
             "loss": 8,
-            "for": 25,
-            "against": 37,
-            "diff": -12,
+            "for": 27,
+            "against": 40,
+            "diff": -13,
             "points": 12,
             "highlight": null
           },
@@ -67196,18 +67197,6 @@
             "highlight": null
           },
           {
-            "team": "Dijon",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 170,
-            "against": 133,
-            "diff": 37,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Chorale de Roanne",
             "played": 2,
             "win": 2,
@@ -67217,6 +67206,30 @@
             "against": 162,
             "diff": 12,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 170,
+            "against": 160,
+            "diff": 10,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Dijon",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 173,
+            "against": 137,
+            "diff": 36,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67292,18 +67305,6 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 166,
-            "against": 157,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "JL Bourg",
             "played": 2,
             "win": 1,
@@ -67372,25 +67373,25 @@
         "rows": [
           {
             "team": "Tampereen Ilves",
-            "played": 10,
+            "played": 11,
             "win": 8,
             "draw": null,
-            "loss": 2,
-            "for": 32,
-            "against": 19,
-            "diff": 13,
+            "loss": 3,
+            "for": 33,
+            "against": 24,
+            "diff": 9,
             "points": 23,
             "highlight": null
           },
           {
             "team": "Mikkelin Jukurit",
-            "played": 12,
+            "played": 13,
             "win": 8,
             "draw": null,
-            "loss": 4,
-            "for": 33,
-            "against": 24,
-            "diff": 9,
+            "loss": 5,
+            "for": 34,
+            "against": 28,
+            "diff": 6,
             "points": 22,
             "highlight": null
           },
@@ -67419,6 +67420,30 @@
             "highlight": null
           },
           {
+            "team": "Oulun Kärpät",
+            "played": 12,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 34,
+            "against": 32,
+            "diff": 2,
+            "points": 21,
+            "highlight": null
+          },
+          {
+            "team": "Rauman Lukko",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 29,
+            "against": 23,
+            "diff": 6,
+            "points": 20,
+            "highlight": null
+          },
+          {
             "team": "Kiekko-Espoo",
             "played": 13,
             "win": 6,
@@ -67443,27 +67468,15 @@
             "highlight": null
           },
           {
-            "team": "Oulun Kärpät",
-            "played": 11,
-            "win": 6,
+            "team": "Lahti Pelicans",
+            "played": 10,
+            "win": 5,
             "draw": null,
             "loss": 5,
-            "for": 31,
-            "against": 30,
-            "diff": 1,
-            "points": 19,
-            "highlight": null
-          },
-          {
-            "team": "Rauman Lukko",
-            "played": 10,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
             "for": 24,
-            "against": 22,
-            "diff": 2,
-            "points": 17,
+            "against": 23,
+            "diff": 1,
+            "points": 16,
             "highlight": null
           },
           {
@@ -67475,18 +67488,6 @@
             "for": 26,
             "against": 21,
             "diff": 5,
-            "points": 15,
-            "highlight": null
-          },
-          {
-            "team": "Lahti Pelicans",
-            "played": 9,
-            "win": 5,
-            "draw": null,
-            "loss": 4,
-            "for": 22,
-            "against": 20,
-            "diff": 2,
             "points": 15,
             "highlight": null
           },
@@ -67564,14 +67565,14 @@
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 10,
-            "win": 0,
+            "played": 11,
+            "win": 1,
             "draw": null,
             "loss": 10,
-            "for": 18,
-            "against": 46,
-            "diff": -28,
-            "points": 1,
+            "for": 22,
+            "against": 47,
+            "diff": -25,
+            "points": 4,
             "highlight": null
           }
         ],
