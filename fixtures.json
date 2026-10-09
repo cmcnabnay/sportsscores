@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T19:42:40+00:00",
+  "updated": "2026-10-09T19:51:58+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65924,9 +65924,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 441,
-            "against": 399,
-            "diff": 42,
+            "for": 444,
+            "against": 401,
+            "diff": 43,
             "points": 7,
             "highlight": null
           },
@@ -66008,9 +66008,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 374,
-            "against": 434,
-            "diff": -60,
+            "for": 376,
+            "against": 437,
+            "diff": -61,
             "points": 5,
             "highlight": null
           },
@@ -67759,6 +67759,18 @@
       "DEL 26/27": {
         "rows": [
           {
+            "team": "Eisbären Berlin",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 28,
+            "against": 12,
+            "diff": 16,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Nürnberg Ice Tigers",
             "played": 7,
             "win": 5,
@@ -67771,27 +67783,15 @@
             "highlight": null
           },
           {
-            "team": "Eisbären Berlin",
-            "played": 6,
+            "team": "Straubing Tigers",
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 23,
-            "against": 12,
-            "diff": 11,
-            "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Grizzlys Wolfsburg",
-            "played": 6,
-            "win": 4,
-            "draw": null,
             "loss": 2,
-            "for": 24,
-            "against": 19,
-            "diff": 5,
-            "points": 12,
+            "for": 31,
+            "against": 22,
+            "diff": 9,
+            "points": 14,
             "highlight": null
           },
           {
@@ -67807,15 +67807,39 @@
             "highlight": null
           },
           {
-            "team": "EHC Red Bull München",
-            "played": 6,
+            "team": "Grizzlys Wolfsburg",
+            "played": 7,
             "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 20,
-            "against": 16,
-            "diff": 4,
+            "loss": 3,
+            "for": 24,
+            "against": 24,
+            "diff": 0,
             "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "EHC Red Bull München",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 21,
+            "against": 21,
+            "diff": 0,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Augsburger Panther",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 25,
+            "against": 21,
+            "diff": 4,
+            "points": 11,
             "highlight": null
           },
           {
@@ -67831,50 +67855,38 @@
             "highlight": null
           },
           {
-            "team": "Straubing Tigers",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 20,
-            "against": 18,
-            "diff": 2,
-            "points": 11,
-            "highlight": null
-          },
-          {
             "team": "Kölner Haie",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 27,
-            "against": 28,
-            "diff": -1,
+            "loss": 4,
+            "for": 28,
+            "against": 32,
+            "diff": -4,
             "points": 9,
             "highlight": null
           },
           {
             "team": "Pinguins Bremerhaven",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 13,
-            "against": 14,
-            "diff": -1,
+            "against": 17,
+            "diff": -4,
             "points": 9,
             "highlight": null
           },
           {
-            "team": "Augsburger Panther",
-            "played": 6,
+            "team": "ERC Ingolstadt",
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 22,
-            "against": 21,
-            "diff": 1,
+            "loss": 4,
+            "for": 19,
+            "against": 25,
+            "diff": -6,
             "points": 8,
             "highlight": null
           },
@@ -67891,39 +67903,27 @@
             "highlight": null
           },
           {
-            "team": "ERC Ingolstadt",
-            "played": 6,
+            "team": "Schwenningen Wild Wings",
+            "played": 7,
             "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 14,
-            "against": 24,
-            "diff": -10,
+            "loss": 5,
+            "for": 15,
+            "against": 30,
+            "diff": -15,
             "points": 5,
             "highlight": null
           },
           {
             "team": "Iserlohn Roosters",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
-            "for": 10,
-            "against": 21,
-            "diff": -11,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Schwenningen Wild Wings",
-            "played": 6,
-            "win": 1,
-            "draw": null,
-            "loss": 5,
-            "for": 11,
-            "against": 29,
+            "loss": 6,
+            "for": 14,
+            "against": 32,
             "diff": -18,
-            "points": 2,
+            "points": 4,
             "highlight": null
           }
         ],
