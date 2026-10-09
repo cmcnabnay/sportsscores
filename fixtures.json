@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T16:31:50+00:00",
+  "updated": "2026-10-09T16:43:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66024,6 +66024,18 @@
       "Western Conference": {
         "rows": [
           {
+            "team": "CSKA Moscow",
+            "played": 14,
+            "win": 10,
+            "draw": null,
+            "loss": 3,
+            "for": 42,
+            "against": 25,
+            "diff": 17,
+            "points": 21,
+            "highlight": null
+          },
+          {
             "team": "Lokomotiv Yaroslavl",
             "played": 13,
             "win": 10,
@@ -66033,18 +66045,6 @@
             "against": 22,
             "diff": 10,
             "points": 20,
-            "highlight": null
-          },
-          {
-            "team": "CSKA Moscow",
-            "played": 13,
-            "win": 9,
-            "draw": null,
-            "loss": 3,
-            "for": 41,
-            "against": 25,
-            "diff": 16,
-            "points": 19,
             "highlight": null
           },
           {
@@ -66069,6 +66069,18 @@
             "against": 26,
             "diff": 8,
             "points": 17,
+            "highlight": null
+          },
+          {
+            "team": "Spartak Moscow",
+            "played": 14,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 35,
+            "against": 27,
+            "diff": 8,
+            "points": 16,
             "highlight": null
           },
           {
@@ -66108,26 +66120,14 @@
             "highlight": null
           },
           {
-            "team": "Spartak Moscow",
-            "played": 13,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
-            "for": 34,
-            "against": 27,
-            "diff": 7,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "Dynamo Moscow",
-            "played": 14,
+            "played": 15,
             "win": 5,
             "draw": null,
-            "loss": 7,
+            "loss": 8,
             "for": 25,
-            "against": 36,
-            "diff": -11,
+            "against": 37,
+            "diff": -12,
             "points": 12,
             "highlight": null
           },
@@ -66145,13 +66145,13 @@
           },
           {
             "team": "HC Sochi",
-            "played": 12,
+            "played": 13,
             "win": 2,
             "draw": null,
-            "loss": 10,
+            "loss": 11,
             "for": 16,
-            "against": 45,
-            "diff": -29,
+            "against": 46,
+            "diff": -30,
             "points": 4,
             "highlight": null
           }
