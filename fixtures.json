@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T17:03:42+00:00",
+  "updated": "2026-10-09T17:15:37+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21038,7 +21038,7 @@
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "JYP Jyväskylä",
-      "score": null,
+      "score": "6-1",
       "date": "2026-10-09",
       "time": "14:30",
       "utc": "2026-10-09T14:30:00+00:00",
@@ -67396,13 +67396,13 @@
           },
           {
             "team": "JYP Jyväskylä",
-            "played": 9,
+            "played": 10,
             "win": 7,
             "draw": null,
-            "loss": 2,
-            "for": 29,
-            "against": 19,
-            "diff": 10,
+            "loss": 3,
+            "for": 30,
+            "against": 25,
+            "diff": 5,
             "points": 21,
             "highlight": null
           },
@@ -67416,6 +67416,18 @@
             "against": 24,
             "diff": 4,
             "points": 21,
+            "highlight": null
+          },
+          {
+            "team": "Kiekko-Espoo",
+            "played": 13,
+            "win": 6,
+            "draw": null,
+            "loss": 7,
+            "for": 42,
+            "against": 32,
+            "diff": 10,
+            "points": 20,
             "highlight": null
           },
           {
@@ -67451,18 +67463,6 @@
             "for": 24,
             "against": 22,
             "diff": 2,
-            "points": 17,
-            "highlight": null
-          },
-          {
-            "team": "Kiekko-Espoo",
-            "played": 12,
-            "win": 5,
-            "draw": null,
-            "loss": 7,
-            "for": 36,
-            "against": 31,
-            "diff": 5,
             "points": 17,
             "highlight": null
           },
