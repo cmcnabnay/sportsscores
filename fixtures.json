@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T19:51:58+00:00",
+  "updated": "2026-10-09T20:41:24+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21128,7 +21128,7 @@
       "league": "del-2026-27",
       "home": "Eisbären Berlin",
       "away": "Grizzlys Wolfsburg",
-      "score": null,
+      "score": "5-0",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21139,7 +21139,7 @@
       "league": "del-2026-27",
       "home": "Kölner Haie",
       "away": "Schwenningen Wild Wings",
-      "score": null,
+      "score": "1-4",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21150,7 +21150,7 @@
       "league": "del-2026-27",
       "home": "Nürnberg Ice Tigers",
       "away": "Adler Mannheim",
-      "score": null,
+      "score": "2-5",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21161,7 +21161,7 @@
       "league": "del-2026-27",
       "home": "EHC Red Bull München",
       "away": "ERC Ingolstadt",
-      "score": null,
+      "score": "1-5",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21172,7 +21172,7 @@
       "league": "del-2026-27",
       "home": "Augsburger Panther",
       "away": "Pinguins Bremerhaven",
-      "score": null,
+      "score": "3-0",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21183,7 +21183,7 @@
       "league": "del-2026-27",
       "home": "Straubing Tigers",
       "away": "Iserlohn Roosters",
-      "score": null,
+      "score": "11-4",
       "date": "2026-10-09",
       "time": "17:30",
       "utc": "2026-10-09T17:30:00+00:00",
@@ -21194,7 +21194,7 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Science City Jena",
-      "score": null,
+      "score": "115-68",
       "date": "2026-10-09",
       "time": "18:00",
       "utc": "2026-10-09T18:00:00+00:00",
@@ -27693,6 +27693,17 @@
     },
     {
       "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Science City Jena",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "14:00",
+      "utc": "2026-11-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28740,6 +28751,17 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31935,6 +31957,17 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -64960,6 +64993,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sarmiento (J)",
+            "played": 11,
+            "win": 6,
+            "draw": 1,
+            "loss": 4,
+            "for": 20,
+            "against": 17,
+            "diff": 3,
+            "points": 19,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Rosario Central",
             "played": 11,
             "win": 5,
@@ -65005,18 +65050,6 @@
             "against": 16,
             "diff": 0,
             "points": 18,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Sarmiento (J)",
-            "played": 10,
-            "win": 5,
-            "draw": 1,
-            "loss": 4,
-            "for": 17,
-            "against": 16,
-            "diff": 1,
-            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -65093,13 +65126,13 @@
           },
           {
             "team": "Aldosivi",
-            "played": 11,
+            "played": 12,
             "win": 2,
             "draw": 2,
-            "loss": 7,
-            "for": 12,
-            "against": 17,
-            "diff": -5,
+            "loss": 8,
+            "for": 13,
+            "against": 20,
+            "diff": -7,
             "points": 8,
             "highlight": "transparent"
           },
@@ -65522,13 +65555,13 @@
         "rows": [
           {
             "team": "Gloucester Rugby",
-            "played": 2,
+            "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 0,
-            "for": 93,
-            "against": 24,
-            "diff": 69,
+            "loss": 1,
+            "for": 124,
+            "against": 62,
+            "diff": 62,
             "points": 10,
             "highlight": null
           },
@@ -65557,6 +65590,18 @@
             "highlight": null
           },
           {
+            "team": "Leicester Tigers",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 100,
+            "against": 90,
+            "diff": 10,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Northampton Saints",
             "played": 2,
             "win": 1,
@@ -65565,18 +65610,6 @@
             "for": 85,
             "against": 67,
             "diff": 18,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Leicester Tigers",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 62,
-            "against": 59,
-            "diff": 3,
             "points": 6,
             "highlight": null
           },
@@ -65709,13 +65742,13 @@
           },
           {
             "team": "Dragons",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": 1,
-            "loss": 0,
-            "for": 57,
-            "against": 45,
-            "diff": 12,
+            "loss": 1,
+            "for": 88,
+            "against": 83,
+            "diff": 5,
             "points": 7,
             "highlight": null
           },
@@ -65768,6 +65801,18 @@
             "highlight": null
           },
           {
+            "team": "Ospreys",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 81,
+            "against": 107,
+            "diff": -26,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "Ulster",
             "played": 2,
             "win": 0,
@@ -65813,18 +65858,6 @@
             "against": 59,
             "diff": -18,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Ospreys",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 43,
-            "against": 76,
-            "diff": -33,
-            "points": 1,
             "highlight": null
           },
           {
@@ -67772,13 +67805,13 @@
           },
           {
             "team": "Nürnberg Ice Tigers",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 25,
-            "against": 14,
-            "diff": 11,
+            "loss": 3,
+            "for": 27,
+            "against": 19,
+            "diff": 8,
             "points": 16,
             "highlight": null
           },
@@ -67791,6 +67824,18 @@
             "for": 31,
             "against": 22,
             "diff": 9,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Adler Mannheim",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 28,
+            "against": 23,
+            "diff": 5,
             "points": 14,
             "highlight": null
           },
@@ -67839,18 +67884,6 @@
             "for": 25,
             "against": 21,
             "diff": 4,
-            "points": 11,
-            "highlight": null
-          },
-          {
-            "team": "Adler Mannheim",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 23,
-            "against": 21,
-            "diff": 2,
             "points": 11,
             "highlight": null
           },
@@ -67958,6 +67991,18 @@
             "highlight": null
           },
           {
+            "team": "Olympiacos BC",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 382,
+            "against": 342,
+            "diff": 40,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Fenerbahçe Tarfin",
             "played": 4,
             "win": 3,
@@ -67982,30 +68027,6 @@
             "highlight": null
           },
           {
-            "team": "Olympiacos BC",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 293,
-            "against": 276,
-            "diff": 17,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Barça Basket",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 271,
-            "against": 258,
-            "diff": 13,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "KK Crvena zvezda",
             "played": 4,
             "win": 2,
@@ -68014,6 +68035,30 @@
             "for": 311,
             "against": 294,
             "diff": 17,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Kauno Žalgiris",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 340,
+            "against": 333,
+            "diff": 7,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Barça Basket",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 352,
+            "against": 346,
+            "diff": 6,
             "points": null,
             "highlight": null
           },
@@ -68078,30 +68123,6 @@
             "highlight": null
           },
           {
-            "team": "Kauno Žalgiris",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 252,
-            "against": 252,
-            "diff": 0,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Anadolu Efes",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 248,
-            "against": 250,
-            "diff": -2,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Kosner Baskonia",
             "played": 3,
             "win": 1,
@@ -68122,6 +68143,18 @@
             "for": 345,
             "against": 350,
             "diff": -5,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Anadolu Efes",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 314,
+            "against": 339,
+            "diff": -25,
             "points": null,
             "highlight": null
           },
