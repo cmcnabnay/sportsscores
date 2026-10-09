@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T18:15:55+00:00",
+  "updated": "2026-10-09T18:27:54+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21072,7 +21072,7 @@
       "league": "liiga-2026-27",
       "home": "Porin Ässät",
       "away": "HPK Hämeenlinna",
-      "score": "2-2",
+      "score": "2-3",
       "date": "2026-10-09",
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
@@ -65924,9 +65924,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 349,
-            "against": 344,
-            "diff": 5,
+            "for": 359,
+            "against": 349,
+            "diff": 10,
             "points": 7,
             "highlight": null
           },
@@ -66008,9 +66008,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 319,
-            "against": 342,
-            "diff": -23,
+            "for": 324,
+            "against": 352,
+            "diff": -28,
             "points": 5,
             "highlight": null
           },
@@ -67210,14 +67210,26 @@
             "highlight": null
           },
           {
+            "team": "Limoges",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 200,
+            "against": 185,
+            "diff": 15,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Dijon",
             "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 0,
-            "for": 186,
-            "against": 149,
-            "diff": 37,
+            "loss": 1,
+            "for": 198,
+            "against": 167,
+            "diff": 31,
             "points": 3,
             "highlight": null
           },
@@ -67306,18 +67318,6 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 182,
-            "against": 173,
-            "diff": 9,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Gravelines",
             "played": 2,
             "win": 0,
@@ -67397,6 +67397,18 @@
             "highlight": null
           },
           {
+            "team": "Porin Ässät",
+            "played": 12,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 30,
+            "against": 27,
+            "diff": 3,
+            "points": 22,
+            "highlight": null
+          },
+          {
             "team": "JYP Jyväskylä",
             "played": 10,
             "win": 7,
@@ -67405,18 +67417,6 @@
             "for": 30,
             "against": 25,
             "diff": 5,
-            "points": 21,
-            "highlight": null
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": 28,
-            "against": 24,
-            "diff": 4,
             "points": 21,
             "highlight": null
           },
@@ -67493,6 +67493,18 @@
             "highlight": null
           },
           {
+            "team": "HPK Hämeenlinna",
+            "played": 11,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 23,
+            "against": 32,
+            "diff": -9,
+            "points": 15,
+            "highlight": null
+          },
+          {
             "team": "Tappara Tampere",
             "played": 9,
             "win": 5,
@@ -67513,18 +67525,6 @@
             "for": 24,
             "against": 20,
             "diff": 4,
-            "points": 13,
-            "highlight": null
-          },
-          {
-            "team": "HPK Hämeenlinna",
-            "played": 10,
-            "win": 5,
-            "draw": null,
-            "loss": 5,
-            "for": 20,
-            "against": 30,
-            "diff": -10,
             "points": 13,
             "highlight": null
           },
