@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T06:03:07+00:00",
+  "updated": "2026-10-09T14:55:54+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21313,7 +21313,7 @@
       "league": "npc-2026",
       "home": "Northland",
       "away": "Tasman",
-      "score": null,
+      "score": "26-21",
       "date": "2026-10-09",
       "time": "19:10",
       "utc": "2026-10-09T06:10:00+00:00",
@@ -66162,14 +66162,14 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 14,
-            "win": 10,
+            "played": 15,
+            "win": 11,
             "draw": null,
             "loss": 3,
-            "for": 40,
+            "for": 44,
             "against": 27,
-            "diff": 13,
-            "points": 21,
+            "diff": 17,
+            "points": 23,
             "highlight": null
           },
           {
@@ -66209,18 +66209,6 @@
             "highlight": null
           },
           {
-            "team": "Salavat Yulayev Ufa",
-            "played": 13,
-            "win": 7,
-            "draw": null,
-            "loss": 5,
-            "for": 41,
-            "against": 36,
-            "diff": 5,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "Avtomobilist Yekaterinburg",
             "played": 13,
             "win": 6,
@@ -66229,6 +66217,18 @@
             "for": 34,
             "against": 32,
             "diff": 2,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Salavat Yulayev Ufa",
+            "played": 14,
+            "win": 7,
+            "draw": null,
+            "loss": 6,
+            "for": 41,
+            "against": 40,
+            "diff": 1,
             "points": 14,
             "highlight": null
           },
@@ -69318,10 +69318,10 @@
             {
               "seed1": 2,
               "team1": null,
-              "score1": null,
+              "score1": 26,
               "seed2": 7,
               "team2": null,
-              "score2": null,
+              "score2": 21,
               "date": "2026-10-10",
               "venue": "{{Rus|Forsyth Barr Stadium}}"
             },
