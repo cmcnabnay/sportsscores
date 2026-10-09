@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T18:46:57+00:00",
+  "updated": "2026-10-09T19:00:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65924,9 +65924,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 383,
-            "against": 366,
-            "diff": 17,
+            "for": 386,
+            "against": 368,
+            "diff": 18,
             "points": 7,
             "highlight": null
           },
@@ -66008,9 +66008,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 341,
-            "against": 376,
-            "diff": -35,
+            "for": 343,
+            "against": 379,
+            "diff": -36,
             "points": 5,
             "highlight": null
           },
@@ -67203,8 +67203,8 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 221,
-            "against": 183,
+            "for": 223,
+            "against": 185,
             "diff": 38,
             "points": 4,
             "highlight": null
@@ -67311,8 +67311,8 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 216,
-            "against": 208,
+            "for": 218,
+            "against": 210,
             "diff": 8,
             "points": 3,
             "highlight": null
@@ -67469,6 +67469,18 @@
             "highlight": null
           },
           {
+            "team": "Tappara Tampere",
+            "played": 10,
+            "win": 6,
+            "draw": null,
+            "loss": 4,
+            "for": 28,
+            "against": 21,
+            "diff": 7,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Lahti Pelicans",
             "played": 10,
             "win": 5,
@@ -67505,26 +67517,14 @@
             "highlight": null
           },
           {
-            "team": "Tappara Tampere",
-            "played": 9,
-            "win": 5,
-            "draw": null,
-            "loss": 4,
-            "for": 25,
-            "against": 19,
-            "diff": 6,
-            "points": 14,
-            "highlight": null
-          },
-          {
             "team": "KalPa Kuopio",
-            "played": 9,
+            "played": 10,
             "win": 4,
             "draw": null,
-            "loss": 5,
-            "for": 24,
-            "against": 20,
-            "diff": 4,
+            "loss": 6,
+            "for": 26,
+            "against": 23,
+            "diff": 3,
             "points": 13,
             "highlight": null
           },
