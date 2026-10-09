@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T19:00:03+00:00",
+  "updated": "2026-10-09T19:13:46+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21095,7 +21095,7 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "CSKA Moscow",
-      "score": null,
+      "score": "2-5",
       "date": "2026-10-09",
       "time": "16:30",
       "utc": "2026-10-09T16:30:00+00:00",
@@ -21106,7 +21106,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "0-2",
       "date": "2026-10-09",
       "time": "16:30",
       "utc": "2026-10-09T16:30:00+00:00",
@@ -21117,7 +21117,7 @@
       "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "Tappara Tampere",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-09",
       "time": "16:30",
       "utc": "2026-10-09T16:30:00+00:00",
@@ -65924,9 +65924,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 386,
-            "against": 368,
-            "diff": 18,
+            "for": 402,
+            "against": 374,
+            "diff": 28,
             "points": 7,
             "highlight": null
           },
@@ -66008,9 +66008,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 343,
-            "against": 379,
-            "diff": -36,
+            "for": 349,
+            "against": 395,
+            "diff": -46,
             "points": 5,
             "highlight": null
           },
@@ -67198,18 +67198,6 @@
             "highlight": null
           },
           {
-            "team": "Dijon",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 223,
-            "against": 185,
-            "diff": 38,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Chorale de Roanne",
             "played": 2,
             "win": 2,
@@ -67219,6 +67207,30 @@
             "against": 162,
             "diff": 12,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 242,
+            "against": 229,
+            "diff": 13,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Dijon",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 242,
+            "against": 209,
+            "diff": 33,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67303,18 +67315,6 @@
             "against": 163,
             "diff": 16,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Limoges",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 218,
-            "against": 210,
-            "diff": 8,
-            "points": 3,
             "highlight": null
           },
           {
