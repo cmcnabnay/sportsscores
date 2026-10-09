@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T18:04:53+00:00",
+  "updated": "2026-10-09T18:15:55+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21072,12 +21072,13 @@
       "league": "liiga-2026-27",
       "home": "Porin Ässät",
       "away": "HPK Hämeenlinna",
-      "score": null,
+      "score": "2-2",
       "date": "2026-10-09",
       "time": "15:30",
       "utc": "2026-10-09T15:30:00+00:00",
       "venue": "Isomäki Areena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
@@ -65918,6 +65919,18 @@
             "highlight": null
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 349,
+            "against": 344,
+            "diff": 5,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Rostock Seawolves",
             "played": 4,
             "win": 2,
@@ -65990,26 +66003,14 @@
             "highlight": null
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 329,
-            "against": 333,
-            "diff": -4,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Science City Jena",
             "played": 5,
             "win": 2,
             "draw": null,
-            "loss": 2,
-            "for": 308,
-            "against": 322,
-            "diff": -14,
+            "loss": 3,
+            "for": 319,
+            "against": 342,
+            "diff": -23,
             "points": 5,
             "highlight": null
           },
@@ -66122,9 +66123,9 @@
             "win": 7,
             "draw": null,
             "loss": 5,
-            "for": 35,
+            "for": 36,
             "against": 27,
-            "diff": 8,
+            "diff": 9,
             "points": 16,
             "highlight": null
           },
@@ -66195,8 +66196,8 @@
             "draw": null,
             "loss": 11,
             "for": 16,
-            "against": 46,
-            "diff": -30,
+            "against": 47,
+            "diff": -31,
             "points": 4,
             "highlight": null
           }
@@ -67209,26 +67210,14 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 170,
-            "against": 160,
-            "diff": 10,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Dijon",
             "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 173,
-            "against": 137,
-            "diff": 36,
+            "loss": 0,
+            "for": 186,
+            "against": 149,
+            "diff": 37,
             "points": 3,
             "highlight": null
           },
@@ -67314,6 +67303,18 @@
             "against": 163,
             "diff": 16,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 182,
+            "against": 173,
+            "diff": 9,
+            "points": 3,
             "highlight": null
           },
           {
