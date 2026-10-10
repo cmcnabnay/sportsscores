@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T20:50:17+00:00",
+  "updated": "2026-10-10T21:04:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21814,7 +21814,7 @@
       "league": "lega-a-2026-27",
       "home": "Amici Pallacanestro Udinese",
       "away": "Dolomiti Energia Trento",
-      "score": null,
+      "score": "66-74",
       "date": "2026-10-10",
       "time": "18:00",
       "utc": "2026-10-10T18:00:00+00:00",
@@ -21825,7 +21825,7 @@
       "league": "lega-a-2026-27",
       "home": "Pallacanestro Varese",
       "away": "Pallacanestro Trieste",
-      "score": null,
+      "score": "85-84",
       "date": "2026-10-10",
       "time": "18:30",
       "utc": "2026-10-10T18:30:00+00:00",
@@ -27575,6 +27575,39 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Scaligera Basket Verona",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "19:00",
+      "utc": "2026-10-31T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "BC Roma SPQR",
+      "away": "Scafati",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "19:00",
+      "utc": "2026-10-31T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Treviso Basket",
+      "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "19:30",
+      "utc": "2026-10-31T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "JL Bourg",
       "away": "Nanterre",
@@ -27633,6 +27666,17 @@
       "league": "liga-acb-2026-27",
       "home": "Monbus Obradoiro",
       "away": "Breogán",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "11:00",
+      "utc": "2026-11-01T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Napoli Basket",
+      "away": "Reyer Venezia",
       "score": null,
       "date": "2026-11-01",
       "time": "11:00",
@@ -27707,6 +27751,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Dolomiti Energia Trento",
+      "away": "Maxima Roma",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "15:00",
+      "utc": "2026-11-01T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
@@ -27773,6 +27828,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Amici Pallacanestro Udinese",
+      "away": "Derthona Basket Tortona",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "16:00",
+      "utc": "2026-11-01T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "San Lorenzo",
@@ -27829,17 +27895,6 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Dolomiti Energia Trento",
-      "away": "Maxima Roma",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "17:00",
-      "utc": "2026-11-01T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
       "home": "Treviso Basket",
       "away": "Pallacanestro Reggiana",
       "score": null,
@@ -27851,30 +27906,8 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Napoli Basket",
-      "away": "Reyer Venezia",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "17:00",
-      "utc": "2026-11-01T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
       "home": "Pallacanestro Cantù",
       "away": "Olimpia Milano",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "17:00",
-      "utc": "2026-11-01T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Amici Pallacanestro Udinese",
-      "away": "Derthona Basket Tortona",
       "score": null,
       "date": "2026-11-01",
       "time": "17:00",
@@ -27945,6 +27978,28 @@
       "date": "2026-11-02",
       "time": "18:00",
       "utc": "2026-11-02T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Pallacanestro Trieste",
+      "score": null,
+      "date": "2026-11-02",
+      "time": "19:00",
+      "utc": "2026-11-02T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Cantù",
+      "away": "Olimpia Milano",
+      "score": null,
+      "date": "2026-11-02",
+      "time": "19:30",
+      "utc": "2026-11-02T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28785,6 +28840,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Reyer Venezia",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "Boulazac",
       "away": "Gravelines",
@@ -28972,6 +29038,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Trieste",
+      "away": "BC Roma SPQR",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "11:00",
+      "utc": "2026-11-08T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "San Pablo Burgos",
       "away": "Valencia Basket",
@@ -29005,6 +29082,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Maxima Roma",
+      "away": "Pallacanestro Cantù",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "15:00",
+      "utc": "2026-11-08T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nations-championship-2026",
       "home": "England",
       "away": "Australia",
@@ -29034,6 +29122,28 @@
       "date": "2026-11-08",
       "time": "16:00",
       "utc": "2026-11-08T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Olimpia Milano",
+      "away": "Dolomiti Energia Trento",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "16:00",
+      "utc": "2026-11-08T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Derthona Basket Tortona",
+      "away": "Treviso Basket",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "16:30",
+      "utc": "2026-11-08T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -29083,63 +29193,8 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Olimpia Milano",
-      "away": "Dolomiti Energia Trento",
-      "score": null,
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Derthona Basket Tortona",
-      "away": "Treviso Basket",
-      "score": null,
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Trieste",
-      "away": "BC Roma SPQR",
-      "score": null,
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Maxima Roma",
-      "away": "Pallacanestro Cantù",
-      "score": null,
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
       "home": "Pallacanestro Reggiana",
       "away": "Reyer Venezia",
-      "score": null,
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Varese",
-      "away": "Amici Pallacanestro Udinese",
       "score": null,
       "date": "2026-11-08",
       "time": "17:00",
@@ -29170,9 +29225,31 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Varese",
+      "away": "Amici Pallacanestro Udinese",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "18:00",
+      "utc": "2026-11-08T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Hamburg Towers",
+      "score": null,
+      "date": "2026-11-09",
+      "time": "19:00",
+      "utc": "2026-11-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Scaligera Basket Verona",
       "score": null,
       "date": "2026-11-09",
       "time": "19:00",
@@ -30369,6 +30446,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-11-14",
+      "time": "19:00",
+      "utc": "2026-11-14T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "JL Bourg",
       "away": "Chorale de Roanne",
@@ -30453,6 +30541,17 @@
       "date": "2026-11-14",
       "time": "19:00",
       "utc": "2026-11-14T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "BC Roma SPQR",
+      "away": "Scaligera Basket Verona",
+      "score": null,
+      "date": "2026-11-14",
+      "time": "19:30",
+      "utc": "2026-11-14T19:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -30633,6 +30732,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Treviso Basket",
+      "away": "Scafati",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "15:00",
+      "utc": "2026-11-15T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nations-championship-2026",
       "home": "Scotland",
       "away": "Australia",
@@ -30710,6 +30820,28 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Napoli Basket",
+      "away": "Pallacanestro Trieste",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "16:00",
+      "utc": "2026-11-15T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Cantù",
+      "away": "Derthona Basket Tortona",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "16:30",
+      "utc": "2026-11-15T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Basketball Lowen Braunschweig",
@@ -30724,17 +30856,6 @@
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "UCAM Murcia",
-      "score": null,
-      "date": "2026-11-15",
-      "time": "17:00",
-      "utc": "2026-11-15T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Dolomiti Energia Trento",
-      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-11-15",
       "time": "17:00",
@@ -30766,30 +30887,8 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Napoli Basket",
-      "away": "Pallacanestro Trieste",
-      "score": null,
-      "date": "2026-11-15",
-      "time": "17:00",
-      "utc": "2026-11-15T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
       "home": "Pallacanestro Reggiana",
       "away": "Pallacanestro Varese",
-      "score": null,
-      "date": "2026-11-15",
-      "time": "17:00",
-      "utc": "2026-11-15T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Cantù",
-      "away": "Derthona Basket Tortona",
       "score": null,
       "date": "2026-11-15",
       "time": "17:00",
@@ -30803,19 +30902,8 @@
       "away": "Olimpia Milano",
       "score": null,
       "date": "2026-11-15",
-      "time": "17:00",
-      "utc": "2026-11-15T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Treviso Basket",
-      "away": "Scafati",
-      "score": null,
-      "date": "2026-11-15",
-      "time": "17:00",
-      "utc": "2026-11-15T17:00:00+00:00",
+      "time": "17:15",
+      "utc": "2026-11-15T17:15:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -30823,6 +30911,17 @@
       "league": "liga-acb-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Real Madrid",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "18:00",
+      "utc": "2026-11-15T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Dolomiti Energia Trento",
+      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-11-15",
       "time": "18:00",
@@ -32151,6 +32250,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Trieste",
+      "away": "Pallacanestro Reggiana",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "19:00",
+      "utc": "2026-11-21T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "Cholet",
       "away": "Boulazac",
@@ -32426,6 +32536,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Derthona Basket Tortona",
+      "away": "Olimpia Milano",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "15:00",
+      "utc": "2026-11-22T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Phoenix Hagen",
@@ -32481,6 +32602,28 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Dolomiti Energia Trento",
+      "away": "Napoli Basket",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "16:00",
+      "utc": "2026-11-22T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Scafati",
+      "away": "Pallacanestro Cantù",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "16:30",
+      "utc": "2026-11-22T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Bayern Munich",
@@ -32515,39 +32658,6 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Scaligera Basket Verona",
-      "away": "Amici Pallacanestro Udinese",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "17:00",
-      "utc": "2026-11-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Dolomiti Energia Trento",
-      "away": "Napoli Basket",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "17:00",
-      "utc": "2026-11-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Derthona Basket Tortona",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "17:00",
-      "utc": "2026-11-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
       "home": "Pallacanestro Trieste",
       "away": "Pallacanestro Reggiana",
       "score": null,
@@ -32570,23 +32680,12 @@
     },
     {
       "league": "lega-a-2026-27",
-      "home": "Pallacanestro Varese",
-      "away": "Reyer Venezia",
+      "home": "Scaligera Basket Verona",
+      "away": "Amici Pallacanestro Udinese",
       "score": null,
       "date": "2026-11-22",
-      "time": "17:00",
-      "utc": "2026-11-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Scafati",
-      "away": "Pallacanestro Cantù",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "17:00",
-      "utc": "2026-11-22T17:00:00+00:00",
+      "time": "17:15",
+      "utc": "2026-11-22T17:15:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -32594,6 +32693,17 @@
       "league": "liga-acb-2026-27",
       "home": "Real Madrid",
       "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "18:00",
+      "utc": "2026-11-22T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Varese",
+      "away": "Reyer Venezia",
       "score": null,
       "date": "2026-11-22",
       "time": "18:00",
@@ -34769,6 +34879,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Reyer Venezia",
+      "away": "Derthona Basket Tortona",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "18:30",
+      "utc": "2026-12-05T18:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "N.R. Ludwigsburg",
       "away": "Wurzburg Baskets",
@@ -34934,6 +35055,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Napoli Basket",
+      "away": "Scaligera Basket Verona",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "11:00",
+      "utc": "2026-12-06T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Real Madrid",
       "away": "MoraBanc Andorra",
@@ -35022,6 +35154,17 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Cantù",
+      "away": "Pallacanestro Varese",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "15:00",
+      "utc": "2026-12-06T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Basketball Lowen Braunschweig",
       "away": "Skyliners Frankfurt",
@@ -35073,6 +35216,28 @@
       "date": "2026-12-06",
       "time": "16:00",
       "utc": "2026-12-06T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Reggiana",
+      "away": "Maxima Roma",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "16:00",
+      "utc": "2026-12-06T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Olimpia Milano",
+      "away": "Scafati",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "16:30",
+      "utc": "2026-12-06T16:30:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -35132,35 +35297,13 @@
       "attendance": null
     },
     {
-      "league": "lega-a-2026-27",
-      "home": "Napoli Basket",
-      "away": "Scaligera Basket Verona",
+      "league": "liga-acb-2026-27",
+      "home": "Unicaja Málaga",
+      "away": "Valencia Basket",
       "score": null,
       "date": "2026-12-06",
-      "time": "17:00",
-      "utc": "2026-12-06T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Reggiana",
-      "away": "Maxima Roma",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "17:00",
-      "utc": "2026-12-06T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Cantù",
-      "away": "Pallacanestro Varese",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "17:00",
-      "utc": "2026-12-06T17:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-12-06T18:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -35168,28 +35311,6 @@
       "league": "lega-a-2026-27",
       "home": "Amici Pallacanestro Udinese",
       "away": "Pallacanestro Trieste",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "17:00",
-      "utc": "2026-12-06T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Olimpia Milano",
-      "away": "Scafati",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "17:00",
-      "utc": "2026-12-06T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "liga-acb-2026-27",
-      "home": "Unicaja Málaga",
-      "away": "Valencia Basket",
       "score": null,
       "date": "2026-12-06",
       "time": "18:00",
@@ -35212,6 +35333,17 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-12-07",
+      "time": "19:00",
+      "utc": "2026-12-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Treviso Basket",
+      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-12-07",
       "time": "19:00",
@@ -65473,6 +65605,18 @@
             "highlight": null
           },
           {
+            "team": "Bordeaux Begles",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 215,
+            "against": 151,
+            "diff": 64,
+            "points": 19,
+            "highlight": null
+          },
+          {
             "team": "La Rochelle",
             "played": 6,
             "win": 4,
@@ -65494,18 +65638,6 @@
             "against": 169,
             "diff": -13,
             "points": 17,
-            "highlight": null
-          },
-          {
-            "team": "Bordeaux Begles",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 192,
-            "against": 129,
-            "diff": 63,
-            "points": 15,
             "highlight": null
           },
           {
@@ -65570,13 +65702,13 @@
           },
           {
             "team": "Clermont Auvergne",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 118,
-            "against": 146,
-            "diff": -28,
+            "loss": 4,
+            "for": 140,
+            "against": 169,
+            "diff": -29,
             "points": 10,
             "highlight": null
           },
