@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T21:29:37+00:00",
+  "updated": "2026-10-10T21:39:08+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21858,7 +21858,7 @@
       "league": "top14-2026",
       "home": "Clermont Auvergne",
       "away": "Bordeaux Begles",
-      "score": null,
+      "score": "22-23",
       "date": "2026-10-10",
       "time": "19:00",
       "utc": "2026-10-10T19:00:00+00:00",
@@ -65033,13 +65033,13 @@
           },
           {
             "team": "Huracán",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": 4,
-            "loss": 2,
+            "loss": 3,
             "for": 11,
-            "against": 8,
-            "diff": 3,
+            "against": 10,
+            "diff": 1,
             "points": 19,
             "highlight": "#BBF3BB"
           },
@@ -65069,14 +65069,14 @@
           },
           {
             "team": "Barracas Central",
-            "played": 11,
-            "win": 4,
+            "played": 12,
+            "win": 5,
             "draw": 3,
             "loss": 4,
-            "for": 8,
+            "for": 10,
             "against": 9,
-            "diff": -1,
-            "points": 15,
+            "diff": 1,
+            "points": 18,
             "highlight": "#BBF3BB"
           },
           {
