@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T14:15:12+00:00",
+  "updated": "2026-10-10T14:23:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65964,9 +65964,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 327,
-            "against": 208,
-            "diff": 119,
+            "for": 333,
+            "against": 218,
+            "diff": 115,
             "points": 7,
             "highlight": null
           },
@@ -66120,9 +66120,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 357,
-            "against": 369,
-            "diff": -12,
+            "for": 367,
+            "against": 375,
+            "diff": -8,
             "points": 5,
             "highlight": null
           },
@@ -66170,6 +66170,18 @@
       "Western Conference": {
         "rows": [
           {
+            "team": "Lokomotiv Yaroslavl",
+            "played": 14,
+            "win": 11,
+            "draw": null,
+            "loss": 3,
+            "for": 33,
+            "against": 22,
+            "diff": 11,
+            "points": 22,
+            "highlight": null
+          },
+          {
             "team": "CSKA Moscow",
             "played": 14,
             "win": 10,
@@ -66179,18 +66191,6 @@
             "against": 27,
             "diff": 19,
             "points": 21,
-            "highlight": null
-          },
-          {
-            "team": "Lokomotiv Yaroslavl",
-            "played": 14,
-            "win": 10,
-            "draw": null,
-            "loss": 3,
-            "for": 32,
-            "against": 22,
-            "diff": 10,
-            "points": 20,
             "highlight": null
           },
           {
@@ -66258,10 +66258,10 @@
             "played": 14,
             "win": 5,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 38,
-            "against": 37,
-            "diff": 1,
+            "against": 38,
+            "diff": 0,
             "points": 15,
             "highlight": null
           },
