@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T20:42:18+00:00",
+  "updated": "2026-10-10T20:50:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -27708,17 +27708,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28788,17 +28777,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31994,17 +31972,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -66905,9 +66872,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 312,
-            "against": 273,
-            "diff": 39,
+            "for": 326,
+            "against": 291,
+            "diff": 35,
             "points": 6,
             "highlight": null
           },
@@ -67061,9 +67028,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 236,
-            "against": 296,
-            "diff": -60,
+            "for": 254,
+            "against": 310,
+            "diff": -56,
             "points": 4,
             "highlight": null
           },
@@ -67188,9 +67155,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 238,
-            "against": 248,
-            "diff": -10,
+            "for": 239,
+            "against": 251,
+            "diff": -12,
             "points": 4,
             "highlight": null
           },
@@ -67243,6 +67210,18 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Trieste",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 245,
+            "against": 255,
+            "diff": -10,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Pallacanestro Reggiana",
             "played": 2,
             "win": 0,
@@ -67251,18 +67230,6 @@
             "for": 171,
             "against": 182,
             "diff": -11,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Trieste",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 3,
-            "for": 242,
-            "against": 254,
-            "diff": -12,
             "points": 0,
             "highlight": null
           },
