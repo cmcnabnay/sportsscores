@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T15:56:36+00:00",
+  "updated": "2026-10-10T16:10:28+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65575,6 +65575,30 @@
             "for": 124,
             "against": 62,
             "diff": 62,
+            "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Leicester Tigers",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 100,
+            "against": 90,
+            "diff": 10,
+            "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Northampton Saints",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 156,
+            "against": 115,
+            "diff": 41,
             "points": 10,
             "highlight": null
           },
@@ -65592,38 +65616,14 @@
           },
           {
             "team": "Bath Rugby",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 73,
-            "against": 51,
-            "diff": 22,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Leicester Tigers",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 100,
-            "against": 90,
-            "diff": 10,
+            "for": 121,
+            "against": 122,
+            "diff": -1,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Northampton Saints",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 85,
-            "against": 67,
-            "diff": 18,
-            "points": 6,
             "highlight": null
           },
           {
@@ -65694,6 +65694,18 @@
       "United Rugby Championship 26/27": {
         "rows": [
           {
+            "team": "Edinburgh",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 80,
+            "against": 54,
+            "diff": 26,
+            "points": 13,
+            "highlight": null
+          },
+          {
             "team": "Glasgow Warriors",
             "played": 3,
             "win": 2,
@@ -65718,14 +65730,26 @@
             "highlight": null
           },
           {
-            "team": "Sharks",
-            "played": 2,
+            "team": "Stormers",
+            "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 0,
-            "for": 67,
-            "against": 44,
-            "diff": 23,
+            "loss": 1,
+            "for": 81,
+            "against": 54,
+            "diff": 27,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Sharks",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 89,
+            "against": 83,
+            "diff": 6,
             "points": 10,
             "highlight": null
           },
@@ -65738,18 +65762,6 @@
             "for": 61,
             "against": 42,
             "diff": 19,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Edinburgh",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 51,
-            "against": 42,
-            "diff": 9,
             "points": 9,
             "highlight": null
           },
@@ -65775,18 +65787,6 @@
             "against": 83,
             "diff": 5,
             "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Stormers",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 42,
-            "against": 32,
-            "diff": 10,
-            "points": 6,
             "highlight": null
           },
           {
@@ -65875,13 +65875,13 @@
           },
           {
             "team": "Zebre",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 40,
-            "against": 87,
-            "diff": -47,
+            "loss": 3,
+            "for": 52,
+            "against": 116,
+            "diff": -64,
             "points": 1,
             "highlight": null
           }
@@ -65898,8 +65898,8 @@
             "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 398,
-            "against": 271,
+            "for": 403,
+            "against": 276,
             "diff": 127,
             "points": 8,
             "highlight": null
@@ -66078,8 +66078,8 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 420,
-            "against": 440,
+            "for": 425,
+            "against": 445,
             "diff": -20,
             "points": 4,
             "highlight": null
@@ -66121,9 +66121,9 @@
             "win": 11,
             "draw": null,
             "loss": 3,
-            "for": 34,
+            "for": 35,
             "against": 23,
-            "diff": 11,
+            "diff": 12,
             "points": 22,
             "highlight": null
           },
@@ -66206,8 +66206,8 @@
             "draw": null,
             "loss": 4,
             "for": 39,
-            "against": 39,
-            "diff": 0,
+            "against": 40,
+            "diff": -1,
             "points": 15,
             "highlight": null
           },
@@ -66834,6 +66834,18 @@
             "highlight": null
           },
           {
+            "team": "Leyma Coruña",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 217,
+            "against": 229,
+            "diff": -12,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Barcelona",
             "played": 2,
             "win": 1,
@@ -66930,30 +66942,6 @@
             "highlight": null
           },
           {
-            "team": "Casademont Zaragoza",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 163,
-            "against": 177,
-            "diff": -14,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Leyma Coruña",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 205,
-            "against": 220,
-            "diff": -15,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Basquet Girona",
             "played": 2,
             "win": 1,
@@ -66963,6 +66951,18 @@
             "against": 195,
             "diff": -33,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Casademont Zaragoza",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 172,
+            "against": 189,
+            "diff": -17,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67268,6 +67268,18 @@
             "highlight": null
           },
           {
+            "team": "Cholet",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 184,
+            "against": 184,
+            "diff": 0,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 2,
             "win": 1,
@@ -67304,30 +67316,6 @@
             "highlight": null
           },
           {
-            "team": "Nanterre",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 161,
-            "against": 157,
-            "diff": 4,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Cholet",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 170,
-            "against": 173,
-            "diff": -3,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Strasbourg",
             "played": 2,
             "win": 1,
@@ -67352,6 +67340,18 @@
             "highlight": null
           },
           {
+            "team": "Nanterre",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 173,
+            "against": 169,
+            "diff": 4,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Limoges",
             "played": 3,
             "win": 1,
@@ -67365,14 +67365,14 @@
           },
           {
             "team": "Gravelines",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 162,
-            "against": 173,
+            "for": 174,
+            "against": 185,
             "diff": -11,
-            "points": 1,
+            "points": 2,
             "highlight": null
           },
           {
@@ -67401,14 +67401,14 @@
           },
           {
             "team": "Pau-orthez",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 125,
-            "against": 167,
-            "diff": -42,
-            "points": 1,
+            "loss": 3,
+            "for": 136,
+            "against": 181,
+            "diff": -45,
+            "points": 2,
             "highlight": null
           }
         ],
