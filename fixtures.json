@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T16:10:28+00:00",
+  "updated": "2026-10-10T16:17:22+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66121,9 +66121,9 @@
             "win": 11,
             "draw": null,
             "loss": 3,
-            "for": 35,
+            "for": 36,
             "against": 23,
-            "diff": 12,
+            "diff": 13,
             "points": 22,
             "highlight": null
           },
@@ -66206,8 +66206,8 @@
             "draw": null,
             "loss": 4,
             "for": 39,
-            "against": 40,
-            "diff": -1,
+            "against": 41,
+            "diff": -2,
             "points": 15,
             "highlight": null
           },
@@ -66834,15 +66834,15 @@
             "highlight": null
           },
           {
-            "team": "Leyma Coruña",
+            "team": "Casademont Zaragoza",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 217,
-            "against": 229,
-            "diff": -12,
-            "points": 4,
+            "for": 186,
+            "against": 194,
+            "diff": -8,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66954,15 +66954,15 @@
             "highlight": null
           },
           {
-            "team": "Casademont Zaragoza",
+            "team": "Leyma Coruña",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 172,
-            "against": 189,
-            "diff": -17,
-            "points": 4,
+            "for": 222,
+            "against": 243,
+            "diff": -21,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67268,14 +67268,26 @@
             "highlight": null
           },
           {
+            "team": "Nanterre",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 182,
+            "against": 176,
+            "diff": 6,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Cholet",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 184,
-            "against": 184,
-            "diff": 0,
+            "for": 191,
+            "against": 190,
+            "diff": 1,
             "points": 4,
             "highlight": null
           },
@@ -67340,18 +67352,6 @@
             "highlight": null
           },
           {
-            "team": "Nanterre",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 173,
-            "against": 169,
-            "diff": 4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Limoges",
             "played": 3,
             "win": 1,
@@ -67368,10 +67368,10 @@
             "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 174,
-            "against": 185,
-            "diff": -11,
+            "loss": 3,
+            "for": 181,
+            "against": 194,
+            "diff": -13,
             "points": 2,
             "highlight": null
           },
@@ -67405,9 +67405,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 136,
-            "against": 181,
-            "diff": -45,
+            "for": 142,
+            "against": 188,
+            "diff": -46,
             "points": 2,
             "highlight": null
           }
