@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T14:54:06+00:00",
+  "updated": "2026-10-10T15:02:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65494,14 +65494,26 @@
             "highlight": null
           },
           {
-            "team": "Montpellier Herault",
-            "played": 5,
+            "team": "Stade Francais Paris",
+            "played": 6,
             "win": 3,
             "draw": null,
-            "loss": 2,
-            "for": 141,
-            "against": 92,
-            "diff": 49,
+            "loss": 3,
+            "for": 147,
+            "against": 158,
+            "diff": -11,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Montpellier Herault",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 163,
+            "against": 122,
+            "diff": 41,
             "points": 14,
             "highlight": null
           },
@@ -65550,18 +65562,6 @@
             "for": 128,
             "against": 167,
             "diff": -39,
-            "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Stade Francais Paris",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 117,
-            "against": 136,
-            "diff": -19,
             "points": 10,
             "highlight": null
           },
