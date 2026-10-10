@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T17:56:40+00:00",
+  "updated": "2026-10-10T18:10:27+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65975,26 +65975,14 @@
           },
           {
             "team": "TBB Trier",
-            "played": 4,
-            "win": 3,
+            "played": 5,
+            "win": 4,
             "draw": null,
             "loss": 1,
-            "for": 405,
+            "for": 409,
             "against": 361,
-            "diff": 44,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Baskets Oldenburg",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 308,
-            "against": 336,
-            "diff": -28,
-            "points": 7,
+            "diff": 48,
+            "points": 8,
             "highlight": null
           },
           {
@@ -66022,27 +66010,39 @@
             "highlight": null
           },
           {
-            "team": "Mitteldeutscher",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 377,
-            "against": 341,
-            "diff": 36,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Rostock Seawolves",
             "played": 5,
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 413,
-            "against": 379,
-            "diff": 34,
+            "for": 433,
+            "against": 392,
+            "diff": 41,
             "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 388,
+            "against": 358,
+            "diff": 30,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Baskets Oldenburg",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 311,
+            "against": 339,
+            "diff": -28,
+            "points": 8,
             "highlight": null
           },
           {
@@ -66051,9 +66051,9 @@
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 280,
-            "against": 280,
-            "diff": 0,
+            "for": 293,
+            "against": 300,
+            "diff": -7,
             "points": 5,
             "highlight": null
           },
@@ -66070,39 +66070,39 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 318,
-            "against": 334,
-            "diff": -16,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 327,
-            "against": 358,
-            "diff": -31,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Brose Bamberg",
             "played": 5,
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 408,
-            "against": 419,
-            "diff": -11,
+            "for": 425,
+            "against": 430,
+            "diff": -5,
             "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 320,
+            "against": 340,
+            "diff": -20,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 327,
+            "against": 362,
+            "diff": -35,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66142,27 +66142,27 @@
             "highlight": null
           },
           {
-            "team": "Phoenix Hagen",
-            "played": 4,
-            "win": 0,
+            "team": "SC Rasta Vechta",
+            "played": 5,
+            "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 351,
-            "against": 382,
-            "diff": -31,
-            "points": 1,
+            "for": 312,
+            "against": 375,
+            "diff": -63,
+            "points": 3,
             "highlight": null
           },
           {
-            "team": "SC Rasta Vechta",
-            "played": 4,
+            "team": "Phoenix Hagen",
+            "played": 5,
             "win": 0,
             "draw": null,
             "loss": 4,
-            "for": 306,
-            "against": 373,
-            "diff": -67,
-            "points": 1,
+            "for": 354,
+            "against": 385,
+            "diff": -31,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -67016,8 +67016,8 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 195,
-            "against": 191,
+            "for": 209,
+            "against": 205,
             "diff": 4,
             "points": 3,
             "highlight": null
@@ -67052,8 +67052,8 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 107,
-            "against": 123,
+            "for": 121,
+            "against": 137,
             "diff": -16,
             "points": 1,
             "highlight": null
@@ -67078,6 +67078,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Amici Pallacanestro Udinese",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 186,
+            "against": 159,
+            "diff": 27,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Virtus Bologna",
             "played": 2,
             "win": 2,
@@ -67097,18 +67109,6 @@
             "loss": 0,
             "for": 193,
             "against": 168,
-            "diff": 25,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 172,
-            "against": 147,
             "diff": 25,
             "points": 4,
             "highlight": null
@@ -67150,18 +67150,6 @@
             "highlight": null
           },
           {
-            "team": "Dolomiti Energia Trento",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 173,
-            "against": 171,
-            "diff": 2,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Olimpia Milano",
             "played": 2,
             "win": 1,
@@ -67170,6 +67158,18 @@
             "for": 155,
             "against": 154,
             "diff": 1,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Dolomiti Energia Trento",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 185,
+            "against": 185,
+            "diff": 0,
             "points": 2,
             "highlight": null
           },
@@ -67337,27 +67337,27 @@
             "highlight": null
           },
           {
-            "team": "Chalon-sur-Saône",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 217,
-            "against": 201,
-            "diff": 16,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Cholet",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
             "for": 255,
-            "against": 249,
-            "diff": 6,
+            "against": 252,
+            "diff": 3,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Chalon-sur-Saône",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 219,
+            "against": 202,
+            "diff": 17,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67450,9 +67450,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 200,
-            "against": 241,
-            "diff": -41,
+            "for": 201,
+            "against": 243,
+            "diff": -42,
             "points": 2,
             "highlight": null
           },
@@ -67462,9 +67462,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 201,
+            "for": 204,
             "against": 252,
-            "diff": -51,
+            "diff": -48,
             "points": 2,
             "highlight": null
           }
