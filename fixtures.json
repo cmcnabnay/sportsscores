@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T08:44:45+00:00",
+  "updated": "2026-10-10T08:55:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66268,13 +66268,13 @@
           {
             "team": "Lada Togliatti",
             "played": 14,
-            "win": 1,
+            "win": 2,
             "draw": null,
-            "loss": 10,
-            "for": 22,
+            "loss": 9,
+            "for": 24,
             "against": 56,
-            "diff": -34,
-            "points": 5,
+            "diff": -32,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66379,18 +66379,6 @@
             "highlight": null
           },
           {
-            "team": "Admiral Vladivostok",
-            "played": 14,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 31,
-            "against": 34,
-            "diff": -3,
-            "points": 13,
-            "highlight": null
-          },
-          {
             "team": "Avangard Omsk",
             "played": 12,
             "win": 6,
@@ -66400,6 +66388,18 @@
             "against": 29,
             "diff": -8,
             "points": 12,
+            "highlight": null
+          },
+          {
+            "team": "Admiral Vladivostok",
+            "played": 14,
+            "win": 4,
+            "draw": null,
+            "loss": 7,
+            "for": 31,
+            "against": 36,
+            "diff": -5,
+            "points": 11,
             "highlight": null
           },
           {
