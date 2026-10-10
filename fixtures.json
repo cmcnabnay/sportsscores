@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T02:40:28+00:00",
+  "updated": "2026-10-10T02:50:45+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64851,6 +64851,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Defensa y Justicia",
+            "played": 12,
+            "win": 7,
+            "draw": 3,
+            "loss": 2,
+            "for": 18,
+            "against": 11,
+            "diff": 7,
+            "points": 24,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Boca Juniors",
             "played": 12,
             "win": 5,
@@ -64871,18 +64883,6 @@
             "for": 17,
             "against": 11,
             "diff": 6,
-            "points": 21,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Defensa y Justicia",
-            "played": 11,
-            "win": 6,
-            "draw": 3,
-            "loss": 2,
-            "for": 16,
-            "against": 11,
-            "diff": 5,
             "points": 21,
             "highlight": "#BBF3BB"
           },
@@ -64948,13 +64948,13 @@
           },
           {
             "team": "Unión",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": 1,
-            "loss": 6,
+            "loss": 7,
             "for": 17,
-            "against": 19,
-            "diff": -2,
+            "against": 21,
+            "diff": -4,
             "points": 13,
             "highlight": "transparent"
           },
