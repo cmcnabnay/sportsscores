@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T19:10:32+00:00",
+  "updated": "2026-10-10T19:19:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -27708,17 +27708,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28788,17 +28777,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31994,17 +31972,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -66012,9 +65979,9 @@
             "win": 4,
             "draw": null,
             "loss": 1,
-            "for": 455,
-            "against": 410,
-            "diff": 45,
+            "for": 465,
+            "against": 415,
+            "diff": 50,
             "points": 8,
             "highlight": null
           },
@@ -66072,8 +66039,8 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 365,
-            "against": 369,
+            "for": 374,
+            "against": 378,
             "diff": -4,
             "points": 7,
             "highlight": null
@@ -66084,9 +66051,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 350,
+            "for": 355,
             "against": 391,
-            "diff": -41,
+            "diff": -36,
             "points": 8,
             "highlight": null
           },
@@ -66132,9 +66099,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 376,
-            "against": 408,
-            "diff": -32,
+            "for": 381,
+            "against": 418,
+            "diff": -37,
             "points": 6,
             "highlight": null
           },
@@ -66181,8 +66148,8 @@
             "draw": null,
             "loss": 4,
             "for": 406,
-            "against": 424,
-            "diff": -18,
+            "against": 429,
+            "diff": -23,
             "points": 3,
             "highlight": null
           },
@@ -66192,8 +66159,8 @@
             "win": 0,
             "draw": null,
             "loss": 5,
-            "for": 341,
-            "against": 420,
+            "for": 350,
+            "against": 429,
             "diff": -79,
             "points": 2,
             "highlight": null
@@ -66905,9 +66872,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 228,
-            "against": 211,
-            "diff": 17,
+            "for": 234,
+            "against": 213,
+            "diff": 21,
             "points": 6,
             "highlight": null
           },
@@ -67037,9 +67004,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 248,
-            "against": 243,
-            "diff": 5,
+            "for": 254,
+            "against": 251,
+            "diff": 3,
             "points": 3,
             "highlight": null
           },
@@ -67061,9 +67028,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 174,
-            "against": 212,
-            "diff": -38,
+            "for": 176,
+            "against": 218,
+            "diff": -42,
             "points": 4,
             "highlight": null
           },
@@ -67085,9 +67052,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 159,
-            "against": 176,
-            "diff": -17,
+            "for": 167,
+            "against": 182,
+            "diff": -15,
             "points": 1,
             "highlight": null
           },
@@ -67140,8 +67107,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 209,
-            "against": 189,
+            "for": 213,
+            "against": 193,
             "diff": 20,
             "points": 4,
             "highlight": null
@@ -67176,8 +67143,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 215,
-            "against": 208,
+            "for": 219,
+            "against": 212,
             "diff": 7,
             "points": 4,
             "highlight": null
@@ -67207,18 +67174,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Trieste",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 192,
-            "against": 196,
-            "diff": -4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Scaligera Basket Verona",
             "played": 2,
             "win": 1,
@@ -67231,14 +67186,26 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Trieste",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 195,
+            "against": 203,
+            "diff": -8,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Pallacanestro Varese",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 180,
-            "against": 198,
-            "diff": -18,
+            "for": 187,
+            "against": 201,
+            "diff": -14,
             "points": 2,
             "highlight": null
           },
