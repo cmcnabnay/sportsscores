@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T14:23:33+00:00",
+  "updated": "2026-10-10T14:32:47+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65963,10 +65963,10 @@
             "played": 4,
             "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 333,
-            "against": 218,
-            "diff": 115,
+            "loss": 0,
+            "for": 346,
+            "against": 223,
+            "diff": 123,
             "points": 7,
             "highlight": null
           },
@@ -66115,18 +66115,6 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 367,
-            "against": 375,
-            "diff": -8,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 4,
             "win": 1,
@@ -66136,6 +66124,18 @@
             "against": 352,
             "diff": -28,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 372,
+            "against": 388,
+            "diff": -16,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66175,9 +66175,9 @@
             "win": 11,
             "draw": null,
             "loss": 3,
-            "for": 33,
+            "for": 34,
             "against": 22,
-            "diff": 11,
+            "diff": 12,
             "points": 22,
             "highlight": null
           },
@@ -66246,10 +66246,10 @@
             "played": 14,
             "win": 7,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 28,
-            "against": 28,
-            "diff": 0,
+            "against": 29,
+            "diff": -1,
             "points": 16,
             "highlight": null
           },
@@ -66260,8 +66260,8 @@
             "draw": null,
             "loss": 4,
             "for": 38,
-            "against": 38,
-            "diff": 0,
+            "against": 39,
+            "diff": -1,
             "points": 15,
             "highlight": null
           },
@@ -66343,6 +66343,18 @@
             "highlight": null
           },
           {
+            "team": "AK Bars",
+            "played": 14,
+            "win": 7,
+            "draw": null,
+            "loss": 5,
+            "for": 29,
+            "against": 27,
+            "diff": 2,
+            "points": 15,
+            "highlight": null
+          },
+          {
             "team": "Amur Khabarovsk",
             "played": 13,
             "win": 7,
@@ -66376,18 +66388,6 @@
             "against": 43,
             "diff": -1,
             "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "AK Bars",
-            "played": 14,
-            "win": 6,
-            "draw": null,
-            "loss": 5,
-            "for": 28,
-            "against": 27,
-            "diff": 1,
-            "points": 13,
             "highlight": null
           },
           {
