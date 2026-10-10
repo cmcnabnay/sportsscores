@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T13:30:08+00:00",
+  "updated": "2026-10-10T13:41:35+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21331,13 +21331,14 @@
       "time": "07:00",
       "utc": "2026-10-10T07:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "1-2",
       "date": "2026-10-10",
       "time": "11:00",
       "utc": "2026-10-10T11:00:00+00:00",
@@ -21414,7 +21415,7 @@
       "league": "russian-first-league-2026-27",
       "home": "Leningradets",
       "away": "Torpedo Moscow",
-      "score": "-",
+      "score": "1-3",
       "date": "2026-10-10",
       "time": "14:00",
       "utc": "2026-10-10T11:00:00+00:00",
@@ -65759,6 +65760,18 @@
             "highlight": null
           },
           {
+            "team": "Bulls",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 126,
+            "against": 54,
+            "diff": 72,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Sharks",
             "played": 2,
             "win": 2,
@@ -65783,18 +65796,6 @@
             "highlight": null
           },
           {
-            "team": "Lions",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 62,
-            "against": 45,
-            "diff": 17,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "Edinburgh",
             "played": 2,
             "win": 2,
@@ -65807,6 +65808,18 @@
             "highlight": null
           },
           {
+            "team": "Lions",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 77,
+            "against": 102,
+            "diff": -25,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Dragons",
             "played": 3,
             "win": 1,
@@ -65815,19 +65828,7 @@
             "for": 88,
             "against": 83,
             "diff": 5,
-            "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Bulls",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 69,
-            "against": 39,
-            "diff": 30,
-            "points": 6,
+            "points": 8,
             "highlight": null
           },
           {
@@ -69818,6 +69819,6 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-10-10T01:06:34.920029+00:00",
-    "torpedo": "2026-10-09T22:34:34.939990+00:00"
+    "torpedo": "2026-10-10T13:37:32.851611+00:00"
   }
 }
