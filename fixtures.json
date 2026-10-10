@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T15:02:05+00:00",
+  "updated": "2026-10-10T15:13:21+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21371,7 +21371,7 @@
       "league": "top14-2026",
       "home": "Stade Francais Paris",
       "away": "Montpellier Herault",
-      "score": null,
+      "score": "30-22",
       "date": "2026-10-10",
       "time": "12:30",
       "utc": "2026-10-10T12:30:00+00:00",
@@ -27165,6 +27165,17 @@
       "attendance": null
     },
     {
+      "league": "top14-2026",
+      "home": "Clermont Auvergne",
+      "away": "Racing 92",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "13:30",
+      "utc": "2026-10-31T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Frölunda HC",
       "away": "Linköping HC",
@@ -27320,34 +27331,12 @@
     },
     {
       "league": "top14-2026",
-      "home": "Perpignan",
-      "away": "Toulon",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Bordeaux Begles",
       "away": "Bayonne",
       "score": null,
       "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "Clermont Auvergne",
-      "away": "Racing 92",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-10-31T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27357,8 +27346,8 @@
       "away": "Vannes",
       "score": null,
       "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-10-31T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27368,8 +27357,8 @@
       "away": "Castres Olympique",
       "score": null,
       "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-10-31T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27379,19 +27368,8 @@
       "away": "La Rochelle",
       "score": null,
       "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "Pau",
-      "away": "Stade Toulousain",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "16:00",
-      "utc": "2026-10-31T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-10-31T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27601,6 +27579,17 @@
       "date": "2026-10-31",
       "time": "19:30",
       "utc": "2026-10-31T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Perpignan",
+      "away": "Toulon",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "20:00",
+      "utc": "2026-10-31T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -27932,6 +27921,17 @@
       "time": "18:00",
       "utc": "2026-11-01T18:00:00+00:00",
       "venue": "Lanxess Arena",
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Stade Toulousain",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "20:05",
+      "utc": "2026-11-01T20:05:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -59011,17 +59011,6 @@
     },
     {
       "league": "top14-2026",
-      "home": "Bayonne",
-      "away": "Vannes",
-      "score": null,
-      "date": "2027-05-08",
-      "time": "15:00",
-      "utc": "2027-05-08T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Clermont Auvergne",
       "away": "Perpignan",
       "score": null,
@@ -59033,52 +59022,8 @@
     },
     {
       "league": "top14-2026",
-      "home": "Lyon",
-      "away": "Stade Francais Paris",
-      "score": null,
-      "date": "2027-05-08",
-      "time": "15:00",
-      "utc": "2027-05-08T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Montpellier Herault",
       "away": "Stade Toulousain",
-      "score": null,
-      "date": "2027-05-08",
-      "time": "15:00",
-      "utc": "2027-05-08T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "Pau",
-      "away": "Bordeaux Begles",
-      "score": null,
-      "date": "2027-05-08",
-      "time": "15:00",
-      "utc": "2027-05-08T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "Racing 92",
-      "away": "La Rochelle",
-      "score": null,
-      "date": "2027-05-08",
-      "time": "15:00",
-      "utc": "2027-05-08T15:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "Toulon",
-      "away": "Castres Olympique",
       "score": null,
       "date": "2027-05-08",
       "time": "15:00",
@@ -65947,6 +65892,18 @@
       "Bundesliga": {
         "rows": [
           {
+            "team": "Bayern Munich",
+            "played": 4,
+            "win": 4,
+            "draw": null,
+            "loss": 0,
+            "for": 368,
+            "against": 243,
+            "diff": 125,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Basketball Lowen Braunschweig",
             "played": 3,
             "win": 3,
@@ -65956,18 +65913,6 @@
             "against": 276,
             "diff": 16,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Bayern Munich",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 361,
-            "against": 243,
-            "diff": 118,
-            "points": 7,
             "highlight": null
           },
           {
@@ -66115,18 +66060,6 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 392,
-            "against": 403,
-            "diff": -11,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 4,
             "win": 1,
@@ -66136,6 +66069,18 @@
             "against": 352,
             "diff": -28,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 392,
+            "against": 410,
+            "diff": -18,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66176,8 +66121,8 @@
             "draw": null,
             "loss": 3,
             "for": 34,
-            "against": 22,
-            "diff": 12,
+            "against": 23,
+            "diff": 11,
             "points": 22,
             "highlight": null
           },
@@ -66259,9 +66204,9 @@
             "win": 5,
             "draw": null,
             "loss": 4,
-            "for": 38,
+            "for": 39,
             "against": 39,
-            "diff": -1,
+            "diff": 0,
             "points": 15,
             "highlight": null
           },
