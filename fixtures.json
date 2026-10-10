@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T00:28:20+00:00",
+  "updated": "2026-10-10T00:38:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64840,14 +64840,26 @@
         "rows": [
           {
             "team": "Instituto",
-            "played": 11,
+            "played": 12,
             "win": 8,
-            "draw": 1,
+            "draw": 2,
             "loss": 2,
-            "for": 17,
-            "against": 8,
+            "for": 19,
+            "against": 10,
             "diff": 9,
-            "points": 25,
+            "points": 26,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Boca Juniors",
+            "played": 12,
+            "win": 5,
+            "draw": 6,
+            "loss": 1,
+            "for": 19,
+            "against": 13,
+            "diff": 6,
+            "points": 21,
             "highlight": "#BBF3BB"
           },
           {
@@ -64872,18 +64884,6 @@
             "against": 11,
             "diff": 5,
             "points": 21,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Boca Juniors",
-            "played": 11,
-            "win": 5,
-            "draw": 5,
-            "loss": 1,
-            "for": 17,
-            "against": 11,
-            "diff": 6,
-            "points": 20,
             "highlight": "#BBF3BB"
           },
           {
