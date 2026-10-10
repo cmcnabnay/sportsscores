@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T16:52:53+00:00",
+  "updated": "2026-10-10T16:58:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65931,6 +65931,18 @@
             "highlight": null
           },
           {
+            "team": "Wurzburg Baskets",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 259,
+            "against": 233,
+            "diff": 26,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 4,
             "win": 3,
@@ -65972,22 +65984,10 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 389,
-            "against": 373,
+            "for": 391,
+            "against": 375,
             "diff": 16,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Wurzburg Baskets",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 252,
-            "against": 231,
-            "diff": 21,
-            "points": 5,
             "highlight": null
           },
           {
@@ -66027,26 +66027,26 @@
             "highlight": null
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 364,
-            "against": 351,
-            "diff": 13,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Mitteldeutscher",
             "played": 5,
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 331,
-            "against": 322,
+            "for": 333,
+            "against": 324,
             "diff": 9,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 366,
+            "against": 358,
+            "diff": 8,
             "points": 5,
             "highlight": null
           },
@@ -66841,9 +66841,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 215,
+            "for": 217,
             "against": 205,
-            "diff": 10,
+            "diff": 12,
             "points": 5,
             "highlight": null
           },
@@ -66962,8 +66962,8 @@
             "draw": null,
             "loss": 2,
             "for": 233,
-            "against": 272,
-            "diff": -39,
+            "against": 274,
+            "diff": -41,
             "points": 3,
             "highlight": null
           },
@@ -67275,9 +67275,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 156,
-            "against": 164,
-            "diff": -8,
+            "for": 174,
+            "against": 176,
+            "diff": -2,
             "points": 3,
             "highlight": null
           },
@@ -67287,9 +67287,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 203,
+            "for": 204,
             "against": 196,
-            "diff": 7,
+            "diff": 8,
             "points": 3,
             "highlight": null
           },
@@ -67299,9 +67299,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 214,
-            "against": 206,
-            "diff": 8,
+            "for": 219,
+            "against": 210,
+            "diff": 9,
             "points": 4,
             "highlight": null
           },
@@ -67372,8 +67372,8 @@
             "draw": null,
             "loss": 3,
             "for": 201,
-            "against": 215,
-            "diff": -14,
+            "against": 216,
+            "diff": -15,
             "points": 2,
             "highlight": null
           },
@@ -67395,9 +67395,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 163,
-            "against": 180,
-            "diff": -17,
+            "for": 175,
+            "against": 198,
+            "diff": -23,
             "points": 2,
             "highlight": null
           },
@@ -67407,9 +67407,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 158,
-            "against": 211,
-            "diff": -53,
+            "for": 162,
+            "against": 216,
+            "diff": -54,
             "points": 2,
             "highlight": null
           }
