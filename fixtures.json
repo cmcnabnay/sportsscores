@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T02:50:45+00:00",
+  "updated": "2026-10-10T03:02:44+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22742,6 +22742,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Mzt Skopje",
+      "away": "Tartu Ülikool",
+      "score": null,
+      "date": "2026-10-14",
+      "time": "16:30",
+      "utc": "2026-10-14T16:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Bamberg Baskets",
       "away": "UCAM Murcia",
@@ -22778,17 +22789,6 @@
       "league": "eurocup-2026-27",
       "home": "Tofas",
       "away": "KK Budućnost",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "17:00",
-      "utc": "2026-10-14T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Mzt Skopje",
-      "away": "Tartu Ülikool",
       "score": null,
       "date": "2026-10-14",
       "time": "17:00",
@@ -65236,13 +65236,13 @@
           },
           {
             "team": "Spartak Kostroma",
-            "played": 12,
+            "played": 13,
             "win": 7,
             "draw": 3,
-            "loss": 2,
-            "for": 16,
-            "against": 10,
-            "diff": 6,
+            "loss": 3,
+            "for": 18,
+            "against": 13,
+            "diff": 5,
             "points": 24,
             "highlight": "#CCF9CC"
           },
@@ -65307,6 +65307,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Arsenal Tula",
+            "played": 13,
+            "win": 4,
+            "draw": 4,
+            "loss": 5,
+            "for": 15,
+            "against": 24,
+            "diff": -9,
+            "points": 16,
+            "highlight": "transparent"
+          },
+          {
             "team": "Shinnik Yaroslavl",
             "played": 12,
             "win": 3,
@@ -65316,6 +65328,18 @@
             "against": 13,
             "diff": 2,
             "points": 16,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Chelyabinsk",
+            "played": 13,
+            "win": 4,
+            "draw": 3,
+            "loss": 6,
+            "for": 17,
+            "against": 21,
+            "diff": -4,
+            "points": 15,
             "highlight": "transparent"
           },
           {
@@ -65343,18 +65367,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Arsenal Tula",
-            "played": 12,
-            "win": 3,
-            "draw": 4,
-            "loss": 5,
-            "for": 12,
-            "against": 22,
-            "diff": -10,
-            "points": 13,
-            "highlight": "transparent"
-          },
-          {
             "team": "Leningradets Leningrad Oblast",
             "played": 12,
             "win": 3,
@@ -65368,25 +65380,13 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 12,
+            "played": 13,
             "win": 4,
             "draw": 0,
-            "loss": 8,
-            "for": 7,
-            "against": 15,
-            "diff": -8,
-            "points": 12,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Chelyabinsk",
-            "played": 12,
-            "win": 3,
-            "draw": 3,
-            "loss": 6,
-            "for": 13,
+            "loss": 9,
+            "for": 9,
             "against": 19,
-            "diff": -6,
+            "diff": -10,
             "points": 12,
             "highlight": "transparent"
           },
