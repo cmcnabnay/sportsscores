@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T18:56:27+00:00",
+  "updated": "2026-10-10T19:10:32+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21693,7 +21693,7 @@
       "league": "premiership-2026",
       "home": "Saracens",
       "away": "Bristol Bears",
-      "score": null,
+      "score": "30-7",
       "date": "2026-10-10",
       "time": "16:30",
       "utc": "2026-10-10T16:30:00+00:00",
@@ -21704,7 +21704,7 @@
       "league": "urc-2026",
       "home": "Scarlets",
       "away": "Benetton Treviso",
-      "score": null,
+      "score": "27-26",
       "date": "2026-10-10",
       "time": "16:30",
       "utc": "2026-10-10T16:30:00+00:00",
@@ -21715,7 +21715,7 @@
       "league": "urc-2026",
       "home": "Ulster",
       "away": "Munster",
-      "score": null,
+      "score": "26-26",
       "date": "2026-10-10",
       "time": "16:30",
       "utc": "2026-10-10T16:30:00+00:00",
@@ -21726,7 +21726,7 @@
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "Wurzburg Baskets",
-      "score": null,
+      "score": "101-62",
       "date": "2026-10-10",
       "time": "16:30",
       "utc": "2026-10-10T16:30:00+00:00",
@@ -21737,7 +21737,7 @@
       "league": "bbl-2026-27",
       "home": "Brose Bamberg",
       "away": "Mitteldeutscher",
-      "score": null,
+      "score": "74-85",
       "date": "2026-10-10",
       "time": "16:30",
       "utc": "2026-10-10T16:30:00+00:00",
@@ -27708,6 +27708,17 @@
     },
     {
       "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Science City Jena",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "14:00",
+      "utc": "2026-11-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28777,6 +28788,17 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31972,6 +31994,17 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -65980,8 +66013,8 @@
             "draw": null,
             "loss": 1,
             "for": 455,
-            "against": 408,
-            "diff": 47,
+            "against": 410,
+            "diff": 45,
             "points": 8,
             "highlight": null
           },
@@ -66040,8 +66073,8 @@
             "draw": null,
             "loss": 2,
             "for": 365,
-            "against": 367,
-            "diff": -2,
+            "against": 369,
+            "diff": -4,
             "points": 7,
             "highlight": null
           },
@@ -66051,9 +66084,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 347,
-            "against": 389,
-            "diff": -42,
+            "for": 350,
+            "against": 391,
+            "diff": -41,
             "points": 8,
             "highlight": null
           },
@@ -66099,9 +66132,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 374,
+            "for": 376,
             "against": 408,
-            "diff": -34,
+            "diff": -32,
             "points": 6,
             "highlight": null
           },
@@ -66147,9 +66180,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 404,
-            "against": 421,
-            "diff": -17,
+            "for": 406,
+            "against": 424,
+            "diff": -18,
             "points": 3,
             "highlight": null
           },
@@ -66159,9 +66192,9 @@
             "win": 0,
             "draw": null,
             "loss": 5,
-            "for": 339,
+            "for": 341,
             "against": 420,
-            "diff": -81,
+            "diff": -79,
             "points": 2,
             "highlight": null
           }
@@ -66868,14 +66901,14 @@
           },
           {
             "team": "Breogán",
-            "played": 2,
-            "win": 2,
+            "played": 3,
+            "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 211,
-            "against": 199,
-            "diff": 12,
-            "points": 4,
+            "for": 228,
+            "against": 211,
+            "diff": 17,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66999,26 +67032,14 @@
             "highlight": null
           },
           {
-            "team": "Basquet Girona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 162,
-            "against": 195,
-            "diff": -33,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Unicaja Málaga",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 239,
-            "against": 232,
-            "diff": 7,
+            "for": 248,
+            "against": 243,
+            "diff": 5,
             "points": 3,
             "highlight": null
           },
@@ -67032,6 +67053,18 @@
             "against": 312,
             "diff": -36,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Basquet Girona",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 174,
+            "against": 212,
+            "diff": -38,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67052,9 +67085,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 148,
-            "against": 167,
-            "diff": -19,
+            "for": 159,
+            "against": 176,
+            "diff": -17,
             "points": 1,
             "highlight": null
           },
@@ -67107,8 +67140,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 205,
-            "against": 185,
+            "for": 209,
+            "against": 189,
             "diff": 20,
             "points": 4,
             "highlight": null
@@ -67143,21 +67176,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 211,
-            "against": 204,
+            "for": 215,
+            "against": 208,
             "diff": 7,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Varese",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 173,
-            "against": 182,
-            "diff": -9,
             "points": 4,
             "highlight": null
           },
@@ -67186,6 +67207,18 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Trieste",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 192,
+            "against": 196,
+            "diff": -4,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Scaligera Basket Verona",
             "played": 2,
             "win": 1,
@@ -67194,6 +67227,18 @@
             "for": 168,
             "against": 173,
             "diff": -5,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 180,
+            "against": 198,
+            "diff": -18,
             "points": 2,
             "highlight": null
           },
@@ -67218,18 +67263,6 @@
             "for": 171,
             "against": 182,
             "diff": -11,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Trieste",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 3,
-            "for": 176,
-            "against": 189,
-            "diff": -13,
             "points": 0,
             "highlight": null
           },
@@ -67361,6 +67394,18 @@
             "highlight": null
           },
           {
+            "team": "JL Bourg",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 209,
+            "against": 190,
+            "diff": 19,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 2,
             "win": 1,
@@ -67397,18 +67442,6 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 197,
-            "against": 186,
-            "diff": 11,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Limoges",
             "played": 3,
             "win": 1,
@@ -67421,18 +67454,6 @@
             "highlight": null
           },
           {
-            "team": "Boulazac",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 177,
-            "against": 186,
-            "diff": -9,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Gravelines",
             "played": 3,
             "win": 0,
@@ -67441,6 +67462,18 @@
             "for": 235,
             "against": 274,
             "diff": -39,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Boulazac",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 181,
+            "against": 198,
+            "diff": -17,
             "points": 2,
             "highlight": null
           },
