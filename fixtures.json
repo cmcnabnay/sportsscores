@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T15:43:30+00:00",
+  "updated": "2026-10-10T15:56:36+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21382,7 +21382,7 @@
       "league": "shl-2026-27",
       "home": "HV71",
       "away": "Brynäs IF",
-      "score": null,
+      "score": "3-2",
       "date": "2026-10-10",
       "time": "13:15",
       "utc": "2026-10-10T13:15:00+00:00",
@@ -21393,7 +21393,7 @@
       "league": "shl-2026-27",
       "home": "Färjestad BK",
       "away": "Malmö Redhawks",
-      "score": null,
+      "score": "6-2",
       "date": "2026-10-10",
       "time": "13:15",
       "utc": "2026-10-10T13:15:00+00:00",
@@ -21404,12 +21404,13 @@
       "league": "shl-2026-27",
       "home": "Luleå Hockey",
       "away": "Timrå IK",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-10",
       "time": "13:15",
       "utc": "2026-10-10T13:15:00+00:00",
       "venue": "Coop Norrbotten Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "russian-first-league-2026-27",
@@ -65897,9 +65898,9 @@
             "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 387,
-            "against": 259,
-            "diff": 128,
+            "for": 398,
+            "against": 271,
+            "diff": 127,
             "points": 8,
             "highlight": null
           },
@@ -66077,9 +66078,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 408,
-            "against": 429,
-            "diff": -21,
+            "for": 420,
+            "against": 440,
+            "diff": -20,
             "points": 4,
             "highlight": null
           },
@@ -66144,9 +66145,9 @@
             "win": 8,
             "draw": null,
             "loss": 4,
-            "for": 30,
+            "for": 32,
             "against": 29,
-            "diff": 1,
+            "diff": 3,
             "points": 18,
             "highlight": null
           },
@@ -66330,8 +66331,8 @@
             "draw": null,
             "loss": 6,
             "for": 29,
-            "against": 29,
-            "diff": 0,
+            "against": 31,
+            "diff": -2,
             "points": 13,
             "highlight": null
           },
