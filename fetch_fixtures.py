@@ -298,12 +298,10 @@ LEAGUES = {
         },
         # Confirmed from the page's own wikitext: "==Play-offs==" holds a
         # single {{8TeamBracket}} template (Quarter-finals -> Semi-finals
-        # -> Final). Teams are still unseeded placeholders ({{Rut|}}) as
-        # of writing - build_bracket_rounds() reads those as team=None,
-        # so the bracket shows up in the Playoffs tab with empty slots
-        # and fills itself in as Wikipedia updates the template, no code
-        # change needed once real teams/seeds land. See
-        # fetch_playoffs_bracket().
+        # -> Final). Teams are {{Rut|Team}} templates, unwrapped by
+        # clean_bracket_team() via _BRACKET_WRAPPER_TEMPLATES; a not-yet-
+        # decided slot is an empty {{Rut|}} and comes out as team=None
+        # (shown as TBD). See fetch_playoffs_bracket().
         "playoffs": {},
     },
     "internationals-2026": {
@@ -2756,8 +2754,10 @@ def parse_bracket_template(inner):
 # formatting wrapper) rather than an icon/flag to drop outright - e.g.
 # Super League's "{{nowrap|{{leagueicon|Warrington|12}} [[Warrington
 # Wolves|Warrington]]}}" uses {{nowrap|...}} purely so the longer team
-# names don't awkwardly line-wrap in the rendered bracket.
-_BRACKET_WRAPPER_TEMPLATES = {"nowrap"}
+# names don't awkwardly line-wrap in the rendered bracket. NPC's bracket
+# likewise wraps each team as {{Rut|Canterbury}} and each venue as
+# {{Rus|Semenoff Stadium}} - the argument is the name itself, not an icon.
+_BRACKET_WRAPPER_TEMPLATES = {"nowrap", "rut", "rus"}
 
 
 def clean_bracket_team(raw):
@@ -2867,8 +2867,7 @@ def enrich_bracket_round_dates_venues(section_text, round_label, matches):
             m["date"] = date_out
         venue_raw = kv.get("stadium") or kv.get("venue")
         if venue_raw:
-            venue = strip_citations(strip_wikilinks(venue_raw))
-            venue = re.sub(r"\s+", " ", venue).strip()
+            venue = clean_bracket_team(strip_citations(venue_raw))
             if venue:
                 m["venue"] = venue
 
