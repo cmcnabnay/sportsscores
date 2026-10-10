@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T15:35:02+00:00",
+  "updated": "2026-10-10T15:43:30+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65897,9 +65897,9 @@
             "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 381,
-            "against": 252,
-            "diff": 129,
+            "for": 387,
+            "against": 259,
+            "diff": 128,
             "points": 8,
             "highlight": null
           },
@@ -66077,9 +66077,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 401,
-            "against": 423,
-            "diff": -22,
+            "for": 408,
+            "against": 429,
+            "diff": -21,
             "points": 4,
             "highlight": null
           },
@@ -66139,6 +66139,18 @@
             "highlight": null
           },
           {
+            "team": "Severstal Cherepovets",
+            "played": 14,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 30,
+            "against": 29,
+            "diff": 1,
+            "points": 18,
+            "highlight": null
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 13,
             "win": 8,
@@ -66183,18 +66195,6 @@
             "for": 44,
             "against": 38,
             "diff": 6,
-            "points": 16,
-            "highlight": null
-          },
-          {
-            "team": "Severstal Cherepovets",
-            "played": 14,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": 29,
-            "against": 29,
-            "diff": 0,
             "points": 16,
             "highlight": null
           },
@@ -66328,10 +66328,10 @@
             "played": 14,
             "win": 6,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 29,
-            "against": 28,
-            "diff": 1,
+            "against": 29,
+            "diff": 0,
             "points": 13,
             "highlight": null
           },
@@ -67630,14 +67630,14 @@
         "rows": [
           {
             "team": "Färjestad BK",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 28,
-            "against": 6,
-            "diff": 22,
-            "points": 19,
+            "for": 34,
+            "against": 8,
+            "diff": 26,
+            "points": 22,
             "highlight": null
           },
           {
@@ -67678,13 +67678,13 @@
           },
           {
             "team": "Brynäs IF",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 21,
-            "against": 15,
-            "diff": 6,
+            "loss": 4,
+            "for": 23,
+            "against": 18,
+            "diff": 5,
             "points": 12,
             "highlight": null
           },
@@ -67702,13 +67702,25 @@
           },
           {
             "team": "Malmö Redhawks",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 16,
-            "against": 16,
-            "diff": 0,
+            "loss": 4,
+            "for": 18,
+            "against": 22,
+            "diff": -4,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "Luleå Hockey",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 20,
+            "against": 26,
+            "diff": -6,
             "points": 10,
             "highlight": null
           },
@@ -67725,15 +67737,15 @@
             "highlight": null
           },
           {
-            "team": "Luleå Hockey",
-            "played": 7,
+            "team": "HV71",
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 18,
-            "against": 23,
+            "loss": 5,
+            "for": 24,
+            "against": 29,
             "diff": -5,
-            "points": 9,
+            "points": 8,
             "highlight": null
           },
           {
@@ -67746,6 +67758,18 @@
             "against": 20,
             "diff": -6,
             "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Timrå IK",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 15,
+            "against": 22,
+            "diff": -7,
+            "points": 7,
             "highlight": null
           },
           {
@@ -67770,30 +67794,6 @@
             "against": 21,
             "diff": -10,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "HV71",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 21,
-            "against": 27,
-            "diff": -6,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Timrå IK",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 12,
-            "against": 20,
-            "diff": -8,
-            "points": 5,
             "highlight": null
           }
         ],
