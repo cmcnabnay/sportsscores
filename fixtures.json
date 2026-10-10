@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T16:42:21+00:00",
+  "updated": "2026-10-10T16:52:53+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21460,7 +21460,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "Dinamo Minsk",
-      "score": null,
+      "score": "6-1",
       "date": "2026-10-10",
       "time": "14:00",
       "utc": "2026-10-10T14:00:00+00:00",
@@ -21471,7 +21471,7 @@
       "league": "khl-2026-27",
       "home": "AK Bars",
       "away": "Severstal Cherepovets",
-      "score": null,
+      "score": "1-4",
       "date": "2026-10-10",
       "time": "14:00",
       "utc": "2026-10-10T14:00:00+00:00",
@@ -21493,12 +21493,13 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "TPS Turku",
-      "score": null,
+      "score": "3-3",
       "date": "2026-10-10",
       "time": "14:00",
       "utc": "2026-10-10T14:00:00+00:00",
       "venue": "Nokia Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
@@ -21527,7 +21528,7 @@
       "league": "premiership-2026",
       "home": "Northampton Saints",
       "away": "Bath Rugby",
-      "score": null,
+      "score": "71-48",
       "date": "2026-10-10",
       "time": "14:05",
       "utc": "2026-10-10T14:05:00+00:00",
@@ -27707,17 +27708,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Science City Jena",
-      "score": null,
-      "date": "2026-11-01",
-      "time": "14:00",
-      "utc": "2026-11-01T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
       "score": null,
@@ -28787,17 +28777,6 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "19:00",
-      "utc": "2026-11-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "SC Rasta Vechta",
-      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31993,17 +31972,6 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Science City Jena",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
       "attendance": null
     },
     {
@@ -65975,18 +65943,6 @@
             "highlight": null
           },
           {
-            "team": "Wurzburg Baskets",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 241,
-            "against": 220,
-            "diff": 21,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Skyliners Frankfurt",
             "played": 3,
             "win": 2,
@@ -66011,39 +65967,27 @@
             "highlight": null
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 353,
-            "against": 340,
-            "diff": 13,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Brose Bamberg",
-            "played": 4,
-            "win": 2,
+            "played": 5,
+            "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 374,
-            "against": 361,
-            "diff": 13,
-            "points": 4,
+            "for": 389,
+            "against": 373,
+            "diff": 16,
+            "points": 6,
             "highlight": null
           },
           {
-            "team": "Mitteldeutscher",
+            "team": "Wurzburg Baskets",
             "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 2,
-            "for": 319,
-            "against": 307,
-            "diff": 12,
-            "points": 4,
+            "loss": 1,
+            "for": 252,
+            "against": 231,
+            "diff": 21,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66079,6 +66023,30 @@
             "for": 327,
             "against": 358,
             "diff": -31,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 364,
+            "against": 351,
+            "diff": 13,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 331,
+            "against": 322,
+            "diff": 9,
             "points": 5,
             "highlight": null
           },
