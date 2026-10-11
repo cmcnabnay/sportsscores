@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T02:14:10+00:00",
+  "updated": "2026-10-11T02:24:56+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65080,6 +65080,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "River Plate",
+            "played": 11,
+            "win": 5,
+            "draw": 1,
+            "loss": 5,
+            "for": 14,
+            "against": 12,
+            "diff": 2,
+            "points": 16,
+            "highlight": "transparent"
+          },
+          {
             "team": "Atlético Tucumán",
             "played": 12,
             "win": 3,
@@ -65089,18 +65101,6 @@
             "against": 10,
             "diff": 0,
             "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "River Plate",
-            "played": 10,
-            "win": 4,
-            "draw": 1,
-            "loss": 5,
-            "for": 13,
-            "against": 12,
-            "diff": 1,
-            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -65153,13 +65153,13 @@
           },
           {
             "team": "Estudiantes (RC)",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": 3,
-            "loss": 7,
+            "loss": 8,
             "for": 6,
-            "against": 15,
-            "diff": -9,
+            "against": 16,
+            "diff": -10,
             "points": 6,
             "highlight": "transparent"
           }
@@ -69392,10 +69392,10 @@
             {
               "seed1": 1,
               "team1": "Canterbury",
-              "score1": null,
+              "score1": 62,
               "seed2": 8,
               "team2": "Waikato",
-              "score2": null,
+              "score2": 26,
               "date": "2026-10-09",
               "venue": "Semenoff Stadium"
             },
@@ -69436,13 +69436,13 @@
           "matches": [
             {
               "seed1": null,
-              "team1": null,
+              "team1": "Canterbury",
               "score1": null,
               "seed2": null,
               "team2": "Taranaki",
               "score2": null,
               "date": "2026-10-16",
-              "venue": null
+              "venue": "Semenoff Stadium"
             },
             {
               "seed1": null,
@@ -69451,8 +69451,8 @@
               "seed2": null,
               "team2": "Otago",
               "score2": null,
-              "date": "2026-10-17",
-              "venue": null
+              "date": "2026-10-18",
+              "venue": "One NZ Stadium"
             }
           ]
         },
