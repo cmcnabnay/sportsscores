@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T11:40:05+00:00",
+  "updated": "2026-10-11T11:55:18+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66361,18 +66361,6 @@
             "highlight": null
           },
           {
-            "team": "Admiral Vladivostok",
-            "played": 14,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 33,
-            "against": 36,
-            "diff": -3,
-            "points": 13,
-            "highlight": null
-          },
-          {
             "team": "Avangard Omsk",
             "played": 13,
             "win": 6,
@@ -66394,18 +66382,6 @@
             "against": 41,
             "diff": -11,
             "points": 11,
-            "highlight": null
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 13,
-            "win": 5,
-            "draw": null,
-            "loss": 8,
-            "for": 24,
-            "against": 33,
-            "diff": -9,
-            "points": 10,
             "highlight": null
           }
         ],
@@ -66822,6 +66798,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Real Madrid",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 321,
+            "against": 277,
+            "diff": 44,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Baskonia Vitoria",
             "played": 2,
             "win": 2,
@@ -66831,18 +66819,6 @@
             "against": 175,
             "diff": 41,
             "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Real Madrid",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 300,
-            "against": 263,
-            "diff": 37,
-            "points": 6,
             "highlight": null
           },
           {
@@ -66863,9 +66839,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 206,
-            "against": 189,
-            "diff": 17,
+            "for": 219,
+            "against": 204,
+            "diff": 15,
             "points": 4,
             "highlight": null
           },
@@ -66887,9 +66863,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 270,
-            "against": 266,
-            "diff": 4,
+            "for": 281,
+            "against": 278,
+            "diff": 3,
             "points": 5,
             "highlight": null
           },
@@ -66959,9 +66935,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 255,
-            "against": 267,
-            "diff": -12,
+            "for": 267,
+            "against": 278,
+            "diff": -11,
             "points": 4,
             "highlight": null
           },
@@ -66971,9 +66947,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 210,
-            "against": 224,
-            "diff": -14,
+            "for": 225,
+            "against": 237,
+            "diff": -12,
             "points": 3,
             "highlight": null
           },
@@ -67031,9 +67007,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 256,
-            "against": 307,
-            "diff": -51,
+            "for": 270,
+            "against": 328,
+            "diff": -58,
             "points": 2,
             "highlight": null
           }
