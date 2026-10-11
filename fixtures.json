@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:43:04+00:00",
+  "updated": "2026-10-11T14:51:52+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65930,18 +65930,6 @@
             "highlight": null
           },
           {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 4,
-            "win": 4,
-            "draw": null,
-            "loss": 0,
-            "for": 365,
-            "against": 347,
-            "diff": 18,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "TBB Trier",
             "played": 5,
             "win": 4,
@@ -65954,14 +65942,26 @@
             "highlight": null
           },
           {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 371,
+            "against": 356,
+            "diff": 15,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 4,
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 283,
-            "against": 272,
-            "diff": 11,
+            "for": 294,
+            "against": 281,
+            "diff": 13,
             "points": 6,
             "highlight": null
           },
@@ -66002,6 +66002,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 421,
+            "against": 433,
+            "diff": -12,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 5,
             "win": 3,
@@ -66035,18 +66047,6 @@
             "against": 446,
             "diff": 2,
             "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 412,
-            "against": 427,
-            "diff": -15,
-            "points": 6,
             "highlight": null
           },
           {
@@ -66115,9 +66115,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 333,
-            "against": 366,
-            "diff": -33,
+            "for": 342,
+            "against": 377,
+            "diff": -35,
             "points": 4,
             "highlight": null
           },
@@ -67075,9 +67075,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 209,
-            "against": 189,
-            "diff": 20,
+            "for": 215,
+            "against": 193,
+            "diff": 22,
             "points": 4,
             "highlight": null
           },
@@ -67123,9 +67123,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 237,
-            "against": 238,
-            "diff": -1,
+            "for": 241,
+            "against": 244,
+            "diff": -3,
             "points": 4,
             "highlight": null
           },
@@ -67286,9 +67286,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 220,
-            "against": 215,
-            "diff": 5,
+            "for": 226,
+            "against": 219,
+            "diff": 7,
             "points": 3,
             "highlight": null
           },
@@ -67329,39 +67329,39 @@
             "highlight": null
           },
           {
+            "team": "Paris Basketball",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 178,
+            "against": 167,
+            "diff": 11,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Saint Quentin",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 228,
-            "against": 238,
-            "diff": -10,
+            "for": 232,
+            "against": 244,
+            "diff": -12,
             "points": 3,
             "highlight": null
           },
           {
             "team": "Strasbourg",
             "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 177,
-            "against": 173,
-            "diff": 4,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 166,
-            "against": 165,
-            "diff": 1,
-            "points": 2,
+            "for": 179,
+            "against": 185,
+            "diff": -6,
+            "points": 3,
             "highlight": null
           },
           {
