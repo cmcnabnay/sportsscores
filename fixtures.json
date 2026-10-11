@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T15:54:45+00:00",
+  "updated": "2026-10-11T16:01:59+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65665,6 +65665,18 @@
             "highlight": null
           },
           {
+            "team": "Sale Sharks",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 73,
+            "against": 75,
+            "diff": -2,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Exeter Chiefs",
             "played": 3,
             "win": 1,
@@ -65674,18 +65686,6 @@
             "against": 113,
             "diff": -21,
             "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Sale Sharks",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 45,
-            "against": 51,
-            "diff": -6,
-            "points": 4,
             "highlight": null
           },
           {
@@ -65702,13 +65702,13 @@
           },
           {
             "team": "Harlequins",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 17,
-            "against": 81,
-            "diff": -64,
+            "loss": 3,
+            "for": 41,
+            "against": 109,
+            "diff": -68,
             "points": 0,
             "highlight": null
           }
@@ -65948,9 +65948,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 326,
-            "against": 317,
-            "diff": 9,
+            "for": 335,
+            "against": 325,
+            "diff": 10,
             "points": 6,
             "highlight": null
           },
@@ -66116,9 +66116,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 378,
-            "against": 409,
-            "diff": -31,
+            "for": 386,
+            "against": 418,
+            "diff": -32,
             "points": 4,
             "highlight": null
           },
@@ -66218,10 +66218,10 @@
             "played": 13,
             "win": 8,
             "draw": null,
-            "loss": 5,
-            "for": 45,
+            "loss": 4,
+            "for": 47,
             "against": 41,
-            "diff": 4,
+            "diff": 6,
             "points": 16,
             "highlight": null
           },
@@ -66240,13 +66240,13 @@
           {
             "team": "Dynamo Moscow",
             "played": 16,
-            "win": 6,
+            "win": 5,
             "draw": null,
             "loss": 8,
             "for": 30,
-            "against": 42,
-            "diff": -12,
-            "points": 14,
+            "against": 44,
+            "diff": -14,
+            "points": 12,
             "highlight": null
           },
           {
@@ -67148,9 +67148,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 219,
+            "for": 223,
             "against": 248,
-            "diff": -29,
+            "diff": -25,
             "points": 4,
             "highlight": null
           },
@@ -67168,13 +67168,25 @@
           },
           {
             "team": "Scaligera Basket Verona",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 168,
-            "against": 173,
-            "diff": -5,
+            "against": 175,
+            "diff": -7,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Scafati",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 142,
+            "against": 172,
+            "diff": -30,
             "points": 2,
             "highlight": null
           },
@@ -67197,8 +67209,8 @@
             "draw": null,
             "loss": 3,
             "for": 218,
-            "against": 230,
-            "diff": -12,
+            "against": 234,
+            "diff": -16,
             "points": 0,
             "highlight": null
           },
@@ -67225,18 +67237,6 @@
             "diff": -28,
             "points": 0,
             "highlight": null
-          },
-          {
-            "team": "Scafati",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 140,
-            "against": 172,
-            "diff": -32,
-            "points": 0,
-            "highlight": null
           }
         ],
         "legend": {}
@@ -67251,9 +67251,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 268,
-            "against": 253,
-            "diff": 15,
+            "for": 275,
+            "against": 256,
+            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -67336,8 +67336,20 @@
             "draw": null,
             "loss": 1,
             "for": 230,
-            "against": 204,
-            "diff": 26,
+            "against": 210,
+            "diff": 20,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Strasbourg",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 222,
+            "against": 237,
+            "diff": -15,
             "points": 3,
             "highlight": null
           },
@@ -67347,22 +67359,10 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 266,
-            "against": 286,
-            "diff": -20,
+            "for": 269,
+            "against": 293,
+            "diff": -24,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Strasbourg",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 216,
-            "against": 237,
-            "diff": -21,
-            "points": 3,
             "highlight": null
           },
           {
