@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T02:03:07+00:00",
+  "updated": "2026-10-11T02:14:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21770,12 +21770,12 @@
       "league": "cfl-2026",
       "home": "Winnipeg Blue Bombers",
       "away": "Calgary Stampeders",
-      "score": null,
+      "score": "33-28",
       "date": "2026-10-10",
       "time": "18:00",
       "utc": "2026-10-10T23:00:00+00:00",
       "venue": "Princess Auto Stadium",
-      "attendance": null
+      "attendance": "32343"
     },
     {
       "league": "bbl-2026-27",
@@ -63388,27 +63388,27 @@
             "highlight": null
           },
           {
-            "team": "Calgary Stampeders",
+            "team": "Winnipeg Blue Bombers",
             "played": 16,
             "win": 8,
             "draw": null,
             "loss": 8,
-            "for": 572,
-            "against": 541,
+            "for": 414,
+            "against": 447,
             "diff": null,
             "points": 16,
             "highlight": null
           },
           {
-            "team": "Winnipeg Blue Bombers",
-            "played": 15,
-            "win": 7,
+            "team": "Calgary Stampeders",
+            "played": 17,
+            "win": 8,
             "draw": null,
-            "loss": 8,
-            "for": 381,
-            "against": 419,
+            "loss": 9,
+            "for": 600,
+            "against": 574,
             "diff": null,
-            "points": 14,
+            "points": 16,
             "highlight": null
           }
         ],
