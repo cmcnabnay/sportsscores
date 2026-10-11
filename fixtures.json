@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T18:14:31+00:00",
+  "updated": "2026-10-11T18:26:09+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66928,6 +66928,18 @@
             "highlight": null
           },
           {
+            "team": "Barcelona",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 281,
+            "against": 259,
+            "diff": 22,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "Bilbao Basket",
             "played": 3,
             "win": 2,
@@ -66935,18 +66947,6 @@
             "loss": 1,
             "for": 304,
             "against": 283,
-            "diff": 21,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Barcelona",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 268,
-            "against": 247,
             "diff": 21,
             "points": 5,
             "highlight": null
@@ -67000,18 +67000,6 @@
             "highlight": null
           },
           {
-            "team": "Valencia Basket",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 243,
-            "against": 242,
-            "diff": 1,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Unicaja Málaga",
             "played": 3,
             "win": 1,
@@ -67020,6 +67008,18 @@
             "for": 254,
             "against": 253,
             "diff": 1,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Valencia Basket",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 255,
+            "against": 255,
+            "diff": 0,
             "points": 3,
             "highlight": null
           },
@@ -67132,9 +67132,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 237,
-            "against": 215,
-            "diff": 22,
+            "for": 244,
+            "against": 226,
+            "diff": 18,
             "points": 6,
             "highlight": null
           },
@@ -67156,9 +67156,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 248,
-            "against": 223,
-            "diff": 25,
+            "for": 259,
+            "against": 230,
+            "diff": 29,
             "points": 4,
             "highlight": null
           },
@@ -67228,9 +67228,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 295,
+            "for": 297,
             "against": 275,
-            "diff": 20,
+            "diff": 22,
             "points": 2,
             "highlight": null
           },
@@ -67253,8 +67253,8 @@
             "draw": null,
             "loss": 2,
             "for": 260,
-            "against": 285,
-            "diff": -25,
+            "against": 287,
+            "diff": -27,
             "points": 2,
             "highlight": null
           },
@@ -67331,9 +67331,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 225,
-            "against": 200,
-            "diff": 25,
+            "for": 236,
+            "against": 213,
+            "diff": 23,
             "points": 4,
             "highlight": null
           },
@@ -67355,9 +67355,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 224,
-            "against": 220,
-            "diff": 4,
+            "for": 237,
+            "against": 231,
+            "diff": 6,
             "points": 3,
             "highlight": null
           },
