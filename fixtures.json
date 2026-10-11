@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T07:15:56+00:00",
+  "updated": "2026-10-11T07:27:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -67244,6 +67244,18 @@
       "LNB Élite": {
         "rows": [
           {
+            "team": "Le Mans",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 177,
+            "against": 168,
+            "diff": 9,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "ASVEL Villeurbanne",
             "played": 2,
             "win": 2,
@@ -67253,6 +67265,18 @@
             "against": 150,
             "diff": 17,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Dijon",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 278,
+            "against": 229,
+            "diff": 49,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67304,6 +67328,30 @@
             "highlight": null
           },
           {
+            "team": "Paris Basketball",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 149,
+            "against": 147,
+            "diff": 2,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Saint Quentin",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 181,
+            "against": 195,
+            "diff": -14,
+            "points": 1,
+            "highlight": null
+          },
+          {
             "team": "Strasbourg",
             "played": 2,
             "win": 1,
@@ -67312,6 +67360,78 @@
             "for": 159,
             "against": 156,
             "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 236,
+            "against": 225,
+            "diff": 11,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 262,
+            "against": 265,
+            "diff": -3,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Boulazac",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 216,
+            "against": 225,
+            "diff": -9,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Gravelines",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 235,
+            "against": 274,
+            "diff": -39,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Nancy",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 201,
+            "against": 243,
+            "diff": -42,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Pau-orthez",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 204,
+            "against": 252,
+            "diff": -48,
             "points": 2,
             "highlight": null
           }
