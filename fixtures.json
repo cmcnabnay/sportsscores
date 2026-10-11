@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T09:57:44+00:00",
+  "updated": "2026-10-11T10:08:48+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66847,14 +66847,14 @@
           },
           {
             "team": "Real Madrid",
-            "played": 2,
+            "played": 3,
             "win": 2,
             "draw": null,
             "loss": 0,
-            "for": 201,
-            "against": 194,
+            "for": 209,
+            "against": 202,
             "diff": 7,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66866,6 +66866,18 @@
             "for": 255,
             "against": 248,
             "diff": 7,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Monbus Obradoiro",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 203,
+            "against": 199,
+            "diff": 4,
             "points": 5,
             "highlight": null
           },
@@ -66930,18 +66942,6 @@
             "highlight": null
           },
           {
-            "team": "Monbus Obradoiro",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 197,
-            "against": 197,
-            "diff": 0,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "UCAM Murcia",
             "played": 2,
             "win": 1,
@@ -66954,18 +66954,6 @@
             "highlight": null
           },
           {
-            "team": "ICG Forca Lleida",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 186,
-            "against": 194,
-            "diff": -8,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Unicaja Málaga",
             "played": 3,
             "win": 1,
@@ -66975,6 +66963,18 @@
             "against": 253,
             "diff": 1,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "ICG Forca Lleida",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 188,
+            "against": 200,
+            "diff": -12,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67027,14 +67027,14 @@
           },
           {
             "team": "Baxi Manresa",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 187,
-            "against": 208,
+            "for": 195,
+            "against": 216,
             "diff": -21,
-            "points": 1,
+            "points": 2,
             "highlight": null
           }
         ],
