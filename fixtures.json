@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:14:07+00:00",
+  "updated": "2026-10-11T14:22:49+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65946,9 +65946,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 334,
-            "against": 320,
-            "diff": 14,
+            "for": 340,
+            "against": 331,
+            "diff": 9,
             "points": 7,
             "highlight": null
           },
@@ -66006,9 +66006,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 385,
-            "against": 396,
-            "diff": -11,
+            "for": 396,
+            "against": 402,
+            "diff": -6,
             "points": 7,
             "highlight": null
           },
@@ -66218,8 +66218,8 @@
             "draw": null,
             "loss": 5,
             "for": 44,
-            "against": 39,
-            "diff": 5,
+            "against": 40,
+            "diff": 4,
             "points": 16,
             "highlight": null
           },
@@ -66241,9 +66241,9 @@
             "win": 6,
             "draw": null,
             "loss": 8,
-            "for": 28,
+            "for": 29,
             "against": 41,
-            "diff": -13,
+            "diff": -12,
             "points": 14,
             "highlight": null
           },
@@ -67069,18 +67069,6 @@
             "highlight": null
           },
           {
-            "team": "Treviso Basket",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 224,
-            "against": 206,
-            "diff": 18,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Amici Pallacanestro Udinese",
             "played": 3,
             "win": 2,
@@ -67105,6 +67093,18 @@
             "highlight": null
           },
           {
+            "team": "Treviso Basket",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 230,
+            "against": 214,
+            "diff": 16,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Dolomiti Energia Trento",
             "played": 3,
             "win": 2,
@@ -67113,6 +67113,18 @@
             "for": 247,
             "against": 237,
             "diff": 10,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Olimpia Milano",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 185,
+            "against": 182,
+            "diff": 3,
             "points": 4,
             "highlight": null
           },
@@ -67137,18 +67149,6 @@
             "for": 202,
             "against": 179,
             "diff": 23,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Olimpia Milano",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 177,
-            "against": 176,
-            "diff": 1,
             "points": 2,
             "highlight": null
           },
@@ -67285,9 +67285,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 187,
-            "against": 195,
-            "diff": -8,
+            "for": 201,
+            "against": 201,
+            "diff": 0,
             "points": 3,
             "highlight": null
           },
@@ -67333,9 +67333,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 208,
-            "against": 205,
-            "diff": 3,
+            "for": 214,
+            "against": 219,
+            "diff": -5,
             "points": 3,
             "highlight": null
           },
@@ -67877,14 +67877,26 @@
             "highlight": null
           },
           {
-            "team": "Krefeld Pinguine",
-            "played": 7,
-            "win": 4,
+            "team": "Augsburger Panther",
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 23,
-            "against": 18,
+            "for": 27,
+            "against": 22,
             "diff": 5,
+            "points": 14,
+            "highlight": null
+          },
+          {
+            "team": "Krefeld Pinguine",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 24,
+            "against": 20,
+            "diff": 4,
             "points": 12,
             "highlight": null
           },
@@ -67910,18 +67922,6 @@
             "against": 21,
             "diff": 0,
             "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Augsburger Panther",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 25,
-            "against": 21,
-            "diff": 4,
-            "points": 11,
             "highlight": null
           },
           {
