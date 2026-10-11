@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T15:14:18+00:00",
+  "updated": "2026-10-11T15:24:00+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65947,9 +65947,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 385,
-            "against": 373,
-            "diff": 12,
+            "for": 390,
+            "against": 383,
+            "diff": 7,
             "points": 7,
             "highlight": null
           },
@@ -65995,9 +65995,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 438,
-            "against": 447,
-            "diff": -9,
+            "for": 448,
+            "against": 452,
+            "diff": -4,
             "points": 7,
             "highlight": null
           },
@@ -66019,9 +66019,9 @@
             "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 302,
-            "against": 300,
-            "diff": 2,
+            "for": 311,
+            "against": 306,
+            "diff": 5,
             "points": 5,
             "highlight": null
           },
@@ -66067,9 +66067,9 @@
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 361,
-            "against": 385,
-            "diff": -24,
+            "for": 367,
+            "against": 394,
+            "diff": -27,
             "points": 5,
             "highlight": null
           },
@@ -66823,6 +66823,18 @@
       "ACB": {
         "rows": [
           {
+            "team": "Baskonia Vitoria",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 239,
+            "against": 193,
+            "diff": 46,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Real Madrid",
             "played": 3,
             "win": 3,
@@ -66831,18 +66843,6 @@
             "for": 321,
             "against": 277,
             "diff": 44,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Baskonia Vitoria",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 231,
-            "against": 189,
-            "diff": 42,
             "points": 6,
             "highlight": null
           },
@@ -67008,9 +67008,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 118,
-            "against": 125,
-            "diff": -7,
+            "for": 122,
+            "against": 133,
+            "diff": -11,
             "points": 1,
             "highlight": null
           },
@@ -67058,26 +67058,26 @@
             "highlight": null
           },
           {
-            "team": "Napoli Basket",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 202,
-            "against": 181,
-            "diff": 21,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Olimpia Milano",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 222,
-            "against": 202,
-            "diff": 20,
+            "for": 233,
+            "against": 211,
+            "diff": 22,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Napoli Basket",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 208,
+            "against": 187,
+            "diff": 21,
             "points": 4,
             "highlight": null
           },
@@ -67123,9 +67123,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 250,
-            "against": 251,
-            "diff": -1,
+            "for": 259,
+            "against": 262,
+            "diff": -3,
             "points": 4,
             "highlight": null
           },
@@ -67154,18 +67154,6 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Reggiana",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 191,
-            "against": 195,
-            "diff": -4,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Scaligera Basket Verona",
             "played": 2,
             "win": 1,
@@ -67183,8 +67171,8 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 170,
-            "against": 179,
+            "for": 176,
+            "against": 185,
             "diff": -9,
             "points": 2,
             "highlight": null
@@ -67194,10 +67182,10 @@
             "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 184,
-            "against": 221,
-            "diff": -37,
+            "loss": 1,
+            "for": 196,
+            "against": 226,
+            "diff": -30,
             "points": 2,
             "highlight": null
           },
@@ -67210,6 +67198,18 @@
             "for": 245,
             "against": 255,
             "diff": -10,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Reggiana",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 196,
+            "against": 207,
+            "diff": -11,
             "points": 0,
             "highlight": null
           },
@@ -67250,9 +67250,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 241,
-            "against": 223,
-            "diff": 18,
+            "for": 246,
+            "against": 233,
+            "diff": 13,
             "points": 4,
             "highlight": null
           },
@@ -67334,9 +67334,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 201,
+            "for": 210,
             "against": 185,
-            "diff": 16,
+            "diff": 25,
             "points": 3,
             "highlight": null
           },
@@ -67346,9 +67346,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 236,
-            "against": 259,
-            "diff": -23,
+            "for": 246,
+            "against": 264,
+            "diff": -18,
             "points": 2,
             "highlight": null
           },
@@ -67359,8 +67359,8 @@
             "draw": null,
             "loss": 2,
             "for": 197,
-            "against": 208,
-            "diff": -11,
+            "against": 217,
+            "diff": -20,
             "points": 3,
             "highlight": null
           },
