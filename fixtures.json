@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T19:27:14+00:00",
+  "updated": "2026-10-11T19:39:35+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22004,7 +22004,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Saint Quentin",
       "away": "Le Mans",
-      "score": "88-98",
+      "score": "87-98",
       "date": "2026-10-11",
       "time": "14:00",
       "utc": "2026-10-11T14:00:00+00:00",
@@ -22159,7 +22159,7 @@
       "league": "lega-a-2026-27",
       "home": "Reyer Venezia",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "86-93",
       "date": "2026-10-11",
       "time": "17:00",
       "utc": "2026-10-11T17:00:00+00:00",
@@ -22170,7 +22170,7 @@
       "league": "lnb-elite-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Chorale de Roanne",
-      "score": null,
+      "score": "96-77",
       "date": "2026-10-11",
       "time": "17:00",
       "utc": "2026-10-11T17:00:00+00:00",
@@ -22181,7 +22181,7 @@
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Straubing Tigers",
-      "score": null,
+      "score": "2-1",
       "date": "2026-10-11",
       "time": "17:00",
       "utc": "2026-10-11T17:00:00+00:00",
@@ -28041,6 +28041,28 @@
       "attendance": null
     },
     {
+      "league": "lega-a-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Pallacanestro Trieste",
+      "score": null,
+      "date": "2026-11-02",
+      "time": "19:00",
+      "utc": "2026-11-02T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Pallacanestro Cantù",
+      "away": "Olimpia Milano",
+      "score": null,
+      "date": "2026-11-02",
+      "time": "19:30",
+      "utc": "2026-11-02T19:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Rilski Sportist",
       "away": "Kolossos Rhodes",
@@ -29265,6 +29287,17 @@
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Hamburg Towers",
+      "score": null,
+      "date": "2026-11-09",
+      "time": "19:00",
+      "utc": "2026-11-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Scaligera Basket Verona",
       "score": null,
       "date": "2026-11-09",
       "time": "19:00",
@@ -35304,6 +35337,17 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Brose Bamberg",
+      "score": null,
+      "date": "2026-12-07",
+      "time": "19:00",
+      "utc": "2026-12-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "lega-a-2026-27",
+      "home": "Treviso Basket",
+      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-12-07",
       "time": "19:00",
