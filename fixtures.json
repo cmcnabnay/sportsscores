@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T16:01:59+00:00",
+  "updated": "2026-10-11T16:13:29+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65948,9 +65948,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 335,
-            "against": 325,
-            "diff": 10,
+            "for": 344,
+            "against": 327,
+            "diff": 17,
             "points": 6,
             "highlight": null
           },
@@ -66116,9 +66116,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 386,
-            "against": 418,
-            "diff": -32,
+            "for": 388,
+            "against": 427,
+            "diff": -39,
             "points": 4,
             "highlight": null
           },
@@ -66829,9 +66829,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 261,
-            "against": 214,
-            "diff": 47,
+            "for": 267,
+            "against": 218,
+            "diff": 49,
             "points": 6,
             "highlight": null
           },
@@ -66872,6 +66872,18 @@
             "highlight": null
           },
           {
+            "team": "San Pablo Burgos",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 208,
+            "against": 193,
+            "diff": 15,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Casademont Zaragoza",
             "played": 3,
             "win": 2,
@@ -66908,30 +66920,6 @@
             "highlight": null
           },
           {
-            "team": "Bilbao Basket",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 208,
-            "against": 196,
-            "diff": 12,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "San Pablo Burgos",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 191,
-            "against": 179,
-            "diff": 12,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Valencia Basket",
             "played": 2,
             "win": 1,
@@ -66941,6 +66929,18 @@
             "against": 187,
             "diff": 10,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Bilbao Basket",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 222,
+            "against": 213,
+            "diff": 9,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67004,18 +67004,6 @@
             "highlight": null
           },
           {
-            "team": "Joventut de Badalona",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 143,
-            "against": 155,
-            "diff": -12,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "MoraBanc Andorra",
             "played": 2,
             "win": 0,
@@ -67024,6 +67012,18 @@
             "for": 169,
             "against": 182,
             "diff": -13,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Joventut de Badalona",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 147,
+            "against": 161,
+            "diff": -14,
             "points": 1,
             "highlight": null
           },
@@ -67052,9 +67052,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 242,
-            "against": 209,
-            "diff": 33,
+            "for": 250,
+            "against": 213,
+            "diff": 37,
             "points": 6,
             "highlight": null
           },
@@ -67143,18 +67143,6 @@
             "highlight": null
           },
           {
-            "team": "Derthona Basket Tortona",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 223,
-            "against": 248,
-            "diff": -25,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "BC Roma SPQR",
             "played": 2,
             "win": 1,
@@ -67167,14 +67155,26 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Reggiana",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 231,
+            "against": 237,
+            "diff": -6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Scaligera Basket Verona",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 168,
-            "against": 175,
-            "diff": -7,
+            "for": 179,
+            "against": 187,
+            "diff": -8,
             "points": 2,
             "highlight": null
           },
@@ -67184,9 +67184,21 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 142,
-            "against": 172,
-            "diff": -30,
+            "for": 154,
+            "against": 183,
+            "diff": -29,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Derthona Basket Tortona",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 226,
+            "against": 261,
+            "diff": -35,
             "points": 2,
             "highlight": null
           },
@@ -67203,26 +67215,14 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Reggiana",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 3,
-            "for": 218,
-            "against": 234,
-            "diff": -16,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Cantù",
             "played": 3,
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 198,
-            "against": 219,
-            "diff": -21,
+            "for": 202,
+            "against": 227,
+            "diff": -25,
             "points": 0,
             "highlight": null
           },
