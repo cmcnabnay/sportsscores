@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T12:11:11+00:00",
+  "updated": "2026-10-11T12:22:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21880,7 +21880,7 @@
       "league": "liga-acb-2026-27",
       "home": "Real Madrid",
       "away": "Baxi Manresa",
-      "score": null,
+      "score": "120-83",
       "date": "2026-10-11",
       "time": "10:00",
       "utc": "2026-10-11T10:00:00+00:00",
@@ -21891,7 +21891,7 @@
       "league": "liga-acb-2026-27",
       "home": "Monbus Obradoiro",
       "away": "ICG Forca Lleida",
-      "score": null,
+      "score": "91-89",
       "date": "2026-10-11",
       "time": "10:00",
       "utc": "2026-10-11T10:00:00+00:00",
@@ -66361,6 +66361,18 @@
             "highlight": null
           },
           {
+            "team": "Admiral Vladivostok",
+            "played": 14,
+            "win": 5,
+            "draw": null,
+            "loss": 6,
+            "for": 33,
+            "against": 36,
+            "diff": -3,
+            "points": 13,
+            "highlight": null
+          },
+          {
             "team": "Avangard Omsk",
             "played": 13,
             "win": 6,
@@ -66382,6 +66394,18 @@
             "against": 41,
             "diff": -11,
             "points": 11,
+            "highlight": null
+          },
+          {
+            "team": "Traktor Chelyabinsk",
+            "played": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 8,
+            "for": 24,
+            "against": 33,
+            "diff": -9,
+            "points": 10,
             "highlight": null
           }
         ],
@@ -66839,9 +66863,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 230,
-            "against": 217,
-            "diff": 13,
+            "for": 240,
+            "against": 221,
+            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -66930,18 +66954,6 @@
             "highlight": null
           },
           {
-            "team": "UCAM Murcia",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 238,
-            "against": 248,
-            "diff": -10,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "ICG Forca Lleida",
             "played": 3,
             "win": 1,
@@ -66951,6 +66963,18 @@
             "against": 285,
             "diff": -10,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "UCAM Murcia",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 242,
+            "against": 258,
+            "diff": -16,
+            "points": 3,
             "highlight": null
           },
           {
