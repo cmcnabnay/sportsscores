@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:51:52+00:00",
+  "updated": "2026-10-11T15:02:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65930,6 +65930,18 @@
             "highlight": null
           },
           {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 4,
+            "win": 4,
+            "draw": null,
+            "loss": 0,
+            "for": 381,
+            "against": 363,
+            "diff": 18,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "TBB Trier",
             "played": 5,
             "win": 4,
@@ -65939,30 +65951,6 @@
             "against": 436,
             "diff": 64,
             "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 371,
-            "against": 356,
-            "diff": 15,
-            "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 294,
-            "against": 281,
-            "diff": 13,
-            "points": 6,
             "highlight": null
           },
           {
@@ -66002,18 +65990,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 421,
-            "against": 433,
-            "diff": -12,
-            "points": 7,
-            "highlight": null
-          },
-          {
             "team": "Baskets Oldenburg",
             "played": 5,
             "win": 3,
@@ -66023,6 +65999,18 @@
             "against": 423,
             "diff": -37,
             "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Skyliners Frankfurt",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 296,
+            "against": 295,
+            "diff": 1,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66050,6 +66038,18 @@
             "highlight": null
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 428,
+            "against": 443,
+            "diff": -15,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 5,
             "win": 2,
@@ -66059,6 +66059,18 @@
             "against": 431,
             "diff": -21,
             "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 356,
+            "against": 379,
+            "diff": -23,
+            "points": 5,
             "highlight": null
           },
           {
@@ -66107,18 +66119,6 @@
             "against": 460,
             "diff": -22,
             "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Hamburg Towers",
-            "played": 5,
-            "win": 1,
-            "draw": null,
-            "loss": 4,
-            "for": 342,
-            "against": 377,
-            "diff": -35,
-            "points": 4,
             "highlight": null
           },
           {
@@ -66835,18 +66835,6 @@
             "highlight": null
           },
           {
-            "team": "Baskonia Vitoria",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 216,
-            "against": 175,
-            "diff": 41,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Breogán",
             "played": 3,
             "win": 3,
@@ -66856,6 +66844,18 @@
             "against": 291,
             "diff": 35,
             "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Baskonia Vitoria",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 216,
+            "against": 175,
+            "diff": 41,
+            "points": 5,
             "highlight": null
           },
           {
@@ -67004,14 +67004,14 @@
           },
           {
             "team": "Joventut de Badalona",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
             "loss": 1,
             "for": 104,
             "against": 110,
             "diff": -6,
-            "points": 0,
+            "points": 1,
             "highlight": null
           },
           {
@@ -67334,8 +67334,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 178,
-            "against": 167,
+            "for": 192,
+            "against": 181,
             "diff": 11,
             "points": 3,
             "highlight": null
@@ -67358,8 +67358,8 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 179,
-            "against": 185,
+            "for": 193,
+            "against": 199,
             "diff": -6,
             "points": 3,
             "highlight": null
@@ -67926,6 +67926,18 @@
             "highlight": null
           },
           {
+            "team": "Löwen Frankfurt",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 19,
+            "against": 18,
+            "diff": 1,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Kölner Haie",
             "played": 7,
             "win": 3,
@@ -67951,26 +67963,14 @@
           },
           {
             "team": "ERC Ingolstadt",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 19,
-            "against": 25,
-            "diff": -6,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Löwen Frankfurt",
-            "played": 7,
-            "win": 2,
-            "draw": null,
             "loss": 5,
-            "for": 16,
-            "against": 16,
-            "diff": 0,
-            "points": 7,
+            "for": 21,
+            "against": 28,
+            "diff": -7,
+            "points": 9,
             "highlight": null
           },
           {
