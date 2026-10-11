@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T10:27:56+00:00",
+  "updated": "2026-10-11T10:38:25+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66851,9 +66851,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 240,
-            "against": 216,
-            "diff": 24,
+            "for": 249,
+            "against": 223,
+            "diff": 26,
             "points": 6,
             "highlight": null
           },
@@ -66870,14 +66870,26 @@
             "highlight": null
           },
           {
+            "team": "La Laguna Tenerife",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 165,
+            "against": 158,
+            "diff": 7,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Monbus Obradoiro",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 223,
-            "against": 221,
-            "diff": 2,
+            "for": 236,
+            "against": 233,
+            "diff": 3,
             "points": 5,
             "highlight": null
           },
@@ -66930,27 +66942,27 @@
             "highlight": null
           },
           {
-            "team": "La Laguna Tenerife",
-            "played": 2,
+            "team": "Unicaja Málaga",
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 160,
-            "against": 156,
-            "diff": 4,
-            "points": 2,
+            "loss": 2,
+            "for": 254,
+            "against": 253,
+            "diff": 1,
+            "points": 3,
             "highlight": null
           },
           {
             "team": "UCAM Murcia",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 177,
-            "against": 178,
-            "diff": -1,
-            "points": 2,
+            "loss": 2,
+            "for": 179,
+            "against": 183,
+            "diff": -4,
+            "points": 3,
             "highlight": null
           },
           {
@@ -66959,9 +66971,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 210,
-            "against": 220,
-            "diff": -10,
+            "for": 222,
+            "against": 233,
+            "diff": -11,
             "points": 4,
             "highlight": null
           },
@@ -67019,9 +67031,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 209,
-            "against": 247,
-            "diff": -38,
+            "for": 216,
+            "against": 256,
+            "diff": -40,
             "points": 2,
             "highlight": null
           }
