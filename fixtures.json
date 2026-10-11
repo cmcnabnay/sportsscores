@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T19:15:55+00:00",
+  "updated": "2026-10-11T19:27:14+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -67911,6 +67911,18 @@
             "highlight": null
           },
           {
+            "team": "Adler Mannheim",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 30,
+            "against": 24,
+            "diff": 6,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Nürnberg Ice Tigers",
             "played": 9,
             "win": 5,
@@ -67936,25 +67948,13 @@
           },
           {
             "team": "Straubing Tigers",
-            "played": 7,
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 31,
-            "against": 22,
-            "diff": 9,
-            "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Adler Mannheim",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 28,
-            "against": 23,
-            "diff": 5,
+            "loss": 3,
+            "for": 32,
+            "against": 24,
+            "diff": 8,
             "points": 14,
             "highlight": null
           },
