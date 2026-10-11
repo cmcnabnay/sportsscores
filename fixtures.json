@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T11:29:03+00:00",
+  "updated": "2026-10-11T11:40:05+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66839,8 +66839,8 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 287,
-            "against": 250,
+            "for": 300,
+            "against": 263,
             "diff": 37,
             "points": 6,
             "highlight": null
@@ -66863,9 +66863,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 204,
+            "for": 206,
             "against": 189,
-            "diff": 15,
+            "diff": 17,
             "points": 4,
             "highlight": null
           },
@@ -66887,9 +66887,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 260,
-            "against": 255,
-            "diff": 5,
+            "for": 270,
+            "against": 266,
+            "diff": 4,
             "points": 5,
             "highlight": null
           },
@@ -66954,27 +66954,27 @@
             "highlight": null
           },
           {
+            "team": "ICG Forca Lleida",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 255,
+            "against": 267,
+            "diff": -12,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "UCAM Murcia",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
             "for": 210,
-            "against": 222,
-            "diff": -12,
+            "against": 224,
+            "diff": -14,
             "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "ICG Forca Lleida",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 244,
-            "against": 257,
-            "diff": -13,
-            "points": 4,
             "highlight": null
           },
           {
@@ -67031,8 +67031,8 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 243,
-            "against": 294,
+            "for": 256,
+            "against": 307,
             "diff": -51,
             "points": 2,
             "highlight": null
