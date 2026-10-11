@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T14:33:06+00:00",
+  "updated": "2026-10-11T14:43:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21913,18 +21913,19 @@
       "league": "del-2026-27",
       "home": "ERC Ingolstadt",
       "away": "Löwen Frankfurt",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-11",
       "time": "12:00",
       "utc": "2026-10-11T12:00:00+00:00",
       "venue": "Saturn-Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "del-2026-27",
       "home": "Krefeld Pinguine",
       "away": "Augsburger Panther",
-      "score": null,
+      "score": "1-2",
       "date": "2026-10-11",
       "time": "12:00",
       "utc": "2026-10-11T12:00:00+00:00",
@@ -65460,7 +65461,7 @@
             "for": 144,
             "against": 135,
             "diff": 9,
-            "points": 17,
+            "points": 18,
             "highlight": null
           },
           {
@@ -65544,7 +65545,7 @@
             "for": 140,
             "against": 169,
             "diff": -29,
-            "points": 10,
+            "points": 11,
             "highlight": null
           },
           {
@@ -65929,6 +65930,18 @@
             "highlight": null
           },
           {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 4,
+            "win": 4,
+            "draw": null,
+            "loss": 0,
+            "for": 365,
+            "against": 347,
+            "diff": 18,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "TBB Trier",
             "played": 5,
             "win": 4,
@@ -65941,27 +65954,15 @@
             "highlight": null
           },
           {
-            "team": "Basketball Lowen Braunschweig",
+            "team": "Skyliners Frankfurt",
             "played": 4,
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 353,
-            "against": 340,
-            "diff": 13,
-            "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 269,
-            "against": 263,
-            "diff": 6,
-            "points": 4,
+            "for": 283,
+            "against": 272,
+            "diff": 11,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66001,18 +66002,6 @@
             "highlight": null
           },
           {
-            "team": "N.R. Ludwigsburg",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 405,
-            "against": 415,
-            "diff": -10,
-            "points": 7,
-            "highlight": null
-          },
-          {
             "team": "Baskets Oldenburg",
             "played": 5,
             "win": 3,
@@ -66046,6 +66035,18 @@
             "against": 446,
             "diff": 2,
             "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 412,
+            "against": 427,
+            "diff": -15,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66085,18 +66086,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 324,
-            "against": 352,
-            "diff": -28,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Bv Chemnitz 99",
             "played": 5,
             "win": 1,
@@ -66118,6 +66107,18 @@
             "against": 460,
             "diff": -22,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 333,
+            "against": 366,
+            "diff": -33,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67069,6 +67070,18 @@
             "highlight": null
           },
           {
+            "team": "Olimpia Milano",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 209,
+            "against": 189,
+            "diff": 20,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Amici Pallacanestro Udinese",
             "played": 3,
             "win": 2,
@@ -67093,18 +67106,6 @@
             "highlight": null
           },
           {
-            "team": "Olimpia Milano",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 197,
-            "against": 182,
-            "diff": 15,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Dolomiti Energia Trento",
             "played": 3,
             "win": 2,
@@ -67122,9 +67123,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 230,
-            "against": 226,
-            "diff": 4,
+            "for": 237,
+            "against": 238,
+            "diff": -1,
             "points": 4,
             "highlight": null
           },
@@ -67285,9 +67286,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 205,
-            "against": 206,
-            "diff": -1,
+            "for": 220,
+            "against": 215,
+            "diff": 5,
             "points": 3,
             "highlight": null
           },
@@ -67333,9 +67334,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 219,
-            "against": 223,
-            "diff": -4,
+            "for": 228,
+            "against": 238,
+            "diff": -10,
             "points": 3,
             "highlight": null
           },
@@ -67345,8 +67346,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 163,
-            "against": 159,
+            "for": 177,
+            "against": 173,
             "diff": 4,
             "points": 4,
             "highlight": null
@@ -67357,8 +67358,8 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 152,
-            "against": 151,
+            "for": 166,
+            "against": 165,
             "diff": 1,
             "points": 2,
             "highlight": null
