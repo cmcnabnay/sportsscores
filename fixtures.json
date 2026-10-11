@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T15:24:00+00:00",
+  "updated": "2026-10-11T15:33:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21792,12 +21792,13 @@
       "league": "bbl-2026-27",
       "home": "SC Rasta Vechta",
       "away": "Ratiopharm Ulm",
-      "score": "95-92",
+      "score": "97-92",
       "date": "2026-10-10",
       "time": "18:00",
       "utc": "2026-10-10T18:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "bbl-2026-27",
@@ -21936,7 +21937,7 @@
       "league": "bbl-2026-27",
       "home": "Basketball Lowen Braunschweig",
       "away": "N.R. Ludwigsburg",
-      "score": null,
+      "score": "98-107",
       "date": "2026-10-11",
       "time": "13:00",
       "utc": "2026-10-11T13:00:00+00:00",
@@ -27774,6 +27775,17 @@
       "attendance": null
     },
     {
+      "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Science City Jena",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "14:00",
+      "utc": "2026-11-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Maxima Roma",
@@ -28800,6 +28812,17 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Basketball Lowen Braunschweig",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "19:00",
+      "utc": "2026-11-07T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "SC Rasta Vechta",
+      "away": "Bv Chemnitz 99",
       "score": null,
       "date": "2026-11-07",
       "time": "19:00",
@@ -31995,6 +32018,17 @@
       "time": "14:15",
       "utc": "2026-11-21T14:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Science City Jena",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66823,18 +66857,6 @@
       "ACB": {
         "rows": [
           {
-            "team": "Baskonia Vitoria",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 239,
-            "against": 193,
-            "diff": 46,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Real Madrid",
             "played": 3,
             "win": 3,
@@ -66843,6 +66865,18 @@
             "for": 321,
             "against": 277,
             "diff": 44,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Baskonia Vitoria",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 240,
+            "against": 198,
+            "diff": 42,
             "points": 6,
             "highlight": null
           },
@@ -67008,9 +67042,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 122,
-            "against": 133,
-            "diff": -11,
+            "for": 127,
+            "against": 134,
+            "diff": -7,
             "points": 1,
             "highlight": null
           },
@@ -67046,6 +67080,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Napoli Basket",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 223,
+            "against": 194,
+            "diff": 29,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Virtus Bologna",
             "played": 2,
             "win": 2,
@@ -67063,21 +67109,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 233,
-            "against": 211,
-            "diff": 22,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Napoli Basket",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 208,
-            "against": 187,
-            "diff": 21,
+            "for": 243,
+            "against": 218,
+            "diff": 25,
             "points": 4,
             "highlight": null
           },
@@ -67123,9 +67157,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 259,
-            "against": 262,
-            "diff": -3,
+            "for": 266,
+            "against": 272,
+            "diff": -6,
             "points": 4,
             "highlight": null
           },
@@ -67154,6 +67188,18 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Reggiana",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 212,
+            "against": 214,
+            "diff": -2,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Scaligera Basket Verona",
             "played": 2,
             "win": 1,
@@ -67166,26 +67212,14 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Cantù",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 176,
-            "against": 185,
-            "diff": -9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Derthona Basket Tortona",
             "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 196,
-            "against": 226,
-            "diff": -30,
+            "loss": 2,
+            "for": 203,
+            "against": 242,
+            "diff": -39,
             "points": 2,
             "highlight": null
           },
@@ -67202,14 +67236,14 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Reggiana",
+            "team": "Pallacanestro Cantù",
             "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 196,
-            "against": 207,
-            "diff": -11,
+            "loss": 3,
+            "for": 183,
+            "against": 200,
+            "diff": -17,
             "points": 0,
             "highlight": null
           },
@@ -67250,9 +67284,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 246,
-            "against": 233,
-            "diff": 13,
+            "for": 253,
+            "against": 237,
+            "diff": 16,
             "points": 4,
             "highlight": null
           },
@@ -67346,9 +67380,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 246,
-            "against": 264,
-            "diff": -18,
+            "for": 250,
+            "against": 271,
+            "diff": -21,
             "points": 2,
             "highlight": null
           },
