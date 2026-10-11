@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T19:39:35+00:00",
+  "updated": "2026-10-11T19:45:52+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -28041,28 +28041,6 @@
       "attendance": null
     },
     {
-      "league": "lega-a-2026-27",
-      "home": "Virtus Bologna",
-      "away": "Pallacanestro Trieste",
-      "score": null,
-      "date": "2026-11-02",
-      "time": "19:00",
-      "utc": "2026-11-02T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Cantù",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2026-11-02",
-      "time": "19:30",
-      "utc": "2026-11-02T19:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Rilski Sportist",
       "away": "Kolossos Rhodes",
@@ -29287,17 +29265,6 @@
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Hamburg Towers",
-      "score": null,
-      "date": "2026-11-09",
-      "time": "19:00",
-      "utc": "2026-11-09T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Virtus Bologna",
-      "away": "Scaligera Basket Verona",
       "score": null,
       "date": "2026-11-09",
       "time": "19:00",
@@ -35337,17 +35304,6 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Brose Bamberg",
-      "score": null,
-      "date": "2026-12-07",
-      "time": "19:00",
-      "utc": "2026-12-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Treviso Basket",
-      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-12-07",
       "time": "19:00",
@@ -65043,6 +64999,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "San Lorenzo",
+            "played": 12,
+            "win": 4,
+            "draw": 2,
+            "loss": 6,
+            "for": 5,
+            "against": 11,
+            "diff": -6,
+            "points": 14,
+            "highlight": "transparent"
+          },
+          {
             "team": "Unión",
             "played": 12,
             "win": 4,
@@ -65056,25 +65024,13 @@
           },
           {
             "team": "Deportivo Riestra",
-            "played": 11,
+            "played": 12,
             "win": 2,
             "draw": 5,
-            "loss": 4,
+            "loss": 5,
             "for": 9,
-            "against": 11,
-            "diff": -2,
-            "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "San Lorenzo",
-            "played": 11,
-            "win": 3,
-            "draw": 2,
-            "loss": 6,
-            "for": 4,
-            "against": 11,
-            "diff": -7,
+            "against": 12,
+            "diff": -3,
             "points": 11,
             "highlight": "transparent"
           },
