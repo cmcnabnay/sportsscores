@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T00:09:56+00:00",
+  "updated": "2026-10-11T00:20:11+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65104,14 +65104,26 @@
             "highlight": "transparent"
           },
           {
+            "team": "Banfield",
+            "played": 12,
+            "win": 3,
+            "draw": 4,
+            "loss": 5,
+            "for": 14,
+            "against": 18,
+            "diff": -4,
+            "points": 13,
+            "highlight": "transparent"
+          },
+          {
             "team": "Tigre",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": 3,
-            "loss": 5,
-            "for": 10,
-            "against": 11,
-            "diff": -1,
+            "loss": 6,
+            "for": 11,
+            "against": 13,
+            "diff": -2,
             "points": 12,
             "highlight": "transparent"
           },
@@ -65125,18 +65137,6 @@
             "against": 17,
             "diff": -4,
             "points": 11,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Banfield",
-            "played": 11,
-            "win": 2,
-            "draw": 4,
-            "loss": 5,
-            "for": 12,
-            "against": 17,
-            "diff": -5,
-            "points": 10,
             "highlight": "transparent"
           },
           {
