@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T18:26:09+00:00",
+  "updated": "2026-10-11T18:38:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66928,18 +66928,6 @@
             "highlight": null
           },
           {
-            "team": "Barcelona",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 281,
-            "against": 259,
-            "diff": 22,
-            "points": 5,
-            "highlight": null
-          },
-          {
             "team": "Bilbao Basket",
             "played": 3,
             "win": 2,
@@ -66948,6 +66936,18 @@
             "for": 304,
             "against": 283,
             "diff": 21,
+            "points": 5,
+            "highlight": null
+          },
+          {
+            "team": "Barcelona",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 292,
+            "against": 273,
+            "diff": 19,
             "points": 5,
             "highlight": null
           },
@@ -66988,6 +66988,18 @@
             "highlight": null
           },
           {
+            "team": "Valencia Basket",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 269,
+            "against": 266,
+            "diff": 3,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "San Pablo Burgos",
             "played": 3,
             "win": 1,
@@ -67008,18 +67020,6 @@
             "for": 254,
             "against": 253,
             "diff": 1,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 255,
-            "against": 255,
-            "diff": 0,
             "points": 3,
             "highlight": null
           },
@@ -67127,14 +67127,14 @@
             "highlight": null
           },
           {
-            "team": "Reyer Venezia",
+            "team": "Virtus Bologna",
             "played": 3,
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 244,
-            "against": 226,
-            "diff": 18,
+            "for": 270,
+            "against": 239,
+            "diff": 31,
             "points": 6,
             "highlight": null
           },
@@ -67151,18 +67151,6 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 259,
-            "against": 230,
-            "diff": 29,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Amici Pallacanestro Udinese",
             "played": 3,
             "win": 2,
@@ -67171,6 +67159,18 @@
             "for": 238,
             "against": 221,
             "diff": 17,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Reyer Venezia",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 253,
+            "against": 237,
+            "diff": 16,
             "points": 4,
             "highlight": null
           },
@@ -67331,8 +67331,8 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 236,
-            "against": 213,
+            "for": 238,
+            "against": 215,
             "diff": 23,
             "points": 4,
             "highlight": null
@@ -67355,8 +67355,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 237,
-            "against": 231,
+            "for": 239,
+            "against": 233,
             "diff": 6,
             "points": 3,
             "highlight": null
