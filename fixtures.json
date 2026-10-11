@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T17:45:50+00:00",
+  "updated": "2026-10-11T17:54:04+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -28041,28 +28041,6 @@
       "attendance": null
     },
     {
-      "league": "lega-a-2026-27",
-      "home": "Virtus Bologna",
-      "away": "Pallacanestro Trieste",
-      "score": null,
-      "date": "2026-11-02",
-      "time": "19:00",
-      "utc": "2026-11-02T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Pallacanestro Cantù",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2026-11-02",
-      "time": "19:30",
-      "utc": "2026-11-02T19:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Rilski Sportist",
       "away": "Kolossos Rhodes",
@@ -29287,17 +29265,6 @@
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Hamburg Towers",
-      "score": null,
-      "date": "2026-11-09",
-      "time": "19:00",
-      "utc": "2026-11-09T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Virtus Bologna",
-      "away": "Scaligera Basket Verona",
       "score": null,
       "date": "2026-11-09",
       "time": "19:00",
@@ -35337,17 +35304,6 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Brose Bamberg",
-      "score": null,
-      "date": "2026-12-07",
-      "time": "19:00",
-      "utc": "2026-12-07T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "lega-a-2026-27",
-      "home": "Treviso Basket",
-      "away": "Virtus Bologna",
       "score": null,
       "date": "2026-12-07",
       "time": "19:00",
@@ -66804,6 +66760,18 @@
             "highlight": null
           },
           {
+            "team": "Neptūnas",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 157,
+            "against": 169,
+            "diff": -12,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "JL Bourg",
             "played": 2,
             "win": 0,
@@ -66960,6 +66928,18 @@
             "highlight": null
           },
           {
+            "team": "Bilbao Basket",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 302,
+            "against": 283,
+            "diff": 19,
+            "points": 5,
+            "highlight": null
+          },
+          {
             "team": "La Laguna Tenerife",
             "played": 3,
             "win": 2,
@@ -67008,30 +66988,6 @@
             "highlight": null
           },
           {
-            "team": "Bilbao Basket",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 293,
-            "against": 281,
-            "diff": 12,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "San Pablo Burgos",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 276,
-            "against": 264,
-            "diff": 12,
-            "points": 3,
-            "highlight": null
-          },
-          {
             "team": "Barcelona",
             "played": 3,
             "win": 1,
@@ -67041,6 +66997,18 @@
             "against": 241,
             "diff": 11,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 278,
+            "against": 273,
+            "diff": 5,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67164,9 +67132,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 220,
-            "against": 198,
-            "diff": 22,
+            "for": 223,
+            "against": 200,
+            "diff": 23,
             "points": 6,
             "highlight": null
           },
@@ -67188,9 +67156,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 231,
-            "against": 206,
-            "diff": 25,
+            "for": 233,
+            "against": 209,
+            "diff": 24,
             "points": 4,
             "highlight": null
           },
@@ -67224,9 +67192,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 249,
-            "against": 249,
-            "diff": 0,
+            "for": 254,
+            "against": 255,
+            "diff": -1,
             "points": 4,
             "highlight": null
           },
@@ -67260,9 +67228,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 272,
-            "against": 256,
-            "diff": 16,
+            "for": 277,
+            "against": 259,
+            "diff": 18,
             "points": 2,
             "highlight": null
           },
@@ -67284,9 +67252,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 241,
-            "against": 262,
-            "diff": -21,
+            "for": 244,
+            "against": 267,
+            "diff": -23,
             "points": 2,
             "highlight": null
           },
@@ -67332,9 +67300,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 216,
-            "against": 253,
-            "diff": -37,
+            "for": 222,
+            "against": 258,
+            "diff": -36,
             "points": 0,
             "highlight": null
           }
@@ -67363,9 +67331,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 211,
-            "against": 181,
-            "diff": 30,
+            "for": 212,
+            "against": 184,
+            "diff": 28,
             "points": 4,
             "highlight": null
           },
@@ -67387,9 +67355,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 205,
-            "against": 206,
-            "diff": -1,
+            "for": 208,
+            "against": 207,
+            "diff": 1,
             "points": 3,
             "highlight": null
           },
