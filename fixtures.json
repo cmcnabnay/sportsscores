@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T16:43:39+00:00",
+  "updated": "2026-10-11T16:53:45+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66895,9 +66895,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 291,
-            "against": 239,
-            "diff": 52,
+            "for": 309,
+            "against": 248,
+            "diff": 61,
             "points": 6,
             "highlight": null
           },
@@ -66938,15 +66938,15 @@
             "highlight": null
           },
           {
-            "team": "Bilbao Basket",
+            "team": "San Pablo Burgos",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 250,
-            "against": 237,
+            "for": 236,
+            "against": 223,
             "diff": 13,
-            "points": 5,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66998,15 +66998,15 @@
             "highlight": null
           },
           {
-            "team": "San Pablo Burgos",
+            "team": "Bilbao Basket",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 232,
-            "against": 221,
+            "for": 252,
+            "against": 241,
             "diff": 11,
-            "points": 3,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67087,9 +67087,9 @@
             "win": 0,
             "draw": null,
             "loss": 2,
-            "for": 168,
-            "against": 185,
-            "diff": -17,
+            "for": 177,
+            "against": 203,
+            "diff": -26,
             "points": 1,
             "highlight": null
           },
@@ -67118,9 +67118,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 269,
+            "for": 281,
             "against": 235,
-            "diff": 34,
+            "diff": 46,
             "points": 6,
             "highlight": null
           },
@@ -67154,9 +67154,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 235,
-            "against": 206,
-            "diff": 29,
+            "for": 246,
+            "against": 216,
+            "diff": 30,
             "points": 4,
             "highlight": null
           },
@@ -67202,8 +67202,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 211,
-            "against": 211,
+            "for": 220,
+            "against": 220,
             "diff": 0,
             "points": 4,
             "highlight": null
@@ -67233,14 +67233,26 @@
             "highlight": null
           },
           {
+            "team": "Pallacanestro Reggiana",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 259,
+            "against": 265,
+            "diff": -6,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Derthona Basket Tortona",
             "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 249,
-            "against": 279,
-            "diff": -30,
+            "loss": 2,
+            "for": 254,
+            "against": 289,
+            "diff": -35,
             "points": 2,
             "highlight": null
           },
@@ -67257,26 +67269,14 @@
             "highlight": null
           },
           {
-            "team": "Pallacanestro Reggiana",
-            "played": 3,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 249,
-            "against": 260,
-            "diff": -11,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Cantù",
             "played": 3,
             "win": 0,
             "draw": null,
             "loss": 3,
             "for": 224,
-            "against": 246,
-            "diff": -22,
+            "against": 258,
+            "diff": -34,
             "points": 0,
             "highlight": null
           },
@@ -67286,9 +67286,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 191,
-            "against": 225,
-            "diff": -34,
+            "for": 201,
+            "against": 236,
+            "diff": -35,
             "points": 0,
             "highlight": null
           },
@@ -67298,8 +67298,8 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 178,
-            "against": 215,
+            "for": 187,
+            "against": 224,
             "diff": -37,
             "points": 0,
             "highlight": null
@@ -67898,26 +67898,38 @@
         "rows": [
           {
             "team": "Eisbären Berlin",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 28,
+            "for": 31,
             "against": 12,
-            "diff": 16,
-            "points": 17,
+            "diff": 19,
+            "points": 20,
             "highlight": null
           },
           {
             "team": "Nürnberg Ice Tigers",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 29,
+            "against": 23,
+            "diff": 6,
+            "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "EHC Red Bull München",
             "played": 8,
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 27,
-            "against": 19,
-            "diff": 8,
-            "points": 16,
+            "for": 25,
+            "against": 24,
+            "diff": 1,
+            "points": 15,
             "highlight": null
           },
           {
@@ -67981,14 +67993,14 @@
             "highlight": null
           },
           {
-            "team": "EHC Red Bull München",
-            "played": 7,
+            "team": "Kölner Haie",
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 21,
-            "against": 21,
-            "diff": 0,
+            "loss": 4,
+            "for": 32,
+            "against": 34,
+            "diff": -2,
             "points": 12,
             "highlight": null
           },
@@ -68005,30 +68017,6 @@
             "highlight": null
           },
           {
-            "team": "Kölner Haie",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 28,
-            "against": 32,
-            "diff": -4,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Pinguins Bremerhaven",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 13,
-            "against": 17,
-            "diff": -4,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "ERC Ingolstadt",
             "played": 8,
             "win": 3,
@@ -68041,14 +68029,26 @@
             "highlight": null
           },
           {
-            "team": "Schwenningen Wild Wings",
-            "played": 7,
-            "win": 2,
+            "team": "Pinguins Bremerhaven",
+            "played": 8,
+            "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 15,
-            "against": 30,
-            "diff": -15,
+            "for": 13,
+            "against": 20,
+            "diff": -7,
+            "points": 9,
+            "highlight": null
+          },
+          {
+            "team": "Schwenningen Wild Wings",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 18,
+            "against": 34,
+            "diff": -16,
             "points": 5,
             "highlight": null
           },
