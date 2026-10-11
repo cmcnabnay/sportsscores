@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T03:04:07+00:00",
+  "updated": "2026-10-11T03:15:38+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -21946,7 +21946,7 @@
       "league": "npc-2026",
       "home": "Canterbury",
       "away": "Waikato",
-      "score": null,
+      "score": "62-26",
       "date": "2026-10-11",
       "time": "13:35",
       "utc": "2026-10-11T00:35:00+00:00",
@@ -23351,6 +23351,17 @@
       "attendance": null
     },
     {
+      "league": "npc-2026",
+      "home": "Northland",
+      "away": "Otago",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "19:10",
+      "utc": "2026-10-16T06:10:00+00:00",
+      "venue": "Semenoff Stadium",
+      "attendance": null
+    },
+    {
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Winnipeg Blue Bombers",
@@ -23997,6 +24008,17 @@
       "time": "15:00",
       "utc": "2026-10-18T15:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "npc-2026",
+      "home": "Canterbury",
+      "away": "Taranaki",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "15:35",
+      "utc": "2026-10-18T02:35:00+00:00",
+      "venue": "One NZ Stadium",
       "attendance": null
     },
     {
