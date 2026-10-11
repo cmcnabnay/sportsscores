@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T11:55:18+00:00",
+  "updated": "2026-10-11T12:01:38+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66839,9 +66839,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 219,
-            "against": 204,
-            "diff": 15,
+            "for": 220,
+            "against": 210,
+            "diff": 10,
             "points": 4,
             "highlight": null
           },
@@ -66863,8 +66863,8 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 281,
-            "against": 278,
+            "for": 284,
+            "against": 281,
             "diff": 3,
             "points": 5,
             "highlight": null
@@ -66930,27 +66930,27 @@
             "highlight": null
           },
           {
-            "team": "ICG Forca Lleida",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 267,
-            "against": 278,
-            "diff": -11,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "UCAM Murcia",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 225,
-            "against": 237,
-            "diff": -12,
+            "for": 231,
+            "against": 238,
+            "diff": -7,
             "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "ICG Forca Lleida",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 270,
+            "against": 281,
+            "diff": -11,
+            "points": 4,
             "highlight": null
           },
           {
