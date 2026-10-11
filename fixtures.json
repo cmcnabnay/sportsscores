@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T13:52:24+00:00",
+  "updated": "2026-10-11T14:01:52+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65946,9 +65946,9 @@
             "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 329,
-            "against": 319,
-            "diff": 10,
+            "for": 334,
+            "against": 320,
+            "diff": 14,
             "points": 7,
             "highlight": null
           },
@@ -66006,9 +66006,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 384,
-            "against": 391,
-            "diff": -7,
+            "for": 385,
+            "against": 396,
+            "diff": -11,
             "points": 7,
             "highlight": null
           },
@@ -67070,7 +67070,7 @@
           },
           {
             "team": "Treviso Basket",
-            "played": 2,
+            "played": 3,
             "win": 2,
             "draw": null,
             "loss": 0,
@@ -67142,7 +67142,7 @@
           },
           {
             "team": "Olimpia Milano",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
             "loss": 1,
@@ -67244,18 +67244,6 @@
       "LNB Élite": {
         "rows": [
           {
-            "team": "Le Mans",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 177,
-            "against": 168,
-            "diff": 9,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "ASVEL Villeurbanne",
             "played": 2,
             "win": 2,
@@ -67289,6 +67277,18 @@
             "against": 162,
             "diff": 12,
             "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Le Mans",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 177,
+            "against": 168,
+            "diff": 9,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67340,18 +67340,6 @@
             "highlight": null
           },
           {
-            "team": "Saint Quentin",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 181,
-            "against": 195,
-            "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "Strasbourg",
             "played": 2,
             "win": 1,
@@ -67360,6 +67348,18 @@
             "for": 159,
             "against": 156,
             "diff": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Saint Quentin",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 181,
+            "against": 195,
+            "diff": -14,
             "points": 2,
             "highlight": null
           },
