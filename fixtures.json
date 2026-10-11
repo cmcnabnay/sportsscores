@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T10:38:25+00:00",
+  "updated": "2026-10-11T10:48:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66851,10 +66851,22 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 249,
-            "against": 223,
-            "diff": 26,
+            "for": 263,
+            "against": 232,
+            "diff": 31,
             "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "La Laguna Tenerife",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 176,
+            "against": 163,
+            "diff": 13,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66870,26 +66882,14 @@
             "highlight": null
           },
           {
-            "team": "La Laguna Tenerife",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 165,
-            "against": 158,
-            "diff": 7,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Monbus Obradoiro",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 236,
-            "against": 233,
-            "diff": 3,
+            "for": 244,
+            "against": 240,
+            "diff": 4,
             "points": 5,
             "highlight": null
           },
@@ -66959,9 +66959,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 179,
-            "against": 183,
-            "diff": -4,
+            "for": 184,
+            "against": 194,
+            "diff": -10,
             "points": 3,
             "highlight": null
           },
@@ -66971,9 +66971,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 222,
-            "against": 233,
-            "diff": -11,
+            "for": 229,
+            "against": 241,
+            "diff": -12,
             "points": 4,
             "highlight": null
           },
@@ -67031,9 +67031,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 216,
-            "against": 256,
-            "diff": -40,
+            "for": 225,
+            "against": 270,
+            "diff": -45,
             "points": 2,
             "highlight": null
           }
