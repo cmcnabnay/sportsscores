@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T03:41:12+00:00",
+  "updated": "2026-10-12T03:52:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65275,6 +65275,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sochi",
+            "played": 13,
+            "win": 8,
+            "draw": 2,
+            "loss": 3,
+            "for": 22,
+            "against": 14,
+            "diff": 8,
+            "points": 26,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Veles Moscow",
             "played": 14,
             "win": 8,
@@ -65284,7 +65296,7 @@
             "against": 17,
             "diff": 2,
             "points": 26,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Ural Yekaterinburg",
@@ -65308,7 +65320,7 @@
             "against": 10,
             "diff": 14,
             "points": 24,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "team": "Spartak Kostroma",
@@ -65320,18 +65332,6 @@
             "against": 13,
             "diff": 5,
             "points": 24,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sochi",
-            "played": 12,
-            "win": 7,
-            "draw": 2,
-            "loss": 3,
-            "for": 21,
-            "against": 14,
-            "diff": 7,
-            "points": 23,
             "highlight": "transparent"
           },
           {
@@ -65360,13 +65360,13 @@
           },
           {
             "team": "Ufa",
-            "played": 12,
+            "played": 13,
             "win": 4,
             "draw": 6,
-            "loss": 2,
+            "loss": 3,
             "for": 16,
-            "against": 13,
-            "diff": 3,
+            "against": 14,
+            "diff": 2,
             "points": 18,
             "highlight": "transparent"
           },
