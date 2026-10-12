@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T18:02:33+00:00",
+  "updated": "2026-10-12T18:13:12+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -25790,6 +25790,17 @@
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "MoraBanc Andorra",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "11:00",
+      "utc": "2026-10-25T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Basquet Girona",
+      "away": "Joventut de Badalona",
       "score": null,
       "date": "2026-10-25",
       "time": "11:00",
@@ -66287,8 +66298,8 @@
             "draw": null,
             "loss": 3,
             "for": 34,
-            "against": 27,
-            "diff": 7,
+            "against": 28,
+            "diff": 6,
             "points": 17,
             "highlight": null
           },
@@ -66310,9 +66321,9 @@
             "win": 6,
             "draw": null,
             "loss": 4,
-            "for": 40,
+            "for": 41,
             "against": 43,
-            "diff": -3,
+            "diff": -2,
             "points": 17,
             "highlight": null
           },
@@ -66346,9 +66357,9 @@
             "win": 3,
             "draw": null,
             "loss": 11,
-            "for": 18,
+            "for": 19,
             "against": 48,
-            "diff": -30,
+            "diff": -29,
             "points": 6,
             "highlight": null
           },
@@ -66460,8 +66471,8 @@
             "draw": null,
             "loss": 7,
             "for": 30,
-            "against": 33,
-            "diff": -3,
+            "against": 34,
+            "diff": -4,
             "points": 13,
             "highlight": null
           },
