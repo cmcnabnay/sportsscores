@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T19:49:39+00:00",
+  "updated": "2026-10-12T19:59:59+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22226,7 +22226,7 @@
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Saskatchewan Roughriders",
-      "score": null,
+      "score": "44-24",
       "date": "2026-10-12",
       "time": "13:00",
       "utc": "2026-10-12T17:00:00+00:00",
@@ -63502,18 +63502,6 @@
             "highlight": null
           },
           {
-            "team": "Saskatchewan Roughriders",
-            "played": 15,
-            "win": 8,
-            "draw": null,
-            "loss": 7,
-            "for": 430,
-            "against": 408,
-            "diff": null,
-            "points": 16,
-            "highlight": null
-          },
-          {
             "team": "Winnipeg Blue Bombers",
             "played": 16,
             "win": 8,
@@ -63521,6 +63509,18 @@
             "loss": 8,
             "for": 414,
             "against": 447,
+            "diff": null,
+            "points": 16,
+            "highlight": null
+          },
+          {
+            "team": "Saskatchewan Roughriders",
+            "played": 16,
+            "win": 8,
+            "draw": null,
+            "loss": 8,
+            "for": 454,
+            "against": 452,
             "diff": null,
             "points": 16,
             "highlight": null
@@ -63544,14 +63544,14 @@
         "rows": [
           {
             "team": "Montreal Alouettes",
-            "played": 15,
-            "win": 12,
+            "played": 16,
+            "win": 13,
             "draw": null,
             "loss": 3,
-            "for": 535,
-            "against": 420,
+            "for": 579,
+            "against": 444,
             "diff": null,
-            "points": 24,
+            "points": 26,
             "highlight": null
           },
           {
