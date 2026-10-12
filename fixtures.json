@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T23:23:56+00:00",
+  "updated": "2026-10-12T23:34:50+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -64985,6 +64985,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Gimnasia y Esgrima (M)",
+            "played": 12,
+            "win": 6,
+            "draw": 2,
+            "loss": 4,
+            "for": 15,
+            "against": 12,
+            "diff": 3,
+            "points": 20,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Independiente",
             "played": 12,
             "win": 5,
@@ -64998,24 +65010,12 @@
           },
           {
             "team": "Newell's Old Boys",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": 5,
-            "loss": 2,
+            "loss": 3,
             "for": 11,
-            "against": 8,
-            "diff": 3,
-            "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gimnasia y Esgrima (M)",
-            "played": 11,
-            "win": 5,
-            "draw": 2,
-            "loss": 4,
-            "for": 14,
-            "against": 12,
+            "against": 9,
             "diff": 2,
             "points": 17,
             "highlight": "#BBF3BB"
