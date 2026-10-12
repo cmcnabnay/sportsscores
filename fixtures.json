@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T15:03:29+00:00",
+  "updated": "2026-10-12T15:15:30+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66021,6 +66021,18 @@
       "Bundesliga": {
         "rows": [
           {
+            "team": "TBB Trier",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 500,
+            "against": 436,
+            "diff": 64,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Bayern Munich",
             "played": 4,
             "win": 4,
@@ -66033,14 +66045,62 @@
             "highlight": null
           },
           {
-            "team": "TBB Trier",
+            "team": "Rostock Seawolves",
             "played": 5,
-            "win": 4,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 500,
-            "against": 436,
-            "diff": 64,
+            "loss": 2,
+            "for": 454,
+            "against": 402,
+            "diff": 52,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Telekom Baskets Bonn",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 444,
+            "against": 401,
+            "diff": 43,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Mitteldeutscher",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 404,
+            "against": 381,
+            "diff": 23,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "N.R. Ludwigsburg",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 448,
+            "against": 452,
+            "diff": -4,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "Baskets Oldenburg",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 386,
+            "against": 423,
+            "diff": -37,
             "points": 8,
             "highlight": null
           },
@@ -66053,7 +66113,7 @@
             "for": 358,
             "against": 341,
             "diff": 17,
-            "points": 6,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66065,79 +66125,7 @@
             "for": 390,
             "against": 383,
             "diff": 7,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 454,
-            "against": 402,
-            "diff": 52,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 444,
-            "against": 401,
-            "diff": 43,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Mitteldeutscher",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 404,
-            "against": 381,
-            "diff": 23,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 448,
-            "against": 452,
-            "diff": -4,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Baskets Oldenburg",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 386,
-            "against": 423,
-            "diff": -37,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Wurzburg Baskets",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 303,
-            "against": 321,
-            "diff": -18,
-            "points": 4,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66149,7 +66137,7 @@
             "for": 448,
             "against": 446,
             "diff": 2,
-            "points": 4,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66161,7 +66149,7 @@
             "for": 410,
             "against": 431,
             "diff": -21,
-            "points": 4,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66173,7 +66161,7 @@
             "for": 402,
             "against": 453,
             "diff": -51,
-            "points": 4,
+            "points": 7,
             "highlight": null
           },
           {
@@ -66185,19 +66173,19 @@
             "for": 376,
             "against": 437,
             "diff": -61,
-            "points": 4,
+            "points": 7,
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 5,
-            "win": 1,
+            "team": "Wurzburg Baskets",
+            "played": 4,
+            "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 402,
-            "against": 441,
-            "diff": -39,
-            "points": 2,
+            "loss": 2,
+            "for": 303,
+            "against": 321,
+            "diff": -18,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66209,19 +66197,7 @@
             "for": 425,
             "against": 445,
             "diff": -20,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "SC Rasta Vechta",
-            "played": 5,
-            "win": 1,
-            "draw": null,
-            "loss": 4,
-            "for": 403,
-            "against": 465,
-            "diff": -62,
-            "points": 2,
+            "points": 6,
             "highlight": null
           },
           {
@@ -66233,7 +66209,31 @@
             "for": 438,
             "against": 460,
             "diff": -22,
-            "points": 2,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 402,
+            "against": 441,
+            "diff": -39,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 403,
+            "against": 465,
+            "diff": -62,
+            "points": 6,
             "highlight": null
           }
         ],
@@ -66393,6 +66393,18 @@
             "highlight": null
           },
           {
+            "team": "Barys Astana",
+            "played": 14,
+            "win": 9,
+            "draw": null,
+            "loss": 5,
+            "for": 53,
+            "against": 38,
+            "diff": 15,
+            "points": 18,
+            "highlight": null
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 15,
             "win": 8,
@@ -66414,18 +66426,6 @@
             "against": 20,
             "diff": 3,
             "points": 17,
-            "highlight": null
-          },
-          {
-            "team": "Barys Astana",
-            "played": 14,
-            "win": 8,
-            "draw": null,
-            "loss": 5,
-            "for": 52,
-            "against": 38,
-            "diff": 14,
-            "points": 16,
             "highlight": null
           },
           {
@@ -66493,10 +66493,10 @@
             "played": 15,
             "win": 4,
             "draw": null,
-            "loss": 7,
+            "loss": 8,
             "for": 31,
-            "against": 42,
-            "diff": -11,
+            "against": 43,
+            "diff": -12,
             "points": 11,
             "highlight": null
           },
