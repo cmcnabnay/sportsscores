@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T18:56:40+00:00",
+  "updated": "2026-10-12T19:07:55+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22270,7 +22270,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-12",
       "time": "16:30",
       "utc": "2026-10-12T16:30:00+00:00",
@@ -22281,7 +22281,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Dinamo Minsk",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-12",
       "time": "16:30",
       "utc": "2026-10-12T16:30:00+00:00",
@@ -66268,6 +66268,18 @@
             "highlight": null
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 14,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 38,
+            "against": 25,
+            "diff": 13,
+            "points": 18,
+            "highlight": null
+          },
+          {
             "team": "Severstal Cherepovets",
             "played": 14,
             "win": 8,
@@ -66277,18 +66289,6 @@
             "against": 29,
             "diff": 3,
             "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 14,
-            "win": 8,
-            "draw": null,
-            "loss": 5,
-            "for": 38,
-            "against": 25,
-            "diff": 13,
-            "points": 17,
             "highlight": null
           },
           {
