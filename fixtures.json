@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T16:09:54+00:00",
+  "updated": "2026-10-12T16:23:37+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66352,6 +66352,18 @@
             "highlight": null
           },
           {
+            "team": "HC Sochi",
+            "played": 14,
+            "win": 3,
+            "draw": null,
+            "loss": 11,
+            "for": 17,
+            "against": 47,
+            "diff": -30,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Lada Togliatti",
             "played": 15,
             "win": 1,
@@ -66361,18 +66373,6 @@
             "against": 59,
             "diff": -35,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "HC Sochi",
-            "played": 14,
-            "win": 2,
-            "draw": null,
-            "loss": 11,
-            "for": 16,
-            "against": 47,
-            "diff": -31,
-            "points": 4,
             "highlight": null
           }
         ],
@@ -66453,18 +66453,6 @@
             "highlight": null
           },
           {
-            "team": "AK Bars",
-            "played": 15,
-            "win": 6,
-            "draw": null,
-            "loss": 6,
-            "for": 29,
-            "against": 31,
-            "diff": -2,
-            "points": 13,
-            "highlight": null
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 14,
             "win": 5,
@@ -66472,6 +66460,18 @@
             "loss": 6,
             "for": 33,
             "against": 36,
+            "diff": -3,
+            "points": 13,
+            "highlight": null
+          },
+          {
+            "team": "AK Bars",
+            "played": 15,
+            "win": 6,
+            "draw": null,
+            "loss": 7,
+            "for": 29,
+            "against": 32,
             "diff": -3,
             "points": 13,
             "highlight": null
@@ -67149,6 +67149,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Napoli Basket",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 292,
+            "against": 248,
+            "diff": 44,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Virtus Bologna",
             "played": 3,
             "win": 3,
@@ -67221,6 +67233,30 @@
             "highlight": null
           },
           {
+            "team": "Treviso Basket",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 279,
+            "against": 290,
+            "diff": -11,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Varese",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 239,
+            "against": 251,
+            "diff": -12,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "BC Roma SPQR",
             "played": 3,
             "win": 1,
@@ -67229,6 +67265,18 @@
             "for": 297,
             "against": 275,
             "diff": 22,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Pallacanestro Reggiana",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 264,
+            "against": 268,
+            "diff": -4,
             "points": 2,
             "highlight": null
           },
