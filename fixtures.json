@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T00:09:34+00:00",
+  "updated": "2026-10-12T00:21:37+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65088,6 +65088,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Belgrano",
+            "played": 12,
+            "win": 6,
+            "draw": 4,
+            "loss": 2,
+            "for": 14,
+            "against": 7,
+            "diff": 7,
+            "points": 22,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Argentinos Juniors",
             "played": 12,
             "win": 6,
@@ -65097,18 +65109,6 @@
             "against": 11,
             "diff": 5,
             "points": 22,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Belgrano",
-            "played": 11,
-            "win": 5,
-            "draw": 4,
-            "loss": 2,
-            "for": 12,
-            "against": 7,
-            "diff": 5,
-            "points": 19,
             "highlight": "#BBF3BB"
           },
           {
@@ -65221,13 +65221,13 @@
           },
           {
             "team": "Racing",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": 2,
-            "loss": 6,
+            "loss": 7,
             "for": 13,
-            "against": 17,
-            "diff": -4,
+            "against": 19,
+            "diff": -6,
             "points": 11,
             "highlight": "transparent"
           },
