@@ -320,6 +320,7 @@
   }
   .status-upcoming { background: #e8edf5; color: var(--navy); }
   .status-final { background: #fdeceb; color: var(--red-dark); }
+  .status-postponed { background: #fff4d6; color: #7a5200; }
   .status-live {
     background: var(--red);
     color: white;
@@ -501,6 +502,12 @@
     <input type="date" id="date-input">
   </div>
   <div class="control-card">
+    <label for="sport-select">Sport</label>
+    <select id="sport-select">
+      <option value="all">All sports</option>
+    </select>
+  </div>
+  <div class="control-card">
     <label for="league-select">League</label>
     <select id="league-select">
       <option value="all">All leagues</option>
@@ -554,6 +561,7 @@ let attendanceShowArchived = false; // Attendance view: same, independent of the
 
 const dateInput = document.getElementById('date-input');
 const leagueSelect = document.getElementById('league-select');
+const sportSelect = document.getElementById('sport-select');
 const matchList = document.getElementById('match-list');
 const standingsView = document.getElementById('standings-view');
 const attendanceView = document.getElementById('attendance-view');
@@ -623,6 +631,30 @@ for (const [virtualKey, cfg] of Object.entries(TEAM_LEAGUE_FILTERS)) {
 // League dropdown value - either a real league key (exact match, as
 // before) or one of the virtual TEAM_LEAGUE_FILTERS keys (team name match
 // across every league in that filter's group).
+// Fixtures "Sport" dropdown: leagues[key].sport (from fetch_fixtures.py's
+// LEAGUES[...].sport) -> the group it's listed under. American and
+// Canadian football share "Football"; association football is "Soccer".
+// Listed in this order, and only for sports with at least one league.
+const SPORT_GROUPS = {
+  'rugby': 'Rugby union',
+  'rugby-league': 'Rugby league',
+  'basketball': 'Basketball',
+  'hockey': 'Hockey',
+  'american-football': 'Football',
+  'canadian-football': 'Football',
+  'football': 'Soccer',
+  'volleyball': 'Volleyball',
+};
+
+function leagueSportGroup(leagueKey) {
+  const sport = leagues[leagueKey] && leagues[leagueKey].sport;
+  return SPORT_GROUPS[sport] || 'Other';
+}
+
+function matchesSportSelection(m, selectedSport) {
+  return selectedSport === 'all' || leagueSportGroup(m.league) === selectedSport;
+}
+
 function matchesLeagueSelection(m, selectedLeague) {
   if (selectedLeague === 'all') return true;
   const teamFilter = TEAM_LEAGUE_FILTERS[selectedLeague];
@@ -711,6 +743,10 @@ document.getElementById('today-btn').addEventListener('click', () => {
 });
 dateInput.addEventListener('change', render);
 leagueSelect.addEventListener('change', render);
+sportSelect.addEventListener('change', () => {
+  populateLeagueOptions();
+  render();
+});
 
 function setView(view) {
   currentView = view;
@@ -768,6 +804,8 @@ function enrichMatch(m) {
 const LIVE_WINDOW_MS = 2 * 60 * 60 * 1000; // 2 hours
 
 function getMatchStatus(m, now) {
+  // Set by fetch_fixtures.py's MANUAL_MATCH_STATUS.
+  if (m.status === 'postponed') return 'postponed';
   // No usable kickoff instant - fall back to score-only logic (old behavior)
   if (!m.utc) {
     return (m.score !== null && m.score !== undefined) ? 'final' : 'upcoming';
@@ -805,6 +843,7 @@ function render() {
 
   const dayMatches = allMatches
     .filter(m => m._localDate === selectedDate)
+    .filter(m => matchesSportSelection(m, sportSelect.value))
     .filter(m => matchesLeagueSelection(m, selectedLeague))
     .sort((a, b) => (a._localTime || '99:99').localeCompare(b._localTime || '99:99'));
 
@@ -821,7 +860,7 @@ function render() {
     const card = document.createElement('div');
     card.className = 'match-card';
 
-    const status = getMatchStatus(m, now); // 'upcoming' | 'live' | 'final'
+    const status = getMatchStatus(m, now); // 'upcoming' | 'live' | 'final' | 'postponed'
     const played = m.score !== null && m.score !== undefined;
     let homeScore = '', awayScore = '', homeWin = false, awayWin = false;
     if (played) {
@@ -837,7 +876,10 @@ function render() {
     const leagueName = (leagues[m.league] && leagues[m.league].name) || m.league;
 
     let statusLabel, statusClass;
-    if (status === 'live') {
+    if (status === 'postponed') {
+      statusLabel = 'Postponed';
+      statusClass = 'status-postponed';
+    } else if (status === 'live') {
       statusLabel = 'LIVE';
       statusClass = 'status-live';
     } else if (status === 'final') {
@@ -895,6 +937,8 @@ const STANDINGS_COLUMNS = [
   { key: 'for', label: 'F' },
   { key: 'against', label: 'A' },
   { key: 'diff', label: '+/-' },
+  { key: 'try_bonus', label: 'TB' },
+  { key: 'losing_bonus', label: 'LB' },
   { key: 'points', label: 'Pts' },
 ];
 
@@ -1620,9 +1664,26 @@ function renderPlayoffs() {
   playoffsView.appendChild(wrap);
 }
 
+function populateSportOptions() {
+  const present = new Set(Object.keys(leagues).map(leagueSportGroup));
+  const ordered = [...new Set([...Object.values(SPORT_GROUPS), 'Other'])].filter(g => present.has(g));
+  for (const group of ordered) {
+    const opt = document.createElement('option');
+    opt.value = group;
+    opt.textContent = group;
+    sportSelect.appendChild(opt);
+  }
+}
+
+// Rebuilt whenever the Sport dropdown changes, so it only lists that
+// sport's leagues; a selected league outside the sport falls back to "all".
 function populateLeagueOptions() {
+  const previous = leagueSelect.value;
+  leagueSelect.innerHTML = '<option value="all">All leagues</option>';
+  const sport = sportSelect.value;
   const addedTeamFilters = new Set();
   for (const [key, info] of Object.entries(leagues)) {
+    if (sport !== 'all' && leagueSportGroup(key) !== sport) continue;
     const teamFilterKey = LEAGUE_KEY_TO_TEAM_FILTER[key];
     if (teamFilterKey) {
       // Replace this league's own dropdown entry with (at most) one shared
@@ -1643,6 +1704,8 @@ function populateLeagueOptions() {
     opt.textContent = info.name || key;
     leagueSelect.appendChild(opt);
   }
+  const stillListed = [...leagueSelect.options].some(o => o.value === previous);
+  leagueSelect.value = stillListed ? previous : 'all';
 }
 
 function pickInitialDate() {
@@ -1670,6 +1733,7 @@ function loadFixtures(isRefresh) {
       attendanceTables = data.attendance_tables || {};
       playoffs = data.playoffs || {};
       if (!isRefresh) {
+        populateSportOptions();
         populateLeagueOptions();
         dateInput.value = pickInitialDate();
       }

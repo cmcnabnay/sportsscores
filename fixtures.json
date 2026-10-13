@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T17:28:29+00:00",
+  "updated": "2026-10-13T17:33:10+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -65971,7 +65971,7 @@
             "against": 436,
             "diff": 64,
             "points": 9,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Bayern Munich",
@@ -65983,7 +65983,7 @@
             "against": 276,
             "diff": 127,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Rostock Seawolves",
@@ -65995,7 +65995,7 @@
             "against": 402,
             "diff": 52,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Telekom Baskets Bonn",
@@ -66007,7 +66007,7 @@
             "against": 401,
             "diff": 43,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Mitteldeutscher",
@@ -66019,7 +66019,7 @@
             "against": 381,
             "diff": 23,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "N.R. Ludwigsburg",
@@ -66031,7 +66031,7 @@
             "against": 452,
             "diff": -4,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Baskets Oldenburg",
@@ -66043,7 +66043,7 @@
             "against": 423,
             "diff": -37,
             "points": 8,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Skyliners Frankfurt",
@@ -66055,7 +66055,7 @@
             "against": 341,
             "diff": 17,
             "points": 7,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Basketball Lowen Braunschweig",
@@ -66067,7 +66067,7 @@
             "against": 383,
             "diff": 7,
             "points": 7,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Brose Bamberg",
@@ -66079,7 +66079,7 @@
             "against": 446,
             "diff": 2,
             "points": 7,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Ratiopharm Ulm",
@@ -66163,7 +66163,7 @@
             "against": 441,
             "diff": -39,
             "points": 6,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "SC Rasta Vechta",
@@ -66175,10 +66175,14 @@
             "against": 465,
             "diff": -62,
             "points": 6,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Playoffs",
+          "#BBF3FF": "Play-in",
+          "#FFBBBB": "Relegation to ProA"
+        }
       }
     },
     "khl-2026-27": {
@@ -66194,7 +66198,7 @@
             "against": 23,
             "diff": 15,
             "points": 22,
-            "highlight": null
+            "highlight": "#D6F9FF"
           },
           {
             "team": "CSKA Moscow",
@@ -66206,7 +66210,7 @@
             "against": 27,
             "diff": 19,
             "points": 21,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Severstal Cherepovets",
@@ -66214,11 +66218,11 @@
             "win": 9,
             "draw": null,
             "loss": 4,
-            "for": 33,
+            "for": 34,
             "against": 29,
-            "diff": 4,
+            "diff": 5,
             "points": 20,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Torpedo Nizhny Novgorod",
@@ -66230,7 +66234,7 @@
             "against": 25,
             "diff": 13,
             "points": 18,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Shanghai Dragons",
@@ -66242,7 +66246,7 @@
             "against": 29,
             "diff": 7,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "SKA St. Petersburg",
@@ -66251,10 +66255,10 @@
             "draw": null,
             "loss": 5,
             "for": 47,
-            "against": 43,
-            "diff": 4,
+            "against": 44,
+            "diff": 3,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Dinamo Minsk",
@@ -66266,7 +66270,7 @@
             "against": 45,
             "diff": -3,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Spartak Moscow",
@@ -66278,7 +66282,7 @@
             "against": 27,
             "diff": 9,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Dynamo Moscow",
@@ -66317,7 +66321,11 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals",
+          "#BBF3FF": "Home advantage in Conference Quarterfinals",
+          "#BBF3BB": "Advance to Gagarin Cup Playoffs"
+        }
       },
       "Eastern Conference": {
         "rows": [
@@ -66331,7 +66339,7 @@
             "against": 30,
             "diff": 20,
             "points": 25,
-            "highlight": null
+            "highlight": "#D6F9FF"
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
@@ -66343,7 +66351,7 @@
             "against": 38,
             "diff": 9,
             "points": 18,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Amur Khabarovsk",
@@ -66355,7 +66363,7 @@
             "against": 20,
             "diff": 3,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Barys Astana",
@@ -66367,7 +66375,7 @@
             "against": 40,
             "diff": 13,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Salavat Yulayev Ufa",
@@ -66379,7 +66387,7 @@
             "against": 46,
             "diff": 0,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Avtomobilist Yekaterinburg",
@@ -66391,7 +66399,7 @@
             "against": 32,
             "diff": 2,
             "points": 14,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Admiral Vladivostok",
@@ -66403,7 +66411,7 @@
             "against": 36,
             "diff": -3,
             "points": 13,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "AK Bars",
@@ -66415,7 +66423,7 @@
             "against": 34,
             "diff": -3,
             "points": 13,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Sibir Novosibirsk",
@@ -66454,7 +66462,11 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals",
+          "#BBF3FF": "Home advantage in Conference Quarterfinals",
+          "#BBF3BB": "Advance to Gagarin Cup Playoffs"
+        }
       }
     },
     "eurocup-2026-27": {
@@ -66470,7 +66482,7 @@
             "against": 137,
             "diff": 32,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Aris Bsa",
@@ -66482,7 +66494,7 @@
             "against": 154,
             "diff": 26,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Derthona Basket Tortona",
@@ -66494,7 +66506,7 @@
             "against": 169,
             "diff": 4,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Rīgas Zelli",
@@ -66506,7 +66518,7 @@
             "against": 171,
             "diff": 1,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "San Pablo Burgos",
@@ -66557,7 +66569,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to eighthfinals"
+        }
       },
       "Group B": {
         "rows": [
@@ -66571,7 +66585,7 @@
             "against": 170,
             "diff": 26,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Maxima Roma",
@@ -66583,7 +66597,7 @@
             "against": 147,
             "diff": 19,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "London Lions",
@@ -66595,7 +66609,7 @@
             "against": 151,
             "diff": 9,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Turk Telekom",
@@ -66607,7 +66621,7 @@
             "against": 159,
             "diff": 8,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Siauliai",
@@ -66658,7 +66672,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to eighthfinals"
+        }
       },
       "Group C": {
         "rows": [
@@ -66672,7 +66688,7 @@
             "against": 151,
             "diff": 26,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Tofas",
@@ -66684,7 +66700,7 @@
             "against": 151,
             "diff": 20,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KK Budućnost",
@@ -66696,7 +66712,7 @@
             "against": 168,
             "diff": 6,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Bv Chemnitz 99",
@@ -66708,7 +66724,7 @@
             "against": 166,
             "diff": -4,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Dolomiti Energia Trento",
@@ -66735,31 +66751,33 @@
             "highlight": null
           },
           {
-            "team": "Neptūnas",
+            "team": "JL Bourg",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 207,
-            "against": 207,
-            "diff": 0,
+            "for": 225,
+            "against": 238,
+            "diff": -13,
             "points": 4,
             "highlight": null
           },
           {
-            "team": "JL Bourg",
+            "team": "Neptūnas",
             "played": 3,
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 196,
-            "against": 223,
-            "diff": -27,
+            "for": 222,
+            "against": 236,
+            "diff": -14,
             "points": 3,
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to eighthfinals"
+        }
       },
       "Group D": {
         "rows": [
@@ -66769,11 +66787,11 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 242,
-            "against": 180,
-            "diff": 62,
+            "for": 261,
+            "against": 201,
+            "diff": 60,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Lietkabelis",
@@ -66781,11 +66799,11 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 212,
-            "against": 204,
-            "diff": 8,
+            "for": 241,
+            "against": 230,
+            "diff": 11,
             "points": 5,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "PAOK",
@@ -66793,11 +66811,11 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 208,
-            "against": 200,
-            "diff": 8,
+            "for": 234,
+            "against": 229,
+            "diff": 5,
             "points": 5,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Ratiopharm Ulm",
@@ -66809,7 +66827,7 @@
             "against": 185,
             "diff": 2,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "BC Roma SPQR",
@@ -66829,9 +66847,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 221,
-            "against": 232,
-            "diff": -11,
+            "for": 242,
+            "against": 251,
+            "diff": -9,
             "points": 4,
             "highlight": null
           },
@@ -66860,7 +66878,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to eighthfinals"
+        }
       }
     },
     "liga-acb-2026-27": {
@@ -66876,7 +66896,7 @@
             "against": 248,
             "diff": 61,
             "points": 6,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Real Madrid",
@@ -66888,7 +66908,7 @@
             "against": 277,
             "diff": 46,
             "points": 6,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Breogán",
@@ -66900,7 +66920,7 @@
             "against": 291,
             "diff": 35,
             "points": 6,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Bilbao Basket",
@@ -66912,7 +66932,7 @@
             "against": 283,
             "diff": 21,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "La Laguna Tenerife",
@@ -66924,7 +66944,7 @@
             "against": 233,
             "diff": 17,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Barcelona",
@@ -66936,7 +66956,7 @@
             "against": 287,
             "diff": 15,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Casademont Zaragoza",
@@ -66948,7 +66968,7 @@
             "against": 248,
             "diff": 7,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Monbus Obradoiro",
@@ -66960,7 +66980,7 @@
             "against": 288,
             "diff": 0,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Valencia Basket",
@@ -67068,7 +67088,7 @@
             "against": 203,
             "diff": -26,
             "points": 2,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "Baxi Manresa",
@@ -67080,10 +67100,13 @@
             "against": 328,
             "diff": -58,
             "points": 3,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#FFFFBB": "Qualification to playoffs",
+          "#FFBBBB": "Relegation to Primera FEB"
+        }
       }
     },
     "lega-a-2026-27": {
@@ -67099,7 +67122,7 @@
             "against": 248,
             "diff": 44,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Virtus Bologna",
@@ -67111,7 +67134,7 @@
             "against": 244,
             "diff": 37,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Olimpia Milano",
@@ -67123,7 +67146,7 @@
             "against": 231,
             "diff": 30,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Amici Pallacanestro Udinese",
@@ -67135,7 +67158,7 @@
             "against": 221,
             "diff": 17,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Reyer Venezia",
@@ -67147,7 +67170,7 @@
             "against": 248,
             "diff": 10,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Dolomiti Energia Trento",
@@ -67159,7 +67182,7 @@
             "against": 237,
             "diff": 10,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Scaligera Basket Verona",
@@ -67171,7 +67194,7 @@
             "against": 255,
             "diff": 2,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Treviso Basket",
@@ -67183,7 +67206,7 @@
             "against": 290,
             "diff": -11,
             "points": 4,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Pallacanestro Varese",
@@ -67267,7 +67290,7 @@
             "against": 269,
             "diff": -32,
             "points": 0,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "Scafati",
@@ -67279,10 +67302,13 @@
             "against": 261,
             "diff": -39,
             "points": 0,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Qualification to playoffs",
+          "#FFBBBB": "Relegation to Serie A2"
+        }
       }
     },
     "lnb-elite-2026-27": {
@@ -67298,7 +67324,7 @@
             "against": 229,
             "diff": 49,
             "points": 7,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Le Mans",
@@ -67310,7 +67336,7 @@
             "against": 287,
             "diff": 15,
             "points": 7,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "ASVEL Villeurbanne",
@@ -67322,7 +67348,7 @@
             "against": 227,
             "diff": 36,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Paris Basketball",
@@ -67334,7 +67360,7 @@
             "against": 258,
             "diff": 21,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Chalon-sur-Saône",
@@ -67346,7 +67372,7 @@
             "against": 231,
             "diff": 36,
             "points": 5,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Nanterre",
@@ -67358,7 +67384,7 @@
             "against": 230,
             "diff": 32,
             "points": 5,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Cholet",
@@ -67370,7 +67396,7 @@
             "against": 252,
             "diff": 3,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Chorale de Roanne",
@@ -67382,7 +67408,7 @@
             "against": 258,
             "diff": -7,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "JL Bourg",
@@ -67394,7 +67420,7 @@
             "against": 267,
             "diff": -1,
             "points": 4,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Limoges",
@@ -67406,7 +67432,7 @@
             "against": 265,
             "diff": -3,
             "points": 4,
-            "highlight": null
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Boulazac",
@@ -67466,7 +67492,7 @@
             "against": 252,
             "diff": -48,
             "points": 3,
-            "highlight": null
+            "highlight": "#FFCCCC"
           },
           {
             "team": "Nancy",
@@ -67478,10 +67504,15 @@
             "against": 271,
             "diff": -55,
             "points": 3,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Qualification to playoffs",
+          "#FFFFBB": "Qualification to play-in",
+          "#FFCCCC": "Qualification to relegation playoffs",
+          "#FFBBBB": "Relegation to Élite 2"
+        }
       }
     },
     "liiga-2026-27": {
@@ -67497,7 +67528,7 @@
             "against": 24,
             "diff": 12,
             "points": 26,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Mikkelin Jukurit",
@@ -67509,7 +67540,7 @@
             "against": 29,
             "diff": 7,
             "points": 24,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Porin Ässät",
@@ -67521,7 +67552,7 @@
             "against": 27,
             "diff": 3,
             "points": 22,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Oulun Kärpät",
@@ -67533,7 +67564,7 @@
             "against": 34,
             "diff": 1,
             "points": 22,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "JYP Jyväskylä",
@@ -67545,7 +67576,7 @@
             "against": 25,
             "diff": 5,
             "points": 21,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Rauman Lukko",
@@ -67557,7 +67588,7 @@
             "against": 23,
             "diff": 6,
             "points": 20,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Kiekko-Espoo",
@@ -67569,7 +67600,7 @@
             "against": 32,
             "diff": 10,
             "points": 20,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "SaiPa Lappeenranta",
@@ -67581,7 +67612,7 @@
             "against": 20,
             "diff": 10,
             "points": 20,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Tappara Tampere",
@@ -67593,7 +67624,7 @@
             "against": 24,
             "diff": 8,
             "points": 19,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "HPK Hämeenlinna",
@@ -67605,7 +67636,7 @@
             "against": 35,
             "diff": -7,
             "points": 18,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "TPS Turku",
@@ -67617,7 +67648,7 @@
             "against": 25,
             "diff": 4,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Lahti Pelicans",
@@ -67629,7 +67660,7 @@
             "against": 23,
             "diff": 1,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "KalPa Kuopio",
@@ -67665,7 +67696,7 @@
             "against": 31,
             "diff": -11,
             "points": 13,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "Jokerit Helsinki",
@@ -67677,7 +67708,7 @@
             "against": 42,
             "diff": -17,
             "points": 10,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "KooKoo Kouvola",
@@ -67689,10 +67720,14 @@
             "against": 52,
             "diff": -27,
             "points": 4,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Quarter-finals (top 2 also Champions Hockey League)",
+          "#BBF3FF": "Wild-card round",
+          "#FFBBBB": "Relegated to B-Liiga"
+        }
       }
     },
     "shl-2026-27": {
@@ -67708,7 +67743,7 @@
             "against": 8,
             "diff": 26,
             "points": 22,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Frölunda HC",
@@ -67720,7 +67755,7 @@
             "against": 20,
             "diff": 6,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "IF Björklöven",
@@ -67732,7 +67767,7 @@
             "against": 20,
             "diff": 2,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Skellefteå AIK",
@@ -67744,7 +67779,7 @@
             "against": 21,
             "diff": 7,
             "points": 15,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Brynäs IF",
@@ -67756,7 +67791,7 @@
             "against": 18,
             "diff": 5,
             "points": 12,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Rögle BK",
@@ -67768,7 +67803,7 @@
             "against": 18,
             "diff": 2,
             "points": 11,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Örebro HK",
@@ -67780,7 +67815,7 @@
             "against": 22,
             "diff": -4,
             "points": 11,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Malmö Redhawks",
@@ -67792,7 +67827,7 @@
             "against": 22,
             "diff": -4,
             "points": 10,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Luleå Hockey",
@@ -67804,7 +67839,7 @@
             "against": 26,
             "diff": -6,
             "points": 10,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Växjö Lakers HC",
@@ -67816,7 +67851,7 @@
             "against": 30,
             "diff": -5,
             "points": 9,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Djurgårdens IF",
@@ -67852,7 +67887,7 @@
             "against": 22,
             "diff": -7,
             "points": 7,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "Linköping HC",
@@ -67864,10 +67899,15 @@
             "against": 23,
             "diff": -11,
             "points": 7,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Quarter-finals and Champions Hockey League",
+          "#CCF9CC": "Quarter-finals",
+          "#BBF3FF": "Eighth-finals",
+          "#FFBBBB": "Play Out"
+        }
       }
     },
     "del-2026-27": {
@@ -67883,7 +67923,7 @@
             "against": 12,
             "diff": 19,
             "points": 20,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Adler Mannheim",
@@ -67895,7 +67935,7 @@
             "against": 24,
             "diff": 6,
             "points": 17,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Nürnberg Ice Tigers",
@@ -67907,7 +67947,7 @@
             "against": 23,
             "diff": 6,
             "points": 16,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "EHC Red Bull München",
@@ -67919,7 +67959,7 @@
             "against": 24,
             "diff": 1,
             "points": 15,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Straubing Tigers",
@@ -67931,7 +67971,7 @@
             "against": 24,
             "diff": 8,
             "points": 14,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Augsburger Panther",
@@ -67943,7 +67983,7 @@
             "against": 22,
             "diff": 5,
             "points": 14,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Grizzlys Wolfsburg",
@@ -67955,7 +67995,7 @@
             "against": 27,
             "diff": -1,
             "points": 13,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Krefeld Pinguine",
@@ -67967,7 +68007,7 @@
             "against": 20,
             "diff": 4,
             "points": 12,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Kölner Haie",
@@ -67979,7 +68019,7 @@
             "against": 34,
             "diff": -2,
             "points": 12,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Löwen Frankfurt",
@@ -67991,7 +68031,7 @@
             "against": 18,
             "diff": 1,
             "points": 9,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "ERC Ingolstadt",
@@ -68039,10 +68079,14 @@
             "against": 34,
             "diff": -16,
             "points": 5,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Playoffs (top 2 also Champions Hockey League)",
+          "#BBF3FF": "Pre-playoffs",
+          "#FFBBBB": "Relegated to DEL2"
+        }
       }
     },
     "euroleague-2026-27": {
@@ -68058,7 +68102,7 @@
             "against": 292,
             "diff": 83,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Valencia Basket",
@@ -68070,7 +68114,7 @@
             "against": 356,
             "diff": 49,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Olympiacos BC",
@@ -68082,7 +68126,7 @@
             "against": 342,
             "diff": 40,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Fenerbahçe Tarfin",
@@ -68094,7 +68138,7 @@
             "against": 302,
             "diff": 26,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KK Partizan Mozzart Bet",
@@ -68106,7 +68150,7 @@
             "against": 325,
             "diff": 21,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KK Crvena zvezda",
@@ -68118,7 +68162,7 @@
             "against": 294,
             "diff": 17,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Beşiktaş JK",
@@ -68130,7 +68174,7 @@
             "against": 368,
             "diff": 9,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Kauno Žalgiris",
@@ -68142,7 +68186,7 @@
             "against": 333,
             "diff": 7,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Barça Basket",
@@ -68154,7 +68198,7 @@
             "against": 346,
             "diff": 6,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Virtus Bologna",
@@ -68166,7 +68210,7 @@
             "against": 346,
             "diff": -3,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Hapoel Tel-Aviv",
@@ -68289,7 +68333,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Qualification to playoffs",
+          "#BBF3FF": "Qualification to play-in"
+        }
       }
     },
     "bcl-2026-27": {
@@ -68305,7 +68352,7 @@
             "against": 83,
             "diff": 10,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Rytas Vilnius",
@@ -68317,7 +68364,7 @@
             "against": 73,
             "diff": 9,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "BC Sabah",
@@ -68329,7 +68376,7 @@
             "against": 82,
             "diff": -9,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Nanterre 92",
@@ -68344,7 +68391,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group B": {
         "rows": [
@@ -68358,7 +68408,7 @@
             "against": 62,
             "diff": 38,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KK Cibona",
@@ -68370,7 +68420,7 @@
             "against": 76,
             "diff": 20,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Galatasaray MCT Technic",
@@ -68382,7 +68432,7 @@
             "against": 96,
             "diff": -20,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Legia Warszawa",
@@ -68397,7 +68447,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group C": {
         "rows": [
@@ -68411,7 +68464,7 @@
             "against": 93,
             "diff": 6,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "AEK BC",
@@ -68423,7 +68476,7 @@
             "against": 93,
             "diff": 2,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Salon Vilpas Vikings",
@@ -68435,7 +68488,7 @@
             "against": 95,
             "diff": -2,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Falco KC-Szombathely",
@@ -68450,7 +68503,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group D": {
         "rows": [
@@ -68464,7 +68520,7 @@
             "against": 58,
             "diff": 27,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Peristeri BC",
@@ -68476,7 +68532,7 @@
             "against": 87,
             "diff": 6,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Bamberg Baskets",
@@ -68488,7 +68544,7 @@
             "against": 93,
             "diff": -6,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Openjobmetis Varese",
@@ -68503,7 +68559,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group E": {
         "rows": [
@@ -68517,7 +68576,7 @@
             "against": 69,
             "diff": 36,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "UNAhotels Reggio Emilia",
@@ -68529,7 +68588,7 @@
             "against": 65,
             "diff": 17,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "BK JIP Pardubice",
@@ -68541,7 +68600,7 @@
             "against": 82,
             "diff": -17,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Utenos Juventus",
@@ -68556,7 +68615,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group F": {
         "rows": [
@@ -68570,7 +68632,7 @@
             "against": 64,
             "diff": 32,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Cholet Basket",
@@ -68582,7 +68644,7 @@
             "against": 79,
             "diff": 20,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Hapoel Netanel Holon",
@@ -68594,7 +68656,7 @@
             "against": 99,
             "diff": -20,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Rasta Vechta",
@@ -68609,7 +68671,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group G": {
         "rows": [
@@ -68623,7 +68688,7 @@
             "against": 86,
             "diff": 24,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Surne Bilbao Basket",
@@ -68635,7 +68700,7 @@
             "against": 79,
             "diff": 13,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Igokea m:tel",
@@ -68647,7 +68712,7 @@
             "against": 92,
             "diff": -13,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "SK Slavia Praha",
@@ -68662,7 +68727,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       },
       "Group H": {
         "rows": [
@@ -68676,7 +68744,7 @@
             "against": 75,
             "diff": 11,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Telekom Baskets Bonn",
@@ -68688,7 +68756,7 @@
             "against": 74,
             "diff": 4,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Porto",
@@ -68700,7 +68768,7 @@
             "against": 78,
             "diff": -4,
             "points": 1,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Bnei Penlink Herzliya",
@@ -68715,7 +68783,10 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to round of 16",
+          "#BBF3FF": "Advance to play-ins"
+        }
       }
     },
     "fiba-europe-cup-2026-27": {
@@ -68731,7 +68802,7 @@
             "against": 59,
             "diff": 33,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Promitheas Patras BC Vikos Cola",
@@ -68743,7 +68814,7 @@
             "against": 77,
             "diff": 14,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KK Split",
@@ -68794,7 +68865,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group B": {
         "rows": [
@@ -68808,7 +68881,7 @@
             "against": 75,
             "diff": 12,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Zastal Zielona Góra",
@@ -68820,7 +68893,7 @@
             "against": 80,
             "diff": 10,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "BC Oostende",
@@ -68871,10 +68944,24 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group C": {
         "rows": [
+          {
+            "team": "Kolossos Rodou",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 157,
+            "against": 127,
+            "diff": 30,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
           {
             "team": "Esenler Erokspor",
             "played": 1,
@@ -68885,17 +68972,17 @@
             "against": 63,
             "diff": 29,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
-            "team": "Kolossos Rodou",
-            "played": 1,
-            "win": 1,
+            "team": "Gence BC",
+            "played": 2,
+            "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 77,
-            "against": 65,
-            "diff": 12,
+            "loss": 2,
+            "for": 125,
+            "against": 172,
+            "diff": -47,
             "points": 2,
             "highlight": null
           },
@@ -68934,21 +69021,11 @@
             "diff": -12,
             "points": 1,
             "highlight": null
-          },
-          {
-            "team": "Gence BC",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 63,
-            "against": 92,
-            "diff": -29,
-            "points": 1,
-            "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group D": {
         "rows": [
@@ -68962,7 +69039,7 @@
             "against": 70,
             "diff": 18,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "King Wilki Morskie Szczecin",
@@ -68974,7 +69051,7 @@
             "against": 81,
             "diff": 7,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "SLUC Nancy Basket",
@@ -69025,7 +69102,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group E": {
         "rows": [
@@ -69039,7 +69118,7 @@
             "against": 76,
             "diff": 27,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "AEK Larnaca B.C.",
@@ -69051,7 +69130,7 @@
             "against": 65,
             "diff": 8,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Iraklis BC",
@@ -69102,7 +69181,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group F": {
         "rows": [
@@ -69116,7 +69197,7 @@
             "against": 78,
             "diff": 8,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Élan Chalon",
@@ -69128,7 +69209,7 @@
             "against": 72,
             "diff": 7,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "KB Bashkimi",
@@ -69179,7 +69260,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group G": {
         "rows": [
@@ -69193,7 +69276,7 @@
             "against": 83,
             "diff": 22,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Denizli Basket Spor Kulübü",
@@ -69205,7 +69288,7 @@
             "against": 69,
             "diff": 14,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "SL Benfica",
@@ -69256,7 +69339,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       },
       "Group H": {
         "rows": [
@@ -69270,7 +69355,7 @@
             "against": 67,
             "diff": 26,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "VEF Rīga",
@@ -69282,7 +69367,7 @@
             "against": 83,
             "diff": 23,
             "points": 2,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "AO Mykonou",
@@ -69333,7 +69418,9 @@
             "highlight": null
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Advance to second round"
+        }
       }
     },
     "urc-2026": {

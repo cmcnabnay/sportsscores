@@ -387,7 +387,10 @@ LEAGUES = {
             "page": "2026–27_United_Rugby_Championship",
             "groups": [
                 {
-                    "label": "URC league standings",
+                    # "Tab · Group" labels - matches.html shows one tab
+                    # per prefix (its round-picker), so the main table and
+                    # the shields get a tab each.
+                    "label": "League table · Table",
                     "heading_id": "URC_league_standings",
                     "legend": {
                         "#BBF3BB": "Champions Cup and knockout stage",
@@ -397,8 +400,10 @@ LEAGUES = {
             ],
             "split_template": {
                 "template": "2026–27 United Rugby Championship Regional Shield tables",
+                "label_prefix": "Regional shields",
             },
             "name_map": URC_WIKI_TO_SOFASCORE,
+            "bonus_points": True,
         },
     },
     "champions-cup-2026": {
@@ -1556,15 +1561,15 @@ def fetch_sofascore_standings_groups(cfg, key):
             label = table.get("name") or cfg["name"]
             if len(data["standings"]) > 1:
                 label = label.rsplit(", ", 1)[-1]
-            result[label] = apply_standings_zones({"rows": rows_out, "legend": {}}, standings_cfg)
+            result[label] = {"rows": rows_out, "legend": {}}
     return result
 
 
-def apply_standings_zones(group, standings_cfg):
-    """Colour a table's rows by position from a standings config's
-    "zones" list of (first, last, colour, label) - for sources like
-    SofaScore whose tables carry no highlight colours of their own."""
-    for first, last, color, label in standings_cfg.get("zones") or []:
+def apply_standings_zones(group, zones):
+    """Colour a table's rows by position from a "zones" list of (first,
+    last, colour, label) - for sources like SofaScore/365Scores whose
+    tables carry no highlight colours of their own."""
+    for first, last, color, label in zones:
         for row in group["rows"][first - 1:last]:
             row["highlight"] = color
         group["legend"][color] = label
@@ -3853,6 +3858,10 @@ STANDINGS_COLUMN_KEYWORDS = {
     "against": ("pa", "ga", "against"),
     "diff": ("diff", "+/-", "gd", "pd"),
     "points": ("pts", "points"),
+    # Rugby union bonus points - only kept for a league whose standings
+    # config sets "bonus_points" (see fetch_standings).
+    "try_bonus": ("tb", "tbp"),
+    "losing_bonus": ("lb", "lbp"),
 }
 
 
@@ -3957,6 +3966,8 @@ def parse_standings_table(table):
                 "against": get_num(row, "against"),
                 "diff": get_num(row, "diff"),
                 "points": get_num(row, "points"),
+                "try_bonus": get_num(row, "try_bonus"),
+                "losing_bonus": get_num(row, "losing_bonus"),
                 "highlight": highlight,
             }
         )
@@ -4245,7 +4256,84 @@ def fetch_phased_standings(soup, phases_cfg, key):
     return result
 
 
+# Position colour zones for leagues whose standings source has none,
+# copied from each league's Wikipedia table key (2026-10-13). (first pos,
+# last pos, row colour, legend label); one colour per label, since the
+# legend is keyed by colour. Group-stage leagues get them per group.
+_GREEN, _LIGHT_GREEN, _BLUE, _LIGHT_BLUE = "#BBF3BB", "#CCF9CC", "#BBF3FF", "#D6F9FF"
+_YELLOW, _RED, _LIGHT_RED = "#FFFFBB", "#FFBBBB", "#FFCCCC"
+STANDINGS_ZONES = {
+    "bbl-2026-27": [
+        (1, 6, _GREEN, "Playoffs"),
+        (7, 10, _BLUE, "Play-in"),
+        (17, 18, _RED, "Relegation to ProA"),
+    ],
+    "khl-2026-27": [
+        (1, 1, _LIGHT_BLUE, "Conference winner and home advantage in Conference Quarterfinals"),
+        (2, 4, _BLUE, "Home advantage in Conference Quarterfinals"),
+        (5, 8, _GREEN, "Advance to Gagarin Cup Playoffs"),
+    ],
+    "eurocup-2026-27": [
+        (1, 4, _GREEN, "Advance to eighthfinals"),
+    ],
+    "liga-acb-2026-27": [
+        (1, 8, _YELLOW, "Qualification to playoffs"),
+        (17, 18, _RED, "Relegation to Primera FEB"),
+    ],
+    "lega-a-2026-27": [
+        (1, 8, _GREEN, "Qualification to playoffs"),
+        (15, 16, _RED, "Relegation to Serie A2"),
+    ],
+    "lnb-elite-2026-27": [
+        (1, 6, _GREEN, "Qualification to playoffs"),
+        (7, 10, _YELLOW, "Qualification to play-in"),
+        (15, 15, _LIGHT_RED, "Qualification to relegation playoffs"),
+        (16, 16, _RED, "Relegation to Élite 2"),
+    ],
+    "liiga-2026-27": [
+        (1, 4, _GREEN, "Quarter-finals (top 2 also Champions Hockey League)"),
+        (5, 12, _BLUE, "Wild-card round"),
+        (15, 17, _RED, "Relegated to B-Liiga"),
+    ],
+    "shl-2026-27": [
+        (1, 4, _GREEN, "Quarter-finals and Champions Hockey League"),
+        (5, 6, _LIGHT_GREEN, "Quarter-finals"),
+        (7, 10, _BLUE, "Eighth-finals"),
+        (13, 14, _RED, "Play Out"),
+    ],
+    "del-2026-27": [
+        (1, 6, _GREEN, "Playoffs (top 2 also Champions Hockey League)"),
+        (7, 10, _BLUE, "Pre-playoffs"),
+        (14, 14, _RED, "Relegated to DEL2"),
+    ],
+    "euroleague-2026-27": [
+        (1, 6, _GREEN, "Qualification to playoffs"),
+        (7, 10, _BLUE, "Qualification to play-in"),
+    ],
+    "bcl-2026-27": [
+        (1, 1, _GREEN, "Advance to round of 16"),
+        (2, 3, _BLUE, "Advance to play-ins"),
+    ],
+    "fiba-europe-cup-2026-27": [
+        (1, 2, _GREEN, "Advance to second round"),
+    ],
+}
+
+
 def fetch_standings(cfg, key):
+    """_fetch_standings_uncoloured(), then colour every table by position
+    from the league's zones (its standings config's "zones", else
+    STANDINGS_ZONES) - applied per group, so a group stage gets the same
+    zones in each group."""
+    result = _fetch_standings_uncoloured(cfg, key)
+    zones = (cfg.get("standings") or {}).get("zones") or STANDINGS_ZONES.get(key)
+    if zones:
+        for group_data in result.values():
+            apply_standings_zones(group_data, zones)
+    return result
+
+
+def _fetch_standings_uncoloured(cfg, key):
     """Fetch and parse whatever standings tables a league's config
     describes. Returns {group_label: {"rows": [...], "legend": {...}}};
     an empty dict if the league has no "standings" config, or if none of
@@ -4336,15 +4424,20 @@ def fetch_standings(cfg, key):
     # Extra tables stacked inside one template (the URC's regional shields).
     split = standings_cfg.get("split_template")
     if split:
-        result.update(fetch_titled_subtables(split["template"], key))
+        prefix = split.get("label_prefix")
+        for title, group_data in fetch_titled_subtables(split["template"], key).items():
+            result[f"{prefix} \u00b7 {title}" if prefix else title] = group_data
 
     # Rename teams to the match source's spelling, so the Attendance
     # roster (built from standings) doesn't list a club twice.
-    name_map = standings_cfg.get("name_map")
-    if name_map:
-        for group_data in result.values():
-            for row in group_data["rows"]:
-                row["team"] = name_map.get(row["team"], row["team"])
+    name_map = standings_cfg.get("name_map", {})
+    keep_bonus = standings_cfg.get("bonus_points")
+    for group_data in result.values():
+        for row in group_data["rows"]:
+            row["team"] = name_map.get(row["team"], row["team"])
+            if not keep_bonus:
+                row.pop("try_bonus", None)
+                row.pop("losing_bonus", None)
 
     return result
 
@@ -4361,7 +4454,8 @@ def fetch_titled_subtables(template, key):
         print(f"  !! standings: no table on {template_page!r} for {key}", file=sys.stderr)
         return {}
     roles = {"team": "team", "p": "played", "w": "win", "d": "draw", "l": "loss",
-             "pf": "for", "pa": "against", "pts": "points"}
+             "pf": "for", "pa": "against", "pts": "points",
+             "tbp": "try_bonus", "lbp": "losing_bonus"}
     result, title, cols = {}, None, None
     body = table.find("tbody") or table
     for tr in body.find_all("tr", recursive=False):
@@ -4401,6 +4495,8 @@ def fetch_titled_subtables(template, key):
             "against": conceded,
             "diff": scored - conceded if scored is not None and conceded is not None else None,
             "points": num("points"),
+            "try_bonus": num("try_bonus"),
+            "losing_bonus": num("losing_bonus"),
             "highlight": highlight,
         })
         if highlight:
@@ -4572,6 +4668,24 @@ def _match_instant(m):
     return None
 
 
+# Matches a source will never settle on its own - (league, date, home,
+# away) -> status. Re-applied every run (apply_manual_match_status), so a
+# refetch can't drop it; matches.html shows "Postponed" for these and
+# match_needs_score_check() stops re-fetching for them.
+MANUAL_MATCH_STATUS = {
+    # Postponed; 365Scores stopped listing it, so it would sit
+    # scoreless (and keep Liga ACB re-fetching) forever.
+    ("liga-acb-2026-27", "2026-10-03", "Joventut de Badalona", "MoraBanc Andorra"): "postponed",
+}
+
+
+def apply_manual_match_status(matches):
+    for m in matches:
+        status = MANUAL_MATCH_STATUS.get((m.get("league"), m.get("date"), m.get("home"), m.get("away")))
+        if status:
+            m["status"] = status
+
+
 def match_needs_score_check(m, now):
     """True if this match's kickoff was more than MATCH_COMPLETION_BUFFER
     ago (so it's assumed finished by now) but it still has no score
@@ -4580,6 +4694,8 @@ def match_needs_score_check(m, now):
     can never be confirmed "finished" one way or the other, but is still
     treated as needing a check - a stray unparseable fixture is better
     caught by re-fetching than left to silently never update."""
+    if m.get("status") == "postponed":
+        return False
     instant = _match_instant(m)
     if instant is None:
         return True
@@ -5313,7 +5429,7 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
             print(f"Skipping {team_name} fixtures - none of its {len(team_matches)} stored "
                   f"matches are finished but still missing a score; reusing as-is "
                   f"(use --force to check anyway)")
-            return
+            return False
         pending = [m for m in team_matches if match_needs_score_check(m, now)]
         update_matrix_team_results_scores365(cfg, team_matches)
         report_pending_score_updates(team_name, pending, team_matches)
@@ -5331,7 +5447,7 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
         print(f"Skipping {team_name} results - all {len(team_matches)} stored "
               f"matches with a past kickoff already have a score "
               f"(use --force to check anyway)")
-        return
+        return False
 
     print(f"Fetching {cfg['wiki_page']} for {team_name} results "
           f"({len(stale)} past match(es) still missing a score) ...")
@@ -5782,6 +5898,7 @@ def prune_stale_rescheduled_matches(data):
 
 def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data = load_existing()
+    apply_manual_match_status(data["matches"])
     data.setdefault("leagues", {})
     data.setdefault("standings", {})
     data.setdefault("attendance_tables", {})
@@ -5825,54 +5942,27 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         # this check can't see (it only knows about matches already on
         # record).
         if not force and cached and not league_needs_fetch_for(key, cached, now):
-            print(f"Skipping {cfg['name']} fixtures - none of its {len(cached)} stored "
-                  f"matches are finished but still missing a score; reusing as-is "
-                  f"(use --force to check anyway)")
+            # Nothing finished since the last fetch, so the standings,
+            # attendance table and bracket can't have changed either - skip
+            # them too and make no requests at all. The one exception is a
+            # league with no standings stored yet (a mismatched heading on
+            # its first run - nrl-2026/super-league-2026/efa-2026/cfl-2026
+            # all hit this once): keep retrying those until they land,
+            # rather than leaving them blank until the next finished match.
+            print(f"Skipping {cfg['name']} - none of its {len(cached)} stored "
+                  f"matches are finished but still missing a score; reusing fixtures, "
+                  f"standings and bracket as-is (use --force to check anyway)")
             data["matches"].extend(cached)
             data["leagues"].setdefault(
                 key, {"name": cfg["name"], "sport": cfg["sport"], "completed": cfg.get("completed", False)})
-            # Standings are NOT tied to the fixtures check above - a
-            # ladder/table can change every time a match is played
-            # regardless of whether any of THIS league's matches are
-            # currently finished-but-scoreless. Skipping this
-            # unconditionally on the fixtures-skip path (as a previous
-            # version of this function did) meant any league whose standings
-            # config had a mismatched heading/page the first time it ran
-            # would silently never get another chance to pick up standings
-            # again - which is exactly what happened to nrl-2026,
-            # super-league-2026, efa-2026, cfl-2026, u20-jwc-2026, and
-            # nations-cup-2026 in the wild. So this always re-fetches
-            # standings, even when fixtures themselves are skipped - just
-            # without printing anything about it when there's nothing new
-            # (an error is still worth surfacing, since that's exactly the
-            # kind of thing that silently went stale in the past).
-            try:
-                standings = fetch_standings(cfg, key)
-                if standings:
-                    data["standings"][key] = standings
-            except Exception as e:
-                print(f"  !! standings failed: {e}", file=sys.stderr)
-            # Same reasoning as standings above: not tied to the fixture
-            # fetch-worthiness check, always re-checked even when fixtures
-            # are skipped, so a mismatched heading gets another chance next
-            # run instead of silently never picking up attendance data.
-            try:
-                attendance_rows = fetch_attendance_table(cfg, key)
-                if attendance_rows:
-                    data["attendance_tables"][key] = attendance_rows
-            except Exception as e:
-                print(f"  !! attendance table failed: {e}", file=sys.stderr)
-            # Same reasoning as standings/attendance above: a playoff
-            # bracket's scores/rounds can change independent of whether
-            # this league's regular-season fixtures are currently
-            # finished-but-scoreless, so it's always re-checked too.
-            try:
-                bracket = fetch_playoffs_bracket(cfg, key)
-                if bracket:
-                    data["playoffs"][key] = bracket
-                    sync_playoff_scores_into_matches(data["matches"], key, bracket)
-            except Exception as e:
-                print(f"  !! playoffs failed: {e}", file=sys.stderr)
+            if cfg.get("standings") and not data["standings"].get(key):
+                try:
+                    standings = fetch_standings(cfg, key)
+                    if standings:
+                        data["standings"][key] = standings
+                        print(f"  -> standings: {len(standings)} table(s) for {cfg['name']} (none stored before)")
+                except Exception as e:
+                    print(f"  !! standings failed: {e}", file=sys.stderr)
             continue
 
         if "team_pages" in cfg:
@@ -5967,13 +6057,19 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     debug_matrix = debug_matrix or set()
     for matrix_key in (matrix_keys if matrix_keys is not None else list(MATRIX_TEAMS)):
         cfg = MATRIX_TEAMS[matrix_key]
+        checked = None
         try:
-            update_matrix_team_results(
+            checked = update_matrix_team_results(
                 data, matrix_key, cfg, now, force=force, debug=(matrix_key in debug_matrix))
         except Exception as e:
             print(f"  !! {cfg['team_name']} results update failed: {e}", file=sys.stderr)
-        update_matrix_league_standings(data, cfg)
+        # Same rule as the LEAGUES skip path: nothing re-checked (False =
+        # skipped) means the table can't have moved, so no request -
+        # unless there's no table stored yet.
+        if checked is not False or not data["standings"].get(cfg["league_key"]):
+            update_matrix_league_standings(data, cfg)
 
+    apply_manual_match_status(data["matches"])
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
     print(f"Wrote {len(data['matches'])} total matches to {OUTPUT_FILE}")
