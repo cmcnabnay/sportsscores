@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T17:38:47+00:00",
+  "updated": "2026-10-13T19:53:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22298,7 +22298,8 @@
       "time": "16:30",
       "utc": "2026-10-12T16:30:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
@@ -22326,7 +22327,7 @@
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "SKA St. Petersburg",
-      "score": null,
+      "score": "2-0",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22337,7 +22338,7 @@
       "league": "eurocup-2026-27",
       "home": "Neptūnas",
       "away": "JL Bourg",
-      "score": null,
+      "score": "93-89",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22348,7 +22349,7 @@
       "league": "eurocup-2026-27",
       "home": "Bahçeşehir Koleji",
       "away": "Baxi Manresa",
-      "score": null,
+      "score": "100-88",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22359,7 +22360,7 @@
       "league": "eurocup-2026-27",
       "home": "Lietkabelis",
       "away": "PAOK",
-      "score": null,
+      "score": "95-86",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22370,7 +22371,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "CS Dinamo București",
       "away": "NHSZ-Szolnoki Olajbányász",
-      "score": null,
+      "score": "93-76",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22381,7 +22382,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Pärnu",
       "away": "SLUC Nancy Basket",
-      "score": null,
+      "score": "61-84",
       "date": "2026-10-13",
       "time": "16:00",
       "utc": "2026-10-13T16:00:00+00:00",
@@ -22392,7 +22393,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Vienna",
       "away": "King Wilki Morskie Szczecin",
-      "score": null,
+      "score": "96-93",
       "date": "2026-10-13",
       "time": "17:00",
       "utc": "2026-10-13T17:00:00+00:00",
@@ -22403,7 +22404,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Prievidza",
       "away": "Landau Lions",
-      "score": null,
+      "score": "108-84",
       "date": "2026-10-13",
       "time": "17:00",
       "utc": "2026-10-13T17:00:00+00:00",
@@ -23214,6 +23215,28 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Admiral Vladivostok",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "09:30",
+      "utc": "2026-10-16T09:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Avangard Omsk",
+      "away": "Avtomobilist Yekaterinburg",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "13:30",
+      "utc": "2026-10-16T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "Rauman Lukko",
@@ -23266,6 +23289,39 @@
       "time": "15:30",
       "utc": "2026-10-16T15:30:00+00:00",
       "venue": "Isku Areena",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Traktor Chelyabinsk",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "16:00",
+      "utc": "2026-10-16T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Dynamo Moscow",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "16:00",
+      "utc": "2026-10-16T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Shanghai Dragons",
+      "away": "AK Bars",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "16:30",
+      "utc": "2026-10-16T16:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -24479,17 +24535,6 @@
       "attendance": null
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Napoli Basket",
-      "away": "Tofas",
-      "score": null,
-      "date": "2026-10-20",
-      "time": "18:00",
-      "utc": "2026-10-20T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Bàsquet Girona",
       "away": "Zastal Zielona Góra",
@@ -24834,6 +24879,17 @@
       "league": "eurocup-2026-27",
       "home": "Hapoel Jerusalem",
       "away": "Rīgas Zelli",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "18:00",
+      "utc": "2026-10-21T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Napoli Basket",
+      "away": "Tofas",
       "score": null,
       "date": "2026-10-21",
       "time": "18:00",
@@ -26668,6 +26724,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Slask Wroclaw",
+      "away": "Tofas",
+      "score": null,
+      "date": "2026-10-28",
+      "time": "17:30",
+      "utc": "2026-10-28T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Zastal Zielona Góra",
       "away": "BC Oostende",
@@ -26704,17 +26771,6 @@
       "league": "eurocup-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "JL Bourg",
-      "score": null,
-      "date": "2026-10-28",
-      "time": "18:00",
-      "utc": "2026-10-28T18:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "Slask Wroclaw",
-      "away": "Tofas",
       "score": null,
       "date": "2026-10-28",
       "time": "18:00",
@@ -35667,12 +35723,12 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Napoli Basket",
-      "away": "KK Budućnost",
+      "home": "La Laguna Tenerife",
+      "away": "London Lions",
       "score": null,
       "date": "2026-12-08",
-      "time": "19:00",
-      "utc": "2026-12-08T19:00:00+00:00",
+      "time": "20:00",
+      "utc": "2026-12-08T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -36084,6 +36140,17 @@
       "attendance": null
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "Napoli Basket",
+      "away": "KK Budućnost",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "King Wilki Morskie Szczecin",
       "away": "Keravnos Strovolou",
@@ -36124,17 +36191,6 @@
       "date": "2026-12-09",
       "time": "19:30",
       "utc": "2026-12-09T19:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "La Laguna Tenerife",
-      "away": "London Lions",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "20:00",
-      "utc": "2026-12-09T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -66703,6 +66759,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Bv Chemnitz 99",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 250,
+            "against": 246,
+            "diff": 4,
+            "points": 5,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "KK Budućnost",
             "played": 2,
             "win": 1,
@@ -66713,30 +66781,6 @@
             "diff": 6,
             "points": 3,
             "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 162,
-            "against": 166,
-            "diff": -4,
-            "points": 3,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dolomiti Energia Trento",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 157,
-            "against": 167,
-            "diff": -10,
-            "points": 3,
-            "highlight": null
           },
           {
             "team": "Slask Wroclaw",
@@ -66751,26 +66795,38 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
+            "team": "Dolomiti Energia Trento",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 225,
-            "against": 238,
-            "diff": -13,
+            "for": 237,
+            "against": 255,
+            "diff": -18,
             "points": 4,
             "highlight": null
           },
           {
             "team": "Neptūnas",
             "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 250,
+            "against": 258,
+            "diff": -8,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 3,
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 222,
-            "against": 236,
-            "diff": -14,
+            "for": 247,
+            "against": 266,
+            "diff": -19,
             "points": 3,
             "highlight": null
           }
@@ -66787,9 +66843,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 261,
-            "against": 201,
-            "diff": 60,
+            "for": 292,
+            "against": 226,
+            "diff": 66,
             "points": 6,
             "highlight": "#BBF3BB"
           },
@@ -66799,9 +66855,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 241,
-            "against": 230,
-            "diff": 11,
+            "for": 257,
+            "against": 250,
+            "diff": 7,
             "points": 5,
             "highlight": "#BBF3BB"
           },
@@ -66811,9 +66867,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 234,
-            "against": 229,
-            "diff": 5,
+            "for": 254,
+            "against": 245,
+            "diff": 9,
             "points": 5,
             "highlight": "#BBF3BB"
           },
@@ -66831,14 +66887,14 @@
           },
           {
             "team": "BC Roma SPQR",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 170,
-            "against": 178,
-            "diff": -8,
-            "points": 3,
+            "loss": 2,
+            "for": 221,
+            "against": 231,
+            "diff": -10,
+            "points": 4,
             "highlight": null
           },
           {
@@ -66847,9 +66903,21 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 242,
-            "against": 251,
-            "diff": -9,
+            "for": 267,
+            "against": 282,
+            "diff": -15,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "BC Balkan Botevgrad",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 197,
+            "against": 250,
+            "diff": -53,
             "points": 4,
             "highlight": null
           },
@@ -66862,18 +66930,6 @@
             "for": 144,
             "against": 150,
             "diff": -6,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "BC Balkan Botevgrad",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 144,
-            "against": 199,
-            "diff": -55,
             "points": 2,
             "highlight": null
           }
@@ -68872,15 +68928,15 @@
       "Group B": {
         "rows": [
           {
-            "team": "Bàsquet Girona",
-            "played": 1,
+            "team": "CS Dinamo București",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 87,
-            "against": 75,
-            "diff": 12,
-            "points": 2,
+            "loss": 1,
+            "for": 168,
+            "against": 163,
+            "diff": 5,
+            "points": 3,
             "highlight": "#BBF3BB"
           },
           {
@@ -68894,6 +68950,30 @@
             "diff": 10,
             "points": 2,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "NHSZ-Szolnoki Olajbányász",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 156,
+            "against": 183,
+            "diff": -27,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Bàsquet Girona",
+            "played": 1,
+            "win": 1,
+            "draw": null,
+            "loss": 0,
+            "for": 87,
+            "against": 75,
+            "diff": 12,
+            "points": 2,
+            "highlight": null
           },
           {
             "team": "BC Oostende",
@@ -68916,30 +68996,6 @@
             "for": 69,
             "against": 76,
             "diff": -7,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "NHSZ-Szolnoki Olajbányász",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 80,
-            "against": 90,
-            "diff": -10,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "CS Dinamo București",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 87,
-            "diff": -12,
             "points": 1,
             "highlight": null
           }
@@ -69030,6 +69086,42 @@
       "Group D": {
         "rows": [
           {
+            "team": "SLUC Nancy Basket",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 150,
+            "against": 126,
+            "diff": 24,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Vienna",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 161,
+            "against": 159,
+            "diff": 2,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "King Wilki Morskie Szczecin",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 181,
+            "against": 177,
+            "diff": 4,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Keravnos Strovolou",
             "played": 1,
             "win": 1,
@@ -69039,42 +69131,18 @@
             "against": 70,
             "diff": 18,
             "points": 2,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "King Wilki Morskie Szczecin",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 88,
-            "against": 81,
-            "diff": 7,
-            "points": 2,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "SLUC Nancy Basket",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 66,
-            "against": 65,
-            "diff": 1,
-            "points": 2,
             "highlight": null
           },
           {
-            "team": "BC Vienna",
-            "played": 1,
+            "team": "BC Pärnu",
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 65,
-            "against": 66,
-            "diff": -1,
-            "points": 1,
+            "loss": 2,
+            "for": 131,
+            "against": 172,
+            "diff": -41,
+            "points": 2,
             "highlight": null
           },
           {
@@ -69086,18 +69154,6 @@
             "for": 81,
             "against": 88,
             "diff": -7,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "BC Pärnu",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 70,
-            "against": 88,
-            "diff": -18,
             "points": 1,
             "highlight": null
           }
@@ -69267,6 +69323,18 @@
       "Group G": {
         "rows": [
           {
+            "team": "BC Prievidza",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 177,
+            "against": 167,
+            "diff": 10,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Lions de Genève pwd by Grand-Saconnex",
             "played": 1,
             "win": 1,
@@ -69279,6 +69347,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Landau Lions",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 167,
+            "against": 213,
+            "diff": -46,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Denizli Basket Spor Kulübü",
             "played": 1,
             "win": 1,
@@ -69288,7 +69368,7 @@
             "against": 69,
             "diff": 14,
             "points": 2,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "SL Benfica",
@@ -69311,30 +69391,6 @@
             "for": 81,
             "against": 91,
             "diff": -10,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "BC Prievidza",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 69,
-            "against": 83,
-            "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Landau Lions",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 83,
-            "against": 105,
-            "diff": -22,
             "points": 1,
             "highlight": null
           }
