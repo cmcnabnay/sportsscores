@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T16:49:48+00:00",
+  "updated": "2026-10-13T16:52:16+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -16878,17 +16878,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "EA7 Emporio Armani Milano",
-      "score": "92-76",
-      "date": "2026-09-25",
-      "time": "18:45",
-      "utc": "2026-09-25T18:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Ulster",
       "away": "Edinburgh",
@@ -16920,6 +16909,17 @@
       "utc": "2026-09-25T18:45:00+00:00",
       "venue": "Galway Sportsgrounds",
       "attendance": "7243"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "EA7 Emporio Armani Milano",
+      "score": "92-76",
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null
     },
     {
       "league": "cfl-2026",
@@ -16989,17 +16989,6 @@
       "attendance": null
     },
     {
-      "league": "khl-2026-27",
-      "home": "Metallurg Magnitogorsk",
-      "away": "AK Bars",
-      "score": "2-1",
-      "date": "2026-09-26",
-      "time": "11:30",
-      "utc": "2026-09-26T11:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Lions",
       "away": "Leinster",
@@ -17009,6 +16998,17 @@
       "utc": "2026-09-26T11:30:00+00:00",
       "venue": "Emirates Airline Park",
       "attendance": "4613"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "AK Bars",
+      "score": "2-1",
+      "date": "2026-09-26",
+      "time": "11:30",
+      "utc": "2026-09-26T11:30:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "top14-2026",
@@ -17065,6 +17065,17 @@
       "utc": "2026-09-26T13:40:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Ospreys",
+      "score": "41-24",
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": "Kings Park Stadium",
+      "attendance": "11330"
     },
     {
       "league": "khl-2026-27",
@@ -17187,17 +17198,6 @@
       "utc": "2026-09-26T14:00:00+00:00",
       "venue": "Lumon Areena",
       "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Sharks",
-      "away": "Ospreys",
-      "score": "41-24",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "utc": "2026-09-26T14:00:00+00:00",
-      "venue": "Kings Park Stadium",
-      "attendance": "11330"
     },
     {
       "league": "npc-2026",
@@ -17366,6 +17366,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Bulls",
+      "score": "13-47",
+      "date": "2026-09-26",
+      "time": "16:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi",
+      "attendance": "2498"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Glasgow Warriors",
+      "score": "20-26",
+      "date": "2026-09-26",
+      "time": "16:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Thomond Park",
+      "attendance": "11031"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Skyliners Frankfurt",
       "away": "SC Rasta Vechta",
@@ -17399,28 +17421,6 @@
       "venue": null,
       "attendance": null,
       "ot": true
-    },
-    {
-      "league": "urc-2026",
-      "home": "Zebre",
-      "away": "Bulls",
-      "score": "13-47",
-      "date": "2026-09-26",
-      "time": "16:30",
-      "utc": "2026-09-26T16:30:00+00:00",
-      "venue": "Stadio Sergio Lanfranchi",
-      "attendance": "2498"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Munster",
-      "away": "Glasgow Warriors",
-      "score": "20-26",
-      "date": "2026-09-26",
-      "time": "16:30",
-      "utc": "2026-09-26T16:30:00+00:00",
-      "venue": "Thomond Park",
-      "attendance": "11031"
     },
     {
       "league": "cfl-2026",
@@ -19138,6 +19138,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Scarlets",
+      "score": "38-26",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": "Rodney Parade",
+      "attendance": "7163"
+    },
+    {
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Shanghai Dragons",
@@ -19263,17 +19274,6 @@
       "venue": "Kalevankankaan jäähalli",
       "attendance": null,
       "ot": true
-    },
-    {
-      "league": "urc-2026",
-      "home": "Dragons",
-      "away": "Scarlets",
-      "score": "38-26",
-      "date": "2026-10-03",
-      "time": "14:00",
-      "utc": "2026-10-03T14:00:00+00:00",
-      "venue": "Rodney Parade",
-      "attendance": "7163"
     },
     {
       "league": "npc-2026",
@@ -19452,6 +19452,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Ulster",
+      "score": "33-33",
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": "Scotstoun Stadium",
+      "attendance": "7321"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Leinster",
+      "score": "26-20",
+      "date": "2026-10-03",
+      "time": "16:30",
+      "utc": "2026-10-03T16:30:00+00:00",
+      "venue": "Kings Park Stadium",
+      "attendance": "19044"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Brose Bamberg",
@@ -19494,28 +19516,6 @@
       "utc": "2026-10-03T16:30:00+00:00",
       "venue": null,
       "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Glasgow Warriors",
-      "away": "Ulster",
-      "score": "33-33",
-      "date": "2026-10-03",
-      "time": "16:30",
-      "utc": "2026-10-03T16:30:00+00:00",
-      "venue": "Scotstoun Stadium",
-      "attendance": "7321"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Sharks",
-      "away": "Leinster",
-      "score": "26-20",
-      "date": "2026-10-03",
-      "time": "16:30",
-      "utc": "2026-10-03T16:30:00+00:00",
-      "venue": "Kings Park Stadium",
-      "attendance": "19044"
     },
     {
       "league": "npc-2026",
@@ -21379,17 +21379,6 @@
       "attendance": null
     },
     {
-      "league": "khl-2026-27",
-      "home": "Barys Astana",
-      "away": "Avangard Omsk",
-      "score": "5-1",
-      "date": "2026-10-10",
-      "time": "11:30",
-      "utc": "2026-10-10T11:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Bulls",
       "away": "Lions",
@@ -21399,6 +21388,17 @@
       "utc": "2026-10-10T11:30:00+00:00",
       "venue": "Loftus Versfeld Stadium",
       "attendance": "11307"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Avangard Omsk",
+      "score": "5-1",
+      "date": "2026-10-10",
+      "time": "11:30",
+      "utc": "2026-10-10T11:30:00+00:00",
+      "venue": null,
+      "attendance": null
     },
     {
       "league": "top14-2026",
@@ -21455,6 +21455,28 @@
       "utc": "2026-10-10T11:00:00+00:00",
       "venue": null,
       "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Edinburgh",
+      "score": "12-29",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi",
+      "attendance": "2305"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Sharks",
+      "score": "39-22",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": "DHL Stadium",
+      "attendance": "42368"
     },
     {
       "league": "bbl-2026-27",
@@ -21534,28 +21556,6 @@
       "venue": "Kalevankankaan jäähalli",
       "attendance": null,
       "ot": true
-    },
-    {
-      "league": "urc-2026",
-      "home": "Zebre",
-      "away": "Edinburgh",
-      "score": "12-29",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "utc": "2026-10-10T14:00:00+00:00",
-      "venue": "Stadio Sergio Lanfranchi",
-      "attendance": "2305"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Stormers",
-      "away": "Sharks",
-      "score": "39-22",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "utc": "2026-10-10T14:00:00+00:00",
-      "venue": "DHL Stadium",
-      "attendance": "42368"
     },
     {
       "league": "premiership-2026",
@@ -21734,6 +21734,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Benetton Treviso",
+      "score": "27-26",
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": "Parc y Scarlets",
+      "attendance": "6026"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Munster",
+      "score": "26-26",
+      "date": "2026-10-10",
+      "time": "16:30",
+      "utc": "2026-10-10T16:30:00+00:00",
+      "venue": "Ravenhill",
+      "attendance": "12814"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "Wurzburg Baskets",
@@ -21765,28 +21787,6 @@
       "utc": "2026-10-10T16:30:00+00:00",
       "venue": null,
       "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Scarlets",
-      "away": "Benetton Treviso",
-      "score": "27-26",
-      "date": "2026-10-10",
-      "time": "16:30",
-      "utc": "2026-10-10T16:30:00+00:00",
-      "venue": "Parc y Scarlets",
-      "attendance": "6026"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ulster",
-      "away": "Munster",
-      "score": "26-26",
-      "date": "2026-10-10",
-      "time": "16:30",
-      "utc": "2026-10-10T16:30:00+00:00",
-      "venue": "Ravenhill",
-      "attendance": "12814"
     },
     {
       "league": "liga-acb-2026-27",
@@ -25270,17 +25270,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Paris Basketball",
-      "away": "Valencia Basket",
-      "score": null,
-      "date": "2026-10-23",
-      "time": "18:45",
-      "utc": "2026-10-23T18:45:00+00:00",
-      "venue": "Porte de La Chapelle Arena",
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Cardiff Rugby",
       "away": "Sharks",
@@ -25311,6 +25300,17 @@
       "time": "18:45",
       "utc": "2026-10-23T18:45:00+00:00",
       "venue": "Murrayfield",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Paris Basketball",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "18:45",
+      "utc": "2026-10-23T18:45:00+00:00",
+      "venue": "Porte de La Chapelle Arena",
       "attendance": null
     },
     {
@@ -25413,6 +25413,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "Stadio Comunale di Monigo",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "14:00",
+      "utc": "2026-10-24T14:00:00+00:00",
+      "venue": "DHL Stadium",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "Tappara Tampere",
@@ -25498,28 +25520,6 @@
       "time": "14:00",
       "utc": "2026-10-24T14:00:00+00:00",
       "venue": "Kalevankankaan jäähalli",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Benetton Treviso",
-      "away": "Glasgow Warriors",
-      "score": null,
-      "date": "2026-10-24",
-      "time": "14:00",
-      "utc": "2026-10-24T14:00:00+00:00",
-      "venue": "Stadio Comunale di Monigo",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Stormers",
-      "away": "Scarlets",
-      "score": null,
-      "date": "2026-10-24",
-      "time": "14:00",
-      "utc": "2026-10-24T14:00:00+00:00",
-      "venue": "DHL Stadium",
       "attendance": null
     },
     {
@@ -25732,6 +25732,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Dragons",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "18:00",
+      "utc": "2026-10-24T18:00:00+00:00",
+      "venue": "Swansea.com Stadium",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "N.R. Ludwigsburg",
       "away": "Telekom Baskets Bonn",
@@ -25762,17 +25773,6 @@
       "time": "18:00",
       "utc": "2026-10-24T18:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ospreys",
-      "away": "Dragons",
-      "score": null,
-      "date": "2026-10-24",
-      "time": "18:00",
-      "utc": "2026-10-24T18:00:00+00:00",
-      "venue": "Swansea.com Stadium",
       "attendance": null
     },
     {
@@ -25834,6 +25834,17 @@
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "MoraBanc Andorra",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "11:00",
+      "utc": "2026-10-25T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Basquet Girona",
+      "away": "Joventut de Badalona",
       "score": null,
       "date": "2026-10-25",
       "time": "11:00",
@@ -27393,6 +27404,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Benetton Treviso",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": "Stadio Comunale di Monigo",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": "Loftus Versfeld Stadium",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "KalPa Kuopio",
@@ -27456,28 +27489,6 @@
       "time": "15:00",
       "utc": "2026-10-31T15:00:00+00:00",
       "venue": "Isku Areena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Benetton Treviso",
-      "away": "Edinburgh",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "15:00",
-      "utc": "2026-10-31T15:00:00+00:00",
-      "venue": "Stadio Comunale di Monigo",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Bulls",
-      "away": "Scarlets",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "15:00",
-      "utc": "2026-10-31T15:00:00+00:00",
-      "venue": "Loftus Versfeld Stadium",
       "attendance": null
     },
     {
@@ -27635,6 +27646,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Munster",
+      "away": "Sharks",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "17:30",
+      "utc": "2026-10-31T17:30:00+00:00",
+      "venue": "Thomond Park",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Zebre",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "17:30",
+      "utc": "2026-10-31T17:30:00+00:00",
+      "venue": "Rodney Parade",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Baskets Oldenburg",
@@ -27676,28 +27709,6 @@
       "time": "17:30",
       "utc": "2026-10-31T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Munster",
-      "away": "Sharks",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "17:30",
-      "utc": "2026-10-31T17:30:00+00:00",
-      "venue": "Thomond Park",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Dragons",
-      "away": "Zebre",
-      "score": null,
-      "date": "2026-10-31",
-      "time": "17:30",
-      "utc": "2026-10-31T17:30:00+00:00",
-      "venue": "Rodney Parade",
       "attendance": null
     },
     {
@@ -34697,6 +34708,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Cardiff Rugby",
+      "away": "Ulster",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": "Cardiff Arms Park",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Tampereen Ilves",
@@ -34749,17 +34771,6 @@
       "time": "15:00",
       "utc": "2026-12-05T15:00:00+00:00",
       "venue": "Äijänsuo Arena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Cardiff Rugby",
-      "away": "Ulster",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": "Cardiff Arms Park",
       "attendance": null
     },
     {
@@ -38569,17 +38580,6 @@
       "attendance": null
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Unicaja Málaga",
-      "away": "Joventut de Badalona",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "18:30",
-      "utc": "2026-12-19T18:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Leinster",
       "away": "Glasgow Warriors",
@@ -38588,6 +38588,17 @@
       "time": "18:30",
       "utc": "2026-12-19T18:30:00+00:00",
       "venue": "RDS arena",
+      "attendance": null
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Unicaja Málaga",
+      "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "18:30",
+      "utc": "2026-12-19T18:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -39955,6 +39966,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Cardiff Rugby",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": "Rodney Parade",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "KooKoo Kouvola",
@@ -40040,17 +40062,6 @@
       "time": "15:00",
       "utc": "2026-12-26T15:00:00+00:00",
       "venue": "Barona Areena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Dragons",
-      "away": "Cardiff Rugby",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "15:00",
-      "utc": "2026-12-26T15:00:00+00:00",
-      "venue": "Rodney Parade",
       "attendance": null
     },
     {
@@ -40197,6 +40208,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Scarlets",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "17:30",
+      "utc": "2026-12-26T17:30:00+00:00",
+      "venue": "Swansea.com Stadium",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "TBB Trier",
@@ -40216,17 +40238,6 @@
       "time": "17:30",
       "utc": "2026-12-26T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ospreys",
-      "away": "Scarlets",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "17:30",
-      "utc": "2026-12-26T17:30:00+00:00",
-      "venue": "Swansea.com Stadium",
       "attendance": null
     },
     {
@@ -41528,6 +41539,39 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Sharks",
+      "away": "Lions",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Kings Park Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Zebre",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Stadio Sergio Lanfranchi",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": "Parc y Scarlets",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "TPS Turku",
@@ -41602,39 +41646,6 @@
       "time": "15:00",
       "utc": "2027-01-02T15:00:00+00:00",
       "venue": "Isku Areena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Sharks",
-      "away": "Lions",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": "Kings Park Stadium",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Zebre",
-      "away": "Glasgow Warriors",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": "Stadio Sergio Lanfranchi",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Scarlets",
-      "away": "Dragons",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": "Parc y Scarlets",
       "attendance": null
     },
     {
@@ -41825,6 +41836,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Edinburgh",
+      "away": "Benetton Treviso",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Murrayfield",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Rugby",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "17:30",
+      "utc": "2027-01-02T17:30:00+00:00",
+      "venue": "Cardiff Arms Park",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Wurzburg Baskets",
       "away": "TBB Trier",
@@ -41855,28 +41888,6 @@
       "time": "17:30",
       "utc": "2027-01-02T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Edinburgh",
-      "away": "Benetton Treviso",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "17:30",
-      "utc": "2027-01-02T17:30:00+00:00",
-      "venue": "Murrayfield",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Cardiff Rugby",
-      "away": "Ospreys",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "17:30",
-      "utc": "2027-01-02T17:30:00+00:00",
-      "venue": "Cardiff Arms Park",
       "attendance": null
     },
     {
@@ -42001,6 +42012,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-03",
+      "time": "14:00",
+      "utc": "2027-01-03T14:00:00+00:00",
+      "venue": "DHL Stadium",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Ratiopharm Ulm",
@@ -42020,17 +42042,6 @@
       "time": "14:00",
       "utc": "2027-01-03T14:00:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Stormers",
-      "away": "Bulls",
-      "score": null,
-      "date": "2027-01-03",
-      "time": "14:00",
-      "utc": "2027-01-03T14:00:00+00:00",
-      "venue": "DHL Stadium",
       "attendance": null
     },
     {
@@ -45972,6 +45983,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Cardiff Rugby",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": "DHL Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": "Swansea.com Stadium",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "Vaasan Sport",
@@ -46046,28 +46079,6 @@
       "time": "15:00",
       "utc": "2027-01-23T15:00:00+00:00",
       "venue": "Barona Areena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Stormers",
-      "away": "Cardiff Rugby",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": "DHL Stadium",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ospreys",
-      "away": "Edinburgh",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": "Swansea.com Stadium",
       "attendance": null
     },
     {
@@ -46192,28 +46203,6 @@
       "attendance": null
     },
     {
-      "league": "bbl-2026-27",
-      "home": "Ratiopharm Ulm",
-      "away": "Telekom Baskets Bonn",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "17:30",
-      "utc": "2027-01-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Alba Berlin",
-      "away": "Hamburg Towers",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "17:30",
-      "utc": "2027-01-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Leinster",
       "away": "Dragons",
@@ -46233,6 +46222,28 @@
       "time": "17:30",
       "utc": "2027-01-23T17:30:00+00:00",
       "venue": "Stadio Comunale di Monigo",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Ratiopharm Ulm",
+      "away": "Telekom Baskets Bonn",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "17:30",
+      "utc": "2027-01-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Alba Berlin",
+      "away": "Hamburg Towers",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "17:30",
+      "utc": "2027-01-23T17:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -47226,6 +47237,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Stormers",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": "DHL Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Scarlets",
+      "away": "Edinburgh",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": "Parc y Scarlets",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "Tampereen Ilves",
@@ -47267,28 +47300,6 @@
       "time": "15:00",
       "utc": "2027-01-30T15:00:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Stormers",
-      "away": "Zebre",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "15:00",
-      "utc": "2027-01-30T15:00:00+00:00",
-      "venue": "DHL Stadium",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Scarlets",
-      "away": "Edinburgh",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "15:00",
-      "utc": "2027-01-30T15:00:00+00:00",
-      "venue": "Parc y Scarlets",
       "attendance": null
     },
     {
@@ -47424,6 +47435,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Leinster",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "17:30",
+      "utc": "2027-01-30T17:30:00+00:00",
+      "venue": "RDS arena",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "TBB Trier",
@@ -47454,17 +47476,6 @@
       "time": "17:30",
       "utc": "2027-01-30T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Leinster",
-      "away": "Bulls",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "17:30",
-      "utc": "2027-01-30T17:30:00+00:00",
-      "venue": "RDS arena",
       "attendance": null
     },
     {
@@ -50471,6 +50482,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Stormers",
+      "score": null,
+      "date": "2027-02-21",
+      "time": "13:00",
+      "utc": "2027-02-21T13:00:00+00:00",
+      "venue": "Loftus Versfeld Stadium",
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Kölner Haie",
       "away": "Krefeld Pinguine",
@@ -50501,17 +50523,6 @@
       "time": "13:00",
       "utc": "2027-02-21T13:00:00+00:00",
       "venue": "Eissporthalle Iserlohn",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Bulls",
-      "away": "Stormers",
-      "score": null,
-      "date": "2027-02-21",
-      "time": "13:00",
-      "utc": "2027-02-21T13:00:00+00:00",
-      "venue": "Loftus Versfeld Stadium",
       "attendance": null
     },
     {
@@ -51340,6 +51351,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Sharks",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": "Loftus Versfeld Stadium",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Cardiff Rugby",
+      "away": "Glasgow Warriors",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": "Cardiff Arms Park",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "JYP Jyväskylä",
@@ -51392,28 +51425,6 @@
       "time": "15:00",
       "utc": "2027-02-27T15:00:00+00:00",
       "venue": "Lumon Areena",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Bulls",
-      "away": "Sharks",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": "Loftus Versfeld Stadium",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Cardiff Rugby",
-      "away": "Glasgow Warriors",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": "Cardiff Arms Park",
       "attendance": null
     },
     {
@@ -54585,17 +54596,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "Anadolu Efes",
-      "score": null,
-      "date": "2027-03-19",
-      "time": "17:00",
-      "utc": "2027-03-19T17:00:00+00:00",
-      "venue": "Basketball Development Centre",
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Sharks",
       "away": "Edinburgh",
@@ -54604,6 +54604,17 @@
       "time": "17:00",
       "utc": "2027-03-19T17:00:00+00:00",
       "venue": "Kings Park Stadium",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Beşiktaş JK",
+      "away": "Anadolu Efes",
+      "score": null,
+      "date": "2027-03-19",
+      "time": "17:00",
+      "utc": "2027-03-19T17:00:00+00:00",
+      "venue": "Basketball Development Centre",
       "attendance": null
     },
     {
@@ -54750,6 +54761,28 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Ulster",
+      "away": "Zebre",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": "Ravenhill",
+      "attendance": null
+    },
+    {
+      "league": "urc-2026",
+      "home": "Bulls",
+      "away": "Dragons",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": "Loftus Versfeld Stadium",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "KooKoo Kouvola",
       "away": "Tappara Tampere",
@@ -54813,28 +54846,6 @@
       "time": "15:00",
       "utc": "2027-03-20T15:00:00+00:00",
       "venue": "Ritarihalli",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ulster",
-      "away": "Zebre",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "15:00",
-      "utc": "2027-03-20T15:00:00+00:00",
-      "venue": "Ravenhill",
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Bulls",
-      "away": "Dragons",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "15:00",
-      "utc": "2027-03-20T15:00:00+00:00",
-      "venue": "Loftus Versfeld Stadium",
       "attendance": null
     },
     {
@@ -54926,28 +54937,6 @@
       "attendance": null
     },
     {
-      "league": "bbl-2026-27",
-      "home": "Wurzburg Baskets",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "17:30",
-      "utc": "2027-03-20T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
-      "home": "Brose Bamberg",
-      "away": "Ratiopharm Ulm",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "17:30",
-      "utc": "2027-03-20T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Munster",
       "away": "Ospreys",
@@ -54967,6 +54956,28 @@
       "time": "17:30",
       "utc": "2027-03-20T17:30:00+00:00",
       "venue": "Parc y Scarlets",
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Wurzburg Baskets",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "17:30",
+      "utc": "2027-03-20T17:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Brose Bamberg",
+      "away": "Ratiopharm Ulm",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "17:30",
+      "utc": "2027-03-20T17:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -55608,17 +55619,6 @@
       "attendance": null
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Real Madrid",
-      "away": "Beşiktaş JK",
-      "score": null,
-      "date": "2027-03-26",
-      "time": "19:45",
-      "utc": "2027-03-26T19:45:00+00:00",
-      "venue": "Movistar Arena",
-      "attendance": null
-    },
-    {
       "league": "urc-2026",
       "home": "Scarlets",
       "away": "Leinster",
@@ -55638,6 +55638,17 @@
       "time": "19:45",
       "utc": "2027-03-26T19:45:00+00:00",
       "venue": "Scotstoun Stadium",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Real Madrid",
+      "away": "Beşiktaş JK",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:45",
+      "utc": "2027-03-26T19:45:00+00:00",
+      "venue": "Movistar Arena",
       "attendance": null
     },
     {
@@ -55817,6 +55828,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Cardiff Rugby",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "17:30",
+      "utc": "2027-03-27T17:30:00+00:00",
+      "venue": "Cardiff Arms Park",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "TBB Trier",
@@ -55836,17 +55858,6 @@
       "time": "17:30",
       "utc": "2027-03-27T17:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Cardiff Rugby",
-      "away": "Munster",
-      "score": null,
-      "date": "2027-03-27",
-      "time": "17:30",
-      "utc": "2027-03-27T17:30:00+00:00",
-      "venue": "Cardiff Arms Park",
       "attendance": null
     },
     {
@@ -57654,6 +57665,17 @@
       "attendance": null
     },
     {
+      "league": "urc-2026",
+      "home": "Ospreys",
+      "away": "Bulls",
+      "score": null,
+      "date": "2027-04-17",
+      "time": "16:30",
+      "utc": "2027-04-17T16:30:00+00:00",
+      "venue": "Swansea.com Stadium",
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Wurzburg Baskets",
       "away": "Basketball Lowen Braunschweig",
@@ -57673,17 +57695,6 @@
       "time": "16:30",
       "utc": "2027-04-17T16:30:00+00:00",
       "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "urc-2026",
-      "home": "Ospreys",
-      "away": "Bulls",
-      "score": null,
-      "date": "2027-04-17",
-      "time": "16:30",
-      "utc": "2027-04-17T16:30:00+00:00",
-      "venue": "Swansea.com Stadium",
       "attendance": null
     },
     {
@@ -66750,9 +66761,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 194,
-            "against": 196,
-            "diff": -2,
+            "for": 202,
+            "against": 207,
+            "diff": -5,
             "points": 4,
             "highlight": null
           },
@@ -66762,9 +66773,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 185,
-            "against": 210,
-            "diff": -25,
+            "for": 196,
+            "against": 218,
+            "diff": -22,
             "points": 3,
             "highlight": null
           }
@@ -66779,9 +66790,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 236,
-            "against": 173,
-            "diff": 63,
+            "for": 241,
+            "against": 180,
+            "diff": 61,
             "points": 6,
             "highlight": null
           },
@@ -66791,9 +66802,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 204,
-            "against": 201,
-            "diff": 3,
+            "for": 212,
+            "against": 204,
+            "diff": 8,
             "points": 5,
             "highlight": null
           },
@@ -66803,9 +66814,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 205,
-            "against": 192,
-            "diff": 13,
+            "for": 208,
+            "against": 200,
+            "diff": 8,
             "points": 5,
             "highlight": null
           },
@@ -66839,9 +66850,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 214,
-            "against": 226,
-            "diff": -12,
+            "for": 221,
+            "against": 231,
+            "diff": -10,
             "points": 4,
             "highlight": null
           },
