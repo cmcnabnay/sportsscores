@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T16:18:36+00:00",
+  "updated": "2026-10-13T16:30:03+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -66367,6 +66367,18 @@
             "highlight": null
           },
           {
+            "team": "Severstal Cherepovets",
+            "played": 15,
+            "win": 9,
+            "draw": null,
+            "loss": 4,
+            "for": 33,
+            "against": 29,
+            "diff": 4,
+            "points": 20,
+            "highlight": null
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 14,
             "win": 8,
@@ -66375,18 +66387,6 @@
             "for": 38,
             "against": 25,
             "diff": 13,
-            "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Severstal Cherepovets",
-            "played": 15,
-            "win": 8,
-            "draw": null,
-            "loss": 4,
-            "for": 32,
-            "against": 29,
-            "diff": 3,
             "points": 18,
             "highlight": null
           },
@@ -66407,10 +66407,10 @@
             "played": 14,
             "win": 8,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 47,
-            "against": 42,
-            "diff": 5,
+            "against": 43,
+            "diff": 4,
             "points": 17,
             "highlight": null
           },
@@ -66898,9 +66898,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 176,
-            "against": 177,
-            "diff": -1,
+            "for": 189,
+            "against": 183,
+            "diff": 6,
             "points": 4,
             "highlight": null
           },
@@ -66910,9 +66910,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 166,
-            "against": 192,
-            "diff": -26,
+            "for": 172,
+            "against": 205,
+            "diff": -33,
             "points": 3,
             "highlight": null
           }
@@ -66927,9 +66927,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 214,
-            "against": 148,
-            "diff": 66,
+            "for": 228,
+            "against": 165,
+            "diff": 63,
             "points": 6,
             "highlight": null
           },
@@ -66939,9 +66939,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 185,
-            "against": 185,
-            "diff": 0,
+            "for": 192,
+            "against": 188,
+            "diff": 4,
             "points": 5,
             "highlight": null
           },
@@ -66951,9 +66951,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 189,
-            "against": 173,
-            "diff": 16,
+            "for": 192,
+            "against": 180,
+            "diff": 12,
             "points": 5,
             "highlight": null
           },
@@ -66987,9 +66987,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 189,
-            "against": 204,
-            "diff": -15,
+            "for": 206,
+            "against": 218,
+            "diff": -12,
             "points": 4,
             "highlight": null
           },
