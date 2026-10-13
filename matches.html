@@ -1224,8 +1224,22 @@ function computeAttendanceStats(leagueKey) {
       s.totalAttendance += att;
     }
   }
+  // A standings-derived roster name can still differ from the match-derived
+  // one in ways normalizeTeamName deliberately leaves alone - a status
+  // marker it can't safely strip everywhere (Super League's "Wigan Warriors
+  // (L)", "Wakefield Trinity (C)" - but Argentina's "Talleres (C)" is a real
+  // name) or punctuation ("Hull FC" vs "Hull F.C."). Only add a roster team
+  // when no already-counted team matches it loosely; exact names still win,
+  // so two real clubs that differ only by a parenthetical never merge.
+  // Only the roster side drops its parenthetical, so "Gimnasia y Esgrima
+  // (LP)" never folds into a counted "Gimnasia y Esgrima (M)".
+  const looseKey = name => name.replace(/[.\s]/g, '').toLowerCase();
+  const stripMarker = name => name.replace(/\s*\([^)]*\)\s*$/, '');
+  const seenLoose = new Set(Object.keys(stats).map(looseKey));
   for (const team of getLeagueRoster(leagueKey)) {
-    if (!stats[team]) stats[team] = { team, withAttendance: 0, totalAttendance: 0 };
+    if (stats[team] || seenLoose.has(looseKey(team)) || seenLoose.has(looseKey(stripMarker(team)))) continue;
+    stats[team] = { team, withAttendance: 0, totalAttendance: 0 };
+    seenLoose.add(looseKey(team));
   }
   return Object.values(stats).map(s => ({
     team: s.team,
