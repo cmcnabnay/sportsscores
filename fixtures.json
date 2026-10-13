@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T17:01:18+00:00",
+  "updated": "2026-10-13T17:17:54+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -15735,17 +15735,6 @@
       "attendance": null
     },
     {
-      "league": "internationals-2026",
-      "home": "Poland",
-      "away": "Czechia",
-      "score": null,
-      "date": "2026-09-19",
-      "time": "18:00",
-      "utc": "2026-09-19T18:00:00+00:00",
-      "venue": "Stadion im. Ojca Władysława Augustynka",
-      "attendance": null
-    },
-    {
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Hamburg Towers",
@@ -19383,7 +19372,8 @@
       "time": "16:00",
       "utc": "2026-10-03T16:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "status": "postponed"
     },
     {
       "league": "lnb-elite-2026-27",
@@ -25834,17 +25824,6 @@
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "MoraBanc Andorra",
-      "score": null,
-      "date": "2026-10-25",
-      "time": "11:00",
-      "utc": "2026-10-25T11:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "liga-acb-2026-27",
-      "home": "Basquet Girona",
-      "away": "Joventut de Badalona",
       "score": null,
       "date": "2026-10-25",
       "time": "11:00",
@@ -69358,7 +69337,7 @@
       }
     },
     "urc-2026": {
-      "URC league standings": {
+      "League table · Table": {
         "rows": [
           {
             "team": "Edinburgh",
@@ -69370,6 +69349,8 @@
             "against": 54,
             "diff": 26,
             "points": 14,
+            "try_bonus": 2,
+            "losing_bonus": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -69382,6 +69363,8 @@
             "against": 72,
             "diff": 23,
             "points": 13,
+            "try_bonus": 3,
+            "losing_bonus": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -69394,6 +69377,8 @@
             "against": 54,
             "diff": 72,
             "points": 11,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -69406,6 +69391,8 @@
             "against": 54,
             "diff": 27,
             "points": 11,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -69418,6 +69405,8 @@
             "against": 83,
             "diff": 6,
             "points": 10,
+            "try_bonus": 2,
+            "losing_bonus": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -69430,6 +69419,8 @@
             "against": 71,
             "diff": -5,
             "points": 9,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -69442,6 +69433,8 @@
             "against": 102,
             "diff": -25,
             "points": 9,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -69454,6 +69447,8 @@
             "against": 83,
             "diff": 5,
             "points": 9,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -69466,6 +69461,8 @@
             "against": 74,
             "diff": -2,
             "points": 9,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "white"
           },
           {
@@ -69478,6 +69475,8 @@
             "against": 58,
             "diff": 17,
             "points": 8,
+            "try_bonus": 2,
+            "losing_bonus": 2,
             "highlight": "white"
           },
           {
@@ -69490,6 +69489,8 @@
             "against": 93,
             "diff": -5,
             "points": 8,
+            "try_bonus": 3,
+            "losing_bonus": 1,
             "highlight": "white"
           },
           {
@@ -69502,6 +69503,8 @@
             "against": 85,
             "diff": -17,
             "points": 7,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "white"
           },
           {
@@ -69514,6 +69517,8 @@
             "against": 107,
             "diff": -26,
             "points": 6,
+            "try_bonus": 2,
+            "losing_bonus": 0,
             "highlight": "white"
           },
           {
@@ -69526,6 +69531,8 @@
             "against": 84,
             "diff": -28,
             "points": 5,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "white"
           },
           {
@@ -69538,6 +69545,8 @@
             "against": 68,
             "diff": -4,
             "points": 5,
+            "try_bonus": 1,
+            "losing_bonus": 2,
             "highlight": "white"
           },
           {
@@ -69550,6 +69559,8 @@
             "against": 116,
             "diff": -64,
             "points": 1,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "white"
           }
         ],
@@ -69558,7 +69569,7 @@
           "white": "Challenge Cup"
         }
       },
-      "Irish Shield": {
+      "Regional shields · Irish Shield": {
         "rows": [
           {
             "team": "Munster",
@@ -69570,6 +69581,8 @@
             "against": 26,
             "diff": 0,
             "points": 3,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "#d8ffeb"
           },
           {
@@ -69582,6 +69595,8 @@
             "against": 26,
             "diff": 0,
             "points": 3,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69594,6 +69609,8 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69606,6 +69623,8 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           }
         ],
@@ -69613,7 +69632,7 @@
           "#d8ffeb": "Leading the regional shield"
         }
       },
-      "Italian x Scottish Shield": {
+      "Regional shields · Italian x Scottish Shield": {
         "rows": [
           {
             "team": "Edinburgh",
@@ -69625,6 +69644,8 @@
             "against": 12,
             "diff": 17,
             "points": 6,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "#d8ffeb"
           },
           {
@@ -69637,6 +69658,8 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69649,6 +69672,8 @@
             "against": 0,
             "diff": 0,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69661,6 +69686,8 @@
             "against": 29,
             "diff": -17,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           }
         ],
@@ -69668,7 +69695,7 @@
           "#d8ffeb": "Leading the regional shield"
         }
       },
-      "South African Shield": {
+      "Regional shields · South African Shield": {
         "rows": [
           {
             "team": "Bulls",
@@ -69680,6 +69707,8 @@
             "against": 15,
             "diff": 42,
             "points": 5,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": "#d8ffeb"
           },
           {
@@ -69692,6 +69721,8 @@
             "against": 22,
             "diff": 17,
             "points": 5,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69704,6 +69735,8 @@
             "against": 39,
             "diff": -17,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69716,6 +69749,8 @@
             "against": 57,
             "diff": -42,
             "points": 0,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           }
         ],
@@ -69723,7 +69758,7 @@
           "#d8ffeb": "Leading the regional shield"
         }
       },
-      "Welsh Shield": {
+      "Regional shields · Welsh Shield": {
         "rows": [
           {
             "team": "Dragons",
@@ -69735,6 +69770,8 @@
             "against": 64,
             "diff": 5,
             "points": 7,
+            "try_bonus": 2,
+            "losing_bonus": 1,
             "highlight": "#d8ffeb"
           },
           {
@@ -69747,6 +69784,8 @@
             "against": 31,
             "diff": 7,
             "points": 5,
+            "try_bonus": 1,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69759,6 +69798,8 @@
             "against": 15,
             "diff": 6,
             "points": 4,
+            "try_bonus": 0,
+            "losing_bonus": 0,
             "highlight": null
           },
           {
@@ -69771,6 +69812,8 @@
             "against": 59,
             "diff": -18,
             "points": 2,
+            "try_bonus": 1,
+            "losing_bonus": 1,
             "highlight": null
           }
         ],
