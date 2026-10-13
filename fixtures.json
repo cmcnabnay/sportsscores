@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T20:57:21+00:00",
+  "updated": "2026-10-13T21:08:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22514,7 +22514,7 @@
       "league": "euroleague-2026-27",
       "home": "EA7 Emporio Armani Milano",
       "away": "Real Madrid",
-      "score": null,
+      "score": "89-98",
       "date": "2026-10-13",
       "time": "18:30",
       "utc": "2026-10-13T18:30:00+00:00",
@@ -22525,7 +22525,7 @@
       "league": "euroleague-2026-27",
       "home": "Barça Basket",
       "away": "Maccabi Tel Aviv",
-      "score": null,
+      "score": "90-87",
       "date": "2026-10-13",
       "time": "18:30",
       "utc": "2026-10-13T18:30:00+00:00",
@@ -22536,7 +22536,7 @@
       "league": "euroleague-2026-27",
       "home": "Kosner Baskonia",
       "away": "BC Dubai",
-      "score": null,
+      "score": "79-93",
       "date": "2026-10-13",
       "time": "18:30",
       "utc": "2026-10-13T18:30:00+00:00",
@@ -68216,13 +68216,13 @@
         "rows": [
           {
             "team": "Panathinaikos BC",
-            "played": 4,
-            "win": 4,
+            "played": 5,
+            "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 375,
-            "against": 292,
-            "diff": 83,
+            "for": 447,
+            "against": 347,
+            "diff": 100,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -68263,18 +68263,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "KK Partizan Mozzart Bet",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 346,
-            "against": 325,
-            "diff": 21,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "KK Crvena zvezda",
             "played": 5,
             "win": 3,
@@ -68287,6 +68275,42 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Barça Basket",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 442,
+            "against": 433,
+            "diff": 9,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "KK Partizan Mozzart Bet",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 401,
+            "against": 397,
+            "diff": 4,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "BC Dubai",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 389,
+            "against": 396,
+            "diff": -7,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Beşiktaş JK",
             "played": 4,
             "win": 2,
@@ -68295,18 +68319,6 @@
             "for": 377,
             "against": 368,
             "diff": 9,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Barça Basket",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 352,
-            "against": 346,
-            "diff": 6,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -68332,17 +68344,17 @@
             "against": 357,
             "diff": -8,
             "points": null,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
-            "team": "BC Dubai",
-            "played": 4,
+            "team": "Real Madrid",
+            "played": 5,
             "win": 2,
             "draw": null,
-            "loss": 2,
-            "for": 296,
-            "against": 317,
-            "diff": -21,
+            "loss": 3,
+            "for": 443,
+            "against": 439,
+            "diff": 4,
             "points": null,
             "highlight": null
           },
@@ -68367,18 +68379,6 @@
             "for": 435,
             "against": 461,
             "diff": -26,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Real Madrid",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 345,
-            "against": 350,
-            "diff": -5,
             "points": null,
             "highlight": null
           },
@@ -68420,37 +68420,37 @@
           },
           {
             "team": "Maccabi Tel Aviv",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 331,
-            "against": 362,
-            "diff": -31,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Kosner Baskonia",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 347,
-            "against": 385,
-            "diff": -38,
+            "loss": 4,
+            "for": 418,
+            "against": 452,
+            "diff": -34,
             "points": null,
             "highlight": null
           },
           {
             "team": "EA7 Emporio Armani Milano",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 318,
-            "against": 360,
-            "diff": -42,
+            "loss": 4,
+            "for": 407,
+            "against": 458,
+            "diff": -51,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Kosner Baskonia",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 426,
+            "against": 478,
+            "diff": -52,
             "points": null,
             "highlight": null
           }
