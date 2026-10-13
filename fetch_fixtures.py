@@ -131,6 +131,14 @@ def _throttled_urlopen(req):
 # which strategy above to use; `year` is needed by the "wikitable" and
 # "fivb_template" parsers when the page's date columns omit the year.
 # ---------------------------------------------------------------------------
+# Wikipedia's spelling of a URC club -> SofaScore's (urc-2026's fixture
+# source), for the Wikipedia-sourced attendances and tables.
+URC_WIKI_TO_SOFASCORE = {
+    "Benetton": "Benetton Treviso",
+    "Cardiff": "Cardiff Rugby",
+    "Zebre Parma": "Zebre",
+}
+
 LEAGUES = {
     "u20-jwc-2026": {
         "name": "World Rugby Junior World Championship 2026",
@@ -334,7 +342,21 @@ LEAGUES = {
         "parser": "sofascore",
         "sofascore_tournament_id": 420,
         "sofascore_season_id": 98426,
-        "standings": {"sofascore_tournament_id": 420, "sofascore_season_id": 98426},
+        "standings": {
+            "sofascore_tournament_id": 420,
+            "sofascore_season_id": 98426,
+            # SofaScore has no qualification colours, so these copy the
+            # Wikipedia "2026-27 Top 14 table" key. (first pos, last pos,
+            # row colour, legend label); see apply_standings_zones.
+            "zones": [
+                (1, 2, "#BBF3BB", "Semi-finals and European Champions Cup"),
+                (3, 6, "#CCF9CC", "Qualifying finals and European Champions Cup"),
+                (7, 8, "#BBF3FF", "European Champions Cup"),
+                (9, 12, "#F8F9FA", "Challenge Cup"),
+                (13, 13, "#FFCCCC", "Relegation play-off"),
+                (14, 14, "#FFBBBB", "Relegated to Pro D2"),
+            ],
+        },
     },
     "premiership-2026": {
         "name": "Gallagher Premiership 2026-27",
@@ -347,10 +369,37 @@ LEAGUES = {
     "urc-2026": {
         "name": "United Rugby Championship 2026-27",
         "sport": "rugby",
+        # Fixtures from SofaScore (it has kickoff times), but attendances
+        # and every table from Wikipedia (SofaScore has neither the
+        # attendances nor the four regional shield tables).
         "parser": "sofascore",
         "sofascore_tournament_id": 419,
         "sofascore_season_id": 98406,
-        "standings": {"sofascore_tournament_id": 419, "sofascore_season_id": 98406},
+        "attendance_page": {
+            "page": "2026–27_United_Rugby_Championship",
+            "parser": "rugbybox2",
+            "name_map": URC_WIKI_TO_SOFASCORE,
+        },
+        # The page's {{rugbybox collapsible2}} dates have no year
+        # ("25 September") - see parse_season_day_month.
+        "season_start_year": 2026,
+        "standings": {
+            "page": "2026–27_United_Rugby_Championship",
+            "groups": [
+                {
+                    "label": "URC league standings",
+                    "heading_id": "URC_league_standings",
+                    "legend": {
+                        "#BBF3BB": "Champions Cup and knockout stage",
+                        "white": "Challenge Cup",
+                    },
+                },
+            ],
+            "split_template": {
+                "template": "2026–27 United Rugby Championship Regional Shield tables",
+            },
+            "name_map": URC_WIKI_TO_SOFASCORE,
+        },
     },
     "champions-cup-2026": {
         "name": "European Rugby Champions Cup 2026-27",
@@ -1507,8 +1556,19 @@ def fetch_sofascore_standings_groups(cfg, key):
             label = table.get("name") or cfg["name"]
             if len(data["standings"]) > 1:
                 label = label.rsplit(", ", 1)[-1]
-            result[label] = {"rows": rows_out, "legend": {}}
+            result[label] = apply_standings_zones({"rows": rows_out, "legend": {}}, standings_cfg)
     return result
+
+
+def apply_standings_zones(group, standings_cfg):
+    """Colour a table's rows by position from a standings config's
+    "zones" list of (first, last, colour, label) - for sources like
+    SofaScore whose tables carry no highlight colours of their own."""
+    for first, last, color, label in standings_cfg.get("zones") or []:
+        for row in group["rows"][first - 1:last]:
+            row["highlight"] = color
+        group["legend"][color] = label
+    return group
 
 
 def normalize_date(iso_date, date_text, time_text):
@@ -1941,6 +2001,16 @@ def parse_day_month(text, year):
         except ValueError:
             continue
     return None
+
+
+def parse_season_day_month(text, start_year):
+    """parse_day_month() for a season that crosses New Year (e.g. the URC,
+    September-June) and gives only "25 September"/"2 January": July-December
+    dates fall in start_year, January-June in the year after."""
+    date_out = parse_day_month(text, start_year)
+    if date_out and int(date_out[5:7]) < 7:
+        date_out = parse_day_month(text, start_year + 1)
+    return date_out
 
 
 WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
@@ -3241,6 +3311,11 @@ def parse_rugbybox_matches(wikitext: str, league_key: str, cfg: dict):
 RUT_TEAM_RE = re.compile(r"\{\{Rut\|([^}|]*)")
 
 
+def strip_flag_templates(text):
+    """Drop {{flagicon|...}}/{{flagdeco|...}} templates from a team cell."""
+    return re.sub(r"\{\{\s*flag(?:icon|deco)\s*\|[^{}]*\}\}", "", text, flags=re.I)
+
+
 def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
     """
     Parse {{Rugbybox collapsible2|...}} template instances, used by the
@@ -3261,7 +3336,11 @@ def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
     matches = []
     offset = cfg.get("utc_offset")
 
-    for inner in find_templates(wikitext, "Rugbybox collapsible2"):
+    # Currie Cup capitalizes the template name, the URC page doesn't -
+    # MediaWiki treats the first letter as case-insensitive, so both are
+    # the same template.
+    boxes = find_templates(wikitext, "Rugbybox collapsible2") + find_templates(wikitext, "rugbybox collapsible2")
+    for inner in boxes:
         params = split_template_params(inner)[1:]  # drop template name
         field = {}
         for p in params:
@@ -3273,8 +3352,9 @@ def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
         away_raw = field.get("away", "")
         m1 = RUT_TEAM_RE.search(home_raw)
         m2 = RUT_TEAM_RE.search(away_raw)
-        home = clean_team_name(m1.group(1)) if m1 else clean_team_name(strip_wikilinks(home_raw))
-        away = clean_team_name(m2.group(1)) if m2 else clean_team_name(strip_wikilinks(away_raw))
+        # No {{Rut}}: a plain wikilink beside a {{flagicon|...}} (URC).
+        home = clean_team_name(m1.group(1)) if m1 else clean_team_name(strip_wikilinks(strip_flag_templates(home_raw)))
+        away = clean_team_name(m2.group(1)) if m2 else clean_team_name(strip_wikilinks(strip_flag_templates(away_raw)))
         if not home or not away:
             continue
         # Not-yet-determined playoff slot: unlike parse_rugbybox3_matches's
@@ -3290,6 +3370,8 @@ def parse_rugbybox2_matches(wikitext: str, league_key: str, cfg: dict):
         score = score if score else None
 
         date_out = parse_full_date(field.get("date", ""))
+        if not date_out and cfg.get("season_start_year"):
+            date_out = parse_season_day_month(field.get("date", ""), cfg["season_start_year"])
         time_field = field.get("time", "")
         time_match = re.search(r"(\d{1,2}):(\d{2})", time_field)
         time_out = time_match.group(0) if time_match else None
@@ -4246,8 +4328,83 @@ def fetch_standings(cfg, key):
                 file=sys.stderr,
             )
 
-        result[group["label"]] = {"rows": rows, "legend": extract_color_legend(table)}
+        # A group can spell out its legend when the page's key isn't
+        # scrapeable (the URC table's Module:Sports table key).
+        legend = group.get("legend") or extract_color_legend(table)
+        result[group["label"]] = {"rows": rows, "legend": legend}
 
+    # Extra tables stacked inside one template (the URC's regional shields).
+    split = standings_cfg.get("split_template")
+    if split:
+        result.update(fetch_titled_subtables(split["template"], key))
+
+    # Rename teams to the match source's spelling, so the Attendance
+    # roster (built from standings) doesn't list a club twice.
+    name_map = standings_cfg.get("name_map")
+    if name_map:
+        for group_data in result.values():
+            for row in group_data["rows"]:
+                row["team"] = name_map.get(row["team"], row["team"])
+
+    return result
+
+
+def fetch_titled_subtables(template, key):
+    """Split one Template: page table that stacks several small standings
+    tables - each introduced by a single-cell title row (e.g. the URC's
+    "Irish Shield", "Welsh Shield", ...) followed by its own Team | P | W |
+    D | L | PF | PA | PD | ... header - into {title: {"rows", "legend"}}."""
+    template_page = f"Template:{template}"
+    soup = BeautifulSoup(fetch_page_html(template_page), "html.parser")
+    table = soup.find("table")
+    if table is None:
+        print(f"  !! standings: no table on {template_page!r} for {key}", file=sys.stderr)
+        return {}
+    roles = {"team": "team", "p": "played", "w": "win", "d": "draw", "l": "loss",
+             "pf": "for", "pa": "against", "pts": "points"}
+    result, title, cols = {}, None, None
+    body = table.find("tbody") or table
+    for tr in body.find_all("tr", recursive=False):
+        cells = tr.find_all(["td", "th"], recursive=False)
+        texts = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)) for c in cells]
+        if len(cells) == 1:
+            # A shield's title row; blank color bars and the trailing
+            # tiebreaker/key notes are also single cells, but long or empty.
+            if texts[0] and len(texts[0]) < 60:
+                title, cols = texts[0], None
+            continue
+        if title is None:
+            continue
+        if all(c.name == "th" for c in cells):
+            cols = {roles[t.lower()]: i for i, t in enumerate(texts) if t.lower() in roles}
+            continue
+        if not cols or "team" not in cols:
+            continue
+
+        def num(role):
+            if role not in cols or cols[role] >= len(texts):
+                return None
+            m = re.search(r"[-\u2013\u2212]?\d+", texts[cols[role]])
+            return int(m.group(0).replace("\u2013", "-").replace("\u2212", "-")) if m else None
+
+        team = canonicalize_team_name(strip_citations(texts[cols["team"]]))
+        scored, conceded = num("for"), num("against")
+        group = result.setdefault(title, {"rows": [], "legend": {}})
+        highlight = _row_highlight_color(tr)
+        group["rows"].append({
+            "team": team,
+            "played": num("played"),
+            "win": num("win"),
+            "draw": num("draw"),
+            "loss": num("loss"),
+            "for": scored,
+            "against": conceded,
+            "diff": scored - conceded if scored is not None and conceded is not None else None,
+            "points": num("points"),
+            "highlight": highlight,
+        })
+        if highlight:
+            group["legend"][highlight] = "Leading the regional shield"
     return result
 
 
@@ -5319,6 +5476,7 @@ def update_matrix_team_results_scores365(cfg, team_matches):
 
 _EXTRA_PAGE_PARSERS = {
     "rugbyleaguebox": parse_rugbyleaguebox_matches,
+    "rugbybox2": parse_rugbybox2_matches,
 }
 
 
@@ -5340,12 +5498,41 @@ def fetch_and_parse(cfg, key, cached=None, now=None):
             raise ValueError(f"Unknown extra_pages parser {extra['parser']!r} for league '{key}'")
         wikitext = fetch_page_wikitext(extra["page"])
         matches.extend(parse_fn(wikitext, key, cfg))
+    if cfg.get("attendance_page"):
+        fill_attendance_from_page(matches, cfg, key)
     # Not every parser guards against placeholder slots itself (only the
     # wikitable/rugbybox2 ones do) - drop them here for all of them, so a
     # not-yet-decided slot never gets stored alongside the real fixture.
     return [m for m in matches
             if not is_placeholder_team_name(m.get("home"))
             and not is_placeholder_team_name(m.get("away"))]
+
+
+def fill_attendance_from_page(matches, cfg, key):
+    """Copy per-match attendances from a Wikipedia page onto matches that
+    came from another source (urc-2026: fixtures from SofaScore, which
+    has no attendances). Pairs by home/away team plus a date within a day
+    (SofaScore dates are UTC, the page's are local). name_map renames the
+    page's teams to the main source's spelling."""
+    att_cfg = cfg["attendance_page"]
+    parse_fn = _EXTRA_PAGE_PARSERS[att_cfg["parser"]]
+    name_map = att_cfg.get("name_map", {})
+    page_matches = parse_fn(fetch_page_wikitext(att_cfg["page"]), key, cfg)
+    by_teams = {}
+    for pm in page_matches:
+        if pm.get("attendance") and pm.get("date"):
+            teams = (name_map.get(pm["home"], pm["home"]), name_map.get(pm["away"], pm["away"]))
+            by_teams.setdefault(teams, []).append(pm)
+    filled = 0
+    for m in matches:
+        for pm in by_teams.get((m.get("home"), m.get("away")), []):
+            days = _date_diff_days(m.get("date"), pm["date"])
+            if days is not None and days <= 1:
+                m["attendance"] = pm["attendance"]
+                filled += 1
+                break
+    print(f"  -> attendance: {filled} of {sum(len(v) for v in by_teams.values())} "
+          f"page figure(s) matched from {att_cfg['page']}")
 
 
 def _fetch_and_parse_main(cfg, key, cached=None, now=None):
