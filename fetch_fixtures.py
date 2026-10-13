@@ -376,6 +376,14 @@ LEAGUES = {
         "sport": "rugby-league",
         "parser": "wikitable",
         "year": 2026,
+        # Season finished - Sydney Roosters beat Newcastle Knights 19-18 in
+        # the Grand Final on 4 October 2026. Stop re-fetching (fixtures,
+        # standings, attendance AND the playoff bracket) on every default
+        # run, same treatment as efa-2026/afle-2026 above. Stored data is
+        # left exactly as-is; run `python3 fetch_fixtures.py nrl-2026
+        # --force` manually if a correction ever needs to be pulled in
+        # after the fact.
+        "completed": True,
         "utc_offset": 10,  # AEST; most home cities are east-coast Australia.
                            # Simplification: doesn't account for AEDT during
                            # Oct-Apr, or NZ Warriors' home games (Auckland,
@@ -451,6 +459,11 @@ LEAGUES = {
         "sport": "rugby-league",
         "parser": "wikitable",
         "year": 2026,
+        # Season finished - Wakefield Trinity beat Warrington Wolves 23-10
+        # in the Grand Final at Old Trafford on 3 October 2026. Retired the
+        # same way as nrl-2026 above; run `python3 fetch_fixtures.py
+        # super-league-2026 --force` to pull in a correction.
+        "completed": True,
         "utc_offset": 1,  # UK (BST); Catalans Dragons/Toulouse Olympique
                           # home games (France, also UTC+2 in summer) are
                           # close enough not to need an override here
