@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T16:34:41+00:00",
+  "updated": "2026-10-13T16:40:26+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -2037,17 +2037,6 @@
       "attendance": "12054"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Uganda",
-      "score": "90-68",
-      "date": "2026-02-26",
-      "time": "20:00",
-      "utc": "2026-02-26T18:00:00+00:00",
-      "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
-      "attendance": "300"
-    },
-    {
       "league": "super-league-2026",
       "home": "Wigan Warriors",
       "away": "Leigh Leopards",
@@ -2057,6 +2046,17 @@
       "utc": "2026-02-26T19:00:00+00:00",
       "venue": "Brick Community Stadium",
       "attendance": "16370"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "Uganda",
+      "score": "90-68",
+      "date": "2026-02-26",
+      "time": "20:00",
+      "utc": "2026-02-26T18:00:00+00:00",
+      "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
+      "attendance": "300"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -2257,6 +2257,28 @@
       "attendance": "10829"
     },
     {
+      "league": "super-league-2026",
+      "home": "Castleford Tigers",
+      "away": "Huddersfield Giants",
+      "score": "34–8",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "OneBore Stadium",
+      "attendance": "6105"
+    },
+    {
+      "league": "super-league-2026",
+      "home": "Hull F.C.",
+      "away": "York Knights",
+      "score": "16–17",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "MKM Stadium",
+      "attendance": "12716"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Chile",
       "away": "Colombia",
@@ -2288,28 +2310,6 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Dražen Petrović Basketball Hall, Zagreb",
       "attendance": "4700"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Castleford Tigers",
-      "away": "Huddersfield Giants",
-      "score": "34–8",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "OneBore Stadium",
-      "attendance": "6105"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Hull F.C.",
-      "away": "York Knights",
-      "score": "16–17",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "MKM Stadium",
-      "attendance": "12716"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -2389,17 +2389,6 @@
       "attendance": "10094"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "DR Congo",
-      "score": "96-59",
-      "date": "2026-02-28",
-      "time": "18:00",
-      "utc": "2026-02-28T18:00:00+00:00",
-      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
-      "attendance": "1200"
-    },
-    {
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "St Helens",
@@ -2409,6 +2398,17 @@
       "utc": "2026-02-28T17:00:00+00:00",
       "venue": "Stade Gilbert Brutus",
       "attendance": "8729"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "DR Congo",
+      "score": "96-59",
+      "date": "2026-02-28",
+      "time": "18:00",
+      "utc": "2026-02-28T18:00:00+00:00",
+      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
+      "attendance": "1200"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -2477,17 +2477,6 @@
       "attendance": "7821"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Austria",
-      "score": "87-88",
-      "date": "2026-03-01",
-      "time": "14:30",
-      "utc": "2026-03-01T13:30:00+00:00",
-      "venue": "Sportcampus Zuiderpark, The Hague",
-      "attendance": "3455"
-    },
-    {
       "league": "nrl-2026",
       "home": "Canterbury-Bankstown Bulldogs",
       "away": "St. George Illawarra Dragons",
@@ -2497,6 +2486,17 @@
       "utc": "2026-03-01T04:30:00+00:00",
       "venue": "Allegiant Stadium",
       "attendance": "45719"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Austria",
+      "score": "87-88",
+      "date": "2026-03-01",
+      "time": "14:30",
+      "utc": "2026-03-01T13:30:00+00:00",
+      "venue": "Sportcampus Zuiderpark, The Hague",
+      "attendance": "3455"
     },
     {
       "league": "super-league-2026",
@@ -7256,6 +7256,17 @@
       "attendance": "3118"
     },
     {
+      "league": "nrl-2026",
+      "home": "Penrith Panthers",
+      "away": "South Sydney Rabbitohs",
+      "score": "36–14",
+      "date": "2026-07-03",
+      "time": "20:00",
+      "utc": "2026-07-03T10:00:00+00:00",
+      "venue": "CommBank Stadium",
+      "attendance": "15163"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Dominican Republic",
       "away": "United States",
@@ -7298,17 +7309,6 @@
       "utc": "2026-07-03T17:00:00+00:00",
       "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Israel}}",
       "attendance": "100"
-    },
-    {
-      "league": "nrl-2026",
-      "home": "Penrith Panthers",
-      "away": "South Sydney Rabbitohs",
-      "score": "36–14",
-      "date": "2026-07-03",
-      "time": "20:00",
-      "utc": "2026-07-03T10:00:00+00:00",
-      "venue": "CommBank Stadium",
-      "attendance": "15163"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -7377,6 +7377,17 @@
       "attendance": "2659"
     },
     {
+      "league": "super-league-2026",
+      "home": "Hull KR",
+      "away": "Hull F.C.",
+      "score": "26–12",
+      "date": "2026-07-04",
+      "time": "15:00",
+      "utc": "2026-07-04T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "34539"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Samoa",
       "away": "Hong Kong",
@@ -7408,17 +7419,6 @@
       "utc": "2026-07-04T15:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "125"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Hull KR",
-      "away": "Hull F.C.",
-      "score": "26–12",
-      "date": "2026-07-04",
-      "time": "15:00",
-      "utc": "2026-07-04T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "34539"
     },
     {
       "league": "cfl-2026",
@@ -7696,6 +7696,17 @@
       "attendance": "18778"
     },
     {
+      "league": "super-league-2026",
+      "home": "Leeds Rhinos",
+      "away": "Bradford Bulls",
+      "score": "50–16",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "42903"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Libya",
@@ -7738,17 +7749,6 @@
       "utc": "2026-07-05T14:00:00+00:00",
       "venue": "National Basketball Performance Centre, Manchester",
       "attendance": "2045"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Leeds Rhinos",
-      "away": "Bradford Bulls",
-      "score": "50–16",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "42903"
     },
     {
       "league": "efa-2026",
@@ -8383,17 +8383,6 @@
       "attendance": "50209"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "Samoa",
-      "away": "Georgia",
-      "score": "12-33",
-      "date": "2026-07-11",
-      "time": "15:00",
-      "utc": "2026-07-11T19:00:00+00:00",
-      "venue": "Estadio Sausalito, Vina del Mar, Chile",
-      "attendance": "12872"
-    },
-    {
       "league": "nrl-2026",
       "home": "Dolphins",
       "away": "Cronulla-Sutherland Sharks",
@@ -8414,6 +8403,17 @@
       "utc": "2026-07-11T14:00:00+00:00",
       "venue": "Leigh Sports Village",
       "attendance": "8567"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "Samoa",
+      "away": "Georgia",
+      "score": "12-33",
+      "date": "2026-07-11",
+      "time": "15:00",
+      "utc": "2026-07-11T19:00:00+00:00",
+      "venue": "Estadio Sausalito, Vina del Mar, Chile",
+      "attendance": "12872"
     },
     {
       "league": "nations-cup-2026",
@@ -8570,17 +8570,6 @@
       "attendance": "18046"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "United States",
-      "away": "Zimbabwe",
-      "score": "31-15",
-      "date": "2026-07-11",
-      "time": "19:30",
-      "utc": "2026-07-11T23:30:00+00:00",
-      "venue": "American Legion Memorial Stadium, Charlotte",
-      "attendance": "3000"
-    },
-    {
       "league": "nrl-2026",
       "home": "Sydney Roosters",
       "away": "Parramatta Eels",
@@ -8590,6 +8579,17 @@
       "utc": "2026-07-11T09:30:00+00:00",
       "venue": "Allianz Stadium",
       "attendance": "23222"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "United States",
+      "away": "Zimbabwe",
+      "score": "31-15",
+      "date": "2026-07-11",
+      "time": "19:30",
+      "utc": "2026-07-11T23:30:00+00:00",
+      "venue": "American Legion Memorial Stadium, Charlotte",
+      "attendance": "3000"
     },
     {
       "league": "super-league-2026",
@@ -9500,6 +9500,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "Canterbury-Bankstown Bulldogs",
+      "away": "Wests Tigers",
+      "score": "32–0",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "utc": "2026-07-18T09:30:00+00:00",
+      "venue": "Accor Stadium",
+      "attendance": "20050"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "United States",
       "away": "Spain",
@@ -9520,17 +9531,6 @@
       "utc": "2026-07-18T23:30:00+00:00",
       "venue": "Hamilton Stadium",
       "attendance": "21262"
-    },
-    {
-      "league": "nrl-2026",
-      "home": "Canterbury-Bankstown Bulldogs",
-      "away": "Wests Tigers",
-      "score": "32–0",
-      "date": "2026-07-18",
-      "time": "19:30",
-      "utc": "2026-07-18T09:30:00+00:00",
-      "venue": "Accor Stadium",
-      "attendance": "20050"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -10329,17 +10329,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Hamilton Tiger-Cats",
-      "away": "Calgary Stampeders",
-      "score": "20-44",
-      "date": "2026-08-01",
-      "time": "15:00",
-      "utc": "2026-08-01T19:00:00+00:00",
-      "venue": "Hamilton Stadium",
-      "attendance": "20026"
-    },
-    {
       "league": "nrl-2026",
       "home": "Gold Coast Titans",
       "away": "New Zealand Warriors",
@@ -10360,6 +10349,17 @@
       "utc": "2026-08-01T14:00:00+00:00",
       "venue": "OneBore Stadium",
       "attendance": "8802"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Hamilton Tiger-Cats",
+      "away": "Calgary Stampeders",
+      "score": "20-44",
+      "date": "2026-08-01",
+      "time": "15:00",
+      "utc": "2026-08-01T19:00:00+00:00",
+      "venue": "Hamilton Stadium",
+      "attendance": "20026"
     },
     {
       "league": "cfl-2026",
@@ -10802,17 +10802,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Montreal Alouettes",
-      "away": "Edmonton Elks",
-      "score": "48-30",
-      "date": "2026-08-08",
-      "time": "15:00",
-      "utc": "2026-08-08T19:00:00+00:00",
-      "venue": "Molson Stadium",
-      "attendance": "22535"
-    },
-    {
       "league": "nrl-2026",
       "home": "Melbourne Storm",
       "away": "Manly Warringah Sea Eagles",
@@ -10822,6 +10811,17 @@
       "utc": "2026-08-08T05:00:00+00:00",
       "venue": "HBF Park",
       "attendance": "15169"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Montreal Alouettes",
+      "away": "Edmonton Elks",
+      "score": "48-30",
+      "date": "2026-08-08",
+      "time": "15:00",
+      "utc": "2026-08-08T19:00:00+00:00",
+      "venue": "Molson Stadium",
+      "attendance": "22535"
     },
     {
       "league": "currie-cup-2026",
@@ -12335,28 +12335,6 @@
       "attendance": "8222"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Iceland",
-      "score": "102-73",
-      "date": "2026-08-28",
-      "time": "20:00",
-      "utc": "2026-08-28T18:00:00+00:00",
-      "venue": "Belgrade Arena, Belgrade",
-      "attendance": "12384"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Italy",
-      "score": "78-76",
-      "date": "2026-08-28",
-      "time": "20:00",
-      "utc": "2026-08-28T18:00:00+00:00",
-      "venue": "Mejdan Hall, Tuzla",
-      "attendance": "4850"
-    },
-    {
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "Canterbury-Bankstown Bulldogs",
@@ -12399,6 +12377,28 @@
       "utc": "2026-08-28T19:00:00+00:00",
       "venue": "Accu Stadium",
       "attendance": "4156"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Iceland",
+      "score": "102-73",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Belgrade Arena, Belgrade",
+      "attendance": "12384"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "score": "78-76",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Mejdan Hall, Tuzla",
+      "attendance": "4850"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -12691,17 +12691,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Syria",
-      "score": "126-74",
-      "date": "2026-08-30",
-      "time": "14:00",
-      "utc": "2026-08-30T06:00:00+00:00",
-      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
-      "attendance": "2699"
-    },
-    {
       "league": "nrl-2026",
       "home": "New Zealand Warriors",
       "away": "Newcastle Knights",
@@ -12711,6 +12700,17 @@
       "utc": "2026-08-30T04:00:00+00:00",
       "venue": "Go Media Stadium",
       "attendance": "25853"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Syria",
+      "score": "126-74",
+      "date": "2026-08-30",
+      "time": "14:00",
+      "utc": "2026-08-30T06:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay, Philippines",
+      "attendance": "2699"
     },
     {
       "league": "npc-2026",
@@ -13686,6 +13686,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "St. George Illawarra Dragons",
+      "away": "Parramatta Eels",
+      "score": "24–22",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "utc": "2026-09-06T04:00:00+00:00",
+      "venue": "WIN Stadium",
+      "attendance": "17013"
+    },
+    {
       "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "Shanghai Dragons",
@@ -13696,17 +13707,6 @@
       "venue": null,
       "attendance": null,
       "ot": true
-    },
-    {
-      "league": "nrl-2026",
-      "home": "St. George Illawarra Dragons",
-      "away": "Parramatta Eels",
-      "score": "24–22",
-      "date": "2026-09-06",
-      "time": "14:00",
-      "utc": "2026-09-06T04:00:00+00:00",
-      "venue": "WIN Stadium",
-      "attendance": "17013"
     },
     {
       "league": "npc-2026",
@@ -14414,17 +14414,6 @@
       "attendance": null
     },
     {
-      "league": "cfl-2026",
-      "home": "Winnipeg Blue Bombers",
-      "away": "Saskatchewan Roughriders",
-      "score": "19-6",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "utc": "2026-09-12T20:00:00+00:00",
-      "venue": "Princess Auto Stadium",
-      "attendance": "32343"
-    },
-    {
       "league": "super-league-2026",
       "home": "Huddersfield Giants",
       "away": "Castleford Tigers",
@@ -14434,6 +14423,17 @@
       "utc": "2026-09-12T14:00:00+00:00",
       "venue": "Accu Stadium",
       "attendance": "5376"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Winnipeg Blue Bombers",
+      "away": "Saskatchewan Roughriders",
+      "score": "19-6",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "utc": "2026-09-12T20:00:00+00:00",
+      "venue": "Princess Auto Stadium",
+      "attendance": "32343"
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -15713,17 +15713,6 @@
       "attendance": null
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Promitheas Patras BC Vikos Cola",
-      "away": "Rasta Vechta",
-      "score": "73-103",
-      "date": "2026-09-19",
-      "time": "17:30",
-      "utc": "2026-09-19T17:30:00+00:00",
-      "venue": "Dimitris Tofalos Arena",
-      "attendance": null
-    },
-    {
       "league": "super-league-2026",
       "home": "Warrington Wolves",
       "away": "Hull KR",
@@ -15733,6 +15722,17 @@
       "utc": "2026-09-19T16:30:00+00:00",
       "venue": "Halliwell Jones Stadium",
       "attendance": "11073"
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Promitheas Patras BC Vikos Cola",
+      "away": "Rasta Vechta",
+      "score": "73-103",
+      "date": "2026-09-19",
+      "time": "17:30",
+      "utc": "2026-09-19T17:30:00+00:00",
+      "venue": "Dimitris Tofalos Arena",
+      "attendance": null
     },
     {
       "league": "internationals-2026",
@@ -17445,6 +17445,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "Wakefield Trinity",
+      "score": "6–33",
+      "date": "2026-09-26",
+      "time": "17:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Brick Community Stadium",
+      "attendance": "16724"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "MoraBanc Andorra",
       "away": "Monbus Obradoiro",
@@ -17465,17 +17476,6 @@
       "utc": "2026-09-26T17:30:00+00:00",
       "venue": null,
       "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "Wakefield Trinity",
-      "score": "6–33",
-      "date": "2026-09-26",
-      "time": "17:30",
-      "utc": "2026-09-26T16:30:00+00:00",
-      "venue": "Brick Community Stadium",
-      "attendance": "16724"
     },
     {
       "league": "bbl-2026-27",
@@ -19540,6 +19540,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Wakefield Trinity",
+      "score": "10–23",
+      "date": "2026-10-03",
+      "time": "18:00",
+      "utc": "2026-10-03T17:00:00+00:00",
+      "venue": "Old Trafford",
+      "attendance": "71728"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Mitteldeutscher",
       "away": "Ratiopharm Ulm",
@@ -19560,17 +19571,6 @@
       "utc": "2026-10-03T18:00:00+00:00",
       "venue": null,
       "attendance": null
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Wakefield Trinity",
-      "score": "10–23",
-      "date": "2026-10-03",
-      "time": "18:00",
-      "utc": "2026-10-03T17:00:00+00:00",
-      "venue": "Old Trafford",
-      "attendance": "71728"
     },
     {
       "league": "lega-a-2026-27",
@@ -25842,6 +25842,17 @@
       "attendance": null
     },
     {
+      "league": "liga-acb-2026-27",
+      "home": "Basquet Girona",
+      "away": "Joventut de Badalona",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "11:00",
+      "utc": "2026-10-25T11:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "lega-a-2026-27",
       "home": "Derthona Basket Tortona",
       "away": "Napoli Basket",
@@ -28801,6 +28812,17 @@
       "attendance": null
     },
     {
+      "league": "top14-2026",
+      "home": "Vannes",
+      "away": "Bordeaux Begles",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "13:30",
+      "utc": "2026-11-07T13:30:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "nations-championship-2026",
       "home": "Scotland",
       "away": "New Zealand",
@@ -28813,34 +28835,12 @@
     },
     {
       "league": "top14-2026",
-      "home": "Vannes",
-      "away": "Bordeaux Begles",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Racing 92",
       "score": null,
       "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "top14-2026",
-      "home": "La Rochelle",
-      "away": "Bayonne",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-11-07T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28850,8 +28850,8 @@
       "away": "Lyon",
       "score": null,
       "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-11-07T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28861,8 +28861,8 @@
       "away": "Perpignan",
       "score": null,
       "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-11-07T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28872,8 +28872,8 @@
       "away": "Stade Francais Paris",
       "score": null,
       "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-11-07T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -28883,8 +28883,8 @@
       "away": "Clermont Auvergne",
       "score": null,
       "date": "2026-11-07",
-      "time": "16:00",
-      "utc": "2026-11-07T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-11-07T15:35:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -29336,6 +29336,17 @@
       "date": "2026-11-08",
       "time": "18:00",
       "utc": "2026-11-08T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "top14-2026",
+      "home": "La Rochelle",
+      "away": "Bayonne",
+      "score": null,
+      "date": "2026-11-08",
+      "time": "20:05",
+      "utc": "2026-11-08T20:05:00+00:00",
       "venue": null,
       "attendance": null
     },
@@ -65617,7 +65628,7 @@
             "against": 124,
             "diff": 73,
             "points": 24,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Pau",
@@ -65629,7 +65640,7 @@
             "against": 181,
             "diff": 58,
             "points": 22,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Bordeaux Begles",
@@ -65641,7 +65652,7 @@
             "against": 151,
             "diff": 64,
             "points": 19,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "La Rochelle",
@@ -65653,7 +65664,7 @@
             "against": 135,
             "diff": 9,
             "points": 18,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Bayonne",
@@ -65665,7 +65676,7 @@
             "against": 214,
             "diff": -24,
             "points": 17,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Stade Francais Paris",
@@ -65677,7 +65688,7 @@
             "against": 158,
             "diff": -11,
             "points": 14,
-            "highlight": null
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Montpellier Herault",
@@ -65689,7 +65700,7 @@
             "against": 122,
             "diff": 41,
             "points": 14,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Lyon",
@@ -65701,7 +65712,7 @@
             "against": 202,
             "diff": -9,
             "points": 14,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Perpignan",
@@ -65713,7 +65724,7 @@
             "against": 199,
             "diff": -33,
             "points": 13,
-            "highlight": null
+            "highlight": "#F8F9FA"
           },
           {
             "team": "Toulon",
@@ -65725,7 +65736,7 @@
             "against": 130,
             "diff": 0,
             "points": 12,
-            "highlight": null
+            "highlight": "#F8F9FA"
           },
           {
             "team": "Clermont Auvergne",
@@ -65737,7 +65748,7 @@
             "against": 169,
             "diff": -29,
             "points": 11,
-            "highlight": null
+            "highlight": "#F8F9FA"
           },
           {
             "team": "Racing 92",
@@ -65749,7 +65760,7 @@
             "against": 196,
             "diff": -53,
             "points": 10,
-            "highlight": null
+            "highlight": "#F8F9FA"
           },
           {
             "team": "Castres Olympique",
@@ -65761,7 +65772,7 @@
             "against": 153,
             "diff": -27,
             "points": 9,
-            "highlight": null
+            "highlight": "#FFCCCC"
           },
           {
             "team": "Vannes",
@@ -65773,10 +65784,17 @@
             "against": 176,
             "diff": -59,
             "points": 1,
-            "highlight": null
+            "highlight": "#FFBBBB"
           }
         ],
-        "legend": {}
+        "legend": {
+          "#BBF3BB": "Semi-finals and European Champions Cup",
+          "#CCF9CC": "Qualifying finals and European Champions Cup",
+          "#BBF3FF": "European Champions Cup",
+          "#F8F9FA": "Challenge Cup",
+          "#FFCCCC": "Relegation play-off",
+          "#FFBBBB": "Relegated to Pro D2"
+        }
       }
     },
     "premiership-2026": {
@@ -66356,6 +66374,18 @@
             "highlight": null
           },
           {
+            "team": "Severstal Cherepovets",
+            "played": 15,
+            "win": 9,
+            "draw": null,
+            "loss": 4,
+            "for": 33,
+            "against": 29,
+            "diff": 4,
+            "points": 20,
+            "highlight": null
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 14,
             "win": 8,
@@ -66364,18 +66394,6 @@
             "for": 38,
             "against": 25,
             "diff": 13,
-            "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Severstal Cherepovets",
-            "played": 15,
-            "win": 8,
-            "draw": null,
-            "loss": 4,
-            "for": 32,
-            "against": 29,
-            "diff": 3,
             "points": 18,
             "highlight": null
           },
@@ -66396,10 +66414,10 @@
             "played": 14,
             "win": 8,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 47,
-            "against": 42,
-            "diff": 5,
+            "against": 43,
+            "diff": 4,
             "points": 17,
             "highlight": null
           },
@@ -66887,9 +66905,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 176,
-            "against": 177,
-            "diff": -1,
+            "for": 194,
+            "against": 196,
+            "diff": -2,
             "points": 4,
             "highlight": null
           },
@@ -66899,9 +66917,9 @@
             "win": 0,
             "draw": null,
             "loss": 3,
-            "for": 166,
-            "against": 192,
-            "diff": -26,
+            "for": 185,
+            "against": 210,
+            "diff": -25,
             "points": 3,
             "highlight": null
           }
@@ -66916,9 +66934,9 @@
             "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 214,
-            "against": 148,
-            "diff": 66,
+            "for": 236,
+            "against": 173,
+            "diff": 63,
             "points": 6,
             "highlight": null
           },
@@ -66928,9 +66946,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 185,
-            "against": 185,
-            "diff": 0,
+            "for": 204,
+            "against": 201,
+            "diff": 3,
             "points": 5,
             "highlight": null
           },
@@ -66940,9 +66958,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 189,
-            "against": 173,
-            "diff": 16,
+            "for": 205,
+            "against": 192,
+            "diff": 13,
             "points": 5,
             "highlight": null
           },
@@ -66976,9 +66994,9 @@
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 189,
-            "against": 204,
-            "diff": -15,
+            "for": 214,
+            "against": 226,
+            "diff": -12,
             "points": 4,
             "highlight": null
           },
@@ -70064,7 +70082,7 @@
     }
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-13T16:34:28.749622+00:00",
-    "torpedo": "2026-10-13T16:34:28.749622+00:00"
+    "velez": "2026-10-13T16:37:44.095578+00:00",
+    "torpedo": "2026-10-13T16:37:44.095578+00:00"
   }
 }
