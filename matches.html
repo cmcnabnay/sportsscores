@@ -1737,13 +1737,13 @@ function loadFixtures(isRefresh) {
         populateLeagueOptions();
         dateInput.value = pickInitialDate();
       }
-      updateNote.textContent = data.updated
-        ? 'Fixtures last updated ' + new Date(data.updated).toLocaleString() + ' · times shown in your local timezone'
-        : 'Times shown in your local timezone';
+      updateNote.textContent = '';
+      updateNote.style.display = 'none';
       render();
     })
     .catch(err => {
       updateNote.textContent = 'Could not load fixtures.json';
+      updateNote.style.display = '';
       matchList.innerHTML = `<div class="empty-state">${err.message}<br><br>
         Serve this folder with <code>python3 -m http.server</code> and open it via
         <code>http://localhost:8000/matches.html</code> (opening the file directly
