@@ -2791,6 +2791,9 @@ def clean_bracket_team(raw):
             replacement = ""
         text = text[:m.start()] + replacement + text[m.end():]
     text = strip_wikilinks(text)
+    # Bold/italic wiki markup ('''Sydney''' = the team that advanced) -
+    # two or more apostrophes, so a real one like "Hawke's Bay" survives.
+    text = re.sub(r"'{2,}", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
 
