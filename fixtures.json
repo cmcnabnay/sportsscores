@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:29:21+00:00",
+  "updated": "2026-10-13T21:40:06+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22558,12 +22558,13 @@
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Olympiacos BC",
-      "score": null,
+      "score": "97-102",
       "date": "2026-10-13",
       "time": "19:00",
       "utc": "2026-10-13T19:00:00+00:00",
       "venue": "Roig Arena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "khl-2026-27",
