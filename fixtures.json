@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T20:14:01+00:00",
+  "updated": "2026-10-13T20:25:07+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22415,7 +22415,7 @@
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "Kauno Žalgiris",
-      "score": null,
+      "score": "99-80",
       "date": "2026-10-13",
       "time": "17:45",
       "utc": "2026-10-13T17:45:00+00:00",
@@ -22470,7 +22470,7 @@
       "league": "euroleague-2026-27",
       "home": "LDLC ASVEL Lyon-Villeurbanne",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "82-84",
       "date": "2026-10-13",
       "time": "18:00",
       "utc": "2026-10-13T18:00:00+00:00",
@@ -22514,7 +22514,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Panathinaikos BC",
-      "score": null,
+      "score": "55-72",
       "date": "2026-10-13",
       "time": "18:30",
       "utc": "2026-10-13T18:30:00+00:00",
@@ -44060,6 +44060,39 @@
       "attendance": null
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Barça Basket",
+      "away": "EA7 Emporio Armani Milano",
+      "score": null,
+      "date": "2027-01-12",
+      "time": "19:30",
+      "utc": "2027-01-12T19:30:00+00:00",
+      "venue": "Palau Blaugrana",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Maccabi Tel Aviv",
+      "away": "Bayern München",
+      "score": null,
+      "date": "2027-01-12",
+      "time": "19:30",
+      "utc": "2027-01-12T19:30:00+00:00",
+      "venue": "Menora Mivtachim Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Anadolu Efes",
+      "score": null,
+      "date": "2027-01-12",
+      "time": "19:30",
+      "utc": "2027-01-12T19:30:00+00:00",
+      "venue": "Virtus Arena",
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "Skyliners Frankfurt",
@@ -55629,6 +55662,39 @@
       "time": "17:45",
       "utc": "2027-03-26T17:45:00+00:00",
       "venue": "Ulker Sports Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Crvena zvezda",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:00",
+      "utc": "2027-03-26T19:00:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Bayern München",
+      "away": "Kauno Žalgiris",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:00",
+      "utc": "2027-03-26T19:00:00+00:00",
+      "venue": "BMW Park",
+      "attendance": null
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Olympiacos BC",
+      "away": "Virtus Bologna",
+      "score": null,
+      "date": "2027-03-26",
+      "time": "19:15",
+      "utc": "2027-03-26T19:15:00+00:00",
+      "venue": "Peace And Friendship Stadium",
       "attendance": null
     },
     {
@@ -68173,6 +68239,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Fenerbahçe Tarfin",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 427,
+            "against": 382,
+            "diff": 45,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Olympiacos BC",
             "played": 4,
             "win": 3,
@@ -68181,18 +68259,6 @@
             "for": 382,
             "against": 342,
             "diff": 40,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Fenerbahçe Tarfin",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 328,
-            "against": 302,
-            "diff": 26,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -68210,13 +68276,13 @@
           },
           {
             "team": "KK Crvena zvezda",
-            "played": 4,
-            "win": 2,
+            "played": 5,
+            "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 311,
-            "against": 294,
-            "diff": 17,
+            "for": 395,
+            "against": 376,
+            "diff": 19,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -68229,18 +68295,6 @@
             "for": 377,
             "against": 368,
             "diff": 9,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Kauno Žalgiris",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 340,
-            "against": 333,
-            "diff": 7,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -68278,7 +68332,7 @@
             "against": 357,
             "diff": -8,
             "points": null,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "BC Dubai",
@@ -68293,14 +68347,26 @@
             "highlight": null
           },
           {
-            "team": "LDLC ASVEL Lyon-Villeurbanne",
-            "played": 4,
+            "team": "Kauno Žalgiris",
+            "played": 5,
             "win": 2,
             "draw": null,
-            "loss": 2,
-            "for": 353,
-            "against": 377,
-            "diff": -24,
+            "loss": 3,
+            "for": 420,
+            "against": 432,
+            "diff": -12,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "LDLC ASVEL Lyon-Villeurbanne",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 435,
+            "against": 461,
+            "diff": -26,
             "points": null,
             "highlight": null
           },
