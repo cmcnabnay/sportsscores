@@ -821,12 +821,14 @@ LEAGUES = {
     "fiba-europe-cup-2026-27": {
         "name": "FIBA Europe Cup 2026-27",
         "sport": "basketball",
-        "parser": "scores365",
-        "scores365_competition_id": 6282,
-        # Season 12 also includes the qualification rounds (already
-        # under way on 2026-09-23); season 11 was 2025-26.
-        "scores365_season_num": 12,
-        "standings": {"scores365_competition_id": 6282},
+        # Moved from 365Scores (competition 6282, season 12) to SofaScore
+        # on 2026-10-13. SofaScore's "Europe Cup" is unique-tournament
+        # 2165; season 98674 is "26/27" and includes the qualification
+        # rounds plus all 8 regular-season groups.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 2165,
+        "sofascore_season_id": 98674,
+        "standings": {"sofascore_tournament_id": 2165, "sofascore_season_id": 98674},
     },
     "liga-acb-2026-27": {
         "name": "Liga ACB 2026-27",
@@ -1465,6 +1467,11 @@ def fetch_sofascore_standings_groups(cfg, key):
     for table in (data or {}).get("standings", []):
         rows_out = []
         for row in table.get("rows", []):
+            # Skip placeholder slots for a not-yet-decided qualifier
+            # ("Winner BC Prievidza / Kk Samobor" in Europe Cup Group G):
+            # flagged disabled, no position, sorted to the top of the table.
+            if (row.get("team") or {}).get("disabled") is True or row.get("position") is None:
+                continue
             team = canonicalize_team_name((row.get("team") or {}).get("name"))
             if not team:
                 continue
