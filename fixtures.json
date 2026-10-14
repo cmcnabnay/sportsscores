@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T21:25:32+00:00",
+  "updated": "2026-10-14T21:36:28+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23029,7 +23029,18 @@
       "league": "eurocup-2026-27",
       "home": "La Laguna Tenerife",
       "away": "Maxima Roma",
-      "score": null,
+      "score": "96-71",
+      "date": "2026-10-14",
+      "time": "19:00",
+      "utc": "2026-10-14T19:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Reyer Venezia",
+      "away": "Turk Telekom",
+      "score": "75-65",
       "date": "2026-10-14",
       "time": "19:00",
       "utc": "2026-10-14T19:00:00+00:00",
@@ -67042,9 +67053,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 253,
+            "for": 255,
             "against": 235,
-            "diff": 18,
+            "diff": 20,
             "points": 5,
             "highlight": "#BBF3BB"
           },
@@ -67103,8 +67114,8 @@
             "draw": null,
             "loss": 2,
             "for": 237,
-            "against": 241,
-            "diff": -4,
+            "against": 243,
+            "diff": -6,
             "points": 4,
             "highlight": null
           },
