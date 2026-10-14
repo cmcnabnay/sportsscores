@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T18:03:19+00:00",
+  "updated": "2026-10-14T18:12:55+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22653,7 +22653,7 @@
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Rauman Lukko",
-      "score": "2-2",
+      "score": "3-2",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
@@ -22676,12 +22676,13 @@
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "TPS Turku",
-      "score": null,
+      "score": "3-3",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
       "venue": "Helsingin jäähalli",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "bcl-2026-27",
@@ -68014,6 +68015,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "JYP Jyväskylä",
+            "played": 11,
+            "win": 8,
+            "draw": null,
+            "loss": 3,
+            "for": 33,
+            "against": 27,
+            "diff": 6,
+            "points": 23,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Oulun Kärpät",
             "played": 13,
             "win": 7,
@@ -68023,30 +68036,18 @@
             "against": 34,
             "diff": 1,
             "points": 22,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "JYP Jyväskylä",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 30,
-            "against": 25,
-            "diff": 5,
-            "points": 21,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Rauman Lukko",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 29,
-            "against": 23,
-            "diff": 6,
-            "points": 20,
+            "loss": 5,
+            "for": 31,
+            "against": 26,
+            "diff": 5,
+            "points": 21,
             "highlight": "#BBF3FF"
           },
           {
