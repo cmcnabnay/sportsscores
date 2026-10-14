@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T20:53:12+00:00",
+  "updated": "2026-10-14T21:04:34+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22996,7 +22996,7 @@
       "league": "eurocup-2026-27",
       "home": "San Pablo Burgos",
       "away": "Hapoel Jerusalem",
-      "score": null,
+      "score": "84-85",
       "date": "2026-10-14",
       "time": "18:30",
       "utc": "2026-10-14T18:30:00+00:00",
@@ -23007,7 +23007,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Lions de Genève pwd by Grand-Saconnex",
       "away": "Bakken Bears",
-      "score": null,
+      "score": "73-78",
       "date": "2026-10-14",
       "time": "18:30",
       "utc": "2026-10-14T18:30:00+00:00",
@@ -23027,17 +23027,6 @@
     },
     {
       "league": "eurocup-2026-27",
-      "home": "Reyer Venezia",
-      "away": "Turk Telekom",
-      "score": null,
-      "date": "2026-10-14",
-      "time": "19:00",
-      "utc": "2026-10-14T19:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "eurocup-2026-27",
       "home": "La Laguna Tenerife",
       "away": "Maxima Roma",
       "score": null,
@@ -23051,7 +23040,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "SL Benfica",
       "away": "Denizli Basket Spor Kulübü",
-      "score": null,
+      "score": "96-91",
       "date": "2026-10-14",
       "time": "19:00",
       "utc": "2026-10-14T19:00:00+00:00",
@@ -66947,13 +66936,13 @@
           {
             "team": "Hapoel Jerusalem",
             "played": 3,
-            "win": 2,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 247,
-            "against": 216,
-            "diff": 31,
-            "points": 5,
+            "loss": 0,
+            "for": 254,
+            "against": 221,
+            "diff": 33,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
@@ -66969,18 +66958,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "San Pablo Burgos",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 244,
-            "against": 252,
-            "diff": -8,
-            "points": 5,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Le Mans",
             "played": 3,
             "win": 1,
@@ -66989,6 +66966,18 @@
             "for": 239,
             "against": 246,
             "diff": -7,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 249,
+            "against": 259,
+            "diff": -10,
             "points": 4,
             "highlight": null
           },
@@ -67041,9 +67030,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 253,
-            "against": 225,
-            "diff": 28,
+            "for": 271,
+            "against": 235,
+            "diff": 36,
             "points": 5,
             "highlight": "#BBF3BB"
           },
@@ -67053,9 +67042,9 @@
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 211,
-            "against": 204,
-            "diff": 7,
+            "for": 253,
+            "against": 235,
+            "diff": 18,
             "points": 5,
             "highlight": "#BBF3BB"
           },
@@ -67096,26 +67085,26 @@
             "highlight": null
           },
           {
-            "team": "Maxima Roma",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 206,
-            "against": 199,
-            "diff": 7,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Turk Telekom",
             "played": 3,
             "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 222,
-            "against": 216,
-            "diff": 6,
+            "for": 232,
+            "against": 234,
+            "diff": -2,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 237,
+            "against": 241,
+            "diff": -4,
             "points": 4,
             "highlight": null
           },
@@ -69569,6 +69558,18 @@
       "Group E": {
         "rows": [
           {
+            "team": "Dziki Warszawa",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 197,
+            "against": 156,
+            "diff": 41,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Iraklis BC",
             "played": 2,
             "win": 2,
@@ -69581,6 +69582,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "AEK Larnaca B.C.",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 153,
+            "against": 159,
+            "diff": -6,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "Tartu Ülikool Maks & Moorits",
             "played": 2,
             "win": 1,
@@ -69590,17 +69603,17 @@
             "against": 195,
             "diff": -24,
             "points": 3,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
-            "team": "AEK Larnaca B.C.",
-            "played": 1,
-            "win": 1,
+            "team": "MZT Skopje Aerodrom",
+            "played": 2,
+            "win": 0,
             "draw": null,
-            "loss": 0,
-            "for": 73,
-            "against": 65,
-            "diff": 8,
+            "loss": 2,
+            "for": 151,
+            "against": 159,
+            "diff": -8,
             "points": 2,
             "highlight": null
           },
@@ -69613,30 +69626,6 @@
             "for": 138,
             "against": 163,
             "diff": -25,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Dziki Warszawa",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 103,
-            "against": 76,
-            "diff": 27,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "MZT Skopje Aerodrom",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 151,
-            "against": 159,
-            "diff": -8,
             "points": 2,
             "highlight": null
           }
@@ -69727,6 +69716,54 @@
       "Group G": {
         "rows": [
           {
+            "team": "SL Benfica",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 187,
+            "against": 172,
+            "diff": 15,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Denizli Basket Spor Kulübü",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 174,
+            "against": 165,
+            "diff": 9,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Bakken Bears",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 159,
+            "against": 164,
+            "diff": -5,
+            "points": 3,
+            "highlight": null
+          },
+          {
+            "team": "Lions de Genève pwd by Grand-Saconnex",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 178,
+            "against": 161,
+            "diff": 17,
+            "points": 3,
+            "highlight": null
+          },
+          {
             "team": "BC Prievidza",
             "played": 2,
             "win": 1,
@@ -69736,19 +69773,7 @@
             "against": 167,
             "diff": 10,
             "points": 3,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Lions de Genève pwd by Grand-Saconnex",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 105,
-            "against": 83,
-            "diff": 22,
-            "points": 2,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "Landau Lions",
@@ -69760,42 +69785,6 @@
             "against": 213,
             "diff": -46,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Denizli Basket Spor Kulübü",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 69,
-            "diff": 14,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "SL Benfica",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 91,
-            "against": 81,
-            "diff": 10,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Bakken Bears",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 81,
-            "against": 91,
-            "diff": -10,
-            "points": 1,
             "highlight": null
           }
         ],
