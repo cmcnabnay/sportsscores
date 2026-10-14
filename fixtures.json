@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T21:04:34+00:00",
+  "updated": "2026-10-14T21:15:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -23018,7 +23018,7 @@
       "league": "euroleague-2026-27",
       "home": "Paris Basketball",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "94-96",
       "date": "2026-10-14",
       "time": "18:45",
       "utc": "2026-10-14T18:45:00+00:00",
@@ -68638,6 +68638,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Virtus Bologna",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 439,
+            "against": 440,
+            "diff": -1,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "BC Dubai",
             "played": 5,
             "win": 3,
@@ -68646,18 +68658,6 @@
             "for": 389,
             "against": 396,
             "diff": -7,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 343,
-            "against": 346,
-            "diff": -3,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -68723,13 +68723,13 @@
           },
           {
             "team": "Paris Basketball",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 329,
-            "against": 359,
-            "diff": -30,
+            "loss": 4,
+            "for": 423,
+            "against": 455,
+            "diff": -32,
             "points": null,
             "highlight": null
           },
