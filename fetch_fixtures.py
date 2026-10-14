@@ -509,12 +509,19 @@ LEAGUES = {
         "parser": "sofascore",
         "sofascore_tournament_id": 431,
         "sofascore_season_id": 87548,
+        # SofaScore has no attendances - copied from the Wikipedia page's
+        # {{rugbyleaguebox}} templates (team names resolved from {{rl|..}}
+        # codes match SofaScore's spelling, so no name_map is needed).
+        "attendance_page": {
+            "page": "2026_Men's_Rugby_League_World_Cup",
+            "parser": "rugbyleaguebox",
+        },
         # Top two of Group A and top two of the combined Group B and C
         # table go through to the semi-finals - zones apply per table.
         "standings": {
             "sofascore_tournament_id": 431,
             "sofascore_season_id": 87548,
-            "zones": [(1, 2, "#BBF3BB", "Advance to semi-finals")],
+            "zones": [(1, 2, "#BBF3BB", "Advance to knockout stage")],
         },
         # SofaScore has no bracket, so the Playoffs tab is read off
         # Wikipedia's "Semi-finals"/"Final" sections ({{rugbyleaguebox}}
@@ -4679,6 +4686,7 @@ ATTENDANCE_TRACKED_LEAGUES = {
     "nations-cup-2026",  # World Rugby Nations Cup
     "nations-championship-2026",  # World Rugby Nations Championship
     "super-league-2026",
+    "rlwc-2026",  # attendance from Wikipedia, score from SofaScore
     "fiba-wcq-africa-2027",
     "fiba-wcq-americas-2027",
     "fiba-wcq-asia-2027",
