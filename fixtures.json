@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T18:34:22+00:00",
+  "updated": "2026-10-14T18:45:35+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22787,7 +22787,7 @@
       "league": "khl-2026-27",
       "home": "Dinamo Minsk",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "1-3",
       "date": "2026-10-14",
       "time": "16:10",
       "utc": "2026-10-14T16:10:00+00:00",
@@ -66649,6 +66649,18 @@
       "Western Conference": {
         "rows": [
           {
+            "team": "CSKA Moscow",
+            "played": 15,
+            "win": 11,
+            "draw": null,
+            "loss": 3,
+            "for": 47,
+            "against": 27,
+            "diff": 20,
+            "points": 23,
+            "highlight": "#D6F9FF"
+          },
+          {
             "team": "Lokomotiv Yaroslavl",
             "played": 14,
             "win": 11,
@@ -66658,18 +66670,6 @@
             "against": 23,
             "diff": 15,
             "points": 22,
-            "highlight": "#D6F9FF"
-          },
-          {
-            "team": "CSKA Moscow",
-            "played": 15,
-            "win": 10,
-            "draw": null,
-            "loss": 3,
-            "for": 46,
-            "against": 27,
-            "diff": 19,
-            "points": 21,
             "highlight": "#BBF3FF"
           },
           {
@@ -66737,10 +66737,10 @@
             "played": 16,
             "win": 6,
             "draw": null,
-            "loss": 4,
+            "loss": 5,
             "for": 43,
-            "against": 46,
-            "diff": -3,
+            "against": 48,
+            "diff": -5,
             "points": 17,
             "highlight": "#BBF3BB"
           },
@@ -66749,10 +66749,10 @@
             "played": 17,
             "win": 6,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": 31,
-            "against": 44,
-            "diff": -13,
+            "against": 45,
+            "diff": -14,
             "points": 14,
             "highlight": null
           },
@@ -66792,13 +66792,13 @@
           {
             "team": "Metallurg Magnitogorsk",
             "played": 17,
-            "win": 12,
+            "win": 13,
             "draw": null,
             "loss": 3,
-            "for": 51,
+            "for": 53,
             "against": 31,
-            "diff": 20,
-            "points": 25,
+            "diff": 22,
+            "points": 27,
             "highlight": "#D6F9FF"
           },
           {
