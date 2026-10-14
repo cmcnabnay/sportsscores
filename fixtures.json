@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T11:28:01+00:00",
+  "updated": "2026-10-14T11:39:40+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22575,7 +22575,7 @@
       "league": "khl-2026-27",
       "home": "Amur Khabarovsk",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "1-2",
       "date": "2026-10-14",
       "time": "09:00",
       "utc": "2026-10-14T09:00:00+00:00",
@@ -23595,6 +23595,17 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Amur Khabarovsk",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "07:00",
+      "utc": "2026-10-17T07:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "rlwc-2026",
       "home": "England",
       "away": "Tonga",
@@ -23603,6 +23614,17 @@
       "time": "09:05",
       "utc": "2026-10-17T09:05:00+00:00",
       "venue": "HBF Park",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Sibir Novosibirsk",
+      "away": "Barys Astana",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "10:30",
+      "utc": "2026-10-17T10:30:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -23713,6 +23735,17 @@
       "time": "13:15",
       "utc": "2026-10-17T13:15:00+00:00",
       "venue": "Catena Arena",
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "14:00",
+      "utc": "2026-10-17T14:00:00+00:00",
+      "venue": null,
       "attendance": null
     },
     {
@@ -66650,6 +66683,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Spartak Moscow",
+            "played": 15,
+            "win": 8,
+            "draw": null,
+            "loss": 5,
+            "for": 38,
+            "against": 28,
+            "diff": 10,
+            "points": 18,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Shanghai Dragons",
             "played": 12,
             "win": 8,
@@ -66683,18 +66728,6 @@
             "against": 45,
             "diff": -3,
             "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Spartak Moscow",
-            "played": 14,
-            "win": 7,
-            "draw": null,
-            "loss": 5,
-            "for": 36,
-            "against": 27,
-            "diff": 9,
-            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -66768,13 +66801,13 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 14,
+            "played": 15,
             "win": 8,
             "draw": null,
-            "loss": 5,
-            "for": 23,
-            "against": 20,
-            "diff": 3,
+            "loss": 6,
+            "for": 24,
+            "against": 22,
+            "diff": 2,
             "points": 17,
             "highlight": "#BBF3FF"
           },
