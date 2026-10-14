@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T19:58:12+00:00",
+  "updated": "2026-10-14T20:09:17+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22941,7 +22941,7 @@
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Bayern München",
-      "score": null,
+      "score": "93-101",
       "date": "2026-10-14",
       "time": "17:30",
       "utc": "2026-10-14T17:30:00+00:00",
@@ -68709,6 +68709,18 @@
             "highlight": null
           },
           {
+            "team": "Bayern München",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 434,
+            "against": 457,
+            "diff": -23,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "LDLC ASVEL Lyon-Villeurbanne",
             "played": 5,
             "win": 2,
@@ -68717,18 +68729,6 @@
             "for": 435,
             "against": 461,
             "diff": -26,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Anadolu Efes",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 314,
-            "against": 339,
-            "diff": -25,
             "points": null,
             "highlight": null
           },
@@ -68745,14 +68745,14 @@
             "highlight": null
           },
           {
-            "team": "Bayern München",
-            "played": 4,
+            "team": "Anadolu Efes",
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 333,
-            "against": 364,
-            "diff": -31,
+            "loss": 4,
+            "for": 407,
+            "against": 440,
+            "diff": -33,
             "points": null,
             "highlight": null
           },
