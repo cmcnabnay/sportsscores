@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T02:32:01+00:00",
+  "updated": "2026-10-14T02:43:02+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -184,6 +184,11 @@
     "liga-acb-2026-27": {
       "name": "Liga ACB 2026-27",
       "sport": "basketball",
+      "completed": false
+    },
+    "rlwc-2026": {
+      "name": "Rugby League World Cup 2026",
+      "sport": "rugby-league",
       "completed": false
     }
   },
@@ -23029,6 +23034,17 @@
       "attendance": null
     },
     {
+      "league": "rlwc-2026",
+      "home": "Australia",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-10-15",
+      "time": "09:05",
+      "utc": "2026-10-15T09:05:00+00:00",
+      "venue": "Allianz Stadium",
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "SKA St. Petersburg",
@@ -23213,6 +23229,17 @@
       "time": "19:00",
       "utc": "2026-10-15T19:00:00+00:00",
       "venue": "Movistar Arena",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Samoa",
+      "away": "France",
+      "score": null,
+      "date": "2026-10-16",
+      "time": "06:45",
+      "utc": "2026-10-16T06:45:00+00:00",
+      "venue": "CommBank Stadium",
       "attendance": null
     },
     {
@@ -23546,6 +23573,17 @@
       "attendance": null
     },
     {
+      "league": "rlwc-2026",
+      "home": "Papua New Guinea",
+      "away": "Lebanon",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "04:25",
+      "utc": "2026-10-17T04:25:00+00:00",
+      "venue": "PNG Football Stadium",
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Australia",
       "away": "New Zealand",
@@ -23554,6 +23592,17 @@
       "time": "05:00",
       "utc": "2026-10-17T05:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "England",
+      "away": "Tonga",
+      "score": null,
+      "date": "2026-10-17",
+      "time": "09:05",
+      "utc": "2026-10-17T09:05:00+00:00",
+      "venue": "HBF Park",
       "attendance": null
     },
     {
@@ -23972,6 +24021,17 @@
       "time": "20:00",
       "utc": "2026-10-17T23:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Fiji",
+      "away": "Cook Islands",
+      "score": null,
+      "date": "2026-10-18",
+      "time": "05:05",
+      "utc": "2026-10-18T05:05:00+00:00",
+      "venue": "McDonald Jones Stadium",
       "attendance": null
     },
     {
@@ -25119,6 +25179,17 @@
       "attendance": null
     },
     {
+      "league": "rlwc-2026",
+      "home": "Tonga",
+      "away": "Lebanon",
+      "score": null,
+      "date": "2026-10-23",
+      "time": "09:05",
+      "utc": "2026-10-23T09:05:00+00:00",
+      "venue": "CommBank Stadium",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "TPS Turku",
@@ -25383,6 +25454,17 @@
       "attendance": null
     },
     {
+      "league": "rlwc-2026",
+      "home": "Papua New Guinea",
+      "away": "Samoa",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "04:25",
+      "utc": "2026-10-24T04:25:00+00:00",
+      "venue": "PNG Football Stadium",
+      "attendance": null
+    },
+    {
       "league": "internationals-2026",
       "home": "Japan",
       "away": "Fiji",
@@ -25391,6 +25473,17 @@
       "time": "05:50",
       "utc": "2026-10-24T05:50:00+00:00",
       "venue": "Prince Chichibu Memorial Stadium, Tokyo (Japan)",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "England",
+      "away": "France",
+      "score": null,
+      "date": "2026-10-24",
+      "time": "06:35",
+      "utc": "2026-10-24T06:35:00+00:00",
+      "venue": "HBF Park",
       "attendance": null
     },
     {
@@ -25875,6 +25968,28 @@
       "time": "19:00",
       "utc": "2026-10-24T19:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "New Zealand",
+      "away": "Cook Islands",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "05:05",
+      "utc": "2026-10-25T05:05:00+00:00",
+      "venue": "Te Kaha Stadium",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Australia",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-10-25",
+      "time": "09:05",
+      "utc": "2026-10-25T09:05:00+00:00",
+      "venue": "Suncorp Stadium",
       "attendance": null
     },
     {
@@ -27066,6 +27181,17 @@
       "attendance": null
     },
     {
+      "league": "rlwc-2026",
+      "home": "England",
+      "away": "Papua New Guinea",
+      "score": null,
+      "date": "2026-10-30",
+      "time": "09:05",
+      "utc": "2026-10-30T09:05:00+00:00",
+      "venue": "WIN Stadium",
+      "attendance": null
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "Hapoel Tel-Aviv",
@@ -27360,6 +27486,28 @@
       "time": "20:00",
       "utc": "2026-10-30T17:00:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "New Zealand",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "04:30",
+      "utc": "2026-10-31T04:30:00+00:00",
+      "venue": "Cbus Super Stadium",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Australia",
+      "away": "Cook Islands",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "09:05",
+      "utc": "2026-10-31T09:05:00+00:00",
+      "venue": "Queensland Country Bank Stadium",
       "attendance": null
     },
     {
@@ -27855,6 +28003,28 @@
       "time": "20:45",
       "utc": "2026-10-31T20:45:00+00:00",
       "venue": "Swansea.com Stadium",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Lebanon",
+      "away": "France",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "06:40",
+      "utc": "2026-11-01T06:40:00+00:00",
+      "venue": "CommBank Stadium",
+      "attendance": null
+    },
+    {
+      "league": "rlwc-2026",
+      "home": "Tonga",
+      "away": "Samoa",
+      "score": null,
+      "date": "2026-11-01",
+      "time": "09:05",
+      "utc": "2026-11-01T09:05:00+00:00",
+      "venue": "CommBank Stadium",
       "attendance": null
     },
     {
@@ -70030,6 +70200,138 @@
         "legend": {
           "#d8ffeb": "Leading the regional shield"
         }
+      }
+    },
+    "rlwc-2026": {
+      "Group A": {
+        "rows": [
+          {
+            "team": "Australia",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Cook Islands",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Fiji",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "New Zealand",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      },
+      "Group B and C": {
+        "rows": [
+          {
+            "team": "England",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "France",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Lebanon",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Papua New Guinea",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Samoa",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Tonga",
+            "played": 0,
+            "win": 0,
+            "draw": null,
+            "loss": 0,
+            "for": 0,
+            "against": 0,
+            "diff": 0,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
       }
     }
   },
