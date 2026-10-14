@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T18:12:55+00:00",
+  "updated": "2026-10-14T18:23:15+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22676,7 +22676,7 @@
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "TPS Turku",
-      "score": "3-3",
+      "score": "3-4",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
@@ -68087,6 +68087,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "TPS Turku",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 33,
+            "against": 28,
+            "diff": 5,
+            "points": 18,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "HPK Hämeenlinna",
             "played": 12,
             "win": 7,
@@ -68096,18 +68108,6 @@
             "against": 35,
             "diff": -7,
             "points": 18,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "TPS Turku",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 29,
-            "against": 25,
-            "diff": 4,
-            "points": 16,
             "highlight": "#BBF3FF"
           },
           {
@@ -68123,6 +68123,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "HIFK Helsinki",
+            "played": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 8,
+            "for": 34,
+            "against": 38,
+            "diff": -4,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "KalPa Kuopio",
             "played": 12,
             "win": 4,
@@ -68130,18 +68142,6 @@
             "loss": 8,
             "for": 27,
             "against": 30,
-            "diff": -3,
-            "points": 13,
-            "highlight": null
-          },
-          {
-            "team": "HIFK Helsinki",
-            "played": 11,
-            "win": 4,
-            "draw": null,
-            "loss": 7,
-            "for": 31,
-            "against": 34,
             "diff": -3,
             "points": 13,
             "highlight": null
