@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T16:31:33+00:00",
+  "updated": "2026-10-14T18:03:19+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -20610,6 +20610,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Esenler Erokspor",
+      "away": "Gence BK Ganja",
+      "score": "92-63",
+      "date": "2026-10-07",
+      "time": "16:00",
+      "utc": "2026-10-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Shanghai Dragons",
@@ -22329,6 +22340,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Gence BK Ganja",
+      "away": "Kolossos Rodou",
+      "score": "62-80",
+      "date": "2026-10-13",
+      "time": "15:00",
+      "utc": "2026-10-13T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "SKA St. Petersburg",
@@ -22491,7 +22513,8 @@
       "time": "18:00",
       "utc": "2026-10-13T18:00:00+00:00",
       "venue": null,
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "fiba-europe-cup-2026-27",
@@ -22597,7 +22620,7 @@
       "league": "khl-2026-27",
       "home": "Barys Astana",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "4-1",
       "date": "2026-10-14",
       "time": "14:30",
       "utc": "2026-10-14T14:30:00+00:00",
@@ -22608,7 +22631,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Neftchi BC",
       "away": "VEF Rīga",
-      "score": null,
+      "score": "94-110",
       "date": "2026-10-14",
       "time": "15:00",
       "utc": "2026-10-14T15:00:00+00:00",
@@ -22619,7 +22642,7 @@
       "league": "eurocup-2026-27",
       "home": "Siauliai",
       "away": "Cluj Napoca",
-      "score": null,
+      "score": "75-94",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
@@ -22630,18 +22653,19 @@
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Rauman Lukko",
-      "score": null,
+      "score": "2-2",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
       "venue": "LahiTapiola Areena",
-      "attendance": null
+      "attendance": null,
+      "ot": true
     },
     {
       "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "Porin Ässät",
-      "score": null,
+      "score": "0-1",
       "date": "2026-10-14",
       "time": "15:30",
       "utc": "2026-10-14T15:30:00+00:00",
@@ -22707,7 +22731,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Batumi 2010",
       "away": "BK Opava",
-      "score": null,
+      "score": "62-102",
       "date": "2026-10-14",
       "time": "16:00",
       "utc": "2026-10-14T16:00:00+00:00",
@@ -22729,7 +22753,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Rilski Sportist",
       "away": "Esenler Erokspor",
-      "score": null,
+      "score": "62-94",
       "date": "2026-10-14",
       "time": "16:00",
       "utc": "2026-10-14T16:00:00+00:00",
@@ -22740,7 +22764,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Nitra Blue Wings",
       "away": "Keravnos Strovolou",
-      "score": null,
+      "score": "78-88",
       "date": "2026-10-14",
       "time": "16:00",
       "utc": "2026-10-14T16:00:00+00:00",
@@ -22751,7 +22775,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Lokomotiv Plovdiv 1926",
       "away": "CSM Oradea",
-      "score": null,
+      "score": "79-69",
       "date": "2026-10-14",
       "time": "16:00",
       "utc": "2026-10-14T16:00:00+00:00",
@@ -24410,17 +24434,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Tampereen Ilves",
-      "away": "Mikkelin Jukurit",
-      "score": null,
-      "date": "2026-10-20",
-      "time": "15:30",
-      "utc": "2026-10-20T15:30:00+00:00",
-      "venue": "Nokia Arena",
-      "attendance": null
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "HIFK Helsinki",
       "score": null,
@@ -24773,17 +24786,6 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "BC Rilski Sportist",
-      "away": "Gence BC",
-      "score": null,
-      "date": "2026-10-21",
-      "time": "16:00",
-      "utc": "2026-10-21T16:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
       "home": "Keravnos Strovolou",
       "away": "King Wilki Morskie Szczecin",
       "score": null,
@@ -24808,6 +24810,17 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "CSM Oradea",
       "away": "VEF Rīga",
+      "score": null,
+      "date": "2026-10-21",
+      "time": "16:00",
+      "utc": "2026-10-21T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Rilski Sportist",
+      "away": "Gence BK Ganja",
       "score": null,
       "date": "2026-10-21",
       "time": "16:00",
@@ -25686,13 +25699,13 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Mikkelin Jukurit",
-      "away": "Tampereen Ilves",
+      "home": "Tampereen Ilves",
+      "away": "Mikkelin Jukurit",
       "score": null,
       "date": "2026-10-24",
       "time": "14:00",
       "utc": "2026-10-24T14:00:00+00:00",
-      "venue": "Kalevankankaan jäähalli",
+      "venue": "Nokia Arena",
       "attendance": null
     },
     {
@@ -27083,7 +27096,7 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "Gence BC",
+      "home": "Gence BK Ganja",
       "away": "Sporting CP",
       "score": null,
       "date": "2026-10-29",
@@ -28645,17 +28658,6 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "SCM Universitatea Craiova",
-      "away": "Gence BC",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "17:00",
-      "utc": "2026-11-04T17:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
       "home": "BC Pärnu",
       "away": "King Wilki Morskie Szczecin",
       "score": null,
@@ -28691,6 +28693,17 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Lokomotiv Plovdiv 1926",
       "away": "Neftchi BC",
+      "score": null,
+      "date": "2026-11-04",
+      "time": "17:00",
+      "utc": "2026-11-04T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "SCM Universitatea Craiova",
+      "away": "Gence BK Ganja",
       "score": null,
       "date": "2026-11-04",
       "time": "17:00",
@@ -30185,7 +30198,7 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "Gence BC",
+      "home": "Gence BK Ganja",
       "away": "Esenler Erokspor",
       "score": null,
       "date": "2026-11-12",
@@ -31572,7 +31585,7 @@
     {
       "league": "fiba-europe-cup-2026-27",
       "home": "Kolossos Rodou",
-      "away": "Gence BC",
+      "away": "Gence BK Ganja",
       "score": null,
       "date": "2026-11-18",
       "time": "16:00",
@@ -36411,7 +36424,7 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "Gence BC",
+      "home": "Gence BK Ganja",
       "away": "BC Rilski Sportist",
       "score": null,
       "date": "2026-12-10",
@@ -37851,6 +37864,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Bakken Bears",
+      "away": "BC Prievidza",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "17:00",
+      "utc": "2026-12-16T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "KK Cedevita Olimpija",
       "away": "Rīgas Zelli",
@@ -37876,17 +37900,6 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Iraklis BC",
       "away": "Tartu Ülikool Maks & Moorits",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "17:30",
-      "utc": "2026-12-16T17:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Bakken Bears",
-      "away": "BC Prievidza",
       "score": null,
       "date": "2026-12-16",
       "time": "17:30",
@@ -38062,7 +38075,7 @@
     {
       "league": "fiba-europe-cup-2026-27",
       "home": "Sporting CP",
-      "away": "Gence BC",
+      "away": "Gence BK Ganja",
       "score": null,
       "date": "2026-12-16",
       "time": "19:30",
@@ -39667,7 +39680,7 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "Gence BC",
+      "home": "Gence BK Ganja",
       "away": "SCM Universitatea Craiova",
       "score": null,
       "date": "2026-12-23",
@@ -66671,18 +66684,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Dinamo Minsk",
-            "played": 16,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": 43,
-            "against": 45,
-            "diff": -2,
-            "points": 19,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 14,
             "win": 8,
@@ -66692,7 +66693,7 @@
             "against": 25,
             "diff": 13,
             "points": 18,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Spartak Moscow",
@@ -66711,10 +66712,10 @@
             "played": 13,
             "win": 8,
             "draw": null,
-            "loss": 3,
-            "for": 36,
-            "against": 29,
-            "diff": 7,
+            "loss": 4,
+            "for": 38,
+            "against": 34,
+            "diff": 4,
             "points": 17,
             "highlight": "#BBF3BB"
           },
@@ -66727,6 +66728,18 @@
             "for": 47,
             "against": 44,
             "diff": 3,
+            "points": 17,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Dinamo Minsk",
+            "played": 16,
+            "win": 6,
+            "draw": null,
+            "loss": 4,
+            "for": 43,
+            "against": 46,
+            "diff": -3,
             "points": 17,
             "highlight": "#BBF3BB"
           },
@@ -66780,10 +66793,10 @@
             "played": 17,
             "win": 12,
             "draw": null,
-            "loss": 4,
-            "for": 50,
+            "loss": 3,
+            "for": 51,
             "against": 31,
-            "diff": 19,
+            "diff": 20,
             "points": 25,
             "highlight": "#D6F9FF"
           },
@@ -66793,9 +66806,9 @@
             "win": 9,
             "draw": null,
             "loss": 6,
-            "for": 56,
+            "for": 57,
             "against": 41,
-            "diff": 15,
+            "diff": 16,
             "points": 18,
             "highlight": "#BBF3FF"
           },
@@ -66854,8 +66867,8 @@
             "draw": null,
             "loss": 6,
             "for": 35,
-            "against": 35,
-            "diff": 0,
+            "against": 36,
+            "diff": -1,
             "points": 14,
             "highlight": "#BBF3BB"
           },
@@ -66884,6 +66897,18 @@
             "highlight": null
           },
           {
+            "team": "Traktor Chelyabinsk",
+            "played": 14,
+            "win": 6,
+            "draw": null,
+            "loss": 8,
+            "for": 29,
+            "against": 35,
+            "diff": -6,
+            "points": 12,
+            "highlight": null
+          },
+          {
             "team": "Avangard Omsk",
             "played": 13,
             "win": 6,
@@ -66893,18 +66918,6 @@
             "against": 34,
             "diff": -12,
             "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 14,
-            "win": 5,
-            "draw": null,
-            "loss": 8,
-            "for": 24,
-            "against": 33,
-            "diff": -9,
-            "points": 10,
             "highlight": null
           }
         ],
@@ -66919,6 +66932,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "Aris Bsa",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 225,
+            "against": 198,
+            "diff": 27,
+            "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Hapoel Jerusalem",
             "played": 2,
             "win": 2,
@@ -66931,39 +66956,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Aris Bsa",
-            "played": 2,
+            "team": "Rīgas Zelli",
+            "played": 3,
             "win": 2,
             "draw": null,
-            "loss": 0,
-            "for": 180,
-            "against": 154,
-            "diff": 26,
-            "points": 4,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Derthona Basket Tortona",
-            "played": 2,
-            "win": 1,
-            "draw": null,
             "loss": 1,
-            "for": 173,
-            "against": 169,
-            "diff": 4,
-            "points": 3,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rīgas Zelli",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 172,
-            "against": 171,
-            "diff": 1,
-            "points": 3,
+            "for": 253,
+            "against": 239,
+            "diff": 14,
+            "points": 5,
             "highlight": "#BBF3BB"
           },
           {
@@ -66976,42 +66977,54 @@
             "against": 174,
             "diff": -9,
             "points": 3,
-            "highlight": null
+            "highlight": "#BBF3BB"
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 2,
+            "team": "Derthona Basket Tortona",
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 160,
-            "against": 180,
-            "diff": -20,
-            "points": 3,
-            "highlight": null
-          },
-          {
-            "team": "KK Cedevita Olimpija",
-            "played": 2,
-            "win": 0,
-            "draw": null,
             "loss": 2,
-            "for": 145,
-            "against": 160,
-            "diff": -15,
-            "points": 2,
+            "for": 217,
+            "against": 214,
+            "diff": 3,
+            "points": 4,
             "highlight": null
           },
           {
             "team": "Le Mans",
-            "played": 2,
-            "win": 0,
+            "played": 3,
+            "win": 1,
             "draw": null,
             "loss": 2,
-            "for": 157,
-            "against": 176,
-            "diff": -19,
-            "points": 2,
+            "for": 161,
+            "against": 178,
+            "diff": -17,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 162,
+            "against": 184,
+            "diff": -22,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "KK Cedevita Olimpija",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 213,
+            "against": 241,
+            "diff": -28,
+            "points": 3,
             "highlight": null
           }
         ],
@@ -67021,6 +67034,18 @@
       },
       "Group B": {
         "rows": [
+          {
+            "team": "Cluj Napoca",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 246,
+            "against": 256,
+            "diff": -10,
+            "points": 5,
+            "highlight": "#BBF3BB"
+          },
           {
             "team": "Reyer Venezia",
             "played": 2,
@@ -67067,18 +67092,6 @@
             "against": 159,
             "diff": 8,
             "points": 3,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Siauliai",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 145,
-            "against": 150,
-            "diff": -5,
-            "points": 3,
             "highlight": null
           },
           {
@@ -67106,15 +67119,15 @@
             "highlight": null
           },
           {
-            "team": "Cluj Napoca",
-            "played": 2,
+            "team": "Siauliai",
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 153,
-            "against": 181,
-            "diff": -28,
-            "points": 3,
+            "loss": 2,
+            "for": 220,
+            "against": 243,
+            "diff": -23,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -67126,26 +67139,26 @@
         "rows": [
           {
             "team": "Napoli Basket",
-            "played": 2,
-            "win": 2,
+            "played": 3,
+            "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 177,
-            "against": 151,
-            "diff": 26,
-            "points": 4,
+            "for": 217,
+            "against": 188,
+            "diff": 29,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Tofas",
-            "played": 2,
-            "win": 2,
+            "played": 3,
+            "win": 3,
             "draw": null,
             "loss": 0,
-            "for": 171,
-            "against": 151,
-            "diff": 20,
-            "points": 4,
+            "for": 223,
+            "against": 195,
+            "diff": 28,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
@@ -67162,26 +67175,38 @@
           },
           {
             "team": "KK Budućnost",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 174,
-            "against": 168,
-            "diff": 6,
-            "points": 3,
+            "loss": 2,
+            "for": 218,
+            "against": 220,
+            "diff": -2,
+            "points": 4,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Slask Wroclaw",
-            "played": 2,
+            "team": "Neptūnas",
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 169,
-            "against": 180,
-            "diff": -11,
-            "points": 3,
+            "loss": 2,
+            "for": 250,
+            "against": 258,
+            "diff": -8,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Slask Wroclaw",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 206,
+            "against": 220,
+            "diff": -14,
+            "points": 4,
             "highlight": null
           },
           {
@@ -67193,18 +67218,6 @@
             "for": 237,
             "against": 255,
             "diff": -18,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Neptūnas",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 250,
-            "against": 258,
-            "diff": -8,
             "points": 4,
             "highlight": null
           },
@@ -67237,6 +67250,18 @@
             "against": 226,
             "diff": 66,
             "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Ratiopharm Ulm",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 257,
+            "against": 246,
+            "diff": 11,
+            "points": 5,
             "highlight": "#BBF3BB"
           },
           {
@@ -67273,18 +67298,6 @@
             "against": 250,
             "diff": -3,
             "points": 5,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Ratiopharm Ulm",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 187,
-            "against": 185,
-            "diff": 2,
-            "points": 3,
             "highlight": null
           },
           {
@@ -67301,14 +67314,14 @@
           },
           {
             "team": "KK Bosna",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 144,
-            "against": 150,
-            "diff": -6,
-            "points": 2,
+            "loss": 3,
+            "for": 205,
+            "against": 220,
+            "diff": -15,
+            "points": 3,
             "highlight": null
           },
           {
@@ -67977,6 +67990,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Porin Ässät",
+            "played": 13,
+            "win": 8,
+            "draw": null,
+            "loss": 5,
+            "for": 31,
+            "against": 27,
+            "diff": 4,
+            "points": 25,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mikkelin Jukurit",
             "played": 14,
             "win": 9,
@@ -67986,18 +68011,6 @@
             "against": 29,
             "diff": 7,
             "points": 24,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 12,
-            "win": 7,
-            "draw": null,
-            "loss": 5,
-            "for": 30,
-            "against": 27,
-            "diff": 3,
-            "points": 22,
             "highlight": "#BBF3BB"
           },
           {
@@ -68110,13 +68123,13 @@
           },
           {
             "team": "KalPa Kuopio",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": null,
-            "loss": 7,
+            "loss": 8,
             "for": 27,
-            "against": 29,
-            "diff": -2,
+            "against": 30,
+            "diff": -3,
             "points": 13,
             "highlight": null
           },
@@ -69239,6 +69252,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "BK Opava",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 170,
+            "against": 136,
+            "diff": 34,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Gladiators Trier",
             "played": 1,
             "win": 1,
@@ -69251,6 +69276,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "BC Batumi 2010",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 121,
+            "against": 194,
+            "diff": -73,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Promitheas Patras BC Vikos Cola",
             "played": 1,
             "win": 1,
@@ -69260,7 +69297,7 @@
             "against": 77,
             "diff": 14,
             "points": 2,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "KK Split",
@@ -69275,18 +69312,6 @@
             "highlight": null
           },
           {
-            "team": "BK Opava",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 68,
-            "against": 74,
-            "diff": -6,
-            "points": 1,
-            "highlight": null
-          },
-          {
             "team": "KB Trepça",
             "played": 1,
             "win": 0,
@@ -69295,18 +69320,6 @@
             "for": 77,
             "against": 91,
             "diff": -14,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "BC Batumi 2010",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 59,
-            "against": 92,
-            "diff": -33,
             "points": 1,
             "highlight": null
           }
@@ -69397,6 +69410,18 @@
       "Group C": {
         "rows": [
           {
+            "team": "Esenler Erokspor",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 186,
+            "against": 125,
+            "diff": 61,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Kolossos Rodou",
             "played": 2,
             "win": 2,
@@ -69407,30 +69432,6 @@
             "diff": 30,
             "points": 4,
             "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Esenler Erokspor",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 92,
-            "against": 63,
-            "diff": 29,
-            "points": 2,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Gence BC",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 125,
-            "against": 172,
-            "diff": -47,
-            "points": 2,
-            "highlight": null
           },
           {
             "team": "Sporting CP",
@@ -69446,14 +69447,26 @@
           },
           {
             "team": "BC Rilski Sportist",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 75,
-            "against": 79,
-            "diff": -4,
-            "points": 1,
+            "loss": 2,
+            "for": 137,
+            "against": 173,
+            "diff": -36,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Gence BK Ganja",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 125,
+            "against": 172,
+            "diff": -47,
+            "points": 2,
             "highlight": null
           },
           {
@@ -69634,15 +69647,27 @@
       "Group F": {
         "rows": [
           {
-            "team": "BC Kalev/Cramo",
-            "played": 1,
+            "team": "Valmiera Glass VIA",
+            "played": 2,
             "win": 1,
             "draw": null,
-            "loss": 0,
-            "for": 86,
-            "against": 78,
-            "diff": 8,
-            "points": 2,
+            "loss": 1,
+            "for": 159,
+            "against": 153,
+            "diff": 6,
+            "points": 3,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Kalev/Cramo",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 160,
+            "against": 160,
+            "diff": 0,
+            "points": 3,
             "highlight": "#BBF3BB"
           },
           {
@@ -69655,7 +69680,7 @@
             "against": 72,
             "diff": 7,
             "points": 2,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "KB Bashkimi",
@@ -69667,18 +69692,6 @@
             "against": 77,
             "diff": 2,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Valmiera Glass VIA",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 77,
-            "against": 79,
-            "diff": -2,
-            "points": 1,
             "highlight": null
           },
           {
@@ -69792,6 +69805,18 @@
       "Group H": {
         "rows": [
           {
+            "team": "VEF Rīga",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 216,
+            "against": 177,
+            "diff": 39,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "AO Mykonou",
             "played": 2,
             "win": 2,
@@ -69813,7 +69838,7 @@
             "against": 67,
             "diff": 26,
             "points": 2,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "Fribourg Olympic Basket",
@@ -69828,27 +69853,15 @@
             "highlight": null
           },
           {
-            "team": "VEF Rīga",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 106,
-            "against": 83,
-            "diff": 23,
-            "points": 2,
-            "highlight": null
-          },
-          {
             "team": "Neftchi BC",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 58,
-            "against": 78,
-            "diff": -20,
-            "points": 1,
+            "loss": 2,
+            "for": 152,
+            "against": 188,
+            "diff": -36,
+            "points": 2,
             "highlight": null
           },
           {
