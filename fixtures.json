@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T16:19:59+00:00",
+  "updated": "2026-10-14T16:31:33+00:00",
   "leagues": {
     "u20-jwc-2026": {
       "name": "World Rugby Junior World Championship 2026",
@@ -22586,7 +22586,7 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "2-4",
       "date": "2026-10-14",
       "time": "14:00",
       "utc": "2026-10-14T14:00:00+00:00",
@@ -66648,7 +66648,7 @@
           },
           {
             "team": "CSKA Moscow",
-            "played": 14,
+            "played": 15,
             "win": 10,
             "draw": null,
             "loss": 3,
@@ -66671,6 +66671,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Dinamo Minsk",
+            "played": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 43,
+            "against": 45,
+            "diff": -2,
+            "points": 19,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 14,
             "win": 8,
@@ -66680,7 +66692,7 @@
             "against": 25,
             "diff": 13,
             "points": 18,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Spartak Moscow",
@@ -66696,7 +66708,7 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 12,
+            "played": 13,
             "win": 8,
             "draw": null,
             "loss": 3,
@@ -66719,20 +66731,8 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dinamo Minsk",
-            "played": 15,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 42,
-            "against": 45,
-            "diff": -3,
-            "points": 17,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Dynamo Moscow",
-            "played": 16,
+            "played": 17,
             "win": 6,
             "draw": null,
             "loss": 8,
@@ -66777,15 +66777,27 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 16,
+            "played": 17,
             "win": 12,
             "draw": null,
-            "loss": 3,
+            "loss": 4,
             "for": 50,
-            "against": 30,
-            "diff": 20,
+            "against": 31,
+            "diff": 19,
             "points": 25,
             "highlight": "#D6F9FF"
+          },
+          {
+            "team": "Barys Astana",
+            "played": 15,
+            "win": 9,
+            "draw": null,
+            "loss": 6,
+            "for": 56,
+            "against": 41,
+            "diff": 15,
+            "points": 18,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
@@ -66812,38 +66824,38 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Barys Astana",
-            "played": 14,
-            "win": 8,
-            "draw": null,
-            "loss": 6,
-            "for": 53,
-            "against": 40,
-            "diff": 13,
-            "points": 16,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Salavat Yulayev Ufa",
-            "played": 15,
+            "played": 16,
             "win": 8,
             "draw": null,
-            "loss": 6,
-            "for": 46,
-            "against": 46,
-            "diff": 0,
+            "loss": 7,
+            "for": 48,
+            "against": 50,
+            "diff": -2,
             "points": 16,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 13,
+            "team": "Sibir Novosibirsk",
+            "played": 16,
             "win": 6,
             "draw": null,
-            "loss": 5,
-            "for": 34,
-            "against": 32,
-            "diff": 2,
+            "loss": 7,
+            "for": 37,
+            "against": 45,
+            "diff": -8,
+            "points": 15,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 14,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 35,
+            "against": 35,
+            "diff": 0,
             "points": 14,
             "highlight": "#BBF3BB"
           },
@@ -66869,18 +66881,6 @@
             "against": 34,
             "diff": -3,
             "points": 13,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Sibir Novosibirsk",
-            "played": 15,
-            "win": 5,
-            "draw": null,
-            "loss": 7,
-            "for": 33,
-            "against": 43,
-            "diff": -10,
-            "points": 13,
             "highlight": null
           },
           {
@@ -66897,7 +66897,7 @@
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 13,
+            "played": 14,
             "win": 5,
             "draw": null,
             "loss": 8,
