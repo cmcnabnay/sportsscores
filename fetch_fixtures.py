@@ -145,13 +145,6 @@ LEAGUES = {
         "page": "2026_World_Rugby_Junior_World_Championship",
         "sport": "rugby",
         "parser": "vevent",
-        # Tournament finished - stop re-fetching (fixtures AND standings)
-        # on every default run. Stored matches/standings/league entry are
-        # left exactly as-is in fixtures.json (run() never touches a key
-        # that isn't in the list it's asked to process), so matches.html
-        # keeps showing the final results and table. Run
-        # `python3 fetch_fixtures.py u20-jwc-2026 --force` manually if a
-        # correction ever needs to be pulled in after the fact.
         "completed": True,
         "utc_offset": 4,  # Georgia (GET), no DST
         "tag_sections": True,  # tags each match with its enclosing Pool/
@@ -168,11 +161,6 @@ LEAGUES = {
     },
     "nations-championship-2026": {
         "name": "Rugby Nations Championship 2026",
-        # The old single "2026_Nations_Championship" page only had bare
-        # date/score rows with no kickoff time. The tournament is actually
-        # documented as two separate articles, each using the rugbybox
-        # match-box layout (same as the JWC page below), which does carry
-        # a kickoff time per match.
         "pages": [
             "2026_Nations_Championship_Southern_Hemisphere_Series",
             "2026_Nations_Championship_Northern_Hemisphere_Series",
@@ -215,14 +203,7 @@ LEAGUES = {
         "name": "World Rugby Pacific Nations Cup 2026",
         "page": "2026_World_Rugby_Pacific_Nations_Cup",
         "sport": "rugby",
-        # Tournament finished - Japan beat Fiji 20-15 in the Grand Final
-        # on 19 September 2026 (Canada beat the US in the Third place
-        # play-off the same day). Retired: stop re-fetching (fixtures,
-        # playoff bracket) on every default run, same treatment as
-        # currie-cup-2026/u20-jwc-2026/etc. above. Stored data is left
-        # exactly as-is; run `python3 fetch_fixtures.py
-        # pacific-nations-cup-2026 --force` manually if a correction ever
-        # needs to be pulled in after the fact.
+        # Tournament finished 
         "completed": True,
         "parser": "rugbybox",
         # no utc_offset needed - each match states its own UTC offset directly
@@ -259,13 +240,6 @@ LEAGUES = {
         "name": "Currie Cup Premier Division 2026",
         "page": "2026_Currie_Cup_Premier_Division",
         "sport": "rugby",
-        # Season finished - Griquas beat the Pumas 23-16 in the Final on
-        # 12 September 2026. Stop re-fetching (fixtures, standings AND the
-        # playoff bracket) on every default run, same treatment as
-        # u20-jwc-2026/afle-2026/etc. above. Stored data is left exactly
-        # as-is; run `python3 fetch_fixtures.py currie-cup-2026 --force`
-        # manually if a correction ever needs to be pulled in after the
-        # fact.
         "completed": True,
         "parser": "rugbybox2",
         "utc_offset": 2,  # South Africa Standard Time (SAST), no DST -
@@ -317,15 +291,8 @@ LEAGUES = {
         "sport": "rugby",
         # 365Scores files test matches under several competitions rather
         # than one - Friendly International (6194) carries most 2026 tests
-        # incl. the Rugby Championship fixtures; the rest (5739 The Rugby
-        # Championship, 6873 Nations Cup, 7611 Autumn Nations Cup, 5746
-        # Test Series, 6872 Lions Tour) are included so tests filed there
-        # aren't missed. The games endpoint takes a comma-separated list.
-        # Six Nations (5959) is deliberately left out - it isn't part of
-        # this league's scope. No seasonNum on these games, so bounded by
-        # date (see fetch_scores365_games).
         "parser": "scores365",
-        "scores365_competition_id": "6194,5739,6873,7611,5746,6872",
+        "scores365_competition_id": "6194",
         "scores365_min_date": "2026-01-01",
         "scores365_max_date": "2026-12-31",
     },
@@ -345,9 +312,6 @@ LEAGUES = {
         "standings": {
             "sofascore_tournament_id": 420,
             "sofascore_season_id": 98426,
-            # SofaScore has no qualification colours, so these copy the
-            # Wikipedia "2026-27 Top 14 table" key. (first pos, last pos,
-            # row colour, legend label); see apply_standings_zones.
             "zones": [
                 (1, 2, "#BBF3BB", "Semi-finals and European Champions Cup"),
                 (3, 6, "#CCF9CC", "Qualifying finals and European Champions Cup"),
@@ -412,8 +376,6 @@ LEAGUES = {
         "parser": "sofascore",
         "sofascore_tournament_id": 401,
         "sofascore_season_id": 98417,
-        # No pool tables on SofaScore until the pool stage starts
-        # (2026-10-16) - an empty fetch keeps whatever was stored before.
         "standings": {"sofascore_tournament_id": 401, "sofascore_season_id": 98417},
     },
     "challenge-cup-2026": {
@@ -430,20 +392,13 @@ LEAGUES = {
         "sport": "rugby-league",
         "parser": "wikitable",
         "year": 2026,
-        # Season finished - Sydney Roosters beat Newcastle Knights 19-18 in
-        # the Grand Final on 4 October 2026. Stop re-fetching (fixtures,
-        # standings, attendance AND the playoff bracket) on every default
-        # run, same treatment as efa-2026/afle-2026 above. Stored data is
-        # left exactly as-is; run `python3 fetch_fixtures.py nrl-2026
-        # --force` manually if a correction ever needs to be pulled in
-        # after the fact.
         "completed": True,
         "utc_offset": 10,  # AEST; most home cities are east-coast Australia.
                            # Simplification: doesn't account for AEDT during
                            # Oct-Apr, or NZ Warriors' home games (Auckland,
                            # UTC+12/+13) - overridden via venue lookup below.
         "standings": {
-            # Confirmed from the page's own wikitext:
+            # From the page's own wikitext:
             #   ==Ladder==
             #   {{NRL2026Ladder}}
             # i.e. the season page's "Ladder" section is a bare
@@ -513,10 +468,6 @@ LEAGUES = {
         "sport": "rugby-league",
         "parser": "wikitable",
         "year": 2026,
-        # Season finished - Wakefield Trinity beat Warrington Wolves 23-10
-        # in the Grand Final at Old Trafford on 3 October 2026. Retired the
-        # same way as nrl-2026 above; run `python3 fetch_fixtures.py
-        # super-league-2026 --force` to pull in a correction.
         "completed": True,
         "utc_offset": 1,  # UK (BST); Catalans Dragons/Toulouse Olympique
                           # home games (France, also UTC+2 in summer) are
@@ -549,19 +500,42 @@ LEAGUES = {
             "heading": "Team bracket",
         },
     },
+    "rlwc-2026": {
+        "name": "Rugby League World Cup 2026",
+        "sport": "rugby-league",
+        # SofaScore "World Cup" (unique-tournament 431), season "World Cup
+        # 2026". Its two tables are "Group A" and "Group B and C"; the
+        # knockout games should appear as extra events once they're drawn.
+        "parser": "sofascore",
+        "sofascore_tournament_id": 431,
+        "sofascore_season_id": 87548,
+        # Top two of Group A and top two of the combined Group B and C
+        # table go through to the semi-finals - zones apply per table.
+        "standings": {
+            "sofascore_tournament_id": 431,
+            "sofascore_season_id": 87548,
+            "zones": [(1, 2, "#BBF3BB", "Advance to semi-finals")],
+        },
+        # SofaScore has no bracket, so the Playoffs tab is read off
+        # Wikipedia's "Semi-finals"/"Final" sections ({{rugbyleaguebox}}
+        # templates). Not-yet-decided slots are written as "Pool A
+        # winner" etc. and shown as-is until the page fills in the team.
+        "playoffs": {
+            "page": "2026_Men's_Rugby_League_World_Cup",
+            "parser": "rugbyleaguebox",
+            "name": "Rugby League World Cup 2026 · Knockout stage",
+            "rounds": [
+                {"heading": "Semi-finals", "label": "Semi-finals"},
+                {"heading": "Final", "label": "Final"},
+            ],
+        },
+    },
     "afle-2026": {
         "name": "American Football League Europe 2026",
         "page": "2026_American_Football_League_Europe_season",
         "sport": "american-football",
         "parser": "wikitable",
         "year": 2026,
-        # Season finished - the Gold Bowl (final) was played 6 September
-        # 2026. Stop re-fetching (fixtures, standings AND the playoff
-        # bracket) on every default run, same treatment as
-        # efa-2026/u20-jwc-2026/fivb-nations-league-2026 above. Stored data
-        # is left exactly as-is; run `python3 fetch_fixtures.py afle-2026
-        # --force` manually if a correction ever needs to be pulled in
-        # after the fact.
         "completed": True,
         "utc_offset": 2,  # Central European Summer Time
         # This page's results table is headed "Home"/"Away" but the actual
@@ -588,13 +562,6 @@ LEAGUES = {
         "sport": "american-football",
         "parser": "wikitable",
         "year": 2026,
-        # Season finished - the EFA Championship Game (the last of the "30
-        # + 3 playoff games") was played 29 August 2026. Stop re-fetching
-        # (fixtures, standings AND the playoff bracket) on every default
-        # run, same treatment as u20-jwc-2026/fivb-nations-league-2026
-        # above. Stored data is left exactly as-is; run
-        # `python3 fetch_fixtures.py efa-2026 --force` manually if a
-        # correction ever needs to be pulled in after the fact.
         "completed": True,
         "utc_offset": 2,  # Central European Summer Time
         # Same Away-team-first convention as AFLE - see afle-2026's comment.
@@ -623,11 +590,6 @@ LEAGUES = {
         "sport": "volleyball",
         "parser": "fivb_template",
         "year": 2026,
-        # Tournament finished (Finals concluded 2026-08-02) - stop
-        # re-fetching on every default run, same treatment as
-        # u20-jwc-2026 above. Stored matches/standings are left exactly
-        # as-is; run `python3 fetch_fixtures.py fivb-nations-league-2026
-        # --force` manually if a correction ever needs to be pulled in.
         "completed": True,
         # no single utc_offset - each pool states its own timezone in the
         # wikitext ("All times are ... (UTC-04:00)"), parsed per-match
@@ -792,9 +754,7 @@ LEAGUES = {
     "bbl-2026-27": {
         "name": "Basketball Bundesliga 2026-27",
         "sport": "basketball",
-        # Not a Wikipedia page - sourced from 365Scores' own JSON API
-        # (the same data their embeddable widget renders; competition id
-        # 27 = Germany's Basketball Bundesliga). See fetch_scores365_games.
+        # Sourced from 365Scores' own JSON API
         "parser": "scores365",
         "scores365_competition_id": 27,
         # 365Scores' "current season" pointer for this competition as of
@@ -810,11 +770,6 @@ LEAGUES = {
     "bcl-2026-27": {
         "name": "Basketball Champions League 2026-27",
         "sport": "basketball",
-        # Moved from 365Scores (competition 6391) to SofaScore on
-        # 2026-09-24: 365Scores' group tables were incomplete (Groups C
-        # and F each missing a team, and every team stuck at 0 played).
-        # SofaScore has all 8 groups x 4 teams, plus the qualification
-        # rounds. See the SofaScore section above fetch_sofascore_json.
         "parser": "sofascore",
         "sofascore_tournament_id": 9357,
         "sofascore_season_id": 98086,
@@ -823,18 +778,9 @@ LEAGUES = {
     "khl-2026-27": {
         "name": "KHL 2026-27",
         "sport": "hockey",
-        # Not a Wikipedia page - sourced from 365Scores' own JSON API,
-        # same as bbl-2026-27 above (competition id 636 = the KHL).
         "parser": "scores365",
         "scores365_competition_id": 636,
-        # 365Scores' "current season" pointer for this competition as of
-        # the 2026-09-05 season kickoff - confirmed a clean break from the
-        # prior season (13, Feb-May 2026 playoffs) rather than the stuck
-        # numbering some competitions have there (see the min_date/
-        # max_date note in fetch_scores365_games). Bump this (and the key/name above)
-        # when the 2027-28 season starts.
-        #
-        # Unlike BBL, 365Scores only has a rolling few weeks of KHL
+        # 365Scores only has a rolling few weeks of KHL
         # fixtures loaded at a time (confirmed: a full-season fetch here
         # returned 74 games, not the ~600+ a 22-team KHL season actually
         # has) rather than the whole season loaded upfront - so this
@@ -849,16 +795,9 @@ LEAGUES = {
             "scores365_competition_id": 636,
         },
     },
-    # --- 365Scores-sourced basketball leagues added 2026-09-24. Each
-    # season number below was confirmed as the one every 2026-27 game on
-    # 365Scores carries, distinct from the prior season's. Bump the
-    # number (and key/name) when the 2027-28 season starts, same as
-    # bbl-2026-27 above.
     "euroleague-2026-27": {
         "name": "EuroLeague 2026-27",
         "sport": "basketball",
-        # SofaScore rather than 365Scores (competition 569): 365Scores
-        # served no EuroLeague standings at all even after tip-off.
         "parser": "sofascore",
         "sofascore_tournament_id": 138,
         "sofascore_season_id": 99582,
@@ -872,9 +811,7 @@ LEAGUES = {
         "scores365_season_num": 25,
         # 365Scores returns the whole regular season here (unlike the
         # KHL's rolling window), so unplayed games it stops listing are
-        # pruned - see full_season in run(). Without this, a renamed club
-        # (ASK Riga -> Rigas Zelli, Balkan Botevgrad -> BC Balkan
-        # Botevgrad) left its old-name fixtures behind as scoreless ghosts.
+        # pruned - see full_season in run()
         "full_season": True,
         # AS Monaco withdrew and KK Bosna took their slot (2026-09-30),
         # but 365Scores still lists Monaco for not-yet-played games.
@@ -888,10 +825,6 @@ LEAGUES = {
     "fiba-europe-cup-2026-27": {
         "name": "FIBA Europe Cup 2026-27",
         "sport": "basketball",
-        # Moved from 365Scores (competition 6282, season 12) to SofaScore
-        # on 2026-10-13. SofaScore's "Europe Cup" is unique-tournament
-        # 2165; season 98674 is "26/27" and includes the qualification
-        # rounds plus all 8 regular-season groups.
         "parser": "sofascore",
         "sofascore_tournament_id": 2165,
         "sofascore_season_id": 98674,
@@ -921,12 +854,6 @@ LEAGUES = {
         "scores365_season_num": 105,
         "standings": {"scores365_competition_id": 38},
     },
-    # --- SofaScore-sourced hockey leagues added 2026-09-24 (see the
-    # SofaScore section above fetch_sofascore_json). 365Scores was tried
-    # first but hadn't loaded any 2026-27 games for these three yet.
-    # Tournament id = SofaScore's "unique-tournament" id, season id = its
-    # "26/27" season (from /unique-tournament/<id>/seasons). Bump the
-    # season id (and key/name) when 2027-28 starts.
     "liiga-2026-27": {
         "name": "Liiga 2026-27",
         "sport": "hockey",
@@ -939,7 +866,6 @@ LEAGUES = {
         "name": "SHL 2026-27",
         "sport": "hockey",
         "parser": "sofascore",
-        # 261 = Sweden's SHL (not 1490, Slovakia's league of the same name)
         "sofascore_tournament_id": 261,
         "sofascore_season_id": 95202,
         "standings": {"sofascore_tournament_id": 261, "sofascore_season_id": 95202},
@@ -954,11 +880,6 @@ LEAGUES = {
     },
 }
 
-# Keyword -> UTC offset (hours), checked against a match's venue text to
-# override a league's default utc_offset for tournaments/rounds hosted in
-# a different country than usual (e.g. Nations Championship games, or
-# Catalans Dragons/Toulouse home games in Super League). Add more entries
-# as needed; unmatched venues just fall back to the league default.
 VENUE_UTC_OFFSETS = {
     "tbilisi": 4, "kutaisi": 4,
     "london": 1, "twickenham": 1, "cardiff": 1, "dublin": 1, "edinburgh": 1,
@@ -976,13 +897,7 @@ VENUE_UTC_OFFSETS = {
     "santiago": -4, "vina del mar": -4, "la serena": -4,
     "commerce city": -6, "charlotte": -4, "cary": -4,
     "montevideo": -3,
-    "bucharest": 2, "lisbon": 0, "madrid": 1, "hong kong": 8,
-    # CFL host cities (fallback only - the schedule pages give an explicit
-    # zone abbreviation like "EDT" per match, which takes priority; see
-    # CFL_TZ_OFFSETS / extract_cfl_time below)
-    "td place stadium": -4, "bmo fild": -4, "hamilton stadium": -4, "molson stadium": -4,
-    "mosaic stadium": -6, "mcmahon stadium": -6, "commonwealth stadium": -6, "bc place": -7, 
-    "apple bowl": -7, "princess auto stadium": -5,
+    "bucharest": 2, "lisbon": 0, "madrid": 1, "hong kong": 8
 }
 
 # CFL schedule pages state each kickoff's timezone as an abbreviation
@@ -2088,6 +2003,8 @@ RUGBY_COUNTRY_CODES = {
     "USA": "United States", "ESP": "Spain", "ROM": "Romania", "ROU": "Romania",
     "URU": "Uruguay", "ZIM": "Zimbabwe", "GEO": "Georgia", "HKG": "Hong Kong",
     "POR": "Portugal",
+    # Rugby league World Cup sides ({{rl|..}} codes)
+    "COK": "Cook Islands", "LEB": "Lebanon", "PNG": "Papua New Guinea",
 }
 
 
@@ -2980,8 +2897,11 @@ def _parse_wikitext_section_matches(cfg, key, section_text):
     without needing a *TeamBracket template. Returns [] for a "parser"
     that isn't one of the wikitext (as opposed to HTML-vevent) parsers -
     those pages don't have wikitext sections to hand this in the first
-    place."""
-    parser_type = cfg.get("parser", "vevent")
+    place. A "playoffs": {"parser": ...} overrides the league's own parser
+    (rlwc-2026: SofaScore fixtures, but a Wikipedia knockout stage)."""
+    parser_type = (cfg.get("playoffs") or {}).get("parser") or cfg.get("parser", "vevent")
+    if parser_type == "rugbyleaguebox":
+        return parse_rugbyleaguebox_matches(section_text, key, cfg)
     if parser_type == "rugbybox":
         return parse_rugbybox_matches(section_text, key, cfg)
     if parser_type == "rugbybox2":
@@ -3693,6 +3613,23 @@ def parse_americanfootballbox_matches(section_text, league_key, cfg, group="Play
     return matches
 
 
+_RL_FLAG_TEAM_RE = re.compile(r"\{\{\s*rl(?:-rt)?\s*\|\s*([^|}]+?)\s*(?:\|[^}]*)?\}\}", re.IGNORECASE)
+
+
+def _resolve_rl_flag_team(raw):
+    """International rugby league pages (e.g. the World Cup) write a team
+    as {{rl|NZL}} / {{rl-rt|AUS}} or {{rl|Lebanon}} - a flag template
+    clean_bracket_team() would otherwise delete outright. Swap it for the
+    country name (3-letter codes via RUGBY_COUNTRY_CODES) first."""
+    if not raw:
+        return raw
+
+    def repl(m):
+        arg = m.group(1).strip()
+        return RUGBY_COUNTRY_CODES.get(arg.upper(), arg) if len(arg) == 3 else arg
+    return _RL_FLAG_TEAM_RE.sub(repl, raw)
+
+
 def parse_rugbyleaguebox_matches(wikitext: str, league_key: str, cfg: dict):
     """Parse {{rugbyleaguebox|...}} template instances - how a rugby
     league finals series is written up on its own dedicated sub-article
@@ -3725,8 +3662,8 @@ def parse_rugbyleaguebox_matches(wikitext: str, league_key: str, cfg: dict):
             k, v = p.split("=", 1)
             kv[k.strip().lower()] = v.strip()
 
-        home = clean_bracket_team(kv.get("team1"))
-        away = clean_bracket_team(kv.get("team2"))
+        home = clean_bracket_team(_resolve_rl_flag_team(kv.get("team1")))
+        away = clean_bracket_team(_resolve_rl_flag_team(kv.get("team2")))
         if not home or not away:
             continue
 
@@ -5006,62 +4943,6 @@ def save(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-# Matches on/before this date, for these two leagues, were fetched before
-# parse_wikitable_matches's swap_home_away score-flip fix landed (see the
-# comment on that code, and on afle-2026/efa-2026's LEAGUES entries).
-# AFLE weeks 1-8 and EFA weeks 1-9 both happen to end on the same
-# date (both leagues played a week 11-12 July round; AFLE's week 9 and
-# EFA's week 10 both start 18-19 July) - confirmed against the leagues'
-# published week-by-week schedules. Matches on/before this date have their
-# home/away team labels right, but "score" is still stored in the raw
-# away-first order the wiki page's Result column uses, instead of the
-# home-first order matches.html assumes (m.score.split(...)[0] = home
-# score) - see FIX_EARLY_SCORE_ORDER_LEAGUES below and
-# fix_early_score_order().
-FIX_EARLY_SCORE_ORDER_LEAGUES = {
-    "afle-2026": "2026-07-12",
-    "efa-2026": "2026-07-12",
-}
-
-
-def fix_early_score_order(data):
-    """One-time repair for matches fetched before the swap_home_away
-    score-flip fix (see FIX_EARLY_SCORE_ORDER_LEAGUES above): these
-    matches already have a (wrongly-ordered) score, so once a league
-    itself has nothing left finished-but-scoreless, run()'s skip check
-    (league_needs_fetch()) stops fetching its page at all and these never
-    get re-parsed - which is why the bug persisted for them after the
-    parser itself was fixed. This flips just the two score numbers (home
-    and away team labels are already correct - only the score digit
-    order is wrong) for every affected league's matches on or before its
-    cutoff date.
-
-    NOT idempotent - the whole point is to flip a value that's currently
-    backwards, so running this a second time on already-fixed data would
-    flip it right back to wrong. That's why it's wired up as its own
-    explicit --fix-early-scores CLI flag rather than something every
-    normal run does automatically; run it once, then never again unless
-    fixtures.json gets reset from an older backup.
-
-    Returns the number of matches whose score was flipped.
-    """
-    fixed = 0
-    for m in data.get("matches", []):
-        cutoff = FIX_EARLY_SCORE_ORDER_LEAGUES.get(m.get("league"))
-        if not cutoff or not m.get("date") or m["date"] > cutoff:
-            continue
-        score = m.get("score")
-        if not score:
-            continue
-        sm = re.match(r"^\s*(\d{1,3})\s*[-\u2013]\s*(\d{1,3})\s*$", score)
-        if not sm:
-            # Already-null/unplayed/malformed score - nothing to flip.
-            continue
-        m["score"] = f"{sm.group(2)}-{sm.group(1)}"
-        fixed += 1
-    return fixed
-
-
 # ---------------------------------------------------------------------------
 # Single-team results-matrix updates - deliberately NOT LEAGUES entries.
 # Some Wikipedia league pages publish results only as a big round-robin
@@ -6116,23 +5997,8 @@ def main():
         "--torpedo-only", action="store_true",
         help="alias for --matrix-only torpedo",
     )
-    parser.add_argument(
-        "--fix-early-scores", action="store_true",
-        help="one-time repair: flip the score digit order on AFLE weeks 1-8 and "
-             "EFA weeks 1-9 matches (see FIX_EARLY_SCORE_ORDER_LEAGUES/"
-             "fix_early_score_order()) - these were fetched before the "
-             "swap_home_away score-flip fix and are outside the normal scrape "
-             "window, so a normal run never touches them. Does nothing else and "
-             "exits immediately after saving; run it once, not every time.",
-    )
-    args = parser.parse_args()
 
-    if args.fix_early_scores:
-        data = load_existing()
-        fixed = fix_early_score_order(data)
-        save(data)
-        print(f"Fixed score order on {fixed} match(es); wrote {OUTPUT_FILE}")
-        return
+    args = parser.parse_args()
 
     if args.list:
         for key, cfg in LEAGUES.items():
