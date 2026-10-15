@@ -289,7 +289,7 @@
   .team-row.winner { font-weight: 700; }
   .team-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   /* Logos/flags from the Supabase `teams` table (filled by team_logos/). */
-  .team-logo, .team-flag { vertical-align: middle; margin-right: 6px; }
+  .team-logo, .team-flag { vertical-align: middle; margin-right: 6px; flex: none; }
   .team-logo { width: 20px; height: 20px; object-fit: contain; }
   /* Fixed height, natural width: every flag keeps its own shape (US 19:10, IRFU ~2:1, Switzerland 1:1) uncropped. */
   .team-flag { height: 15px; width: auto; max-width: 32px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.12); }
@@ -912,12 +912,12 @@ function render() {
 
     const homeRow = `
         <div class="team-row ${homeWin ? 'winner' : ''}">
-          <span class="team-name">${teamBadges(m, m.home)}${escapeHtml(m.home)}</span>
+          <span class="team-name">${teamBadges(m.league, m.home)}${escapeHtml(m.home)}</span>
           <span class="team-score">${homeScore}</span>
         </div>`;
     const awayRow = `
         <div class="team-row ${awayWin ? 'winner' : ''}">
-          <span class="team-name">${teamBadges(m, m.away)}${escapeHtml(m.away)}</span>
+          <span class="team-name">${teamBadges(m.league, m.away)}${escapeHtml(m.away)}</span>
           <span class="team-score">${awayScore}</span>
         </div>`;
     // AFLE/EFA display convention: away team's row on top, home team's row
@@ -963,7 +963,7 @@ const STANDINGS_COLUMNS = [
 // A wiki-sourced highlight color is usually a pale tint (e.g. #E8FFD8 for
 // "advances"), light enough to use directly as a full row background
 // without needing to dim/lighten it further.
-function renderStandingsTable(rows) {
+function renderStandingsTable(rows, leagueKey) {
   const activeCols = STANDINGS_COLUMNS.filter(c => rows.some(r => r[c.key] !== null && r[c.key] !== undefined));
 
   const headerCells = [
@@ -983,7 +983,7 @@ function renderStandingsTable(rows) {
       return `<td class="${cls}">${display}</td>`;
     }).join('');
     const rowStyle = r.highlight ? ` style="background:${r.highlight}"` : '';
-    return `<tr${rowStyle}><td class="pos-col">${i + 1}</td><td class="team-col">${r.team}</td>${cells}</tr>`;
+    return `<tr${rowStyle}><td class="pos-col">${i + 1}</td><td class="team-col">${teamBadges(leagueKey, r.team)}${r.team}</td>${cells}</tr>`;
   }).join('');
 
   return `<table class="standings-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
@@ -1165,7 +1165,7 @@ function renderStandings() {
     const showGroupLabel = !/^(standings?|table|ladder)$/i.test(groupOnly.trim());
     wrap.innerHTML = `
       <h3>${leagueName}${showGroupLabel ? ' · ' + groupOnly : ''}</h3>
-      ${renderStandingsTable(rows)}
+      ${renderStandingsTable(rows, standingsLeagueKey)}
       ${renderLegend(groupLegend(groupData))}
     `;
     standingsView.appendChild(wrap);
@@ -1353,7 +1353,7 @@ function sortAttendanceRows(rows, sort) {
   return arr;
 }
 
-function renderAttendanceTable(rows) {
+function renderAttendanceTable(rows, leagueKey) {
   const sorted = sortAttendanceRows(rows, attendanceSort);
 
   // Bottom "Total" row: total home games (GP) and total attendance summed
@@ -1366,14 +1366,14 @@ function renderAttendanceTable(rows) {
   const bodyRows = sorted.map(r => {
     if (r.noData) {
       return `<tr>
-        <td class="team-col">${r.team}</td>
+        <td class="team-col">${teamBadges(leagueKey, r.team)}${r.team}</td>
         <td class="dash-cell">\u2013</td>
         <td class="dash-cell total-att-clickable" data-team="${escapeHtml(r.team)}">\u2013</td>
         <td class="dash-cell">\u2013</td>
       </tr>`;
     }
     return `<tr>
-      <td class="team-col">${r.team}</td>
+      <td class="team-col">${teamBadges(leagueKey, r.team)}${r.team}</td>
       <td>${r.homeGames}</td>
       <td class="total-att-clickable" data-team="${escapeHtml(r.team)}">${r.totalAttendance.toLocaleString()}</td>
       <td>${r.avgAttendance.toLocaleString()}</td>
@@ -1468,7 +1468,7 @@ function renderAttendance() {
   wrap.className = 'standings-group';
   wrap.innerHTML = `
     <h3>${leagueName} \u00b7 Attendance</h3>
-    ${renderAttendanceTable(rows)}
+    ${renderAttendanceTable(rows, attendanceLeagueKey)}
   `;
   attendanceView.appendChild(wrap);
   attachAttendanceTableHandlers(wrap, attendanceLeagueKey);
@@ -1479,7 +1479,7 @@ function renderAttendance() {
 // {seed1, team1, score1, seed2, team2, score2, date, venue}. A match with
 // no score yet on either side just shows both teams with no score/winner
 // styling (e.g. the EFA Championship Game before it's been played).
-function renderBracketMatch(m) {
+function renderBracketMatch(m, leagueKey) {
   const played = m.score1 !== null && m.score1 !== undefined
     && m.score2 !== null && m.score2 !== undefined;
   const team1Wins = played && Number(m.score1) > Number(m.score2);
@@ -1487,7 +1487,7 @@ function renderBracketMatch(m) {
 
   const teamRow = (seed, team, score, isWinner) => `
     <div class="bracket-team ${isWinner ? 'winner' : ''} ${played ? '' : 'pending'}">
-      <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${seed}</span>` : ''}${escapeHtml(team || 'TBD')}</span>
+      <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${seed}</span>` : ''}${team ? teamBadges(leagueKey, team) : ''}${escapeHtml(team || 'TBD')}</span>
       <span class="bracket-score">${played ? escapeHtml(String(score)) : ''}</span>
     </div>`;
 
@@ -1513,7 +1513,7 @@ function renderBracketMatch(m) {
 // DOM (rather than computing them) means it degrades gracefully for any
 // card height (long team names, a meta line, etc.) without hardcoding
 // pixel math per round.
-function renderBracket(bracket) {
+function renderBracket(bracket, leagueKey) {
   const rounds = (bracket.rounds || []).filter(r => (r.matches || []).length);
 
   const outer = document.createElement('div');
@@ -1548,7 +1548,7 @@ function renderBracket(bracket) {
     (round.matches || []).forEach(m => {
       const cardWrap = document.createElement('div');
       cardWrap.className = 'bracket-match-wrap';
-      cardWrap.innerHTML = renderBracketMatch(m);
+      cardWrap.innerHTML = renderBracketMatch(m, leagueKey);
       matchesWrap.appendChild(cardWrap);
     });
 
@@ -1678,7 +1678,7 @@ function renderPlayoffs() {
   const wrap = document.createElement('div');
   wrap.className = 'standings-group';
   wrap.innerHTML = `<h3>${escapeHtml(bracket.name || (leagues[playoffsLeagueKey] && leagues[playoffsLeagueKey].name) || playoffsLeagueKey)}</h3>`;
-  wrap.appendChild(renderBracket(bracket));
+  wrap.appendChild(renderBracket(bracket, playoffsLeagueKey));
   playoffsView.appendChild(wrap);
 }
 
@@ -1804,21 +1804,55 @@ function loadTeams() {
   return supabaseGetAll('teams?select=name,sport,logo_url,flag_url,is_national&order=name.asc,sport.asc')
     .then(rows => {
       teamInfo = {};
+      teamLookupCache = {};
       for (const r of rows) teamInfo[`${r.sport}|${r.name}`] = r;
     })
     .catch(err => console.error('loadTeams:', err));
 }
 
+// The `teams` row for a name as shown in any view. Standings, attendance
+// and bracket names come from different scraped tables than the matches,
+// so after an exact match this falls back to: normalizeTeamName(); a
+// trailing status marker ("Sydney Roosters (P)", "Wigan Warriors (L)");
+// punctuation/spacing ("Hull FC" vs "Hull F.C."); and a short name that
+// starts exactly one team name in that league ("Penrith" -> "Penrith
+// Panthers", "Cronulla" -> "Cronulla-Sutherland Sharks"). Cached per
+// league+name; cleared whenever teams or matches reload.
+let teamLookupCache = {};
+function findTeam(leagueKey, name) {
+  const sport = (leagues[leagueKey] || {}).sport;
+  if (!name || !sport) return null;
+  const cacheKey = `${leagueKey}|${name}`;
+  if (cacheKey in teamLookupCache) return teamLookupCache[cacheKey];
+  const loose = str => str.replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
+  const n1 = normalizeTeamName(name);
+  const n2 = n1.replace(/\s*\([A-Z]{1,2}\)$/, '');
+  let t = teamInfo[`${sport}|${name}`] || teamInfo[`${sport}|${n1}`] || teamInfo[`${sport}|${n2}`] || null;
+  if (!t) {
+    const want = new Set([loose(n1), loose(n2)]);
+    t = Object.values(teamInfo).find(r => r.sport === sport && want.has(loose(r.name))) || null;
+  }
+  if (!t && n2.length >= 4) {
+    const names = new Set();
+    for (const m of allMatches) {
+      if (m.league === leagueKey) { names.add(m.home); names.add(m.away); }
+    }
+    const hits = [...names].filter(x => x && (x.startsWith(n2 + ' ') || x.startsWith(n2 + '-')));
+    if (hits.length === 1) t = teamInfo[`${sport}|${hits[0]}`] || null;
+  }
+  return (teamLookupCache[cacheKey] = t);
+}
+
 // National teams: flag. Clubs: logo, plus their country's flag in
 // international club competitions. Missing/broken images are just dropped.
-function teamBadges(m, name) {
-  const t = teamInfo[`${(leagues[m.league] || {}).sport}|${name}`];
+function teamBadges(leagueKey, name) {
+  const t = findTeam(leagueKey, name);
   if (!t) return '';
   const img = (url, cls) => url
     ? `<img class="${cls}" src="${escapeHtml(url)}" alt="" width="20" height="20" loading="lazy" onerror="this.remove()">`
     : '';
   if (t.is_national) return img(t.flag_url, 'team-flag');
-  const intlClub = INTL_CLUB_LEAGUE_PREFIXES.some(p => m.league.startsWith(p));
+  const intlClub = INTL_CLUB_LEAGUE_PREFIXES.some(p => leagueKey.startsWith(p));
   return img(t.logo_url, 'team-logo') + (intlClub ? img(t.flag_url, 'team-flag') : '');
 }
 
@@ -1826,6 +1860,7 @@ function loadFixtures(isRefresh) {
   const teamsReady = isRefresh ? Promise.resolve() : loadTeams();
   return Promise.all([fetchFixturesData(), teamsReady])
     .then(([data]) => {
+      teamLookupCache = {};
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
       standings = data.standings || {};

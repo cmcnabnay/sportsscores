@@ -713,7 +713,8 @@ int main(int argc, char** argv) {
         Wiki wiki(http);
 
         // --- Which teams exist ------------------------------------------------
-        json meta = sb.get("fixtures_meta?id=eq.1&select=leagues:data->leagues");
+        json meta = sb.get("fixtures_meta?id=eq.1&select=leagues:data->leagues,standings:data->standings,"
+                           "attendance:data->attendance_tables");
         if (meta.empty()) throw std::runtime_error("fixtures_meta is empty");
         std::map<std::string, std::string> league_sport;
         for (const auto& el : meta[0]["leagues"].items()) league_sport[el.key()] = el.value().value("sport", "");
@@ -736,6 +737,50 @@ int main(int argc, char** argv) {
                                              [&](const std::string& p) { return starts_with(league, p); });
                 if (!national_comp && !intl_club) t.domestic_leagues.insert(league);
             }
+        }
+
+        // Teams that only appear in standings/attendance tables (e.g. a
+        // league where only one club's matches are scraped). Names there can
+        // carry markers the matches don't ("Sydney Roosters (P)", "x - Leeds"),
+        // cleaned like matches.html's normalizeTeamName(); a name that's just
+        // a marked-up version of a match team is skipped.
+        {
+            static const std::regex lead_marker("^[a-zA-Z]\\s*(-|\xE2\x80\x93)\\s*");
+            static const std::regex footnote("\\s*\\[[a-zA-Z0-9]{1,3}\\]\\s*$");
+            static const std::regex status("\\s*\\((H|A|Q|X|T|h|a|q|x|t)\\)\\s*$");
+            static const std::regex any_marker("\\s*\\([A-Z]{1,2}\\)$");
+            auto add_table_team = [&](const std::string& league, const std::string& raw) {
+                std::string sport = league_sport.count(league) ? league_sport[league] : "";
+                std::string n1 = trim(std::regex_replace(std::regex_replace(std::regex_replace(
+                    raw, lead_marker, ""), footnote, ""), status, ""));
+                std::string n2 = trim(std::regex_replace(n1, any_marker, ""));
+                if (sport.empty() || n1.empty() || std::regex_search(n1, PLACEHOLDER_RE)) return;
+                if (teams.count(key_of(n1, sport)) || teams.count(key_of(n2, sport))) return;
+                Team& t = teams[key_of(n1, sport)];
+                t.name = n1;
+                t.sport = sport;
+                bool national_comp = std::any_of(NATIONAL_LEAGUE_PREFIXES.begin(), NATIONAL_LEAGUE_PREFIXES.end(),
+                                                 [&](const std::string& p) { return starts_with(league, p); });
+                bool intl_club = std::any_of(INTL_CLUB_LEAGUE_PREFIXES.begin(), INTL_CLUB_LEAGUE_PREFIXES.end(),
+                                             [&](const std::string& p) { return starts_with(league, p); });
+                t.in_national_comp = t.in_national_comp || national_comp;
+                if (!national_comp && !intl_club) t.domestic_leagues.insert(league);
+            };
+            const json& st = meta[0].value("standings", json::object());
+            for (const auto& lg : st.items()) {
+                if (!lg.value().is_object()) continue;
+                for (const auto& grp : lg.value().items()) {
+                    const json& g = grp.value();
+                    const json rows = g.is_array() ? g : g.value("rows", json::array());
+                    for (const auto& r : rows)
+                        if (r.contains("team") && r["team"].is_string()) add_table_team(lg.key(), r["team"].get<std::string>());
+                }
+            }
+            const json& at = meta[0].value("attendance", json::object());
+            for (const auto& lg : at.items())
+                if (lg.value().is_array())
+                    for (const auto& r : lg.value())
+                        if (r.contains("team") && r["team"].is_string()) add_table_team(lg.key(), r["team"].get<std::string>());
         }
 
         std::set<std::string> existing;
