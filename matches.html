@@ -288,6 +288,10 @@
   }
   .team-row.winner { font-weight: 700; }
   .team-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* Logos/flags from the Supabase `teams` table (filled by team_logos/). */
+  .team-logo, .team-flag { vertical-align: middle; margin-right: 6px; }
+  .team-logo { width: 20px; height: 20px; object-fit: contain; }
+  .team-flag { width: 21px; height: 14px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.12); }
   .team-score { font-weight: 700; color: var(--navy); padding-left: 10px; }
   .match-meta {
     font-size: 12px;
@@ -555,7 +559,12 @@ const SUPABASE_URL = 'https://nxlssdadlsppekmhtpak.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_c0JJEg4pBzEo6siU-UlIaA_f_eWdqnP';
 const SUPABASE_PAGE_SIZE = 1000; // Supabase's default max rows per request
 
+// International club competitions (season-independent league key
+// prefixes): clubs there show their country's flag beside their logo.
+const INTL_CLUB_LEAGUE_PREFIXES = ['euroleague-', 'eurocup-', 'bcl-', 'fiba-europe-cup-', 'champions-cup-', 'challenge-cup-'];
+
 let allMatches = [];
+let teamInfo = {}; // { 'sport|name': {logo_url, flag_url, is_national} } - Supabase `teams` table
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
 let attendanceTables = {}; // { leagueKey: [ {team, games, total, average}, ... ] } - official scraped tables (currently just NRL)
@@ -902,12 +911,12 @@ function render() {
 
     const homeRow = `
         <div class="team-row ${homeWin ? 'winner' : ''}">
-          <span class="team-name">${m.home}</span>
+          <span class="team-name">${teamBadges(m, m.home)}${escapeHtml(m.home)}</span>
           <span class="team-score">${homeScore}</span>
         </div>`;
     const awayRow = `
         <div class="team-row ${awayWin ? 'winner' : ''}">
-          <span class="team-name">${m.away}</span>
+          <span class="team-name">${teamBadges(m, m.away)}${escapeHtml(m.away)}</span>
           <span class="team-score">${awayScore}</span>
         </div>`;
     // AFLE/EFA display convention: away team's row on top, home team's row
@@ -1737,6 +1746,21 @@ function supabaseGet(path, extraHeaders) {
   });
 }
 
+// GET every row of a query, past PostgREST's max rows per request. The
+// first page also returns the total count ("0-999/5492"), so the remaining
+// pages are fetched in parallel.
+function supabaseGetAll(path) {
+  const page = (offset) => `${path}&limit=${SUPABASE_PAGE_SIZE}&offset=${offset}`;
+  return supabaseGet(page(0), { Prefer: 'count=exact' }).then(r => {
+    const total = Number((r.headers.get('content-range') || '').split('/')[1]) || 0;
+    const rest = [];
+    for (let off = SUPABASE_PAGE_SIZE; off < total; off += SUPABASE_PAGE_SIZE) {
+      rest.push(supabaseGet(page(off)).then(p => p.json()));
+    }
+    return Promise.all([r.json(), ...rest]).then(pages => pages.flat());
+  });
+}
+
 // One row per match (columns mirror the old fixtures.json match objects;
 // "group" is group_name in SQL). Optional fields are only set when present,
 // matching how fetch_fixtures.py writes them.
@@ -1762,29 +1786,45 @@ function fetchFixturesData() {
       return r.json();
     });
   }
-  const matchesPath = (offset) =>
-    'matches?select=league,home,away,score,date,time,utc,venue,attendance,ot,group_name,round,referee,status' +
-    `&order=date.asc.nullslast,time.asc.nullslast,match_id.asc&limit=${SUPABASE_PAGE_SIZE}&offset=${offset}`;
   const meta = supabaseGet('fixtures_meta?id=eq.1&select=data').then(r => r.json());
-  // First page also returns the total row count ("0-999/5492"), so the
-  // remaining pages can be fetched in parallel.
-  const matches = supabaseGet(matchesPath(0), { Prefer: 'count=exact' }).then(r => {
-    const total = Number((r.headers.get('content-range') || '').split('/')[1]) || 0;
-    const rest = [];
-    for (let off = SUPABASE_PAGE_SIZE; off < total; off += SUPABASE_PAGE_SIZE) {
-      rest.push(supabaseGet(matchesPath(off)).then(p => p.json()));
-    }
-    return Promise.all([r.json(), ...rest]).then(pages => pages.flat());
-  });
+  const matches = supabaseGetAll(
+    'matches?select=league,home,away,score,date,time,utc,venue,attendance,ot,group_name,round,referee,status' +
+    '&order=date.asc.nullslast,time.asc.nullslast,match_id.asc');
   return Promise.all([meta, matches]).then(([metaRows, rows]) => {
     if (!metaRows.length) throw new Error('No fixtures in the database yet');
     return { ...metaRows[0].data, matches: rows.map(rowToMatch) };
   });
 }
 
+// Logos/flags change rarely, so they're loaded once per page view, not on
+// every 5-minute refresh. Optional: if this fails the page just shows names.
+function loadTeams() {
+  if (!SUPABASE_URL) return Promise.resolve();
+  return supabaseGetAll('teams?select=name,sport,logo_url,flag_url,is_national&order=name.asc,sport.asc')
+    .then(rows => {
+      teamInfo = {};
+      for (const r of rows) teamInfo[`${r.sport}|${r.name}`] = r;
+    })
+    .catch(err => console.error('loadTeams:', err));
+}
+
+// National teams: flag. Clubs: logo, plus their country's flag in
+// international club competitions. Missing/broken images are just dropped.
+function teamBadges(m, name) {
+  const t = teamInfo[`${(leagues[m.league] || {}).sport}|${name}`];
+  if (!t) return '';
+  const img = (url, cls) => url
+    ? `<img class="${cls}" src="${escapeHtml(url)}" alt="" width="20" height="20" loading="lazy" onerror="this.remove()">`
+    : '';
+  if (t.is_national) return img(t.flag_url, 'team-flag');
+  const intlClub = INTL_CLUB_LEAGUE_PREFIXES.some(p => m.league.startsWith(p));
+  return img(t.logo_url, 'team-logo') + (intlClub ? img(t.flag_url, 'team-flag') : '');
+}
+
 function loadFixtures(isRefresh) {
-  return fetchFixturesData()
-    .then(data => {
+  const teamsReady = isRefresh ? Promise.resolve() : loadTeams();
+  return Promise.all([fetchFixturesData(), teamsReady])
+    .then(([data]) => {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
       standings = data.standings || {};

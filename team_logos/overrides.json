@@ -1,0 +1,108 @@
+{
+  "_comment": [
+    "Manual fixes for team_logos. File names are Wikipedia/Commons file names without the 'File:' prefix.",
+    "sport_country_flags: replaces a country's flag for one sport, for national teams and clubs alike.",
+    "  key is '<sport>|<country>', where <country> is the Template:Country data name (as printed by team_logos).",
+    "teams: per-team fixes, key is '<name>|<sport>' exactly as in matches.home/away and leagues[].sport.",
+    "  Any of: wiki_title (article to use instead of searching), logo_file, flag_file, country, national (true/false),",
+    "  or logo_url / flag_url: a direct image URL from anywhere, for a team with no image on Wikipedia.",
+    "  Run ./team_logos --team '<name>' after editing to refresh just that team."
+  ],
+  "sport_country_flags": {
+    "rugby|Ireland": "IRFU flag.svg",
+    "rugby|Northern Ireland": "IRFU flag.svg"
+  },
+  "teams": {
+    "Dolphins|rugby-league": {
+      "wiki_title": "Dolphins (NRL)"
+    },
+    "River Plate|football": {
+      "wiki_title": "Club Atlético River Plate"
+    },
+    "Wellington|rugby": {
+      "wiki_title": "Wellington (National Provincial Championship)"
+    },
+    "Promitheas Patras BC Vikos Cola|basketball": {
+      "wiki_title": "Promitheas Patras B.C."
+    },
+    "N.R. Ludwigsburg|basketball": {
+      "wiki_title": "Riesen Ludwigsburg"
+    },
+    "NHSZ-Szolnoki Olajbányász|basketball": {
+      "wiki_title": "Szolnoki Olajbányász"
+    },
+    "Bnei Penlink Herzliya|basketball": {
+      "wiki_title": "Bnei Herzliya Basket"
+    },
+    "Chorale de Roanne|basketball": {
+      "wiki_title": "Chorale Roanne Basket"
+    },
+    "Lions de Genève pwd by Grand-Saconnex|basketball": {
+      "wiki_title": "Lions de Genève"
+    },
+    "Aris Bsa|basketball": {
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/el/thumb/0/0e/Aris_Betsson_BC_logo.png/120px-Aris_Betsson_BC_logo.png"
+    },
+    "BC Batumi 2010|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_2751.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_2751--competition_209129",
+      "country": "Georgia"
+    },
+    "BC Pärnu|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_58616.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_58616--competition_209129"
+    },
+    "Esenler Erokspor|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_84842.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_84842--competition_209129"
+    },
+    "Gence BC|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_68796.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_68796--competition_209129",
+      "country": "Azerbaijan"
+    },
+    "Gence BK Ganja|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_68796.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_68796--competition_209129",
+      "country": "Azerbaijan"
+    },
+    "Glint Korfez Basket|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_59793.webp/w_80/f_auto/q_auto/.logoflag--dark--organisation_59793--competition_209129",
+      "country": "Turkey"
+    },
+    "Gravelines|basketball": {
+      "logo_url": "https://thumb.wikimedia.org/wikipedia/fr/thumb/0/00/Logo_BCM_Gravelines-Dunkerque_2025.svg/120px-Logo_BCM_Gravelines-Dunkerque_2025.svg.png"
+    },
+    "ICG Forca Lleida|basketball": {
+      "logo_url": "logos/ilerna-lleida.png"
+    },
+    "KK Samobor|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_67561.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_67561--competition_209129",
+      "country": "Croatia"
+    },
+    "Neftchi BC|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_81526.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_81526--competition_209129",
+      "country": "Azerbaijan"
+    },
+    "Nitra Blue Wings|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_89491.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_89491--competition_209129",
+      "country": "Slovakia"
+    },
+    "SCM Universitatea Craiova|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_8787.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_8787--competition_209129"
+    },
+    "SK Slavia Praha|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_3892.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_3892--competition_209123"
+    },
+    "Sporting CP|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_59515.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_59515--competition_209129"
+    },
+    "Trabzonspor|basketball": {
+      "logo_url": "https://assets.fiba.basketball/image/upload/d_.logoflag--light--organisation_9249.webp/w_80/f_auto/q_auto/.logoflag--light--organisation_9249--competition_209123"
+    },
+    "Platense|football": {
+      "wiki_title": "Club Atlético Platense"
+    },
+    "Bayonne|rugby": {
+      "wiki_title": "Aviron Bayonnais"
+    },
+    "Mid Canterbury|rugby": {
+      "wiki_title": "Mid Canterbury Rugby Football Union"
+    }
+  }
+}
