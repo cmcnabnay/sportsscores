@@ -2,8 +2,5 @@ fixtures.json
 fetch_fixtures.py
 fetch_and_push.sh
 diagnose.py
-query
-*.txt
-supabase/
 .claude/
 __pycache__/
