@@ -1,5 +1,9 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/matches.html" }
-  ]
+    {
+      "source": "/",
+      "destination": "/matches.html"
+    }
+  ],
+  "ignoreCommand": "if git cat-file -e \"$VERCEL_GIT_PREVIOUS_SHA^{commit}\" 2>/dev/null; then git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" HEAD -- . ':!fixtures.json'; else git diff --quiet \"$(git rev-list --max-parents=0 HEAD | tail -1)\" HEAD -- . ':!fixtures.json'; fi"
 }

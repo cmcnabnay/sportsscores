@@ -4969,7 +4969,6 @@ SUPABASE_URL = re.sub(r"/rest/v1$", "", _ENV.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SECRET_KEY = _ENV.get("SUPABASE_SECRET_KEY", "")
 SUPABASE_PAGE_SIZE = 1000   # Supabase's default PostgREST max rows per request
 SUPABASE_WRITE_BATCH = 500
-HEARTBEAT_FILE = Path(__file__).parent / "last_run.txt"
 
 # The optional per-match fields, as (JSON key, column name). Anything else
 # in a match dict outside these and MATCH_CORE_FIELDS isn't stored - see
@@ -5171,12 +5170,7 @@ def save(data):
     if not supabase_enabled():
         print("!! SUPABASE_URL / SUPABASE_SECRET_KEY not set - only wrote local fixtures.json", file=sys.stderr)
         return
-    if _save_to_supabase(data):  # raises (non-zero exit -> systemd journal) on failure
-        # Heartbeat for fetch_and_push.sh to commit - only when data changed,
-        # same cadence as the old fixtures.json commits.
-        HEARTBEAT_FILE.write_text(
-            f"{data['updated']} {len(data['matches'])} matches\n", encoding="utf-8")
-    else:
+    if not _save_to_supabase(data):  # raises (non-zero exit -> systemd journal) on failure
         print("Supabase: no changes")
 
 

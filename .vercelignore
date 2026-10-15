@@ -1,0 +1,13 @@
+# The site is just matches.html + vercel.json; fixtures come from Supabase.
+# fixtures.json is still committed (the systemd job's heartbeat), but must
+# never be deployed - a new 1.8 MB copy per deployment is what filled up
+# Vercel's deployment storage.
+fixtures.json
+fetch_fixtures.py
+fetch_and_push.sh
+diagnose.py
+query
+*.txt
+supabase/
+.claude/
+__pycache__/
