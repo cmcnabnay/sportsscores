@@ -291,7 +291,8 @@
   /* Logos/flags from the Supabase `teams` table (filled by team_logos/). */
   .team-logo, .team-flag { vertical-align: middle; margin-right: 6px; }
   .team-logo { width: 20px; height: 20px; object-fit: contain; }
-  .team-flag { width: 21px; height: 14px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.12); }
+  /* Fixed height, natural width: every flag keeps its own shape (US 19:10, IRFU ~2:1, Switzerland 1:1) uncropped. */
+  .team-flag { height: 15px; width: auto; max-width: 32px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.12); }
   .team-score { font-weight: 700; color: var(--navy); padding-left: 10px; }
   .match-meta {
     font-size: 12px;
