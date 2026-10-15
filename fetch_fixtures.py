@@ -72,6 +72,7 @@ Requires: beautifulsoup4
 """
 
 import argparse
+import hashlib
 import json
 import re
 import ssl
@@ -4935,20 +4936,248 @@ def sync_playoff_scores_into_matches(matches, key, bracket):
                 stored["score"] = f"{score2}-{score1}"
 
 
-def load_existing():
+# ---------------------------------------------------------------------------
+# Supabase storage. matches.html reads from Supabase rather than a deployed
+# fixtures.json (every push used to store a new ~1.8 MB copy of it in Vercel
+# deployment storage). Two tables - see supabase/schema.sql:
+#   matches        one row per match, keyed by match_id()
+#   fixtures_meta  single row (id=1): every other top-level key as one jsonb
+# Talks to PostgREST directly with urllib, like the rest of this script.
+# fixtures.json is still written locally as a backup/cache, and is the
+# fallback if Supabase can't be reached or hasn't been seeded yet.
+# ---------------------------------------------------------------------------
+
+def _load_env_file(path):
+    """Minimal KEY=VALUE parser for .env.local (no python-dotenv dependency)."""
+    env = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            env[k.strip()] = v.strip().strip('"').strip("'")
+    return env
+
+# Deliberately read only from this repo's .env.local, never the plain
+# SUPABASE_* shell variables - those (in ~/.bashrc) belong to a different
+# Supabase project.
+_ENV = _load_env_file(Path(__file__).parent / ".env.local")
+# Accept either the project URL or the REST URL Supabase also shows
+# (https://<ref>.supabase.co/rest/v1) - requests add /rest/v1 themselves.
+SUPABASE_URL = re.sub(r"/rest/v1$", "", _ENV.get("SUPABASE_URL", "").rstrip("/"))
+SUPABASE_SECRET_KEY = _ENV.get("SUPABASE_SECRET_KEY", "")
+SUPABASE_PAGE_SIZE = 1000   # Supabase's default PostgREST max rows per request
+SUPABASE_WRITE_BATCH = 500
+HEARTBEAT_FILE = Path(__file__).parent / "last_run.txt"
+
+# The optional per-match fields, as (JSON key, column name). Anything else
+# in a match dict outside these and MATCH_CORE_FIELDS isn't stored - see
+# _match_to_row()'s warning.
+MATCH_CORE_FIELDS = ("league", "home", "away", "score", "date", "time", "utc", "venue", "attendance")
+MATCH_EXTRA_FIELDS = (("ot", "ot"), ("group", "group_name"), ("round", "round"),
+                      ("referee", "referee"), ("status", "status"))
+
+# Snapshot of what Supabase held when load_existing() ran, so save() only
+# writes rows that actually changed. None = not loaded from Supabase.
+_db_snapshot = None
+
+
+class SupabaseError(RuntimeError):
+    pass
+
+
+def supabase_enabled():
+    return bool(SUPABASE_URL and SUPABASE_SECRET_KEY)
+
+
+def _supabase_request(method, path, body=None, extra_headers=None):
+    headers = {
+        "apikey": SUPABASE_SECRET_KEY,
+        "Authorization": f"Bearer {SUPABASE_SECRET_KEY}",
+        "Content-Type": "application/json",
+    }
+    headers.update(extra_headers or {})
+    payload = json.dumps(body, ensure_ascii=False).encode("utf-8") if body is not None else None
+    req = Request(f"{SUPABASE_URL}/rest/v1/{path}", data=payload, headers=headers, method=method)
+    try:
+        with urlopen(req, timeout=60, context=_SSL_CONTEXT) as resp:
+            raw = resp.read()
+    except HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")[:500]
+        raise SupabaseError(f"{method} {path.split('?')[0]} -> HTTP {e.code}: {detail}") from e
+    except (URLError, TimeoutError, OSError) as e:
+        raise SupabaseError(f"{method} {path.split('?')[0]} -> {e}") from e
+    return json.loads(raw) if raw else None
+
+
+def match_id(m):
+    """Stable row key: league + _match_identity() (sorted team pair, date).
+    Hashed so it's URL-safe in PostgREST filters whatever the team names."""
+    pair, date = _match_identity(m)
+    raw = "|".join([m.get("league") or "", pair[0], pair[1], date or ""])
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def _match_to_row(m):
+    unknown = set(m) - set(MATCH_CORE_FIELDS) - {k for k, _ in MATCH_EXTRA_FIELDS}
+    if unknown:
+        print(f"!! Supabase: match field(s) {sorted(unknown)} have no column and won't be stored "
+              f"({m.get('league')}: {m.get('home')} v {m.get('away')})", file=sys.stderr)
+    att = m.get("attendance")
+    if att is not None:
+        digits = re.sub(r"[,\s]", "", str(att))
+        if digits.isdigit():
+            att = int(digits)
+        else:
+            print(f"!! Supabase: non-numeric attendance {att!r} stored as null "
+                  f"({m.get('league')}: {m.get('home')} v {m.get('away')})", file=sys.stderr)
+            att = None
+    row = {"match_id": match_id(m)}
+    for k in MATCH_CORE_FIELDS:
+        row[k] = m.get(k)
+    row["attendance"] = att
+    for key, col in MATCH_EXTRA_FIELDS:
+        row[col] = bool(m.get(key)) if key == "ot" else m.get(key)
+    return row
+
+
+def _row_to_match(r):
+    """Inverse of _match_to_row(), giving back exactly the dict shape the
+    rest of this script (and the old fixtures.json) uses."""
+    m = {k: r.get(k) for k in MATCH_CORE_FIELDS}
+    if m["attendance"] is not None:
+        m["attendance"] = str(m["attendance"])
+    if m["utc"]:
+        m["utc"] = datetime.fromisoformat(m["utc"]).astimezone(timezone.utc).isoformat()
+    for key, col in MATCH_EXTRA_FIELDS:
+        if r.get(col):
+            m[key] = r[col]
+    return m
+
+
+def _supabase_fetch_rows():
+    rows, offset = [], 0
+    while True:
+        page = _supabase_request(
+            "GET",
+            f"matches?select=*&order=date.asc.nullslast,time.asc.nullslast,match_id.asc"
+            f"&limit={SUPABASE_PAGE_SIZE}&offset={offset}")
+        rows.extend(page)
+        if len(page) < SUPABASE_PAGE_SIZE:
+            return rows
+        offset += SUPABASE_PAGE_SIZE
+
+
+def _comparable_row(r):
+    """A row as fetched back from Supabase, normalized to compare equal to
+    the same match freshly built by _match_to_row()."""
+    return _match_to_row(_row_to_match(r))
+
+
+def _load_local():
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        data.setdefault("standings", {})
-        data.setdefault("playoffs", {})
-        return data
-    return {"updated": None, "leagues": {}, "matches": [], "standings": {}, "playoffs": {}}
+            return json.load(f)
+    return None
+
+
+def load_existing():
+    global _db_snapshot
+    data = None
+    if supabase_enabled():
+        try:
+            meta = _supabase_request("GET", "fixtures_meta?id=eq.1&select=data")
+            if meta:
+                rows = _supabase_fetch_rows()
+                data = dict(meta[0]["data"])
+                data["matches"] = [_row_to_match(r) for r in rows]
+                _db_snapshot = {
+                    "meta": meta[0]["data"],
+                    "rows": {r["match_id"]: _comparable_row(r) for r in rows},
+                }
+                print(f"Loaded {len(rows)} matches from Supabase")
+            else:
+                # Empty table: seed from the local file rather than starting
+                # from nothing (which would drop every match no longer listed
+                # on its source page). save() then writes all of it.
+                print("Supabase has no fixtures yet - seeding from local fixtures.json")
+                _db_snapshot = {"meta": None, "rows": {}}
+        except SupabaseError as e:
+            print(f"!! Supabase load failed, falling back to local fixtures.json: {e}", file=sys.stderr)
+    if data is None:
+        data = _load_local()
+    if data is None:
+        return {"updated": None, "leagues": {}, "matches": [], "standings": {}, "playoffs": {}}
+    data.setdefault("standings", {})
+    data.setdefault("playoffs", {})
+    return data
+
+
+def _save_to_supabase(data):
+    """Write only what changed since load_existing(). Returns True if
+    anything was written. Raises SupabaseError on failure."""
+    snapshot = _db_snapshot
+    if snapshot is None:
+        # load_existing() didn't read Supabase (it was unreachable then), so
+        # re-read now to diff against the real current contents.
+        meta = _supabase_request("GET", "fixtures_meta?id=eq.1&select=data")
+        snapshot = {
+            "meta": meta[0]["data"] if meta else None,
+            "rows": {r["match_id"]: _comparable_row(r) for r in _supabase_fetch_rows()},
+        }
+
+    new_rows = {}
+    for m in data["matches"]:
+        row = _match_to_row(m)
+        if row["match_id"] in new_rows:
+            print(f"!! Supabase: duplicate match_id {row['match_id']} "
+                  f"({m.get('league')}: {m.get('home')} v {m.get('away')} {m.get('date')}) - keeping first",
+                  file=sys.stderr)
+            continue
+        new_rows[row["match_id"]] = row
+
+    changed = [r for k, r in new_rows.items() if snapshot["rows"].get(k) != r]
+    removed = [k for k in snapshot["rows"] if k not in new_rows]
+
+    meta = {k: v for k, v in data.items() if k != "matches"}
+    strip = lambda d: {k: v for k, v in (d or {}).items() if k != "updated"}
+    meta_changed = snapshot["meta"] is None or strip(snapshot["meta"]) != strip(meta)
+
+    if not (changed or removed or meta_changed):
+        return False
+
+    upsert = {"Prefer": "resolution=merge-duplicates,return=minimal"}
+    for i in range(0, len(changed), SUPABASE_WRITE_BATCH):
+        _supabase_request("POST", "matches?on_conflict=match_id",
+                          changed[i:i + SUPABASE_WRITE_BATCH], upsert)
+    for i in range(0, len(removed), 100):
+        ids = ",".join(removed[i:i + 100])
+        _supabase_request("DELETE", f"matches?match_id=in.({ids})",
+                          extra_headers={"Prefer": "return=minimal"})
+    # Meta last, so its `updated` only moves once the match rows are in.
+    _supabase_request("POST", "fixtures_meta?on_conflict=id",
+                      {"id": 1, "data": meta}, upsert)
+    print(f"Supabase: upserted {len(changed)} match(es), deleted {len(removed)}, "
+          f"meta {'updated' if meta_changed else 'unchanged'}")
+    return True
 
 
 def save(data):
     data["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    # Local copy first: a backup/cache even if the Supabase write fails.
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    if not supabase_enabled():
+        print("!! SUPABASE_URL / SUPABASE_SECRET_KEY not set - only wrote local fixtures.json", file=sys.stderr)
+        return
+    if _save_to_supabase(data):  # raises (non-zero exit -> systemd journal) on failure
+        # Heartbeat for fetch_and_push.sh to commit - only when data changed,
+        # same cadence as the old fixtures.json commits.
+        HEARTBEAT_FILE.write_text(
+            f"{data['updated']} {len(data['matches'])} matches\n", encoding="utf-8")
+    else:
+        print("Supabase: no changes")
 
 
 # ---------------------------------------------------------------------------

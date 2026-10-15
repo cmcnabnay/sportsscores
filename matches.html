@@ -547,6 +547,14 @@
 </div>
 
 <script>
+// Supabase project the page reads fixtures from (written by fetch_fixtures.py
+// - see supabase/schema.sql). The publishable key is safe to ship: row level
+// security only allows reads. Never put the secret key here.
+// Left blank, the page falls back to a local fixtures.json (local dev only).
+const SUPABASE_URL = 'https://nxlssdadlsppekmhtpak.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_c0JJEg4pBzEo6siU-UlIaA_f_eWdqnP';
+const SUPABASE_PAGE_SIZE = 1000; // Supabase's default max rows per request
+
 let allMatches = [];
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
@@ -1720,12 +1728,62 @@ function pickInitialDate() {
   return anyDates.length ? anyDates[anyDates.length - 1] : today;
 }
 
-function loadFixtures(isRefresh) {
-  return fetch('fixtures.json?t=' + Date.now())
-    .then(r => {
-      if (!r.ok) throw new Error('fixtures.json not found - run fetch_fixtures.py first');
+function supabaseGet(path, extraHeaders) {
+  return fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+    headers: { apikey: SUPABASE_PUBLISHABLE_KEY, ...extraHeaders },
+  }).then(r => {
+    if (!r.ok) throw new Error(`Supabase ${path.split('?')[0]}: HTTP ${r.status}`);
+    return r;
+  });
+}
+
+// One row per match (columns mirror the old fixtures.json match objects;
+// "group" is group_name in SQL). Optional fields are only set when present,
+// matching how fetch_fixtures.py writes them.
+function rowToMatch(r) {
+  const m = {
+    league: r.league, home: r.home, away: r.away, score: r.score,
+    date: r.date, time: r.time, utc: r.utc, venue: r.venue,
+    attendance: r.attendance === null ? null : String(r.attendance),
+  };
+  if (r.ot) m.ot = true;
+  if (r.group_name) m.group = r.group_name;
+  if (r.round) m.round = r.round;
+  if (r.referee) m.referee = r.referee;
+  if (r.status) m.status = r.status;
+  return m;
+}
+
+// Same document shape fixtures.json had: { matches, leagues, standings, ... }
+function fetchFixturesData() {
+  if (!SUPABASE_URL) {
+    return fetch('fixtures.json').then(r => {
+      if (!r.ok) throw new Error('fixtures.json not found');
       return r.json();
-    })
+    });
+  }
+  const matchesPath = (offset) =>
+    'matches?select=league,home,away,score,date,time,utc,venue,attendance,ot,group_name,round,referee,status' +
+    `&order=date.asc.nullslast,time.asc.nullslast,match_id.asc&limit=${SUPABASE_PAGE_SIZE}&offset=${offset}`;
+  const meta = supabaseGet('fixtures_meta?id=eq.1&select=data').then(r => r.json());
+  // First page also returns the total row count ("0-999/5492"), so the
+  // remaining pages can be fetched in parallel.
+  const matches = supabaseGet(matchesPath(0), { Prefer: 'count=exact' }).then(r => {
+    const total = Number((r.headers.get('content-range') || '').split('/')[1]) || 0;
+    const rest = [];
+    for (let off = SUPABASE_PAGE_SIZE; off < total; off += SUPABASE_PAGE_SIZE) {
+      rest.push(supabaseGet(matchesPath(off)).then(p => p.json()));
+    }
+    return Promise.all([r.json(), ...rest]).then(pages => pages.flat());
+  });
+  return Promise.all([meta, matches]).then(([metaRows, rows]) => {
+    if (!metaRows.length) throw new Error('No fixtures in the database yet');
+    return { ...metaRows[0].data, matches: rows.map(rowToMatch) };
+  });
+}
+
+function loadFixtures(isRefresh) {
+  return fetchFixturesData()
     .then(data => {
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
@@ -1742,12 +1800,13 @@ function loadFixtures(isRefresh) {
       render();
     })
     .catch(err => {
-      updateNote.textContent = 'Could not load fixtures.json';
+      console.error('loadFixtures:', err);
+      updateNote.textContent = 'Could not load fixtures';
       updateNote.style.display = '';
-      matchList.innerHTML = `<div class="empty-state">${err.message}<br><br>
-        Serve this folder with <code>python3 -m http.server</code> and open it via
-        <code>http://localhost:8000/matches.html</code> (opening the file directly
-        won't work due to browser CORS rules).</div>`;
+      // On a background refresh, keep showing the last good data.
+      if (!isRefresh) {
+        matchList.innerHTML = '<div class="empty-state">Could not load fixtures. Please try again in a few minutes.</div>';
+      }
     });
 }
 
@@ -1757,7 +1816,7 @@ loadFixtures(false);
 // updates on screen without the user touching anything.
 setInterval(render, 30 * 1000);
 
-// Re-fetch fixtures.json every 5 min to pick up new scores/kickoffs written
+// Re-fetch fixtures every 5 min to pick up new scores/kickoffs written
 // by the fetch_fixtures.py pipeline, without a full page reload.
 setInterval(() => loadFixtures(true), 5 * 60 * 1000);
 </script>
