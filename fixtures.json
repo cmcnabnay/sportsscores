@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-17T01:59:42+00:00",
+  "updated": "2026-10-17T02:10:42+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -793,12 +793,12 @@
           },
           {
             "team": "Toronto Argonauts",
-            "played": 16,
+            "played": 17,
             "win": 9,
             "draw": null,
-            "loss": 7,
-            "for": 462,
-            "against": 455,
+            "loss": 8,
+            "for": 501,
+            "against": 495,
             "diff": null,
             "points": 18,
             "highlight": null
@@ -817,14 +817,14 @@
           },
           {
             "team": "e – Ottawa Redblacks",
-            "played": 16,
-            "win": 0,
+            "played": 17,
+            "win": 1,
             "draw": null,
             "loss": 16,
-            "for": 375,
-            "against": 599,
+            "for": 415,
+            "against": 638,
             "diff": null,
-            "points": 0,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -34468,7 +34468,7 @@
       "league": "cfl-2026",
       "home": "Ottawa Redblacks",
       "away": "Toronto Argonauts",
-      "score": null,
+      "score": "40-39",
       "date": "2026-10-16",
       "time": "19:00",
       "utc": "2026-10-16T23:00:00+00:00",
