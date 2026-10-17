@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-17T16:56:47+00:00",
+  "updated": "2026-10-17T17:07:08+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -3847,6 +3847,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "Tampereen Ilves",
+            "played": 14,
+            "win": 10,
+            "draw": null,
+            "loss": 4,
+            "for": 41,
+            "against": 30,
+            "diff": 11,
+            "points": 28,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Porin Ässät",
             "played": 15,
             "win": 9,
@@ -3871,18 +3883,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Tampereen Ilves",
-            "played": 13,
-            "win": 9,
-            "draw": null,
-            "loss": 4,
-            "for": 37,
-            "against": 27,
-            "diff": 10,
-            "points": 26,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "SaiPa Lappeenranta",
             "played": 13,
             "win": 9,
@@ -3893,6 +3893,18 @@
             "diff": 17,
             "points": 26,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Oulun Kärpät",
+            "played": 15,
+            "win": 9,
+            "draw": null,
+            "loss": 6,
+            "for": 44,
+            "against": 41,
+            "diff": 3,
+            "points": 26,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "TPS Turku",
@@ -3927,18 +3939,6 @@
             "for": 36,
             "against": 29,
             "diff": 7,
-            "points": 24,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Oulun Kärpät",
-            "played": 14,
-            "win": 8,
-            "draw": null,
-            "loss": 6,
-            "for": 40,
-            "against": 38,
-            "diff": 2,
             "points": 24,
             "highlight": "#BBF3FF"
           },
@@ -4028,26 +4028,26 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 14,
+            "played": 15,
             "win": 3,
             "draw": null,
-            "loss": 11,
-            "for": 27,
-            "against": 46,
-            "diff": -19,
-            "points": 10,
+            "loss": 12,
+            "for": 30,
+            "against": 50,
+            "diff": -20,
+            "points": 11,
             "highlight": "#FFBBBB"
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 13,
+            "played": 14,
             "win": 1,
             "draw": null,
-            "loss": 12,
-            "for": 28,
-            "against": 56,
-            "diff": -28,
-            "points": 4,
+            "loss": 13,
+            "for": 31,
+            "against": 60,
+            "diff": -29,
+            "points": 5,
             "highlight": "#FFBBBB"
           }
         ],
@@ -34735,7 +34735,7 @@
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "KooKoo Kouvola",
-      "score": "3-3",
+      "score": "4-3",
       "date": "2026-10-17",
       "time": "14:00",
       "utc": "2026-10-17T14:00:00+00:00",
@@ -34780,7 +34780,7 @@
       "league": "challenge-cup-2026",
       "home": "Zebre",
       "away": "Ulster",
-      "score": null,
+      "score": "21-40",
       "date": "2026-10-17",
       "time": "14:15",
       "utc": "2026-10-17T14:15:00+00:00",
