@@ -1139,6 +1139,15 @@ def fetch_scores365_games(competition_id, season_num=None, min_date=None, max_da
     url = (f"{SCORES365_GAMES_URL}fixtures/?{SCORES365_COMMON_PARAMS}"
            f"&competitions={competition_id}")
     data = fetch_scores365_json(url)
+    if not data.get("games"):
+        # No upcoming games left (e.g. internationals-2026 after the last
+        # scheduled test kicked off) - "fixtures" then returns nothing at
+        # all, not even a paging block, so the just-finished games were
+        # never re-fetched and their scores stayed empty (Australia vs New
+        # Zealand, 2026-10-17). Start from the "results" window instead.
+        url = (f"{SCORES365_GAMES_URL}results/?{SCORES365_COMMON_PARAMS}"
+               f"&competitions={competition_id}")
+        data = fetch_scores365_json(url)
     merge(data)
 
     next_page = data.get("paging", {}).get("nextPage")
