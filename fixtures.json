@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-19T04:37:49+00:00",
+  "updated": "2026-10-19T04:48:09+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -495,24 +495,24 @@
           "label": "Semi-finals",
           "matches": [
             {
-              "seed1": null,
-              "team1": "Pool A runners-up",
-              "score1": null,
-              "seed2": null,
-              "team2": "Pool B & C winner",
-              "score2": null,
               "date": "2026-11-07",
-              "venue": "Newcastle International Sports Centre, Newcastle"
+              "seed1": null,
+              "seed2": null,
+              "team1": "Pool A runners-up",
+              "team2": "Pool B & C winner",
+              "venue": "Newcastle International Sports Centre, Newcastle",
+              "score1": null,
+              "score2": null
             },
             {
-              "seed1": null,
-              "team1": "Pool A winner",
-              "score1": null,
-              "seed2": null,
-              "team2": "Pool B & C runners-up",
-              "score2": null,
               "date": "2026-11-08",
-              "venue": "Sydney Football Stadium, Sydney"
+              "seed1": null,
+              "seed2": null,
+              "team1": "Pool A winner",
+              "team2": "Pool B & C runners-up",
+              "venue": "Sydney Football Stadium, Sydney",
+              "score1": null,
+              "score2": null
             }
           ]
         },
@@ -520,14 +520,14 @@
           "label": "Final",
           "matches": [
             {
-              "seed1": null,
-              "team1": "First semi-final winner",
-              "score1": null,
-              "seed2": null,
-              "team2": "Second semi-final winner",
-              "score2": null,
               "date": "2026-11-15",
-              "venue": "Lang Park, Brisbane"
+              "seed1": null,
+              "seed2": null,
+              "team1": "First semi-final winner",
+              "team2": "Second semi-final winner",
+              "venue": "Lang Park, Brisbane",
+              "score1": null,
+              "score2": null
             }
           ]
         }
@@ -1995,51 +1995,51 @@
       "Group A": {
         "rows": [
           {
+            "for": 40,
+            "win": 1,
+            "diff": 28,
+            "draw": null,
+            "loss": 0,
             "team": "Fiji",
             "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 40,
-            "against": 12,
-            "diff": 28,
             "points": 2,
+            "against": 12,
             "highlight": "#BBF3BB"
           },
           {
+            "for": 24,
+            "win": 1,
+            "diff": 2,
+            "draw": null,
+            "loss": 0,
             "team": "Australia",
             "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 24,
-            "against": 22,
-            "diff": 2,
             "points": 2,
+            "against": 22,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "New Zealand",
-            "played": 1,
+            "for": 22,
             "win": 0,
+            "diff": -2,
             "draw": null,
             "loss": 1,
-            "for": 22,
-            "against": 24,
-            "diff": -2,
+            "team": "New Zealand",
+            "played": 1,
             "points": 0,
+            "against": 24,
             "highlight": null
           },
           {
-            "team": "Cook Islands",
-            "played": 1,
+            "for": 12,
             "win": 0,
+            "diff": -28,
             "draw": null,
             "loss": 1,
-            "for": 12,
-            "against": 40,
-            "diff": -28,
+            "team": "Cook Islands",
+            "played": 1,
             "points": 0,
+            "against": 40,
             "highlight": null
           }
         ],
@@ -2050,75 +2050,75 @@
       "Group B and C": {
         "rows": [
           {
+            "for": 78,
+            "win": 1,
+            "diff": 74,
+            "draw": null,
+            "loss": 0,
             "team": "Samoa",
             "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 78,
-            "against": 4,
-            "diff": 74,
             "points": 2,
+            "against": 4,
             "highlight": "#BBF3BB"
           },
           {
+            "for": 42,
+            "win": 1,
+            "diff": 24,
+            "draw": null,
+            "loss": 0,
             "team": "Papua New Guinea",
             "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 42,
-            "against": 18,
-            "diff": 24,
             "points": 2,
+            "against": 18,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Tonga",
-            "played": 1,
+            "for": 30,
             "win": 1,
+            "diff": 18,
             "draw": null,
             "loss": 0,
-            "for": 30,
-            "against": 12,
-            "diff": 18,
+            "team": "Tonga",
+            "played": 1,
             "points": 2,
+            "against": 12,
             "highlight": null
           },
           {
+            "for": 12,
+            "win": 0,
+            "diff": -18,
+            "draw": null,
+            "loss": 1,
             "team": "England",
             "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 12,
-            "against": 30,
-            "diff": -18,
             "points": 0,
+            "against": 30,
             "highlight": null
           },
           {
+            "for": 18,
+            "win": 0,
+            "diff": -24,
+            "draw": null,
+            "loss": 1,
             "team": "Lebanon",
             "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 18,
-            "against": 42,
-            "diff": -24,
             "points": 0,
+            "against": 42,
             "highlight": null
           },
           {
-            "team": "France",
-            "played": 1,
+            "for": 4,
             "win": 0,
+            "diff": -74,
             "draw": null,
             "loss": 1,
-            "for": 4,
-            "against": 78,
-            "diff": -74,
+            "team": "France",
+            "played": 1,
             "points": 0,
+            "against": 78,
             "highlight": null
           }
         ],
@@ -34523,7 +34523,7 @@
       "league": "internationals-2026",
       "home": "Australia",
       "away": "New Zealand",
-      "score": null,
+      "score": "21-43",
       "date": "2026-10-17",
       "time": "05:00",
       "utc": "2026-10-17T05:00:00+00:00",
