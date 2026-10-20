@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-20T02:02:11+00:00",
+  "updated": "2026-10-20T02:12:50+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -10693,28 +10693,28 @@
           },
           {
             "team": "Unión",
-            "played": 12,
+            "played": 13,
             "win": 4,
-            "draw": 1,
+            "draw": 2,
             "loss": 7,
-            "for": 17,
-            "against": 21,
+            "for": 18,
+            "against": 22,
             "diff": -4,
-            "points": 13,
+            "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
           },
           {
             "team": "Deportivo Riestra",
-            "played": 12,
+            "played": 13,
             "win": 2,
-            "draw": 5,
+            "draw": 6,
             "loss": 5,
-            "for": 9,
-            "against": 12,
+            "for": 10,
+            "against": 13,
             "diff": -3,
-            "points": 11,
+            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -11088,7 +11088,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-20T02:02:09.566004+00:00",
+    "velez": "2026-10-20T02:12:48.576627+00:00",
     "torpedo": "2026-10-19T14:45:04.195741+00:00"
   },
   "matches": [
