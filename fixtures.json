@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-21T20:44:54+00:00",
+  "updated": "2026-10-21T20:56:55+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -4578,9 +4578,9 @@
             "win": 4,
             "draw": null,
             "loss": 0,
-            "for": 365,
+            "for": 368,
             "against": 334,
-            "diff": 31,
+            "diff": 34,
             "points": 8,
             "highlight": "#BBF3BB"
           },
@@ -4591,8 +4591,8 @@
             "draw": null,
             "loss": 1,
             "for": 362,
-            "against": 338,
-            "diff": 24,
+            "against": 341,
+            "diff": 21,
             "points": 7,
             "highlight": "#BBF3BB"
           },
@@ -36091,7 +36091,18 @@
       "league": "eurocup-2026-27",
       "home": "Napoli Basket",
       "away": "Tofas",
-      "score": null,
+      "score": "105-101",
+      "date": "2026-10-21",
+      "time": "18:00",
+      "utc": "2026-10-21T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Hapoel Jerusalem",
+      "away": "Rīgas Zelli",
+      "score": "100-64",
       "date": "2026-10-21",
       "time": "18:00",
       "utc": "2026-10-21T18:00:00+00:00",
@@ -36117,6 +36128,17 @@
       "date": "2026-10-21",
       "time": "18:00",
       "utc": "2026-10-21T18:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Maxima Roma",
+      "away": "Reyer Venezia",
+      "score": "90-79",
+      "date": "2026-10-21",
+      "time": "18:30",
+      "utc": "2026-10-21T18:30:00+00:00",
       "venue": null,
       "attendance": null
     },
