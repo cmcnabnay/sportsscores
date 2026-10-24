@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-24T08:32:46+00:00",
+  "updated": "2026-10-24T08:43:07+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2074,6 +2074,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "England",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 94,
+            "against": 30,
+            "diff": 64,
+            "points": 2,
+            "highlight": null
+          },
+          {
             "team": "Papua New Guinea",
             "played": 2,
             "win": 1,
@@ -2083,18 +2095,6 @@
             "against": 82,
             "diff": -34,
             "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "England",
-            "played": 1,
-            "win": 0,
-            "draw": null,
-            "loss": 1,
-            "for": 12,
-            "against": 30,
-            "diff": -18,
-            "points": 0,
             "highlight": null
           },
           {
@@ -2111,13 +2111,13 @@
           },
           {
             "team": "France",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 4,
-            "against": 78,
-            "diff": -74,
+            "against": 160,
+            "diff": -156,
             "points": 0,
             "highlight": null
           }
@@ -36744,7 +36744,7 @@
       "league": "rlwc-2026",
       "home": "England",
       "away": "France",
-      "score": null,
+      "score": "82-0",
       "date": "2026-10-24",
       "time": "06:35",
       "utc": "2026-10-24T06:35:00+00:00",
