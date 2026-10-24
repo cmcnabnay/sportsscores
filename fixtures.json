@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-24T05:07:42+00:00",
+  "updated": "2026-10-24T05:18:43+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -728,12 +728,12 @@
           },
           {
             "team": "BC Lions",
-            "played": 17,
+            "played": 18,
             "win": 10,
             "draw": null,
-            "loss": 7,
-            "for": 506,
-            "against": 450,
+            "loss": 8,
+            "for": 516,
+            "against": 484,
             "diff": null,
             "points": 20,
             "highlight": null
@@ -751,7 +751,19 @@
             "highlight": null
           },
           {
-            "team": "Calgary Stampeders",
+            "team": "Winnipeg Blue Bombers",
+            "played": 18,
+            "win": 9,
+            "draw": null,
+            "loss": 9,
+            "for": 475,
+            "against": 492,
+            "diff": null,
+            "points": 18,
+            "highlight": null
+          },
+          {
+            "team": "e – Calgary Stampeders",
             "played": 18,
             "win": 9,
             "draw": null,
@@ -760,18 +772,6 @@
             "against": 587,
             "diff": null,
             "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Winnipeg Blue Bombers",
-            "played": 17,
-            "win": 8,
-            "draw": null,
-            "loss": 9,
-            "for": 441,
-            "against": 482,
-            "diff": null,
-            "points": 16,
             "highlight": null
           }
         ],
@@ -36689,7 +36689,7 @@
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Winnipeg Blue Bombers",
-      "score": null,
+      "score": "10-34",
       "date": "2026-10-23",
       "time": "19:00",
       "utc": "2026-10-24T02:00:00+00:00",
