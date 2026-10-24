@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-24T17:15:20+00:00",
+  "updated": "2026-10-24T17:25:57+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -3944,14 +3944,14 @@
           },
           {
             "team": "Tappara Tampere",
-            "played": 15,
+            "played": 16,
             "win": 8,
             "draw": null,
-            "loss": 7,
-            "for": 40,
-            "against": 32,
-            "diff": 8,
-            "points": 23,
+            "loss": 8,
+            "for": 44,
+            "against": 37,
+            "diff": 7,
+            "points": 24,
             "highlight": "#BBF3FF"
           },
           {
@@ -3964,6 +3964,18 @@
             "against": 44,
             "diff": 5,
             "points": 23,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Lahti Pelicans",
+            "played": 14,
+            "win": 7,
+            "draw": null,
+            "loss": 7,
+            "for": 34,
+            "against": 33,
+            "diff": 1,
+            "points": 21,
             "highlight": "#BBF3FF"
           },
           {
@@ -3988,7 +4000,7 @@
             "against": 50,
             "diff": -12,
             "points": 21,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "KalPa Kuopio",
@@ -3998,18 +4010,6 @@
             "loss": 9,
             "for": 37,
             "against": 37,
-            "diff": 0,
-            "points": 19,
-            "highlight": null
-          },
-          {
-            "team": "Lahti Pelicans",
-            "played": 13,
-            "win": 6,
-            "draw": null,
-            "loss": 7,
-            "for": 29,
-            "against": 29,
             "diff": 0,
             "points": 19,
             "highlight": null
@@ -36966,7 +36966,7 @@
       "league": "top14-2026",
       "home": "Stade Toulousain",
       "away": "Perpignan",
-      "score": null,
+      "score": "38-33",
       "date": "2026-10-24",
       "time": "14:35",
       "utc": "2026-10-24T14:35:00+00:00",
@@ -36977,7 +36977,7 @@
       "league": "top14-2026",
       "home": "Bayonne",
       "away": "Lyon",
-      "score": null,
+      "score": "27-31",
       "date": "2026-10-24",
       "time": "14:35",
       "utc": "2026-10-24T14:35:00+00:00",
@@ -36988,7 +36988,7 @@
       "league": "top14-2026",
       "home": "Racing 92",
       "away": "Montpellier Herault",
-      "score": null,
+      "score": "17-20",
       "date": "2026-10-24",
       "time": "14:35",
       "utc": "2026-10-24T14:35:00+00:00",
@@ -36999,7 +36999,7 @@
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Stade Francais Paris",
-      "score": null,
+      "score": "16-8",
       "date": "2026-10-24",
       "time": "14:35",
       "utc": "2026-10-24T14:35:00+00:00",
