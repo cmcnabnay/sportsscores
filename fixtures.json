@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T19:49:58+00:00",
+  "updated": "2026-10-25T20:00:57+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -4786,9 +4786,9 @@
             "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 558,
-            "against": 445,
-            "diff": 113,
+            "for": 564,
+            "against": 447,
+            "diff": 117,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -4813,7 +4813,7 @@
             "for": 461,
             "against": 414,
             "diff": 47,
-            "points": 7,
+            "points": 6,
             "highlight": "#FFFFBB"
           },
           {
@@ -4849,7 +4849,19 @@
             "for": 518,
             "against": 502,
             "diff": 16,
-            "points": 7,
+            "points": 6,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 449,
+            "against": 435,
+            "diff": 14,
+            "points": 4,
             "highlight": "#FFFFBB"
           },
           {
@@ -4865,6 +4877,18 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Joventut de Badalona",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 473,
+            "against": 468,
+            "diff": 5,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Casademont Zaragoza",
             "played": 5,
             "win": 3,
@@ -4874,7 +4898,7 @@
             "against": 445,
             "diff": 0,
             "points": 6,
-            "highlight": "#FFFFBB"
+            "highlight": null
           },
           {
             "team": "Bilbao Basket",
@@ -4913,30 +4937,6 @@
             "highlight": null
           },
           {
-            "team": "San Pablo Burgos",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 449,
-            "against": 435,
-            "diff": 14,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Joventut de Badalona",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 473,
-            "against": 468,
-            "diff": 5,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "UCAM Murcia",
             "played": 5,
             "win": 2,
@@ -4966,10 +4966,10 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 457,
-            "against": 510,
-            "diff": -53,
-            "points": 3,
+            "for": 459,
+            "against": 516,
+            "diff": -57,
+            "points": 2,
             "highlight": null
           },
           {
@@ -37600,7 +37600,7 @@
       "league": "liga-acb-2026-27",
       "home": "ICG Forca Lleida",
       "away": "Real Madrid",
-      "score": null,
+      "score": "86-122",
       "date": "2026-10-25",
       "time": "18:00",
       "utc": "2026-10-25T18:00:00+00:00",
