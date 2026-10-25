@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T16:58:44+00:00",
+  "updated": "2026-10-25T17:11:30+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2318,9 +2318,9 @@
             "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 478,
-            "against": 334,
-            "diff": 144,
+            "for": 488,
+            "against": 346,
+            "diff": 142,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -2458,24 +2458,24 @@
           },
           {
             "team": "Ratiopharm Ulm",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 410,
-            "against": 431,
+            "for": 416,
+            "against": 437,
             "diff": -21,
             "points": 4,
             "highlight": null
           },
           {
             "team": "Alba Berlin",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
             "loss": 3,
-            "for": 402,
-            "against": 453,
+            "for": 408,
+            "against": 459,
             "diff": -51,
             "points": 4,
             "highlight": null
@@ -2510,9 +2510,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 460,
-            "against": 516,
-            "diff": -56,
+            "for": 472,
+            "against": 526,
+            "diff": -54,
             "points": 2,
             "highlight": "#FFBBBB"
           },
@@ -4807,24 +4807,48 @@
           {
             "team": "Baskonia Vitoria",
             "played": 5,
-            "win": 4,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 429,
-            "against": 371,
-            "diff": 58,
-            "points": 8,
+            "loss": 2,
+            "for": 437,
+            "against": 383,
+            "diff": 54,
+            "points": 7,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Valencia Basket",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 452,
+            "against": 420,
+            "diff": 32,
+            "points": 6,
             "highlight": "#FFFFBB"
           },
           {
             "team": "Breogán",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 428,
-            "against": 399,
-            "diff": 29,
+            "loss": 2,
+            "for": 435,
+            "against": 411,
+            "diff": 24,
+            "points": 7,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 350,
+            "against": 332,
+            "diff": 18,
             "points": 6,
             "highlight": "#FFFFBB"
           },
@@ -4862,7 +4886,7 @@
             "against": 478,
             "diff": -2,
             "points": 6,
-            "highlight": "#FFFFBB"
+            "highlight": null
           },
           {
             "team": "Basquet Girona",
@@ -4874,7 +4898,7 @@
             "against": 487,
             "diff": -22,
             "points": 6,
-            "highlight": "#FFFFBB"
+            "highlight": null
           },
           {
             "team": "Monbus Obradoiro",
@@ -4886,30 +4910,6 @@
             "against": 466,
             "diff": -23,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 338,
-            "against": 325,
-            "diff": 13,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 440,
-            "against": 412,
-            "diff": 28,
-            "points": 5,
             "highlight": null
           },
           {
