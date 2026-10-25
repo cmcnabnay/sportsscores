@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T19:07:12+00:00",
+  "updated": "2026-10-25T19:18:12+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2426,9 +2426,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 495,
-            "against": 525,
-            "diff": -30,
+            "for": 500,
+            "against": 535,
+            "diff": -35,
             "points": 6,
             "highlight": "#BBF3FF"
           },
@@ -2474,9 +2474,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 482,
-            "against": 524,
-            "diff": -42,
+            "for": 492,
+            "against": 529,
+            "diff": -37,
             "points": 4,
             "highlight": null
           },
@@ -4786,9 +4786,9 @@
             "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 500,
-            "against": 403,
-            "diff": 97,
+            "for": 512,
+            "against": 419,
+            "diff": 93,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -4954,9 +4954,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 415,
-            "against": 452,
-            "diff": -37,
+            "for": 431,
+            "against": 464,
+            "diff": -33,
             "points": 3,
             "highlight": null
           },
@@ -37544,7 +37544,7 @@
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Ratiopharm Ulm",
-      "score": null,
+      "score": "98-80",
       "date": "2026-10-25",
       "time": "17:00",
       "utc": "2026-10-25T17:00:00+00:00",
