@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T17:11:30+00:00",
+  "updated": "2026-10-25T17:22:50+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2318,9 +2318,9 @@
             "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 488,
-            "against": 346,
-            "diff": 142,
+            "for": 499,
+            "against": 353,
+            "diff": 146,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -2433,6 +2433,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Alba Berlin",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 422,
+            "against": 471,
+            "diff": -49,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "Phoenix Hagen",
             "played": 6,
             "win": 2,
@@ -2461,22 +2473,10 @@
             "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 416,
-            "against": 437,
-            "diff": -21,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 408,
-            "against": 459,
-            "diff": -51,
+            "loss": 4,
+            "for": 428,
+            "against": 451,
+            "diff": -23,
             "points": 4,
             "highlight": null
           },
@@ -2510,9 +2510,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 472,
-            "against": 526,
-            "diff": -54,
+            "for": 479,
+            "against": 537,
+            "diff": -58,
             "points": 2,
             "highlight": "#FFBBBB"
           },
@@ -4810,9 +4810,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 437,
-            "against": 383,
-            "diff": 54,
+            "for": 443,
+            "against": 393,
+            "diff": 50,
             "points": 7,
             "highlight": "#FFFFBB"
           },
@@ -4822,9 +4822,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 452,
-            "against": 420,
-            "diff": 32,
+            "for": 462,
+            "against": 426,
+            "diff": 36,
             "points": 6,
             "highlight": "#FFFFBB"
           },
@@ -4834,9 +4834,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 435,
-            "against": 411,
-            "diff": 24,
+            "for": 452,
+            "against": 425,
+            "diff": 27,
             "points": 7,
             "highlight": "#FFFFBB"
           },
@@ -4846,9 +4846,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 350,
-            "against": 332,
-            "diff": 18,
+            "for": 364,
+            "against": 349,
+            "diff": 15,
             "points": 6,
             "highlight": "#FFFFBB"
           },
