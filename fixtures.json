@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T18:15:11+00:00",
+  "updated": "2026-10-25T18:24:55+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2421,6 +2421,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Ratiopharm Ulm",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 460,
+            "against": 478,
+            "diff": -18,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 6,
             "win": 3,
@@ -2428,18 +2440,6 @@
             "loss": 3,
             "for": 456,
             "against": 503,
-            "diff": -47,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 449,
-            "against": 496,
             "diff": -47,
             "points": 6,
             "highlight": null
@@ -2469,14 +2469,14 @@
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
+            "team": "Alba Berlin",
             "played": 6,
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 453,
-            "against": 478,
-            "diff": -25,
+            "for": 449,
+            "against": 503,
+            "diff": -54,
             "points": 4,
             "highlight": null
           },
@@ -4786,9 +4786,9 @@
             "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 460,
-            "against": 371,
-            "diff": 89,
+            "for": 473,
+            "against": 382,
+            "diff": 91,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -4834,9 +4834,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 412,
-            "against": 384,
-            "diff": 28,
+            "for": 420,
+            "against": 396,
+            "diff": 24,
             "points": 6,
             "highlight": "#FFFFBB"
           },
@@ -4846,9 +4846,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 487,
-            "against": 473,
-            "diff": 14,
+            "for": 499,
+            "against": 481,
+            "diff": 18,
             "points": 7,
             "highlight": "#FFFFBB"
           },
@@ -4954,9 +4954,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 383,
-            "against": 412,
-            "diff": -29,
+            "for": 394,
+            "against": 425,
+            "diff": -31,
             "points": 3,
             "highlight": null
           },
