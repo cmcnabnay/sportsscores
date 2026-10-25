@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T18:45:59+00:00",
+  "updated": "2026-10-25T18:57:04+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2426,9 +2426,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 469,
-            "against": 512,
-            "diff": -43,
+            "for": 476,
+            "against": 515,
+            "diff": -39,
             "points": 6,
             "highlight": "#BBF3FF"
           },
@@ -2474,9 +2474,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 469,
-            "against": 498,
-            "diff": -29,
+            "for": 472,
+            "against": 505,
+            "diff": -33,
             "points": 4,
             "highlight": null
           },
@@ -4787,8 +4787,8 @@
             "draw": null,
             "loss": 0,
             "for": 496,
-            "against": 396,
-            "diff": 100,
+            "against": 401,
+            "diff": 95,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -4834,9 +4834,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 436,
-            "against": 413,
-            "diff": 23,
+            "for": 441,
+            "against": 415,
+            "diff": 26,
             "points": 6,
             "highlight": "#FFFFBB"
           },
@@ -4846,9 +4846,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 516,
-            "against": 497,
-            "diff": 19,
+            "for": 518,
+            "against": 502,
+            "diff": 16,
             "points": 7,
             "highlight": "#FFFFBB"
           },
@@ -4954,9 +4954,9 @@
             "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 408,
+            "for": 413,
             "against": 448,
-            "diff": -40,
+            "diff": -35,
             "points": 3,
             "highlight": null
           },
@@ -37555,7 +37555,7 @@
       "league": "liga-acb-2026-27",
       "home": "Breogán",
       "away": "Unicaja Málaga",
-      "score": null,
+      "score": "90-103",
       "date": "2026-10-25",
       "time": "17:00",
       "utc": "2026-10-25T17:00:00+00:00",
