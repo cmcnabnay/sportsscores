@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T03:22:35+00:00",
+  "updated": "2026-10-25T03:32:53+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -4805,6 +4805,18 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Valencia Basket",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 399,
+            "against": 369,
+            "diff": 30,
+            "points": 4,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Breogán",
             "played": 4,
             "win": 3,
@@ -4829,15 +4841,39 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Monbus Obradoiro",
+            "team": "Joventut de Badalona",
             "played": 4,
-            "win": 3,
+            "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 367,
-            "against": 360,
-            "diff": 7,
-            "points": 6,
+            "loss": 2,
+            "for": 386,
+            "against": 367,
+            "diff": 19,
+            "points": 4,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 449,
+            "against": 435,
+            "diff": 14,
+            "points": 4,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Unicaja Málaga",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 338,
+            "against": 325,
+            "diff": 13,
+            "points": 4,
             "highlight": "#FFFFBB"
           },
           {
@@ -4850,7 +4886,19 @@
             "against": 481,
             "diff": 9,
             "points": 6,
-            "highlight": "#FFFFBB"
+            "highlight": null
+          },
+          {
+            "team": "Monbus Obradoiro",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 367,
+            "against": 360,
+            "diff": 7,
+            "points": 6,
+            "highlight": null
           },
           {
             "team": "Casademont Zaragoza",
@@ -4861,43 +4909,7 @@
             "for": 445,
             "against": 445,
             "diff": 0,
-            "points": 7,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 399,
-            "against": 369,
-            "diff": 30,
-            "points": 4,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Joventut de Badalona",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 386,
-            "against": 367,
-            "diff": 19,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 338,
-            "against": 325,
-            "diff": 13,
-            "points": 4,
+            "points": 6,
             "highlight": null
           },
           {
@@ -4909,42 +4921,6 @@
             "for": 388,
             "against": 402,
             "diff": -14,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 364,
-            "against": 400,
-            "diff": -36,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "San Pablo Burgos",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 449,
-            "against": 435,
-            "diff": 14,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "UCAM Murcia",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 435,
-            "against": 465,
-            "diff": -30,
             "points": 4,
             "highlight": null
           },
@@ -4973,6 +4949,30 @@
             "highlight": null
           },
           {
+            "team": "UCAM Murcia",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 435,
+            "against": 465,
+            "diff": -30,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Basquet Girona",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 364,
+            "against": 400,
+            "diff": -36,
+            "points": 4,
+            "highlight": null
+          },
+          {
             "team": "Leyma Coruña",
             "played": 5,
             "win": 1,
@@ -4981,7 +4981,7 @@
             "for": 447,
             "against": 510,
             "diff": -63,
-            "points": 3,
+            "points": 2,
             "highlight": "#FFBBBB"
           },
           {
@@ -4993,7 +4993,7 @@
             "for": 423,
             "against": 511,
             "diff": -88,
-            "points": 1,
+            "points": 0,
             "highlight": "#FFBBBB"
           }
         ],
