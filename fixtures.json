@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-25T17:22:50+00:00",
+  "updated": "2026-10-25T17:31:54+00:00",
   "playoffs": {
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
@@ -2421,6 +2421,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Alba Berlin",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 434,
+            "against": 473,
+            "diff": -39,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 6,
             "win": 3,
@@ -2429,18 +2441,6 @@
             "for": 456,
             "against": 503,
             "diff": -47,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 422,
-            "against": 471,
-            "diff": -49,
             "points": 6,
             "highlight": null
           },
@@ -2474,9 +2474,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 428,
-            "against": 451,
-            "diff": -23,
+            "for": 430,
+            "against": 463,
+            "diff": -33,
             "points": 4,
             "highlight": null
           },
@@ -4810,9 +4810,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 443,
-            "against": 393,
-            "diff": 50,
+            "for": 452,
+            "against": 401,
+            "diff": 51,
             "points": 7,
             "highlight": "#FFFFBB"
           },
@@ -4822,9 +4822,9 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 462,
-            "against": 426,
-            "diff": 36,
+            "for": 470,
+            "against": 435,
+            "diff": 35,
             "points": 6,
             "highlight": "#FFFFBB"
           },
@@ -4834,8 +4834,8 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 452,
-            "against": 425,
+            "for": 459,
+            "against": 432,
             "diff": 27,
             "points": 7,
             "highlight": "#FFFFBB"
@@ -4846,8 +4846,8 @@
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 364,
-            "against": 349,
+            "for": 371,
+            "against": 356,
             "diff": 15,
             "points": 6,
             "highlight": "#FFFFBB"
@@ -37467,7 +37467,7 @@
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Hamburg Towers",
-      "score": null,
+      "score": "96-77",
       "date": "2026-10-25",
       "time": "15:30",
       "utc": "2026-10-25T15:30:00+00:00",
