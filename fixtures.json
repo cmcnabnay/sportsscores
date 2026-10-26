@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-26T18:58:15+00:00",
+  "updated": "2026-10-26T19:09:39+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2431,40 +2431,16 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Brose Bamberg",
+            "team": "Rostock Seawolves",
             "played": 6,
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 528,
-            "against": 516,
-            "diff": 12,
+            "for": 552,
+            "against": 505,
+            "diff": 47,
             "points": 6,
             "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 463,
-            "against": 471,
-            "diff": -8,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 500,
-            "against": 535,
-            "diff": -35,
-            "points": 6,
-            "highlight": "#BBF3FF"
           },
           {
             "team": "Telekom Baskets Bonn",
@@ -2476,31 +2452,7 @@
             "against": 485,
             "diff": 27,
             "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Rostock Seawolves",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 552,
-            "against": 505,
-            "diff": 47,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Baskets Oldenburg",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 456,
-            "against": 503,
-            "diff": -47,
-            "points": 6,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Skyliners Frankfurt",
@@ -2512,17 +2464,77 @@
             "against": 341,
             "diff": 17,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Brose Bamberg",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 528,
+            "against": 516,
+            "diff": 12,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 463,
+            "against": 471,
+            "diff": -8,
+            "points": 6,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Wurzburg Baskets",
-            "played": 4,
-            "win": 2,
+            "played": 5,
+            "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 303,
-            "against": 321,
-            "diff": -18,
+            "for": 312,
+            "against": 327,
+            "diff": -15,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 500,
+            "against": 535,
+            "diff": -35,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Baskets Oldenburg",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 456,
+            "against": 503,
+            "diff": -47,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Phoenix Hagen",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 526,
+            "against": 533,
+            "diff": -7,
             "points": 4,
             "highlight": null
           },
@@ -2551,15 +2563,15 @@
             "highlight": null
           },
           {
-            "team": "Phoenix Hagen",
+            "team": "Bv Chemnitz 99",
             "played": 6,
-            "win": 2,
+            "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 526,
-            "against": 533,
-            "diff": -7,
-            "points": 4,
+            "loss": 5,
+            "for": 431,
+            "against": 454,
+            "diff": -23,
+            "points": 2,
             "highlight": null
           },
           {
@@ -2572,7 +2584,7 @@
             "against": 537,
             "diff": -58,
             "points": 2,
-            "highlight": null
+            "highlight": "#FFBBBB"
           },
           {
             "team": "SC Rasta Vechta",
@@ -2583,18 +2595,6 @@
             "for": 491,
             "against": 562,
             "diff": -71,
-            "points": 2,
-            "highlight": "#FFBBBB"
-          },
-          {
-            "team": "Bv Chemnitz 99",
-            "played": 5,
-            "win": 1,
-            "draw": null,
-            "loss": 4,
-            "for": 425,
-            "against": 445,
-            "diff": -20,
             "points": 2,
             "highlight": "#FFBBBB"
           }
@@ -3236,286 +3236,286 @@
       }
     },
     "khl-2026-27": {
-      "Eastern Conference": {
-        "rows": [
-          {
-            "for": 66,
-            "win": 15,
-            "diff": 28,
-            "draw": null,
-            "loss": 3,
-            "team": "Metallurg Magnitogorsk",
-            "played": 20,
-            "points": 32,
-            "against": 38,
-            "highlight": "#D6F9FF"
-          },
-          {
-            "for": 55,
-            "win": 11,
-            "diff": 9,
-            "draw": null,
-            "loss": 6,
-            "team": "Neftekhimik Nizhnekamsk",
-            "played": 19,
-            "points": 24,
-            "against": 46,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "for": 65,
-            "win": 10,
-            "diff": 10,
-            "draw": null,
-            "loss": 8,
-            "team": "Barys Astana",
-            "played": 19,
-            "points": 21,
-            "against": 55,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "for": 35,
-            "win": 10,
-            "diff": 7,
-            "draw": null,
-            "loss": 7,
-            "team": "Amur Khabarovsk",
-            "played": 18,
-            "points": 21,
-            "against": 28,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "for": 51,
-            "win": 9,
-            "diff": 4,
-            "draw": null,
-            "loss": 8,
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 19,
-            "points": 20,
-            "against": 47,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 57,
-            "win": 10,
-            "diff": -4,
-            "draw": null,
-            "loss": 9,
-            "team": "Salavat Yulayev Ufa",
-            "played": 20,
-            "points": 20,
-            "against": 61,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 41,
-            "win": 8,
-            "diff": -1,
-            "draw": null,
-            "loss": 8,
-            "team": "AK Bars",
-            "played": 20,
-            "points": 18,
-            "against": 42,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 37,
-            "win": 8,
-            "diff": -3,
-            "draw": null,
-            "loss": 8,
-            "team": "Traktor Chelyabinsk",
-            "played": 18,
-            "points": 18,
-            "against": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 41,
-            "win": 7,
-            "diff": -7,
-            "draw": null,
-            "loss": 8,
-            "team": "Admiral Vladivostok",
-            "played": 18,
-            "points": 17,
-            "against": 48,
-            "highlight": null
-          },
-          {
-            "for": 44,
-            "win": 7,
-            "diff": -17,
-            "draw": null,
-            "loss": 11,
-            "team": "Sibir Novosibirsk",
-            "played": 21,
-            "points": 17,
-            "against": 61,
-            "highlight": null
-          },
-          {
-            "for": 28,
-            "win": 8,
-            "diff": -12,
-            "draw": null,
-            "loss": 9,
-            "team": "Avangard Omsk",
-            "played": 17,
-            "points": 16,
-            "against": 40,
-            "highlight": null
-          }
-        ],
-        "legend": {
-          "#BBF3BB": "Advance to Gagarin Cup Playoffs",
-          "#BBF3FF": "Home advantage in Conference Quarterfinals",
-          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals"
-        }
-      },
       "Western Conference": {
         "rows": [
           {
-            "for": 49,
-            "win": 14,
-            "diff": 16,
-            "draw": null,
-            "loss": 5,
             "team": "Lokomotiv Yaroslavl",
             "played": 19,
-            "points": 28,
+            "win": 14,
+            "draw": null,
+            "loss": 5,
+            "for": 49,
             "against": 33,
+            "diff": 16,
+            "points": 28,
             "highlight": "#D6F9FF"
           },
           {
-            "for": 55,
-            "win": 13,
-            "diff": 19,
-            "draw": null,
-            "loss": 5,
             "team": "CSKA Moscow",
             "played": 19,
-            "points": 27,
+            "win": 13,
+            "draw": null,
+            "loss": 5,
+            "for": 55,
             "against": 36,
+            "diff": 19,
+            "points": 27,
             "highlight": "#BBF3FF"
           },
           {
-            "for": 51,
-            "win": 11,
-            "diff": 18,
-            "draw": null,
-            "loss": 5,
             "team": "Spartak Moscow",
             "played": 19,
-            "points": 25,
-            "against": 33,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "for": 55,
-            "win": 12,
-            "diff": 12,
-            "draw": null,
-            "loss": 4,
-            "team": "Shanghai Dragons",
-            "played": 18,
-            "points": 25,
-            "against": 43,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "for": 45,
             "win": 11,
-            "diff": 4,
-            "draw": null,
-            "loss": 7,
-            "team": "Severstal Cherepovets",
-            "played": 20,
-            "points": 24,
-            "against": 41,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 46,
-            "win": 10,
-            "diff": 10,
             "draw": null,
             "loss": 5,
+            "for": 51,
+            "against": 33,
+            "diff": 18,
+            "points": 25,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Shanghai Dragons",
+            "played": 18,
+            "win": 12,
+            "draw": null,
+            "loss": 4,
+            "for": 55,
+            "against": 43,
+            "diff": 12,
+            "points": 25,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Severstal Cherepovets",
+            "played": 20,
+            "win": 11,
+            "draw": null,
+            "loss": 7,
+            "for": 45,
+            "against": 41,
+            "diff": 4,
+            "points": 24,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 18,
-            "points": 23,
+            "win": 10,
+            "draw": null,
+            "loss": 5,
+            "for": 46,
             "against": 36,
+            "diff": 10,
+            "points": 23,
             "highlight": "#BBF3BB"
           },
           {
-            "for": 48,
-            "win": 7,
-            "diff": -8,
-            "draw": null,
-            "loss": 6,
             "team": "Dinamo Minsk",
             "played": 19,
-            "points": 20,
+            "win": 7,
+            "draw": null,
+            "loss": 6,
+            "for": 48,
             "against": 56,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "for": 39,
-            "win": 8,
-            "diff": -16,
-            "draw": null,
-            "loss": 10,
-            "team": "Dynamo Moscow",
-            "played": 22,
+            "diff": -8,
             "points": 20,
-            "against": 55,
             "highlight": "#BBF3BB"
           },
           {
-            "for": 55,
-            "win": 9,
-            "diff": 1,
-            "draw": null,
-            "loss": 8,
             "team": "SKA St. Petersburg",
             "played": 18,
-            "points": 19,
+            "win": 9,
+            "draw": null,
+            "loss": 8,
+            "for": 55,
             "against": 54,
+            "diff": 1,
+            "points": 19,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Dynamo Moscow",
+            "played": 22,
+            "win": 7,
+            "draw": null,
+            "loss": 10,
+            "for": 40,
+            "against": 58,
+            "diff": -18,
+            "points": 19,
             "highlight": null
           },
           {
-            "for": 31,
-            "win": 5,
-            "diff": -34,
-            "draw": null,
-            "loss": 13,
             "team": "HC Sochi",
             "played": 18,
-            "points": 10,
+            "win": 5,
+            "draw": null,
+            "loss": 13,
+            "for": 31,
             "against": 65,
+            "diff": -34,
+            "points": 10,
             "highlight": null
           },
           {
-            "for": 29,
-            "win": 2,
-            "diff": -36,
-            "draw": null,
-            "loss": 12,
             "team": "Lada Togliatti",
             "played": 19,
-            "points": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 12,
+            "for": 29,
             "against": 65,
+            "diff": -36,
+            "points": 9,
             "highlight": null
           }
         ],
         "legend": {
-          "#BBF3BB": "Advance to Gagarin Cup Playoffs",
+          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals",
           "#BBF3FF": "Home advantage in Conference Quarterfinals",
-          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals"
+          "#BBF3BB": "Advance to Gagarin Cup Playoffs"
+        }
+      },
+      "Eastern Conference": {
+        "rows": [
+          {
+            "team": "Metallurg Magnitogorsk",
+            "played": 20,
+            "win": 15,
+            "draw": null,
+            "loss": 3,
+            "for": 66,
+            "against": 38,
+            "diff": 28,
+            "points": 32,
+            "highlight": "#D6F9FF"
+          },
+          {
+            "team": "Neftekhimik Nizhnekamsk",
+            "played": 19,
+            "win": 11,
+            "draw": null,
+            "loss": 6,
+            "for": 55,
+            "against": 46,
+            "diff": 9,
+            "points": 24,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Barys Astana",
+            "played": 19,
+            "win": 10,
+            "draw": null,
+            "loss": 8,
+            "for": 65,
+            "against": 55,
+            "diff": 10,
+            "points": 21,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Amur Khabarovsk",
+            "played": 18,
+            "win": 10,
+            "draw": null,
+            "loss": 7,
+            "for": 35,
+            "against": 28,
+            "diff": 7,
+            "points": 21,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 19,
+            "win": 9,
+            "draw": null,
+            "loss": 8,
+            "for": 51,
+            "against": 47,
+            "diff": 4,
+            "points": 20,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Salavat Yulayev Ufa",
+            "played": 20,
+            "win": 10,
+            "draw": null,
+            "loss": 9,
+            "for": 57,
+            "against": 61,
+            "diff": -4,
+            "points": 20,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "AK Bars",
+            "played": 20,
+            "win": 8,
+            "draw": null,
+            "loss": 8,
+            "for": 41,
+            "against": 42,
+            "diff": -1,
+            "points": 18,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Traktor Chelyabinsk",
+            "played": 18,
+            "win": 8,
+            "draw": null,
+            "loss": 8,
+            "for": 37,
+            "against": 40,
+            "diff": -3,
+            "points": 18,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Avangard Omsk",
+            "played": 17,
+            "win": 9,
+            "draw": null,
+            "loss": 8,
+            "for": 31,
+            "against": 41,
+            "diff": -10,
+            "points": 18,
+            "highlight": null
+          },
+          {
+            "team": "Admiral Vladivostok",
+            "played": 18,
+            "win": 7,
+            "draw": null,
+            "loss": 8,
+            "for": 41,
+            "against": 48,
+            "diff": -7,
+            "points": 17,
+            "highlight": null
+          },
+          {
+            "team": "Sibir Novosibirsk",
+            "played": 21,
+            "win": 7,
+            "draw": null,
+            "loss": 11,
+            "for": 44,
+            "against": 61,
+            "diff": -17,
+            "points": 17,
+            "highlight": null
+          }
+        ],
+        "legend": {
+          "#D6F9FF": "Conference winner and home advantage in Conference Quarterfinals",
+          "#BBF3FF": "Home advantage in Conference Quarterfinals",
+          "#BBF3BB": "Advance to Gagarin Cup Playoffs"
         }
       }
     },
@@ -37759,7 +37759,7 @@
       "league": "khl-2026-27",
       "home": "Dynamo Moscow",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "2-3",
       "date": "2026-10-26",
       "time": "16:30",
       "utc": "2026-10-26T16:30:00+00:00",
