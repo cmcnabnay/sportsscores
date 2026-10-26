@@ -653,6 +653,26 @@ LEAGUES = {
                 },
             ],
         },
+        # Confirmed from the page's own wikitext: "==Postseason==" ->
+        # "===Bracket===" holds a {{8TeamBracket|byes=1}} template -
+        # Division semi-finals (RD1 slots 3/4 and 7/8 only; the division
+        # winners get byes straight into RD2) -> Division finals -> Grey
+        # Cup. Seeds are division-style ("E2", "W4"), and each RD label
+        # carries its own date ("October 31:<br>Division semi-finals"),
+        # read by split_bracket_round_label(). See fetch_playoffs_bracket().
+        #
+        # "insert_matches": each bracket game with both teams known is
+        # added to `matches` if the team pages haven't supplied it - see
+        # insert_playoff_matches(). That's what keeps the postseason
+        # flowing in: a team whose regular-season home games are all
+        # scored is otherwise never re-fetched, so e.g. Montreal's East
+        # Final row would never be read off its page.
+        "playoffs": {
+            "page": "2026_CFL_season",
+            "heading": "Bracket",
+            "name": "CFL 2026 · Playoffs",
+            "insert_matches": True,
+        },
     },
     # --- FIBA World Cup 2027 qualification standings -----------------------
     # These four pages reuse the same group letters (Group A, Group B, ...)
@@ -920,7 +940,8 @@ CFL_TZ_OFFSETS = {
     "PDT": -7, "PST": -8, "PT": -7,
 }
 
-# Fallback UTC offset by home team, used only when a row has neither an
+# Fallback UTC offset by home team (daylight time - see
+# cfl_team_utc_offset() for November), used only when a row has neither an
 # explicit zone abbreviation ("PT") nor a recognized venue keyword.
 CFL_TEAM_UTC_OFFSETS = {
     "BC Lions": -7,
@@ -2442,6 +2463,20 @@ def _extract_wikitable_cells(row_chunk):
     return cells
 
 
+def cfl_team_utc_offset(team_name, date_out, default_offset):
+    """CFL_TEAM_UTC_OFFSETS, an hour earlier once daylight time ends (the
+    first Sunday of November) - the playoffs run into mid-November, and
+    their rows' zone labels aren't always real abbreviations (e.g.
+    Edmonton's "5:30 p.m. ABT"). Saskatchewan stays on CST all year."""
+    offset = CFL_TEAM_UTC_OFFSETS.get(team_name, default_offset)
+    if offset is None or not date_out or team_name == "Saskatchewan Roughriders":
+        return offset
+    d = datetime.strptime(date_out, "%Y-%m-%d").date()
+    nov1 = d.replace(month=11, day=1)
+    dst_end = nov1 + timedelta(days=(6 - nov1.weekday()) % 7)
+    return offset - 1 if d >= dst_end else offset
+
+
 def parse_cfl_date(text, year):
     """Parse CFL schedule dates like 'Sat, June 6' / 'Fri, Jul 31' /
     'Sat, Sept 19' (weekday prefix, full or abbreviated month, no year -
@@ -2468,6 +2503,8 @@ def extract_cfl_time(text):
     Either element can come back None if that part isn't present/known."""
     if not text:
         return None, None
+    # Postseason rows write the gap as "1:00&nbsp;p.m. EDT".
+    text = text.replace("&nbsp;", " ").replace("\xa0", " ")
     time_out = None
     m = re.search(r"(\d{1,2}):(\d{2})\s*([ap])\.?\s*m\.?", text, re.IGNORECASE)
     if m:
@@ -2529,18 +2566,32 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
             section = sec
         return section
 
+    # Postseason schedule tables name the opponent bare ("Winnipeg Blue
+    # Bombers", no "vs."/"at") on the host's page, while the visitor's page
+    # may or may not say "at ...". So a bare-opponent postseason row is only
+    # read as a home game if its venue is one this team hosted at in the
+    # regular season (collected from its "vs." rows below) - or, for the
+    # neutral-site Grey Cup, if the row names it. Those rows wait in
+    # `postseason_rows` until every "vs." row's venue is known.
+    league_teams = set((cfg.get("team_pages") or {}).values())
+    home_venues = set()
+    postseason_rows = []
+
     for block_match in re.finditer(r"\{\|.*?\n\|\}", wikitext, re.DOTALL):
         block = block_match.group(0)
-        if not re.search(r"\|\s*(?:vs\.|at)\s+\S", block):
-            continue  # not the schedule table (draft picks, standings, roster, ...)
-
-        if section_at(block_match.start()) == "preseason":
+        block_section = section_at(block_match.start())
+        if block_section == "preseason":
             continue  # preseason games don't count as part of the season schedule
+        if not re.search(r"\|\s*(?:vs\.|at)\s+\S", block) and block_section != "postseason":
+            continue  # not the schedule table (draft picks, standings, roster, ...)
 
         current_section = None
         for chunk in re.split(r"\n\|-[^\n]*\n", block):
             cells = _extract_wikitable_cells(chunk)
             has_opponent = any(re.match(r"^(vs\.|at)\s+\S", c) for c in cells)
+            bare_opponent = block_section == "postseason" and not has_opponent and any(
+                c in league_teams for c in cells)
+            has_opponent = has_opponent or bare_opponent
 
             if not has_opponent:
                 # Not a game row - possibly a section-divider row (e.g. a
@@ -2563,15 +2614,18 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
             if len(cells) < 4 or any("bye" in c.lower() for c in cells):
                 continue
 
-            opp_idx = next(
-                (i for i, c in enumerate(cells) if re.match(r"^(vs\.|at)\s+\S", c)), None
-            )
-            if opp_idx is None:
-                continue
-
-            prefix, opponent = re.match(r"^(vs\.|at)\s+(.*)", cells[opp_idx]).groups()
+            if bare_opponent:
+                opp_idx = next(i for i, c in enumerate(cells) if c in league_teams)
+                prefix, opponent = None, cells[opp_idx]
+            else:
+                opp_idx = next(
+                    (i for i, c in enumerate(cells) if re.match(r"^(vs\.|at)\s+\S", c)), None
+                )
+                if opp_idx is None:
+                    continue
+                prefix, opponent = re.match(r"^(vs\.|at)\s+(.*)", cells[opp_idx]).groups()
             opponent = opponent.strip()
-            home, away = (team_name, opponent) if prefix == "vs." else (opponent, team_name)
+            home, away = (opponent, team_name) if prefix == "at" else (team_name, opponent)
             if home != team_name:
                 continue  # this same match shows up as an "at." row on the away team's page
 
@@ -2579,7 +2633,7 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                 (c for c in cells[:opp_idx] if re.search(r"[A-Za-z]{3,9}\.?\s*\d{1,2}\b", c)), None
             )
             time_text = next(
-                (c for c in cells if re.search(r"\d{1,2}:\d{2}\s*[ap]\.?\s*m\.?", c, re.IGNORECASE)),
+                (c for c in cells if re.search(r"\d{1,2}:\d{2}(?:\s|&nbsp;)*[ap]\.?\s*m\.?", c, re.IGNORECASE)),
                 None,
             )
             score_text = next(
@@ -2614,24 +2668,32 @@ def parse_cfl_schedule(wikitext: str, league_key: str, cfg: dict, team_name: str
                     score = f"{sm.group(1)}-{sm.group(2)}"
 
             offset = tz_offset if tz_offset is not None else guess_utc_offset(
-            venue_text, CFL_TEAM_UTC_OFFSETS.get(team_name, default_offset)
+            venue_text, cfl_team_utc_offset(team_name, date_out, default_offset)
             )
 
             utc = compute_utc(date_out, time_out, offset)
 
-            matches.append(
-                {
-                    "league": league_key,
-                    "home": home,
-                    "away": away,
-                    "score": score,
-                    "date": date_out,
-                    "time": time_out,
-                    "utc": utc,
-                    "venue": venue_text,
-                    "attendance": attendance,
-                }
-            )
+            match = {
+                "league": league_key,
+                "home": home,
+                "away": away,
+                "score": score,
+                "date": date_out,
+                "time": time_out,
+                "utc": utc,
+                "venue": venue_text,
+                "attendance": attendance,
+            }
+            if bare_opponent:
+                postseason_rows.append((match, " ".join(cells)))
+                continue
+            if prefix == "vs." and venue_text:
+                home_venues.add(venue_text)
+            matches.append(match)
+
+    for match, row_text in postseason_rows:
+        if match["venue"] in home_venues or re.search(r"grey\s+cup", row_text, re.IGNORECASE):
+            matches.append(match)
 
     return matches
 
@@ -2833,22 +2895,60 @@ def clean_bracket_score(raw):
 
 
 def clean_bracket_seed(raw):
+    """Numeric seeds come back as ints; a division-style seed like CFL's
+    "E2"/"W4" is kept as its text rather than dropped."""
     if raw is None:
         return None
     text = strip_wikilinks(raw).strip()
-    return int(text) if text.isdigit() else None
+    if not text:
+        return None
+    return int(text) if text.isdigit() else text
 
 
-def build_bracket_rounds(rounds_by_num):
+_LABEL_DATE_RE = re.compile(r"^([A-Za-z]+)\.?\s+(\d{1,2}):?$")
+
+
+def split_bracket_round_label(raw, year):
+    """Split a round label that packs its date (and venue) in with the
+    round name using <br>s - CFL's "October 31:<br>Division semi-finals"
+    or "November 15:<br>[[113th Grey Cup]]<br>[[McMahon Stadium]] –
+    [[Calgary]]" - into (label, date, venue). A label with no leading
+    "Month Day:" piece (every other bracket so far) comes back as just
+    (label, None, None)."""
+    pieces = [clean_bracket_team(p) for p in re.split(r"<br\s*/?>", raw or "", flags=re.I)]
+    pieces = [p for p in pieces if p]
+    date_out = None
+    if year and len(pieces) > 1:
+        m = _LABEL_DATE_RE.match(pieces[0])
+        if m:
+            for fmt in ("%B %d", "%b %d"):
+                try:
+                    date_out = datetime.strptime(f"{m.group(1)} {m.group(2)}", fmt).replace(
+                        year=year).strftime("%Y-%m-%d")
+                    break
+                except ValueError:
+                    continue
+            if date_out:
+                pieces = pieces[1:]
+    if not date_out:
+        return (" ".join(pieces) or None), None, None
+    return pieces[0], date_out, (", ".join(pieces[1:]) or None)
+
+
+def build_bracket_rounds(rounds_by_num, year=None):
     """Turn parse_bracket_template()'s {round_number: {...}} dict into the
     ordered [{label, matches: [{seed1,team1,score1,seed2,team2,score2},
     ...]}] shape matches.html's Playoffs tab expects. Slots are paired
     (1,2), (3,4), ... in ascending order; a round with an odd slot left
     over (a bye) just drops that trailing slot rather than guessing an
-    opponent for it."""
+    opponent for it. A bracket with byes (CFL: only RD1 slots 3/4 and
+    7/8 are filled) just has fewer RD1 matches, each feeding the RD2
+    match at the same position. `year` lets a round label's own date
+    (see split_bracket_round_label) be read onto its matches."""
     rounds = []
     for rd in sorted(rounds_by_num):
         r = rounds_by_num[rd]
+        label, label_date, label_venue = split_bracket_round_label(r["label"], year)
         slots = sorted(r["team"])
         matches = []
         for i in range(0, len(slots) - 1, 2):
@@ -2860,10 +2960,10 @@ def build_bracket_rounds(rounds_by_num):
                 "seed2": clean_bracket_seed(r["seed"].get(s2)),
                 "team2": clean_bracket_team(r["team"].get(s2)),
                 "score2": clean_bracket_score(r["score"].get(s2)),
-                "date": None,
-                "venue": None,
+                "date": label_date,
+                "venue": label_venue,
             })
-        rounds.append({"label": clean_bracket_team(r["label"]) or f"Round {rd}", "matches": matches})
+        rounds.append({"label": label or f"Round {rd}", "matches": matches})
     return rounds
 
 
@@ -3035,7 +3135,7 @@ def fetch_playoffs_bracket(cfg, key):
     rounds_by_num = parse_bracket_template(templates[0])
     if not rounds_by_num:
         return None
-    rounds = build_bracket_rounds(rounds_by_num)
+    rounds = build_bracket_rounds(rounds_by_num, year=cfg.get("year"))
 
     for r in rounds:
         if r["matches"]:
@@ -4945,6 +5045,56 @@ def sync_playoff_scores_into_matches(matches, key, bracket):
                 stored["score"] = f"{score2}-{score1}"
 
 
+def insert_playoff_matches(matches, key, cfg, bracket):
+    """For a league whose "playoffs" config sets "insert_matches" (CFL),
+    add each bracket game with both teams known to `matches` (in place)
+    when there's no stored match for it yet - team1 (the higher seed, who
+    hosts) as home, with whatever date/venue the bracket carries. It has
+    no kickoff time, so match_needs_score_check() treats it as worth
+    re-checking, and the next run re-fetches the home team's page to fill
+    the time/venue in (merge_league_matches() replaces it in place, same
+    (team pair, date) identity).
+
+    Also copies a stored match's date/venue back onto its bracket game
+    where the bracket itself has none (CFL's RD1/RD2 labels give a date
+    but no venue), so the Playoffs tab shows where each game is."""
+    if not bracket or not (cfg.get("playoffs") or {}).get("insert_matches"):
+        return 0
+    by_pair = {}
+    for m in matches:
+        if m.get("league") == key:
+            by_pair.setdefault(_match_identity(m)[0], []).append(m)
+    added = 0
+    for round_ in bracket.get("rounds", []):
+        for game in round_.get("matches", []):
+            team1, team2 = game.get("team1"), game.get("team2")
+            if not team1 or not team2 or not game.get("date"):
+                continue  # undecided slot, or no way to tell it from a regular-season meeting
+            pair = tuple(sorted([team1, team2]))
+            stored = next((m for m in by_pair.get(pair, []) if m.get("date") == game["date"]), None)
+            if stored is not None:
+                game["venue"] = game.get("venue") or stored.get("venue")
+                continue
+            score = None
+            if game.get("score1") is not None and game.get("score2") is not None:
+                score = f"{game['score1']}-{game['score2']}"
+            new_match = {
+                "league": key,
+                "home": team1,
+                "away": team2,
+                "score": score,
+                "date": game["date"],
+                "time": None,
+                "utc": None,
+                "venue": game.get("venue"),
+                "attendance": None,
+            }
+            matches.append(new_match)
+            by_pair.setdefault(pair, []).append(new_match)
+            added += 1
+    return added
+
+
 # ---------------------------------------------------------------------------
 # Supabase storage. matches.html reads from Supabase rather than a deployed
 # fixtures.json (every push used to store a new ~1.8 MB copy of it in Vercel
@@ -5883,12 +6033,15 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
                 # that case.)
                 skipped += 1
                 matches.extend(team_games)
+                seen.update(_match_identity(m) for m in team_games)
                 continue
             wikitext = fetch_page_wikitext(page)
             for m in parse_cfl_schedule(wikitext, key, cfg, team_name):
                 # Safety net alongside the home-row-only filter in
-                # parse_cfl_schedule, in case a page ever double-lists a game.
-                sig = (m["date"], m["home"], m["away"])
+                # parse_cfl_schedule, in case a page ever double-lists a
+                # game - and for the neutral-site Grey Cup, which both
+                # finalists' pages list as their own (order-insensitive).
+                sig = _match_identity(m)
                 if sig in seen:
                     continue
                 seen.add(sig)
@@ -6167,6 +6320,9 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
                 data["playoffs"][key] = bracket
                 sync_playoff_scores_into_matches(data["matches"], key, bracket)
                 print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {cfg['name']}")
+                inserted = insert_playoff_matches(data["matches"], key, cfg, bracket)
+                if inserted:
+                    print(f"  -> playoffs: added {inserted} bracket game(s) not on the team pages yet")
         except Exception as e:
             print(f"  !! playoffs failed: {e}", file=sys.stderr)
 

@@ -1487,7 +1487,7 @@ function renderBracketMatch(m, leagueKey) {
 
   const teamRow = (seed, team, score, isWinner) => `
     <div class="bracket-team ${isWinner ? 'winner' : ''} ${played ? '' : 'pending'}">
-      <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${seed}</span>` : ''}${team ? teamBadges(leagueKey, team) : ''}${escapeHtml(team || 'TBD')}</span>
+      <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${escapeHtml(String(seed))}</span>` : ''}${team ? teamBadges(leagueKey, team) : ''}${escapeHtml(team || 'TBD')}</span>
       <span class="bracket-score">${played ? escapeHtml(String(score)) : ''}</span>
     </div>`;
 
@@ -1578,11 +1578,11 @@ function renderBracket(bracket, leagueKey) {
 }
 
 // Draws the lines joining each pair of matches in round r to the single
-// match they feed into in round r+1. Only handles the standard
-// elimination shape (round r+1 has exactly half as many matches as round
-// r, paired as [2i, 2i+1] -> i) - an irregular bracket (byes, a
-// third-place game, etc.) just skips connectors for that gap and still
-// shows the columns side by side.
+// match they feed into in round r+1. Handles the standard elimination
+// shape (round r+1 has exactly half as many matches as round r, paired as
+// [2i, 2i+1] -> i) and a bye round (same number of matches, i -> i) - any
+// other irregular gap just skips connectors and still shows the columns
+// side by side.
 function drawBracketConnectors(outer, svg, cols, roundMatchWraps) {
   const w = cols.offsetWidth;
   const h = cols.offsetHeight;
@@ -1609,6 +1609,19 @@ function drawBracketConnectors(outer, svg, cols, roundMatchWraps) {
   for (let r = 0; r < roundMatchWraps.length - 1; r++) {
     const curCards = Array.from(roundMatchWraps[r].children);
     const nextCards = Array.from(roundMatchWraps[r + 1].children);
+
+    // Bye bracket (CFL): each match feeds the one at the same position in
+    // the next round, whose other slot is a team that skipped this round.
+    if (curCards.length === nextCards.length) {
+      for (let i = 0; i < nextCards.length; i++) {
+        const a = point(curCards[i].getBoundingClientRect(), 'right');
+        const t = point(nextCards[i].getBoundingClientRect(), 'left');
+        const midX = a.x + (t.x - a.x) / 2;
+        addPath(`M ${a.x} ${a.y} H ${midX} V ${t.y} H ${t.x}`);
+      }
+      continue;
+    }
+
     if (curCards.length !== nextCards.length * 2) continue;
 
     for (let i = 0; i < nextCards.length; i++) {
