@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-26T20:34:18+00:00",
+  "updated": "2026-10-26T20:44:54+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2479,18 +2479,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Wurzburg Baskets",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 382,
-            "against": 385,
-            "diff": -3,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Basketball Lowen Braunschweig",
             "played": 5,
             "win": 3,
@@ -2499,6 +2487,18 @@
             "for": 463,
             "against": 471,
             "diff": -8,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Wurzburg Baskets",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 389,
+            "against": 401,
+            "diff": -12,
             "points": 6,
             "highlight": "#BBF3FF"
           },
@@ -2568,9 +2568,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 489,
-            "against": 524,
-            "diff": -35,
+            "for": 505,
+            "against": 531,
+            "diff": -26,
             "points": 2,
             "highlight": null
           },
