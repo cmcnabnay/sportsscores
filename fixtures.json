@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-26T05:45:20+00:00",
+  "updated": "2026-10-26T13:58:44+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2431,42 +2431,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 552,
-            "against": 505,
-            "diff": 47,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 512,
-            "against": 485,
-            "diff": 27,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 358,
-            "against": 341,
-            "diff": 17,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Brose Bamberg",
             "played": 6,
             "win": 3,
@@ -2476,7 +2440,7 @@
             "against": 516,
             "diff": 12,
             "points": 6,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Basketball Lowen Braunschweig",
@@ -2488,7 +2452,7 @@
             "against": 471,
             "diff": -8,
             "points": 6,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Alba Berlin",
@@ -2503,6 +2467,30 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 512,
+            "against": 485,
+            "diff": 27,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 552,
+            "against": 505,
+            "diff": 47,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Baskets Oldenburg",
             "played": 6,
             "win": 3,
@@ -2512,18 +2500,18 @@
             "against": 503,
             "diff": -47,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
-            "team": "Phoenix Hagen",
-            "played": 6,
-            "win": 2,
+            "team": "Skyliners Frankfurt",
+            "played": 4,
+            "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 526,
-            "against": 533,
-            "diff": -7,
-            "points": 4,
+            "loss": 1,
+            "for": 358,
+            "against": 341,
+            "diff": 17,
+            "points": 6,
             "highlight": null
           },
           {
@@ -2563,15 +2551,15 @@
             "highlight": null
           },
           {
-            "team": "Bv Chemnitz 99",
-            "played": 5,
-            "win": 1,
+            "team": "Phoenix Hagen",
+            "played": 6,
+            "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 425,
-            "against": 445,
-            "diff": -20,
-            "points": 2,
+            "for": 526,
+            "against": 533,
+            "diff": -7,
+            "points": 4,
             "highlight": null
           },
           {
@@ -2584,7 +2572,7 @@
             "against": 537,
             "diff": -58,
             "points": 2,
-            "highlight": "#FFBBBB"
+            "highlight": null
           },
           {
             "team": "SC Rasta Vechta",
@@ -2595,6 +2583,18 @@
             "for": 491,
             "against": 562,
             "diff": -71,
+            "points": 2,
+            "highlight": "#FFBBBB"
+          },
+          {
+            "team": "Bv Chemnitz 99",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 425,
+            "against": 445,
+            "diff": -20,
             "points": 2,
             "highlight": "#FFBBBB"
           }
