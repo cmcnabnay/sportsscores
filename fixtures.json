@@ -191,8 +191,78 @@
       "completed": false
     }
   },
-  "updated": "2026-10-26T01:47:31+00:00",
+  "updated": "2026-10-26T01:58:26+00:00",
   "playoffs": {
+    "cfl-2026": {
+      "name": "CFL 2026 · Playoffs",
+      "rounds": [
+        {
+          "label": "Division semi-finals",
+          "matches": [
+            {
+              "seed1": "E2",
+              "team1": "Toronto Argonauts",
+              "score1": null,
+              "seed2": "W4",
+              "team2": "Winnipeg Blue Bombers",
+              "score2": null,
+              "date": "2026-10-31",
+              "venue": "BMO Field"
+            },
+            {
+              "seed1": "W2",
+              "team1": "BC Lions",
+              "score1": null,
+              "seed2": "W3",
+              "team2": "Saskatchewan Roughriders",
+              "score2": null,
+              "date": "2026-10-31",
+              "venue": "BC Place"
+            }
+          ]
+        },
+        {
+          "label": "Division finals",
+          "matches": [
+            {
+              "seed1": "E1",
+              "team1": "Montreal Alouettes",
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": "2026-11-07",
+              "venue": null
+            },
+            {
+              "seed1": "W1",
+              "team1": "Edmonton Elks",
+              "score1": null,
+              "seed2": "W",
+              "team2": null,
+              "score2": null,
+              "date": "2026-11-07",
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "113th Grey Cup",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": "W",
+              "team2": null,
+              "score2": null,
+              "date": "2026-11-15",
+              "venue": "McMahon Stadium – Calgary"
+            }
+          ]
+        }
+      ]
+    },
     "efa-2026": {
       "name": "European Football Alliance 2026 · Play-offs",
       "rounds": [
@@ -9935,6 +10005,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "for": 25,
+            "win": 8,
+            "diff": 14,
+            "draw": 4,
+            "loss": 3,
+            "team": "Ural Yekaterinburg",
+            "played": 15,
+            "points": 28,
+            "against": 11,
+            "highlight": "#CCF9CC"
+          },
+          {
             "for": 20,
             "win": 8,
             "diff": 7,
@@ -9944,30 +10026,30 @@
             "played": 14,
             "points": 27,
             "against": 13,
-            "highlight": "#CCF9CC"
+            "highlight": "transparent"
           },
           {
             "for": 20,
             "win": 8,
-            "diff": 2,
+            "diff": 1,
             "draw": 3,
-            "loss": 4,
+            "loss": 5,
             "team": "Veles Moscow",
-            "played": 15,
+            "played": 16,
             "points": 27,
-            "against": 18,
+            "against": 19,
             "highlight": "transparent"
           },
           {
-            "for": 22,
-            "win": 7,
-            "diff": 12,
-            "draw": 4,
-            "loss": 3,
-            "team": "Ural Yekaterinburg",
-            "played": 14,
-            "points": 25,
-            "against": 10,
+            "for": 21,
+            "win": 6,
+            "diff": -1,
+            "draw": 3,
+            "loss": 7,
+            "team": "Volga Ulyanovsk",
+            "played": 16,
+            "points": 21,
+            "against": 22,
             "highlight": "transparent"
           },
           {
@@ -10019,27 +10101,15 @@
             "highlight": "transparent"
           },
           {
-            "for": 20,
-            "win": 5,
-            "diff": -2,
-            "draw": 3,
-            "loss": 7,
-            "team": "Volga Ulyanovsk",
-            "played": 15,
-            "points": 18,
-            "against": 22,
-            "highlight": "transparent"
-          },
-          {
-            "for": 18,
+            "for": 19,
             "win": 4,
-            "diff": -5,
+            "diff": -7,
             "draw": 3,
-            "loss": 7,
+            "loss": 8,
             "team": "Chelyabinsk",
-            "played": 14,
+            "played": 15,
             "points": 15,
-            "against": 23,
+            "against": 26,
             "highlight": "transparent"
           },
           {
@@ -10052,6 +10122,18 @@
             "played": 15,
             "points": 14,
             "against": 30,
+            "highlight": "transparent"
+          },
+          {
+            "for": 12,
+            "win": 3,
+            "diff": -14,
+            "draw": 5,
+            "loss": 7,
+            "team": "Leningradets Leningrad Oblast",
+            "played": 15,
+            "points": 14,
+            "against": 26,
             "highlight": "transparent"
           },
           {
@@ -10068,26 +10150,14 @@
           },
           {
             "for": 11,
-            "win": 3,
-            "diff": -14,
-            "draw": 4,
-            "loss": 7,
-            "team": "Leningradets Leningrad Oblast",
-            "played": 14,
-            "points": 13,
-            "against": 25,
-            "highlight": "transparent"
-          },
-          {
-            "for": 10,
             "win": 4,
             "diff": -11,
-            "draw": 0,
+            "draw": 1,
             "loss": 10,
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 14,
-            "points": 12,
-            "against": 21,
+            "played": 15,
+            "points": 13,
+            "against": 22,
             "highlight": "#FFBBBB"
           },
           {
@@ -10566,6 +10636,20 @@
             "losing_bonus": null
           },
           {
+            "for": 22,
+            "win": 7,
+            "diff": 8,
+            "draw": 6,
+            "loss": 1,
+            "team": "Boca Juniors",
+            "played": 14,
+            "points": 27,
+            "against": 14,
+            "highlight": "#BBF3BB",
+            "try_bonus": null,
+            "losing_bonus": null
+          },
+          {
             "for": 20,
             "win": 8,
             "diff": 7,
@@ -10575,20 +10659,6 @@
             "played": 14,
             "points": 27,
             "against": 13,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 21,
-            "win": 6,
-            "diff": 7,
-            "draw": 6,
-            "loss": 1,
-            "team": "Boca Juniors",
-            "played": 13,
-            "points": 24,
-            "against": 14,
             "highlight": "#BBF3BB",
             "try_bonus": null,
             "losing_bonus": null
@@ -10652,13 +10722,13 @@
           {
             "for": 12,
             "win": 5,
-            "diff": -1,
+            "diff": -2,
             "draw": 4,
-            "loss": 4,
+            "loss": 5,
             "team": "Independiente",
-            "played": 13,
+            "played": 14,
             "points": 19,
-            "against": 13,
+            "against": 14,
             "highlight": "#BBF3BB",
             "try_bonus": null,
             "losing_bonus": null
@@ -10809,6 +10879,20 @@
             "losing_bonus": null
           },
           {
+            "for": 19,
+            "win": 7,
+            "diff": 6,
+            "draw": 2,
+            "loss": 5,
+            "team": "River Plate",
+            "played": 14,
+            "points": 23,
+            "against": 13,
+            "highlight": "#BBF3BB",
+            "try_bonus": null,
+            "losing_bonus": null
+          },
+          {
             "for": 14,
             "win": 6,
             "diff": 3,
@@ -10832,20 +10916,6 @@
             "played": 14,
             "points": 21,
             "against": 21,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 18,
-            "win": 6,
-            "diff": 5,
-            "draw": 2,
-            "loss": 5,
-            "team": "River Plate",
-            "played": 13,
-            "points": 20,
-            "against": 13,
             "highlight": "#BBF3BB",
             "try_bonus": null,
             "losing_bonus": null
@@ -10937,13 +11007,13 @@
           {
             "for": 14,
             "win": 3,
-            "diff": -6,
+            "diff": -7,
             "draw": 3,
-            "loss": 7,
+            "loss": 8,
             "team": "Racing",
-            "played": 13,
+            "played": 14,
             "points": 12,
-            "against": 20,
+            "against": 21,
             "highlight": "transparent",
             "try_bonus": null,
             "losing_bonus": null
@@ -11088,8 +11158,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-25T19:38:30.052327+00:00",
-    "torpedo": "2026-10-25T19:38:30.052327+00:00"
+    "velez": "2026-10-26T01:55:53.163538+00:00",
+    "torpedo": "2026-10-26T01:55:53.163538+00:00"
   },
   "matches": [
     {
@@ -34501,7 +34571,7 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Winnipeg Blue Bombers",
-      "score": "34-27",
+      "score": "35-27",
       "date": "2026-10-16",
       "time": "19:30",
       "utc": "2026-10-17T01:30:00+00:00",
@@ -39016,6 +39086,17 @@
       "attendance": null
     },
     {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Winnipeg Blue Bombers",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "13:00",
+      "utc": "2026-10-31T17:00:00+00:00",
+      "venue": "BMO Field",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Clermont Auvergne",
       "away": "Racing 92",
@@ -39024,6 +39105,17 @@
       "time": "13:30",
       "utc": "2026-10-31T13:30:00+00:00",
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "BC Lions",
+      "away": "Saskatchewan Roughriders",
+      "score": null,
+      "date": "2026-10-31",
+      "time": "13:30",
+      "utc": "2026-10-31T20:30:00+00:00",
+      "venue": "BC Place",
       "attendance": null
     },
     {
@@ -40919,6 +41011,17 @@
       "attendance": null
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Unión de Santa Fe",
+      "away": "Vélez Sarsfield",
+      "score": "-",
+      "date": "2026-11-08",
+      "time": "14:00",
+      "utc": "2026-11-08T17:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Mitteldeutscher",
       "away": "Skyliners Frankfurt",
@@ -40992,17 +41095,6 @@
       "date": "2026-11-08",
       "time": "16:30",
       "utc": "2026-11-08T16:30:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Unión de Santa Fe",
-      "away": "Vélez Sarsfield",
-      "score": "-",
-      "date": "2026-11-08",
-      "time": "17:00",
-      "utc": "2026-11-08T20:00:00+00:00",
       "venue": null,
       "attendance": null
     },
