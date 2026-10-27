@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-27T06:10:06+00:00",
+  "updated": "2026-10-27T14:02:49+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11158,8 +11158,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-10-27T06:09:10.080556+00:00",
-    "torpedo": "2026-10-27T06:09:10.080556+00:00"
+    "velez": "2026-10-27T14:01:47.363004+00:00",
+    "torpedo": "2026-10-27T14:01:47.363004+00:00"
   },
   "matches": [
     {
@@ -44511,17 +44511,6 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "N.R. Ludwigsburg",
-      "away": "Mitteldeutscher",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "14:00",
-      "utc": "2026-11-22T14:00:00+00:00",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Ratiopharm Ulm",
       "score": null,
@@ -44539,6 +44528,17 @@
       "date": "2026-11-22",
       "time": "15:00",
       "utc": "2026-11-22T15:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "N.R. Ludwigsburg",
+      "away": "Mitteldeutscher",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "15:30",
+      "utc": "2026-11-22T15:30:00+00:00",
       "venue": null,
       "attendance": null
     },
