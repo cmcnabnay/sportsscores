@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-27T16:41:45+00:00",
+  "updated": "2026-10-27T18:04:58+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3287,6 +3287,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 19,
+            "win": 11,
+            "draw": null,
+            "loss": 5,
+            "for": 49,
+            "against": 37,
+            "diff": 12,
+            "points": 25,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Severstal Cherepovets",
             "played": 20,
             "win": 11,
@@ -3296,18 +3308,6 @@
             "against": 41,
             "diff": 4,
             "points": 24,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 19,
-            "win": 10,
-            "draw": null,
-            "loss": 5,
-            "for": 46,
-            "against": 36,
-            "diff": 10,
-            "points": 23,
             "highlight": "#BBF3BB"
           },
           {
@@ -3327,10 +3327,10 @@
             "played": 19,
             "win": 9,
             "draw": null,
-            "loss": 8,
-            "for": 55,
-            "against": 54,
-            "diff": 1,
+            "loss": 9,
+            "for": 56,
+            "against": 57,
+            "diff": -1,
             "points": 19,
             "highlight": "#BBF3BB"
           },
@@ -3364,9 +3364,9 @@
             "win": 2,
             "draw": null,
             "loss": 13,
-            "for": 29,
-            "against": 66,
-            "diff": -37,
+            "for": 30,
+            "against": 68,
+            "diff": -38,
             "points": 9,
             "highlight": null
           }
@@ -3382,13 +3382,13 @@
           {
             "team": "Metallurg Magnitogorsk",
             "played": 21,
-            "win": 15,
+            "win": 16,
             "draw": null,
             "loss": 3,
-            "for": 66,
+            "for": 68,
             "against": 38,
-            "diff": 28,
-            "points": 32,
+            "diff": 30,
+            "points": 34,
             "highlight": "#D6F9FF"
           },
           {
@@ -3396,10 +3396,10 @@
             "played": 20,
             "win": 11,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 55,
-            "against": 46,
-            "diff": 9,
+            "against": 48,
+            "diff": 7,
             "points": 24,
             "highlight": "#BBF3FF"
           },
@@ -3457,9 +3457,9 @@
             "win": 8,
             "draw": null,
             "loss": 8,
-            "for": 42,
-            "against": 48,
-            "diff": -6,
+            "for": 44,
+            "against": 49,
+            "diff": -5,
             "points": 19,
             "highlight": "#BBF3BB"
           },
@@ -37793,7 +37793,7 @@
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "1-3",
       "date": "2026-10-27",
       "time": "15:00",
       "utc": "2026-10-27T15:00:00+00:00",
@@ -38671,6 +38671,17 @@
     },
     {
       "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-10-29",
+      "time": "16:00",
+      "utc": "2026-10-29T16:00:00+00:00",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "Admiral Vladivostok",
       "score": null,
@@ -38825,8 +38836,8 @@
     },
     {
       "league": "khl-2026-27",
-      "home": "Severstal Cherepovets",
-      "away": "Spartak Moscow",
+      "home": "AK Bars",
+      "away": "Amur Khabarovsk",
       "score": null,
       "date": "2026-10-30",
       "time": "16:00",
@@ -38836,8 +38847,8 @@
     },
     {
       "league": "khl-2026-27",
-      "home": "AK Bars",
-      "away": "Amur Khabarovsk",
+      "home": "Severstal Cherepovets",
+      "away": "Spartak Moscow",
       "score": null,
       "date": "2026-10-30",
       "time": "16:00",
