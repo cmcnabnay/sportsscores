@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-28T01:05:29+00:00",
+  "updated": "2026-10-28T01:16:20+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -200,24 +200,24 @@
           "label": "Division semi-finals",
           "matches": [
             {
-              "seed1": "E2",
-              "team1": "Toronto Argonauts",
-              "score1": null,
-              "seed2": "W4",
-              "team2": "Winnipeg Blue Bombers",
-              "score2": null,
               "date": "2026-10-31",
-              "venue": "BMO Field"
+              "seed1": "E2",
+              "seed2": "W4",
+              "team1": "Toronto Argonauts",
+              "team2": "Winnipeg Blue Bombers",
+              "venue": "BMO Field",
+              "score1": null,
+              "score2": null
             },
             {
-              "seed1": "W2",
-              "team1": "BC Lions",
-              "score1": null,
-              "seed2": "W3",
-              "team2": "Saskatchewan Roughriders",
-              "score2": null,
               "date": "2026-10-31",
-              "venue": "BC Place"
+              "seed1": "W2",
+              "seed2": "W3",
+              "team1": "BC Lions",
+              "team2": "Saskatchewan Roughriders",
+              "venue": "BC Place",
+              "score1": null,
+              "score2": null
             }
           ]
         },
@@ -225,24 +225,24 @@
           "label": "Division finals",
           "matches": [
             {
-              "seed1": "E1",
-              "team1": "Montreal Alouettes",
-              "score1": null,
-              "seed2": null,
-              "team2": null,
-              "score2": null,
               "date": "2026-11-07",
-              "venue": null
+              "seed1": "E1",
+              "seed2": null,
+              "team1": "Montreal Alouettes",
+              "team2": null,
+              "venue": null,
+              "score1": null,
+              "score2": null
             },
             {
-              "seed1": "W1",
-              "team1": "Edmonton Elks",
-              "score1": null,
-              "seed2": "W",
-              "team2": null,
-              "score2": null,
               "date": "2026-11-07",
-              "venue": null
+              "seed1": "W1",
+              "seed2": "W",
+              "team1": "Edmonton Elks",
+              "team2": null,
+              "venue": null,
+              "score1": null,
+              "score2": null
             }
           ]
         },
@@ -250,14 +250,14 @@
           "label": "113th Grey Cup",
           "matches": [
             {
-              "seed1": null,
-              "team1": null,
-              "score1": null,
-              "seed2": "W",
-              "team2": null,
-              "score2": null,
               "date": "2026-11-15",
-              "venue": "McMahon Stadium – Calgary"
+              "seed1": null,
+              "seed2": "W",
+              "team1": null,
+              "team2": null,
+              "venue": "McMahon Stadium – Calgary",
+              "score1": null,
+              "score2": null
             }
           ]
         }
@@ -782,119 +782,119 @@
   },
   "standings": {
     "cfl-2026": {
-      "West Division": {
+      "East Division": {
         "rows": [
           {
-            "team": "Edmonton Elks",
-            "played": 18,
-            "win": 13,
-            "draw": null,
-            "loss": 5,
-            "for": 541,
-            "against": 435,
+            "for": 624,
+            "win": 14,
             "diff": null,
-            "points": 26,
+            "draw": null,
+            "loss": 4,
+            "team": "Montreal Alouettes",
+            "played": 18,
+            "points": 28,
+            "against": 476,
             "highlight": null
           },
           {
-            "team": "BC Lions",
-            "played": 18,
-            "win": 10,
-            "draw": null,
-            "loss": 8,
-            "for": 516,
-            "against": 484,
-            "diff": null,
-            "points": 20,
-            "highlight": null
-          },
-          {
-            "team": "Saskatchewan Roughriders",
-            "played": 18,
-            "win": 10,
-            "draw": null,
-            "loss": 8,
-            "for": 486,
-            "against": 473,
-            "diff": null,
-            "points": 20,
-            "highlight": null
-          },
-          {
-            "team": "Winnipeg Blue Bombers",
-            "played": 18,
+            "for": 517,
             "win": 9,
+            "diff": null,
             "draw": null,
             "loss": 9,
-            "for": 475,
-            "against": 492,
-            "diff": null,
+            "team": "Toronto Argonauts",
+            "played": 18,
             "points": 18,
+            "against": 528,
             "highlight": null
           },
           {
-            "team": "Calgary Stampeders",
-            "played": 18,
-            "win": 9,
-            "draw": null,
-            "loss": 9,
-            "for": 632,
-            "against": 587,
+            "for": 443,
+            "win": 6,
             "diff": null,
-            "points": 18,
+            "draw": null,
+            "loss": 12,
+            "team": "Hamilton Tiger-Cats",
+            "played": 18,
+            "points": 12,
+            "against": 523,
+            "highlight": null
+          },
+          {
+            "for": 437,
+            "win": 1,
+            "diff": null,
+            "draw": null,
+            "loss": 17,
+            "team": "Ottawa Redblacks",
+            "played": 18,
+            "points": 2,
+            "against": 673,
             "highlight": null
           }
         ],
         "legend": {}
       },
-      "East Division": {
+      "West Division": {
         "rows": [
           {
-            "team": "Montreal Alouettes",
-            "played": 18,
-            "win": 14,
-            "draw": null,
-            "loss": 4,
-            "for": 624,
-            "against": 476,
+            "for": 541,
+            "win": 13,
             "diff": null,
-            "points": 28,
+            "draw": null,
+            "loss": 5,
+            "team": "Edmonton Elks",
+            "played": 18,
+            "points": 26,
+            "against": 435,
             "highlight": null
           },
           {
-            "team": "Toronto Argonauts",
+            "for": 516,
+            "win": 10,
+            "diff": null,
+            "draw": null,
+            "loss": 8,
+            "team": "BC Lions",
             "played": 18,
+            "points": 20,
+            "against": 484,
+            "highlight": null
+          },
+          {
+            "for": 486,
+            "win": 10,
+            "diff": null,
+            "draw": null,
+            "loss": 8,
+            "team": "Saskatchewan Roughriders",
+            "played": 18,
+            "points": 20,
+            "against": 473,
+            "highlight": null
+          },
+          {
+            "for": 475,
             "win": 9,
+            "diff": null,
             "draw": null,
             "loss": 9,
-            "for": 517,
-            "against": 528,
-            "diff": null,
+            "team": "Winnipeg Blue Bombers",
+            "played": 18,
             "points": 18,
+            "against": 492,
             "highlight": null
           },
           {
-            "team": "Hamilton Tiger-Cats",
-            "played": 18,
-            "win": 6,
-            "draw": null,
-            "loss": 12,
-            "for": 443,
-            "against": 523,
+            "for": 632,
+            "win": 9,
             "diff": null,
-            "points": 12,
-            "highlight": null
-          },
-          {
-            "team": "Ottawa Redblacks",
-            "played": 18,
-            "win": 1,
             "draw": null,
-            "loss": 17,
-            "for": 437,
-            "against": 673,
-            "diff": null,
-            "points": 2,
+            "loss": 9,
+            "team": "Calgary Stampeders",
+            "played": 18,
+            "points": 18,
+            "against": 587,
             "highlight": null
           }
         ],
