@@ -90,6 +90,76 @@
     box-shadow: 0 2px 6px rgba(11,31,58,0.12);
   }
   .day-nav button:hover { background: var(--navy); color: white; }
+  .day-nav button:disabled { opacity: 0.4; cursor: default; }
+  .day-nav button:disabled:hover { background: white; color: var(--navy); }
+
+  /* Team search: full-width first card in the controls bar. Selected teams
+     show as chips in front of the input; suggestions drop down below. */
+  .control-card.team-search-card { flex-basis: 100%; position: relative; }
+  .control-card.is-disabled { opacity: 0.45; }
+  .team-search-field {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+  .control-card .team-search-field input {
+    flex: 1;
+    min-width: 140px;
+    width: auto;
+  }
+  .team-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background: var(--navy);
+    color: white;
+    border-radius: 14px;
+    padding: 3px 4px 3px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .team-chip button {
+    border: none;
+    background: none;
+    color: #b9c4d8;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0 4px;
+  }
+  .team-chip button:hover { color: white; }
+  .team-suggestions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 6px 0 0;
+    padding: 4px 0;
+    list-style: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(11,31,58,0.2);
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 50;
+  }
+  .team-suggestion {
+    padding: 8px 14px;
+    cursor: pointer;
+  }
+  .team-suggestion.active { background: #eef1f7; }
+  .team-suggestion .sugg-name { font-size: 14px; font-weight: 700; display: flex; align-items: center; }
+  .team-suggestion .sugg-sport { color: var(--grey); font-weight: 500; margin-left: 4px; }
+  .team-suggestion .sugg-comps {
+    font-size: 11px;
+    color: var(--grey);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .team-suggestion.empty { color: var(--grey); font-size: 13px; cursor: default; }
 
   .view-tabs {
     max-width: 720px;
@@ -502,17 +572,25 @@
 </header>
 
 <div class="controls" id="controls-bar">
+  <div class="control-card team-search-card">
+    <label for="team-search-input">Teams</label>
+    <div class="team-search-field" id="team-search-field">
+      <input type="text" id="team-search-input" placeholder="Search for a team…" autocomplete="off"
+        role="combobox" aria-expanded="false" aria-controls="team-suggestions" aria-autocomplete="list">
+    </div>
+    <ul class="team-suggestions" id="team-suggestions" role="listbox" style="display:none;"></ul>
+  </div>
   <div class="control-card">
     <label for="date-input">Date</label>
     <input type="date" id="date-input">
   </div>
-  <div class="control-card">
+  <div class="control-card" id="league-card">
     <label for="league-select">League</label>
     <select id="league-select">
       <option value="all">All leagues</option>
     </select>
   </div>
-  <div class="control-card">
+  <div class="control-card" id="sport-card">
     <label for="sport-select">Sport</label>
     <select id="sport-select">
       <option value="all">All sports</option>
@@ -680,6 +758,289 @@ function matchesLeagueSelection(m, selectedLeague) {
   return m.league === selectedLeague;
 }
 
+// ---- Team search ---------------------------------------------------------
+// The Teams box at the top of the Fixtures view. Picking one or more teams
+// shows only their matches, across every competition of that team's sport
+// (Real Madrid: Liga ACB + EuroLeague), and Prev/Next skip days without
+// any of them. A team is one search result per sport group, so a country
+// name splits by sport: Australia (rugby union), Australia (rugby league),
+// Australia (basketball). While any team is selected, the League/Sport
+// dropdowns are ignored (and dimmed).
+//
+// Names are grouped loosely - accents, case, spacing and punctuation are
+// ignored, so "ALBA Berlin"/"Alba Berlin" and "Bàsquet Girona"/"Basquet
+// Girona" are one team. Names that differ by more than that (a sponsor
+// name in one competition's source, a short name in another) are listed
+// here: leagues[key].sport -> { label shown in search: [other names] }.
+// The label may itself be one of the stored names. Names that look alike
+// but are different clubs are deliberately NOT listed: "AEK BC" (BCL, AEK
+// Athens) vs "AEK Larnaca B.C.", "Bulls XV" (Currie Cup) vs "Bulls" (URC).
+const TEAM_ALIASES = {
+  'basketball': {
+    'ASVEL Villeurbanne': ['LDLC ASVEL Lyon-Villeurbanne'],
+    'Barcelona': ['Barça Basket'],
+    'Baskonia Vitoria': ['Kosner Baskonia'],
+    'Bayern Munich': ['Bayern München'],
+    'Bilbao Basket': ['Surne Bilbao Basket'],
+    'Breogán': ['Río Breogán'],
+    'Brose Bamberg': ['Bamberg Baskets'],
+    'Chalon-sur-Saône': ['Élan Chalon'],
+    'Cholet': ['Cholet Basket'],
+    'Gence BC': ['Gence BK Ganja'],
+    'Gladiators Trier': ['TBB Trier'],
+    'Joventut de Badalona': ['Joventut Badalona'],
+    'Körfez Basket': ['Biotekno Körfez Basket', 'Glint Korfez Basket'],
+    'Nancy': ['SLUC Nancy Basket'],
+    'Nanterre': ['Nanterre 92'],
+    'Olimpia Milano': ['EA7 Emporio Armani Milano'],
+    'Pallacanestro Reggiana': ['UNAhotels Reggio Emilia'],
+    'Pallacanestro Varese': ['Openjobmetis Varese'],
+    'SC Rasta Vechta': ['Rasta Vechta'],
+    'Strasbourg': ['SIG Strasbourg'],
+    'Unicaja Málaga': ['Unicaja'],
+    'Würzburg Baskets': ['Wurzburg Baskets', 'Fitness First Würzburg Baskets'],
+  },
+};
+
+// Competitions whose sides share a name with the senior team but aren't
+// it (the U20 championship lists plain "Australia") - a separate search
+// result with this suffix, keyed by season-independent league key prefix.
+const TEAM_SEARCH_LEAGUE_SUFFIXES = { 'u20-jwc-': 'U20' };
+
+// Not real teams - left out of the search entirely.
+const NON_TEAM_RE = /^(?:tbd|tbc|to be (?:confirmed|determined)|winners?\b|losers?\b)/i;
+
+// 'Bàsquet Girona' -> 'basquetgirona'
+function looseTeamKey(name) {
+  return String(name).normalize('NFD').replace(/\p{M}/gu, '')
+    .toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
+}
+
+// sport + loose alias name -> label, built from TEAM_ALIASES.
+const TEAM_ALIAS_LOOKUP = {};
+for (const [sport, groups] of Object.entries(TEAM_ALIASES)) {
+  for (const [label, others] of Object.entries(groups)) {
+    for (const n of [label, ...others]) TEAM_ALIAS_LOOKUP[`${sport}|${looseTeamKey(n)}`] = label;
+  }
+}
+
+// { key: {key, label, sportGroup, names:Set, leagueKeys:Set, count} },
+// rebuilt on every fixtures load. The key ("Basketball|realmadrid") is
+// stable across reloads, so a selection survives the 5-minute refresh.
+let teamIndex = {};
+const selectedTeams = new Map(); // key -> label (kept so a chip still has a name if a refresh drops the team)
+
+// The search key for one side of a match, or null for a placeholder.
+function teamSearchKey(leagueKey, name) {
+  if (!name || PLACEHOLDER_TEAM_RE.test(name.trim()) || NON_TEAM_RE.test(name.trim())) return null;
+  const sport = (leagues[leagueKey] || {}).sport;
+  const n = normalizeTeamName(name);
+  const alias = TEAM_ALIAS_LOOKUP[`${sport}|${looseTeamKey(n)}`];
+  const prefix = Object.keys(TEAM_SEARCH_LEAGUE_SUFFIXES).find(p => leagueKey.startsWith(p));
+  const suffix = prefix ? TEAM_SEARCH_LEAGUE_SUFFIXES[prefix] : '';
+  return {
+    key: `${leagueSportGroup(leagueKey)}|${looseTeamKey(alias || n)}${suffix ? '|' + suffix : ''}`,
+    name: n,
+    alias,
+    suffix,
+  };
+}
+
+// Also tags every match with m._teamKeys = [homeKey, awayKey].
+function buildTeamIndex() {
+  teamIndex = {};
+  const nameCounts = {}; // key -> { name: count }, to label a team by its most used name
+  for (const m of allMatches) {
+    m._teamKeys = [];
+    for (const side of [m.home, m.away]) {
+      const t = teamSearchKey(m.league, side);
+      if (!t) continue;
+      m._teamKeys.push(t.key);
+      const entry = teamIndex[t.key] || (teamIndex[t.key] = {
+        key: t.key, label: null, alias: t.alias, suffix: t.suffix,
+        sportGroup: leagueSportGroup(m.league), names: new Set(), leagueKeys: new Set(), count: 0,
+      });
+      entry.names.add(t.name);
+      entry.leagueKeys.add(m.league);
+      entry.count++;
+      const counts = nameCounts[t.key] || (nameCounts[t.key] = {});
+      counts[t.name] = (counts[t.name] || 0) + 1;
+    }
+  }
+  for (const entry of Object.values(teamIndex)) {
+    const counts = nameCounts[entry.key];
+    const base = entry.alias || Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
+    entry.label = entry.suffix ? `${base} ${entry.suffix}` : base;
+    if (entry.alias) entry.names.add(entry.alias);
+  }
+}
+
+function teamSearchLabel(entry) {
+  return `${entry.label} (${entry.sportGroup.toLowerCase()})`;
+}
+
+// Up to `limit` teams matching `query`: name starts with it, then a word
+// in the name starts with it, then it appears anywhere; busier teams first.
+function searchTeams(query, limit = 10) {
+  const q = looseTeamKey(query);
+  if (!q) return [];
+  const results = [];
+  for (const entry of Object.values(teamIndex)) {
+    if (selectedTeams.has(entry.key)) continue;
+    let rank = null;
+    for (const n of [entry.label, ...entry.names]) {
+      const words = String(n).split(/[^\p{L}\p{N}]+/u).map(looseTeamKey).filter(Boolean);
+      const loose = words.join('');
+      let r = null;
+      if (loose.startsWith(q)) r = 0;
+      else if (words.some((w, i) => words.slice(i).join('').startsWith(q))) r = 1;
+      else if (loose.includes(q)) r = 2;
+      if (r !== null && (rank === null || r < rank)) rank = r;
+    }
+    if (rank !== null) results.push({ entry, rank });
+  }
+  results.sort((a, b) => a.rank - b.rank || b.entry.count - a.entry.count || a.entry.label.localeCompare(b.entry.label));
+  return results.slice(0, limit).map(r => r.entry);
+}
+
+function matchesTeamSelection(m) {
+  return (m._teamKeys || []).some(k => selectedTeams.has(k));
+}
+
+// What the Fixtures list shows, for any date.
+function matchesFixtureFilters(m) {
+  if (selectedTeams.size) return matchesTeamSelection(m);
+  return matchesSportSelection(m, sportSelect.value) && matchesLeagueSelection(m, leagueSelect.value);
+}
+
+// Sorted dates that have at least one match for the selected teams.
+function selectedTeamDates() {
+  return [...new Set(allMatches.filter(matchesTeamSelection).map(m => m._localDate).filter(Boolean))].sort();
+}
+
+// After the selection changes: if the shown day has none of the selected
+// teams' matches, move to their next match day (or their last one, if
+// they have nothing coming up).
+function jumpToSelectedTeamDate() {
+  if (!selectedTeams.size) return;
+  const dates = selectedTeamDates();
+  if (!dates.length || dates.includes(dateInput.value)) return;
+  dateInput.value = dates.find(d => d > dateInput.value) || dates[dates.length - 1];
+}
+
+const teamSearchInput = document.getElementById('team-search-input');
+const teamSearchField = document.getElementById('team-search-field');
+const teamSuggestions = document.getElementById('team-suggestions');
+let teamSuggestionResults = [];
+let teamSuggestionActive = -1;
+
+function renderTeamChips() {
+  teamSearchField.querySelectorAll('.team-chip').forEach(c => c.remove());
+  for (const [key, label] of selectedTeams) {
+    const entry = teamIndex[key];
+    const chip = document.createElement('span');
+    chip.className = 'team-chip';
+    chip.textContent = entry ? teamSearchLabel(entry) : label;
+    const remove = document.createElement('button');
+    remove.type = 'button';
+    remove.setAttribute('aria-label', `Remove ${chip.textContent}`);
+    remove.innerHTML = '&times;';
+    remove.addEventListener('click', () => removeSelectedTeam(key));
+    chip.appendChild(remove);
+    teamSearchField.insertBefore(chip, teamSearchInput);
+  }
+  teamSearchInput.placeholder = selectedTeams.size ? 'Add another team…' : 'Search for a team…';
+  const filtering = selectedTeams.size > 0;
+  for (const id of ['league-card', 'sport-card']) {
+    document.getElementById(id).classList.toggle('is-disabled', filtering);
+  }
+  leagueSelect.disabled = filtering;
+  sportSelect.disabled = filtering;
+}
+
+function addSelectedTeam(entry) {
+  selectedTeams.set(entry.key, teamSearchLabel(entry));
+  teamSearchInput.value = '';
+  closeTeamSuggestions();
+  renderTeamChips();
+  jumpToSelectedTeamDate();
+  render();
+}
+
+function removeSelectedTeam(key) {
+  selectedTeams.delete(key);
+  renderTeamChips();
+  jumpToSelectedTeamDate();
+  render();
+}
+
+function closeTeamSuggestions() {
+  teamSuggestions.style.display = 'none';
+  teamSearchInput.setAttribute('aria-expanded', 'false');
+  teamSuggestionResults = [];
+  teamSuggestionActive = -1;
+}
+
+function renderTeamSuggestions() {
+  const query = teamSearchInput.value;
+  if (!looseTeamKey(query)) {
+    closeTeamSuggestions();
+    return;
+  }
+  teamSuggestionResults = searchTeams(query);
+  teamSuggestionActive = teamSuggestionResults.length ? Math.max(0, Math.min(teamSuggestionActive, teamSuggestionResults.length - 1)) : -1;
+  teamSuggestions.innerHTML = '';
+  if (!teamSuggestionResults.length) {
+    teamSuggestions.innerHTML = '<li class="team-suggestion empty">No teams found</li>';
+  }
+  teamSuggestionResults.forEach((entry, i) => {
+    const li = document.createElement('li');
+    li.className = 'team-suggestion' + (i === teamSuggestionActive ? ' active' : '');
+    li.setAttribute('role', 'option');
+    li.setAttribute('aria-selected', String(i === teamSuggestionActive));
+    const firstLeague = [...entry.leagueKeys][0];
+    const comps = [...entry.leagueKeys].map(k => (leagues[k] && leagues[k].name) || k).sort().join(' · ');
+    li.innerHTML = `
+      <div class="sugg-name">${teamBadges(firstLeague, [...entry.names][0])}${escapeHtml(entry.label)}<span class="sugg-sport">(${escapeHtml(entry.sportGroup.toLowerCase())})</span></div>
+      <div class="sugg-comps">${escapeHtml(comps)}</div>`;
+    // mousedown, not click: fires before the input's blur closes the list.
+    li.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      addSelectedTeam(entry);
+    });
+    teamSuggestions.appendChild(li);
+  });
+  teamSuggestions.style.display = '';
+  teamSearchInput.setAttribute('aria-expanded', 'true');
+}
+
+teamSearchInput.addEventListener('input', () => {
+  teamSuggestionActive = 0;
+  renderTeamSuggestions();
+});
+teamSearchInput.addEventListener('focus', renderTeamSuggestions);
+teamSearchInput.addEventListener('blur', closeTeamSuggestions);
+teamSearchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    if (!teamSuggestionResults.length) return;
+    e.preventDefault();
+    const n = teamSuggestionResults.length;
+    teamSuggestionActive = (teamSuggestionActive + (e.key === 'ArrowDown' ? 1 : -1) + n) % n;
+    renderTeamSuggestions();
+    const active = teamSuggestions.querySelector('.team-suggestion.active');
+    if (active) active.scrollIntoView({ block: 'nearest' });
+  } else if (e.key === 'Enter') {
+    if (teamSuggestionActive >= 0 && teamSuggestionResults[teamSuggestionActive]) {
+      e.preventDefault();
+      addSelectedTeam(teamSuggestionResults[teamSuggestionActive]);
+    }
+  } else if (e.key === 'Escape') {
+    closeTeamSuggestions();
+  } else if (e.key === 'Backspace' && !teamSearchInput.value && selectedTeams.size) {
+    removeSelectedTeam([...selectedTeams.keys()].pop());
+  }
+});
+
 function closeGameModal() {
   gameModalOverlay.style.display = 'none';
 }
@@ -747,6 +1108,18 @@ function toISODate(d) {
 }
 
 function shiftDate(days) {
+  // Teams selected: step to their previous/next match day instead.
+  if (selectedTeams.size) {
+    const dates = selectedTeamDates();
+    const target = days > 0
+      ? dates.find(d => d > dateInput.value)
+      : dates.filter(d => d < dateInput.value).pop();
+    if (target) {
+      dateInput.value = target;
+      render();
+    }
+    return;
+  }
   const current = new Date(dateInput.value + 'T00:00:00');
   current.setDate(current.getDate() + days);
   dateInput.value = toISODate(current);
@@ -855,20 +1228,25 @@ function render() {
   }
 
   const selectedDate = dateInput.value;
-  const selectedLeague = leagueSelect.value;
 
   selectedDateLabel.textContent = selectedDate ? formatDateLabel(selectedDate) : '';
 
   const dayMatches = allMatches
     .filter(m => m._localDate === selectedDate)
-    .filter(m => matchesSportSelection(m, sportSelect.value))
-    .filter(m => matchesLeagueSelection(m, selectedLeague))
+    .filter(matchesFixtureFilters)
     .sort((a, b) => (a._localTime || '99:99').localeCompare(b._localTime || '99:99'));
+
+  // Prev/Next are disabled when the selected teams have no earlier/later match day.
+  const teamDates = selectedTeams.size ? selectedTeamDates() : null;
+  document.getElementById('prev-day').disabled = !!teamDates && !teamDates.some(d => d < selectedDate);
+  document.getElementById('next-day').disabled = !!teamDates && !teamDates.some(d => d > selectedDate);
 
   matchList.innerHTML = '';
 
   if (dayMatches.length === 0) {
-    matchList.innerHTML = '<div class="empty-state">No matches scheduled for this day.</div>';
+    matchList.innerHTML = selectedTeams.size
+      ? '<div class="empty-state">None of the selected teams play on this day.</div>'
+      : '<div class="empty-state">No matches scheduled for this day.</div>';
     return;
   }
 
@@ -1879,6 +2257,8 @@ function loadFixtures(isRefresh) {
       standings = data.standings || {};
       attendanceTables = data.attendance_tables || {};
       playoffs = data.playoffs || {};
+      buildTeamIndex();
+      renderTeamChips();
       if (!isRefresh) {
         populateSportOptions();
         populateLeagueOptions();
