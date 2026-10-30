@@ -72,6 +72,7 @@ Requires: beautifulsoup4
 """
 
 import argparse
+import copy
 import hashlib
 import json
 import re
@@ -191,6 +192,10 @@ LEAGUES = {
         ],
         "sport": "rugby",
         "parser": "rugbybox",
+        # The two series pages list every game, so a stored unplayed game they
+        # no longer list was moved (games swapped weeks once real kickoffs
+        # were published, leaving 12 untimed copies) - see full_season in run().
+        "full_season": True,
         # no utc_offset needed - each match states its own UTC offset directly
         "standings": {
             "page": "2026_World_Rugby_Nations_Cup",
@@ -784,6 +789,9 @@ LEAGUES = {
         "sport": "basketball",
         # Sourced from 365Scores' own JSON API
         "parser": "scores365",
+        # 365Scores returns the whole season (306 games), so an unplayed game
+        # it stops listing was moved or dropped - see full_season in run().
+        "full_season": True,
         "scores365_competition_id": 27,
         # 365Scores' "current season" pointer for this competition as of
         # the 2026-09-18 season kickoff. Bump this (and the key/name above)
@@ -862,6 +870,8 @@ LEAGUES = {
         "name": "Liga ACB 2026-27",
         "sport": "basketball",
         "parser": "scores365",
+        # Whole season from 365Scores - see bbl-2026-27.
+        "full_season": True,
         "scores365_competition_id": 14,
         "scores365_season_num": 71,
         "standings": {"scores365_competition_id": 14},
@@ -870,6 +880,8 @@ LEAGUES = {
         "name": "Lega Basket Serie A 2026-27",
         "sport": "basketball",
         "parser": "scores365",
+        # Whole season from 365Scores - see bbl-2026-27.
+        "full_season": True,
         "scores365_competition_id": 19,
         "scores365_season_num": 53,
         "standings": {"scores365_competition_id": 19},
@@ -878,6 +890,8 @@ LEAGUES = {
         "name": "LNB Élite 2026-27",
         "sport": "basketball",
         "parser": "scores365",
+        # Whole season from 365Scores - see bbl-2026-27.
+        "full_season": True,
         "scores365_competition_id": 38,
         "scores365_season_num": 105,
         "standings": {"scores365_competition_id": 38},
@@ -1198,6 +1212,13 @@ def fetch_scores365_games(competition_id, season_num=None, min_date=None, max_da
     return [g for g in games_by_id.values() if in_range(g)]
 
 
+def scores365_source_id(game):
+    """A match's "source_id" for a 365Scores game: the source's own game
+    id, which stays the same when the game is moved or a team renamed -
+    see merge_league_matches()."""
+    return f"365scores:{game['id']}"
+
+
 def parse_scores365_matches(games, league_key):
     """Turn 365Scores game objects (see fetch_scores365_games) into this
     project's usual match dict shape. A game that hasn't started yet
@@ -1256,6 +1277,8 @@ def parse_scores365_matches(games, league_key):
         # OT goal / shootout goal (confirmed on KHL "Final/SO" games).
         if score is not None and SCORES365_OT_STATUS_RE.search(g.get("statusText") or ""):
             match["ot"] = True
+        if g.get("id") is not None:
+            match["source_id"] = scores365_source_id(g)
         matches.append(match)
     return matches
 
@@ -1468,6 +1491,8 @@ def parse_sofascore_matches(events, league_key):
         # (120, "AP") - matches.html shows "FT/OT" instead of "FT".
         if score is not None and status.get("code") in SOFASCORE_OT_STATUS_CODES:
             match["ot"] = True
+        if e.get("id") is not None:
+            match["source_id"] = f"sofascore:{e['id']}"
         matches.append(match)
     return matches
 
@@ -1610,6 +1635,46 @@ TEAM_NAME_ALIASES = {
     # PLACEHOLDER_TEAM_NAME_PATTERNS) and every one of its games gets
     # dropped as a not-yet-decided slot.
     "chalon/saone": "Chalon-sur-Saône",
+    # Renamed mid-season by SofaScore (sponsor change). The games already
+    # played were stored under the old name and are never re-matched (match
+    # identity is the team pair + date), so each sat beside its re-fetched
+    # copy as a duplicate. Mapped to the name SofaScore uses now.
+    "glint korfez basket": "Biotekno Körfez Basket",
+    "yukatel merkezefendi belediyesi basket": "Denizli Basket Spor Kulübü",
+    "gence bc": "Gence BK Ganja",
+    # 365Scores filed Fiji's 2026-10-24 Test in Tokyo under its sevens side,
+    # next to the same game already stored as "Fiji".
+    "fiji 7's": "Fiji",
+    # FIBA qualifier standings say "Czechia", its matches "Czech Republic".
+    "czechia": "Czech Republic",
+    # Basketball clubs that SofaScore's European cups spell differently from
+    # their domestic league (365Scores), so one club showed under two
+    # names. Mapped to one stored name per club, without a sponsor where
+    # there's a choice. A generic city name ("Strasbourg", "Cholet") is
+    # kept as the target rather than used as a key: these aliases apply to
+    # every sport, and a football Strasbourg must not be renamed.
+    "alba berlin": "Alba Berlin",  # also "ALBA Berlin" - lookups are lowercased
+    "bàsquet girona": "Basquet Girona",
+    "bayern münchen": "Bayern Munich",
+    "bamberg baskets": "Brose Bamberg",
+    "barça basket": "Barcelona",
+    "kosner baskonia": "Baskonia Vitoria",
+    "surne bilbao basket": "Bilbao Basket",
+    "río breogán": "Breogán",
+    "élan chalon": "Chalon-sur-Saône",
+    "cholet basket": "Cholet",
+    "tbb trier": "Gladiators Trier",  # renamed in 2015; 365Scores still has the old name
+    "joventut badalona": "Joventut de Badalona",
+    "sluc nancy basket": "Nancy",
+    "nanterre 92": "Nanterre",
+    "ea7 emporio armani milano": "Olimpia Milano",
+    "ldlc asvel lyon-villeurbanne": "ASVEL Villeurbanne",
+    "unahotels reggio emilia": "Pallacanestro Reggiana",
+    "openjobmetis varese": "Pallacanestro Varese",
+    "rasta vechta": "SC Rasta Vechta",
+    "sig strasbourg": "Strasbourg",
+    "unicaja": "Unicaja Málaga",
+    "fitness first würzburg baskets": "Wurzburg Baskets",
 }
 
 
@@ -4932,9 +4997,13 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, detect_resche
     subsequent run are (a) getting its fields overwritten by a fresh
     parse, or (b) a brand new one getting appended.
 
-    Known limitation: matches are matched between runs by (home, away,
-    date), so a date change normally reads as a brand new fixture rather
-    than "the same match, new date". The common case - an unplayed match
+    Matching is by the source's own game id ("source_id") where both the
+    stored and the fresh match have one (365Scores, SofaScore), so a date
+    change or a renamed team just updates the stored match in place.
+
+    Known limitation, for matches without one: they're matched between
+    runs by (home, away, date), so a date change normally reads as a
+    brand new fixture rather than "the same match, new date". The common case - an unplayed match
     whose exact day/kickoff shifts by a few days as it gets locked in
     (e.g. a finals slot first published loosely, then confirmed) - is
     handled below via RESCHEDULE_WINDOW_DAYS; anything moved further out
@@ -4981,8 +5050,27 @@ def merge_league_matches(existing_matches, freshly_parsed_matches, detect_resche
         if ident[1] is not None and stored.get("score") is None
     }
 
+    # The source's own game id, where both sides have one: the surest
+    # match there is - a game moved to another date, or a team renamed,
+    # is still the same id, so it replaces its stored copy instead of
+    # being added next to it.
+    source_to_key = {
+        stored["source_id"]: ident
+        for ident, stored in merged.items()
+        if stored.get("source_id")
+    }
+
     for m in freshly_parsed_matches:
         ident = _match_identity(m)
+        old_key = source_to_key.get(m.get("source_id")) if m.get("source_id") else None
+        if old_key is not None:
+            if old_key != ident:
+                del merged[old_key]
+                pair_to_dateless_key.pop(old_key[0], None)
+                pair_to_unplayed_key.pop(old_key[0], None)
+            source_to_key[m["source_id"]] = ident
+            merged[ident] = m
+            continue
         if ident[1] is not None and ident not in merged:
             # Fresh match has a real date but we have a dateless stale entry
             # for the same team pair: replace the stale entry (always - a
@@ -5134,7 +5222,7 @@ SUPABASE_WRITE_BATCH = 500
 # _match_to_row()'s warning.
 MATCH_CORE_FIELDS = ("league", "home", "away", "score", "date", "time", "utc", "venue", "attendance")
 MATCH_EXTRA_FIELDS = (("ot", "ot"), ("group", "group_name"), ("round", "round"),
-                      ("referee", "referee"), ("status", "status"))
+                      ("referee", "referee"), ("status", "status"), ("source_id", "source_id"))
 
 # Snapshot of what Supabase held when load_existing() ran, so save() only
 # writes rows that actually changed. None = not loaded from Supabase.
@@ -5147,6 +5235,32 @@ class SupabaseError(RuntimeError):
 
 def supabase_enabled():
     return bool(SUPABASE_URL and SUPABASE_SECRET_KEY)
+
+
+# Whether the matches table has the source_id column yet (added with
+#   alter table matches add column if not exists source_id text;
+# in the Supabase SQL editor). Until it does, source ids are kept in the
+# local fixtures.json only and left out of every row sent to Supabase -
+# matching then falls back to team pair + date, as before.
+_source_id_column = None
+
+
+def _supabase_has_source_id():
+    global _source_id_column
+    if not supabase_enabled():
+        return False
+    if _source_id_column is None:
+        try:
+            _supabase_request("GET", "matches?select=source_id&limit=1")
+            _source_id_column = True
+        except SupabaseError as e:
+            if "source_id" not in str(e):
+                raise
+            print("!! Supabase: matches.source_id column missing - run "
+                  "'alter table matches add column if not exists source_id text;' "
+                  "in the SQL editor. Not storing source ids until then.", file=sys.stderr)
+            _source_id_column = False
+    return _source_id_column
 
 
 def _supabase_request(method, path, body=None, extra_headers=None):
@@ -5196,6 +5310,8 @@ def _match_to_row(m):
         row[k] = m.get(k)
     row["attendance"] = att
     for key, col in MATCH_EXTRA_FIELDS:
+        if key == "source_id" and not _supabase_has_source_id():
+            continue
         row[col] = bool(m.get(key)) if key == "ot" else m.get(key)
     return row
 
@@ -5248,7 +5364,10 @@ def load_existing():
             meta = _supabase_request("GET", "fixtures_meta?id=eq.1&select=data")
             if meta:
                 rows = _supabase_fetch_rows()
-                data = dict(meta[0]["data"])
+                # Deep copy: the cleanups in run() edit standings/playoffs in
+                # place, and a shallow copy shares those with _db_snapshot,
+                # so save() would see no change and never write them.
+                data = copy.deepcopy(meta[0]["data"])
                 data["matches"] = [_row_to_match(r) for r in rows]
                 _db_snapshot = {
                     "meta": meta[0]["data"],
@@ -5376,6 +5495,9 @@ MATRIX_TEAMS = {
         # so matching on the UTC date directly would miss it. See
         # update_matrix_team_results_scores365().
         "scores365_utc_offset": -3,
+        # 365Scores lists the Apertura under the same competition/season
+        # as the Clausura tracked here - ignore anything before it.
+        "scores365_min_date": "2026-07-01",
         # The season is split into two independent tournaments (Torneo
         # Apertura, Torneo Clausura), each with its own "Standings" section
         # containing a Zone A and Zone B table. This reuses the same
@@ -5417,6 +5539,8 @@ MATRIX_TEAMS = {
         # an away game's displayed kickoff is Moscow-time-equivalent, not
         # necessarily the true local time at the away ground.
         "scores365_utc_offset": 3,
+        # A team request also returns the end of the 2025-26 season.
+        "scores365_min_date": "2026-07-01",
         # Single flat table (no Apertura/Clausura-style split), so this
         # just needs one "groups" entry - same shape as e.g. Currie Cup's
         # standings config in LEAGUES above.
@@ -5702,7 +5826,7 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
                   f"(use --force to check anyway)")
             return False
         pending = [m for m in team_matches if match_needs_score_check(m, now)]
-        update_matrix_team_results_scores365(cfg, team_matches)
+        update_matrix_team_results_scores365(data, cfg, team_matches)
         report_pending_score_updates(team_name, pending, team_matches)
         mark_matrix_fetched(data, matrix_key, now)
         return
@@ -5746,31 +5870,21 @@ def update_matrix_team_results(data, matrix_key, cfg, now, force=False, debug=Fa
 
 
 def fetch_scores365_matrix_team_matches(competition_id, team_id):
-    """Fetch just the current window of games for one 365Scores
-    competition - no forward/backward pagination the way
-    fetch_scores365_games does for a full-season LEAGUES entry - filtered
-    down to games featuring the given team id. A MATRIX_TEAMS entry only
-    ever needs to check a small number of recent/upcoming matches for its
-    one team (see update_matrix_team_results's `stale` check above).
-
-    The "fixtures" endpoint alone only returns UPCOMING games - once a
-    round finishes, its games drop out of that window entirely (confirmed:
-    Velez vs Tigre, 2026-09-20, never got its 3-2 result because by the
-    next run the fixtures window had already moved on to the following
-    round). The "results" endpoint returns the most recent finished
-    rounds, so both are fetched and merged by game id."""
+    """Every game 365Scores has for one team in one competition. Asked for
+    by team ("competitors="), not by competition: a competition request
+    only returns its current round or two, but a team request returns the
+    team's whole remaining schedule ("fixtures") and its recent finished
+    games ("results") - all 34 of Torpedo's 2026-27 games, confirmed
+    2026-10-28. Both are fetched and merged by game id, then filtered to
+    `competition_id` (a team request also returns its cup games)."""
     games_by_id = {}
     for endpoint in ("fixtures", "results"):
         url = (f"{SCORES365_GAMES_URL}{endpoint}/?{SCORES365_COMMON_PARAMS}"
-               f"&competitions={competition_id}")
+               f"&competitors={team_id}")
         data = fetch_scores365_json(url)
         for g in data.get("games", []):
             games_by_id[g["id"]] = g
-    return [
-        g for g in games_by_id.values()
-        if (g.get("homeCompetitor") or {}).get("id") == team_id
-        or (g.get("awayCompetitor") or {}).get("id") == team_id
-    ]
+    return [g for g in games_by_id.values() if g.get("competitionId") == competition_id]
 
 
 # Once locked in, a league fixture's date/time doesn't move further than
@@ -5781,34 +5895,33 @@ def fetch_scores365_matrix_team_matches(competition_id, team_id):
 # football can land more than a couple of days off the originally
 # announced date. See update_matrix_team_results_scores365().
 SCORES365_MATRIX_MATCH_WINDOW_DAYS = 4
+# See the placeholder note in update_matrix_team_results_scores365().
+SCORES365_MATRIX_SCHEDULE_HORIZON_DAYS = 21
 
 
-def update_matrix_team_results_scores365(cfg, team_matches):
-    """365Scores equivalent of the Wikipedia-results-matrix path in
-    update_matrix_team_results() above, for a MATRIX_TEAMS entry that
-    names a "scores365_competition_id"/"scores365_team_id" instead of a
-    "wiki_page" (currently just velez - see its config comment for why).
-    Unlike that path, this corrects a stored fixture's date/time (not
-    just its score) - the actual motivation for the switch: Wikipedia's
-    announced kickoff for an unplayed match can sit stale for days after
-    a broadcaster-driven reschedule, where 365Scores already has the
-    corrected time.
+def update_matrix_team_results_scores365(data, cfg, team_matches):
+    """365Scores update for a MATRIX_TEAMS entry (velez, torpedo): brings
+    every stored game of the team in line with 365Scores - date, kickoff
+    time and score - adds any game 365Scores lists that isn't stored yet,
+    and drops a stored unplayed game 365Scores no longer lists (moved games
+    keep their id, so this only removes cancelled ones).
 
-    Matches a fetched game to an already-stored fixture by CLOSEST local
-    date within SCORES365_MATRIX_MATCH_WINDOW_DAYS, not by opponent name
-    (the two sources spell club names differently - accents, suffixes
-    like "(SdE)"/"(M)") and not by exact date (the whole point here is
-    that the stored date can be wrong). This team playing only about
-    once a week makes "closest game within the window" unambiguous in
-    practice. The date used for that comparison is the LOCAL calendar
-    date (via "scores365_utc_offset"), not 365Scores' own UTC one - a
-    late-evening kickoff can fall after midnight UTC, a calendar day
-    later than the local date fixtures.json stores it under."""
+    Each stored game is tied to its 365Scores game by "source_id" (the
+    game id). A stored game without one yet - the hand-entered season -
+    gets it the first time from the 365Scores game closest in date
+    (within SCORES365_MATRIX_MATCH_WINDOW_DAYS), paired one-to-one and with
+    the team on the same home/away side; names aren't compared since the
+    two spell clubs differently. Games are compared on the LOCAL calendar
+    date (via "scores365_utc_offset"): a late kickoff can fall after
+    midnight UTC, a day later than fixtures.json's date for it. Games
+    before "scores365_min_date" (the previous season or tournament, which
+    365Scores can list under the same competition) are ignored."""
     team_name = cfg["team_name"]
     competition_id = cfg["scores365_competition_id"]
     team_id = cfg["scores365_team_id"]
     utc_offset = cfg.get("scores365_utc_offset", 0)
-    print(f"Fetching 365Scores competition {competition_id} for {team_name} fixtures ...")
+    min_date = cfg.get("scores365_min_date")
+    print(f"Fetching 365Scores team {team_id} for {team_name} fixtures ...")
     try:
         games = fetch_scores365_matrix_team_matches(competition_id, team_id)
     except Exception as e:
@@ -5821,44 +5934,150 @@ def update_matrix_team_results_scores365(cfg, team_matches):
             utc_dt = datetime.fromisoformat(g.get("startTime", ""))
         except ValueError:
             continue
-        parsed_games.append((utc_dt + timedelta(hours=utc_offset), g))
+        local_dt = utc_dt + timedelta(hours=utc_offset)
+        if min_date and local_dt.strftime("%Y-%m-%d") < min_date:
+            continue
+        parsed_games.append((local_dt, g))
+    if not parsed_games:
+        print(f"  !! {team_name}: 365Scores returned no games - leaving stored fixtures as they are",
+              file=sys.stderr)
+        return
 
-    updated_schedule = 0
-    updated_score = 0
-    for m in team_matches:
-        if not m.get("date"):
+    def team_is_home(g):
+        return (g.get("homeCompetitor") or {}).get("id") == team_id
+
+    # Stored games already tied to a 365Scores game.
+    by_source = {m["source_id"]: m for m in team_matches if m.get("source_id")}
+    pairs, used_g = [], set()
+    for gi, (local_dt, g) in enumerate(parsed_games):
+        m = by_source.get(scores365_source_id(g))
+        if m is not None:
+            pairs.append((m, local_dt, g))
+            used_g.add(gi)
+
+    # The rest: closest date first, one-to-one, same home/away side.
+    candidates = []
+    for mi, m in enumerate(team_matches):
+        if m.get("source_id") or not m.get("date"):
             continue
         try:
             stored_date = datetime.strptime(m["date"], "%Y-%m-%d").date()
         except ValueError:
             continue
+        stored_home = team_name in (m.get("home") or "")
+        for gi, (local_dt, g) in enumerate(parsed_games):
+            if gi in used_g:
+                continue
+            days = abs((local_dt.date() - stored_date).days)
+            if days <= SCORES365_MATRIX_MATCH_WINDOW_DAYS and team_is_home(g) == stored_home:
+                candidates.append((days, mi, gi))
+    used_m = set()
+    for _days, mi, gi in sorted(candidates):
+        if mi not in used_m and gi not in used_g:
+            used_m.add(mi)
+            used_g.add(gi)
+            pairs.append((team_matches[mi], *parsed_games[gi]))
 
-        local_dt, g = min(
-            parsed_games, key=lambda pg: abs((pg[0].date() - stored_date).days),
-            default=(None, None))
-        if g is None or abs((local_dt.date() - stored_date).days) > SCORES365_MATRIX_MATCH_WINDOW_DAYS:
+    # Still unpaired - moved further than the window (Volga v Torpedo:
+    # stored 2026-11-24, 365Scores 2026-11-14): pair by opponent, same
+    # side, when exactly one remaining game's opponent shares a word with
+    # the stored one ("Volga Ulyanovsk" / "Volga Ulyanovsk", "Ural" / "Ural
+    # Yekaterinburg").
+    def words(name):
+        return {w for w in re.split(r"[^\w]+", (name or "").lower()) if len(w) >= 4}
+
+    def opponent(g):
+        side = g.get("awayCompetitor") if team_is_home(g) else g.get("homeCompetitor")
+        return (side or {}).get("name")
+
+    for mi, m in enumerate(team_matches):
+        if mi in used_m or m.get("source_id"):
             continue
+        stored_home = team_name in (m.get("home") or "")
+        stored_opp = words(m.get("away") if stored_home else m.get("home"))
+        hits = [gi for gi, (_, g) in enumerate(parsed_games)
+                if gi not in used_g and team_is_home(g) == stored_home and stored_opp & words(opponent(g))]
+        if len(hits) == 1:
+            used_m.add(mi)
+            used_g.add(hits[0])
+            pairs.append((m, *parsed_games[hits[0]]))
 
+    # 365Scores fills in a round's games at a placeholder slot (Friday
+    # 20:00 Moscow for every unscheduled Torpedo round) until the real
+    # kickoff is set, so its date/time is only taken once a game is played
+    # or within SCORES365_MATRIX_SCHEDULE_HORIZON_DAYS - the stored game is
+    # linked either way, so it updates once it's that close.
+    horizon = (datetime.now(timezone.utc) + timedelta(days=SCORES365_MATRIX_SCHEDULE_HORIZON_DAYS)
+               + timedelta(hours=utc_offset)).strftime("%Y-%m-%d")
+
+    updated_schedule = updated_score = linked = added = 0
+    for m, local_dt, g in pairs:
+        if not m.get("source_id"):
+            m["source_id"] = scores365_source_id(g)
+            linked += 1
         new_date, new_time = local_dt.strftime("%Y-%m-%d"), local_dt.strftime("%H:%M")
-        if m.get("date") != new_date or m.get("time") != new_time:
+        settled = _scores365_final_score(g) is not None or new_date <= horizon or not m.get("date")
+        if settled and (m.get("date") != new_date or m.get("time") != new_time):
             m["date"], m["time"], m["utc"] = new_date, new_time, g.get("startTime")
             updated_schedule += 1
-
-        home_c, away_c = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
-        home_score, away_score = home_c.get("score"), away_c.get("score")
-        if g.get("statusGroup") != SCORES365_STATUS_FINISHED:
-            continue  # live/scheduled - see parse_scores365_matches
-        if home_score is None or away_score is None or home_score < 0 or away_score < 0:
-            continue
-        velez_score, opp_score = (home_score, away_score) if home_c.get("id") == team_id \
-            else (away_score, home_score)
-        score = f"{int(velez_score)}-{int(opp_score)}" if team_name in (m.get("home") or "") \
-            else f"{int(opp_score)}-{int(velez_score)}"
-        if m.get("score") != score:
+        score = _scores365_final_score(g)
+        if score is not None and m.get("score") != score:
             m["score"] = score
             updated_score += 1
-    print(f"  -> {team_name}: {updated_schedule} date/time update(s), "
-          f"{updated_score} score update(s) from 365Scores")
+
+    # Listed by 365Scores but not stored: add it, the team under its stored
+    # name and the opponent under canonicalize_team_name()'s.
+    for gi, (local_dt, g) in enumerate(parsed_games):
+        if gi in used_g:
+            continue
+        opponent = canonicalize_team_name(
+            ((g.get("awayCompetitor") if team_is_home(g) else g.get("homeCompetitor")) or {}).get("name"))
+        if not opponent:
+            continue
+        home, away = (team_name, opponent) if team_is_home(g) else (opponent, team_name)
+        data["matches"].append({
+            "league": cfg["league_key"], "home": home, "away": away,
+            "score": _scores365_final_score(g),
+            "date": local_dt.strftime("%Y-%m-%d"), "time": local_dt.strftime("%H:%M"),
+            "utc": g.get("startTime"), "venue": None, "attendance": None,
+            "source_id": scores365_source_id(g),
+        })
+        added += 1
+
+    # Tied to a 365Scores game that's no longer listed, unplayed, and inside
+    # the span 365Scores returned (so it isn't just past the end of a
+    # shortened list): cancelled.
+    listed = {scores365_source_id(g) for _, g in parsed_games}
+    last_listed = max(local_dt for local_dt, _ in parsed_games).strftime("%Y-%m-%d")
+    dropped = [m for m in team_matches
+               if m.get("source_id") and m["source_id"] not in listed
+               and m.get("score") is None and (m.get("date") or "") <= last_listed]
+    if dropped:
+        drop_ids = {id(m) for m in dropped}
+        data["matches"] = [m for m in data["matches"] if id(m) not in drop_ids]
+        for m in dropped:
+            print(f"  -> {team_name}: dropped {m['home']} v {m['away']} ({m['date']}) - "
+                  f"no longer listed by 365Scores")
+
+    unlinked = [m for m in team_matches if not m.get("source_id") and m not in dropped]
+    print(f"  -> {team_name}: {updated_schedule} date/time update(s), {updated_score} score "
+          f"update(s), {linked} newly linked to 365Scores, {added} added, {len(dropped)} dropped"
+          f"{f', {len(unlinked)} still unlinked' if unlinked else ''}")
+    for m in unlinked:
+        print(f"     unlinked: {m['home']} v {m['away']} ({m['date']}) - no 365Scores game "
+              f"within {SCORES365_MATRIX_MATCH_WINDOW_DAYS} days", file=sys.stderr)
+
+
+def _scores365_final_score(g):
+    """"home-away" for a finished 365Scores game, else None (see
+    parse_scores365_matches for the statusGroup / -1 rules)."""
+    if g.get("statusGroup") != SCORES365_STATUS_FINISHED:
+        return None
+    hs = (g.get("homeCompetitor") or {}).get("score")
+    as_ = (g.get("awayCompetitor") or {}).get("score")
+    if hs is None or as_ is None or hs < 0 or as_ < 0:
+        return None
+    return f"{int(hs)}-{int(as_)}"
 
 
 _EXTRA_PAGE_PARSERS = {
@@ -6067,27 +6286,72 @@ def normalize_stored_team_names(data):
     cleanup - doesn't
     touch scores/dates/venues, and running it on already-clean names is a
     no-op, so this is safe (and cheap - no network) to run unconditionally
-    every run."""
-    changed = 0
+    every run.
+
+    Also applies TEAM_NAME_ALIASES (canonicalize_team_name) to every stored
+    name - matches, attendance tables, standings and playoff brackets - so
+    an alias added later renames what's already stored, not just what's
+    parsed from then on. dedupe_renamed_matches() then merges any match
+    that a rename turned into a copy of another."""
+    renamed = 0
+
+    def fix(holder, key):
+        nonlocal renamed
+        name = holder.get(key)
+        if name:
+            cleaned = canonicalize_team_name(strip_team_note_markers(name))
+            if cleaned != name:
+                holder[key] = cleaned
+                renamed += 1
+
     for m in data.get("matches", []):
-        for side in ("home", "away"):
-            name = m.get(side)
-            if name:
-                cleaned = strip_team_note_markers(name)
-                if cleaned != name:
-                    m[side] = cleaned
-                    changed += 1
+        fix(m, "home")
+        fix(m, "away")
     for rows in data.get("attendance_tables", {}).values():
         for row in rows:
-            name = row.get("team")
-            if name:
-                cleaned = strip_team_note_markers(name)
-                if cleaned != name:
-                    row["team"] = cleaned
-                    changed += 1
-    if changed:
-        print(f"Normalized {changed} stored team name(s) with a footnote marker "
-              f"(e.g. \"Team [a]\" -> \"Team\")")
+            fix(row, "team")
+    for groups in data.get("standings", {}).values():
+        for group_data in groups.values():
+            for row in group_data if isinstance(group_data, list) else group_data.get("rows", []):
+                fix(row, "team")
+    for bracket in data.get("playoffs", {}).values():
+        for round_ in bracket.get("rounds", []):
+            for game in round_.get("matches", []):
+                fix(game, "team1")
+                fix(game, "team2")
+    if renamed:
+        print(f"Normalized {renamed} stored team name(s) (footnote markers, TEAM_NAME_ALIASES)")
+
+
+def dedupe_renamed_matches(data):
+    """Merge stored matches that share a league and _match_identity() (team
+    pair + date) - copies of one game stored under two spellings of a team,
+    which normalize_stored_team_names() has just made identical. Keeps the
+    scored copy (else the more complete one, see _more_complete_match) and
+    fills any field it's missing from the other. Cheap and a no-op without
+    duplicates, so safe to run every run."""
+    kept = {}
+    order = []
+    for m in data.get("matches", []):
+        key = (m.get("league"), _match_identity(m))
+        prev = kept.get(key)
+        if prev is None:
+            kept[key] = m
+            order.append(key)
+            continue
+        if (m.get("score") is None) != (prev.get("score") is None):
+            best = m if m.get("score") is not None else prev
+        else:
+            best = _more_complete_match(prev, m)
+        other = prev if best is m else m
+        for field, value in other.items():
+            if best.get(field) is None and value is not None:
+                best[field] = value
+        kept[key] = best
+    removed = len(data.get("matches", [])) - len(order)
+    if removed:
+        data["matches"] = [kept[k] for k in order]
+        print(f"Merged {removed} duplicate match(es) stored under two spellings of a team")
 
 
 def prune_placeholder_matches(data):
@@ -6179,6 +6443,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data.setdefault("playoffs", {})
     now = datetime.now(timezone.utc)
     normalize_stored_team_names(data)
+    dedupe_renamed_matches(data)
     prune_placeholder_matches(data)
     prune_stale_rescheduled_matches(data)
 
