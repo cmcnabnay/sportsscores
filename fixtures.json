@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-30T07:06:17+00:00",
+  "updated": "2026-10-30T14:39:03+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2132,6 +2132,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "England",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 128,
+            "against": 42,
+            "diff": 86,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tonga",
             "played": 2,
             "win": 2,
@@ -2141,29 +2153,17 @@
             "against": 12,
             "diff": 54,
             "points": 4,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "England",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 94,
-            "against": 30,
-            "diff": 64,
-            "points": 2,
             "highlight": null
           },
           {
             "team": "Papua New Guinea",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 48,
-            "against": 82,
-            "diff": -34,
+            "loss": 2,
+            "for": 60,
+            "against": 116,
+            "diff": -56,
             "points": 2,
             "highlight": null
           },
@@ -40311,7 +40311,7 @@
       "league": "rlwc-2026",
       "home": "England",
       "away": "Papua New Guinea",
-      "score": null,
+      "score": "34-12",
       "date": "2026-10-30",
       "time": "09:05",
       "utc": "2026-10-30T09:05:00+00:00",
