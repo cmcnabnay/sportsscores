@@ -633,8 +633,9 @@
 // Supabase project the page reads fixtures from (written by fetch_fixtures.py
 // - see supabase/schema.sql). The publishable key is safe to ship: row level
 // security only allows reads. Never put the secret key here.
-// Left blank, the page falls back to a local fixtures.json (local dev only).
-const SUPABASE_URL = 'https://nxlssdadlsppekmhtpak.supabase.co';
+// Left blank, the page reads the deployed fixtures.json and teams.json
+// (a snapshot of the `teams` table) instead.
+const SUPABASE_URL = '';
 const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_c0JJEg4pBzEo6siU-UlIaA_f_eWdqnP';
 const SUPABASE_PAGE_SIZE = 1000; // Supabase's default max rows per request
 
@@ -643,7 +644,7 @@ const SUPABASE_PAGE_SIZE = 1000; // Supabase's default max rows per request
 const INTL_CLUB_LEAGUE_PREFIXES = ['euroleague-', 'eurocup-', 'bcl-', 'fiba-europe-cup-', 'champions-cup-', 'challenge-cup-'];
 
 let allMatches = [];
-let teamInfo = {}; // { 'sport|name': {logo_url, flag_url, is_national} } - Supabase `teams` table
+let teamInfo = {}; // { 'sport|name': {logo_url, flag_url, is_national} } - Supabase `teams` table or teams.json
 let leagues = {};
 let standings = {}; // { leagueKey: { groupLabel: [ {team, played, win, draw, loss, for, against, diff, points}, ... ] } }
 let attendanceTables = {}; // { leagueKey: [ {team, games, total, average}, ... ] } - official scraped tables (currently just NRL)
@@ -768,39 +769,9 @@ function matchesLeagueSelection(m, selectedLeague) {
 // dropdowns are ignored (and dimmed).
 //
 // Names are grouped loosely - accents, case, spacing and punctuation are
-// ignored, so "ALBA Berlin"/"Alba Berlin" and "Bàsquet Girona"/"Basquet
-// Girona" are one team. Names that differ by more than that (a sponsor
-// name in one competition's source, a short name in another) are listed
-// here: leagues[key].sport -> { label shown in search: [other names] }.
-// The label may itself be one of the stored names. Names that look alike
-// but are different clubs are deliberately NOT listed: "AEK BC" (BCL, AEK
-// Athens) vs "AEK Larnaca B.C.", "Bulls XV" (Currie Cup) vs "Bulls" (URC).
-const TEAM_ALIASES = {
-  'basketball': {
-    'ASVEL Villeurbanne': ['LDLC ASVEL Lyon-Villeurbanne'],
-    'Barcelona': ['Barça Basket'],
-    'Baskonia Vitoria': ['Kosner Baskonia'],
-    'Bayern Munich': ['Bayern München'],
-    'Bilbao Basket': ['Surne Bilbao Basket'],
-    'Breogán': ['Río Breogán'],
-    'Brose Bamberg': ['Bamberg Baskets'],
-    'Chalon-sur-Saône': ['Élan Chalon'],
-    'Cholet': ['Cholet Basket'],
-    'Gence BC': ['Gence BK Ganja'],
-    'Gladiators Trier': ['TBB Trier'],
-    'Joventut de Badalona': ['Joventut Badalona'],
-    'Körfez Basket': ['Biotekno Körfez Basket', 'Glint Korfez Basket'],
-    'Nancy': ['SLUC Nancy Basket'],
-    'Nanterre': ['Nanterre 92'],
-    'Olimpia Milano': ['EA7 Emporio Armani Milano'],
-    'Pallacanestro Reggiana': ['UNAhotels Reggio Emilia'],
-    'Pallacanestro Varese': ['Openjobmetis Varese'],
-    'SC Rasta Vechta': ['Rasta Vechta'],
-    'Strasbourg': ['SIG Strasbourg'],
-    'Unicaja Málaga': ['Unicaja'],
-    'Würzburg Baskets': ['Wurzburg Baskets', 'Fitness First Würzburg Baskets'],
-  },
-};
+// ignored. Clubs whose sources spell them differently ("Bayern München" in
+// the EuroLeague, "Bayern Munich" in the BBL) are unified at the source, by
+// fetch_fixtures.py's TEAM_NAME_ALIASES, so every view shows one name.
 
 // Competitions whose sides share a name with the senior team but aren't
 // it (the U20 championship lists plain "Australia") - a separate search
@@ -816,14 +787,6 @@ function looseTeamKey(name) {
     .toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 }
 
-// sport + loose alias name -> label, built from TEAM_ALIASES.
-const TEAM_ALIAS_LOOKUP = {};
-for (const [sport, groups] of Object.entries(TEAM_ALIASES)) {
-  for (const [label, others] of Object.entries(groups)) {
-    for (const n of [label, ...others]) TEAM_ALIAS_LOOKUP[`${sport}|${looseTeamKey(n)}`] = label;
-  }
-}
-
 // { key: {key, label, sportGroup, names:Set, leagueKeys:Set, count} },
 // rebuilt on every fixtures load. The key ("Basketball|realmadrid") is
 // stable across reloads, so a selection survives the 5-minute refresh.
@@ -833,15 +796,12 @@ const selectedTeams = new Map(); // key -> label (kept so a chip still has a nam
 // The search key for one side of a match, or null for a placeholder.
 function teamSearchKey(leagueKey, name) {
   if (!name || PLACEHOLDER_TEAM_RE.test(name.trim()) || NON_TEAM_RE.test(name.trim())) return null;
-  const sport = (leagues[leagueKey] || {}).sport;
   const n = normalizeTeamName(name);
-  const alias = TEAM_ALIAS_LOOKUP[`${sport}|${looseTeamKey(n)}`];
   const prefix = Object.keys(TEAM_SEARCH_LEAGUE_SUFFIXES).find(p => leagueKey.startsWith(p));
   const suffix = prefix ? TEAM_SEARCH_LEAGUE_SUFFIXES[prefix] : '';
   return {
-    key: `${leagueSportGroup(leagueKey)}|${looseTeamKey(alias || n)}${suffix ? '|' + suffix : ''}`,
+    key: `${leagueSportGroup(leagueKey)}|${looseTeamKey(n)}${suffix ? '|' + suffix : ''}`,
     name: n,
-    alias,
     suffix,
   };
 }
@@ -857,7 +817,7 @@ function buildTeamIndex() {
       if (!t) continue;
       m._teamKeys.push(t.key);
       const entry = teamIndex[t.key] || (teamIndex[t.key] = {
-        key: t.key, label: null, alias: t.alias, suffix: t.suffix,
+        key: t.key, label: null, suffix: t.suffix,
         sportGroup: leagueSportGroup(m.league), names: new Set(), leagueKeys: new Set(), count: 0,
       });
       entry.names.add(t.name);
@@ -869,9 +829,8 @@ function buildTeamIndex() {
   }
   for (const entry of Object.values(teamIndex)) {
     const counts = nameCounts[entry.key];
-    const base = entry.alias || Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
+    const base = Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
     entry.label = entry.suffix ? `${base} ${entry.suffix}` : base;
-    if (entry.alias) entry.names.add(entry.alias);
   }
 }
 
@@ -1361,7 +1320,8 @@ function renderStandingsTable(rows, leagueKey) {
       return `<td class="${cls}">${display}</td>`;
     }).join('');
     const rowStyle = r.highlight ? ` style="background:${r.highlight}"` : '';
-    return `<tr${rowStyle}><td class="pos-col">${i + 1}</td><td class="team-col">${teamBadges(leagueKey, r.team)}${r.team}</td>${cells}</tr>`;
+    const team = displayTeamName(leagueKey, r.team);
+    return `<tr${rowStyle}><td class="pos-col">${i + 1}</td><td class="team-col">${teamBadges(leagueKey, team)}${escapeHtml(team)}</td>${cells}</tr>`;
   }).join('');
 
   return `<table class="standings-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
@@ -1623,7 +1583,7 @@ function getLeagueRoster(leagueKey) {
   const groups = standings[leagueKey] || {};
   for (const groupData of Object.values(groups)) {
     for (const r of groupRows(groupData)) {
-      if (r.team) names.add(normalizeTeamName(r.team));
+      if (r.team) names.add(displayTeamName(leagueKey, r.team));
     }
   }
   if (names.size === 0) {
@@ -1695,9 +1655,9 @@ function computeAttendanceStats(leagueKey) {
 // fetch_fixtures.py - currently NRL/Super League's Wikipedia-maintained
 // Games/Total/Average table) into the same row shape computeAttendanceStats()
 // produces, so both sources can share one renderer.
-function normalizeOfficialAttendanceRows(rows) {
+function normalizeOfficialAttendanceRows(rows, leagueKey) {
   return rows.map(r => ({
-    team: r.team,
+    team: displayTeamName(leagueKey, r.team),
     homeGames: r.games,
     totalAttendance: r.total || 0,
     withAttendance: r.total ? r.games : 0,
@@ -1839,7 +1799,7 @@ function renderAttendance() {
   const leagueName = (leagues[attendanceLeagueKey] && leagues[attendanceLeagueKey].name) || attendanceLeagueKey;
   const officialRows = attendanceTables[attendanceLeagueKey];
   const rows = (officialRows && officialRows.length)
-    ? normalizeOfficialAttendanceRows(officialRows)
+    ? normalizeOfficialAttendanceRows(officialRows, attendanceLeagueKey)
     : computeAttendanceStats(attendanceLeagueKey);
 
   const wrap = document.createElement('div');
@@ -1863,11 +1823,14 @@ function renderBracketMatch(m, leagueKey) {
   const team1Wins = played && Number(m.score1) > Number(m.score2);
   const team2Wins = played && Number(m.score2) > Number(m.score1);
 
-  const teamRow = (seed, team, score, isWinner) => `
+  const teamRow = (seed, rawTeam, score, isWinner) => {
+    const team = rawTeam && displayTeamName(leagueKey, rawTeam);
+    return `
     <div class="bracket-team ${isWinner ? 'winner' : ''} ${played ? '' : 'pending'}">
       <span class="bracket-team-name">${seed ? `<span class="bracket-seed">${escapeHtml(String(seed))}</span>` : ''}${team ? teamBadges(leagueKey, team) : ''}${escapeHtml(team || 'TBD')}</span>
       <span class="bracket-score">${played ? escapeHtml(String(score)) : ''}</span>
     </div>`;
+  };
 
   const metaBits = [];
   if (m.date) metaBits.push(formatShortDate(m.date));
@@ -2191,8 +2154,13 @@ function fetchFixturesData() {
 // Logos/flags change rarely, so they're loaded once per page view, not on
 // every 5-minute refresh. Optional: if this fails the page just shows names.
 function loadTeams() {
-  if (!SUPABASE_URL) return Promise.resolve();
-  return supabaseGetAll('teams?select=name,sport,logo_url,flag_url,is_national&order=name.asc,sport.asc')
+  const rowsReady = SUPABASE_URL
+    ? supabaseGetAll('teams?select=name,sport,logo_url,flag_url,is_national&order=name.asc,sport.asc')
+    : fetch('teams.json').then(r => {
+      if (!r.ok) throw new Error('teams.json not found');
+      return r.json();
+    });
+  return rowsReady
     .then(rows => {
       teamInfo = {};
       teamLookupCache = {};
@@ -2201,13 +2169,60 @@ function loadTeams() {
     .catch(err => console.error('loadTeams:', err));
 }
 
-// The `teams` row for a name as shown in any view. Standings, attendance
-// and bracket names come from different scraped tables than the matches,
-// so after an exact match this falls back to: normalizeTeamName(); a
-// trailing status marker ("Sydney Roosters (P)", "Wigan Warriors (L)");
-// punctuation/spacing ("Hull FC" vs "Hull F.C."); and a short name that
-// starts exactly one team name in that league ("Penrith" -> "Penrith
-// Panthers", "Cronulla" -> "Cronulla-Sutherland Sharks"). Cached per
+// The fixtures name of a team as written in a league's standings,
+// attendance table or playoff bracket - those come from different scraped
+// tables than the matches, so the same club can read "Sydney Roosters
+// (P)", "Sydney" or "Hull FC" there but "Sydney Roosters" / "Hull F.C." in
+// its fixtures. Tries, in order: the name as is; normalizeTeamName(); a
+// trailing status marker dropped ("Wigan Warriors (L)"); punctuation/
+// spacing ("Hull FC"); then a short or long form of exactly one of the
+// league's match names ("Penrith" -> "Penrith Panthers", "Nizhny Novgorod"
+// -> "FC Nizhny Novgorod", "Ural Yekaterinburg" -> "Ural"). The marker is
+// only dropped when no match name uses that parenthetical as part of the
+// name, so "Estudiantes (RC)" never resolves to "Estudiantes (LP)".
+// Returns null when nothing matches. Cached per league+name; cleared
+// whenever matches reload.
+let leagueTeamNames = {}; // leagueKey -> [match names]
+let resolvedNameCache = {};
+function resolveLeagueTeamName(leagueKey, name) {
+  if (!name) return null;
+  const cacheKey = `${leagueKey}|${name}`;
+  if (cacheKey in resolvedNameCache) return resolvedNameCache[cacheKey];
+  if (!leagueTeamNames[leagueKey]) {
+    const set = new Set();
+    for (const m of allMatches) {
+      if (m.league !== leagueKey) continue;
+      if (m.home) set.add(m.home);
+      if (m.away) set.add(m.away);
+    }
+    leagueTeamNames[leagueKey] = [...set];
+  }
+  const names = leagueTeamNames[leagueKey];
+  const unique = hits => (hits.length === 1 ? hits[0] : null);
+  const n1 = normalizeTeamName(name);
+  const stripped = n1.replace(/\s*\([A-Z]{1,2}\)$/, '');
+  const n2 = names.some(x => x.startsWith(stripped + ' (')) ? n1 : stripped;
+  let found = [name, n1, n2].find(n => names.includes(n)) || null;
+  if (!found) {
+    const want = new Set([looseTeamKey(n1), looseTeamKey(n2)]);
+    found = unique(names.filter(x => want.has(looseTeamKey(x))));
+  }
+  if (!found && n2.length >= 4) {
+    found = unique(names.filter(x => x.startsWith(n2 + ' ') || x.startsWith(n2 + '-')))
+      || unique(names.filter(x => x.endsWith(' ' + n2)))
+      || unique(names.filter(x => x.length >= 4 && n2.startsWith(x + ' ')));
+  }
+  return (resolvedNameCache[cacheKey] = found);
+}
+
+// How a team from a standings/attendance/playoffs table is shown: its
+// fixtures name when there is one, else the name with markers stripped.
+function displayTeamName(leagueKey, name) {
+  return resolveLeagueTeamName(leagueKey, name) || normalizeTeamName(name);
+}
+
+// The `teams` row for a name as shown in any view: exact, then via
+// resolveLeagueTeamName(), then ignoring punctuation/spacing. Cached per
 // league+name; cleared whenever teams or matches reload.
 let teamLookupCache = {};
 function findTeam(leagueKey, name) {
@@ -2215,21 +2230,11 @@ function findTeam(leagueKey, name) {
   if (!name || !sport) return null;
   const cacheKey = `${leagueKey}|${name}`;
   if (cacheKey in teamLookupCache) return teamLookupCache[cacheKey];
-  const loose = str => str.replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
-  const n1 = normalizeTeamName(name);
-  const n2 = n1.replace(/\s*\([A-Z]{1,2}\)$/, '');
-  let t = teamInfo[`${sport}|${name}`] || teamInfo[`${sport}|${n1}`] || teamInfo[`${sport}|${n2}`] || null;
+  const candidates = [name, resolveLeagueTeamName(leagueKey, name), normalizeTeamName(name)].filter(Boolean);
+  let t = candidates.map(n => teamInfo[`${sport}|${n}`]).find(Boolean) || null;
   if (!t) {
-    const want = new Set([loose(n1), loose(n2)]);
-    t = Object.values(teamInfo).find(r => r.sport === sport && want.has(loose(r.name))) || null;
-  }
-  if (!t && n2.length >= 4) {
-    const names = new Set();
-    for (const m of allMatches) {
-      if (m.league === leagueKey) { names.add(m.home); names.add(m.away); }
-    }
-    const hits = [...names].filter(x => x && (x.startsWith(n2 + ' ') || x.startsWith(n2 + '-')));
-    if (hits.length === 1) t = teamInfo[`${sport}|${hits[0]}`] || null;
+    const want = new Set(candidates.map(looseTeamKey));
+    t = Object.values(teamInfo).find(r => r.sport === sport && want.has(looseTeamKey(r.name))) || null;
   }
   return (teamLookupCache[cacheKey] = t);
 }
@@ -2252,6 +2257,8 @@ function loadFixtures(isRefresh) {
   return Promise.all([fetchFixturesData(), teamsReady])
     .then(([data]) => {
       teamLookupCache = {};
+      leagueTeamNames = {};
+      resolvedNameCache = {};
       allMatches = (data.matches || []).map(enrichMatch);
       leagues = data.leagues || {};
       standings = data.standings || {};
