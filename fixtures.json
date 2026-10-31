@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-31T20:58:39+00:00",
+  "updated": "2026-10-31T21:10:15+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4864,14 +4864,14 @@
           },
           {
             "team": "La Laguna Tenerife",
-            "played": 5,
-            "win": 4,
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 438,
-            "against": 386,
-            "diff": 52,
-            "points": 8,
+            "for": 485,
+            "against": 425,
+            "diff": 60,
+            "points": 10,
             "highlight": "#FFFFBB"
           },
           {
@@ -4988,9 +4988,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 495,
-            "against": 505,
-            "diff": -10,
+            "for": 560,
+            "against": 563,
+            "diff": -3,
             "points": 6,
             "highlight": null
           },
@@ -5032,14 +5032,14 @@
           },
           {
             "team": "Leyma Coruña",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 447,
-            "against": 510,
-            "diff": -63,
-            "points": 2,
+            "loss": 5,
+            "for": 486,
+            "against": 557,
+            "diff": -71,
+            "points": 3,
             "highlight": null
           },
           {
@@ -5048,9 +5048,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 499,
-            "against": 576,
-            "diff": -77,
+            "for": 557,
+            "against": 641,
+            "diff": -84,
             "points": 3,
             "highlight": "#FFBBBB"
           },
@@ -41176,7 +41176,7 @@
       "league": "liga-acb-2026-27",
       "home": "UCAM Murcia",
       "away": "Forca Lleida",
-      "score": null,
+      "score": "125-98",
       "date": "2026-10-31",
       "time": "18:30",
       "utc": "2026-10-31T18:30:00+00:00",
