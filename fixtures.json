@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-31T23:29:39+00:00",
+  "updated": "2026-10-31T23:40:19+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -212,10 +212,10 @@
             {
               "seed1": "W2",
               "team1": "BC Lions",
-              "score1": null,
+              "score1": 33,
               "seed2": "W3",
               "team2": "Saskatchewan Roughriders",
-              "score2": null,
+              "score2": 26,
               "date": "2026-10-31",
               "venue": "BC Place"
             }
@@ -238,8 +238,8 @@
               "seed1": "W1",
               "team1": "Edmonton Elks",
               "score1": null,
-              "seed2": "W",
-              "team2": null,
+              "seed2": "W2",
+              "team2": "BC Lions",
               "score2": null,
               "date": "2026-11-07",
               "venue": null
@@ -40776,7 +40776,7 @@
       "league": "cfl-2026",
       "home": "BC Lions",
       "away": "Saskatchewan Roughriders",
-      "score": null,
+      "score": "33-26",
       "date": "2026-10-31",
       "time": "13:30",
       "utc": "2026-10-31T20:30:00+00:00",
@@ -42870,6 +42870,17 @@
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Winnipeg Blue Bombers",
+      "score": null,
+      "date": "2026-11-07",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Edmonton Elks",
+      "away": "BC Lions",
       "score": null,
       "date": "2026-11-07",
       "time": null,
