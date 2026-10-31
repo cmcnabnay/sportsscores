@@ -191,7 +191,7 @@
       "completed": false
     }
   },
-  "updated": "2026-10-31T06:37:17+00:00",
+  "updated": "2026-10-31T06:48:17+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2065,6 +2065,18 @@
       "Group A": {
         "rows": [
           {
+            "team": "New Zealand",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 182,
+            "against": 40,
+            "diff": 142,
+            "points": 4,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Australia",
             "played": 2,
             "win": 2,
@@ -2077,26 +2089,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "New Zealand",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 104,
-            "against": 40,
-            "diff": 64,
-            "points": 2,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Fiji",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
+            "loss": 2,
             "for": 62,
-            "against": 48,
-            "diff": 14,
+            "against": 126,
+            "diff": -64,
             "points": 2,
             "highlight": null
           },
