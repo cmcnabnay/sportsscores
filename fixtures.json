@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-01T19:21:31+00:00",
+  "updated": "2026-11-01T19:33:23+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2446,6 +2446,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 607,
+            "against": 573,
+            "diff": 34,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 5,
             "win": 4,
@@ -2467,7 +2479,7 @@
             "against": 594,
             "diff": 22,
             "points": 8,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Wurzburg Baskets",
@@ -2494,30 +2506,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Alba Berlin",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 545,
-            "against": 577,
-            "diff": -32,
-            "points": 8,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 554,
-            "against": 530,
-            "diff": 24,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Ratiopharm Ulm",
             "played": 7,
             "win": 3,
@@ -2527,7 +2515,7 @@
             "against": 594,
             "diff": -21,
             "points": 6,
-            "highlight": null
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Basketball Lowen Braunschweig",
@@ -2538,6 +2526,18 @@
             "for": 535,
             "against": 567,
             "diff": -32,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Alba Berlin",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 588,
+            "against": 630,
+            "diff": -42,
             "points": 6,
             "highlight": null
           },
@@ -4878,6 +4878,18 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Valencia Basket",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 594,
+            "against": 523,
+            "diff": 71,
+            "points": 8,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Baskonia Vitoria",
             "played": 6,
             "win": 4,
@@ -4886,18 +4898,6 @@
             "for": 567,
             "against": 497,
             "diff": 70,
-            "points": 8,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 578,
-            "against": 516,
-            "diff": 62,
             "points": 8,
             "highlight": "#FFFFBB"
           },
@@ -4926,18 +4926,6 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Unicaja Málaga",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 488,
-            "against": 453,
-            "diff": 35,
-            "points": 8,
-            "highlight": "#FFFFBB"
-          },
-          {
             "team": "Casademont Zaragoza",
             "played": 6,
             "win": 4,
@@ -4946,6 +4934,18 @@
             "for": 552,
             "against": 523,
             "diff": 29,
+            "points": 8,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Barcelona",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 570,
+            "against": 559,
+            "diff": 11,
             "points": 8,
             "highlight": "#FFFFBB"
           },
@@ -4962,14 +4962,14 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Barcelona",
+            "team": "Unicaja Málaga",
             "played": 6,
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 528,
-            "against": 528,
-            "diff": 0,
+            "for": 519,
+            "against": 495,
+            "diff": 24,
             "points": 7,
             "highlight": null
           },
@@ -5051,9 +5051,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 500,
-            "against": 563,
-            "diff": -63,
+            "for": 507,
+            "against": 579,
+            "diff": -72,
             "points": 3,
             "highlight": null
           },
@@ -43586,7 +43586,7 @@
       "league": "bbl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Alba Berlin",
-      "score": null,
+      "score": "95-88",
       "date": "2026-11-01",
       "time": "17:00",
       "utc": "2026-11-01T17:00:00+00:00",
@@ -43598,7 +43598,7 @@
       "league": "liga-acb-2026-27",
       "home": "MoraBanc Andorra",
       "away": "Valencia Basket",
-      "score": null,
+      "score": "79-111",
       "date": "2026-11-01",
       "time": "17:00",
       "utc": "2026-11-01T17:00:00+00:00",
