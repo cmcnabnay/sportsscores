@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-01T22:34:03+00:00",
+  "updated": "2026-11-01T22:44:26+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2217,13 +2217,13 @@
         "rows": [
           {
             "team": "Stade Toulousain",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
-            "for": 235,
-            "against": 157,
-            "diff": 78,
+            "loss": 2,
+            "for": 249,
+            "against": 191,
+            "diff": 58,
             "points": 28,
             "highlight": "#BBF3BB"
           },
@@ -2240,6 +2240,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Pau",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 293,
+            "against": 236,
+            "diff": 57,
+            "points": 26,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Lyon",
             "played": 8,
             "win": 5,
@@ -2249,18 +2261,6 @@
             "against": 254,
             "diff": 18,
             "points": 23,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Pau",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 259,
-            "against": 222,
-            "diff": 37,
-            "points": 22,
             "highlight": "#CCF9CC"
           },
           {
@@ -43648,7 +43648,7 @@
       "league": "top14-2026",
       "home": "Pau",
       "away": "Stade Toulousain",
-      "score": null,
+      "score": "34-14",
       "date": "2026-11-01",
       "time": "20:05",
       "utc": "2026-11-01T20:05:00+00:00",
