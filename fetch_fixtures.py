@@ -5448,8 +5448,13 @@ def save(data):
     if not supabase_enabled():
         print("!! SUPABASE_URL / SUPABASE_SECRET_KEY not set - only wrote local fixtures.json", file=sys.stderr)
         return
-    if not _save_to_supabase(data):  # raises (non-zero exit -> systemd journal) on failure
-        print("Supabase: no changes")
+    # A Supabase outage (e.g. project paused) must not fail the run: the local
+    # fixtures.json is already written, so log and carry on with exit 0.
+    try:
+        if not _save_to_supabase(data):
+            print("Supabase: no changes")
+    except SupabaseError as e:
+        print(f"!! Supabase save failed, only wrote local fixtures.json: {e}", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
