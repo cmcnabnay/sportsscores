@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-01T17:23:30+00:00",
+  "updated": "2026-11-01T17:34:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4183,6 +4183,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Maxima Roma",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 518,
+            "against": 499,
+            "diff": 19,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Pallacanestro Varese",
             "played": 6,
             "win": 4,
@@ -4191,18 +4203,6 @@
             "for": 533,
             "against": 529,
             "diff": 4,
-            "points": 8,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Maxima Roma",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 443,
-            "against": 447,
-            "diff": -4,
             "points": 8,
             "highlight": "#BBF3BB"
           },
@@ -4219,14 +4219,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dolomiti Energia Trento",
+            "team": "Amici Pallacanestro Udinese",
             "played": 6,
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 425,
-            "against": 422,
-            "diff": 3,
+            "for": 467,
+            "against": 463,
+            "diff": 4,
             "points": 6,
             "highlight": "#BBF3BB"
           },
@@ -4255,6 +4255,18 @@
             "highlight": null
           },
           {
+            "team": "Dolomiti Energia Trento",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 477,
+            "against": 497,
+            "diff": -20,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "BC Roma SPQR",
             "played": 6,
             "win": 2,
@@ -4279,18 +4291,6 @@
             "highlight": null
           },
           {
-            "team": "Amici Pallacanestro Udinese",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 399,
-            "against": 404,
-            "diff": -5,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Pallacanestro Reggiana",
             "played": 6,
             "win": 2,
@@ -4304,13 +4304,13 @@
           },
           {
             "team": "Derthona Basket Tortona",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 422,
-            "against": 475,
-            "diff": -53,
+            "loss": 5,
+            "for": 481,
+            "against": 543,
+            "diff": -62,
             "points": 2,
             "highlight": null
           },
@@ -43465,7 +43465,7 @@
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Maxima Roma",
-      "score": null,
+      "score": "62-88",
       "date": "2026-11-01",
       "time": "15:00",
       "utc": "2026-11-01T15:00:00+00:00",
