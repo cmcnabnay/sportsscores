@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-01T17:55:30+00:00",
+  "updated": "2026-11-01T18:07:26+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2427,9 +2427,9 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 570,
-            "against": 532,
-            "diff": 38,
+            "for": 616,
+            "against": 568,
+            "diff": 48,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -2494,14 +2494,26 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 6,
-            "win": 3,
+            "team": "Alba Berlin",
+            "played": 7,
+            "win": 4,
             "draw": null,
             "loss": 3,
-            "for": 512,
-            "against": 485,
-            "diff": 27,
+            "for": 545,
+            "against": 577,
+            "diff": -32,
+            "points": 8,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Telekom Baskets Bonn",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 554,
+            "against": 530,
+            "diff": 24,
             "points": 6,
             "highlight": "#BBF3FF"
           },
@@ -2515,7 +2527,7 @@
             "against": 594,
             "diff": -21,
             "points": 6,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "Basketball Lowen Braunschweig",
@@ -2526,18 +2538,6 @@
             "for": 535,
             "against": 567,
             "diff": -32,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 500,
-            "against": 535,
-            "diff": -35,
             "points": 6,
             "highlight": null
           },
@@ -2607,9 +2607,9 @@
             "win": 1,
             "draw": null,
             "loss": 6,
-            "for": 532,
-            "against": 600,
-            "diff": -68,
+            "for": 568,
+            "against": 646,
+            "diff": -78,
             "points": 2,
             "highlight": "#FFBBBB"
           }
@@ -3100,14 +3100,26 @@
           },
           {
             "team": "Nürnberg Ice Tigers",
+            "played": 15,
+            "win": 9,
+            "draw": null,
+            "loss": 6,
+            "for": 56,
+            "against": 34,
+            "diff": 22,
+            "points": 28,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "EHC Red Bull München",
             "played": 14,
             "win": 9,
             "draw": null,
             "loss": 5,
-            "for": 55,
-            "against": 32,
-            "diff": 23,
-            "points": 28,
+            "for": 42,
+            "against": 42,
+            "diff": 0,
+            "points": 27,
             "highlight": "#BBF3BB"
           },
           {
@@ -3120,18 +3132,6 @@
             "against": 41,
             "diff": 11,
             "points": 26,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "EHC Red Bull München",
-            "played": 13,
-            "win": 8,
-            "draw": null,
-            "loss": 5,
-            "for": 40,
-            "against": 41,
-            "diff": -1,
-            "points": 24,
             "highlight": "#BBF3BB"
           },
           {
@@ -3148,13 +3148,13 @@
           },
           {
             "team": "ERC Ingolstadt",
-            "played": 14,
+            "played": 15,
             "win": 7,
             "draw": null,
-            "loss": 7,
-            "for": 43,
-            "against": 48,
-            "diff": -5,
+            "loss": 8,
+            "for": 45,
+            "against": 53,
+            "diff": -8,
             "points": 20,
             "highlight": "#BBF3FF"
           },
@@ -3183,6 +3183,30 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Löwen Frankfurt",
+            "played": 14,
+            "win": 5,
+            "draw": null,
+            "loss": 9,
+            "for": 32,
+            "against": 33,
+            "diff": -1,
+            "points": 17,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Krefeld Pinguine",
+            "played": 15,
+            "win": 5,
+            "draw": null,
+            "loss": 10,
+            "for": 38,
+            "against": 45,
+            "diff": -7,
+            "points": 17,
+            "highlight": null
+          },
+          {
             "team": "Grizzlys Wolfsburg",
             "played": 15,
             "win": 6,
@@ -3192,42 +3216,18 @@
             "against": 51,
             "diff": -15,
             "points": 17,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Krefeld Pinguine",
-            "played": 14,
-            "win": 5,
-            "draw": null,
-            "loss": 9,
-            "for": 35,
-            "against": 41,
-            "diff": -6,
-            "points": 16,
-            "highlight": null
-          },
-          {
-            "team": "Löwen Frankfurt",
-            "played": 13,
-            "win": 4,
-            "draw": null,
-            "loss": 9,
-            "for": 27,
-            "against": 31,
-            "diff": -4,
-            "points": 14,
             "highlight": null
           },
           {
             "team": "Schwenningen Wild Wings",
-            "played": 15,
-            "win": 5,
+            "played": 16,
+            "win": 6,
             "draw": null,
             "loss": 10,
-            "for": 33,
-            "against": 57,
-            "diff": -24,
-            "points": 14,
+            "for": 37,
+            "against": 60,
+            "diff": -23,
+            "points": 16,
             "highlight": null
           },
           {
@@ -5376,38 +5376,14 @@
         "rows": [
           {
             "team": "Paris Basketball",
-            "played": 5,
-            "win": 5,
-            "draw": null,
-            "loss": 0,
-            "for": 465,
-            "against": 408,
-            "diff": 57,
-            "points": 0,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "ASVEL Villeurbanne",
-            "played": 5,
-            "win": 5,
-            "draw": null,
-            "loss": 0,
-            "for": 438,
-            "against": 395,
-            "diff": 43,
-            "points": 0,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Le Mans",
             "played": 6,
             "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 596,
-            "against": 546,
+            "for": 468,
+            "against": 418,
             "diff": 50,
-            "points": 2,
+            "points": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -5423,14 +5399,50 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Chalon-sur-Saône",
-            "played": 5,
-            "win": 4,
+            "team": "ASVEL Villeurbanne",
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 459,
-            "against": 387,
-            "diff": 72,
+            "for": 532,
+            "against": 494,
+            "diff": 38,
+            "points": 0,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Le Mans",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 596,
+            "against": 546,
+            "diff": 50,
+            "points": 0,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Chalon-sur-Saône",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 469,
+            "against": 390,
+            "diff": 79,
+            "points": 2,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Nanterre",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 514,
+            "against": 477,
+            "diff": 37,
             "points": 0,
             "highlight": "#BBF3BB"
           },
@@ -5443,19 +5455,7 @@
             "for": 580,
             "against": 606,
             "diff": -26,
-            "points": 2,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Nanterre",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 484,
-            "against": 453,
-            "diff": 31,
-            "points": 1,
+            "points": 0,
             "highlight": "#FFFFBB"
           },
           {
@@ -5467,19 +5467,7 @@
             "for": 485,
             "against": 495,
             "diff": -10,
-            "points": 2,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "JL Bourg",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 519,
-            "against": 510,
-            "diff": 9,
-            "points": 2,
+            "points": 0,
             "highlight": "#FFFFBB"
           },
           {
@@ -5491,7 +5479,19 @@
             "for": 483,
             "against": 512,
             "diff": -29,
-            "points": 1,
+            "points": 0,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Boulazac",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 484,
+            "against": 517,
+            "diff": -33,
+            "points": 0,
             "highlight": "#FFFFBB"
           },
           {
@@ -5503,7 +5503,7 @@
             "for": 488,
             "against": 528,
             "diff": -40,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -5519,15 +5519,27 @@
             "highlight": null
           },
           {
-            "team": "Boulazac",
+            "team": "JL Bourg",
             "played": 6,
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 484,
-            "against": 517,
-            "diff": -33,
-            "points": 2,
+            "for": 543,
+            "against": 540,
+            "diff": 3,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Saint Quentin",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 5,
+            "for": 631,
+            "against": 678,
+            "diff": -47,
+            "points": 0,
             "highlight": null
           },
           {
@@ -5539,18 +5551,6 @@
             "for": 526,
             "against": 546,
             "diff": -20,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Saint Quentin",
-            "played": 6,
-            "win": 1,
-            "draw": null,
-            "loss": 5,
-            "for": 532,
-            "against": 584,
-            "diff": -52,
             "points": 0,
             "highlight": "#FFCCCC"
           },
@@ -5563,7 +5563,7 @@
             "for": 468,
             "against": 544,
             "diff": -76,
-            "points": 1,
+            "points": 0,
             "highlight": "#FFBBBB"
           }
         ],
@@ -43477,7 +43477,7 @@
       "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "Mitteldeutscher",
-      "score": null,
+      "score": "89-109",
       "date": "2026-11-01",
       "time": "15:30",
       "utc": "2026-11-01T15:30:00+00:00",
@@ -43489,7 +43489,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Saint Quentin",
       "away": "ASVEL Villeurbanne",
-      "score": null,
+      "score": "99-94",
       "date": "2026-11-01",
       "time": "15:30",
       "utc": "2026-11-01T15:30:00+00:00",
@@ -43501,19 +43501,20 @@
       "league": "del-2026-27",
       "home": "Schwenningen Wild Wings",
       "away": "Krefeld Pinguine",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-01",
       "time": "15:30",
       "utc": "2026-11-01T15:30:00+00:00",
       "venue": "Helios Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16422526"
     },
     {
       "league": "del-2026-27",
       "home": "Löwen Frankfurt",
       "away": "ERC Ingolstadt",
-      "score": null,
+      "score": "5-2",
       "date": "2026-11-01",
       "time": "15:30",
       "utc": "2026-11-01T15:30:00+00:00",
@@ -43525,7 +43526,7 @@
       "league": "del-2026-27",
       "home": "EHC Red Bull München",
       "away": "Nürnberg Ice Tigers",
-      "score": null,
+      "score": "2-1",
       "date": "2026-11-01",
       "time": "15:30",
       "utc": "2026-11-01T15:30:00+00:00",
