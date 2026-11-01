@@ -62,7 +62,7 @@ static const int SUPABASE_PAGE_SIZE = 1000;
 // Competitions between national teams. Season-independent key prefixes.
 static const std::vector<std::string> NATIONAL_LEAGUE_PREFIXES = {
     "u20-jwc-", "rlwc-", "nations-championship-", "nations-cup-",
-    "internationals-", "pacific-nations-cup-", "fiba-wcq-", "fivb-",
+    "internationals-", "pacific-nations-cup-", "fiba-wcq-", "fivb-", "rugby-europe-trophy-",
 };
 
 // International club competitions - clubs from several countries, so they

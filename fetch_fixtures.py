@@ -275,6 +275,7 @@ LEAGUES = {
         "name": "2026 National Provincial Championship",
         "page": "2026_Hilux_NPC",
         "sport": "rugby",
+        "completed": True,  # retired 2026-10-31 - season over
         "parser": "rugbybox3",
         # no utc_offset needed - each match's time field states its own
         # NZST/NZDT label directly, read per-match in parse_rugbybox3_matches
@@ -328,6 +329,14 @@ LEAGUES = {
             ],
         },
     },
+    "prod2-2026": {
+        "name": "French Pro D2 2026-27",
+        "sport": "rugby",
+        "parser": "sofascore",
+        "sofascore_tournament_id": 1147,  # "France - Pro D2" on SofaScore
+        "sofascore_season_id": 98440,
+        "standings": {"sofascore_tournament_id": 1147, "sofascore_season_id": 98440},
+    },
     "premiership-2026": {
         "name": "Gallagher Premiership 2026-27",
         "sport": "rugby",
@@ -335,6 +344,15 @@ LEAGUES = {
         "sofascore_tournament_id": 424,  # "Prem Rugby" on SofaScore
         "sofascore_season_id": 99544,
         "standings": {"sofascore_tournament_id": 424, "sofascore_season_id": 99544},
+    },
+    "championship-2026": {
+        # England's second tier (branded "Champ Rugby" since 2024).
+        "name": "RFU Championship 2026-27",
+        "sport": "rugby",
+        "parser": "sofascore",
+        "sofascore_tournament_id": 1323,  # "Champ Rugby"/"RFU Championship" on SofaScore
+        "sofascore_season_id": 99546,
+        "standings": {"sofascore_tournament_id": 1323, "sofascore_season_id": 99546},
     },
     "urc-2026": {
         "name": "United Rugby Championship 2026-27",
@@ -391,6 +409,16 @@ LEAGUES = {
         "sofascore_tournament_id": 752,
         "sofascore_season_id": 98408,
         "standings": {"sofascore_tournament_id": 752, "sofascore_season_id": 98408},
+    },
+    "rugby-europe-trophy-2026": {
+        # Rugby Europe's second tier of national teams (below the
+        # Championship), played November-April.
+        "name": "Rugby Europe Trophy 2026-27",
+        "sport": "rugby",
+        "parser": "sofascore",
+        "sofascore_tournament_id": 25920,
+        "sofascore_season_id": 104710,
+        "standings": {"sofascore_tournament_id": 25920, "sofascore_season_id": 104710},
     },
     "nrl-2026": {
         "name": "NRL 2026",
@@ -4798,6 +4826,21 @@ MANUAL_MATCH_STATUS = {
 }
 
 
+# Matches to drop outright, same (league, date, home, away) key as above -
+# for a game a source lists that isn't really happening. Dropped from
+# fixtures.json on every run, so a re-fetch can't bring it back.
+MANUAL_REMOVED_MATCHES = {
+    # 365Scores lists it, but SofaScore has no such game.
+    ("internationals-2026", "2026-10-31", "Belgium", "Hong Kong"),
+}
+
+
+def drop_manual_removed_matches(matches):
+    return [m for m in matches
+            if (m.get("league"), m.get("date"), m.get("home"), m.get("away"))
+            not in MANUAL_REMOVED_MATCHES]
+
+
 def apply_manual_match_status(matches):
     for m in matches:
         status = MANUAL_MATCH_STATUS.get((m.get("league"), m.get("date"), m.get("home"), m.get("away")))
@@ -6441,8 +6484,16 @@ def prune_stale_rescheduled_matches(data):
 
 def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
     data = load_existing()
+    data["matches"] = drop_manual_removed_matches(data.get("matches", []))
     apply_manual_match_status(data["matches"])
     data.setdefault("leagues", {})
+    # Keep each stored league's name/completed flag in step with LEAGUES -
+    # a league marked "completed" is never fetched again by default, so
+    # otherwise its stored entry would never learn it's been retired.
+    for k, entry in data["leagues"].items():
+        if k in LEAGUES:
+            entry["name"] = LEAGUES[k]["name"]
+            entry["completed"] = LEAGUES[k].get("completed", False)
     data.setdefault("standings", {})
     data.setdefault("attendance_tables", {})
     data.setdefault("playoffs", {})
@@ -6616,6 +6667,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         if checked is not False or not data["standings"].get(cfg["league_key"]):
             update_matrix_league_standings(data, cfg)
 
+    data["matches"] = drop_manual_removed_matches(data["matches"])
     apply_manual_match_status(data["matches"])
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
