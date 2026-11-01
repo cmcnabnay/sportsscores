@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-01T20:25:23+00:00",
+  "updated": "2026-11-01T20:37:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3136,14 +3136,14 @@
           },
           {
             "team": "Kölner Haie",
-            "played": 14,
-            "win": 7,
+            "played": 15,
+            "win": 8,
             "draw": null,
             "loss": 7,
-            "for": 54,
-            "against": 51,
-            "diff": 3,
-            "points": 23,
+            "for": 57,
+            "against": 53,
+            "diff": 4,
+            "points": 25,
             "highlight": "#BBF3BB"
           },
           {
@@ -3232,14 +3232,14 @@
           },
           {
             "team": "Iserlohn Roosters",
-            "played": 13,
+            "played": 14,
             "win": 4,
             "draw": null,
-            "loss": 9,
-            "for": 30,
-            "against": 49,
-            "diff": -19,
-            "points": 12,
+            "loss": 10,
+            "for": 32,
+            "against": 52,
+            "diff": -20,
+            "points": 13,
             "highlight": "#FFBBBB"
           }
         ],
@@ -4938,16 +4938,52 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Unicaja Málaga",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 530,
+            "against": 507,
+            "diff": 23,
+            "points": 6,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Barcelona",
             "played": 6,
             "win": 4,
             "draw": null,
             "loss": 2,
-            "for": 570,
-            "against": 559,
-            "diff": 11,
+            "for": 582,
+            "against": 570,
+            "diff": 12,
             "points": 8,
             "highlight": "#FFFFBB"
+          },
+          {
+            "team": "San Pablo Burgos",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 528,
+            "against": 525,
+            "diff": 3,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Joventut de Badalona",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 551,
+            "against": 549,
+            "diff": 2,
+            "points": 4,
+            "highlight": null
           },
           {
             "team": "Bilbao Basket",
@@ -4959,18 +4995,6 @@
             "against": 556,
             "diff": 1,
             "points": 8,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Unicaja Málaga",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 519,
-            "against": 495,
-            "diff": 24,
-            "points": 7,
             "highlight": null
           },
           {
@@ -5010,30 +5034,6 @@
             "highlight": null
           },
           {
-            "team": "San Pablo Burgos",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 528,
-            "against": 525,
-            "diff": 3,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Joventut de Badalona",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 551,
-            "against": 549,
-            "diff": 2,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Leyma Coruña",
             "played": 6,
             "win": 2,
@@ -5054,7 +5054,7 @@
             "for": 507,
             "against": 579,
             "diff": -72,
-            "points": 3,
+            "points": 2,
             "highlight": null
           },
           {
@@ -5078,7 +5078,7 @@
             "for": 506,
             "against": 617,
             "diff": -111,
-            "points": 1,
+            "points": 0,
             "highlight": "#FFBBBB"
           }
         ],
@@ -5377,13 +5377,25 @@
           {
             "team": "Paris Basketball",
             "played": 6,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 581,
+            "against": 520,
+            "diff": 61,
+            "points": 0,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Le Mans",
+            "played": 6,
             "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 468,
-            "against": 418,
+            "for": 596,
+            "against": 546,
             "diff": 50,
-            "points": 1,
+            "points": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -5411,27 +5423,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Le Mans",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 596,
-            "against": 546,
-            "diff": 50,
-            "points": 0,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Chalon-sur-Saône",
             "played": 6,
-            "win": 5,
+            "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 469,
-            "against": 390,
-            "diff": 79,
-            "points": 2,
+            "loss": 2,
+            "for": 571,
+            "against": 503,
+            "diff": 68,
+            "points": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -5507,6 +5507,18 @@
             "highlight": null
           },
           {
+            "team": "Saint Quentin",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 5,
+            "for": 631,
+            "against": 678,
+            "diff": -47,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Nancy",
             "played": 6,
             "win": 2,
@@ -5527,18 +5539,6 @@
             "for": 543,
             "against": 540,
             "diff": 3,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Saint Quentin",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 631,
-            "against": 678,
-            "diff": -47,
             "points": 0,
             "highlight": null
           },
@@ -43610,7 +43610,7 @@
       "league": "liga-acb-2026-27",
       "home": "Unicaja Málaga",
       "away": "Barcelona",
-      "score": null,
+      "score": "89-92",
       "date": "2026-11-01",
       "time": "18:00",
       "utc": "2026-11-01T18:00:00+00:00",
@@ -43622,24 +43622,26 @@
       "league": "lnb-elite-2026-27",
       "home": "Paris Basketball",
       "away": "Chalon-sur-Saône",
-      "score": null,
+      "score": "116-112",
       "date": "2026-11-01",
       "time": "18:00",
       "utc": "2026-11-01T18:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4846932"
     },
     {
       "league": "del-2026-27",
       "home": "Kölner Haie",
       "away": "Iserlohn Roosters",
-      "score": null,
+      "score": "3-2",
       "date": "2026-11-01",
       "time": "18:00",
       "utc": "2026-11-01T18:00:00+00:00",
       "venue": "Lanxess Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16422528"
     },
     {
