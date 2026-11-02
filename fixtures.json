@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-02T15:31:42+00:00",
+  "updated": "2026-11-02T15:42:58+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10363,51 +10363,39 @@
           },
           {
             "team": "Sochi",
-            "played": 15,
+            "played": 16,
             "win": 10,
             "draw": 2,
-            "loss": 3,
+            "loss": 4,
             "for": 26,
-            "against": 15,
-            "diff": 11,
+            "against": 17,
+            "diff": 9,
             "points": 32,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Torpedo Moscow",
-            "played": 15,
-            "win": 8,
+            "team": "Ural Yekaterinburg",
+            "played": 16,
+            "win": 9,
             "draw": 4,
             "loss": 3,
             "for": 27,
-            "against": 12,
-            "diff": 15,
-            "points": 28,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Veles Moscow",
-            "played": 17,
-            "win": 8,
-            "draw": 4,
-            "loss": 5,
-            "for": 21,
-            "against": 20,
-            "diff": 1,
-            "points": 28,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Ural Yekaterinburg",
-            "played": 15,
-            "win": 8,
-            "draw": 4,
-            "loss": 3,
-            "for": 25,
             "against": 11,
-            "diff": 14,
-            "points": 28,
-            "highlight": "transparent"
+            "diff": 16,
+            "points": 31,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Torpedo Moscow",
+            "played": 16,
+            "win": 8,
+            "draw": 5,
+            "loss": 3,
+            "for": 28,
+            "against": 13,
+            "diff": 15,
+            "points": 29,
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Spartak Kostroma",
@@ -10422,14 +10410,26 @@
             "highlight": "transparent"
           },
           {
+            "team": "Veles Moscow",
+            "played": 17,
+            "win": 8,
+            "draw": 4,
+            "loss": 5,
+            "for": 21,
+            "against": 20,
+            "diff": 1,
+            "points": 28,
+            "highlight": "transparent"
+          },
+          {
             "team": "Shinnik Yaroslavl",
-            "played": 15,
+            "played": 16,
             "win": 5,
             "draw": 8,
-            "loss": 2,
+            "loss": 3,
             "for": 20,
-            "against": 15,
-            "diff": 5,
+            "against": 17,
+            "diff": 3,
             "points": 23,
             "highlight": "transparent"
           },
@@ -10447,14 +10447,26 @@
           },
           {
             "team": "Ufa",
-            "played": 15,
+            "played": 16,
             "win": 5,
-            "draw": 6,
+            "draw": 7,
             "loss": 4,
             "for": 18,
             "against": 15,
             "diff": 3,
-            "points": 21,
+            "points": 22,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Rotor Volgograd",
+            "played": 16,
+            "win": 5,
+            "draw": 5,
+            "loss": 6,
+            "for": 23,
+            "against": 18,
+            "diff": 5,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -10470,15 +10482,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Rotor Volgograd",
-            "played": 15,
+            "team": "Chelyabinsk",
+            "played": 16,
             "win": 5,
-            "draw": 4,
-            "loss": 6,
-            "for": 23,
-            "against": 18,
-            "diff": 5,
-            "points": 19,
+            "draw": 3,
+            "loss": 8,
+            "for": 21,
+            "against": 26,
+            "diff": -5,
+            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -10494,15 +10506,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Chelyabinsk",
-            "played": 15,
-            "win": 4,
-            "draw": 3,
+            "team": "KAMAZ Naberezhnye Chelny",
+            "played": 16,
+            "win": 3,
+            "draw": 5,
             "loss": 8,
-            "for": 19,
-            "against": 26,
-            "diff": -7,
-            "points": 15,
+            "for": 20,
+            "against": 28,
+            "diff": -8,
+            "points": 14,
             "highlight": "transparent"
           },
           {
@@ -10525,18 +10537,6 @@
             "loss": 9,
             "for": 20,
             "against": 28,
-            "diff": -8,
-            "points": 13,
-            "highlight": "transparent"
-          },
-          {
-            "team": "KAMAZ Naberezhnye Chelny",
-            "played": 15,
-            "win": 3,
-            "draw": 4,
-            "loss": 8,
-            "for": 19,
-            "against": 27,
             "diff": -8,
             "points": 13,
             "highlight": "#FFBBBB"
@@ -12070,7 +12070,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-02T00:53:47.333557+00:00",
-    "torpedo": "2026-11-01T15:36:23.216577+00:00"
+    "torpedo": "2026-11-02T15:42:41.753451+00:00"
   },
   "matches": [
     {
