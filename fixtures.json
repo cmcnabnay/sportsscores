@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-02T21:22:51+00:00",
+  "updated": "2026-11-02T21:34:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4148,13 +4148,13 @@
         "rows": [
           {
             "team": "Virtus Bologna",
-            "played": 5,
+            "played": 6,
             "win": 5,
             "draw": null,
-            "loss": 0,
-            "for": 487,
-            "against": 421,
-            "diff": 66,
+            "loss": 1,
+            "for": 580,
+            "against": 521,
+            "diff": 59,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -4183,6 +4183,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Olimpia Milano",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 548,
+            "against": 493,
+            "diff": 55,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Maxima Roma",
             "played": 6,
             "win": 4,
@@ -4207,14 +4219,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Olimpia Milano",
-            "played": 5,
+            "team": "Pallacanestro Trieste",
+            "played": 6,
             "win": 3,
             "draw": null,
-            "loss": 2,
-            "for": 453,
-            "against": 411,
-            "diff": 42,
+            "loss": 3,
+            "for": 545,
+            "against": 519,
+            "diff": 26,
             "points": 6,
             "highlight": "#BBF3BB"
           },
@@ -4240,7 +4252,7 @@
             "against": 543,
             "diff": -5,
             "points": 6,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "Reyer Venezia",
@@ -4275,18 +4287,6 @@
             "for": 601,
             "against": 579,
             "diff": 22,
-            "points": 4,
-            "highlight": null
-          },
-          {
-            "team": "Pallacanestro Trieste",
-            "played": 5,
-            "win": 2,
-            "draw": null,
-            "loss": 3,
-            "for": 445,
-            "against": 426,
-            "diff": 19,
             "points": 4,
             "highlight": null
           },
@@ -4328,13 +4328,13 @@
           },
           {
             "team": "Pallacanestro Cantù",
-            "played": 5,
+            "played": 6,
             "win": 0,
             "draw": null,
-            "loss": 5,
-            "for": 369,
-            "against": 442,
-            "diff": -73,
+            "loss": 6,
+            "for": 451,
+            "against": 537,
+            "diff": -86,
             "points": 0,
             "highlight": "#FFBBBB"
           }
@@ -43696,7 +43696,7 @@
       "league": "lega-a-2026-27",
       "home": "Virtus Bologna",
       "away": "Pallacanestro Trieste",
-      "score": null,
+      "score": "93-100",
       "date": "2026-11-02",
       "time": "19:00",
       "utc": "2026-11-02T19:00:00+00:00",
@@ -43708,7 +43708,7 @@
       "league": "lega-a-2026-27",
       "home": "Pallacanestro Cantù",
       "away": "Olimpia Milano",
-      "score": null,
+      "score": "82-95",
       "date": "2026-11-02",
       "time": "19:30",
       "utc": "2026-11-02T19:30:00+00:00",
