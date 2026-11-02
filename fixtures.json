@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-02T17:40:42+00:00",
+  "updated": "2026-11-02T19:35:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3267,13 +3267,13 @@
           },
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 20,
+            "played": 21,
             "win": 15,
             "draw": null,
-            "loss": 5,
+            "loss": 6,
             "for": 55,
-            "against": 35,
-            "diff": 20,
+            "against": 36,
+            "diff": 19,
             "points": 30,
             "highlight": "#BBF3FF"
           },
@@ -3351,14 +3351,14 @@
           },
           {
             "team": "SKA St. Petersburg",
-            "played": 19,
-            "win": 9,
+            "played": 20,
+            "win": 10,
             "draw": null,
             "loss": 9,
-            "for": 58,
-            "against": 58,
-            "diff": 0,
-            "points": 19,
+            "for": 62,
+            "against": 61,
+            "diff": 1,
+            "points": 21,
             "highlight": null
           },
           {
@@ -3375,14 +3375,14 @@
           },
           {
             "team": "Lada Togliatti",
-            "played": 21,
-            "win": 3,
+            "played": 22,
+            "win": 4,
             "draw": null,
             "loss": 13,
-            "for": 33,
+            "for": 34,
             "against": 70,
-            "diff": -37,
-            "points": 11,
+            "diff": -36,
+            "points": 13,
             "highlight": null
           }
         ],
@@ -3480,13 +3480,13 @@
           },
           {
             "team": "AK Bars",
-            "played": 22,
+            "played": 23,
             "win": 9,
             "draw": null,
-            "loss": 9,
-            "for": 44,
-            "against": 47,
-            "diff": -3,
+            "loss": 10,
+            "for": 47,
+            "against": 51,
+            "diff": -4,
             "points": 20,
             "highlight": "#BBF3BB"
           },
@@ -43660,7 +43660,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "Lada Togliatti",
-      "score": null,
+      "score": "0-1",
       "date": "2026-11-02",
       "time": "16:00",
       "utc": "2026-11-02T16:00:00+00:00",
@@ -43672,7 +43672,7 @@
       "league": "khl-2026-27",
       "home": "AK Bars",
       "away": "SKA St. Petersburg",
-      "score": null,
+      "score": "3-4",
       "date": "2026-11-02",
       "time": "16:00",
       "utc": "2026-11-02T16:00:00+00:00",
@@ -44387,6 +44387,54 @@
       "venue": "Movistar Arena",
       "attendance": null,
       "source_id": "sofascore:16665341"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Avangard Omsk",
+      "away": "CSKA Moscow",
+      "score": null,
+      "date": "2026-11-05",
+      "time": "13:30",
+      "utc": "2026-11-05T13:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4888920"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Neftekhimik Nizhnekamsk",
+      "score": null,
+      "date": "2026-11-05",
+      "time": "14:00",
+      "utc": "2026-11-05T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4888917"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "Severstal Cherepovets",
+      "score": null,
+      "date": "2026-11-05",
+      "time": "16:30",
+      "utc": "2026-11-05T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4888918"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Shanghai Dragons",
+      "away": "Dynamo Moscow",
+      "score": null,
+      "date": "2026-11-05",
+      "time": "16:30",
+      "utc": "2026-11-05T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4888919"
     },
     {
       "league": "euroleague-2026-27",
