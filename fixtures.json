@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-03T05:43:51+00:00",
+  "updated": "2026-11-03T05:54:51+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -578,28 +578,7 @@
       "rounds": [
         {
           "label": "Semi-finals",
-          "matches": [
-            {
-              "seed1": null,
-              "team1": "New Zealand",
-              "score1": null,
-              "seed2": null,
-              "team2": "Tonga",
-              "score2": null,
-              "date": "2026-11-07",
-              "venue": "Newcastle International Sports Centre, Newcastle"
-            },
-            {
-              "seed1": null,
-              "team1": "Australia",
-              "score1": null,
-              "seed2": null,
-              "team2": "Samoa",
-              "score2": null,
-              "date": "2026-11-08",
-              "venue": "Sydney Football Stadium, Sydney"
-            }
-          ]
+          "matches": []
         },
         {
           "label": "Final",
