@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-03T18:50:42+00:00",
+  "updated": "2026-11-03T19:02:42+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3257,6 +3257,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Shanghai Dragons",
+            "played": 21,
+            "win": 14,
+            "draw": null,
+            "loss": 5,
+            "for": 63,
+            "against": 50,
+            "diff": 13,
+            "points": 29,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Spartak Moscow",
             "played": 22,
             "win": 12,
@@ -3278,18 +3290,6 @@
             "against": 42,
             "diff": 13,
             "points": 28,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Shanghai Dragons",
-            "played": 21,
-            "win": 13,
-            "draw": null,
-            "loss": 5,
-            "for": 60,
-            "against": 49,
-            "diff": 11,
-            "points": 27,
             "highlight": "#BBF3BB"
           },
           {
@@ -3297,10 +3297,10 @@
             "played": 23,
             "win": 12,
             "draw": null,
-            "loss": 8,
-            "for": 48,
-            "against": 48,
-            "diff": 0,
+            "loss": 9,
+            "for": 49,
+            "against": 51,
+            "diff": -2,
             "points": 26,
             "highlight": "#BBF3BB"
           },
@@ -3345,10 +3345,10 @@
             "played": 22,
             "win": 7,
             "draw": null,
-            "loss": 14,
-            "for": 37,
-            "against": 73,
-            "diff": -36,
+            "loss": 15,
+            "for": 38,
+            "against": 75,
+            "diff": -37,
             "points": 14,
             "highlight": null
           },
@@ -3388,13 +3388,13 @@
           {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 23,
-            "win": 12,
+            "win": 13,
             "draw": null,
             "loss": 7,
-            "for": 63,
-            "against": 54,
-            "diff": 9,
-            "points": 27,
+            "for": 65,
+            "against": 55,
+            "diff": 10,
+            "points": 29,
             "highlight": "#BBF3FF"
           },
           {
@@ -43711,7 +43711,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Severstal Cherepovets",
-      "score": null,
+      "score": "3-1",
       "date": "2026-11-03",
       "time": "16:30",
       "utc": "2026-11-03T16:30:00+00:00",
@@ -43723,7 +43723,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Neftekhimik Nizhnekamsk",
-      "score": null,
+      "score": "1-2",
       "date": "2026-11-03",
       "time": "16:30",
       "utc": "2026-11-03T16:30:00+00:00",
