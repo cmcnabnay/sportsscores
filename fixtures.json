@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-03T00:48:51+00:00",
+  "updated": "2026-11-03T00:59:54+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11046,28 +11046,28 @@
           },
           {
             "team": "Defensa y Justicia",
-            "played": 14,
+            "played": 15,
             "win": 8,
-            "draw": 3,
+            "draw": 4,
             "loss": 3,
-            "for": 20,
-            "against": 13,
+            "for": 21,
+            "against": 14,
             "diff": 7,
-            "points": 27,
+            "points": 28,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Lanús",
-            "played": 14,
+            "played": 15,
             "win": 7,
-            "draw": 3,
+            "draw": 4,
             "loss": 4,
-            "for": 17,
-            "against": 10,
+            "for": 18,
+            "against": 11,
             "diff": 7,
-            "points": 24,
+            "points": 25,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -11088,28 +11088,28 @@
           },
           {
             "team": "Gimnasia y Esgrima (M)",
-            "played": 14,
+            "played": 15,
             "win": 6,
-            "draw": 2,
+            "draw": 3,
             "loss": 6,
-            "for": 16,
-            "against": 15,
+            "for": 17,
+            "against": 16,
             "diff": 1,
-            "points": 20,
+            "points": 21,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Independiente",
-            "played": 14,
+            "played": 15,
             "win": 5,
-            "draw": 4,
+            "draw": 5,
             "loss": 5,
-            "for": 12,
-            "against": 14,
+            "for": 13,
+            "against": 15,
             "diff": -2,
-            "points": 19,
+            "points": 20,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -11143,6 +11143,20 @@
             "highlight": "transparent"
           },
           {
+            "team": "Platense",
+            "played": 15,
+            "win": 4,
+            "draw": 5,
+            "loss": 6,
+            "for": 16,
+            "against": 20,
+            "diff": -4,
+            "points": 17,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
             "team": "Estudiantes (LP)",
             "played": 15,
             "win": 4,
@@ -11152,20 +11166,6 @@
             "against": 21,
             "diff": -1,
             "points": 15,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Platense",
-            "played": 14,
-            "win": 3,
-            "draw": 5,
-            "loss": 6,
-            "for": 14,
-            "against": 20,
-            "diff": -6,
-            "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -11200,13 +11200,13 @@
           },
           {
             "team": "Central Córdoba (SdE)",
-            "played": 14,
+            "played": 15,
             "win": 2,
             "draw": 4,
-            "loss": 8,
+            "loss": 9,
             "for": 11,
-            "against": 23,
-            "diff": -12,
+            "against": 25,
+            "diff": -14,
             "points": 10,
             "try_bonus": null,
             "losing_bonus": null,
@@ -12069,7 +12069,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-02T00:53:47.333557+00:00",
+    "velez": "2026-11-03T00:59:50.510700+00:00",
     "torpedo": "2026-11-02T15:42:41.753451+00:00"
   },
   "matches": [
