@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-03T21:25:35+00:00",
+  "updated": "2026-11-03T21:37:51+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2378,14 +2378,14 @@
         "rows": [
           {
             "team": "Bayern Munich",
-            "played": 6,
-            "win": 5,
+            "played": 7,
+            "win": 6,
             "draw": null,
             "loss": 1,
-            "for": 566,
-            "against": 422,
-            "diff": 144,
-            "points": 10,
+            "for": 674,
+            "against": 488,
+            "diff": 186,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -2497,18 +2497,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Basketball Lowen Braunschweig",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 535,
-            "against": 567,
-            "diff": -32,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Alba Berlin",
             "played": 7,
             "win": 3,
@@ -2529,6 +2517,18 @@
             "for": 521,
             "against": 584,
             "diff": -63,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Basketball Lowen Braunschweig",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 601,
+            "against": 675,
+            "diff": -74,
             "points": 6,
             "highlight": null
           },
@@ -4642,9 +4642,9 @@
             "win": 6,
             "draw": null,
             "loss": 0,
-            "for": 551,
-            "against": 496,
-            "diff": 55,
+            "for": 552,
+            "against": 498,
+            "diff": 54,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -4690,9 +4690,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 487,
-            "against": 526,
-            "diff": -39,
+            "for": 489,
+            "against": 527,
+            "diff": -38,
             "points": 8,
             "highlight": null
           },
@@ -9396,13 +9396,25 @@
         "rows": [
           {
             "team": "Basquet Girona",
-            "played": 4,
-            "win": 3,
+            "played": 5,
+            "win": 4,
             "draw": null,
             "loss": 1,
+            "for": 456,
+            "against": 366,
+            "diff": 90,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Patrioti Levice",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
             "for": 366,
-            "against": 300,
-            "diff": 66,
+            "against": 398,
+            "diff": -32,
             "points": 7,
             "highlight": "#BBF3BB"
           },
@@ -9415,18 +9427,6 @@
             "for": 309,
             "against": 340,
             "diff": -31,
-            "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Patrioti Levice",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 300,
-            "against": 308,
-            "diff": -8,
             "points": 6,
             "highlight": null
           },
@@ -9553,6 +9553,30 @@
       "Group D": {
         "rows": [
           {
+            "team": "Nancy",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 422,
+            "against": 349,
+            "diff": 73,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Keravnos Strovolou",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 399,
+            "against": 395,
+            "diff": 4,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "King Wilki Morskie Szczecin",
             "played": 4,
             "win": 3,
@@ -9561,30 +9585,6 @@
             "for": 349,
             "against": 329,
             "diff": 20,
-            "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Nancy",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 336,
-            "against": 276,
-            "diff": 60,
-            "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Keravnos Strovolou",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 326,
-            "against": 309,
-            "diff": 17,
             "points": 7,
             "highlight": null
           },
@@ -43858,7 +43858,7 @@
       "league": "bbl-2026-27",
       "home": "Bayern Munich",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
+      "score": "108-66",
       "date": "2026-11-03",
       "time": "19:00",
       "utc": "2026-11-03T19:00:00+00:00",
@@ -43882,7 +43882,7 @@
       "league": "eurocup-2026-27",
       "home": "Napoli Basket",
       "away": "Dolomiti Energia Trento",
-      "score": null,
+      "score": "90-79",
       "date": "2026-11-03",
       "time": "19:00",
       "utc": "2026-11-03T19:00:00+00:00",
@@ -43894,7 +43894,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Basquet Girona",
       "away": "Patrioti Levice",
-      "score": null,
+      "score": "90-66",
       "date": "2026-11-03",
       "time": "19:00",
       "utc": "2026-11-03T19:00:00+00:00",
@@ -43906,7 +43906,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Nancy",
       "away": "Keravnos Strovolou",
-      "score": null,
+      "score": "86-73",
       "date": "2026-11-03",
       "time": "19:00",
       "utc": "2026-11-03T19:00:00+00:00",
