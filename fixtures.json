@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T20:10:06+00:00",
+  "updated": "2026-11-04T21:01:55+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4436,9 +4436,9 @@
             "win": 6,
             "draw": null,
             "loss": 0,
-            "for": 488,
-            "against": 410,
-            "diff": 78,
+            "for": 519,
+            "against": 437,
+            "diff": 82,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -4448,9 +4448,9 @@
             "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 498,
-            "against": 418,
-            "diff": 80,
+            "for": 525,
+            "against": 449,
+            "diff": 76,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -4496,9 +4496,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 432,
-            "against": 481,
-            "diff": -49,
+            "for": 469,
+            "against": 510,
+            "diff": -41,
             "points": 8,
             "highlight": null
           },
@@ -4508,9 +4508,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 422,
-            "against": 467,
-            "diff": -45,
+            "for": 451,
+            "against": 504,
+            "diff": -53,
             "points": 7,
             "highlight": null
           },
@@ -4546,28 +4546,52 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "London Lions",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 436,
-            "against": 394,
-            "diff": 42,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Reyer Venezia",
             "played": 6,
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 489,
-            "against": 447,
-            "diff": 42,
+            "for": 528,
+            "against": 484,
+            "diff": 44,
             "points": 9,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "London Lions",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 457,
+            "against": 429,
+            "diff": 28,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Maxima Roma",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 483,
+            "against": 473,
+            "diff": 10,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Siauliai",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 489,
+            "against": 518,
+            "diff": -29,
+            "points": 9,
+            "highlight": null
           },
           {
             "team": "Skyliners Frankfurt",
@@ -4578,18 +4602,6 @@
             "for": 517,
             "against": 550,
             "diff": -33,
-            "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Siauliai",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 452,
-            "against": 479,
-            "diff": -27,
             "points": 9,
             "highlight": null
           },
@@ -4614,18 +4626,6 @@
             "for": 476,
             "against": 485,
             "diff": -9,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "Maxima Roma",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 448,
-            "against": 452,
-            "diff": -4,
             "points": 8,
             "highlight": null
           }
@@ -4805,9 +4805,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 463,
-            "against": 470,
-            "diff": -7,
+            "for": 477,
+            "against": 487,
+            "diff": -10,
             "points": 8,
             "highlight": null
           },
@@ -4829,9 +4829,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 399,
-            "against": 471,
-            "diff": -72,
+            "for": 416,
+            "against": 485,
+            "diff": -69,
             "points": 7,
             "highlight": null
           }
@@ -9317,14 +9317,14 @@
         "rows": [
           {
             "team": "Gladiators Trier",
-            "played": 4,
-            "win": 4,
+            "played": 5,
+            "win": 5,
             "draw": null,
             "loss": 0,
-            "for": 382,
-            "against": 302,
-            "diff": 80,
-            "points": 8,
+            "for": 478,
+            "against": 361,
+            "diff": 117,
+            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -9336,7 +9336,7 @@
             "for": 459,
             "against": 420,
             "diff": 39,
-            "points": 8,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
@@ -9353,14 +9353,14 @@
           },
           {
             "team": "KB Trepça",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 335,
-            "against": 310,
-            "diff": 25,
-            "points": 6,
+            "loss": 2,
+            "for": 394,
+            "against": 406,
+            "diff": -12,
+            "points": 8,
             "highlight": null
           },
           {
@@ -9372,7 +9372,7 @@
             "for": 422,
             "against": 440,
             "diff": -18,
-            "points": 6,
+            "points": 2,
             "highlight": null
           },
           {
@@ -9407,6 +9407,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Zastal Zielona Góra",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 404,
+            "against": 433,
+            "diff": -29,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Patrioti Levice",
             "played": 5,
             "win": 2,
@@ -9416,17 +9428,17 @@
             "against": 398,
             "diff": -32,
             "points": 7,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
-            "team": "Zastal Zielona Góra",
-            "played": 4,
-            "win": 2,
+            "team": "CS Dinamo București",
+            "played": 5,
+            "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 309,
-            "against": 340,
-            "diff": -31,
+            "loss": 4,
+            "for": 417,
+            "against": 420,
+            "diff": -3,
             "points": 6,
             "highlight": null
           },
@@ -9452,18 +9464,6 @@
             "against": 341,
             "diff": -19,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "CS Dinamo București",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 324,
-            "against": 325,
-            "diff": -1,
-            "points": 5,
             "highlight": null
           }
         ],
@@ -9632,6 +9632,42 @@
       "Group E": {
         "rows": [
           {
+            "team": "Dziki Warszawa",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 434,
+            "against": 398,
+            "diff": 36,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Iraklis BC",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 420,
+            "against": 383,
+            "diff": 37,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "AEK Larnaca B.C.",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 401,
+            "against": 402,
+            "diff": -1,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Wurzburg Baskets",
             "played": 5,
             "win": 3,
@@ -9641,30 +9677,6 @@
             "against": 377,
             "diff": 52,
             "points": 8,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dziki Warszawa",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 345,
-            "against": 332,
-            "diff": 13,
-            "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "AEK Larnaca B.C.",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 337,
-            "against": 321,
-            "diff": 16,
-            "points": 7,
             "highlight": null
           },
           {
@@ -9680,27 +9692,15 @@
             "highlight": null
           },
           {
-            "team": "Iraklis BC",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 339,
-            "against": 319,
-            "diff": 20,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "MZT Skopje Aerodrom",
-            "played": 4,
+            "played": 5,
             "win": 0,
             "draw": null,
-            "loss": 4,
-            "for": 293,
-            "against": 331,
-            "diff": -38,
-            "points": 4,
+            "loss": 5,
+            "for": 359,
+            "against": 420,
+            "diff": -61,
+            "points": 5,
             "highlight": null
           }
         ],
@@ -9719,20 +9719,32 @@
             "for": 423,
             "against": 369,
             "diff": 54,
-            "points": 9,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Kalev/Cramo",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 407,
+            "against": 401,
+            "diff": 6,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Chalon-sur-Saône",
-            "played": 4,
+            "played": 5,
             "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 347,
-            "against": 289,
-            "diff": 58,
-            "points": 7,
-            "highlight": "#BBF3BB"
+            "loss": 2,
+            "for": 415,
+            "against": 363,
+            "diff": 52,
+            "points": 6,
+            "highlight": null
           },
           {
             "team": "Valmiera Glass VIA",
@@ -9743,19 +9755,7 @@
             "for": 401,
             "against": 423,
             "diff": -22,
-            "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "BC Kalev/Cramo",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 333,
-            "against": 333,
-            "diff": 0,
-            "points": 6,
+            "points": 4,
             "highlight": null
           },
           {
@@ -9767,7 +9767,7 @@
             "for": 291,
             "against": 331,
             "diff": -40,
-            "points": 5,
+            "points": 2,
             "highlight": null
           },
           {
@@ -9779,7 +9779,7 @@
             "for": 306,
             "against": 356,
             "diff": -50,
-            "points": 5,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -9790,6 +9790,18 @@
       "Group G": {
         "rows": [
           {
+            "team": "SL Benfica",
+            "played": 5,
+            "win": 4,
+            "draw": null,
+            "loss": 1,
+            "for": 472,
+            "against": 424,
+            "diff": 48,
+            "points": 9,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Bakken Bears",
             "played": 5,
             "win": 4,
@@ -9799,18 +9811,6 @@
             "against": 406,
             "diff": 7,
             "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "SL Benfica",
-            "played": 4,
-            "win": 3,
-            "draw": null,
-            "loss": 1,
-            "for": 375,
-            "against": 348,
-            "diff": 27,
-            "points": 7,
             "highlight": "#BBF3BB"
           },
           {
@@ -9838,6 +9838,18 @@
             "highlight": null
           },
           {
+            "team": "Landau Lions",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 425,
+            "against": 487,
+            "diff": -62,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "BC Prievidza",
             "played": 4,
             "win": 1,
@@ -9846,18 +9858,6 @@
             "for": 338,
             "against": 348,
             "diff": -10,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Landau Lions",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 349,
-            "against": 390,
-            "diff": -41,
             "points": 5,
             "highlight": null
           }
@@ -9881,14 +9881,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Lokomotiv Plovdiv 1926",
+            "team": "VEF Rīga",
             "played": 5,
             "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 417,
-            "against": 416,
-            "diff": 1,
+            "for": 485,
+            "against": 425,
+            "diff": 60,
             "points": 8,
             "highlight": "#BBF3BB"
           },
@@ -9901,31 +9901,31 @@
             "for": 432,
             "against": 402,
             "diff": 30,
-            "points": 8,
+            "points": 6,
             "highlight": null
           },
           {
-            "team": "VEF Rīga",
-            "played": 4,
-            "win": 2,
+            "team": "Lokomotiv Plovdiv 1926",
+            "played": 5,
+            "win": 3,
             "draw": null,
             "loss": 2,
-            "for": 388,
-            "against": 360,
-            "diff": 28,
+            "for": 417,
+            "against": 416,
+            "diff": 1,
             "points": 6,
             "highlight": null
           },
           {
             "team": "Fribourg Olympic Basket",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 293,
-            "against": 341,
-            "diff": -48,
-            "points": 5,
+            "loss": 4,
+            "for": 358,
+            "against": 438,
+            "diff": -80,
+            "points": 6,
             "highlight": null
           },
           {
@@ -9937,7 +9937,7 @@
             "for": 380,
             "against": 441,
             "diff": -61,
-            "points": 5,
+            "points": 0,
             "highlight": null
           }
         ],
@@ -44176,6 +44176,7 @@
       "utc": "2026-11-04T17:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4771445"
     },
     {
@@ -44218,7 +44219,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Zastal Zielona Góra",
       "away": "CS Dinamo București",
-      "score": null,
+      "score": "95-93",
       "date": "2026-11-04",
       "time": "18:00",
       "utc": "2026-11-04T18:00:00+00:00",
@@ -44230,7 +44231,7 @@
       "league": "eurocup-2026-27",
       "home": "KK Bosna",
       "away": "BC Balkan Botevgrad",
-      "score": null,
+      "score": "69-78",
       "date": "2026-11-04",
       "time": "18:30",
       "utc": "2026-11-04T18:30:00+00:00",
@@ -44263,22 +44264,10 @@
       "source_id": "365scores:4770056"
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "Reyer Venezia",
-      "away": "Siauliai",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "19:00",
-      "utc": "2026-11-04T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4771449"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Gladiators Trier",
       "away": "KB Trepça",
-      "score": null,
+      "score": "96-59",
       "date": "2026-11-04",
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
@@ -44290,7 +44279,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Fribourg Olympic Basket",
       "away": "VEF Rīga",
-      "score": null,
+      "score": "65-97",
       "date": "2026-11-04",
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
@@ -44302,7 +44291,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "SL Benfica",
       "away": "Landau Lions",
-      "score": null,
+      "score": "97-76",
       "date": "2026-11-04",
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
