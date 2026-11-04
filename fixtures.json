@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T00:49:36+00:00",
+  "updated": "2026-11-04T01:00:41+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11212,14 +11212,14 @@
           },
           {
             "team": "Argentinos Juniors",
-            "played": 14,
-            "win": 8,
+            "played": 15,
+            "win": 9,
             "draw": 4,
             "loss": 2,
-            "for": 18,
-            "against": 11,
-            "diff": 7,
-            "points": 28,
+            "for": 20,
+            "against": 12,
+            "diff": 8,
+            "points": 31,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -11281,6 +11281,20 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Independiente Rivadavia",
+            "played": 15,
+            "win": 6,
+            "draw": 4,
+            "loss": 5,
+            "for": 20,
+            "against": 23,
+            "diff": -3,
+            "points": 22,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sarmiento (J)",
             "played": 15,
             "win": 6,
@@ -11306,31 +11320,17 @@
             "points": 19,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Independiente Rivadavia",
-            "played": 14,
-            "win": 5,
-            "draw": 4,
-            "loss": 5,
-            "for": 17,
-            "against": 22,
-            "diff": -5,
-            "points": 19,
-            "try_bonus": null,
-            "losing_bonus": null,
             "highlight": "transparent"
           },
           {
             "team": "Atlético Tucumán",
-            "played": 14,
+            "played": 15,
             "win": 4,
             "draw": 5,
-            "loss": 5,
-            "for": 13,
-            "against": 13,
-            "diff": 0,
+            "loss": 6,
+            "for": 14,
+            "against": 15,
+            "diff": -1,
             "points": 17,
             "try_bonus": null,
             "losing_bonus": null,
@@ -11366,13 +11366,13 @@
           },
           {
             "team": "Banfield",
-            "played": 14,
+            "played": 15,
             "win": 3,
             "draw": 5,
-            "loss": 6,
-            "for": 15,
-            "against": 20,
-            "diff": -5,
+            "loss": 7,
+            "for": 16,
+            "against": 23,
+            "diff": -7,
             "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
@@ -12048,7 +12048,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-03T00:59:50.510700+00:00",
+    "velez": "2026-11-04T01:00:35.277350+00:00",
     "torpedo": "2026-11-03T15:44:43.370030+00:00"
   },
   "matches": [
@@ -44682,6 +44682,18 @@
       "source_id": "365scores:4846933"
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Unión de Santa Fe",
+      "away": "Vélez Sarsfield",
+      "score": "-",
+      "date": "2026-11-06",
+      "time": "19:15",
+      "utc": "2026-11-06T22:15:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4633209"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Olympiacos BC",
       "away": "KK Crvena zvezda",
@@ -45281,18 +45293,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662511"
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Unión de Santa Fe",
-      "away": "Vélez Sarsfield",
-      "score": "-",
-      "date": "2026-11-08",
-      "time": "14:00",
-      "utc": "2026-11-08T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4633209"
     },
     {
       "league": "top14-2026",
