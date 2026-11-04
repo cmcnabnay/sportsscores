@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T19:26:30+00:00",
+  "updated": "2026-11-04T19:37:37+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2672,6 +2672,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Legia Warszawa",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 236,
+            "against": 249,
+            "diff": -13,
+            "points": 5,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "KK Cibona",
             "played": 3,
             "win": 1,
@@ -2685,26 +2697,14 @@
           },
           {
             "team": "Galatasaray MCT Technic",
-            "played": 2,
+            "played": 3,
             "win": 1,
             "draw": null,
-            "loss": 1,
-            "for": 159,
-            "against": 173,
-            "diff": -14,
-            "points": 3,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Legia Warszawa",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 157,
-            "against": 177,
-            "diff": -20,
-            "points": 3,
+            "loss": 2,
+            "for": 231,
+            "against": 252,
+            "diff": -21,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -2728,6 +2728,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "AEK BC",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 243,
+            "against": 262,
+            "diff": -19,
+            "points": 5,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Falco KC-Szombathely",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 244,
+            "against": 243,
+            "diff": 1,
+            "points": 4,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Salon Vilpas Vikings",
             "played": 3,
             "win": 1,
@@ -2737,30 +2761,6 @@
             "against": 249,
             "diff": -7,
             "points": 4,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Falco KC-Szombathely",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 178,
-            "against": 171,
-            "diff": 7,
-            "points": 3,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "AEK BC",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 171,
-            "against": 196,
-            "diff": -25,
-            "points": 3,
             "highlight": null
           }
         ],
@@ -9336,7 +9336,7 @@
             "for": 459,
             "against": 420,
             "diff": 39,
-            "points": 6,
+            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -9372,7 +9372,7 @@
             "for": 422,
             "against": 440,
             "diff": -18,
-            "points": 2,
+            "points": 6,
             "highlight": null
           },
           {
@@ -9589,6 +9589,30 @@
             "highlight": null
           },
           {
+            "team": "BC Vienna",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 397,
+            "against": 410,
+            "diff": -13,
+            "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "Nitra Blue Wings",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 381,
+            "against": 439,
+            "diff": -58,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "BC Pärnu",
             "played": 5,
             "win": 1,
@@ -9598,30 +9622,6 @@
             "against": 405,
             "diff": -39,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "BC Vienna",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 313,
-            "against": 330,
-            "diff": -17,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Nitra Blue Wings",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 301,
-            "against": 355,
-            "diff": -54,
-            "points": 5,
             "highlight": null
           }
         ],
@@ -44050,7 +44050,7 @@
       "league": "bcl-2026-27",
       "home": "Falco KC-Szombathely",
       "away": "AEK BC",
-      "score": null,
+      "score": "66-72",
       "date": "2026-11-04",
       "time": "17:00",
       "utc": "2026-11-04T17:00:00+00:00",
@@ -44062,7 +44062,7 @@
       "league": "bcl-2026-27",
       "home": "Legia Warszawa",
       "away": "Galatasaray MCT Technic",
-      "score": null,
+      "score": "79-72",
       "date": "2026-11-04",
       "time": "17:00",
       "utc": "2026-11-04T17:00:00+00:00",
@@ -44146,7 +44146,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Nitra Blue Wings",
       "away": "BC Vienna",
-      "score": null,
+      "score": "80-84",
       "date": "2026-11-04",
       "time": "17:00",
       "utc": "2026-11-04T17:00:00+00:00",
@@ -44182,7 +44182,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Iraklis BC",
       "away": "AEK Larnaca B.C.",
-      "score": null,
+      "score": "81-64",
       "date": "2026-11-04",
       "time": "17:30",
       "utc": "2026-11-04T17:30:00+00:00",
@@ -44206,7 +44206,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Dziki Warszawa",
       "away": "MZT Skopje Aerodrom",
-      "score": null,
+      "score": "89-66",
       "date": "2026-11-04",
       "time": "18:00",
       "utc": "2026-11-04T18:00:00+00:00",
