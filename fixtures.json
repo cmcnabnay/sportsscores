@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T15:33:47+00:00",
+  "updated": "2026-11-04T15:44:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12049,7 +12049,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-04T01:00:35.277350+00:00",
-    "torpedo": "2026-11-03T15:44:43.370030+00:00"
+    "torpedo": "2026-11-04T15:44:46.539435+00:00"
   },
   "matches": [
     {
@@ -45023,6 +45023,18 @@
       "attendance": null
     },
     {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Neftekhimik",
+      "score": "-",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "utc": "2026-11-07T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4760379"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Baxi Manresa",
       "away": "Monbus Obradoiro",
@@ -45188,18 +45200,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4846940"
-    },
-    {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Neftekhimik",
-      "score": "-",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "utc": "2026-11-07T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4760379"
     },
     {
       "league": "liga-acb-2026-27",
