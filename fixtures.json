@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T21:56:10+00:00",
+  "updated": "2026-11-04T22:06:51+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4584,9 +4584,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 477,
-            "against": 442,
-            "diff": 35,
+            "for": 488,
+            "against": 452,
+            "diff": 36,
             "points": 9,
             "highlight": "#BBF3BB"
           },
@@ -4596,9 +4596,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 496,
-            "against": 493,
-            "diff": 3,
+            "for": 506,
+            "against": 504,
+            "diff": 2,
             "points": 9,
             "highlight": "#BBF3BB"
           },
@@ -9424,7 +9424,7 @@
             "for": 456,
             "against": 366,
             "diff": 90,
-            "points": 9,
+            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -9436,8 +9436,32 @@
             "for": 404,
             "against": 433,
             "diff": -29,
-            "points": 8,
+            "points": 6,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Oostende",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 399,
+            "against": 397,
+            "diff": 2,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "NHSZ-Szolnoki Olajbányász",
+            "played": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 3,
+            "for": 399,
+            "against": 427,
+            "diff": -28,
+            "points": 7,
+            "highlight": null
           },
           {
             "team": "Patrioti Levice",
@@ -9448,7 +9472,7 @@
             "for": 366,
             "against": 398,
             "diff": -32,
-            "points": 7,
+            "points": 4,
             "highlight": null
           },
           {
@@ -9460,31 +9484,7 @@
             "for": 417,
             "against": 420,
             "diff": -3,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "BC Oostende",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 313,
-            "against": 320,
-            "diff": -7,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "NHSZ-Szolnoki Olajbányász",
-            "played": 4,
-            "win": 2,
-            "draw": null,
-            "loss": 2,
-            "for": 322,
-            "against": 341,
-            "diff": -19,
-            "points": 6,
+            "points": 2,
             "highlight": null
           }
         ],
@@ -9752,7 +9752,7 @@
             "for": 407,
             "against": 401,
             "diff": 6,
-            "points": 6,
+            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -9764,7 +9764,7 @@
             "for": 415,
             "against": 363,
             "diff": 52,
-            "points": 6,
+            "points": 8,
             "highlight": null
           },
           {
@@ -9835,6 +9835,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Lions de Genève pwd by Grand-Saconnex",
+            "played": 5,
+            "win": 3,
+            "draw": null,
+            "loss": 2,
+            "for": 444,
+            "against": 427,
+            "diff": 17,
+            "points": 8,
+            "highlight": null
+          },
+          {
             "team": "Denizli Basket Spor Kulübü",
             "played": 5,
             "win": 2,
@@ -9847,14 +9859,14 @@
             "highlight": null
           },
           {
-            "team": "Lions de Genève pwd by Grand-Saconnex",
-            "played": 4,
-            "win": 2,
+            "team": "BC Prievidza",
+            "played": 5,
+            "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 347,
-            "against": 331,
-            "diff": 16,
+            "loss": 4,
+            "for": 434,
+            "against": 445,
+            "diff": -11,
             "points": 6,
             "highlight": null
           },
@@ -9868,18 +9880,6 @@
             "against": 487,
             "diff": -62,
             "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "BC Prievidza",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 338,
-            "against": 348,
-            "diff": -10,
-            "points": 5,
             "highlight": null
           }
         ],
@@ -44336,7 +44336,7 @@
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "London Lions",
-      "score": null,
+      "score": "86-84",
       "date": "2026-11-04",
       "time": "19:30",
       "utc": "2026-11-04T19:30:00+00:00",
@@ -44345,10 +44345,22 @@
       "source_id": "365scores:4776482"
     },
     {
+      "league": "eurocup-2026-27",
+      "home": "San Pablo Burgos",
+      "away": "Rostock Seawolves",
+      "score": "59-86",
+      "date": "2026-11-04",
+      "time": "19:30",
+      "utc": "2026-11-04T19:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4771444"
+    },
+    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Lions de Genève pwd by Grand-Saconnex",
       "away": "BC Prievidza",
-      "score": null,
+      "score": "97-96",
       "date": "2026-11-04",
       "time": "19:30",
       "utc": "2026-11-04T19:30:00+00:00",
@@ -44360,7 +44372,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Oostende",
       "away": "NHSZ-Szolnoki Olajbányász",
-      "score": null,
+      "score": "86-77",
       "date": "2026-11-04",
       "time": "19:30",
       "utc": "2026-11-04T19:30:00+00:00",
