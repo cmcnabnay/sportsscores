@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T16:27:47+00:00",
+  "updated": "2026-11-04T16:39:32+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3250,8 +3250,8 @@
             "win": 16,
             "draw": null,
             "loss": 6,
-            "for": 58,
-            "against": 36,
+            "for": 59,
+            "against": 37,
             "diff": 22,
             "points": 32,
             "highlight": "#BBF3FF"
@@ -3274,8 +3274,8 @@
             "win": 12,
             "draw": null,
             "loss": 7,
-            "for": 59,
-            "against": 42,
+            "for": 60,
+            "against": 43,
             "diff": 17,
             "points": 28,
             "highlight": "#BBF3FF"
@@ -3359,8 +3359,8 @@
             "draw": null,
             "loss": 14,
             "for": 34,
-            "against": 72,
-            "diff": -38,
+            "against": 75,
+            "diff": -41,
             "points": 13,
             "highlight": null
           }
@@ -3451,9 +3451,9 @@
             "win": 11,
             "draw": null,
             "loss": 11,
-            "for": 62,
+            "for": 65,
             "against": 66,
-            "diff": -4,
+            "diff": -1,
             "points": 22,
             "highlight": "#BBF3BB"
           },
@@ -43978,7 +43978,7 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Lada Togliatti",
-      "score": null,
+      "score": "5-0",
       "date": "2026-11-04",
       "time": "14:00",
       "utc": "2026-11-04T14:00:00+00:00",
@@ -43990,7 +43990,7 @@
       "league": "khl-2026-27",
       "home": "Spartak Moscow",
       "away": "Lokomotiv Yaroslavl",
-      "score": null,
+      "score": "1-4",
       "date": "2026-11-04",
       "time": "14:00",
       "utc": "2026-11-04T14:00:00+00:00",
