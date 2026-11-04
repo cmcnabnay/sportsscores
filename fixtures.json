@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-04T21:23:10+00:00",
+  "updated": "2026-11-04T21:34:29+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3008,6 +3008,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 253,
+            "against": 239,
+            "diff": 14,
+            "points": 5,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Porto",
             "played": 3,
             "win": 1,
@@ -3020,27 +3032,15 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 152,
-            "against": 150,
-            "diff": 2,
-            "points": 3,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Bnei Penlink Herzliya",
-            "played": 2,
+            "played": 3,
             "win": 0,
             "draw": null,
-            "loss": 2,
-            "for": 149,
-            "against": 172,
-            "diff": -23,
-            "points": 2,
+            "loss": 3,
+            "for": 238,
+            "against": 273,
+            "diff": -35,
+            "points": 3,
             "highlight": null
           }
         ],
@@ -4436,9 +4436,9 @@
             "win": 6,
             "draw": null,
             "loss": 0,
-            "for": 519,
-            "against": 437,
-            "diff": 82,
+            "for": 528,
+            "against": 441,
+            "diff": 87,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -4448,9 +4448,9 @@
             "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 525,
-            "against": 449,
-            "diff": 76,
+            "for": 529,
+            "against": 458,
+            "diff": 71,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -4496,9 +4496,9 @@
             "win": 2,
             "draw": null,
             "loss": 4,
-            "for": 469,
-            "against": 510,
-            "diff": -41,
+            "for": 478,
+            "against": 517,
+            "diff": -39,
             "points": 8,
             "highlight": null
           },
@@ -4508,9 +4508,9 @@
             "win": 1,
             "draw": null,
             "loss": 5,
-            "for": 451,
-            "against": 504,
-            "diff": -53,
+            "for": 458,
+            "against": 513,
+            "diff": -55,
             "points": 7,
             "highlight": null
           },
@@ -4563,9 +4563,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 457,
-            "against": 429,
-            "diff": 28,
+            "for": 477,
+            "against": 442,
+            "diff": 35,
             "points": 9,
             "highlight": "#BBF3BB"
           },
@@ -4575,9 +4575,9 @@
             "win": 3,
             "draw": null,
             "loss": 3,
-            "for": 483,
-            "against": 473,
-            "diff": 10,
+            "for": 496,
+            "against": 493,
+            "diff": 3,
             "points": 9,
             "highlight": "#BBF3BB"
           },
@@ -44243,7 +44243,7 @@
       "league": "bcl-2026-27",
       "home": "Telekom Baskets Bonn",
       "away": "Bnei Penlink Herzliya",
-      "score": null,
+      "score": "101-89",
       "date": "2026-11-04",
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
@@ -44255,13 +44255,25 @@
       "league": "eurocup-2026-27",
       "home": "Hapoel Jerusalem",
       "away": "Aris Bsa",
-      "score": null,
+      "score": "84-73",
       "date": "2026-11-04",
       "time": "19:00",
       "utc": "2026-11-04T19:00:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4770056"
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Reyer Venezia",
+      "away": "Siauliai",
+      "score": "98-77",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "utc": "2026-11-04T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4771449"
     },
     {
       "league": "fiba-europe-cup-2026-27",
@@ -44298,18 +44310,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212178"
-    },
-    {
-      "league": "eurocup-2026-27",
-      "home": "San Pablo Burgos",
-      "away": "Rostock Seawolves",
-      "score": null,
-      "date": "2026-11-04",
-      "time": "19:30",
-      "utc": "2026-11-04T19:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4771444"
     },
     {
       "league": "eurocup-2026-27",
