@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-05T21:06:05+00:00",
+  "updated": "2026-11-05T21:16:37+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6321,6 +6321,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Fenerbahçe Tarfin",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 803,
+            "against": 754,
+            "diff": 49,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Barcelona",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 902,
+            "against": 874,
+            "diff": 28,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "KK Crvena zvezda",
             "played": 9,
             "win": 6,
@@ -6345,42 +6369,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Hapoel Tel-Aviv",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 831,
-            "against": 786,
-            "diff": 45,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Fenerbahçe Tarfin",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 719,
-            "against": 689,
-            "diff": 30,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Barcelona",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 809,
-            "against": 784,
-            "diff": 25,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "BC Dubai",
             "played": 9,
             "win": 6,
@@ -6401,6 +6389,18 @@
             "for": 967,
             "against": 893,
             "diff": 74,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Hapoel Tel-Aviv",
+            "played": 10,
+            "win": 6,
+            "draw": null,
+            "loss": 4,
+            "for": 921,
+            "against": 879,
+            "diff": 42,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6453,18 +6453,6 @@
             "highlight": null
           },
           {
-            "team": "ASVEL Villeurbanne",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 788,
-            "against": 831,
-            "diff": -43,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Anadolu Efes",
             "played": 10,
             "win": 4,
@@ -6489,6 +6477,30 @@
             "highlight": null
           },
           {
+            "team": "ASVEL Villeurbanne",
+            "played": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 6,
+            "for": 883,
+            "against": 930,
+            "diff": -47,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Bayern Munich",
+            "played": 10,
+            "win": 3,
+            "draw": null,
+            "loss": 7,
+            "for": 868,
+            "against": 945,
+            "diff": -77,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Maccabi Tel Aviv",
             "played": 9,
             "win": 2,
@@ -6497,18 +6509,6 @@
             "for": 780,
             "against": 852,
             "diff": -72,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Bayern Munich",
-            "played": 9,
-            "win": 2,
-            "draw": null,
-            "loss": 7,
-            "for": 769,
-            "against": 850,
-            "diff": -81,
             "points": null,
             "highlight": null
           },
@@ -6526,13 +6526,13 @@
           },
           {
             "team": "Baskonia Vitoria",
-            "played": 9,
+            "played": 10,
             "win": 1,
             "draw": null,
-            "loss": 8,
-            "for": 748,
-            "against": 847,
-            "diff": -99,
+            "loss": 9,
+            "for": 813,
+            "against": 931,
+            "diff": -118,
             "points": null,
             "highlight": null
           }
@@ -44470,7 +44470,7 @@
       "league": "euroleague-2026-27",
       "home": "Hapoel Tel-Aviv",
       "away": "Barcelona",
-      "score": null,
+      "score": "90-93",
       "date": "2026-11-05",
       "time": "18:45",
       "utc": "2026-11-05T18:45:00+00:00",
@@ -44482,7 +44482,7 @@
       "league": "euroleague-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Bayern Munich",
-      "score": null,
+      "score": "95-99",
       "date": "2026-11-05",
       "time": "19:00",
       "utc": "2026-11-05T19:00:00+00:00",
