@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-05T21:59:52+00:00",
+  "updated": "2026-11-05T22:10:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6321,6 +6321,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Valencia Basket",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 951,
+            "against": 879,
+            "diff": 72,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Fenerbahçe Tarfin",
             "played": 10,
             "win": 7,
@@ -6353,18 +6365,6 @@
             "for": 763,
             "against": 683,
             "diff": 80,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 867,
-            "against": 806,
-            "diff": 61,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6514,13 +6514,13 @@
           },
           {
             "team": "Olimpia Milano",
-            "played": 9,
+            "played": 10,
             "win": 1,
             "draw": null,
-            "loss": 8,
-            "for": 738,
-            "against": 812,
-            "diff": -74,
+            "loss": 9,
+            "for": 811,
+            "against": 896,
+            "diff": -85,
             "points": null,
             "highlight": null
           },
@@ -44494,7 +44494,7 @@
       "league": "euroleague-2026-27",
       "home": "Olimpia Milano",
       "away": "Valencia Basket",
-      "score": null,
+      "score": "73-84",
       "date": "2026-11-05",
       "time": "19:30",
       "utc": "2026-11-05T19:30:00+00:00",
