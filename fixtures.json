@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-05T18:43:00+00:00",
+  "updated": "2026-11-05T19:03:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3283,8 +3283,8 @@
             "win": 14,
             "draw": null,
             "loss": 6,
-            "for": 63,
-            "against": 51,
+            "for": 65,
+            "against": 53,
             "diff": 12,
             "points": 29,
             "highlight": "#BBF3FF"
@@ -3316,13 +3316,13 @@
           {
             "team": "Severstal Cherepovets",
             "played": 24,
-            "win": 12,
+            "win": 13,
             "draw": null,
             "loss": 9,
-            "for": 49,
-            "against": 51,
-            "diff": -2,
-            "points": 26,
+            "for": 53,
+            "against": 52,
+            "diff": 1,
+            "points": 28,
             "highlight": "#BBF3BB"
           },
           {
@@ -3331,8 +3331,8 @@
             "win": 10,
             "draw": null,
             "loss": 10,
-            "for": 47,
-            "against": 59,
+            "for": 49,
+            "against": 61,
             "diff": -12,
             "points": 25,
             "highlight": "#BBF3BB"
@@ -3366,10 +3366,10 @@
             "played": 23,
             "win": 7,
             "draw": null,
-            "loss": 15,
-            "for": 38,
-            "against": 75,
-            "diff": -37,
+            "loss": 16,
+            "for": 39,
+            "against": 79,
+            "diff": -40,
             "points": 14,
             "highlight": null
           },
@@ -44422,7 +44422,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Severstal Cherepovets",
-      "score": null,
+      "score": "1-4",
       "date": "2026-11-05",
       "time": "16:30",
       "utc": "2026-11-05T16:30:00+00:00",
@@ -44434,7 +44434,7 @@
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Dynamo Moscow",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-05",
       "time": "16:30",
       "utc": "2026-11-05T16:30:00+00:00",
