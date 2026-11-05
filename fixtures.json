@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-05T19:35:07+00:00",
+  "updated": "2026-11-05T19:46:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6302,9 +6302,9 @@
             "win": 8,
             "draw": null,
             "loss": 2,
-            "for": 876,
-            "against": 787,
-            "diff": 89,
+            "for": 862,
+            "against": 776,
+            "diff": 86,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6398,9 +6398,9 @@
             "win": 6,
             "draw": null,
             "loss": 4,
-            "for": 978,
-            "against": 907,
-            "diff": 71,
+            "for": 967,
+            "against": 893,
+            "diff": 74,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6453,18 +6453,6 @@
             "highlight": null
           },
           {
-            "team": "Anadolu Efes",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 752,
-            "against": 776,
-            "diff": -24,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "ASVEL Villeurbanne",
             "played": 9,
             "win": 4,
@@ -6477,14 +6465,26 @@
             "highlight": null
           },
           {
-            "team": "Paris Basketball",
-            "played": 9,
-            "win": 3,
+            "team": "Anadolu Efes",
+            "played": 10,
+            "win": 4,
             "draw": null,
             "loss": 6,
-            "for": 795,
-            "against": 836,
-            "diff": -41,
+            "for": 842,
+            "against": 871,
+            "diff": -29,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 6,
+            "for": 890,
+            "against": 926,
+            "diff": -36,
             "points": null,
             "highlight": null
           },
@@ -44446,7 +44446,7 @@
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Paris Basketball",
-      "score": null,
+      "score": "90-95",
       "date": "2026-11-05",
       "time": "17:15",
       "utc": "2026-11-05T17:15:00+00:00",
@@ -44458,7 +44458,7 @@
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "Baskonia Vitoria",
-      "score": null,
+      "score": "84-65",
       "date": "2026-11-05",
       "time": "18:00",
       "utc": "2026-11-05T18:00:00+00:00",
