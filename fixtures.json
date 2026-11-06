@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T21:26:35+00:00",
+  "updated": "2026-11-06T21:38:23+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2506,6 +2506,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Alba Berlin",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 690,
+            "against": 702,
+            "diff": -12,
+            "points": 8,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Ratiopharm Ulm",
             "played": 7,
             "win": 3,
@@ -2514,18 +2526,6 @@
             "for": 573,
             "against": 594,
             "diff": -21,
-            "points": 6,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Alba Berlin",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 588,
-            "against": 630,
-            "diff": -42,
             "points": 6,
             "highlight": null
           },
@@ -2566,18 +2566,6 @@
             "highlight": null
           },
           {
-            "team": "Phoenix Hagen",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 600,
-            "against": 633,
-            "diff": -33,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "SC Rasta Vechta",
             "played": 7,
             "win": 2,
@@ -2586,6 +2574,18 @@
             "for": 591,
             "against": 636,
             "diff": -45,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Phoenix Hagen",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 672,
+            "against": 735,
+            "diff": -63,
             "points": 4,
             "highlight": null
           },
@@ -5459,18 +5459,6 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Cholet",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 577,
-            "against": 602,
-            "diff": -25,
-            "points": 0,
-            "highlight": "#FFFFBB"
-          },
-          {
             "team": "Chorale de Roanne",
             "played": 6,
             "win": 3,
@@ -5483,6 +5471,30 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Cholet",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 577,
+            "against": 602,
+            "diff": -25,
+            "points": 0,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Boulazac",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 567,
+            "against": 586,
+            "diff": -19,
+            "points": 2,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Pau-orthez",
             "played": 6,
             "win": 2,
@@ -5491,30 +5503,6 @@
             "for": 488,
             "against": 528,
             "diff": -40,
-            "points": 0,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Boulazac",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 484,
-            "against": 517,
-            "diff": -33,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Saint Quentin",
-            "played": 7,
-            "win": 2,
-            "draw": null,
-            "loss": 5,
-            "for": 631,
-            "against": 678,
-            "diff": -47,
             "points": 0,
             "highlight": null
           },
@@ -5543,6 +5531,18 @@
             "highlight": null
           },
           {
+            "team": "Saint Quentin",
+            "played": 7,
+            "win": 2,
+            "draw": null,
+            "loss": 5,
+            "for": 631,
+            "against": 678,
+            "diff": -47,
+            "points": 0,
+            "highlight": null
+          },
+          {
             "team": "Limoges",
             "played": 6,
             "win": 1,
@@ -5556,14 +5556,14 @@
           },
           {
             "team": "Gravelines",
-            "played": 6,
+            "played": 7,
             "win": 0,
             "draw": null,
-            "loss": 6,
-            "for": 468,
-            "against": 544,
-            "diff": -76,
-            "points": 0,
+            "loss": 7,
+            "for": 537,
+            "against": 627,
+            "diff": -90,
+            "points": 1,
             "highlight": "#FFBBBB"
           }
         ],
@@ -43873,6 +43873,7 @@
       "utc": "2026-11-03T18:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4846984"
     },
     {
@@ -44688,7 +44689,7 @@
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Phoenix Hagen",
-      "score": null,
+      "score": "102-72",
       "date": "2026-11-06",
       "time": "19:00",
       "utc": "2026-11-06T19:00:00+00:00",
@@ -44700,7 +44701,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Boulazac",
       "away": "Gravelines",
-      "score": null,
+      "score": "83-69",
       "date": "2026-11-06",
       "time": "19:00",
       "utc": "2026-11-06T19:00:00+00:00",
