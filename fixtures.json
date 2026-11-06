@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T21:38:23+00:00",
+  "updated": "2026-11-06T21:47:58+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6309,14 +6309,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Olympiacos BC",
-            "played": 9,
+            "team": "KK Crvena zvezda",
+            "played": 10,
             "win": 7,
             "draw": null,
-            "loss": 2,
-            "for": 790,
-            "against": 739,
-            "diff": 51,
+            "loss": 3,
+            "for": 825,
+            "against": 740,
+            "diff": 85,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6345,6 +6345,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Olympiacos BC",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 847,
+            "against": 801,
+            "diff": 46,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Dubai",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 880,
+            "against": 841,
+            "diff": 39,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Barcelona",
             "played": 10,
             "win": 7,
@@ -6353,30 +6377,6 @@
             "for": 902,
             "against": 874,
             "diff": 28,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "KK Crvena zvezda",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 763,
-            "against": 683,
-            "diff": 80,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "BC Dubai",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 787,
-            "against": 766,
-            "diff": 21,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6418,25 +6418,13 @@
           },
           {
             "team": "KK Partizan Mozzart Bet",
-            "played": 9,
-            "win": 4,
+            "played": 10,
+            "win": 5,
             "draw": null,
             "loss": 5,
-            "for": 696,
-            "against": 715,
-            "diff": -19,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 781,
-            "against": 802,
-            "diff": -21,
+            "for": 784,
+            "against": 782,
+            "diff": 2,
             "points": null,
             "highlight": null
           },
@@ -6477,6 +6465,18 @@
             "highlight": null
           },
           {
+            "team": "Virtus Bologna",
+            "played": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 6,
+            "for": 856,
+            "against": 895,
+            "diff": -39,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "ASVEL Villeurbanne",
             "played": 10,
             "win": 4,
@@ -6502,13 +6502,13 @@
           },
           {
             "team": "Maccabi Tel Aviv",
-            "played": 9,
+            "played": 10,
             "win": 2,
             "draw": null,
-            "loss": 7,
-            "for": 780,
-            "against": 852,
-            "diff": -72,
+            "loss": 8,
+            "for": 847,
+            "against": 940,
+            "diff": -93,
             "points": null,
             "highlight": null
           },
@@ -44725,7 +44725,7 @@
       "league": "euroleague-2026-27",
       "home": "Olympiacos BC",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "57-62",
       "date": "2026-11-06",
       "time": "19:15",
       "utc": "2026-11-06T19:15:00+00:00",
@@ -44737,7 +44737,7 @@
       "league": "euroleague-2026-27",
       "home": "Virtus Bologna",
       "away": "BC Dubai",
-      "score": null,
+      "score": "75-93",
       "date": "2026-11-06",
       "time": "19:30",
       "utc": "2026-11-06T19:30:00+00:00",
@@ -44761,7 +44761,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Maccabi Tel Aviv",
-      "score": null,
+      "score": "88-67",
       "date": "2026-11-06",
       "time": "19:45",
       "utc": "2026-11-06T19:45:00+00:00",
