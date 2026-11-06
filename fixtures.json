@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T01:02:32+00:00",
+  "updated": "2026-11-06T01:13:35+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11247,41 +11247,41 @@
           },
           {
             "team": "Gimnasia y Esgrima (LP)",
-            "played": 15,
-            "win": 8,
+            "played": 16,
+            "win": 9,
             "draw": 4,
             "loss": 3,
-            "for": 23,
-            "against": 19,
-            "diff": 4,
-            "points": 28,
+            "for": 25,
+            "against": 20,
+            "diff": 5,
+            "points": 31,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
           },
           {
             "team": "River Plate",
-            "played": 15,
-            "win": 7,
+            "played": 16,
+            "win": 8,
             "draw": 2,
             "loss": 6,
-            "for": 19,
+            "for": 21,
             "against": 14,
-            "diff": 5,
-            "points": 23,
+            "diff": 7,
+            "points": 26,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Belgrano",
-            "played": 15,
+            "played": 16,
             "win": 6,
             "draw": 5,
-            "loss": 4,
-            "for": 16,
-            "against": 13,
-            "diff": 3,
+            "loss": 5,
+            "for": 17,
+            "against": 15,
+            "diff": 2,
             "points": 23,
             "try_bonus": null,
             "losing_bonus": null,
@@ -11401,13 +11401,13 @@
           },
           {
             "team": "Aldosivi",
-            "played": 15,
+            "played": 16,
             "win": 3,
             "draw": 2,
-            "loss": 10,
+            "loss": 11,
             "for": 16,
-            "against": 24,
-            "diff": -8,
+            "against": 26,
+            "diff": -10,
             "points": 11,
             "try_bonus": null,
             "losing_bonus": null,
@@ -12069,7 +12069,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-05T01:08:10.001271+00:00",
+    "velez": "2026-11-06T01:13:31.451222+00:00",
     "torpedo": "2026-11-05T15:46:26.429308+00:00"
   },
   "matches": [
