@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T17:19:32+00:00",
+  "updated": "2026-11-06T17:31:43+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3274,7 +3274,7 @@
             "for": 59,
             "against": 37,
             "diff": 22,
-            "points": 32,
+            "points": 33,
             "highlight": "#BBF3FF"
           },
           {
@@ -3283,9 +3283,9 @@
             "win": 13,
             "draw": null,
             "loss": 7,
-            "for": 61,
+            "for": 63,
             "against": 43,
-            "diff": 18,
+            "diff": 20,
             "points": 30,
             "highlight": "#BBF3FF"
           },
@@ -3356,9 +3356,21 @@
             "draw": null,
             "loss": 9,
             "for": 51,
-            "against": 64,
-            "diff": -13,
+            "against": 66,
+            "diff": -15,
             "points": 22,
+            "highlight": null
+          },
+          {
+            "team": "Lada Togliatti",
+            "played": 24,
+            "win": 5,
+            "draw": null,
+            "loss": 14,
+            "for": 34,
+            "against": 75,
+            "diff": -41,
+            "points": 15,
             "highlight": null
           },
           {
@@ -3371,18 +3383,6 @@
             "against": 79,
             "diff": -40,
             "points": 14,
-            "highlight": null
-          },
-          {
-            "team": "Lada Togliatti",
-            "played": 24,
-            "win": 4,
-            "draw": null,
-            "loss": 14,
-            "for": 34,
-            "against": 75,
-            "diff": -41,
-            "points": 13,
             "highlight": null
           }
         ],
@@ -44580,7 +44580,7 @@
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "Lokomotiv Yaroslavl",
-      "score": null,
+      "score": "1-0",
       "date": "2026-11-06",
       "time": "15:00",
       "utc": "2026-11-06T15:00:00+00:00",
