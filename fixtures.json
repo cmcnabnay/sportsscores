@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T22:08:35+00:00",
+  "updated": "2026-11-06T22:19:38+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11654,7 +11654,7 @@
             "for": 287,
             "against": 135,
             "diff": 152,
-            "points": 25,
+            "points": 26,
             "highlight": null
           },
           {
@@ -11670,6 +11670,18 @@
             "highlight": null
           },
           {
+            "team": "Rotherham Titans",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 209,
+            "against": 255,
+            "diff": -46,
+            "points": 21,
+            "highlight": null
+          },
+          {
             "team": "Cornish Pirates",
             "played": 6,
             "win": 4,
@@ -11678,7 +11690,7 @@
             "for": 222,
             "against": 208,
             "diff": 14,
-            "points": 18,
+            "points": 19,
             "highlight": null
           },
           {
@@ -11691,18 +11703,6 @@
             "against": 200,
             "diff": 1,
             "points": 18,
-            "highlight": null
-          },
-          {
-            "team": "Rotherham Titans",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 181,
-            "against": 231,
-            "diff": -50,
-            "points": 17,
             "highlight": null
           },
           {
@@ -11726,7 +11726,7 @@
             "for": 188,
             "against": 179,
             "diff": 9,
-            "points": 15,
+            "points": 16,
             "highlight": null
           },
           {
@@ -11767,13 +11767,13 @@
           },
           {
             "team": "Nottingham",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
-            "for": 145,
-            "against": 227,
-            "diff": -82,
+            "loss": 6,
+            "for": 169,
+            "against": 255,
+            "diff": -86,
             "points": 6,
             "highlight": null
           },
@@ -44749,7 +44749,7 @@
       "league": "championship-2026",
       "home": "Nottingham",
       "away": "Rotherham Titans",
-      "score": null,
+      "score": "24-28",
       "date": "2026-11-06",
       "time": "19:45",
       "utc": "2026-11-06T19:45:00+00:00",
@@ -44827,6 +44827,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4889621"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Ampthill RUFC",
+      "away": "Ealing Trailfinders",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "12:00",
+      "utc": "2026-11-07T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662508"
     },
     {
       "league": "nations-championship-2026",
@@ -45156,18 +45168,6 @@
       "utc": "2026-11-07T14:00:00+00:00",
       "venue": "Avchala Rugby Stadium, Tbilisi",
       "attendance": null
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ampthill RUFC",
-      "away": "Ealing Trailfinders",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "18:00",
-      "utc": "2026-11-07T18:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662508"
     },
     {
       "league": "liga-acb-2026-27",
@@ -70818,18 +70818,6 @@
       "venue": "Arena Nuernberger Versicherung",
       "attendance": null,
       "source_id": "sofascore:16422798"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Caldy RFC",
-      "away": "Rotherham Titans",
-      "score": null,
-      "date": "2027-02-21",
-      "time": "16:00",
-      "utc": "2027-02-21T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662893"
     },
     {
       "league": "del-2026-27",
