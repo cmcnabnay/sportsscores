@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T22:19:38+00:00",
+  "updated": "2026-11-06T22:30:38+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11435,38 +11435,38 @@
       "Pro D2 26/27": {
         "rows": [
           {
+            "team": "Provence Rugby",
+            "played": 10,
+            "win": 9,
+            "draw": 1,
+            "loss": 0,
+            "for": 324,
+            "against": 200,
+            "diff": 124,
+            "points": 40,
+            "highlight": null
+          },
+          {
             "team": "US Oyonnax",
-            "played": 9,
+            "played": 10,
             "win": 8,
             "draw": null,
-            "loss": 1,
-            "for": 358,
-            "against": 191,
-            "diff": 167,
+            "loss": 2,
+            "for": 381,
+            "against": 223,
+            "diff": 158,
             "points": 38,
             "highlight": null
           },
           {
-            "team": "Provence Rugby",
-            "played": 9,
-            "win": 8,
-            "draw": 1,
-            "loss": 0,
-            "for": 292,
-            "against": 177,
-            "diff": 115,
-            "points": 36,
-            "highlight": null
-          },
-          {
             "team": "FC Grenoble Rugby",
-            "played": 9,
+            "played": 10,
             "win": 7,
             "draw": null,
-            "loss": 2,
-            "for": 264,
-            "against": 211,
-            "diff": 53,
+            "loss": 3,
+            "for": 288,
+            "against": 241,
+            "diff": 47,
             "points": 30,
             "highlight": null
           },
@@ -11480,6 +11480,18 @@
             "against": 238,
             "diff": 98,
             "points": 30,
+            "highlight": null
+          },
+          {
+            "team": "SA XV Charente",
+            "played": 10,
+            "win": 5,
+            "draw": 1,
+            "loss": 4,
+            "for": 312,
+            "against": 233,
+            "diff": 79,
+            "points": 26,
             "highlight": null
           },
           {
@@ -11539,18 +11551,6 @@
             "for": 296,
             "against": 259,
             "diff": 37,
-            "points": 22,
-            "highlight": null
-          },
-          {
-            "team": "SA XV Charente",
-            "played": 9,
-            "win": 4,
-            "draw": 1,
-            "loss": 4,
-            "for": 282,
-            "against": 209,
-            "diff": 73,
             "points": 22,
             "highlight": null
           },
@@ -44773,7 +44773,7 @@
       "league": "prod2-2026",
       "home": "SA XV Charente",
       "away": "FC Grenoble Rugby",
-      "score": null,
+      "score": "30-24",
       "date": "2026-11-06",
       "time": "20:00",
       "utc": "2026-11-06T20:00:00+00:00",
@@ -44785,7 +44785,7 @@
       "league": "prod2-2026",
       "home": "Provence Rugby",
       "away": "US Oyonnax",
-      "score": null,
+      "score": "32-23",
       "date": "2026-11-06",
       "time": "20:05",
       "utc": "2026-11-06T20:05:00+00:00",
