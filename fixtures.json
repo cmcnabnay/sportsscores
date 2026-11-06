@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T22:52:38+00:00",
+  "updated": "2026-11-06T23:02:58+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -5104,6 +5104,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Tonga",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 126,
+            "against": 128,
+            "diff": -2,
+            "points": 12,
+            "highlight": "transparent"
+          },
+          {
             "team": "Chile",
             "played": 3,
             "win": 2,
@@ -5124,18 +5136,6 @@
             "for": 115,
             "against": 90,
             "diff": 25,
-            "points": 7,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Tonga",
-            "played": 3,
-            "win": 1,
-            "draw": 0,
-            "loss": 2,
-            "for": 83,
-            "against": 90,
-            "diff": -7,
             "points": 7,
             "highlight": "transparent"
           },
@@ -5193,6 +5193,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Romania",
+            "played": 4,
+            "win": 1,
+            "draw": 1,
+            "loss": 2,
+            "for": 143,
+            "against": 164,
+            "diff": -21,
+            "points": 11,
+            "highlight": "transparent"
+          },
+          {
             "team": "Spain",
             "played": 3,
             "win": 1,
@@ -5201,18 +5213,6 @@
             "for": 96,
             "against": 90,
             "diff": 6,
-            "points": 9,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Romania",
-            "played": 3,
-            "win": 1,
-            "draw": 1,
-            "loss": 1,
-            "for": 105,
-            "against": 121,
-            "diff": -16,
             "points": 9,
             "highlight": "transparent"
           },
@@ -10313,8 +10313,8 @@
             "draw": 0,
             "loss": 3,
             "for": 109,
-            "against": 142,
-            "diff": -33,
+            "against": 141,
+            "diff": -32,
             "points": 7,
             "highlight": "transparent"
           },
