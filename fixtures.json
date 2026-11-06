@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T19:27:50+00:00",
+  "updated": "2026-11-06T19:38:39+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6406,27 +6406,15 @@
           },
           {
             "team": "Kauno Žalgiris",
-            "played": 9,
-            "win": 5,
+            "played": 10,
+            "win": 6,
             "draw": null,
             "loss": 4,
-            "for": 773,
-            "against": 756,
-            "diff": 17,
+            "for": 856,
+            "against": 823,
+            "diff": 33,
             "points": null,
             "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Beşiktaş JK",
-            "played": 9,
-            "win": 4,
-            "draw": null,
-            "loss": 5,
-            "for": 810,
-            "against": 826,
-            "diff": -16,
-            "points": null,
-            "highlight": null
           },
           {
             "team": "KK Partizan Mozzart Bet",
@@ -6461,6 +6449,18 @@
             "for": 842,
             "against": 871,
             "diff": -29,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Beşiktaş JK",
+            "played": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 6,
+            "for": 877,
+            "against": 909,
+            "diff": -32,
             "points": null,
             "highlight": null
           },
@@ -44605,7 +44605,7 @@
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Kauno Žalgiris",
-      "score": null,
+      "score": "67-83",
       "date": "2026-11-06",
       "time": "17:00",
       "utc": "2026-11-06T17:00:00+00:00",
