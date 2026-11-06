@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-06T11:58:51+00:00",
+  "updated": "2026-11-06T12:09:50+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3423,10 +3423,22 @@
             "played": 23,
             "win": 12,
             "draw": null,
-            "loss": 9,
+            "loss": 10,
             "for": 75,
-            "against": 63,
-            "diff": 12,
+            "against": 64,
+            "diff": 11,
+            "points": 25,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Admiral Vladivostok",
+            "played": 23,
+            "win": 11,
+            "draw": null,
+            "loss": 9,
+            "for": 59,
+            "against": 61,
+            "diff": -2,
             "points": 25,
             "highlight": "#BBF3FF"
           },
@@ -3440,7 +3452,7 @@
             "against": 47,
             "diff": -7,
             "points": 24,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Amur Khabarovsk",
@@ -3451,18 +3463,6 @@
             "for": 44,
             "against": 38,
             "diff": 6,
-            "points": 23,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Admiral Vladivostok",
-            "played": 23,
-            "win": 10,
-            "draw": null,
-            "loss": 9,
-            "for": 58,
-            "against": 61,
-            "diff": -3,
             "points": 23,
             "highlight": "#BBF3BB"
           },
@@ -44543,7 +44543,7 @@
       "league": "khl-2026-27",
       "home": "Admiral Vladivostok",
       "away": "Barys Astana",
-      "score": null,
+      "score": "5-4",
       "date": "2026-11-06",
       "time": "09:30",
       "utc": "2026-11-06T09:30:00+00:00",
