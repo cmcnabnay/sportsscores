@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T16:25:38+00:00",
+  "updated": "2026-11-07T16:37:28+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3290,6 +3290,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 22,
+            "win": 13,
+            "draw": null,
+            "loss": 5,
+            "for": 59,
+            "against": 45,
+            "diff": 14,
+            "points": 30,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Shanghai Dragons",
             "played": 22,
             "win": 14,
@@ -3299,18 +3311,6 @@
             "against": 53,
             "diff": 12,
             "points": 29,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 21,
-            "win": 12,
-            "draw": null,
-            "loss": 5,
-            "for": 55,
-            "against": 42,
-            "diff": 13,
-            "points": 28,
             "highlight": "#BBF3BB"
           },
           {
@@ -3327,13 +3327,13 @@
           },
           {
             "team": "Dynamo Moscow",
-            "played": 25,
+            "played": 26,
             "win": 10,
             "draw": null,
-            "loss": 10,
-            "for": 49,
-            "against": 61,
-            "diff": -12,
+            "loss": 11,
+            "for": 52,
+            "against": 65,
+            "diff": -13,
             "points": 25,
             "highlight": "#BBF3BB"
           },
@@ -44826,6 +44826,7 @@
       "utc": "2026-11-07T11:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4889621"
     },
     {
@@ -44915,7 +44916,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "Dynamo Moscow",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-07",
       "time": "14:00",
       "utc": "2026-11-07T14:00:00+00:00",
