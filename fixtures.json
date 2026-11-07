@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T13:22:35+00:00",
+  "updated": "2026-11-07T13:33:53+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3419,6 +3419,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Avangard Omsk",
+            "played": 22,
+            "win": 12,
+            "draw": null,
+            "loss": 8,
+            "for": 44,
+            "against": 50,
+            "diff": -6,
+            "points": 26,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Barys Astana",
             "played": 23,
             "win": 12,
@@ -3440,7 +3452,7 @@
             "against": 61,
             "diff": -2,
             "points": 25,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Salavat Yulayev Ufa",
@@ -3451,18 +3463,6 @@
             "for": 68,
             "against": 68,
             "diff": 0,
-            "points": 24,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 21,
-            "win": 11,
-            "draw": null,
-            "loss": 8,
-            "for": 40,
-            "against": 47,
-            "diff": -7,
             "points": 24,
             "highlight": "#BBF3BB"
           },
@@ -3504,14 +3504,14 @@
           },
           {
             "team": "Sibir Novosibirsk",
-            "played": 24,
+            "played": 25,
             "win": 9,
             "draw": null,
             "loss": 12,
-            "for": 53,
-            "against": 67,
-            "diff": -14,
-            "points": 21,
+            "for": 56,
+            "against": 71,
+            "diff": -15,
+            "points": 22,
             "highlight": null
           },
           {
@@ -44820,7 +44820,7 @@
       "league": "khl-2026-27",
       "home": "Avangard Omsk",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-07",
       "time": "11:00",
       "utc": "2026-11-07T11:00:00+00:00",
@@ -45681,6 +45681,18 @@
       "source_id": "365scores:4810375"
     },
     {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Shanghai Dragons",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "14:00",
+      "utc": "2026-11-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4891132"
+    },
+    {
       "league": "bcl-2026-27",
       "home": "BC Sabah",
       "away": "Trabzonspor",
@@ -45691,6 +45703,30 @@
       "venue": "Sarhadchi Sport Olympic Center",
       "attendance": null,
       "source_id": "sofascore:16611459"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dinamo Minsk",
+      "away": "Avangard Omsk",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "16:10",
+      "utc": "2026-11-10T16:10:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4891131"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-11-10",
+      "time": "16:30",
+      "utc": "2026-11-10T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4891133"
     },
     {
       "league": "eurocup-2026-27",
