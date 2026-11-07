@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T15:20:38+00:00",
+  "updated": "2026-11-07T15:31:41+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11659,14 +11659,14 @@
           },
           {
             "team": "Coventry Rugby",
-            "played": 6,
-            "win": 5,
+            "played": 7,
+            "win": 6,
             "draw": null,
             "loss": 1,
-            "for": 278,
-            "against": 188,
-            "diff": 90,
-            "points": 23,
+            "for": 321,
+            "against": 203,
+            "diff": 118,
+            "points": 27,
             "highlight": null
           },
           {
@@ -11742,18 +11742,6 @@
             "highlight": null
           },
           {
-            "team": "Caldy RFC",
-            "played": 6,
-            "win": 1,
-            "draw": null,
-            "loss": 5,
-            "for": 205,
-            "against": 241,
-            "diff": -36,
-            "points": 7,
-            "highlight": null
-          },
-          {
             "team": "Blackheath Rugby",
             "played": 6,
             "win": 1,
@@ -11762,6 +11750,18 @@
             "for": 165,
             "against": 220,
             "diff": -55,
+            "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "Caldy RFC",
+            "played": 7,
+            "win": 1,
+            "draw": null,
+            "loss": 6,
+            "for": 220,
+            "against": 284,
+            "diff": -64,
             "points": 7,
             "highlight": null
           },
@@ -11809,6 +11809,18 @@
       "Rugby Europe Trophy 26/27": {
         "rows": [
           {
+            "team": "Czech Republic",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 83,
+            "against": 52,
+            "diff": 31,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Germany",
             "played": 1,
             "win": 1,
@@ -11833,18 +11845,6 @@
             "highlight": null
           },
           {
-            "team": "Czech Republic",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 31,
-            "against": 28,
-            "diff": 3,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Sweden",
             "played": 1,
             "win": 0,
@@ -11858,13 +11858,13 @@
           },
           {
             "team": "Denmark",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 17,
-            "against": 36,
-            "diff": -19,
+            "loss": 2,
+            "for": 41,
+            "against": 88,
+            "diff": -47,
             "points": 0,
             "highlight": null
           },
@@ -11886,6 +11886,18 @@
       "Rugby Europe Trophy - 2 Year Table": {
         "rows": [
           {
+            "team": "Czech Republic",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 83,
+            "against": 52,
+            "diff": 31,
+            "points": 9,
+            "highlight": null
+          },
+          {
             "team": "Germany",
             "played": 1,
             "win": 1,
@@ -11910,18 +11922,6 @@
             "highlight": null
           },
           {
-            "team": "Czech Republic",
-            "played": 1,
-            "win": 1,
-            "draw": null,
-            "loss": 0,
-            "for": 31,
-            "against": 28,
-            "diff": 3,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Sweden",
             "played": 1,
             "win": 0,
@@ -11935,13 +11935,13 @@
           },
           {
             "team": "Denmark",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 17,
-            "against": 36,
-            "diff": -19,
+            "loss": 2,
+            "for": 41,
+            "against": 88,
+            "diff": -47,
             "points": 0,
             "highlight": null
           },
@@ -44841,6 +44841,30 @@
       "source_id": "sofascore:16662508"
     },
     {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Lithuania",
+      "away": "Sweden",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "12:00",
+      "utc": "2026-11-07T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17192565"
+    },
+    {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Denmark",
+      "away": "Czech Republic",
+      "score": "24-52",
+      "date": "2026-11-07",
+      "time": "12:00",
+      "utc": "2026-11-07T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17192564"
+    },
+    {
       "league": "nations-championship-2026",
       "home": "Italy",
       "away": "South Africa",
@@ -44855,7 +44879,7 @@
       "league": "championship-2026",
       "home": "Caldy RFC",
       "away": "Coventry Rugby",
-      "score": null,
+      "score": "15-43",
       "date": "2026-11-07",
       "time": "13:00",
       "utc": "2026-11-07T13:00:00+00:00",
@@ -44865,27 +44889,15 @@
     },
     {
       "league": "rugby-europe-trophy-2026",
-      "home": "Lithuania",
-      "away": "Sweden",
+      "home": "Malta",
+      "away": "Germany",
       "score": null,
       "date": "2026-11-07",
       "time": "13:00",
-      "utc": "2026-11-07T13:00:30+00:00",
+      "utc": "2026-11-07T13:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:17192565"
-    },
-    {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Denmark",
-      "away": "Czech Republic",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "13:00",
-      "utc": "2026-11-07T13:00:30+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17192564"
+      "source_id": "sofascore:17192567"
     },
     {
       "league": "top14-2026",
@@ -44921,18 +44933,6 @@
       "utc": "2026-11-07T14:10:00+00:00",
       "venue": "Murrayfield Stadium, Edinburgh",
       "attendance": null
-    },
-    {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Malta",
-      "away": "Germany",
-      "score": null,
-      "date": "2026-11-07",
-      "time": "14:30",
-      "utc": "2026-11-07T14:30:30+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17192567"
     },
     {
       "league": "nations-cup-2026",
