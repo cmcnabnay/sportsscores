@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T14:27:38+00:00",
+  "updated": "2026-11-07T14:38:17+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11634,6 +11634,18 @@
       "English Championship 26/27": {
         "rows": [
           {
+            "team": "Ealing Trailfinders",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 337,
+            "against": 154,
+            "diff": 183,
+            "points": 30,
+            "highlight": null
+          },
+          {
             "team": "Worcester Warriors",
             "played": 6,
             "win": 6,
@@ -11643,18 +11655,6 @@
             "against": 114,
             "diff": 163,
             "points": 28,
-            "highlight": null
-          },
-          {
-            "team": "Ealing Trailfinders",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 287,
-            "against": 135,
-            "diff": 152,
-            "points": 26,
             "highlight": null
           },
           {
@@ -11707,13 +11707,13 @@
           },
           {
             "team": "Ampthill RUFC",
-            "played": 6,
+            "played": 7,
             "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 212,
-            "against": 230,
-            "diff": -18,
+            "loss": 3,
+            "for": 231,
+            "against": 280,
+            "diff": -49,
             "points": 16,
             "highlight": null
           },
@@ -11774,7 +11774,7 @@
             "for": 169,
             "against": 255,
             "diff": -86,
-            "points": 6,
+            "points": 7,
             "highlight": null
           },
           {
@@ -44832,7 +44832,7 @@
       "league": "championship-2026",
       "home": "Ampthill RUFC",
       "away": "Ealing Trailfinders",
-      "score": null,
+      "score": "19-50",
       "date": "2026-11-07",
       "time": "12:00",
       "utc": "2026-11-07T12:00:00+00:00",
