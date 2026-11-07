@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T16:03:45+00:00",
+  "updated": "2026-11-07T16:14:39+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -5141,13 +5141,13 @@
           },
           {
             "team": "Canada",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": 1,
-            "loss": 1,
-            "for": 79,
-            "against": 99,
-            "diff": -20,
+            "loss": 2,
+            "for": 93,
+            "against": 158,
+            "diff": -65,
             "points": 7,
             "highlight": "transparent"
           },
@@ -5170,14 +5170,14 @@
         "rows": [
           {
             "team": "Georgia",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": 0,
             "loss": 0,
-            "for": 123,
-            "against": 68,
-            "diff": 55,
-            "points": 14,
+            "for": 182,
+            "against": 82,
+            "diff": 100,
+            "points": 19,
             "highlight": "#BBF3BB"
           },
           {
@@ -10219,13 +10219,13 @@
           },
           {
             "team": "Scotland",
-            "played": 3,
+            "played": 4,
             "win": 2,
             "draw": 0,
-            "loss": 1,
-            "for": 108,
-            "against": 97,
-            "diff": 11,
+            "loss": 2,
+            "for": 129,
+            "against": 140,
+            "diff": -11,
             "points": 11,
             "highlight": "transparent"
           },
@@ -10284,14 +10284,14 @@
           },
           {
             "team": "New Zealand",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": 0,
             "loss": 0,
-            "for": 121,
-            "against": 70,
-            "diff": 51,
-            "points": 15,
+            "for": 164,
+            "against": 91,
+            "diff": 73,
+            "points": 20,
             "highlight": "transparent"
           },
           {
