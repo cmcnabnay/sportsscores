@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T14:05:35+00:00",
+  "updated": "2026-11-07T14:16:38+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10255,13 +10255,13 @@
           },
           {
             "team": "Italy",
-            "played": 3,
+            "played": 4,
             "win": 0,
             "draw": 0,
-            "loss": 3,
-            "for": 37,
-            "against": 131,
-            "diff": -94,
+            "loss": 4,
+            "for": 44,
+            "against": 197,
+            "diff": -153,
             "points": 0,
             "highlight": "transparent"
           }
@@ -10272,14 +10272,14 @@
         "rows": [
           {
             "team": "South Africa",
-            "played": 3,
-            "win": 3,
+            "played": 4,
+            "win": 4,
             "draw": 0,
             "loss": 0,
-            "for": 130,
-            "against": 49,
-            "diff": 81,
-            "points": 15,
+            "for": 196,
+            "against": 56,
+            "diff": 140,
+            "points": 20,
             "highlight": "#BBF3BB"
           },
           {
@@ -44844,7 +44844,7 @@
       "league": "nations-championship-2026",
       "home": "Italy",
       "away": "South Africa",
-      "score": null,
+      "score": "7-66",
       "date": "2026-11-07",
       "time": "12:40",
       "utc": "2026-11-07T11:40:00+00:00",
