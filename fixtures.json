@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-07T02:26:38+00:00",
+  "updated": "2026-11-07T02:37:45+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -247,7 +247,7 @@
               "team2": "Winnipeg Blue Bombers",
               "score2": null,
               "date": "2026-11-07",
-              "venue": null
+              "venue": "Molson Stadium"
             },
             {
               "seed1": "W1",
@@ -257,7 +257,7 @@
               "team2": "BC Lions",
               "score2": null,
               "date": "2026-11-07",
-              "venue": null
+              "venue": "Commonwealth Stadium"
             }
           ]
         },
@@ -44993,6 +44993,17 @@
       "source_id": "sofascore:16662816"
     },
     {
+      "league": "cfl-2026",
+      "home": "Montreal Alouettes",
+      "away": "Winnipeg Blue Bombers",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "15:00",
+      "utc": "2026-11-07T20:00:00+00:00",
+      "venue": "Molson Stadium",
+      "attendance": null
+    },
+    {
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Racing 92",
@@ -45109,6 +45120,17 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4846938"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Edmonton Elks",
+      "away": "BC Lions",
+      "score": null,
+      "date": "2026-11-07",
+      "time": "17:30",
+      "utc": "2026-11-08T00:30:00+00:00",
+      "venue": "Commonwealth Stadium",
+      "attendance": null
     },
     {
       "league": "bbl-2026-27",
@@ -45250,28 +45272,6 @@
       "time": "21:10",
       "utc": "2026-11-07T20:10:00+00:00",
       "venue": "Parc Olympique Lyonnais, Lyon",
-      "attendance": null
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Montreal Alouettes",
-      "away": "Winnipeg Blue Bombers",
-      "score": null,
-      "date": "2026-11-07",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Edmonton Elks",
-      "away": "BC Lions",
-      "score": null,
-      "date": "2026-11-07",
-      "time": null,
-      "utc": null,
-      "venue": null,
       "attendance": null
     },
     {
