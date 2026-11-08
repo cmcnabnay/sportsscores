@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-08T22:30:48+00:00",
+  "updated": "2026-11-08T22:41:51+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2288,14 +2288,26 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Bayonne",
-            "played": 8,
-            "win": 4,
+            "team": "La Rochelle",
+            "played": 9,
+            "win": 5,
             "draw": null,
             "loss": 4,
-            "for": 231,
-            "against": 264,
-            "diff": -33,
+            "for": 209,
+            "against": 221,
+            "diff": -12,
+            "points": 22,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Bayonne",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 249,
+            "against": 286,
+            "diff": -37,
             "points": 19,
             "highlight": "#BBF3FF"
           },
@@ -2309,18 +2321,6 @@
             "against": 241,
             "diff": -20,
             "points": 19,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "La Rochelle",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 187,
-            "against": 203,
-            "diff": -16,
-            "points": 18,
             "highlight": "#F8F9FA"
           },
           {
@@ -45592,7 +45592,7 @@
       "league": "top14-2026",
       "home": "La Rochelle",
       "away": "Bayonne",
-      "score": null,
+      "score": "22-18",
       "date": "2026-11-08",
       "time": "20:05",
       "utc": "2026-11-08T20:05:00+00:00",
