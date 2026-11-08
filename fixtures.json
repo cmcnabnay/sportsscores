@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-08T19:27:49+00:00",
+  "updated": "2026-11-08T19:38:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11846,14 +11846,14 @@
           },
           {
             "team": "Sweden",
-            "played": 1,
-            "win": 0,
+            "played": 2,
+            "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 28,
-            "against": 31,
-            "diff": -3,
-            "points": 0,
+            "for": 88,
+            "against": 53,
+            "diff": 35,
+            "points": 4,
             "highlight": null
           },
           {
@@ -11870,13 +11870,13 @@
           },
           {
             "team": "Lithuania",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 7,
-            "against": 54,
-            "diff": -47,
+            "loss": 2,
+            "for": 29,
+            "against": 114,
+            "diff": -85,
             "points": 0,
             "highlight": null
           }
@@ -11923,14 +11923,14 @@
           },
           {
             "team": "Sweden",
-            "played": 1,
-            "win": 0,
+            "played": 2,
+            "win": 1,
             "draw": null,
             "loss": 1,
-            "for": 28,
-            "against": 31,
-            "diff": -3,
-            "points": 0,
+            "for": 88,
+            "against": 53,
+            "diff": 35,
+            "points": 4,
             "highlight": null
           },
           {
@@ -11947,13 +11947,13 @@
           },
           {
             "team": "Lithuania",
-            "played": 1,
+            "played": 2,
             "win": 0,
             "draw": null,
-            "loss": 1,
-            "for": 7,
-            "against": 54,
-            "diff": -47,
+            "loss": 2,
+            "for": 29,
+            "against": 114,
+            "diff": -85,
             "points": 0,
             "highlight": null
           }
@@ -44845,7 +44845,7 @@
       "league": "rugby-europe-trophy-2026",
       "home": "Lithuania",
       "away": "Sweden",
-      "score": null,
+      "score": "22-60",
       "date": "2026-11-07",
       "time": "12:00",
       "utc": "2026-11-07T12:00:00+00:00",
