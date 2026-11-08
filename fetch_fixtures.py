@@ -1703,6 +1703,7 @@ TEAM_NAME_ALIASES = {
     "sig strasbourg": "Strasbourg",
     "unicaja": "Unicaja Málaga",
     "fitness first würzburg baskets": "Wurzburg Baskets",
+    "roma basketball": "BC Roma SPQR"
 }
 
 
