@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-09T18:51:37+00:00",
+  "updated": "2026-11-09T19:02:32+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3259,8 +3259,8 @@
             "win": 17,
             "draw": null,
             "loss": 5,
-            "for": 74,
-            "against": 44,
+            "for": 75,
+            "against": 45,
             "diff": 30,
             "points": 36,
             "highlight": "#D6F9FF"
@@ -3284,8 +3284,8 @@
             "draw": null,
             "loss": 8,
             "for": 66,
-            "against": 52,
-            "diff": 14,
+            "against": 53,
+            "diff": 13,
             "points": 30,
             "highlight": "#BBF3FF"
           },
@@ -3331,9 +3331,9 @@
             "win": 12,
             "draw": null,
             "loss": 10,
-            "for": 71,
+            "for": 72,
             "against": 68,
-            "diff": 3,
+            "diff": 4,
             "points": 25,
             "highlight": "#BBF3BB"
           },
@@ -3520,8 +3520,8 @@
             "win": 9,
             "draw": null,
             "loss": 13,
-            "for": 56,
-            "against": 74,
+            "for": 57,
+            "against": 75,
             "diff": -18,
             "points": 22,
             "highlight": null
@@ -4004,6 +4004,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "TPS Turku",
+            "played": 20,
+            "win": 11,
+            "draw": null,
+            "loss": 9,
+            "for": 56,
+            "against": 50,
+            "diff": 6,
+            "points": 33,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Oulun Kärpät",
             "played": 20,
             "win": 11,
@@ -4013,18 +4025,6 @@
             "against": 52,
             "diff": 1,
             "points": 33,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "TPS Turku",
-            "played": 19,
-            "win": 10,
-            "draw": null,
-            "loss": 9,
-            "for": 53,
-            "against": 48,
-            "diff": 5,
-            "points": 31,
             "highlight": "#BBF3FF"
           },
           {
@@ -4065,14 +4065,14 @@
           },
           {
             "team": "KalPa Kuopio",
-            "played": 18,
+            "played": 19,
             "win": 8,
             "draw": null,
-            "loss": 10,
-            "for": 46,
-            "against": 41,
-            "diff": 5,
-            "points": 25,
+            "loss": 11,
+            "for": 48,
+            "against": 44,
+            "diff": 4,
+            "points": 26,
             "highlight": "#BBF3FF"
           },
           {
@@ -45628,7 +45628,7 @@
       "league": "khl-2026-27",
       "home": "CSKA Moscow",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "4-1",
       "date": "2026-11-09",
       "time": "16:30",
       "utc": "2026-11-09T16:30:00+00:00",
@@ -45640,7 +45640,7 @@
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "7-1",
       "date": "2026-11-09",
       "time": "16:30",
       "utc": "2026-11-09T16:30:00+00:00",
@@ -45652,12 +45652,13 @@
       "league": "liiga-2026-27",
       "home": "TPS Turku",
       "away": "KalPa Kuopio",
-      "score": null,
+      "score": "3-2",
       "date": "2026-11-09",
       "time": "16:30",
       "utc": "2026-11-09T16:30:00+00:00",
       "venue": "Gatorade Center",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16337401"
     },
     {
@@ -51105,6 +51106,18 @@
       "venue": "Arena Nuernberger Versicherung",
       "attendance": null,
       "source_id": "sofascore:16422574"
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "TPS Turku",
+      "away": "Vaasan Sport",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "16:30",
+      "utc": "2026-11-29T16:30:00+00:00",
+      "venue": "Gatorade Center",
+      "attendance": null,
+      "source_id": "sofascore:17505266"
     },
     {
       "league": "fiba-wcq-europe-2027",
