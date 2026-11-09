@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-09T21:22:48+00:00",
+  "updated": "2026-11-09T21:34:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2590,27 +2590,27 @@
             "highlight": null
           },
           {
-            "team": "Science City Jena",
-            "played": 7,
+            "team": "Hamburg Towers",
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 536,
-            "against": 618,
-            "diff": -82,
+            "loss": 6,
+            "for": 659,
+            "against": 733,
+            "diff": -74,
             "points": 4,
             "highlight": "#FFBBBB"
           },
           {
-            "team": "Hamburg Towers",
-            "played": 7,
-            "win": 1,
+            "team": "Science City Jena",
+            "played": 8,
+            "win": 2,
             "draw": null,
             "loss": 6,
-            "for": 568,
-            "against": 646,
-            "diff": -78,
-            "points": 2,
+            "for": 623,
+            "against": 709,
+            "diff": -86,
+            "points": 4,
             "highlight": "#FFBBBB"
           }
         ],
@@ -4147,6 +4147,18 @@
       "Lega A": {
         "rows": [
           {
+            "team": "Virtus Bologna",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 675,
+            "against": 602,
+            "diff": 73,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Napoli Basket",
             "played": 7,
             "win": 6,
@@ -4156,18 +4168,6 @@
             "against": 606,
             "diff": 50,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Virtus Bologna",
-            "played": 6,
-            "win": 5,
-            "draw": null,
-            "loss": 1,
-            "for": 580,
-            "against": 521,
-            "diff": 59,
-            "points": 10,
             "highlight": "#BBF3BB"
           },
           {
@@ -4256,13 +4256,13 @@
           },
           {
             "team": "Scaligera Basket Verona",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 538,
-            "against": 543,
-            "diff": -5,
+            "loss": 4,
+            "for": 619,
+            "against": 638,
+            "diff": -19,
             "points": 6,
             "highlight": null
           },
@@ -45665,7 +45665,7 @@
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Hamburg Towers",
-      "score": null,
+      "score": "87-91",
       "date": "2026-11-09",
       "time": "19:00",
       "utc": "2026-11-09T19:00:00+00:00",
@@ -45677,7 +45677,7 @@
       "league": "lega-a-2026-27",
       "home": "Virtus Bologna",
       "away": "Scaligera Basket Verona",
-      "score": null,
+      "score": "95-81",
       "date": "2026-11-09",
       "time": "19:00",
       "utc": "2026-11-09T19:00:00+00:00",
