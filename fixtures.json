@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-09T00:07:48+00:00",
+  "updated": "2026-11-09T00:18:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -592,10 +592,10 @@
             {
               "seed1": null,
               "team1": "Australia",
-              "score1": null,
+              "score1": 44,
               "seed2": null,
               "team2": "Samoa",
-              "score2": null,
+              "score2": 12,
               "date": "2026-11-08",
               "venue": "Sydney Football Stadium, Sydney"
             }
