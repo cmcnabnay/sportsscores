@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-09T19:02:32+00:00",
+  "updated": "2026-11-09T19:12:54+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10351,27 +10351,39 @@
         "rows": [
           {
             "team": "Nizhny Novgorod",
-            "played": 16,
-            "win": 14,
+            "played": 17,
+            "win": 15,
             "draw": 1,
             "loss": 1,
-            "for": 48,
+            "for": 52,
             "against": 15,
-            "diff": 33,
-            "points": 43,
+            "diff": 37,
+            "points": 46,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Ural Yekaterinburg",
+            "played": 17,
+            "win": 10,
+            "draw": 4,
+            "loss": 3,
+            "for": 29,
+            "against": 11,
+            "diff": 18,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Sochi",
-            "played": 16,
+            "played": 17,
             "win": 10,
             "draw": 2,
-            "loss": 4,
+            "loss": 5,
             "for": 26,
-            "against": 17,
-            "diff": 9,
+            "against": 20,
+            "diff": 6,
             "points": 32,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Torpedo Moscow",
@@ -10386,26 +10398,14 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Ural Yekaterinburg",
-            "played": 16,
-            "win": 9,
-            "draw": 4,
-            "loss": 3,
-            "for": 27,
-            "against": 11,
-            "diff": 16,
-            "points": 31,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Spartak Kostroma",
-            "played": 16,
+            "played": 17,
             "win": 8,
             "draw": 4,
-            "loss": 4,
+            "loss": 5,
             "for": 22,
-            "against": 16,
-            "diff": 6,
+            "against": 20,
+            "diff": 2,
             "points": 28,
             "highlight": "transparent"
           },
@@ -10435,13 +10435,13 @@
           },
           {
             "team": "Volga Ulyanovsk",
-            "played": 17,
+            "played": 18,
             "win": 6,
             "draw": 4,
-            "loss": 7,
+            "loss": 8,
             "for": 22,
-            "against": 23,
-            "diff": -1,
+            "against": 25,
+            "diff": -3,
             "points": 22,
             "highlight": "transparent"
           },
@@ -10458,6 +10458,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Rotor Volgograd",
+            "played": 17,
+            "win": 5,
+            "draw": 6,
+            "loss": 6,
+            "for": 24,
+            "against": 19,
+            "diff": 5,
+            "points": 21,
+            "highlight": "transparent"
+          },
+          {
             "team": "Chelyabinsk",
             "played": 17,
             "win": 6,
@@ -10467,18 +10479,6 @@
             "against": 27,
             "diff": -4,
             "points": 21,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Rotor Volgograd",
-            "played": 16,
-            "win": 5,
-            "draw": 5,
-            "loss": 6,
-            "for": 23,
-            "against": 18,
-            "diff": 5,
-            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -10495,14 +10495,38 @@
           },
           {
             "team": "Leningradets Leningrad Oblast",
-            "played": 16,
+            "played": 17,
+            "win": 4,
+            "draw": 6,
+            "loss": 7,
+            "for": 16,
+            "against": 27,
+            "diff": -11,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Yenisey Krasnoyarsk",
+            "played": 17,
             "win": 4,
             "draw": 5,
-            "loss": 7,
-            "for": 15,
-            "against": 26,
-            "diff": -11,
+            "loss": 8,
+            "for": 19,
+            "against": 33,
+            "diff": -14,
             "points": 17,
+            "highlight": "transparent"
+          },
+          {
+            "team": "SKA-Khabarovsk",
+            "played": 17,
+            "win": 4,
+            "draw": 4,
+            "loss": 9,
+            "for": 23,
+            "against": 28,
+            "diff": -5,
+            "points": 16,
             "highlight": "transparent"
           },
           {
@@ -10515,30 +10539,6 @@
             "against": 28,
             "diff": -8,
             "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Yenisey Krasnoyarsk",
-            "played": 16,
-            "win": 3,
-            "draw": 5,
-            "loss": 8,
-            "for": 16,
-            "against": 33,
-            "diff": -17,
-            "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "SKA-Khabarovsk",
-            "played": 16,
-            "win": 3,
-            "draw": 4,
-            "loss": 9,
-            "for": 20,
-            "against": 28,
-            "diff": -8,
-            "points": 13,
             "highlight": "#FFBBBB"
           },
           {
@@ -10555,13 +10555,13 @@
           },
           {
             "team": "Tekstilshchik Ivanovo",
-            "played": 16,
+            "played": 17,
             "win": 2,
             "draw": 5,
-            "loss": 9,
+            "loss": 10,
             "for": 12,
-            "against": 26,
-            "diff": -14,
+            "against": 29,
+            "diff": -17,
             "points": 11,
             "highlight": "#FFBBBB"
           }
@@ -11060,14 +11060,14 @@
           },
           {
             "team": "Lanús",
-            "played": 15,
+            "played": 16,
             "win": 7,
-            "draw": 4,
+            "draw": 5,
             "loss": 4,
-            "for": 18,
-            "against": 11,
+            "for": 19,
+            "against": 12,
             "diff": 7,
-            "points": 25,
+            "points": 26,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -11200,14 +11200,14 @@
           },
           {
             "team": "Central Córdoba (SdE)",
-            "played": 15,
+            "played": 16,
             "win": 2,
-            "draw": 4,
+            "draw": 5,
             "loss": 9,
-            "for": 11,
-            "against": 25,
+            "for": 12,
+            "against": 26,
             "diff": -14,
-            "points": 10,
+            "points": 11,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -12069,8 +12069,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-08T19:06:21.772676+00:00",
-    "torpedo": "2026-11-08T19:06:21.772676+00:00"
+    "velez": "2026-11-09T19:12:40.819566+00:00",
+    "torpedo": "2026-11-09T19:12:40.819566+00:00"
   },
   "matches": [
     {
@@ -49654,6 +49654,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809075"
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Belgrano",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "14:00",
+      "utc": "2026-11-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4891700"
     },
     {
       "league": "lega-a-2026-27",
