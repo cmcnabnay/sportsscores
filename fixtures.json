@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-09T19:12:54+00:00",
+  "updated": "2026-11-09T19:23:47+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -49644,18 +49644,6 @@
       "source_id": "sofascore:16422550"
     },
     {
-      "league": "bbl-2026-27",
-      "home": "Telekom Baskets Bonn",
-      "away": "Ratiopharm Ulm",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "14:00",
-      "utc": "2026-11-22T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4809075"
-    },
-    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Belgrano",
@@ -49666,6 +49654,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4891700"
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Telekom Baskets Bonn",
+      "away": "Ratiopharm Ulm",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "14:00",
+      "utc": "2026-11-22T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4809075"
     },
     {
       "league": "lega-a-2026-27",
