@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T18:26:27+00:00",
+  "updated": "2026-11-10T19:01:21+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2625,6 +2625,30 @@
       "Group A": {
         "rows": [
           {
+            "team": "BC Sabah",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 334,
+            "against": 334,
+            "diff": 0,
+            "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Trabzonspor",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 346,
+            "against": 354,
+            "diff": -8,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Rytas Vilnius",
             "played": 3,
             "win": 2,
@@ -2634,30 +2658,6 @@
             "against": 247,
             "diff": -3,
             "points": 5,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Trabzonspor",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 274,
-            "against": 263,
-            "diff": 11,
-            "points": 5,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "BC Sabah",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 243,
-            "against": 262,
-            "diff": -19,
-            "points": 4,
             "highlight": "#BBF3FF"
           },
           {
@@ -3338,6 +3338,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Dinamo Minsk",
+            "played": 25,
+            "win": 9,
+            "draw": null,
+            "loss": 9,
+            "for": 60,
+            "against": 71,
+            "diff": -11,
+            "points": 25,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Dynamo Moscow",
             "played": 26,
             "win": 10,
@@ -3347,18 +3359,6 @@
             "against": 65,
             "diff": -13,
             "points": 25,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 25,
-            "win": 8,
-            "draw": null,
-            "loss": 9,
-            "for": 56,
-            "against": 71,
-            "diff": -15,
-            "points": 23,
             "highlight": null
           },
           {
@@ -3412,8 +3412,8 @@
             "win": 13,
             "draw": null,
             "loss": 9,
-            "for": 67,
-            "against": 68,
+            "for": 70,
+            "against": 71,
             "diff": -1,
             "points": 29,
             "highlight": "#BBF3FF"
@@ -3435,10 +3435,10 @@
             "played": 23,
             "win": 12,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": 44,
-            "against": 50,
-            "diff": -6,
+            "against": 54,
+            "diff": -10,
             "points": 26,
             "highlight": "#BBF3FF"
           },
@@ -3496,8 +3496,8 @@
             "win": 12,
             "draw": null,
             "loss": 11,
-            "for": 68,
-            "against": 68,
+            "for": 71,
+            "against": 71,
             "diff": 0,
             "points": 24,
             "highlight": null
@@ -45701,11 +45701,11 @@
       "league": "bcl-2026-27",
       "home": "BC Sabah",
       "away": "Trabzonspor",
-      "score": null,
+      "score": "91-72",
       "date": "2026-11-10",
       "time": "16:00",
       "utc": "2026-11-10T16:00:00+00:00",
-      "venue": "Sarhadchi Sport Olympic Center",
+      "venue": "National Gymnastics Arena",
       "attendance": null,
       "source_id": "sofascore:16611459"
     },
@@ -45713,7 +45713,7 @@
       "league": "khl-2026-27",
       "home": "Dinamo Minsk",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "4-0",
       "date": "2026-11-10",
       "time": "16:10",
       "utc": "2026-11-10T16:10:00+00:00",
@@ -45777,7 +45777,7 @@
       "date": "2026-11-10",
       "time": "17:30",
       "utc": "2026-11-10T17:30:00+00:00",
-      "venue": "Holon Toto Hall",
+      "venue": "Arena Samokov",
       "attendance": null,
       "source_id": "sofascore:17231229"
     },
@@ -46041,7 +46041,7 @@
       "date": "2026-11-11",
       "time": "17:00",
       "utc": "2026-11-11T17:00:00+00:00",
-      "venue": "Sportovni hala Slavia - EDEN",
+      "venue": "Enteria Arena",
       "attendance": null,
       "source_id": "sofascore:16611482"
     },
