@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T21:53:52+00:00",
+  "updated": "2026-11-10T22:05:07+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4556,14 +4556,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Reyer Venezia",
+            "team": "London Lions",
             "played": 7,
             "win": 4,
             "draw": null,
             "loss": 3,
-            "for": 600,
-            "against": 547,
-            "diff": 53,
+            "for": 568,
+            "against": 528,
+            "diff": 40,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -4604,14 +4604,14 @@
             "highlight": null
           },
           {
-            "team": "London Lions",
+            "team": "Reyer Venezia",
             "played": 7,
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 551,
-            "against": 524,
-            "diff": 27,
+            "for": 604,
+            "against": 564,
+            "diff": 40,
             "points": 10,
             "highlight": null
           },
@@ -4779,8 +4779,8 @@
             "win": 5,
             "draw": null,
             "loss": 2,
-            "for": 602,
-            "against": 568,
+            "for": 617,
+            "against": 583,
             "diff": 34,
             "points": 12,
             "highlight": "#BBF3BB"
@@ -4827,8 +4827,8 @@
             "win": 2,
             "draw": null,
             "loss": 5,
-            "for": 544,
-            "against": 558,
+            "for": 559,
+            "against": 573,
             "diff": -14,
             "points": 9,
             "highlight": null
@@ -45822,7 +45822,7 @@
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "KK Cedevita Olimpija",
-      "score": "71-88",
+      "score": "71-90",
       "date": "2026-11-10",
       "time": "19:00",
       "utc": "2026-11-10T19:00:00+00:00",
@@ -45858,7 +45858,7 @@
       "league": "eurocup-2026-27",
       "home": "Baxi Manresa",
       "away": "KK Bosna",
-      "score": null,
+      "score": "86-82",
       "date": "2026-11-10",
       "time": "19:30",
       "utc": "2026-11-10T19:30:00+00:00",
@@ -45870,7 +45870,7 @@
       "league": "eurocup-2026-27",
       "home": "London Lions",
       "away": "Reyer Venezia",
-      "score": null,
+      "score": "80-76",
       "date": "2026-11-10",
       "time": "19:30",
       "utc": "2026-11-10T19:30:00+00:00",
