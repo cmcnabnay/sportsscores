@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T19:54:37+00:00",
+  "updated": "2026-11-10T20:05:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2905,15 +2905,15 @@
       "Group F": {
         "rows": [
           {
-            "team": "Cholet",
-            "played": 3,
+            "team": "Hapoel Netanel Holon",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 248,
-            "against": 214,
-            "diff": 34,
-            "points": 5,
+            "loss": 2,
+            "for": 338,
+            "against": 354,
+            "diff": -16,
+            "points": 6,
             "highlight": "#BBF3BB"
           },
           {
@@ -2929,27 +2929,27 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Hapoel Netanel Holon",
+            "team": "Cholet",
             "played": 3,
             "win": 2,
             "draw": null,
             "loss": 1,
-            "for": 253,
-            "against": 264,
-            "diff": -11,
+            "for": 248,
+            "against": 214,
+            "diff": 34,
             "points": 5,
             "highlight": "#BBF3FF"
           },
           {
             "team": "SC Rasta Vechta",
-            "played": 3,
-            "win": 0,
+            "played": 4,
+            "win": 1,
             "draw": null,
             "loss": 3,
-            "for": 211,
-            "against": 268,
-            "diff": -57,
-            "points": 3,
+            "for": 301,
+            "against": 353,
+            "diff": -52,
+            "points": 5,
             "highlight": null
           }
         ],
@@ -45773,7 +45773,7 @@
       "league": "bcl-2026-27",
       "home": "Hapoel Netanel Holon",
       "away": "SC Rasta Vechta",
-      "score": null,
+      "score": "85-90",
       "date": "2026-11-10",
       "time": "17:30",
       "utc": "2026-11-10T17:30:00+00:00",
