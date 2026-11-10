@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T16:23:00+00:00",
+  "updated": "2026-11-10T16:34:30+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3315,13 +3315,13 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 22,
+            "played": 23,
             "win": 14,
             "draw": null,
-            "loss": 6,
-            "for": 65,
-            "against": 53,
-            "diff": 12,
+            "loss": 7,
+            "for": 67,
+            "against": 58,
+            "diff": 9,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3351,7 +3351,7 @@
           },
           {
             "team": "Dinamo Minsk",
-            "played": 24,
+            "played": 25,
             "win": 8,
             "draw": null,
             "loss": 9,
@@ -3408,7 +3408,7 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 25,
+            "played": 26,
             "win": 13,
             "draw": null,
             "loss": 9,
@@ -3419,8 +3419,20 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Traktor Chelyabinsk",
+            "played": 25,
+            "win": 11,
+            "draw": null,
+            "loss": 10,
+            "for": 56,
+            "against": 59,
+            "diff": -3,
+            "points": 26,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Avangard Omsk",
-            "played": 22,
+            "played": 23,
             "win": 12,
             "draw": null,
             "loss": 8,
@@ -3440,7 +3452,7 @@
             "against": 66,
             "diff": 9,
             "points": 25,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Amur Khabarovsk",
@@ -3480,25 +3492,13 @@
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 24,
+            "played": 25,
             "win": 12,
             "draw": null,
             "loss": 11,
             "for": 68,
             "against": 68,
             "diff": 0,
-            "points": 24,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 24,
-            "win": 10,
-            "draw": null,
-            "loss": 10,
-            "for": 51,
-            "against": 57,
-            "diff": -6,
             "points": 24,
             "highlight": null
           },
@@ -45689,7 +45689,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Shanghai Dragons",
-      "score": null,
+      "score": "5-2",
       "date": "2026-11-10",
       "time": "14:00",
       "utc": "2026-11-10T14:00:00+00:00",
@@ -46632,6 +46632,42 @@
       "venue": "Movistar Arena",
       "attendance": null,
       "source_id": "sofascore:16665357"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Traktor Chelyabinsk",
+      "score": null,
+      "date": "2026-11-13",
+      "time": "16:00",
+      "utc": "2026-11-13T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4892131"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-11-13",
+      "time": "16:00",
+      "utc": "2026-11-13T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4892132"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "SKA St. Petersburg",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-11-13",
+      "time": "16:30",
+      "utc": "2026-11-13T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4892130"
     },
     {
       "league": "liiga-2026-27",
