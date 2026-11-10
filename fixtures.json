@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T21:31:53+00:00",
+  "updated": "2026-11-10T21:42:52+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -603,18 +603,7 @@
         },
         {
           "label": "Final",
-          "matches": [
-            {
-              "seed1": null,
-              "team1": "New Zealand",
-              "score1": null,
-              "seed2": null,
-              "team2": "Australia",
-              "score2": null,
-              "date": "2026-11-15",
-              "venue": "Lang Park, Brisbane"
-            }
-          ]
+          "matches": []
         }
       ]
     },
