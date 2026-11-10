@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T21:20:53+00:00",
+  "updated": "2026-11-10T21:31:53+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2905,6 +2905,30 @@
       "Group F": {
         "rows": [
           {
+            "team": "KK Spartak Office Shoes",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 324,
+            "against": 288,
+            "diff": 36,
+            "points": 7,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Cholet",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 321,
+            "against": 289,
+            "diff": 32,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Hapoel Netanel Holon",
             "played": 4,
             "win": 2,
@@ -2914,30 +2938,6 @@
             "against": 354,
             "diff": -16,
             "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "KK Spartak Office Shoes",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 249,
-            "against": 215,
-            "diff": 34,
-            "points": 5,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Cholet",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 248,
-            "against": 214,
-            "diff": 34,
-            "points": 5,
             "highlight": "#BBF3FF"
           },
           {
@@ -2961,27 +2961,27 @@
       "Group G": {
         "rows": [
           {
-            "team": "Alba Berlin",
-            "played": 3,
+            "team": "Bilbao Basket",
+            "played": 4,
             "win": 3,
             "draw": null,
-            "loss": 0,
-            "for": 303,
-            "against": 265,
-            "diff": 38,
-            "points": 6,
+            "loss": 1,
+            "for": 372,
+            "against": 343,
+            "diff": 29,
+            "points": 7,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Bilbao Basket",
-            "played": 3,
-            "win": 2,
+            "team": "Alba Berlin",
+            "played": 4,
+            "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 289,
-            "against": 268,
-            "diff": 21,
-            "points": 5,
+            "for": 378,
+            "against": 348,
+            "diff": 30,
+            "points": 7,
             "highlight": "#BBF3FF"
           },
           {
@@ -9543,27 +9543,27 @@
             "highlight": null
           },
           {
-            "team": "Gence BK Ganja",
-            "played": 4,
+            "team": "BC Rilski Sportist",
+            "played": 5,
             "win": 1,
             "draw": null,
-            "loss": 3,
-            "for": 290,
-            "against": 344,
-            "diff": -54,
-            "points": 5,
+            "loss": 4,
+            "for": 313,
+            "against": 368,
+            "diff": -55,
+            "points": 6,
             "highlight": null
           },
           {
-            "team": "BC Rilski Sportist",
-            "played": 4,
-            "win": 0,
+            "team": "Gence BK Ganja",
+            "played": 5,
+            "win": 1,
             "draw": null,
             "loss": 4,
-            "for": 293,
-            "against": 368,
-            "diff": -75,
-            "points": 4,
+            "for": 290,
+            "against": 364,
+            "diff": -74,
+            "points": 6,
             "highlight": null
           }
         ],
@@ -9732,6 +9732,18 @@
       "Group F": {
         "rows": [
           {
+            "team": "Chalon-sur-Saône",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 509,
+            "against": 436,
+            "diff": 73,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Biotekno Körfez Basket",
             "played": 5,
             "win": 4,
@@ -9753,18 +9765,6 @@
             "against": 401,
             "diff": 6,
             "points": 8,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Chalon-sur-Saône",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 415,
-            "against": 363,
-            "diff": 52,
-            "points": 8,
             "highlight": null
           },
           {
@@ -9780,6 +9780,18 @@
             "highlight": null
           },
           {
+            "team": "Manchester Basketball",
+            "played": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 4,
+            "for": 379,
+            "against": 450,
+            "diff": -71,
+            "points": 6,
+            "highlight": null
+          },
+          {
             "team": "KB Bashkimi",
             "played": 4,
             "win": 1,
@@ -9788,18 +9800,6 @@
             "for": 291,
             "against": 331,
             "diff": -40,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Manchester Basketball",
-            "played": 4,
-            "win": 1,
-            "draw": null,
-            "loss": 3,
-            "for": 306,
-            "against": 356,
-            "diff": -50,
             "points": 2,
             "highlight": null
           }
@@ -38909,6 +38909,18 @@
       "source_id": "sofascore:17207115"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Rilski Sportist",
+      "away": "Gence BK Ganja",
+      "score": "20-0",
+      "date": "2026-10-21",
+      "time": "16:00",
+      "utc": "2026-10-21T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206964"
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Bnei Penlink Herzliya",
       "away": "Porto",
@@ -45797,7 +45809,7 @@
       "league": "bcl-2026-27",
       "home": "Bilbao Basket",
       "away": "Alba Berlin",
-      "score": null,
+      "score": "83-75",
       "date": "2026-11-10",
       "time": "19:00",
       "utc": "2026-11-10T19:00:00+00:00",
@@ -45809,7 +45821,7 @@
       "league": "bcl-2026-27",
       "home": "KK Spartak Office Shoes",
       "away": "Cholet",
-      "score": null,
+      "score": "75-73",
       "date": "2026-11-10",
       "time": "19:00",
       "utc": "2026-11-10T19:00:00+00:00",
@@ -45845,7 +45857,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Manchester Basketball",
       "away": "Chalon-sur-Saône",
-      "score": null,
+      "score": "73-94",
       "date": "2026-11-10",
       "time": "19:00",
       "utc": "2026-11-10T19:00:00+00:00",
