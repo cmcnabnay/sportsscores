@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-10T19:12:16+00:00",
+  "updated": "2026-11-10T19:22:41+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10398,6 +10398,18 @@
             "highlight": "#CCF9CC"
           },
           {
+            "team": "Veles Moscow",
+            "played": 18,
+            "win": 9,
+            "draw": 4,
+            "loss": 5,
+            "for": 23,
+            "against": 21,
+            "diff": 2,
+            "points": 31,
+            "highlight": "transparent"
+          },
+          {
             "team": "Spartak Kostroma",
             "played": 17,
             "win": 8,
@@ -10406,18 +10418,6 @@
             "for": 22,
             "against": 20,
             "diff": 2,
-            "points": 28,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Veles Moscow",
-            "played": 17,
-            "win": 8,
-            "draw": 4,
-            "loss": 5,
-            "for": 21,
-            "against": 20,
-            "diff": 1,
             "points": 28,
             "highlight": "transparent"
           },
@@ -10531,13 +10531,13 @@
           },
           {
             "team": "KAMAZ Naberezhnye Chelny",
-            "played": 16,
+            "played": 17,
             "win": 3,
             "draw": 5,
-            "loss": 8,
-            "for": 20,
-            "against": 28,
-            "diff": -8,
+            "loss": 9,
+            "for": 21,
+            "against": 30,
+            "diff": -9,
             "points": 14,
             "highlight": "#FFBBBB"
           },
@@ -12069,8 +12069,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-09T19:12:40.819566+00:00",
-    "torpedo": "2026-11-09T19:12:40.819566+00:00"
+    "velez": "2026-11-10T19:22:34.366569+00:00",
+    "torpedo": "2026-11-10T19:22:34.366569+00:00"
   },
   "matches": [
     {
