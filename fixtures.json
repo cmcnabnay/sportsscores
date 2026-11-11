@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-11T21:47:40+00:00",
+  "updated": "2026-11-11T22:39:52+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2774,14 +2774,14 @@
           },
           {
             "team": "UCAM Murcia",
-            "played": 3,
-            "win": 2,
+            "played": 4,
+            "win": 3,
             "draw": null,
             "loss": 1,
-            "for": 243,
-            "against": 205,
-            "diff": 38,
-            "points": 5,
+            "for": 341,
+            "against": 271,
+            "diff": 70,
+            "points": 7,
             "highlight": "#BBF3FF"
           },
           {
@@ -2798,14 +2798,14 @@
           },
           {
             "team": "Brose Bamberg",
-            "played": 3,
+            "played": 4,
             "win": 0,
             "draw": null,
-            "loss": 3,
-            "for": 215,
-            "against": 274,
-            "diff": -59,
-            "points": 3,
+            "loss": 4,
+            "for": 281,
+            "against": 372,
+            "diff": -91,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -6301,18 +6301,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Fenerbahçe Tarfin",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 803,
-            "against": 754,
-            "diff": 49,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Olympiacos BC",
             "played": 10,
             "win": 7,
@@ -6345,6 +6333,18 @@
             "for": 902,
             "against": 874,
             "diff": 28,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Fenerbahçe Tarfin",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 912,
+            "against": 865,
+            "diff": 47,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6386,13 +6386,25 @@
           },
           {
             "team": "KK Partizan Mozzart Bet",
-            "played": 10,
-            "win": 5,
+            "played": 11,
+            "win": 6,
             "draw": null,
             "loss": 5,
-            "for": 784,
-            "against": 782,
-            "diff": 2,
+            "for": 864,
+            "against": 848,
+            "diff": 16,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 6,
+            "for": 1001,
+            "against": 1035,
+            "diff": -34,
             "points": null,
             "highlight": null
           },
@@ -6417,18 +6429,6 @@
             "for": 877,
             "against": 909,
             "diff": -32,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 10,
-            "win": 4,
-            "draw": null,
-            "loss": 6,
-            "for": 890,
-            "against": 926,
-            "diff": -36,
             "points": null,
             "highlight": null
           },
@@ -6494,13 +6494,13 @@
           },
           {
             "team": "Baskonia Vitoria",
-            "played": 10,
+            "played": 11,
             "win": 1,
             "draw": null,
-            "loss": 9,
-            "for": 813,
-            "against": 931,
-            "diff": -118,
+            "loss": 10,
+            "for": 879,
+            "against": 1011,
+            "diff": -132,
             "points": null,
             "highlight": null
           }
@@ -9409,14 +9409,14 @@
           },
           {
             "team": "BC Oostende",
-            "played": 5,
-            "win": 3,
+            "played": 6,
+            "win": 4,
             "draw": null,
             "loss": 2,
-            "for": 399,
-            "against": 397,
-            "diff": 2,
-            "points": 8,
+            "for": 470,
+            "against": 467,
+            "diff": 3,
+            "points": 10,
             "highlight": null
           },
           {
@@ -9433,14 +9433,14 @@
           },
           {
             "team": "Patrioti Levice",
-            "played": 5,
+            "played": 6,
             "win": 2,
             "draw": null,
-            "loss": 3,
-            "for": 366,
-            "against": 398,
-            "diff": -32,
-            "points": 4,
+            "loss": 4,
+            "for": 436,
+            "against": 469,
+            "diff": -33,
+            "points": 8,
             "highlight": null
           },
           {
@@ -9780,27 +9780,39 @@
         "rows": [
           {
             "team": "SL Benfica",
-            "played": 5,
-            "win": 4,
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "for": 472,
-            "against": 424,
-            "diff": 48,
-            "points": 9,
+            "for": 566,
+            "against": 503,
+            "diff": 63,
+            "points": 11,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Bakken Bears",
-            "played": 5,
+            "played": 6,
             "win": 4,
             "draw": null,
-            "loss": 1,
-            "for": 413,
-            "against": 406,
-            "diff": 7,
-            "points": 9,
+            "loss": 2,
+            "for": 492,
+            "against": 500,
+            "diff": -8,
+            "points": 10,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Lions de Genève pwd by Grand-Saconnex",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 529,
+            "against": 504,
+            "diff": 25,
+            "points": 10,
+            "highlight": null
           },
           {
             "team": "Denizli Basket Spor Kulübü",
@@ -9827,27 +9839,15 @@
             "highlight": null
           },
           {
-            "team": "Lions de Genève pwd by Grand-Saconnex",
-            "played": 5,
-            "win": 3,
-            "draw": null,
-            "loss": 2,
-            "for": 444,
-            "against": 427,
-            "diff": 17,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Landau Lions",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 425,
-            "against": 487,
-            "diff": -62,
-            "points": 6,
+            "loss": 5,
+            "for": 502,
+            "against": 572,
+            "diff": -70,
+            "points": 7,
             "highlight": null
           }
         ],
@@ -9870,6 +9870,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "CSM Oradea",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 518,
+            "against": 482,
+            "diff": 36,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "VEF Rīga",
             "played": 6,
             "win": 4,
@@ -9879,7 +9891,7 @@
             "against": 508,
             "diff": 62,
             "points": 10,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
             "team": "Lokomotiv Plovdiv 1926",
@@ -9894,15 +9906,15 @@
             "highlight": null
           },
           {
-            "team": "CSM Oradea",
-            "played": 5,
-            "win": 3,
+            "team": "Fribourg Olympic Basket",
+            "played": 6,
+            "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 432,
-            "against": 402,
-            "diff": 30,
-            "points": 6,
+            "loss": 5,
+            "for": 438,
+            "against": 524,
+            "diff": -86,
+            "points": 7,
             "highlight": null
           },
           {
@@ -9915,18 +9927,6 @@
             "against": 521,
             "diff": -57,
             "points": 7,
-            "highlight": null
-          },
-          {
-            "team": "Fribourg Olympic Basket",
-            "played": 5,
-            "win": 1,
-            "draw": null,
-            "loss": 4,
-            "for": 358,
-            "against": 438,
-            "diff": -80,
-            "points": 6,
             "highlight": null
           }
         ],
@@ -46295,7 +46295,7 @@
       "league": "bcl-2026-27",
       "home": "UCAM Murcia",
       "away": "Brose Bamberg",
-      "score": null,
+      "score": "98-66",
       "date": "2026-11-11",
       "time": "19:30",
       "utc": "2026-11-11T19:30:00+00:00",
@@ -46307,7 +46307,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Lions de Genève pwd by Grand-Saconnex",
       "away": "Landau Lions",
-      "score": null,
+      "score": "85-77",
       "date": "2026-11-11",
       "time": "19:30",
       "utc": "2026-11-11T19:30:00+00:00",
@@ -46319,7 +46319,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Oostende",
       "away": "Patrioti Levice",
-      "score": null,
+      "score": "71-70",
       "date": "2026-11-11",
       "time": "19:30",
       "utc": "2026-11-11T19:30:00+00:00",
@@ -46331,7 +46331,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Baskonia Vitoria",
-      "score": null,
+      "score": "80-66",
       "date": "2026-11-11",
       "time": "19:45",
       "utc": "2026-11-11T19:45:00+00:00",
@@ -46343,19 +46343,20 @@
       "league": "euroleague-2026-27",
       "home": "Paris Basketball",
       "away": "Fenerbahçe Tarfin",
-      "score": null,
+      "score": "111-109",
       "date": "2026-11-11",
       "time": "19:45",
       "utc": "2026-11-11T19:45:00+00:00",
-      "venue": "Porte de La Chapelle Arena",
+      "venue": "AccorHotels Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16665348"
     },
     {
       "league": "fiba-europe-cup-2026-27",
       "home": "SL Benfica",
       "away": "Bakken Bears",
-      "score": null,
+      "score": "94-79",
       "date": "2026-11-11",
       "time": "20:00",
       "utc": "2026-11-11T20:00:00+00:00",
@@ -46575,7 +46576,7 @@
       "date": "2026-11-12",
       "time": "19:15",
       "utc": "2026-11-12T19:15:00+00:00",
-      "venue": "Peace And Friendship Stadium",
+      "venue": "SUNEL Arena",
       "attendance": null,
       "source_id": "sofascore:16665354"
     },
@@ -48133,7 +48134,7 @@
       "date": "2026-11-17",
       "time": "20:00",
       "utc": "2026-11-17T20:00:00+00:00",
-      "venue": "Virtus Arena",
+      "venue": "PalaDozza",
       "attendance": null,
       "source_id": "sofascore:16665368"
     },
@@ -48623,8 +48624,8 @@
       "away": "BC Dubai",
       "score": null,
       "date": "2026-11-19",
-      "time": "17:30",
-      "utc": "2026-11-19T17:30:00+00:00",
+      "time": "17:15",
+      "utc": "2026-11-19T17:15:00+00:00",
       "venue": "Menora Mivtachim Arena",
       "attendance": null,
       "source_id": "sofascore:16665372"
