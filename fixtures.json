@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-11T21:26:21+00:00",
+  "updated": "2026-11-11T21:37:36+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4770,9 +4770,9 @@
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 608,
-            "against": 632,
-            "diff": -24,
+            "for": 609,
+            "against": 634,
+            "diff": -25,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -4782,9 +4782,9 @@
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 611,
-            "against": 611,
-            "diff": 0,
+            "for": 613,
+            "against": 612,
+            "diff": 1,
             "points": 10,
             "highlight": null
           },
@@ -46259,13 +46259,25 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "Ratiopharm Ulm",
-      "score": null,
+      "score": "83-78",
       "date": "2026-11-11",
       "time": "19:00",
       "utc": "2026-11-11T19:00:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4776499"
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "Le Mans",
+      "away": "San Pablo Burgos",
+      "score": "88-80",
+      "date": "2026-11-11",
+      "time": "19:00",
+      "utc": "2026-11-11T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4771454"
     },
     {
       "league": "fiba-europe-cup-2026-27",
