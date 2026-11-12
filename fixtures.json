@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T17:22:03+00:00",
+  "updated": "2026-11-12T17:32:32+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9464,14 +9464,14 @@
         "rows": [
           {
             "team": "Esenler Erokspor",
-            "played": 5,
-            "win": 5,
+            "played": 6,
+            "win": 6,
             "draw": null,
             "loss": 0,
-            "for": 481,
-            "against": 360,
-            "diff": 121,
-            "points": 10,
+            "for": 578,
+            "against": 426,
+            "diff": 152,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -9524,14 +9524,14 @@
           },
           {
             "team": "Gence BK Ganja",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 290,
-            "against": 364,
-            "diff": -74,
-            "points": 6,
+            "loss": 5,
+            "for": 356,
+            "against": 461,
+            "diff": -105,
+            "points": 7,
             "highlight": null
           }
         ],
@@ -46418,7 +46418,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Gence BK Ganja",
       "away": "Esenler Erokspor",
-      "score": null,
+      "score": "66-97",
       "date": "2026-11-12",
       "time": "15:00",
       "utc": "2026-11-12T15:00:00+00:00",
