@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T22:21:07+00:00",
+  "updated": "2026-11-12T22:32:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6301,18 +6301,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "KK Crvena zvezda",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 825,
-            "against": 740,
-            "diff": 85,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Barcelona",
             "played": 10,
             "win": 7,
@@ -6321,6 +6309,30 @@
             "for": 902,
             "against": 874,
             "diff": 28,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Real Madrid",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 1072,
+            "against": 977,
+            "diff": 95,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "KK Crvena zvezda",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 909,
+            "against": 845,
+            "diff": 64,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6334,7 +6346,19 @@
             "against": 846,
             "diff": 49,
             "points": null,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Kauno Žalgiris",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 942,
+            "against": 906,
+            "diff": 36,
+            "points": null,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "BC Dubai",
@@ -6345,30 +6369,6 @@
             "for": 952,
             "against": 942,
             "diff": 10,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Real Madrid",
-            "played": 10,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 967,
-            "against": 893,
-            "diff": 74,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Kauno Žalgiris",
-            "played": 10,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 856,
-            "against": 823,
-            "diff": 33,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6482,13 +6482,13 @@
           },
           {
             "team": "Olimpia Milano",
-            "played": 10,
+            "played": 11,
             "win": 1,
             "draw": null,
-            "loss": 9,
-            "for": 811,
-            "against": 896,
-            "diff": -85,
+            "loss": 10,
+            "for": 894,
+            "against": 982,
+            "diff": -88,
             "points": null,
             "highlight": null
           },
@@ -46610,7 +46610,7 @@
       "league": "euroleague-2026-27",
       "home": "Real Madrid",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "105-84",
       "date": "2026-11-12",
       "time": "20:00",
       "utc": "2026-11-12T20:00:00+00:00",
