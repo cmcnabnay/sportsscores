@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T20:55:07+00:00",
+  "updated": "2026-11-12T21:06:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3056,13 +3056,13 @@
           },
           {
             "team": "Adler Mannheim",
-            "played": 15,
+            "played": 16,
             "win": 10,
             "draw": null,
-            "loss": 5,
-            "for": 53,
-            "against": 38,
-            "diff": 15,
+            "loss": 6,
+            "for": 55,
+            "against": 44,
+            "diff": 11,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -3187,6 +3187,18 @@
             "highlight": null
           },
           {
+            "team": "Iserlohn Roosters",
+            "played": 15,
+            "win": 5,
+            "draw": null,
+            "loss": 10,
+            "for": 38,
+            "against": 54,
+            "diff": -16,
+            "points": 16,
+            "highlight": null
+          },
+          {
             "team": "Schwenningen Wild Wings",
             "played": 16,
             "win": 6,
@@ -3196,18 +3208,6 @@
             "against": 60,
             "diff": -23,
             "points": 16,
-            "highlight": null
-          },
-          {
-            "team": "Iserlohn Roosters",
-            "played": 14,
-            "win": 4,
-            "draw": null,
-            "loss": 10,
-            "for": 32,
-            "against": 52,
-            "diff": -20,
-            "points": 13,
             "highlight": "#FFBBBB"
           }
         ],
@@ -46538,7 +46538,7 @@
       "league": "del-2026-27",
       "home": "Iserlohn Roosters",
       "away": "Adler Mannheim",
-      "score": null,
+      "score": "6-2",
       "date": "2026-11-12",
       "time": "18:30",
       "utc": "2026-11-12T18:30:00+00:00",
@@ -49846,18 +49846,6 @@
     },
     {
       "league": "del-2026-27",
-      "home": "Iserlohn Roosters",
-      "away": "Löwen Frankfurt",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "15:30",
-      "utc": "2026-11-22T15:30:00+00:00",
-      "venue": "Eissporthalle Iserlohn",
-      "attendance": null,
-      "source_id": "sofascore:16422554"
-    },
-    {
-      "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Kölner Haie",
       "score": null,
@@ -49963,6 +49951,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810420"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Iserlohn Roosters",
+      "away": "Löwen Frankfurt",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "17:00",
+      "utc": "2026-11-22T17:00:00+00:00",
+      "venue": "Eissporthalle Iserlohn",
+      "attendance": null,
+      "source_id": "sofascore:16422554"
     },
     {
       "league": "lega-a-2026-27",
@@ -52834,18 +52834,6 @@
     },
     {
       "league": "del-2026-27",
-      "home": "Grizzlys Wolfsburg",
-      "away": "Löwen Frankfurt",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "13:00",
-      "utc": "2026-12-06T13:00:00+00:00",
-      "venue": "EisArena Wolfsburg",
-      "attendance": null,
-      "source_id": "sofascore:16422588"
-    },
-    {
-      "league": "del-2026-27",
       "home": "Schwenningen Wild Wings",
       "away": "Nürnberg Ice Tigers",
       "score": null,
@@ -52939,6 +52927,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809085"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Grizzlys Wolfsburg",
+      "away": "Löwen Frankfurt",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "15:30",
+      "utc": "2026-12-06T15:30:00+00:00",
+      "venue": "EisArena Wolfsburg",
+      "attendance": null,
+      "source_id": "sofascore:16422588"
     },
     {
       "league": "del-2026-27",
@@ -60129,6 +60129,18 @@
       "source_id": "365scores:4820727"
     },
     {
+      "league": "del-2026-27",
+      "home": "Kölner Haie",
+      "away": "Pinguins Bremerhaven",
+      "score": null,
+      "date": "2026-12-31",
+      "time": "12:00",
+      "utc": "2026-12-31T12:00:00+00:00",
+      "venue": "Lanxess Arena",
+      "attendance": null,
+      "source_id": "sofascore:16422723"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Alba Berlin",
       "away": "Rostock Seawolves",
@@ -64399,18 +64411,6 @@
       "venue": "Uber Arena",
       "attendance": null,
       "source_id": "sofascore:16422724"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Kölner Haie",
-      "away": "Pinguins Bremerhaven",
-      "score": null,
-      "date": "2027-01-17",
-      "time": "13:00",
-      "utc": "2027-01-17T13:00:00+00:00",
-      "venue": "Lanxess Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422723"
     },
     {
       "league": "del-2026-27",
