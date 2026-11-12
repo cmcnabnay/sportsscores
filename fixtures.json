@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T16:50:10+00:00",
+  "updated": "2026-11-12T17:01:02+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3248,13 +3248,13 @@
           {
             "team": "Spartak Moscow",
             "played": 26,
-            "win": 13,
+            "win": 14,
             "draw": null,
             "loss": 8,
-            "for": 66,
+            "for": 67,
             "against": 53,
-            "diff": 13,
-            "points": 30,
+            "diff": 14,
+            "points": 32,
             "highlight": "#BBF3FF"
           },
           {
@@ -3439,10 +3439,10 @@
             "played": 24,
             "win": 12,
             "draw": null,
-            "loss": 10,
+            "loss": 11,
             "for": 46,
-            "against": 38,
-            "diff": 8,
+            "against": 39,
+            "diff": 7,
             "points": 25,
             "highlight": "#BBF3BB"
           },
@@ -46406,7 +46406,7 @@
       "league": "khl-2026-27",
       "home": "Barys Astana",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "4-2",
       "date": "2026-11-12",
       "time": "14:30",
       "utc": "2026-11-12T14:30:00+00:00",
