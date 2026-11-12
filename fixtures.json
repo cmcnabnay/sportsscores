@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T19:28:48+00:00",
+  "updated": "2026-11-12T19:39:10+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9567,14 +9567,14 @@
           },
           {
             "team": "Keravnos Strovolou",
-            "played": 5,
-            "win": 3,
+            "played": 6,
+            "win": 4,
             "draw": null,
             "loss": 2,
-            "for": 399,
-            "against": 395,
-            "diff": 4,
-            "points": 8,
+            "for": 485,
+            "against": 460,
+            "diff": 25,
+            "points": 10,
             "highlight": null
           },
           {
@@ -9603,14 +9603,14 @@
           },
           {
             "team": "BC Pärnu",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 366,
-            "against": 405,
-            "diff": -39,
-            "points": 6,
+            "loss": 5,
+            "for": 431,
+            "against": 491,
+            "diff": -60,
+            "points": 7,
             "highlight": null
           }
         ],
@@ -46442,7 +46442,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Pärnu",
       "away": "Keravnos Strovolou",
-      "score": null,
+      "score": "65-86",
       "date": "2026-11-12",
       "time": "17:00",
       "utc": "2026-11-12T17:00:00+00:00",
