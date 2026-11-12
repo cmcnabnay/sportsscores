@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T19:18:06+00:00",
+  "updated": "2026-11-12T19:28:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12037,8 +12037,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-11T19:23:05.246284+00:00",
-    "torpedo": "2026-11-11T19:23:05.246284+00:00"
+    "velez": "2026-11-12T19:28:40.711375+00:00",
+    "torpedo": "2026-11-12T19:28:40.711375+00:00"
   },
   "matches": [
     {
@@ -49160,6 +49160,18 @@
       "source_id": "sofascore:16665380"
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Belgrano",
+      "score": null,
+      "date": "2026-11-20",
+      "time": "20:00",
+      "utc": "2026-11-20T23:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4891700"
+    },
+    {
       "league": "prod2-2026",
       "home": "US Oyonnax",
       "away": "CA Brive",
@@ -49771,18 +49783,6 @@
       "venue": "Arena Nuernberger Versicherung",
       "attendance": null,
       "source_id": "sofascore:16422550"
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Belgrano",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "14:00",
-      "utc": "2026-11-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4891700"
     },
     {
       "league": "bbl-2026-27",
