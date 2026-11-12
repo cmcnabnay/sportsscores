@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T21:28:07+00:00",
+  "updated": "2026-11-12T21:39:07+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4535,6 +4535,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Maxima Roma",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 619,
+            "against": 593,
+            "diff": 26,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "London Lions",
             "played": 7,
             "win": 4,
@@ -4547,30 +4559,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Maxima Roma",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 506,
-            "against": 504,
-            "diff": 2,
-            "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Skyliners Frankfurt",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 517,
-            "against": 550,
-            "diff": -33,
-            "points": 9,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Reyer Venezia",
             "played": 7,
             "win": 3,
@@ -4579,6 +4567,18 @@
             "for": 604,
             "against": 564,
             "diff": 40,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Turk Telekom",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 565,
+            "against": 566,
+            "diff": -1,
             "points": 10,
             "highlight": null
           },
@@ -4595,14 +4595,14 @@
             "highlight": null
           },
           {
-            "team": "Turk Telekom",
+            "team": "Skyliners Frankfurt",
             "played": 7,
             "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 565,
-            "against": 566,
-            "diff": -1,
+            "for": 606,
+            "against": 663,
+            "diff": -57,
             "points": 10,
             "highlight": null
           },
@@ -6277,6 +6277,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Valencia Basket",
+            "played": 11,
+            "win": 8,
+            "draw": null,
+            "loss": 3,
+            "for": 1053,
+            "against": 966,
+            "diff": 87,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Olympiacos BC",
+            "played": 11,
+            "win": 8,
+            "draw": null,
+            "loss": 3,
+            "for": 948,
+            "against": 873,
+            "diff": 75,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "KK Crvena zvezda",
             "played": 10,
             "win": 7,
@@ -6285,42 +6309,6 @@
             "for": 825,
             "against": 740,
             "diff": 85,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Valencia Basket",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 951,
-            "against": 879,
-            "diff": 72,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Olympiacos BC",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 847,
-            "against": 801,
-            "diff": 46,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "BC Dubai",
-            "played": 10,
-            "win": 7,
-            "draw": null,
-            "loss": 3,
-            "for": 880,
-            "against": 841,
-            "diff": 39,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6342,9 +6330,21 @@
             "win": 7,
             "draw": null,
             "loss": 4,
-            "for": 912,
-            "against": 865,
-            "diff": 47,
+            "for": 895,
+            "against": 846,
+            "diff": 49,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Dubai",
+            "played": 11,
+            "win": 7,
+            "draw": null,
+            "loss": 4,
+            "for": 952,
+            "against": 942,
+            "diff": 10,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6361,18 +6361,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Hapoel Tel-Aviv",
-            "played": 10,
-            "win": 6,
-            "draw": null,
-            "loss": 4,
-            "for": 921,
-            "against": 879,
-            "diff": 42,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Kauno Žalgiris",
             "played": 10,
             "win": 6,
@@ -6381,6 +6369,18 @@
             "for": 856,
             "against": 823,
             "diff": 33,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Hapoel Tel-Aviv",
+            "played": 11,
+            "win": 6,
+            "draw": null,
+            "loss": 5,
+            "for": 994,
+            "against": 959,
+            "diff": 35,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6402,9 +6402,9 @@
             "win": 5,
             "draw": null,
             "loss": 6,
-            "for": 1001,
-            "against": 1035,
-            "diff": -34,
+            "for": 982,
+            "against": 1018,
+            "diff": -36,
             "points": null,
             "highlight": null
           },
@@ -6457,26 +6457,26 @@
             "highlight": null
           },
           {
-            "team": "Bayern Munich",
-            "played": 10,
+            "team": "Maccabi Tel Aviv",
+            "played": 11,
             "win": 3,
             "draw": null,
-            "loss": 7,
-            "for": 868,
-            "against": 945,
-            "diff": -77,
+            "loss": 8,
+            "for": 927,
+            "against": 1013,
+            "diff": -86,
             "points": null,
             "highlight": null
           },
           {
-            "team": "Maccabi Tel Aviv",
-            "played": 10,
-            "win": 2,
+            "team": "Bayern Munich",
+            "played": 11,
+            "win": 3,
             "draw": null,
             "loss": 8,
-            "for": 847,
-            "against": 940,
-            "diff": -93,
+            "for": 955,
+            "against": 1047,
+            "diff": -92,
             "points": null,
             "highlight": null
           },
@@ -46550,7 +46550,7 @@
       "league": "eurocup-2026-27",
       "home": "Skyliners Frankfurt",
       "away": "Maxima Roma",
-      "score": null,
+      "score": "89-113",
       "date": "2026-11-12",
       "time": "19:00",
       "utc": "2026-11-12T19:00:00+00:00",
@@ -46562,11 +46562,11 @@
       "league": "euroleague-2026-27",
       "home": "Maccabi Tel Aviv",
       "away": "Hapoel Tel-Aviv",
-      "score": null,
+      "score": "80-73",
       "date": "2026-11-12",
       "time": "19:05",
       "utc": "2026-11-12T19:05:00+00:00",
-      "venue": "Menora Mivtachim Arena",
+      "venue": "Spyros Kyprianou Athletic Center",
       "attendance": null,
       "source_id": "sofascore:16665353"
     },
@@ -46574,7 +46574,7 @@
       "league": "euroleague-2026-27",
       "home": "Olympiacos BC",
       "away": "BC Dubai",
-      "score": null,
+      "score": "101-72",
       "date": "2026-11-12",
       "time": "19:15",
       "utc": "2026-11-12T19:15:00+00:00",
@@ -46586,7 +46586,7 @@
       "league": "euroleague-2026-27",
       "home": "Olimpia Milano",
       "away": "Kauno Žalgiris",
-      "score": null,
+      "score": "83-86",
       "date": "2026-11-12",
       "time": "19:30",
       "utc": "2026-11-12T19:30:00+00:00",
@@ -46598,7 +46598,7 @@
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Bayern Munich",
-      "score": null,
+      "score": "102-87",
       "date": "2026-11-12",
       "time": "19:30",
       "utc": "2026-11-12T19:30:00+00:00",
@@ -48546,7 +48546,7 @@
       "utc": "2026-11-18T18:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "365scores:4771471"
+      "source_id": "365scores:4893656"
     },
     {
       "league": "eurocup-2026-27",
@@ -73357,18 +73357,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809182"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Panathinaikos BC",
-      "away": "Beşiktaş JK",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "19:15",
-      "utc": "2027-03-04T19:15:00+00:00",
-      "venue": "Telekom Center Athens",
-      "attendance": null,
-      "source_id": "sofascore:16670751"
     },
     {
       "league": "euroleague-2026-27",
