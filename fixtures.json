@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T16:10:30+00:00",
+  "updated": "2026-11-12T16:50:10+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3247,7 +3247,7 @@
           },
           {
             "team": "Spartak Moscow",
-            "played": 25,
+            "played": 26,
             "win": 13,
             "draw": null,
             "loss": 8,
@@ -3283,13 +3283,13 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 23,
+            "played": 24,
             "win": 14,
             "draw": null,
-            "loss": 7,
-            "for": 67,
-            "against": 58,
-            "diff": 9,
+            "loss": 8,
+            "for": 69,
+            "against": 62,
+            "diff": 7,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3364,14 +3364,14 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 25,
+            "played": 26,
             "win": 18,
             "draw": null,
             "loss": 5,
-            "for": 86,
-            "against": 56,
-            "diff": 30,
-            "points": 38,
+            "for": 89,
+            "against": 60,
+            "diff": 29,
+            "points": 39,
             "highlight": "#D6F9FF"
           },
           {
@@ -3387,6 +3387,42 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Avangard Omsk",
+            "played": 24,
+            "win": 13,
+            "draw": null,
+            "loss": 9,
+            "for": 48,
+            "against": 57,
+            "diff": -9,
+            "points": 28,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Barys Astana",
+            "played": 25,
+            "win": 13,
+            "draw": null,
+            "loss": 11,
+            "for": 79,
+            "against": 68,
+            "diff": 11,
+            "points": 27,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 24,
+            "win": 12,
+            "draw": null,
+            "loss": 9,
+            "for": 64,
+            "against": 60,
+            "diff": 4,
+            "points": 27,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Traktor Chelyabinsk",
             "played": 25,
             "win": 11,
@@ -3396,35 +3432,11 @@
             "against": 59,
             "diff": -3,
             "points": 26,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 23,
-            "win": 12,
-            "draw": null,
-            "loss": 9,
-            "for": 44,
-            "against": 54,
-            "diff": -10,
-            "points": 26,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Barys Astana",
-            "played": 24,
-            "win": 12,
-            "draw": null,
-            "loss": 11,
-            "for": 75,
-            "against": 66,
-            "diff": 9,
-            "points": 25,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 23,
+            "played": 24,
             "win": 12,
             "draw": null,
             "loss": 10,
@@ -3435,51 +3447,39 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 23,
-            "win": 11,
-            "draw": null,
-            "loss": 9,
-            "for": 60,
-            "against": 58,
-            "diff": 2,
-            "points": 25,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Salavat Yulayev Ufa",
-            "played": 25,
+            "played": 26,
             "win": 12,
             "draw": null,
-            "loss": 11,
-            "for": 71,
-            "against": 71,
-            "diff": 0,
+            "loss": 12,
+            "for": 72,
+            "against": 75,
+            "diff": -3,
             "points": 25,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Admiral Vladivostok",
-            "played": 23,
+            "played": 24,
             "win": 11,
             "draw": null,
-            "loss": 9,
-            "for": 59,
-            "against": 61,
-            "diff": -2,
+            "loss": 10,
+            "for": 61,
+            "against": 65,
+            "diff": -4,
             "points": 25,
             "highlight": null
           },
           {
             "team": "AK Bars",
-            "played": 26,
-            "win": 10,
+            "played": 27,
+            "win": 11,
             "draw": null,
             "loss": 12,
-            "for": 56,
-            "against": 61,
-            "diff": -5,
-            "points": 22,
+            "for": 60,
+            "against": 62,
+            "diff": -2,
+            "points": 24,
             "highlight": null
           },
           {
@@ -45917,6 +45917,7 @@
       "utc": "2026-11-11T16:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4891444"
     },
     {
@@ -46368,19 +46369,20 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "3-4",
       "date": "2026-11-12",
       "time": "14:00",
       "utc": "2026-11-12T14:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4891750"
     },
     {
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "AK Bars",
-      "score": null,
+      "score": "1-4",
       "date": "2026-11-12",
       "time": "14:00",
       "utc": "2026-11-12T14:00:00+00:00",
@@ -46392,7 +46394,7 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "Shanghai Dragons",
-      "score": null,
+      "score": "4-2",
       "date": "2026-11-12",
       "time": "14:00",
       "utc": "2026-11-12T14:00:00+00:00",
@@ -47481,6 +47483,18 @@
       "source_id": "sofascore:17519340"
     },
     {
+      "league": "khl-2026-27",
+      "home": "Sibir Novosibirsk",
+      "away": "Dynamo Moscow",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "10:30",
+      "utc": "2026-11-15T10:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4893143"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Valencia Basket",
       "away": "Leyma Coruña",
@@ -47515,6 +47529,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4819933"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Metallurg Magnitogorsk",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "12:00",
+      "utc": "2026-11-15T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4893214"
     },
     {
       "league": "liiga-2026-27",
@@ -47587,6 +47613,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809064"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "SKA St. Petersburg",
+      "away": "Traktor Chelyabinsk",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "14:00",
+      "utc": "2026-11-15T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4893215"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-11-15",
+      "time": "14:00",
+      "utc": "2026-11-15T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4893216"
     },
     {
       "league": "lega-a-2026-27",
