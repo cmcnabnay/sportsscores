@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-12T18:56:06+00:00",
+  "updated": "2026-11-12T19:07:43+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3248,13 +3248,13 @@
           {
             "team": "Spartak Moscow",
             "played": 26,
-            "win": 14,
+            "win": 13,
             "draw": null,
-            "loss": 8,
-            "for": 67,
-            "against": 53,
-            "diff": 14,
-            "points": 32,
+            "loss": 9,
+            "for": 69,
+            "against": 57,
+            "diff": 12,
+            "points": 30,
             "highlight": "#BBF3FF"
           },
           {
@@ -3411,6 +3411,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Amur Khabarovsk",
+            "played": 24,
+            "win": 13,
+            "draw": null,
+            "loss": 10,
+            "for": 50,
+            "against": 41,
+            "diff": 9,
+            "points": 27,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Avtomobilist Yekaterinburg",
             "played": 24,
             "win": 12,
@@ -3432,18 +3444,6 @@
             "against": 59,
             "diff": -3,
             "points": 26,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Amur Khabarovsk",
-            "played": 24,
-            "win": 12,
-            "draw": null,
-            "loss": 11,
-            "for": 46,
-            "against": 39,
-            "diff": 7,
-            "points": 25,
             "highlight": "#BBF3BB"
           },
           {
@@ -46430,7 +46430,7 @@
       "league": "khl-2026-27",
       "home": "Spartak Moscow",
       "away": "Amur Khabarovsk",
-      "score": null,
+      "score": "3-4",
       "date": "2026-11-12",
       "time": "16:30",
       "utc": "2026-11-12T16:30:00+00:00",
