@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T22:32:11+00:00",
+  "updated": "2026-11-13T22:43:07+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10163,14 +10163,14 @@
         "rows": [
           {
             "team": "France",
-            "played": 4,
-            "win": 3,
+            "played": 5,
+            "win": 4,
             "draw": 0,
             "loss": 1,
-            "for": 170,
-            "against": 92,
-            "diff": 78,
-            "points": 17,
+            "for": 191,
+            "against": 111,
+            "diff": 80,
+            "points": 21,
             "highlight": "#BBF3BB"
           },
           {
@@ -10240,14 +10240,14 @@
         "rows": [
           {
             "team": "South Africa",
-            "played": 4,
+            "played": 5,
             "win": 4,
             "draw": 0,
-            "loss": 0,
-            "for": 196,
-            "against": 56,
-            "diff": 140,
-            "points": 20,
+            "loss": 1,
+            "for": 215,
+            "against": 77,
+            "diff": 138,
+            "points": 21,
             "highlight": "#BBF3BB"
           },
           {
@@ -45423,7 +45423,7 @@
       "time": "15:10",
       "utc": "2026-11-08T15:10:00+00:00",
       "venue": "Twickenham Stadium, London",
-      "attendance": "81334"
+      "attendance": "81331"
     },
     {
       "league": "bbl-2026-27",
@@ -46888,7 +46888,7 @@
       "league": "nations-championship-2026",
       "home": "France",
       "away": "South Africa",
-      "score": null,
+      "score": "21-19",
       "date": "2026-11-13",
       "time": "21:10",
       "utc": "2026-11-13T20:10:00+00:00",
