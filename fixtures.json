@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T22:11:46+00:00",
+  "updated": "2026-11-13T22:22:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11610,7 +11610,7 @@
             "for": 337,
             "against": 154,
             "diff": 183,
-            "points": 30,
+            "points": 31,
             "highlight": null
           },
           {
@@ -11634,7 +11634,19 @@
             "for": 321,
             "against": 203,
             "diff": 118,
-            "points": 27,
+            "points": 28,
+            "highlight": null
+          },
+          {
+            "team": "Bedford Blues",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 276,
+            "against": 232,
+            "diff": 44,
+            "points": 25,
             "highlight": null
           },
           {
@@ -11646,7 +11658,7 @@
             "for": 237,
             "against": 212,
             "diff": 25,
-            "points": 22,
+            "points": 23,
             "highlight": null
           },
           {
@@ -11659,18 +11671,6 @@
             "against": 255,
             "diff": -46,
             "points": 21,
-            "highlight": null
-          },
-          {
-            "team": "Bedford Blues",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 228,
-            "against": 206,
-            "diff": 22,
-            "points": 20,
             "highlight": null
           },
           {
@@ -11699,13 +11699,13 @@
           },
           {
             "team": "Doncaster Knights",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 223,
-            "against": 224,
-            "diff": -1,
+            "loss": 5,
+            "for": 249,
+            "against": 272,
+            "diff": -23,
             "points": 15,
             "highlight": null
           },
@@ -46876,7 +46876,7 @@
       "league": "championship-2026",
       "home": "Bedford Blues",
       "away": "Doncaster Knights",
-      "score": null,
+      "score": "48-26",
       "date": "2026-11-13",
       "time": "19:45",
       "utc": "2026-11-13T19:45:00+00:00",
