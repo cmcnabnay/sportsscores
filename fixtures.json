@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T19:51:07+00:00",
+  "updated": "2026-11-13T20:02:03+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3948,6 +3948,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Porin Ässät",
+            "played": 22,
+            "win": 12,
+            "draw": null,
+            "loss": 10,
+            "for": 52,
+            "against": 53,
+            "diff": -1,
+            "points": 37,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "SaiPa Lappeenranta",
             "played": 19,
             "win": 13,
@@ -3969,18 +3981,6 @@
             "against": 53,
             "diff": 7,
             "points": 36,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 21,
-            "win": 11,
-            "draw": null,
-            "loss": 10,
-            "for": 47,
-            "against": 51,
-            "diff": -4,
-            "points": 34,
             "highlight": "#BBF3FF"
           },
           {
@@ -4057,13 +4057,13 @@
           },
           {
             "team": "Lahti Pelicans",
-            "played": 18,
+            "played": 19,
             "win": 8,
             "draw": null,
-            "loss": 10,
-            "for": 41,
-            "against": 42,
-            "diff": -1,
+            "loss": 11,
+            "for": 43,
+            "against": 47,
+            "diff": -4,
             "points": 24,
             "highlight": null
           },
@@ -6397,6 +6397,18 @@
             "highlight": null
           },
           {
+            "team": "Anadolu Efes",
+            "played": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 6,
+            "for": 945,
+            "against": 962,
+            "diff": -17,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 11,
             "win": 5,
@@ -6405,18 +6417,6 @@
             "for": 982,
             "against": 1018,
             "diff": -36,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Anadolu Efes",
-            "played": 10,
-            "win": 4,
-            "draw": null,
-            "loss": 6,
-            "for": 842,
-            "against": 871,
-            "diff": -29,
             "points": null,
             "highlight": null
           },
@@ -6433,18 +6433,6 @@
             "highlight": null
           },
           {
-            "team": "Virtus Bologna",
-            "played": 10,
-            "win": 4,
-            "draw": null,
-            "loss": 6,
-            "for": 856,
-            "against": 895,
-            "diff": -39,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "ASVEL Villeurbanne",
             "played": 10,
             "win": 4,
@@ -6453,6 +6441,18 @@
             "for": 883,
             "against": 930,
             "diff": -47,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Virtus Bologna",
+            "played": 11,
+            "win": 4,
+            "draw": null,
+            "loss": 7,
+            "for": 947,
+            "against": 998,
+            "diff": -51,
             "points": null,
             "highlight": null
           },
@@ -46731,7 +46731,7 @@
       "league": "euroleague-2026-27",
       "home": "Anadolu Efes",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "103-91",
       "date": "2026-11-13",
       "time": "17:30",
       "utc": "2026-11-13T17:30:00+00:00",
@@ -46743,7 +46743,7 @@
       "league": "liiga-2026-27",
       "home": "Lahti Pelicans",
       "away": "Porin Ässät",
-      "score": null,
+      "score": "2-5",
       "date": "2026-11-13",
       "time": "17:30",
       "utc": "2026-11-13T17:30:00+00:00",
@@ -73397,6 +73397,18 @@
     },
     {
       "league": "euroleague-2026-27",
+      "home": "Panathinaikos BC",
+      "away": "Beşiktaş JK",
+      "score": null,
+      "date": "2027-03-04",
+      "time": "19:15",
+      "utc": "2027-03-04T19:15:00+00:00",
+      "venue": "Telekom Center Athens",
+      "attendance": null,
+      "source_id": "sofascore:16670751"
+    },
+    {
+      "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Kauno Žalgiris",
       "score": null,
@@ -73442,18 +73454,6 @@
       "venue": "Porte de La Chapelle Arena",
       "attendance": null,
       "source_id": "sofascore:16670753"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "BC Dubai",
-      "away": "Olympiacos BC",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "16:00",
-      "utc": "2027-03-05T16:00:00+00:00",
-      "venue": "Coca-Cola Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670755"
     },
     {
       "league": "liiga-2026-27",
