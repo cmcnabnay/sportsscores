@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T21:06:53+00:00",
+  "updated": "2026-11-13T21:17:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3044,14 +3044,14 @@
         "rows": [
           {
             "team": "Eisbären Berlin",
-            "played": 14,
+            "played": 15,
             "win": 11,
             "draw": null,
-            "loss": 3,
-            "for": 50,
-            "against": 24,
-            "diff": 26,
-            "points": 32,
+            "loss": 4,
+            "for": 53,
+            "against": 28,
+            "diff": 25,
+            "points": 33,
             "highlight": "#BBF3BB"
           },
           {
@@ -3151,6 +3151,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Grizzlys Wolfsburg",
+            "played": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 9,
+            "for": 40,
+            "against": 54,
+            "diff": -14,
+            "points": 19,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Schwenningen Wild Wings",
             "played": 17,
             "win": 7,
@@ -3160,7 +3172,7 @@
             "against": 61,
             "diff": -22,
             "points": 19,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "Löwen Frankfurt",
@@ -3183,18 +3195,6 @@
             "for": 40,
             "against": 49,
             "diff": -9,
-            "points": 17,
-            "highlight": null
-          },
-          {
-            "team": "Grizzlys Wolfsburg",
-            "played": 15,
-            "win": 6,
-            "draw": null,
-            "loss": 9,
-            "for": 36,
-            "against": 51,
-            "diff": -15,
             "points": 17,
             "highlight": null
           },
@@ -44615,7 +44615,7 @@
       "time": "18:30",
       "utc": "2026-11-06T16:30:00+00:00",
       "venue": "Stadionul National Arcul de Triumf, Bucharest",
-      "attendance": null
+      "attendance": "2000"
     },
     {
       "league": "prod2-2026",
@@ -44924,7 +44924,7 @@
       "time": "15:00",
       "utc": "2026-11-07T15:00:00+00:00",
       "venue": "Belle Vue, Wakefield (England)",
-      "attendance": null
+      "attendance": "5000"
     },
     {
       "league": "nations-cup-2026",
@@ -44935,7 +44935,7 @@
       "time": "15:00",
       "utc": "2026-11-07T15:00:00+00:00",
       "venue": "Estádio Nacional, Lisbon",
-      "attendance": null
+      "attendance": "1500"
     },
     {
       "league": "championship-2026",
@@ -45041,7 +45041,7 @@
       "time": "16:00",
       "utc": "2026-11-07T15:00:00+00:00",
       "venue": "Estadio Nacional Complutense, Madrid",
-      "attendance": null
+      "attendance": "2000"
     },
     {
       "league": "nations-championship-2026",
@@ -45171,7 +45171,7 @@
       "time": "18:00",
       "utc": "2026-11-07T14:00:00+00:00",
       "venue": "Avchala Rugby Stadium, Tbilisi",
-      "attendance": null
+      "attendance": "1200"
     },
     {
       "league": "liga-acb-2026-27",
@@ -45458,7 +45458,7 @@
       "time": "15:45",
       "utc": "2026-11-08T14:45:00+00:00",
       "venue": "Stade Marcel-Verchère, Bourg-en-Bresse (France)",
-      "attendance": null
+      "attendance": "2700"
     },
     {
       "league": "liga-acb-2026-27",
@@ -46755,12 +46755,13 @@
       "league": "del-2026-27",
       "home": "Grizzlys Wolfsburg",
       "away": "Eisbären Berlin",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-13",
       "time": "18:30",
       "utc": "2026-11-13T18:30:00+00:00",
       "venue": "EisArena Wolfsburg",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16422530"
     },
     {
