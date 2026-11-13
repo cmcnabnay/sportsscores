@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T21:39:49+00:00",
+  "updated": "2026-11-13T21:50:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6265,18 +6265,6 @@
       "Euroleague 26/27": {
         "rows": [
           {
-            "team": "Panathinaikos BC",
-            "played": 10,
-            "win": 8,
-            "draw": null,
-            "loss": 2,
-            "for": 862,
-            "against": 776,
-            "diff": 86,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Valencia Basket",
             "played": 11,
             "win": 8,
@@ -6285,6 +6273,18 @@
             "for": 1053,
             "against": 966,
             "diff": 87,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Panathinaikos BC",
+            "played": 11,
+            "win": 8,
+            "draw": null,
+            "loss": 3,
+            "for": 936,
+            "against": 852,
+            "diff": 84,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6302,13 +6302,13 @@
           },
           {
             "team": "Barcelona",
-            "played": 10,
-            "win": 7,
+            "played": 11,
+            "win": 8,
             "draw": null,
             "loss": 3,
-            "for": 902,
-            "against": 874,
-            "diff": 28,
+            "for": 978,
+            "against": 948,
+            "diff": 30,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6409,6 +6409,18 @@
             "highlight": null
           },
           {
+            "team": "Beşiktaş JK",
+            "played": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 6,
+            "for": 972,
+            "against": 1000,
+            "diff": -28,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 11,
             "win": 5,
@@ -6421,26 +6433,14 @@
             "highlight": null
           },
           {
-            "team": "Beşiktaş JK",
-            "played": 10,
-            "win": 4,
-            "draw": null,
-            "loss": 6,
-            "for": 877,
-            "against": 909,
-            "diff": -32,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "ASVEL Villeurbanne",
-            "played": 10,
+            "played": 11,
             "win": 4,
             "draw": null,
-            "loss": 6,
-            "for": 883,
-            "against": 930,
-            "diff": -47,
+            "loss": 7,
+            "for": 974,
+            "against": 1025,
+            "diff": -51,
             "points": null,
             "highlight": null
           },
@@ -46852,7 +46852,7 @@
       "league": "euroleague-2026-27",
       "home": "Panathinaikos BC",
       "away": "Barcelona",
-      "score": null,
+      "score": "74-76",
       "date": "2026-11-13",
       "time": "19:15",
       "utc": "2026-11-13T19:15:00+00:00",
@@ -46864,7 +46864,7 @@
       "league": "euroleague-2026-27",
       "home": "ASVEL Villeurbanne",
       "away": "Beşiktaş JK",
-      "score": null,
+      "score": "91-95",
       "date": "2026-11-13",
       "time": "19:30",
       "utc": "2026-11-13T19:30:00+00:00",
