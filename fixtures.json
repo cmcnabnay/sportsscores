@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-13T21:28:04+00:00",
+  "updated": "2026-11-13T21:39:49+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2426,6 +2426,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "N.R. Ludwigsburg",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 775,
+            "against": 767,
+            "diff": 8,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Skyliners Frankfurt",
             "played": 6,
             "win": 4,
@@ -2435,7 +2447,7 @@
             "against": 500,
             "diff": 24,
             "points": 8,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Brose Bamberg",
@@ -2458,18 +2470,6 @@
             "for": 570,
             "against": 575,
             "diff": -5,
-            "points": 8,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "N.R. Ludwigsburg",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 682,
-            "against": 688,
-            "diff": -6,
             "points": 8,
             "highlight": "#BBF3FF"
           },
@@ -2546,18 +2546,6 @@
             "highlight": null
           },
           {
-            "team": "Phoenix Hagen",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 672,
-            "against": 735,
-            "diff": -63,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Hamburg Towers",
             "played": 8,
             "win": 2,
@@ -2566,6 +2554,18 @@
             "for": 659,
             "against": 733,
             "diff": -74,
+            "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "Phoenix Hagen",
+            "played": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 7,
+            "for": 751,
+            "against": 828,
+            "diff": -77,
             "points": 4,
             "highlight": "#FFBBBB"
           },
@@ -5351,7 +5351,19 @@
             "for": 778,
             "against": 691,
             "diff": 87,
-            "points": 2,
+            "points": 0,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Le Mans",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 690,
+            "against": 615,
+            "diff": 75,
+            "points": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -5379,15 +5391,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Le Mans",
-            "played": 7,
-            "win": 6,
+            "team": "Strasbourg",
+            "played": 9,
+            "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 666,
-            "against": 604,
-            "diff": 62,
-            "points": 2,
+            "loss": 4,
+            "for": 738,
+            "against": 784,
+            "diff": -46,
+            "points": 0,
             "highlight": "#BBF3BB"
           },
           {
@@ -5412,7 +5424,7 @@
             "against": 596,
             "diff": 56,
             "points": 0,
-            "highlight": "#BBF3BB"
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Chorale de Roanne",
@@ -5423,30 +5435,6 @@
             "for": 565,
             "against": 563,
             "diff": 2,
-            "points": 0,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Strasbourg",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 638,
-            "against": 676,
-            "diff": -38,
-            "points": 1,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Boulazac",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 567,
-            "against": 586,
-            "diff": -19,
             "points": 0,
             "highlight": "#FFFFBB"
           },
@@ -5463,14 +5451,26 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Pau-orthez",
+            "team": "Boulazac",
             "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 567,
+            "against": 586,
+            "diff": -19,
+            "points": 0,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Pau-orthez",
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 585,
-            "against": 634,
-            "diff": -49,
+            "loss": 6,
+            "for": 669,
+            "against": 723,
+            "diff": -54,
             "points": 0,
             "highlight": null
           },
@@ -5483,6 +5483,18 @@
             "for": 605,
             "against": 623,
             "diff": -18,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Saint Quentin",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 699,
+            "against": 758,
+            "diff": -59,
             "points": 0,
             "highlight": null
           },
@@ -5507,18 +5519,6 @@
             "for": 620,
             "against": 647,
             "diff": -27,
-            "points": 1,
-            "highlight": null
-          },
-          {
-            "team": "Saint Quentin",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 699,
-            "against": 758,
-            "diff": -59,
             "points": 0,
             "highlight": "#FFCCCC"
           },
@@ -46828,7 +46828,7 @@
       "league": "bbl-2026-27",
       "home": "Phoenix Hagen",
       "away": "N.R. Ludwigsburg",
-      "score": null,
+      "score": "79-93",
       "date": "2026-11-13",
       "time": "19:00",
       "utc": "2026-11-13T19:00:00+00:00",
@@ -46840,7 +46840,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Pau-orthez",
       "away": "Strasbourg",
-      "score": null,
+      "score": "84-89",
       "date": "2026-11-13",
       "time": "19:00",
       "utc": "2026-11-13T19:00:00+00:00",
@@ -52379,6 +52379,18 @@
       "source_id": "sofascore:16527496"
     },
     {
+      "league": "bbl-2026-27",
+      "home": "Bv Chemnitz 99",
+      "away": "Rostock Seawolves",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4809078"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "SaiPa Lappeenranta",
       "away": "Mikkelin Jukurit",
@@ -52571,6 +52583,30 @@
       "source_id": "365scores:4819954"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Saint Quentin",
+      "away": "Nanterre",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:00",
+      "utc": "2026-12-05T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846963"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Gravelines",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:00",
+      "utc": "2026-12-05T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846960"
+    },
+    {
       "league": "shl-2026-27",
       "home": "Rögle BK",
       "away": "Brynäs IF",
@@ -52632,15 +52668,51 @@
     },
     {
       "league": "bbl-2026-27",
-      "home": "Bv Chemnitz 99",
-      "away": "Rostock Seawolves",
+      "home": "N.R. Ludwigsburg",
+      "away": "Wurzburg Baskets",
       "score": null,
       "date": "2026-12-05",
       "time": "17:30",
       "utc": "2026-12-05T17:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "365scores:4809078"
+      "source_id": "365scores:4809079"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Le Mans",
+      "away": "Chorale de Roanne",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:30",
+      "utc": "2026-12-05T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846961"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Boulazac",
+      "away": "Nancy",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "17:30",
+      "utc": "2026-12-05T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846958"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Limoges",
+      "away": "Cholet",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "18:00",
+      "utc": "2026-12-05T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846962"
     },
     {
       "league": "liga-acb-2026-27",
@@ -52679,112 +52751,16 @@
       "source_id": "365scores:4809080"
     },
     {
-      "league": "bbl-2026-27",
-      "home": "N.R. Ludwigsburg",
-      "away": "Wurzburg Baskets",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4809079"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Le Mans",
-      "away": "Chorale de Roanne",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846961"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Pau-orthez",
-      "away": "Paris Basketball",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846964"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Limoges",
-      "away": "Cholet",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846962"
-    },
-    {
       "league": "lnb-elite-2026-27",
       "home": "JL Bourg",
       "away": "Dijon",
       "score": null,
       "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
+      "time": "19:30",
+      "utc": "2026-12-05T19:30:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4846959"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Strasbourg",
-      "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846965"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Saint Quentin",
-      "away": "Nanterre",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846963"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Gravelines",
-      "away": "Chalon-sur-Saône",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846960"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Boulazac",
-      "away": "Nancy",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "19:00",
-      "utc": "2026-12-05T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846958"
     },
     {
       "league": "urc-2026",
@@ -52967,6 +52943,18 @@
       "source_id": "365scores:4809085"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Strasbourg",
+      "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "15:30",
+      "utc": "2026-12-06T15:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846965"
+    },
+    {
       "league": "del-2026-27",
       "home": "Grizzlys Wolfsburg",
       "away": "Löwen Frankfurt",
@@ -53121,6 +53109,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810454"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Pau-orthez",
+      "away": "Paris Basketball",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "18:00",
+      "utc": "2026-12-06T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846964"
     },
     {
       "league": "del-2026-27",
@@ -54371,6 +54371,18 @@
       "source_id": "365scores:4819966"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chorale de Roanne",
+      "away": "Pau-orthez",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "19:00",
+      "utc": "2026-12-11T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846972"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Panathinaikos BC",
       "away": "Olympiacos BC",
@@ -54647,6 +54659,30 @@
       "source_id": "sofascore:16662836"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Cholet",
+      "away": "JL Bourg",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:00",
+      "utc": "2026-12-12T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846968"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Strasbourg",
+      "away": "Gravelines",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:00",
+      "utc": "2026-12-12T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846973"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Saracens",
       "away": "La Rochelle",
@@ -54695,6 +54731,30 @@
       "source_id": "sofascore:16527604"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "Le Mans",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846967"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Nancy",
+      "away": "Saint Quentin",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:30",
+      "utc": "2026-12-12T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846971"
+    },
+    {
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Derthona Basket Tortona",
@@ -54705,102 +54765,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810474"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Chalon-sur-Saône",
-      "away": "Le Mans",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846967"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Chorale de Roanne",
-      "away": "Pau-orthez",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846972"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Dijon",
-      "away": "Boulazac",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846969"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Cholet",
-      "away": "JL Bourg",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846968"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "ASVEL Villeurbanne",
-      "away": "Paris Basketball",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846974"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Strasbourg",
-      "away": "Gravelines",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846973"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Nanterre",
-      "away": "Limoges",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846970"
-    },
-    {
-      "league": "lnb-elite-2026-27",
-      "home": "Nancy",
-      "away": "Saint Quentin",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "19:00",
-      "utc": "2026-12-12T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846971"
     },
     {
       "league": "lega-a-2026-27",
@@ -54825,6 +54789,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810472"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Nanterre",
+      "away": "Limoges",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "19:30",
+      "utc": "2026-12-12T19:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846970"
     },
     {
       "league": "lega-a-2026-27",
@@ -55067,6 +55043,18 @@
       "source_id": "365scores:4819976"
     },
     {
+      "league": "lnb-elite-2026-27",
+      "home": "Dijon",
+      "away": "Boulazac",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "15:30",
+      "utc": "2026-12-13T15:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846969"
+    },
+    {
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Nürnberg Ice Tigers",
@@ -55197,6 +55185,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4819979"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "ASVEL Villeurbanne",
+      "away": "Paris Basketball",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "18:00",
+      "utc": "2026-12-13T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846974"
     },
     {
       "league": "del-2026-27",
