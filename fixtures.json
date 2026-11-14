@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T22:24:11+00:00",
+  "updated": "2026-11-14T22:35:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4911,8 +4911,8 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 711,
-            "against": 682,
+            "for": 742,
+            "against": 713,
             "diff": 29,
             "points": 11,
             "highlight": "#FFFFBB"
@@ -4995,8 +4995,8 @@
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 693,
-            "against": 692,
+            "for": 724,
+            "against": 723,
             "diff": 1,
             "points": 6,
             "highlight": null
@@ -10187,14 +10187,14 @@
           },
           {
             "team": "Ireland",
-            "played": 4,
-            "win": 3,
+            "played": 5,
+            "win": 4,
             "draw": 0,
             "loss": 1,
-            "for": 132,
-            "against": 103,
-            "diff": 29,
-            "points": 15,
+            "for": 175,
+            "against": 118,
+            "diff": 57,
+            "points": 20,
             "highlight": "transparent"
           },
           {
@@ -10300,13 +10300,13 @@
           },
           {
             "team": "Fiji",
-            "played": 4,
+            "played": 5,
             "win": 0,
             "draw": 0,
-            "loss": 4,
-            "for": 66,
-            "against": 199,
-            "diff": -133,
+            "loss": 5,
+            "for": 81,
+            "against": 242,
+            "diff": -161,
             "points": 0,
             "highlight": "transparent"
           }
@@ -47453,7 +47453,7 @@
       "league": "liga-acb-2026-27",
       "home": "Joventut de Badalona",
       "away": "Casademont Zaragoza",
-      "score": null,
+      "score": "99-94",
       "date": "2026-11-14",
       "time": "20:00",
       "utc": "2026-11-14T20:00:00+00:00",
@@ -60935,18 +60935,6 @@
       "source_id": "365scores:4810680"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "MoraBanc Andorra",
-      "away": "San Pablo Burgos",
-      "score": null,
-      "date": "2027-01-03",
-      "time": "11:30",
-      "utc": "2027-01-03T11:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820017"
-    },
-    {
       "league": "del-2026-27",
       "home": "EHC Red Bull München",
       "away": "Straubing Tigers",
@@ -62687,18 +62675,6 @@
       "source_id": "365scores:4820734"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "MoraBanc Andorra",
-      "away": "Barcelona",
-      "score": null,
-      "date": "2027-01-10",
-      "time": "11:30",
-      "utc": "2027-01-10T11:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820032"
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Racing 92",
       "away": "Bristol Bears",
@@ -62901,18 +62877,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809127"
-    },
-    {
-      "league": "liga-acb-2026-27",
-      "home": "San Pablo Burgos",
-      "away": "Leyma Coruña",
-      "score": null,
-      "date": "2027-01-10",
-      "time": "17:00",
-      "utc": "2027-01-10T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820735"
     },
     {
       "league": "lega-a-2026-27",
