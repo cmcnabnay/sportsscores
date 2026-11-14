@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T19:22:11+00:00",
+  "updated": "2026-11-14T19:34:08+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3542,6 +3542,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Örebro HK",
+            "played": 16,
+            "win": 9,
+            "draw": null,
+            "loss": 7,
+            "for": 40,
+            "against": 43,
+            "diff": -3,
+            "points": 28,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Malmö Redhawks",
             "played": 16,
             "win": 8,
@@ -3550,18 +3562,6 @@
             "for": 47,
             "against": 39,
             "diff": 8,
-            "points": 25,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Örebro HK",
-            "played": 15,
-            "win": 8,
-            "draw": null,
-            "loss": 7,
-            "for": 36,
-            "against": 42,
-            "diff": -6,
             "points": 25,
             "highlight": "#CCF9CC"
           },
@@ -3590,6 +3590,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Brynäs IF",
+            "played": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 9,
+            "for": 54,
+            "against": 44,
+            "diff": 10,
+            "points": 21,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Växjö Lakers HC",
             "played": 16,
             "win": 7,
@@ -3603,13 +3615,13 @@
           },
           {
             "team": "Djurgårdens IF",
-            "played": 16,
+            "played": 17,
             "win": 7,
             "draw": null,
-            "loss": 9,
-            "for": 34,
-            "against": 44,
-            "diff": -10,
+            "loss": 10,
+            "for": 35,
+            "against": 48,
+            "diff": -13,
             "points": 20,
             "highlight": "#BBF3FF"
           },
@@ -3623,29 +3635,17 @@
             "against": 40,
             "diff": -10,
             "points": 19,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Brynäs IF",
-            "played": 15,
-            "win": 6,
-            "draw": null,
-            "loss": 9,
-            "for": 50,
-            "against": 43,
-            "diff": 7,
-            "points": 18,
             "highlight": null
           },
           {
             "team": "IF Björklöven",
-            "played": 15,
+            "played": 16,
             "win": 6,
             "draw": null,
-            "loss": 9,
-            "for": 30,
-            "against": 49,
-            "diff": -19,
+            "loss": 10,
+            "for": 31,
+            "against": 53,
+            "diff": -22,
             "points": 17,
             "highlight": null
           },
@@ -4846,6 +4846,18 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "La Laguna Tenerife",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 651,
+            "against": 593,
+            "diff": 58,
+            "points": 12,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Valencia Basket",
             "played": 7,
             "win": 5,
@@ -4866,18 +4878,6 @@
             "for": 665,
             "against": 590,
             "diff": 75,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "La Laguna Tenerife",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 607,
-            "against": 553,
-            "diff": 54,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -4907,26 +4907,14 @@
           },
           {
             "team": "Breogán",
-            "played": 7,
-            "win": 4,
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 719,
-            "against": 691,
-            "diff": 28,
-            "points": 9,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Bilbao Basket",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 644,
-            "against": 648,
-            "diff": -4,
-            "points": 8,
+            "for": 838,
+            "against": 801,
+            "diff": 37,
+            "points": 10,
             "highlight": "#FFFFBB"
           },
           {
@@ -4939,6 +4927,18 @@
             "against": 681,
             "diff": -46,
             "points": 8,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Bilbao Basket",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 644,
+            "against": 648,
+            "diff": -4,
+            "points": 8,
             "highlight": null
           },
           {
@@ -4950,7 +4950,7 @@
             "for": 621,
             "against": 603,
             "diff": 18,
-            "points": 7,
+            "points": 6,
             "highlight": null
           },
           {
@@ -4962,7 +4962,7 @@
             "for": 631,
             "against": 653,
             "diff": -22,
-            "points": 7,
+            "points": 6,
             "highlight": null
           },
           {
@@ -4998,31 +4998,19 @@
             "for": 625,
             "against": 629,
             "diff": -4,
-            "points": 5,
+            "points": 4,
             "highlight": null
           },
           {
             "team": "San Pablo Burgos",
-            "played": 7,
+            "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 621,
-            "against": 625,
-            "diff": -4,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "MoraBanc Andorra",
-            "played": 7,
-            "win": 1,
-            "draw": null,
             "loss": 6,
-            "for": 607,
-            "against": 682,
-            "diff": -75,
-            "points": 3,
+            "for": 731,
+            "against": 744,
+            "diff": -13,
+            "points": 5,
             "highlight": null
           },
           {
@@ -5035,7 +5023,7 @@
             "against": 739,
             "diff": -89,
             "points": 2,
-            "highlight": "#FFBBBB"
+            "highlight": null
           },
           {
             "team": "Baxi Manresa",
@@ -5047,6 +5035,18 @@
             "against": 716,
             "diff": -110,
             "points": 2,
+            "highlight": "#FFBBBB"
+          },
+          {
+            "team": "MoraBanc Andorra",
+            "played": 8,
+            "win": 1,
+            "draw": null,
+            "loss": 7,
+            "for": 647,
+            "against": 726,
+            "diff": -79,
+            "points": 3,
             "highlight": "#FFBBBB"
           }
         ],
@@ -5343,18 +5343,6 @@
       "LNB Élite": {
         "rows": [
           {
-            "team": "Paris Basketball",
-            "played": 8,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 778,
-            "against": 691,
-            "diff": 87,
-            "points": 0,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Le Mans",
             "played": 7,
             "win": 6,
@@ -5391,15 +5379,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Strasbourg",
+            "team": "Paris Basketball",
             "played": 9,
-            "win": 5,
+            "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 738,
-            "against": 784,
-            "diff": -46,
-            "points": 0,
+            "loss": 1,
+            "for": 780,
+            "against": 693,
+            "diff": 87,
+            "points": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -5416,87 +5404,63 @@
           },
           {
             "team": "Chalon-sur-Saône",
-            "played": 7,
-            "win": 4,
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 652,
-            "against": 596,
-            "diff": 56,
-            "points": 0,
-            "highlight": "#FFFFBB"
+            "for": 747,
+            "against": 670,
+            "diff": 77,
+            "points": 2,
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Chorale de Roanne",
-            "played": 7,
-            "win": 4,
+            "played": 8,
+            "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 565,
-            "against": 563,
-            "diff": 2,
+            "for": 643,
+            "against": 630,
+            "diff": 13,
+            "points": 2,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Strasbourg",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 738,
+            "against": 784,
+            "diff": -46,
             "points": 0,
             "highlight": "#FFFFBB"
           },
           {
             "team": "Cholet",
-            "played": 8,
-            "win": 3,
+            "played": 9,
+            "win": 4,
             "draw": null,
             "loss": 5,
-            "for": 648,
-            "against": 699,
-            "diff": -51,
-            "points": 0,
+            "for": 729,
+            "against": 774,
+            "diff": -45,
+            "points": 2,
             "highlight": "#FFFFBB"
           },
           {
             "team": "Boulazac",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 567,
-            "against": 586,
-            "diff": -19,
-            "points": 0,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Pau-orthez",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 669,
-            "against": 723,
-            "diff": -54,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Limoges",
-            "played": 7,
-            "win": 2,
-            "draw": null,
             "loss": 5,
-            "for": 605,
-            "against": 623,
-            "diff": -18,
-            "points": 0,
-            "highlight": null
-          },
-          {
-            "team": "Saint Quentin",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 699,
-            "against": 758,
-            "diff": -59,
-            "points": 0,
-            "highlight": null
+            "for": 641,
+            "against": 681,
+            "diff": -40,
+            "points": 1,
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Nancy",
@@ -5511,15 +5475,51 @@
             "highlight": null
           },
           {
-            "team": "JL Bourg",
-            "played": 7,
+            "team": "Limoges",
+            "played": 8,
             "win": 2,
             "draw": null,
             "loss": 5,
-            "for": 620,
-            "against": 647,
-            "diff": -27,
+            "for": 607,
+            "against": 625,
+            "diff": -18,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "JL Bourg",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 687,
+            "against": 725,
+            "diff": -38,
+            "points": 1,
+            "highlight": null
+          },
+          {
+            "team": "Pau-orthez",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 669,
+            "against": 723,
+            "diff": -54,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Saint Quentin",
+            "played": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 7,
+            "for": 774,
+            "against": 839,
+            "diff": -65,
+            "points": 1,
             "highlight": "#FFCCCC"
           },
           {
@@ -10183,7 +10183,7 @@
             "against": 114,
             "diff": 134,
             "points": 20,
-            "highlight": "transparent"
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Ireland",
@@ -10195,7 +10195,7 @@
             "against": 103,
             "diff": 29,
             "points": 15,
-            "highlight": "transparent"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Wales",
@@ -10207,7 +10207,7 @@
             "against": 151,
             "diff": -38,
             "points": 15,
-            "highlight": "transparent"
+            "highlight": "#FEDCBA"
           },
           {
             "team": "Scotland",
@@ -10219,7 +10219,7 @@
             "against": 140,
             "diff": -11,
             "points": 11,
-            "highlight": "transparent"
+            "highlight": "pink"
           },
           {
             "team": "Italy",
@@ -10231,7 +10231,7 @@
             "against": 216,
             "diff": -158,
             "points": 1,
-            "highlight": "transparent"
+            "highlight": "#FFCCCC"
           }
         ],
         "legend": {}
@@ -10260,7 +10260,7 @@
             "against": 77,
             "diff": 138,
             "points": 21,
-            "highlight": "transparent"
+            "highlight": "#FFFFBB"
           },
           {
             "team": "Argentina",
@@ -10272,7 +10272,7 @@
             "against": 155,
             "diff": -27,
             "points": 11,
-            "highlight": "transparent"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Australia",
@@ -10284,7 +10284,7 @@
             "against": 130,
             "diff": 6,
             "points": 8,
-            "highlight": "transparent"
+            "highlight": "#FEDCBA"
           },
           {
             "team": "Japan",
@@ -10296,7 +10296,7 @@
             "against": 194,
             "diff": -96,
             "points": 5,
-            "highlight": "transparent"
+            "highlight": "pink"
           },
           {
             "team": "Fiji",
@@ -10308,7 +10308,7 @@
             "against": 199,
             "diff": -133,
             "points": 0,
-            "highlight": "transparent"
+            "highlight": "#FFCCCC"
           }
         ],
         "legend": {}
@@ -12037,7 +12037,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-13T19:30:04.009781+00:00",
+    "velez": "2026-11-14T19:33:04.008068+00:00",
     "torpedo": "2026-11-14T16:05:03.881672+00:00"
   },
   "matches": [
@@ -47227,7 +47227,7 @@
       "league": "liga-acb-2026-27",
       "home": "Breogán",
       "away": "San Pablo Burgos",
-      "score": null,
+      "score": "119-110",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
@@ -47239,7 +47239,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Saint Quentin",
       "away": "Cholet",
-      "score": null,
+      "score": "75-81",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
@@ -47251,7 +47251,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Chalon-sur-Saône",
       "away": "Boulazac",
-      "score": null,
+      "score": "97-74",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
@@ -47275,7 +47275,7 @@
       "league": "shl-2026-27",
       "home": "Örebro HK",
       "away": "Djurgårdens IF",
-      "score": null,
+      "score": "4-1",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
@@ -47299,7 +47299,7 @@
       "league": "shl-2026-27",
       "home": "IF Björklöven",
       "away": "Brynäs IF",
-      "score": null,
+      "score": "1-4",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
