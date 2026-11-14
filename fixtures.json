@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T18:49:19+00:00",
+  "updated": "2026-11-14T19:00:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -5066,8 +5066,8 @@
             "draw": 0,
             "loss": 0,
             "for": 171,
-            "against": 116,
-            "diff": 55,
+            "against": 111,
+            "diff": 60,
             "points": 24,
             "highlight": "#BBF3BB"
           },
@@ -5191,8 +5191,8 @@
             "draw": 0,
             "loss": 4,
             "for": 121,
-            "against": 190,
-            "diff": -69,
+            "against": 210,
+            "diff": -89,
             "points": 6,
             "highlight": "transparent"
           },
@@ -10264,14 +10264,14 @@
           },
           {
             "team": "Argentina",
-            "played": 4,
-            "win": 1,
+            "played": 5,
+            "win": 2,
             "draw": 0,
             "loss": 3,
-            "for": 109,
-            "against": 141,
-            "diff": -32,
-            "points": 7,
+            "for": 128,
+            "against": 155,
+            "diff": -27,
+            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -10288,13 +10288,13 @@
           },
           {
             "team": "Japan",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 0,
-            "loss": 3,
-            "for": 83,
-            "against": 116,
-            "diff": -33,
+            "loss": 4,
+            "for": 98,
+            "against": 194,
+            "diff": -96,
             "points": 5,
             "highlight": "transparent"
           },
@@ -47347,7 +47347,7 @@
       "league": "nations-cup-2026",
       "home": "Georgia",
       "away": "Tonga",
-      "score": null,
+      "score": "55-31",
       "date": "2026-11-14",
       "time": "18:00",
       "utc": "2026-11-14T14:00:00+00:00",
