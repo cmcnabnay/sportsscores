@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T16:38:51+00:00",
+  "updated": "2026-11-14T16:49:16+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3519,14 +3519,14 @@
           },
           {
             "team": "Frölunda HC",
-            "played": 16,
-            "win": 11,
+            "played": 18,
+            "win": 13,
             "draw": null,
             "loss": 5,
-            "for": 55,
-            "against": 39,
-            "diff": 16,
-            "points": 31,
+            "for": 63,
+            "against": 40,
+            "diff": 23,
+            "points": 37,
             "highlight": "#BBF3BB"
           },
           {
@@ -3543,13 +3543,13 @@
           },
           {
             "team": "Malmö Redhawks",
-            "played": 14,
+            "played": 16,
             "win": 8,
             "draw": null,
-            "loss": 6,
-            "for": 45,
-            "against": 33,
-            "diff": 12,
+            "loss": 8,
+            "for": 47,
+            "against": 39,
+            "diff": 8,
             "points": 25,
             "highlight": "#BBF3BB"
           },
@@ -3566,18 +3566,6 @@
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Rögle BK",
-            "played": 15,
-            "win": 8,
-            "draw": null,
-            "loss": 7,
-            "for": 39,
-            "against": 36,
-            "diff": 3,
-            "points": 23,
-            "highlight": "#CCF9CC"
-          },
-          {
             "team": "Luleå Hockey",
             "played": 15,
             "win": 7,
@@ -3587,6 +3575,30 @@
             "against": 39,
             "diff": 1,
             "points": 23,
+            "highlight": "#CCF9CC"
+          },
+          {
+            "team": "Rögle BK",
+            "played": 17,
+            "win": 8,
+            "draw": null,
+            "loss": 9,
+            "for": 43,
+            "against": 49,
+            "diff": -6,
+            "points": 23,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Växjö Lakers HC",
+            "played": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 9,
+            "for": 40,
+            "against": 48,
+            "diff": -8,
+            "points": 21,
             "highlight": "#BBF3FF"
           },
           {
@@ -3603,13 +3615,13 @@
           },
           {
             "team": "Timrå IK",
-            "played": 15,
+            "played": 16,
             "win": 7,
             "draw": null,
-            "loss": 8,
-            "for": 27,
-            "against": 36,
-            "diff": -9,
+            "loss": 9,
+            "for": 30,
+            "against": 40,
+            "diff": -10,
             "points": 19,
             "highlight": "#BBF3FF"
           },
@@ -3622,18 +3634,6 @@
             "for": 50,
             "against": 43,
             "diff": 7,
-            "points": 18,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Växjö Lakers HC",
-            "played": 15,
-            "win": 6,
-            "draw": null,
-            "loss": 9,
-            "for": 38,
-            "against": 47,
-            "diff": -9,
             "points": 18,
             "highlight": null
           },
@@ -3651,26 +3651,26 @@
           },
           {
             "team": "Linköping HC",
-            "played": 14,
-            "win": 4,
+            "played": 15,
+            "win": 5,
             "draw": null,
             "loss": 10,
-            "for": 27,
-            "against": 51,
-            "diff": -24,
-            "points": 12,
+            "for": 36,
+            "against": 55,
+            "diff": -19,
+            "points": 15,
             "highlight": "#FFBBBB"
           },
           {
             "team": "HV71",
-            "played": 15,
-            "win": 3,
+            "played": 16,
+            "win": 4,
             "draw": null,
             "loss": 12,
-            "for": 35,
-            "against": 55,
-            "diff": -20,
-            "points": 11,
+            "for": 39,
+            "against": 58,
+            "diff": -19,
+            "points": 14,
             "highlight": "#FFBBBB"
           }
         ],
@@ -10198,18 +10198,6 @@
             "highlight": "transparent"
           },
           {
-            "team": "Scotland",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 129,
-            "against": 140,
-            "diff": -11,
-            "points": 11,
-            "highlight": "transparent"
-          },
-          {
             "team": "Wales",
             "played": 5,
             "win": 3,
@@ -10219,6 +10207,18 @@
             "against": 151,
             "diff": -38,
             "points": 15,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Scotland",
+            "played": 4,
+            "win": 2,
+            "draw": 0,
+            "loss": 2,
+            "for": 129,
+            "against": 140,
+            "diff": -11,
+            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -10239,18 +10239,6 @@
       "Southern Hemisphere": {
         "rows": [
           {
-            "team": "South Africa",
-            "played": 5,
-            "win": 4,
-            "draw": 0,
-            "loss": 1,
-            "for": 215,
-            "against": 77,
-            "diff": 138,
-            "points": 21,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "New Zealand",
             "played": 5,
             "win": 4,
@@ -10260,18 +10248,18 @@
             "against": 126,
             "diff": 66,
             "points": 22,
-            "highlight": "transparent"
+            "highlight": "#BBF3BB"
           },
           {
-            "team": "Australia",
-            "played": 4,
-            "win": 1,
+            "team": "South Africa",
+            "played": 5,
+            "win": 4,
             "draw": 0,
-            "loss": 3,
-            "for": 136,
-            "against": 130,
-            "diff": 6,
-            "points": 8,
+            "loss": 1,
+            "for": 215,
+            "against": 77,
+            "diff": 138,
+            "points": 21,
             "highlight": "transparent"
           },
           {
@@ -10284,6 +10272,18 @@
             "against": 141,
             "diff": -32,
             "points": 7,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Australia",
+            "played": 4,
+            "win": 1,
+            "draw": 0,
+            "loss": 3,
+            "for": 136,
+            "against": 130,
+            "diff": 6,
+            "points": 8,
             "highlight": "transparent"
           },
           {
@@ -47040,7 +47040,7 @@
       "league": "shl-2026-27",
       "home": "Malmö Redhawks",
       "away": "Växjö Lakers HC",
-      "score": null,
+      "score": "1-2",
       "date": "2026-11-14",
       "time": "14:15",
       "utc": "2026-11-14T14:15:00+00:00",
@@ -47052,7 +47052,7 @@
       "league": "shl-2026-27",
       "home": "HV71",
       "away": "Timrå IK",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-14",
       "time": "14:15",
       "utc": "2026-11-14T14:15:00+00:00",
@@ -47064,7 +47064,7 @@
       "league": "shl-2026-27",
       "home": "Rögle BK",
       "away": "Frölunda HC",
-      "score": null,
+      "score": "0-4",
       "date": "2026-11-14",
       "time": "14:15",
       "utc": "2026-11-14T14:15:00+00:00",
