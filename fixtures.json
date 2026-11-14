@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T19:34:08+00:00",
+  "updated": "2026-11-14T19:43:24+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3507,14 +3507,14 @@
         "rows": [
           {
             "team": "Färjestad BK",
-            "played": 15,
-            "win": 14,
+            "played": 16,
+            "win": 15,
             "draw": null,
             "loss": 1,
-            "for": 61,
-            "against": 18,
-            "diff": 43,
-            "points": 42,
+            "for": 64,
+            "against": 19,
+            "diff": 45,
+            "points": 45,
             "highlight": "#BBF3BB"
           },
           {
@@ -3531,14 +3531,14 @@
           },
           {
             "team": "Skellefteå AIK",
-            "played": 15,
-            "win": 10,
+            "played": 16,
+            "win": 11,
             "draw": null,
             "loss": 5,
-            "for": 56,
-            "against": 41,
-            "diff": 15,
-            "points": 31,
+            "for": 61,
+            "against": 43,
+            "diff": 18,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
@@ -3567,13 +3567,13 @@
           },
           {
             "team": "Luleå Hockey",
-            "played": 15,
+            "played": 16,
             "win": 7,
             "draw": null,
-            "loss": 8,
-            "for": 40,
-            "against": 39,
-            "diff": 1,
+            "loss": 9,
+            "for": 41,
+            "against": 42,
+            "diff": -1,
             "points": 23,
             "highlight": "#CCF9CC"
           },
@@ -3651,13 +3651,13 @@
           },
           {
             "team": "Linköping HC",
-            "played": 15,
+            "played": 16,
             "win": 5,
             "draw": null,
-            "loss": 10,
-            "for": 36,
-            "against": 55,
-            "diff": -19,
+            "loss": 11,
+            "for": 38,
+            "against": 60,
+            "diff": -22,
             "points": 15,
             "highlight": "#FFBBBB"
           },
@@ -47205,7 +47205,7 @@
       "league": "nations-championship-2026",
       "home": "England",
       "away": "Japan",
-      "score": null,
+      "score": "78-15",
       "date": "2026-11-14",
       "time": "16:40",
       "utc": "2026-11-14T16:40:00+00:00",
@@ -47263,7 +47263,7 @@
       "league": "shl-2026-27",
       "home": "Luleå Hockey",
       "away": "Färjestad BK",
-      "score": null,
+      "score": "1-3",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
@@ -47287,7 +47287,7 @@
       "league": "shl-2026-27",
       "home": "Skellefteå AIK",
       "away": "Linköping HC",
-      "score": null,
+      "score": "5-2",
       "date": "2026-11-14",
       "time": "17:00",
       "utc": "2026-11-14T17:00:00+00:00",
