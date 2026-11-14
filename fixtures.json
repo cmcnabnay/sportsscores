@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T17:33:23+00:00",
+  "updated": "2026-11-14T17:43:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3900,6 +3900,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "JYP Jyväskylä",
+            "played": 20,
+            "win": 15,
+            "draw": null,
+            "loss": 5,
+            "for": 71,
+            "against": 52,
+            "diff": 19,
+            "points": 44,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Rauman Lukko",
             "played": 20,
             "win": 15,
@@ -3912,15 +3924,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "JYP Jyväskylä",
-            "played": 19,
-            "win": 14,
+            "team": "Mikkelin Jukurit",
+            "played": 23,
+            "win": 15,
             "draw": null,
-            "loss": 5,
-            "for": 67,
-            "against": 49,
-            "diff": 18,
-            "points": 41,
+            "loss": 8,
+            "for": 60,
+            "against": 46,
+            "diff": 14,
+            "points": 42,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Porin Ässät",
+            "played": 23,
+            "win": 13,
+            "draw": null,
+            "loss": 10,
+            "for": 55,
+            "against": 53,
+            "diff": 2,
+            "points": 40,
             "highlight": "#BBF3BB"
           },
           {
@@ -3933,30 +3957,6 @@
             "against": 44,
             "diff": 15,
             "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Mikkelin Jukurit",
-            "played": 22,
-            "win": 14,
-            "draw": null,
-            "loss": 8,
-            "for": 54,
-            "against": 44,
-            "diff": 10,
-            "points": 39,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Porin Ässät",
-            "played": 22,
-            "win": 12,
-            "draw": null,
-            "loss": 10,
-            "for": 52,
-            "against": 53,
-            "diff": -1,
-            "points": 37,
             "highlight": "#BBF3FF"
           },
           {
@@ -4057,13 +4057,13 @@
           },
           {
             "team": "Lahti Pelicans",
-            "played": 19,
+            "played": 20,
             "win": 8,
             "draw": null,
-            "loss": 11,
-            "for": 43,
-            "against": 47,
-            "diff": -4,
+            "loss": 12,
+            "for": 46,
+            "against": 51,
+            "diff": -5,
             "points": 24,
             "highlight": null
           },
@@ -4081,25 +4081,25 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 20,
+            "played": 21,
             "win": 5,
             "draw": null,
-            "loss": 15,
+            "loss": 16,
             "for": 49,
-            "against": 68,
-            "diff": -19,
+            "against": 71,
+            "diff": -22,
             "points": 18,
             "highlight": "#FFBBBB"
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 21,
+            "played": 22,
             "win": 3,
             "draw": null,
-            "loss": 18,
-            "for": 46,
-            "against": 82,
-            "diff": -36,
+            "loss": 19,
+            "for": 48,
+            "against": 88,
+            "diff": -40,
             "points": 10,
             "highlight": "#FFBBBB"
           }
@@ -11789,6 +11789,18 @@
             "highlight": null
           },
           {
+            "team": "Germany",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 149,
+            "against": 63,
+            "diff": 86,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Czech Republic",
             "played": 2,
             "win": 2,
@@ -11798,18 +11810,6 @@
             "against": 52,
             "diff": 31,
             "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Germany",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 83,
-            "against": 44,
-            "diff": 39,
-            "points": 5,
             "highlight": null
           },
           {
@@ -11825,18 +11825,6 @@
             "highlight": null
           },
           {
-            "team": "Denmark",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 41,
-            "against": 88,
-            "diff": -47,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Lithuania",
             "played": 2,
             "win": 0,
@@ -11845,6 +11833,18 @@
             "for": 29,
             "against": 114,
             "diff": -85,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Denmark",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 60,
+            "against": 154,
+            "diff": -94,
             "points": 0,
             "highlight": null
           }
@@ -11866,6 +11866,18 @@
             "highlight": null
           },
           {
+            "team": "Germany",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 149,
+            "against": 63,
+            "diff": 86,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Czech Republic",
             "played": 2,
             "win": 2,
@@ -11875,18 +11887,6 @@
             "against": 52,
             "diff": 31,
             "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Germany",
-            "played": 2,
-            "win": 1,
-            "draw": null,
-            "loss": 1,
-            "for": 83,
-            "against": 44,
-            "diff": 39,
-            "points": 5,
             "highlight": null
           },
           {
@@ -11902,18 +11902,6 @@
             "highlight": null
           },
           {
-            "team": "Denmark",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 41,
-            "against": 88,
-            "diff": -47,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Lithuania",
             "played": 2,
             "win": 0,
@@ -11922,6 +11910,18 @@
             "for": 29,
             "against": 114,
             "diff": -85,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Denmark",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 60,
+            "against": 154,
+            "diff": -94,
             "points": 0,
             "highlight": null
           }
@@ -46931,6 +46931,18 @@
       "source_id": "365scores:4892637"
     },
     {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Germany",
+      "away": "Denmark",
+      "score": "66-19",
+      "date": "2026-11-14",
+      "time": "12:30",
+      "utc": "2026-11-14T12:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17192571"
+    },
+    {
       "league": "nations-championship-2026",
       "home": "Italy",
       "away": "Argentina",
@@ -46976,18 +46988,6 @@
       "venue": "Tony Bezzina Stadium",
       "attendance": null,
       "source_id": "sofascore:17192570"
-    },
-    {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Germany",
-      "away": "Denmark",
-      "score": null,
-      "date": "2026-11-14",
-      "time": "13:30",
-      "utc": "2026-11-14T13:30:30+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17192571"
     },
     {
       "league": "khl-2026-27",
@@ -47133,7 +47133,7 @@
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Lahti Pelicans",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-14",
       "time": "15:00",
       "utc": "2026-11-14T15:00:00+00:00",
@@ -47169,7 +47169,7 @@
       "league": "liiga-2026-27",
       "home": "Mikkelin Jukurit",
       "away": "KooKoo Kouvola",
-      "score": null,
+      "score": "6-2",
       "date": "2026-11-14",
       "time": "15:00",
       "utc": "2026-11-14T15:00:00+00:00",
@@ -47181,7 +47181,7 @@
       "league": "liiga-2026-27",
       "home": "Porin Ässät",
       "away": "Jokerit Helsinki",
-      "score": null,
+      "score": "3-0",
       "date": "2026-11-14",
       "time": "15:00",
       "utc": "2026-11-14T15:00:00+00:00",
@@ -47414,6 +47414,18 @@
       "source_id": "365scores:4810404"
     },
     {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Czech Republic",
+      "away": "Lithuania",
+      "score": null,
+      "date": "2026-11-14",
+      "time": "19:30",
+      "utc": "2026-11-14T19:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17192575"
+    },
+    {
       "league": "lega-a-2026-27",
       "home": "BC Roma SPQR",
       "away": "Scaligera Basket Verona",
@@ -47459,18 +47471,6 @@
       "utc": "2026-11-14T20:10:00+00:00",
       "venue": "Aviva Stadium, Dublin",
       "attendance": null
-    },
-    {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Czech Republic",
-      "away": "Lithuania",
-      "score": null,
-      "date": "2026-11-14",
-      "time": "20:30",
-      "utc": "2026-11-14T20:30:30+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17192575"
     },
     {
       "league": "rlwc-2026",
