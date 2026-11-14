@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T16:27:09+00:00",
+  "updated": "2026-11-14T16:38:51+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10211,14 +10211,14 @@
           },
           {
             "team": "Wales",
-            "played": 4,
-            "win": 2,
+            "played": 5,
+            "win": 3,
             "draw": 0,
             "loss": 2,
-            "for": 88,
-            "against": 123,
-            "diff": -35,
-            "points": 10,
+            "for": 113,
+            "against": 151,
+            "diff": -38,
+            "points": 15,
             "highlight": "transparent"
           },
           {
@@ -10252,14 +10252,14 @@
           },
           {
             "team": "New Zealand",
-            "played": 4,
+            "played": 5,
             "win": 4,
             "draw": 0,
-            "loss": 0,
-            "for": 164,
-            "against": 91,
-            "diff": 73,
-            "points": 20,
+            "loss": 1,
+            "for": 192,
+            "against": 126,
+            "diff": 66,
+            "points": 22,
             "highlight": "transparent"
           },
           {
@@ -47005,7 +47005,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "Shanghai Dragons",
-      "score": null,
+      "score": "5-0",
       "date": "2026-11-14",
       "time": "14:00",
       "utc": "2026-11-14T14:00:00+00:00",
@@ -47017,7 +47017,7 @@
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Amur Khabarovsk",
-      "score": null,
+      "score": "0-2",
       "date": "2026-11-14",
       "time": "14:00",
       "utc": "2026-11-14T14:00:00+00:00",
