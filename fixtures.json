@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T15:22:48+00:00",
+  "updated": "2026-11-14T15:33:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11650,6 +11650,18 @@
             "highlight": null
           },
           {
+            "team": "Cornish Pirates",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 305,
+            "against": 255,
+            "diff": 50,
+            "points": 23,
+            "highlight": null
+          },
+          {
             "team": "Chinnor",
             "played": 7,
             "win": 5,
@@ -11671,18 +11683,6 @@
             "against": 255,
             "diff": -46,
             "points": 21,
-            "highlight": null
-          },
-          {
-            "team": "Cornish Pirates",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 241,
-            "against": 241,
-            "diff": 0,
-            "points": 19,
             "highlight": null
           },
           {
@@ -11711,26 +11711,14 @@
           },
           {
             "team": "Richmond",
-            "played": 7,
-            "win": 2,
+            "played": 8,
+            "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 191,
-            "against": 240,
-            "diff": -49,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Caldy RFC",
-            "played": 7,
-            "win": 1,
-            "draw": null,
-            "loss": 6,
-            "for": 220,
-            "against": 284,
-            "diff": -64,
-            "points": 7,
+            "for": 212,
+            "against": 260,
+            "diff": -48,
+            "points": 13,
             "highlight": null
           },
           {
@@ -11747,13 +11735,25 @@
           },
           {
             "team": "Nottingham",
-            "played": 7,
+            "played": 8,
             "win": 1,
             "draw": null,
-            "loss": 6,
-            "for": 169,
-            "against": 255,
-            "diff": -86,
+            "loss": 7,
+            "for": 189,
+            "against": 276,
+            "diff": -87,
+            "points": 7,
+            "highlight": null
+          },
+          {
+            "team": "Caldy RFC",
+            "played": 8,
+            "win": 1,
+            "draw": null,
+            "loss": 7,
+            "for": 234,
+            "against": 348,
+            "diff": -114,
             "points": 7,
             "highlight": null
           },
@@ -11821,7 +11821,7 @@
             "for": 88,
             "against": 53,
             "diff": 35,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -11898,7 +11898,7 @@
             "for": 88,
             "against": 53,
             "diff": 35,
-            "points": 4,
+            "points": 5,
             "highlight": null
           },
           {
@@ -46945,7 +46945,7 @@
       "league": "championship-2026",
       "home": "Cornish Pirates",
       "away": "Caldy RFC",
-      "score": null,
+      "score": "64-14",
       "date": "2026-11-14",
       "time": "13:00",
       "utc": "2026-11-14T13:00:00+00:00",
@@ -46957,7 +46957,7 @@
       "league": "championship-2026",
       "home": "Richmond",
       "away": "Nottingham",
-      "score": null,
+      "score": "21-20",
       "date": "2026-11-14",
       "time": "13:00",
       "utc": "2026-11-14T13:00:00+00:00",
