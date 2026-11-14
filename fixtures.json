@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T20:38:13+00:00",
+  "updated": "2026-11-14T20:48:23+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10183,7 +10183,7 @@
             "against": 114,
             "diff": 134,
             "points": 20,
-            "highlight": "#FFFFBB"
+            "highlight": "transparent"
           },
           {
             "team": "Ireland",
@@ -10195,7 +10195,7 @@
             "against": 103,
             "diff": 29,
             "points": 15,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Wales",
@@ -10207,7 +10207,7 @@
             "against": 151,
             "diff": -38,
             "points": 15,
-            "highlight": "#FEDCBA"
+            "highlight": "transparent"
           },
           {
             "team": "Scotland",
@@ -10219,7 +10219,7 @@
             "against": 140,
             "diff": -11,
             "points": 11,
-            "highlight": "pink"
+            "highlight": "transparent"
           },
           {
             "team": "Italy",
@@ -10231,7 +10231,7 @@
             "against": 216,
             "diff": -158,
             "points": 1,
-            "highlight": "#FFCCCC"
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -10260,7 +10260,7 @@
             "against": 77,
             "diff": 138,
             "points": 21,
-            "highlight": "#FFFFBB"
+            "highlight": "transparent"
           },
           {
             "team": "Argentina",
@@ -10272,7 +10272,7 @@
             "against": 155,
             "diff": -27,
             "points": 11,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Australia",
@@ -10284,7 +10284,7 @@
             "against": 130,
             "diff": 6,
             "points": 8,
-            "highlight": "#FEDCBA"
+            "highlight": "transparent"
           },
           {
             "team": "Japan",
@@ -10296,7 +10296,7 @@
             "against": 194,
             "diff": -96,
             "points": 5,
-            "highlight": "pink"
+            "highlight": "transparent"
           },
           {
             "team": "Fiji",
@@ -10308,7 +10308,7 @@
             "against": 199,
             "diff": -133,
             "points": 0,
-            "highlight": "#FFCCCC"
+            "highlight": "transparent"
           }
         ],
         "legend": {}
