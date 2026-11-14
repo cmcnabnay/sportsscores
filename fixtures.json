@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T21:53:12+00:00",
+  "updated": "2026-11-14T22:03:45+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -5348,9 +5348,9 @@
             "win": 8,
             "draw": null,
             "loss": 1,
-            "for": 823,
-            "against": 725,
-            "diff": 98,
+            "for": 859,
+            "against": 755,
+            "diff": 104,
             "points": 2,
             "highlight": "#BBF3BB"
           },
@@ -5480,9 +5480,9 @@
             "win": 2,
             "draw": null,
             "loss": 6,
-            "for": 639,
-            "against": 668,
-            "diff": -29,
+            "for": 669,
+            "against": 704,
+            "diff": -35,
             "points": 1,
             "highlight": null
           },
@@ -11777,6 +11777,18 @@
       "Rugby Europe Trophy 26/27": {
         "rows": [
           {
+            "team": "Czech Republic",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 114,
+            "against": 72,
+            "diff": 42,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "Malta",
             "played": 3,
             "win": 3,
@@ -11801,18 +11813,6 @@
             "highlight": null
           },
           {
-            "team": "Czech Republic",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 52,
-            "diff": 31,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "Sweden",
             "played": 3,
             "win": 1,
@@ -11825,18 +11825,6 @@
             "highlight": null
           },
           {
-            "team": "Lithuania",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 29,
-            "against": 114,
-            "diff": -85,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Denmark",
             "played": 3,
             "win": 0,
@@ -11845,6 +11833,18 @@
             "for": 60,
             "against": 154,
             "diff": -94,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Lithuania",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 49,
+            "against": 145,
+            "diff": -96,
             "points": 0,
             "highlight": null
           }
@@ -11854,6 +11854,18 @@
       "Rugby Europe Trophy - 2 Year Table": {
         "rows": [
           {
+            "team": "Czech Republic",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 114,
+            "against": 72,
+            "diff": 42,
+            "points": 14,
+            "highlight": null
+          },
+          {
             "team": "Malta",
             "played": 3,
             "win": 3,
@@ -11878,18 +11890,6 @@
             "highlight": null
           },
           {
-            "team": "Czech Republic",
-            "played": 2,
-            "win": 2,
-            "draw": null,
-            "loss": 0,
-            "for": 83,
-            "against": 52,
-            "diff": 31,
-            "points": 9,
-            "highlight": null
-          },
-          {
             "team": "Sweden",
             "played": 3,
             "win": 1,
@@ -11902,18 +11902,6 @@
             "highlight": null
           },
           {
-            "team": "Lithuania",
-            "played": 2,
-            "win": 0,
-            "draw": null,
-            "loss": 2,
-            "for": 29,
-            "against": 114,
-            "diff": -85,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Denmark",
             "played": 3,
             "win": 0,
@@ -11922,6 +11910,18 @@
             "for": 60,
             "against": 154,
             "diff": -94,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Lithuania",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 49,
+            "against": 145,
+            "diff": -96,
             "points": 0,
             "highlight": null
           }
@@ -47417,7 +47417,7 @@
       "league": "rugby-europe-trophy-2026",
       "home": "Czech Republic",
       "away": "Lithuania",
-      "score": null,
+      "score": "31-20",
       "date": "2026-11-14",
       "time": "19:30",
       "utc": "2026-11-14T19:30:00+00:00",
@@ -47441,7 +47441,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Limoges",
       "away": "Paris Basketball",
-      "score": null,
+      "score": "82-97",
       "date": "2026-11-14",
       "time": "19:30",
       "utc": "2026-11-14T19:30:00+00:00",
