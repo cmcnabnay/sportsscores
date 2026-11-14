@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T19:54:11+00:00",
+  "updated": "2026-11-14T20:05:59+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2390,6 +2390,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 789,
+            "against": 731,
+            "diff": 58,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mitteldeutscher",
             "played": 8,
             "win": 6,
@@ -2414,14 +2426,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Telekom Baskets Bonn",
-            "played": 8,
+            "team": "Alba Berlin",
+            "played": 9,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 704,
-            "against": 660,
-            "diff": 44,
+            "loss": 4,
+            "for": 751,
+            "against": 733,
+            "diff": 18,
             "points": 10,
             "highlight": "#BBF3BB"
           },
@@ -2435,7 +2447,7 @@
             "against": 767,
             "diff": 8,
             "points": 10,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Skyliners Frankfurt",
@@ -2451,62 +2463,50 @@
           },
           {
             "team": "Brose Bamberg",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 695,
-            "against": 686,
-            "diff": 9,
-            "points": 8,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Wurzburg Baskets",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 570,
-            "against": 575,
+            "loss": 5,
+            "for": 766,
+            "against": 771,
             "diff": -5,
             "points": 8,
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Alba Berlin",
-            "played": 8,
+            "team": "Ratiopharm Ulm",
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 690,
-            "against": 702,
+            "loss": 5,
+            "for": 757,
+            "against": 769,
             "diff": -12,
             "points": 8,
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Baskets Oldenburg",
+            "team": "Wurzburg Baskets",
             "played": 8,
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 595,
-            "against": 656,
-            "diff": -61,
+            "for": 610,
+            "against": 632,
+            "diff": -22,
             "points": 8,
             "highlight": null
           },
           {
-            "team": "Ratiopharm Ulm",
-            "played": 8,
-            "win": 3,
+            "team": "Baskets Oldenburg",
+            "played": 9,
+            "win": 4,
             "draw": null,
             "loss": 5,
-            "for": 660,
-            "against": 691,
-            "diff": -31,
-            "points": 6,
+            "for": 626,
+            "against": 717,
+            "diff": -91,
+            "points": 8,
             "highlight": null
           },
           {
@@ -2518,6 +2518,18 @@
             "for": 690,
             "against": 726,
             "diff": -36,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Hamburg Towers",
+            "played": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 6,
+            "for": 716,
+            "against": 773,
+            "diff": -57,
             "points": 6,
             "highlight": null
           },
@@ -2546,18 +2558,6 @@
             "highlight": null
           },
           {
-            "team": "Hamburg Towers",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 659,
-            "against": 733,
-            "diff": -74,
-            "points": 4,
-            "highlight": null
-          },
-          {
             "team": "Phoenix Hagen",
             "played": 9,
             "win": 2,
@@ -2571,13 +2571,13 @@
           },
           {
             "team": "Science City Jena",
-            "played": 8,
+            "played": 9,
             "win": 2,
             "draw": null,
-            "loss": 6,
-            "for": 623,
-            "against": 709,
-            "diff": -86,
+            "loss": 7,
+            "for": 701,
+            "against": 806,
+            "diff": -105,
             "points": 4,
             "highlight": "#FFBBBB"
           }
@@ -5343,6 +5343,18 @@
       "LNB Élite": {
         "rows": [
           {
+            "team": "Paris Basketball",
+            "played": 9,
+            "win": 8,
+            "draw": null,
+            "loss": 1,
+            "for": 823,
+            "against": 725,
+            "diff": 98,
+            "points": 2,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Le Mans",
             "played": 7,
             "win": 6,
@@ -5379,18 +5391,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Paris Basketball",
-            "played": 9,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 780,
-            "against": 693,
-            "diff": 87,
-            "points": 1,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Nanterre",
             "played": 7,
             "win": 5,
@@ -5420,9 +5420,9 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 643,
-            "against": 630,
-            "diff": 13,
+            "for": 655,
+            "against": 640,
+            "diff": 15,
             "points": 2,
             "highlight": "#FFFFBB"
           },
@@ -5479,10 +5479,10 @@
             "played": 8,
             "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 607,
-            "against": 625,
-            "diff": -18,
+            "loss": 6,
+            "for": 639,
+            "against": 668,
+            "diff": -29,
             "points": 1,
             "highlight": null
           },
@@ -5492,9 +5492,9 @@
             "win": 2,
             "draw": null,
             "loss": 6,
-            "for": 687,
-            "against": 725,
-            "diff": -38,
+            "for": 697,
+            "against": 737,
+            "diff": -40,
             "points": 1,
             "highlight": null
           },
@@ -47311,7 +47311,7 @@
       "league": "bbl-2026-27",
       "home": "Brose Bamberg",
       "away": "Telekom Baskets Bonn",
-      "score": null,
+      "score": "71-85",
       "date": "2026-11-14",
       "time": "17:30",
       "utc": "2026-11-14T17:30:00+00:00",
@@ -47323,7 +47323,7 @@
       "league": "bbl-2026-27",
       "home": "Ratiopharm Ulm",
       "away": "Science City Jena",
-      "score": null,
+      "score": "97-78",
       "date": "2026-11-14",
       "time": "17:30",
       "utc": "2026-11-14T17:30:00+00:00",
@@ -47335,7 +47335,7 @@
       "league": "lnb-elite-2026-27",
       "home": "JL Bourg",
       "away": "Chorale de Roanne",
-      "score": null,
+      "score": "77-90",
       "date": "2026-11-14",
       "time": "17:30",
       "utc": "2026-11-14T17:30:00+00:00",
