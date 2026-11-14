@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T20:58:41+00:00",
+  "updated": "2026-11-14T21:16:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4851,9 +4851,9 @@
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 651,
-            "against": 593,
-            "diff": 58,
+            "for": 697,
+            "against": 637,
+            "diff": 60,
             "points": 12,
             "highlight": "#FFFFBB"
           },
@@ -4882,18 +4882,6 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Casademont Zaragoza",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 648,
-            "against": 614,
-            "diff": 34,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
             "team": "Barcelona",
             "played": 7,
             "win": 5,
@@ -4915,6 +4903,18 @@
             "against": 801,
             "diff": 37,
             "points": 10,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Casademont Zaragoza",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 711,
+            "against": 682,
+            "diff": 29,
+            "points": 11,
             "highlight": "#FFFFBB"
           },
           {
@@ -4991,14 +4991,14 @@
           },
           {
             "team": "Joventut de Badalona",
-            "played": 7,
-            "win": 2,
+            "played": 8,
+            "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 625,
-            "against": 629,
-            "diff": -4,
-            "points": 4,
+            "for": 693,
+            "against": 692,
+            "diff": 1,
+            "points": 6,
             "highlight": null
           },
           {
@@ -5043,9 +5043,9 @@
             "win": 1,
             "draw": null,
             "loss": 7,
-            "for": 647,
-            "against": 726,
-            "diff": -79,
+            "for": 691,
+            "against": 772,
+            "diff": -81,
             "points": 3,
             "highlight": "#FFBBBB"
           }
@@ -47369,7 +47369,7 @@
       "league": "liga-acb-2026-27",
       "home": "MoraBanc Andorra",
       "away": "La Laguna Tenerife",
-      "score": null,
+      "score": "84-90",
       "date": "2026-11-14",
       "time": "18:30",
       "utc": "2026-11-14T18:30:00+00:00",
