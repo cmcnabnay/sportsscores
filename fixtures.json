@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T17:43:40+00:00",
+  "updated": "2026-11-14T17:54:21+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3984,6 +3984,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Oulun Kärpät",
+            "played": 22,
+            "win": 12,
+            "draw": null,
+            "loss": 10,
+            "for": 59,
+            "against": 60,
+            "diff": -1,
+            "points": 36,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Kiekko-Espoo",
             "played": 22,
             "win": 11,
@@ -3993,18 +4005,6 @@
             "against": 55,
             "diff": 13,
             "points": 34,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Oulun Kärpät",
-            "played": 21,
-            "win": 11,
-            "draw": null,
-            "loss": 10,
-            "for": 54,
-            "against": 59,
-            "diff": -5,
-            "points": 33,
             "highlight": "#BBF3FF"
           },
           {
@@ -4021,13 +4021,13 @@
           },
           {
             "team": "Tappara Tampere",
-            "played": 20,
+            "played": 21,
             "win": 9,
             "draw": null,
-            "loss": 11,
-            "for": 52,
-            "against": 49,
-            "diff": 3,
+            "loss": 12,
+            "for": 53,
+            "against": 54,
+            "diff": -1,
             "points": 28,
             "highlight": "#BBF3FF"
           },
@@ -47157,7 +47157,7 @@
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "Tappara Tampere",
-      "score": null,
+      "score": "5-1",
       "date": "2026-11-14",
       "time": "15:00",
       "utc": "2026-11-14T15:00:00+00:00",
