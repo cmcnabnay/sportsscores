@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-14T13:58:08+00:00",
+  "updated": "2026-11-14T14:09:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3235,14 +3235,26 @@
           },
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 24,
-            "win": 17,
+            "played": 25,
+            "win": 18,
             "draw": null,
             "loss": 6,
-            "for": 64,
+            "for": 65,
             "against": 38,
-            "diff": 26,
-            "points": 35,
+            "diff": 27,
+            "points": 37,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Spartak Moscow",
+            "played": 27,
+            "win": 14,
+            "draw": null,
+            "loss": 9,
+            "for": 71,
+            "against": 58,
+            "diff": 13,
+            "points": 32,
             "highlight": "#BBF3FF"
           },
           {
@@ -3267,29 +3279,17 @@
             "against": 58,
             "diff": 2,
             "points": 32,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Spartak Moscow",
-            "played": 27,
-            "win": 13,
-            "draw": null,
-            "loss": 9,
-            "for": 69,
-            "against": 57,
-            "diff": 12,
-            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Shanghai Dragons",
-            "played": 24,
+            "played": 25,
             "win": 14,
             "draw": null,
-            "loss": 8,
+            "loss": 9,
             "for": 69,
-            "against": 62,
-            "diff": 7,
+            "against": 63,
+            "diff": 6,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3331,7 +3331,7 @@
           },
           {
             "team": "HC Sochi",
-            "played": 25,
+            "played": 26,
             "win": 8,
             "draw": null,
             "loss": 16,
@@ -3404,9 +3404,9 @@
             "win": 13,
             "draw": null,
             "loss": 9,
-            "for": 68,
+            "for": 69,
             "against": 61,
-            "diff": 7,
+            "diff": 8,
             "points": 29,
             "highlight": "#BBF3FF"
           },
@@ -3424,7 +3424,7 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 24,
+            "played": 25,
             "win": 13,
             "draw": null,
             "loss": 10,
@@ -3463,10 +3463,10 @@
             "played": 25,
             "win": 11,
             "draw": null,
-            "loss": 10,
-            "for": 61,
-            "against": 65,
-            "diff": -4,
+            "loss": 11,
+            "for": 62,
+            "against": 67,
+            "diff": -5,
             "points": 25,
             "highlight": null
           },
@@ -3477,8 +3477,8 @@
             "draw": null,
             "loss": 13,
             "for": 61,
-            "against": 66,
-            "diff": -5,
+            "against": 67,
+            "diff": -6,
             "points": 24,
             "highlight": null
           },
@@ -46922,7 +46922,7 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "AK Bars",
-      "score": null,
+      "score": "5-1",
       "date": "2026-11-14",
       "time": "11:30",
       "utc": "2026-11-14T11:30:00+00:00",
