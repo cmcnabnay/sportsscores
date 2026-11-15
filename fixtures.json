@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T18:04:21+00:00",
+  "updated": "2026-11-15T18:14:07+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3218,6 +3218,18 @@
       "DEL 26/27": {
         "rows": [
           {
+            "team": "Nürnberg Ice Tigers",
+            "played": 17,
+            "win": 11,
+            "draw": null,
+            "loss": 6,
+            "for": 63,
+            "against": 38,
+            "diff": 25,
+            "points": 33,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Eisbären Berlin",
             "played": 15,
             "win": 11,
@@ -3251,18 +3263,6 @@
             "against": 46,
             "diff": 5,
             "points": 33,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Nürnberg Ice Tigers",
-            "played": 16,
-            "win": 10,
-            "draw": null,
-            "loss": 6,
-            "for": 60,
-            "against": 36,
-            "diff": 24,
-            "points": 31,
             "highlight": "#BBF3BB"
           },
           {
@@ -3375,14 +3375,14 @@
           },
           {
             "team": "Iserlohn Roosters",
-            "played": 15,
+            "played": 16,
             "win": 5,
             "draw": null,
-            "loss": 10,
-            "for": 38,
-            "against": 54,
-            "diff": -16,
-            "points": 16,
+            "loss": 11,
+            "for": 40,
+            "against": 57,
+            "diff": -17,
+            "points": 17,
             "highlight": "#FFBBBB"
           }
         ],
@@ -47879,12 +47879,13 @@
       "league": "del-2026-27",
       "home": "Nürnberg Ice Tigers",
       "away": "Iserlohn Roosters",
-      "score": null,
+      "score": "3-2",
       "date": "2026-11-15",
       "time": "15:30",
       "utc": "2026-11-15T15:30:00+00:00",
       "venue": "Arena Nuernberger Versicherung",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16422539"
     },
     {
