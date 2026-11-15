@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T18:24:12+00:00",
+  "updated": "2026-11-15T18:35:57+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4291,14 +4291,26 @@
         "rows": [
           {
             "team": "Virtus Bologna",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 675,
-            "against": 602,
-            "diff": 73,
-            "points": 12,
+            "for": 710,
+            "against": 625,
+            "diff": 85,
+            "points": 14,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Napoli Basket",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 746,
+            "against": 695,
+            "diff": 51,
+            "points": 14,
             "highlight": "#BBF3BB"
           },
           {
@@ -4307,33 +4319,9 @@
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 656,
-            "against": 587,
-            "diff": 69,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Napoli Basket",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 726,
-            "against": 679,
-            "diff": 47,
-            "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Maxima Roma",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 656,
-            "against": 619,
-            "diff": 37,
+            "for": 693,
+            "against": 629,
+            "diff": 64,
             "points": 12,
             "highlight": "#BBF3BB"
           },
@@ -4350,6 +4338,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Maxima Roma",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 695,
+            "against": 669,
+            "diff": 26,
+            "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Pallacanestro Varese",
             "played": 8,
             "win": 5,
@@ -4362,15 +4362,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Pallacanestro Trieste",
+            "team": "Reyer Venezia",
             "played": 8,
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 734,
-            "against": 689,
-            "diff": 45,
+            "for": 698,
+            "against": 698,
+            "diff": 0,
             "points": 10,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Pallacanestro Trieste",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 750,
+            "against": 709,
+            "diff": 41,
+            "points": 8,
             "highlight": "#BBF3BB"
           },
           {
@@ -4379,21 +4391,9 @@
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 577,
-            "against": 582,
-            "diff": -5,
-            "points": 8,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Reyer Venezia",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 648,
-            "against": 659,
-            "diff": -11,
+            "for": 619,
+            "against": 619,
+            "diff": 0,
             "points": 8,
             "highlight": null
           },
@@ -4411,13 +4411,13 @@
           },
           {
             "team": "Dolomiti Energia Trento",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 563,
-            "against": 585,
-            "diff": -22,
+            "loss": 5,
+            "for": 586,
+            "against": 620,
+            "diff": -34,
             "points": 6,
             "highlight": null
           },
@@ -4427,9 +4427,9 @@
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 636,
-            "against": 678,
-            "diff": -42,
+            "for": 692,
+            "against": 729,
+            "diff": -37,
             "points": 6,
             "highlight": null
           },
@@ -4475,9 +4475,9 @@
             "win": 0,
             "draw": null,
             "loss": 8,
-            "for": 579,
-            "against": 686,
-            "diff": -107,
+            "for": 630,
+            "against": 742,
+            "diff": -112,
             "points": 0,
             "highlight": "#FFBBBB"
           }
@@ -5010,14 +5010,14 @@
         "rows": [
           {
             "team": "Real Madrid",
-            "played": 7,
-            "win": 7,
+            "played": 8,
+            "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 744,
-            "against": 597,
-            "diff": 147,
-            "points": 14,
+            "for": 783,
+            "against": 627,
+            "diff": 156,
+            "points": 16,
             "highlight": "#FFFFBB"
           },
           {
@@ -5033,18 +5033,6 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Baskonia Vitoria",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 665,
-            "against": 590,
-            "diff": 75,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
             "team": "La Laguna Tenerife",
             "played": 8,
             "win": 6,
@@ -5057,6 +5045,30 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Barcelona",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 789,
+            "against": 744,
+            "diff": 45,
+            "points": 12,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Baskonia Vitoria",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 695,
+            "against": 629,
+            "diff": 66,
+            "points": 11,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "Breogán",
             "played": 8,
             "win": 5,
@@ -5065,6 +5077,18 @@
             "for": 838,
             "against": 801,
             "diff": 37,
+            "points": 10,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Casademont Zaragoza",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 742,
+            "against": 713,
+            "diff": 29,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -5081,87 +5105,27 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Casademont Zaragoza",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 742,
-            "against": 713,
-            "diff": 29,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Barcelona",
-            "played": 7,
-            "win": 5,
-            "draw": null,
-            "loss": 2,
-            "for": 681,
-            "against": 661,
-            "diff": 20,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Joventut de Badalona",
-            "played": 8,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 724,
-            "against": 723,
-            "diff": 1,
-            "points": 6,
-            "highlight": null
-          },
-          {
             "team": "Bilbao Basket",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 644,
-            "against": 648,
-            "diff": -4,
-            "points": 8,
-            "highlight": null
-          },
-          {
-            "team": "San Pablo Burgos",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 731,
-            "against": 744,
-            "diff": -13,
-            "points": 4,
+            "loss": 4,
+            "for": 707,
+            "against": 717,
+            "diff": -10,
+            "points": 9,
             "highlight": null
           },
           {
             "team": "UCAM Murcia",
-            "played": 7,
-            "win": 3,
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 631,
-            "against": 653,
-            "diff": -22,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "Monbus Obradoiro",
-            "played": 7,
-            "win": 3,
-            "draw": null,
-            "loss": 4,
-            "for": 632,
-            "against": 676,
-            "diff": -44,
-            "points": 6,
+            "for": 700,
+            "against": 716,
+            "diff": -16,
+            "points": 8,
             "highlight": null
           },
           {
@@ -5177,6 +5141,30 @@
             "highlight": null
           },
           {
+            "team": "Joventut de Badalona",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 724,
+            "against": 723,
+            "diff": 1,
+            "points": 6,
+            "highlight": null
+          },
+          {
+            "team": "Monbus Obradoiro",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 715,
+            "against": 784,
+            "diff": -69,
+            "points": 7,
+            "highlight": null
+          },
+          {
             "team": "Leyma Coruña",
             "played": 8,
             "win": 3,
@@ -5189,28 +5177,16 @@
             "highlight": null
           },
           {
-            "team": "MoraBanc Andorra",
+            "team": "San Pablo Burgos",
             "played": 8,
-            "win": 1,
+            "win": 2,
             "draw": null,
-            "loss": 7,
-            "for": 691,
-            "against": 772,
-            "diff": -81,
-            "points": 2,
+            "loss": 6,
+            "for": 731,
+            "against": 744,
+            "diff": -13,
+            "points": 4,
             "highlight": null
-          },
-          {
-            "team": "Forca Lleida",
-            "played": 8,
-            "win": 1,
-            "draw": null,
-            "loss": 7,
-            "for": 742,
-            "against": 837,
-            "diff": -95,
-            "points": 2,
-            "highlight": "#FFBBBB"
           },
           {
             "team": "Baxi Manresa",
@@ -5222,6 +5198,30 @@
             "against": 808,
             "diff": -104,
             "points": 4,
+            "highlight": null
+          },
+          {
+            "team": "MoraBanc Andorra",
+            "played": 8,
+            "win": 1,
+            "draw": null,
+            "loss": 7,
+            "for": 691,
+            "against": 772,
+            "diff": -81,
+            "points": 2,
+            "highlight": "#FFBBBB"
+          },
+          {
+            "team": "Forca Lleida",
+            "played": 8,
+            "win": 1,
+            "draw": null,
+            "loss": 7,
+            "for": 742,
+            "against": 837,
+            "diff": -95,
+            "points": 2,
             "highlight": "#FFBBBB"
           }
         ],
@@ -11790,14 +11790,14 @@
           },
           {
             "team": "Worcester Warriors",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 304,
-            "against": 150,
-            "diff": 154,
-            "points": 28,
+            "for": 361,
+            "against": 169,
+            "diff": 192,
+            "points": 32,
             "highlight": null
           },
           {
@@ -11862,13 +11862,13 @@
           },
           {
             "team": "Ampthill RUFC",
-            "played": 7,
+            "played": 8,
             "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 231,
-            "against": 280,
-            "diff": -49,
+            "loss": 4,
+            "for": 250,
+            "against": 337,
+            "diff": -87,
             "points": 16,
             "highlight": null
           },
@@ -47928,7 +47928,7 @@
       "league": "championship-2026",
       "home": "Worcester Warriors",
       "away": "Ampthill RUFC",
-      "score": null,
+      "score": "57-19",
       "date": "2026-11-15",
       "time": "16:00",
       "utc": "2026-11-15T16:00:00+00:00",
@@ -47940,7 +47940,7 @@
       "league": "liga-acb-2026-27",
       "home": "Barcelona",
       "away": "Monbus Obradoiro",
-      "score": null,
+      "score": "108-83",
       "date": "2026-11-15",
       "time": "16:00",
       "utc": "2026-11-15T16:00:00+00:00",
@@ -47952,7 +47952,7 @@
       "league": "lega-a-2026-27",
       "home": "Napoli Basket",
       "away": "Pallacanestro Trieste",
-      "score": null,
+      "score": "90-89",
       "date": "2026-11-15",
       "time": "16:00",
       "utc": "2026-11-15T16:00:00+00:00",
