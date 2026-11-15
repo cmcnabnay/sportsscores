@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T19:28:46+00:00",
+  "updated": "2026-11-15T19:40:00+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2690,9 +2690,9 @@
             "win": 3,
             "draw": null,
             "loss": 6,
-            "for": 752,
-            "against": 761,
-            "diff": -9,
+            "for": 808,
+            "against": 799,
+            "diff": 9,
             "points": 6,
             "highlight": null
           },
@@ -2726,9 +2726,9 @@
             "win": 3,
             "draw": null,
             "loss": 6,
-            "for": 729,
-            "against": 827,
-            "diff": -98,
+            "for": 767,
+            "against": 883,
+            "diff": -116,
             "points": 6,
             "highlight": null
           },
@@ -5014,9 +5014,9 @@
             "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 783,
-            "against": 627,
-            "diff": 156,
+            "for": 840,
+            "against": 681,
+            "diff": 159,
             "points": 16,
             "highlight": "#FFFFBB"
           },
@@ -5062,9 +5062,9 @@
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 695,
-            "against": 629,
-            "diff": 66,
+            "for": 749,
+            "against": 686,
+            "diff": 63,
             "points": 11,
             "highlight": "#FFFFBB"
           },
@@ -5110,9 +5110,9 @@
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 707,
-            "against": 717,
-            "diff": -10,
+            "for": 720,
+            "against": 732,
+            "diff": -12,
             "points": 9,
             "highlight": null
           },
@@ -5122,9 +5122,9 @@
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 700,
-            "against": 716,
-            "diff": -16,
+            "for": 715,
+            "against": 729,
+            "diff": -14,
             "points": 8,
             "highlight": null
           },
@@ -12212,7 +12212,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-14T19:33:04.008068+00:00",
+    "velez": "2026-11-15T19:39:03.908500+00:00",
     "torpedo": "2026-11-15T16:15:03.974516+00:00",
     "velez:playoffs": "2026-11-15T07:25:15.969869+00:00"
   },
@@ -47988,7 +47988,7 @@
       "league": "bbl-2026-27",
       "home": "Bv Chemnitz 99",
       "away": "Basketball Lowen Braunschweig",
-      "score": null,
+      "score": "111-79",
       "date": "2026-11-15",
       "time": "17:00",
       "utc": "2026-11-15T17:00:00+00:00",
@@ -48000,7 +48000,7 @@
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "UCAM Murcia",
-      "score": null,
+      "score": "76-84",
       "date": "2026-11-15",
       "time": "17:00",
       "utc": "2026-11-15T17:00:00+00:00",
