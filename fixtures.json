@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T17:31:45+00:00",
+  "updated": "2026-11-15T17:42:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10373,6 +10373,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Scotland",
+            "played": 5,
+            "win": 3,
+            "draw": 0,
+            "loss": 2,
+            "for": 144,
+            "against": 152,
+            "diff": -8,
+            "points": 15,
+            "highlight": "transparent"
+          },
+          {
             "team": "Wales",
             "played": 5,
             "win": 3,
@@ -10382,18 +10394,6 @@
             "against": 151,
             "diff": -38,
             "points": 15,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Scotland",
-            "played": 4,
-            "win": 2,
-            "draw": 0,
-            "loss": 2,
-            "for": 129,
-            "against": 140,
-            "diff": -11,
-            "points": 11,
             "highlight": "transparent"
           },
           {
@@ -10451,14 +10451,14 @@
           },
           {
             "team": "Australia",
-            "played": 4,
+            "played": 5,
             "win": 1,
             "draw": 0,
-            "loss": 3,
-            "for": 136,
-            "against": 130,
-            "diff": 6,
-            "points": 8,
+            "loss": 4,
+            "for": 148,
+            "against": 145,
+            "diff": 3,
+            "points": 9,
             "highlight": "transparent"
           },
           {
@@ -44958,7 +44958,7 @@
       "time": "20:10",
       "utc": "2026-11-06T20:10:00+00:00",
       "venue": "Aviva Stadium, Dublin",
-      "attendance": "50000"
+      "attendance": "49165"
     },
     {
       "league": "rlwc-2026",
@@ -47844,7 +47844,7 @@
       "league": "nations-championship-2026",
       "home": "Scotland",
       "away": "Australia",
-      "score": null,
+      "score": "15-12",
       "date": "2026-11-15",
       "time": "15:10",
       "utc": "2026-11-15T15:10:00+00:00",
