@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T15:22:08+00:00",
+  "updated": "2026-11-15T15:33:21+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3230,6 +3230,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "EHC Red Bull München",
+            "played": 16,
+            "win": 11,
+            "draw": null,
+            "loss": 5,
+            "for": 51,
+            "against": 46,
+            "diff": 5,
+            "points": 33,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Nürnberg Ice Tigers",
             "played": 16,
             "win": 10,
@@ -3250,18 +3262,6 @@
             "for": 55,
             "against": 44,
             "diff": 11,
-            "points": 30,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "EHC Red Bull München",
-            "played": 15,
-            "win": 10,
-            "draw": null,
-            "loss": 5,
-            "for": 47,
-            "against": 46,
-            "diff": 1,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -3290,6 +3290,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Pinguins Bremerhaven",
+            "played": 16,
+            "win": 8,
+            "draw": null,
+            "loss": 8,
+            "for": 40,
+            "against": 41,
+            "diff": -1,
+            "points": 25,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "ERC Ingolstadt",
             "played": 16,
             "win": 8,
@@ -3302,26 +3314,14 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Pinguins Bremerhaven",
-            "played": 15,
-            "win": 7,
-            "draw": null,
-            "loss": 8,
-            "for": 35,
-            "against": 39,
-            "diff": -4,
-            "points": 22,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Augsburger Panther",
-            "played": 15,
+            "played": 16,
             "win": 7,
             "draw": null,
-            "loss": 8,
-            "for": 47,
-            "against": 47,
-            "diff": 0,
+            "loss": 9,
+            "for": 49,
+            "against": 52,
+            "diff": -3,
             "points": 19,
             "highlight": "#BBF3FF"
           },
@@ -3363,13 +3363,13 @@
           },
           {
             "team": "Krefeld Pinguine",
-            "played": 16,
+            "played": 17,
             "win": 5,
             "draw": null,
-            "loss": 11,
+            "loss": 12,
             "for": 40,
-            "against": 49,
-            "diff": -9,
+            "against": 53,
+            "diff": -13,
             "points": 17,
             "highlight": null
           },
@@ -4099,6 +4099,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Tampereen Ilves",
+            "played": 23,
+            "win": 15,
+            "draw": null,
+            "loss": 8,
+            "for": 62,
+            "against": 45,
+            "diff": 17,
+            "points": 43,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Mikkelin Jukurit",
             "played": 23,
             "win": 15,
@@ -4120,29 +4132,17 @@
             "against": 53,
             "diff": 2,
             "points": 40,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Tampereen Ilves",
-            "played": 22,
-            "win": 14,
-            "draw": null,
-            "loss": 8,
-            "for": 59,
-            "against": 44,
-            "diff": 15,
-            "points": 40,
             "highlight": "#BBF3FF"
           },
           {
             "team": "SaiPa Lappeenranta",
-            "played": 19,
+            "played": 20,
             "win": 13,
             "draw": null,
-            "loss": 6,
-            "for": 56,
-            "against": 41,
-            "diff": 15,
+            "loss": 7,
+            "for": 57,
+            "against": 44,
+            "diff": 13,
             "points": 37,
             "highlight": "#BBF3FF"
           },
@@ -47724,7 +47724,7 @@
       "league": "liiga-2026-27",
       "home": "Tampereen Ilves",
       "away": "SaiPa Lappeenranta",
-      "score": null,
+      "score": "3-1",
       "date": "2026-11-15",
       "time": "13:00",
       "utc": "2026-11-15T13:00:00+00:00",
@@ -47736,7 +47736,7 @@
       "league": "del-2026-27",
       "home": "Pinguins Bremerhaven",
       "away": "Augsburger Panther",
-      "score": null,
+      "score": "5-2",
       "date": "2026-11-15",
       "time": "13:00",
       "utc": "2026-11-15T13:00:00+00:00",
@@ -47748,7 +47748,7 @@
       "league": "del-2026-27",
       "home": "EHC Red Bull München",
       "away": "Krefeld Pinguine",
-      "score": null,
+      "score": "4-0",
       "date": "2026-11-15",
       "time": "13:00",
       "utc": "2026-11-15T13:00:00+00:00",
@@ -64111,6 +64111,30 @@
       "source_id": "sofascore:16422720"
     },
     {
+      "league": "del-2026-27",
+      "home": "Iserlohn Roosters",
+      "away": "Nürnberg Ice Tigers",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "18:30",
+      "utc": "2027-01-15T18:30:00+00:00",
+      "venue": "Eissporthalle Iserlohn",
+      "attendance": null,
+      "source_id": "sofascore:16422721"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Straubing Tigers",
+      "away": "Löwen Frankfurt",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "18:30",
+      "utc": "2027-01-15T18:30:00+00:00",
+      "venue": "Eisstadion am Pulverturm",
+      "attendance": null,
+      "source_id": "sofascore:16422722"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Phoenix Hagen",
       "away": "Wurzburg Baskets",
@@ -64711,6 +64735,30 @@
       "source_id": "sofascore:16527615"
     },
     {
+      "league": "del-2026-27",
+      "home": "Eisbären Berlin",
+      "away": "Adler Mannheim",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "13:00",
+      "utc": "2027-01-17T13:00:00+00:00",
+      "venue": "Uber Arena",
+      "attendance": null,
+      "source_id": "sofascore:16422724"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Nürnberg Ice Tigers",
+      "away": "EHC Red Bull München",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "13:00",
+      "utc": "2027-01-17T13:00:00+00:00",
+      "venue": "Arena Nuernberger Versicherung",
+      "attendance": null,
+      "source_id": "sofascore:16422726"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "Baskets Oldenburg",
@@ -64781,6 +64829,30 @@
       "venue": "Curt-Frenzel-Stadion",
       "attendance": null,
       "source_id": "sofascore:16422728"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "ERC Ingolstadt",
+      "away": "Straubing Tigers",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "15:30",
+      "utc": "2027-01-17T15:30:00+00:00",
+      "venue": "Saturn-Arena",
+      "attendance": null,
+      "source_id": "sofascore:16422729"
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Löwen Frankfurt",
+      "away": "Iserlohn Roosters",
+      "score": null,
+      "date": "2027-01-17",
+      "time": "15:30",
+      "utc": "2027-01-17T15:30:00+00:00",
+      "venue": "Eissporthalle Frankfurt",
+      "attendance": null,
+      "source_id": "sofascore:16422727"
     },
     {
       "league": "liga-acb-2026-27",
