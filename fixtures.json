@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T14:29:08+00:00",
+  "updated": "2026-11-15T14:40:08+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3421,6 +3421,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Torpedo Nizhny Novgorod",
+            "played": 26,
+            "win": 15,
+            "draw": null,
+            "loss": 7,
+            "for": 66,
+            "against": 56,
+            "diff": 10,
+            "points": 34,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Spartak Moscow",
             "played": 27,
             "win": 14,
@@ -3429,18 +3441,6 @@
             "for": 75,
             "against": 60,
             "diff": 15,
-            "points": 32,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Torpedo Nizhny Novgorod",
-            "played": 25,
-            "win": 14,
-            "draw": null,
-            "loss": 7,
-            "for": 65,
-            "against": 56,
-            "diff": 9,
             "points": 32,
             "highlight": "#BBF3FF"
           },
@@ -3482,24 +3482,24 @@
           },
           {
             "team": "Dinamo Minsk",
-            "played": 26,
+            "played": 27,
             "win": 10,
             "draw": null,
-            "loss": 9,
+            "loss": 10,
             "for": 64,
-            "against": 72,
-            "diff": -8,
+            "against": 73,
+            "diff": -9,
             "points": 27,
             "highlight": "#BBF3BB"
           },
           {
             "team": "SKA St. Petersburg",
-            "played": 25,
+            "played": 26,
             "win": 12,
             "draw": null,
             "loss": 11,
-            "for": 74,
-            "against": 74,
+            "for": 75,
+            "against": 75,
             "diff": 0,
             "points": 26,
             "highlight": null
@@ -3543,9 +3543,9 @@
             "win": 18,
             "draw": null,
             "loss": 6,
-            "for": 90,
-            "against": 63,
-            "diff": 27,
+            "for": 93,
+            "against": 65,
+            "diff": 28,
             "points": 39,
             "highlight": "#D6F9FF"
           },
@@ -3579,9 +3579,9 @@
             "win": 14,
             "draw": null,
             "loss": 11,
-            "for": 82,
-            "against": 69,
-            "diff": 13,
+            "for": 84,
+            "against": 72,
+            "diff": 12,
             "points": 29,
             "highlight": "#BBF3FF"
           },
@@ -3611,12 +3611,12 @@
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 26,
+            "played": 27,
             "win": 11,
             "draw": null,
             "loss": 10,
-            "for": 59,
-            "against": 62,
+            "for": 60,
+            "against": 63,
             "diff": -3,
             "points": 27,
             "highlight": "#BBF3BB"
@@ -47712,7 +47712,7 @@
       "league": "khl-2026-27",
       "home": "Barys Astana",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "5-4",
       "date": "2026-11-15",
       "time": "12:00",
       "utc": "2026-11-15T12:00:00+00:00",
