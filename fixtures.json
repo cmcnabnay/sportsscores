@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T19:40:00+00:00",
+  "updated": "2026-11-15T19:50:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4295,9 +4295,9 @@
             "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 724,
-            "against": 641,
-            "diff": 83,
+            "for": 763,
+            "against": 677,
+            "diff": 86,
             "points": 14,
             "highlight": "#BBF3BB"
           },
@@ -4319,8 +4319,8 @@
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 717,
-            "against": 647,
+            "for": 719,
+            "against": 649,
             "diff": 70,
             "points": 12,
             "highlight": "#BBF3BB"
@@ -4391,8 +4391,8 @@
             "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 637,
-            "against": 643,
+            "for": 639,
+            "against": 645,
             "diff": -6,
             "points": 8,
             "highlight": null
@@ -4415,9 +4415,9 @@
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 602,
-            "against": 634,
-            "diff": -32,
+            "for": 638,
+            "against": 673,
+            "diff": -35,
             "points": 6,
             "highlight": null
           },
@@ -48024,7 +48024,7 @@
       "league": "lega-a-2026-27",
       "home": "Amici Pallacanestro Udinese",
       "away": "Olimpia Milano",
-      "score": null,
+      "score": "70-83",
       "date": "2026-11-15",
       "time": "17:15",
       "utc": "2026-11-15T17:15:00+00:00",
