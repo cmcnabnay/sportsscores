@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T07:20:08+00:00",
+  "updated": "2026-11-15T07:25:16+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -759,6 +759,181 @@
             }
           ],
           "standalone": true
+        }
+      ]
+    },
+    "argentina-liga-profesional-2026": {
+      "name": "Liga Profesional 2026 · Torneo Clausura",
+      "rounds": [
+        {
+          "label": "Round of 16",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Instituto",
+              "score1": null,
+              "seed2": null,
+              "team2": "Huracán",
+              "score2": null,
+              "date": "2026-11-22",
+              "venue": "Estadio Mario Alberto Kempes"
+            },
+            {
+              "seed1": null,
+              "team1": "River Plate",
+              "score1": null,
+              "seed2": null,
+              "team2": "Lanús",
+              "score2": null,
+              "date": "2026-11-22",
+              "venue": "Estadio Monumental"
+            },
+            {
+              "seed1": null,
+              "team1": "Argentinos Juniors",
+              "score1": null,
+              "seed2": null,
+              "team2": "Independiente",
+              "score2": null,
+              "date": "2026-11-21",
+              "venue": "Estadio Diego Armando Maradona"
+            },
+            {
+              "seed1": null,
+              "team1": "Vélez Sarsfield",
+              "score1": null,
+              "seed2": null,
+              "team2": "Belgrano",
+              "score2": null,
+              "date": "2026-11-20",
+              "venue": "Jose Amalfitani"
+            },
+            {
+              "seed1": null,
+              "team1": "Rosario Central",
+              "score1": null,
+              "seed2": null,
+              "team2": "Gimnasia y Esgrima (M)",
+              "score2": null,
+              "date": "2026-11-22",
+              "venue": "Estadio Gigante de Arroyito"
+            },
+            {
+              "seed1": null,
+              "team1": "Defensa y Justicia",
+              "score1": null,
+              "seed2": null,
+              "team2": "Barracas Central",
+              "score2": null,
+              "date": "2026-11-21",
+              "venue": "Estadio Norberto Tito Tomaghello"
+            },
+            {
+              "seed1": null,
+              "team1": "Boca Juniors",
+              "score1": null,
+              "seed2": null,
+              "team2": "Independiente Rivadavia",
+              "score2": null,
+              "date": "2026-11-25",
+              "venue": "Estadio Alberto José Armando"
+            },
+            {
+              "seed1": null,
+              "team1": "Gimnasia y Esgrima (LP)",
+              "score1": null,
+              "seed2": null,
+              "team2": "Newell's Old Boys",
+              "score2": null,
+              "date": "2026-11-23",
+              "venue": "Estadio Juan Carmelo Zerillo"
+            }
+          ]
+        },
+        {
+          "label": "Quarter Finals",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Semi Finals",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            },
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "matches": [
+            {
+              "seed1": null,
+              "team1": null,
+              "score1": null,
+              "seed2": null,
+              "team2": null,
+              "score2": null,
+              "date": null,
+              "venue": null
+            }
+          ]
         }
       ]
     }
@@ -12038,7 +12213,8 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-14T19:33:04.008068+00:00",
-    "torpedo": "2026-11-14T16:05:03.881672+00:00"
+    "torpedo": "2026-11-14T16:05:03.881672+00:00",
+    "velez:playoffs": "2026-11-15T07:25:15.969869+00:00"
   },
   "matches": [
     {

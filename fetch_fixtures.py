@@ -79,6 +79,7 @@ import re
 import ssl
 import sys
 import time
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -5567,6 +5568,24 @@ MATRIX_TEAMS = {
                 {"label": "Clausura", "heading_id": ["Torneo_Clausura", "Clausura"]},
             ],
         },
+        # Torneo Clausura knockout bracket (round of 16 -> final) for the
+        # Playoffs tab, from 365Scores' brackets endpoint for competition
+        # 72 (above) - see fetch_scores365_bracket(). "season_num" is
+        # 365Scores' id for the 2026 season: once it starts returning the
+        # next season's bracket instead, the stored 2026 one is kept
+        # rather than overwritten. Bump it (and the name) for 2027.
+        "playoffs": {
+            "name": "Liga Profesional 2026 · Torneo Clausura",
+            "scores365_season_num": 228,
+            # 365Scores spelling -> the standings table's, for names
+            # _bracket_standings_name() can't tell apart on its own (both
+            # Gimnasias share every word with both standings rows).
+            "team_aliases": {
+                "Gimnasia Mendoza": "Gimnasia y Esgrima (M)",
+                "Gimnasia La Plata": "Gimnasia y Esgrima (LP)",
+                "Estudiantes de La Plata": "Estudiantes (LP)",
+            },
+        },
     },
     "torpedo": {
         "team_name": "Torpedo Moscow",
@@ -5814,6 +5833,176 @@ def update_matrix_league_standings(data, cfg):
 # once a day even then. Persisted per matrix_key in fixtures.json's
 # top-level "matrix_last_fetch" so it survives across runs.
 MATRIX_DAILY_CHECK_INTERVAL = timedelta(days=1)
+
+
+SCORES365_BRACKETS_URL = f"{SCORES365_BASE}/web/brackets/"
+# 365Scores stageType for a knockout stage (1 = table, 2 = group stage).
+SCORES365_STAGE_KNOCKOUT = 3
+
+
+def fetch_scores365_bracket(cfg):
+    """A MATRIX_TEAMS league's knockout bracket from 365Scores'
+    brackets endpoint, in the {name, rounds: [{label, matches: [{seed1,
+    team1, score1, seed2, team2, score2, date, venue, winner}]}]} shape
+    matches.html's Playoffs tab reads (same as fetch_playoffs_bracket's).
+
+    Each knockout stage is a round; each of its groups is one tie with
+    two "participants" and its game(s). Groups come back in bracket order
+    - groups 1 and 2 feed group 1 of the next stage, and so on - which is
+    the pairing renderBracket() draws. A participant not known yet has
+    no competitorId and shows as TBD. Scores are summed over a tie's
+    finished games (one game per tie in Argentina, but two-legged ties
+    would add up); a tie settled on penalties is stored as "1 (4)"-style
+    text plus "winner" (1 or 2), since the plain numbers are level.
+    Dates are the local calendar date (cfg's scores365_utc_offset), like
+    the team's fixtures. Returns None if 365Scores' bracket is for a
+    different season than configured."""
+    playoffs_cfg = cfg["playoffs"]
+    team_id, team_name = cfg.get("scores365_team_id"), cfg["team_name"]
+    utc_offset = cfg.get("scores365_utc_offset", 0)
+    url = (f"{SCORES365_BRACKETS_URL}?{SCORES365_COMMON_PARAMS}"
+           f"&competitions={cfg['scores365_competition_id']}")
+    data = fetch_scores365_json(url)
+    brackets = data.get("brackets") or []
+    season = playoffs_cfg.get("scores365_season_num")
+    bracket = next((b for b in brackets if season is None or b.get("num") == season), None)
+    if bracket is None:
+        print(f"  !! playoffs: 365Scores has no season {season} bracket for "
+              f"{cfg['team_name']}'s league (got {[b.get('num') for b in brackets]})",
+              file=sys.stderr)
+        return None
+
+    def name_of(competitor_id, raw_name):
+        if competitor_id is None:
+            return None
+        return team_name if competitor_id == team_id else canonicalize_team_name(raw_name)
+
+    rounds = []
+    for stage in bracket.get("stages", []):
+        if stage.get("stageType") != SCORES365_STAGE_KNOCKOUT:
+            continue
+        matches = []
+        for group in sorted(stage.get("groups", []), key=lambda g: g.get("num", 0)):
+            parts = sorted(group.get("participants", []), key=lambda p: p.get("num", 0))[:2]
+            parts += [{}] * (2 - len(parts))
+            ids = [p.get("competitorId") for p in parts]
+            totals, pens, played, last_game = [0, 0], [None, None], False, None
+            games = sorted(group.get("games", []), key=lambda x: x.get("startTime") or "")
+            for entry in games:
+                g = entry.get("game") or {}
+                last_game = entry
+                if _scores365_final_score(g) is None:
+                    continue
+                played = True
+                for comp in (g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}):
+                    if comp.get("id") in ids:
+                        i = ids.index(comp.get("id"))
+                        totals[i] += int(comp.get("score") or 0)
+                        if comp.get("penaltyScore") is not None:
+                            pens[i] = int(comp["penaltyScore"])
+            score1 = score2 = winner = None
+            if played:
+                score1, score2 = totals
+                if None not in pens:
+                    winner = 1 if pens[0] > pens[1] else 2
+                    score1, score2 = f"{totals[0]} ({pens[0]})", f"{totals[1]} ({pens[1]})"
+            date = venue = None
+            if last_game:
+                try:
+                    local_dt = datetime.fromisoformat(last_game.get("startTime", "")) + timedelta(hours=utc_offset)
+                    date = local_dt.strftime("%Y-%m-%d")
+                except ValueError:
+                    pass
+                venue = (last_game.get("venue") or {}).get("name")
+            match = {
+                "seed1": None, "team1": name_of(ids[0], parts[0].get("name")), "score1": score1,
+                "seed2": None, "team2": name_of(ids[1], parts[1].get("name")), "score2": score2,
+                "date": date, "venue": venue,
+            }
+            if winner:
+                match["winner"] = winner
+            matches.append(match)
+        rounds.append({"label": stage.get("name") or f"Round {len(rounds) + 1}", "matches": matches})
+    if not rounds:
+        return None
+    return {"name": playoffs_cfg["name"], "rounds": rounds}
+
+
+def _bracket_standings_name(name, standings_names, aliases):
+    """365Scores' spelling of a club ("Huracan", "Instituto AC Cordoba")
+    -> the same club's name in the league's standings table ("Huracán",
+    "Instituto"), so the bracket matches the rest of the app (logos, the
+    Standings tab). Tries `aliases`, then an accent/case-insensitive exact
+    match (ignoring a "(LP)"-style suffix), then the one standings name
+    whose 4+ letter words all appear in it, then the one sharing any. Unmatched names are kept as-is."""
+    if not name or not standings_names:
+        return name
+    if name in aliases:
+        return aliases[name]
+
+    def norm(n):
+        n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()
+        return re.sub(r"\s*\([^)]*\)", "", n).strip()
+
+    def words(n):
+        return {w for w in re.split(r"[^a-z]+", norm(n)) if len(w) >= 4}
+
+    exact = [s for s in standings_names if norm(s) == norm(name)]
+    if len(exact) == 1:
+        return exact[0]
+    # Every word of the standings name inside 365Scores' ("Instituto" in
+    # "Instituto AC Cordoba") beats any shared word ("Cordoba" is in
+    # "Central Córdoba (SdE)" too).
+    contained = [s for s in standings_names if words(s) and words(s) <= words(name)]
+    if len(contained) == 1:
+        return contained[0]
+    overlap = [s for s in standings_names if words(s) & words(name)]
+    return overlap[0] if len(overlap) == 1 else name
+
+
+def update_matrix_playoffs(data, matrix_key, cfg, now, force=False):
+    """Refresh a MATRIX_TEAMS league's playoff bracket (cfg["playoffs"],
+    see fetch_scores365_bracket) into data["playoffs"][league_key] for
+    matches.html's Playoffs tab. Gated on the bracket itself rather than
+    the team's own fixtures, so it keeps updating after the team is
+    knocked out: fetched when none is stored, when a bracket game dated
+    before today has no score yet, or once a day (catches the next
+    round's pairings/dates). Once the last round has a score it stops."""
+    if not cfg.get("playoffs"):
+        return
+    league_key = cfg["league_key"]
+    stored = data["playoffs"].get(league_key)
+    check_key = f"{matrix_key}:playoffs"
+
+    def scored(g):
+        return g.get("score1") is not None and g.get("score2") is not None
+
+    if stored and not force:
+        rounds = [r for r in stored.get("rounds", []) if r.get("matches")]
+        if rounds and all(scored(g) for g in rounds[-1]["matches"]):
+            return
+        today = now.date().isoformat()
+        overdue = any(g.get("date") and g["date"] < today and not scored(g)
+                      for r in rounds for g in r["matches"])
+        if not overdue and not matrix_daily_check_due(data, check_key, now):
+            return
+
+    try:
+        bracket = fetch_scores365_bracket(cfg)
+    except Exception as e:
+        print(f"  !! playoffs failed for {cfg['team_name']}'s league: {e}", file=sys.stderr)
+        return
+    if bracket:
+        standings_names = {row["team"] for group in (data["standings"].get(league_key) or {}).values()
+                           for row in group.get("rows", []) if row.get("team")}
+        aliases = cfg["playoffs"].get("team_aliases", {})
+        for r in bracket["rounds"]:
+            for g in r["matches"]:
+                for side in ("team1", "team2"):
+                    g[side] = _bracket_standings_name(g[side], standings_names, aliases)
+        data["playoffs"][league_key] = bracket
+        mark_matrix_fetched(data, check_key, now)
+        print(f"  -> playoffs: {len(bracket['rounds'])} round(s) for {bracket['name']} (365Scores)")
 
 
 def matrix_daily_check_due(data, matrix_key, now):
@@ -6667,6 +6856,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
         # unless there's no table stored yet.
         if checked is not False or not data["standings"].get(cfg["league_key"]):
             update_matrix_league_standings(data, cfg)
+        update_matrix_playoffs(data, matrix_key, cfg, now, force=force)
 
     data["matches"] = drop_manual_removed_matches(data["matches"])
     apply_manual_match_status(data["matches"])

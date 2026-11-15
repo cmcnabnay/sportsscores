@@ -1820,8 +1820,11 @@ function renderAttendance() {
 function renderBracketMatch(m, leagueKey) {
   const played = m.score1 !== null && m.score1 !== undefined
     && m.score2 !== null && m.score2 !== undefined;
-  const team1Wins = played && Number(m.score1) > Number(m.score2);
-  const team2Wins = played && Number(m.score2) > Number(m.score1);
+  // A tie settled on penalties ("1 (4)" v "1 (3)" - 365Scores-sourced
+  // brackets) states its winner side (1/2) since the scores aren't plain
+  // numbers; otherwise the higher score wins.
+  const team1Wins = played && (m.winner ? m.winner === 1 : Number(m.score1) > Number(m.score2));
+  const team2Wins = played && (m.winner ? m.winner === 2 : Number(m.score2) > Number(m.score1));
 
   const teamRow = (seed, rawTeam, score, isWinner) => {
     const team = rawTeam && displayTeamName(leagueKey, rawTeam);
@@ -2001,7 +2004,12 @@ function renderPlayoffs() {
   }
 
   if (!playoffsLeagueKey || !leagueKeys.includes(playoffsLeagueKey)) {
-    playoffsLeagueKey = leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : leagueKeys[0];
+    // A team filter (e.g. Vélez) opens on its first league with a bracket.
+    const teamFilter = TEAM_LEAGUE_FILTERS[leagueSelect.value];
+    const preferred = teamFilter
+      ? teamFilter.leagueKeys.find(k => leagueKeys.includes(k))
+      : (leagueKeys.includes(leagueSelect.value) ? leagueSelect.value : null);
+    playoffsLeagueKey = preferred || leagueKeys[0];
   }
 
   // Simple dropdown, same look as the Standings/Attendance league picker,
