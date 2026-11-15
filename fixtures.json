@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T20:23:11+00:00",
+  "updated": "2026-11-15T20:34:58+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3231,13 +3231,13 @@
           },
           {
             "team": "Eisbären Berlin",
-            "played": 15,
+            "played": 16,
             "win": 11,
             "draw": null,
-            "loss": 4,
-            "for": 53,
-            "against": 28,
-            "diff": 25,
+            "loss": 5,
+            "for": 55,
+            "against": 32,
+            "diff": 23,
             "points": 33,
             "highlight": "#BBF3BB"
           },
@@ -3326,6 +3326,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Schwenningen Wild Wings",
+            "played": 18,
+            "win": 8,
+            "draw": null,
+            "loss": 10,
+            "for": 43,
+            "against": 63,
+            "diff": -20,
+            "points": 22,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Augsburger Panther",
             "played": 16,
             "win": 7,
@@ -3334,18 +3346,6 @@
             "for": 49,
             "against": 52,
             "diff": -3,
-            "points": 19,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Schwenningen Wild Wings",
-            "played": 17,
-            "win": 7,
-            "draw": null,
-            "loss": 10,
-            "for": 39,
-            "against": 61,
-            "diff": -22,
             "points": 19,
             "highlight": null
           },
@@ -5014,9 +5014,9 @@
             "win": 8,
             "draw": null,
             "loss": 0,
-            "for": 840,
+            "for": 842,
             "against": 681,
-            "diff": 159,
+            "diff": 161,
             "points": 16,
             "highlight": "#FFFFBB"
           },
@@ -5063,8 +5063,8 @@
             "draw": null,
             "loss": 3,
             "for": 749,
-            "against": 686,
-            "diff": 63,
+            "against": 688,
+            "diff": 61,
             "points": 11,
             "highlight": "#FFFFBB"
           },
@@ -5531,26 +5531,26 @@
           },
           {
             "team": "Le Mans",
-            "played": 7,
-            "win": 6,
+            "played": 8,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 690,
-            "against": 615,
-            "diff": 75,
-            "points": 0,
+            "for": 778,
+            "against": 689,
+            "diff": 89,
+            "points": 2,
             "highlight": "#BBF3BB"
           },
           {
             "team": "ASVEL Villeurbanne",
-            "played": 7,
+            "played": 8,
             "win": 6,
             "draw": null,
-            "loss": 1,
-            "for": 638,
-            "against": 591,
-            "diff": 47,
-            "points": 0,
+            "loss": 2,
+            "for": 712,
+            "against": 679,
+            "diff": 33,
+            "points": 1,
             "highlight": "#BBF3BB"
           },
           {
@@ -48036,7 +48036,7 @@
       "league": "liga-acb-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Real Madrid",
-      "score": null,
+      "score": "84-98",
       "date": "2026-11-15",
       "time": "18:00",
       "utc": "2026-11-15T18:00:00+00:00",
@@ -48048,7 +48048,7 @@
       "league": "lega-a-2026-27",
       "home": "Dolomiti Energia Trento",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "75-88",
       "date": "2026-11-15",
       "time": "18:00",
       "utc": "2026-11-15T18:00:00+00:00",
@@ -48060,7 +48060,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Le Mans",
       "away": "ASVEL Villeurbanne",
-      "score": null,
+      "score": "109-93",
       "date": "2026-11-15",
       "time": "18:00",
       "utc": "2026-11-15T18:00:00+00:00",
@@ -48072,7 +48072,7 @@
       "league": "del-2026-27",
       "home": "Eisbären Berlin",
       "away": "Schwenningen Wild Wings",
-      "score": null,
+      "score": "2-4",
       "date": "2026-11-15",
       "time": "18:00",
       "utc": "2026-11-15T18:00:00+00:00",
@@ -64822,18 +64822,6 @@
     },
     {
       "league": "del-2026-27",
-      "home": "Augsburger Panther",
-      "away": "Grizzlys Wolfsburg",
-      "score": null,
-      "date": "2027-01-17",
-      "time": "15:30",
-      "utc": "2027-01-17T15:30:00+00:00",
-      "venue": "Curt-Frenzel-Stadion",
-      "attendance": null,
-      "source_id": "sofascore:16422728"
-    },
-    {
-      "league": "del-2026-27",
       "home": "ERC Ingolstadt",
       "away": "Straubing Tigers",
       "score": null,
@@ -65011,18 +64999,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4820048"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Schwenningen Wild Wings",
-      "away": "Krefeld Pinguine",
-      "score": null,
-      "date": "2027-01-17",
-      "time": "18:00",
-      "utc": "2027-01-17T18:00:00+00:00",
-      "venue": "Helios Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422730"
     },
     {
       "league": "bbl-2026-27",
@@ -65275,18 +65251,6 @@
       "venue": "Hovet",
       "attendance": null,
       "source_id": "sofascore:16230934"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Nürnberg Ice Tigers",
-      "away": "Krefeld Pinguine",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "18:30",
-      "utc": "2027-01-21T18:30:00+00:00",
-      "venue": "Arena Nuernberger Versicherung",
-      "attendance": null,
-      "source_id": "sofascore:16422731"
     },
     {
       "league": "euroleague-2026-27",
@@ -65575,54 +65539,6 @@
       "venue": "EisArena Wolfsburg",
       "attendance": null,
       "source_id": "sofascore:16422737"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "EHC Red Bull München",
-      "away": "Pinguins Bremerhaven",
-      "score": null,
-      "date": "2027-01-22",
-      "time": "18:30",
-      "utc": "2027-01-22T18:30:00+00:00",
-      "venue": "SAP Garden",
-      "attendance": null,
-      "source_id": "sofascore:16422735"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Eisbären Berlin",
-      "away": "Straubing Tigers",
-      "score": null,
-      "date": "2027-01-22",
-      "time": "18:30",
-      "utc": "2027-01-22T18:30:00+00:00",
-      "venue": "Uber Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422732"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Iserlohn Roosters",
-      "away": "Adler Mannheim",
-      "score": null,
-      "date": "2027-01-22",
-      "time": "18:30",
-      "utc": "2027-01-22T18:30:00+00:00",
-      "venue": "Eissporthalle Iserlohn",
-      "attendance": null,
-      "source_id": "sofascore:16422734"
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Schwenningen Wild Wings",
-      "away": "Kölner Haie",
-      "score": null,
-      "date": "2027-01-22",
-      "time": "18:30",
-      "utc": "2027-01-22T18:30:00+00:00",
-      "venue": "Helios Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422736"
     },
     {
       "league": "bbl-2026-27",
