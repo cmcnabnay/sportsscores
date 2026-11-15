@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-15T13:25:08+00:00",
+  "updated": "2026-11-15T13:35:53+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -5021,6 +5021,30 @@
             "highlight": "#FFFFBB"
           },
           {
+            "team": "Valencia Basket",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 805,
+            "against": 713,
+            "diff": 92,
+            "points": 12,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Baskonia Vitoria",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 665,
+            "against": 590,
+            "diff": 75,
+            "points": 10,
+            "highlight": "#FFFFBB"
+          },
+          {
             "team": "La Laguna Tenerife",
             "played": 8,
             "win": 6,
@@ -5033,26 +5057,38 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Valencia Basket",
-            "played": 7,
+            "team": "Breogán",
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 694,
-            "against": 616,
-            "diff": 78,
+            "loss": 3,
+            "for": 838,
+            "against": 801,
+            "diff": 37,
             "points": 10,
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Baskonia Vitoria",
-            "played": 7,
+            "team": "Unicaja Málaga",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 703,
+            "against": 673,
+            "diff": 30,
+            "points": 8,
+            "highlight": "#FFFFBB"
+          },
+          {
+            "team": "Casademont Zaragoza",
+            "played": 8,
             "win": 5,
             "draw": null,
-            "loss": 2,
-            "for": 665,
-            "against": 590,
-            "diff": 75,
+            "loss": 3,
+            "for": 742,
+            "against": 713,
+            "diff": 29,
             "points": 10,
             "highlight": "#FFFFBB"
           },
@@ -5069,40 +5105,16 @@
             "highlight": "#FFFFBB"
           },
           {
-            "team": "Breogán",
+            "team": "Joventut de Badalona",
             "played": 8,
-            "win": 5,
+            "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 838,
-            "against": 801,
-            "diff": 37,
-            "points": 10,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Casademont Zaragoza",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 742,
-            "against": 713,
-            "diff": 29,
-            "points": 11,
-            "highlight": "#FFFFBB"
-          },
-          {
-            "team": "Basquet Girona",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 635,
-            "against": 681,
-            "diff": -46,
-            "points": 8,
-            "highlight": "#FFFFBB"
+            "loss": 5,
+            "for": 724,
+            "against": 723,
+            "diff": 1,
+            "points": 6,
+            "highlight": null
           },
           {
             "team": "Bilbao Basket",
@@ -5117,15 +5129,15 @@
             "highlight": null
           },
           {
-            "team": "Unicaja Málaga",
-            "played": 7,
-            "win": 3,
+            "team": "San Pablo Burgos",
+            "played": 8,
+            "win": 2,
             "draw": null,
-            "loss": 4,
-            "for": 621,
-            "against": 603,
-            "diff": 18,
-            "points": 6,
+            "loss": 6,
+            "for": 731,
+            "against": 744,
+            "diff": -13,
+            "points": 4,
             "highlight": null
           },
           {
@@ -5153,64 +5165,28 @@
             "highlight": null
           },
           {
-            "team": "Leyma Coruña",
-            "played": 7,
-            "win": 3,
+            "team": "Basquet Girona",
+            "played": 8,
+            "win": 4,
             "draw": null,
             "loss": 4,
-            "for": 643,
-            "against": 699,
-            "diff": -56,
-            "points": 6,
+            "for": 705,
+            "against": 763,
+            "diff": -58,
+            "points": 8,
             "highlight": null
           },
           {
-            "team": "Joventut de Badalona",
+            "team": "Leyma Coruña",
             "played": 8,
             "win": 3,
             "draw": null,
             "loss": 5,
-            "for": 724,
-            "against": 723,
-            "diff": 1,
+            "for": 740,
+            "against": 810,
+            "diff": -70,
             "points": 6,
             "highlight": null
-          },
-          {
-            "team": "San Pablo Burgos",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 731,
-            "against": 744,
-            "diff": -13,
-            "points": 5,
-            "highlight": null
-          },
-          {
-            "team": "Forca Lleida",
-            "played": 7,
-            "win": 1,
-            "draw": null,
-            "loss": 6,
-            "for": 650,
-            "against": 739,
-            "diff": -89,
-            "points": 2,
-            "highlight": null
-          },
-          {
-            "team": "Baxi Manresa",
-            "played": 7,
-            "win": 1,
-            "draw": null,
-            "loss": 6,
-            "for": 606,
-            "against": 716,
-            "diff": -110,
-            "points": 2,
-            "highlight": "#FFBBBB"
           },
           {
             "team": "MoraBanc Andorra",
@@ -5221,7 +5197,31 @@
             "for": 691,
             "against": 772,
             "diff": -81,
-            "points": 3,
+            "points": 2,
+            "highlight": null
+          },
+          {
+            "team": "Forca Lleida",
+            "played": 8,
+            "win": 1,
+            "draw": null,
+            "loss": 7,
+            "for": 742,
+            "against": 837,
+            "diff": -95,
+            "points": 2,
+            "highlight": "#FFBBBB"
+          },
+          {
+            "team": "Baxi Manresa",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 704,
+            "against": 808,
+            "diff": -104,
+            "points": 4,
             "highlight": "#FFBBBB"
           }
         ],
@@ -47676,7 +47676,7 @@
       "league": "liga-acb-2026-27",
       "home": "Valencia Basket",
       "away": "Leyma Coruña",
-      "score": null,
+      "score": "111-97",
       "date": "2026-11-15",
       "time": "11:00",
       "utc": "2026-11-15T11:00:00+00:00",
@@ -47688,7 +47688,7 @@
       "league": "liga-acb-2026-27",
       "home": "Forca Lleida",
       "away": "Baxi Manresa",
-      "score": null,
+      "score": "92-98",
       "date": "2026-11-15",
       "time": "11:00",
       "utc": "2026-11-15T11:00:00+00:00",
@@ -47700,7 +47700,7 @@
       "league": "liga-acb-2026-27",
       "home": "Unicaja Málaga",
       "away": "Basquet Girona",
-      "score": null,
+      "score": "82-70",
       "date": "2026-11-15",
       "time": "11:30",
       "utc": "2026-11-15T11:30:00+00:00",
@@ -61171,6 +61171,18 @@
       "source_id": "365scores:4810680"
     },
     {
+      "league": "liga-acb-2026-27",
+      "home": "MoraBanc Andorra",
+      "away": "San Pablo Burgos",
+      "score": null,
+      "date": "2027-01-03",
+      "time": "11:30",
+      "utc": "2027-01-03T11:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820017"
+    },
+    {
       "league": "del-2026-27",
       "home": "EHC Red Bull München",
       "away": "Straubing Tigers",
@@ -62911,6 +62923,18 @@
       "source_id": "365scores:4820734"
     },
     {
+      "league": "liga-acb-2026-27",
+      "home": "MoraBanc Andorra",
+      "away": "Barcelona",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "11:30",
+      "utc": "2027-01-10T11:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820032"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Racing 92",
       "away": "Bristol Bears",
@@ -63113,6 +63137,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809127"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "San Pablo Burgos",
+      "away": "Leyma Coruña",
+      "score": null,
+      "date": "2027-01-10",
+      "time": "17:00",
+      "utc": "2027-01-10T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820735"
     },
     {
       "league": "lega-a-2026-27",
