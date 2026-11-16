@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-16T19:35:20+00:00",
+  "updated": "2026-11-16T19:45:39+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10390,9 +10390,9 @@
             "win": 3,
             "draw": 0,
             "loss": 2,
-            "for": 113,
+            "for": 123,
             "against": 151,
-            "diff": -38,
+            "diff": -28,
             "points": 15,
             "highlight": "transparent"
           },
@@ -12212,7 +12212,7 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-15T19:39:03.908500+00:00",
+    "velez": "2026-11-16T19:45:28.662560+00:00",
     "torpedo": "2026-11-16T16:18:08.246178+00:00",
     "velez:playoffs": "2026-11-16T15:04:58.667095+00:00"
   },
