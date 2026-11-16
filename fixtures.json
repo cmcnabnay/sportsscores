@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-16T16:28:57+00:00",
+  "updated": "2026-11-16T16:39:52+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3398,7 +3398,7 @@
         "rows": [
           {
             "team": "CSKA Moscow",
-            "played": 25,
+            "played": 26,
             "win": 18,
             "draw": null,
             "loss": 5,
@@ -3410,7 +3410,7 @@
           },
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 25,
+            "played": 26,
             "win": 18,
             "draw": null,
             "loss": 6,
@@ -3506,7 +3506,7 @@
           },
           {
             "team": "HC Sochi",
-            "played": 26,
+            "played": 27,
             "win": 8,
             "draw": null,
             "loss": 17,
@@ -3587,7 +3587,7 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 25,
+            "played": 26,
             "win": 14,
             "draw": null,
             "loss": 10,
@@ -3623,25 +3623,25 @@
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 26,
-            "win": 12,
+            "played": 27,
+            "win": 13,
             "draw": null,
             "loss": 12,
-            "for": 72,
-            "against": 75,
-            "diff": -3,
-            "points": 25,
+            "for": 78,
+            "against": 80,
+            "diff": -2,
+            "points": 27,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Admiral Vladivostok",
-            "played": 25,
+            "played": 26,
             "win": 11,
             "draw": null,
-            "loss": 11,
-            "for": 64,
-            "against": 71,
-            "diff": -7,
+            "loss": 12,
+            "for": 69,
+            "against": 77,
+            "diff": -8,
             "points": 25,
             "highlight": null
           },
@@ -48084,7 +48084,7 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "6-5",
       "date": "2026-11-16",
       "time": "14:00",
       "utc": "2026-11-16T14:00:00+00:00",
@@ -48991,6 +48991,42 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212159"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Traktor Chelyabinsk",
+      "score": null,
+      "date": "2026-11-19",
+      "time": "14:00",
+      "utc": "2026-11-19T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4894699"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "AK Bars",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-11-19",
+      "time": "16:30",
+      "utc": "2026-11-19T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4894698"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-11-19",
+      "time": "16:30",
+      "utc": "2026-11-19T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4894700"
     },
     {
       "league": "liiga-2026-27",
