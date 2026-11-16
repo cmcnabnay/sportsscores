@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-16T03:44:16+00:00",
+  "updated": "2026-11-16T03:55:16+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -267,10 +267,10 @@
             {
               "seed1": "E1",
               "team1": "Montreal Alouettes",
-              "score1": null,
+              "score1": 30,
               "seed2": "W1",
               "team2": "Edmonton Elks",
-              "score2": null,
+              "score2": 37,
               "date": "2026-11-15",
               "venue": "McMahon Stadium – Calgary"
             }
@@ -47977,7 +47977,7 @@
       "league": "cfl-2026",
       "home": "Edmonton Elks",
       "away": "Montreal Alouettes",
-      "score": null,
+      "score": "37-30",
       "date": "2026-11-15",
       "time": "17:00",
       "utc": "2026-11-16T00:00:00+00:00",
