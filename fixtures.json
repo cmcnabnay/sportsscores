@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-16T18:51:35+00:00",
+  "updated": "2026-11-16T19:03:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3402,22 +3402,22 @@
             "win": 18,
             "draw": null,
             "loss": 5,
-            "for": 80,
-            "against": 46,
+            "for": 81,
+            "against": 47,
             "diff": 34,
-            "points": 38,
+            "points": 39,
             "highlight": "#D6F9FF"
           },
           {
             "team": "Lokomotiv Yaroslavl",
             "played": 26,
-            "win": 18,
+            "win": 19,
             "draw": null,
             "loss": 6,
-            "for": 69,
+            "for": 72,
             "against": 38,
-            "diff": 31,
-            "points": 37,
+            "diff": 34,
+            "points": 39,
             "highlight": "#BBF3FF"
           },
           {
@@ -3505,18 +3505,6 @@
             "highlight": null
           },
           {
-            "team": "HC Sochi",
-            "played": 27,
-            "win": 8,
-            "draw": null,
-            "loss": 17,
-            "for": 45,
-            "against": 87,
-            "diff": -42,
-            "points": 17,
-            "highlight": null
-          },
-          {
             "team": "Lada Togliatti",
             "played": 27,
             "win": 6,
@@ -3525,6 +3513,18 @@
             "for": 42,
             "against": 85,
             "diff": -43,
+            "points": 17,
+            "highlight": null
+          },
+          {
+            "team": "HC Sochi",
+            "played": 27,
+            "win": 8,
+            "draw": null,
+            "loss": 18,
+            "for": 45,
+            "against": 90,
+            "diff": -45,
             "points": 17,
             "highlight": null
           }
@@ -3548,6 +3548,18 @@
             "diff": 28,
             "points": 39,
             "highlight": "#D6F9FF"
+          },
+          {
+            "team": "Amur Khabarovsk",
+            "played": 26,
+            "win": 15,
+            "draw": null,
+            "loss": 10,
+            "for": 53,
+            "against": 42,
+            "diff": 11,
+            "points": 31,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
@@ -3582,18 +3594,6 @@
             "for": 84,
             "against": 72,
             "diff": 12,
-            "points": 29,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Amur Khabarovsk",
-            "played": 26,
-            "win": 14,
-            "draw": null,
-            "loss": 10,
-            "for": 52,
-            "against": 41,
-            "diff": 11,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -48096,7 +48096,7 @@
       "league": "khl-2026-27",
       "home": "CSKA Moscow",
       "away": "Amur Khabarovsk",
-      "score": null,
+      "score": "1-2",
       "date": "2026-11-16",
       "time": "16:30",
       "utc": "2026-11-16T16:30:00+00:00",
@@ -48108,7 +48108,7 @@
       "league": "khl-2026-27",
       "home": "Lokomotiv Yaroslavl",
       "away": "HC Sochi",
-      "score": null,
+      "score": "3-0",
       "date": "2026-11-16",
       "time": "16:30",
       "utc": "2026-11-16T16:30:00+00:00",
