@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T16:33:38+00:00",
+  "updated": "2026-11-17T16:44:42+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3437,11 +3437,11 @@
             "played": 28,
             "win": 14,
             "draw": null,
-            "loss": 10,
+            "loss": 9,
             "for": 76,
-            "against": 62,
-            "diff": 14,
-            "points": 32,
+            "against": 61,
+            "diff": 15,
+            "points": 33,
             "highlight": "#BBF3FF"
           },
           {
@@ -3567,9 +3567,9 @@
             "win": 14,
             "draw": null,
             "loss": 9,
-            "for": 71,
+            "for": 70,
             "against": 62,
-            "diff": 9,
+            "diff": 8,
             "points": 31,
             "highlight": "#BBF3FF"
           },
@@ -48133,7 +48133,7 @@
       "league": "khl-2026-27",
       "home": "Avtomobilist Yekaterinburg",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "2-1",
       "date": "2026-11-17",
       "time": "14:00",
       "utc": "2026-11-17T14:00:00+00:00",
