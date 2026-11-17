@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T19:50:08+00:00",
+  "updated": "2026-11-17T20:01:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3004,27 +3004,27 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Utenos Juventus",
-            "played": 3,
+            "team": "Pallacanestro Reggiana",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 243,
-            "against": 275,
-            "diff": -32,
-            "points": 5,
+            "loss": 2,
+            "for": 353,
+            "against": 335,
+            "diff": 18,
+            "points": 6,
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Pallacanestro Reggiana",
-            "played": 3,
-            "win": 1,
+            "team": "Utenos Juventus",
+            "played": 4,
+            "win": 2,
             "draw": null,
             "loss": 2,
-            "for": 251,
-            "against": 240,
-            "diff": 11,
-            "points": 4,
+            "for": 338,
+            "against": 377,
+            "diff": -39,
+            "points": 6,
             "highlight": "#BBF3FF"
           },
           {
@@ -3160,6 +3160,18 @@
       "Group H": {
         "rows": [
           {
+            "team": "Telekom Baskets Bonn",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 338,
+            "against": 318,
+            "diff": 20,
+            "points": 7,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Joventut de Badalona",
             "played": 3,
             "win": 3,
@@ -3169,18 +3181,6 @@
             "against": 213,
             "diff": 30,
             "points": 6,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Telekom Baskets Bonn",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 253,
-            "against": 239,
-            "diff": 14,
-            "points": 5,
             "highlight": "#BBF3FF"
           },
           {
@@ -3197,14 +3197,14 @@
           },
           {
             "team": "Bnei Penlink Herzliya",
-            "played": 3,
+            "played": 4,
             "win": 0,
             "draw": null,
-            "loss": 3,
-            "for": 238,
-            "against": 273,
-            "diff": -35,
-            "points": 3,
+            "loss": 4,
+            "for": 317,
+            "against": 358,
+            "diff": -41,
+            "points": 4,
             "highlight": null
           }
         ],
@@ -48256,7 +48256,7 @@
       "league": "bcl-2026-27",
       "home": "Bnei Penlink Herzliya",
       "away": "Telekom Baskets Bonn",
-      "score": null,
+      "score": "79-85",
       "date": "2026-11-17",
       "time": "17:30",
       "utc": "2026-11-17T17:30:00+00:00",
@@ -48268,7 +48268,7 @@
       "league": "bcl-2026-27",
       "home": "Utenos Juventus",
       "away": "Pallacanestro Reggiana",
-      "score": null,
+      "score": "95-102",
       "date": "2026-11-17",
       "time": "18:00",
       "utc": "2026-11-17T18:00:00+00:00",
