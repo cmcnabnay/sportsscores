@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T17:26:02+00:00",
+  "updated": "2026-11-17T17:37:37+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3469,27 +3469,27 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Dinamo Minsk",
+            "played": 28,
+            "win": 11,
+            "draw": null,
+            "loss": 10,
+            "for": 65,
+            "against": 73,
+            "diff": -8,
+            "points": 29,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Dynamo Moscow",
             "played": 29,
             "win": 12,
             "draw": null,
             "loss": 11,
-            "for": 57,
-            "against": 67,
+            "for": 58,
+            "against": 68,
             "diff": -10,
             "points": 29,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dinamo Minsk",
-            "played": 28,
-            "win": 10,
-            "draw": null,
-            "loss": 10,
-            "for": 64,
-            "against": 73,
-            "diff": -9,
-            "points": 27,
             "highlight": "#BBF3BB"
           },
           {
@@ -3522,8 +3522,8 @@
             "win": 6,
             "draw": null,
             "loss": 17,
-            "for": 43,
-            "against": 91,
+            "for": 44,
+            "against": 92,
             "diff": -48,
             "points": 17,
             "highlight": null
@@ -3543,8 +3543,8 @@
             "win": 19,
             "draw": null,
             "loss": 6,
-            "for": 99,
-            "against": 66,
+            "for": 100,
+            "against": 67,
             "diff": 33,
             "points": 41,
             "highlight": "#D6F9FF"
@@ -3578,10 +3578,10 @@
             "played": 28,
             "win": 14,
             "draw": null,
-            "loss": 10,
+            "loss": 11,
             "for": 71,
-            "against": 76,
-            "diff": -5,
+            "against": 77,
+            "diff": -6,
             "points": 31,
             "highlight": "#BBF3FF"
           },
@@ -3651,8 +3651,8 @@
             "win": 11,
             "draw": null,
             "loss": 13,
-            "for": 61,
-            "against": 67,
+            "for": 62,
+            "against": 68,
             "diff": -6,
             "points": 24,
             "highlight": null
@@ -48139,13 +48139,14 @@
       "utc": "2026-11-17T14:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4894040"
     },
     {
       "league": "khl-2026-27",
       "home": "Lada Togliatti",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "2-7",
       "date": "2026-11-17",
       "time": "15:00",
       "utc": "2026-11-17T15:00:00+00:00",
