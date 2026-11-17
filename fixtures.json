@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T20:26:55+00:00",
+  "updated": "2026-11-17T20:38:04+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6488,6 +6488,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Fenerbahçe Tarfin",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 1010,
+            "against": 927,
+            "diff": 83,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Kauno Žalgiris",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 1059,
+            "against": 1020,
+            "diff": 39,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "BC Dubai",
             "played": 12,
             "win": 8,
@@ -6497,7 +6521,7 @@
             "against": 1017,
             "diff": 15,
             "points": null,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Real Madrid",
@@ -6509,7 +6533,7 @@
             "against": 977,
             "diff": 95,
             "points": null,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "KK Crvena zvezda",
@@ -6520,30 +6544,6 @@
             "for": 909,
             "against": 845,
             "diff": 64,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Fenerbahçe Tarfin",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": 895,
-            "against": 846,
-            "diff": 49,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Kauno Žalgiris",
-            "played": 11,
-            "win": 7,
-            "draw": null,
-            "loss": 4,
-            "for": 942,
-            "against": 906,
-            "diff": 36,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6608,18 +6608,6 @@
             "highlight": null
           },
           {
-            "team": "ASVEL Villeurbanne",
-            "played": 11,
-            "win": 4,
-            "draw": null,
-            "loss": 7,
-            "for": 974,
-            "against": 1025,
-            "diff": -51,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Virtus Bologna",
             "played": 11,
             "win": 4,
@@ -6632,14 +6620,14 @@
             "highlight": null
           },
           {
-            "team": "Bayern Munich",
-            "played": 11,
-            "win": 3,
+            "team": "ASVEL Villeurbanne",
+            "played": 12,
+            "win": 4,
             "draw": null,
             "loss": 8,
-            "for": 955,
-            "against": 1047,
-            "diff": -92,
+            "for": 1055,
+            "against": 1140,
+            "diff": -85,
             "points": null,
             "highlight": null
           },
@@ -6652,6 +6640,18 @@
             "for": 1022,
             "against": 1110,
             "diff": -88,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Bayern Munich",
+            "played": 12,
+            "win": 3,
+            "draw": null,
+            "loss": 9,
+            "for": 1069,
+            "against": 1164,
+            "diff": -95,
             "points": null,
             "highlight": null
           },
@@ -9560,14 +9560,26 @@
         "rows": [
           {
             "team": "Basquet Girona",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 548,
-            "against": 450,
-            "diff": 98,
-            "points": 11,
+            "loss": 2,
+            "for": 628,
+            "against": 538,
+            "diff": 90,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Oostende",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 558,
+            "against": 547,
+            "diff": 11,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -9579,18 +9591,6 @@
             "for": 507,
             "against": 499,
             "diff": 8,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "BC Oostende",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 470,
-            "against": 467,
-            "diff": 3,
             "points": 10,
             "highlight": null
           },
@@ -9796,6 +9796,30 @@
       "Group E": {
         "rows": [
           {
+            "team": "Iraklis BC",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 606,
+            "against": 529,
+            "diff": 77,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Wurzburg Baskets",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 580,
+            "against": 536,
+            "diff": 44,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Dziki Warszawa",
             "played": 6,
             "win": 5,
@@ -9805,30 +9829,6 @@
             "against": 482,
             "diff": 43,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Iraklis BC",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 523,
-            "against": 456,
-            "diff": 67,
-            "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Wurzburg Baskets",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 507,
-            "against": 453,
-            "diff": 54,
-            "points": 10,
             "highlight": null
           },
           {
@@ -48280,19 +48280,20 @@
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "Bayern Munich",
-      "score": null,
+      "score": "117-114",
       "date": "2026-11-17",
       "time": "18:00",
       "utc": "2026-11-17T18:00:00+00:00",
       "venue": "Žalgirio Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16665362"
     },
     {
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "ASVEL Villeurbanne",
-      "score": null,
+      "score": "115-81",
       "date": "2026-11-17",
       "time": "18:00",
       "utc": "2026-11-17T18:00:00+00:00",
@@ -48304,7 +48305,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Wurzburg Baskets",
       "away": "Iraklis BC",
-      "score": null,
+      "score": "73-83",
       "date": "2026-11-17",
       "time": "18:00",
       "utc": "2026-11-17T18:00:00+00:00",
@@ -48316,7 +48317,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Basquet Girona",
       "away": "BC Oostende",
-      "score": null,
+      "score": "80-88",
       "date": "2026-11-17",
       "time": "18:45",
       "utc": "2026-11-17T18:45:00+00:00",
