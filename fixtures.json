@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T19:29:04+00:00",
+  "updated": "2026-11-17T19:39:44+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6440,6 +6440,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Olympiacos BC",
+            "played": 12,
+            "win": 9,
+            "draw": null,
+            "loss": 3,
+            "for": 1045,
+            "against": 968,
+            "diff": 77,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Valencia Basket",
             "played": 11,
             "win": 8,
@@ -6460,18 +6472,6 @@
             "for": 936,
             "against": 852,
             "diff": 84,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Olympiacos BC",
-            "played": 11,
-            "win": 8,
-            "draw": null,
-            "loss": 3,
-            "for": 948,
-            "against": 873,
-            "diff": 75,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6632,18 +6632,6 @@
             "highlight": null
           },
           {
-            "team": "Maccabi Tel Aviv",
-            "played": 11,
-            "win": 3,
-            "draw": null,
-            "loss": 8,
-            "for": 927,
-            "against": 1013,
-            "diff": -86,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Bayern Munich",
             "played": 11,
             "win": 3,
@@ -6652,6 +6640,18 @@
             "for": 955,
             "against": 1047,
             "diff": -92,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Maccabi Tel Aviv",
+            "played": 12,
+            "win": 3,
+            "draw": null,
+            "loss": 9,
+            "for": 1022,
+            "against": 1110,
+            "diff": -88,
             "points": null,
             "highlight": null
           },
@@ -9887,6 +9887,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "BC Kalev/Cramo",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 565,
+            "against": 583,
+            "diff": -18,
+            "points": 11,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Chalon-sur-Saône",
             "played": 6,
             "win": 4,
@@ -9896,30 +9908,18 @@
             "against": 436,
             "diff": 73,
             "points": 10,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Valmiera Glass VIA",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 486,
-            "against": 500,
-            "diff": -14,
-            "points": 9,
             "highlight": null
           },
           {
-            "team": "BC Kalev/Cramo",
-            "played": 6,
+            "team": "Valmiera Glass VIA",
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 482,
-            "against": 502,
-            "diff": -20,
-            "points": 9,
+            "loss": 4,
+            "for": 567,
+            "against": 583,
+            "diff": -16,
+            "points": 10,
             "highlight": null
           },
           {
@@ -9955,14 +9955,14 @@
         "rows": [
           {
             "team": "SL Benfica",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 566,
-            "against": 503,
-            "diff": 63,
-            "points": 11,
+            "loss": 2,
+            "for": 636,
+            "against": 581,
+            "diff": 55,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -9978,6 +9978,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Denizli Basket Spor Kulübü",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 567,
+            "against": 571,
+            "diff": -4,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Lions de Genève pwd by Grand-Saconnex",
             "played": 6,
             "win": 4,
@@ -9987,18 +9999,6 @@
             "against": 504,
             "diff": 25,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "Denizli Basket Spor Kulübü",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 489,
-            "against": 501,
-            "diff": -12,
-            "points": 8,
             "highlight": null
           },
           {
@@ -10034,14 +10034,14 @@
         "rows": [
           {
             "team": "AO Mykonou",
-            "played": 6,
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 504,
-            "against": 458,
-            "diff": 46,
-            "points": 11,
+            "loss": 2,
+            "for": 570,
+            "against": 529,
+            "diff": 41,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -10082,14 +10082,14 @@
           },
           {
             "team": "Fribourg Olympic Basket",
-            "played": 6,
-            "win": 1,
+            "played": 7,
+            "win": 2,
             "draw": null,
             "loss": 5,
-            "for": 438,
-            "against": 524,
-            "diff": -86,
-            "points": 7,
+            "for": 509,
+            "against": 590,
+            "diff": -81,
+            "points": 9,
             "highlight": null
           },
           {
@@ -48207,12 +48207,13 @@
       "league": "euroleague-2026-27",
       "home": "Maccabi Tel Aviv",
       "away": "Olympiacos BC",
-      "score": null,
+      "score": "95-97",
       "date": "2026-11-17",
       "time": "17:00",
       "utc": "2026-11-17T17:00:00+00:00",
       "venue": "Menora Mivtachim Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16665366"
     },
     {
@@ -48231,7 +48232,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Denizli Basket Spor Kulübü",
       "away": "SL Benfica",
-      "score": null,
+      "score": "78-70",
       "date": "2026-11-17",
       "time": "17:00",
       "utc": "2026-11-17T17:00:00+00:00",
@@ -48243,7 +48244,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "AO Mykonou",
       "away": "Fribourg Olympic Basket",
-      "score": null,
+      "score": "66-71",
       "date": "2026-11-17",
       "time": "17:00",
       "utc": "2026-11-17T17:00:00+00:00",
@@ -48876,6 +48877,18 @@
       "source_id": "sofascore:17206932"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "KB Bashkimi",
+      "away": "Manchester Basketball",
+      "score": null,
+      "date": "2026-11-18",
+      "time": "18:00",
+      "utc": "2026-11-18T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212159"
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "KK Bosna",
       "away": "Lietkabelis",
@@ -48982,18 +48995,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17206916"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "KB Bashkimi",
-      "away": "Manchester Basketball",
-      "score": null,
-      "date": "2026-11-18",
-      "time": "20:00",
-      "utc": "2026-11-18T20:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17212159"
     },
     {
       "league": "khl-2026-27",
@@ -73986,30 +73987,6 @@
       "source_id": "sofascore:16670756"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "19:30",
-      "utc": "2027-03-05T19:30:00+00:00",
-      "venue": "Palau Blaugrana",
-      "attendance": null,
-      "source_id": "sofascore:16670758"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Olimpia Milano",
-      "away": "Anadolu Efes",
-      "score": null,
-      "date": "2027-03-05",
-      "time": "19:30",
-      "utc": "2027-03-05T19:30:00+00:00",
-      "venue": "Unipol Forum",
-      "attendance": null,
-      "source_id": "sofascore:16670757"
-    },
-    {
       "league": "rugby-europe-trophy-2026",
       "home": "Czech Republic",
       "away": "Germany",
@@ -74728,30 +74705,6 @@
       "venue": "Kisapuisto",
       "attendance": null,
       "source_id": "sofascore:16337743"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2027-03-09",
-      "time": "17:00",
-      "utc": "2027-03-09T17:00:00+00:00",
-      "venue": "Basketball Development Centre",
-      "attendance": null,
-      "source_id": "sofascore:16670760"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Kauno Žalgiris",
-      "away": "Barcelona",
-      "score": null,
-      "date": "2027-03-09",
-      "time": "18:00",
-      "utc": "2027-03-09T18:00:00+00:00",
-      "venue": "Žalgirio Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670761"
     },
     {
       "league": "shl-2026-27",
