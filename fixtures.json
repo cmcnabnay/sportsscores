@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T20:59:09+00:00",
+  "updated": "2026-11-17T21:36:49+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2880,16 +2880,28 @@
       "Group C": {
         "rows": [
           {
-            "team": "Windrose Giants Antwerp",
-            "played": 3,
+            "team": "Salon Vilpas Vikings",
+            "played": 4,
             "win": 2,
             "draw": null,
-            "loss": 1,
-            "for": 271,
-            "against": 246,
-            "diff": 25,
-            "points": 5,
+            "loss": 2,
+            "for": 346,
+            "against": 344,
+            "diff": 2,
+            "points": 6,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Windrose Giants Antwerp",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 366,
+            "against": 350,
+            "diff": 16,
+            "points": 6,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "AEK BC",
@@ -2912,18 +2924,6 @@
             "for": 244,
             "against": 243,
             "diff": 1,
-            "points": 4,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Salon Vilpas Vikings",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 242,
-            "against": 249,
-            "diff": -7,
             "points": 4,
             "highlight": null
           }
@@ -3160,6 +3160,18 @@
       "Group H": {
         "rows": [
           {
+            "team": "Joventut de Badalona",
+            "played": 4,
+            "win": 4,
+            "draw": null,
+            "loss": 0,
+            "for": 317,
+            "against": 283,
+            "diff": 34,
+            "points": 8,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Telekom Baskets Bonn",
             "played": 4,
             "win": 3,
@@ -3169,30 +3181,18 @@
             "against": 318,
             "diff": 20,
             "points": 7,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Joventut de Badalona",
-            "played": 3,
-            "win": 3,
-            "draw": null,
-            "loss": 0,
-            "for": 243,
-            "against": 213,
-            "diff": 30,
-            "points": 6,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Porto",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 224,
-            "against": 233,
-            "diff": -9,
-            "points": 4,
+            "loss": 3,
+            "for": 294,
+            "against": 307,
+            "diff": -13,
+            "points": 5,
             "highlight": "#BBF3FF"
           },
           {
@@ -4597,13 +4597,13 @@
           {
             "team": "Hapoel Jerusalem",
             "played": 8,
-            "win": 7,
+            "win": 8,
             "draw": null,
-            "loss": 1,
-            "for": 625,
-            "against": 526,
-            "diff": 99,
-            "points": 15,
+            "loss": 0,
+            "for": 710,
+            "against": 598,
+            "diff": 112,
+            "points": 16,
             "highlight": "#BBF3BB"
           },
           {
@@ -4655,18 +4655,6 @@
             "highlight": null
           },
           {
-            "team": "Rostock Seawolves",
-            "played": 8,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 557,
-            "against": 611,
-            "diff": -54,
-            "points": 11,
-            "highlight": null
-          },
-          {
             "team": "KK Cedevita Olimpija",
             "played": 7,
             "win": 2,
@@ -4676,6 +4664,18 @@
             "against": 553,
             "diff": -29,
             "points": 9,
+            "highlight": null
+          },
+          {
+            "team": "Rostock Seawolves",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 629,
+            "against": 696,
+            "diff": -67,
+            "points": 10,
             "highlight": null
           },
           {
@@ -4710,6 +4710,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "London Lions",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 636,
+            "against": 583,
+            "diff": 53,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Maxima Roma",
             "played": 7,
             "win": 4,
@@ -4718,18 +4730,6 @@
             "for": 619,
             "against": 593,
             "diff": 26,
-            "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "London Lions",
-            "played": 7,
-            "win": 4,
-            "draw": null,
-            "loss": 3,
-            "for": 568,
-            "against": 528,
-            "diff": 40,
             "points": 11,
             "highlight": "#BBF3BB"
           },
@@ -4759,14 +4759,14 @@
           },
           {
             "team": "Siauliai",
-            "played": 7,
+            "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 560,
-            "against": 604,
-            "diff": -44,
-            "points": 10,
+            "loss": 5,
+            "for": 615,
+            "against": 672,
+            "diff": -57,
+            "points": 11,
             "highlight": null
           },
           {
@@ -4906,13 +4906,13 @@
           {
             "team": "Bahçeşehir Koleji",
             "played": 8,
-            "win": 6,
+            "win": 7,
             "draw": null,
             "loss": 1,
-            "for": 656,
-            "against": 544,
-            "diff": 112,
-            "points": 14,
+            "for": 740,
+            "against": 606,
+            "diff": 134,
+            "points": 15,
             "highlight": "#BBF3BB"
           },
           {
@@ -4956,10 +4956,10 @@
             "played": 8,
             "win": 3,
             "draw": null,
-            "loss": 4,
-            "for": 617,
-            "against": 642,
-            "diff": -25,
+            "loss": 5,
+            "for": 679,
+            "against": 726,
+            "diff": -47,
             "points": 11,
             "highlight": null
           },
@@ -9718,14 +9718,14 @@
         "rows": [
           {
             "team": "Nancy",
-            "played": 6,
-            "win": 5,
+            "played": 7,
+            "win": 6,
             "draw": null,
             "loss": 1,
-            "for": 523,
-            "against": 435,
-            "diff": 88,
-            "points": 11,
+            "for": 623,
+            "against": 499,
+            "diff": 124,
+            "points": 13,
             "highlight": "#BBF3BB"
           },
           {
@@ -9753,14 +9753,14 @@
             "highlight": null
           },
           {
-            "team": "BC Vienna",
-            "played": 6,
-            "win": 2,
+            "team": "BC Pärnu",
+            "played": 7,
+            "win": 1,
             "draw": null,
-            "loss": 4,
-            "for": 483,
-            "against": 511,
-            "diff": -28,
+            "loss": 6,
+            "for": 495,
+            "against": 591,
+            "diff": -96,
             "points": 8,
             "highlight": null
           },
@@ -9777,15 +9777,15 @@
             "highlight": null
           },
           {
-            "team": "BC Pärnu",
+            "team": "BC Vienna",
             "played": 6,
-            "win": 1,
+            "win": 2,
             "draw": null,
-            "loss": 5,
-            "for": 431,
-            "against": 491,
-            "diff": -60,
-            "points": 7,
+            "loss": 4,
+            "for": 483,
+            "against": 511,
+            "diff": -28,
+            "points": 8,
             "highlight": null
           }
         ],
@@ -9875,15 +9875,27 @@
       "Group F": {
         "rows": [
           {
-            "team": "Biotekno Körfez Basket",
-            "played": 6,
+            "team": "Chalon-sur-Saône",
+            "played": 7,
             "win": 5,
             "draw": null,
-            "loss": 1,
-            "for": 524,
-            "against": 444,
-            "diff": 80,
-            "points": 11,
+            "loss": 2,
+            "for": 605,
+            "against": 501,
+            "diff": 104,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Biotekno Körfez Basket",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 589,
+            "against": 540,
+            "diff": 49,
+            "points": 12,
             "highlight": "#BBF3BB"
           },
           {
@@ -9896,18 +9908,6 @@
             "against": 583,
             "diff": -18,
             "points": 11,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Chalon-sur-Saône",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 509,
-            "against": 436,
-            "diff": 73,
-            "points": 10,
             "highlight": null
           },
           {
@@ -48329,19 +48329,20 @@
       "league": "bcl-2026-27",
       "home": "Windrose Giants Antwerp",
       "away": "Salon Vilpas Vikings",
-      "score": null,
+      "score": "95-104",
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
       "venue": "Lotto Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:17230820"
     },
     {
       "league": "eurocup-2026-27",
       "home": "Rostock Seawolves",
       "away": "Hapoel Jerusalem",
-      "score": null,
+      "score": "80-91",
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
@@ -48353,7 +48354,7 @@
       "league": "eurocup-2026-27",
       "home": "BC Roma SPQR",
       "away": "Bahçeşehir Koleji",
-      "score": null,
+      "score": "70-92",
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
@@ -48365,7 +48366,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Nancy",
       "away": "BC Pärnu",
-      "score": null,
+      "score": "100-64",
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
@@ -48377,7 +48378,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Chalon-sur-Saône",
       "away": "Biotekno Körfez Basket",
-      "score": null,
+      "score": "96-65",
       "date": "2026-11-17",
       "time": "19:00",
       "utc": "2026-11-17T19:00:00+00:00",
@@ -48389,7 +48390,7 @@
       "league": "bcl-2026-27",
       "home": "Joventut de Badalona",
       "away": "Porto",
-      "score": null,
+      "score": "74-70",
       "date": "2026-11-17",
       "time": "19:30",
       "utc": "2026-11-17T19:30:00+00:00",
@@ -48437,7 +48438,7 @@
       "league": "eurocup-2026-27",
       "home": "London Lions",
       "away": "Siauliai",
-      "score": null,
+      "score": "68-55",
       "date": "2026-11-17",
       "time": "19:30",
       "utc": "2026-11-17T19:30:00+00:00",
