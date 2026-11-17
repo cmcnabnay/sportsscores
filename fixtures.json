@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T21:58:28+00:00",
+  "updated": "2026-11-17T22:09:34+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6440,6 +6440,18 @@
       "Euroleague 26/27": {
         "rows": [
           {
+            "team": "Valencia Basket",
+            "played": 12,
+            "win": 9,
+            "draw": null,
+            "loss": 3,
+            "for": 1129,
+            "against": 1030,
+            "diff": 99,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Olympiacos BC",
             "played": 12,
             "win": 9,
@@ -6452,18 +6464,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Valencia Basket",
-            "played": 11,
-            "win": 8,
-            "draw": null,
-            "loss": 3,
-            "for": 1053,
-            "against": 966,
-            "diff": 87,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Panathinaikos BC",
             "played": 11,
             "win": 8,
@@ -6472,18 +6472,6 @@
             "for": 936,
             "against": 852,
             "diff": 84,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Barcelona",
-            "played": 11,
-            "win": 8,
-            "draw": null,
-            "loss": 3,
-            "for": 978,
-            "against": 948,
-            "diff": 30,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6508,6 +6496,18 @@
             "for": 1059,
             "against": 1020,
             "diff": 39,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Barcelona",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 1064,
+            "against": 1037,
+            "diff": 27,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6537,37 +6537,49 @@
           },
           {
             "team": "KK Crvena zvezda",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 909,
-            "against": 845,
-            "diff": 64,
+            "loss": 5,
+            "for": 986,
+            "against": 936,
+            "diff": 50,
             "points": null,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Hapoel Tel-Aviv",
-            "played": 11,
-            "win": 6,
+            "played": 12,
+            "win": 7,
             "draw": null,
             "loss": 5,
-            "for": 994,
-            "against": 959,
-            "diff": 35,
+            "for": 1079,
+            "against": 1041,
+            "diff": 38,
             "points": null,
             "highlight": "#BBF3FF"
           },
           {
             "team": "KK Partizan Mozzart Bet",
-            "played": 11,
+            "played": 12,
             "win": 6,
             "draw": null,
-            "loss": 5,
-            "for": 864,
-            "against": 848,
-            "diff": 16,
+            "loss": 6,
+            "for": 928,
+            "against": 924,
+            "diff": 4,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 1071,
+            "against": 1104,
+            "diff": -33,
             "points": null,
             "highlight": null
           },
@@ -6580,18 +6592,6 @@
             "for": 972,
             "against": 1000,
             "diff": -28,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 982,
-            "against": 1018,
-            "diff": -36,
             "points": null,
             "highlight": null
           },
@@ -6657,25 +6657,25 @@
           },
           {
             "team": "Olimpia Milano",
-            "played": 11,
-            "win": 1,
+            "played": 12,
+            "win": 2,
             "draw": null,
             "loss": 10,
-            "for": 894,
-            "against": 982,
-            "diff": -88,
+            "for": 985,
+            "against": 1059,
+            "diff": -74,
             "points": null,
             "highlight": null
           },
           {
             "team": "Baskonia Vitoria",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": null,
-            "loss": 10,
-            "for": 879,
-            "against": 1011,
-            "diff": -132,
+            "loss": 11,
+            "for": 961,
+            "against": 1096,
+            "diff": -135,
             "points": null,
             "highlight": null
           }
@@ -48402,7 +48402,7 @@
       "league": "euroleague-2026-27",
       "home": "Barcelona",
       "away": "Paris Basketball",
-      "score": null,
+      "score": "86-89",
       "date": "2026-11-17",
       "time": "19:30",
       "utc": "2026-11-17T19:30:00+00:00",
@@ -48414,7 +48414,7 @@
       "league": "euroleague-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Hapoel Tel-Aviv",
-      "score": null,
+      "score": "82-85",
       "date": "2026-11-17",
       "time": "19:30",
       "utc": "2026-11-17T19:30:00+00:00",
@@ -48426,7 +48426,7 @@
       "league": "euroleague-2026-27",
       "home": "Olimpia Milano",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "91-77",
       "date": "2026-11-17",
       "time": "19:30",
       "utc": "2026-11-17T19:30:00+00:00",
@@ -48450,7 +48450,7 @@
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Valencia Basket",
-      "score": null,
+      "score": "64-76",
       "date": "2026-11-17",
       "time": "19:45",
       "utc": "2026-11-17T19:45:00+00:00",
@@ -48462,7 +48462,7 @@
       "league": "euroleague-2026-27",
       "home": "Virtus Bologna",
       "away": "Panathinaikos BC",
-      "score": null,
+      "score": "84-79",
       "date": "2026-11-17",
       "time": "20:00",
       "utc": "2026-11-17T20:00:00+00:00",
@@ -64263,30 +64263,6 @@
       "source_id": "sofascore:16670698"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Virtus Bologna",
-      "away": "Barcelona",
-      "score": null,
-      "date": "2027-01-15",
-      "time": "19:30",
-      "utc": "2027-01-15T19:30:00+00:00",
-      "venue": "Virtus Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670704"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Fenerbahçe Tarfin",
-      "score": null,
-      "date": "2027-01-15",
-      "time": "19:45",
-      "utc": "2027-01-15T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670700"
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Northampton Saints",
       "away": "Bulls",
@@ -65247,30 +65223,6 @@
       "source_id": "365scores:4809137"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "Panathinaikos BC",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "17:00",
-      "utc": "2027-01-21T17:00:00+00:00",
-      "venue": "Shlomo Group Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670703"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Fenerbahçe Tarfin",
-      "away": "Beşiktaş JK",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "17:45",
-      "utc": "2027-01-21T17:45:00+00:00",
-      "venue": "Ulker Sports Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670695"
-    },
-    {
       "league": "shl-2026-27",
       "home": "Rögle BK",
       "away": "Färjestad BK",
@@ -65353,66 +65305,6 @@
       "venue": "Hovet",
       "attendance": null,
       "source_id": "sofascore:16230934"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Bayern Munich",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "19:00",
-      "utc": "2027-01-21T19:00:00+00:00",
-      "venue": "BMW Park",
-      "attendance": null,
-      "source_id": "sofascore:16670697"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Valencia Basket",
-      "away": "ASVEL Villeurbanne",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "19:00",
-      "utc": "2027-01-21T19:00:00+00:00",
-      "venue": "Roig Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670708"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Real Madrid",
-      "away": "Maccabi Tel Aviv",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "19:45",
-      "utc": "2027-01-21T19:45:00+00:00",
-      "venue": "Movistar Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670706"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Paris Basketball",
-      "away": "Baskonia Vitoria",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "19:45",
-      "utc": "2027-01-21T19:45:00+00:00",
-      "venue": "Porte de La Chapelle Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670701"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Olympiacos BC",
-      "score": null,
-      "date": "2027-01-21",
-      "time": "19:45",
-      "utc": "2027-01-21T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670702"
     },
     {
       "league": "prod2-2026",
@@ -73989,6 +73881,30 @@
       "source_id": "sofascore:16670756"
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "19:30",
+      "utc": "2027-03-05T19:30:00+00:00",
+      "venue": "Palau Blaugrana",
+      "attendance": null,
+      "source_id": "sofascore:16670758"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Olimpia Milano",
+      "away": "Anadolu Efes",
+      "score": null,
+      "date": "2027-03-05",
+      "time": "19:30",
+      "utc": "2027-03-05T19:30:00+00:00",
+      "venue": "Unipol Forum",
+      "attendance": null,
+      "source_id": "sofascore:16670757"
+    },
+    {
       "league": "rugby-europe-trophy-2026",
       "home": "Czech Republic",
       "away": "Germany",
@@ -74707,6 +74623,30 @@
       "venue": "Kisapuisto",
       "attendance": null,
       "source_id": "sofascore:16337743"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Beşiktaş JK",
+      "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "17:00",
+      "utc": "2027-03-09T17:00:00+00:00",
+      "venue": "Basketball Development Centre",
+      "attendance": null,
+      "source_id": "sofascore:16670760"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kauno Žalgiris",
+      "away": "Barcelona",
+      "score": null,
+      "date": "2027-03-09",
+      "time": "18:00",
+      "utc": "2027-03-09T18:00:00+00:00",
+      "venue": "Žalgirio Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670761"
     },
     {
       "league": "shl-2026-27",
@@ -77119,66 +77059,6 @@
       "venue": "Basketball Development Centre",
       "attendance": null,
       "source_id": "sofascore:16670793"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Hapoel Tel-Aviv",
-      "away": "Fenerbahçe Tarfin",
-      "score": null,
-      "date": "2027-03-23",
-      "time": "18:45",
-      "utc": "2027-03-23T18:45:00+00:00",
-      "venue": "Shlomo Group Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670791"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "ASVEL Villeurbanne",
-      "away": "Panathinaikos BC",
-      "score": null,
-      "date": "2027-03-23",
-      "time": "19:00",
-      "utc": "2027-03-23T19:00:00+00:00",
-      "venue": "LDLC Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670792"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Paris Basketball",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2027-03-23",
-      "time": "19:45",
-      "utc": "2027-03-23T19:45:00+00:00",
-      "venue": "Porte de La Chapelle Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670794"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Virtus Bologna",
-      "score": null,
-      "date": "2027-03-23",
-      "time": "19:45",
-      "utc": "2027-03-23T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670795"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Kauno Žalgiris",
-      "away": "Maccabi Tel Aviv",
-      "score": null,
-      "date": "2027-03-24",
-      "time": "18:00",
-      "utc": "2027-03-24T18:00:00+00:00",
-      "venue": "Žalgirio Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670796"
     },
     {
       "league": "euroleague-2026-27",
