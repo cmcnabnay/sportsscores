@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-17T16:23:04+00:00",
+  "updated": "2026-11-17T16:33:38+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3421,18 +3421,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Spartak Moscow",
-            "played": 28,
-            "win": 15,
-            "draw": null,
-            "loss": 9,
-            "for": 76,
-            "against": 60,
-            "diff": 16,
-            "points": 34,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 26,
             "win": 15,
@@ -3442,6 +3430,18 @@
             "against": 56,
             "diff": 10,
             "points": 34,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Spartak Moscow",
+            "played": 28,
+            "win": 14,
+            "draw": null,
+            "loss": 10,
+            "for": 76,
+            "against": 62,
+            "diff": 14,
+            "points": 32,
             "highlight": "#BBF3FF"
           },
           {
@@ -3470,7 +3470,7 @@
           },
           {
             "team": "Dynamo Moscow",
-            "played": 28,
+            "played": 29,
             "win": 12,
             "draw": null,
             "loss": 11,
@@ -3482,7 +3482,7 @@
           },
           {
             "team": "Dinamo Minsk",
-            "played": 27,
+            "played": 28,
             "win": 10,
             "draw": null,
             "loss": 10,
@@ -3505,18 +3505,6 @@
             "highlight": null
           },
           {
-            "team": "Lada Togliatti",
-            "played": 28,
-            "win": 6,
-            "draw": null,
-            "loss": 16,
-            "for": 42,
-            "against": 85,
-            "diff": -43,
-            "points": 17,
-            "highlight": null
-          },
-          {
             "team": "HC Sochi",
             "played": 27,
             "win": 8,
@@ -3525,6 +3513,18 @@
             "for": 45,
             "against": 90,
             "diff": -45,
+            "points": 17,
+            "highlight": null
+          },
+          {
+            "team": "Lada Togliatti",
+            "played": 28,
+            "win": 6,
+            "draw": null,
+            "loss": 17,
+            "for": 43,
+            "against": 91,
+            "diff": -48,
             "points": 17,
             "highlight": null
           }
@@ -3540,13 +3540,13 @@
           {
             "team": "Metallurg Magnitogorsk",
             "played": 28,
-            "win": 18,
+            "win": 19,
             "draw": null,
             "loss": 6,
-            "for": 93,
-            "against": 65,
-            "diff": 28,
-            "points": 39,
+            "for": 99,
+            "against": 66,
+            "diff": 33,
+            "points": 41,
             "highlight": "#D6F9FF"
           },
           {
@@ -3562,8 +3562,20 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 26,
+            "win": 14,
+            "draw": null,
+            "loss": 9,
+            "for": 71,
+            "against": 62,
+            "diff": 9,
+            "points": 31,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 27,
+            "played": 28,
             "win": 14,
             "draw": null,
             "loss": 10,
@@ -3583,7 +3595,7 @@
             "against": 58,
             "diff": -5,
             "points": 30,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Barys Astana",
@@ -3594,18 +3606,6 @@
             "for": 84,
             "against": 72,
             "diff": 12,
-            "points": 29,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 26,
-            "win": 13,
-            "draw": null,
-            "loss": 10,
-            "for": 69,
-            "against": 62,
-            "diff": 7,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3647,7 +3647,7 @@
           },
           {
             "team": "AK Bars",
-            "played": 28,
+            "played": 29,
             "win": 11,
             "draw": null,
             "loss": 13,
@@ -12213,7 +12213,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-16T19:45:28.662560+00:00",
-    "torpedo": "2026-11-16T16:18:08.246178+00:00",
+    "torpedo": "2026-11-17T16:33:00.989155+00:00",
     "velez:playoffs": "2026-11-17T15:13:11.050682+00:00"
   },
   "matches": [
