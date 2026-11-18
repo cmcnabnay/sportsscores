@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-18T19:21:53+00:00",
+  "updated": "2026-11-18T19:32:24+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2824,6 +2824,30 @@
       "Group B": {
         "rows": [
           {
+            "team": "Galatasaray MCT Technic",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 319,
+            "against": 333,
+            "diff": -14,
+            "points": 6,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Legia Warszawa",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 317,
+            "against": 337,
+            "diff": -20,
+            "points": 6,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Strasbourg",
             "played": 3,
             "win": 2,
@@ -2832,18 +2856,6 @@
             "for": 272,
             "against": 215,
             "diff": 57,
-            "points": 5,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Legia Warszawa",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 236,
-            "against": 249,
-            "diff": -13,
             "points": 5,
             "highlight": "#BBF3FF"
           },
@@ -2857,18 +2869,6 @@
             "against": 266,
             "diff": -23,
             "points": 4,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Galatasaray MCT Technic",
-            "played": 3,
-            "win": 1,
-            "draw": null,
-            "loss": 2,
-            "for": 231,
-            "against": 252,
-            "diff": -21,
-            "points": 4,
             "highlight": null
           }
         ],
@@ -2880,6 +2880,18 @@
       "Group C": {
         "rows": [
           {
+            "team": "AEK BC",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 333,
+            "against": 351,
+            "diff": -18,
+            "points": 7,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Salon Vilpas Vikings",
             "played": 4,
             "win": 2,
@@ -2889,7 +2901,7 @@
             "against": 344,
             "diff": 2,
             "points": 6,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Windrose Giants Antwerp",
@@ -2904,27 +2916,15 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "AEK BC",
-            "played": 3,
-            "win": 2,
-            "draw": null,
-            "loss": 1,
-            "for": 243,
-            "against": 262,
-            "diff": -19,
-            "points": 5,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Falco KC-Szombathely",
-            "played": 3,
+            "played": 4,
             "win": 1,
             "draw": null,
-            "loss": 2,
-            "for": 244,
-            "against": 243,
-            "diff": 1,
-            "points": 4,
+            "loss": 3,
+            "for": 333,
+            "against": 333,
+            "diff": 0,
+            "points": 5,
             "highlight": null
           }
         ],
@@ -6457,21 +6457,9 @@
             "win": 9,
             "draw": null,
             "loss": 3,
-            "for": 1045,
-            "against": 968,
-            "diff": 77,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Panathinaikos BC",
-            "played": 11,
-            "win": 8,
-            "draw": null,
-            "loss": 3,
-            "for": 936,
-            "against": 852,
-            "diff": 84,
+            "for": 1030,
+            "against": 955,
+            "diff": 75,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6488,14 +6476,26 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Panathinaikos BC",
+            "played": 12,
+            "win": 8,
+            "draw": null,
+            "loss": 4,
+            "for": 1015,
+            "against": 936,
+            "diff": 79,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Kauno Žalgiris",
             "played": 12,
             "win": 8,
             "draw": null,
             "loss": 4,
-            "for": 1059,
-            "against": 1020,
-            "diff": 39,
+            "for": 1043,
+            "against": 1007,
+            "diff": 36,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6525,13 +6525,13 @@
           },
           {
             "team": "Real Madrid",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 1072,
-            "against": 977,
-            "diff": 95,
+            "loss": 5,
+            "for": 1151,
+            "against": 1060,
+            "diff": 91,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6572,6 +6572,18 @@
             "highlight": null
           },
           {
+            "team": "Beşiktaş JK",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 1055,
+            "against": 1079,
+            "diff": -24,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Paris Basketball",
             "played": 12,
             "win": 6,
@@ -6580,18 +6592,6 @@
             "for": 1071,
             "against": 1104,
             "diff": -33,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Beşiktaş JK",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 972,
-            "against": 1000,
-            "diff": -28,
             "points": null,
             "highlight": null
           },
@@ -6609,13 +6609,13 @@
           },
           {
             "team": "Virtus Bologna",
-            "played": 11,
-            "win": 4,
+            "played": 12,
+            "win": 5,
             "draw": null,
             "loss": 7,
-            "for": 947,
-            "against": 998,
-            "diff": -51,
+            "for": 1031,
+            "against": 1077,
+            "diff": -46,
             "points": null,
             "highlight": null
           },
@@ -6637,9 +6637,9 @@
             "win": 3,
             "draw": null,
             "loss": 9,
-            "for": 1022,
-            "against": 1110,
-            "diff": -88,
+            "for": 1009,
+            "against": 1095,
+            "diff": -86,
             "points": null,
             "highlight": null
           },
@@ -6649,9 +6649,9 @@
             "win": 3,
             "draw": null,
             "loss": 9,
-            "for": 1069,
-            "against": 1164,
-            "diff": -95,
+            "for": 1056,
+            "against": 1148,
+            "diff": -92,
             "points": null,
             "highlight": null
           },
@@ -9492,16 +9492,28 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "KK Split",
-            "played": 6,
+            "team": "KB Trepça",
+            "played": 7,
             "win": 4,
             "draw": null,
-            "loss": 2,
-            "for": 489,
-            "against": 482,
-            "diff": 7,
-            "points": 10,
+            "loss": 3,
+            "for": 559,
+            "against": 575,
+            "diff": -16,
+            "points": 11,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "KK Split",
+            "played": 7,
+            "win": 4,
+            "draw": null,
+            "loss": 3,
+            "for": 577,
+            "against": 576,
+            "diff": 1,
+            "points": 11,
+            "highlight": null
           },
           {
             "team": "Promitheas Patras BC Vikos Cola",
@@ -9513,18 +9525,6 @@
             "against": 491,
             "diff": 49,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "KB Trepça",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 465,
-            "against": 487,
-            "diff": -22,
-            "points": 9,
             "highlight": null
           },
           {
@@ -9596,14 +9596,14 @@
           },
           {
             "team": "NHSZ-Szolnoki Olajbányász",
-            "played": 6,
-            "win": 2,
+            "played": 7,
+            "win": 3,
             "draw": null,
             "loss": 4,
-            "for": 465,
-            "against": 530,
-            "diff": -65,
-            "points": 8,
+            "for": 569,
+            "against": 603,
+            "diff": -34,
+            "points": 10,
             "highlight": null
           },
           {
@@ -9620,14 +9620,14 @@
           },
           {
             "team": "CS Dinamo București",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
-            "for": 501,
-            "against": 512,
-            "diff": -11,
-            "points": 7,
+            "loss": 6,
+            "for": 574,
+            "against": 616,
+            "diff": -42,
+            "points": 8,
             "highlight": null
           }
         ],
@@ -9796,6 +9796,18 @@
       "Group E": {
         "rows": [
           {
+            "team": "Dziki Warszawa",
+            "played": 7,
+            "win": 6,
+            "draw": null,
+            "loss": 1,
+            "for": 624,
+            "against": 571,
+            "diff": 53,
+            "points": 13,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Iraklis BC",
             "played": 7,
             "win": 5,
@@ -9817,18 +9829,18 @@
             "against": 536,
             "diff": 44,
             "points": 11,
-            "highlight": "#BBF3BB"
+            "highlight": null
           },
           {
-            "team": "Dziki Warszawa",
-            "played": 6,
-            "win": 5,
+            "team": "AEK Larnaca B.C.",
+            "played": 7,
+            "win": 3,
             "draw": null,
-            "loss": 1,
-            "for": 525,
-            "against": 482,
-            "diff": 43,
-            "points": 11,
+            "loss": 4,
+            "for": 566,
+            "against": 579,
+            "diff": -13,
+            "points": 10,
             "highlight": null
           },
           {
@@ -9841,18 +9853,6 @@
             "against": 675,
             "diff": -54,
             "points": 10,
-            "highlight": null
-          },
-          {
-            "team": "AEK Larnaca B.C.",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 477,
-            "against": 480,
-            "diff": -3,
-            "points": 9,
             "highlight": null
           },
           {
@@ -10045,6 +10045,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "CSM Oradea",
+            "played": 7,
+            "win": 5,
+            "draw": null,
+            "loss": 2,
+            "for": 622,
+            "against": 581,
+            "diff": 41,
+            "points": 12,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "VEF Rīga",
             "played": 7,
             "win": 5,
@@ -10054,30 +10066,18 @@
             "against": 563,
             "diff": 103,
             "points": 12,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "CSM Oradea",
-            "played": 6,
-            "win": 4,
-            "draw": null,
-            "loss": 2,
-            "for": 518,
-            "against": 482,
-            "diff": 36,
-            "points": 10,
             "highlight": null
           },
           {
             "team": "Lokomotiv Plovdiv 1926",
-            "played": 6,
+            "played": 7,
             "win": 3,
             "draw": null,
-            "loss": 3,
-            "for": 500,
-            "against": 501,
-            "diff": -1,
-            "points": 9,
+            "loss": 4,
+            "for": 599,
+            "against": 605,
+            "diff": -6,
+            "points": 10,
             "highlight": null
           },
           {
@@ -48656,7 +48656,7 @@
       "league": "bcl-2026-27",
       "home": "Galatasaray MCT Technic",
       "away": "Legia Warszawa",
-      "score": null,
+      "score": "88-81",
       "date": "2026-11-18",
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
@@ -48668,7 +48668,7 @@
       "league": "bcl-2026-27",
       "home": "AEK BC",
       "away": "Falco KC-Szombathely",
-      "score": null,
+      "score": "90-89",
       "date": "2026-11-18",
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
@@ -48680,7 +48680,7 @@
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Real Madrid",
-      "score": null,
+      "score": "83-79",
       "date": "2026-11-18",
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
@@ -48752,12 +48752,13 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "CSM Oradea",
       "away": "Lokomotiv Plovdiv 1926",
-      "score": null,
+      "score": "104-99",
       "date": "2026-11-18",
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:17207112"
     },
     {
@@ -48776,7 +48777,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "AEK Larnaca B.C.",
       "away": "Dziki Warszawa",
-      "score": null,
+      "score": "89-99",
       "date": "2026-11-18",
       "time": "17:00",
       "utc": "2026-11-18T17:00:00+00:00",
@@ -48800,7 +48801,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "KB Trepça",
       "away": "KK Split",
-      "score": null,
+      "score": "94-88",
       "date": "2026-11-18",
       "time": "17:30",
       "utc": "2026-11-18T17:30:00+00:00",
@@ -48812,7 +48813,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Bakken Bears",
       "away": "Lions de Genève pwd by Grand-Saconnex",
-      "score": null,
+      "score": "77-69",
       "date": "2026-11-18",
       "time": "17:30",
       "utc": "2026-11-18T17:30:00+00:00",
@@ -64277,6 +64278,30 @@
       "source_id": "sofascore:16670698"
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Virtus Bologna",
+      "away": "Barcelona",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "19:30",
+      "utc": "2027-01-15T19:30:00+00:00",
+      "venue": "Virtus Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670704"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Fenerbahçe Tarfin",
+      "score": null,
+      "date": "2027-01-15",
+      "time": "19:45",
+      "utc": "2027-01-15T19:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670700"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Northampton Saints",
       "away": "Bulls",
@@ -65237,6 +65262,30 @@
       "source_id": "365scores:4809137"
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Panathinaikos BC",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "17:00",
+      "utc": "2027-01-21T17:00:00+00:00",
+      "venue": "Shlomo Group Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670703"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Beşiktaş JK",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "17:45",
+      "utc": "2027-01-21T17:45:00+00:00",
+      "venue": "Ulker Sports Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670695"
+    },
+    {
       "league": "shl-2026-27",
       "home": "Rögle BK",
       "away": "Färjestad BK",
@@ -65319,6 +65368,66 @@
       "venue": "Hovet",
       "attendance": null,
       "source_id": "sofascore:16230934"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Bayern Munich",
+      "away": "Olimpia Milano",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "19:00",
+      "utc": "2027-01-21T19:00:00+00:00",
+      "venue": "BMW Park",
+      "attendance": null,
+      "source_id": "sofascore:16670697"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Valencia Basket",
+      "away": "ASVEL Villeurbanne",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "19:00",
+      "utc": "2027-01-21T19:00:00+00:00",
+      "venue": "Roig Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670708"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Olympiacos BC",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "19:45",
+      "utc": "2027-01-21T19:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670702"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Real Madrid",
+      "away": "Maccabi Tel Aviv",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "19:45",
+      "utc": "2027-01-21T19:45:00+00:00",
+      "venue": "Movistar Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670706"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Paris Basketball",
+      "away": "Baskonia Vitoria",
+      "score": null,
+      "date": "2027-01-21",
+      "time": "19:45",
+      "utc": "2027-01-21T19:45:00+00:00",
+      "venue": "Porte de La Chapelle Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670701"
     },
     {
       "league": "prod2-2026",
@@ -74808,18 +74917,6 @@
     },
     {
       "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Paris Basketball",
-      "score": null,
-      "date": "2027-03-09",
-      "time": "19:45",
-      "utc": "2027-03-09T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670766"
-    },
-    {
-      "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "Valencia Basket",
       "score": null,
@@ -77073,6 +77170,66 @@
       "venue": "Basketball Development Centre",
       "attendance": null,
       "source_id": "sofascore:16670793"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Fenerbahçe Tarfin",
+      "score": null,
+      "date": "2027-03-23",
+      "time": "18:45",
+      "utc": "2027-03-23T18:45:00+00:00",
+      "venue": "Shlomo Group Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670791"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "ASVEL Villeurbanne",
+      "away": "Panathinaikos BC",
+      "score": null,
+      "date": "2027-03-23",
+      "time": "19:00",
+      "utc": "2027-03-23T19:00:00+00:00",
+      "venue": "LDLC Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670792"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Virtus Bologna",
+      "score": null,
+      "date": "2027-03-23",
+      "time": "19:45",
+      "utc": "2027-03-23T19:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670795"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Paris Basketball",
+      "away": "Olimpia Milano",
+      "score": null,
+      "date": "2027-03-23",
+      "time": "19:45",
+      "utc": "2027-03-23T19:45:00+00:00",
+      "venue": "Porte de La Chapelle Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670794"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Kauno Žalgiris",
+      "away": "Maccabi Tel Aviv",
+      "score": null,
+      "date": "2027-03-24",
+      "time": "18:00",
+      "utc": "2027-03-24T18:00:00+00:00",
+      "venue": "Žalgirio Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670796"
     },
     {
       "league": "euroleague-2026-27",
