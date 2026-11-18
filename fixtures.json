@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-18T17:22:17+00:00",
+  "updated": "2026-11-18T17:33:03+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9990,6 +9990,18 @@
             "highlight": null
           },
           {
+            "team": "BC Prievidza",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 617,
+            "against": 611,
+            "diff": 6,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "Lions de Genève pwd by Grand-Saconnex",
             "played": 6,
             "win": 4,
@@ -10002,27 +10014,15 @@
             "highlight": null
           },
           {
-            "team": "BC Prievidza",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 520,
-            "against": 518,
-            "diff": 2,
-            "points": 8,
-            "highlight": null
-          },
-          {
             "team": "Landau Lions",
-            "played": 6,
+            "played": 7,
             "win": 1,
             "draw": null,
-            "loss": 5,
-            "for": 502,
-            "against": 572,
-            "diff": -70,
-            "points": 7,
+            "loss": 6,
+            "for": 595,
+            "against": 669,
+            "diff": -74,
+            "points": 8,
             "highlight": null
           }
         ],
@@ -48498,7 +48498,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Landau Lions",
       "away": "BC Prievidza",
-      "score": null,
+      "score": "93-97",
       "date": "2026-11-18",
       "time": "15:00",
       "utc": "2026-11-18T15:00:00+00:00",
