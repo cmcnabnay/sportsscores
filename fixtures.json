@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-18T15:55:59+00:00",
+  "updated": "2026-11-18T16:07:35+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3446,7 +3446,7 @@
           },
           {
             "team": "Severstal Cherepovets",
-            "played": 26,
+            "played": 27,
             "win": 15,
             "draw": null,
             "loss": 9,
@@ -3506,7 +3506,7 @@
           },
           {
             "team": "HC Sochi",
-            "played": 27,
+            "played": 28,
             "win": 8,
             "draw": null,
             "loss": 18,
@@ -3550,6 +3550,18 @@
             "highlight": "#D6F9FF"
           },
           {
+            "team": "Avangard Omsk",
+            "played": 26,
+            "win": 15,
+            "draw": null,
+            "loss": 9,
+            "for": 56,
+            "against": 59,
+            "diff": -3,
+            "points": 32,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 28,
             "win": 14,
@@ -3583,29 +3595,29 @@
             "against": 62,
             "diff": 8,
             "points": 31,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 25,
-            "win": 14,
-            "draw": null,
-            "loss": 9,
-            "for": 53,
-            "against": 58,
-            "diff": -5,
-            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Barys Astana",
-            "played": 26,
+            "played": 27,
             "win": 14,
             "draw": null,
-            "loss": 11,
-            "for": 84,
-            "against": 72,
-            "diff": 12,
+            "loss": 12,
+            "for": 86,
+            "against": 76,
+            "diff": 10,
+            "points": 29,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Salavat Yulayev Ufa",
+            "played": 28,
+            "win": 14,
+            "draw": null,
+            "loss": 12,
+            "for": 82,
+            "against": 82,
+            "diff": 0,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3622,26 +3634,14 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Salavat Yulayev Ufa",
-            "played": 27,
-            "win": 13,
-            "draw": null,
-            "loss": 12,
-            "for": 78,
-            "against": 80,
-            "diff": -2,
-            "points": 27,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Admiral Vladivostok",
-            "played": 26,
+            "played": 27,
             "win": 11,
             "draw": null,
-            "loss": 12,
-            "for": 69,
-            "against": 77,
-            "diff": -8,
+            "loss": 13,
+            "for": 70,
+            "against": 80,
+            "diff": -10,
             "points": 25,
             "highlight": null
           },
@@ -48474,7 +48474,7 @@
       "league": "khl-2026-27",
       "home": "Avangard Omsk",
       "away": "Admiral Vladivostok",
-      "score": null,
+      "score": "3-1",
       "date": "2026-11-18",
       "time": "13:30",
       "utc": "2026-11-18T13:30:00+00:00",
@@ -49634,6 +49634,18 @@
       "source_id": "sofascore:16535123"
     },
     {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Spartak Moscow",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "11:00",
+      "utc": "2026-11-21T11:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895453"
+    },
+    {
       "league": "championship-2026",
       "home": "Ampthill RUFC",
       "away": "Bedford Blues",
@@ -49680,6 +49692,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4760378"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "HC Sochi",
+      "away": "SKA St. Petersburg",
+      "score": null,
+      "date": "2026-11-21",
+      "time": "14:00",
+      "utc": "2026-11-21T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895452"
     },
     {
       "league": "nations-championship-2026",
