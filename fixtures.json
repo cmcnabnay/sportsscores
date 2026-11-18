@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-18T16:27:59+00:00",
+  "updated": "2026-11-18T16:39:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3398,25 +3398,25 @@
         "rows": [
           {
             "team": "CSKA Moscow",
-            "played": 26,
-            "win": 18,
+            "played": 27,
+            "win": 19,
             "draw": null,
             "loss": 5,
-            "for": 81,
+            "for": 82,
             "against": 47,
-            "diff": 34,
-            "points": 39,
+            "diff": 35,
+            "points": 41,
             "highlight": "#D6F9FF"
           },
           {
             "team": "Lokomotiv Yaroslavl",
-            "played": 26,
+            "played": 27,
             "win": 19,
             "draw": null,
-            "loss": 6,
+            "loss": 7,
             "for": 72,
-            "against": 38,
-            "diff": 34,
+            "against": 39,
+            "diff": 33,
             "points": 39,
             "highlight": "#BBF3FF"
           },
@@ -3450,8 +3450,8 @@
             "win": 15,
             "draw": null,
             "loss": 9,
-            "for": 60,
-            "against": 58,
+            "for": 61,
+            "against": 59,
             "diff": 2,
             "points": 32,
             "highlight": "#BBF3BB"
@@ -3470,7 +3470,7 @@
           },
           {
             "team": "Shanghai Dragons",
-            "played": 25,
+            "played": 26,
             "win": 14,
             "draw": null,
             "loss": 9,
@@ -3510,8 +3510,8 @@
             "win": 8,
             "draw": null,
             "loss": 18,
-            "for": 45,
-            "against": 90,
+            "for": 46,
+            "against": 91,
             "diff": -45,
             "points": 17,
             "highlight": null
@@ -3575,7 +3575,7 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 26,
+            "played": 27,
             "win": 15,
             "draw": null,
             "loss": 10,
@@ -3603,8 +3603,8 @@
             "win": 14,
             "draw": null,
             "loss": 12,
-            "for": 86,
-            "against": 76,
+            "for": 87,
+            "against": 77,
             "diff": 10,
             "points": 29,
             "highlight": "#BBF3BB"
@@ -3615,8 +3615,8 @@
             "win": 14,
             "draw": null,
             "loss": 12,
-            "for": 82,
-            "against": 82,
+            "for": 83,
+            "against": 83,
             "diff": 0,
             "points": 29,
             "highlight": "#BBF3BB"
@@ -12213,7 +12213,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-17T19:50:03.102736+00:00",
-    "torpedo": "2026-11-17T16:33:00.989155+00:00",
+    "torpedo": "2026-11-18T16:38:57.458892+00:00",
     "velez:playoffs": "2026-11-18T15:13:57.816074+00:00"
   },
   "matches": [
@@ -48486,7 +48486,7 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Barys Astana",
-      "score": null,
+      "score": "5-3",
       "date": "2026-11-18",
       "time": "14:00",
       "utc": "2026-11-18T14:00:00+00:00",
