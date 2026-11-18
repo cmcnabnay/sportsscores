@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-18T21:52:33+00:00",
+  "updated": "2026-11-18T22:03:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4916,26 +4916,26 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Baxi Manresa",
+            "team": "PAOK",
             "played": 8,
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 681,
-            "against": 642,
-            "diff": 39,
+            "for": 702,
+            "against": 654,
+            "diff": 48,
             "points": 14,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "PAOK",
+            "team": "Baxi Manresa",
             "played": 8,
             "win": 5,
             "draw": null,
             "loss": 3,
-            "for": 673,
-            "against": 638,
-            "diff": 35,
+            "for": 697,
+            "against": 671,
+            "diff": 26,
             "points": 13,
             "highlight": "#BBF3BB"
           },
@@ -9662,6 +9662,30 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sporting CP",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 549,
+            "against": 577,
+            "diff": -28,
+            "points": 10,
+            "highlight": null
+          },
+          {
+            "team": "SCM Universitatea Craiova",
+            "played": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 4,
+            "for": 623,
+            "against": 667,
+            "diff": -44,
+            "points": 10,
+            "highlight": null
+          },
+          {
             "team": "BC Rilski Sportist",
             "played": 7,
             "win": 2,
@@ -9671,30 +9695,6 @@
             "against": 557,
             "diff": -96,
             "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "Sporting CP",
-            "played": 6,
-            "win": 3,
-            "draw": null,
-            "loss": 3,
-            "for": 460,
-            "against": 482,
-            "diff": -22,
-            "points": 9,
-            "highlight": null
-          },
-          {
-            "team": "SCM Universitatea Craiova",
-            "played": 6,
-            "win": 2,
-            "draw": null,
-            "loss": 4,
-            "for": 528,
-            "against": 578,
-            "diff": -50,
-            "points": 8,
             "highlight": null
           },
           {
@@ -48969,7 +48969,7 @@
       "league": "eurocup-2026-27",
       "home": "Baxi Manresa",
       "away": "PAOK",
-      "score": null,
+      "score": "80-88",
       "date": "2026-11-18",
       "time": "19:30",
       "utc": "2026-11-18T19:30:00+00:00",
@@ -48981,7 +48981,7 @@
       "league": "fiba-europe-cup-2026-27",
       "home": "Sporting CP",
       "away": "SCM Universitatea Craiova",
-      "score": null,
+      "score": "89-95",
       "date": "2026-11-18",
       "time": "19:30",
       "utc": "2026-11-18T19:30:00+00:00",
