@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T21:52:47+00:00",
+  "updated": "2026-11-19T22:03:33+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6488,18 +6488,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Fenerbahçe Tarfin",
-            "played": 12,
-            "win": 8,
-            "draw": null,
-            "loss": 4,
-            "for": 1010,
-            "against": 927,
-            "diff": 83,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Barcelona",
             "played": 12,
             "win": 8,
@@ -6508,6 +6496,18 @@
             "for": 1064,
             "against": 1037,
             "diff": 27,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Fenerbahçe Tarfin",
+            "played": 13,
+            "win": 8,
+            "draw": null,
+            "loss": 5,
+            "for": 1080,
+            "against": 1005,
+            "diff": 75,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6549,15 +6549,27 @@
           },
           {
             "team": "Hapoel Tel-Aviv",
-            "played": 12,
+            "played": 13,
             "win": 7,
             "draw": null,
-            "loss": 5,
-            "for": 1079,
-            "against": 1041,
-            "diff": 38,
+            "loss": 6,
+            "for": 1175,
+            "against": 1138,
+            "diff": 37,
             "points": null,
             "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Paris Basketball",
+            "played": 13,
+            "win": 7,
+            "draw": null,
+            "loss": 6,
+            "for": 1168,
+            "against": 1200,
+            "diff": -32,
+            "points": null,
+            "highlight": null
           },
           {
             "team": "KK Partizan Mozzart Bet",
@@ -6580,18 +6592,6 @@
             "for": 1055,
             "against": 1079,
             "diff": -24,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Paris Basketball",
-            "played": 12,
-            "win": 6,
-            "draw": null,
-            "loss": 6,
-            "for": 1071,
-            "against": 1104,
-            "diff": -33,
             "points": null,
             "highlight": null
           },
@@ -6644,6 +6644,18 @@
             "highlight": null
           },
           {
+            "team": "Olimpia Milano",
+            "played": 13,
+            "win": 3,
+            "draw": null,
+            "loss": 10,
+            "for": 1063,
+            "against": 1129,
+            "diff": -66,
+            "points": null,
+            "highlight": null
+          },
+          {
             "team": "Maccabi Tel Aviv",
             "played": 13,
             "win": 3,
@@ -6652,18 +6664,6 @@
             "for": 1083,
             "against": 1175,
             "diff": -92,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "Olimpia Milano",
-            "played": 12,
-            "win": 2,
-            "draw": null,
-            "loss": 10,
-            "for": 985,
-            "against": 1059,
-            "diff": -74,
             "points": null,
             "highlight": null
           },
@@ -49190,7 +49190,7 @@
       "league": "euroleague-2026-27",
       "home": "Olimpia Milano",
       "away": "Fenerbahçe Tarfin",
-      "score": null,
+      "score": "78-70",
       "date": "2026-11-19",
       "time": "19:30",
       "utc": "2026-11-19T19:30:00+00:00",
@@ -49202,7 +49202,7 @@
       "league": "euroleague-2026-27",
       "home": "Paris Basketball",
       "away": "Hapoel Tel-Aviv",
-      "score": null,
+      "score": "97-96",
       "date": "2026-11-19",
       "time": "19:45",
       "utc": "2026-11-19T19:45:00+00:00",
@@ -69036,18 +69036,6 @@
     },
     {
       "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Hapoel Tel-Aviv",
-      "score": null,
-      "date": "2027-02-05",
-      "time": "19:45",
-      "utc": "2027-02-05T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670737"
-    },
-    {
-      "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Barcelona",
       "score": null,
@@ -75063,6 +75051,18 @@
       "venue": "Belgrade Arena",
       "attendance": null,
       "source_id": "sofascore:16670766"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "BC Dubai",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2027-03-10",
+      "time": "16:00",
+      "utc": "2027-03-10T16:00:00+00:00",
+      "venue": "Coca-Cola Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670768"
     },
     {
       "league": "liiga-2026-27",
