@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T19:38:58+00:00",
+  "updated": "2026-11-19T19:50:04+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6464,6 +6464,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "BC Dubai",
+            "played": 13,
+            "win": 9,
+            "draw": null,
+            "loss": 4,
+            "for": 1112,
+            "against": 1091,
+            "diff": 21,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Fenerbahçe Tarfin",
             "played": 12,
             "win": 8,
@@ -6508,18 +6520,6 @@
             "for": 1064,
             "against": 1037,
             "diff": 27,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "BC Dubai",
-            "played": 12,
-            "win": 8,
-            "draw": null,
-            "loss": 4,
-            "for": 1032,
-            "against": 1017,
-            "diff": 15,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -6632,18 +6632,6 @@
             "highlight": null
           },
           {
-            "team": "Maccabi Tel Aviv",
-            "played": 12,
-            "win": 3,
-            "draw": null,
-            "loss": 9,
-            "for": 1009,
-            "against": 1095,
-            "diff": -86,
-            "points": null,
-            "highlight": null
-          },
-          {
             "team": "Bayern Munich",
             "played": 12,
             "win": 3,
@@ -6651,6 +6639,18 @@
             "loss": 9,
             "for": 1056,
             "against": 1148,
+            "diff": -92,
+            "points": null,
+            "highlight": null
+          },
+          {
+            "team": "Maccabi Tel Aviv",
+            "played": 13,
+            "win": 3,
+            "draw": null,
+            "loss": 10,
+            "for": 1083,
+            "against": 1175,
             "diff": -92,
             "points": null,
             "highlight": null
@@ -49044,11 +49044,11 @@
       "league": "euroleague-2026-27",
       "home": "Maccabi Tel Aviv",
       "away": "BC Dubai",
-      "score": null,
+      "score": "74-80",
       "date": "2026-11-19",
       "time": "17:15",
       "utc": "2026-11-19T17:15:00+00:00",
-      "venue": "Menora Mivtachim Arena",
+      "venue": "Spyros Kyprianou Athletic Center",
       "attendance": null,
       "source_id": "sofascore:16665372"
     },
@@ -74980,15 +74980,15 @@
     },
     {
       "league": "euroleague-2026-27",
-      "home": "BC Dubai",
-      "away": "Valencia Basket",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Paris Basketball",
       "score": null,
-      "date": "2027-03-10",
-      "time": "16:00",
-      "utc": "2027-03-10T16:00:00+00:00",
-      "venue": "Coca-Cola Arena",
+      "date": "2027-03-09",
+      "time": "19:45",
+      "utc": "2027-03-09T19:45:00+00:00",
+      "venue": "Belgrade Arena",
       "attendance": null,
-      "source_id": "sofascore:16670768"
+      "source_id": "sofascore:16670766"
     },
     {
       "league": "liiga-2026-27",
@@ -75025,18 +75025,6 @@
       "venue": "Helsingin jäähalli",
       "attendance": null,
       "source_id": "sofascore:16337744"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Olimpia Milano",
-      "away": "Olympiacos BC",
-      "score": null,
-      "date": "2027-03-10",
-      "time": "19:30",
-      "utc": "2027-03-10T19:30:00+00:00",
-      "venue": "Unipol Forum",
-      "attendance": null,
-      "source_id": "sofascore:16670776"
     },
     {
       "league": "liiga-2026-27",
@@ -75145,18 +75133,6 @@
       "venue": "Scandinavium",
       "attendance": null,
       "source_id": "sofascore:16231052"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "Bayern Munich",
-      "away": "Hapoel Tel-Aviv",
-      "score": null,
-      "date": "2027-03-11",
-      "time": "19:00",
-      "utc": "2027-03-11T19:00:00+00:00",
-      "venue": "BMW Park",
-      "attendance": null,
-      "source_id": "sofascore:16670773"
     },
     {
       "league": "euroleague-2026-27",
