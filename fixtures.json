@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T18:46:47+00:00",
+  "updated": "2026-11-19T19:07:08+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3498,8 +3498,8 @@
             "win": 13,
             "draw": null,
             "loss": 12,
-            "for": 77,
-            "against": 80,
+            "for": 78,
+            "against": 81,
             "diff": -3,
             "points": 28,
             "highlight": null
@@ -3579,8 +3579,8 @@
             "win": 14,
             "draw": null,
             "loss": 11,
-            "for": 73,
-            "against": 79,
+            "for": 74,
+            "against": 80,
             "diff": -6,
             "points": 32,
             "highlight": "#BBF3FF"
@@ -4196,13 +4196,25 @@
           },
           {
             "team": "Tappara Tampere",
-            "played": 21,
+            "played": 22,
             "win": 9,
             "draw": null,
-            "loss": 12,
-            "for": 53,
-            "against": 54,
-            "diff": -1,
+            "loss": 13,
+            "for": 55,
+            "against": 57,
+            "diff": -2,
+            "points": 29,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Vaasan Sport",
+            "played": 22,
+            "win": 9,
+            "draw": null,
+            "loss": 13,
+            "for": 46,
+            "against": 63,
+            "diff": -17,
             "points": 28,
             "highlight": "#BBF3FF"
           },
@@ -4216,7 +4228,7 @@
             "against": 53,
             "diff": -2,
             "points": 27,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "HPK Hämeenlinna",
@@ -4239,18 +4251,6 @@
             "for": 53,
             "against": 59,
             "diff": -6,
-            "points": 26,
-            "highlight": null
-          },
-          {
-            "team": "Vaasan Sport",
-            "played": 21,
-            "win": 8,
-            "draw": null,
-            "loss": 13,
-            "for": 43,
-            "against": 61,
-            "diff": -18,
             "points": 26,
             "highlight": "#FFBBBB"
           },
@@ -49031,12 +49031,13 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "Vaasan Sport",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-19",
       "time": "16:30",
       "utc": "2026-11-19T16:30:00+00:00",
       "venue": "Nokia Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16337432"
     },
     {
