@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T19:07:08+00:00",
+  "updated": "2026-11-19T19:17:36+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3421,6 +3421,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Spartak Moscow",
+            "played": 29,
+            "win": 15,
+            "draw": null,
+            "loss": 9,
+            "for": 78,
+            "against": 63,
+            "diff": 15,
+            "points": 35,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 26,
             "win": 15,
@@ -3442,18 +3454,6 @@
             "against": 60,
             "diff": 4,
             "points": 34,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Spartak Moscow",
-            "played": 29,
-            "win": 14,
-            "draw": null,
-            "loss": 9,
-            "for": 78,
-            "against": 63,
-            "diff": 15,
-            "points": 33,
             "highlight": "#BBF3BB"
           },
           {
@@ -3634,6 +3634,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "AK Bars",
+            "played": 30,
+            "win": 11,
+            "draw": null,
+            "loss": 14,
+            "for": 65,
+            "against": 73,
+            "diff": -8,
+            "points": 25,
+            "highlight": null
+          },
+          {
             "team": "Admiral Vladivostok",
             "played": 27,
             "win": 11,
@@ -3643,18 +3655,6 @@
             "against": 80,
             "diff": -10,
             "points": 25,
-            "highlight": null
-          },
-          {
-            "team": "AK Bars",
-            "played": 30,
-            "win": 11,
-            "draw": null,
-            "loss": 14,
-            "for": 65,
-            "against": 73,
-            "diff": -8,
-            "points": 24,
             "highlight": null
           },
           {
@@ -49007,7 +49007,7 @@
       "league": "khl-2026-27",
       "home": "AK Bars",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-19",
       "time": "16:30",
       "utc": "2026-11-19T16:30:00+00:00",
@@ -49019,7 +49019,7 @@
       "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "SKA St. Petersburg",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-19",
       "time": "16:30",
       "utc": "2026-11-19T16:30:00+00:00",
