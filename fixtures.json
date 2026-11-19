@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T22:25:28+00:00",
+  "updated": "2026-11-19T22:36:37+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6441,13 +6441,13 @@
         "rows": [
           {
             "team": "Valencia Basket",
-            "played": 12,
-            "win": 9,
+            "played": 13,
+            "win": 10,
             "draw": null,
             "loss": 3,
-            "for": 1129,
-            "against": 1030,
-            "diff": 99,
+            "for": 1221,
+            "against": 1117,
+            "diff": 104,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6609,13 +6609,13 @@
           },
           {
             "team": "Virtus Bologna",
-            "played": 12,
+            "played": 13,
             "win": 5,
             "draw": null,
-            "loss": 7,
-            "for": 1031,
-            "against": 1077,
-            "diff": -46,
+            "loss": 8,
+            "for": 1118,
+            "against": 1169,
+            "diff": -51,
             "points": null,
             "highlight": null
           },
@@ -11579,14 +11579,14 @@
         "rows": [
           {
             "team": "Provence Rugby",
-            "played": 10,
+            "played": 11,
             "win": 9,
             "draw": 1,
-            "loss": 0,
-            "for": 324,
-            "against": 200,
-            "diff": 124,
-            "points": 40,
+            "loss": 1,
+            "for": 354,
+            "against": 241,
+            "diff": 113,
+            "points": 41,
             "highlight": null
           },
           {
@@ -11603,14 +11603,14 @@
           },
           {
             "team": "FC Grenoble Rugby",
-            "played": 10,
-            "win": 7,
+            "played": 11,
+            "win": 8,
             "draw": null,
             "loss": 3,
-            "for": 288,
-            "against": 241,
-            "diff": 47,
-            "points": 30,
+            "for": 329,
+            "against": 271,
+            "diff": 58,
+            "points": 34,
             "highlight": null
           },
           {
@@ -11622,7 +11622,7 @@
             "for": 336,
             "against": 238,
             "diff": 98,
-            "points": 30,
+            "points": 31,
             "highlight": null
           },
           {
@@ -11646,7 +11646,7 @@
             "for": 361,
             "against": 307,
             "diff": 54,
-            "points": 25,
+            "points": 26,
             "highlight": null
           },
           {
@@ -11694,7 +11694,7 @@
             "for": 296,
             "against": 259,
             "diff": 37,
-            "points": 22,
+            "points": 23,
             "highlight": null
           },
           {
@@ -11706,7 +11706,7 @@
             "for": 333,
             "against": 273,
             "diff": 60,
-            "points": 22,
+            "points": 23,
             "highlight": null
           },
           {
@@ -11742,7 +11742,7 @@
             "for": 274,
             "against": 384,
             "diff": -110,
-            "points": 14,
+            "points": 15,
             "highlight": null
           },
           {
@@ -49214,7 +49214,7 @@
       "league": "prod2-2026",
       "home": "FC Grenoble Rugby",
       "away": "Provence Rugby",
-      "score": null,
+      "score": "41-30",
       "date": "2026-11-19",
       "time": "20:00",
       "utc": "2026-11-19T20:00:00+00:00",
@@ -49226,7 +49226,7 @@
       "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Virtus Bologna",
-      "score": null,
+      "score": "92-87",
       "date": "2026-11-19",
       "time": "20:00",
       "utc": "2026-11-19T20:00:00+00:00",
@@ -54467,102 +54467,6 @@
       "source_id": "sofascore:17212149"
     },
     {
-      "league": "prod2-2026",
-      "home": "Provence Rugby",
-      "away": "CA Brive",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535147"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "FC Grenoble Rugby",
-      "away": "USON Nevers",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535154"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Colomiers Rugby",
-      "away": "US Montauban",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535151"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "Biarritz Olympique",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535149"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "AS Béziers Hérault",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535148"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "Stade Aurillacois",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535146"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "US Oyonnax",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535150"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "16:00",
-      "utc": "2026-12-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535152"
-    },
-    {
       "league": "euroleague-2026-27",
       "home": "Fenerbahçe Tarfin",
       "away": "Anadolu Efes",
@@ -54671,6 +54575,18 @@
       "source_id": "sofascore:16670626"
     },
     {
+      "league": "prod2-2026",
+      "home": "Provence Rugby",
+      "away": "CA Brive",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "20:00",
+      "utc": "2026-12-10T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535147"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "UCAM Murcia",
       "away": "Unicaja Málaga",
@@ -54765,6 +54681,66 @@
       "venue": "Vaasa Arena",
       "attendance": null,
       "source_id": "sofascore:16337506"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Colomiers Rugby",
+      "away": "US Montauban",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:00",
+      "utc": "2026-12-11T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535151"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "FC Grenoble Rugby",
+      "away": "USON Nevers",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535154"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SA XV Charente",
+      "away": "AS Béziers Hérault",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535148"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "RC Narbonne",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535152"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "US Oyonnax",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535150"
     },
     {
       "league": "del-2026-27",
@@ -54897,6 +54873,30 @@
       "venue": "Belgrade Arena",
       "attendance": null,
       "source_id": "sofascore:16670783"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Dax",
+      "away": "Biarritz Olympique",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535149"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SU Agen",
+      "away": "Stade Aurillacois",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535146"
     },
     {
       "league": "champions-cup-2026",
@@ -56459,66 +56459,6 @@
       "source_id": "sofascore:17212190"
     },
     {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "FC Grenoble Rugby",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "16:00",
-      "utc": "2026-12-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535156"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "CA Brive",
-      "away": "SA XV Charente",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "16:00",
-      "utc": "2026-12-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535153"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "Biarritz Olympique",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "16:00",
-      "utc": "2026-12-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535155"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "SU Agen",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "16:00",
-      "utc": "2026-12-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535166"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Stade Aurillacois",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2026-12-17",
-      "time": "16:00",
-      "utc": "2026-12-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535157"
-    },
-    {
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "Kiekko-Espoo",
@@ -56700,39 +56640,15 @@
     },
     {
       "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "Provence Rugby",
+      "home": "US Dax",
+      "away": "FC Grenoble Rugby",
       "score": null,
-      "date": "2026-12-18",
-      "time": "16:00",
-      "utc": "2026-12-18T16:00:00+00:00",
+      "date": "2026-12-17",
+      "time": "20:00",
+      "utc": "2026-12-17T20:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535159"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Oyonnax",
-      "away": "Colomiers Rugby",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "16:00",
-      "utc": "2026-12-18T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535160"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Montauban",
-      "away": "Nissa Rugby",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "16:00",
-      "utc": "2026-12-18T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535158"
+      "source_id": "sofascore:16535156"
     },
     {
       "league": "liiga-2026-27",
@@ -56817,6 +56733,66 @@
       "venue": "Nokia Arena",
       "attendance": null,
       "source_id": "sofascore:16337524"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "USON Nevers",
+      "away": "Provence Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:00",
+      "utc": "2026-12-18T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535159"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Oyonnax",
+      "away": "Colomiers Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535160"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Montauban",
+      "away": "Nissa Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535158"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "SU Agen",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535166"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Stade Aurillacois",
+      "away": "RC Narbonne",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535157"
     },
     {
       "league": "euroleague-2026-27",
@@ -57009,6 +56985,30 @@
       "venue": "Palau Blaugrana",
       "attendance": null,
       "source_id": "sofascore:16670648"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "CA Brive",
+      "away": "SA XV Charente",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "20:00",
+      "utc": "2026-12-18T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535153"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "Biarritz Olympique",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "20:00",
+      "utc": "2026-12-18T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535155"
     },
     {
       "league": "urc-2026",
