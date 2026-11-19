@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-19T16:10:40+00:00",
+  "updated": "2026-11-19T17:53:25+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3446,12 +3446,12 @@
           },
           {
             "team": "Spartak Moscow",
-            "played": 28,
+            "played": 29,
             "win": 14,
             "draw": null,
             "loss": 9,
-            "for": 76,
-            "against": 61,
+            "for": 78,
+            "against": 63,
             "diff": 15,
             "points": 33,
             "highlight": "#BBF3BB"
@@ -3494,14 +3494,14 @@
           },
           {
             "team": "SKA St. Petersburg",
-            "played": 26,
-            "win": 12,
+            "played": 27,
+            "win": 13,
             "draw": null,
             "loss": 12,
-            "for": 75,
-            "against": 79,
-            "diff": -4,
-            "points": 26,
+            "for": 77,
+            "against": 80,
+            "diff": -3,
+            "points": 28,
             "highlight": null
           },
           {
@@ -3539,14 +3539,14 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 28,
-            "win": 19,
+            "played": 29,
+            "win": 20,
             "draw": null,
             "loss": 6,
-            "for": 100,
-            "against": 67,
-            "diff": 33,
-            "points": 41,
+            "for": 106,
+            "against": 72,
+            "diff": 34,
+            "points": 43,
             "highlight": "#D6F9FF"
           },
           {
@@ -3575,13 +3575,13 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 28,
+            "played": 29,
             "win": 14,
             "draw": null,
-            "loss": 10,
-            "for": 72,
-            "against": 77,
-            "diff": -5,
+            "loss": 11,
+            "for": 73,
+            "against": 79,
+            "diff": -6,
             "points": 32,
             "highlight": "#BBF3FF"
           },
@@ -3595,6 +3595,18 @@
             "against": 62,
             "diff": 8,
             "points": 31,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Traktor Chelyabinsk",
+            "played": 29,
+            "win": 12,
+            "draw": null,
+            "loss": 11,
+            "for": 70,
+            "against": 73,
+            "diff": -3,
+            "points": 30,
             "highlight": "#BBF3BB"
           },
           {
@@ -3622,18 +3634,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Traktor Chelyabinsk",
-            "played": 28,
-            "win": 12,
-            "draw": null,
-            "loss": 11,
-            "for": 65,
-            "against": 67,
-            "diff": -2,
-            "points": 29,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Admiral Vladivostok",
             "played": 27,
             "win": 11,
@@ -3647,12 +3647,12 @@
           },
           {
             "team": "AK Bars",
-            "played": 29,
+            "played": 30,
             "win": 11,
             "draw": null,
             "loss": 14,
-            "for": 63,
-            "against": 71,
+            "for": 65,
+            "against": 73,
             "diff": -8,
             "points": 24,
             "highlight": null
@@ -10505,6 +10505,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Torpedo Moscow",
+            "played": 18,
+            "win": 10,
+            "draw": 5,
+            "loss": 3,
+            "for": 30,
+            "against": 13,
+            "diff": 17,
+            "points": 35,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ural Yekaterinburg",
             "played": 17,
             "win": 10,
@@ -10514,89 +10526,89 @@
             "against": 11,
             "diff": 18,
             "points": 34,
-            "highlight": "#BBF3BB"
+            "highlight": "#CCF9CC"
           },
           {
             "team": "Sochi",
-            "played": 17,
+            "played": 18,
             "win": 10,
-            "draw": 2,
+            "draw": 3,
             "loss": 5,
             "for": 26,
             "against": 20,
             "diff": 6,
-            "points": 32,
-            "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Torpedo Moscow",
-            "played": 17,
-            "win": 9,
-            "draw": 5,
-            "loss": 3,
-            "for": 29,
-            "against": 13,
-            "diff": 16,
-            "points": 32,
+            "points": 33,
             "highlight": "#CCF9CC"
           },
           {
             "team": "Veles Moscow",
-            "played": 18,
+            "played": 19,
             "win": 9,
             "draw": 4,
-            "loss": 5,
-            "for": 23,
-            "against": 21,
-            "diff": 2,
+            "loss": 6,
+            "for": 25,
+            "against": 25,
+            "diff": 0,
             "points": 31,
             "highlight": "transparent"
           },
           {
             "team": "Spartak Kostroma",
-            "played": 17,
+            "played": 18,
             "win": 8,
-            "draw": 4,
+            "draw": 5,
             "loss": 5,
-            "for": 22,
-            "against": 20,
+            "for": 25,
+            "against": 23,
             "diff": 2,
-            "points": 28,
+            "points": 29,
             "highlight": "transparent"
           },
           {
             "team": "Shinnik Yaroslavl",
-            "played": 17,
+            "played": 18,
             "win": 6,
-            "draw": 8,
+            "draw": 9,
             "loss": 3,
             "for": 22,
             "against": 18,
             "diff": 4,
-            "points": 26,
+            "points": 27,
             "highlight": "transparent"
           },
           {
-            "team": "Volga Ulyanovsk",
+            "team": "Chelyabinsk",
             "played": 18,
-            "win": 6,
-            "draw": 4,
+            "win": 7,
+            "draw": 3,
             "loss": 8,
-            "for": 22,
-            "against": 25,
-            "diff": -3,
-            "points": 22,
+            "for": 27,
+            "against": 29,
+            "diff": -2,
+            "points": 24,
             "highlight": "transparent"
           },
           {
             "team": "Ufa",
-            "played": 17,
+            "played": 18,
             "win": 5,
-            "draw": 7,
+            "draw": 8,
             "loss": 5,
-            "for": 19,
-            "against": 17,
+            "for": 22,
+            "against": 20,
             "diff": 2,
+            "points": 23,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Volga Ulyanovsk",
+            "played": 19,
+            "win": 6,
+            "draw": 4,
+            "loss": 9,
+            "for": 22,
+            "against": 26,
+            "diff": -4,
             "points": 22,
             "highlight": "transparent"
           },
@@ -10613,15 +10625,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Chelyabinsk",
-            "played": 17,
-            "win": 6,
-            "draw": 3,
-            "loss": 8,
-            "for": 23,
-            "against": 27,
+            "team": "SKA-Khabarovsk",
+            "played": 18,
+            "win": 5,
+            "draw": 4,
+            "loss": 9,
+            "for": 24,
+            "against": 28,
             "diff": -4,
-            "points": 21,
+            "points": 19,
             "highlight": "transparent"
           },
           {
@@ -10638,13 +10650,13 @@
           },
           {
             "team": "Leningradets Leningrad Oblast",
-            "played": 17,
+            "played": 18,
             "win": 4,
             "draw": 6,
-            "loss": 7,
+            "loss": 8,
             "for": 16,
-            "against": 27,
-            "diff": -11,
+            "against": 28,
+            "diff": -12,
             "points": 18,
             "highlight": "transparent"
           },
@@ -10658,18 +10670,6 @@
             "against": 33,
             "diff": -14,
             "points": 17,
-            "highlight": "transparent"
-          },
-          {
-            "team": "SKA-Khabarovsk",
-            "played": 17,
-            "win": 4,
-            "draw": 4,
-            "loss": 9,
-            "for": 23,
-            "against": 28,
-            "diff": -5,
-            "points": 16,
             "highlight": "transparent"
           },
           {
@@ -12213,7 +12213,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-18T19:53:51.908267+00:00",
-    "torpedo": "2026-11-18T16:38:57.458892+00:00",
+    "torpedo": "2026-11-19T17:52:40.508404+00:00",
     "velez:playoffs": "2026-11-19T15:49:38.652710+00:00"
   },
   "matches": [
@@ -48564,6 +48564,7 @@
       "utc": "2026-11-18T16:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4894509"
     },
     {
@@ -48993,12 +48994,13 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Traktor Chelyabinsk",
-      "score": null,
+      "score": "6-5",
       "date": "2026-11-19",
       "time": "14:00",
       "utc": "2026-11-19T14:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4894699"
     },
     {
@@ -50166,6 +50168,18 @@
       "attendance": null
     },
     {
+      "league": "khl-2026-27",
+      "home": "Avangard Omsk",
+      "away": "AK Bars",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "11:00",
+      "utc": "2026-11-22T11:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895982"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "Baskonia Vitoria",
@@ -50188,6 +50202,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4820710"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Barys Astana",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "11:30",
+      "utc": "2026-11-22T11:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895981"
     },
     {
       "league": "liga-acb-2026-27",
@@ -50248,6 +50274,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809075"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Shanghai Dragons",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "14:00",
+      "utc": "2026-11-22T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895984"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Torpedo Nizhny Novgorod",
+      "away": "Avtomobilist Yekaterinburg",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "14:00",
+      "utc": "2026-11-22T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895985"
     },
     {
       "league": "lega-a-2026-27",
@@ -50356,6 +50406,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4814655"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dynamo Moscow",
+      "away": "CSKA Moscow",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "16:46",
+      "utc": "2026-11-22T16:46:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4895983"
     },
     {
       "league": "bbl-2026-27",
@@ -52602,18 +52664,6 @@
       "source_id": "sofascore:16527492"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Chelyabinsk",
-      "score": "-",
-      "date": "2026-12-04",
-      "time": "20:00",
-      "utc": "2026-12-04T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4760344"
-    },
-    {
       "league": "prod2-2026",
       "home": "US Oyonnax",
       "away": "FC Grenoble Rugby",
@@ -53200,6 +53250,18 @@
       "venue": "Stadio Sergio Lanfranchi",
       "attendance": null,
       "source_id": "sofascore:16527498"
+    },
+    {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Chelyabinsk",
+      "score": "-",
+      "date": "2026-12-05",
+      "time": "20:00",
+      "utc": "2026-12-05T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4760344"
     },
     {
       "league": "liga-acb-2026-27",
