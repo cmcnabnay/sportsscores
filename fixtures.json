@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T21:26:56+00:00",
+  "updated": "2026-11-20T21:38:46+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2649,18 +2649,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Wurzburg Baskets",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 654,
-            "against": 666,
-            "diff": -12,
-            "points": 8,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Ratiopharm Ulm",
             "played": 9,
             "win": 4,
@@ -2669,6 +2657,30 @@
             "for": 757,
             "against": 769,
             "diff": -12,
+            "points": 8,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Wurzburg Baskets",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 745,
+            "against": 763,
+            "diff": -18,
+            "points": 8,
+            "highlight": null
+          },
+          {
+            "team": "SC Rasta Vechta",
+            "played": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 6,
+            "for": 862,
+            "against": 903,
+            "diff": -41,
             "points": 8,
             "highlight": null
           },
@@ -2693,18 +2705,6 @@
             "for": 808,
             "against": 799,
             "diff": 9,
-            "points": 6,
-            "highlight": null
-          },
-          {
-            "team": "SC Rasta Vechta",
-            "played": 9,
-            "win": 3,
-            "draw": null,
-            "loss": 6,
-            "for": 765,
-            "against": 812,
-            "diff": -47,
             "points": 6,
             "highlight": null
           },
@@ -3245,11 +3245,11 @@
             "team": "Nürnberg Ice Tigers",
             "played": 18,
             "win": 11,
-            "draw": 1,
-            "loss": 6,
+            "draw": null,
+            "loss": 7,
             "for": 67,
-            "against": 42,
-            "diff": 25,
+            "against": 43,
+            "diff": 24,
             "points": 34,
             "highlight": "#BBF3BB"
           },
@@ -3340,13 +3340,13 @@
           {
             "team": "Augsburger Panther",
             "played": 17,
-            "win": 7,
-            "draw": 1,
+            "win": 8,
+            "draw": null,
             "loss": 9,
-            "for": 53,
+            "for": 54,
             "against": 56,
-            "diff": -3,
-            "points": 20,
+            "diff": -2,
+            "points": 21,
             "highlight": null
           },
           {
@@ -5531,26 +5531,26 @@
           },
           {
             "team": "Le Mans",
-            "played": 8,
+            "played": 9,
             "win": 7,
             "draw": null,
-            "loss": 1,
-            "for": 778,
-            "against": 689,
-            "diff": 89,
-            "points": 2,
+            "loss": 2,
+            "for": 876,
+            "against": 801,
+            "diff": 75,
+            "points": 1,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "ASVEL Villeurbanne",
-            "played": 8,
-            "win": 6,
+            "team": "Dijon",
+            "played": 9,
+            "win": 7,
             "draw": null,
             "loss": 2,
-            "for": 712,
-            "against": 679,
-            "diff": 33,
-            "points": 1,
+            "for": 836,
+            "against": 750,
+            "diff": 86,
+            "points": 2,
             "highlight": "#BBF3BB"
           },
           {
@@ -5562,19 +5562,31 @@
             "for": 708,
             "against": 649,
             "diff": 59,
-            "points": 2,
+            "points": 0,
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dijon",
+            "team": "ASVEL Villeurbanne",
             "played": 8,
             "win": 6,
             "draw": null,
             "loss": 2,
-            "for": 743,
-            "against": 673,
-            "diff": 70,
-            "points": 1,
+            "for": 731,
+            "against": 700,
+            "diff": 31,
+            "points": 0,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Chorale de Roanne",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 740,
+            "against": 722,
+            "diff": 18,
+            "points": 2,
             "highlight": "#BBF3BB"
           },
           {
@@ -5586,18 +5598,6 @@
             "for": 749,
             "against": 670,
             "diff": 79,
-            "points": 0,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Chorale de Roanne",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 655,
-            "against": 640,
-            "diff": 15,
             "points": 0,
             "highlight": "#FFFFBB"
           },
@@ -5650,18 +5650,6 @@
             "highlight": null
           },
           {
-            "team": "Limoges",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 687,
-            "against": 720,
-            "diff": -33,
-            "points": 0,
-            "highlight": null
-          },
-          {
             "team": "Nancy",
             "played": 8,
             "win": 2,
@@ -5670,7 +5658,7 @@
             "for": 644,
             "against": 683,
             "diff": -39,
-            "points": 1,
+            "points": 0,
             "highlight": null
           },
           {
@@ -5683,6 +5671,18 @@
             "against": 737,
             "diff": -40,
             "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Limoges",
+            "played": 9,
+            "win": 2,
+            "draw": null,
+            "loss": 7,
+            "for": 769,
+            "against": 805,
+            "diff": -36,
+            "points": 1,
             "highlight": null
           },
           {
@@ -5706,7 +5706,7 @@
             "for": 633,
             "against": 716,
             "diff": -83,
-            "points": 2,
+            "points": 0,
             "highlight": "#FFBBBB"
           }
         ],
@@ -49493,12 +49493,13 @@
       "league": "del-2026-27",
       "home": "Augsburger Panther",
       "away": "Nürnberg Ice Tigers",
-      "score": "4-4",
+      "score": "5-4",
       "date": "2026-11-20",
       "time": "18:30",
       "utc": "2026-11-20T18:30:00+00:00",
       "venue": "Curt-Frenzel-Stadion",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16422546"
     },
     {
@@ -49530,19 +49531,20 @@
       "league": "bbl-2026-27",
       "home": "Wurzburg Baskets",
       "away": "SC Rasta Vechta",
-      "score": null,
+      "score": "91-97",
       "date": "2026-11-20",
       "time": "19:00",
       "utc": "2026-11-20T19:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4809069"
     },
     {
       "league": "lnb-elite-2026-27",
       "home": "Chorale de Roanne",
       "away": "Limoges",
-      "score": null,
+      "score": "85-82",
       "date": "2026-11-20",
       "time": "19:00",
       "utc": "2026-11-20T19:00:00+00:00",
@@ -49578,7 +49580,7 @@
       "league": "lnb-elite-2026-27",
       "home": "Dijon",
       "away": "Le Mans",
-      "score": null,
+      "score": "93-77",
       "date": "2026-11-20",
       "time": "19:30",
       "utc": "2026-11-20T19:30:00+00:00",
@@ -50272,18 +50274,6 @@
       "source_id": "sofascore:16422550"
     },
     {
-      "league": "bbl-2026-27",
-      "home": "Telekom Baskets Bonn",
-      "away": "Ratiopharm Ulm",
-      "score": null,
-      "date": "2026-11-22",
-      "time": "14:00",
-      "utc": "2026-11-22T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4809075"
-    },
-    {
       "league": "khl-2026-27",
       "home": "Shanghai Dragons",
       "away": "Lada Togliatti",
@@ -50498,6 +50488,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810421"
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Telekom Baskets Bonn",
+      "away": "Ratiopharm Ulm",
+      "score": null,
+      "date": "2026-11-22",
+      "time": "17:30",
+      "utc": "2026-11-22T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4809075"
     },
     {
       "league": "liga-acb-2026-27",
@@ -56637,8 +56639,8 @@
       "away": "Le Mans",
       "score": null,
       "date": "2026-12-17",
-      "time": "19:30",
-      "utc": "2026-12-17T19:30:00+00:00",
+      "time": "19:00",
+      "utc": "2026-12-17T19:00:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4846988"
