@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T21:58:35+00:00",
+  "updated": "2026-11-20T22:09:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6488,18 +6488,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Barcelona",
-            "played": 12,
-            "win": 8,
-            "draw": null,
-            "loss": 4,
-            "for": 1064,
-            "against": 1037,
-            "diff": 27,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Fenerbahçe Tarfin",
             "played": 13,
             "win": 8,
@@ -6510,6 +6498,30 @@
             "diff": 75,
             "points": null,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "KK Crvena zvezda",
+            "played": 13,
+            "win": 8,
+            "draw": null,
+            "loss": 5,
+            "for": 1089,
+            "against": 1036,
+            "diff": 53,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Barcelona",
+            "played": 13,
+            "win": 8,
+            "draw": null,
+            "loss": 5,
+            "for": 1164,
+            "against": 1140,
+            "diff": 24,
+            "points": null,
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Kauno Žalgiris",
@@ -6532,18 +6544,6 @@
             "for": 1151,
             "against": 1060,
             "diff": 91,
-            "points": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "KK Crvena zvezda",
-            "played": 12,
-            "win": 7,
-            "draw": null,
-            "loss": 5,
-            "for": 986,
-            "against": 936,
-            "diff": 50,
             "points": null,
             "highlight": "#BBF3FF"
           },
@@ -49568,12 +49568,13 @@
       "league": "euroleague-2026-27",
       "home": "Barcelona",
       "away": "KK Crvena zvezda",
-      "score": null,
+      "score": "100-103",
       "date": "2026-11-20",
       "time": "19:30",
       "utc": "2026-11-20T19:30:00+00:00",
       "venue": "Palau Blaugrana",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16665379"
     },
     {
@@ -49592,12 +49593,13 @@
       "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Beşiktaş JK",
-      "score": null,
+      "score": "91-87",
       "date": "2026-11-20",
       "time": "19:45",
       "utc": "2026-11-20T19:45:00+00:00",
       "venue": "Belgrade Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16665380"
     },
     {
