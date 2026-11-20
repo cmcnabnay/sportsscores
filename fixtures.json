@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T17:42:28+00:00",
+  "updated": "2026-11-20T17:53:29+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12213,7 +12213,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-19T20:00:54.495833+00:00",
-    "torpedo": "2026-11-19T17:52:40.508404+00:00",
+    "torpedo": "2026-11-20T17:53:26.240368+00:00",
     "velez:playoffs": "2026-11-20T15:54:26.159532+00:00"
   },
   "matches": [
@@ -52944,6 +52944,18 @@
       "source_id": "sofascore:16662736"
     },
     {
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Chelyabinsk",
+      "score": "-",
+      "date": "2026-12-05",
+      "time": "16:00",
+      "utc": "2026-12-05T13:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4760344"
+    },
+    {
       "league": "top14-2026",
       "home": "Vannes",
       "away": "Bayonne",
@@ -53266,18 +53278,6 @@
       "venue": "Stadio Sergio Lanfranchi",
       "attendance": null,
       "source_id": "sofascore:16527498"
-    },
-    {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Chelyabinsk",
-      "score": "-",
-      "date": "2026-12-05",
-      "time": "20:00",
-      "utc": "2026-12-05T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4760344"
     },
     {
       "league": "liga-acb-2026-27",
