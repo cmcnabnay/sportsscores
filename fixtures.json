@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T22:19:06+00:00",
+  "updated": "2026-11-20T22:48:17+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11578,6 +11578,18 @@
       "Pro D2 26/27": {
         "rows": [
           {
+            "team": "US Oyonnax",
+            "played": 11,
+            "win": 9,
+            "draw": null,
+            "loss": 2,
+            "for": 413,
+            "against": 245,
+            "diff": 168,
+            "points": 42,
+            "highlight": null
+          },
+          {
             "team": "Provence Rugby",
             "played": 11,
             "win": 9,
@@ -11587,18 +11599,6 @@
             "against": 241,
             "diff": 113,
             "points": 41,
-            "highlight": null
-          },
-          {
-            "team": "US Oyonnax",
-            "played": 10,
-            "win": 8,
-            "draw": null,
-            "loss": 2,
-            "for": 381,
-            "against": 223,
-            "diff": 158,
-            "points": 38,
             "highlight": null
           },
           {
@@ -11615,13 +11615,13 @@
           },
           {
             "team": "CA Brive",
-            "played": 10,
+            "played": 11,
             "win": 7,
             "draw": null,
-            "loss": 3,
-            "for": 336,
-            "against": 238,
-            "diff": 98,
+            "loss": 4,
+            "for": 358,
+            "against": 270,
+            "diff": 88,
             "points": 31,
             "highlight": null
           },
@@ -11647,6 +11647,18 @@
             "against": 340,
             "diff": -77,
             "points": 29,
+            "highlight": null
+          },
+          {
+            "team": "Biarritz Olympique",
+            "played": 11,
+            "win": 6,
+            "draw": 1,
+            "loss": 4,
+            "for": 305,
+            "against": 327,
+            "diff": -22,
+            "points": 28,
             "highlight": null
           },
           {
@@ -11698,18 +11710,6 @@
             "highlight": null
           },
           {
-            "team": "Biarritz Olympique",
-            "played": 10,
-            "win": 5,
-            "draw": 1,
-            "loss": 4,
-            "for": 274,
-            "against": 297,
-            "diff": -23,
-            "points": 24,
-            "highlight": null
-          },
-          {
             "team": "Colomiers Rugby",
             "played": 11,
             "win": 4,
@@ -11735,13 +11735,13 @@
           },
           {
             "team": "RC Narbonne",
-            "played": 10,
+            "played": 11,
             "win": 3,
             "draw": null,
-            "loss": 7,
-            "for": 274,
-            "against": 384,
-            "diff": -110,
+            "loss": 8,
+            "for": 304,
+            "against": 415,
+            "diff": -111,
             "points": 15,
             "highlight": null
           },
@@ -49618,7 +49618,7 @@
       "league": "prod2-2026",
       "home": "US Oyonnax",
       "away": "CA Brive",
-      "score": null,
+      "score": "32-22",
       "date": "2026-11-20",
       "time": "20:00",
       "utc": "2026-11-20T20:00:00+00:00",
@@ -49630,7 +49630,7 @@
       "league": "prod2-2026",
       "home": "Biarritz Olympique",
       "away": "RC Narbonne",
-      "score": null,
+      "score": "31-30",
       "date": "2026-11-20",
       "time": "20:00",
       "utc": "2026-11-20T20:00:00+00:00",
