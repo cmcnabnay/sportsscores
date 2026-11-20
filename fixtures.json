@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T14:50:27+00:00",
+  "updated": "2026-11-20T15:01:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3550,6 +3550,18 @@
             "highlight": "#D6F9FF"
           },
           {
+            "team": "Avangard Omsk",
+            "played": 27,
+            "win": 16,
+            "draw": null,
+            "loss": 9,
+            "for": 59,
+            "against": 60,
+            "diff": -1,
+            "points": 34,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Amur Khabarovsk",
             "played": 27,
             "win": 16,
@@ -3559,18 +3571,6 @@
             "against": 44,
             "diff": 11,
             "points": 33,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Avangard Omsk",
-            "played": 26,
-            "win": 15,
-            "draw": null,
-            "loss": 9,
-            "for": 56,
-            "against": 59,
-            "diff": -3,
-            "points": 32,
             "highlight": "#BBF3FF"
           },
           {
@@ -3587,13 +3587,13 @@
           },
           {
             "team": "Avtomobilist Yekaterinburg",
-            "played": 26,
+            "played": 27,
             "win": 14,
             "draw": null,
-            "loss": 9,
+            "loss": 10,
             "for": 70,
-            "against": 62,
-            "diff": 8,
+            "against": 63,
+            "diff": 7,
             "points": 31,
             "highlight": "#BBF3BB"
           },
@@ -3611,13 +3611,13 @@
           },
           {
             "team": "Barys Astana",
-            "played": 27,
+            "played": 28,
             "win": 14,
             "draw": null,
-            "loss": 12,
-            "for": 87,
-            "against": 77,
-            "diff": 10,
+            "loss": 13,
+            "for": 88,
+            "against": 80,
+            "diff": 8,
             "points": 29,
             "highlight": "#BBF3BB"
           },
@@ -3632,6 +3632,18 @@
             "diff": 0,
             "points": 29,
             "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sibir Novosibirsk",
+            "played": 29,
+            "win": 11,
+            "draw": null,
+            "loss": 14,
+            "for": 63,
+            "against": 79,
+            "diff": -16,
+            "points": 26,
+            "highlight": null
           },
           {
             "team": "AK Bars",
@@ -3655,18 +3667,6 @@
             "against": 80,
             "diff": -10,
             "points": 25,
-            "highlight": null
-          },
-          {
-            "team": "Sibir Novosibirsk",
-            "played": 28,
-            "win": 10,
-            "draw": null,
-            "loss": 14,
-            "for": 62,
-            "against": 79,
-            "diff": -17,
-            "points": 24,
             "highlight": null
           }
         ],
@@ -49013,6 +49013,7 @@
       "utc": "2026-11-19T16:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4894698"
     },
     {
@@ -49238,7 +49239,7 @@
       "league": "khl-2026-27",
       "home": "Sibir Novosibirsk",
       "away": "Avtomobilist Yekaterinburg",
-      "score": null,
+      "score": "1-0",
       "date": "2026-11-20",
       "time": "12:30",
       "utc": "2026-11-20T12:30:00+00:00",
@@ -50541,6 +50542,18 @@
       "venue": "Yayla-Arena",
       "attendance": null,
       "source_id": "sofascore:16422556"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Sibir Novosibirsk",
+      "away": "Severstal Cherepovets",
+      "score": null,
+      "date": "2026-11-23",
+      "time": "12:30",
+      "utc": "2026-11-23T12:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4896651"
     },
     {
       "league": "liiga-2026-27",
