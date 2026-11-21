@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-20T23:51:38+00:00",
+  "updated": "2026-11-21T14:34:32+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -801,10 +801,10 @@
             {
               "seed1": null,
               "team1": "Vélez Sarsfield",
-              "score1": null,
+              "score1": 2,
               "seed2": null,
               "team2": "Belgrano",
-              "score2": null,
+              "score2": 2,
               "date": "2026-11-20",
               "venue": "Jose Amalfitani"
             },
@@ -868,7 +868,7 @@
               "team1": null,
               "score1": null,
               "seed2": null,
-              "team2": null,
+              "team2": "Vélez Sarsfield",
               "score2": null,
               "date": null,
               "venue": null
@@ -3434,13 +3434,13 @@
           },
           {
             "team": "Spartak Moscow",
-            "played": 29,
+            "played": 30,
             "win": 15,
             "draw": null,
-            "loss": 9,
-            "for": 78,
-            "against": 63,
-            "diff": 15,
+            "loss": 10,
+            "for": 79,
+            "against": 66,
+            "diff": 13,
             "points": 35,
             "highlight": "#BBF3FF"
           },
@@ -3469,6 +3469,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "SKA St. Petersburg",
+            "played": 28,
+            "win": 14,
+            "draw": null,
+            "loss": 12,
+            "for": 79,
+            "against": 81,
+            "diff": -2,
+            "points": 30,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Shanghai Dragons",
             "played": 27,
             "win": 14,
@@ -3490,29 +3502,17 @@
             "against": 74,
             "diff": -9,
             "points": 29,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "SKA St. Petersburg",
-            "played": 27,
-            "win": 13,
-            "draw": null,
-            "loss": 12,
-            "for": 78,
-            "against": 81,
-            "diff": -3,
-            "points": 28,
             "highlight": null
           },
           {
             "team": "HC Sochi",
-            "played": 28,
+            "played": 29,
             "win": 8,
             "draw": null,
-            "loss": 19,
+            "loss": 20,
             "for": 47,
-            "against": 94,
-            "diff": -47,
+            "against": 95,
+            "diff": -48,
             "points": 17,
             "highlight": null
           },
@@ -3575,14 +3575,14 @@
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 29,
-            "win": 14,
+            "played": 30,
+            "win": 15,
             "draw": null,
             "loss": 11,
-            "for": 74,
-            "against": 80,
-            "diff": -6,
-            "points": 32,
+            "for": 77,
+            "against": 81,
+            "diff": -4,
+            "points": 34,
             "highlight": "#BBF3FF"
           },
           {
@@ -4124,13 +4124,13 @@
           },
           {
             "team": "Porin Ässät",
-            "played": 24,
+            "played": 25,
             "win": 13,
             "draw": null,
-            "loss": 11,
-            "for": 57,
-            "against": 58,
-            "diff": -1,
+            "loss": 12,
+            "for": 58,
+            "against": 64,
+            "diff": -6,
             "points": 40,
             "highlight": "#BBF3FF"
           },
@@ -4159,6 +4159,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Kiekko-Espoo",
+            "played": 24,
+            "win": 12,
+            "draw": null,
+            "loss": 12,
+            "for": 76,
+            "against": 61,
+            "diff": 15,
+            "points": 37,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "TPS Turku",
             "played": 23,
             "win": 12,
@@ -4168,18 +4180,6 @@
             "against": 66,
             "diff": -1,
             "points": 36,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Kiekko-Espoo",
-            "played": 23,
-            "win": 11,
-            "draw": null,
-            "loss": 12,
-            "for": 70,
-            "against": 60,
-            "diff": 10,
-            "points": 34,
             "highlight": "#BBF3FF"
           },
           {
@@ -5247,6 +5247,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Tonga",
+            "played": 6,
+            "win": 3,
+            "draw": 0,
+            "loss": 3,
+            "for": 212,
+            "against": 202,
+            "diff": 10,
+            "points": 18,
+            "highlight": "transparent"
+          },
+          {
             "team": "Samoa",
             "played": 5,
             "win": 3,
@@ -5280,18 +5292,6 @@
             "against": 153,
             "diff": -5,
             "points": 14,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Tonga",
-            "played": 5,
-            "win": 2,
-            "draw": 0,
-            "loss": 3,
-            "for": 157,
-            "against": 183,
-            "diff": -26,
-            "points": 13,
             "highlight": "transparent"
           },
           {
@@ -5361,13 +5361,13 @@
           },
           {
             "team": "Hong Kong",
-            "played": 5,
+            "played": 6,
             "win": 1,
             "draw": 0,
-            "loss": 4,
-            "for": 121,
-            "against": 210,
-            "diff": -89,
+            "loss": 5,
+            "for": 140,
+            "against": 265,
+            "diff": -125,
             "points": 6,
             "highlight": "transparent"
           },
@@ -11797,7 +11797,19 @@
             "for": 361,
             "against": 169,
             "diff": 192,
-            "points": 32,
+            "points": 33,
+            "highlight": null
+          },
+          {
+            "team": "Bedford Blues",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 335,
+            "against": 263,
+            "diff": 72,
+            "points": 30,
             "highlight": null
           },
           {
@@ -11809,7 +11821,7 @@
             "for": 363,
             "against": 247,
             "diff": 116,
-            "points": 28,
+            "points": 29,
             "highlight": null
           },
           {
@@ -11821,19 +11833,7 @@
             "for": 270,
             "against": 235,
             "diff": 35,
-            "points": 27,
-            "highlight": null
-          },
-          {
-            "team": "Bedford Blues",
-            "played": 8,
-            "win": 5,
-            "draw": null,
-            "loss": 3,
-            "for": 276,
-            "against": 232,
-            "diff": 44,
-            "points": 25,
+            "points": 26,
             "highlight": null
           },
           {
@@ -11845,7 +11845,7 @@
             "for": 305,
             "against": 255,
             "diff": 50,
-            "points": 23,
+            "points": 24,
             "highlight": null
           },
           {
@@ -11862,13 +11862,13 @@
           },
           {
             "team": "Ampthill RUFC",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 250,
-            "against": 337,
-            "diff": -87,
+            "loss": 5,
+            "for": 281,
+            "against": 396,
+            "diff": -115,
             "points": 16,
             "highlight": null
           },
@@ -12212,9 +12212,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-20T20:16:52.893575+00:00",
-    "torpedo": "2026-11-20T17:53:26.240368+00:00",
-    "velez:playoffs": "2026-11-20T15:54:26.159532+00:00"
+    "velez": "2026-11-21T14:33:20.569116+00:00",
+    "torpedo": "2026-11-21T14:33:20.569116+00:00",
+    "velez:playoffs": "2026-11-21T14:33:20.569116+00:00"
   },
   "matches": [
     {
@@ -49398,7 +49398,7 @@
       "league": "nations-cup-2026",
       "home": "Romania",
       "away": "Canada",
-      "score": null,
+      "score": "26-27",
       "date": "2026-11-20",
       "time": "18:30",
       "utc": "2026-11-20T16:30:00+00:00",
@@ -49606,7 +49606,7 @@
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Belgrano",
-      "score": null,
+      "score": "2-2",
       "date": "2026-11-20",
       "time": "20:00",
       "utc": "2026-11-20T23:00:00+00:00",
@@ -49642,7 +49642,7 @@
       "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "Spartak Moscow",
-      "score": null,
+      "score": "3-1",
       "date": "2026-11-21",
       "time": "11:00",
       "utc": "2026-11-21T11:00:00+00:00",
@@ -49654,7 +49654,7 @@
       "league": "championship-2026",
       "home": "Ampthill RUFC",
       "away": "Bedford Blues",
-      "score": null,
+      "score": "31-59",
       "date": "2026-11-21",
       "time": "12:00",
       "utc": "2026-11-21T12:00:00+00:00",
@@ -49666,7 +49666,7 @@
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "Porin Ässät",
-      "score": null,
+      "score": "6-1",
       "date": "2026-11-21",
       "time": "12:00",
       "utc": "2026-11-21T12:00:00+00:00",
@@ -49690,7 +49690,7 @@
       "league": "russian-first-league-2026-27",
       "home": "FC Nizhny Novgorod",
       "away": "Torpedo Moscow",
-      "score": "-",
+      "score": "3-0",
       "date": "2026-11-21",
       "time": "13:30",
       "utc": "2026-11-21T10:30:00+00:00",
@@ -49906,7 +49906,7 @@
       "date": "2026-11-21",
       "time": "16:45",
       "utc": "2026-11-21T15:45:00+00:00",
-      "venue": "{{ill|Stade Chanzy|lt=Stade Chanzy|fr|Stade Chanzy}}, Angouleme (France)",
+      "venue": "{{ill|Stade Chanzy|lt=Stade Chanzy|fr|Stade Chanzy}}, Angoulême (France)",
       "attendance": null
     },
     {
@@ -49917,7 +49917,7 @@
       "date": "2026-11-21",
       "time": "17:00",
       "utc": "2026-11-21T16:00:00+00:00",
-      "venue": "Estadio Ciudad de Málaga, Malaga",
+      "venue": "Estadio Ciudad de Málaga, Málaga",
       "attendance": null
     },
     {
@@ -50562,6 +50562,66 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4896651"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Admiral Vladivostok",
+      "away": "AK Bars",
+      "score": null,
+      "date": "2026-11-24",
+      "time": "09:30",
+      "utc": "2026-11-24T09:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898147"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Traktor Chelyabinsk",
+      "away": "Lada Togliatti",
+      "score": null,
+      "date": "2026-11-24",
+      "time": "14:00",
+      "utc": "2026-11-24T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898144"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Dinamo Minsk",
+      "score": null,
+      "date": "2026-11-24",
+      "time": "14:00",
+      "utc": "2026-11-24T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898146"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Salavat Yulayev Ufa",
+      "away": "Neftekhimik Nizhnekamsk",
+      "score": null,
+      "date": "2026-11-24",
+      "time": "14:00",
+      "utc": "2026-11-24T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898148"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Dynamo Moscow",
+      "away": "Avtomobilist Yekaterinburg",
+      "score": null,
+      "date": "2026-11-24",
+      "time": "16:30",
+      "utc": "2026-11-24T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898145"
     },
     {
       "league": "liiga-2026-27",
