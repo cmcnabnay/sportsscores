@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-21T15:28:19+00:00",
+  "updated": "2026-11-21T15:38:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11778,14 +11778,14 @@
         "rows": [
           {
             "team": "Ealing Trailfinders",
-            "played": 8,
-            "win": 7,
+            "played": 9,
+            "win": 8,
             "draw": null,
             "loss": 1,
-            "for": 381,
-            "against": 196,
-            "diff": 185,
-            "points": 35,
+            "for": 412,
+            "against": 221,
+            "diff": 191,
+            "points": 39,
             "highlight": null
           },
           {
@@ -11934,13 +11934,13 @@
           },
           {
             "team": "Caldy RFC",
-            "played": 8,
+            "played": 9,
             "win": 1,
             "draw": null,
-            "loss": 7,
-            "for": 234,
-            "against": 348,
-            "diff": -114,
+            "loss": 8,
+            "for": 259,
+            "against": 379,
+            "diff": -120,
             "points": 7,
             "highlight": null
           }
@@ -49678,7 +49678,7 @@
       "league": "championship-2026",
       "home": "Caldy RFC",
       "away": "Ealing Trailfinders",
-      "score": null,
+      "score": "25-31",
       "date": "2026-11-21",
       "time": "13:00",
       "utc": "2026-11-21T13:00:00+00:00",
