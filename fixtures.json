@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T17:09:13+00:00",
+  "updated": "2026-11-23T17:15:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -6723,60 +6723,60 @@
       "First Round · Group A": {
         "rows": [
           {
-            "for": 565,
-            "win": 6,
-            "diff": 162,
-            "draw": null,
-            "loss": 0,
             "team": "Australia",
             "played": 6,
-            "points": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 565,
             "against": 403,
-            "highlight": "#BBF3BB",
+            "diff": 162,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 559,
-            "win": 4,
-            "diff": 86,
-            "draw": null,
-            "loss": 2,
             "team": "New Zealand",
             "played": 6,
-            "points": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 559,
             "against": 473,
-            "highlight": "#BBF3BB",
+            "diff": 86,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 465,
-            "win": 2,
-            "diff": -12,
-            "draw": null,
-            "loss": 4,
             "team": "Philippines",
             "played": 6,
-            "points": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 465,
             "against": 477,
-            "highlight": "#BBF3BB",
+            "diff": -12,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 391,
-            "win": 0,
-            "diff": -236,
-            "draw": null,
-            "loss": 6,
             "team": "Guam",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 391,
             "against": 627,
-            "highlight": "transparent",
+            "diff": -236,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -6784,60 +6784,60 @@
       "First Round · Group B": {
         "rows": [
           {
-            "for": 499,
-            "win": 4,
-            "diff": 49,
-            "draw": null,
-            "loss": 2,
             "team": "Japan",
             "played": 6,
-            "points": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 499,
             "against": 450,
-            "highlight": "#BBF3BB",
+            "diff": 49,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 468,
-            "win": 3,
-            "diff": 0,
-            "draw": null,
-            "loss": 3,
             "team": "South Korea",
             "played": 6,
-            "points": 9,
-            "against": 468,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 504,
             "win": 3,
-            "diff": -5,
             "draw": null,
             "loss": 3,
-            "team": "China",
-            "played": 6,
+            "for": 468,
+            "against": 468,
+            "diff": 0,
             "points": 9,
-            "against": 509,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 463,
-            "win": 2,
-            "diff": -44,
+            "team": "China",
+            "played": 6,
+            "win": 3,
             "draw": null,
-            "loss": 4,
+            "loss": 3,
+            "for": 504,
+            "against": 509,
+            "diff": -5,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Chinese Taipei",
             "played": 6,
-            "points": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 463,
             "against": 507,
-            "highlight": "transparent",
+            "diff": -44,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -6845,60 +6845,60 @@
       "First Round · Group C": {
         "rows": [
           {
-            "for": 452,
-            "win": 5,
-            "diff": 71,
-            "draw": null,
-            "loss": 1,
             "team": "Iran",
             "played": 6,
-            "points": 11,
-            "against": 381,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 510,
             "win": 5,
-            "diff": 150,
             "draw": null,
             "loss": 1,
+            "for": 452,
+            "against": 381,
+            "diff": 71,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Jordan",
             "played": 6,
-            "points": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 510,
             "against": 360,
-            "highlight": "#BBF3BB",
+            "diff": 150,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 396,
-            "win": 2,
-            "diff": -74,
-            "draw": null,
-            "loss": 4,
             "team": "Syria",
             "played": 6,
-            "points": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 396,
             "against": 470,
-            "highlight": "#BBF3BB",
+            "diff": -74,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 416,
-            "win": 0,
-            "diff": -147,
-            "draw": null,
-            "loss": 6,
             "team": "Iraq",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 416,
             "against": 563,
-            "highlight": "transparent",
+            "diff": -147,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -6906,60 +6906,60 @@
       "First Round · Group D": {
         "rows": [
           {
-            "for": 537,
-            "win": 5,
-            "diff": 103,
-            "draw": null,
-            "loss": 1,
             "team": "Lebanon",
             "played": 6,
-            "points": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 537,
             "against": 434,
-            "highlight": "#BBF3BB",
+            "diff": 103,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 480,
-            "win": 4,
-            "diff": 34,
-            "draw": null,
-            "loss": 2,
             "team": "Qatar",
             "played": 6,
-            "points": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 480,
             "against": 446,
-            "highlight": "#CCF9CC",
+            "diff": 34,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#CCF9CC"
           },
           {
-            "for": 461,
-            "win": 3,
-            "diff": 15,
-            "draw": null,
-            "loss": 3,
             "team": "Saudi Arabia",
             "played": 6,
-            "points": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 461,
             "against": 446,
-            "highlight": "#BBF3BB",
+            "diff": 15,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 365,
-            "win": 0,
-            "diff": -152,
-            "draw": null,
-            "loss": 6,
             "team": "India",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 365,
             "against": 517,
-            "highlight": "transparent",
+            "diff": -152,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -6967,88 +6967,88 @@
       "Second Round · Group E": {
         "rows": [
           {
-            "for": 814,
-            "win": 8,
-            "diff": 254,
-            "draw": null,
-            "loss": 0,
             "team": "Australia",
             "played": 8,
-            "points": 16,
+            "win": 8,
+            "draw": null,
+            "loss": 0,
+            "for": 814,
             "against": 560,
-            "highlight": "#BBF3BB",
+            "diff": 254,
+            "points": 16,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 778,
-            "win": 6,
-            "diff": 140,
-            "draw": null,
-            "loss": 2,
             "team": "New Zealand",
             "played": 8,
-            "points": 14,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 778,
             "against": 638,
-            "highlight": "#BBF3BB",
+            "diff": 140,
+            "points": 14,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 599,
-            "win": 5,
-            "diff": 57,
-            "draw": null,
-            "loss": 3,
             "team": "Iran",
             "played": 8,
-            "points": 13,
-            "against": 542,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 684,
             "win": 5,
-            "diff": 116,
             "draw": null,
             "loss": 3,
+            "for": 599,
+            "against": 542,
+            "diff": 57,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Jordan",
             "played": 8,
-            "points": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 684,
             "against": 568,
-            "highlight": "#BBF3FF",
+            "diff": 116,
+            "points": 13,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
           },
           {
-            "for": 615,
-            "win": 4,
-            "diff": 1,
-            "draw": null,
-            "loss": 4,
             "team": "Philippines",
             "played": 8,
-            "points": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 615,
             "against": 614,
-            "highlight": "transparent",
+            "diff": 1,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 534,
-            "win": 2,
-            "diff": -185,
-            "draw": null,
-            "loss": 6,
             "team": "Syria",
             "played": 8,
-            "points": 10,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 534,
             "against": 719,
-            "highlight": "transparent",
+            "diff": -185,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7056,88 +7056,88 @@
       "Second Round · Group F": {
         "rows": [
           {
-            "for": 728,
-            "win": 6,
-            "diff": 130,
-            "draw": null,
-            "loss": 2,
             "team": "Japan",
             "played": 8,
-            "points": 14,
-            "against": 598,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 717,
             "win": 6,
-            "diff": 120,
             "draw": null,
             "loss": 2,
+            "for": 728,
+            "against": 598,
+            "diff": 130,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Lebanon",
             "played": 8,
-            "points": 14,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 717,
             "against": 597,
-            "highlight": "#BBF3BB",
+            "diff": 120,
+            "points": 14,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 676,
-            "win": 5,
-            "diff": 23,
-            "draw": null,
-            "loss": 3,
             "team": "China",
             "played": 8,
-            "points": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 676,
             "against": 653,
-            "highlight": "#BBF3BB",
+            "diff": 23,
+            "points": 13,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 627,
-            "win": 4,
-            "diff": -6,
-            "draw": null,
-            "loss": 4,
             "team": "South Korea",
             "played": 8,
-            "points": 12,
-            "against": 633,
-            "highlight": "#BBF3FF",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 607,
             "win": 4,
-            "diff": -45,
             "draw": null,
             "loss": 4,
-            "team": "Qatar",
-            "played": 8,
+            "for": 627,
+            "against": 633,
+            "diff": -6,
             "points": 12,
-            "against": 652,
-            "highlight": "#CCF9CC",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
           },
           {
-            "for": 611,
-            "win": 3,
-            "diff": -26,
+            "team": "Qatar",
+            "played": 8,
+            "win": 4,
             "draw": null,
-            "loss": 5,
+            "loss": 4,
+            "for": 607,
+            "against": 652,
+            "diff": -45,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#CCF9CC"
+          },
+          {
             "team": "Saudi Arabia",
             "played": 8,
-            "points": 11,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 611,
             "against": 637,
-            "highlight": "transparent",
+            "diff": -26,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7145,32 +7145,32 @@
       "Second Round · Best fourth placed team": {
         "rows": [
           {
-            "for": 684,
-            "win": 5,
-            "diff": 116,
-            "draw": null,
-            "loss": 3,
             "team": "Jordan",
             "played": 8,
-            "points": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 684,
             "against": 568,
-            "highlight": "#BBF3BB",
+            "diff": 116,
+            "points": 13,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 627,
-            "win": 4,
-            "diff": -6,
-            "draw": null,
-            "loss": 4,
             "team": "South Korea",
             "played": 8,
-            "points": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 627,
             "against": 633,
-            "highlight": "transparent",
+            "diff": -6,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7180,60 +7180,60 @@
       "First Round · Group A": {
         "rows": [
           {
-            "for": 460,
-            "win": 5,
-            "diff": 29,
-            "draw": null,
-            "loss": 1,
             "team": "Cameroon",
             "played": 6,
-            "points": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 460,
             "against": 431,
-            "highlight": "#BBF3BB",
+            "diff": 29,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 496,
-            "win": 4,
-            "diff": 104,
-            "draw": null,
-            "loss": 2,
             "team": "South Sudan",
             "played": 6,
-            "points": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 496,
             "against": 392,
-            "highlight": "#BBF3BB",
+            "diff": 104,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 479,
-            "win": 3,
-            "diff": -12,
-            "draw": null,
-            "loss": 3,
             "team": "Cape Verde",
             "played": 6,
-            "points": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 479,
             "against": 491,
-            "highlight": "#BBF3BB",
+            "diff": -12,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 399,
-            "win": 0,
-            "diff": -121,
-            "draw": null,
-            "loss": 6,
             "team": "Libya",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 399,
             "against": 520,
-            "highlight": "transparent",
+            "diff": -121,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7241,60 +7241,60 @@
       "First Round · Group B": {
         "rows": [
           {
-            "for": 529,
-            "win": 5,
-            "diff": 123,
-            "draw": null,
-            "loss": 1,
             "team": "Senegal",
             "played": 6,
-            "points": 11,
-            "against": 406,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 569,
             "win": 5,
-            "diff": 118,
             "draw": null,
             "loss": 1,
+            "for": 529,
+            "against": 406,
+            "diff": 123,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ivory Coast",
             "played": 6,
-            "points": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 569,
             "against": 451,
-            "highlight": "#BBF3BB",
+            "diff": 118,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 398,
-            "win": 2,
-            "diff": -97,
-            "draw": null,
-            "loss": 4,
             "team": "DR Congo",
             "played": 6,
-            "points": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 398,
             "against": 495,
-            "highlight": "#BBF3BB",
+            "diff": -97,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 442,
-            "win": 0,
-            "diff": -144,
-            "draw": null,
-            "loss": 6,
             "team": "Madagascar",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 442,
             "against": 586,
-            "highlight": "transparent",
+            "diff": -144,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7302,60 +7302,60 @@
       "First Round · Group C": {
         "rows": [
           {
-            "for": 435,
-            "win": 4,
-            "diff": 49,
-            "draw": null,
-            "loss": 2,
             "team": "Guinea",
             "played": 6,
-            "points": 10,
-            "against": 386,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 449,
             "win": 4,
-            "diff": 38,
             "draw": null,
             "loss": 2,
+            "for": 435,
+            "against": 386,
+            "diff": 49,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tunisia",
             "played": 6,
-            "points": 10,
-            "against": 411,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 478,
             "win": 4,
-            "diff": 30,
             "draw": null,
             "loss": 2,
-            "team": "Nigeria",
-            "played": 6,
+            "for": 449,
+            "against": 411,
+            "diff": 38,
             "points": 10,
-            "against": 448,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 397,
-            "win": 0,
-            "diff": -117,
+            "team": "Nigeria",
+            "played": 6,
+            "win": 4,
             "draw": null,
-            "loss": 6,
+            "loss": 2,
+            "for": 478,
+            "against": 448,
+            "diff": 30,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Rwanda",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 397,
             "against": 514,
-            "highlight": "transparent",
+            "diff": -117,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7363,60 +7363,60 @@
       "First Round · Group D": {
         "rows": [
           {
-            "for": 484,
-            "win": 5,
-            "diff": 38,
-            "draw": null,
-            "loss": 1,
             "team": "Mali",
             "played": 6,
-            "points": 11,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 484,
             "against": 446,
-            "highlight": "#BBF3BB",
+            "diff": 38,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 508,
-            "win": 4,
-            "diff": 73,
-            "draw": null,
-            "loss": 2,
             "team": "Angola",
             "played": 6,
-            "points": 10,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 508,
             "against": 435,
-            "highlight": "#BBF3BB",
+            "diff": 73,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 466,
-            "win": 3,
-            "diff": 24,
-            "draw": null,
-            "loss": 3,
             "team": "Egypt",
             "played": 6,
-            "points": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 466,
             "against": 442,
-            "highlight": "#BBF3BB",
+            "diff": 24,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 384,
-            "win": 0,
-            "diff": -135,
-            "draw": null,
-            "loss": 6,
             "team": "Uganda",
             "played": 6,
-            "points": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 384,
             "against": 519,
-            "highlight": "transparent",
+            "diff": -135,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7424,88 +7424,88 @@
       "Second Round · Group E": {
         "rows": [
           {
-            "for": 688,
-            "win": 7,
-            "diff": 44,
-            "draw": null,
-            "loss": 2,
             "team": "Cameroon",
             "played": 9,
-            "points": 16,
-            "against": 644,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 738,
             "win": 7,
-            "diff": 121,
             "draw": null,
             "loss": 2,
+            "for": 688,
+            "against": 644,
+            "diff": 44,
+            "points": 16,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "South Sudan",
             "played": 9,
-            "points": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 738,
             "against": 617,
-            "highlight": "#BBF3BB",
+            "diff": 121,
+            "points": 16,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 677,
-            "win": 6,
-            "diff": 82,
-            "draw": null,
-            "loss": 3,
             "team": "Guinea",
             "played": 9,
-            "points": 15,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 677,
             "against": 595,
-            "highlight": "#BBF3FF",
+            "diff": 82,
+            "points": 15,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
           },
           {
-            "for": 645,
-            "win": 5,
-            "diff": 16,
-            "draw": null,
-            "loss": 4,
             "team": "Tunisia",
             "played": 9,
-            "points": 14,
-            "against": 629,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 719,
             "win": 5,
-            "diff": 27,
             "draw": null,
             "loss": 4,
-            "team": "Nigeria",
-            "played": 9,
+            "for": 645,
+            "against": 629,
+            "diff": 16,
             "points": 14,
-            "against": 692,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 680,
-            "win": 3,
-            "diff": -52,
+            "team": "Nigeria",
+            "played": 9,
+            "win": 5,
             "draw": null,
-            "loss": 6,
+            "loss": 4,
+            "for": 719,
+            "against": 692,
+            "diff": 27,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
             "team": "Cape Verde",
             "played": 9,
-            "points": 12,
+            "win": 3,
+            "draw": null,
+            "loss": 6,
+            "for": 680,
             "against": 732,
-            "highlight": "transparent",
+            "diff": -52,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7513,88 +7513,88 @@
       "Second Round · Group F": {
         "rows": [
           {
-            "for": 777,
-            "win": 7,
-            "diff": 142,
-            "draw": null,
-            "loss": 2,
             "team": "Senegal",
             "played": 9,
-            "points": 16,
-            "against": 635,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 794,
             "win": 7,
-            "diff": 109,
             "draw": null,
             "loss": 2,
+            "for": 777,
+            "against": 635,
+            "diff": 142,
+            "points": 16,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Ivory Coast",
             "played": 9,
-            "points": 16,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 794,
             "against": 685,
-            "highlight": "#BBF3BB",
+            "diff": 109,
+            "points": 16,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 781,
-            "win": 6,
-            "diff": 124,
-            "draw": null,
-            "loss": 3,
             "team": "Angola",
             "played": 9,
-            "points": 15,
-            "against": 657,
-            "highlight": "#BBF3FF",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 733,
             "win": 6,
-            "diff": 31,
             "draw": null,
             "loss": 3,
+            "for": 781,
+            "against": 657,
+            "diff": 124,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Mali",
             "played": 9,
-            "points": 15,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 733,
             "against": 702,
-            "highlight": "transparent",
+            "diff": 31,
+            "points": 15,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 683,
-            "win": 4,
-            "diff": 25,
-            "draw": null,
-            "loss": 5,
             "team": "Egypt",
             "played": 9,
-            "points": 13,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 683,
             "against": 658,
-            "highlight": "transparent",
+            "diff": 25,
+            "points": 13,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 619,
-            "win": 3,
-            "diff": -152,
-            "draw": null,
-            "loss": 6,
             "team": "DR Congo",
             "played": 9,
-            "points": 12,
+            "win": 3,
+            "draw": null,
+            "loss": 6,
+            "for": 619,
             "against": 771,
-            "highlight": "transparent",
+            "diff": -152,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7602,939 +7602,95 @@
       "Second Round · Best third placed team": {
         "rows": [
           {
-            "for": 781,
-            "win": 6,
-            "diff": 124,
-            "draw": null,
-            "loss": 3,
             "team": "Angola",
             "played": 9,
-            "points": 15,
-            "against": 657,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 677,
             "win": 6,
-            "diff": 82,
             "draw": null,
             "loss": 3,
+            "for": 781,
+            "against": 657,
+            "diff": 124,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Guinea",
             "played": 9,
-            "points": 15,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 677,
             "against": 595,
-            "highlight": "transparent",
+            "diff": 82,
+            "points": 15,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
       }
     },
     "fiba-wcq-europe-2027": {
-      "Qualifiers · First Round · Group A": {
-        "rows": [
-          {
-            "for": 526,
-            "win": 5,
-            "diff": 99,
-            "draw": null,
-            "loss": 1,
-            "team": "Spain",
-            "played": 6,
-            "points": 11,
-            "against": 427,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 504,
-            "win": 4,
-            "diff": 45,
-            "draw": null,
-            "loss": 2,
-            "team": "Ukraine",
-            "played": 6,
-            "points": 10,
-            "against": 459,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 485,
-            "win": 3,
-            "diff": -12,
-            "draw": null,
-            "loss": 3,
-            "team": "Georgia",
-            "played": 6,
-            "points": 9,
-            "against": 497,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 416,
-            "win": 0,
-            "diff": -132,
-            "draw": null,
-            "loss": 6,
-            "team": "Denmark",
-            "played": 6,
-            "points": 6,
-            "against": 548,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group B": {
-        "rows": [
-          {
-            "for": 411,
-            "win": 4,
-            "diff": -23,
-            "draw": null,
-            "loss": 2,
-            "team": "Montenegro",
-            "played": 6,
-            "points": 10,
-            "against": 434,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 485,
-            "win": 3,
-            "diff": 36,
-            "draw": null,
-            "loss": 3,
-            "team": "Portugal",
-            "played": 6,
-            "points": 9,
-            "against": 449,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 433,
-            "win": 3,
-            "diff": 25,
-            "draw": null,
-            "loss": 3,
-            "team": "Greece",
-            "played": 6,
-            "points": 9,
-            "against": 408,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 459,
-            "win": 2,
-            "diff": -38,
-            "draw": null,
-            "loss": 4,
-            "team": "Romania",
-            "played": 6,
-            "points": 8,
-            "against": 497,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group C": {
-        "rows": [
-          {
-            "for": 531,
-            "win": 6,
-            "diff": 89,
-            "draw": null,
-            "loss": 0,
-            "team": "Turkey",
-            "played": 6,
-            "points": 12,
-            "against": 442,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 519,
-            "win": 4,
-            "diff": 31,
-            "draw": null,
-            "loss": 2,
-            "team": "Serbia",
-            "played": 6,
-            "points": 10,
-            "against": 488,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 474,
-            "win": 2,
-            "diff": 11,
-            "draw": null,
-            "loss": 4,
-            "team": "Bosnia and Herzegovina",
-            "played": 6,
-            "points": 8,
-            "against": 463,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 411,
-            "win": 0,
-            "diff": -131,
-            "draw": null,
-            "loss": 6,
-            "team": "Switzerland",
-            "played": 6,
-            "points": 6,
-            "against": 542,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group D": {
-        "rows": [
-          {
-            "for": 524,
-            "win": 5,
-            "diff": 63,
-            "draw": null,
-            "loss": 1,
-            "team": "Italy",
-            "played": 6,
-            "points": 11,
-            "against": 461,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 543,
-            "win": 3,
-            "diff": 33,
-            "draw": null,
-            "loss": 3,
-            "team": "Lithuania",
-            "played": 6,
-            "points": 9,
-            "against": 510,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 504,
-            "win": 3,
-            "diff": -34,
-            "draw": null,
-            "loss": 3,
-            "team": "Iceland",
-            "played": 6,
-            "points": 9,
-            "against": 538,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 481,
-            "win": 1,
-            "diff": -62,
-            "draw": null,
-            "loss": 5,
-            "team": "Great Britain",
-            "played": 6,
-            "points": 7,
-            "against": 543,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group E": {
-        "rows": [
-          {
-            "for": 593,
-            "win": 5,
-            "diff": 158,
-            "draw": null,
-            "loss": 1,
-            "team": "Croatia",
-            "played": 6,
-            "points": 11,
-            "against": 435,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 554,
-            "win": 5,
-            "diff": 74,
-            "draw": null,
-            "loss": 1,
-            "team": "Germany",
-            "played": 6,
-            "points": 11,
-            "against": 480,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 478,
-            "win": 2,
-            "diff": 1,
-            "draw": null,
-            "loss": 4,
-            "team": "Israel",
-            "played": 6,
-            "points": 8,
-            "against": 477,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 361,
-            "win": 0,
-            "diff": -233,
-            "draw": null,
-            "loss": 6,
-            "team": "Cyprus",
-            "played": 6,
-            "points": 6,
-            "against": 594,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group F": {
-        "rows": [
-          {
-            "for": 566,
-            "win": 6,
-            "diff": 90,
-            "draw": null,
-            "loss": 0,
-            "team": "Poland",
-            "played": 6,
-            "points": 12,
-            "against": 476,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 502,
-            "win": 3,
-            "diff": 37,
-            "draw": null,
-            "loss": 3,
-            "team": "Latvia",
-            "played": 6,
-            "points": 9,
-            "against": 465,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 490,
-            "win": 2,
-            "diff": 4,
-            "draw": null,
-            "loss": 4,
-            "team": "Netherlands",
-            "played": 6,
-            "points": 8,
-            "against": 486,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 448,
-            "win": 1,
-            "diff": -131,
-            "draw": null,
-            "loss": 5,
-            "team": "Austria",
-            "played": 6,
-            "points": 7,
-            "against": 579,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group G": {
-        "rows": [
-          {
-            "for": 505,
-            "win": 5,
-            "diff": 68,
-            "draw": null,
-            "loss": 1,
-            "team": "France",
-            "played": 6,
-            "points": 11,
-            "against": 437,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 468,
-            "win": 4,
-            "diff": -13,
-            "draw": null,
-            "loss": 2,
-            "team": "Finland",
-            "played": 6,
-            "points": 10,
-            "against": 481,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 488,
-            "win": 3,
-            "diff": -6,
-            "draw": null,
-            "loss": 3,
-            "team": "Hungary",
-            "played": 6,
-            "points": 9,
-            "against": 494,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 431,
-            "win": 0,
-            "diff": -49,
-            "draw": null,
-            "loss": 6,
-            "team": "Belgium",
-            "played": 6,
-            "points": 6,
-            "against": 480,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · First Round · Group H": {
-        "rows": [
-          {
-            "for": 509,
-            "win": 3,
-            "diff": 26,
-            "draw": null,
-            "loss": 3,
-            "team": "Estonia",
-            "played": 6,
-            "points": 9,
-            "against": 483,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 513,
-            "win": 3,
-            "diff": 12,
-            "draw": null,
-            "loss": 3,
-            "team": "Slovenia",
-            "played": 6,
-            "points": 9,
-            "against": 501,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 494,
-            "win": 3,
-            "diff": -9,
-            "draw": null,
-            "loss": 3,
-            "team": "Sweden",
-            "played": 6,
-            "points": 9,
-            "against": 503,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 488,
-            "win": 3,
-            "diff": -29,
-            "draw": null,
-            "loss": 3,
-            "team": "Czech Republic",
-            "played": 6,
-            "points": 9,
-            "against": 517,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · Second Round · Group I": {
-        "rows": [
-          {
-            "for": 684,
-            "win": 6,
-            "diff": 60,
-            "draw": null,
-            "loss": 2,
-            "team": "Ukraine",
-            "played": 8,
-            "points": 14,
-            "against": 624,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 721,
-            "win": 5,
-            "diff": 91,
-            "draw": null,
-            "loss": 3,
-            "team": "Spain",
-            "played": 8,
-            "points": 13,
-            "against": 630,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 684,
-            "win": 5,
-            "diff": 23,
-            "draw": null,
-            "loss": 3,
-            "team": "Georgia",
-            "played": 8,
-            "points": 13,
-            "against": 661,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 670,
-            "win": 4,
-            "diff": 34,
-            "draw": null,
-            "loss": 4,
-            "team": "Portugal",
-            "played": 8,
-            "points": 12,
-            "against": 636,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 617,
-            "win": 4,
-            "diff": 21,
-            "draw": null,
-            "loss": 4,
-            "team": "Greece",
-            "played": 8,
-            "points": 12,
-            "against": 596,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 574,
-            "win": 4,
-            "diff": -59,
-            "draw": null,
-            "loss": 4,
-            "team": "Montenegro",
-            "played": 8,
-            "points": 12,
-            "against": 633,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · Second Round · Group J": {
-        "rows": [
-          {
-            "for": 735,
-            "win": 8,
-            "diff": 154,
-            "draw": null,
-            "loss": 0,
-            "team": "Turkey",
-            "played": 8,
-            "points": 16,
-            "against": 581,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 697,
-            "win": 6,
-            "diff": 72,
-            "draw": null,
-            "loss": 2,
-            "team": "Serbia",
-            "played": 8,
-            "points": 14,
-            "against": 625,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 664,
-            "win": 5,
-            "diff": 49,
-            "draw": null,
-            "loss": 3,
-            "team": "Italy",
-            "played": 8,
-            "points": 13,
-            "against": 615,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 687,
-            "win": 4,
-            "diff": 10,
-            "draw": null,
-            "loss": 4,
-            "team": "Lithuania",
-            "played": 8,
-            "points": 12,
-            "against": 677,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 625,
-            "win": 3,
-            "diff": 8,
-            "draw": null,
-            "loss": 5,
-            "team": "Bosnia and Herzegovina",
-            "played": 8,
-            "points": 11,
-            "against": 617,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 650,
-            "win": 3,
-            "diff": -100,
-            "draw": null,
-            "loss": 5,
-            "team": "Iceland",
-            "played": 8,
-            "points": 11,
-            "against": 750,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · Second Round · Group K": {
-        "rows": [
-          {
-            "for": 809,
-            "win": 7,
-            "diff": 195,
-            "draw": null,
-            "loss": 1,
-            "team": "Croatia",
-            "played": 8,
-            "points": 15,
-            "against": 614,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 766,
-            "win": 7,
-            "diff": 108,
-            "draw": null,
-            "loss": 1,
-            "team": "Poland",
-            "played": 8,
-            "points": 15,
-            "against": 658,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 749,
-            "win": 7,
-            "diff": 92,
-            "draw": null,
-            "loss": 1,
-            "team": "Germany",
-            "played": 8,
-            "points": 15,
-            "against": 657,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 667,
-            "win": 4,
-            "diff": 17,
-            "draw": null,
-            "loss": 4,
-            "team": "Latvia",
-            "played": 8,
-            "points": 12,
-            "against": 650,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 672,
-            "win": 2,
-            "diff": -14,
-            "draw": null,
-            "loss": 6,
-            "team": "Netherlands",
-            "played": 8,
-            "points": 10,
-            "against": 686,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 634,
-            "win": 2,
-            "diff": -34,
-            "draw": null,
-            "loss": 6,
-            "team": "Israel",
-            "played": 8,
-            "points": 10,
-            "against": 668,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · Second Round · Group L": {
-        "rows": [
-          {
-            "for": 681,
-            "win": 7,
-            "diff": 108,
-            "draw": null,
-            "loss": 1,
-            "team": "France",
-            "played": 8,
-            "points": 15,
-            "against": 573,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 645,
-            "win": 5,
-            "diff": 11,
-            "draw": null,
-            "loss": 3,
-            "team": "Finland",
-            "played": 8,
-            "points": 13,
-            "against": 634,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 672,
-            "win": 4,
-            "diff": 2,
-            "draw": null,
-            "loss": 4,
-            "team": "Slovenia",
-            "played": 8,
-            "points": 12,
-            "against": 670,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 650,
-            "win": 4,
-            "diff": -3,
-            "draw": null,
-            "loss": 4,
-            "team": "Hungary",
-            "played": 8,
-            "points": 12,
-            "against": 653,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 649,
-            "win": 4,
-            "diff": -19,
-            "draw": null,
-            "loss": 4,
-            "team": "Sweden",
-            "played": 8,
-            "points": 12,
-            "against": 668,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 643,
-            "win": 3,
-            "diff": -21,
-            "draw": null,
-            "loss": 5,
-            "team": "Estonia",
-            "played": 8,
-            "points": 11,
-            "against": 664,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
       "Pre-Qualifiers · First Round · Group A": {
         "rows": [
           {
-            "for": 484,
-            "win": 6,
-            "diff": 143,
-            "draw": null,
-            "loss": 0,
             "team": "Switzerland",
             "played": 6,
-            "points": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 484,
             "against": 341,
-            "highlight": "#BBF3BB",
+            "diff": 143,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 454,
-            "win": 3,
-            "diff": -16,
-            "draw": null,
-            "loss": 3,
             "team": "Ireland",
             "played": 6,
-            "points": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 454,
             "against": 470,
-            "highlight": "transparent",
+            "diff": -16,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 442,
-            "win": 2,
-            "diff": -47,
-            "draw": null,
-            "loss": 4,
             "team": "Kosovo",
             "played": 6,
-            "points": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 442,
             "against": 489,
-            "highlight": "transparent",
+            "diff": -47,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 405,
-            "win": 1,
-            "diff": -80,
-            "draw": null,
-            "loss": 5,
             "team": "Azerbaijan",
             "played": 6,
-            "points": 7,
+            "win": 1,
+            "draw": null,
+            "loss": 5,
+            "for": 405,
             "against": 485,
-            "highlight": "transparent",
+            "diff": -80,
+            "points": 7,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -8542,46 +7698,46 @@
       "Pre-Qualifiers · First Round · Group B": {
         "rows": [
           {
-            "for": 316,
-            "win": 3,
-            "diff": 29,
-            "draw": null,
-            "loss": 1,
             "team": "Romania",
             "played": 4,
-            "points": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 316,
             "against": 287,
-            "highlight": "#BBF3BB",
+            "diff": 29,
+            "points": 7,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 273,
-            "win": 2,
-            "diff": -4,
-            "draw": null,
-            "loss": 2,
             "team": "Norway",
             "played": 4,
-            "points": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 273,
             "against": 277,
-            "highlight": "#BBF3BB",
+            "diff": -4,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 271,
-            "win": 1,
-            "diff": -25,
-            "draw": null,
-            "loss": 3,
             "team": "Luxembourg",
             "played": 4,
-            "points": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 271,
             "against": 296,
-            "highlight": "transparent",
+            "diff": -25,
+            "points": 5,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -8589,234 +7745,46 @@
       "Pre-Qualifiers · First Round · Group C": {
         "rows": [
           {
-            "for": 401,
-            "win": 3,
-            "diff": 89,
-            "draw": null,
-            "loss": 1,
             "team": "Austria",
             "played": 4,
-            "points": 7,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 401,
             "against": 312,
-            "highlight": "#BBF3BB",
+            "diff": 89,
+            "points": 7,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 346,
-            "win": 2,
-            "diff": -38,
-            "draw": null,
-            "loss": 2,
             "team": "Armenia",
             "played": 4,
-            "points": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 346,
             "against": 384,
-            "highlight": "transparent",
+            "diff": -38,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 290,
-            "win": 1,
-            "diff": -51,
-            "draw": null,
-            "loss": 3,
             "team": "Albania",
             "played": 4,
-            "points": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 290,
             "against": 341,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Pre-Qualifiers · Second Round · Group D": {
-        "rows": [
-          {
-            "for": 315,
-            "win": 3,
-            "diff": 28,
-            "draw": null,
-            "loss": 1,
-            "team": "Ukraine",
-            "played": 4,
-            "points": 7,
-            "against": 287,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 275,
-            "win": 2,
-            "diff": -7,
-            "draw": null,
-            "loss": 2,
-            "team": "Switzerland",
-            "played": 4,
-            "points": 6,
-            "against": 282,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 302,
-            "win": 1,
-            "diff": -21,
-            "draw": null,
-            "loss": 3,
-            "team": "Slovakia",
-            "played": 4,
+            "diff": -51,
             "points": 5,
-            "against": 323,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Pre-Qualifiers · Second Round · Group E": {
-        "rows": [
-          {
-            "for": 235,
-            "win": 3,
-            "diff": 33,
-            "draw": null,
-            "loss": 1,
-            "team": "Romania",
-            "played": 4,
-            "points": 7,
-            "against": 202,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 235,
-            "win": 2,
-            "diff": 19,
-            "draw": null,
-            "loss": 2,
-            "team": "Hungary",
-            "played": 4,
-            "points": 6,
-            "against": 216,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 278,
-            "win": 1,
-            "diff": -52,
-            "draw": null,
-            "loss": 3,
-            "team": "North Macedonia",
-            "played": 4,
-            "points": 5,
-            "against": 330,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Pre-Qualifiers · Second Round · Group F": {
-        "rows": [
-          {
-            "for": 313,
-            "win": 3,
-            "diff": 26,
-            "draw": null,
-            "loss": 1,
-            "team": "Netherlands",
-            "played": 4,
-            "points": 7,
-            "against": 287,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 313,
-            "win": 2,
-            "diff": 15,
-            "draw": null,
-            "loss": 2,
-            "team": "Austria",
-            "played": 4,
-            "points": 6,
-            "against": 298,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 303,
-            "win": 1,
-            "diff": -41,
-            "draw": null,
-            "loss": 3,
-            "team": "Bulgaria",
-            "played": 4,
-            "points": 5,
-            "against": 344,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Pre-Qualifiers · Second Round · Group G": {
-        "rows": [
-          {
-            "for": 379,
-            "win": 4,
-            "diff": 108,
-            "draw": null,
-            "loss": 0,
-            "team": "Croatia",
-            "played": 4,
-            "points": 8,
-            "against": 271,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 318,
-            "win": 2,
-            "diff": 1,
-            "draw": null,
-            "loss": 2,
-            "team": "Denmark",
-            "played": 4,
-            "points": 6,
-            "against": 317,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 262,
-            "win": 0,
-            "diff": -109,
-            "draw": null,
-            "loss": 4,
-            "team": "Norway",
-            "played": 4,
-            "points": 4,
-            "against": 371,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -8824,109 +7792,295 @@
       "Pre-Qualifiers · First Round · Ranking of second-placed teams": {
         "rows": [
           {
-            "for": 273,
-            "win": 2,
-            "diff": -4,
-            "draw": null,
-            "loss": 2,
             "team": "Norway",
             "played": 4,
-            "points": 6,
-            "against": 277,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 346,
             "win": 2,
-            "diff": -38,
             "draw": null,
             "loss": 2,
-            "team": "Armenia",
-            "played": 4,
+            "for": 273,
+            "against": 277,
+            "diff": -4,
             "points": 6,
-            "against": 384,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 284,
-            "win": 1,
-            "diff": -55,
+            "team": "Armenia",
+            "played": 4,
+            "win": 2,
             "draw": null,
-            "loss": 3,
+            "loss": 2,
+            "for": 346,
+            "against": 384,
+            "diff": -38,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
             "team": "Ireland",
             "played": 4,
-            "points": 5,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 284,
             "against": 339,
-            "highlight": "transparent",
+            "diff": -55,
+            "points": 5,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
-      }
-    },
-    "fiba-wcq-americas-2027": {
+      },
+      "Pre-Qualifiers · Second Round · Group D": {
+        "rows": [
+          {
+            "team": "Ukraine",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 315,
+            "against": 287,
+            "diff": 28,
+            "points": 7,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Switzerland",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 275,
+            "against": 282,
+            "diff": -7,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Slovakia",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 302,
+            "against": 323,
+            "diff": -21,
+            "points": 5,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Pre-Qualifiers · Second Round · Group E": {
+        "rows": [
+          {
+            "team": "Romania",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 235,
+            "against": 202,
+            "diff": 33,
+            "points": 7,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Hungary",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 235,
+            "against": 216,
+            "diff": 19,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "North Macedonia",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 278,
+            "against": 330,
+            "diff": -52,
+            "points": 5,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Pre-Qualifiers · Second Round · Group F": {
+        "rows": [
+          {
+            "team": "Netherlands",
+            "played": 4,
+            "win": 3,
+            "draw": null,
+            "loss": 1,
+            "for": 313,
+            "against": 287,
+            "diff": 26,
+            "points": 7,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Austria",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 313,
+            "against": 298,
+            "diff": 15,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Bulgaria",
+            "played": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 3,
+            "for": 303,
+            "against": 344,
+            "diff": -41,
+            "points": 5,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Pre-Qualifiers · Second Round · Group G": {
+        "rows": [
+          {
+            "team": "Croatia",
+            "played": 4,
+            "win": 4,
+            "draw": null,
+            "loss": 0,
+            "for": 379,
+            "against": 271,
+            "diff": 108,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Denmark",
+            "played": 4,
+            "win": 2,
+            "draw": null,
+            "loss": 2,
+            "for": 318,
+            "against": 317,
+            "diff": 1,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Norway",
+            "played": 4,
+            "win": 0,
+            "draw": null,
+            "loss": 4,
+            "for": 262,
+            "against": 371,
+            "diff": -109,
+            "points": 4,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
       "Qualifiers · First Round · Group A": {
         "rows": [
           {
-            "for": 603,
+            "team": "Spain",
+            "played": 6,
             "win": 5,
-            "diff": 94,
             "draw": null,
             "loss": 1,
-            "team": "United States",
-            "played": 6,
+            "for": 526,
+            "against": 427,
+            "diff": 99,
             "points": 11,
-            "against": 509,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 533,
+            "team": "Ukraine",
+            "played": 6,
             "win": 4,
-            "diff": 61,
             "draw": null,
             "loss": 2,
-            "team": "Dominican Republic",
-            "played": 6,
+            "for": 504,
+            "against": 459,
+            "diff": 45,
             "points": 10,
-            "against": 472,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 552,
+            "team": "Georgia",
+            "played": 6,
             "win": 3,
-            "diff": 4,
             "draw": null,
             "loss": 3,
-            "team": "Mexico",
-            "played": 6,
+            "for": 485,
+            "against": 497,
+            "diff": -12,
             "points": 9,
-            "against": 548,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 448,
+            "team": "Denmark",
+            "played": 6,
             "win": 0,
-            "diff": -159,
             "draw": null,
             "loss": 6,
-            "team": "Nicaragua",
-            "played": 6,
+            "for": 416,
+            "against": 548,
+            "diff": -132,
             "points": 6,
-            "against": 607,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -8934,60 +8088,60 @@
       "Qualifiers · First Round · Group B": {
         "rows": [
           {
-            "for": 624,
-            "win": 6,
-            "diff": 133,
-            "draw": null,
-            "loss": 0,
-            "team": "Canada",
+            "team": "Montenegro",
             "played": 6,
-            "points": 12,
-            "against": 491,
-            "highlight": "#BBF3BB",
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 411,
+            "against": 434,
+            "diff": -23,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 543,
-            "win": 2,
-            "diff": -18,
-            "draw": null,
-            "loss": 4,
-            "team": "Bahamas",
+            "team": "Portugal",
             "played": 6,
-            "points": 8,
-            "against": 561,
-            "highlight": "#BBF3BB",
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 485,
+            "against": 449,
+            "diff": 36,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 537,
-            "win": 2,
-            "diff": -16,
-            "draw": null,
-            "loss": 4,
-            "team": "Puerto Rico",
+            "team": "Greece",
             "played": 6,
-            "points": 8,
-            "against": 553,
-            "highlight": "#BBF3BB",
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 433,
+            "against": 408,
+            "diff": 25,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 518,
+            "team": "Romania",
+            "played": 6,
             "win": 2,
-            "diff": -99,
             "draw": null,
             "loss": 4,
-            "team": "Jamaica",
-            "played": 6,
+            "for": 459,
+            "against": 497,
+            "diff": -38,
             "points": 8,
-            "against": 617,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -8995,60 +8149,60 @@
       "Qualifiers · First Round · Group C": {
         "rows": [
           {
-            "for": 562,
+            "team": "Turkey",
+            "played": 6,
             "win": 6,
-            "diff": 110,
             "draw": null,
             "loss": 0,
-            "team": "Brazil",
-            "played": 6,
+            "for": 531,
+            "against": 442,
+            "diff": 89,
             "points": 12,
-            "against": 452,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 499,
-            "win": 3,
-            "diff": -29,
-            "draw": null,
-            "loss": 3,
-            "team": "Colombia",
+            "team": "Serbia",
             "played": 6,
-            "points": 9,
-            "against": 528,
-            "highlight": "#BBF3BB",
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 519,
+            "against": 488,
+            "diff": 31,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 433,
+            "team": "Bosnia and Herzegovina",
+            "played": 6,
             "win": 2,
-            "diff": -30,
             "draw": null,
             "loss": 4,
-            "team": "Chile",
-            "played": 6,
-            "points": 8,
+            "for": 474,
             "against": 463,
-            "highlight": "#BBF3BB",
+            "diff": 11,
+            "points": 8,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 474,
-            "win": 1,
-            "diff": -51,
-            "draw": null,
-            "loss": 5,
-            "team": "Venezuela",
+            "team": "Switzerland",
             "played": 6,
-            "points": 7,
-            "against": 525,
-            "highlight": "transparent",
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 411,
+            "against": 542,
+            "diff": -131,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -9056,238 +8210,723 @@
       "Qualifiers · First Round · Group D": {
         "rows": [
           {
-            "for": 501,
+            "team": "Italy",
+            "played": 6,
             "win": 5,
-            "diff": 92,
             "draw": null,
             "loss": 1,
-            "team": "Uruguay",
-            "played": 6,
+            "for": 524,
+            "against": 461,
+            "diff": 63,
             "points": 11,
-            "against": 409,
-            "highlight": "#BBF3BB",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 517,
-            "win": 5,
-            "diff": 117,
-            "draw": null,
-            "loss": 1,
-            "team": "Argentina",
+            "team": "Lithuania",
             "played": 6,
-            "points": 11,
-            "against": 400,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 455,
-            "win": 2,
-            "diff": -70,
-            "draw": null,
-            "loss": 4,
-            "team": "Panama",
-            "played": 6,
-            "points": 8,
-            "against": 525,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 400,
-            "win": 0,
-            "diff": -139,
-            "draw": null,
-            "loss": 6,
-            "team": "Cuba",
-            "played": 6,
-            "points": 6,
-            "against": 539,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          }
-        ],
-        "legend": {}
-      },
-      "Qualifiers · Second Round · Group E": {
-        "rows": [
-          {
-            "for": 796,
-            "win": 7,
-            "diff": 136,
-            "draw": null,
-            "loss": 1,
-            "team": "United States",
-            "played": 8,
-            "points": 15,
-            "against": 660,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 728,
-            "win": 6,
-            "diff": 100,
-            "draw": null,
-            "loss": 2,
-            "team": "Dominican Republic",
-            "played": 8,
-            "points": 14,
-            "against": 628,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 726,
-            "win": 6,
-            "diff": 101,
-            "draw": null,
-            "loss": 2,
-            "team": "Brazil",
-            "played": 8,
-            "points": 14,
-            "against": 625,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 743,
-            "win": 5,
-            "diff": 35,
+            "win": 3,
             "draw": null,
             "loss": 3,
-            "team": "Mexico",
-            "played": 8,
-            "points": 13,
-            "against": 708,
-            "highlight": "#BBF3FF",
+            "for": 543,
+            "against": 510,
+            "diff": 33,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 665,
+            "team": "Iceland",
+            "played": 6,
             "win": 3,
-            "diff": -79,
+            "draw": null,
+            "loss": 3,
+            "for": 504,
+            "against": 538,
+            "diff": -34,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Great Britain",
+            "played": 6,
+            "win": 1,
             "draw": null,
             "loss": 5,
-            "team": "Colombia",
-            "played": 8,
-            "points": 11,
-            "against": 744,
-            "highlight": "transparent",
+            "for": 481,
+            "against": 543,
+            "diff": -62,
+            "points": 7,
             "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 570,
-            "win": 2,
-            "diff": -83,
-            "draw": null,
-            "loss": 6,
-            "team": "Chile",
-            "played": 8,
-            "points": 10,
-            "against": 653,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
       },
-      "Qualifiers · Second Round · Group F": {
+      "Qualifiers · First Round · Group E": {
         "rows": [
           {
-            "for": 807,
-            "win": 8,
+            "team": "Croatia",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 593,
+            "against": 435,
             "diff": 158,
-            "draw": null,
-            "loss": 0,
-            "team": "Canada",
-            "played": 8,
-            "points": 16,
-            "against": 649,
-            "highlight": "#BBF3BB",
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 675,
-            "win": 6,
-            "diff": 88,
+            "team": "Germany",
+            "played": 6,
+            "win": 5,
             "draw": null,
-            "loss": 2,
-            "team": "Uruguay",
-            "played": 8,
-            "points": 14,
-            "against": 587,
-            "highlight": "#BBF3BB",
+            "loss": 1,
+            "for": 554,
+            "against": 480,
+            "diff": 74,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 698,
-            "win": 6,
-            "diff": 126,
-            "draw": null,
-            "loss": 2,
-            "team": "Argentina",
-            "played": 8,
-            "points": 14,
-            "against": 572,
-            "highlight": "#BBF3BB",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 746,
-            "win": 4,
-            "diff": 9,
+            "team": "Israel",
+            "played": 6,
+            "win": 2,
             "draw": null,
             "loss": 4,
-            "team": "Bahamas",
-            "played": 8,
+            "for": 478,
+            "against": 477,
+            "diff": 1,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Cyprus",
+            "played": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 361,
+            "against": 594,
+            "diff": -233,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group F": {
+        "rows": [
+          {
+            "team": "Poland",
+            "played": 6,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 566,
+            "against": 476,
+            "diff": 90,
             "points": 12,
-            "against": 737,
-            "highlight": "#BBF3FF",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
+            "team": "Latvia",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 502,
+            "against": 465,
+            "diff": 37,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Netherlands",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 490,
+            "against": 486,
+            "diff": 4,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Austria",
+            "played": 6,
+            "win": 1,
+            "draw": null,
+            "loss": 5,
+            "for": 448,
+            "against": 579,
+            "diff": -131,
+            "points": 7,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group G": {
+        "rows": [
+          {
+            "team": "France",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 505,
+            "against": 437,
+            "diff": 68,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Finland",
+            "played": 6,
+            "win": 4,
+            "draw": null,
+            "loss": 2,
+            "for": 468,
+            "against": 481,
+            "diff": -13,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Hungary",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 488,
+            "against": 494,
+            "diff": -6,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Belgium",
+            "played": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 431,
+            "against": 480,
+            "diff": -49,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group H": {
+        "rows": [
+          {
+            "team": "Estonia",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 509,
+            "against": 483,
+            "diff": 26,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Slovenia",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 513,
+            "against": 501,
+            "diff": 12,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Sweden",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 494,
+            "against": 503,
+            "diff": -9,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Czech Republic",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 488,
+            "against": 517,
+            "diff": -29,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group I": {
+        "rows": [
+          {
+            "team": "Ukraine",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 684,
+            "against": 624,
+            "diff": 60,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Spain",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 721,
+            "against": 630,
+            "diff": 91,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Georgia",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 684,
+            "against": 661,
+            "diff": 23,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Portugal",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 670,
+            "against": 636,
+            "diff": 34,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Greece",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 617,
+            "against": 596,
+            "diff": 21,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Montenegro",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 574,
+            "against": 633,
+            "diff": -59,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group J": {
+        "rows": [
+          {
+            "team": "Turkey",
+            "played": 8,
+            "win": 8,
+            "draw": null,
+            "loss": 0,
+            "for": 735,
+            "against": 581,
+            "diff": 154,
+            "points": 16,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Serbia",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 697,
+            "against": 625,
+            "diff": 72,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Italy",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 664,
+            "against": 615,
+            "diff": 49,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Lithuania",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
             "for": 687,
-            "win": 2,
-            "diff": -35,
-            "draw": null,
-            "loss": 6,
-            "team": "Puerto Rico",
-            "played": 8,
-            "points": 10,
-            "against": 722,
-            "highlight": "transparent",
+            "against": 677,
+            "diff": 10,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 603,
+            "team": "Bosnia and Herzegovina",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 625,
+            "against": 617,
+            "diff": 8,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Iceland",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 650,
+            "against": 750,
+            "diff": -100,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group K": {
+        "rows": [
+          {
+            "team": "Croatia",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 809,
+            "against": 614,
+            "diff": 195,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Poland",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 766,
+            "against": 658,
+            "diff": 108,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Germany",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 749,
+            "against": 657,
+            "diff": 92,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Latvia",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 667,
+            "against": 650,
+            "diff": 17,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Netherlands",
+            "played": 8,
             "win": 2,
-            "diff": -108,
             "draw": null,
             "loss": 6,
-            "team": "Panama",
-            "played": 8,
+            "for": 672,
+            "against": 686,
+            "diff": -14,
             "points": 10,
-            "against": 711,
-            "highlight": "transparent",
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Israel",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 634,
+            "against": 668,
+            "diff": -34,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group L": {
+        "rows": [
+          {
+            "team": "France",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 681,
+            "against": 573,
+            "diff": 108,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Finland",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 645,
+            "against": 634,
+            "diff": 11,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Slovenia",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 672,
+            "against": 670,
+            "diff": 2,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Hungary",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 650,
+            "against": 653,
+            "diff": -3,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Sweden",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 649,
+            "against": 668,
+            "diff": -19,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Estonia",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 643,
+            "against": 664,
+            "diff": -21,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "fiba-wcq-americas-2027": {
+      "Pre-Qualifiers · First Round · Preliminary round": {
+        "rows": [
+          {
+            "team": "Costa Rica",
+            "played": 3,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 252,
+            "against": 164,
+            "diff": 88,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "El Salvador",
+            "played": 3,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 187,
+            "against": 204,
+            "diff": -17,
+            "points": 5,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Guatemala",
+            "played": 3,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 201,
+            "against": 226,
+            "diff": -25,
+            "points": 4,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Honduras",
+            "played": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 194,
+            "against": 240,
+            "diff": -46,
+            "points": 3,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -9295,60 +8934,60 @@
       "Pre-Qualifiers · Second Round · Group A": {
         "rows": [
           {
-            "for": 280,
-            "win": 3,
-            "diff": 75,
-            "draw": null,
-            "loss": 0,
             "team": "Mexico",
             "played": 3,
-            "points": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 280,
             "against": 205,
-            "highlight": "#BBF3BB",
+            "diff": 75,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 242,
-            "win": 2,
-            "diff": -3,
-            "draw": null,
-            "loss": 1,
             "team": "Jamaica",
             "played": 3,
-            "points": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 242,
             "against": 245,
-            "highlight": "#BBF3BB",
+            "diff": -3,
+            "points": 5,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 240,
-            "win": 1,
-            "diff": -30,
-            "draw": null,
-            "loss": 2,
             "team": "Barbados",
             "played": 3,
-            "points": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 240,
             "against": 270,
-            "highlight": "transparent",
+            "diff": -30,
+            "points": 4,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 198,
-            "win": 0,
-            "diff": -42,
-            "draw": null,
-            "loss": 3,
             "team": "Costa Rica",
             "played": 3,
-            "points": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 198,
             "against": 240,
-            "highlight": "transparent",
+            "diff": -42,
+            "points": 3,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -9356,121 +8995,482 @@
       "Pre-Qualifiers · Second Round · Group B": {
         "rows": [
           {
-            "for": 277,
-            "win": 3,
-            "diff": 97,
-            "draw": null,
-            "loss": 0,
             "team": "Chile",
             "played": 3,
-            "points": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 0,
+            "for": 277,
             "against": 180,
-            "highlight": "#BBF3BB",
+            "diff": 97,
+            "points": 6,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 236,
-            "win": 2,
-            "diff": 26,
-            "draw": null,
-            "loss": 1,
             "team": "Cuba",
             "played": 3,
-            "points": 5,
+            "win": 2,
+            "draw": null,
+            "loss": 1,
+            "for": 236,
             "against": 210,
-            "highlight": "#BBF3BB",
+            "diff": 26,
+            "points": 5,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 206,
-            "win": 1,
-            "diff": -64,
-            "draw": null,
-            "loss": 2,
             "team": "El Salvador",
             "played": 3,
-            "points": 4,
+            "win": 1,
+            "draw": null,
+            "loss": 2,
+            "for": 206,
             "against": 270,
-            "highlight": "transparent",
+            "diff": -64,
+            "points": 4,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
-            "for": 217,
-            "win": 0,
-            "diff": -59,
-            "draw": null,
-            "loss": 3,
             "team": "Ecuador",
             "played": 3,
-            "points": 3,
+            "win": 0,
+            "draw": null,
+            "loss": 3,
+            "for": 217,
             "against": 276,
-            "highlight": "transparent",
+            "diff": -59,
+            "points": 3,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
       },
-      "Pre-Qualifiers · First Round · Preliminary round": {
+      "Qualifiers · First Round · Group A": {
         "rows": [
           {
-            "for": 252,
-            "win": 3,
-            "diff": 88,
-            "draw": null,
-            "loss": 0,
-            "team": "Costa Rica",
-            "played": 3,
-            "points": 6,
-            "against": 164,
-            "highlight": "transparent",
-            "try_bonus": null,
-            "losing_bonus": null
-          },
-          {
-            "for": 187,
-            "win": 2,
-            "diff": -17,
+            "team": "United States",
+            "played": 6,
+            "win": 5,
             "draw": null,
             "loss": 1,
-            "team": "El Salvador",
-            "played": 3,
-            "points": 5,
-            "against": 204,
-            "highlight": "transparent",
+            "for": 603,
+            "against": 509,
+            "diff": 94,
+            "points": 11,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 201,
-            "win": 1,
-            "diff": -25,
+            "team": "Dominican Republic",
+            "played": 6,
+            "win": 4,
             "draw": null,
             "loss": 2,
-            "team": "Guatemala",
-            "played": 3,
-            "points": 4,
-            "against": 226,
-            "highlight": "transparent",
+            "for": 533,
+            "against": 472,
+            "diff": 61,
+            "points": 10,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 194,
-            "win": 0,
-            "diff": -46,
+            "team": "Mexico",
+            "played": 6,
+            "win": 3,
             "draw": null,
             "loss": 3,
-            "team": "Honduras",
-            "played": 3,
-            "points": 3,
-            "against": 240,
-            "highlight": "transparent",
+            "for": 552,
+            "against": 548,
+            "diff": 4,
+            "points": 9,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Nicaragua",
+            "played": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 448,
+            "against": 607,
+            "diff": -159,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group B": {
+        "rows": [
+          {
+            "team": "Canada",
+            "played": 6,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 624,
+            "against": 491,
+            "diff": 133,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Bahamas",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 543,
+            "against": 561,
+            "diff": -18,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Puerto Rico",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 537,
+            "against": 553,
+            "diff": -16,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Jamaica",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 518,
+            "against": 617,
+            "diff": -99,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group C": {
+        "rows": [
+          {
+            "team": "Brazil",
+            "played": 6,
+            "win": 6,
+            "draw": null,
+            "loss": 0,
+            "for": 562,
+            "against": 452,
+            "diff": 110,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Colombia",
+            "played": 6,
+            "win": 3,
+            "draw": null,
+            "loss": 3,
+            "for": 499,
+            "against": 528,
+            "diff": -29,
+            "points": 9,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Chile",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 433,
+            "against": 463,
+            "diff": -30,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Venezuela",
+            "played": 6,
+            "win": 1,
+            "draw": null,
+            "loss": 5,
+            "for": 474,
+            "against": 525,
+            "diff": -51,
+            "points": 7,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · First Round · Group D": {
+        "rows": [
+          {
+            "team": "Uruguay",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 501,
+            "against": 409,
+            "diff": 92,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Argentina",
+            "played": 6,
+            "win": 5,
+            "draw": null,
+            "loss": 1,
+            "for": 517,
+            "against": 400,
+            "diff": 117,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Panama",
+            "played": 6,
+            "win": 2,
+            "draw": null,
+            "loss": 4,
+            "for": 455,
+            "against": 525,
+            "diff": -70,
+            "points": 8,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Cuba",
+            "played": 6,
+            "win": 0,
+            "draw": null,
+            "loss": 6,
+            "for": 400,
+            "against": 539,
+            "diff": -139,
+            "points": 6,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group E": {
+        "rows": [
+          {
+            "team": "United States",
+            "played": 8,
+            "win": 7,
+            "draw": null,
+            "loss": 1,
+            "for": 796,
+            "against": 660,
+            "diff": 136,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Dominican Republic",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 728,
+            "against": 628,
+            "diff": 100,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Brazil",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 726,
+            "against": 625,
+            "diff": 101,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Mexico",
+            "played": 8,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 743,
+            "against": 708,
+            "diff": 35,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Colombia",
+            "played": 8,
+            "win": 3,
+            "draw": null,
+            "loss": 5,
+            "for": 665,
+            "against": 744,
+            "diff": -79,
+            "points": 11,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Chile",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 570,
+            "against": 653,
+            "diff": -83,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          }
+        ],
+        "legend": {}
+      },
+      "Qualifiers · Second Round · Group F": {
+        "rows": [
+          {
+            "team": "Canada",
+            "played": 8,
+            "win": 8,
+            "draw": null,
+            "loss": 0,
+            "for": 807,
+            "against": 649,
+            "diff": 158,
+            "points": 16,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Uruguay",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 675,
+            "against": 587,
+            "diff": 88,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Argentina",
+            "played": 8,
+            "win": 6,
+            "draw": null,
+            "loss": 2,
+            "for": 698,
+            "against": 572,
+            "diff": 126,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "Bahamas",
+            "played": 8,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 746,
+            "against": 737,
+            "diff": 9,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Puerto Rico",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 687,
+            "against": 722,
+            "diff": -35,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Panama",
+            "played": 8,
+            "win": 2,
+            "draw": null,
+            "loss": 6,
+            "for": 603,
+            "against": 711,
+            "diff": -108,
+            "points": 10,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -9478,32 +9478,32 @@
       "Qualifiers · Second Round · Best fourth placed team": {
         "rows": [
           {
-            "for": 743,
-            "win": 5,
-            "diff": 35,
-            "draw": null,
-            "loss": 3,
             "team": "Mexico",
             "played": 8,
-            "points": 13,
+            "win": 5,
+            "draw": null,
+            "loss": 3,
+            "for": 743,
             "against": 708,
-            "highlight": "#BBF3BB",
+            "diff": 35,
+            "points": 13,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
           },
           {
-            "for": 746,
-            "win": 4,
-            "diff": 9,
-            "draw": null,
-            "loss": 4,
             "team": "Bahamas",
             "played": 8,
-            "points": 12,
+            "win": 4,
+            "draw": null,
+            "loss": 4,
+            "for": 746,
             "against": 737,
-            "highlight": "transparent",
+            "diff": 9,
+            "points": 12,
             "try_bonus": null,
-            "losing_bonus": null
+            "losing_bonus": null,
+            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -12255,9 +12255,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-23T16:59:15.896719+00:00",
-    "torpedo": "2026-11-23T16:59:15.896719+00:00",
-    "velez:playoffs": "2026-11-23T16:59:15.896719+00:00"
+    "velez": "2026-11-23T17:14:59.285658+00:00",
+    "torpedo": "2026-11-23T17:14:59.285658+00:00",
+    "velez:playoffs": "2026-11-23T17:14:59.285658+00:00"
   },
   "matches": [
     {
@@ -13141,6 +13141,17 @@
       "attendance": "2630"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Switzerland",
+      "score": "90-86",
+      "date": "2025-11-27",
+      "time": "19:00",
+      "utc": "2025-11-27T18:00:00+00:00",
+      "venue": "Aleksandar Nikolić Hall, Belgrade",
+      "attendance": "2000"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "Saudi Arabia",
       "away": "India",
@@ -13164,14 +13175,14 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Switzerland",
-      "score": "90-86",
+      "home": "Great Britain",
+      "away": "Lithuania",
+      "score": "88-89",
       "date": "2025-11-27",
-      "time": "19:00",
-      "utc": "2025-11-27T18:00:00+00:00",
-      "venue": "Aleksandar Nikolić Hall, Belgrade",
-      "attendance": "2000"
+      "time": "19:30",
+      "utc": "2025-11-27T19:30:00+00:00",
+      "venue": "Copper Box Arena, London",
+      "attendance": "2809"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13186,14 +13197,14 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Great Britain",
-      "away": "Lithuania",
-      "score": "88-89",
+      "home": "Italy",
+      "away": "Iceland",
+      "score": "76-81",
       "date": "2025-11-27",
-      "time": "19:30",
-      "utc": "2025-11-27T19:30:00+00:00",
-      "venue": "Copper Box Arena, London",
-      "attendance": "2809"
+      "time": "20:00",
+      "utc": "2025-11-27T19:00:00+00:00",
+      "venue": "PalaFerraris, Tortona",
+      "attendance": "4711"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -13205,17 +13216,6 @@
       "utc": "2025-11-27T19:00:00+00:00",
       "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
       "attendance": "50"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Italy",
-      "away": "Iceland",
-      "score": "76-81",
-      "date": "2025-11-27",
-      "time": "20:00",
-      "utc": "2025-11-27T19:00:00+00:00",
-      "venue": "PalaFerraris, Tortona",
-      "attendance": "4711"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -13317,17 +13317,6 @@
       "attendance": "2700"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Guam",
-      "away": "Philippines",
-      "score": "46-87",
-      "date": "2025-11-28",
-      "time": "19:00",
-      "utc": "2025-11-28T09:00:00+00:00",
-      "venue": "UOG Calvo Field House, Mangilao",
-      "attendance": "2364"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Cyprus",
@@ -13337,6 +13326,17 @@
       "utc": "2025-11-28T18:00:00+00:00",
       "venue": "Gradski vrt Hall, Osijek",
       "attendance": "2000"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Guam",
+      "away": "Philippines",
+      "score": "46-87",
+      "date": "2025-11-28",
+      "time": "19:00",
+      "utc": "2025-11-28T09:00:00+00:00",
+      "venue": "UOG Calvo Field House, Mangilao",
+      "attendance": "2364"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13372,28 +13372,6 @@
       "attendance": "6000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "New Zealand",
-      "score": "84-79",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T08:30:00+00:00",
-      "venue": "MyState Bank Arena, Hobart",
-      "attendance": "4137"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "South Korea",
-      "score": "76-80",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T11:30:00+00:00",
-      "venue": "Wukesong Arena, Beijing",
-      "attendance": "13486"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Germany",
       "away": "Israel",
@@ -13425,6 +13403,28 @@
       "utc": "2025-11-28T17:30:00+00:00",
       "venue": "Xiaomi Arena, Riga",
       "attendance": "9068"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "New Zealand",
+      "score": "84-79",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T08:30:00+00:00",
+      "venue": "MyState Bank Arena, Hobart",
+      "attendance": "4137"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "South Korea",
+      "score": "76-80",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T11:30:00+00:00",
+      "venue": "Wukesong Arena, Beijing",
+      "attendance": "13486"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -13537,17 +13537,6 @@
       "attendance": "1800"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "Tunisia",
-      "score": "66-57",
-      "date": "2025-11-30",
-      "time": "17:00",
-      "utc": "2025-11-30T16:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": "2500"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Portugal",
       "away": "Greece",
@@ -13568,6 +13557,17 @@
       "utc": "2025-11-30T16:00:00+00:00",
       "venue": "Site Sportif Saint-Léonard, Fribourg",
       "attendance": "3000"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Guinea",
+      "away": "Tunisia",
+      "score": "66-57",
+      "date": "2025-11-30",
+      "time": "17:00",
+      "utc": "2025-11-30T16:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": "2500"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13647,17 +13647,6 @@
       "attendance": "2844"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Nigeria",
-      "away": "Rwanda",
-      "score": "75-69",
-      "date": "2025-11-30",
-      "time": "20:00",
-      "utc": "2025-11-30T19:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": "100"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Bosnia and Herzegovina",
       "away": "Serbia",
@@ -13667,6 +13656,17 @@
       "utc": "2025-11-30T19:00:00+00:00",
       "venue": "Mirza Delibašić Hall, Sarajevo",
       "attendance": "4500"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Nigeria",
+      "away": "Rwanda",
+      "score": "75-69",
+      "date": "2025-11-30",
+      "time": "20:00",
+      "utc": "2025-11-30T19:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13702,15 +13702,26 @@
       "attendance": "6683"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Argentina",
-      "away": "Cuba",
-      "score": "105-49",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Cyprus",
+      "away": "Germany",
+      "score": "64-83",
       "date": "2025-12-01",
       "time": "19:00",
-      "utc": "2025-12-01T22:00:00+00:00",
-      "venue": "Estadio Obras Sanitarias, Buenos Aires",
-      "attendance": "3000"
+      "utc": "2025-12-01T17:00:00+00:00",
+      "venue": "Spyros Kyprianou Athletic Center, Limassol",
+      "attendance": "950"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Sweden",
+      "away": "Slovenia",
+      "score": "83-94",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "utc": "2025-12-01T18:00:00+00:00",
+      "venue": "Scandinavium, Gothenburg",
+      "attendance": "9128"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13746,26 +13757,15 @@
       "attendance": "3050"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Cyprus",
-      "away": "Germany",
-      "score": "64-83",
+      "league": "fiba-wcq-americas-2027",
+      "home": "Argentina",
+      "away": "Cuba",
+      "score": "105-49",
       "date": "2025-12-01",
       "time": "19:00",
-      "utc": "2025-12-01T17:00:00+00:00",
-      "venue": "Spyros Kyprianou Athletic Center, Limassol",
-      "attendance": "950"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Sweden",
-      "away": "Slovenia",
-      "score": "83-94",
-      "date": "2025-12-01",
-      "time": "19:00",
-      "utc": "2025-12-01T18:00:00+00:00",
-      "venue": "Scandinavium, Gothenburg",
-      "attendance": "9128"
+      "utc": "2025-12-01T22:00:00+00:00",
+      "venue": "Estadio Obras Sanitarias, Buenos Aires",
+      "attendance": "3000"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -13790,17 +13790,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Guam",
-      "score": "95-71",
-      "date": "2025-12-01",
-      "time": "19:30",
-      "utc": "2025-12-01T11:30:00+00:00",
-      "venue": "Blue Eagle Gym, Quezon City",
-      "attendance": "3788"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Poland",
@@ -13810,6 +13799,17 @@
       "utc": "2025-12-01T18:30:00+00:00",
       "venue": "Sportcampus Zuiderpark, The Hague",
       "attendance": "3370"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Guam",
+      "score": "95-71",
+      "date": "2025-12-01",
+      "time": "19:30",
+      "utc": "2025-12-01T11:30:00+00:00",
+      "venue": "Blue Eagle Gym, Quezon City",
+      "attendance": "3788"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14164,17 +14164,6 @@
       "attendance": "2000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iraq",
-      "away": "Syria",
-      "score": "70-78",
-      "date": "2026-02-27",
-      "time": "15:00",
-      "utc": "2026-02-27T11:30:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon{{NoteTag|name=Iraq2|Iraq were required to play their home games at neutral venues due to security concerns relating to Kata'ib Hezbollah and al-Ḥashd ash-Shaʿbī's roles in the 2026 Iran massacres.}}",
-      "attendance": "87"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Ukraine",
       "away": "Spain",
@@ -14187,14 +14176,14 @@
     },
     {
       "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "Jordan",
-      "score": "60-73",
+      "home": "Iraq",
+      "away": "Syria",
+      "score": "70-78",
       "date": "2026-02-27",
-      "time": "18:00",
-      "utc": "2026-02-27T14:30:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon{{NoteTag|name=Iran2|Iran were required to play their home games at neutral venues due to security concerns relating to the 2026 Iran massacres.}}",
-      "attendance": "100"
+      "time": "15:00",
+      "utc": "2026-02-27T11:30:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon{{NoteTag|name=Iraq2|Iraq were required to play their home games at neutral venues due to security concerns relating to Kata'ib Hezbollah and al-Ḥashd ash-Shaʿbī's roles in the 2026 Iran massacres.}}",
+      "attendance": "87"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14219,6 +14208,17 @@
       "attendance": "2900"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "Jordan",
+      "score": "60-73",
+      "date": "2026-02-27",
+      "time": "18:00",
+      "utc": "2026-02-27T14:30:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon{{NoteTag|name=Iran2|Iran were required to play their home games at neutral venues due to security concerns relating to the 2026 Iran massacres.}}",
+      "attendance": "100"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Denmark",
       "away": "Georgia",
@@ -14239,17 +14239,6 @@
       "utc": "2026-02-27T17:30:00+00:00",
       "venue": "Arena Bonifika, Koper",
       "attendance": "2200"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Brazil",
-      "away": "Venezuela",
-      "score": "94-84",
-      "date": "2026-02-27",
-      "time": "19:00",
-      "utc": "2026-02-27T22:00:00+00:00",
-      "venue": "Arena UniBH, Belo Horizonte",
-      "attendance": "2658"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14294,6 +14283,17 @@
       "utc": "2026-02-27T18:00:00+00:00",
       "venue": "Avicii Arena, Stockholm",
       "attendance": "9364"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Brazil",
+      "away": "Venezuela",
+      "score": "94-84",
+      "date": "2026-02-27",
+      "time": "19:00",
+      "utc": "2026-02-27T22:00:00+00:00",
+      "venue": "Arena UniBH, Belo Horizonte",
+      "attendance": "2658"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14351,17 +14351,6 @@
       "attendance": "6105"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Chile",
-      "away": "Colombia",
-      "score": "78-86",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T23:00:00+00:00",
-      "venue": "Coliseo Municipal Antonio Azurmendy Riveros, Valdivia",
-      "attendance": "3195"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Germany",
@@ -14382,6 +14371,17 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Mejdan Hall, Tuzla",
       "attendance": "5000"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "Colombia",
+      "score": "78-86",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T23:00:00+00:00",
+      "venue": "Coliseo Municipal Antonio Azurmendy Riveros, Valdivia",
+      "attendance": "3195"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -14406,17 +14406,6 @@
       "attendance": "3000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "Saudi Arabia",
-      "score": "94-64",
-      "date": "2026-02-27",
-      "time": "21:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": "5934"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Israel",
       "away": "Cyprus",
@@ -14426,6 +14415,17 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Spyros Kyprianou Athletic Center, Limassol, Cyprus{{refn|group=note|name=Israel}}",
       "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "Saudi Arabia",
+      "score": "94-64",
+      "date": "2026-02-27",
+      "time": "21:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
+      "attendance": "5934"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -14615,39 +14615,6 @@
       "attendance": "1408"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Madagascar",
-      "away": "Ivory Coast",
-      "score": "74-99",
-      "date": "2026-03-01",
-      "time": "18:00",
-      "utc": "2026-03-01T18:00:00+00:00",
-      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
-      "attendance": "850"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Jamaica",
-      "away": "Canada",
-      "score": "81-97",
-      "date": "2026-03-01",
-      "time": "18:00",
-      "utc": "2026-03-01T23:00:00+00:00",
-      "venue": "National Indoor Sports Centre, Kingston",
-      "attendance": "3937"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Puerto Rico",
-      "away": "Bahamas",
-      "score": "71-66",
-      "date": "2026-03-01",
-      "time": "18:00",
-      "utc": "2026-03-01T22:00:00+00:00",
-      "venue": "Roberto Clemente Coliseum, San Juan",
-      "attendance": "3800"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Czech Republic",
       "away": "Slovenia",
@@ -14679,6 +14646,39 @@
       "utc": "2026-03-01T17:00:00+00:00",
       "venue": "Telekom Dome, Bonn",
       "attendance": "6032"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Madagascar",
+      "away": "Ivory Coast",
+      "score": "74-99",
+      "date": "2026-03-01",
+      "time": "18:00",
+      "utc": "2026-03-01T18:00:00+00:00",
+      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
+      "attendance": "850"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Jamaica",
+      "away": "Canada",
+      "score": "81-97",
+      "date": "2026-03-01",
+      "time": "18:00",
+      "utc": "2026-03-01T23:00:00+00:00",
+      "venue": "National Indoor Sports Centre, Kingston",
+      "attendance": "3937"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Puerto Rico",
+      "away": "Bahamas",
+      "score": "71-66",
+      "date": "2026-03-01",
+      "time": "18:00",
+      "utc": "2026-03-01T22:00:00+00:00",
+      "venue": "Roberto Clemente Coliseum, San Juan",
+      "attendance": "3800"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14714,17 +14714,6 @@
       "attendance": "6637"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Nicaragua",
-      "away": "Dominican Republic",
-      "score": "61-86",
-      "date": "2026-03-01",
-      "time": "19:30",
-      "utc": "2026-03-02T01:30:00+00:00",
-      "venue": "Polideportivo Alexis Argüello, Managua",
-      "attendance": "3500"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Philippines",
       "away": "Australia",
@@ -14734,6 +14723,17 @@
       "utc": "2026-03-01T11:30:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay",
       "attendance": "17301"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Nicaragua",
+      "away": "Dominican Republic",
+      "score": "61-86",
+      "date": "2026-03-01",
+      "time": "19:30",
+      "utc": "2026-03-02T01:30:00+00:00",
+      "venue": "Polideportivo Alexis Argüello, Managua",
+      "attendance": "3500"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -14780,17 +14780,6 @@
       "attendance": "400"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Argentina",
-      "away": "Panama",
-      "score": "101-75",
-      "date": "2026-03-02",
-      "time": "18:30",
-      "utc": "2026-03-02T21:30:00+00:00",
-      "venue": "Estadio Obras Sanitarias, Buenos Aires",
-      "attendance": "1200"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Lithuania",
       "away": "Iceland",
@@ -14803,25 +14792,14 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
-      "home": "Brazil",
-      "away": "Colombia",
-      "score": "101-72",
+      "home": "Argentina",
+      "away": "Panama",
+      "score": "101-75",
       "date": "2026-03-02",
-      "time": "19:00",
-      "utc": "2026-03-02T22:00:00+00:00",
-      "venue": "Arena UniBH, Belo Horizonte",
-      "attendance": "2278"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Cuba",
-      "away": "Uruguay",
-      "score": "62-88",
-      "date": "2026-03-02",
-      "time": "19:00",
-      "utc": "2026-03-03T00:00:00+00:00",
-      "venue": "Roberto Durán Arena, Panama City, Panama{{refn|group=note|name=Cuba}}",
-      "attendance": null
+      "time": "18:30",
+      "utc": "2026-03-02T21:30:00+00:00",
+      "venue": "Estadio Obras Sanitarias, Buenos Aires",
+      "attendance": "1200"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14855,6 +14833,28 @@
       "utc": "2026-03-02T17:00:00+00:00",
       "venue": "Pitești Arena, Pitești",
       "attendance": "2280"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Brazil",
+      "away": "Colombia",
+      "score": "101-72",
+      "date": "2026-03-02",
+      "time": "19:00",
+      "utc": "2026-03-02T22:00:00+00:00",
+      "venue": "Arena UniBH, Belo Horizonte",
+      "attendance": "2278"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Cuba",
+      "away": "Uruguay",
+      "score": "62-88",
+      "date": "2026-03-02",
+      "time": "19:00",
+      "utc": "2026-03-03T00:00:00+00:00",
+      "venue": "Roberto Durán Arena, Panama City, Panama{{refn|group=note|name=Cuba}}",
+      "attendance": null
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -18965,6 +18965,17 @@
       "group": "Pool B"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "India",
+      "away": "Qatar",
+      "score": "56-65",
+      "date": "2026-07-02",
+      "time": "18:00",
+      "utc": "2026-07-02T12:30:00+00:00",
+      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
+      "attendance": "3587"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Cameroon",
@@ -18985,17 +18996,6 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "3400"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "India",
-      "away": "Qatar",
-      "score": "56-65",
-      "date": "2026-07-02",
-      "time": "18:00",
-      "utc": "2026-07-02T12:30:00+00:00",
-      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
-      "attendance": "3587"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19031,17 +19031,6 @@
       "attendance": "19100"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Uganda",
-      "away": "Angola",
-      "score": "62-95",
-      "date": "2026-07-02",
-      "time": "19:00",
-      "utc": "2026-07-02T18:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "1000"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Denmark",
@@ -19075,6 +19064,17 @@
       "attendance": "3001"
     },
     {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Uganda",
+      "away": "Angola",
+      "score": "62-95",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "utc": "2026-07-02T18:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "1000"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "Jordan",
       "away": "Iran",
@@ -19097,17 +19097,6 @@
       "attendance": "1950"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Lebanon",
-      "score": "82-88",
-      "date": "2026-07-02",
-      "time": "20:00",
-      "utc": "2026-07-02T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "4217"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Switzerland",
       "away": "Serbia",
@@ -19128,6 +19117,17 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Arena Zenica, Zenica",
       "attendance": "3500"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Lebanon",
+      "score": "82-88",
+      "date": "2026-07-02",
+      "time": "20:00",
+      "utc": "2026-07-02T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "4217"
     },
     {
       "league": "u20-jwc-2026",
@@ -19198,15 +19198,15 @@
       "attendance": "1600"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Colombia",
-      "away": "Chile",
-      "score": "79-81",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Finland",
+      "away": "Hungary",
+      "score": "85-77",
       "date": "2026-07-03",
       "time": "18:30",
-      "utc": "2026-07-03T23:30:00+00:00",
-      "venue": "Coliseo Evangelista Mora, Cali",
-      "attendance": "1100"
+      "utc": "2026-07-03T15:30:00+00:00",
+      "venue": "Veikkaus Arena, Helsinki",
+      "attendance": "12489"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -19220,37 +19220,15 @@
       "attendance": "5580"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Finland",
-      "away": "Hungary",
-      "score": "85-77",
+      "league": "fiba-wcq-americas-2027",
+      "home": "Colombia",
+      "away": "Chile",
+      "score": "79-81",
       "date": "2026-07-03",
       "time": "18:30",
-      "utc": "2026-07-03T15:30:00+00:00",
-      "venue": "Veikkaus Arena, Helsinki",
-      "attendance": "12489"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Rwanda",
-      "away": "Tunisia",
-      "score": "67-83",
-      "date": "2026-07-03",
-      "time": "19:00",
-      "utc": "2026-07-03T18:00:00+00:00",
-      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
-      "attendance": "40"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Philippines",
-      "score": "106-102",
-      "date": "2026-07-03",
-      "time": "19:00",
-      "utc": "2026-07-03T07:00:00+00:00",
-      "venue": "Spark Arena, Auckland",
-      "attendance": "8690"
+      "utc": "2026-07-03T23:30:00+00:00",
+      "venue": "Coliseo Evangelista Mora, Cali",
+      "attendance": "1100"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19275,6 +19253,28 @@
       "attendance": "6958"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Philippines",
+      "score": "106-102",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "utc": "2026-07-03T07:00:00+00:00",
+      "venue": "Spark Arena, Auckland",
+      "attendance": "8690"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Rwanda",
+      "away": "Tunisia",
+      "score": "67-83",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "utc": "2026-07-03T18:00:00+00:00",
+      "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
+      "attendance": "40"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Canada",
       "away": "Puerto Rico",
@@ -19295,6 +19295,17 @@
       "utc": "2026-07-03T23:30:00+00:00",
       "venue": "TD Place Stadium",
       "attendance": "15154"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Latvia",
+      "score": "69-72",
+      "date": "2026-07-03",
+      "time": "19:30",
+      "utc": "2026-07-03T17:30:00+00:00",
+      "venue": "Topsportcentrum, Almere",
+      "attendance": "3118"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -19319,17 +19330,6 @@
       "attendance": "11000"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Latvia",
-      "score": "69-72",
-      "date": "2026-07-03",
-      "time": "19:30",
-      "utc": "2026-07-03T17:30:00+00:00",
-      "venue": "Topsportcentrum, Almere",
-      "attendance": "3118"
-    },
-    {
       "league": "nrl-2026",
       "home": "Penrith Panthers",
       "away": "South Sydney Rabbitohs",
@@ -19339,28 +19339,6 @@
       "utc": "2026-07-03T10:00:00+00:00",
       "venue": "CommBank Stadium",
       "attendance": "15163"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Dominican Republic",
-      "away": "United States",
-      "score": "81-82",
-      "date": "2026-07-03",
-      "time": "20:00",
-      "utc": "2026-07-04T00:00:00+00:00",
-      "venue": "Arena BanReservas, Santo Domingo",
-      "attendance": "6500"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Bahamas",
-      "away": "Jamaica",
-      "score": "123-74",
-      "date": "2026-07-03",
-      "time": "20:00",
-      "utc": "2026-07-04T00:00:00+00:00",
-      "venue": "Kendal Isaacs Gymnasium, Nassau",
-      "attendance": "200"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19386,14 +19364,25 @@
     },
     {
       "league": "fiba-wcq-americas-2027",
-      "home": "Mexico",
-      "away": "Nicaragua",
-      "score": "98-79",
+      "home": "Dominican Republic",
+      "away": "United States",
+      "score": "81-82",
       "date": "2026-07-03",
-      "time": "20:30",
-      "utc": "2026-07-04T02:30:00+00:00",
-      "venue": "Gimnasio Marcelino González, Zacatecas",
-      "attendance": "3200"
+      "time": "20:00",
+      "utc": "2026-07-04T00:00:00+00:00",
+      "venue": "Arena BanReservas, Santo Domingo",
+      "attendance": "6500"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Bahamas",
+      "away": "Jamaica",
+      "score": "123-74",
+      "date": "2026-07-03",
+      "time": "20:00",
+      "utc": "2026-07-04T00:00:00+00:00",
+      "venue": "Kendal Isaacs Gymnasium, Nassau",
+      "attendance": "200"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19405,6 +19394,17 @@
       "utc": "2026-07-03T18:30:00+00:00",
       "venue": "Lotto Arena, Antwerp",
       "attendance": "4436"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Mexico",
+      "away": "Nicaragua",
+      "score": "98-79",
+      "date": "2026-07-03",
+      "time": "20:30",
+      "utc": "2026-07-04T02:30:00+00:00",
+      "venue": "Gimnasio Marcelino González, Zacatecas",
+      "attendance": "3200"
     },
     {
       "league": "super-league-2026",
@@ -19781,28 +19781,6 @@
       "attendance": "42903"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cape Verde",
-      "away": "Libya",
-      "score": "98-66",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "Japoma Arena, Douala, Cameroon",
-      "attendance": "500"
-    },
-    {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "Madagascar",
-      "score": "118-102",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
-      "attendance": "200"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Denmark",
       "away": "Ukraine",
@@ -19823,6 +19801,28 @@
       "utc": "2026-07-05T14:00:00+00:00",
       "venue": "National Basketball Performance Centre, Manchester",
       "attendance": "2045"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cape Verde",
+      "away": "Libya",
+      "score": "98-66",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "Japoma Arena, Douala, Cameroon",
+      "attendance": "500"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "Madagascar",
+      "score": "118-102",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
+      "attendance": "200"
     },
     {
       "league": "efa-2026",
@@ -19891,6 +19891,17 @@
       "attendance": "42903"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Qatar",
+      "score": "73-76",
+      "date": "2026-07-05",
+      "time": "18:00",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "1152"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "DR Congo",
       "away": "Senegal",
@@ -19911,17 +19922,6 @@
       "utc": "2026-07-05T17:00:00+00:00",
       "venue": "Japoma Arena, Douala, Cameroon",
       "attendance": "2500"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Qatar",
-      "score": "73-76",
-      "date": "2026-07-05",
-      "time": "18:00",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "1152"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -19968,17 +19968,6 @@
       "attendance": "3194"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "Iraq",
-      "score": "106-67",
-      "date": "2026-07-05",
-      "time": "19:30",
-      "utc": "2026-07-05T16:30:00+00:00",
-      "venue": "Prince Hamza Hall, Amman",
-      "attendance": "870"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Georgia",
       "away": "Spain",
@@ -20001,6 +19990,17 @@
       "attendance": "8155"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Jordan",
+      "away": "Iraq",
+      "score": "106-67",
+      "date": "2026-07-05",
+      "time": "19:30",
+      "utc": "2026-07-05T16:30:00+00:00",
+      "venue": "Prince Hamza Hall, Amman",
+      "attendance": "870"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Italy",
       "away": "Lithuania",
@@ -20012,17 +20012,6 @@
       "attendance": "4500"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "India",
-      "away": "Lebanon",
-      "score": "72-98",
-      "date": "2026-07-05",
-      "time": "20:30",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
-      "attendance": "4597"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Montenegro",
       "away": "Romania",
@@ -20032,6 +20021,17 @@
       "utc": "2026-07-05T18:30:00+00:00",
       "venue": "Topolica Sport Hall, Bar",
       "attendance": "2055"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "India",
+      "away": "Lebanon",
+      "score": "72-98",
+      "date": "2026-07-05",
+      "time": "20:30",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
+      "attendance": "4597"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -20100,17 +20100,6 @@
       "attendance": "10037"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Guam",
-      "score": "129-75",
-      "date": "2026-07-06",
-      "time": "19:00",
-      "utc": "2026-07-06T07:00:00+00:00",
-      "venue": "Eventfinda Stadium, Auckland",
-      "attendance": "1570"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Switzerland",
@@ -20131,6 +20120,17 @@
       "utc": "2026-07-06T17:00:00+00:00",
       "venue": "Brose Arena, Bamberg",
       "attendance": "5713"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Guam",
+      "score": "129-75",
+      "date": "2026-07-06",
+      "time": "19:00",
+      "utc": "2026-07-06T07:00:00+00:00",
+      "venue": "Eventfinda Stadium, Auckland",
+      "attendance": "1570"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -20166,17 +20166,6 @@
       "attendance": "1421"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Japan",
-      "score": "81-79",
-      "date": "2026-07-06",
-      "time": "19:30",
-      "utc": "2026-07-06T10:30:00+00:00",
-      "venue": "Goyang Gymnasium, Goyang",
-      "attendance": "6298"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Austria",
@@ -20188,26 +20177,15 @@
       "attendance": "9219"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Dominican Republic",
-      "away": "Nicaragua",
-      "score": "99-76",
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Japan",
+      "score": "81-79",
       "date": "2026-07-06",
-      "time": "20:00",
-      "utc": "2026-07-07T00:00:00+00:00",
-      "venue": "Arena BanReservas, Santo Domingo",
-      "attendance": "4500"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Mexico",
-      "away": "United States",
-      "score": "93-94",
-      "date": "2026-07-06",
-      "time": "20:00",
-      "utc": "2026-07-07T02:00:00+00:00",
-      "venue": "Gimnasio Marcelino González, Zacatecas",
-      "attendance": "3200"
+      "time": "19:30",
+      "utc": "2026-07-06T10:30:00+00:00",
+      "venue": "Goyang Gymnasium, Goyang",
+      "attendance": "6298"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -20241,6 +20219,28 @@
       "utc": "2026-07-06T18:00:00+00:00",
       "venue": "Gradski vrt Hall, Osijek",
       "attendance": "2788"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Dominican Republic",
+      "away": "Nicaragua",
+      "score": "99-76",
+      "date": "2026-07-06",
+      "time": "20:00",
+      "utc": "2026-07-07T00:00:00+00:00",
+      "venue": "Arena BanReservas, Santo Domingo",
+      "attendance": "4500"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Mexico",
+      "away": "United States",
+      "score": "93-94",
+      "date": "2026-07-06",
+      "time": "20:00",
+      "utc": "2026-07-07T02:00:00+00:00",
+      "venue": "Gimnasio Marcelino González, Zacatecas",
+      "attendance": "3200"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -24150,17 +24150,6 @@
       "attendance": "1800"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Senegal",
-      "score": "76-67",
-      "date": "2026-08-27",
-      "time": "18:30",
-      "utc": "2026-08-27T18:30:00+00:00",
-      "venue": "Dakar Arena, Dakar, Senegal",
-      "attendance": "550"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Finland",
       "away": "Sweden",
@@ -24170,6 +24159,17 @@
       "utc": "2026-08-27T15:30:00+00:00",
       "venue": "Veikkaus Arena, Helsinki",
       "attendance": "12401"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Senegal",
+      "score": "76-67",
+      "date": "2026-08-27",
+      "time": "18:30",
+      "utc": "2026-08-27T18:30:00+00:00",
+      "venue": "Dakar Arena, Dakar, Senegal",
+      "attendance": "550"
     },
     {
       "league": "prod2-2026",
@@ -24184,17 +24184,6 @@
       "source_id": "sofascore:16529620"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "Cape Verde",
-      "score": "60-56",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "utc": "2026-08-27T18:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": "500"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Qatar",
       "away": "China",
@@ -24204,6 +24193,17 @@
       "utc": "2026-08-27T16:00:00+00:00",
       "venue": "Al Janoub Stadium, Al Wakrah",
       "attendance": "6985"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Tunisia",
+      "away": "Cape Verde",
+      "score": "60-56",
+      "date": "2026-08-27",
+      "time": "19:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès",
+      "attendance": "500"
     },
     {
       "league": "npc-2026",
@@ -24250,17 +24250,6 @@
       "attendance": "36476"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Japan",
-      "score": "78-106",
-      "date": "2026-08-27",
-      "time": "20:00",
-      "utc": "2026-08-27T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "2065"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Latvia",
@@ -24281,6 +24270,17 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Lanxess Arena, Cologne",
       "attendance": "15309"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Japan",
+      "score": "78-106",
+      "date": "2026-08-27",
+      "time": "20:00",
+      "utc": "2026-08-27T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "2065"
     },
     {
       "league": "super-league-2026",
@@ -24349,17 +24349,6 @@
       "attendance": "3890"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "South Korea",
-      "score": "93-74",
-      "date": "2026-08-27",
-      "time": "21:00",
-      "utc": "2026-08-27T18:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": "5121"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Israel",
       "away": "Poland",
@@ -24369,6 +24358,17 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Israel}}",
       "attendance": "100"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "South Korea",
+      "score": "93-74",
+      "date": "2026-08-27",
+      "time": "21:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
+      "attendance": "5121"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -24449,17 +24449,6 @@
       "source_id": "sofascore:16529625"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Cameroon",
-      "away": "Tunisia",
-      "score": "83-61",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "utc": "2026-08-28T18:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
-      "attendance": "500"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Ukraine",
       "away": "Greece",
@@ -24469,6 +24458,17 @@
       "utc": "2026-08-28T16:00:00+00:00",
       "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Ukraine}}",
       "attendance": "900"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Cameroon",
+      "away": "Tunisia",
+      "score": "83-61",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "utc": "2026-08-28T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès, Tunisia",
+      "attendance": "500"
     },
     {
       "league": "npc-2026",
@@ -25042,17 +25042,6 @@
       "attendance": "13727"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "South Sudan",
-      "score": "75-79",
-      "date": "2026-08-30",
-      "time": "19:00",
-      "utc": "2026-08-30T18:00:00+00:00",
-      "venue": "Salle Multidisciplinaire de Radès, Radès",
-      "attendance": "1200"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Israel",
@@ -25075,15 +25064,15 @@
       "attendance": "7068"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Iran",
-      "score": "68-56",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Tunisia",
+      "away": "South Sudan",
+      "score": "75-79",
       "date": "2026-08-30",
-      "time": "20:00",
-      "utc": "2026-08-30T12:00:00+00:00",
-      "venue": "SM Mall of Asia Arena, Pasay",
-      "attendance": "18308"
+      "time": "19:00",
+      "utc": "2026-08-30T18:00:00+00:00",
+      "venue": "Salle Multidisciplinaire de Radès, Radès",
+      "attendance": "1200"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -25097,6 +25086,17 @@
       "attendance": "2500"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Iran",
+      "score": "68-56",
+      "date": "2026-08-30",
+      "time": "20:00",
+      "utc": "2026-08-30T12:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay",
+      "attendance": "18308"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Lithuania",
       "away": "Bosnia and Herzegovina",
@@ -25106,28 +25106,6 @@
       "utc": "2026-08-31T15:30:00+00:00",
       "venue": "Arena Vilnius, Vilnius",
       "attendance": "4989"
-    },
-    {
-      "league": "fiba-wcq-americas-2027",
-      "home": "United States",
-      "away": "Colombia",
-      "score": "104-80",
-      "date": "2026-08-31",
-      "time": "19:00",
-      "utc": "2026-08-31T23:00:00+00:00",
-      "venue": "CareFirst Arena, Washington, D.C.",
-      "attendance": "715"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Saudi Arabia",
-      "score": "85-72",
-      "date": "2026-08-31",
-      "time": "19:00",
-      "utc": "2026-08-31T10:00:00+00:00",
-      "venue": "KT Sonicboom Arena, Suwon",
-      "attendance": "2543"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -25152,15 +25130,26 @@
       "attendance": "4158"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Canada",
-      "away": "Argentina",
-      "score": "97-92",
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Saudi Arabia",
+      "score": "85-72",
       "date": "2026-08-31",
-      "time": "19:10",
-      "utc": "2026-08-31T23:10:00+00:00",
-      "venue": "Centre Vidéotron, Quebec City",
-      "attendance": "12380"
+      "time": "19:00",
+      "utc": "2026-08-31T10:00:00+00:00",
+      "venue": "KT Sonicboom Arena, Suwon",
+      "attendance": "2543"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "United States",
+      "away": "Colombia",
+      "score": "104-80",
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T23:00:00+00:00",
+      "venue": "CareFirst Arena, Washington, D.C.",
+      "attendance": "715"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -25174,15 +25163,15 @@
       "attendance": "9153"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Lebanon",
-      "score": "89-87",
+      "league": "fiba-wcq-americas-2027",
+      "home": "Canada",
+      "away": "Argentina",
+      "score": "97-92",
       "date": "2026-08-31",
-      "time": "19:30",
-      "utc": "2026-08-31T11:30:00+00:00",
-      "venue": "Xishi Basketball Center, Zhuji",
-      "attendance": "12127"
+      "time": "19:10",
+      "utc": "2026-08-31T23:10:00+00:00",
+      "venue": "Centre Vidéotron, Quebec City",
+      "attendance": "12380"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -25205,6 +25194,17 @@
       "utc": "2026-08-31T17:30:00+00:00",
       "venue": "Vitrifrigo Arena, Pesaro",
       "attendance": "9487"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Lebanon",
+      "score": "89-87",
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T11:30:00+00:00",
+      "venue": "Xishi Basketball Center, Zhuji",
+      "attendance": "12127"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -51068,6 +51068,17 @@
       "source_id": "365scores:4898922"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "China",
+      "score": null,
+      "date": "2026-11-26",
+      "time": "16:00",
+      "utc": "2026-11-26T13:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "HC Sochi",
       "away": "Neftekhimik Nizhnekamsk",
@@ -51176,17 +51187,6 @@
       "source_id": "sofascore:16230832"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Lithuania",
-      "away": "Serbia",
-      "score": null,
-      "date": "2026-11-26",
-      "time": "18:30",
-      "utc": "2026-11-26T16:30:00+00:00",
-      "venue": "Švyturio Arena, Klaipėda",
-      "attendance": null
-    },
-    {
       "league": "del-2026-27",
       "home": "Löwen Frankfurt",
       "away": "Adler Mannheim",
@@ -51197,6 +51197,17 @@
       "venue": "Eissporthalle Frankfurt",
       "attendance": null,
       "source_id": "sofascore:16422564"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Lithuania",
+      "away": "Serbia",
+      "score": null,
+      "date": "2026-11-26",
+      "time": "18:30",
+      "utc": "2026-11-26T16:30:00+00:00",
+      "venue": "Švyturio Arena, Klaipėda",
+      "attendance": null
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -51218,6 +51229,17 @@
       "time": "19:00",
       "utc": "2026-11-26T18:00:00+00:00",
       "venue": "Morača Sports Center, Podgorica",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Qatar",
+      "away": "South Korea",
+      "score": null,
+      "date": "2026-11-26",
+      "time": "19:00",
+      "utc": "2026-11-26T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah",
       "attendance": null
     },
     {
@@ -51288,6 +51310,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "Japan",
+      "score": null,
+      "date": "2026-11-26",
+      "time": "21:00",
+      "utc": "2026-11-26T19:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Argentina",
       "away": "Bahamas",
@@ -51300,35 +51333,13 @@
     },
     {
       "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "Japan",
+      "home": "Jordan",
+      "away": "New Zealand",
       "score": null,
-      "date": "2026-11-26",
-      "time": null,
-      "utc": null,
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Qatar",
-      "away": "South Korea",
-      "score": null,
-      "date": "2026-11-26",
-      "time": null,
-      "utc": null,
-      "venue": "Al Janoub Stadium, Al Wakrah",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "China",
-      "score": null,
-      "date": "2026-11-26",
-      "time": null,
-      "utc": null,
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "date": "2026-11-27",
+      "time": "14:00",
+      "utc": "2026-11-27T11:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
     {
@@ -51388,6 +51399,17 @@
       "time": "16:40",
       "utc": "2026-11-27T16:40:00+00:00",
       "venue": "Twickenham Stadium, London",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "17:00",
+      "utc": "2026-11-27T13:30:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
     {
@@ -51637,6 +51659,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "Philippines",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "20:00",
+      "utc": "2026-11-27T17:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
+    },
+    {
       "league": "nations-championship-2026",
       "home": "Ireland",
       "away": "Australia",
@@ -51678,39 +51711,6 @@
       "time": "20:45",
       "utc": "2026-11-27T19:45:00+00:00",
       "venue": "PreZero Arena Gliwice, Gliwice",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-11-27",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "Australia",
-      "score": null,
-      "date": "2026-11-27",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "Philippines",
-      "score": null,
-      "date": "2026-11-27",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
     {
@@ -52035,6 +52035,17 @@
       "source_id": "365scores:4898845"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "14:00",
+      "utc": "2026-11-29T11:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
+    },
+    {
       "league": "del-2026-27",
       "home": "Krefeld Pinguine",
       "away": "Iserlohn Roosters",
@@ -52071,6 +52082,17 @@
       "source_id": "sofascore:16422574"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Qatar",
+      "away": "Japan",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "16:00",
+      "utc": "2026-11-29T13:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "TPS Turku",
       "away": "Vaasan Sport",
@@ -52094,6 +52116,29 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "Philippines",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "17:00",
+      "utc": "2026-11-29T13:30:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Schwenningen Wild Wings",
+      "away": "Grizzlys Wolfsburg",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "18:00",
+      "utc": "2026-11-29T18:00:00+00:00",
+      "venue": "Helios Arena",
+      "attendance": null,
+      "source_id": "sofascore:16422577"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Greece",
@@ -52114,18 +52159,6 @@
       "utc": "2026-11-29T17:00:00+00:00",
       "venue": "Juan Antonio Samaranch Olympic Hall, Sarajevo",
       "attendance": null
-    },
-    {
-      "league": "del-2026-27",
-      "home": "Schwenningen Wild Wings",
-      "away": "Grizzlys Wolfsburg",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "18:00",
-      "utc": "2026-11-29T18:00:00+00:00",
-      "venue": "Helios Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422577"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -52183,6 +52216,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "South Korea",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "19:00",
+      "utc": "2026-11-29T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Georgia",
       "away": "Portugal",
@@ -52191,6 +52235,17 @@
       "time": "19:30",
       "utc": "2026-11-29T15:30:00+00:00",
       "venue": "Tbilisi Arena, Tbilisi",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Jordan",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "20:00",
+      "utc": "2026-11-29T17:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
     {
@@ -52218,68 +52273,13 @@
     },
     {
       "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "South Korea",
-      "score": null,
-      "date": "2026-11-29",
-      "time": null,
-      "utc": null,
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-11-29",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "Australia",
-      "score": null,
-      "date": "2026-11-29",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
       "home": "Lebanon",
       "away": "China",
       "score": null,
       "date": "2026-11-29",
-      "time": null,
-      "utc": null,
+      "time": "21:00",
+      "utc": "2026-11-29T19:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "Philippines",
-      "score": null,
-      "date": "2026-11-29",
-      "time": null,
-      "utc": null,
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Qatar",
-      "away": "Japan",
-      "score": null,
-      "date": "2026-11-29",
-      "time": null,
-      "utc": null,
-      "venue": "Al Janoub Stadium, Al Wakrah",
       "attendance": null
     },
     {
@@ -72122,6 +72122,72 @@
       "source_id": "sofascore:16422802"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Slovenia",
+      "away": "France",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Latvia",
+      "away": "Croatia",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Germany",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Sweden",
+      "away": "Finland",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Poland",
+      "away": "Israel",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Estonia",
+      "away": "Hungary",
+      "score": null,
+      "date": "2027-02-25",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Guinea",
@@ -72246,72 +72312,6 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Dominican Republic",
       "away": "Brazil",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Slovenia",
-      "away": "France",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Latvia",
-      "away": "Croatia",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Germany",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Sweden",
-      "away": "Finland",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Poland",
-      "away": "Israel",
-      "score": null,
-      "date": "2027-02-25",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Estonia",
-      "away": "Hungary",
       "score": null,
       "date": "2027-02-25",
       "time": null,
@@ -72500,9 +72500,9 @@
       "source_id": "sofascore:16527545"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Guinea",
-      "away": "Cape Verde",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Iceland",
+      "away": "Serbia",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72511,9 +72511,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Mali",
-      "away": "DR Congo",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Portugal",
+      "away": "Spain",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72522,9 +72522,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Egypt",
-      "away": "Ivory Coast",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Greece",
+      "away": "Ukraine",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72533,9 +72533,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Nigeria",
-      "away": "South Sudan",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Italy",
+      "away": "Bosnia and Herzegovina",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72544,9 +72544,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Senegal",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Montenegro",
+      "away": "Georgia",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72555,9 +72555,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Tunisia",
-      "away": "Cameroon",
+      "league": "fiba-wcq-europe-2027",
+      "home": "Lithuania",
+      "away": "Turkey",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72632,9 +72632,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Iceland",
-      "away": "Serbia",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Guinea",
+      "away": "Cape Verde",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72643,9 +72643,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Portugal",
-      "away": "Spain",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Mali",
+      "away": "DR Congo",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72654,9 +72654,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Greece",
-      "away": "Ukraine",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Egypt",
+      "away": "Ivory Coast",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72665,9 +72665,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Italy",
-      "away": "Bosnia and Herzegovina",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Nigeria",
+      "away": "South Sudan",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72676,9 +72676,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Montenegro",
-      "away": "Georgia",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "Senegal",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -72687,9 +72687,9 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Lithuania",
-      "away": "Turkey",
+      "league": "fiba-wcq-africa-2027",
+      "home": "Tunisia",
+      "away": "Cameroon",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -73190,6 +73190,72 @@
       "source_id": "sofascore:16422814"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Germany",
+      "away": "Latvia",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Israel",
+      "away": "Netherlands",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "France",
+      "away": "Estonia",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Croatia",
+      "away": "Poland",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Hungary",
+      "away": "Sweden",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Finland",
+      "away": "Slovenia",
+      "score": null,
+      "date": "2027-02-28",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Tunisia",
@@ -73323,10 +73389,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Germany",
-      "away": "Latvia",
+      "home": "Spain",
+      "away": "Montenegro",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73334,10 +73400,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Israel",
-      "away": "Netherlands",
+      "home": "Serbia",
+      "away": "Lithuania",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73345,10 +73411,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "France",
-      "away": "Estonia",
+      "home": "Ukraine",
+      "away": "Portugal",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73356,10 +73422,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Croatia",
-      "away": "Poland",
+      "home": "Georgia",
+      "away": "Greece",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73367,10 +73433,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Hungary",
-      "away": "Sweden",
+      "home": "Turkey",
+      "away": "Italy",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73378,10 +73444,10 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Finland",
-      "away": "Slovenia",
+      "home": "Bosnia and Herzegovina",
+      "away": "Iceland",
       "score": null,
-      "date": "2027-02-28",
+      "date": "2027-03-01",
       "time": null,
       "utc": null,
       "venue": null,
@@ -73451,72 +73517,6 @@
       "time": null,
       "utc": null,
       "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Spain",
-      "away": "Montenegro",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Lithuania",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Ukraine",
-      "away": "Portugal",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Georgia",
-      "away": "Greece",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Turkey",
-      "away": "Italy",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Iceland",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
       "attendance": null
     },
     {
