@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T00:19:35+00:00",
+  "updated": "2026-11-23T00:25:54+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12256,7 +12256,7 @@
   "matrix_last_fetch": {
     "velez": "2026-11-23T00:18:45.438594+00:00",
     "torpedo": "2026-11-23T00:18:45.438594+00:00",
-    "velez:playoffs": "2026-11-23T00:18:45.438594+00:00"
+    "velez:playoffs": "2026-11-23T00:25:37.150012+00:00"
   },
   "matches": [
     {
@@ -24171,6 +24171,18 @@
       "attendance": "12401"
     },
     {
+      "league": "prod2-2026",
+      "home": "Provence Rugby",
+      "away": "SU Agen",
+      "score": "44-10",
+      "date": "2026-08-27",
+      "time": "19:00",
+      "utc": "2026-08-27T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16529620"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Tunisia",
       "away": "Cape Verde",
@@ -24191,18 +24203,6 @@
       "utc": "2026-08-27T16:00:00+00:00",
       "venue": "Al Janoub Stadium, Al Wakrah",
       "attendance": "6985"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Provence Rugby",
-      "away": "SU Agen",
-      "score": "44-10",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "utc": "2026-08-27T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529620"
     },
     {
       "league": "npc-2026",
@@ -24436,6 +24436,18 @@
       "attendance": "13597"
     },
     {
+      "league": "prod2-2026",
+      "home": "CA Brive",
+      "away": "Valence Romans Drôme",
+      "score": "23-21",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "utc": "2026-08-28T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16529625"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cameroon",
       "away": "Tunisia",
@@ -24456,18 +24468,6 @@
       "utc": "2026-08-28T16:00:00+00:00",
       "venue": "Xiaomi Arena, Riga, Latvia{{refn|group=note|name=Ukraine}}",
       "attendance": "900"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "CA Brive",
-      "away": "Valence Romans Drôme",
-      "score": "23-21",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "utc": "2026-08-28T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529625"
     },
     {
       "league": "npc-2026",
@@ -27773,6 +27773,66 @@
       "source_id": "sofascore:16535070"
     },
     {
+      "league": "prod2-2026",
+      "home": "RC Narbonne",
+      "away": "SA XV Charente",
+      "score": "31-26",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535069"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Colomiers Rugby",
+      "away": "US Dax",
+      "score": "66-21",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535067"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "USON Nevers",
+      "away": "Biarritz Olympique",
+      "score": "20-22",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535072"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Montauban",
+      "away": "AS Béziers Hérault",
+      "score": "50-21",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535068"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "Provence Rugby",
+      "score": "23-27",
+      "date": "2026-09-18",
+      "time": "17:30",
+      "utc": "2026-09-18T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535073"
+    },
+    {
       "league": "bcl-2026-27",
       "home": "BC Batumi 2010",
       "away": "CSM Oradea",
@@ -27856,66 +27916,6 @@
       "venue": "Lanxess Arena",
       "attendance": null,
       "source_id": "sofascore:16422422"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "RC Narbonne",
-      "away": "SA XV Charente",
-      "score": "31-26",
-      "date": "2026-09-18",
-      "time": "17:30",
-      "utc": "2026-09-18T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535069"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Colomiers Rugby",
-      "away": "US Dax",
-      "score": "66-21",
-      "date": "2026-09-18",
-      "time": "17:30",
-      "utc": "2026-09-18T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535067"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "Biarritz Olympique",
-      "score": "20-22",
-      "date": "2026-09-18",
-      "time": "17:30",
-      "utc": "2026-09-18T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535072"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Montauban",
-      "away": "AS Béziers Hérault",
-      "score": "50-21",
-      "date": "2026-09-18",
-      "time": "17:30",
-      "utc": "2026-09-18T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535068"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "Provence Rugby",
-      "score": "23-27",
-      "date": "2026-09-18",
-      "time": "17:30",
-      "utc": "2026-09-18T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535073"
     },
     {
       "league": "bbl-2026-27",
@@ -28085,6 +28085,42 @@
       "source_id": "sofascore:16230718"
     },
     {
+      "league": "championship-2026",
+      "home": "Caldy RFC",
+      "away": "Hartpury College",
+      "score": "40-42",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "utc": "2026-09-19T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662791"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Coventry Rugby",
+      "score": "38-35",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "utc": "2026-09-19T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662786"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Bedford Blues",
+      "score": "40-5",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "utc": "2026-09-19T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662788"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "SaiPa Lappeenranta",
       "away": "KooKoo Kouvola",
@@ -28156,42 +28192,6 @@
       "venue": "Helsinki Halli",
       "attendance": null,
       "source_id": "sofascore:16337279"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Caldy RFC",
-      "away": "Hartpury College",
-      "score": "40-42",
-      "date": "2026-09-19",
-      "time": "14:00",
-      "utc": "2026-09-19T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662791"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Coventry Rugby",
-      "score": "38-35",
-      "date": "2026-09-19",
-      "time": "14:00",
-      "utc": "2026-09-19T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662786"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Bedford Blues",
-      "score": "40-5",
-      "date": "2026-09-19",
-      "time": "14:00",
-      "utc": "2026-09-19T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662788"
     },
     {
       "league": "npc-2026",
@@ -28287,6 +28287,30 @@
       "attendance": null
     },
     {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Ampthill RUFC",
+      "score": "40-42",
+      "date": "2026-09-19",
+      "time": "16:00",
+      "utc": "2026-09-19T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662783"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Ealing Trailfinders",
+      "score": "26-43",
+      "date": "2026-09-19",
+      "time": "16:00",
+      "utc": "2026-09-19T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662785"
+    },
+    {
       "league": "shl-2026-27",
       "home": "Luleå Hockey",
       "away": "Rögle BK",
@@ -28321,30 +28345,6 @@
       "venue": "Löfbergs Arena",
       "attendance": null,
       "source_id": "sofascore:16230724"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Ampthill RUFC",
-      "score": "40-42",
-      "date": "2026-09-19",
-      "time": "16:00",
-      "utc": "2026-09-19T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662783"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Ealing Trailfinders",
-      "score": "26-43",
-      "date": "2026-09-19",
-      "time": "16:00",
-      "utc": "2026-09-19T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662785"
     },
     {
       "league": "bbl-2026-27",
@@ -28654,18 +28654,6 @@
       "source_id": "sofascore:16422433"
     },
     {
-      "league": "bcl-2026-27",
-      "home": "Salon Vilpas Vikings",
-      "away": "CSM Oradea",
-      "score": "98-96",
-      "date": "2026-09-20",
-      "time": "15:00",
-      "utc": "2026-09-20T15:00:00+00:00",
-      "venue": "Salohalli",
-      "attendance": null,
-      "source_id": "sofascore:17133723"
-    },
-    {
       "league": "championship-2026",
       "home": "Cornish Pirates",
       "away": "Doncaster Knights",
@@ -28676,6 +28664,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662789"
+    },
+    {
+      "league": "bcl-2026-27",
+      "home": "Salon Vilpas Vikings",
+      "away": "CSM Oradea",
+      "score": "98-96",
+      "date": "2026-09-20",
+      "time": "15:00",
+      "utc": "2026-09-20T15:00:00+00:00",
+      "venue": "Salohalli",
+      "attendance": null,
+      "source_id": "sofascore:17133723"
     },
     {
       "league": "bbl-2026-27",
@@ -29495,6 +29495,18 @@
       "source_id": "sofascore:16337297"
     },
     {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "RC Narbonne",
+      "score": "34-24",
+      "date": "2026-09-25",
+      "time": "17:00",
+      "utc": "2026-09-25T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535076"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Valencia Basket",
@@ -29508,15 +29520,63 @@
     },
     {
       "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "RC Narbonne",
-      "score": "34-24",
+      "home": "US Dax",
+      "away": "Nissa Rugby",
+      "score": "45-17",
       "date": "2026-09-25",
-      "time": "17:00",
-      "utc": "2026-09-25T17:00:00+00:00",
+      "time": "17:30",
+      "utc": "2026-09-25T17:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535076"
+      "source_id": "sofascore:16535080"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Oyonnax",
+      "away": "USON Nevers",
+      "score": "56-35",
+      "date": "2026-09-25",
+      "time": "17:30",
+      "utc": "2026-09-25T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535079"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SA XV Charente",
+      "away": "SU Agen",
+      "score": "36-22",
+      "date": "2026-09-25",
+      "time": "17:30",
+      "utc": "2026-09-25T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535075"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Biarritz Olympique",
+      "away": "US Montauban",
+      "score": "32-20",
+      "date": "2026-09-25",
+      "time": "17:30",
+      "utc": "2026-09-25T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535071"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Provence Rugby",
+      "away": "Stade Aurillacois",
+      "score": "24-20",
+      "date": "2026-09-25",
+      "time": "17:30",
+      "utc": "2026-09-25T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535074"
     },
     {
       "league": "del-2026-27",
@@ -29591,66 +29651,6 @@
       "venue": "Eisarena Bremerhaven",
       "attendance": null,
       "source_id": "sofascore:16422440"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "Nissa Rugby",
-      "score": "45-17",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "utc": "2026-09-25T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535080"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Oyonnax",
-      "away": "USON Nevers",
-      "score": "56-35",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "utc": "2026-09-25T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535079"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "SU Agen",
-      "score": "36-22",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "utc": "2026-09-25T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535075"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Biarritz Olympique",
-      "away": "US Montauban",
-      "score": "32-20",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "utc": "2026-09-25T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535071"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Provence Rugby",
-      "away": "Stade Aurillacois",
-      "score": "24-20",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "utc": "2026-09-25T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535074"
     },
     {
       "league": "euroleague-2026-27",
@@ -29738,6 +29738,18 @@
       "source_id": "sofascore:16662704"
     },
     {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Caldy RFC",
+      "score": "24-28",
+      "date": "2026-09-25",
+      "time": "18:45",
+      "utc": "2026-09-25T18:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662795"
+    },
+    {
       "league": "urc-2026",
       "home": "Ulster",
       "away": "Edinburgh",
@@ -29784,18 +29796,6 @@
       "venue": "Belgrade Arena",
       "attendance": null,
       "source_id": "sofascore:16670565"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Caldy RFC",
-      "score": "24-28",
-      "date": "2026-09-25",
-      "time": "18:45",
-      "utc": "2026-09-25T18:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662795"
     },
     {
       "league": "cfl-2026",
@@ -29975,6 +29975,42 @@
       "source_id": "365scores:4809001"
     },
     {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Cornish Pirates",
+      "score": "73-40",
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662792"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Ampthill RUFC",
+      "away": "Nottingham",
+      "score": "33-28",
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662797"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Chinnor",
+      "score": "33-52",
+      "date": "2026-09-26",
+      "time": "14:00",
+      "utc": "2026-09-26T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662793"
+    },
+    {
       "league": "urc-2026",
       "home": "Sharks",
       "away": "Ospreys",
@@ -30118,42 +30154,6 @@
       "venue": "Nokia Arena",
       "attendance": null,
       "source_id": "sofascore:16337303"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Cornish Pirates",
-      "score": "73-40",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "utc": "2026-09-26T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662792"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ampthill RUFC",
-      "away": "Nottingham",
-      "score": "33-28",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "utc": "2026-09-26T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662797"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Chinnor",
-      "score": "33-52",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "utc": "2026-09-26T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662793"
     },
     {
       "league": "npc-2026",
@@ -30693,6 +30693,18 @@
       "source_id": "365scores:4760471"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Richmond",
+      "score": "36-19",
+      "date": "2026-09-27",
+      "time": "13:00",
+      "utc": "2026-09-27T13:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662794"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Gladiators Trier",
       "away": "Science City Jena",
@@ -30727,18 +30739,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809006"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Richmond",
-      "score": "36-19",
-      "date": "2026-09-27",
-      "time": "13:00",
-      "utc": "2026-09-27T13:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662794"
     },
     {
       "league": "premiership-2026",
@@ -30850,6 +30850,18 @@
       "source_id": "sofascore:16422448"
     },
     {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Hartpury College",
+      "score": "29-15",
+      "date": "2026-09-27",
+      "time": "15:00",
+      "utc": "2026-09-27T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662796"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Basquet Girona",
       "away": "UCAM Murcia",
@@ -30872,18 +30884,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810247"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Hartpury College",
-      "score": "29-15",
-      "date": "2026-09-27",
-      "time": "15:00",
-      "utc": "2026-09-27T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662796"
     },
     {
       "league": "bbl-2026-27",
@@ -32139,6 +32139,30 @@
       "source_id": "sofascore:16662713"
     },
     {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Ampthill RUFC",
+      "score": "24-33",
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662804"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Nottingham",
+      "away": "Coventry Rugby",
+      "score": "26-64",
+      "date": "2026-10-02",
+      "time": "18:45",
+      "utc": "2026-10-02T18:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662802"
+    },
+    {
       "league": "urc-2026",
       "home": "Cardiff Rugby",
       "away": "Zebre",
@@ -32173,30 +32197,6 @@
       "venue": "Stadio Comunale di Monigo",
       "attendance": "4946",
       "source_id": "sofascore:16527555"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Ampthill RUFC",
-      "score": "24-33",
-      "date": "2026-10-02",
-      "time": "18:45",
-      "utc": "2026-10-02T18:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662804"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Nottingham",
-      "away": "Coventry Rugby",
-      "score": "26-64",
-      "date": "2026-10-02",
-      "time": "18:45",
-      "utc": "2026-10-02T18:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662802"
     },
     {
       "league": "cfl-2026",
@@ -32314,6 +32314,42 @@
       "venue": "Vida Arena",
       "attendance": null,
       "source_id": "sofascore:16230734"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Bedford Blues",
+      "score": "40-38",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662808"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Ealing Trailfinders",
+      "score": "35-33",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662801"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Worcester Warriors",
+      "score": "26-45",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "utc": "2026-10-03T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662803"
     },
     {
       "league": "urc-2026",
@@ -32464,42 +32500,6 @@
       "attendance": null,
       "ot": true,
       "source_id": "sofascore:16337318"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Bedford Blues",
-      "score": "40-38",
-      "date": "2026-10-03",
-      "time": "14:00",
-      "utc": "2026-10-03T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662808"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Ealing Trailfinders",
-      "score": "35-33",
-      "date": "2026-10-03",
-      "time": "14:00",
-      "utc": "2026-10-03T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662801"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Worcester Warriors",
-      "score": "26-45",
-      "date": "2026-10-03",
-      "time": "14:00",
-      "utc": "2026-10-03T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662803"
     },
     {
       "league": "npc-2026",
@@ -33134,6 +33134,18 @@
       "source_id": "sofascore:16422463"
     },
     {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Doncaster Knights",
+      "score": "33-26",
+      "date": "2026-10-04",
+      "time": "15:00",
+      "utc": "2026-10-04T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662805"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Casademont Zaragoza",
       "away": "Valencia Basket",
@@ -33156,18 +33168,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4814638"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Doncaster Knights",
-      "score": "33-26",
-      "date": "2026-10-04",
-      "time": "15:00",
-      "utc": "2026-10-04T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662805"
     },
     {
       "league": "lega-a-2026-27",
@@ -34569,6 +34569,54 @@
       "source_id": "sofascore:16535085"
     },
     {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "USON Nevers",
+      "score": "32-17",
+      "date": "2026-10-09",
+      "time": "17:30",
+      "utc": "2026-10-09T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535088"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "RC Narbonne",
+      "away": "US Oyonnax",
+      "score": "14-57",
+      "date": "2026-10-09",
+      "time": "17:30",
+      "utc": "2026-10-09T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535086"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SU Agen",
+      "away": "US Dax",
+      "score": "49-30",
+      "date": "2026-10-09",
+      "time": "17:30",
+      "utc": "2026-10-09T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535083"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "AS Béziers Hérault",
+      "score": "47-20",
+      "date": "2026-10-09",
+      "time": "17:30",
+      "utc": "2026-10-09T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535087"
+    },
+    {
       "league": "del-2026-27",
       "home": "Straubing Tigers",
       "away": "Iserlohn Roosters",
@@ -34639,54 +34687,6 @@
       "venue": "Curt-Frenzel-Stadion",
       "attendance": null,
       "source_id": "sofascore:16422470"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "USON Nevers",
-      "score": "32-17",
-      "date": "2026-10-09",
-      "time": "17:30",
-      "utc": "2026-10-09T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535088"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "RC Narbonne",
-      "away": "US Oyonnax",
-      "score": "14-57",
-      "date": "2026-10-09",
-      "time": "17:30",
-      "utc": "2026-10-09T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535086"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "US Dax",
-      "score": "49-30",
-      "date": "2026-10-09",
-      "time": "17:30",
-      "utc": "2026-10-09T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535083"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "AS Béziers Hérault",
-      "score": "47-20",
-      "date": "2026-10-09",
-      "time": "17:30",
-      "utc": "2026-10-09T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535087"
     },
     {
       "league": "bbl-2026-27",
@@ -34761,30 +34761,6 @@
       "source_id": "sofascore:16662712"
     },
     {
-      "league": "urc-2026",
-      "home": "Glasgow Warriors",
-      "away": "Connacht",
-      "score": "36-19",
-      "date": "2026-10-09",
-      "time": "18:45",
-      "utc": "2026-10-09T18:45:00+00:00",
-      "venue": "Scotstoun Stadium",
-      "attendance": "6970",
-      "source_id": "sofascore:16527479"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Dragons",
-      "away": "Ospreys",
-      "score": "31-38",
-      "date": "2026-10-09",
-      "time": "18:45",
-      "utc": "2026-10-09T18:45:00+00:00",
-      "venue": "Rodney Parade",
-      "attendance": "6037",
-      "source_id": "sofascore:16527465"
-    },
-    {
       "league": "championship-2026",
       "home": "Rotherham Titans",
       "away": "Caldy RFC",
@@ -34807,6 +34783,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662800"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Connacht",
+      "score": "36-19",
+      "date": "2026-10-09",
+      "time": "18:45",
+      "utc": "2026-10-09T18:45:00+00:00",
+      "venue": "Scotstoun Stadium",
+      "attendance": "6970",
+      "source_id": "sofascore:16527479"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Ospreys",
+      "score": "31-38",
+      "date": "2026-10-09",
+      "time": "18:45",
+      "utc": "2026-10-09T18:45:00+00:00",
+      "venue": "Rodney Parade",
+      "attendance": "6037",
+      "source_id": "sofascore:16527465"
     },
     {
       "league": "cfl-2026",
@@ -34988,6 +34988,42 @@
       "source_id": "365scores:4760421"
     },
     {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Richmond",
+      "score": "40-24",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662812"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Ampthill RUFC",
+      "away": "Doncaster Knights",
+      "score": "26-56",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662810"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Nottingham",
+      "score": "49-24",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "utc": "2026-10-10T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662809"
+    },
+    {
       "league": "urc-2026",
       "home": "Stormers",
       "away": "Sharks",
@@ -35098,42 +35134,6 @@
       "source_id": "sofascore:16337345"
     },
     {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Richmond",
-      "score": "40-24",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "utc": "2026-10-10T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662812"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ampthill RUFC",
-      "away": "Doncaster Knights",
-      "score": "26-56",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "utc": "2026-10-10T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662810"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Nottingham",
-      "score": "49-24",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "utc": "2026-10-10T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662809"
-    },
-    {
       "league": "premiership-2026",
       "home": "Northampton Saints",
       "away": "Bath Rugby",
@@ -35215,6 +35215,18 @@
       "venue": "Helsingin jäähalli",
       "attendance": null,
       "source_id": "sofascore:16337342"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Cornish Pirates",
+      "score": "38-14",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "utc": "2026-10-10T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662814"
     },
     {
       "league": "liga-acb-2026-27",
@@ -35299,18 +35311,6 @@
       "venue": "Skellefteå Kraft Arena",
       "attendance": null,
       "source_id": "sofascore:16230754"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Cornish Pirates",
-      "score": "38-14",
-      "date": "2026-10-10",
-      "time": "16:00",
-      "utc": "2026-10-10T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662814"
     },
     {
       "league": "npc-2026",
@@ -35747,6 +35747,18 @@
       "source_id": "sofascore:16422477"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Hartpury College",
+      "score": "71-7",
+      "date": "2026-10-11",
+      "time": "15:00",
+      "utc": "2026-10-11T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662811"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Joventut de Badalona",
@@ -35781,18 +35793,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810288"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Hartpury College",
-      "score": "71-7",
-      "date": "2026-10-11",
-      "time": "15:00",
-      "utc": "2026-10-11T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662811"
     },
     {
       "league": "liga-acb-2026-27",
@@ -37150,6 +37150,18 @@
       "source_id": "sofascore:16337352"
     },
     {
+      "league": "prod2-2026",
+      "home": "US Oyonnax",
+      "away": "Valence Romans Drôme",
+      "score": "51-25",
+      "date": "2026-10-16",
+      "time": "17:00",
+      "utc": "2026-10-16T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535096"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Beşiktaş JK",
       "away": "Bayern Munich",
@@ -37175,15 +37187,51 @@
     },
     {
       "league": "prod2-2026",
-      "home": "US Oyonnax",
-      "away": "Valence Romans Drôme",
-      "score": "51-25",
+      "home": "Colomiers Rugby",
+      "away": "RC Narbonne",
+      "score": "49-28",
       "date": "2026-10-16",
-      "time": "17:00",
-      "utc": "2026-10-16T17:00:00+00:00",
+      "time": "17:30",
+      "utc": "2026-10-16T17:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535096"
+      "source_id": "sofascore:16535092"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "Stade Aurillacois",
+      "score": "24-25",
+      "date": "2026-10-16",
+      "time": "17:30",
+      "utc": "2026-10-16T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535089"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Dax",
+      "away": "US Montauban",
+      "score": "54-28",
+      "date": "2026-10-16",
+      "time": "17:30",
+      "utc": "2026-10-16T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535093"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "Provence Rugby",
+      "score": "24-34",
+      "date": "2026-10-16",
+      "time": "17:30",
+      "utc": "2026-10-16T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535095"
     },
     {
       "league": "del-2026-27",
@@ -37257,54 +37305,6 @@
       "venue": "Uber Arena",
       "attendance": null,
       "source_id": "sofascore:16422482"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Colomiers Rugby",
-      "away": "RC Narbonne",
-      "score": "49-28",
-      "date": "2026-10-16",
-      "time": "17:30",
-      "utc": "2026-10-16T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535092"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "Stade Aurillacois",
-      "score": "24-25",
-      "date": "2026-10-16",
-      "time": "17:30",
-      "utc": "2026-10-16T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535089"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "US Montauban",
-      "score": "54-28",
-      "date": "2026-10-16",
-      "time": "17:30",
-      "utc": "2026-10-16T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535093"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "Provence Rugby",
-      "score": "24-34",
-      "date": "2026-10-16",
-      "time": "17:30",
-      "utc": "2026-10-16T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535095"
     },
     {
       "league": "euroleague-2026-27",
@@ -37391,6 +37391,30 @@
       "attendance": "16371"
     },
     {
+      "league": "prod2-2026",
+      "home": "USON Nevers",
+      "away": "SU Agen",
+      "score": "7-38",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535094"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Biarritz Olympique",
+      "away": "SA XV Charente",
+      "score": "27-27",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535090"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Gloucester Rugby",
       "away": "Bordeaux Begles",
@@ -37425,30 +37449,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16527606"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "SU Agen",
-      "score": "7-38",
-      "date": "2026-10-16",
-      "time": "19:00",
-      "utc": "2026-10-16T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535094"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Biarritz Olympique",
-      "away": "SA XV Charente",
-      "score": "27-27",
-      "date": "2026-10-16",
-      "time": "19:00",
-      "utc": "2026-10-16T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535090"
     },
     {
       "league": "npc-2026",
@@ -37545,6 +37545,18 @@
       "source_id": "365scores:4760414"
     },
     {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Chinnor",
+      "score": "48-24",
+      "date": "2026-10-17",
+      "time": "12:00",
+      "utc": "2026-10-17T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662813"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Bulls",
       "away": "Stade Francais Paris",
@@ -37591,18 +37603,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16527605"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Chinnor",
-      "score": "48-24",
-      "date": "2026-10-17",
-      "time": "12:00",
-      "utc": "2026-10-17T12:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662813"
     },
     {
       "league": "cfl-2026",
@@ -37676,6 +37676,42 @@
       "attendance": null,
       "ot": true,
       "source_id": "sofascore:16230771"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Caldy RFC",
+      "away": "Ampthill RUFC",
+      "score": "47-61",
+      "date": "2026-10-17",
+      "time": "14:00",
+      "utc": "2026-10-17T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662524"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Ealing Trailfinders",
+      "score": "22-59",
+      "date": "2026-10-17",
+      "time": "14:00",
+      "utc": "2026-10-17T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662817"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Coventry Rugby",
+      "score": "31-33",
+      "date": "2026-10-17",
+      "time": "14:00",
+      "utc": "2026-10-17T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662528"
     },
     {
       "league": "khl-2026-27",
@@ -37776,42 +37812,6 @@
       "source_id": "sofascore:16337355"
     },
     {
-      "league": "championship-2026",
-      "home": "Caldy RFC",
-      "away": "Ampthill RUFC",
-      "score": "47-61",
-      "date": "2026-10-17",
-      "time": "14:00",
-      "utc": "2026-10-17T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662524"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Ealing Trailfinders",
-      "score": "22-59",
-      "date": "2026-10-17",
-      "time": "14:00",
-      "utc": "2026-10-17T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662817"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Coventry Rugby",
-      "score": "31-33",
-      "date": "2026-10-17",
-      "time": "14:00",
-      "utc": "2026-10-17T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662528"
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Clermont Auvergne",
       "away": "Leinster",
@@ -37860,6 +37860,18 @@
       "source_id": "sofascore:16337356"
     },
     {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Worcester Warriors",
+      "score": "28-34",
+      "date": "2026-10-17",
+      "time": "16:00",
+      "utc": "2026-10-17T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662512"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Baxi Manresa",
       "away": "Unicaja Málaga",
@@ -37906,18 +37918,6 @@
       "venue": "Monitor ERP Arena",
       "attendance": null,
       "source_id": "sofascore:16230767"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Worcester Warriors",
-      "score": "28-34",
-      "date": "2026-10-17",
-      "time": "16:00",
-      "utc": "2026-10-17T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662512"
     },
     {
       "league": "champions-cup-2026",
@@ -38004,6 +38004,18 @@
       "source_id": "365scores:4819882"
     },
     {
+      "league": "prod2-2026",
+      "home": "CA Brive",
+      "away": "FC Grenoble Rugby",
+      "score": "14-26",
+      "date": "2026-10-17",
+      "time": "19:00",
+      "utc": "2026-10-17T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535091"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Munster",
       "away": "Racing 92",
@@ -38050,18 +38062,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4820667"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "CA Brive",
-      "away": "FC Grenoble Rugby",
-      "score": "14-26",
-      "date": "2026-10-17",
-      "time": "19:00",
-      "utc": "2026-10-17T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535091"
     },
     {
       "league": "argentina-liga-profesional-2026",
@@ -38354,6 +38354,18 @@
       "source_id": "sofascore:16422493"
     },
     {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Rotherham Titans",
+      "score": "14-29",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "utc": "2026-10-18T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662525"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Valencia Basket",
       "away": "UCAM Murcia",
@@ -38376,18 +38388,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810308"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Rotherham Titans",
-      "score": "14-29",
-      "date": "2026-10-18",
-      "time": "15:00",
-      "utc": "2026-10-18T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662525"
     },
     {
       "league": "npc-2026",
@@ -39736,6 +39736,18 @@
       "source_id": "sofascore:16337372"
     },
     {
+      "league": "prod2-2026",
+      "home": "RC Narbonne",
+      "away": "CA Brive",
+      "score": "34-26",
+      "date": "2026-10-23",
+      "time": "17:00",
+      "utc": "2026-10-23T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535099"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "ASVEL Villeurbanne",
@@ -39749,15 +39761,51 @@
     },
     {
       "league": "prod2-2026",
-      "home": "RC Narbonne",
-      "away": "CA Brive",
-      "score": "34-26",
+      "home": "SA XV Charente",
+      "away": "US Dax",
+      "score": "49-7",
       "date": "2026-10-23",
-      "time": "17:00",
-      "utc": "2026-10-23T17:00:00+00:00",
+      "time": "17:30",
+      "utc": "2026-10-23T17:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535099"
+      "source_id": "sofascore:16535104"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Stade Aurillacois",
+      "away": "USON Nevers",
+      "score": "41-16",
+      "date": "2026-10-23",
+      "time": "17:30",
+      "utc": "2026-10-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535100"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SU Agen",
+      "away": "Nissa Rugby",
+      "score": "28-24",
+      "date": "2026-10-23",
+      "time": "17:30",
+      "utc": "2026-10-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535097"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "Colomiers Rugby",
+      "score": "28-23",
+      "date": "2026-10-23",
+      "time": "17:30",
+      "utc": "2026-10-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535102"
     },
     {
       "league": "del-2026-27",
@@ -39842,54 +39890,6 @@
       "venue": "Eisstadion am Pulverturm",
       "attendance": null,
       "source_id": "sofascore:16422503"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "US Dax",
-      "score": "49-7",
-      "date": "2026-10-23",
-      "time": "17:30",
-      "utc": "2026-10-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535104"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Stade Aurillacois",
-      "away": "USON Nevers",
-      "score": "41-16",
-      "date": "2026-10-23",
-      "time": "17:30",
-      "utc": "2026-10-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535100"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "Nissa Rugby",
-      "score": "28-24",
-      "date": "2026-10-23",
-      "time": "17:30",
-      "utc": "2026-10-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535097"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "Colomiers Rugby",
-      "score": "28-23",
-      "date": "2026-10-23",
-      "time": "17:30",
-      "utc": "2026-10-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535102"
     },
     {
       "league": "russian-first-league-2026-27",
@@ -42454,6 +42454,18 @@
       "source_id": "sofascore:16337390"
     },
     {
+      "league": "prod2-2026",
+      "home": "Colomiers Rugby",
+      "away": "SU Agen",
+      "score": "37-19",
+      "date": "2026-10-30",
+      "time": "18:00",
+      "utc": "2026-10-30T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535107"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "KK Partizan Mozzart Bet",
@@ -42467,15 +42479,51 @@
     },
     {
       "league": "prod2-2026",
-      "home": "Colomiers Rugby",
-      "away": "SU Agen",
-      "score": "37-19",
+      "home": "Nissa Rugby",
+      "away": "Stade Aurillacois",
+      "score": "29-20",
       "date": "2026-10-30",
-      "time": "18:00",
-      "utc": "2026-10-30T18:00:00+00:00",
+      "time": "18:30",
+      "utc": "2026-10-30T18:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535107"
+      "source_id": "sofascore:16535115"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Montauban",
+      "away": "RC Narbonne",
+      "score": "33-28",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "utc": "2026-10-30T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535109"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Oyonnax",
+      "away": "SA XV Charente",
+      "score": "22-13",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "utc": "2026-10-30T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535111"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "FC Grenoble Rugby",
+      "score": "25-27",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "utc": "2026-10-30T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535098"
     },
     {
       "league": "del-2026-27",
@@ -42549,54 +42597,6 @@
       "venue": "Arena Nuernberger Versicherung",
       "attendance": null,
       "source_id": "sofascore:16422514"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "Stade Aurillacois",
-      "score": "29-20",
-      "date": "2026-10-30",
-      "time": "18:30",
-      "utc": "2026-10-30T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535115"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Montauban",
-      "away": "RC Narbonne",
-      "score": "33-28",
-      "date": "2026-10-30",
-      "time": "18:30",
-      "utc": "2026-10-30T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535109"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Oyonnax",
-      "away": "SA XV Charente",
-      "score": "22-13",
-      "date": "2026-10-30",
-      "time": "18:30",
-      "utc": "2026-10-30T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535111"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "FC Grenoble Rugby",
-      "score": "25-27",
-      "date": "2026-10-30",
-      "time": "18:30",
-      "utc": "2026-10-30T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535098"
     },
     {
       "league": "bbl-2026-27",
@@ -42683,30 +42683,6 @@
       "source_id": "sofascore:16662726"
     },
     {
-      "league": "urc-2026",
-      "home": "Glasgow Warriors",
-      "away": "Lions",
-      "score": "29-20",
-      "date": "2026-10-30",
-      "time": "19:45",
-      "utc": "2026-10-30T19:45:00+00:00",
-      "venue": "Scotstoun Stadium",
-      "attendance": "7321",
-      "source_id": "sofascore:16527484"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Connacht",
-      "away": "Leinster",
-      "score": "5-50",
-      "date": "2026-10-30",
-      "time": "19:45",
-      "utc": "2026-10-30T19:45:00+00:00",
-      "venue": "Galway Sportsgrounds",
-      "attendance": "12500",
-      "source_id": "sofascore:16527481"
-    },
-    {
       "league": "championship-2026",
       "home": "Chinnor",
       "away": "Nottingham",
@@ -42729,6 +42705,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662500"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Lions",
+      "score": "29-20",
+      "date": "2026-10-30",
+      "time": "19:45",
+      "utc": "2026-10-30T19:45:00+00:00",
+      "venue": "Scotstoun Stadium",
+      "attendance": "7321",
+      "source_id": "sofascore:16527484"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Connacht",
+      "away": "Leinster",
+      "score": "5-50",
+      "date": "2026-10-30",
+      "time": "19:45",
+      "utc": "2026-10-30T19:45:00+00:00",
+      "venue": "Galway Sportsgrounds",
+      "attendance": "12500",
+      "source_id": "sofascore:16527481"
     },
     {
       "league": "prod2-2026",
@@ -42814,6 +42814,18 @@
       "attendance": "21786"
     },
     {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Ampthill RUFC",
+      "score": "35-17",
+      "date": "2026-10-31",
+      "time": "13:00",
+      "utc": "2026-10-31T13:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662502"
+    },
+    {
       "league": "rugby-europe-trophy-2026",
       "home": "Denmark",
       "away": "Malta",
@@ -42836,18 +42848,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17192562"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Ampthill RUFC",
-      "score": "35-17",
-      "date": "2026-10-31",
-      "time": "13:00",
-      "utc": "2026-10-31T13:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662502"
     },
     {
       "league": "cfl-2026",
@@ -42945,6 +42945,42 @@
       "source_id": "sofascore:16662724"
     },
     {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Caldy RFC",
+      "score": "35-29",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662509"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Hartpury College",
+      "score": "45-21",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662506"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Doncaster Knights",
+      "score": "45-26",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "utc": "2026-10-31T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662504"
+    },
+    {
       "league": "urc-2026",
       "home": "Benetton Treviso",
       "away": "Edinburgh",
@@ -43040,42 +43076,6 @@
       "venue": "Oulun Energia Areena",
       "attendance": null,
       "source_id": "sofascore:16337399"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Caldy RFC",
-      "score": "35-29",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "utc": "2026-10-31T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662509"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Hartpury College",
-      "score": "45-21",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "utc": "2026-10-31T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662506"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Doncaster Knights",
-      "score": "45-26",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "utc": "2026-10-31T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662504"
     },
     {
       "league": "premiership-2026",
@@ -43747,6 +43747,18 @@
       "source_id": "365scores:4760390"
     },
     {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Cornish Pirates",
+      "score": "21-40",
+      "date": "2026-11-01",
+      "time": "16:00",
+      "utc": "2026-11-01T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662527"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Baskonia Vitoria",
       "away": "Baxi Manresa",
@@ -43769,18 +43781,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810359"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Cornish Pirates",
-      "score": "21-40",
-      "date": "2026-11-01",
-      "time": "16:00",
-      "utc": "2026-11-01T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662527"
     },
     {
       "league": "bbl-2026-27",
@@ -44703,18 +44703,6 @@
       "source_id": "sofascore:16665346"
     },
     {
-      "league": "eurocup-2026-27",
-      "home": "La Laguna Tenerife",
-      "away": "Cluj Napoca",
-      "score": "113-73",
-      "date": "2026-11-05",
-      "time": "20:00",
-      "utc": "2026-11-05T20:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4771448"
-    },
-    {
       "league": "prod2-2026",
       "home": "SU Agen",
       "away": "Biarritz Olympique",
@@ -44725,6 +44713,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535112"
+    },
+    {
+      "league": "eurocup-2026-27",
+      "home": "La Laguna Tenerife",
+      "away": "Cluj Napoca",
+      "score": "113-73",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "utc": "2026-11-05T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4771448"
     },
     {
       "league": "khl-2026-27",
@@ -44944,18 +44944,6 @@
       "source_id": "sofascore:16665349"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "KK Partizan Mozzart Bet",
-      "away": "Maccabi Tel Aviv",
-      "score": "88-67",
-      "date": "2026-11-06",
-      "time": "19:45",
-      "utc": "2026-11-06T19:45:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16665350"
-    },
-    {
       "league": "championship-2026",
       "home": "Nottingham",
       "away": "Rotherham Titans",
@@ -44966,6 +44954,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662507"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "KK Partizan Mozzart Bet",
+      "away": "Maccabi Tel Aviv",
+      "score": "88-67",
+      "date": "2026-11-06",
+      "time": "19:45",
+      "utc": "2026-11-06T19:45:00+00:00",
+      "venue": "Belgrade Arena",
+      "attendance": null,
+      "source_id": "sofascore:16665350"
     },
     {
       "league": "prod2-2026",
@@ -45028,6 +45028,18 @@
       "source_id": "365scores:4889621"
     },
     {
+      "league": "championship-2026",
+      "home": "Ampthill RUFC",
+      "away": "Ealing Trailfinders",
+      "score": "19-50",
+      "date": "2026-11-07",
+      "time": "12:00",
+      "utc": "2026-11-07T12:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662508"
+    },
+    {
       "league": "rugby-europe-trophy-2026",
       "home": "Lithuania",
       "away": "Sweden",
@@ -45052,18 +45064,6 @@
       "source_id": "sofascore:17192564"
     },
     {
-      "league": "championship-2026",
-      "home": "Ampthill RUFC",
-      "away": "Ealing Trailfinders",
-      "score": "19-50",
-      "date": "2026-11-07",
-      "time": "12:00",
-      "utc": "2026-11-07T12:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662508"
-    },
-    {
       "league": "nations-championship-2026",
       "home": "Italy",
       "away": "South Africa",
@@ -45073,18 +45073,6 @@
       "utc": "2026-11-07T11:40:00+00:00",
       "venue": "Juventus Stadium, Turin",
       "attendance": "31500"
-    },
-    {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Malta",
-      "away": "Germany",
-      "score": "37-29",
-      "date": "2026-11-07",
-      "time": "13:00",
-      "utc": "2026-11-07T13:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17192567"
     },
     {
       "league": "championship-2026",
@@ -45097,6 +45085,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662514"
+    },
+    {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Malta",
+      "away": "Germany",
+      "score": "37-29",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "utc": "2026-11-07T13:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17192567"
     },
     {
       "league": "top14-2026",
@@ -47172,18 +47172,6 @@
       "attendance": "24615"
     },
     {
-      "league": "rugby-europe-trophy-2026",
-      "home": "Malta",
-      "away": "Sweden",
-      "score": "36-34",
-      "date": "2026-11-14",
-      "time": "13:00",
-      "utc": "2026-11-14T13:00:30+00:00",
-      "venue": "Tony Bezzina Stadium",
-      "attendance": null,
-      "source_id": "sofascore:17192570"
-    },
-    {
       "league": "championship-2026",
       "home": "Cornish Pirates",
       "away": "Caldy RFC",
@@ -47206,6 +47194,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662515"
+    },
+    {
+      "league": "rugby-europe-trophy-2026",
+      "home": "Malta",
+      "away": "Sweden",
+      "score": "36-34",
+      "date": "2026-11-14",
+      "time": "13:00",
+      "utc": "2026-11-14T13:00:30+00:00",
+      "venue": "Tony Bezzina Stadium",
+      "attendance": null,
+      "source_id": "sofascore:17192570"
     },
     {
       "league": "khl-2026-27",
@@ -47324,6 +47324,30 @@
       "attendance": "3800"
     },
     {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Hartpury College",
+      "score": "26-32",
+      "date": "2026-11-14",
+      "time": "15:00",
+      "utc": "2026-11-14T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662505"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Blackheath Rugby",
+      "score": "33-23",
+      "date": "2026-11-14",
+      "time": "15:00",
+      "utc": "2026-11-14T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662819"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Lahti Pelicans",
@@ -47382,30 +47406,6 @@
       "venue": "Isomäki Areena",
       "attendance": null,
       "source_id": "sofascore:16337423"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Hartpury College",
-      "score": "26-32",
-      "date": "2026-11-14",
-      "time": "15:00",
-      "utc": "2026-11-14T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662505"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Blackheath Rugby",
-      "score": "33-23",
-      "date": "2026-11-14",
-      "time": "15:00",
-      "utc": "2026-11-14T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662819"
     },
     {
       "league": "russian-first-league-2026-27",
@@ -47799,6 +47799,18 @@
       "source_id": "sofascore:16422536"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Coventry Rugby",
+      "score": "44-42",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "utc": "2026-11-15T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662520"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Rostock Seawolves",
       "away": "SC Rasta Vechta",
@@ -47845,18 +47857,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4893216"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Coventry Rugby",
-      "score": "44-42",
-      "date": "2026-11-15",
-      "time": "14:00",
-      "utc": "2026-11-15T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662520"
     },
     {
       "league": "lega-a-2026-27",
@@ -47967,6 +47967,18 @@
       "source_id": "sofascore:16422541"
     },
     {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Ampthill RUFC",
+      "score": "57-19",
+      "date": "2026-11-15",
+      "time": "16:00",
+      "utc": "2026-11-15T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662501"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Barcelona",
       "away": "Monbus Obradoiro",
@@ -47989,18 +48001,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810403"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Ampthill RUFC",
-      "score": "57-19",
-      "date": "2026-11-15",
-      "time": "16:00",
-      "utc": "2026-11-15T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662501"
     },
     {
       "league": "lega-a-2026-27",
@@ -49254,18 +49254,6 @@
       "source_id": "sofascore:16665374"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Valencia Basket",
-      "away": "Virtus Bologna",
-      "score": "92-87",
-      "date": "2026-11-19",
-      "time": "20:00",
-      "utc": "2026-11-19T20:00:00+00:00",
-      "venue": "Roig Arena",
-      "attendance": null,
-      "source_id": "sofascore:16665378"
-    },
-    {
       "league": "prod2-2026",
       "home": "FC Grenoble Rugby",
       "away": "Provence Rugby",
@@ -49276,6 +49264,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535124"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Valencia Basket",
+      "away": "Virtus Bologna",
+      "score": "92-87",
+      "date": "2026-11-19",
+      "time": "20:00",
+      "utc": "2026-11-19T20:00:00+00:00",
+      "venue": "Roig Arena",
+      "attendance": null,
+      "source_id": "sofascore:16665378"
     },
     {
       "league": "khl-2026-27",
@@ -49448,6 +49448,54 @@
       "attendance": null
     },
     {
+      "league": "prod2-2026",
+      "home": "Stade Aurillacois",
+      "away": "Colomiers Rugby",
+      "score": "43-19",
+      "date": "2026-11-20",
+      "time": "18:30",
+      "utc": "2026-11-20T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535117"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "US Dax",
+      "score": "12-17",
+      "date": "2026-11-20",
+      "time": "18:30",
+      "utc": "2026-11-20T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535121"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "Valence Romans Drôme",
+      "score": "35-37",
+      "date": "2026-11-20",
+      "time": "18:30",
+      "utc": "2026-11-20T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535127"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "USON Nevers",
+      "away": "SA XV Charente",
+      "score": "34-18",
+      "date": "2026-11-20",
+      "time": "18:30",
+      "utc": "2026-11-20T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535126"
+    },
+    {
       "league": "del-2026-27",
       "home": "Löwen Frankfurt",
       "away": "Schwenningen Wild Wings",
@@ -49520,54 +49568,6 @@
       "attendance": null,
       "ot": true,
       "source_id": "sofascore:16422548"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Stade Aurillacois",
-      "away": "Colomiers Rugby",
-      "score": "43-19",
-      "date": "2026-11-20",
-      "time": "18:30",
-      "utc": "2026-11-20T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535117"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "US Dax",
-      "score": "12-17",
-      "date": "2026-11-20",
-      "time": "18:30",
-      "utc": "2026-11-20T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535121"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "Valence Romans Drôme",
-      "score": "35-37",
-      "date": "2026-11-20",
-      "time": "18:30",
-      "utc": "2026-11-20T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535127"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "SA XV Charente",
-      "score": "34-18",
-      "date": "2026-11-20",
-      "time": "18:30",
-      "utc": "2026-11-20T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535126"
     },
     {
       "league": "bbl-2026-27",
@@ -49693,18 +49693,6 @@
       "source_id": "365scores:4895453"
     },
     {
-      "league": "liiga-2026-27",
-      "home": "Kiekko-Espoo",
-      "away": "Porin Ässät",
-      "score": "6-1",
-      "date": "2026-11-21",
-      "time": "12:00",
-      "utc": "2026-11-21T12:00:00+00:00",
-      "venue": "Barona Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337441"
-    },
-    {
       "league": "championship-2026",
       "home": "Ampthill RUFC",
       "away": "Bedford Blues",
@@ -49715,6 +49703,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662519"
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Kiekko-Espoo",
+      "away": "Porin Ässät",
+      "score": "6-1",
+      "date": "2026-11-21",
+      "time": "12:00",
+      "utc": "2026-11-21T12:00:00+00:00",
+      "venue": "Barona Areena",
+      "attendance": null,
+      "source_id": "sofascore:16337441"
     },
     {
       "league": "championship-2026",
@@ -49822,6 +49822,42 @@
       "attendance": null
     },
     {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Worcester Warriors",
+      "score": "57-42",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662510"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Richmond",
+      "score": "48-21",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662821"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Rotherham Titans",
+      "score": "14-34",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "utc": "2026-11-21T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662818"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Science City Jena",
       "away": "Rostock Seawolves",
@@ -49896,42 +49932,6 @@
       "source_id": "sofascore:16337447"
     },
     {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Worcester Warriors",
-      "score": "57-42",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662510"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Richmond",
-      "score": "48-21",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662821"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Rotherham Titans",
-      "score": "14-34",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "utc": "2026-11-21T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662818"
-    },
-    {
       "league": "nations-championship-2026",
       "home": "Ireland",
       "away": "South Africa",
@@ -49963,6 +49963,18 @@
       "utc": "2026-11-21T16:00:00+00:00",
       "venue": "Estadio Ciudad de Málaga, Málaga",
       "attendance": null
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Chinnor",
+      "score": "36-12",
+      "date": "2026-11-21",
+      "time": "17:00",
+      "utc": "2026-11-21T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662823"
     },
     {
       "league": "liga-acb-2026-27",
@@ -50048,18 +50060,6 @@
       "venue": "Husqvarna Garden",
       "attendance": null,
       "source_id": "sofascore:16230821"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Chinnor",
-      "score": "36-12",
-      "date": "2026-11-21",
-      "time": "17:00",
-      "utc": "2026-11-21T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662823"
     },
     {
       "league": "bbl-2026-27",
@@ -50418,18 +50418,6 @@
       "source_id": "sofascore:16422555"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Valencia Basket",
-      "away": "Breogán",
-      "score": "129-111",
-      "date": "2026-11-22",
-      "time": "16:00",
-      "utc": "2026-11-22T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4819946"
-    },
-    {
       "league": "championship-2026",
       "home": "Nottingham",
       "away": "Cornish Pirates",
@@ -50440,6 +50428,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662820"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Valencia Basket",
+      "away": "Breogán",
+      "score": "129-111",
+      "date": "2026-11-22",
+      "time": "16:00",
+      "utc": "2026-11-22T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4819946"
     },
     {
       "league": "lega-a-2026-27",
@@ -51169,6 +51169,18 @@
       "attendance": null
     },
     {
+      "league": "prod2-2026",
+      "home": "CA Brive",
+      "away": "Biarritz Olympique",
+      "score": null,
+      "date": "2026-11-26",
+      "time": "20:00",
+      "utc": "2026-11-26T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535137"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Greece",
       "away": "Georgia",
@@ -51189,18 +51201,6 @@
       "utc": "2026-11-26T19:00:00+00:00",
       "venue": "PalaEUR, Rome",
       "attendance": null
-    },
-    {
-      "league": "prod2-2026",
-      "home": "CA Brive",
-      "away": "Biarritz Olympique",
-      "score": null,
-      "date": "2026-11-26",
-      "time": "20:00",
-      "utc": "2026-11-26T20:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535137"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -51330,6 +51330,54 @@
       "source_id": "sofascore:16535134"
     },
     {
+      "league": "prod2-2026",
+      "home": "SU Agen",
+      "away": "AS Béziers Hérault",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "18:30",
+      "utc": "2026-11-27T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535128"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "Stade Aurillacois",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "18:30",
+      "utc": "2026-11-27T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535136"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Colomiers Rugby",
+      "away": "USON Nevers",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "18:30",
+      "utc": "2026-11-27T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535135"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SA XV Charente",
+      "away": "Nissa Rugby",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "18:30",
+      "utc": "2026-11-27T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535133"
+    },
+    {
       "league": "del-2026-27",
       "home": "Grizzlys Wolfsburg",
       "away": "Nürnberg Ice Tigers",
@@ -51402,54 +51450,6 @@
       "source_id": "sofascore:16422569"
     },
     {
-      "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "AS Béziers Hérault",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "18:30",
-      "utc": "2026-11-27T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535128"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "Stade Aurillacois",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "18:30",
-      "utc": "2026-11-27T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535136"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Colomiers Rugby",
-      "away": "USON Nevers",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "18:30",
-      "utc": "2026-11-27T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535135"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "Nissa Rugby",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "18:30",
-      "utc": "2026-11-27T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535133"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Sweden",
       "away": "Hungary",
@@ -51506,28 +51506,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Israel",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "20:00",
-      "utc": "2026-11-27T19:00:00+00:00",
-      "venue": "Sportcampus Zuiderpark, The Hague",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Slovenia",
-      "away": "Finland",
-      "score": null,
-      "date": "2026-11-27",
-      "time": "20:00",
-      "utc": "2026-11-27T19:00:00+00:00",
-      "venue": "Zlatorog Arena, Celje",
-      "attendance": null
-    },
-    {
       "league": "prod2-2026",
       "home": "RC Narbonne",
       "away": "FC Grenoble Rugby",
@@ -51550,6 +51528,28 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535132"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Israel",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "20:00",
+      "utc": "2026-11-27T19:00:00+00:00",
+      "venue": "Sportcampus Zuiderpark, The Hague",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Slovenia",
+      "away": "Finland",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "20:00",
+      "utc": "2026-11-27T19:00:00+00:00",
+      "venue": "Zlatorog Arena, Celje",
+      "attendance": null
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -52530,18 +52530,6 @@
       "source_id": "sofascore:16670615"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Virtus Bologna",
-      "away": "KK Partizan Mozzart Bet",
-      "score": null,
-      "date": "2026-12-03",
-      "time": "20:00",
-      "utc": "2026-12-03T20:00:00+00:00",
-      "venue": "Virtus Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670621"
-    },
-    {
       "league": "prod2-2026",
       "home": "Biarritz Olympique",
       "away": "Provence Rugby",
@@ -52552,6 +52540,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535140"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Virtus Bologna",
+      "away": "KK Partizan Mozzart Bet",
+      "score": null,
+      "date": "2026-12-03",
+      "time": "20:00",
+      "utc": "2026-12-03T20:00:00+00:00",
+      "venue": "Virtus Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670621"
     },
     {
       "league": "liiga-2026-27",
@@ -52626,6 +52626,18 @@
       "source_id": "sofascore:16337481"
     },
     {
+      "league": "prod2-2026",
+      "home": "AS Béziers Hérault",
+      "away": "CA Brive",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "18:00",
+      "utc": "2026-12-04T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535138"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Kauno Žalgiris",
       "away": "BC Dubai",
@@ -52639,15 +52651,51 @@
     },
     {
       "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "CA Brive",
+      "home": "US Montauban",
+      "away": "Valence Romans Drôme",
       "score": null,
       "date": "2026-12-04",
-      "time": "18:00",
-      "utc": "2026-12-04T18:00:00+00:00",
+      "time": "18:30",
+      "utc": "2026-12-04T18:30:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535138"
+      "source_id": "sofascore:16535141"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "USON Nevers",
+      "away": "US Dax",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "18:30",
+      "utc": "2026-12-04T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535144"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Stade Aurillacois",
+      "away": "SA XV Charente",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "18:30",
+      "utc": "2026-12-04T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535139"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "Colomiers Rugby",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "18:30",
+      "utc": "2026-12-04T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535143"
     },
     {
       "league": "del-2026-27",
@@ -52722,54 +52770,6 @@
       "source_id": "sofascore:16422579"
     },
     {
-      "league": "prod2-2026",
-      "home": "US Montauban",
-      "away": "Valence Romans Drôme",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "18:30",
-      "utc": "2026-12-04T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535141"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "US Dax",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "18:30",
-      "utc": "2026-12-04T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535144"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Stade Aurillacois",
-      "away": "SA XV Charente",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "18:30",
-      "utc": "2026-12-04T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535139"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "Colomiers Rugby",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "18:30",
-      "utc": "2026-12-04T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535143"
-    },
-    {
       "league": "euroleague-2026-27",
       "home": "Olympiacos BC",
       "away": "ASVEL Villeurbanne",
@@ -52806,6 +52806,18 @@
       "source_id": "sofascore:16662729"
     },
     {
+      "league": "championship-2026",
+      "home": "Nottingham",
+      "away": "Caldy RFC",
+      "score": null,
+      "date": "2026-12-04",
+      "time": "19:45",
+      "utc": "2026-12-04T19:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662822"
+    },
+    {
       "league": "urc-2026",
       "home": "Edinburgh",
       "away": "Dragons",
@@ -52828,18 +52840,6 @@
       "venue": "Swansea.com Stadium",
       "attendance": null,
       "source_id": "sofascore:16527492"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Nottingham",
-      "away": "Caldy RFC",
-      "score": null,
-      "date": "2026-12-04",
-      "time": "19:45",
-      "utc": "2026-12-04T19:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662822"
     },
     {
       "league": "prod2-2026",
@@ -52950,6 +52950,66 @@
       "source_id": "sofascore:16662733"
     },
     {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Ealing Trailfinders",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662826"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Coventry Rugby",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662824"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Hartpury College",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662825"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Doncaster Knights",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662828"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Blackheath Rugby",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "15:00",
+      "utc": "2026-12-05T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662827"
+    },
+    {
       "league": "urc-2026",
       "home": "Cardiff Rugby",
       "away": "Ulster",
@@ -53032,66 +53092,6 @@
       "venue": "LahiTapiola Areena",
       "attendance": null,
       "source_id": "sofascore:16337479"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Ealing Trailfinders",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662826"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Coventry Rugby",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662824"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Hartpury College",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662825"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Doncaster Knights",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662828"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Blackheath Rugby",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "15:00",
-      "utc": "2026-12-05T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662827"
     },
     {
       "league": "premiership-2026",
@@ -53658,6 +53658,18 @@
       "source_id": "sofascore:16422590"
     },
     {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Ampthill RUFC",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "16:00",
+      "utc": "2026-12-06T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662831"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "San Pablo Burgos",
       "away": "Joventut de Badalona",
@@ -53680,18 +53692,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810452"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Ampthill RUFC",
-      "score": null,
-      "date": "2026-12-06",
-      "time": "16:00",
-      "utc": "2026-12-06T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662831"
     },
     {
       "league": "lega-a-2026-27",
@@ -54750,18 +54750,6 @@
       "source_id": "sofascore:16670626"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "UCAM Murcia",
-      "away": "Unicaja Málaga",
-      "score": null,
-      "date": "2026-12-10",
-      "time": "20:00",
-      "utc": "2026-12-10T20:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4819965"
-    },
-    {
       "league": "prod2-2026",
       "home": "Provence Rugby",
       "away": "CA Brive",
@@ -54772,6 +54760,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535147"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "UCAM Murcia",
+      "away": "Unicaja Málaga",
+      "score": null,
+      "date": "2026-12-10",
+      "time": "20:00",
+      "utc": "2026-12-10T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4819965"
     },
     {
       "league": "euroleague-2026-27",
@@ -54870,6 +54870,54 @@
       "source_id": "sofascore:16535151"
     },
     {
+      "league": "prod2-2026",
+      "home": "FC Grenoble Rugby",
+      "away": "USON Nevers",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535154"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SA XV Charente",
+      "away": "AS Béziers Hérault",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535148"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "RC Narbonne",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535152"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Nissa Rugby",
+      "away": "US Oyonnax",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "18:30",
+      "utc": "2026-12-11T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535150"
+    },
+    {
       "league": "del-2026-27",
       "home": "Iserlohn Roosters",
       "away": "Pinguins Bremerhaven",
@@ -54942,54 +54990,6 @@
       "source_id": "sofascore:16422620"
     },
     {
-      "league": "prod2-2026",
-      "home": "FC Grenoble Rugby",
-      "away": "USON Nevers",
-      "score": null,
-      "date": "2026-12-11",
-      "time": "18:30",
-      "utc": "2026-12-11T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535154"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "AS Béziers Hérault",
-      "score": null,
-      "date": "2026-12-11",
-      "time": "18:30",
-      "utc": "2026-12-11T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535148"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2026-12-11",
-      "time": "18:30",
-      "utc": "2026-12-11T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535152"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Nissa Rugby",
-      "away": "US Oyonnax",
-      "score": null,
-      "date": "2026-12-11",
-      "time": "18:30",
-      "utc": "2026-12-11T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535150"
-    },
-    {
       "league": "liga-acb-2026-27",
       "home": "Basquet Girona",
       "away": "San Pablo Burgos",
@@ -55050,6 +55050,30 @@
       "source_id": "sofascore:16670783"
     },
     {
+      "league": "prod2-2026",
+      "home": "US Dax",
+      "away": "Biarritz Olympique",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535149"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "SU Agen",
+      "away": "Stade Aurillacois",
+      "score": null,
+      "date": "2026-12-11",
+      "time": "20:00",
+      "utc": "2026-12-11T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535146"
+    },
+    {
       "league": "champions-cup-2026",
       "home": "Glasgow Warriors",
       "away": "Pau",
@@ -55086,28 +55110,28 @@
       "source_id": "365scores:4819967"
     },
     {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "Biarritz Olympique",
+      "league": "championship-2026",
+      "home": "Caldy RFC",
+      "away": "Worcester Warriors",
       "score": null,
-      "date": "2026-12-11",
-      "time": "20:00",
-      "utc": "2026-12-11T20:00:00+00:00",
+      "date": "2026-12-12",
+      "time": "13:00",
+      "utc": "2026-12-12T13:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535149"
+      "source_id": "sofascore:16662829"
     },
     {
-      "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "Stade Aurillacois",
+      "league": "championship-2026",
+      "home": "Ampthill RUFC",
+      "away": "Rotherham Titans",
       "score": null,
-      "date": "2026-12-11",
-      "time": "20:00",
-      "utc": "2026-12-11T20:00:00+00:00",
+      "date": "2026-12-12",
+      "time": "13:00",
+      "utc": "2026-12-12T13:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16535146"
+      "source_id": "sofascore:16662830"
     },
     {
       "league": "champions-cup-2026",
@@ -55147,27 +55171,39 @@
     },
     {
       "league": "championship-2026",
-      "home": "Caldy RFC",
-      "away": "Worcester Warriors",
+      "home": "Ealing Trailfinders",
+      "away": "Bedford Blues",
       "score": null,
       "date": "2026-12-12",
-      "time": "13:00",
-      "utc": "2026-12-12T13:00:00+00:00",
+      "time": "15:00",
+      "utc": "2026-12-12T15:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16662829"
+      "source_id": "sofascore:16662832"
     },
     {
       "league": "championship-2026",
-      "home": "Ampthill RUFC",
-      "away": "Rotherham Titans",
+      "home": "Hartpury College",
+      "away": "Nottingham",
       "score": null,
       "date": "2026-12-12",
-      "time": "13:00",
-      "utc": "2026-12-12T13:00:00+00:00",
+      "time": "15:00",
+      "utc": "2026-12-12T15:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16662830"
+      "source_id": "sofascore:16662834"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Richmond",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "15:00",
+      "utc": "2026-12-12T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662833"
     },
     {
       "league": "liiga-2026-27",
@@ -55230,42 +55266,6 @@
       "source_id": "sofascore:16337508"
     },
     {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Bedford Blues",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "15:00",
-      "utc": "2026-12-12T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662832"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Nottingham",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "15:00",
-      "utc": "2026-12-12T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662834"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Richmond",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "15:00",
-      "utc": "2026-12-12T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662833"
-    },
-    {
       "league": "champions-cup-2026",
       "home": "Montpellier Herault",
       "away": "Bulls",
@@ -55302,6 +55302,18 @@
       "source_id": "sofascore:16337510"
     },
     {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Cornish Pirates",
+      "score": null,
+      "date": "2026-12-12",
+      "time": "17:00",
+      "utc": "2026-12-12T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662836"
+    },
+    {
       "league": "lnb-elite-2026-27",
       "home": "Cholet",
       "away": "JL Bourg",
@@ -55324,18 +55336,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4846973"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Cornish Pirates",
-      "score": null,
-      "date": "2026-12-12",
-      "time": "17:00",
-      "utc": "2026-12-12T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662836"
     },
     {
       "league": "champions-cup-2026",
@@ -55746,18 +55746,6 @@
       "source_id": "sofascore:16422642"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Leyma Coruña",
-      "away": "Baskonia Vitoria",
-      "score": null,
-      "date": "2026-12-13",
-      "time": "16:00",
-      "utc": "2026-12-13T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820721"
-    },
-    {
       "league": "championship-2026",
       "home": "Coventry Rugby",
       "away": "Chinnor",
@@ -55768,6 +55756,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662835"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Leyma Coruña",
+      "away": "Baskonia Vitoria",
+      "score": null,
+      "date": "2026-12-13",
+      "time": "16:00",
+      "utc": "2026-12-13T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820721"
     },
     {
       "league": "liga-acb-2026-27",
@@ -56922,6 +56922,54 @@
       "source_id": "sofascore:16535159"
     },
     {
+      "league": "prod2-2026",
+      "home": "US Oyonnax",
+      "away": "Colomiers Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535160"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "US Montauban",
+      "away": "Nissa Rugby",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535158"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Valence Romans Drôme",
+      "away": "SU Agen",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535166"
+    },
+    {
+      "league": "prod2-2026",
+      "home": "Stade Aurillacois",
+      "away": "RC Narbonne",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "18:30",
+      "utc": "2026-12-18T18:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535157"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Olympiacos BC",
       "away": "KK Partizan Mozzart Bet",
@@ -57006,54 +57054,6 @@
       "source_id": "sofascore:16422654"
     },
     {
-      "league": "prod2-2026",
-      "home": "US Oyonnax",
-      "away": "Colomiers Rugby",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "18:30",
-      "utc": "2026-12-18T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535160"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Montauban",
-      "away": "Nissa Rugby",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "18:30",
-      "utc": "2026-12-18T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535158"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Valence Romans Drôme",
-      "away": "SU Agen",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "18:30",
-      "utc": "2026-12-18T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535166"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "Stade Aurillacois",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "18:30",
-      "utc": "2026-12-18T18:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535157"
-    },
-    {
       "league": "bbl-2026-27",
       "home": "Hamburg Towers",
       "away": "N.R. Ludwigsburg",
@@ -57114,18 +57114,6 @@
       "source_id": "sofascore:16662746"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Barcelona",
-      "away": "Virtus Bologna",
-      "score": null,
-      "date": "2026-12-18",
-      "time": "19:45",
-      "utc": "2026-12-18T19:45:00+00:00",
-      "venue": "Palau Blaugrana",
-      "attendance": null,
-      "source_id": "sofascore:16670648"
-    },
-    {
       "league": "championship-2026",
       "home": "Nottingham",
       "away": "Doncaster Knights",
@@ -57160,6 +57148,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662840"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Barcelona",
+      "away": "Virtus Bologna",
+      "score": null,
+      "date": "2026-12-18",
+      "time": "19:45",
+      "utc": "2026-12-18T19:45:00+00:00",
+      "venue": "Palau Blaugrana",
+      "attendance": null,
+      "source_id": "sofascore:16670648"
     },
     {
       "league": "prod2-2026",
@@ -57294,6 +57294,42 @@
       "source_id": "sofascore:16662731"
     },
     {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Worcester Warriors",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:00",
+      "utc": "2026-12-19T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662845"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Ealing Trailfinders",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:00",
+      "utc": "2026-12-19T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662841"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Coventry Rugby",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "15:00",
+      "utc": "2026-12-19T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662837"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "Tampereen Ilves",
@@ -57364,42 +57400,6 @@
       "venue": "Lumon Areena",
       "attendance": null,
       "source_id": "sofascore:16337527"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Worcester Warriors",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "15:00",
-      "utc": "2026-12-19T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662845"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Ealing Trailfinders",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "15:00",
-      "utc": "2026-12-19T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662841"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Coventry Rugby",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "15:00",
-      "utc": "2026-12-19T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662837"
     },
     {
       "league": "premiership-2026",
@@ -58002,6 +58002,18 @@
       "source_id": "sofascore:16422663"
     },
     {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Caldy RFC",
+      "score": null,
+      "date": "2026-12-20",
+      "time": "16:00",
+      "utc": "2026-12-20T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662846"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Bilbao Basket",
       "away": "Barcelona",
@@ -58024,18 +58036,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810634"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Caldy RFC",
-      "score": null,
-      "date": "2026-12-20",
-      "time": "16:00",
-      "utc": "2026-12-20T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662846"
     },
     {
       "league": "bbl-2026-27",
@@ -59094,6 +59094,54 @@
       "source_id": "sofascore:16230872"
     },
     {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Cornish Pirates",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662851"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Hartpury College",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662844"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Bedford Blues",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662847"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Caldy RFC",
+      "score": null,
+      "date": "2026-12-26",
+      "time": "15:00",
+      "utc": "2026-12-26T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662843"
+    },
+    {
       "league": "urc-2026",
       "home": "Dragons",
       "away": "Cardiff Rugby",
@@ -59200,54 +59248,6 @@
       "venue": "Vaasa Arena",
       "attendance": null,
       "source_id": "sofascore:16337537"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Cornish Pirates",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "15:00",
-      "utc": "2026-12-26T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662851"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Hartpury College",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "15:00",
-      "utc": "2026-12-26T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662844"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Bedford Blues",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "15:00",
-      "utc": "2026-12-26T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662847"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Caldy RFC",
-      "score": null,
-      "date": "2026-12-26",
-      "time": "15:00",
-      "utc": "2026-12-26T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662843"
     },
     {
       "league": "premiership-2026",
@@ -59586,18 +59586,6 @@
       "source_id": "sofascore:16527511"
     },
     {
-      "league": "bbl-2026-27",
-      "home": "Hamburg Towers",
-      "away": "Alba Berlin",
-      "score": null,
-      "date": "2026-12-27",
-      "time": "14:00",
-      "utc": "2026-12-27T14:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4809103"
-    },
-    {
       "league": "championship-2026",
       "home": "Ealing Trailfinders",
       "away": "Nottingham",
@@ -59620,6 +59608,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662869"
+    },
+    {
+      "league": "bbl-2026-27",
+      "home": "Hamburg Towers",
+      "away": "Alba Berlin",
+      "score": null,
+      "date": "2026-12-27",
+      "time": "14:00",
+      "utc": "2026-12-27T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4809103"
     },
     {
       "league": "urc-2026",
@@ -60870,6 +60870,42 @@
       "source_id": "sofascore:16230887"
     },
     {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Worcester Warriors",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662855"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Coventry Rugby",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662870"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Chinnor",
+      "score": null,
+      "date": "2027-01-02",
+      "time": "15:00",
+      "utc": "2027-01-02T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662853"
+    },
+    {
       "league": "urc-2026",
       "home": "Scarlets",
       "away": "Dragons",
@@ -60988,42 +61024,6 @@
       "venue": "Nokia Arena",
       "attendance": null,
       "source_id": "sofascore:16337557"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Worcester Warriors",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662855"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Coventry Rugby",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662870"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Chinnor",
-      "score": null,
-      "date": "2027-01-02",
-      "time": "15:00",
-      "utc": "2027-01-02T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662853"
     },
     {
       "league": "premiership-2026",
@@ -65922,6 +65922,18 @@
       "source_id": "sofascore:16670709"
     },
     {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Richmond",
+      "score": null,
+      "date": "2027-01-22",
+      "time": "19:45",
+      "utc": "2027-01-22T19:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662852"
+    },
+    {
       "league": "urc-2026",
       "home": "Glasgow Warriors",
       "away": "Scarlets",
@@ -65944,18 +65956,6 @@
       "venue": "Ravenhill",
       "attendance": null,
       "source_id": "sofascore:16527527"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Richmond",
-      "score": null,
-      "date": "2027-01-22",
-      "time": "19:45",
-      "utc": "2027-01-22T19:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662852"
     },
     {
       "league": "urc-2026",
@@ -66102,6 +66102,54 @@
       "source_id": "sofascore:16662751"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Worcester Warriors",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662864"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Bedford Blues",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662859"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Cornish Pirates",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662874"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Rotherham Titans",
+      "score": null,
+      "date": "2027-01-23",
+      "time": "15:00",
+      "utc": "2027-01-23T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662860"
+    },
+    {
       "league": "urc-2026",
       "home": "Stormers",
       "away": "Cardiff Rugby",
@@ -66208,54 +66256,6 @@
       "venue": "Äijänsuo Arena",
       "attendance": null,
       "source_id": "sofascore:16337626"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Worcester Warriors",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662864"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Bedford Blues",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662859"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Cornish Pirates",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662874"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Rotherham Titans",
-      "score": null,
-      "date": "2027-01-23",
-      "time": "15:00",
-      "utc": "2027-01-23T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662860"
     },
     {
       "league": "top14-2026",
@@ -67458,30 +67458,6 @@
       "source_id": "sofascore:16670717"
     },
     {
-      "league": "urc-2026",
-      "home": "Glasgow Warriors",
-      "away": "Ospreys",
-      "score": null,
-      "date": "2027-01-29",
-      "time": "19:45",
-      "utc": "2027-01-29T19:45:00+00:00",
-      "venue": "Scotstoun Stadium",
-      "attendance": null,
-      "source_id": "sofascore:16527537"
-    },
-    {
-      "league": "urc-2026",
-      "home": "Dragons",
-      "away": "Munster",
-      "score": null,
-      "date": "2027-01-29",
-      "time": "19:45",
-      "utc": "2027-01-29T19:45:00+00:00",
-      "venue": "Rodney Parade",
-      "attendance": null,
-      "source_id": "sofascore:16527539"
-    },
-    {
       "league": "championship-2026",
       "home": "Worcester Warriors",
       "away": "Doncaster Knights",
@@ -67504,6 +67480,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662857"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Glasgow Warriors",
+      "away": "Ospreys",
+      "score": null,
+      "date": "2027-01-29",
+      "time": "19:45",
+      "utc": "2027-01-29T19:45:00+00:00",
+      "venue": "Scotstoun Stadium",
+      "attendance": null,
+      "source_id": "sofascore:16527537"
+    },
+    {
+      "league": "urc-2026",
+      "home": "Dragons",
+      "away": "Munster",
+      "score": null,
+      "date": "2027-01-29",
+      "time": "19:45",
+      "utc": "2027-01-29T19:45:00+00:00",
+      "venue": "Rodney Parade",
+      "attendance": null,
+      "source_id": "sofascore:16527539"
     },
     {
       "league": "urc-2026",
@@ -67590,6 +67590,42 @@
       "source_id": "sofascore:16230957"
     },
     {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Cornish Pirates",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662867"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Caldy RFC",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662866"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Rotherham Titans",
+      "away": "Nottingham",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "15:00",
+      "utc": "2027-01-30T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662863"
+    },
+    {
       "league": "urc-2026",
       "home": "Scarlets",
       "away": "Edinburgh",
@@ -67660,42 +67696,6 @@
       "venue": "Äijänsuo Arena",
       "attendance": null,
       "source_id": "sofascore:16337647"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Cornish Pirates",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "15:00",
-      "utc": "2027-01-30T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662867"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Caldy RFC",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "15:00",
-      "utc": "2027-01-30T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662866"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Rotherham Titans",
-      "away": "Nottingham",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "15:00",
-      "utc": "2027-01-30T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662863"
     },
     {
       "league": "top14-2026",
@@ -67782,6 +67782,18 @@
       "source_id": "sofascore:16535032"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Ampthill RUFC",
+      "score": null,
+      "date": "2027-01-30",
+      "time": "17:00",
+      "utc": "2027-01-30T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662861"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "Leyma Coruña",
       "away": "Valencia Basket",
@@ -67840,18 +67852,6 @@
       "venue": "Winpos arena",
       "attendance": null,
       "source_id": "sofascore:16230962"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Ampthill RUFC",
-      "score": null,
-      "date": "2027-01-30",
-      "time": "17:00",
-      "utc": "2027-01-30T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662861"
     },
     {
       "league": "urc-2026",
@@ -68166,18 +68166,6 @@
       "source_id": "sofascore:16422757"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Casademont Zaragoza",
-      "away": "Barcelona",
-      "score": null,
-      "date": "2027-01-31",
-      "time": "16:00",
-      "utc": "2027-01-31T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820069"
-    },
-    {
       "league": "championship-2026",
       "home": "Bedford Blues",
       "away": "Blackheath Rugby",
@@ -68188,6 +68176,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662875"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Casademont Zaragoza",
+      "away": "Barcelona",
+      "score": null,
+      "date": "2027-01-31",
+      "time": "16:00",
+      "utc": "2027-01-31T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820069"
     },
     {
       "league": "bbl-2026-27",
@@ -69174,6 +69174,42 @@
       "source_id": "sofascore:16230975"
     },
     {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Worcester Warriors",
+      "score": null,
+      "date": "2027-02-06",
+      "time": "15:00",
+      "utc": "2027-02-06T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662868"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Ealing Trailfinders",
+      "score": null,
+      "date": "2027-02-06",
+      "time": "15:00",
+      "utc": "2027-02-06T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662878"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Hartpury College",
+      "away": "Bedford Blues",
+      "score": null,
+      "date": "2027-02-06",
+      "time": "15:00",
+      "utc": "2027-02-06T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662877"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "TPS Turku",
       "away": "Lahti Pelicans",
@@ -69256,42 +69292,6 @@
       "venue": "Kalevankankaan jäähalli",
       "attendance": null,
       "source_id": "sofascore:16337665"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Worcester Warriors",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662868"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Ealing Trailfinders",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662878"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Hartpury College",
-      "away": "Bedford Blues",
-      "score": null,
-      "date": "2027-02-06",
-      "time": "15:00",
-      "utc": "2027-02-06T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662877"
     },
     {
       "league": "liga-acb-2026-27",
@@ -69666,18 +69666,6 @@
       "source_id": "sofascore:16422779"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Barcelona",
-      "away": "La Laguna Tenerife",
-      "score": null,
-      "date": "2027-02-07",
-      "time": "16:00",
-      "utc": "2027-02-07T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820082"
-    },
-    {
       "league": "championship-2026",
       "home": "Nottingham",
       "away": "Chinnor",
@@ -69688,6 +69676,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662879"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Barcelona",
+      "away": "La Laguna Tenerife",
+      "score": null,
+      "date": "2027-02-07",
+      "time": "16:00",
+      "utc": "2027-02-07T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820082"
     },
     {
       "league": "bbl-2026-27",
@@ -70122,18 +70122,6 @@
       "source_id": "sofascore:16662884"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Bilbao Basket",
-      "away": "Basquet Girona",
-      "score": null,
-      "date": "2027-02-13",
-      "time": "17:00",
-      "utc": "2027-02-13T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820090"
-    },
-    {
       "league": "championship-2026",
       "home": "Chinnor",
       "away": "Cornish Pirates",
@@ -70144,6 +70132,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662882"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Bilbao Basket",
+      "away": "Basquet Girona",
+      "score": null,
+      "date": "2027-02-13",
+      "time": "17:00",
+      "utc": "2027-02-13T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820090"
     },
     {
       "league": "bbl-2026-27",
@@ -71346,6 +71346,42 @@
       "source_id": "sofascore:16230998"
     },
     {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Bedford Blues",
+      "score": null,
+      "date": "2027-02-20",
+      "time": "15:00",
+      "utc": "2027-02-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662890"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Blackheath Rugby",
+      "away": "Coventry Rugby",
+      "score": null,
+      "date": "2027-02-20",
+      "time": "15:00",
+      "utc": "2027-02-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662885"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Ampthill RUFC",
+      "score": null,
+      "date": "2027-02-20",
+      "time": "15:00",
+      "utc": "2027-02-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662889"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "Porin Ässät",
@@ -71428,42 +71464,6 @@
       "venue": "LahiTapiola Areena",
       "attendance": null,
       "source_id": "sofascore:16337688"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Bedford Blues",
-      "score": null,
-      "date": "2027-02-20",
-      "time": "15:00",
-      "utc": "2027-02-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662890"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Blackheath Rugby",
-      "away": "Coventry Rugby",
-      "score": null,
-      "date": "2027-02-20",
-      "time": "15:00",
-      "utc": "2027-02-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662885"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Ampthill RUFC",
-      "score": null,
-      "date": "2027-02-20",
-      "time": "15:00",
-      "utc": "2027-02-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662889"
     },
     {
       "league": "top14-2026",
@@ -72642,6 +72642,42 @@
       "source_id": "sofascore:16231012"
     },
     {
+      "league": "championship-2026",
+      "home": "Ealing Trailfinders",
+      "away": "Cornish Pirates",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662900"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Doncaster Knights",
+      "away": "Blackheath Rugby",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662897"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Chinnor",
+      "away": "Caldy RFC",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "15:00",
+      "utc": "2027-02-27T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662896"
+    },
+    {
       "league": "urc-2026",
       "home": "Cardiff Rugby",
       "away": "Glasgow Warriors",
@@ -72712,42 +72748,6 @@
       "venue": "Lumon Areena",
       "attendance": null,
       "source_id": "sofascore:16337712"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Ealing Trailfinders",
-      "away": "Cornish Pirates",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662900"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Doncaster Knights",
-      "away": "Blackheath Rugby",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662897"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Chinnor",
-      "away": "Caldy RFC",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "15:00",
-      "utc": "2027-02-27T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662896"
     },
     {
       "league": "top14-2026",
@@ -72846,6 +72846,30 @@
       "source_id": "sofascore:16337715"
     },
     {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Nottingham",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "17:00",
+      "utc": "2027-02-27T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662894"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Rotherham Titans",
+      "score": null,
+      "date": "2027-02-27",
+      "time": "17:00",
+      "utc": "2027-02-27T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662898"
+    },
+    {
       "league": "shl-2026-27",
       "home": "Djurgårdens IF",
       "away": "Färjestad BK",
@@ -72892,30 +72916,6 @@
       "venue": "Saab Arena",
       "attendance": null,
       "source_id": "sofascore:16231019"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Nottingham",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "17:00",
-      "utc": "2027-02-27T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662894"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Rotherham Titans",
-      "score": null,
-      "date": "2027-02-27",
-      "time": "17:00",
-      "utc": "2027-02-27T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662898"
     },
     {
       "league": "urc-2026",
@@ -76392,6 +76392,18 @@
       "source_id": "sofascore:16670790"
     },
     {
+      "league": "championship-2026",
+      "home": "Cornish Pirates",
+      "away": "Nottingham",
+      "score": null,
+      "date": "2027-03-19",
+      "time": "19:45",
+      "utc": "2027-03-19T19:45:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662901"
+    },
+    {
       "league": "urc-2026",
       "home": "Glasgow Warriors",
       "away": "Stormers",
@@ -76414,18 +76426,6 @@
       "venue": "Galway Sportsgrounds",
       "attendance": null,
       "source_id": "sofascore:16527548"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Cornish Pirates",
-      "away": "Nottingham",
-      "score": null,
-      "date": "2027-03-19",
-      "time": "19:45",
-      "utc": "2027-03-19T19:45:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662901"
     },
     {
       "league": "liiga-2026-27",
@@ -76510,6 +76510,42 @@
       "venue": "Welford Road Stadium",
       "attendance": null,
       "source_id": "sofascore:16662759"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Worcester Warriors",
+      "away": "Coventry Rugby",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662907"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Bedford Blues",
+      "away": "Ampthill RUFC",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662899"
+    },
+    {
+      "league": "championship-2026",
+      "home": "Richmond",
+      "away": "Hartpury College",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "15:00",
+      "utc": "2027-03-20T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662904"
     },
     {
       "league": "urc-2026",
@@ -76608,42 +76644,6 @@
       "source_id": "sofascore:16337775"
     },
     {
-      "league": "championship-2026",
-      "home": "Worcester Warriors",
-      "away": "Coventry Rugby",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "15:00",
-      "utc": "2027-03-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662907"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Bedford Blues",
-      "away": "Ampthill RUFC",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "15:00",
-      "utc": "2027-03-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662899"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Richmond",
-      "away": "Hartpury College",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "15:00",
-      "utc": "2027-03-20T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662904"
-    },
-    {
       "league": "top14-2026",
       "home": "Perpignan",
       "away": "Racing 92",
@@ -76728,18 +76728,6 @@
       "source_id": "sofascore:16535045"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Baxi Manresa",
-      "away": "UCAM Murcia",
-      "score": null,
-      "date": "2027-03-20",
-      "time": "17:00",
-      "utc": "2027-03-20T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820122"
-    },
-    {
       "league": "championship-2026",
       "home": "Chinnor",
       "away": "Doncaster Knights",
@@ -76750,6 +76738,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662903"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Baxi Manresa",
+      "away": "UCAM Murcia",
+      "score": null,
+      "date": "2027-03-20",
+      "time": "17:00",
+      "utc": "2027-03-20T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820122"
     },
     {
       "league": "urc-2026",
@@ -77040,18 +77040,6 @@
       "source_id": "365scores:4809207"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Barcelona",
-      "away": "MoraBanc Andorra",
-      "score": null,
-      "date": "2027-03-21",
-      "time": "16:00",
-      "utc": "2027-03-21T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820128"
-    },
-    {
       "league": "championship-2026",
       "home": "Rotherham Titans",
       "away": "Blackheath Rugby",
@@ -77062,6 +77050,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662906"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Barcelona",
+      "away": "MoraBanc Andorra",
+      "score": null,
+      "date": "2027-03-21",
+      "time": "16:00",
+      "utc": "2027-03-21T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820128"
     },
     {
       "league": "bbl-2026-27",
@@ -77928,18 +77928,6 @@
       "source_id": "sofascore:16534923"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Joventut de Badalona",
-      "away": "San Pablo Burgos",
-      "score": null,
-      "date": "2027-03-27",
-      "time": "17:00",
-      "utc": "2027-03-27T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4820129"
-    },
-    {
       "league": "championship-2026",
       "home": "Blackheath Rugby",
       "away": "Chinnor",
@@ -77962,6 +77950,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662911"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "San Pablo Burgos",
+      "score": null,
+      "date": "2027-03-27",
+      "time": "17:00",
+      "utc": "2027-03-27T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4820129"
     },
     {
       "league": "urc-2026",
@@ -78240,6 +78240,18 @@
       "source_id": "365scores:4809215"
     },
     {
+      "league": "championship-2026",
+      "home": "Coventry Rugby",
+      "away": "Ealing Trailfinders",
+      "score": null,
+      "date": "2027-03-28",
+      "time": "15:00",
+      "utc": "2027-03-28T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16662912"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "UCAM Murcia",
       "away": "Bilbao Basket",
@@ -78262,18 +78274,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4820134"
-    },
-    {
-      "league": "championship-2026",
-      "home": "Coventry Rugby",
-      "away": "Ealing Trailfinders",
-      "score": null,
-      "date": "2027-03-28",
-      "time": "15:00",
-      "utc": "2027-03-28T15:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16662912"
     },
     {
       "league": "lega-a-2026-27",
