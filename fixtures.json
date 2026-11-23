@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T16:47:13+00:00",
+  "updated": "2026-11-23T16:58:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -833,12 +833,13 @@
             {
               "seed1": null,
               "team1": "Vélez Sarsfield",
-              "score1": 2,
+              "score1": "2 (3)",
               "seed2": null,
               "team2": "Belgrano",
-              "score2": 2,
+              "score2": "2 (1)",
               "date": "2026-11-20",
-              "venue": "Jose Amalfitani"
+              "venue": "Jose Amalfitani",
+              "winner": 1
             },
             {
               "seed1": null,
@@ -892,8 +893,8 @@
               "seed2": null,
               "team2": "River Plate",
               "score2": null,
-              "date": null,
-              "venue": null
+              "date": "2026-11-29",
+              "venue": "Estadio Monumental Presidente Perón"
             },
             {
               "seed1": null,
@@ -912,8 +913,8 @@
               "seed2": null,
               "team2": "Barracas Central",
               "score2": null,
-              "date": null,
-              "venue": null
+              "date": "2026-11-29",
+              "venue": "Estadio Gigante de Arroyito"
             },
             {
               "seed1": null,
@@ -922,7 +923,7 @@
               "seed2": null,
               "team2": null,
               "score2": null,
-              "date": null,
+              "date": "2026-11-27",
               "venue": null
             }
           ]
@@ -12254,9 +12255,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-23T00:18:45.438594+00:00",
+    "velez": "2026-11-23T16:55:46.468984+00:00",
     "torpedo": "2026-11-23T00:18:45.438594+00:00",
-    "velez:playoffs": "2026-11-23T03:02:05.094665+00:00"
+    "velez:playoffs": "2026-11-23T16:55:46.468984+00:00"
   },
   "matches": [
     {
@@ -49654,7 +49655,8 @@
       "utc": "2026-11-20T23:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "365scores:4891700"
+      "source_id": "365scores:4891700",
+      "pens": "3-1"
     },
     {
       "league": "prod2-2026",
