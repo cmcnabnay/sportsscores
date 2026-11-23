@@ -2216,9 +2216,18 @@ function resolveLeagueTeamName(leagueKey, name) {
     found = unique(names.filter(x => want.has(looseTeamKey(x))));
   }
   if (!found && n2.length >= 4) {
-    found = unique(names.filter(x => x.startsWith(n2 + ' ') || x.startsWith(n2 + '-')))
-      || unique(names.filter(x => x.endsWith(' ' + n2)))
-      || unique(names.filter(x => x.length >= 4 && n2.startsWith(x + ' ')));
+    // A fuzzy hit that is itself listed as a separate team in this league's
+    // standings is a different club, not a short form of this one - e.g.
+    // Argentina's "Independiente Rivadavia" must not collapse onto
+    // "Independiente" just because only the latter has fixtures stored.
+    const tableNames = new Set();
+    for (const g of Object.values(standings[leagueKey] || {})) {
+      for (const r of groupRows(g)) if (r.team) tableNames.add(normalizeTeamName(r.team));
+    }
+    const fuzzy = names.filter(x => !tableNames.has(x) || x === n2);
+    found = unique(fuzzy.filter(x => x.startsWith(n2 + ' ') || x.startsWith(n2 + '-')))
+      || unique(fuzzy.filter(x => x.endsWith(' ' + n2)))
+      || unique(fuzzy.filter(x => x.length >= 4 && n2.startsWith(x + ' ')));
   }
   return (resolvedNameCache[cacheKey] = found);
 }
