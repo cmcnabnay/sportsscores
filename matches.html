@@ -395,6 +395,7 @@
   }
   .status-upcoming { background: #e8edf5; color: var(--navy); }
   .status-final { background: #fdeceb; color: var(--red-dark); }
+  .status-extra { margin-top: 3px; }
   .status-postponed { background: #fff4d6; color: #7a5200; }
   .status-live {
     background: var(--red);
@@ -1225,12 +1226,22 @@ function render() {
         awayScore = parts[1];
         homeWin = Number(homeScore) > Number(awayScore);
         awayWin = Number(awayScore) > Number(homeScore);
+        // m.pens: "home-away" shootout score for a level game settled on
+        // penalties (see fetch_fixtures.py's _scores365_pens) - shown in
+        // parentheses next to each side's score, and decides the winner.
+        const pens = m.pens ? String(m.pens).split(/[-–]/).map(s => s.trim()) : null;
+        if (pens && pens.length === 2) {
+          homeScore = `${parts[0]} (${pens[0]})`;
+          awayScore = `${parts[1]} (${pens[1]})`;
+          homeWin = Number(pens[0]) > Number(pens[1]);
+          awayWin = Number(pens[1]) > Number(pens[0]);
+        }
       }
     }
 
     const leagueName = (leagues[m.league] && leagues[m.league].name) || m.league;
 
-    let statusLabel, statusClass;
+    let statusLabel, statusClass, extraLabel = null;
     if (status === 'postponed') {
       statusLabel = 'Postponed';
       statusClass = 'status-postponed';
@@ -1238,10 +1249,14 @@ function render() {
       statusLabel = 'LIVE';
       statusClass = 'status-live';
     } else if (status === 'final') {
-      // m.ot: decided in overtime/shootout - see fetch_fixtures.py's
-      // SCORES365_OT_STATUS_RE / SOFASCORE_OT_STATUS_CODES.
-      statusLabel = m.ot ? 'FT/OT' : 'FT';
+      statusLabel = 'FT';
       statusClass = 'status-final';
+      // A second box under FT: "Pens" for a game settled on penalties
+      // (m.pens - see fetch_fixtures.py's _scores365_pens), else "OT" for
+      // one decided in overtime/shootout (m.ot - SCORES365_OT_STATUS_RE /
+      // SOFASCORE_OT_STATUS_CODES).
+      if (m.pens) extraLabel = 'Pens';
+      else if (m.ot) extraLabel = 'OT';
     } else {
       statusLabel = m._timeIsLocal ? 'kick-off' : (m._localTime ? 'venue time' : 'kick-off');
       statusClass = 'status-upcoming';
@@ -1265,6 +1280,7 @@ function render() {
       <div class="match-time ${status === 'live' ? 'is-live' : ''}">
         ${m._localTime || 'TBC'}
         <span class="status-badge ${statusClass}">${statusLabel}</span>
+        ${extraLabel ? `<span class="status-badge status-final status-extra">${extraLabel}</span>` : ''}
       </div>
       <div class="match-teams">
         <div class="league-tag">${leagueName}</div>
@@ -2134,6 +2150,7 @@ function rowToMatch(r) {
     attendance: r.attendance === null ? null : String(r.attendance),
   };
   if (r.ot) m.ot = true;
+  if (r.pens) m.pens = r.pens;
   if (r.group_name) m.group = r.group_name;
   if (r.round) m.round = r.round;
   if (r.referee) m.referee = r.referee;

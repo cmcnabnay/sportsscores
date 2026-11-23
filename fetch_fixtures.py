@@ -167,6 +167,9 @@ LEAGUES = {
         "pages": [
             "2026_Nations_Championship_Southern_Hemisphere_Series",
             "2026_Nations_Championship_Northern_Hemisphere_Series",
+            # Finals weekend (Twickenham, 27-29 Nov): 1st v 1st, 2nd v 2nd, ...
+            # between the two conferences, one rugbybox per placing match.
+            "2026_Nations_Championship_Finals",
         ],
         "sport": "rugby",
         "parser": "rugbybox",
@@ -1127,6 +1130,7 @@ def fetch_page_wikitext(page_title: str) -> str:
 # Wikipedia results page the way this project's other leagues do.
 SCORES365_BASE = "https://webws.365scores.com"
 SCORES365_GAMES_URL = f"{SCORES365_BASE}/web/games/"
+SCORES365_GAME_URL = f"{SCORES365_BASE}/web/game/"
 SCORES365_STANDINGS_URL = f"{SCORES365_BASE}/web/standings/"
 # timezoneName=UTC means every date/time this API hands back is already in
 # UTC - no venue-timezone guessing needed the way the Wikipedia-sourced parsers
@@ -1320,11 +1324,14 @@ def parse_scores365_matches(games, league_key):
             "venue": None,  # not exposed by this API surface
             "attendance": None,
         }
-        # Decided in overtime/shootout - matches.html shows "FT/OT"
-        # instead of "FT". 365Scores' score already includes the deciding
+        # Decided in overtime/shootout - matches.html adds an "OT" box under "FT"
+        # (or "Pens" if settled on penalties). 365Scores' score already includes the deciding
         # OT goal / shootout goal (confirmed on KHL "Final/SO" games).
         if score is not None and SCORES365_OT_STATUS_RE.search(g.get("statusText") or ""):
             match["ot"] = True
+        pens = _scores365_pens(g)
+        if pens:
+            match["pens"] = pens
         if g.get("id") is not None:
             match["source_id"] = scores365_source_id(g)
         matches.append(match)
@@ -1536,7 +1543,7 @@ def parse_sofascore_matches(events, league_key):
             "attendance": None,
         }
         # Decided in overtime (status code 110, "AOT"/"AET") or a shootout
-        # (120, "AP") - matches.html shows "FT/OT" instead of "FT".
+        # (120, "AP") - matches.html adds an "OT" box under "FT".
         if score is not None and status.get("code") in SOFASCORE_OT_STATUS_CODES:
             match["ot"] = True
         if e.get("id") is not None:
@@ -2149,6 +2156,7 @@ BARE_ROW_RE = re.compile(
 # unrecognised codes just get displayed as-is (e.g. "XYZ").
 RUGBY_COUNTRY_CODES = {
     "NZL": "New Zealand", "FRA": "France", "JPN": "Japan", "ITA": "Italy",
+    "JAP": "Japan",  # non-standard, but what the 2026 Nations Championship Finals page uses
     "AUS": "Australia", "IRE": "Ireland", "FIJ": "Fiji", "WAL": "Wales",
     "RSA": "South Africa", "ENG": "England", "ARG": "Argentina", "SCO": "Scotland",
     "CAN": "Canada", "CHI": "Chile", "SAM": "Samoa", "TON": "Tonga",
@@ -5358,7 +5366,8 @@ SUPABASE_WRITE_BATCH = 500
 # _match_to_row()'s warning.
 MATCH_CORE_FIELDS = ("league", "home", "away", "score", "date", "time", "utc", "venue", "attendance")
 MATCH_EXTRA_FIELDS = (("ot", "ot"), ("group", "group_name"), ("round", "round"),
-                      ("referee", "referee"), ("status", "status"), ("source_id", "source_id"))
+                      ("referee", "referee"), ("status", "status"), ("source_id", "source_id"),
+                      ("pens", "pens"))
 
 # Snapshot of what Supabase held when load_existing() ran, so save() only
 # writes rows that actually changed. None = not loaded from Supabase.
@@ -5373,30 +5382,31 @@ def supabase_enabled():
     return bool(SUPABASE_URL and SUPABASE_SECRET_KEY)
 
 
-# Whether the matches table has the source_id column yet (added with
+# Whether the matches table has each newer optional column yet (added with
 #   alter table matches add column if not exists source_id text;
-# in the Supabase SQL editor). Until it does, source ids are kept in the
+#   alter table matches add column if not exists pens text;
+# in the Supabase SQL editor). Until it does, that field is kept in the
 # local fixtures.json only and left out of every row sent to Supabase -
-# matching then falls back to team pair + date, as before.
-_source_id_column = None
+# for source_id, matching then falls back to team pair + date, as before.
+_OPTIONAL_COLUMNS = ("source_id", "pens")
+_column_present = {}
 
 
-def _supabase_has_source_id():
-    global _source_id_column
+def _supabase_has_column(col):
     if not supabase_enabled():
         return False
-    if _source_id_column is None:
+    if col not in _column_present:
         try:
-            _supabase_request("GET", "matches?select=source_id&limit=1")
-            _source_id_column = True
+            _supabase_request("GET", f"matches?select={col}&limit=1")
+            _column_present[col] = True
         except SupabaseError as e:
-            if "source_id" not in str(e):
+            if col not in str(e):
                 raise
-            print("!! Supabase: matches.source_id column missing - run "
-                  "'alter table matches add column if not exists source_id text;' "
-                  "in the SQL editor. Not storing source ids until then.", file=sys.stderr)
-            _source_id_column = False
-    return _source_id_column
+            print(f"!! Supabase: matches.{col} column missing - run "
+                  f"'alter table matches add column if not exists {col} text;' "
+                  f"in the SQL editor. Not storing {col} until then.", file=sys.stderr)
+            _column_present[col] = False
+    return _column_present[col]
 
 
 def _supabase_request(method, path, body=None, extra_headers=None):
@@ -5446,7 +5456,7 @@ def _match_to_row(m):
         row[k] = m.get(k)
     row["attendance"] = att
     for key, col in MATCH_EXTRA_FIELDS:
-        if key == "source_id" and not _supabase_has_source_id():
+        if key in _OPTIONAL_COLUMNS and not _supabase_has_column(col):
             continue
         row[col] = bool(m.get(key)) if key == "ot" else m.get(key)
     return row
@@ -5985,6 +5995,12 @@ def fetch_scores365_bracket(cfg):
                 if _scores365_final_score(g) is None:
                     continue
                 played = True
+                # The brackets endpoint omits "penaltyScore" - take it from
+                # the game's own detail when the game went to penalties.
+                if (re.search(r"penalt", g.get("statusText") or "", re.IGNORECASE)
+                        and (g.get("homeCompetitor") or {}).get("penaltyScore") is None
+                        and g.get("id") is not None):
+                    g = fetch_scores365_game(g["id"]) or g
                 for comp in (g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}):
                     if comp.get("id") in ids:
                         i = ids.index(comp.get("id"))
@@ -6350,8 +6366,13 @@ def update_matrix_team_results_scores365(data, cfg, team_matches):
             m["date"], m["time"], m["utc"] = new_date, new_time, g.get("startTime")
             updated_schedule += 1
         score = _scores365_final_score(g)
-        if score is not None and m.get("score") != score:
+        pens = _scores365_pens(g)
+        if score is not None and (m.get("score") != score or m.get("pens") != pens):
             m["score"] = score
+            if pens:
+                m["pens"] = pens
+            else:
+                m.pop("pens", None)
             updated_score += 1
 
     # Listed by 365Scores but not stored: add it, the team under its stored
@@ -6371,6 +6392,8 @@ def update_matrix_team_results_scores365(data, cfg, team_matches):
             "utc": g.get("startTime"), "venue": None, "attendance": None,
             "source_id": scores365_source_id(g),
         })
+        if _scores365_pens(g):
+            data["matches"][-1]["pens"] = _scores365_pens(g)
         added += 1
 
     # Tied to a 365Scores game that's no longer listed, unplayed, and inside
@@ -6407,6 +6430,46 @@ def _scores365_final_score(g):
     if hs is None or as_ is None or hs < 0 or as_ < 0:
         return None
     return f"{int(hs)}-{int(as_)}"
+
+
+def _scores365_pens(g):
+    """"home-away" penalty shootout score for a finished 365Scores game
+    that was level and settled on penalties (each competitor's
+    "penaltyScore" - e.g. Velez 2-2 Belgrano, 3-1 on pens, 2026-11-20),
+    else None. Only taken when the match score itself is level: a hockey
+    shootout's score already counts the deciding goal (see
+    parse_scores365_matches), so it isn't shown again as "pens"."""
+    if _scores365_final_score(g) is None:
+        return None
+    home, away = g.get("homeCompetitor") or {}, g.get("awayCompetitor") or {}
+    hp, ap = home.get("penaltyScore"), away.get("penaltyScore")
+    if hp is None or ap is None or home.get("score") != away.get("score"):
+        return None
+    return f"{int(hp)}-{int(ap)}"
+
+
+def fetch_scores365_game(game_id):
+    """One 365Scores game's full detail (the "game" object), or None if it
+    can't be fetched. The brackets endpoint leaves out each competitor's
+    "penaltyScore"; this detail has the shootout as its "Penalties" stage
+    instead, copied onto the competitors as "penaltyScore" so the game
+    reads like a games-list one."""
+    try:
+        data = fetch_scores365_json(f"{SCORES365_GAME_URL}?{SCORES365_COMMON_PARAMS}&gameId={game_id}")
+    except Exception as e:
+        print(f"  !! 365Scores game {game_id} fetch failed: {e}", file=sys.stderr)
+        return None
+    g = data.get("game")
+    if not g:
+        return None
+    pen_stage = next((st for st in g.get("stages") or []
+                      if (st.get("name") or "").lower() == "penalties"), None)
+    if pen_stage:
+        for side, key in (("homeCompetitor", "homeCompetitorScore"), ("awayCompetitor", "awayCompetitorScore")):
+            comp = g.get(side)
+            if comp is not None and comp.get("penaltyScore") is None and pen_stage.get(key) is not None:
+                comp["penaltyScore"] = pen_stage[key]
+    return g
 
 
 _EXTRA_PAGE_PARSERS = {

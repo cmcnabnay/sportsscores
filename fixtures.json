@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T16:58:13+00:00",
+  "updated": "2026-11-23T17:00:18+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12255,9 +12255,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-23T16:55:46.468984+00:00",
-    "torpedo": "2026-11-23T00:18:45.438594+00:00",
-    "velez:playoffs": "2026-11-23T16:55:46.468984+00:00"
+    "velez": "2026-11-23T16:59:15.896719+00:00",
+    "torpedo": "2026-11-23T16:59:15.896719+00:00",
+    "velez:playoffs": "2026-11-23T16:59:15.896719+00:00"
   },
   "matches": [
     {
@@ -51380,6 +51380,17 @@
       "source_id": "sofascore:16337455"
     },
     {
+      "league": "nations-championship-2026",
+      "home": "Italy",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "16:40",
+      "utc": "2026-11-27T16:40:00+00:00",
+      "venue": "Twickenham Stadium, London",
+      "attendance": null
+    },
+    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "SaiPa Lappeenranta",
@@ -51626,6 +51637,17 @@
       "attendance": null
     },
     {
+      "league": "nations-championship-2026",
+      "home": "Ireland",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-11-27",
+      "time": "20:10",
+      "utc": "2026-11-27T20:10:00+00:00",
+      "venue": "Twickenham Stadium, London",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Colombia",
       "away": "Dominican Republic",
@@ -51689,6 +51711,17 @@
       "time": null,
       "utc": null,
       "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
+    },
+    {
+      "league": "nations-championship-2026",
+      "home": "Wales",
+      "away": "Japan",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "13:10",
+      "utc": "2026-11-28T13:10:00+00:00",
+      "venue": "Twickenham Stadium, London",
       "attendance": null
     },
     {
@@ -51884,6 +51917,17 @@
       "source_id": "sofascore:16534984"
     },
     {
+      "league": "nations-championship-2026",
+      "home": "England",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "16:40",
+      "utc": "2026-11-28T16:40:00+00:00",
+      "venue": "Twickenham Stadium, London",
+      "attendance": null
+    },
+    {
       "league": "shl-2026-27",
       "home": "Luleå Hockey",
       "away": "Rögle BK",
@@ -51968,6 +52012,17 @@
       "source_id": "sofascore:16422571"
     },
     {
+      "league": "nations-championship-2026",
+      "home": "Scotland",
+      "away": "Argentina",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "13:10",
+      "utc": "2026-11-29T13:10:00+00:00",
+      "venue": "Twickenham Stadium, London",
+      "attendance": null
+    },
+    {
       "league": "argentina-liga-profesional-2026",
       "home": "Vélez Sarsfield",
       "away": "Independiente",
@@ -52026,6 +52081,17 @@
       "venue": "Gatorade Center",
       "attendance": null,
       "source_id": "sofascore:17505266"
+    },
+    {
+      "league": "nations-championship-2026",
+      "home": "France",
+      "away": "South Africa",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "16:40",
+      "utc": "2026-11-29T16:40:00+00:00",
+      "venue": "Twickenham Stadium, London",
+      "attendance": null
     },
     {
       "league": "fiba-wcq-europe-2027",
