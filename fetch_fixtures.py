@@ -336,7 +336,16 @@ LEAGUES = {
         "parser": "sofascore",
         "sofascore_tournament_id": 1147,  # "France - Pro D2" on SofaScore
         "sofascore_season_id": 98440,
-        "standings": {"sofascore_tournament_id": 1147, "sofascore_season_id": 98440},
+        "standings": {
+            "sofascore_tournament_id": 1147,
+            "sofascore_season_id": 98440,
+            "zones": [
+                (1, 2, "#D9FFEB", "Semi-final promotion playoff place"),
+                (3, 6, "#CCCCFF", "Quarter-final promotion playoff place"),
+                (15, 15, "#FFCCCC", "Relegation play-off"),
+                (16, 16, "#FFBBBB", "Relegation to Nationale"),
+            ],
+        },
     },
     "premiership-2026": {
         "name": "Gallagher Premiership 2026-27",
@@ -353,7 +362,16 @@ LEAGUES = {
         "parser": "sofascore",
         "sofascore_tournament_id": 1323,  # "Champ Rugby"/"RFU Championship" on SofaScore
         "sofascore_season_id": 99546,
-        "standings": {"sofascore_tournament_id": 1323, "sofascore_season_id": 99546},
+        "standings": {
+            "sofascore_tournament_id": 1323,
+            "sofascore_season_id": 99546,
+            "zones": [
+                (1, 2, "#BBF3BB", "Play-off semi-finals"),
+                (3, 6, "#DDFCDD", "Play-off quarter-finals"),
+                (12, 13, "#FFDDDD", "Relegation play-off"),
+                (14, 14, "#FFBBBB", "Relegated"),
+            ],
+        },
     },
     "urc-2026": {
         "name": "United Rugby Championship 2026-27",
@@ -538,6 +556,7 @@ LEAGUES = {
     "rlwc-2026": {
         "name": "Rugby League World Cup 2026",
         "sport": "rugby-league",
+        "completed": True,  # retired 2026-11-22 - final played 15 Nov
         # SofaScore "World Cup" (unique-tournament 431), season "World Cup
         # 2026". Its two tables are "Group A" and "Group B and C"; the
         # knockout games should appear as extra events once they're drawn.
@@ -558,18 +577,17 @@ LEAGUES = {
             "sofascore_season_id": 87548,
             "zones": [(1, 2, "#BBF3BB", "Advance to knockout stage")],
         },
-        # SofaScore has no bracket, so the Playoffs tab is read off
-        # Wikipedia's "Semi-finals"/"Final" sections ({{rugbyleaguebox}}
-        # templates). Not-yet-decided slots are written as "Pool A
-        # winner" etc. and shown as-is until the page fills in the team.
+        # SofaScore has no bracket, so the Playoffs tab is read off the
+        # {{Round4}} template in the "==Bracket==" section of Wikipedia's
+        # knockout-stage sub-article (the main page only {{#lst:}}-
+        # transcludes it, so there's nothing to parse there). See
+        # parse_round_template().
         "playoffs": {
-            "page": "2026_Men's_Rugby_League_World_Cup",
-            "parser": "rugbyleaguebox",
+            "page": "2026_Men's_Rugby_League_World_Cup_knockout_stage",
+            "heading": "Bracket",
+            "template": "Round4",
+            "year": 2026,
             "name": "Rugby League World Cup 2026 · Knockout stage",
-            "rounds": [
-                {"heading": "Semi-finals", "label": "Semi-finals"},
-                {"heading": "Final", "label": "Final"},
-            ],
         },
     },
     "afle-2026": {
@@ -643,6 +661,7 @@ LEAGUES = {
     "cfl-2026": {
         "name": "CFL 2026",
         "sport": "canadian-football",
+        "completed": True,  # retired 2026-11-22 - Grey Cup played 15 Nov
         "parser": "cfl_schedule",
         "year": 2026,
         # Kickoff times on these pages carry their own zone abbreviation
@@ -3030,6 +3049,71 @@ def split_bracket_round_label(raw, year):
     return pieces[0], date_out, (", ".join(pieces[1:]) or None)
 
 
+_ROUND_TEMPLATE_RE = re.compile(r"^Round(\d+)$")
+_ROUND_DATE_PLACE_RE = re.compile(r"^(\d{1,2})\s+([A-Za-z]+)")
+
+
+def parse_round_template(inner, n_teams, year):
+    """Parse a {{Round4}}/{{Round8}}/... bracket - unlike {{NTeamBracket}}
+    its matches are unnamed positional params, five per match in bracket
+    order ("|7 November – [[Venue|City]]|{{rl|NZL}}|34|{{rl|TON}}|10"),
+    with the round labels as named RD1=/RD2=/... params. Round r holds
+    n_teams / 2**r matches. Returns the same [{label, matches}] shape as
+    build_bracket_rounds(). Teams written as {{rl|CODE}} flag templates
+    are resolved to country names (see _resolve_rl_flag_team)."""
+    labels = {}
+    positional = []
+    # Strip comments first - the "<!-- Date-Place|Team 1|... -->" legend
+    # has pipes of its own that would otherwise be split as params.
+    inner = re.sub(r"<!--.*?-->", "", inner, flags=re.S)
+    for raw in split_template_params(inner)[1:]:  # [0] is "Round4" itself
+        val = raw.strip()
+        m = re.match(r"^\s*RD(\d+)\s*=(.*)$", val, flags=re.S)
+        if m:
+            labels[int(m.group(1))] = m.group(2).strip()
+        elif "=" in val.split("{{")[0].split("[[")[0]:
+            continue  # other named params (3rdplace=, bold_winner=, ...)
+        else:
+            positional.append(val)
+    rounds = []
+    pos = 0
+    rd = 1
+    n_matches = n_teams // 2
+    while n_matches >= 1:
+        matches = []
+        for _ in range(n_matches):
+            row = positional[pos:pos + 5]
+            pos += 5
+            row += [""] * (5 - len(row))
+            date_place, t1, s1, t2, s2 = row
+            date_out = venue = None
+            parts = re.split(r"\s+[–—-]\s+", date_place, maxsplit=1)
+            dm = _ROUND_DATE_PLACE_RE.match(clean_bracket_team(parts[0]) or "")
+            if dm and year:
+                try:
+                    date_out = datetime.strptime(
+                        f"{dm.group(1)} {dm.group(2)} {year}", "%d %B %Y").strftime("%Y-%m-%d")
+                except ValueError:
+                    pass
+            if len(parts) > 1:
+                venue = clean_bracket_team(parts[1])
+            matches.append({
+                "seed1": None,
+                "team1": clean_bracket_team(_resolve_rl_flag_team(t1)),
+                "score1": clean_bracket_score(s1),
+                "seed2": None,
+                "team2": clean_bracket_team(_resolve_rl_flag_team(t2)),
+                "score2": clean_bracket_score(s2),
+                "date": date_out,
+                "venue": venue,
+            })
+        label = clean_bracket_team(labels.get(rd)) or f"Round {rd}"
+        rounds.append({"label": label, "matches": matches})
+        rd += 1
+        n_matches //= 2
+    return rounds
+
+
 def build_bracket_rounds(rounds_by_num, year=None):
     """Turn parse_bracket_template()'s {round_number: {...}} dict into the
     ordered [{label, matches: [{seed1,team1,score1,seed2,team2,score2},
@@ -3226,6 +3310,13 @@ def fetch_playoffs_bracket(cfg, key):
         print(f"  !! playoffs: {template_name!r} template not found in {heading!r} "
               f"section on page {page!r} for {key}", file=sys.stderr)
         return None
+
+    round_m = _ROUND_TEMPLATE_RE.match(template_name)
+    if round_m:
+        rounds = parse_round_template(templates[0], int(round_m.group(1)),
+                                      playoffs_cfg.get("year") or cfg.get("year"))
+        name = playoffs_cfg.get("name", f'{cfg["name"]} · Play-offs')
+        return {"name": name, "rounds": rounds}
 
     rounds_by_num = parse_bracket_template(templates[0])
     if not rounds_by_num:
