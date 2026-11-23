@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T02:51:14+00:00",
+  "updated": "2026-11-23T03:02:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -803,10 +803,10 @@
             {
               "seed1": null,
               "team1": "Instituto",
-              "score1": null,
+              "score1": 2,
               "seed2": null,
               "team2": "Huracán",
-              "score2": null,
+              "score2": 1,
               "date": "2026-11-22",
               "venue": "Estadio Mario Alberto Kempes"
             },
@@ -887,7 +887,7 @@
           "matches": [
             {
               "seed1": null,
-              "team1": null,
+              "team1": "Instituto",
               "score1": null,
               "seed2": null,
               "team2": "River Plate",
@@ -912,8 +912,8 @@
               "seed2": null,
               "team2": "Barracas Central",
               "score2": null,
-              "date": "2026-11-29",
-              "venue": "Estadio Gigante de Arroyito"
+              "date": null,
+              "venue": null
             },
             {
               "seed1": null,
@@ -12256,7 +12256,7 @@
   "matrix_last_fetch": {
     "velez": "2026-11-23T00:18:45.438594+00:00",
     "torpedo": "2026-11-23T00:18:45.438594+00:00",
-    "velez:playoffs": "2026-11-23T02:51:11.029088+00:00"
+    "velez:playoffs": "2026-11-23T03:02:05.094665+00:00"
   },
   "matches": [
     {
