@@ -3,7 +3,7 @@
     "cfl-2026": {
       "name": "CFL 2026",
       "sport": "canadian-football",
-      "completed": false
+      "completed": true
     },
     "efa-2026": {
       "name": "European Football Alliance 2026",
@@ -33,7 +33,7 @@
     "rlwc-2026": {
       "name": "Rugby League World Cup 2026",
       "sport": "rugby-league",
-      "completed": false
+      "completed": true
     },
     "top14-2026": {
       "name": "French Top 14 2026-27",
@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-22T23:53:09+00:00",
+  "updated": "2026-11-23T00:03:54+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -578,11 +578,43 @@
       "rounds": [
         {
           "label": "Semi-finals",
-          "matches": []
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "New Zealand",
+              "score1": 34,
+              "seed2": null,
+              "team2": "Tonga",
+              "score2": 10,
+              "date": "2026-11-07",
+              "venue": "Newcastle"
+            },
+            {
+              "seed1": null,
+              "team1": "Australia",
+              "score1": 44,
+              "seed2": null,
+              "team2": "Samoa",
+              "score2": 12,
+              "date": "2026-11-08",
+              "venue": "Sydney"
+            }
+          ]
         },
         {
           "label": "Final",
-          "matches": []
+          "matches": [
+            {
+              "seed1": null,
+              "team1": "Australia",
+              "score1": 32,
+              "seed2": null,
+              "team2": "New Zealand",
+              "score2": 12,
+              "date": "2026-11-15",
+              "venue": "Brisbane"
+            }
+          ]
         }
       ]
     },
@@ -781,10 +813,10 @@
             {
               "seed1": null,
               "team1": "River Plate",
-              "score1": null,
+              "score1": 3,
               "seed2": null,
               "team2": "Lanús",
-              "score2": null,
+              "score2": 1,
               "date": "2026-11-22",
               "venue": "Estadio Monumental"
             },
@@ -811,10 +843,10 @@
             {
               "seed1": null,
               "team1": "Rosario Central",
-              "score1": null,
+              "score1": 3,
               "seed2": null,
               "team2": "Gimnasia y Esgrima (M)",
-              "score2": null,
+              "score2": 1,
               "date": "2026-11-22",
               "venue": "Estadio Gigante de Arroyito"
             },
@@ -858,7 +890,7 @@
               "team1": null,
               "score1": null,
               "seed2": null,
-              "team2": null,
+              "team2": "River Plate",
               "score2": null,
               "date": null,
               "venue": null
@@ -870,18 +902,18 @@
               "seed2": null,
               "team2": "Vélez Sarsfield",
               "score2": null,
-              "date": null,
-              "venue": null
+              "date": "2026-11-29",
+              "venue": "Jose Amalfitani"
             },
             {
               "seed1": null,
-              "team1": null,
+              "team1": "Rosario Central",
               "score1": null,
               "seed2": null,
               "team2": "Barracas Central",
               "score2": null,
-              "date": null,
-              "venue": null
+              "date": "2026-11-29",
+              "venue": "Estadio Gigante de Arroyito"
             },
             {
               "seed1": null,
@@ -10505,6 +10537,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Ural Yekaterinburg",
+            "played": 18,
+            "win": 11,
+            "draw": 4,
+            "loss": 3,
+            "for": 31,
+            "against": 11,
+            "diff": 20,
+            "points": 37,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Torpedo Moscow",
             "played": 19,
             "win": 10,
@@ -10514,18 +10558,6 @@
             "against": 16,
             "diff": 14,
             "points": 35,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Ural Yekaterinburg",
-            "played": 17,
-            "win": 10,
-            "draw": 4,
-            "loss": 3,
-            "for": 29,
-            "against": 11,
-            "diff": 18,
-            "points": 34,
             "highlight": "#CCF9CC"
           },
           {
@@ -10602,13 +10634,13 @@
           },
           {
             "team": "Ufa",
-            "played": 18,
+            "played": 19,
             "win": 5,
             "draw": 8,
-            "loss": 5,
+            "loss": 6,
             "for": 22,
-            "against": 20,
-            "diff": 2,
+            "against": 22,
+            "diff": 0,
             "points": 23,
             "highlight": "transparent"
           },
@@ -12212,9 +12244,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-22T15:22:36.415828+00:00",
-    "torpedo": "2026-11-22T15:22:36.415828+00:00",
-    "velez:playoffs": "2026-11-22T15:22:36.415828+00:00"
+    "velez": "2026-11-22T23:54:19.899785+00:00",
+    "torpedo": "2026-11-22T23:54:19.899785+00:00",
+    "velez:playoffs": "2026-11-23T00:03:37.139992+00:00"
   },
   "matches": [
     {
@@ -17773,6 +17805,17 @@
       "attendance": "19092"
     },
     {
+      "league": "cfl-2026",
+      "home": "Ottawa Redblacks",
+      "away": "Toronto Argonauts",
+      "score": "24-44",
+      "date": "2026-06-20",
+      "time": "13:00",
+      "utc": "2026-06-20T17:00:00+00:00",
+      "venue": "TD Place Stadium",
+      "attendance": "13943"
+    },
+    {
       "league": "internationals-2026",
       "home": "South Africa",
       "away": "Barbarians",
@@ -17783,17 +17826,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4740186"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Ottawa Redblacks",
-      "away": "Toronto Argonauts",
-      "score": "24-44",
-      "date": "2026-06-20",
-      "time": "13:00",
-      "utc": "2026-06-20T17:00:00+00:00",
-      "venue": "TD Place Stadium",
-      "attendance": "13943"
     },
     {
       "league": "cfl-2026",
@@ -20571,17 +20603,6 @@
       "attendance": "12872"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "Canada",
-      "away": "Portugal",
-      "score": "14-38",
-      "date": "2026-07-11",
-      "time": "19:00",
-      "utc": "2026-07-12T01:00:00+00:00",
-      "venue": "Clarke Stadium, Edmonton",
-      "attendance": "5500"
-    },
-    {
       "league": "cfl-2026",
       "home": "Montreal Alouettes",
       "away": "Calgary Stampeders",
@@ -20591,6 +20612,17 @@
       "utc": "2026-07-11T23:00:00+00:00",
       "venue": "Molson Stadium",
       "attendance": "18046"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "Canada",
+      "away": "Portugal",
+      "score": "14-38",
+      "date": "2026-07-11",
+      "time": "19:00",
+      "utc": "2026-07-12T01:00:00+00:00",
+      "venue": "Clarke Stadium, Edmonton",
+      "attendance": "5500"
     },
     {
       "league": "nrl-2026",
@@ -21267,17 +21299,6 @@
       "attendance": "0"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "Uruguay",
-      "away": "Hong Kong",
-      "score": "40-42",
-      "date": "2026-07-18",
-      "time": "14:00",
-      "utc": "2026-07-18T17:00:00+00:00",
-      "venue": "Estadio Charrúa, Montevideo",
-      "attendance": "1000"
-    },
-    {
       "league": "cfl-2026",
       "home": "Calgary Stampeders",
       "away": "Montreal Alouettes",
@@ -21287,6 +21308,17 @@
       "utc": "2026-07-18T20:00:00+00:00",
       "venue": "McMahon Stadium",
       "attendance": "19228"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "Uruguay",
+      "away": "Hong Kong",
+      "score": "40-42",
+      "date": "2026-07-18",
+      "time": "14:00",
+      "utc": "2026-07-18T17:00:00+00:00",
+      "venue": "Estadio Charrúa, Montevideo",
+      "attendance": "1000"
     },
     {
       "league": "nations-championship-2026",
@@ -21535,17 +21567,6 @@
       "attendance": "20050"
     },
     {
-      "league": "nations-cup-2026",
-      "home": "United States",
-      "away": "Spain",
-      "score": "29-22",
-      "date": "2026-07-18",
-      "time": "19:30",
-      "utc": "2026-07-18T23:30:00+00:00",
-      "venue": "WakeMed Soccer Park, Cary",
-      "attendance": "7900"
-    },
-    {
       "league": "cfl-2026",
       "home": "Hamilton Tiger-Cats",
       "away": "Toronto Argonauts",
@@ -21555,6 +21576,17 @@
       "utc": "2026-07-18T23:30:00+00:00",
       "venue": "Hamilton Stadium",
       "attendance": "21262"
+    },
+    {
+      "league": "nations-cup-2026",
+      "home": "United States",
+      "away": "Spain",
+      "score": "29-22",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "utc": "2026-07-18T23:30:00+00:00",
+      "venue": "WakeMed Soccer Park, Cary",
+      "attendance": "7900"
     },
     {
       "league": "fivb-nations-league-2026",
@@ -26892,6 +26924,17 @@
       "referee": "Adam Gee"
     },
     {
+      "league": "cfl-2026",
+      "home": "BC Lions",
+      "away": "Montreal Alouettes",
+      "score": "48-29",
+      "date": "2026-09-12",
+      "time": "19:00",
+      "utc": "2026-09-13T02:00:00+00:00",
+      "venue": "BC Place",
+      "attendance": "23380"
+    },
+    {
       "league": "top14-2026",
       "home": "Toulon",
       "away": "La Rochelle",
@@ -26902,17 +26945,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16529130"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "BC Lions",
-      "away": "Montreal Alouettes",
-      "score": "48-29",
-      "date": "2026-09-12",
-      "time": "19:00",
-      "utc": "2026-09-13T02:00:00+00:00",
-      "venue": "BC Place",
-      "attendance": "23380"
     },
     {
       "league": "pacific-nations-cup-2026",
@@ -29756,6 +29788,17 @@
       "source_id": "sofascore:16670565"
     },
     {
+      "league": "cfl-2026",
+      "home": "Winnipeg Blue Bombers",
+      "away": "Toronto Argonauts",
+      "score": "28-30",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "utc": "2026-09-26T00:00:00+00:00",
+      "venue": "Princess Auto Stadium",
+      "attendance": "32343"
+    },
+    {
       "league": "prod2-2026",
       "home": "FC Grenoble Rugby",
       "away": "Valence Romans Drôme",
@@ -29766,17 +29809,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535077"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Winnipeg Blue Bombers",
-      "away": "Toronto Argonauts",
-      "score": "28-30",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "utc": "2026-09-26T00:00:00+00:00",
-      "venue": "Princess Auto Stadium",
-      "attendance": "32343"
     },
     {
       "league": "npc-2026",
@@ -32816,6 +32848,17 @@
       "source_id": "sofascore:16527472"
     },
     {
+      "league": "cfl-2026",
+      "home": "Montreal Alouettes",
+      "away": "Winnipeg Blue Bombers",
+      "score": "37-10",
+      "date": "2026-10-03",
+      "time": "19:00",
+      "utc": "2026-10-03T23:00:00+00:00",
+      "venue": "Molson Stadium",
+      "attendance": "23035"
+    },
+    {
       "league": "top14-2026",
       "home": "Castres Olympique",
       "away": "Stade Toulousain",
@@ -32826,17 +32869,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534945"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Montreal Alouettes",
-      "away": "Winnipeg Blue Bombers",
-      "score": "37-10",
-      "date": "2026-10-03",
-      "time": "19:00",
-      "utc": "2026-10-03T23:00:00+00:00",
-      "venue": "Molson Stadium",
-      "attendance": "23035"
     },
     {
       "league": "liga-acb-2026-27",
@@ -34767,6 +34799,28 @@
       "source_id": "sofascore:16527465"
     },
     {
+      "league": "cfl-2026",
+      "home": "BC Lions",
+      "away": "Ottawa Redblacks",
+      "score": "41-20",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "utc": "2026-10-10T02:00:00+00:00",
+      "venue": "BC Place",
+      "attendance": "22083"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Hamilton Tiger-Cats",
+      "away": "Edmonton Elks",
+      "score": "12-27",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "utc": "2026-10-09T23:00:00+00:00",
+      "venue": "Hamilton Stadium",
+      "attendance": "18774"
+    },
+    {
       "league": "prod2-2026",
       "home": "Stade Aurillacois",
       "away": "Biarritz Olympique",
@@ -34789,28 +34843,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535082"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "BC Lions",
-      "away": "Ottawa Redblacks",
-      "score": "41-20",
-      "date": "2026-10-09",
-      "time": "19:00",
-      "utc": "2026-10-10T02:00:00+00:00",
-      "venue": "BC Place",
-      "attendance": "22083"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Hamilton Tiger-Cats",
-      "away": "Edmonton Elks",
-      "score": "12-27",
-      "date": "2026-10-09",
-      "time": "19:00",
-      "utc": "2026-10-09T23:00:00+00:00",
-      "venue": "Hamilton Stadium",
-      "attendance": "18774"
     },
     {
       "league": "npc-2026",
@@ -37338,6 +37370,17 @@
       "source_id": "sofascore:16662807"
     },
     {
+      "league": "cfl-2026",
+      "home": "Ottawa Redblacks",
+      "away": "Toronto Argonauts",
+      "score": "40-39",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "utc": "2026-10-16T23:00:00+00:00",
+      "venue": "TD Place Stadium",
+      "attendance": "16371"
+    },
+    {
       "league": "prod2-2026",
       "home": "USON Nevers",
       "away": "SU Agen",
@@ -37396,17 +37439,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16527606"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Ottawa Redblacks",
-      "away": "Toronto Argonauts",
-      "score": "40-39",
-      "date": "2026-10-16",
-      "time": "19:00",
-      "utc": "2026-10-16T23:00:00+00:00",
-      "venue": "TD Place Stadium",
-      "attendance": "16371"
     },
     {
       "league": "npc-2026",
@@ -39970,6 +40002,28 @@
       "source_id": "sofascore:16665319"
     },
     {
+      "league": "cfl-2026",
+      "home": "BC Lions",
+      "away": "Winnipeg Blue Bombers",
+      "score": "10-34",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "utc": "2026-10-24T02:00:00+00:00",
+      "venue": "BC Place",
+      "attendance": "30833"
+    },
+    {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Montreal Alouettes",
+      "score": "16-33",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "utc": "2026-10-23T23:00:00+00:00",
+      "venue": "BMO Field",
+      "attendance": "13198"
+    },
+    {
       "league": "prod2-2026",
       "home": "Provence Rugby",
       "away": "AS Béziers Hérault",
@@ -39992,28 +40046,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535108"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "BC Lions",
-      "away": "Winnipeg Blue Bombers",
-      "score": "10-34",
-      "date": "2026-10-23",
-      "time": "19:00",
-      "utc": "2026-10-24T02:00:00+00:00",
-      "venue": "BC Place",
-      "attendance": "30833"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Toronto Argonauts",
-      "away": "Montreal Alouettes",
-      "score": "16-33",
-      "date": "2026-10-23",
-      "time": "19:00",
-      "utc": "2026-10-23T23:00:00+00:00",
-      "venue": "BMO Field",
-      "attendance": "13198"
     },
     {
       "league": "rlwc-2026",
@@ -42761,6 +42793,17 @@
       "source_id": "sofascore:16527483"
     },
     {
+      "league": "cfl-2026",
+      "home": "Toronto Argonauts",
+      "away": "Winnipeg Blue Bombers",
+      "score": "22-25",
+      "date": "2026-10-31",
+      "time": "13:00",
+      "utc": "2026-10-31T17:00:00+00:00",
+      "venue": "BMO Field",
+      "attendance": "21786"
+    },
+    {
       "league": "championship-2026",
       "home": "Coventry Rugby",
       "away": "Ampthill RUFC",
@@ -42798,14 +42841,14 @@
     },
     {
       "league": "cfl-2026",
-      "home": "Toronto Argonauts",
-      "away": "Winnipeg Blue Bombers",
-      "score": "22-25",
+      "home": "BC Lions",
+      "away": "Saskatchewan Roughriders",
+      "score": "33-26",
       "date": "2026-10-31",
-      "time": "13:00",
-      "utc": "2026-10-31T17:00:00+00:00",
-      "venue": "BMO Field",
-      "attendance": "21786"
+      "time": "13:30",
+      "utc": "2026-10-31T20:30:00+00:00",
+      "venue": "BC Place",
+      "attendance": "23283"
     },
     {
       "league": "top14-2026",
@@ -42818,17 +42861,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534979"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "BC Lions",
-      "away": "Saskatchewan Roughriders",
-      "score": "33-26",
-      "date": "2026-10-31",
-      "time": "13:30",
-      "utc": "2026-10-31T20:30:00+00:00",
-      "venue": "BC Place",
-      "attendance": "23283"
     },
     {
       "league": "rugby-europe-trophy-2026",
@@ -45092,6 +45124,17 @@
       "attendance": "67130"
     },
     {
+      "league": "cfl-2026",
+      "home": "Montreal Alouettes",
+      "away": "Winnipeg Blue Bombers",
+      "score": "33-23",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "utc": "2026-11-07T20:00:00+00:00",
+      "venue": "Molson Stadium",
+      "attendance": "23035"
+    },
+    {
       "league": "nations-cup-2026",
       "home": "Zimbabwe",
       "away": "Samoa",
@@ -45148,17 +45191,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16662816"
-    },
-    {
-      "league": "cfl-2026",
-      "home": "Montreal Alouettes",
-      "away": "Winnipeg Blue Bombers",
-      "score": "33-23",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "utc": "2026-11-07T20:00:00+00:00",
-      "venue": "Molson Stadium",
-      "attendance": "23035"
     },
     {
       "league": "top14-2026",
@@ -51850,6 +51882,18 @@
       "venue": "Lanxess Arena",
       "attendance": null,
       "source_id": "sofascore:16422571"
+    },
+    {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Independiente",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "14:00",
+      "utc": "2026-11-29T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898845"
     },
     {
       "league": "del-2026-27",
