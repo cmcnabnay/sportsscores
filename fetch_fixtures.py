@@ -187,6 +187,7 @@ LEAGUES = {
     },
     "nations-cup-2026": {
         "name": "World Rugby Nations Cup 2026",
+        "completed": True,  # retired 2026-11-24 - final round played 21 Nov
         # Same story as Nations Championship above: the real per-match
         # kickoff times live on the two regional-series pages, not the
         # old bare summary page.
