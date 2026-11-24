@@ -364,6 +364,7 @@
   /* Fixed height, natural width: every flag keeps its own shape (US 19:10, IRFU ~2:1, Switzerland 1:1) uncropped. */
   .team-flag { height: 15px; width: auto; max-width: 32px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.12); }
   .team-score { font-weight: 700; color: var(--navy); padding-left: 10px; }
+  .score-note { text-align: right; font-size: 12px; font-style: italic; color: var(--grey); }
   .match-meta {
     font-size: 12px;
     color: var(--grey);
@@ -747,6 +748,20 @@ const SPORT_GROUPS = {
 function leagueSportGroup(leagueKey) {
   const sport = leagues[leagueKey] && leagues[leagueKey].sport;
   return SPORT_GROUPS[sport] || 'Other';
+}
+
+// Word shown on an upcoming match's status box, by sport group.
+const START_LABELS = {
+  'Rugby union': 'kick-off',
+  'Rugby league': 'kick-off',
+  'Football': 'kick-off',
+  'Soccer': 'kick-off',
+  'Basketball': 'tip-off',
+  'Hockey': 'puck-drop',
+};
+
+function startLabel(leagueKey) {
+  return START_LABELS[leagueSportGroup(leagueKey)] || 'start';
 }
 
 function matchesSportSelection(m, selectedSport) {
@@ -1258,7 +1273,7 @@ function render() {
       if (m.pens) extraLabel = 'Pens';
       else if (m.ot) extraLabel = 'OT';
     } else {
-      statusLabel = m._timeIsLocal ? 'kick-off' : (m._localTime ? 'venue time' : 'kick-off');
+      statusLabel = m._timeIsLocal ? startLabel(m.league) : (m._localTime ? 'venue time' : startLabel(m.league));
       statusClass = 'status-upcoming';
     }
 
@@ -1274,7 +1289,10 @@ function render() {
         </div>`;
     // AFLE/EFA display convention: away team's row on top, home team's row
     // on the bottom (see AWAY_FIRST_LEAGUES comment above).
-    const teamRowsHtml = AWAY_FIRST_LEAGUES.has(m.league) ? (awayRow + homeRow) : (homeRow + awayRow);
+    // m.note (e.g. "Cancelled", from fetch_fixtures.py's split_score_notes)
+    // sits right-aligned under the bottom row's score.
+    const noteRow = m.note ? `<div class="score-note">${escapeHtml(m.note)}</div>` : '';
+    const teamRowsHtml = (AWAY_FIRST_LEAGUES.has(m.league) ? (awayRow + homeRow) : (homeRow + awayRow)) + noteRow;
 
     card.innerHTML = `
       <div class="match-time ${status === 'live' ? 'is-live' : ''}">

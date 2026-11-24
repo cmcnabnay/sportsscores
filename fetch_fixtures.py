@@ -4942,7 +4942,24 @@ def drop_manual_removed_matches(matches):
             not in MANUAL_REMOVED_MATCHES]
 
 
+# A wiki score with a note after it, e.g. "0-0<br />''(Cancelled)''".
+SCORE_NOTE_RE = re.compile(r"^\s*(\d+\s*[-–]\s*\d+)\s*(?:<br\s*/?>)?\s*'*\(?([A-Za-z][A-Za-z ]*?)\)?'*\s*$")
+
+
+def split_score_notes(matches):
+    """Move a trailing note out of the score into m["note"], leaving a plain "H-A" score."""
+    for m in matches:
+        score = m.get("score")
+        if not isinstance(score, str):
+            continue
+        hit = SCORE_NOTE_RE.match(score)
+        if hit:
+            m["score"] = re.sub(r"\s+", "", hit.group(1))
+            m["note"] = hit.group(2).strip()
+
+
 def apply_manual_match_status(matches):
+    split_score_notes(matches)
     for m in matches:
         status = MANUAL_MATCH_STATUS.get((m.get("league"), m.get("date"), m.get("home"), m.get("away")))
         if status:
