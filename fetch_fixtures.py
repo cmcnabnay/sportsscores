@@ -1804,7 +1804,55 @@ def strip_citations(text: str) -> str:
     cleaned = re.sub(r"<ref[^>]*/>", "", cleaned, flags=re.IGNORECASE)
     # Bare {{cite ...}} / {{Cite ...}} templates not wrapped in <ref> tags
     cleaned = re.sub(r"\{\{\s*[Cc]ite[^{}]*\}\}", "", cleaned)
+    cleaned = strip_venue_templates(cleaned)
     return re.sub(r"\s+", " ", cleaned).strip()
+
+
+# Footnote-style templates glued onto a venue (e.g. "Xiaomi Arena, Riga,
+# Latvia{{refn|group=note|name=Ukraine|...}}") - dropped entirely.
+VENUE_NOTE_TEMPLATES = {"refn", "efn", "notetag", "note tag", "efn-ua", "efn-lr",
+                        "efn-lg", "sfn", "ref label", "#tag:ref", "r", "rp"}
+# Decorative templates with no useful visible text - dropped entirely.
+VENUE_DROP_TEMPLATES = {"flagicon", "flagdeco", "flag icon"}
+
+
+def strip_venue_templates(text):
+    """Resolve the {{...}} templates left in a venue string to their
+    visible text, innermost first so nested ones work: note templates
+    ({{refn}}, {{NoteTag}}, {{efn}}...) vanish, {{ill|Stade Chanzy|lt=...|fr|...}}
+    becomes its lt= text (else the first argument), and any other template
+    (e.g. {{rus|Western Springs Stadium}}) becomes its first argument."""
+    if not text or "{{" not in text:
+        return text
+
+    def repl(m):
+        parts = m.group(1).split("|")
+        name = parts[0].strip().lower()
+        args = parts[1:]
+        if name in VENUE_NOTE_TEMPLATES or name in VENUE_DROP_TEMPLATES:
+            return ""
+        named = {a.split("=", 1)[0].strip().lower(): a.split("=", 1)[1].strip()
+                 for a in args if "=" in a}
+        positional = [a.strip() for a in args if "=" not in a]
+        if name in ("ill", "interlanguage link") and named.get("lt"):
+            return named["lt"]
+        return positional[0] if positional else ""
+
+    prev = None
+    while prev != text:
+        prev = text
+        text = re.sub(r"\{\{([^{}]*)\}\}", repl, text)
+    return text
+
+
+def clean_stored_venues(matches):
+    """Re-run strip_citations() over venues already in fixtures.json, so
+    ones stored before a cleanup rule existed (incl. completed leagues
+    that are never re-fetched) get fixed too."""
+    for m in matches:
+        venue = m.get("venue")
+        if isinstance(venue, str) and "{{" in venue:
+            m["venue"] = strip_citations(venue) or None
 
 
 def strip_team_note_markers(name: str) -> str:
@@ -4961,6 +5009,7 @@ def split_score_notes(matches):
 
 def apply_manual_match_status(matches):
     split_score_notes(matches)
+    clean_stored_venues(matches)
     for m in matches:
         status = MANUAL_MATCH_STATUS.get((m.get("league"), m.get("date"), m.get("home"), m.get("away")))
         if status:
