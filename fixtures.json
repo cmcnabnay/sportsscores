@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-24T17:03:16+00:00",
+  "updated": "2026-11-24T17:14:15+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3543,9 +3543,9 @@
             "win": 7,
             "draw": null,
             "loss": 18,
-            "for": 50,
+            "for": 49,
             "against": 99,
-            "diff": -49,
+            "diff": -50,
             "points": 19,
             "highlight": null
           },
@@ -3637,8 +3637,8 @@
             "draw": null,
             "loss": 11,
             "for": 75,
-            "against": 76,
-            "diff": -1,
+            "against": 75,
+            "diff": 0,
             "points": 32,
             "highlight": "#BBF3BB"
           },
@@ -50628,7 +50628,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Lada Togliatti",
-      "score": null,
+      "score": "5-2",
       "date": "2026-11-24",
       "time": "14:00",
       "utc": "2026-11-24T14:00:00+00:00",
@@ -50640,7 +50640,7 @@
       "league": "khl-2026-27",
       "home": "Metallurg Magnitogorsk",
       "away": "Dinamo Minsk",
-      "score": null,
+      "score": "5-4",
       "date": "2026-11-24",
       "time": "14:00",
       "utc": "2026-11-24T14:00:00+00:00",
@@ -50652,12 +50652,13 @@
       "league": "khl-2026-27",
       "home": "Salavat Yulayev Ufa",
       "away": "Neftekhimik Nizhnekamsk",
-      "score": null,
+      "score": "5-4",
       "date": "2026-11-24",
       "time": "14:00",
       "utc": "2026-11-24T14:00:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4898148"
     },
     {
