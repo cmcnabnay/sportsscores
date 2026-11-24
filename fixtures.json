@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-24T17:14:15+00:00",
+  "updated": "2026-11-24T17:24:44+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10610,6 +10610,18 @@
             "highlight": "transparent"
           },
           {
+            "team": "Chelyabinsk",
+            "played": 19,
+            "win": 8,
+            "draw": 3,
+            "loss": 8,
+            "for": 29,
+            "against": 29,
+            "diff": 0,
+            "points": 27,
+            "highlight": "transparent"
+          },
+          {
             "team": "Volga Ulyanovsk",
             "played": 20,
             "win": 7,
@@ -10619,18 +10631,6 @@
             "against": 27,
             "diff": -3,
             "points": 25,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Chelyabinsk",
-            "played": 18,
-            "win": 7,
-            "draw": 3,
-            "loss": 8,
-            "for": 27,
-            "against": 29,
-            "diff": -2,
-            "points": 24,
             "highlight": "transparent"
           },
           {
@@ -10683,13 +10683,13 @@
           },
           {
             "team": "Leningradets Leningrad Oblast",
-            "played": 18,
+            "played": 19,
             "win": 4,
             "draw": 6,
-            "loss": 8,
+            "loss": 9,
             "for": 16,
-            "against": 28,
-            "diff": -12,
+            "against": 30,
+            "diff": -14,
             "points": 18,
             "highlight": "transparent"
           },
@@ -12255,8 +12255,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-23T17:14:59.285658+00:00",
-    "torpedo": "2026-11-23T17:14:59.285658+00:00",
+    "velez": "2026-11-24T17:24:37.682895+00:00",
+    "torpedo": "2026-11-24T17:24:37.682895+00:00",
     "velez:playoffs": "2026-11-24T00:00:09.494845+00:00"
   },
   "matches": [
