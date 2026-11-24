@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-23T23:49:13+00:00",
+  "updated": "2026-11-24T00:00:13+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -874,10 +874,10 @@
             {
               "seed1": null,
               "team1": "Gimnasia y Esgrima (LP)",
-              "score1": null,
+              "score1": 4,
               "seed2": null,
               "team2": "Newell's Old Boys",
-              "score2": null,
+              "score2": 2,
               "date": "2026-11-23",
               "venue": "Estadio Juan Carmelo Zerillo"
             }
@@ -921,7 +921,7 @@
               "team1": null,
               "score1": null,
               "seed2": null,
-              "team2": null,
+              "team2": "Gimnasia y Esgrima (LP)",
               "score2": null,
               "date": "2026-11-27",
               "venue": null
@@ -12257,7 +12257,7 @@
   "matrix_last_fetch": {
     "velez": "2026-11-23T17:14:59.285658+00:00",
     "torpedo": "2026-11-23T17:14:59.285658+00:00",
-    "velez:playoffs": "2026-11-23T17:14:59.285658+00:00"
+    "velez:playoffs": "2026-11-24T00:00:09.494845+00:00"
   },
   "matches": [
     {
