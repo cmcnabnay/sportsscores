@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-24T16:20:17+00:00",
+  "updated": "2026-11-24T16:31:23+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3491,7 +3491,7 @@
           },
           {
             "team": "Dynamo Moscow",
-            "played": 30,
+            "played": 31,
             "win": 14,
             "draw": null,
             "loss": 11,
@@ -3595,6 +3595,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Neftekhimik Nizhnekamsk",
+            "played": 31,
+            "win": 15,
+            "draw": null,
+            "loss": 11,
+            "for": 81,
+            "against": 86,
+            "diff": -5,
+            "points": 35,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Amur Khabarovsk",
             "played": 28,
             "win": 16,
@@ -3607,20 +3619,8 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Neftekhimik Nizhnekamsk",
-            "played": 31,
-            "win": 15,
-            "draw": null,
-            "loss": 11,
-            "for": 81,
-            "against": 85,
-            "diff": -4,
-            "points": 34,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Avtomobilist Yekaterinburg",
-            "played": 28,
+            "played": 29,
             "win": 15,
             "draw": null,
             "loss": 10,
@@ -3643,6 +3643,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Salavat Yulayev Ufa",
+            "played": 29,
+            "win": 15,
+            "draw": null,
+            "loss": 12,
+            "for": 88,
+            "against": 87,
+            "diff": 1,
+            "points": 31,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Barys Astana",
             "played": 29,
             "win": 14,
@@ -3651,18 +3663,6 @@
             "for": 89,
             "against": 82,
             "diff": 7,
-            "points": 29,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Salavat Yulayev Ufa",
-            "played": 29,
-            "win": 14,
-            "draw": null,
-            "loss": 12,
-            "for": 87,
-            "against": 87,
-            "diff": 0,
             "points": 29,
             "highlight": "#BBF3BB"
           },
