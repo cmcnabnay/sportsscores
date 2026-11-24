@@ -98,7 +98,7 @@
     "nations-cup-2026": {
       "name": "World Rugby Nations Cup 2026",
       "sport": "rugby",
-      "completed": false
+      "completed": true
     },
     "premiership-2026": {
       "name": "Gallagher Premiership 2026-27",
@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-24T16:41:49+00:00",
+  "updated": "2026-11-24T16:52:19+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3478,6 +3478,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Dynamo Moscow",
+            "played": 31,
+            "win": 15,
+            "draw": null,
+            "loss": 11,
+            "for": 66,
+            "against": 71,
+            "diff": -5,
+            "points": 35,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Torpedo Nizhny Novgorod",
             "played": 28,
             "win": 15,
@@ -3487,18 +3499,6 @@
             "against": 63,
             "diff": 6,
             "points": 34,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Dynamo Moscow",
-            "played": 31,
-            "win": 14,
-            "draw": null,
-            "loss": 12,
-            "for": 64,
-            "against": 71,
-            "diff": -7,
-            "points": 33,
             "highlight": "#BBF3BB"
           },
           {
@@ -3595,18 +3595,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 29,
-            "win": 16,
-            "draw": null,
-            "loss": 10,
-            "for": 75,
-            "against": 65,
-            "diff": 10,
-            "points": 35,
-            "highlight": "#BBF3FF"
-          },
-          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 31,
             "win": 15,
@@ -3628,6 +3616,18 @@
             "against": 46,
             "diff": 11,
             "points": 34,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 29,
+            "win": 15,
+            "draw": null,
+            "loss": 11,
+            "for": 75,
+            "against": 67,
+            "diff": 8,
+            "points": 33,
             "highlight": "#BBF3BB"
           },
           {
