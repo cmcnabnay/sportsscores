@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-24T16:31:23+00:00",
+  "updated": "2026-11-24T16:41:49+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3494,10 +3494,10 @@
             "played": 31,
             "win": 14,
             "draw": null,
-            "loss": 11,
+            "loss": 12,
             "for": 64,
-            "against": 70,
-            "diff": -6,
+            "against": 71,
+            "diff": -7,
             "points": 33,
             "highlight": "#BBF3BB"
           },
@@ -3595,6 +3595,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Avtomobilist Yekaterinburg",
+            "played": 29,
+            "win": 16,
+            "draw": null,
+            "loss": 10,
+            "for": 75,
+            "against": 65,
+            "diff": 10,
+            "points": 35,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Neftekhimik Nizhnekamsk",
             "played": 31,
             "win": 15,
@@ -3616,18 +3628,6 @@
             "against": 46,
             "diff": 11,
             "points": 34,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Avtomobilist Yekaterinburg",
-            "played": 29,
-            "win": 15,
-            "draw": null,
-            "loss": 10,
-            "for": 74,
-            "against": 65,
-            "diff": 9,
-            "points": 33,
             "highlight": "#BBF3BB"
           },
           {
