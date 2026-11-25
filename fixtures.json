@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-25T17:39:28+00:00",
+  "updated": "2026-11-25T20:48:05+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3444,13 +3444,13 @@
           {
             "team": "Lokomotiv Yaroslavl",
             "played": 29,
-            "win": 20,
+            "win": 21,
             "draw": null,
             "loss": 7,
-            "for": 77,
-            "against": 43,
-            "diff": 34,
-            "points": 41,
+            "for": 80,
+            "against": 45,
+            "diff": 35,
+            "points": 43,
             "highlight": "#BBF3FF"
           },
           {
@@ -3471,8 +3471,8 @@
             "win": 16,
             "draw": null,
             "loss": 9,
-            "for": 71,
-            "against": 63,
+            "for": 74,
+            "against": 66,
             "diff": 8,
             "points": 36,
             "highlight": "#BBF3FF"
@@ -3518,10 +3518,10 @@
             "played": 29,
             "win": 14,
             "draw": null,
-            "loss": 12,
-            "for": 83,
-            "against": 83,
-            "diff": 0,
+            "loss": 13,
+            "for": 85,
+            "against": 86,
+            "diff": -1,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -3684,8 +3684,8 @@
             "win": 11,
             "draw": null,
             "loss": 16,
-            "for": 65,
-            "against": 85,
+            "for": 68,
+            "against": 88,
             "diff": -20,
             "points": 26,
             "highlight": null
@@ -4144,6 +4144,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Mikkelin Jukurit",
+            "played": 26,
+            "win": 16,
+            "draw": null,
+            "loss": 10,
+            "for": 65,
+            "against": 53,
+            "diff": 12,
+            "points": 45,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "SaiPa Lappeenranta",
             "played": 22,
             "win": 15,
@@ -4152,18 +4164,6 @@
             "for": 70,
             "against": 47,
             "diff": 23,
-            "points": 43,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Mikkelin Jukurit",
-            "played": 25,
-            "win": 15,
-            "draw": null,
-            "loss": 10,
-            "for": 63,
-            "against": 52,
-            "diff": 11,
             "points": 43,
             "highlight": "#BBF3FF"
           },
@@ -4181,25 +4181,25 @@
           },
           {
             "team": "Oulun Kärpät",
-            "played": 25,
+            "played": 26,
             "win": 13,
             "draw": null,
-            "loss": 12,
-            "for": 72,
-            "against": 73,
-            "diff": -1,
+            "loss": 13,
+            "for": 74,
+            "against": 79,
+            "diff": -5,
             "points": 40,
             "highlight": "#BBF3FF"
           },
           {
             "team": "TPS Turku",
-            "played": 24,
+            "played": 25,
             "win": 13,
             "draw": null,
-            "loss": 11,
-            "for": 68,
-            "against": 67,
-            "diff": 1,
+            "loss": 12,
+            "for": 69,
+            "against": 70,
+            "diff": -1,
             "points": 39,
             "highlight": "#BBF3FF"
           },
@@ -4217,14 +4217,14 @@
           },
           {
             "team": "HIFK Helsinki",
-            "played": 23,
-            "win": 11,
+            "played": 24,
+            "win": 12,
             "draw": null,
             "loss": 12,
-            "for": 64,
-            "against": 66,
-            "diff": -2,
-            "points": 34,
+            "for": 67,
+            "against": 67,
+            "diff": 0,
+            "points": 37,
             "highlight": "#BBF3FF"
           },
           {
@@ -4240,6 +4240,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Lahti Pelicans",
+            "played": 24,
+            "win": 10,
+            "draw": null,
+            "loss": 14,
+            "for": 59,
+            "against": 61,
+            "diff": -2,
+            "points": 31,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "HPK Hämeenlinna",
             "played": 24,
             "win": 11,
@@ -4249,30 +4261,18 @@
             "against": 65,
             "diff": -13,
             "points": 30,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "Tappara Tampere",
-            "played": 23,
-            "win": 9,
-            "draw": null,
-            "loss": 14,
-            "for": 57,
-            "against": 63,
-            "diff": -6,
-            "points": 29,
             "highlight": null
           },
           {
-            "team": "Lahti Pelicans",
-            "played": 23,
+            "team": "Tappara Tampere",
+            "played": 24,
             "win": 9,
             "draw": null,
-            "loss": 14,
-            "for": 53,
-            "against": 59,
-            "diff": -6,
-            "points": 28,
+            "loss": 15,
+            "for": 58,
+            "against": 65,
+            "diff": -7,
+            "points": 30,
             "highlight": null
           },
           {
@@ -4289,26 +4289,26 @@
           },
           {
             "team": "Jokerit Helsinki",
-            "played": 24,
+            "played": 25,
             "win": 7,
             "draw": null,
-            "loss": 17,
-            "for": 58,
-            "against": 78,
-            "diff": -20,
+            "loss": 18,
+            "for": 61,
+            "against": 82,
+            "diff": -21,
             "points": 23,
             "highlight": "#FFBBBB"
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 23,
-            "win": 4,
+            "played": 24,
+            "win": 5,
             "draw": null,
             "loss": 19,
-            "for": 53,
-            "against": 92,
-            "diff": -39,
-            "points": 12,
+            "for": 57,
+            "against": 95,
+            "diff": -38,
+            "points": 15,
             "highlight": "#FFBBBB"
           }
         ],
@@ -6509,18 +6509,6 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "BC Dubai",
-            "played": 13,
-            "win": 9,
-            "draw": null,
-            "loss": 4,
-            "for": 1112,
-            "against": 1091,
-            "diff": 21,
-            "points": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Fenerbahçe Tarfin",
             "played": 14,
             "win": 9,
@@ -6529,6 +6517,18 @@
             "for": 1163,
             "against": 1082,
             "diff": 81,
+            "points": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "BC Dubai",
+            "played": 14,
+            "win": 9,
+            "draw": null,
+            "loss": 5,
+            "for": 1183,
+            "against": 1175,
+            "diff": 8,
             "points": null,
             "highlight": "#BBF3BB"
           },
@@ -6569,6 +6569,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "KK Partizan Mozzart Bet",
+            "played": 14,
+            "win": 8,
+            "draw": null,
+            "loss": 6,
+            "for": 1089,
+            "against": 1072,
+            "diff": 17,
+            "points": null,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Paris Basketball",
             "played": 14,
             "win": 8,
@@ -6590,7 +6602,7 @@
             "against": 1152,
             "diff": 75,
             "points": null,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "Hapoel Tel-Aviv",
@@ -6601,18 +6613,6 @@
             "for": 1175,
             "against": 1138,
             "diff": 37,
-            "points": null,
-            "highlight": null
-          },
-          {
-            "team": "KK Partizan Mozzart Bet",
-            "played": 13,
-            "win": 7,
-            "draw": null,
-            "loss": 6,
-            "for": 1005,
-            "against": 1001,
-            "diff": 4,
             "points": null,
             "highlight": null
           },
@@ -50886,7 +50886,7 @@
       "league": "khl-2026-27",
       "home": "Torpedo Nizhny Novgorod",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "5-3",
       "date": "2026-11-25",
       "time": "16:00",
       "utc": "2026-11-25T16:00:00+00:00",
@@ -50898,7 +50898,7 @@
       "league": "euroleague-2026-27",
       "home": "BC Dubai",
       "away": "KK Partizan Mozzart Bet",
-      "score": null,
+      "score": "71-84",
       "date": "2026-11-25",
       "time": "16:00",
       "utc": "2026-11-25T16:00:00+00:00",
@@ -50910,7 +50910,7 @@
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Lokomotiv Yaroslavl",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-25",
       "time": "16:30",
       "utc": "2026-11-25T16:30:00+00:00",
@@ -50922,7 +50922,7 @@
       "league": "liiga-2026-27",
       "home": "Jokerit Helsinki",
       "away": "KooKoo Kouvola",
-      "score": null,
+      "score": "3-4",
       "date": "2026-11-25",
       "time": "16:30",
       "utc": "2026-11-25T16:30:00+00:00",
@@ -50934,7 +50934,7 @@
       "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "Lahti Pelicans",
-      "score": null,
+      "score": "2-6",
       "date": "2026-11-25",
       "time": "16:30",
       "utc": "2026-11-25T16:30:00+00:00",
@@ -50946,19 +50946,20 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "Mikkelin Jukurit",
-      "score": null,
+      "score": "1-2",
       "date": "2026-11-25",
       "time": "16:30",
       "utc": "2026-11-25T16:30:00+00:00",
       "venue": "Nokia Arena",
       "attendance": null,
+      "ot": true,
       "source_id": "sofascore:16337454"
     },
     {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "TPS Turku",
-      "score": null,
+      "score": "3-1",
       "date": "2026-11-25",
       "time": "16:30",
       "utc": "2026-11-25T16:30:00+00:00",
@@ -56167,6 +56168,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212202"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Anadolu Efes",
+      "away": "KK Partizan Mozzart Bet",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:15",
+      "utc": "2026-12-15T17:15:00+00:00",
+      "venue": "Basketball Development Centre",
+      "attendance": null,
+      "source_id": "sofascore:16670769"
     },
     {
       "league": "bcl-2026-27",
@@ -61965,6 +61978,30 @@
       "source_id": "sofascore:16337565"
     },
     {
+      "league": "liiga-2026-27",
+      "home": "Porin Ässät",
+      "away": "KooKoo Kouvola",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "16:30",
+      "utc": "2027-01-05T16:30:00+00:00",
+      "venue": "Isomäki Areena",
+      "attendance": null,
+      "source_id": "sofascore:16337567"
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "HPK Hämeenlinna",
+      "away": "Kiekko-Espoo",
+      "score": null,
+      "date": "2027-01-05",
+      "time": "16:30",
+      "utc": "2027-01-05T16:30:00+00:00",
+      "venue": "Ritarihalli",
+      "attendance": null,
+      "source_id": "sofascore:16337564"
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Neptūnas",
       "away": "Tofas",
@@ -62227,6 +62264,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4776657"
+    },
+    {
+      "league": "liiga-2026-27",
+      "home": "Tappara Tampere",
+      "away": "Porin Ässät",
+      "score": null,
+      "date": "2027-01-06",
+      "time": "15:00",
+      "utc": "2027-01-06T15:00:00+00:00",
+      "venue": "Nokia Arena",
+      "attendance": null,
+      "source_id": "sofascore:16337571"
     },
     {
       "league": "eurocup-2026-27",
@@ -70245,6 +70294,18 @@
       "source_id": "365scores:4809165"
     },
     {
+      "league": "euroleague-2026-27",
+      "home": "Olympiacos BC",
+      "away": "Panathinaikos BC",
+      "score": null,
+      "date": "2027-02-12",
+      "time": "19:15",
+      "utc": "2027-02-12T19:15:00+00:00",
+      "venue": "Peace And Friendship Stadium",
+      "attendance": null,
+      "source_id": "sofascore:16670750"
+    },
+    {
       "league": "championship-2026",
       "home": "Bedford Blues",
       "away": "Nottingham",
@@ -74044,6 +74105,18 @@
     },
     {
       "league": "euroleague-2026-27",
+      "home": "Panathinaikos BC",
+      "away": "Beşiktaş JK",
+      "score": null,
+      "date": "2027-03-04",
+      "time": "19:15",
+      "utc": "2027-03-04T19:15:00+00:00",
+      "venue": "Telekom Center Athens",
+      "attendance": null,
+      "source_id": "sofascore:16670751"
+    },
+    {
+      "league": "euroleague-2026-27",
       "home": "Valencia Basket",
       "away": "Kauno Žalgiris",
       "score": null,
@@ -76384,6 +76457,30 @@
     },
     {
       "league": "euroleague-2026-27",
+      "home": "Maccabi Tel Aviv",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2027-03-18",
+      "time": "19:05",
+      "utc": "2027-03-18T19:05:00+00:00",
+      "venue": "Menora Mivtachim Arena",
+      "attendance": null,
+      "source_id": "sofascore:16670781"
+    },
+    {
+      "league": "euroleague-2026-27",
+      "home": "Panathinaikos BC",
+      "away": "Kauno Žalgiris",
+      "score": null,
+      "date": "2027-03-18",
+      "time": "19:15",
+      "utc": "2027-03-18T19:15:00+00:00",
+      "venue": "Telekom Center Athens",
+      "attendance": null,
+      "source_id": "sofascore:16670782"
+    },
+    {
+      "league": "euroleague-2026-27",
       "home": "KK Partizan Mozzart Bet",
       "away": "Bayern Munich",
       "score": null,
@@ -76405,18 +76502,6 @@
       "venue": "Movistar Arena",
       "attendance": null,
       "source_id": "sofascore:16670784"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "BC Dubai",
-      "away": "Olimpia Milano",
-      "score": null,
-      "date": "2027-03-19",
-      "time": "16:00",
-      "utc": "2027-03-19T16:00:00+00:00",
-      "venue": "Coca-Cola Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670786"
     },
     {
       "league": "liiga-2026-27",
@@ -76455,18 +76540,6 @@
       "source_id": "sofascore:16527553"
     },
     {
-      "league": "euroleague-2026-27",
-      "home": "Beşiktaş JK",
-      "away": "Anadolu Efes",
-      "score": null,
-      "date": "2027-03-19",
-      "time": "17:00",
-      "utc": "2027-03-19T17:00:00+00:00",
-      "venue": "Basketball Development Centre",
-      "attendance": null,
-      "source_id": "sofascore:16670785"
-    },
-    {
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "Jokerit Helsinki",
@@ -76489,18 +76562,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4809202"
-    },
-    {
-      "league": "euroleague-2026-27",
-      "home": "KK Crvena zvezda",
-      "away": "Olympiacos BC",
-      "score": null,
-      "date": "2027-03-19",
-      "time": "19:00",
-      "utc": "2027-03-19T19:00:00+00:00",
-      "venue": "Belgrade Arena",
-      "attendance": null,
-      "source_id": "sofascore:16670787"
     },
     {
       "league": "euroleague-2026-27",
