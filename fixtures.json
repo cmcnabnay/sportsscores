@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-26T01:51:36+00:00",
+  "updated": "2026-11-26T03:19:03+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -864,10 +864,10 @@
             {
               "seed1": null,
               "team1": "Boca Juniors",
-              "score1": null,
+              "score1": 2,
               "seed2": null,
               "team2": "Independiente Rivadavia",
-              "score2": null,
+              "score2": 0,
               "date": "2026-11-25",
               "venue": "Estadio Alberto José Armando"
             },
@@ -918,7 +918,7 @@
             },
             {
               "seed1": null,
-              "team1": null,
+              "team1": "Boca Juniors",
               "score1": null,
               "seed2": null,
               "team2": "Gimnasia y Esgrima (LP)",
@@ -12257,7 +12257,7 @@
   "matrix_last_fetch": {
     "velez": "2026-11-25T17:28:26.692701+00:00",
     "torpedo": "2026-11-25T17:28:26.692701+00:00",
-    "velez:playoffs": "2026-11-26T01:51:34.402232+00:00"
+    "velez:playoffs": "2026-11-26T02:02:09.083444+00:00"
   },
   "matches": [
     {
