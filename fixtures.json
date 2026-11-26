@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-26T18:20:36+00:00",
+  "updated": "2026-11-26T18:31:32+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -7056,6 +7056,20 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "South Korea",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 701,
+            "against": 685,
+            "diff": 16,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "China",
             "played": 9,
             "win": 5,
@@ -7095,7 +7109,7 @@
             "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "Saudi Arabia",
@@ -7109,32 +7123,18 @@
             "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "South Korea",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 627,
-            "against": 633,
-            "diff": -6,
-            "points": 12,
-            "try_bonus": null,
-            "losing_bonus": null,
             "highlight": "transparent"
           },
           {
             "team": "Qatar",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 607,
-            "against": 652,
-            "diff": -45,
-            "points": 12,
+            "loss": 5,
+            "for": 659,
+            "against": 726,
+            "diff": -67,
+            "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#CCF9CC"
@@ -51085,7 +51085,7 @@
       "time": "16:00",
       "utc": "2026-11-26T13:00:00+00:00",
       "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
-      "attendance": "150"
+      "attendance": "200"
     },
     {
       "league": "khl-2026-27",
@@ -51222,12 +51222,12 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Qatar",
       "away": "South Korea",
-      "score": null,
+      "score": "52-74",
       "date": "2026-11-26",
       "time": "19:00",
       "utc": "2026-11-26T16:00:00+00:00",
       "venue": "Al Janoub Stadium, Al Wakrah",
-      "attendance": null
+      "attendance": "882"
     },
     {
       "league": "fiba-wcq-europe-2027",
