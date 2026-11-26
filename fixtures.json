@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-26T17:27:29+00:00",
+  "updated": "2026-11-26T17:38:29+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12255,8 +12255,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-25T17:28:26.692701+00:00",
-    "torpedo": "2026-11-25T17:28:26.692701+00:00",
+    "velez": "2026-11-26T17:38:16.965635+00:00",
+    "torpedo": "2026-11-26T17:38:16.965635+00:00",
     "velez:playoffs": "2026-11-26T02:02:09.083444+00:00"
   },
   "matches": [
@@ -52057,6 +52057,18 @@
       "source_id": "sofascore:16230839"
     },
     {
+      "league": "argentina-liga-profesional-2026",
+      "home": "Vélez Sarsfield",
+      "away": "Independiente",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "20:00",
+      "utc": "2026-11-28T23:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4898845"
+    },
+    {
       "league": "top14-2026",
       "home": "Lyon",
       "away": "Stade Toulousain",
@@ -52138,18 +52150,6 @@
       "utc": "2026-11-29T13:10:00+00:00",
       "venue": "Twickenham Stadium, London",
       "attendance": null
-    },
-    {
-      "league": "argentina-liga-profesional-2026",
-      "home": "Vélez Sarsfield",
-      "away": "Independiente",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "14:00",
-      "utc": "2026-11-29T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4898845"
     },
     {
       "league": "fiba-wcq-asia-2027",
