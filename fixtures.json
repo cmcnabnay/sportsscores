@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-26T07:04:03+00:00",
+  "updated": "2026-11-26T16:24:46+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3503,12 +3503,12 @@
           },
           {
             "team": "Dinamo Minsk",
-            "played": 30,
+            "played": 31,
             "win": 12,
             "draw": null,
             "loss": 11,
-            "for": 71,
-            "against": 80,
+            "for": 74,
+            "against": 83,
             "diff": -9,
             "points": 31,
             "highlight": "#BBF3BB"
@@ -3584,14 +3584,14 @@
           },
           {
             "team": "Avangard Omsk",
-            "played": 28,
-            "win": 17,
+            "played": 29,
+            "win": 18,
             "draw": null,
             "loss": 9,
-            "for": 62,
-            "against": 61,
+            "for": 66,
+            "against": 65,
             "diff": 1,
-            "points": 36,
+            "points": 38,
             "highlight": "#BBF3FF"
           },
           {
@@ -3608,38 +3608,38 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 28,
+            "played": 29,
             "win": 16,
             "draw": null,
-            "loss": 10,
-            "for": 57,
-            "against": 46,
-            "diff": 11,
+            "loss": 11,
+            "for": 60,
+            "against": 51,
+            "diff": 9,
             "points": 34,
             "highlight": "#BBF3FF"
           },
           {
             "team": "Avtomobilist Yekaterinburg",
-            "played": 29,
+            "played": 30,
             "win": 15,
             "draw": null,
             "loss": 11,
-            "for": 76,
-            "against": 69,
-            "diff": 7,
-            "points": 33,
+            "for": 78,
+            "against": 72,
+            "diff": 6,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 30,
-            "win": 13,
+            "played": 31,
+            "win": 14,
             "draw": null,
             "loss": 11,
-            "for": 75,
-            "against": 75,
-            "diff": 0,
-            "points": 32,
+            "for": 78,
+            "against": 77,
+            "diff": 1,
+            "points": 34,
             "highlight": "#BBF3BB"
           },
           {
@@ -3656,26 +3656,38 @@
           },
           {
             "team": "Salavat Yulayev Ufa",
-            "played": 29,
+            "played": 30,
             "win": 15,
             "draw": null,
             "loss": 12,
-            "for": 88,
-            "against": 87,
+            "for": 91,
+            "against": 90,
             "diff": 1,
             "points": 31,
             "highlight": "#BBF3BB"
           },
           {
             "team": "AK Bars",
-            "played": 32,
-            "win": 12,
+            "played": 33,
+            "win": 13,
             "draw": null,
             "loss": 15,
-            "for": 69,
-            "against": 76,
-            "diff": -7,
-            "points": 27,
+            "for": 74,
+            "against": 79,
+            "diff": -5,
+            "points": 29,
+            "highlight": null
+          },
+          {
+            "team": "Admiral Vladivostok",
+            "played": 29,
+            "win": 11,
+            "draw": null,
+            "loss": 14,
+            "for": 74,
+            "against": 87,
+            "diff": -13,
+            "points": 26,
             "highlight": null
           },
           {
@@ -3688,18 +3700,6 @@
             "against": 88,
             "diff": -20,
             "points": 26,
-            "highlight": null
-          },
-          {
-            "team": "Admiral Vladivostok",
-            "played": 28,
-            "win": 11,
-            "draw": null,
-            "loss": 14,
-            "for": 70,
-            "against": 83,
-            "diff": -13,
-            "points": 25,
             "highlight": null
           }
         ],
@@ -7056,6 +7056,20 @@
       "Second Round · Group F": {
         "rows": [
           {
+            "team": "China",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 756,
+            "against": 735,
+            "diff": 21,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Japan",
             "played": 8,
             "win": 6,
@@ -7084,18 +7098,18 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "China",
-            "played": 8,
-            "win": 5,
+            "team": "Saudi Arabia",
+            "played": 9,
+            "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 676,
-            "against": 653,
-            "diff": 23,
+            "loss": 5,
+            "for": 693,
+            "against": 717,
+            "diff": -24,
             "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3BB"
+            "highlight": "#BBF3FF"
           },
           {
             "team": "South Korea",
@@ -7109,7 +7123,7 @@
             "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3FF"
+            "highlight": "transparent"
           },
           {
             "team": "Qatar",
@@ -7124,20 +7138,6 @@
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#CCF9CC"
-          },
-          {
-            "team": "Saudi Arabia",
-            "played": 8,
-            "win": 3,
-            "draw": null,
-            "loss": 5,
-            "for": 611,
-            "against": 637,
-            "diff": -26,
-            "points": 11,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
           }
         ],
         "legend": {}
@@ -7159,15 +7159,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "South Korea",
-            "played": 8,
+            "team": "Saudi Arabia",
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 627,
-            "against": 633,
-            "diff": -6,
-            "points": 12,
+            "loss": 5,
+            "for": 693,
+            "against": 717,
+            "diff": -24,
+            "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -13081,7 +13081,7 @@
       "score": "94-68",
       "date": "2025-11-27",
       "time": "16:00",
-      "utc": "2025-11-27T12:30:00+00:00",
+      "utc": "2025-11-27T14:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
       "attendance": "36"
     },
@@ -13521,7 +13521,7 @@
       "score": "71-86",
       "date": "2025-11-30",
       "time": "16:00",
-      "utc": "2025-11-30T12:30:00+00:00",
+      "utc": "2025-11-30T14:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
       "attendance": "35"
     },
@@ -14170,7 +14170,7 @@
       "score": "70-78",
       "date": "2026-02-27",
       "time": "15:00",
-      "utc": "2026-02-27T11:30:00+00:00",
+      "utc": "2026-02-27T13:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
       "attendance": "87"
     },
@@ -14192,7 +14192,7 @@
       "score": "60-73",
       "date": "2026-02-27",
       "time": "18:00",
-      "utc": "2026-02-27T14:30:00+00:00",
+      "utc": "2026-02-27T16:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
       "attendance": "100"
     },
@@ -18789,7 +18789,7 @@
       "score": "72-68",
       "date": "2026-06-29",
       "time": "16:30",
-      "utc": "2026-06-29T13:00:00+00:00",
+      "utc": "2026-06-29T13:30:00+00:00",
       "venue": "Prince Hamza Hall, Amman, Jordan",
       "attendance": "46"
     },
@@ -18811,7 +18811,7 @@
       "score": "59-108",
       "date": "2026-06-29",
       "time": "19:30",
-      "utc": "2026-06-29T16:00:00+00:00",
+      "utc": "2026-06-29T16:30:00+00:00",
       "venue": "Prince Hamza Hall, Amman, Jordan",
       "attendance": "1151"
     },
@@ -51031,7 +51031,7 @@
       "league": "khl-2026-27",
       "home": "Amur Khabarovsk",
       "away": "AK Bars",
-      "score": null,
+      "score": "3-5",
       "date": "2026-11-26",
       "time": "09:00",
       "utc": "2026-11-26T09:00:00+00:00",
@@ -51043,12 +51043,13 @@
       "league": "khl-2026-27",
       "home": "Admiral Vladivostok",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "4-5",
       "date": "2026-11-26",
       "time": "09:30",
       "utc": "2026-11-26T09:30:00+00:00",
       "venue": null,
       "attendance": null,
+      "ot": true,
       "source_id": "365scores:4898925"
     },
     {
@@ -51079,7 +51080,7 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Saudi Arabia",
       "away": "China",
-      "score": null,
+      "score": "82-80",
       "date": "2026-11-26",
       "time": "16:00",
       "utc": "2026-11-26T13:00:00+00:00",
@@ -52068,6 +52069,30 @@
       "source_id": "sofascore:16534981"
     },
     {
+      "league": "khl-2026-27",
+      "home": "SKA St. Petersburg",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "11:00",
+      "utc": "2026-11-29T11:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4901066"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Neftekhimik Nizhnekamsk",
+      "away": "Barys Astana",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "11:00",
+      "utc": "2026-11-29T11:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4901067"
+    },
+    {
       "league": "del-2026-27",
       "home": "Adler Mannheim",
       "away": "Augsburger Panther",
@@ -52136,6 +52161,18 @@
       "utc": "2026-11-29T11:00:00+00:00",
       "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Severstal Cherepovets",
+      "away": "Lokomotiv Yaroslavl",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "14:00",
+      "utc": "2026-11-29T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4901065"
     },
     {
       "league": "liiga-2026-27",
