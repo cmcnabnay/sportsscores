@@ -2305,6 +2305,13 @@ COUNTRY_TIMEZONES = {
     "iraq": "Asia/Baghdad", "indonesia": "Asia/Jakarta", "hong kong": "Asia/Hong_Kong",
     "thailand": "Asia/Bangkok", "united arab emirates": "Asia/Dubai", "kuwait": "Asia/Kuwait",
     "palestine": "Asia/Gaza", "guam": "Pacific/Guam",
+    # Common neutral hosts for FIBA Asia qualifying windows (e.g. the Nov 2026
+    # window in Seremban, Malaysia). Without these, guess_timezone() fell back
+    # to the home team's country and shifted kickoffs by several hours.
+    "malaysia": "Asia/Kuala_Lumpur", "singapore": "Asia/Singapore",
+    "vietnam": "Asia/Ho_Chi_Minh", "mongolia": "Asia/Ulaanbaatar",
+    "uzbekistan": "Asia/Tashkent", "oman": "Asia/Muscat",
+    "macau": "Asia/Macau", "macao": "Asia/Macau",
     # Europe (all of these observe EU-wide DST, roughly late March - late October)
     "france": "Europe/Paris", "germany": "Europe/Berlin", "spain": "Europe/Madrid",
     "italy": "Europe/Rome", "greece": "Europe/Athens", "turkey": "Europe/Istanbul",
