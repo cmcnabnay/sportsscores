@@ -450,10 +450,13 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "completed": True,
-        "utc_offset": 10,  # AEST; most home cities are east-coast Australia.
-                           # Simplification: doesn't account for AEDT during
-                           # Oct-Apr, or NZ Warriors' home games (Auckland,
-                           # UTC+12/+13) - overridden via venue lookup below.
+        # The page: "All times are listed in AEST (UTC+10)" - and it means
+        # it year-round (the 4 Oct grand final, a 7:30pm AEDT kickoff, is
+        # listed as 18:30), including Warriors/Auckland and Las Vegas games.
+        # Australia/Brisbane = AEST with no DST. No venue overrides.
+        "page_timezone": "Australia/Brisbane",
+        "utc_offset": 10,  # fallback for the finals page (rugbyleaguebox), whose
+                           # rows state their own zone anyway (AEST / NZST)
         "standings": {
             # From the page's own wikitext:
             #   ==Ladder==
@@ -526,9 +529,10 @@ LEAGUES = {
         "parser": "wikitable",
         "year": 2026,
         "completed": True,
-        "utc_offset": 1,  # UK (BST); Catalans Dragons/Toulouse Olympique
-                          # home games (France, also UTC+2 in summer) are
-                          # close enough not to need an override here
+        # The page: "All times (including matches played in France and the
+        # USA) are UK local time; GMT until 29 March, BST thereafter" - so
+        # Europe/London with DST, and no venue overrides.
+        "page_timezone": "Europe/London",
         "standings": {
             # Confirmed from the page's own wikitext:
             #   == Table ==
@@ -1651,6 +1655,7 @@ def normalize_date(iso_date, date_text, time_text):
 # prevailing form for that club.
 TEAM_NAME_ALIASES = {
     "hull kingston rovers": "Hull KR",
+    "hull fc": "Hull F.C.",
     # Rugby union clubs: fixtures.json's stored names (originally from
     # ESPN) are the canonical short forms. 365Scores and SofaScore both
     # spell several clubs differently (short name, old sponsor name, or
@@ -1781,10 +1786,21 @@ PLACEHOLDER_TEAM_NAME_PATTERNS = (
 )
 
 
+# Real club names that happen to look like the "A/B" placeholder pattern
+# above (sponsor-joined names, common in Estonian/Baltic basketball).
+# Without this, every game they play is silently dropped - BC Kalev/Cramo's
+# whole FIBA Europe Cup Group F schedule was missing from fixtures.json.
+REAL_SLASH_TEAM_NAMES = {
+    "bc kalev/cramo", "kalev/cramo", "taltech/alexela",
+}
+
+
 def is_placeholder_team_name(name: str) -> bool:
     if not name:
         return False
     cleaned = name.strip()
+    if cleaned.lower() in REAL_SLASH_TEAM_NAMES:
+        return False
     if cleaned.upper() in PLACEHOLDER_TEAM_NAMES:
         return True
     return any(p.match(cleaned) for p in PLACEHOLDER_TEAM_NAME_PATTERNS)
@@ -1805,7 +1821,11 @@ def strip_citations(text: str) -> str:
     # Bare {{cite ...}} / {{Cite ...}} templates not wrapped in <ref> tags
     cleaned = re.sub(r"\{\{\s*[Cc]ite[^{}]*\}\}", "", cleaned)
     cleaned = strip_venue_templates(cleaned)
-    return re.sub(r"\s+", " ", cleaned).strip()
+    # Rendered footnote references, e.g. "Allegiant Stadium [ b ]"
+    cleaned = re.sub(r"\s*\[\s*[a-zA-Z0-9]{1,3}\s*\]", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    # "Gladsaxe Stadium , Søborg" - a stray space before a comma
+    return re.sub(r"\s+,", ",", cleaned)
 
 
 # Footnote-style templates glued onto a venue (e.g. "Xiaomi Arena, Riga,
@@ -1851,7 +1871,7 @@ def clean_stored_venues(matches):
     that are never re-fetched) get fixed too."""
     for m in matches:
         venue = m.get("venue")
-        if isinstance(venue, str) and "{{" in venue:
+        if isinstance(venue, str) and re.search(r"\{\{|\[|\s,", venue):
             m["venue"] = strip_citations(venue) or None
 
 
@@ -1874,7 +1894,11 @@ def strip_team_note_markers(name: str) -> str:
     "Warrington Wolves [a]" become two separate rows for the same club)."""
     if not name:
         return name
+    if name.strip().lower() in REAL_PARENTHETICAL_TEAM_NAMES:
+        return canonicalize_team_name(name.strip())
     name = re.sub(r"^[xyz]\s*[-\u2013]\s*", "", name, flags=re.IGNORECASE)
+    # Any single lowercase status letter, e.g. EFA/AFLE's "e – Raiders Tirol"
+    name = re.sub(r"^[a-z]\s*[-\u2013]\s+", "", name)
     name = re.sub(r"\s*\[\s*[a-zA-Z0-9]{1,3}\s*\]\s*$", "", name)
     # Deliberately only these known footnote letters (Home/Away/reserves-
     # or-Expansion side/Reserves), not any short parenthetical - some
@@ -1882,10 +1906,33 @@ def strip_team_note_markers(name: str) -> str:
     # disambiguator (e.g. Argentina's "Estudiantes (LP)"), which must
     # NOT be stripped here.
     name = re.sub(r"\s*\((?:H|A|E|R)\)\s*$", "", name, flags=re.IGNORECASE)
+    # Table status markers: (C)hampions, (P)remiers, (L)eague leaders,
+    # (Y) leaders' shield, (Q)ualified, NPC's (RU) runner-up / (RS)
+    # Ranfurly Shield holder. Case-sensitive, and real club names that end
+    # the same way are protected by REAL_PARENTHETICAL_TEAM_NAMES above.
+    name = re.sub(r"\s*\((?:C|P|L|Y|Q|RU|RS)\)\s*$", "", name)
     return canonicalize_team_name(name.strip())
 
 
+# Real club names whose disambiguator looks like a table status marker
+# (Argentina: Talleres de Córdoba is written "Talleres (C)").
+REAL_PARENTHETICAL_TEAM_NAMES = {"talleres (c)"}
 
+
+def clean_stored_standings(data):
+    """Re-run strip_team_note_markers() over every stored standings row, so
+    tables stored before a marker rule existed (incl. completed leagues
+    that are never re-fetched) get fixed too."""
+    for groups in (data.get("standings") or {}).values():
+        if not isinstance(groups, dict):
+            continue
+        for group in groups.values():
+            for row in (group.get("rows") or []) if isinstance(group, dict) else []:
+                if isinstance(row.get("team"), str):
+                    row["team"] = strip_team_note_markers(row["team"])
+
+
+def preceding_heading_breadcrumb(element, levels):
     """Return {level: heading_text} for the nearest heading at each given
     level that appears before `element` in document order - i.e. which
     section(s) this element sits inside, most specific included. Used to
@@ -2358,7 +2405,25 @@ CITY_TIMEZONE_OVERRIDES = {
     "vina del mar": "America/Santiago", "viña del mar": "America/Santiago",
     "santiago": "America/Santiago",
     "charlotte": "America/New_York",
+    # Not Santiago, Chile - matched longest-first in guess_timezone(), so
+    # these win over the bare "santiago" entry above.
+    "santiago de compostela": "Europe/Madrid",
+    "santiago del estero": "America/Argentina/Cordoba",
+    # Canary Islands are an hour behind mainland Spain. "la laguna" also
+    # has to beat "santiago" for "Pabellón Insular Santiago Martín, La Laguna".
+    "la laguna": "Atlantic/Canary", "tenerife": "Atlantic/Canary",
+    "las palmas": "Atlantic/Canary", "gran canaria": "Atlantic/Canary",
+    "lanzarote": "Atlantic/Canary",
 }
+
+
+def _find_keyword_tz(text, table):
+    """Longest keyword first, whole words only - so "oman" can't match
+    inside "Romania" and "santiago de compostela" beats "santiago"."""
+    for key in sorted(table, key=len, reverse=True):
+        if re.search(rf"(?<!\w){re.escape(key)}(?!\w)", text):
+            return table[key]
+    return None
 
 
 def guess_timezone(location_text, venue_text, home_country_name):
@@ -2370,14 +2435,13 @@ def guess_timezone(location_text, venue_text, home_country_name):
     windows, but those pages tend to state the host country explicitly
     in 'location' anyway, so the first check already covers them)."""
     combined = f"{venue_text or ''} {location_text or ''}".lower()
-    for city, tz_name in CITY_TIMEZONE_OVERRIDES.items():
-        if city in combined:
-            return tz_name
+    tz_name = _find_keyword_tz(combined, CITY_TIMEZONE_OVERRIDES)
+    if tz_name:
+        return tz_name
     if location_text:
-        lower = location_text.lower()
-        for country, tz_name in COUNTRY_TIMEZONES.items():
-            if country in lower:
-                return tz_name
+        tz_name = _find_keyword_tz(location_text.lower(), COUNTRY_TIMEZONES)
+        if tz_name:
+            return tz_name
     if home_country_name:
         return COUNTRY_TIMEZONES.get(home_country_name.lower())
     return None
@@ -2579,8 +2643,13 @@ def parse_wikitable_matches(html: str, league_key: str, cfg: dict):
                 if "time" in roles:
                     time_out = to_24h(row[roles["time"]])
 
-            offset = guess_utc_offset(venue, default_offset)
-            utc = compute_utc(date_out, time_out, offset)
+            if cfg.get("page_timezone"):
+                # The page states one timezone for every row, wherever the
+                # game was played - a venue override would double-convert.
+                utc = compute_utc_from_timezone(date_out, time_out, cfg["page_timezone"])
+            else:
+                offset = guess_utc_offset(venue, default_offset)
+                utc = compute_utc(date_out, time_out, offset)
 
             # American football pages (AFLE, EFA) use away-score-first in the
             # Result column. Older table layouts also invert the Home/Away
@@ -4989,6 +5058,8 @@ MANUAL_MATCH_STATUS = {
 MANUAL_REMOVED_MATCHES = {
     # 365Scores lists it, but SofaScore has no such game.
     ("internationals-2026", "2026-10-31", "Belgium", "Hong Kong"),
+    # 365Scores placeholder: no venue, 00:00 kickoff, never got a score.
+    ("internationals-2026", "2026-11-14", "Paraguay", "Brazil"),
 }
 
 
@@ -5008,6 +5079,9 @@ def split_score_notes(matches):
         score = m.get("score")
         if not isinstance(score, str):
             continue
+        if "[" in score:
+            score = re.sub(r"\s*\[\s*[a-zA-Z0-9]{1,3}\s*\]", "", score).strip()
+            m["score"] = score
         hit = SCORE_NOTE_RE.match(score)
         if hit:
             m["score"] = re.sub(r"\s+", "", hit.group(1))
@@ -7088,6 +7162,7 @@ def run(league_keys, force=False, debug_matrix=None, matrix_keys=None):
 
     data["matches"] = drop_manual_removed_matches(data["matches"])
     apply_manual_match_status(data["matches"])
+    clean_stored_standings(data)
     data["matches"].sort(key=lambda m: (m["date"] or "9999-99-99", m["time"] or "99:99"))
     save(data)
     print(f"Wrote {len(data['matches'])} total matches to {OUTPUT_FILE}")
