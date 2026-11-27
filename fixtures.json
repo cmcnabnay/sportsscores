@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T17:34:21+00:00",
+  "updated": "2026-11-27T17:44:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -10527,26 +10527,26 @@
         "rows": [
           {
             "team": "Nizhny Novgorod",
-            "played": 18,
+            "played": 19,
             "win": 16,
             "draw": 1,
-            "loss": 1,
-            "for": 55,
-            "against": 15,
-            "diff": 40,
+            "loss": 2,
+            "for": 56,
+            "against": 17,
+            "diff": 39,
             "points": 49,
             "highlight": "#BBF3BB"
           },
           {
             "team": "Ural Yekaterinburg",
-            "played": 18,
+            "played": 19,
             "win": 11,
-            "draw": 4,
+            "draw": 5,
             "loss": 3,
-            "for": 31,
-            "against": 11,
+            "for": 32,
+            "against": 12,
             "diff": 20,
-            "points": 37,
+            "points": 38,
             "highlight": "#BBF3BB"
           },
           {
@@ -10647,14 +10647,26 @@
           },
           {
             "team": "Rotor Volgograd",
-            "played": 18,
+            "played": 19,
             "win": 5,
             "draw": 7,
-            "loss": 6,
-            "for": 25,
-            "against": 20,
-            "diff": 5,
+            "loss": 7,
+            "for": 26,
+            "against": 22,
+            "diff": 4,
             "points": 22,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Arsenal Tula",
+            "played": 19,
+            "win": 5,
+            "draw": 6,
+            "loss": 8,
+            "for": 23,
+            "against": 38,
+            "diff": -15,
+            "points": 21,
             "highlight": "transparent"
           },
           {
@@ -10670,15 +10682,15 @@
             "highlight": "transparent"
           },
           {
-            "team": "Arsenal Tula",
-            "played": 18,
-            "win": 5,
-            "draw": 5,
-            "loss": 8,
-            "for": 22,
-            "against": 37,
-            "diff": -15,
-            "points": 20,
+            "team": "KAMAZ Naberezhnye Chelny",
+            "played": 19,
+            "win": 4,
+            "draw": 6,
+            "loss": 9,
+            "for": 26,
+            "against": 33,
+            "diff": -7,
+            "points": 18,
             "highlight": "transparent"
           },
           {
@@ -10694,51 +10706,39 @@
             "highlight": "transparent"
           },
           {
-            "team": "KAMAZ Naberezhnye Chelny",
-            "played": 18,
-            "win": 4,
-            "draw": 5,
-            "loss": 9,
-            "for": 24,
-            "against": 31,
-            "diff": -7,
-            "points": 17,
-            "highlight": "transparent"
-          },
-          {
             "team": "Yenisey Krasnoyarsk",
-            "played": 18,
+            "played": 19,
             "win": 4,
-            "draw": 5,
+            "draw": 6,
             "loss": 9,
-            "for": 20,
-            "against": 35,
+            "for": 22,
+            "against": 37,
             "diff": -15,
-            "points": 17,
+            "points": 18,
             "highlight": "#FFBBBB"
           },
           {
             "team": "Neftekhimik Nizhnekamsk",
-            "played": 18,
-            "win": 4,
+            "played": 19,
+            "win": 5,
             "draw": 2,
             "loss": 12,
-            "for": 12,
-            "against": 26,
-            "diff": -14,
-            "points": 14,
+            "for": 14,
+            "against": 27,
+            "diff": -13,
+            "points": 17,
             "highlight": "#FFBBBB"
           },
           {
             "team": "Tekstilshchik Ivanovo",
-            "played": 18,
-            "win": 2,
+            "played": 19,
+            "win": 3,
             "draw": 6,
             "loss": 10,
-            "for": 14,
-            "against": 31,
-            "diff": -17,
-            "points": 12,
+            "for": 16,
+            "against": 32,
+            "diff": -16,
+            "points": 15,
             "highlight": "#FFBBBB"
           }
         ],
@@ -12255,8 +12255,8 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-26T17:38:16.965635+00:00",
-    "torpedo": "2026-11-26T17:38:16.965635+00:00",
+    "velez": "2026-11-27T17:43:53.794141+00:00",
+    "torpedo": "2026-11-27T17:43:53.794141+00:00",
     "velez:playoffs": "2026-11-27T02:06:40.935983+00:00"
   },
   "matches": [
