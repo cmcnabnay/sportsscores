@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T20:28:03+00:00",
+  "updated": "2026-11-27T20:39:12+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -8796,6 +8796,20 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Sweden",
+            "played": 9,
+            "win": 5,
+            "draw": null,
+            "loss": 4,
+            "for": 737,
+            "against": 749,
+            "diff": -12,
+            "points": 14,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Finland",
             "played": 8,
             "win": 5,
@@ -8810,6 +8824,20 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Hungary",
+            "played": 9,
+            "win": 4,
+            "draw": null,
+            "loss": 5,
+            "for": 731,
+            "against": 741,
+            "diff": -10,
+            "points": 13,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
             "team": "Slovenia",
             "played": 8,
             "win": 4,
@@ -8818,34 +8846,6 @@
             "for": 672,
             "against": 670,
             "diff": 2,
-            "points": 12,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Hungary",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 650,
-            "against": 653,
-            "diff": -3,
-            "points": 12,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Sweden",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 649,
-            "against": 668,
-            "diff": -19,
             "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
@@ -11612,14 +11612,14 @@
         "rows": [
           {
             "team": "US Oyonnax",
-            "played": 11,
-            "win": 9,
+            "played": 12,
+            "win": 10,
             "draw": null,
             "loss": 2,
-            "for": 413,
-            "against": 245,
-            "diff": 168,
-            "points": 42,
+            "for": 442,
+            "against": 251,
+            "diff": 191,
+            "points": 46,
             "highlight": "#D9FFEB"
           },
           {
@@ -11643,7 +11643,7 @@
             "for": 422,
             "against": 296,
             "diff": 126,
-            "points": 35,
+            "points": 36,
             "highlight": "#CCCCFF"
           },
           {
@@ -11659,16 +11659,40 @@
             "highlight": "#CCCCFF"
           },
           {
-            "team": "Stade Aurillacois",
-            "played": 11,
+            "team": "Valence Romans Drôme",
+            "played": 12,
             "win": 6,
             "draw": null,
-            "loss": 5,
-            "for": 404,
-            "against": 326,
-            "diff": 78,
+            "loss": 6,
+            "for": 397,
+            "against": 320,
+            "diff": 77,
             "points": 31,
             "highlight": "#CCCCFF"
+          },
+          {
+            "team": "Stade Aurillacois",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 430,
+            "against": 390,
+            "diff": 40,
+            "points": 31,
+            "highlight": "#CCCCFF"
+          },
+          {
+            "team": "SA XV Charente",
+            "played": 12,
+            "win": 6,
+            "draw": 1,
+            "loss": 5,
+            "for": 366,
+            "against": 288,
+            "diff": 78,
+            "points": 30,
+            "highlight": null
           },
           {
             "team": "US Montauban",
@@ -11680,7 +11704,19 @@
             "against": 340,
             "diff": -77,
             "points": 29,
-            "highlight": "#CCCCFF"
+            "highlight": null
+          },
+          {
+            "team": "SU Agen",
+            "played": 12,
+            "win": 6,
+            "draw": null,
+            "loss": 6,
+            "for": 358,
+            "against": 318,
+            "diff": 40,
+            "points": 29,
+            "highlight": null
           },
           {
             "team": "Biarritz Olympique",
@@ -11695,74 +11731,38 @@
             "highlight": null
           },
           {
-            "team": "Valence Romans Drôme",
-            "played": 11,
+            "team": "Colomiers Rugby",
+            "played": 12,
             "win": 5,
             "draw": null,
-            "loss": 6,
-            "for": 333,
-            "against": 294,
-            "diff": 39,
+            "loss": 7,
+            "for": 394,
+            "against": 347,
+            "diff": 47,
             "points": 27,
             "highlight": null
           },
           {
-            "team": "SA XV Charente",
-            "played": 11,
-            "win": 5,
-            "draw": 1,
-            "loss": 5,
-            "for": 330,
-            "against": 267,
-            "diff": 63,
-            "points": 26,
-            "highlight": null
-          },
-          {
-            "team": "SU Agen",
-            "played": 11,
-            "win": 5,
-            "draw": null,
-            "loss": 6,
-            "for": 303,
-            "against": 300,
-            "diff": 3,
-            "points": 25,
-            "highlight": null
-          },
-          {
             "team": "US Dax",
-            "played": 11,
+            "played": 12,
             "win": 5,
             "draw": 1,
-            "loss": 5,
-            "for": 337,
-            "against": 412,
-            "diff": -75,
+            "loss": 6,
+            "for": 343,
+            "against": 441,
+            "diff": -98,
             "points": 25,
-            "highlight": null
-          },
-          {
-            "team": "Colomiers Rugby",
-            "played": 11,
-            "win": 4,
-            "draw": null,
-            "loss": 7,
-            "for": 352,
-            "against": 316,
-            "diff": 36,
-            "points": 23,
             "highlight": null
           },
           {
             "team": "Nissa Rugby",
-            "played": 11,
+            "played": 12,
             "win": 4,
             "draw": null,
-            "loss": 7,
-            "for": 288,
-            "against": 324,
-            "diff": -36,
+            "loss": 8,
+            "for": 309,
+            "against": 360,
+            "diff": -51,
             "points": 21,
             "highlight": null
           },
@@ -11780,25 +11780,25 @@
           },
           {
             "team": "AS Béziers Hérault",
-            "played": 11,
+            "played": 12,
             "win": 2,
             "draw": null,
-            "loss": 9,
-            "for": 206,
-            "against": 391,
-            "diff": -185,
+            "loss": 10,
+            "for": 224,
+            "against": 446,
+            "diff": -222,
             "points": 11,
             "highlight": "#FFCCCC"
           },
           {
             "team": "USON Nevers",
-            "played": 11,
+            "played": 12,
             "win": 1,
             "draw": null,
-            "loss": 10,
-            "for": 220,
-            "against": 360,
-            "diff": -140,
+            "loss": 11,
+            "for": 251,
+            "against": 402,
+            "diff": -151,
             "points": 9,
             "highlight": "#FFBBBB"
           }
@@ -12256,7 +12256,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-27T19:21:19.354771+00:00",
-    "torpedo": "2026-11-27T20:27:55.692912+00:00",
+    "torpedo": "2026-11-27T20:38:56.129454+00:00",
     "velez:playoffs": "2026-11-27T19:21:19.354771+00:00"
   },
   "matches": [
@@ -51551,7 +51551,7 @@
       "league": "prod2-2026",
       "home": "US Dax",
       "away": "US Oyonnax",
-      "score": null,
+      "score": "6-29",
       "date": "2026-11-27",
       "time": "18:00",
       "utc": "2026-11-27T18:00:00+00:00",
@@ -51563,7 +51563,7 @@
       "league": "prod2-2026",
       "home": "SU Agen",
       "away": "AS Béziers Hérault",
-      "score": null,
+      "score": "55-18",
       "date": "2026-11-27",
       "time": "18:30",
       "utc": "2026-11-27T18:30:00+00:00",
@@ -51575,7 +51575,7 @@
       "league": "prod2-2026",
       "home": "Valence Romans Drôme",
       "away": "Stade Aurillacois",
-      "score": null,
+      "score": "64-26",
       "date": "2026-11-27",
       "time": "18:30",
       "utc": "2026-11-27T18:30:00+00:00",
@@ -51587,7 +51587,7 @@
       "league": "prod2-2026",
       "home": "Colomiers Rugby",
       "away": "USON Nevers",
-      "score": null,
+      "score": "42-31",
       "date": "2026-11-27",
       "time": "18:30",
       "utc": "2026-11-27T18:30:00+00:00",
@@ -51599,7 +51599,7 @@
       "league": "prod2-2026",
       "home": "SA XV Charente",
       "away": "Nissa Rugby",
-      "score": null,
+      "score": "36-21",
       "date": "2026-11-27",
       "time": "18:30",
       "utc": "2026-11-27T18:30:00+00:00",
@@ -51683,12 +51683,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Sweden",
       "away": "Hungary",
-      "score": null,
+      "score": "88-81",
       "date": "2026-11-27",
       "time": "19:00",
       "utc": "2026-11-27T18:00:00+00:00",
       "venue": "Avicii Arena, Stockholm",
-      "attendance": null
+      "attendance": "10650"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -74088,63 +74088,15 @@
     },
     {
       "league": "prod2-2026",
-      "home": "SU Agen",
-      "away": "Colomiers Rugby",
+      "home": "Valence Romans Drôme",
+      "away": "CA Brive",
       "score": null,
       "date": "2027-03-04",
       "time": "16:00",
       "utc": "2027-03-04T16:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16529558"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "USON Nevers",
-      "away": "US Oyonnax",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "16:00",
-      "utc": "2027-03-04T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529563"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "AS Béziers Hérault",
-      "away": "Nissa Rugby",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "16:00",
-      "utc": "2027-03-04T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529554"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "US Dax",
-      "away": "Stade Aurillacois",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "16:00",
-      "utc": "2027-03-04T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529564"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "SA XV Charente",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2027-03-04",
-      "time": "16:00",
-      "utc": "2027-03-04T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529551"
+      "source_id": "sofascore:16529562"
     },
     {
       "league": "liiga-2026-27",
@@ -77745,30 +77697,6 @@
       "venue": "Roig Arena",
       "attendance": null,
       "source_id": "sofascore:16670797"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "FC Grenoble Rugby",
-      "away": "RC Narbonne",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "16:00",
-      "utc": "2027-03-25T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529573"
-    },
-    {
-      "league": "prod2-2026",
-      "home": "CA Brive",
-      "away": "USON Nevers",
-      "score": null,
-      "date": "2027-03-25",
-      "time": "16:00",
-      "utc": "2027-03-25T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16529568"
     },
     {
       "league": "prod2-2026",
