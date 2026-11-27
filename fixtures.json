@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T17:54:44+00:00",
+  "updated": "2026-11-27T18:05:53+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4108,6 +4108,18 @@
       "Liiga 26/27": {
         "rows": [
           {
+            "team": "Rauman Lukko",
+            "played": 25,
+            "win": 19,
+            "draw": null,
+            "loss": 6,
+            "for": 78,
+            "against": 52,
+            "diff": 26,
+            "points": 55,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Tampereen Ilves",
             "played": 27,
             "win": 19,
@@ -4117,18 +4129,6 @@
             "against": 53,
             "diff": 27,
             "points": 54,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Rauman Lukko",
-            "played": 24,
-            "win": 18,
-            "draw": null,
-            "loss": 6,
-            "for": 74,
-            "against": 51,
-            "diff": 23,
-            "points": 52,
             "highlight": "#BBF3BB"
           },
           {
@@ -4145,13 +4145,13 @@
           },
           {
             "team": "Mikkelin Jukurit",
-            "played": 26,
+            "played": 27,
             "win": 16,
             "draw": null,
-            "loss": 10,
-            "for": 65,
-            "against": 53,
-            "diff": 12,
+            "loss": 11,
+            "for": 66,
+            "against": 57,
+            "diff": 9,
             "points": 45,
             "highlight": "#BBF3BB"
           },
@@ -51372,7 +51372,7 @@
       "league": "liiga-2026-27",
       "home": "Rauman Lukko",
       "away": "Mikkelin Jukurit",
-      "score": null,
+      "score": "4-1",
       "date": "2026-11-27",
       "time": "15:30",
       "utc": "2026-11-27T15:30:00+00:00",
@@ -62921,6 +62921,18 @@
     },
     {
       "league": "liiga-2026-27",
+      "home": "KooKoo Kouvola",
+      "away": "Tampereen Ilves",
+      "score": null,
+      "date": "2027-01-08",
+      "time": "16:30",
+      "utc": "2027-01-08T16:30:00+00:00",
+      "venue": "Lumon Areena",
+      "attendance": null,
+      "source_id": "sofascore:16337576"
+    },
+    {
+      "league": "liiga-2026-27",
       "home": "Oulun Kärpät",
       "away": "Jokerit Helsinki",
       "score": null,
@@ -64973,30 +64985,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "TPS Turku",
-      "score": null,
-      "date": "2027-01-16",
-      "time": "15:00",
-      "utc": "2027-01-16T15:00:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337602"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Vaasan Sport",
-      "away": "Lahti Pelicans",
-      "score": null,
-      "date": "2027-01-16",
-      "time": "15:00",
-      "utc": "2027-01-16T15:00:00+00:00",
-      "venue": "Vaasa Arena",
-      "attendance": null,
-      "source_id": "sofascore:16337606"
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "SaiPa Lappeenranta",
       "away": "Oulun Kärpät",
       "score": null,
@@ -65705,18 +65693,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "Tampereen Ilves",
-      "away": "Porin Ässät",
-      "score": null,
-      "date": "2027-01-19",
-      "time": "16:30",
-      "utc": "2027-01-19T16:30:00+00:00",
-      "venue": "Nokia Arena",
-      "attendance": null,
-      "source_id": "sofascore:16337609"
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "HPK Hämeenlinna",
       "away": "KalPa Kuopio",
       "score": null,
@@ -65729,18 +65705,6 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "SaiPa Lappeenranta",
-      "score": null,
-      "date": "2027-01-19",
-      "time": "16:30",
-      "utc": "2027-01-19T16:30:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337608"
-    },
-    {
-      "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "Mikkelin Jukurit",
       "score": null,
@@ -65750,18 +65714,6 @@
       "venue": "Barona Areena",
       "attendance": null,
       "source_id": "sofascore:16337611"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Oulun Kärpät",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-01-19",
-      "time": "16:30",
-      "utc": "2027-01-19T16:30:00+00:00",
-      "venue": "Oulun Energia Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337610"
     },
     {
       "league": "liiga-2026-27",
@@ -75851,63 +75803,15 @@
     },
     {
       "league": "liiga-2026-27",
-      "home": "SaiPa Lappeenranta",
-      "away": "TPS Turku",
+      "home": "Porin Ässät",
+      "away": "Tampereen Ilves",
       "score": null,
       "date": "2027-03-13",
       "time": "15:00",
       "utc": "2027-03-13T15:00:00+00:00",
-      "venue": "Kisapuisto",
+      "venue": "Isomäki Areena",
       "attendance": null,
-      "source_id": "sofascore:16337757"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Jokerit Helsinki",
-      "away": "Vaasan Sport",
-      "score": null,
-      "date": "2027-03-13",
-      "time": "15:00",
-      "utc": "2027-03-13T15:00:00+00:00",
-      "venue": "Helsinki Halli",
-      "attendance": null,
-      "source_id": "sofascore:16337760"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "HPK Hämeenlinna",
-      "away": "Tappara Tampere",
-      "score": null,
-      "date": "2027-03-13",
-      "time": "15:00",
-      "utc": "2027-03-13T15:00:00+00:00",
-      "venue": "Ritarihalli",
-      "attendance": null,
-      "source_id": "sofascore:16337755"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "Oulun Kärpät",
-      "away": "HIFK Helsinki",
-      "score": null,
-      "date": "2027-03-13",
-      "time": "15:00",
-      "utc": "2027-03-13T15:00:00+00:00",
-      "venue": "Oulun Energia Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337758"
-    },
-    {
-      "league": "liiga-2026-27",
-      "home": "JYP Jyväskylä",
-      "away": "KooKoo Kouvola",
-      "score": null,
-      "date": "2027-03-13",
-      "time": "15:00",
-      "utc": "2027-03-13T15:00:00+00:00",
-      "venue": "LahiTapiola Areena",
-      "attendance": null,
-      "source_id": "sofascore:16337759"
+      "source_id": "sofascore:16337756"
     },
     {
       "league": "liga-acb-2026-27",
