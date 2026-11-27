@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T03:32:09+00:00",
+  "updated": "2026-11-27T03:43:09+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9446,28 +9446,28 @@
           },
           {
             "team": "Puerto Rico",
-            "played": 8,
-            "win": 2,
+            "played": 9,
+            "win": 3,
             "draw": null,
             "loss": 6,
-            "for": 687,
-            "against": 722,
-            "diff": -35,
-            "points": 10,
+            "for": 786,
+            "against": 798,
+            "diff": -12,
+            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
           },
           {
             "team": "Panama",
-            "played": 8,
+            "played": 9,
             "win": 2,
             "draw": null,
-            "loss": 6,
-            "for": 603,
-            "against": 711,
-            "diff": -108,
-            "points": 10,
+            "loss": 7,
+            "for": 679,
+            "against": 810,
+            "diff": -131,
+            "points": 11,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
