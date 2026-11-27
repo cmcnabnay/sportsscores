@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T21:22:14+00:00",
+  "updated": "2026-11-27T21:32:38+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -8749,29 +8749,29 @@
             "highlight": "transparent"
           },
           {
-            "team": "Netherlands",
-            "played": 8,
-            "win": 2,
+            "team": "Israel",
+            "played": 9,
+            "win": 3,
             "draw": null,
             "loss": 6,
-            "for": 672,
-            "against": 686,
-            "diff": -14,
-            "points": 10,
+            "for": 724,
+            "against": 752,
+            "diff": -28,
+            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
           },
           {
-            "team": "Israel",
-            "played": 8,
+            "team": "Netherlands",
+            "played": 9,
             "win": 2,
             "draw": null,
-            "loss": 6,
-            "for": 634,
-            "against": 668,
-            "diff": -34,
-            "points": 10,
+            "loss": 7,
+            "for": 756,
+            "against": 776,
+            "diff": -20,
+            "points": 11,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -8796,6 +8796,20 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Finland",
+            "played": 9,
+            "win": 6,
+            "draw": null,
+            "loss": 3,
+            "for": 752,
+            "against": 726,
+            "diff": 26,
+            "points": 15,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Sweden",
             "played": 9,
             "win": 5,
@@ -8810,18 +8824,18 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Finland",
-            "played": 8,
-            "win": 5,
+            "team": "Slovenia",
+            "played": 9,
+            "win": 4,
             "draw": null,
-            "loss": 3,
-            "for": 645,
-            "against": 634,
-            "diff": 11,
+            "loss": 5,
+            "for": 764,
+            "against": 777,
+            "diff": -13,
             "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
-            "highlight": "#BBF3BB"
+            "highlight": "transparent"
           },
           {
             "team": "Hungary",
@@ -8833,20 +8847,6 @@
             "against": 741,
             "diff": -10,
             "points": 13,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Slovenia",
-            "played": 8,
-            "win": 4,
-            "draw": null,
-            "loss": 4,
-            "for": 672,
-            "against": 670,
-            "diff": 2,
-            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -51776,23 +51776,23 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Israel",
-      "score": null,
+      "score": "84-90",
       "date": "2026-11-27",
       "time": "20:00",
       "utc": "2026-11-27T19:00:00+00:00",
       "venue": "Sportcampus Zuiderpark, The Hague",
-      "attendance": null
+      "attendance": "1703"
     },
     {
       "league": "fiba-wcq-europe-2027",
       "home": "Slovenia",
       "away": "Finland",
-      "score": null,
+      "score": "92-107",
       "date": "2026-11-27",
       "time": "20:00",
       "utc": "2026-11-27T19:00:00+00:00",
       "venue": "Zlatorog Arena, Celje",
-      "attendance": null
+      "attendance": "2700"
     },
     {
       "league": "nations-championship-2026",
