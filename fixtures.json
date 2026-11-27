@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T18:49:44+00:00",
+  "updated": "2026-11-27T19:01:35+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3519,9 +3519,9 @@
             "win": 14,
             "draw": null,
             "loss": 14,
-            "for": 88,
-            "against": 91,
-            "diff": -3,
+            "for": 89,
+            "against": 93,
+            "diff": -4,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -3648,9 +3648,9 @@
             "win": 16,
             "draw": null,
             "loss": 14,
-            "for": 96,
-            "against": 86,
-            "diff": 10,
+            "for": 98,
+            "against": 87,
+            "diff": 11,
             "points": 33,
             "highlight": "#BBF3BB"
           },
@@ -4133,14 +4133,14 @@
           },
           {
             "team": "JYP Jyväskylä",
-            "played": 22,
-            "win": 16,
+            "played": 23,
+            "win": 17,
             "draw": null,
             "loss": 6,
-            "for": 76,
+            "for": 79,
             "against": 57,
-            "diff": 19,
-            "points": 47,
+            "diff": 22,
+            "points": 50,
             "highlight": "#BBF3BB"
           },
           {
@@ -4205,13 +4205,13 @@
           },
           {
             "team": "Kiekko-Espoo",
-            "played": 25,
+            "played": 26,
             "win": 12,
             "draw": null,
-            "loss": 13,
+            "loss": 14,
             "for": 78,
-            "against": 64,
-            "diff": 14,
+            "against": 66,
+            "diff": 12,
             "points": 38,
             "highlight": "#BBF3FF"
           },
@@ -4228,6 +4228,30 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "HPK Hämeenlinna",
+            "played": 25,
+            "win": 12,
+            "draw": null,
+            "loss": 13,
+            "for": 56,
+            "against": 66,
+            "diff": -10,
+            "points": 33,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Tappara Tampere",
+            "played": 25,
+            "win": 10,
+            "draw": null,
+            "loss": 15,
+            "for": 60,
+            "against": 65,
+            "diff": -5,
+            "points": 33,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Vaasan Sport",
             "played": 25,
             "win": 11,
@@ -4237,7 +4261,7 @@
             "against": 68,
             "diff": -16,
             "points": 33,
-            "highlight": "#BBF3FF"
+            "highlight": null
           },
           {
             "team": "Lahti Pelicans",
@@ -4249,41 +4273,17 @@
             "against": 61,
             "diff": -2,
             "points": 31,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "HPK Hämeenlinna",
-            "played": 24,
-            "win": 11,
-            "draw": null,
-            "loss": 13,
-            "for": 52,
-            "against": 65,
-            "diff": -13,
-            "points": 30,
-            "highlight": null
-          },
-          {
-            "team": "Tappara Tampere",
-            "played": 24,
-            "win": 9,
-            "draw": null,
-            "loss": 15,
-            "for": 58,
-            "against": 65,
-            "diff": -7,
-            "points": 30,
             "highlight": null
           },
           {
             "team": "KalPa Kuopio",
-            "played": 23,
+            "played": 24,
             "win": 8,
             "draw": null,
-            "loss": 15,
+            "loss": 16,
             "for": 55,
-            "against": 62,
-            "diff": -7,
+            "against": 65,
+            "diff": -10,
             "points": 27,
             "highlight": "#FFBBBB"
           },
@@ -4301,13 +4301,13 @@
           },
           {
             "team": "KooKoo Kouvola",
-            "played": 24,
+            "played": 25,
             "win": 5,
             "draw": null,
-            "loss": 19,
-            "for": 57,
-            "against": 95,
-            "diff": -38,
+            "loss": 20,
+            "for": 58,
+            "against": 99,
+            "diff": -41,
             "points": 15,
             "highlight": "#FFBBBB"
           }
@@ -12256,7 +12256,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-27T18:49:14.032913+00:00",
-    "torpedo": "2026-11-27T18:49:14.032913+00:00",
+    "torpedo": "2026-11-27T19:00:41.002009+00:00",
     "velez:playoffs": "2026-11-27T18:49:14.032913+00:00"
   },
   "matches": [
@@ -51396,7 +51396,7 @@
       "league": "khl-2026-27",
       "home": "SKA St. Petersburg",
       "away": "Barys Astana",
-      "score": null,
+      "score": "4-7",
       "date": "2026-11-27",
       "time": "16:30",
       "utc": "2026-11-27T16:30:00+00:00",
@@ -51408,7 +51408,7 @@
       "league": "liiga-2026-27",
       "home": "Tappara Tampere",
       "away": "Kiekko-Espoo",
-      "score": null,
+      "score": "2-0",
       "date": "2026-11-27",
       "time": "16:30",
       "utc": "2026-11-27T16:30:00+00:00",
@@ -51420,7 +51420,7 @@
       "league": "liiga-2026-27",
       "home": "KooKoo Kouvola",
       "away": "HPK Hämeenlinna",
-      "score": null,
+      "score": "1-4",
       "date": "2026-11-27",
       "time": "16:30",
       "utc": "2026-11-27T16:30:00+00:00",
@@ -51432,7 +51432,7 @@
       "league": "liiga-2026-27",
       "home": "KalPa Kuopio",
       "away": "JYP Jyväskylä",
-      "score": null,
+      "score": "0-3",
       "date": "2026-11-27",
       "time": "16:30",
       "utc": "2026-11-27T16:30:00+00:00",
