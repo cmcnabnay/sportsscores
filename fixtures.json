@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T18:39:30+00:00",
+  "updated": "2026-11-27T18:49:20+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12255,9 +12255,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-27T17:43:53.794141+00:00",
-    "torpedo": "2026-11-27T17:43:53.794141+00:00",
-    "velez:playoffs": "2026-11-27T02:06:40.935983+00:00"
+    "velez": "2026-11-27T18:49:14.032913+00:00",
+    "torpedo": "2026-11-27T18:49:14.032913+00:00",
+    "velez:playoffs": "2026-11-27T18:49:14.032913+00:00"
   },
   "matches": [
     {
@@ -13141,6 +13141,17 @@
       "attendance": "2630"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Switzerland",
+      "score": "90-86",
+      "date": "2025-11-27",
+      "time": "19:00",
+      "utc": "2025-11-27T18:00:00+00:00",
+      "venue": "Aleksandar Nikolić Hall, Belgrade",
+      "attendance": "2000"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "Saudi Arabia",
       "away": "India",
@@ -13164,14 +13175,14 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Switzerland",
-      "score": "90-86",
+      "home": "Great Britain",
+      "away": "Lithuania",
+      "score": "88-89",
       "date": "2025-11-27",
-      "time": "19:00",
-      "utc": "2025-11-27T18:00:00+00:00",
-      "venue": "Aleksandar Nikolić Hall, Belgrade",
-      "attendance": "2000"
+      "time": "19:30",
+      "utc": "2025-11-27T19:30:00+00:00",
+      "venue": "Copper Box Arena, London",
+      "attendance": "2809"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13183,17 +13194,6 @@
       "utc": "2025-11-27T16:30:00+00:00",
       "venue": "Prince Hamza Hall, Amman",
       "attendance": "2250"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Great Britain",
-      "away": "Lithuania",
-      "score": "88-89",
-      "date": "2025-11-27",
-      "time": "19:30",
-      "utc": "2025-11-27T19:30:00+00:00",
-      "venue": "Copper Box Arena, London",
-      "attendance": "2809"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -13317,17 +13317,6 @@
       "attendance": "2700"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Guam",
-      "away": "Philippines",
-      "score": "46-87",
-      "date": "2025-11-28",
-      "time": "19:00",
-      "utc": "2025-11-28T09:00:00+00:00",
-      "venue": "UOG Calvo Field House, Mangilao",
-      "attendance": "2364"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Cyprus",
@@ -13337,6 +13326,17 @@
       "utc": "2025-11-28T18:00:00+00:00",
       "venue": "Gradski vrt Hall, Osijek",
       "attendance": "2000"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Guam",
+      "away": "Philippines",
+      "score": "46-87",
+      "date": "2025-11-28",
+      "time": "19:00",
+      "utc": "2025-11-28T09:00:00+00:00",
+      "venue": "UOG Calvo Field House, Mangilao",
+      "attendance": "2364"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13372,28 +13372,6 @@
       "attendance": "6000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "New Zealand",
-      "score": "84-79",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T08:30:00+00:00",
-      "venue": "MyState Bank Arena, Hobart",
-      "attendance": "4137"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "South Korea",
-      "score": "76-80",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T11:30:00+00:00",
-      "venue": "Wukesong Arena, Beijing",
-      "attendance": "13486"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Germany",
       "away": "Israel",
@@ -13425,6 +13403,28 @@
       "utc": "2025-11-28T17:30:00+00:00",
       "venue": "Xiaomi Arena, Riga",
       "attendance": "9068"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "New Zealand",
+      "score": "84-79",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T08:30:00+00:00",
+      "venue": "MyState Bank Arena, Hobart",
+      "attendance": "4137"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "South Korea",
+      "score": "76-80",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T11:30:00+00:00",
+      "venue": "Wukesong Arena, Beijing",
+      "attendance": "13486"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -13713,6 +13713,28 @@
       "attendance": "3000"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Cyprus",
+      "away": "Germany",
+      "score": "64-83",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "utc": "2025-12-01T17:00:00+00:00",
+      "venue": "Spyros Kyprianou Athletic Center, Limassol",
+      "attendance": "950"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Sweden",
+      "away": "Slovenia",
+      "score": "83-94",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "utc": "2025-12-01T18:00:00+00:00",
+      "venue": "Scandinavium, Gothenburg",
+      "attendance": "9128"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "China",
@@ -13746,28 +13768,6 @@
       "attendance": "3050"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Cyprus",
-      "away": "Germany",
-      "score": "64-83",
-      "date": "2025-12-01",
-      "time": "19:00",
-      "utc": "2025-12-01T17:00:00+00:00",
-      "venue": "Spyros Kyprianou Athletic Center, Limassol",
-      "attendance": "950"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Sweden",
-      "away": "Slovenia",
-      "score": "83-94",
-      "date": "2025-12-01",
-      "time": "19:00",
-      "utc": "2025-12-01T18:00:00+00:00",
-      "venue": "Scandinavium, Gothenburg",
-      "attendance": "9128"
-    },
-    {
       "league": "fiba-wcq-americas-2027",
       "home": "United States",
       "away": "Nicaragua",
@@ -13790,17 +13790,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Guam",
-      "score": "95-71",
-      "date": "2025-12-01",
-      "time": "19:30",
-      "utc": "2025-12-01T11:30:00+00:00",
-      "venue": "Blue Eagle Gym, Quezon City",
-      "attendance": "3788"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Poland",
@@ -13810,6 +13799,17 @@
       "utc": "2025-12-01T18:30:00+00:00",
       "venue": "Sportcampus Zuiderpark, The Hague",
       "attendance": "3370"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Guam",
+      "score": "95-71",
+      "date": "2025-12-01",
+      "time": "19:30",
+      "utc": "2025-12-01T11:30:00+00:00",
+      "venue": "Blue Eagle Gym, Quezon City",
+      "attendance": "3788"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14164,17 +14164,6 @@
       "attendance": "2000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iraq",
-      "away": "Syria",
-      "score": "70-78",
-      "date": "2026-02-27",
-      "time": "15:00",
-      "utc": "2026-02-27T13:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
-      "attendance": "87"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Ukraine",
       "away": "Spain",
@@ -14187,14 +14176,14 @@
     },
     {
       "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "Jordan",
-      "score": "60-73",
+      "home": "Iraq",
+      "away": "Syria",
+      "score": "70-78",
       "date": "2026-02-27",
-      "time": "18:00",
-      "utc": "2026-02-27T16:00:00+00:00",
+      "time": "15:00",
+      "utc": "2026-02-27T13:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
-      "attendance": "100"
+      "attendance": "87"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14217,6 +14206,17 @@
       "utc": "2026-02-27T17:00:00+00:00",
       "venue": "Arena Savaria, Szombathely",
       "attendance": "2900"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iran",
+      "away": "Jordan",
+      "score": "60-73",
+      "date": "2026-02-27",
+      "time": "18:00",
+      "utc": "2026-02-27T16:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14406,17 +14406,6 @@
       "attendance": "3000"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "Saudi Arabia",
-      "score": "94-64",
-      "date": "2026-02-27",
-      "time": "21:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": "5934"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Israel",
       "away": "Cyprus",
@@ -14426,6 +14415,17 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Spyros Kyprianou Athletic Center, Limassol, Cyprus",
       "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "Saudi Arabia",
+      "score": "94-64",
+      "date": "2026-02-27",
+      "time": "21:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
+      "attendance": "5934"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -19097,17 +19097,6 @@
       "attendance": "1950"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Lebanon",
-      "score": "82-88",
-      "date": "2026-07-02",
-      "time": "20:00",
-      "utc": "2026-07-02T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "4217"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Switzerland",
       "away": "Serbia",
@@ -19128,6 +19117,17 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Arena Zenica, Zenica",
       "attendance": "3500"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Lebanon",
+      "score": "82-88",
+      "date": "2026-07-02",
+      "time": "20:00",
+      "utc": "2026-07-02T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "4217"
     },
     {
       "league": "u20-jwc-2026",
@@ -19209,17 +19209,6 @@
       "attendance": "1100"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "Guam",
-      "score": "124-52",
-      "date": "2026-07-03",
-      "time": "18:30",
-      "utc": "2026-07-03T10:30:00+00:00",
-      "venue": "Perth Arena, Perth",
-      "attendance": "5580"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Finland",
       "away": "Hungary",
@@ -19231,6 +19220,17 @@
       "attendance": "12489"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "Guam",
+      "score": "124-52",
+      "date": "2026-07-03",
+      "time": "18:30",
+      "utc": "2026-07-03T10:30:00+00:00",
+      "venue": "Perth Arena, Perth",
+      "attendance": "5580"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Rwanda",
       "away": "Tunisia",
@@ -19240,17 +19240,6 @@
       "utc": "2026-07-03T18:00:00+00:00",
       "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
       "attendance": "40"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Philippines",
-      "score": "106-102",
-      "date": "2026-07-03",
-      "time": "19:00",
-      "utc": "2026-07-03T07:00:00+00:00",
-      "venue": "Spark Arena, Auckland",
-      "attendance": "8690"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19275,6 +19264,17 @@
       "attendance": "6958"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Philippines",
+      "score": "106-102",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "utc": "2026-07-03T07:00:00+00:00",
+      "venue": "Spark Arena, Auckland",
+      "attendance": "8690"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Canada",
       "away": "Puerto Rico",
@@ -19297,6 +19297,17 @@
       "attendance": "15154"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Latvia",
+      "score": "69-72",
+      "date": "2026-07-03",
+      "time": "19:30",
+      "utc": "2026-07-03T17:30:00+00:00",
+      "venue": "Topsportcentrum, Almere",
+      "attendance": "3118"
+    },
+    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "Chinese Taipei",
@@ -19317,17 +19328,6 @@
       "utc": "2026-07-03T11:30:00+00:00",
       "venue": "Liaoning Gymnasium, Shenyang",
       "attendance": "11000"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Latvia",
-      "score": "69-72",
-      "date": "2026-07-03",
-      "time": "19:30",
-      "utc": "2026-07-03T17:30:00+00:00",
-      "venue": "Topsportcentrum, Almere",
-      "attendance": "3118"
     },
     {
       "league": "nrl-2026",
@@ -19968,17 +19968,6 @@
       "attendance": "3194"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "Iraq",
-      "score": "106-67",
-      "date": "2026-07-05",
-      "time": "19:30",
-      "utc": "2026-07-05T16:30:00+00:00",
-      "venue": "Prince Hamza Hall, Amman",
-      "attendance": "870"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Georgia",
       "away": "Spain",
@@ -20001,6 +19990,17 @@
       "attendance": "8155"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Jordan",
+      "away": "Iraq",
+      "score": "106-67",
+      "date": "2026-07-05",
+      "time": "19:30",
+      "utc": "2026-07-05T16:30:00+00:00",
+      "venue": "Prince Hamza Hall, Amman",
+      "attendance": "870"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Italy",
       "away": "Lithuania",
@@ -20012,17 +20012,6 @@
       "attendance": "4500"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "India",
-      "away": "Lebanon",
-      "score": "72-98",
-      "date": "2026-07-05",
-      "time": "20:30",
-      "utc": "2026-07-05T15:00:00+00:00",
-      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
-      "attendance": "4597"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Montenegro",
       "away": "Romania",
@@ -20032,6 +20021,17 @@
       "utc": "2026-07-05T18:30:00+00:00",
       "venue": "Topolica Sport Hall, Bar",
       "attendance": "2055"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "India",
+      "away": "Lebanon",
+      "score": "72-98",
+      "date": "2026-07-05",
+      "time": "20:30",
+      "utc": "2026-07-05T15:00:00+00:00",
+      "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
+      "attendance": "4597"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -20100,17 +20100,6 @@
       "attendance": "10037"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Guam",
-      "score": "129-75",
-      "date": "2026-07-06",
-      "time": "19:00",
-      "utc": "2026-07-06T07:00:00+00:00",
-      "venue": "Eventfinda Stadium, Auckland",
-      "attendance": "1570"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Switzerland",
@@ -20131,6 +20120,17 @@
       "utc": "2026-07-06T17:00:00+00:00",
       "venue": "Brose Arena, Bamberg",
       "attendance": "5713"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Guam",
+      "score": "129-75",
+      "date": "2026-07-06",
+      "time": "19:00",
+      "utc": "2026-07-06T07:00:00+00:00",
+      "venue": "Eventfinda Stadium, Auckland",
+      "attendance": "1570"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -20166,17 +20166,6 @@
       "attendance": "1421"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Japan",
-      "score": "81-79",
-      "date": "2026-07-06",
-      "time": "19:30",
-      "utc": "2026-07-06T10:30:00+00:00",
-      "venue": "Goyang Gymnasium, Goyang",
-      "attendance": "6298"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Austria",
@@ -20186,6 +20175,17 @@
       "utc": "2026-07-06T16:30:00+00:00",
       "venue": "Xiaomi Arena, Riga",
       "attendance": "9219"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Japan",
+      "score": "81-79",
+      "date": "2026-07-06",
+      "time": "19:30",
+      "utc": "2026-07-06T10:30:00+00:00",
+      "venue": "Goyang Gymnasium, Goyang",
+      "attendance": "6298"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -24250,17 +24250,6 @@
       "attendance": "36476"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Japan",
-      "score": "78-106",
-      "date": "2026-08-27",
-      "time": "20:00",
-      "utc": "2026-08-27T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "2065"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Latvia",
@@ -24281,6 +24270,17 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Lanxess Arena, Cologne",
       "attendance": "15309"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Japan",
+      "score": "78-106",
+      "date": "2026-08-27",
+      "time": "20:00",
+      "utc": "2026-08-27T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "2065"
     },
     {
       "league": "super-league-2026",
@@ -24349,17 +24349,6 @@
       "attendance": "3890"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Lebanon",
-      "away": "South Korea",
-      "score": "93-74",
-      "date": "2026-08-27",
-      "time": "21:00",
-      "utc": "2026-08-27T18:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
-      "attendance": "5121"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Israel",
       "away": "Poland",
@@ -24369,6 +24358,17 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Xiaomi Arena, Riga, Latvia",
       "attendance": "100"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Lebanon",
+      "away": "South Korea",
+      "score": "93-74",
+      "date": "2026-08-27",
+      "time": "21:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
+      "attendance": "5121"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -25075,17 +25075,6 @@
       "attendance": "7068"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Iran",
-      "score": "68-56",
-      "date": "2026-08-30",
-      "time": "20:00",
-      "utc": "2026-08-30T12:00:00+00:00",
-      "venue": "SM Mall of Asia Arena, Pasay",
-      "attendance": "18308"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Slovenia",
       "away": "Hungary",
@@ -25095,6 +25084,17 @@
       "utc": "2026-08-30T18:00:00+00:00",
       "venue": "Tivoli Hall, Ljubljana",
       "attendance": "2500"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Iran",
+      "score": "68-56",
+      "date": "2026-08-30",
+      "time": "20:00",
+      "utc": "2026-08-30T12:00:00+00:00",
+      "venue": "SM Mall of Asia Arena, Pasay",
+      "attendance": "18308"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -25119,17 +25119,6 @@
       "attendance": "715"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Saudi Arabia",
-      "score": "85-72",
-      "date": "2026-08-31",
-      "time": "19:00",
-      "utc": "2026-08-31T10:00:00+00:00",
-      "venue": "KT Sonicboom Arena, Suwon",
-      "attendance": "2543"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Greece",
       "away": "Spain",
@@ -25150,6 +25139,17 @@
       "utc": "2026-08-31T18:00:00+00:00",
       "venue": "Centro de Desportos e Congressos de Matosinhos, Matosinhos",
       "attendance": "4158"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Saudi Arabia",
+      "score": "85-72",
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T10:00:00+00:00",
+      "venue": "KT Sonicboom Arena, Suwon",
+      "attendance": "2543"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -25174,17 +25174,6 @@
       "attendance": "9153"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Lebanon",
-      "score": "89-87",
-      "date": "2026-08-31",
-      "time": "19:30",
-      "utc": "2026-08-31T11:30:00+00:00",
-      "venue": "Xishi Basketball Center, Zhuji",
-      "attendance": "12127"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Iceland",
       "away": "Turkey",
@@ -25205,6 +25194,17 @@
       "utc": "2026-08-31T17:30:00+00:00",
       "venue": "Vitrifrigo Arena, Pesaro",
       "attendance": "9487"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Lebanon",
+      "score": "89-87",
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T11:30:00+00:00",
+      "venue": "Xishi Basketball Center, Zhuji",
+      "attendance": "12127"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -51224,17 +51224,6 @@
       "source_id": "sofascore:16422564"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Qatar",
-      "away": "South Korea",
-      "score": "52-74",
-      "date": "2026-11-26",
-      "time": "19:00",
-      "utc": "2026-11-26T16:00:00+00:00",
-      "venue": "Al Janoub Stadium, Al Wakrah",
-      "attendance": "882"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Portugal",
       "away": "Ukraine",
@@ -51255,6 +51244,17 @@
       "utc": "2026-11-26T18:00:00+00:00",
       "venue": "Morača Sports Center, Podgorica",
       "attendance": "2247"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Qatar",
+      "away": "South Korea",
+      "score": "52-74",
+      "date": "2026-11-26",
+      "time": "19:00",
+      "utc": "2026-11-26T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah",
+      "attendance": "882"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -51352,7 +51352,7 @@
       "score": "64-103",
       "date": "2026-11-27",
       "time": "14:00",
-      "utc": "2026-11-27T11:00:00+00:00",
+      "utc": "2026-11-27T06:00:00+00:00",
       "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": "150"
     },
@@ -51458,7 +51458,7 @@
       "score": "67-84",
       "date": "2026-11-27",
       "time": "17:00",
-      "utc": "2026-11-27T13:30:00+00:00",
+      "utc": "2026-11-27T09:00:00+00:00",
       "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": "202"
     },
@@ -51687,17 +51687,6 @@
       "source_id": "sofascore:16535132"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "Philippines",
-      "score": "58-97",
-      "date": "2026-11-27",
-      "time": "20:00",
-      "utc": "2026-11-27T17:00:00+00:00",
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": "480"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Israel",
@@ -51718,6 +51707,17 @@
       "utc": "2026-11-27T19:00:00+00:00",
       "venue": "Zlatorog Arena, Celje",
       "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "Philippines",
+      "score": "58-97",
+      "date": "2026-11-27",
+      "time": "20:00",
+      "utc": "2026-11-27T12:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": "480"
     },
     {
       "league": "nations-championship-2026",
@@ -52157,17 +52157,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "14:00",
-      "utc": "2026-11-29T11:00:00+00:00",
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
-    },
-    {
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Lokomotiv Yaroslavl",
@@ -52178,6 +52167,17 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4901065"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "14:00",
+      "utc": "2026-11-29T06:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
     },
     {
       "league": "liiga-2026-27",
@@ -52256,7 +52256,7 @@
       "score": null,
       "date": "2026-11-29",
       "time": "17:00",
-      "utc": "2026-11-29T13:30:00+00:00",
+      "utc": "2026-11-29T09:00:00+00:00",
       "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
@@ -52328,17 +52328,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "South Korea",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "19:00",
-      "utc": "2026-11-29T16:00:00+00:00",
-      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Iceland",
@@ -52361,6 +52350,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "South Korea",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "19:00",
+      "utc": "2026-11-29T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Georgia",
       "away": "Portugal",
@@ -52378,7 +52378,7 @@
       "score": null,
       "date": "2026-11-29",
       "time": "20:00",
-      "utc": "2026-11-29T17:00:00+00:00",
+      "utc": "2026-11-29T12:00:00+00:00",
       "venue": "Karisma Arena, Seremban, Malaysia",
       "attendance": null
     },
@@ -72808,72 +72808,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Lebanon",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "Syria",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Jordan",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Qatar",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Iran",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Japan",
-      "away": "Saudi Arabia",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Iceland",
       "away": "Serbia",
@@ -72932,6 +72866,72 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Lithuania",
       "away": "Turkey",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Lebanon",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "Syria",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Jordan",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Qatar",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Iran",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Japan",
+      "away": "Saudi Arabia",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -73558,72 +73558,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Jordan",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Qatar",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Japan",
-      "away": "Lebanon",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Philippines",
-      "away": "Syria",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Saudi Arabia",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "Iran",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Montenegro",
@@ -73687,6 +73621,72 @@
       "time": null,
       "utc": null,
       "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Jordan",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Qatar",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Japan",
+      "away": "Lebanon",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Philippines",
+      "away": "Syria",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Saudi Arabia",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "Iran",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
       "attendance": null
     },
     {
