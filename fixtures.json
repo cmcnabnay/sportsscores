@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T19:22:48+00:00",
+  "updated": "2026-11-27T20:07:21+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -4157,13 +4157,13 @@
           },
           {
             "team": "SaiPa Lappeenranta",
-            "played": 22,
+            "played": 23,
             "win": 15,
             "draw": null,
-            "loss": 7,
-            "for": 70,
-            "against": 47,
-            "diff": 23,
+            "loss": 8,
+            "for": 73,
+            "against": 51,
+            "diff": 22,
             "points": 43,
             "highlight": "#BBF3FF"
           },
@@ -4176,6 +4176,18 @@
             "for": 60,
             "against": 68,
             "diff": -8,
+            "points": 40,
+            "highlight": "#BBF3FF"
+          },
+          {
+            "team": "HIFK Helsinki",
+            "played": 25,
+            "win": 13,
+            "draw": null,
+            "loss": 12,
+            "for": 71,
+            "against": 70,
+            "diff": 1,
             "points": 40,
             "highlight": "#BBF3FF"
           },
@@ -4213,18 +4225,6 @@
             "against": 66,
             "diff": 12,
             "points": 38,
-            "highlight": "#BBF3FF"
-          },
-          {
-            "team": "HIFK Helsinki",
-            "played": 24,
-            "win": 12,
-            "draw": null,
-            "loss": 12,
-            "for": 67,
-            "against": 67,
-            "diff": 0,
-            "points": 37,
             "highlight": "#BBF3FF"
           },
           {
@@ -8693,6 +8693,20 @@
       "Qualifiers · Second Round · Group K": {
         "rows": [
           {
+            "team": "Germany",
+            "played": 9,
+            "win": 8,
+            "draw": null,
+            "loss": 1,
+            "for": 827,
+            "against": 733,
+            "diff": 94,
+            "points": 17,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Croatia",
             "played": 8,
             "win": 7,
@@ -8721,29 +8735,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Germany",
-            "played": 8,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 749,
-            "against": 657,
-            "diff": 92,
-            "points": 15,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Latvia",
-            "played": 8,
+            "played": 9,
             "win": 4,
             "draw": null,
-            "loss": 4,
-            "for": 667,
-            "against": 650,
-            "diff": 17,
-            "points": 12,
+            "loss": 5,
+            "for": 743,
+            "against": 728,
+            "diff": 15,
+            "points": 13,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -12256,7 +12256,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-27T19:21:19.354771+00:00",
-    "torpedo": "2026-11-27T19:22:41.010385+00:00",
+    "torpedo": "2026-11-27T20:06:56.172323+00:00",
     "velez:playoffs": "2026-11-27T19:21:19.354771+00:00"
   },
   "matches": [
@@ -51517,7 +51517,7 @@
       "league": "nations-championship-2026",
       "home": "Italy",
       "away": "Fiji",
-      "score": null,
+      "score": "23-21",
       "date": "2026-11-27",
       "time": "16:40",
       "utc": "2026-11-27T16:40:00+00:00",
@@ -51539,7 +51539,7 @@
       "league": "liiga-2026-27",
       "home": "HIFK Helsinki",
       "away": "SaiPa Lappeenranta",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-27",
       "time": "17:30",
       "utc": "2026-11-27T17:30:00+00:00",
@@ -51717,12 +51717,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Latvia",
       "away": "Germany",
-      "score": null,
+      "score": "76-78",
       "date": "2026-11-27",
       "time": "19:30",
       "utc": "2026-11-27T17:30:00+00:00",
       "venue": "Xiaomi Arena, Riga",
-      "attendance": null
+      "attendance": "10032"
     },
     {
       "league": "fiba-wcq-americas-2027",
