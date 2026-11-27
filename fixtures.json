@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T19:01:35+00:00",
+  "updated": "2026-11-27T19:11:49+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -8604,7 +8604,7 @@
       "Qualifiers · Second Round · Group J": {
         "rows": [
           {
-            "team": "Turkey",
+            "team": "Turkey (Q)",
             "played": 9,
             "win": 8,
             "draw": null,
@@ -8782,15 +8782,15 @@
       "Qualifiers · Second Round · Group L": {
         "rows": [
           {
-            "team": "France",
-            "played": 8,
-            "win": 7,
+            "team": "France (Q)",
+            "played": 9,
+            "win": 8,
             "draw": null,
             "loss": 1,
-            "for": 681,
-            "against": 573,
-            "diff": 108,
-            "points": 15,
+            "for": 762,
+            "against": 646,
+            "diff": 116,
+            "points": 17,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -8853,14 +8853,14 @@
           },
           {
             "team": "Estonia",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": null,
-            "loss": 5,
-            "for": 643,
-            "against": 664,
-            "diff": -21,
-            "points": 11,
+            "loss": 6,
+            "for": 716,
+            "against": 745,
+            "diff": -29,
+            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -12255,9 +12255,9 @@
     ]
   },
   "matrix_last_fetch": {
-    "velez": "2026-11-27T18:49:14.032913+00:00",
-    "torpedo": "2026-11-27T19:00:41.002009+00:00",
-    "velez:playoffs": "2026-11-27T18:49:14.032913+00:00"
+    "velez": "2026-11-27T19:06:21.367526+00:00",
+    "torpedo": "2026-11-27T19:11:41.072088+00:00",
+    "velez:playoffs": "2026-11-27T19:06:21.367526+00:00"
   },
   "matches": [
     {
@@ -13609,7 +13609,7 @@
       "score": "90-61",
       "date": "2025-11-30",
       "time": "18:45",
-      "utc": "2025-11-30T21:45:00+00:00",
+      "utc": "2025-11-30T18:45:00+00:00",
       "venue": "Pabellón Insular Santiago Martín, La Laguna",
       "attendance": "4603"
     },
@@ -34002,6 +34002,18 @@
       "source_id": "sofascore:17212173"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Kalev/Cramo",
+      "away": "Biotekno Körfez Basket",
+      "score": "86-78",
+      "date": "2026-10-07",
+      "time": "16:30",
+      "utc": "2026-10-07T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212152"
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Utenos Juventus",
       "away": "Unicaja Málaga",
@@ -36470,6 +36482,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212192"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Valmiera Glass VIA",
+      "away": "BC Kalev/Cramo",
+      "score": "82-74",
+      "date": "2026-10-14",
+      "time": "16:00",
+      "utc": "2026-10-14T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212158"
     },
     {
       "league": "khl-2026-27",
@@ -39191,6 +39215,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212141"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Kalev/Cramo",
+      "away": "KB Bashkimi",
+      "score": "88-84",
+      "date": "2026-10-21",
+      "time": "16:30",
+      "utc": "2026-10-21T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206978"
     },
     {
       "league": "eurocup-2026-27",
@@ -41982,6 +42018,18 @@
       "source_id": "365scores:4771436"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Manchester Basketball",
+      "away": "BC Kalev/Cramo",
+      "score": "89-85",
+      "date": "2026-10-28",
+      "time": "19:00",
+      "utc": "2026-10-28T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206980"
+    },
+    {
       "league": "euroleague-2026-27",
       "home": "Virtus Bologna",
       "away": "Kauno Žalgiris",
@@ -44533,6 +44581,18 @@
       "source_id": "sofascore:17212178"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Chalon-sur-Saône",
+      "away": "BC Kalev/Cramo",
+      "score": "68-74",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "utc": "2026-11-04T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206982"
+    },
+    {
       "league": "eurocup-2026-27",
       "home": "Maxima Roma",
       "away": "London Lions",
@@ -46162,6 +46222,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4771457"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Biotekno Körfez Basket",
+      "away": "BC Kalev/Cramo",
+      "score": "101-75",
+      "date": "2026-11-11",
+      "time": "16:30",
+      "utc": "2026-11-11T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206984"
     },
     {
       "league": "liiga-2026-27",
@@ -48306,6 +48378,18 @@
       "venue": "Hayovel Herzeliya",
       "attendance": null,
       "source_id": "sofascore:16611529"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Kalev/Cramo",
+      "away": "Valmiera Glass VIA",
+      "score": "83-81",
+      "date": "2026-11-17",
+      "time": "17:30",
+      "utc": "2026-11-17T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206987"
     },
     {
       "league": "bcl-2026-27",
@@ -51621,12 +51705,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Estonia",
       "away": "France",
-      "score": null,
+      "score": "73-81",
       "date": "2026-11-27",
       "time": "19:00",
       "utc": "2026-11-27T17:00:00+00:00",
       "venue": "Unibet Arena, Tallinn",
-      "attendance": null
+      "attendance": "7027"
     },
     {
       "league": "russian-first-league-2026-27",
@@ -52267,7 +52351,7 @@
       "score": null,
       "date": "2026-11-29",
       "time": "18:00",
-      "utc": "2026-11-29T21:00:00+00:00",
+      "utc": "2026-11-29T17:00:00+00:00",
       "venue": "Pavillón Multiusos Fontes do Sar, Santiago de Compostela",
       "attendance": null
     },
@@ -54785,18 +54869,6 @@
     },
     {
       "league": "fiba-europe-cup-2026-27",
-      "home": "KK Split",
-      "away": "Gladiators Trier",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "18:00",
-      "utc": "2026-12-09T18:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17187424"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
       "home": "King Wilki Morskie Szczecin",
       "away": "Keravnos Strovolou",
       "score": null,
@@ -54806,6 +54878,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17206934"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "KB Bashkimi",
+      "away": "BC Kalev/Cramo",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "18:00",
+      "utc": "2026-12-09T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212161"
     },
     {
       "league": "del-2026-27",
@@ -54902,6 +54986,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4770086"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "KK Split",
+      "away": "Gladiators Trier",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17187424"
     },
     {
       "league": "fiba-europe-cup-2026-27",
@@ -56282,6 +56378,18 @@
       "venue": "Salohalli",
       "attendance": null,
       "source_id": "sofascore:17230821"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Kalev/Cramo",
+      "away": "Manchester Basketball",
+      "score": null,
+      "date": "2026-12-15",
+      "time": "17:30",
+      "utc": "2026-12-15T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212163"
     },
     {
       "league": "fiba-europe-cup-2026-27",
@@ -58994,6 +59102,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212187"
+    },
+    {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "BC Kalev/Cramo",
+      "away": "Chalon-sur-Saône",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:30",
+      "utc": "2026-12-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212165"
     },
     {
       "league": "lnb-elite-2026-27",
