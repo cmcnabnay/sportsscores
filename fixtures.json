@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T22:24:45+00:00",
+  "updated": "2026-11-27T22:35:40+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -11624,15 +11624,27 @@
           },
           {
             "team": "Provence Rugby",
-            "played": 11,
-            "win": 9,
+            "played": 12,
+            "win": 10,
             "draw": 1,
             "loss": 1,
-            "for": 354,
-            "against": 241,
-            "diff": 113,
-            "points": 41,
+            "for": 402,
+            "against": 259,
+            "diff": 143,
+            "points": 45,
             "highlight": "#D9FFEB"
+          },
+          {
+            "team": "FC Grenoble Rugby",
+            "played": 12,
+            "win": 9,
+            "draw": null,
+            "loss": 3,
+            "for": 370,
+            "against": 296,
+            "diff": 74,
+            "points": 38,
+            "highlight": "#CCCCFF"
           },
           {
             "team": "CA Brive",
@@ -11644,18 +11656,6 @@
             "against": 296,
             "diff": 126,
             "points": 36,
-            "highlight": "#CCCCFF"
-          },
-          {
-            "team": "FC Grenoble Rugby",
-            "played": 11,
-            "win": 8,
-            "draw": null,
-            "loss": 3,
-            "for": 329,
-            "against": 271,
-            "diff": 58,
-            "points": 34,
             "highlight": "#CCCCFF"
           },
           {
@@ -11696,13 +11696,13 @@
           },
           {
             "team": "US Montauban",
-            "played": 11,
+            "played": 12,
             "win": 7,
             "draw": null,
-            "loss": 4,
-            "for": 263,
-            "against": 340,
-            "diff": -77,
+            "loss": 5,
+            "for": 281,
+            "against": 388,
+            "diff": -107,
             "points": 29,
             "highlight": null
           },
@@ -11768,13 +11768,13 @@
           },
           {
             "team": "RC Narbonne",
-            "played": 11,
+            "played": 12,
             "win": 3,
             "draw": null,
-            "loss": 8,
-            "for": 304,
-            "against": 415,
-            "diff": -111,
+            "loss": 9,
+            "for": 329,
+            "against": 456,
+            "diff": -127,
             "points": 16,
             "highlight": null
           },
@@ -51741,7 +51741,7 @@
       "league": "prod2-2026",
       "home": "RC Narbonne",
       "away": "FC Grenoble Rugby",
-      "score": null,
+      "score": "25-41",
       "date": "2026-11-27",
       "time": "20:00",
       "utc": "2026-11-27T20:00:00+00:00",
@@ -51753,7 +51753,7 @@
       "league": "prod2-2026",
       "home": "Provence Rugby",
       "away": "US Montauban",
-      "score": null,
+      "score": "48-18",
       "date": "2026-11-27",
       "time": "20:00",
       "utc": "2026-11-27T20:00:00+00:00",
