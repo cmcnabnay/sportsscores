@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T19:21:42+00:00",
+  "updated": "2026-11-27T19:22:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -12256,7 +12256,7 @@
   },
   "matrix_last_fetch": {
     "velez": "2026-11-27T19:21:19.354771+00:00",
-    "torpedo": "2026-11-27T19:21:19.354771+00:00",
+    "torpedo": "2026-11-27T19:22:41.010385+00:00",
     "velez:playoffs": "2026-11-27T19:21:19.354771+00:00"
   },
   "matches": [
@@ -13141,17 +13141,6 @@
       "attendance": "2630"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Switzerland",
-      "score": "90-86",
-      "date": "2025-11-27",
-      "time": "19:00",
-      "utc": "2025-11-27T18:00:00+00:00",
-      "venue": "Aleksandar Nikolić Hall, Belgrade",
-      "attendance": "2000"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Saudi Arabia",
       "away": "India",
@@ -13175,14 +13164,14 @@
     },
     {
       "league": "fiba-wcq-europe-2027",
-      "home": "Great Britain",
-      "away": "Lithuania",
-      "score": "88-89",
+      "home": "Serbia",
+      "away": "Switzerland",
+      "score": "90-86",
       "date": "2025-11-27",
-      "time": "19:30",
-      "utc": "2025-11-27T19:30:00+00:00",
-      "venue": "Copper Box Arena, London",
-      "attendance": "2809"
+      "time": "19:00",
+      "utc": "2025-11-27T18:00:00+00:00",
+      "venue": "Aleksandar Nikolić Hall, Belgrade",
+      "attendance": "2000"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13194,6 +13183,17 @@
       "utc": "2025-11-27T16:30:00+00:00",
       "venue": "Prince Hamza Hall, Amman",
       "attendance": "2250"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Great Britain",
+      "away": "Lithuania",
+      "score": "88-89",
+      "date": "2025-11-27",
+      "time": "19:30",
+      "utc": "2025-11-27T19:30:00+00:00",
+      "venue": "Copper Box Arena, London",
+      "attendance": "2809"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -13317,17 +13317,6 @@
       "attendance": "2700"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Croatia",
-      "away": "Cyprus",
-      "score": "100-60",
-      "date": "2025-11-28",
-      "time": "19:00",
-      "utc": "2025-11-28T18:00:00+00:00",
-      "venue": "Gradski vrt Hall, Osijek",
-      "attendance": "2000"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Guam",
       "away": "Philippines",
@@ -13337,6 +13326,17 @@
       "utc": "2025-11-28T09:00:00+00:00",
       "venue": "UOG Calvo Field House, Mangilao",
       "attendance": "2364"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Croatia",
+      "away": "Cyprus",
+      "score": "100-60",
+      "date": "2025-11-28",
+      "time": "19:00",
+      "utc": "2025-11-28T18:00:00+00:00",
+      "venue": "Gradski vrt Hall, Osijek",
+      "attendance": "2000"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -13372,6 +13372,28 @@
       "attendance": "6000"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Australia",
+      "away": "New Zealand",
+      "score": "84-79",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T08:30:00+00:00",
+      "venue": "MyState Bank Arena, Hobart",
+      "attendance": "4137"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "South Korea",
+      "score": "76-80",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "utc": "2025-11-28T11:30:00+00:00",
+      "venue": "Wukesong Arena, Beijing",
+      "attendance": "13486"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Germany",
       "away": "Israel",
@@ -13403,28 +13425,6 @@
       "utc": "2025-11-28T17:30:00+00:00",
       "venue": "Xiaomi Arena, Riga",
       "attendance": "9068"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Australia",
-      "away": "New Zealand",
-      "score": "84-79",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T08:30:00+00:00",
-      "venue": "MyState Bank Arena, Hobart",
-      "attendance": "4137"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "South Korea",
-      "score": "76-80",
-      "date": "2025-11-28",
-      "time": "19:30",
-      "utc": "2025-11-28T11:30:00+00:00",
-      "venue": "Wukesong Arena, Beijing",
-      "attendance": "13486"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -13713,28 +13713,6 @@
       "attendance": "3000"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Cyprus",
-      "away": "Germany",
-      "score": "64-83",
-      "date": "2025-12-01",
-      "time": "19:00",
-      "utc": "2025-12-01T17:00:00+00:00",
-      "venue": "Spyros Kyprianou Athletic Center, Limassol",
-      "attendance": "950"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Sweden",
-      "away": "Slovenia",
-      "score": "83-94",
-      "date": "2025-12-01",
-      "time": "19:00",
-      "utc": "2025-12-01T18:00:00+00:00",
-      "venue": "Scandinavium, Gothenburg",
-      "attendance": "9128"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "China",
@@ -13768,6 +13746,28 @@
       "attendance": "3050"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Cyprus",
+      "away": "Germany",
+      "score": "64-83",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "utc": "2025-12-01T17:00:00+00:00",
+      "venue": "Spyros Kyprianou Athletic Center, Limassol",
+      "attendance": "950"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Sweden",
+      "away": "Slovenia",
+      "score": "83-94",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "utc": "2025-12-01T18:00:00+00:00",
+      "venue": "Scandinavium, Gothenburg",
+      "attendance": "9128"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "United States",
       "away": "Nicaragua",
@@ -13790,17 +13790,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Poland",
-      "score": "83-85",
-      "date": "2025-12-01",
-      "time": "19:30",
-      "utc": "2025-12-01T18:30:00+00:00",
-      "venue": "Sportcampus Zuiderpark, The Hague",
-      "attendance": "3370"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Philippines",
       "away": "Guam",
@@ -13810,6 +13799,17 @@
       "utc": "2025-12-01T11:30:00+00:00",
       "venue": "Blue Eagle Gym, Quezon City",
       "attendance": "3788"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Poland",
+      "score": "83-85",
+      "date": "2025-12-01",
+      "time": "19:30",
+      "utc": "2025-12-01T18:30:00+00:00",
+      "venue": "Sportcampus Zuiderpark, The Hague",
+      "attendance": "3370"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14109,17 +14109,6 @@
       "attendance": "12054"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Angola",
-      "away": "Uganda",
-      "score": "90-68",
-      "date": "2026-02-26",
-      "time": "20:00",
-      "utc": "2026-02-26T18:00:00+00:00",
-      "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
-      "attendance": "300"
-    },
-    {
       "league": "super-league-2026",
       "home": "Wigan Warriors",
       "away": "Leigh Leopards",
@@ -14129,6 +14118,17 @@
       "utc": "2026-02-26T20:00:00+00:00",
       "venue": "Brick Community Stadium",
       "attendance": "16370"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Angola",
+      "away": "Uganda",
+      "score": "90-68",
+      "date": "2026-02-26",
+      "time": "20:00",
+      "utc": "2026-02-26T18:00:00+00:00",
+      "venue": "Borg Al Arab Sports Hall, Alexandria, Egypt",
+      "attendance": "300"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -14164,6 +14164,17 @@
       "attendance": "2000"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Iraq",
+      "away": "Syria",
+      "score": "70-78",
+      "date": "2026-02-27",
+      "time": "15:00",
+      "utc": "2026-02-27T13:00:00+00:00",
+      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
+      "attendance": "87"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Ukraine",
       "away": "Spain",
@@ -14176,14 +14187,14 @@
     },
     {
       "league": "fiba-wcq-asia-2027",
-      "home": "Iraq",
-      "away": "Syria",
-      "score": "70-78",
+      "home": "Iran",
+      "away": "Jordan",
+      "score": "60-73",
       "date": "2026-02-27",
-      "time": "15:00",
-      "utc": "2026-02-27T13:00:00+00:00",
+      "time": "18:00",
+      "utc": "2026-02-27T16:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
-      "attendance": "87"
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14206,17 +14217,6 @@
       "utc": "2026-02-27T17:00:00+00:00",
       "venue": "Arena Savaria, Szombathely",
       "attendance": "2900"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Iran",
-      "away": "Jordan",
-      "score": "60-73",
-      "date": "2026-02-27",
-      "time": "18:00",
-      "utc": "2026-02-27T16:00:00+00:00",
-      "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael, Lebanon",
-      "attendance": "100"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14329,17 +14329,6 @@
       "attendance": "1886"
     },
     {
-      "league": "fiba-wcq-americas-2027",
-      "home": "Chile",
-      "away": "Colombia",
-      "score": "78-86",
-      "date": "2026-02-27",
-      "time": "20:00",
-      "utc": "2026-02-27T23:00:00+00:00",
-      "venue": "Coliseo Municipal Antonio Azurmendy Riveros, Valdivia",
-      "attendance": "3195"
-    },
-    {
       "league": "super-league-2026",
       "home": "Hull F.C.",
       "away": "York Knights",
@@ -14360,6 +14349,17 @@
       "utc": "2026-02-27T20:00:00+00:00",
       "venue": "OneBore Stadium",
       "attendance": "6105"
+    },
+    {
+      "league": "fiba-wcq-americas-2027",
+      "home": "Chile",
+      "away": "Colombia",
+      "score": "78-86",
+      "date": "2026-02-27",
+      "time": "20:00",
+      "utc": "2026-02-27T23:00:00+00:00",
+      "venue": "Coliseo Municipal Antonio Azurmendy Riveros, Valdivia",
+      "attendance": "3195"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -14406,17 +14406,6 @@
       "attendance": "3000"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Israel",
-      "away": "Cyprus",
-      "score": "94-54",
-      "date": "2026-02-27",
-      "time": "21:00",
-      "utc": "2026-02-27T19:00:00+00:00",
-      "venue": "Spyros Kyprianou Athletic Center, Limassol, Cyprus",
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Lebanon",
       "away": "Saudi Arabia",
@@ -14426,6 +14415,17 @@
       "utc": "2026-02-27T19:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
       "attendance": "5934"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Israel",
+      "away": "Cyprus",
+      "score": "94-54",
+      "date": "2026-02-27",
+      "time": "21:00",
+      "utc": "2026-02-27T19:00:00+00:00",
+      "venue": "Spyros Kyprianou Athletic Center, Limassol, Cyprus",
+      "attendance": null
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -14461,17 +14461,6 @@
       "attendance": "10094"
     },
     {
-      "league": "fiba-wcq-africa-2027",
-      "home": "Ivory Coast",
-      "away": "DR Congo",
-      "score": "96-59",
-      "date": "2026-02-28",
-      "time": "18:00",
-      "utc": "2026-02-28T18:00:00+00:00",
-      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
-      "attendance": "1200"
-    },
-    {
       "league": "super-league-2026",
       "home": "Catalans Dragons",
       "away": "St Helens",
@@ -14481,6 +14470,17 @@
       "utc": "2026-02-28T18:00:00+00:00",
       "venue": "Stade Gilbert Brutus",
       "attendance": "8729"
+    },
+    {
+      "league": "fiba-wcq-africa-2027",
+      "home": "Ivory Coast",
+      "away": "DR Congo",
+      "score": "96-59",
+      "date": "2026-02-28",
+      "time": "18:00",
+      "utc": "2026-02-28T18:00:00+00:00",
+      "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
+      "attendance": "1200"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -19097,6 +19097,17 @@
       "attendance": "1950"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Lebanon",
+      "score": "82-88",
+      "date": "2026-07-02",
+      "time": "20:00",
+      "utc": "2026-07-02T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "4217"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Switzerland",
       "away": "Serbia",
@@ -19117,17 +19128,6 @@
       "utc": "2026-07-02T18:00:00+00:00",
       "venue": "Arena Zenica, Zenica",
       "attendance": "3500"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Lebanon",
-      "score": "82-88",
-      "date": "2026-07-02",
-      "time": "20:00",
-      "utc": "2026-07-02T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "4217"
     },
     {
       "league": "u20-jwc-2026",
@@ -19209,17 +19209,6 @@
       "attendance": "1100"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Finland",
-      "away": "Hungary",
-      "score": "85-77",
-      "date": "2026-07-03",
-      "time": "18:30",
-      "utc": "2026-07-03T15:30:00+00:00",
-      "venue": "Veikkaus Arena, Helsinki",
-      "attendance": "12489"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Australia",
       "away": "Guam",
@@ -19231,6 +19220,17 @@
       "attendance": "5580"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Finland",
+      "away": "Hungary",
+      "score": "85-77",
+      "date": "2026-07-03",
+      "time": "18:30",
+      "utc": "2026-07-03T15:30:00+00:00",
+      "venue": "Veikkaus Arena, Helsinki",
+      "attendance": "12489"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Rwanda",
       "away": "Tunisia",
@@ -19240,6 +19240,17 @@
       "utc": "2026-07-03T18:00:00+00:00",
       "venue": "Pavilhão Multiusos de Luanda, Belas, Angola",
       "attendance": "40"
+    },
+    {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Philippines",
+      "score": "106-102",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "utc": "2026-07-03T07:00:00+00:00",
+      "venue": "Spark Arena, Auckland",
+      "attendance": "8690"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19264,17 +19275,6 @@
       "attendance": "6958"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Philippines",
-      "score": "106-102",
-      "date": "2026-07-03",
-      "time": "19:00",
-      "utc": "2026-07-03T07:00:00+00:00",
-      "venue": "Spark Arena, Auckland",
-      "attendance": "8690"
-    },
-    {
       "league": "fiba-wcq-americas-2027",
       "home": "Canada",
       "away": "Puerto Rico",
@@ -19295,17 +19295,6 @@
       "utc": "2026-07-03T23:30:00+00:00",
       "venue": "TD Place Stadium",
       "attendance": "15154"
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Netherlands",
-      "away": "Latvia",
-      "score": "69-72",
-      "date": "2026-07-03",
-      "time": "19:30",
-      "utc": "2026-07-03T17:30:00+00:00",
-      "venue": "Topsportcentrum, Almere",
-      "attendance": "3118"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -19330,6 +19319,28 @@
       "attendance": "11000"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Netherlands",
+      "away": "Latvia",
+      "score": "69-72",
+      "date": "2026-07-03",
+      "time": "19:30",
+      "utc": "2026-07-03T17:30:00+00:00",
+      "venue": "Topsportcentrum, Almere",
+      "attendance": "3118"
+    },
+    {
+      "league": "nrl-2026",
+      "home": "Penrith Panthers",
+      "away": "South Sydney Rabbitohs",
+      "score": "36–14",
+      "date": "2026-07-03",
+      "time": "20:00",
+      "utc": "2026-07-03T10:00:00+00:00",
+      "venue": "CommBank Stadium",
+      "attendance": "15163"
+    },
+    {
       "league": "fiba-wcq-americas-2027",
       "home": "Dominican Republic",
       "away": "United States",
@@ -19350,17 +19361,6 @@
       "utc": "2026-07-04T00:00:00+00:00",
       "venue": "Kendal Isaacs Gymnasium, Nassau",
       "attendance": "200"
-    },
-    {
-      "league": "nrl-2026",
-      "home": "Penrith Panthers",
-      "away": "South Sydney Rabbitohs",
-      "score": "36–14",
-      "date": "2026-07-03",
-      "time": "20:00",
-      "utc": "2026-07-03T10:00:00+00:00",
-      "venue": "CommBank Stadium",
-      "attendance": "15163"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19462,6 +19462,17 @@
       "attendance": "15972"
     },
     {
+      "league": "super-league-2026",
+      "home": "Hull KR",
+      "away": "Hull F.C.",
+      "score": "26–12",
+      "date": "2026-07-04",
+      "time": "15:00",
+      "utc": "2026-07-04T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "34539"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "South Sudan",
       "away": "Cape Verde",
@@ -19482,17 +19493,6 @@
       "utc": "2026-07-04T15:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "125"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Hull KR",
-      "away": "Hull F.C.",
-      "score": "26–12",
-      "date": "2026-07-04",
-      "time": "15:00",
-      "utc": "2026-07-04T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "34539"
     },
     {
       "league": "cfl-2026",
@@ -19770,6 +19770,17 @@
       "attendance": "18778"
     },
     {
+      "league": "super-league-2026",
+      "home": "Leeds Rhinos",
+      "away": "Bradford Bulls",
+      "score": "50–16",
+      "date": "2026-07-05",
+      "time": "15:00",
+      "utc": "2026-07-05T14:00:00+00:00",
+      "venue": "Hill Dickinson Stadium",
+      "attendance": "42903"
+    },
+    {
       "league": "fiba-wcq-africa-2027",
       "home": "Cape Verde",
       "away": "Libya",
@@ -19790,17 +19801,6 @@
       "utc": "2026-07-05T15:00:00+00:00",
       "venue": "Marius Ndiaye Stadium, Dakar, Senegal",
       "attendance": "200"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Leeds Rhinos",
-      "away": "Bradford Bulls",
-      "score": "50–16",
-      "date": "2026-07-05",
-      "time": "15:00",
-      "utc": "2026-07-05T14:00:00+00:00",
-      "venue": "Hill Dickinson Stadium",
-      "attendance": "42903"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -19968,6 +19968,17 @@
       "attendance": "3194"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Jordan",
+      "away": "Iraq",
+      "score": "106-67",
+      "date": "2026-07-05",
+      "time": "19:30",
+      "utc": "2026-07-05T16:30:00+00:00",
+      "venue": "Prince Hamza Hall, Amman",
+      "attendance": "870"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Georgia",
       "away": "Spain",
@@ -19990,17 +20001,6 @@
       "attendance": "8155"
     },
     {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Jordan",
-      "away": "Iraq",
-      "score": "106-67",
-      "date": "2026-07-05",
-      "time": "19:30",
-      "utc": "2026-07-05T16:30:00+00:00",
-      "venue": "Prince Hamza Hall, Amman",
-      "attendance": "870"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Italy",
       "away": "Lithuania",
@@ -20012,17 +20012,6 @@
       "attendance": "4500"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Montenegro",
-      "away": "Romania",
-      "score": "65-64",
-      "date": "2026-07-05",
-      "time": "20:30",
-      "utc": "2026-07-05T18:30:00+00:00",
-      "venue": "Topolica Sport Hall, Bar",
-      "attendance": "2055"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "India",
       "away": "Lebanon",
@@ -20032,6 +20021,17 @@
       "utc": "2026-07-05T15:00:00+00:00",
       "venue": "Veer Savarkar Indoor Stadium, Ahmedabad",
       "attendance": "4597"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Montenegro",
+      "away": "Romania",
+      "score": "65-64",
+      "date": "2026-07-05",
+      "time": "20:30",
+      "utc": "2026-07-05T18:30:00+00:00",
+      "venue": "Topolica Sport Hall, Bar",
+      "attendance": "2055"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -20100,6 +20100,17 @@
       "attendance": "10037"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "New Zealand",
+      "away": "Guam",
+      "score": "129-75",
+      "date": "2026-07-06",
+      "time": "19:00",
+      "utc": "2026-07-06T07:00:00+00:00",
+      "venue": "Eventfinda Stadium, Auckland",
+      "attendance": "1570"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Switzerland",
@@ -20120,17 +20131,6 @@
       "utc": "2026-07-06T17:00:00+00:00",
       "venue": "Brose Arena, Bamberg",
       "attendance": "5713"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "New Zealand",
-      "away": "Guam",
-      "score": "129-75",
-      "date": "2026-07-06",
-      "time": "19:00",
-      "utc": "2026-07-06T07:00:00+00:00",
-      "venue": "Eventfinda Stadium, Auckland",
-      "attendance": "1570"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -20166,17 +20166,6 @@
       "attendance": "1421"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Latvia",
-      "away": "Austria",
-      "score": "112-66",
-      "date": "2026-07-06",
-      "time": "19:30",
-      "utc": "2026-07-06T16:30:00+00:00",
-      "venue": "Xiaomi Arena, Riga",
-      "attendance": "9219"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "Japan",
@@ -20186,6 +20175,17 @@
       "utc": "2026-07-06T10:30:00+00:00",
       "venue": "Goyang Gymnasium, Goyang",
       "attendance": "6298"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Latvia",
+      "away": "Austria",
+      "score": "112-66",
+      "date": "2026-07-06",
+      "time": "19:30",
+      "utc": "2026-07-06T16:30:00+00:00",
+      "venue": "Xiaomi Arena, Riga",
+      "attendance": "9219"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -24250,6 +24250,17 @@
       "attendance": "36476"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "Japan",
+      "score": "78-106",
+      "date": "2026-08-27",
+      "time": "20:00",
+      "utc": "2026-08-27T17:00:00+00:00",
+      "venue": "King Abdullah Sports City Stadium, Jeddah",
+      "attendance": "2065"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Croatia",
       "away": "Latvia",
@@ -24270,17 +24281,6 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Lanxess Arena, Cologne",
       "attendance": "15309"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "Japan",
-      "score": "78-106",
-      "date": "2026-08-27",
-      "time": "20:00",
-      "utc": "2026-08-27T17:00:00+00:00",
-      "venue": "King Abdullah Sports City Stadium, Jeddah",
-      "attendance": "2065"
     },
     {
       "league": "super-league-2026",
@@ -24349,17 +24349,6 @@
       "attendance": "3890"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Israel",
-      "away": "Poland",
-      "score": "86-106",
-      "date": "2026-08-27",
-      "time": "21:00",
-      "utc": "2026-08-27T18:00:00+00:00",
-      "venue": "Xiaomi Arena, Riga, Latvia",
-      "attendance": "100"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Lebanon",
       "away": "South Korea",
@@ -24369,6 +24358,17 @@
       "utc": "2026-08-27T18:00:00+00:00",
       "venue": "Nouhad Nawfal Sports Complex, Zouk Mikael",
       "attendance": "5121"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Israel",
+      "away": "Poland",
+      "score": "86-106",
+      "date": "2026-08-27",
+      "time": "21:00",
+      "utc": "2026-08-27T18:00:00+00:00",
+      "venue": "Xiaomi Arena, Riga, Latvia",
+      "attendance": "100"
     },
     {
       "league": "fiba-wcq-africa-2027",
@@ -25075,17 +25075,6 @@
       "attendance": "7068"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Slovenia",
-      "away": "Hungary",
-      "score": "92-77",
-      "date": "2026-08-30",
-      "time": "20:00",
-      "utc": "2026-08-30T18:00:00+00:00",
-      "venue": "Tivoli Hall, Ljubljana",
-      "attendance": "2500"
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "Philippines",
       "away": "Iran",
@@ -25095,6 +25084,17 @@
       "utc": "2026-08-30T12:00:00+00:00",
       "venue": "SM Mall of Asia Arena, Pasay",
       "attendance": "18308"
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Slovenia",
+      "away": "Hungary",
+      "score": "92-77",
+      "date": "2026-08-30",
+      "time": "20:00",
+      "utc": "2026-08-30T18:00:00+00:00",
+      "venue": "Tivoli Hall, Ljubljana",
+      "attendance": "2500"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -25119,6 +25119,17 @@
       "attendance": "715"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "South Korea",
+      "away": "Saudi Arabia",
+      "score": "85-72",
+      "date": "2026-08-31",
+      "time": "19:00",
+      "utc": "2026-08-31T10:00:00+00:00",
+      "venue": "KT Sonicboom Arena, Suwon",
+      "attendance": "2543"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Greece",
       "away": "Spain",
@@ -25139,17 +25150,6 @@
       "utc": "2026-08-31T18:00:00+00:00",
       "venue": "Centro de Desportos e Congressos de Matosinhos, Matosinhos",
       "attendance": "4158"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "South Korea",
-      "away": "Saudi Arabia",
-      "score": "85-72",
-      "date": "2026-08-31",
-      "time": "19:00",
-      "utc": "2026-08-31T10:00:00+00:00",
-      "venue": "KT Sonicboom Arena, Suwon",
-      "attendance": "2543"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -25174,6 +25174,17 @@
       "attendance": "9153"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "China",
+      "away": "Lebanon",
+      "score": "89-87",
+      "date": "2026-08-31",
+      "time": "19:30",
+      "utc": "2026-08-31T11:30:00+00:00",
+      "venue": "Xishi Basketball Center, Zhuji",
+      "attendance": "12127"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Iceland",
       "away": "Turkey",
@@ -25194,17 +25205,6 @@
       "utc": "2026-08-31T17:30:00+00:00",
       "venue": "Vitrifrigo Arena, Pesaro",
       "attendance": "9487"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "China",
-      "away": "Lebanon",
-      "score": "89-87",
-      "date": "2026-08-31",
-      "time": "19:30",
-      "utc": "2026-08-31T11:30:00+00:00",
-      "venue": "Xishi Basketball Center, Zhuji",
-      "attendance": "12127"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -26000,6 +26000,17 @@
       "attendance": null
     },
     {
+      "league": "nrl-2026",
+      "home": "St. George Illawarra Dragons",
+      "away": "Parramatta Eels",
+      "score": "24–22",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "utc": "2026-09-06T04:00:00+00:00",
+      "venue": "WIN Stadium",
+      "attendance": "17013"
+    },
+    {
       "league": "khl-2026-27",
       "home": "Neftekhimik Nizhnekamsk",
       "away": "Shanghai Dragons",
@@ -26011,17 +26022,6 @@
       "attendance": null,
       "ot": true,
       "source_id": "365scores:4758252"
-    },
-    {
-      "league": "nrl-2026",
-      "home": "St. George Illawarra Dragons",
-      "away": "Parramatta Eels",
-      "score": "24–22",
-      "date": "2026-09-06",
-      "time": "14:00",
-      "utc": "2026-09-06T04:00:00+00:00",
-      "venue": "WIN Stadium",
-      "attendance": "17013"
     },
     {
       "league": "npc-2026",
@@ -28394,6 +28394,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Hull KR",
+      "score": "35–12",
+      "date": "2026-09-19",
+      "time": "17:30",
+      "utc": "2026-09-19T16:30:00+00:00",
+      "venue": "Halliwell Jones Stadium",
+      "attendance": "11073"
+    },
+    {
       "league": "bcl-2026-27",
       "home": "Promitheas Patras BC Vikos Cola",
       "away": "SC Rasta Vechta",
@@ -28404,17 +28415,6 @@
       "venue": "Dimitris Tofalos Arena",
       "attendance": null,
       "source_id": "sofascore:17124627"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Hull KR",
-      "score": "35–12",
-      "date": "2026-09-19",
-      "time": "17:30",
-      "utc": "2026-09-19T16:30:00+00:00",
-      "venue": "Halliwell Jones Stadium",
-      "attendance": "11073"
     },
     {
       "league": "bbl-2026-27",
@@ -30420,6 +30420,17 @@
       "attendance": null
     },
     {
+      "league": "super-league-2026",
+      "home": "Wigan Warriors",
+      "away": "Wakefield Trinity",
+      "score": "6–33",
+      "date": "2026-09-26",
+      "time": "17:30",
+      "utc": "2026-09-26T16:30:00+00:00",
+      "venue": "Brick Community Stadium",
+      "attendance": "16724"
+    },
+    {
       "league": "liga-acb-2026-27",
       "home": "MoraBanc Andorra",
       "away": "Monbus Obradoiro",
@@ -30442,17 +30453,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810244"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Wigan Warriors",
-      "away": "Wakefield Trinity",
-      "score": "6–33",
-      "date": "2026-09-26",
-      "time": "17:30",
-      "utc": "2026-09-26T16:30:00+00:00",
-      "venue": "Brick Community Stadium",
-      "attendance": "16724"
     },
     {
       "league": "bbl-2026-27",
@@ -32776,6 +32776,17 @@
       "source_id": "365scores:4819858"
     },
     {
+      "league": "super-league-2026",
+      "home": "Warrington Wolves",
+      "away": "Wakefield Trinity",
+      "score": "10–23",
+      "date": "2026-10-03",
+      "time": "18:00",
+      "utc": "2026-10-03T17:00:00+00:00",
+      "venue": "Old Trafford",
+      "attendance": "71728"
+    },
+    {
       "league": "bbl-2026-27",
       "home": "Mitteldeutscher",
       "away": "Ratiopharm Ulm",
@@ -32798,17 +32809,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810265"
-    },
-    {
-      "league": "super-league-2026",
-      "home": "Warrington Wolves",
-      "away": "Wakefield Trinity",
-      "score": "10–23",
-      "date": "2026-10-03",
-      "time": "18:00",
-      "utc": "2026-10-03T17:00:00+00:00",
-      "venue": "Old Trafford",
-      "attendance": "71728"
     },
     {
       "league": "lega-a-2026-27",
@@ -38790,6 +38790,18 @@
       "source_id": "365scores:4770050"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Wurzburg Baskets",
+      "away": "MZT Skopje Aerodrom",
+      "score": "87-73",
+      "date": "2026-10-20",
+      "time": "17:00",
+      "utc": "2026-10-20T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206957"
+    },
+    {
       "league": "shl-2026-27",
       "home": "HV71",
       "away": "Linköping HC",
@@ -38813,18 +38825,6 @@
       "venue": "Scandinavium",
       "attendance": null,
       "source_id": "sofascore:16230768"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Wurzburg Baskets",
-      "away": "MZT Skopje Aerodrom",
-      "score": "87-73",
-      "date": "2026-10-20",
-      "time": "17:00",
-      "utc": "2026-10-20T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17206957"
     },
     {
       "league": "del-2026-27",
@@ -39471,6 +39471,18 @@
       "source_id": "365scores:4882112"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Patrioti Levice",
+      "away": "NHSZ-Szolnoki Olajbányász",
+      "score": "79-85",
+      "date": "2026-10-22",
+      "time": "17:00",
+      "utc": "2026-10-22T17:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206896"
+    },
+    {
       "league": "shl-2026-27",
       "home": "IF Björklöven",
       "away": "Malmö Redhawks",
@@ -39541,18 +39553,6 @@
       "venue": "Catena Arena",
       "attendance": null,
       "source_id": "sofascore:16230773"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Patrioti Levice",
-      "away": "NHSZ-Szolnoki Olajbányász",
-      "score": "79-85",
-      "date": "2026-10-22",
-      "time": "17:00",
-      "utc": "2026-10-22T17:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17206896"
     },
     {
       "league": "euroleague-2026-27",
@@ -41293,30 +41293,6 @@
       "source_id": "sofascore:16611505"
     },
     {
-      "league": "shl-2026-27",
-      "home": "Malmö Redhawks",
-      "away": "Linköping HC",
-      "score": "8-2",
-      "date": "2026-10-27",
-      "time": "18:00",
-      "utc": "2026-10-27T18:00:00+00:00",
-      "venue": "Malmö Arena",
-      "attendance": null,
-      "source_id": "sofascore:16230784"
-    },
-    {
-      "league": "shl-2026-27",
-      "home": "Frölunda HC",
-      "away": "Rögle BK",
-      "score": "4-5",
-      "date": "2026-10-27",
-      "time": "18:00",
-      "utc": "2026-10-27T18:00:00+00:00",
-      "venue": "Scandinavium",
-      "attendance": null,
-      "source_id": "sofascore:16230787"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Vienna",
       "away": "Keravnos Strovolou",
@@ -41351,6 +41327,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17227929"
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Malmö Redhawks",
+      "away": "Linköping HC",
+      "score": "8-2",
+      "date": "2026-10-27",
+      "time": "18:00",
+      "utc": "2026-10-27T18:00:00+00:00",
+      "venue": "Malmö Arena",
+      "attendance": null,
+      "source_id": "sofascore:16230784"
+    },
+    {
+      "league": "shl-2026-27",
+      "home": "Frölunda HC",
+      "away": "Rögle BK",
+      "score": "4-5",
+      "date": "2026-10-27",
+      "time": "18:00",
+      "utc": "2026-10-27T18:00:00+00:00",
+      "venue": "Scandinavium",
+      "attendance": null,
+      "source_id": "sofascore:16230787"
     },
     {
       "league": "eurocup-2026-27",
@@ -41594,6 +41594,19 @@
       "source_id": "365scores:4776464"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Landau Lions",
+      "away": "Denizli Basket Spor Kulübü",
+      "score": "94-86",
+      "date": "2026-10-28",
+      "time": "16:30",
+      "utc": "2026-10-28T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "ot": true,
+      "source_id": "sofascore:17212175"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Kiekko-Espoo",
       "away": "TPS Turku",
@@ -41678,19 +41691,6 @@
       "venue": "Lumon Areena",
       "attendance": null,
       "source_id": "sofascore:16337386"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Landau Lions",
-      "away": "Denizli Basket Spor Kulübü",
-      "score": "94-86",
-      "date": "2026-10-28",
-      "time": "16:30",
-      "utc": "2026-10-28T16:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "ot": true,
-      "source_id": "sofascore:17212175"
     },
     {
       "league": "eurocup-2026-27",
@@ -46224,6 +46224,18 @@
       "source_id": "365scores:4771457"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Biotekno Körfez Basket",
+      "away": "BC Kalev/Cramo",
+      "score": "101-75",
+      "date": "2026-11-11",
+      "time": "16:30",
+      "utc": "2026-11-11T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206984"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "JYP Jyväskylä",
       "away": "Oulun Kärpät",
@@ -46294,18 +46306,6 @@
       "venue": "Äijänsuo Arena",
       "attendance": null,
       "source_id": "sofascore:16337407"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Biotekno Körfez Basket",
-      "away": "BC Kalev/Cramo",
-      "score": "101-75",
-      "date": "2026-11-11",
-      "time": "16:30",
-      "utc": "2026-11-11T16:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17206984"
     },
     {
       "league": "bcl-2026-27",
@@ -49182,6 +49182,18 @@
       "source_id": "sofascore:16665371"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Patrioti Levice",
+      "away": "Zastal Zielona Góra",
+      "score": "88-90",
+      "date": "2026-11-19",
+      "time": "18:00",
+      "utc": "2026-11-19T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17206888"
+    },
+    {
       "league": "shl-2026-27",
       "home": "Malmö Redhawks",
       "away": "Rögle BK",
@@ -49266,18 +49278,6 @@
       "venue": "Vida Arena",
       "attendance": null,
       "source_id": "sofascore:16230818"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Patrioti Levice",
-      "away": "Zastal Zielona Góra",
-      "score": "88-90",
-      "date": "2026-11-19",
-      "time": "18:00",
-      "utc": "2026-11-19T18:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17206888"
     },
     {
       "league": "del-2026-27",
@@ -51274,6 +51274,17 @@
       "source_id": "sofascore:16230832"
     },
     {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Lithuania",
+      "away": "Serbia",
+      "score": "97-78",
+      "date": "2026-11-26",
+      "time": "18:30",
+      "utc": "2026-11-26T16:30:00+00:00",
+      "venue": "Švyturio Arena, Klaipėda",
+      "attendance": "5004"
+    },
+    {
       "league": "del-2026-27",
       "home": "Löwen Frankfurt",
       "away": "Adler Mannheim",
@@ -51286,15 +51297,15 @@
       "source_id": "sofascore:16422564"
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Lithuania",
-      "away": "Serbia",
-      "score": "97-78",
+      "league": "fiba-wcq-asia-2027",
+      "home": "Qatar",
+      "away": "South Korea",
+      "score": "52-74",
       "date": "2026-11-26",
-      "time": "18:30",
-      "utc": "2026-11-26T16:30:00+00:00",
-      "venue": "Švyturio Arena, Klaipėda",
-      "attendance": "5004"
+      "time": "19:00",
+      "utc": "2026-11-26T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah",
+      "attendance": "882"
     },
     {
       "league": "fiba-wcq-europe-2027",
@@ -51317,17 +51328,6 @@
       "utc": "2026-11-26T18:00:00+00:00",
       "venue": "Morača Sports Center, Podgorica",
       "attendance": "2247"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Qatar",
-      "away": "South Korea",
-      "score": "52-74",
-      "date": "2026-11-26",
-      "time": "19:00",
-      "utc": "2026-11-26T16:00:00+00:00",
-      "venue": "Al Janoub Stadium, Al Wakrah",
-      "attendance": "882"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -51760,6 +51760,17 @@
       "source_id": "sofascore:16535132"
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "Philippines",
+      "score": "58-97",
+      "date": "2026-11-27",
+      "time": "20:00",
+      "utc": "2026-11-27T12:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": "480"
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Netherlands",
       "away": "Israel",
@@ -51780,17 +51791,6 @@
       "utc": "2026-11-27T19:00:00+00:00",
       "venue": "Zlatorog Arena, Celje",
       "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "Philippines",
-      "score": "58-97",
-      "date": "2026-11-27",
-      "time": "20:00",
-      "utc": "2026-11-27T12:00:00+00:00",
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": "480"
     },
     {
       "league": "nations-championship-2026",
@@ -52230,6 +52230,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Syria",
+      "away": "New Zealand",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "14:00",
+      "utc": "2026-11-29T06:00:00+00:00",
+      "venue": "Karisma Arena, Seremban, Malaysia",
+      "attendance": null
+    },
+    {
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Lokomotiv Yaroslavl",
@@ -52240,17 +52251,6 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4901065"
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Syria",
-      "away": "New Zealand",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "14:00",
-      "utc": "2026-11-29T06:00:00+00:00",
-      "venue": "Karisma Arena, Seremban, Malaysia",
-      "attendance": null
     },
     {
       "league": "liiga-2026-27",
@@ -52334,18 +52334,6 @@
       "attendance": null
     },
     {
-      "league": "del-2026-27",
-      "home": "Schwenningen Wild Wings",
-      "away": "Grizzlys Wolfsburg",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "18:00",
-      "utc": "2026-11-29T18:00:00+00:00",
-      "venue": "Helios Arena",
-      "attendance": null,
-      "source_id": "sofascore:16422577"
-    },
-    {
       "league": "fiba-wcq-europe-2027",
       "home": "Spain",
       "away": "Greece",
@@ -52366,6 +52354,18 @@
       "utc": "2026-11-29T17:00:00+00:00",
       "venue": "Juan Antonio Samaranch Olympic Hall, Sarajevo",
       "attendance": null
+    },
+    {
+      "league": "del-2026-27",
+      "home": "Schwenningen Wild Wings",
+      "away": "Grizzlys Wolfsburg",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "18:00",
+      "utc": "2026-11-29T18:00:00+00:00",
+      "venue": "Helios Arena",
+      "attendance": null,
+      "source_id": "sofascore:16422577"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -52401,6 +52401,17 @@
       "attendance": null
     },
     {
+      "league": "fiba-wcq-asia-2027",
+      "home": "Saudi Arabia",
+      "away": "South Korea",
+      "score": null,
+      "date": "2026-11-29",
+      "time": "19:00",
+      "utc": "2026-11-29T16:00:00+00:00",
+      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
+      "attendance": null
+    },
+    {
       "league": "fiba-wcq-europe-2027",
       "home": "Turkey",
       "away": "Iceland",
@@ -52420,17 +52431,6 @@
       "time": "19:00",
       "utc": "2026-11-29T18:00:00+00:00",
       "venue": "Aleksandar Nikolić Hall, Belgrade",
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-asia-2027",
-      "home": "Saudi Arabia",
-      "away": "South Korea",
-      "score": null,
-      "date": "2026-11-29",
-      "time": "19:00",
-      "utc": "2026-11-29T16:00:00+00:00",
-      "venue": "Al Janoub Stadium, Al Wakrah, Qatar",
       "attendance": null
     },
     {
@@ -54389,18 +54389,6 @@
       "source_id": "365scores:4771482"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "Joventut de Badalona",
-      "away": "Valencia Basket",
-      "score": null,
-      "date": "2026-12-08",
-      "time": "18:00",
-      "utc": "2026-12-08T18:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4819962"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "BC Vienna",
       "away": "BC Pärnu",
@@ -54423,6 +54411,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17227930"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "Joventut de Badalona",
+      "away": "Valencia Basket",
+      "score": null,
+      "date": "2026-12-08",
+      "time": "18:00",
+      "utc": "2026-12-08T18:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4819962"
     },
     {
       "league": "del-2026-27",
@@ -54545,6 +54545,18 @@
       "source_id": "sofascore:17212134"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Neftchi BC",
+      "away": "Fribourg Olympic Basket",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "16:30",
+      "utc": "2026-12-09T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17228360"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Mikkelin Jukurit",
       "away": "HIFK Helsinki",
@@ -54615,18 +54627,6 @@
       "venue": "Barona Areena",
       "attendance": null,
       "source_id": "sofascore:16337494"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Neftchi BC",
-      "away": "Fribourg Olympic Basket",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "16:30",
-      "utc": "2026-12-09T16:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17228360"
     },
     {
       "league": "bcl-2026-27",
@@ -54977,18 +54977,6 @@
       "source_id": "365scores:4770086"
     },
     {
-      "league": "liga-acb-2026-27",
-      "home": "MoraBanc Andorra",
-      "away": "Casademont Zaragoza",
-      "score": null,
-      "date": "2026-12-09",
-      "time": "19:00",
-      "utc": "2026-12-09T19:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4819963"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "KK Split",
       "away": "Gladiators Trier",
@@ -55011,6 +54999,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212162"
+    },
+    {
+      "league": "liga-acb-2026-27",
+      "home": "MoraBanc Andorra",
+      "away": "Casademont Zaragoza",
+      "score": null,
+      "date": "2026-12-09",
+      "time": "19:00",
+      "utc": "2026-12-09T19:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4819963"
     },
     {
       "league": "eurocup-2026-27",
@@ -56609,6 +56609,18 @@
       "source_id": "365scores:4770090"
     },
     {
+      "league": "fiba-europe-cup-2026-27",
+      "home": "Biotekno Körfez Basket",
+      "away": "Valmiera Glass VIA",
+      "score": null,
+      "date": "2026-12-16",
+      "time": "16:30",
+      "utc": "2026-12-16T16:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17212166"
+    },
+    {
       "league": "liiga-2026-27",
       "home": "Vaasan Sport",
       "away": "JYP Jyväskylä",
@@ -56643,18 +56655,6 @@
       "venue": "Helsingin jäähalli",
       "attendance": null,
       "source_id": "sofascore:16337513"
-    },
-    {
-      "league": "fiba-europe-cup-2026-27",
-      "home": "Biotekno Körfez Basket",
-      "away": "Valmiera Glass VIA",
-      "score": null,
-      "date": "2026-12-16",
-      "time": "16:30",
-      "utc": "2026-12-16T16:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:17212166"
     },
     {
       "league": "bcl-2026-27",
@@ -59069,18 +59069,6 @@
       "source_id": "sofascore:16611535"
     },
     {
-      "league": "lnb-elite-2026-27",
-      "home": "Limoges",
-      "away": "Gravelines",
-      "score": null,
-      "date": "2026-12-23",
-      "time": "17:30",
-      "utc": "2026-12-23T17:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846986"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "KB Trepça",
       "away": "Gladiators Trier",
@@ -59115,6 +59103,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17212165"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Limoges",
+      "away": "Gravelines",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "17:30",
+      "utc": "2026-12-23T17:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846986"
     },
     {
       "league": "euroleague-2026-27",
@@ -59417,18 +59417,6 @@
       "source_id": "365scores:4770094"
     },
     {
-      "league": "lnb-elite-2026-27",
-      "home": "Dijon",
-      "away": "Chorale de Roanne",
-      "score": null,
-      "date": "2026-12-23",
-      "time": "19:30",
-      "utc": "2026-12-23T19:30:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4846985"
-    },
-    {
       "league": "fiba-europe-cup-2026-27",
       "home": "Sporting CP",
       "away": "Esenler Erokspor",
@@ -59439,6 +59427,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:17206917"
+    },
+    {
+      "league": "lnb-elite-2026-27",
+      "home": "Dijon",
+      "away": "Chorale de Roanne",
+      "score": null,
+      "date": "2026-12-23",
+      "time": "19:30",
+      "utc": "2026-12-23T19:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4846985"
     },
     {
       "league": "eurocup-2026-27",
@@ -72917,72 +72917,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Iceland",
-      "away": "Serbia",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Portugal",
-      "away": "Spain",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Greece",
-      "away": "Ukraine",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Italy",
-      "away": "Bosnia and Herzegovina",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Montenegro",
-      "away": "Georgia",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Lithuania",
-      "away": "Turkey",
-      "score": null,
-      "date": "2027-02-26",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "South Korea",
       "away": "Lebanon",
@@ -73041,6 +72975,72 @@
       "league": "fiba-wcq-asia-2027",
       "home": "Japan",
       "away": "Saudi Arabia",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Iceland",
+      "away": "Serbia",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Portugal",
+      "away": "Spain",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Greece",
+      "away": "Ukraine",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Italy",
+      "away": "Bosnia and Herzegovina",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Montenegro",
+      "away": "Georgia",
+      "score": null,
+      "date": "2027-02-26",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Lithuania",
+      "away": "Turkey",
       "score": null,
       "date": "2027-02-26",
       "time": null,
@@ -73667,72 +73667,6 @@
       "attendance": null
     },
     {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Spain",
-      "away": "Montenegro",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Serbia",
-      "away": "Lithuania",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Ukraine",
-      "away": "Portugal",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Georgia",
-      "away": "Greece",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Turkey",
-      "away": "Italy",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "league": "fiba-wcq-europe-2027",
-      "home": "Bosnia and Herzegovina",
-      "away": "Iceland",
-      "score": null,
-      "date": "2027-03-01",
-      "time": null,
-      "utc": null,
-      "venue": null,
-      "attendance": null
-    },
-    {
       "league": "fiba-wcq-asia-2027",
       "home": "New Zealand",
       "away": "Jordan",
@@ -73796,6 +73730,72 @@
       "time": null,
       "utc": null,
       "venue": "SM Seaside Cebu Arena, Cebu City, Philippines",
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Spain",
+      "away": "Montenegro",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Serbia",
+      "away": "Lithuania",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Ukraine",
+      "away": "Portugal",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Georgia",
+      "away": "Greece",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Turkey",
+      "away": "Italy",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "league": "fiba-wcq-europe-2027",
+      "home": "Bosnia and Herzegovina",
+      "away": "Iceland",
+      "score": null,
+      "date": "2027-03-01",
+      "time": null,
+      "utc": null,
+      "venue": null,
       "attendance": null
     },
     {
