@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T21:43:03+00:00",
+  "updated": "2026-11-27T22:24:45+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -8693,6 +8693,20 @@
       "Qualifiers · Second Round · Group K": {
         "rows": [
           {
+            "team": "Croatia",
+            "played": 9,
+            "win": 8,
+            "draw": null,
+            "loss": 1,
+            "for": 889,
+            "against": 683,
+            "diff": 206,
+            "points": 17,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Germany",
             "played": 9,
             "win": 8,
@@ -8707,29 +8721,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Croatia",
-            "played": 8,
-            "win": 7,
-            "draw": null,
-            "loss": 1,
-            "for": 809,
-            "against": 614,
-            "diff": 195,
-            "points": 15,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "#BBF3BB"
-          },
-          {
             "team": "Poland",
-            "played": 8,
+            "played": 9,
             "win": 7,
             "draw": null,
-            "loss": 1,
-            "for": 766,
-            "against": 658,
-            "diff": 108,
-            "points": 15,
+            "loss": 2,
+            "for": 835,
+            "against": 738,
+            "diff": 97,
+            "points": 16,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -51798,7 +51798,7 @@
       "league": "nations-championship-2026",
       "home": "Ireland",
       "away": "Australia",
-      "score": null,
+      "score": "38-14",
       "date": "2026-11-27",
       "time": "20:10",
       "utc": "2026-11-27T20:10:00+00:00",
@@ -51831,12 +51831,12 @@
       "league": "fiba-wcq-europe-2027",
       "home": "Poland",
       "away": "Croatia",
-      "score": null,
+      "score": "69-80",
       "date": "2026-11-27",
       "time": "20:45",
       "utc": "2026-11-27T19:45:00+00:00",
       "venue": "PreZero Arena Gliwice, Gliwice",
-      "attendance": null
+      "attendance": "13053"
     },
     {
       "league": "khl-2026-27",
