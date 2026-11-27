@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-27T18:27:44+00:00",
+  "updated": "2026-11-27T18:39:30+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3518,10 +3518,10 @@
             "played": 30,
             "win": 14,
             "draw": null,
-            "loss": 13,
-            "for": 87,
-            "against": 88,
-            "diff": -1,
+            "loss": 14,
+            "for": 88,
+            "against": 91,
+            "diff": -3,
             "points": 30,
             "highlight": "#BBF3BB"
           },
@@ -3643,6 +3643,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Barys Astana",
+            "played": 31,
+            "win": 16,
+            "draw": null,
+            "loss": 14,
+            "for": 96,
+            "against": 86,
+            "diff": 10,
+            "points": 33,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Salavat Yulayev Ufa",
             "played": 30,
             "win": 15,
@@ -3652,18 +3664,6 @@
             "against": 91,
             "diff": 0,
             "points": 32,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Barys Astana",
-            "played": 31,
-            "win": 15,
-            "draw": null,
-            "loss": 14,
-            "for": 93,
-            "against": 85,
-            "diff": 8,
-            "points": 31,
             "highlight": "#BBF3BB"
           },
           {
@@ -51384,7 +51384,7 @@
       "league": "khl-2026-27",
       "home": "Severstal Cherepovets",
       "away": "Sibir Novosibirsk",
-      "score": null,
+      "score": "0-2",
       "date": "2026-11-27",
       "time": "16:00",
       "utc": "2026-11-27T16:00:00+00:00",
