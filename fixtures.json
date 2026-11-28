@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T02:54:32+00:00",
+  "updated": "2026-11-28T03:04:37+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9300,14 +9300,14 @@
       "Qualifiers · Second Round · Group E": {
         "rows": [
           {
-            "team": "Brazil",
+            "team": "Dominican Republic",
             "played": 9,
             "win": 7,
             "draw": null,
             "loss": 2,
-            "for": 818,
-            "against": 713,
-            "diff": 105,
+            "for": 838,
+            "against": 696,
+            "diff": 142,
             "points": 16,
             "try_bonus": null,
             "losing_bonus": null,
@@ -9328,15 +9328,15 @@
             "highlight": "#BBF3BB"
           },
           {
-            "team": "Dominican Republic",
-            "played": 8,
-            "win": 6,
+            "team": "Brazil",
+            "played": 9,
+            "win": 7,
             "draw": null,
             "loss": 2,
-            "for": 728,
-            "against": 628,
-            "diff": 100,
-            "points": 14,
+            "for": 818,
+            "against": 713,
+            "diff": 105,
+            "points": 16,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -9371,14 +9371,14 @@
           },
           {
             "team": "Colombia",
-            "played": 8,
+            "played": 9,
             "win": 3,
             "draw": null,
-            "loss": 5,
-            "for": 665,
-            "against": 744,
-            "diff": -79,
-            "points": 11,
+            "loss": 6,
+            "for": 733,
+            "against": 854,
+            "diff": -121,
+            "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -51809,7 +51809,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Colombia",
       "away": "Dominican Republic",
-      "score": null,
+      "score": "68-110",
       "date": "2026-11-27",
       "time": "20:10",
       "utc": "2026-11-28T01:10:00+00:00",
