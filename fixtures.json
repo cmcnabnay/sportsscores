@@ -211,7 +211,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T13:33:02+00:00",
+  "updated": "2026-11-28T13:43:34+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3584,7 +3584,7 @@
             "for": 114,
             "against": 79,
             "diff": 35,
-            "points": 45,
+            "points": 46,
             "highlight": "#D6F9FF"
           },
           {
@@ -3612,6 +3612,18 @@
             "highlight": "#BBF3FF"
           },
           {
+            "team": "Traktor Chelyabinsk",
+            "played": 32,
+            "win": 15,
+            "draw": null,
+            "loss": 11,
+            "for": 81,
+            "against": 80,
+            "diff": 1,
+            "points": 36,
+            "highlight": "#BBF3FF"
+          },
+          {
             "team": "Amur Khabarovsk",
             "played": 30,
             "win": 16,
@@ -3621,7 +3633,7 @@
             "against": 54,
             "diff": 8,
             "points": 34,
-            "highlight": "#BBF3FF"
+            "highlight": "#BBF3BB"
           },
           {
             "team": "Avtomobilist Yekaterinburg",
@@ -3632,18 +3644,6 @@
             "for": 78,
             "against": 72,
             "diff": 6,
-            "points": 34,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Traktor Chelyabinsk",
-            "played": 32,
-            "win": 14,
-            "draw": null,
-            "loss": 11,
-            "for": 81,
-            "against": 80,
-            "diff": 1,
             "points": 34,
             "highlight": "#BBF3BB"
           },
@@ -51911,7 +51911,7 @@
       "time": "20:10",
       "utc": "2026-11-27T20:10:00+00:00",
       "venue": "Twickenham Stadium, London",
-      "attendance": null
+      "attendance": "32000"
     },
     {
       "league": "fiba-wcq-americas-2027",
@@ -52034,7 +52034,7 @@
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Metallurg Magnitogorsk",
-      "score": null,
+      "score": "4-3",
       "date": "2026-11-28",
       "time": "11:00",
       "utc": "2026-11-28T11:00:00+00:00",
