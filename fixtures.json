@@ -211,7 +211,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T15:31:47+00:00",
+  "updated": "2026-11-28T16:11:48+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -2409,6 +2409,18 @@
             "highlight": "#BBF3BB"
           },
           {
+            "team": "Bordeaux Begles",
+            "played": 10,
+            "win": 7,
+            "draw": null,
+            "loss": 3,
+            "for": 313,
+            "against": 217,
+            "diff": 96,
+            "points": 31,
+            "highlight": "#BBF3BB"
+          },
+          {
             "team": "Pau",
             "played": 9,
             "win": 7,
@@ -2418,29 +2430,17 @@
             "against": 262,
             "diff": 94,
             "points": 31,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Montpellier Herault",
-            "played": 9,
-            "win": 6,
-            "draw": null,
-            "loss": 3,
-            "for": 273,
-            "against": 168,
-            "diff": 105,
-            "points": 27,
             "highlight": "#CCF9CC"
           },
           {
-            "team": "Bordeaux Begles",
-            "played": 9,
+            "team": "Montpellier Herault",
+            "played": 10,
             "win": 6,
             "draw": null,
-            "loss": 3,
-            "for": 273,
-            "against": 207,
-            "diff": 66,
+            "loss": 4,
+            "for": 283,
+            "against": 208,
+            "diff": 75,
             "points": 27,
             "highlight": "#CCF9CC"
           },
@@ -2489,7 +2489,7 @@
             "for": 249,
             "against": 286,
             "diff": -37,
-            "points": 19,
+            "points": 20,
             "highlight": "#BBF3FF"
           },
           {
@@ -52081,7 +52081,7 @@
       "league": "top14-2026",
       "home": "Bordeaux Begles",
       "away": "Montpellier Herault",
-      "score": null,
+      "score": "40-10",
       "date": "2026-11-28",
       "time": "13:30",
       "utc": "2026-11-28T13:30:00+00:00",
@@ -53563,6 +53563,18 @@
       "source_id": "sofascore:16527493"
     },
     {
+      "league": "top14-2026",
+      "home": "Stade Toulousain",
+      "away": "Racing 92",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "13:30",
+      "utc": "2026-12-05T13:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16534995"
+    },
+    {
       "league": "urc-2026",
       "home": "Sharks",
       "away": "Stormers",
@@ -53791,25 +53803,13 @@
       "source_id": "sofascore:16662736"
     },
     {
-      "league": "russian-first-league-2026-27",
-      "home": "Torpedo Moscow",
-      "away": "Chelyabinsk",
-      "score": "-",
-      "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T13:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "365scores:4760344"
-    },
-    {
       "league": "top14-2026",
       "home": "Vannes",
       "away": "Bayonne",
       "score": null,
       "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-05T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534993"
@@ -53820,8 +53820,8 @@
       "away": "Clermont Auvergne",
       "score": null,
       "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-05T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534991"
@@ -53832,23 +53832,11 @@
       "away": "La Rochelle",
       "score": null,
       "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-05T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534988"
-    },
-    {
-      "league": "top14-2026",
-      "home": "Pau",
-      "away": "Stade Francais Paris",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16534990"
     },
     {
       "league": "top14-2026",
@@ -53856,35 +53844,23 @@
       "away": "Lyon",
       "score": null,
       "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-05T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534989"
     },
     {
-      "league": "top14-2026",
-      "home": "Stade Toulousain",
-      "away": "Racing 92",
-      "score": null,
+      "league": "russian-first-league-2026-27",
+      "home": "Torpedo Moscow",
+      "away": "Chelyabinsk",
+      "score": "-",
       "date": "2026-12-05",
       "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
+      "utc": "2026-12-05T13:00:00+00:00",
       "venue": null,
       "attendance": null,
-      "source_id": "sofascore:16534995"
-    },
-    {
-      "league": "top14-2026",
-      "home": "Toulon",
-      "away": "Bordeaux Begles",
-      "score": null,
-      "date": "2026-12-05",
-      "time": "16:00",
-      "utc": "2026-12-05T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16534992"
+      "source_id": "365scores:4760344"
     },
     {
       "league": "liiga-2026-27",
@@ -54125,6 +54101,18 @@
       "venue": "Stadio Sergio Lanfranchi",
       "attendance": null,
       "source_id": "sofascore:16527498"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Pau",
+      "away": "Stade Francais Paris",
+      "score": null,
+      "date": "2026-12-05",
+      "time": "20:00",
+      "utc": "2026-12-05T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16534990"
     },
     {
       "league": "liga-acb-2026-27",
@@ -54473,6 +54461,18 @@
       "venue": "Eissporthalle Iserlohn",
       "attendance": null,
       "source_id": "sofascore:16422594"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Toulon",
+      "away": "Bordeaux Begles",
+      "score": null,
+      "date": "2026-12-06",
+      "time": "20:05",
+      "utc": "2026-12-06T20:05:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16534992"
     },
     {
       "league": "bbl-2026-27",
@@ -57919,6 +57919,18 @@
       "source_id": "sofascore:16527507"
     },
     {
+      "league": "top14-2026",
+      "home": "Lyon",
+      "away": "Toulon",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "13:30",
+      "utc": "2026-12-19T13:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16535004"
+    },
+    {
       "league": "urc-2026",
       "home": "Zebre",
       "away": "Benetton Treviso",
@@ -58128,8 +58140,8 @@
       "away": "Castres Olympique",
       "score": null,
       "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-19T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534999"
@@ -58140,23 +58152,11 @@
       "away": "Montpellier Herault",
       "score": null,
       "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-19T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534996"
-    },
-    {
-      "league": "top14-2026",
-      "home": "Stade Francais Paris",
-      "away": "Stade Toulousain",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16534998"
     },
     {
       "league": "top14-2026",
@@ -58164,35 +58164,11 @@
       "away": "Vannes",
       "score": null,
       "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-19T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16535002"
-    },
-    {
-      "league": "top14-2026",
-      "home": "Bordeaux Begles",
-      "away": "Pau",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16534997"
-    },
-    {
-      "league": "top14-2026",
-      "home": "Lyon",
-      "away": "Toulon",
-      "score": null,
-      "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
-      "venue": null,
-      "attendance": null,
-      "source_id": "sofascore:16535004"
     },
     {
       "league": "top14-2026",
@@ -58200,8 +58176,8 @@
       "away": "Perpignan",
       "score": null,
       "date": "2026-12-19",
-      "time": "16:00",
-      "utc": "2026-12-19T16:00:00+00:00",
+      "time": "15:35",
+      "utc": "2026-12-19T15:35:00+00:00",
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534994"
@@ -58481,6 +58457,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810636"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Stade Francais Paris",
+      "away": "Stade Toulousain",
+      "score": null,
+      "date": "2026-12-19",
+      "time": "20:00",
+      "utc": "2026-12-19T20:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16534998"
     },
     {
       "league": "liga-acb-2026-27",
@@ -58805,6 +58793,18 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4810635"
+    },
+    {
+      "league": "top14-2026",
+      "home": "Bordeaux Begles",
+      "away": "Pau",
+      "score": null,
+      "date": "2026-12-20",
+      "time": "20:05",
+      "utc": "2026-12-20T20:05:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:16534997"
     },
     {
       "league": "liiga-2026-27",
