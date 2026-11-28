@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T00:34:31+00:00",
+  "updated": "2026-11-28T00:45:01+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9343,17 +9343,31 @@
           },
           {
             "team": "Mexico",
-            "played": 8,
+            "played": 9,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 743,
-            "against": 708,
-            "diff": 35,
-            "points": 13,
+            "loss": 4,
+            "for": 807,
+            "against": 774,
+            "diff": 33,
+            "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3FF"
+          },
+          {
+            "team": "Chile",
+            "played": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 6,
+            "for": 636,
+            "against": 717,
+            "diff": -81,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
           },
           {
             "team": "Colombia",
@@ -9365,20 +9379,6 @@
             "against": 744,
             "diff": -79,
             "points": 11,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
-          },
-          {
-            "team": "Chile",
-            "played": 8,
-            "win": 2,
-            "draw": null,
-            "loss": 6,
-            "for": 570,
-            "against": 653,
-            "diff": -83,
-            "points": 10,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "transparent"
@@ -9479,14 +9479,14 @@
         "rows": [
           {
             "team": "Mexico",
-            "played": 8,
+            "played": 9,
             "win": 5,
             "draw": null,
-            "loss": 3,
-            "for": 743,
-            "against": 708,
-            "diff": 35,
-            "points": 13,
+            "loss": 4,
+            "for": 807,
+            "against": 774,
+            "diff": 33,
+            "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -51730,7 +51730,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Chile",
       "away": "Mexico",
-      "score": null,
+      "score": "66-64",
       "date": "2026-11-27",
       "time": "19:40",
       "utc": "2026-11-27T22:40:00+00:00",
