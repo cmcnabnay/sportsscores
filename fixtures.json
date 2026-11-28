@@ -211,7 +211,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T06:52:15+00:00",
+  "updated": "2026-11-28T13:22:34+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -3577,26 +3577,26 @@
         "rows": [
           {
             "team": "Metallurg Magnitogorsk",
-            "played": 30,
+            "played": 31,
             "win": 21,
             "draw": null,
             "loss": 6,
-            "for": 111,
-            "against": 76,
+            "for": 114,
+            "against": 79,
             "diff": 35,
             "points": 45,
             "highlight": "#D6F9FF"
           },
           {
             "team": "Avangard Omsk",
-            "played": 29,
-            "win": 18,
+            "played": 30,
+            "win": 19,
             "draw": null,
             "loss": 9,
-            "for": 66,
-            "against": 65,
-            "diff": 1,
-            "points": 38,
+            "for": 69,
+            "against": 67,
+            "diff": 2,
+            "points": 40,
             "highlight": "#BBF3FF"
           },
           {
@@ -3613,13 +3613,13 @@
           },
           {
             "team": "Amur Khabarovsk",
-            "played": 29,
+            "played": 30,
             "win": 16,
             "draw": null,
-            "loss": 11,
-            "for": 60,
-            "against": 51,
-            "diff": 9,
+            "loss": 12,
+            "for": 62,
+            "against": 54,
+            "diff": 8,
             "points": 34,
             "highlight": "#BBF3FF"
           },
@@ -3637,12 +3637,12 @@
           },
           {
             "team": "Traktor Chelyabinsk",
-            "played": 31,
+            "played": 32,
             "win": 14,
             "draw": null,
             "loss": 11,
-            "for": 78,
-            "against": 77,
+            "for": 81,
+            "against": 80,
             "diff": 1,
             "points": 34,
             "highlight": "#BBF3BB"
@@ -12145,6 +12145,109 @@
             "for": 49,
             "against": 145,
             "diff": -96,
+            "points": 0,
+            "highlight": null
+          }
+        ],
+        "legend": {}
+      }
+    },
+    "svns-2027": {
+      "SVNS 2027": {
+        "rows": [
+          {
+            "team": "South Africa 7s",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 52,
+            "against": 26,
+            "diff": 26,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Fiji 7s",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 60,
+            "against": 35,
+            "diff": 25,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Argentina 7s",
+            "played": 2,
+            "win": 2,
+            "draw": null,
+            "loss": 0,
+            "for": 61,
+            "against": 43,
+            "diff": 18,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Spain 7s",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 38,
+            "against": 31,
+            "diff": 7,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "France 7s",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 40,
+            "against": 41,
+            "diff": -1,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "Australia 7s",
+            "played": 2,
+            "win": 1,
+            "draw": null,
+            "loss": 1,
+            "for": 22,
+            "against": 43,
+            "diff": -21,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "USA 7s",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 34,
+            "against": 57,
+            "diff": -23,
+            "points": 0,
+            "highlight": null
+          },
+          {
+            "team": "New Zealand 7s",
+            "played": 2,
+            "win": 0,
+            "draw": null,
+            "loss": 2,
+            "for": 26,
+            "against": 57,
+            "diff": -31,
             "points": 0,
             "highlight": null
           }
@@ -51527,7 +51630,7 @@
       "time": "16:40",
       "utc": "2026-11-27T16:40:00+00:00",
       "venue": "Twickenham Stadium, London",
-      "attendance": null
+      "attendance": "32000"
     },
     {
       "league": "fiba-wcq-asia-2027",
@@ -51847,7 +51950,7 @@
       "league": "khl-2026-27",
       "home": "Amur Khabarovsk",
       "away": "Avangard Omsk",
-      "score": null,
+      "score": "2-3",
       "date": "2026-11-28",
       "time": "07:00",
       "utc": "2026-11-28T07:00:00+00:00",
@@ -51859,7 +51962,7 @@
       "league": "svns-2027",
       "home": "Australia",
       "away": "United States",
-      "score": null,
+      "score": "22-10",
       "date": "2026-11-28",
       "time": "07:30",
       "utc": "2026-11-28T07:30:00+00:00",
@@ -51871,7 +51974,7 @@
       "league": "svns-2027",
       "home": "South Africa",
       "away": "Argentina",
-      "score": null,
+      "score": "19-26",
       "date": "2026-11-28",
       "time": "07:52",
       "utc": "2026-11-28T07:52:00+00:00",
@@ -51883,7 +51986,7 @@
       "league": "svns-2027",
       "home": "Spain",
       "away": "France",
-      "score": null,
+      "score": "12-19",
       "date": "2026-11-28",
       "time": "08:14",
       "utc": "2026-11-28T08:14:00+00:00",
@@ -51895,7 +51998,7 @@
       "league": "svns-2027",
       "home": "New Zealand",
       "away": "Fiji",
-      "score": null,
+      "score": "14-31",
       "date": "2026-11-28",
       "time": "08:36",
       "utc": "2026-11-28T08:36:00+00:00",
@@ -51907,7 +52010,7 @@
       "league": "svns-2027",
       "home": "Argentina",
       "away": "United States",
-      "score": null,
+      "score": "35-24",
       "date": "2026-11-28",
       "time": "10:33",
       "utc": "2026-11-28T10:33:00+00:00",
@@ -51919,7 +52022,7 @@
       "league": "svns-2027",
       "home": "South Africa",
       "away": "Australia",
-      "score": null,
+      "score": "33-0",
       "date": "2026-11-28",
       "time": "10:55",
       "utc": "2026-11-28T10:55:00+00:00",
@@ -51943,7 +52046,7 @@
       "league": "svns-2027",
       "home": "Fiji",
       "away": "France",
-      "score": null,
+      "score": "29-21",
       "date": "2026-11-28",
       "time": "11:17",
       "utc": "2026-11-28T11:17:00+00:00",
@@ -51955,7 +52058,7 @@
       "league": "svns-2027",
       "home": "New Zealand",
       "away": "Spain",
-      "score": null,
+      "score": "12-26",
       "date": "2026-11-28",
       "time": "11:39",
       "utc": "2026-11-28T11:39:00+00:00",
@@ -52786,6 +52889,42 @@
       "utc": "2026-11-30T19:30:00+00:00",
       "venue": "Palais des Sports Jean-Michel Geoffroy, Dijon",
       "attendance": null
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Avtomobilist Yekaterinburg",
+      "away": "Barys Astana",
+      "score": null,
+      "date": "2026-12-01",
+      "time": "14:00",
+      "utc": "2026-12-01T14:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4902489"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "Lada Togliatti",
+      "away": "Traktor Chelyabinsk",
+      "score": null,
+      "date": "2026-12-01",
+      "time": "15:00",
+      "utc": "2026-12-01T15:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4902487"
+    },
+    {
+      "league": "khl-2026-27",
+      "home": "AK Bars",
+      "away": "Salavat Yulayev Ufa",
+      "score": null,
+      "date": "2026-12-01",
+      "time": "16:00",
+      "utc": "2026-12-01T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "365scores:4902488"
     },
     {
       "league": "liiga-2026-27",
