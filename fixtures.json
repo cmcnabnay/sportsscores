@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T01:05:54+00:00",
+  "updated": "2026-11-28T01:16:31+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9300,15 +9300,29 @@
       "Qualifiers · Second Round · Group E": {
         "rows": [
           {
-            "team": "United States",
-            "played": 8,
+            "team": "Brazil",
+            "played": 9,
             "win": 7,
             "draw": null,
-            "loss": 1,
-            "for": 796,
-            "against": 660,
-            "diff": 136,
-            "points": 15,
+            "loss": 2,
+            "for": 818,
+            "against": 713,
+            "diff": 105,
+            "points": 16,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "#BBF3BB"
+          },
+          {
+            "team": "United States",
+            "played": 9,
+            "win": 7,
+            "draw": null,
+            "loss": 2,
+            "for": 884,
+            "against": 752,
+            "diff": 132,
+            "points": 16,
             "try_bonus": null,
             "losing_bonus": null,
             "highlight": "#BBF3BB"
@@ -9322,20 +9336,6 @@
             "for": 728,
             "against": 628,
             "diff": 100,
-            "points": 14,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "#BBF3BB"
-          },
-          {
-            "team": "Brazil",
-            "played": 8,
-            "win": 6,
-            "draw": null,
-            "loss": 2,
-            "for": 726,
-            "against": 625,
-            "diff": 101,
             "points": 14,
             "try_bonus": null,
             "losing_bonus": null,
@@ -51820,7 +51820,7 @@
       "league": "fiba-wcq-americas-2027",
       "home": "Brazil",
       "away": "United States",
-      "score": null,
+      "score": "92-88",
       "date": "2026-11-27",
       "time": "20:10",
       "utc": "2026-11-27T23:10:00+00:00",
