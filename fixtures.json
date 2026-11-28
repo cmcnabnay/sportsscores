@@ -206,7 +206,7 @@
       "completed": false
     }
   },
-  "updated": "2026-11-28T04:09:19+00:00",
+  "updated": "2026-11-28T04:42:06+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -9356,20 +9356,6 @@
             "highlight": "#BBF3FF"
           },
           {
-            "team": "Chile",
-            "played": 9,
-            "win": 3,
-            "draw": null,
-            "loss": 6,
-            "for": 636,
-            "against": 717,
-            "diff": -81,
-            "points": 12,
-            "try_bonus": null,
-            "losing_bonus": null,
-            "highlight": "transparent"
-          },
-          {
             "team": "Colombia",
             "played": 9,
             "win": 3,
@@ -9378,6 +9364,20 @@
             "for": 733,
             "against": 854,
             "diff": -121,
+            "points": 12,
+            "try_bonus": null,
+            "losing_bonus": null,
+            "highlight": "transparent"
+          },
+          {
+            "team": "Chile",
+            "played": 9,
+            "win": 3,
+            "draw": null,
+            "loss": 6,
+            "for": 636,
+            "against": 717,
+            "diff": -81,
             "points": 12,
             "try_bonus": null,
             "losing_bonus": null,
@@ -51825,7 +51825,7 @@
       "time": "20:10",
       "utc": "2026-11-27T23:10:00+00:00",
       "venue": "Ginásio do Ibirapuera, São Paulo",
-      "attendance": null
+      "attendance": "10508"
     },
     {
       "league": "fiba-wcq-europe-2027",
