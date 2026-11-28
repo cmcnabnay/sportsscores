@@ -433,6 +433,28 @@ LEAGUES = {
         "sofascore_season_id": 98408,
         "standings": {"sofascore_tournament_id": 752, "sofascore_season_id": 98408},
     },
+    # World Rugby's top-tier sevens series: 9 two/three-day events, 29 Nov
+    # 2026 (Dubai) - 30 May 2027 (Bordeaux). SofaScore calls the 2026-27
+    # season "SVNS 2027" and adds each day's games only once that day's
+    # draw is set, so knockout games appear as the pools finish. Team names
+    # come as "Fiji 7s" etc. - "sevens": True maps them onto the plain
+    # national names teams.json already has flags for (see
+    # sevens_team_name). Standings are the series points table, which
+    # SofaScore only publishes once the first event has been played.
+    "svns-2027": {
+        "name": "SVNS 2026-27",
+        "sport": "rugby",
+        "parser": "sofascore",
+        "sevens": True,
+        "sofascore_tournament_id": 10055,  # "World Rugby Sevens World Series"
+        "sofascore_season_id": 107538,     # "SVNS 2027"
+        "standings": {"sofascore_tournament_id": 10055, "sofascore_season_id": 107538},
+    },
+    # SVNS 3 (third tier, one Dubai event 27-28 Nov 2026 alongside SVNS
+    # Dubai): SofaScore has the men's tour as unique-tournament 36222, but as of 2026-11-27 only the January 2026 edition (season
+    # 98756) exists there - no 2027 season yet, and 365Scores and Wikipedia
+    # carry no SVNS 3 games either. Add an "svns3-2027" entry here (same
+    # shape as svns-2027 above) once SofaScore creates the season.
     "rugby-europe-trophy-2026": {
         # Rugby Europe's second tier of national teams (below the
         # Championship), played November-April.
@@ -1490,7 +1512,25 @@ def fetch_sofascore_events(tournament_id, season_id):
     return list(events_by_id.values())
 
 
-def parse_sofascore_matches(events, league_key):
+# Sevens national-team names on SofaScore, once the " 7s" suffix is off,
+# that don't match the name teams.json files that country under.
+SEVENS_TEAM_NAMES = {
+    "USA": "United States",
+    "New Zealand All Blacks": "New Zealand",
+    "Hong Kong China": "Hong Kong",
+}
+
+
+def sevens_team_name(name):
+    """"Fiji 7s" -> "Fiji", "USA 7s" -> "United States": the same national
+    names (and so the same teams.json flags) the 15s internationals use."""
+    if not name:
+        return name
+    name = re.sub(r"\s+(?:7s|Sevens)$", "", name.strip(), flags=re.IGNORECASE)
+    return SEVENS_TEAM_NAMES.get(name, name)
+
+
+def parse_sofascore_matches(events, league_key, cfg=None):
     """Turn SofaScore events into this project's usual match dict shape.
     A score is only recorded once the game's status is "finished" - a live
     game's running score would otherwise be stored as if final, and
@@ -1506,8 +1546,11 @@ def parse_sofascore_matches(events, league_key):
     for e in events:
         if (e.get("status") or {}).get("type") in ("postponed", "canceled"):
             continue
-        home = canonicalize_team_name((e.get("homeTeam") or {}).get("name"))
-        away = canonicalize_team_name((e.get("awayTeam") or {}).get("name"))
+        home = (e.get("homeTeam") or {}).get("name")
+        away = (e.get("awayTeam") or {}).get("name")
+        if (cfg or {}).get("sevens"):
+            home, away = sevens_team_name(home), sevens_team_name(away)
+        home, away = canonicalize_team_name(home), canonicalize_team_name(away)
         if not home or not away:
             continue
 
@@ -6754,7 +6797,7 @@ def _fetch_and_parse_main(cfg, key, cached=None, now=None):
 
     if parser_type == "sofascore":
         events = fetch_sofascore_events(cfg["sofascore_tournament_id"], cfg["sofascore_season_id"])
-        return parse_sofascore_matches(events, key)
+        return parse_sofascore_matches(events, key, cfg)
 
     if parser_type == "scores365":
         games = fetch_scores365_games(
