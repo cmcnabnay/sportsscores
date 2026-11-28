@@ -204,9 +204,14 @@
       "name": "Rugby Europe Trophy 2026-27",
       "sport": "rugby",
       "completed": false
+    },
+    "svns-2027": {
+      "name": "SVNS 2026-27",
+      "sport": "rugby",
+      "completed": false
     }
   },
-  "updated": "2026-11-28T05:04:17+00:00",
+  "updated": "2026-11-28T05:12:39+00:00",
   "playoffs": {
     "cfl-2026": {
       "name": "CFL 2026 · Playoffs",
@@ -51851,6 +51856,78 @@
       "source_id": "365scores:4900561"
     },
     {
+      "league": "svns-2027",
+      "home": "Australia",
+      "away": "United States",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "07:30",
+      "utc": "2026-11-28T07:30:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429552"
+    },
+    {
+      "league": "svns-2027",
+      "home": "South Africa",
+      "away": "Argentina",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "07:52",
+      "utc": "2026-11-28T07:52:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429550"
+    },
+    {
+      "league": "svns-2027",
+      "home": "Spain",
+      "away": "France",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "08:14",
+      "utc": "2026-11-28T08:14:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429556"
+    },
+    {
+      "league": "svns-2027",
+      "home": "New Zealand",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "08:36",
+      "utc": "2026-11-28T08:36:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429555"
+    },
+    {
+      "league": "svns-2027",
+      "home": "Argentina",
+      "away": "United States",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "10:33",
+      "utc": "2026-11-28T10:33:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429551"
+    },
+    {
+      "league": "svns-2027",
+      "home": "South Africa",
+      "away": "Australia",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "10:55",
+      "utc": "2026-11-28T10:55:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429554"
+    },
+    {
       "league": "khl-2026-27",
       "home": "Traktor Chelyabinsk",
       "away": "Metallurg Magnitogorsk",
@@ -51861,6 +51938,30 @@
       "venue": null,
       "attendance": null,
       "source_id": "365scores:4900559"
+    },
+    {
+      "league": "svns-2027",
+      "home": "Fiji",
+      "away": "France",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "11:17",
+      "utc": "2026-11-28T11:17:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429547"
+    },
+    {
+      "league": "svns-2027",
+      "home": "New Zealand",
+      "away": "Spain",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "11:39",
+      "utc": "2026-11-28T11:39:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429546"
     },
     {
       "league": "nations-championship-2026",
@@ -52042,6 +52143,18 @@
       "source_id": "sofascore:16337461"
     },
     {
+      "league": "svns-2027",
+      "home": "Australia",
+      "away": "Argentina",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "15:16",
+      "utc": "2026-11-28T15:16:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429553"
+    },
+    {
       "league": "top14-2026",
       "home": "Racing 92",
       "away": "Pau",
@@ -52088,6 +52201,42 @@
       "venue": null,
       "attendance": null,
       "source_id": "sofascore:16534984"
+    },
+    {
+      "league": "svns-2027",
+      "home": "South Africa",
+      "away": "United States",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "15:38",
+      "utc": "2026-11-28T15:38:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429545"
+    },
+    {
+      "league": "svns-2027",
+      "home": "Spain",
+      "away": "Fiji",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "16:00",
+      "utc": "2026-11-28T16:00:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429548"
+    },
+    {
+      "league": "svns-2027",
+      "home": "New Zealand",
+      "away": "France",
+      "score": null,
+      "date": "2026-11-28",
+      "time": "16:22",
+      "utc": "2026-11-28T16:22:00+00:00",
+      "venue": null,
+      "attendance": null,
+      "source_id": "sofascore:17429549"
     },
     {
       "league": "nations-championship-2026",
